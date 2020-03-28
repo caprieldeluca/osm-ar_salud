@@ -39,7 +39,11 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   
   * [cmb-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/cmb-caba.geojson) es una copia del [dataset de Centros Médicos Barriales de CABA](https://data.buenosaires.gob.ar/dataset/centros-medicos-barriales).
   
-  * [es-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/es-caba.geojson) es una copia del [dataset de Estaciones Saludables de CABA](https://data.buenosaires.gob.ar/dataset/estaciones-saludables).
+  * [es-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/es-caba.geojson) es una copia del [dataset de Estaciones Saludables de CABA](https://data.buenosaires.gob.ar/dataset/estaciones-saludables).  
+  
+* Rosario (*Open Data Commons Attribution License (ODC-By) v1.0*)
+
+  * [geosalud-rosario.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/geosalud-rosario.geojson) es una conversión del [dataset de Hospitales y Centros de Salud de Rosario](https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud) a GeoJSON.
   
 ----
 
