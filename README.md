@@ -7,7 +7,7 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
 ## Fuentes de datos:
 
-* OSM (*[© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)*).
+* OSM (*[© OpenStreetMap contributors, Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF)](https://www.openstreetmap.org/copyright)*).
 
   * [hospitales-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-osm.geojson) es una actualización periódica de la [consulta de hospitales de overpass turbo](https://overpass-turbo.eu/s/S1i).
   
@@ -36,6 +36,8 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   * [farmacias-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-caba.geojson) es una conversión directa del [listado de Farmacias de CABA](https://data.buenosaires.gob.ar/dataset/farmacias) a GeoJSON.
 
   * [cesac-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/cesac-caba.geojson) es una copia del [dataset de Centros de Salud y Acción Comunitaria de CABA](https://data.buenosaires.gob.ar/dataset/centros-salud-accion-comunitaria-cesac).
+  
+  * [cmb-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/cmb-caba.geojson) es una copia del [dataset de Centros Médicos Barriales de CABA](https://data.buenosaires.gob.ar/dataset/centros-medicos-barriales).
   
 ----
 
