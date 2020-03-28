@@ -7,7 +7,7 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
 ## Fuentes de datos:
 
-* OSM ([© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)).
+* OSM (*[© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)*).
 
   * [hospitales-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-osm.geojson) es una actualización periódica de la [consulta de hospitales de overpass turbo](https://overpass-turbo.eu/s/S1i).
   
@@ -19,17 +19,17 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   
   * [doctores-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/doctores-osm.geojson) es una actualización periódica de la [consulta de doctores de overpass turbo](https://overpass-turbo.eu/s/S1y).
 
-* SEDRONAR (Public Domain (PD))
+* SEDRONAR (*Public Domain (PD)*)
 
   * [hospitales-sedronar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es una conversión directa de la [capa de Hospitales Públicos de la IDE Sedronar](http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa) a GeoJSON.
   
-* PAMI (Creative Commons Attribution 4.0)
+* PAMI (*Creative Commons Attribution 4.0*)
 
   * [hospitales-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/db3fa1ed-4fa9-4e04-9708-9d38472d1d13/archivo/d9292d5f-8713-416b-a2a5-e54d13543331).
 
 * CABA
 
-  * [centros-salud-privados-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/centros-salud-privados-caba.geojson) es una conversión directa de la [capa de Centros de Salud Privados de CABA](https://data.buenosaires.gob.ar/dataset/centros-salud-privados) (Atribucion 2.5 Argentina (CC BY 2.5 AR) a GeoJSON.
+  * [centros-salud-privados-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/centros-salud-privados-caba.geojson) es una conversión directa de la [capa de Centros de Salud Privados de CABA](https://data.buenosaires.gob.ar/dataset/centros-salud-privados) (*Atribucion 2.5 Argentina (CC BY 2.5 AR)*) a GeoJSON.
 
 ----
 
