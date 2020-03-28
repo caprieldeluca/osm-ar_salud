@@ -1,8 +1,34 @@
 # covid-19
-Soporte de datos al proyecto de mapeo de OpenStreetMap: [Argentina/COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19)
-
-Los datos son tomados de la base de datos OSM (© OpenStreetMap contributors).
-
-Datos actualizados al: 27/Marzo/2020.
+Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [Argentina/COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19).
 
 [Ir al mapa](http://umap.openstreetmap.fr/en/map/argentinacovid-19_437045)
+
+----
+
+## Fuentes de datos:
+
+* OSM ([© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)).
+
+  * [hospitales-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-osm.geojson) es una actualización periódica de la [consulta de hospitales de overpass turbo](https://overpass-turbo.eu/s/S1i).
+  
+  * [clinicas-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/clinicas-osm.geojson) es una actualización periódica de la [consulta de clínicas de overpass turbo](https://overpass-turbo.eu/s/S1o).
+  
+  * [farmacias-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-osm.geojson) es una actualización periódica de la [consulta de farmacias de overpass turbo](https://overpass-turbo.eu/s/S1b).
+
+  * [droguerias-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/droguerias-osm.geojson) es una actualización periódica de la [consulta de droguerías de overpass turbo](https://overpass-turbo.eu/s/S1a).
+  
+  * [doctores-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/doctores-osm.geojson) es una actualización periódica de la [consulta de doctores de overpass turbo](https://overpass-turbo.eu/s/S1y).
+
+* SEDRONAR (Public Domain (PD))
+
+  * [hospitales-sedronar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es una conversión directa de la [capa de Hospitales Públicos de la IDE Sedronar](http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa) a GeoJSON.
+  
+* PAMI (Creative Commons Attribution 4.0)
+
+  * [hospitales-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/db3fa1ed-4fa9-4e04-9708-9d38472d1d13/archivo/d9292d5f-8713-416b-a2a5-e54d13543331).
+
+----
+
+Última actualización: 28/Marzo/2020.
+
+
