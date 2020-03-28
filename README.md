@@ -27,6 +27,10 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
   * [hospitales-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/db3fa1ed-4fa9-4e04-9708-9d38472d1d13/archivo/d9292d5f-8713-416b-a2a5-e54d13543331).
 
+* CABA
+
+  * [centros-salud-privados-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/centros-salud-privados-caba.geojson) es una conversión directa de la [capa de Centros de Salud Privados de CABA](https://data.buenosaires.gob.ar/dataset/centros-salud-privados) (Atribucion 2.5 Argentina (CC BY 2.5 AR) a GeoJSON.
+
 ----
 
 Última actualización: 28/Marzo/2020.
