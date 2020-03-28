@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-28T15:47:02Z",
+  "timestamp": "2020-03-28T19:00:01Z",
   "features": [
     {
       "type": "Feature",
@@ -636,10 +636,12 @@
         "building": "hospital",
         "building:levels": "1",
         "contact:phone": "+54 341 480-7689",
-        "healthcare": "doctor",
+        "healthcare": "clinic",
         "name": "Centro de Salud José Ugarte",
         "official_name": "Centro de Salud \"Licenciado José Raúl Ugarte\"",
-        "operator:type": "public"
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Polygon",
@@ -718,6 +720,114 @@
         ]
       },
       "id": "way/187865086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/188753318",
+        "addr:housenumber": "2265",
+        "addr:street": "Juan de Dios Mena",
+        "amenity": "clinic",
+        "building": "hospital",
+        "contact:phone": "+54 341 480-6635",
+        "healthcare": "clinic",
+        "name": "Centro de Salud 1° de Mayo",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.7131066,
+              -32.8879316
+            ],
+            [
+              -60.7131071,
+              -32.8881592
+            ],
+            [
+              -60.7130678,
+              -32.8881592
+            ],
+            [
+              -60.7130679,
+              -32.8881828
+            ],
+            [
+              -60.7129471,
+              -32.888183
+            ],
+            [
+              -60.7129472,
+              -32.8882064
+            ],
+            [
+              -60.7127674,
+              -32.8882067
+            ],
+            [
+              -60.7127671,
+              -32.888078
+            ],
+            [
+              -60.7127192,
+              -32.8880781
+            ],
+            [
+              -60.712719,
+              -32.8880015
+            ],
+            [
+              -60.7126762,
+              -32.8880015
+            ],
+            [
+              -60.712676,
+              -32.8879128
+            ],
+            [
+              -60.7129002,
+              -32.8879124
+            ],
+            [
+              -60.7129004,
+              -32.8879938
+            ],
+            [
+              -60.7129271,
+              -32.8879937
+            ],
+            [
+              -60.7129272,
+              -32.8880489
+            ],
+            [
+              -60.7129821,
+              -32.8880488
+            ],
+            [
+              -60.7129819,
+              -32.8879578
+            ],
+            [
+              -60.7130454,
+              -32.8879577
+            ],
+            [
+              -60.7130453,
+              -32.8879317
+            ],
+            [
+              -60.7131066,
+              -32.8879316
+            ]
+          ]
+        ]
+      },
+      "id": "way/188753318"
     },
     {
       "type": "Feature",
@@ -3768,7 +3878,10 @@
         "amenity": "clinic",
         "contact:phone": "+54 341 480-9778",
         "healthcare": "clinic",
-        "name": "Centro de Salud Luis Pasteur"
+        "name": "Centro de Salud Luis Pasteur",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Polygon",
@@ -6049,6 +6162,68 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/440484129",
+        "addr:housenumber": "1087 bis",
+        "addr:postcode": "S2006",
+        "addr:street": "Rosendo María Fraga",
+        "addr:suburb": "Empalme Graneros",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-4815",
+        "description": "Centro de Información del Plan Integral de Prevención (Municipal), para asesorar a los vecinos cómo proceder en caso de ser afectados por fenómenos como el denominado El Niño.",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Juana Azurduy",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.7116632,
+              -32.9161144
+            ],
+            [
+              -60.7117346,
+              -32.9160773
+            ],
+            [
+              -60.7121799,
+              -32.9160897
+            ],
+            [
+              -60.7122356,
+              -32.9161414
+            ],
+            [
+              -60.7122327,
+              -32.9162664
+            ],
+            [
+              -60.7121704,
+              -32.9162654
+            ],
+            [
+              -60.7116948,
+              -32.9162577
+            ],
+            [
+              -60.7116599,
+              -32.9162571
+            ],
+            [
+              -60.7116632,
+              -32.9161144
+            ]
+          ]
+        ]
+      },
+      "id": "way/440484129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/444211183",
         "addr:city": "Zárate",
         "addr:housenumber": "1122",
@@ -6140,6 +6315,61 @@
         ]
       },
       "id": "way/450677210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451342908",
+        "addr:housenumber": "7760",
+        "addr:street": "Punta del Indio",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9765",
+        "healthcare": "clinic",
+        "name": "San Vicente de Paul",
+        "official_name": "Centro de Salud San Vicente de Paul",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.6875275,
+              -33.028276
+            ],
+            [
+              -60.6873038,
+              -33.0282711
+            ],
+            [
+              -60.6873134,
+              -33.0279666
+            ],
+            [
+              -60.6873174,
+              -33.0278388
+            ],
+            [
+              -60.6875411,
+              -33.0278438
+            ],
+            [
+              -60.6875371,
+              -33.0279714
+            ],
+            [
+              -60.6875318,
+              -33.0281391
+            ],
+            [
+              -60.6875275,
+              -33.028276
+            ]
+          ]
+        ]
+      },
+      "id": "way/451342908"
     },
     {
       "type": "Feature",
@@ -16601,7 +16831,11 @@
         "contact:facebook": "https://fb.com/Centro-de-Salud-Jean-Henry-Dunant-836964463017090/",
         "contact:phone": "+54 341 480-7808",
         "contact:website": "http://www.rosario.gov.ar/sitio/lugaresVisual/verLugar.do?id=1189",
+        "healthcare": "clinic",
         "name": "Centro de Salud Jean Henry Dunant",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
         "start_date": "09/07/1951"
       },
       "geometry": {
@@ -24901,6 +25135,52 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/785390144",
+        "addr:housenumber": "2502",
+        "addr:street": "José Garibaldi",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Itatí",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.6682728,
+              -32.9820473
+            ],
+            [
+              -60.6681199,
+              -32.9823071
+            ],
+            [
+              -60.6674521,
+              -32.9824286
+            ],
+            [
+              -60.6673448,
+              -32.9819955
+            ],
+            [
+              -60.6677525,
+              -32.982036
+            ],
+            [
+              -60.6682728,
+              -32.9820473
+            ]
+          ]
+        ]
+      },
+      "id": "way/785390144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/420034699",
         "addr:city": "San Isidro",
         "addr:postcode": "4707",
@@ -29212,30 +29492,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3634545807",
-        "addr:housenumber": "3034",
-        "addr:postcode": "S2002",
-        "addr:street": "San Juan",
-        "amenity": "clinic",
-        "building": "hospital",
-        "contact:phone": "+54 341 410-7000",
-        "contact:website": "http://www.sanatoriolosalerces.com/",
-        "healthcare": "clinic",
-        "name": "Sanatorio Los Alerces",
-        "opening_hours": "24/7"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.6654454,
-          -32.9453058
-        ]
-      },
-      "id": "node/3634545807"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3634680159",
         "amenity": "clinic",
         "name": "SALA DE PRIMEROS AUXILIOS \"SAN MANUEL\""
@@ -29523,6 +29779,33 @@
         ]
       },
       "id": "node/3731157061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733660608",
+        "addr:housenumber": "150 bis",
+        "addr:postcode": "S2007",
+        "addr:street": "Avenida Provincias Unidas",
+        "alt_name": "Centro Municipal de Salud Distrito Noroeste",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7680 (int 377)",
+        "contact:website": "http://www.rosario.gov.ar/web/ciudad/distritos/distrito-noroeste/centro-municipal-de-distrito-noroeste-olga-y-leticia-cossettini",
+        "emergency": "yes",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Doctora Débora Ferrandini",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7121559,
+          -32.9278178
+        ]
+      },
+      "id": "node/3733660608"
     },
     {
       "type": "Feature",
@@ -30910,6 +31193,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4090092025",
+        "addr:housenumber": "5103",
+        "addr:postcode": "S2009",
+        "addr:street": "Cochabamba",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7847",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;gynaecology;paediatrics;nursing;obstetrics",
+        "name": "Centro de Salud Doctor Esteban Maradona",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6935919,
+          -32.9494341
+        ]
+      },
+      "id": "node/4090092025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4093296966",
         "addr:housenumber": "5150",
         "addr:postcode": "S2011",
@@ -30921,7 +31229,8 @@
         "healthcare:speciality": "general;gynaecology;paediatrics",
         "name": "Centro de Salud El Mangrullo",
         "operator": "Municipalidad de Rosario",
-        "operator:type": "public"
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
@@ -31407,6 +31716,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4113060262",
+        "addr:housenumber": "3498",
+        "addr:postcode": "S2005",
+        "addr:street": "Floduardo Grandoli",
+        "alt_name": "Centro de Salud Nuevo Alberdi",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-6636",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Doctor Salvador Mazza",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7338838,
+          -32.8872557
+        ]
+      },
+      "id": "node/4113060262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4115403331",
         "addr:housenumber": "149",
         "addr:postcode": "5152",
@@ -31767,13 +32101,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4197473851",
-        "addr:housenumber": "9",
+        "addr:housenumber": "9 bis",
         "addr:street": "Sánchez de Thomson",
         "amenity": "clinic",
         "contact:phone": "+54 341 480-9190",
         "healthcare": "clinic",
         "name": "Centro de Salud Rubén Naranjo",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
@@ -35801,20 +36137,47 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4692942950",
+        "addr:housenumber": "6600",
+        "addr:postcode": "S2011",
+        "addr:street": "Bulevar Nicolás Avellaneda",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9524",
+        "description": "Establecimiento de salud sin internación de diagnóstico y tratamiento. Con atención médica general por lo menos 3 días de la semana.",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Tío Rolo",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6895535,
+          -33.0151663
+        ]
+      },
+      "id": "node/4692942950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4692942951",
         "addr:housenumber": "6983",
         "addr:street": "Flor de Nacar",
         "amenity": "clinic",
         "contact:phone": "+54 341 480-9772",
         "healthcare": "clinic",
-        "name": "Las Flores",
-        "operator:type": "public"
+        "name": "Centro de Salud Las Flores",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.660382,
-          -33.018063
+          -60.660361,
+          -33.018489
         ]
       },
       "id": "node/4692942951"
@@ -35828,9 +36191,11 @@
         "amenity": "clinic",
         "contact:phone": "+54 341 480-9760",
         "healthcare": "clinic",
-        "name": "Centro de Salud Doctor Julio Maiztegui",
+        "name": "Centro de Salud Maiztegui",
+        "official_name": "Centro de Salud Doctor Julio Maiztegui",
+        "operator": "Municipio de Rosario",
         "operator:type": "public",
-        "short_name": "Centro de Salud Maiztegui"
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
@@ -35865,13 +36230,39 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4692942956",
+        "addr:housenumber": "8590",
+        "addr:street": "José Ingenieros",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7842",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Ceferino Namuncurá",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "short_name": "Centro Namuncurá",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.748875,
+          -32.917898
+        ]
+      },
+      "id": "node/4692942956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4692942958",
         "addr:housenumber": "3040",
-        "addr:street": "Calle 1333",
+        "addr:street": "Domingo Candia",
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Centro de Salud Alicia Moreau de Justo",
-        "operator:type": "public"
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
@@ -39761,6 +40152,74 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5540925641",
+        "addr:housenumber": "1205",
+        "addr:street": "Luis Braille",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-6637",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal La Florida",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7006637,
+          -32.8831105
+        ]
+      },
+      "id": "node/5540925641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925642",
+        "addr:housenumber": "5323",
+        "addr:street": "V. Deliot",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-5859",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Julio Argentino Roca",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.694916,
+          -32.975087
+        ]
+      },
+      "id": "node/5540925642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925644",
+        "addr:housenumber": "929 bis",
+        "addr:street": "Burucuyá",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal Antonio Paravano",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.714811,
+          -32.918191
+        ]
+      },
+      "id": "node/5540925644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5540925645",
         "addr:housenumber": "5115",
         "addr:street": "Reverendo José Margis",
@@ -39768,16 +40227,63 @@
         "contact:phone": "+54 341 480-9766",
         "healthcare": "clinic",
         "name": "Centro de Salud 20 de Junio",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.6575353,
-          -32.9975185
+          -60.6575581,
+          -32.9975646
         ]
       },
       "id": "node/5540925645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925646",
+        "addr:housenumber": "2083",
+        "addr:street": "Juan Bautista Justo",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-4657",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Juan B. Justo",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69352,
+          -32.914465
+        ]
+      },
+      "id": "node/5540925646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925648",
+        "addr:housenumber": "2308",
+        "addr:street": "Rosendo María Fraga",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal Juan Pablo II",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7098058,
+          -32.9558643
+        ]
+      },
+      "id": "node/5540925648"
     },
     {
       "type": "Feature",
@@ -39810,16 +40316,86 @@
         "contact:phone": "+54 341 480-9196",
         "healthcare": "clinic",
         "name": "Centro de Salud Vecinal Parque Sur",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.66862,
-          -33.000026
+          -60.6687917,
+          -33.0000091
         ]
       },
       "id": "node/5540925652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925654",
+        "addr:housenumber": "4320",
+        "addr:street": "Tareguec",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-5620",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Barrio Toba",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.701456,
+          -32.979988
+        ]
+      },
+      "id": "node/5540925654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925655",
+        "addr:housenumber": "3935",
+        "addr:street": "Aaron Castellanos",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-5648",
+        "healthcare": "clinic",
+        "name": "Centro de Salud San Marcelino Champagnat",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.684153,
+          -32.976325
+        ]
+      },
+      "id": "node/5540925655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925656",
+        "addr:housenumber": "645 bis",
+        "addr:street": "Ecuador",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal Ángel Invaldi",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7160119,
+          -32.921207
+        ]
+      },
+      "id": "node/5540925656"
     },
     {
       "type": "Feature",
@@ -39831,7 +40407,9 @@
         "contact:phone": "+54 341 480-9769",
         "healthcare": "clinic",
         "name": "Centro de Salud Vecinal Domingo Matheu",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
@@ -39845,6 +40423,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5540925658",
+        "addr:housenumber": "7900",
+        "addr:street": "Urdinarrain",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7804",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Emaús",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.732874,
+          -32.916877
+        ]
+      },
+      "id": "node/5540925658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5540925659",
         "addr:housenumber": "4435",
         "addr:street": "Avenida Francia",
@@ -39852,7 +40453,9 @@
         "contact:phone": "+54 341 480-9195",
         "healthcare": "clinic",
         "name": "Centro de Salud Santa Teresita",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
@@ -39887,6 +40490,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5540925662",
+        "addr:housenumber": "6552",
+        "addr:street": "Bulevar Juan Francisco Seguí",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7697",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Luchemos por la vida",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7100354,
+          -32.9707788
+        ]
+      },
+      "id": "node/5540925662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5540925663",
         "addr:housenumber": "1469",
         "addr:street": "Piedras",
@@ -39894,16 +40520,109 @@
         "contact:phone": "+54 341 480-9521",
         "healthcare": "clinic",
         "name": "Centro de Salud Vecinal San Martín A",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.654084,
-          -33.007179
+          -60.654082,
+          -33.007224
         ]
       },
       "id": "node/5540925663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925665",
+        "addr:housenumber": "7501",
+        "addr:street": "Avenida Doctor Rivarola",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7845",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Santa María Josefa Rossello",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7216155,
+          -32.9662338
+        ]
+      },
+      "id": "node/5540925665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925666",
+        "addr:housenumber": "5779",
+        "addr:street": "Ocampo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal Villa Urquiza",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7012183,
+          -32.9579056
+        ]
+      },
+      "id": "node/5540925666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925669",
+        "addr:housenumber": "7691",
+        "addr:street": "Calle 1739",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7841",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Santa Lucía",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7263195,
+          -32.9554596
+        ]
+      },
+      "id": "node/5540925669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925670",
+        "addr:housenumber": "2717",
+        "addr:street": "Madre Cabrini",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9197",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Elena Bazzet",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.671392,
+          -33.00581
+        ]
+      },
+      "id": "node/5540925670"
     },
     {
       "type": "Feature",
@@ -39929,6 +40648,122 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5540925673",
+        "addr:housenumber": "1684",
+        "addr:street": "Junín",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 439-3937",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal Amor al Estudio",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6872819,
+          -32.9266509
+        ]
+      },
+      "id": "node/5540925673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925674",
+        "addr:housenumber": "3307",
+        "addr:street": "Gregorio Aráoz de Lamadrid",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9768",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Enfermero Ariel E. Morandi",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.680896,
+          -32.998156
+        ]
+      },
+      "id": "node/5540925674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925675",
+        "addr:housenumber": "2033",
+        "addr:street": "Humberto Primero",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-4819",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Doctor Roque Coulin",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6917812,
+          -32.9300175
+        ]
+      },
+      "id": "node/5540925675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925676",
+        "addr:housenumber": "5305",
+        "addr:street": "Bulevar Juan Francisco Seguí",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-5625",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Mauricio Casal",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6949334,
+          -32.9707871
+        ]
+      },
+      "id": "node/5540925676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925677",
+        "addr:housenumber": "4540",
+        "addr:street": "Avenida Presidente Perón",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-5647",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Doctor David Staffieri",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6903171,
+          -32.9581611
+        ]
+      },
+      "id": "node/5540925677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5540925678",
         "addr:housenumber": "2732",
         "addr:street": "Luis Beruti",
@@ -39950,6 +40785,52 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5540925679",
+        "addr:housenumber": "6300",
+        "addr:street": "Avenida Ayacucho",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9771",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Sur",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6355646,
+          -33.0096565
+        ]
+      },
+      "id": "node/5540925679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925682",
+        "addr:housenumber": "5490",
+        "addr:street": "Avenida Juan José Paso",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 438-8990",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Vecinal Víctor Cué",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6986783,
+          -32.9196958
+        ]
+      },
+      "id": "node/5540925682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5540925683",
         "addr:housenumber": "1397",
         "addr:street": "Khantuta",
@@ -39957,16 +40838,89 @@
         "contact:phone": "+54 341 480-9767",
         "healthcare": "clinic",
         "name": "Centro de Salud Vecinal Las Flores Este",
-        "operator": "Municipalidad de Rosario"
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.653298,
-          -33.0121035
+          -60.6529895,
+          -33.012234
         ]
       },
       "id": "node/5540925683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925686",
+        "addr:housenumber": "5625",
+        "addr:street": "Bulevar Nicolás Avellaneda",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9779",
+        "healthcare": "clinic",
+        "name": "Centro de Salud El Gaucho",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.688676,
+          -33.003463
+        ]
+      },
+      "id": "node/5540925686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925688",
+        "addr:housenumber": "2095",
+        "addr:street": "Alfredo Rouillón",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-7844",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Eva Duarte",
+        "operator": "Municipalidad de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7015294,
+          -32.952899
+        ]
+      },
+      "id": "node/5540925688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540925689",
+        "addr:housenumber": "2020",
+        "addr:postcode": "S2000",
+        "addr:street": "San Luis",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-2188",
+        "healthcare": "clinic",
+        "level": "5,6",
+        "name": "Maternidad Martin",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6514201,
+          -32.9464568
+        ]
+      },
+      "id": "node/5540925689"
     },
     {
       "type": "Feature",
@@ -43752,6 +44706,105 @@
         ]
       },
       "id": "node/7320655694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7340840682",
+        "addr:housenumber": "1940",
+        "addr:street": "Francia",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/SaludAnimalRosario/",
+        "contact:phone": "+54 341 480-5463; +54 341 431-4048",
+        "contact:website": "https://www.rosario.gob.ar/web/servicios/salud-animal/esterilizacion-de-perros-y-gatos#turnos",
+        "healthcare": "clinic",
+        "name": "Instituto Municipal de Salud Animal",
+        "opening_hours": "Mo-Fr 08:00-18:00 open \"Adopción, sólo con DNI y consultorios por orden de llegada. Vacunación y desparasitación, sin turno previo. Esterilización, pedir turno\"",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "short_name": "ImuSA",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6693603,
+          -32.9550993
+        ]
+      },
+      "id": "node/7340840682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7340843685",
+        "addr:housenumber": "370",
+        "addr:street": "Lavalle General Juan",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-4166",
+        "contact:website": "http://www.lemrosario.com.ar",
+        "healthcare": "laboratory",
+        "name": "Laboratorio de Especialidades Medicinales",
+        "opening_hours": "Mo-Fr 09:00-13:00",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "short_name": "LEM",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6767144,
+          -32.93431
+        ]
+      },
+      "id": "node/7340843685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7340843686",
+        "addr:housenumber": "6386",
+        "addr:street": "Melian José",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-9529",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Pocho Lepratti",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.65946,
+          -33.011005
+        ]
+      },
+      "id": "node/7340843686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7340843687",
+        "addr:housenumber": "970",
+        "addr:street": "Casas Casiano",
+        "amenity": "clinic",
+        "contact:phone": "+54 341 480-6631",
+        "healthcare": "clinic",
+        "name": "Centro de Salud Casiano Casas",
+        "operator": "Municipio de Rosario",
+        "operator:type": "public",
+        "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6961725,
+          -32.9064723
+        ]
+      },
+      "id": "node/7340843687"
     }
   ]
 }

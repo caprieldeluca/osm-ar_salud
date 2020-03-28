@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-28T14:58:02Z",
+  "timestamp": "2020-03-28T19:05:02Z",
   "features": [
     {
       "type": "Feature",
@@ -526,6 +526,7 @@
         "amenity": "doctors",
         "building": "yes",
         "emergency": "no",
+        "healthcare": "doctor",
         "name": "Consultorios Externos y Laboratorio",
         "wheelchair": "yes"
       },
@@ -7005,6 +7006,175 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/785370613",
+        "addr:housenumber": "1180",
+        "addr:street": "Tripulantes del Namuncurá",
+        "amenity": "doctors",
+        "name": "Centro de Salud Cantrachof"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.9476999,
+              -40.7407124
+            ],
+            [
+              -64.9476999,
+              -40.7408009
+            ],
+            [
+              -64.9473638,
+              -40.7408009
+            ],
+            [
+              -64.9473638,
+              -40.740617
+            ],
+            [
+              -64.9476999,
+              -40.740617
+            ],
+            [
+              -64.9476999,
+              -40.7407124
+            ]
+          ]
+        ]
+      },
+      "id": "way/785370613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785372135",
+        "amenity": "doctors",
+        "name": "Sala de primeros auxilios"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.7890274,
+              -38.3534769
+            ],
+            [
+              -68.7890106,
+              -38.3535076
+            ],
+            [
+              -68.7888303,
+              -38.3535444
+            ],
+            [
+              -68.7887733,
+              -38.3533541
+            ],
+            [
+              -68.7889959,
+              -38.3532994
+            ],
+            [
+              -68.7890455,
+              -38.3534477
+            ],
+            [
+              -68.7890274,
+              -38.3534769
+            ]
+          ]
+        ]
+      },
+      "id": "way/785372135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785376307",
+        "addr:city": "Las Lajas",
+        "addr:postcode": "8347",
+        "addr:street": "Calle urbana",
+        "amenity": "doctors",
+        "name": "Puesto Sanitario La Buitrera"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.3724022,
+              -38.5553991
+            ],
+            [
+              -70.3724017,
+              -38.5557504
+            ],
+            [
+              -70.3715542,
+              -38.5557839
+            ],
+            [
+              -70.3715623,
+              -38.5550016
+            ],
+            [
+              -70.3724072,
+              -38.554968
+            ],
+            [
+              -70.3724022,
+              -38.5553991
+            ]
+          ]
+        ]
+      },
+      "id": "way/785376307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785383229",
+        "amenity": "doctors",
+        "name": "Unidad Sanitaria de Chiclana"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.7441907,
+              -35.7323689
+            ],
+            [
+              -61.7443489,
+              -35.7324041
+            ],
+            [
+              -61.7442343,
+              -35.7327439
+            ],
+            [
+              -61.7438247,
+              -35.7326529
+            ],
+            [
+              -61.7439394,
+              -35.732313
+            ],
+            [
+              -61.7441907,
+              -35.7323689
+            ]
+          ]
+        ]
+      },
+      "id": "way/785383229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/427988926",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -9222,23 +9392,6 @@
         ]
       },
       "id": "node/3100409231"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3108330623",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Fundación Hospitalaria Materno Infantil"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4774206,
-          -34.5425622
-        ]
-      },
-      "id": "node/3108330623"
     },
     {
       "type": "Feature",
