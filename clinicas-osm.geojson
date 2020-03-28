@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-28T19:00:01Z",
+  "timestamp": "2020-03-28T23:08:02Z",
   "features": [
     {
       "type": "Feature",
@@ -16360,67 +16360,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/485052082",
-        "amenity": "clinic",
-        "building": "yes",
-        "healthcare": "clinic"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -63.2159842,
-              -32.4074022
-            ],
-            [
-              -63.2160708,
-              -32.407403
-            ],
-            [
-              -63.21607,
-              -32.4074674
-            ],
-            [
-              -63.2161027,
-              -32.4074677
-            ],
-            [
-              -63.2161023,
-              -32.4075
-            ],
-            [
-              -63.216082,
-              -32.4074998
-            ],
-            [
-              -63.2160815,
-              -32.4075403
-            ],
-            [
-              -63.21599,
-              -32.4075394
-            ],
-            [
-              -63.2159905,
-              -32.4075026
-            ],
-            [
-              -63.2159829,
-              -32.4075025
-            ],
-            [
-              -63.2159842,
-              -32.4074022
-            ]
-          ]
-        ]
-      },
-      "id": "way/485052082"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/491840061",
         "addr:city": "Fátima",
         "addr:housenumber": "334",
@@ -20647,6 +20586,52 @@
         ]
       },
       "id": "way/567214740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/567517650",
+        "addr:city": "Wanda",
+        "addr:street": "Avenida San Martín",
+        "amenity": "clinic",
+        "amenity_1": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Sanatorio Rolon Vargas",
+        "phone": "+54  3757 470657"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.5643403,
+              -25.9728787
+            ],
+            [
+              -54.5642095,
+              -25.9728647
+            ],
+            [
+              -54.5640846,
+              -25.9727492
+            ],
+            [
+              -54.5642923,
+              -25.9726165
+            ],
+            [
+              -54.5644063,
+              -25.9726391
+            ],
+            [
+              -54.5643403,
+              -25.9728787
+            ]
+          ]
+        ]
+      },
+      "id": "way/567517650"
     },
     {
       "type": "Feature",
@@ -25181,6 +25166,52 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/785415306",
+        "addr:city": "Santa Fe",
+        "addr:postcode": "S3000",
+        "addr:street": "9 de Julio",
+        "amenity": "clinic",
+        "building": "yes",
+        "health_specialty:diagnostic_radiology": "yes",
+        "medical_system:western": "yes",
+        "name": "Diagnóstico por Imágenes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.7066315,
+              -31.6378186
+            ],
+            [
+              -60.7066529,
+              -31.6378831
+            ],
+            [
+              -60.7062709,
+              -31.6379752
+            ],
+            [
+              -60.7062357,
+              -31.6378695
+            ],
+            [
+              -60.7066178,
+              -31.6377774
+            ],
+            [
+              -60.7066315,
+              -31.6378186
+            ]
+          ]
+        ]
+      },
+      "id": "way/785415306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/420034699",
         "addr:city": "San Isidro",
         "addr:postcode": "4707",
@@ -25555,13 +25586,14 @@
         "addr:street": "Avenida de Las Américas",
         "amenity": "clinic",
         "emergency": "no",
+        "healthcare": "clinic",
         "name": "Puesto de Salud"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.9588822,
-          -26.818902
+          -54.9588114,
+          -26.8189482
         ]
       },
       "id": "node/1613140810"
@@ -30386,9 +30418,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3822064531",
+        "addr:city": "Las Varillas",
+        "addr:housenumber": "138",
+        "addr:postcode": "5940",
+        "addr:street": "Belgrano",
         "amenity": "clinic",
+        "email": "spolicli@lasvarinet.com",
         "healthcare": "clinic",
-        "name": "Sanatorio Policlínico"
+        "name": "Sanatorio Policlínico",
+        "official_name": "SP Sanatorio Policlinico SA",
+        "phone": "+54 3533 420875",
+        "website": "http://policlinicolasvarillas.com.ar/"
       },
       "geometry": {
         "type": "Point",
@@ -44805,6 +44845,26 @@
         ]
       },
       "id": "node/7340843687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7341514981",
+        "addr:city": "Wanda",
+        "addr:street": "Primero de Julio",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Wanda",
+        "phone": "+54  3757 470084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5649028,
+          -25.9732425
+        ]
+      },
+      "id": "node/7341514981"
     }
   ]
 }
