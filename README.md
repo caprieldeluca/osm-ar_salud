@@ -17,7 +17,7 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
   * [droguerias-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/droguerias-osm.geojson) es una actualización periódica de la [consulta de droguerías de overpass turbo](https://overpass-turbo.eu/s/S1a).
   
-  * [doctores-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/doctores-osm.geojson) es una actualización periódica de la [consulta de doctores de overpass turbo](https://overpass-turbo.eu/s/S19).
+  * [doctores-osm.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/doctores-osm.geojson) es una actualización periódica de la [consulta de doctores de overpass turbo](https://overpass-turbo.eu/s/S1y).
 
 * SEDRONAR (Public Domain (PD))
 
