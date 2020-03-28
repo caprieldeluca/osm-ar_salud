@@ -39,6 +39,8 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   
   * [cmb-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/cmb-caba.geojson) es una copia del [dataset de Centros Médicos Barriales de CABA](https://data.buenosaires.gob.ar/dataset/centros-medicos-barriales).
   
+  * [es-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/es-caba.geojson) es una copia del [dataset de Estaciones Saludables de CABA](https://data.buenosaires.gob.ar/dataset/estaciones-saludables).
+  
 ----
 
 Última actualización: 28/Marzo/2020.
