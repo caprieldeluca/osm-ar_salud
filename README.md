@@ -32,6 +32,8 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   * [centros-salud-privados-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/centros-salud-privados-caba.geojson) es una conversión directa de la [capa de Centros de Salud Privados de CABA](https://data.buenosaires.gob.ar/dataset/centros-salud-privados) a GeoJSON.
   
   * [hospitales-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-caba.geojson) es una copia del mismo archivo publicado en el [dataset de Hospitales de CABA](https://data.buenosaires.gob.ar/dataset/hospitales).
+  
+  * [farmacias-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-caba.geojsonn) es una conversión directa del [listado de Farmacias de CABA](https://data.buenosaires.gob.ar/dataset/farmacias) a GeoJSON.
 
 ----
 
