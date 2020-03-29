@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-28T23:09:02Z",
+  "timestamp": "2020-03-29T03:00:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1410,24 +1410,24 @@
         "coordinates": [
           [
             [
-              -62.1080919,
-              -32.6892363
+              -62.1082072,
+              -32.689207
             ],
             [
-              -62.1081161,
-              -32.6893273
+              -62.1082314,
+              -32.689298
             ],
             [
-              -62.1080448,
-              -32.6893407
+              -62.1081601,
+              -32.6893114
             ],
             [
-              -62.1080206,
-              -32.6892497
+              -62.1081359,
+              -32.6892204
             ],
             [
-              -62.1080919,
-              -32.6892363
+              -62.1082072,
+              -32.689207
             ]
           ]
         ]
@@ -42910,8 +42910,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2110717810",
+        "addr:city": "Puerto Esperanza",
+        "addr:full": "Avenida 25 de Mayo y Buenos Aires",
+        "addr:postcode": "3378",
+        "addr:street": "Avenida 25 de Mayo",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Esperanza"
       },
       "geometry": {
         "type": "Point",
@@ -118734,14 +118739,14 @@
         "addr:street": "30 - General Martín Miguel de Güemes",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Pizarra I",
+        "name": "Pizarra",
         "phone": "+54 2323 424481"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.1036572,
-          -34.5721083
+          -59.1036183,
+          -34.5720001
         ]
       },
       "id": "node/6786762116"
@@ -125150,6 +125155,113 @@
         ]
       },
       "id": "node/7341631085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7341661080",
+        "addr:city": "Leandro. N. Alem",
+        "addr:housenumber": "55",
+        "addr:street": "Avenida Rusia",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-Libertad-665420057187935/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Libertad",
+        "phone": "+54 3754 15413556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3196028,
+          -27.5673458
+        ]
+      },
+      "id": "node/7341661080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7341806421",
+        "addr:housenumber": "1802",
+        "addr:street": "15 - San Martín",
+        "amenity": "pharmacy",
+        "name": "Herrneder",
+        "phone": "+542323440090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0967625,
+          -34.5710206
+        ]
+      },
+      "id": "node/7341806421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342207185",
+        "addr:city": "Puerto Esperanza",
+        "addr:postcode": "3378",
+        "addr:street": "Avenida 20 de Junio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Itatí"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6092099,
+          -26.022803
+        ]
+      },
+      "id": "node/7342207185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342207186",
+        "addr:city": "Puerto Esperanza",
+        "addr:full": "Buenos Aires y Corrientes",
+        "addr:postcode": "3378",
+        "addr:street": "Buenos Aires",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Agustín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6136704,
+          -26.0242995
+        ]
+      },
+      "id": "node/7342207186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342207192",
+        "addr:city": "Puerto Esperanza",
+        "addr:full": "Chaco y Avenida 25 de Mayo",
+        "addr:postcode": "3378",
+        "addr:street": "Chaco",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Los Andes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6127419,
+          -26.0225278
+        ]
+      },
+      "id": "node/7342207192"
     }
   ]
 }
