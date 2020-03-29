@@ -23,7 +23,7 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
   * [hospitales-sedronar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es una conversión directa de la [capa de Hospitales Públicos de la IDE Sedronar](http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa) a GeoJSON.
   
-* Argentina Unida (PAMI y REMEDIAR) (*Creative Commons Attribution 4.0*)
+* Datos Argentina (PAMI y REMEDIAR) (*Creative Commons Attribution 4.0*)
 
   * [hospitales-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/farmacias).
 
