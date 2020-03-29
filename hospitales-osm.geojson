@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-29T11:40:02Z",
+  "timestamp": "2020-03-29T15:00:02Z",
   "features": [
     {
       "type": "Feature",
@@ -53299,6 +53299,58 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/785607246",
+        "addr:postcode": "3515",
+        "addr:street": "Almirante Brown",
+        "amenity": "hospital",
+        "beds": "16",
+        "name": "Hospital José Arce",
+        "phone": "+54 03725 49-7019"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.8011705,
+              -26.6183736
+            ],
+            [
+              -59.8011723,
+              -26.6176562
+            ],
+            [
+              -59.8012032,
+              -26.6176238
+            ],
+            [
+              -59.8016565,
+              -26.6176274
+            ],
+            [
+              -59.8016632,
+              -26.6185387
+            ],
+            [
+              -59.8011847,
+              -26.6185425
+            ],
+            [
+              -59.8011673,
+              -26.6185156
+            ],
+            [
+              -59.8011705,
+              -26.6183736
+            ]
+          ]
+        ]
+      },
+      "id": "way/785607246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -65014,8 +65066,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3648050736",
-        "addr:housenumber": "1800",
-        "addr:street": "Tupac Amarú",
+        "addr:city": "San Vicente",
+        "addr:postcode": "3356",
+        "addr:street": "Ruta Nacional 14",
         "amenity": "hospital",
         "emergency": "yes",
         "fixme": "Verificar la posicion eacta",
@@ -65025,8 +65078,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.4782897,
-          -26.9932289
+          -54.4770993,
+          -26.9882666
         ]
       },
       "id": "node/3648050736"
@@ -71228,21 +71281,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4223573167",
-        "amenity": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.4766115,
-          -26.9882057
-        ]
-      },
-      "id": "node/4223573167"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4224180156",
         "addr:city": "Moron",
         "addr:housenumber": "2237",
@@ -72063,28 +72101,6 @@
         ]
       },
       "id": "node/4372991549"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4373094690",
-        "addr:city": "San Vicente",
-        "addr:housenumber": "289",
-        "addr:postcode": "3364",
-        "addr:street": "Avenida Constitución",
-        "amenity": "hospital",
-        "facebook": "https://www.facebook.com/sanatoriosanmarcos/",
-        "name": "Cllínica San Marcos",
-        "phone": "+54 3755 460064"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.4805229,
-          -26.9978822
-        ]
-      },
-      "id": "node/4373094690"
     },
     {
       "type": "Feature",
@@ -80740,29 +80756,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6394649145",
-        "addr:city": "San Vicente",
-        "addr:housenumber": "870",
-        "addr:postcode": "3356",
-        "addr:street": "Avenida Libertador",
-        "amenity": "hospital",
-        "facebook": "https://www.facebook.com/SanatorioAltosdelParana/",
-        "healthcare": "hospital",
-        "name": "Sanatorio Altos del Paraná",
-        "phone": "+54 3755 460315"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.4848634,
-          -26.9967647
-        ]
-      },
-      "id": "node/6394649145"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6405277280",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -81686,6 +81679,51 @@
         ]
       },
       "id": "node/7341528392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342856062",
+        "addr:city": "Santa Ana",
+        "addr:full": "San Martín y Pellegrini",
+        "addr:postcode": "4155",
+        "addr:street": "San Martín",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Santa Ana",
+        "nohousenumber": "yes",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6822884,
+          -27.4768469
+        ]
+      },
+      "id": "node/7342856062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342957373",
+        "addr:city": "Los Sarmientos",
+        "addr:postcode": "4157",
+        "addr:street": "9 de Julio",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Los Sarmientos",
+        "nohousenumber": "yes",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6951791,
+          -27.4133406
+        ]
+      },
+      "id": "node/7342957373"
     }
   ]
 }
