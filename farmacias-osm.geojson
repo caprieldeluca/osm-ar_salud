@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-29T03:00:02Z",
+  "timestamp": "2020-03-29T11:42:02Z",
   "features": [
     {
       "type": "Feature",
@@ -56026,8 +56026,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.0990992,
-          -32.6931713
+          -62.0991689,
+          -32.69316
         ]
       },
       "id": "node/2971138563"
@@ -82515,6 +82515,7 @@
         "addr:postcode": "3384",
         "addr:street": "Avenida El Libertador",
         "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/farmaciastmontecarlo/",
         "healthcare": "pharmacy",
         "name": "Santa Lucía",
         "opening_hours": "Mo-Sa 07:30-12:30",
@@ -90238,10 +90239,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4684090157",
+        "addr:city": "Ciudad Autónoma de Buenos Aires",
+        "addr:housenumber": "6208",
+        "addr:postcode": "C1440ABN",
         "addr:street": "Avenida Juan Bautista Alberdi",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Farmacia",
+        "name": "Farmacia del Oeste",
+        "phone": "11-46879941",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -95377,7 +95382,8 @@
         "addr:street": "Avenida El Libertador",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "San Jorge"
+        "name": "San Jorge",
+        "phone": "+54 3751 480145"
       },
       "geometry": {
         "type": "Point",
@@ -95392,6 +95398,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4858836321",
+        "addr:city": "Montecarlo",
         "addr:postcode": "3384",
         "addr:street": "Las Camelias",
         "amenity": "pharmacy",
@@ -102398,8 +102405,7 @@
         "@id": "node/5374070097",
         "addr:street": "Boulevard 9 de Julio",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -125262,6 +125268,98 @@
         ]
       },
       "id": "node/7342207192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342242824",
+        "addr:city": "Wanda",
+        "addr:postcode": "3376",
+        "addr:street": "Primero de Julio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Natural I",
+        "phone": "+54 3757 471195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5647588,
+          -25.9729715
+        ]
+      },
+      "id": "node/7342242824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342242825",
+        "addr:city": "Wanda",
+        "addr:postcode": "3376",
+        "addr:street": "Primero de Julio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Aries",
+        "phone": "+54 3757 470233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5647052,
+          -25.9732102
+        ]
+      },
+      "id": "node/7342242825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342322658",
+        "addr:city": "Montecarlo",
+        "addr:housenumber": "3525",
+        "addr:postcode": "3384",
+        "addr:street": "Horacio Quiroga",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-Panambi-355395012024308/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Panambi",
+        "phone": "+54 3751 482609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7651507,
+          -26.5661171
+        ]
+      },
+      "id": "node/7342322658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342322659",
+        "addr:city": "Montecarlo",
+        "addr:housenumber": "2060",
+        "addr:postcode": "3384",
+        "addr:street": "Avenida El Libertador",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-FarmaSalud-274506303400284/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "FarmaSalud",
+        "phone": "+54 3751 570371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7601146,
+          -26.5682582
+        ]
+      },
+      "id": "node/7342322659"
     }
   ]
 }
