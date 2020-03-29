@@ -25,7 +25,7 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   
 * Datos Argentina (PAMI y REMEDIAR) (*Creative Commons Attribution 4.0*)
 
-  * [hospitales-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/farmacias).
+  * [farmacias-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-pami.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/farmacias).
 
   * [caps-remediar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/caps-remediar.geojson) es el resultado de una geolocalización en Nominatim del [listado de Centros de Atención Primaria de la Salud de REMEDIAR](http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx).
 
