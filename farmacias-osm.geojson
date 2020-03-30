@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-29T18:59:02Z",
+  "timestamp": "2020-03-30T02:35:02Z",
   "features": [
     {
       "type": "Feature",
@@ -31668,7 +31668,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/634522089",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -34400,9 +34401,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1150220817",
+        "addr:city": "Aguilares",
+        "addr:housenumber": "633",
+        "addr:postcode": "4152",
+        "addr:street": "San Martín",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "is_in:state": "Tucumán"
+        "is_in:state": "Tucumán",
+        "name": "San Martín de Porres",
+        "source": "https://datos.gob.ar/dataset/pami-farmacias"
       },
       "geometry": {
         "type": "Point",
@@ -59719,6 +59726,7 @@
       "properties": {
         "@id": "node/3226571832",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Sereno"
       },
       "geometry": {
@@ -59735,6 +59743,7 @@
       "properties": {
         "@id": "node/3226571833",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Portal del Sol"
       },
       "geometry": {
@@ -59751,6 +59760,7 @@
       "properties": {
         "@id": "node/3226571834",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pirani"
       },
       "geometry": {
@@ -59767,6 +59777,7 @@
       "properties": {
         "@id": "node/3226571835",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Paschetto"
       },
       "geometry": {
@@ -59783,6 +59794,7 @@
       "properties": {
         "@id": "node/3226571836",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Verón"
       },
       "geometry": {
@@ -59799,6 +59811,7 @@
       "properties": {
         "@id": "node/3226571837",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Alem"
       },
       "geometry": {
@@ -90819,6 +90832,7 @@
         "addr:postcode": "4230",
         "addr:street": "Eva Perón",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia de la Ciudad",
         "name:es": "Farmacia de la Ciudad",
         "opening_hours": "24/7"
@@ -90859,6 +90873,7 @@
         "addr:postcode": "4230",
         "addr:street": "Alvear",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Pieroni",
         "name:es": "Farmacia Pieroni",
         "opening_hours": "24/7"
@@ -123690,9 +123705,10 @@
       "properties": {
         "@id": "node/7304621481",
         "addr:city": "San Javier",
+        "addr:full": "Libertad y Belgrano",
         "addr:housenumber": "520",
         "addr:postcode": "3357",
-        "addr:street": "Sarmiento",
+        "addr:street": "Libertad",
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
@@ -123701,8 +123717,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.1374619,
-          -27.8740214
+          -55.1344196,
+          -27.8755857
         ]
       },
       "id": "node/7304621481"
@@ -125382,6 +125398,50 @@
         ]
       },
       "id": "node/7342957211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344707986",
+        "addr:city": "San Javier",
+        "addr:postcode": "3357",
+        "addr:street": "Avenida Juan Queirel",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Dos Hermanas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1386655,
+          -27.8674798
+        ]
+      },
+      "id": "node/7344707986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344985970",
+        "addr:city": "Aguilares",
+        "addr:housenumber": "891",
+        "addr:postcode": "4152",
+        "addr:street": "Velez Sarsfield",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Santa Lucía",
+        "source": "https://datos.gob.ar/dataset/pami-farmacias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6172675,
+          -27.430051
+        ]
+      },
+      "id": "node/7344985970"
     }
   ]
 }

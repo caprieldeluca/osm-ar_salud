@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-29T19:00:02Z",
+  "timestamp": "2020-03-30T02:35:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4395,6 +4395,48 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/486893617",
+        "addr:street": "Tropero Moreira",
+        "amenity": "doctors",
+        "building": "yes",
+        "healthcare": "doctor",
+        "name": "Centro de Atención Primaria de la Salud Santa María",
+        "opening_hours": "Mo- Fr 07:00-19:00; Sa 09:00-12:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.1802639,
+              -34.5720165
+            ],
+            [
+              -59.1801865,
+              -34.5721221
+            ],
+            [
+              -59.1800172,
+              -34.5720379
+            ],
+            [
+              -59.1800946,
+              -34.5719323
+            ],
+            [
+              -59.1802639,
+              -34.5720165
+            ]
+          ]
+        ]
+      },
+      "id": "way/486893617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/487090460",
         "addr:city": "Luján",
         "addr:postcode": "6700",
@@ -4442,7 +4484,8 @@
         "building": "yes",
         "name": "Centro de Atención Primaria de la Salud Parque Lasa",
         "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
-        "operator": "Municipalidad de Luján"
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -4484,7 +4527,8 @@
         "building": "yes",
         "name": "Centro de Atención Primaria de la Salud Juan XIII",
         "opening_hours": "Mo-Fr 07:00-16:00",
-        "operator": "Municipalidad de Luján"
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -9277,6 +9321,25 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2681621621",
+        "addr:street": "Nemesio Litardo",
+        "amenity": "doctors",
+        "name": "Centro de Atención Primaria de la Salud Torres",
+        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1266688,
+          -34.4320464
+        ]
+      },
+      "id": "node/2681621621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2684562930",
         "amenity": "doctors",
         "name": "Consultorio Médico del Servicio Público de Salud",
@@ -12607,7 +12670,10 @@
         "addr:postcode": "6608",
         "addr:street": "Juan XXIII",
         "amenity": "doctors",
-        "name": "Centro de Atención Primaria de la Salud Olivera"
+        "name": "Centro de Atención Primaria de la Salud Olivera",
+        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Point",
@@ -14980,6 +15046,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4753869721",
+        "addr:city": "Añatuya",
         "addr:postcode": "3760",
         "addr:street": "25 de Mayo",
         "amenity": "doctors",
@@ -19712,6 +19779,25 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6551871763",
+        "amenity": "doctors",
+        "name": "Centro de Atención Primaria de la Salud Santo Cristo",
+        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2033473,
+          -34.5567633
+        ]
+      },
+      "id": "node/6551871763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6551960524",
         "addr:city": "Posadas",
         "addr:full": "Félix de Azara Nº 2578 casi Avenida Mitre",
@@ -24282,7 +24368,7 @@
         "@id": "node/7181029099",
         "amenity": "doctors",
         "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de la Salud Barrio Santa Elena",
+        "name": "Centro de Atención Primaria de la Salud Santa Elena",
         "opening_hours": "Mo-Fr 07:00-19:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public"
@@ -24425,6 +24511,69 @@
         ]
       },
       "id": "node/7341481146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344509664",
+        "addr:housenumber": "944",
+        "addr:street": "Corrientes",
+        "amenity": "doctors",
+        "name": "Centro de Atención Primaria de la Salud Open Door",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0744866,
+          -34.4903194
+        ]
+      },
+      "id": "node/7344509664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344926916",
+        "addr:housenumber": "1755",
+        "addr:street": "462 - Jujuy",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Centro de Atención Primaria de la Salud Villa del Parque",
+        "opening_hours": "Mo-Fr 07:00-18:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0881982,
+          -34.5681284
+        ]
+      },
+      "id": "node/7344926916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7344926917",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Centro de Atención Primaria de la Salud Ameghino",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-12:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0834836,
+          -34.5599753
+        ]
+      },
+      "id": "node/7344926917"
     }
   ]
 }
