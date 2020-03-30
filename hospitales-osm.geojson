@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-30T02:34:02Z",
+  "timestamp": "2020-03-30T15:09:02Z",
   "features": [
     {
       "type": "Feature",
@@ -12,6 +12,7 @@
         "addr:postcode": "5963",
         "addr:street": "Boulevard Sobremonte",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Vicente de Paul",
         "type": "multipolygon"
       },
@@ -28576,6 +28577,9 @@
       "type": "Feature",
       "properties": {
         "@id": "way/334797606",
+        "addr:city": "Colón",
+        "addr:housenumber": "235",
+        "addr:street": "Esteva Berga",
         "amenity": "hospital",
         "name": "Hospital San Benjamin"
       },
@@ -53680,6 +53684,140 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/785751500",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -63.0076461,
+              -40.8166119
+            ],
+            [
+              -63.007442,
+              -40.8168758
+            ],
+            [
+              -63.0071409,
+              -40.8167423
+            ],
+            [
+              -63.0073451,
+              -40.8164785
+            ],
+            [
+              -63.0076461,
+              -40.8166119
+            ]
+          ]
+        ]
+      },
+      "id": "way/785751500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785876675",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Oftalmológico Santa Lucía"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.3941966,
+              -34.6227716
+            ],
+            [
+              -58.3942062,
+              -34.6226795
+            ],
+            [
+              -58.3942426,
+              -34.6224726
+            ],
+            [
+              -58.3942505,
+              -34.6223888
+            ],
+            [
+              -58.3942759,
+              -34.6222497
+            ],
+            [
+              -58.3947949,
+              -34.6222895
+            ],
+            [
+              -58.3947774,
+              -34.6224153
+            ],
+            [
+              -58.3947689,
+              -34.6225051
+            ],
+            [
+              -58.3947292,
+              -34.6228048
+            ],
+            [
+              -58.3941966,
+              -34.6227716
+            ]
+          ]
+        ]
+      },
+      "id": "way/785876675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785892094",
+        "addr:city": "Pozo Hondo",
+        "addr:street": "Francisco Pece",
+        "amenity": "hospital",
+        "description": "Bajo Riesgo Con Internación Simple ",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital de Pozo Hondo",
+        "phone": "+54 3858 490145"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.4919809,
+              -27.162927
+            ],
+            [
+              -64.4913702,
+              -27.1636281
+            ],
+            [
+              -64.4905971,
+              -27.1630804
+            ],
+            [
+              -64.4912077,
+              -27.1623749
+            ],
+            [
+              -64.4919809,
+              -27.162927
+            ]
+          ]
+        ]
+      },
+      "id": "way/785892094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -68355,6 +68493,7 @@
         "addr:postcode": "5963",
         "addr:street": "Vélez Sarsfield",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "level": "Dispensario_Municipal",
         "name": "Salita Luz de Vida"
       },
@@ -68377,6 +68516,7 @@
         "addr:street": "Santa Fe",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "level": "Dispensario_Municipal",
         "name": "Alma Atta"
       },
@@ -68398,6 +68538,7 @@
         "addr:postcode": "5963",
         "addr:street": "9 de Julio",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Clínica",
         "operator": "Privada Regional"
       },
@@ -68420,6 +68561,7 @@
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "hospital",
         "emergency": "si",
+        "healthcare": "hospital",
         "name": "Clínica",
         "operator": "Privada Regional"
       },
@@ -68442,6 +68584,7 @@
         "addr:street": "Avenida San Martín",
         "amenity": "hospital",
         "emergency": "si",
+        "healthcare": "hospital",
         "name": "Clínica",
         "operator": "San Martín"
       },
@@ -69003,6 +69146,7 @@
         "@id": "node/4099875090",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Asistencia Pública Municipal"
       },
       "geometry": {
@@ -69020,6 +69164,7 @@
         "@id": "node/4099875280",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios"
       },
       "geometry": {
@@ -69030,6 +69175,23 @@
         ]
       },
       "id": "node/4099875280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4099880674",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanar Sanatorio Privado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.0507859,
+          -31.6628434
+        ]
+      },
+      "id": "node/4099880674"
     },
     {
       "type": "Feature",
@@ -71692,7 +71854,8 @@
         "addr:postcode": "5963",
         "addr:street": "Boulevard Sobremonte",
         "amenity": "hospital",
-        "description": "El hospital San Vicente de Paul es zonal y uno de los más grandes de la zona por lo cuál alberga a todos los damnificados en desastres naturales a por lo menos 80 km a la redonda"
+        "description": "El hospital San Vicente de Paul es zonal y uno de los más grandes de la zona por lo cuál alberga a todos los damnificados en desastres naturales a por lo menos 80 km a la redonda",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",

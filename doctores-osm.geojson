@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-30T02:35:02Z",
+  "timestamp": "2020-03-30T15:13:02Z",
   "features": [
     {
       "type": "Feature",
@@ -19036,7 +19036,7 @@
         "amenity": "doctors",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
-        "name": "Centro de Atención Primaria de la Salud Barrio Padre Varela",
+        "name": "Centro de Atención Primaria de la Salud Padre Varela",
         "opening_hours": "Mo-Fr 07:00-15:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public"
@@ -19082,8 +19082,11 @@
         "amenity": "doctors",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
-        "name": "Centro de Atención Primaria de la Salud Barrio San Francisco",
-        "phone": "02323-429965"
+        "name": "Centro de Atención Primaria de la Salud San Francisco",
+        "opening_hours:covid19": "off",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+542323429965"
       },
       "geometry": {
         "type": "Point",
@@ -24574,6 +24577,53 @@
         ]
       },
       "id": "node/7344926917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7345029445",
+        "addr:city": "Luján",
+        "addr:street": "16 - Adolfo Alsina",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "name": "Centro de Atención Primaria de la Salud San Cayetano",
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1169676,
+          -34.5758131
+        ]
+      },
+      "id": "node/7345029445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7345110669",
+        "addr:city": "Luján",
+        "addr:street": "611 - Las Estrellas",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "name": "Centro de Atención Primaria de la Salud Los Laureles",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "opening_hours:covid19": "off",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0531471,
+          -34.5905721
+        ]
+      },
+      "id": "node/7345110669"
     }
   ]
 }
