@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-30T15:10:02Z",
+  "timestamp": "2020-03-31T00:04:02Z",
   "features": [
     {
       "type": "Feature",
@@ -231,6 +231,50 @@
         ]
       },
       "id": "way/95596693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103242528",
+        "addr:city": "Monte Bello",
+        "addr:full": "CARMEN DE RAMIREZ 51 - ZONA RURAL",
+        "addr:housenumber": "51",
+        "addr:postcode": "4152",
+        "addr:street": "Carmen de Ramirez",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "CAPS Monte Bello",
+        "source": "http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.7523387,
+              -27.3767587
+            ],
+            [
+              -65.7524002,
+              -27.3769111
+            ],
+            [
+              -65.752277,
+              -27.3769397
+            ],
+            [
+              -65.7522339,
+              -27.3767825
+            ],
+            [
+              -65.7523387,
+              -27.3767587
+            ]
+          ]
+        ]
+      },
+      "id": "way/103242528"
     },
     {
       "type": "Feature",
@@ -4930,6 +4974,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/377182150",
+        "addr:city": "Viedma",
+        "addr:housenumber": "174",
+        "addr:postcode": "8500",
+        "addr:street": "25 de Mayo",
         "amenity": "clinic",
         "building": "yes",
         "healthcare": "clinic",
@@ -4968,8 +5016,12 @@
               -40.8063718
             ],
             [
-              -62.9910078,
-              -40.8063914
+              -62.9910191,
+              -40.8063946
+            ],
+            [
+              -62.9909291,
+              -40.806357
             ],
             [
               -62.9908504,
@@ -29926,6 +29978,7 @@
       "properties": {
         "@id": "node/3735280384",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio"
       },
       "geometry": {
@@ -31589,6 +31642,52 @@
         ]
       },
       "id": "node/4106535385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4106622433",
+        "addr:city": "Ciudacita",
+        "addr:full": "Ruta Prov. 329, Km 30",
+        "addr:postcode": "4174",
+        "addr:street": "Ruta Provincial 329",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS Ciudacita",
+        "nohousenumber": "yes",
+        "source": "http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4203127,
+          -27.4549866
+        ]
+      },
+      "id": "node/4106622433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4106622445",
+        "addr:city": "Monteagudo",
+        "addr:full": "9 DE JULIO S/N E/ SAN MARTIN Y STO GONZALEZ",
+        "addr:postcode": "4174",
+        "addr:street": "9 de Julio",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS Monteagudo",
+        "nohousenumber": "yes",
+        "source": "http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.276693,
+          -27.5111961
+        ]
+      },
+      "id": "node/4106622445"
     },
     {
       "type": "Feature",

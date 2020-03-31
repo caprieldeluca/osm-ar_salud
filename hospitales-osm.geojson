@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-30T15:09:02Z",
+  "timestamp": "2020-03-31T00:03:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4602,43 +4602,6 @@
         ]
       },
       "id": "way/102619771"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/103242528",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Caps"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.7523387,
-              -27.3767587
-            ],
-            [
-              -65.7524002,
-              -27.3769111
-            ],
-            [
-              -65.752277,
-              -27.3769397
-            ],
-            [
-              -65.7522339,
-              -27.3767825
-            ],
-            [
-              -65.7523387,
-              -27.3767587
-            ]
-          ]
-        ]
-      },
-      "id": "way/103242528"
     },
     {
       "type": "Feature",
@@ -33601,10 +33564,13 @@
       "type": "Feature",
       "properties": {
         "@id": "way/378876228",
-        "addr:city": "Medinas",
+        "addr:city": "Medina",
+        "addr:postcode": "4151",
         "addr:street": "Avenida Mitre",
         "amenity": "hospital",
-        "name": "Hospital San José de Medinas"
+        "healthcare": "hospital",
+        "name": "Hospital San José de Medinas",
+        "nohousenumber": "yes"
       },
       "geometry": {
         "type": "Polygon",
@@ -68431,6 +68397,7 @@
         "addr:postcode": "5133",
         "addr:street": "Moises Quinteros",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Ramón B. Mestre",
         "operator": "03574480912"
       },
@@ -69656,39 +69623,6 @@
         ]
       },
       "id": "node/4105843718"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4106622433",
-        "amenity": "hospital",
-        "name": "Centro Asistencial Publico Social"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4194651,
-          -27.4555274
-        ]
-      },
-      "id": "node/4106622433"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4106622445",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro Asistencial Provincial Sanitario Monteagudo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2767976,
-          -27.5113174
-        ]
-      },
-      "id": "node/4106622445"
     },
     {
       "type": "Feature",
@@ -77904,15 +77838,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5378655152",
+        "addr:city": "La Cocha",
+        "addr:full": "San Martin Norte Y 25 De Mayo",
+        "addr:postcode": "4162",
+        "addr:street": "San Martin Norte",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Mario V. Stivala"
+        "name": "Hospital Mario V. Stivala",
+        "nohousenumber": "yes",
+        "souce": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.585578,
-          -27.7603506
+          -65.5855195,
+          -27.7606287
         ]
       },
       "id": "node/5378655152"
@@ -82149,6 +82089,50 @@
         ]
       },
       "id": "node/7344434605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346729164",
+        "addr:city": "Lamadrid",
+        "addr:postcode": "4176",
+        "addr:street": "Boulevar Roca",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Ramon H. Maza",
+        "nohousenumber": "yes",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2525988,
+          -27.6429953
+        ]
+      },
+      "id": "node/7346729164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346823022",
+        "addr:city": "Juan Bautista Alberdi",
+        "addr:housenumber": "850",
+        "addr:postcode": "4158",
+        "addr:street": "Belgrano",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Juan B. Alberdi",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.62432,
+          -27.5845673
+        ]
+      },
+      "id": "node/7346823022"
     }
   ]
 }

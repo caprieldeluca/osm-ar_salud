@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-30T15:14:01Z",
+  "timestamp": "2020-03-31T00:05:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4074,6 +4074,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/377182193",
+        "addr:city": "Viedma",
+        "addr:housenumber": "409",
+        "addr:postcode": "8500",
+        "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
         "building": "yes",
         "healthcare": "pharmacy",
@@ -33482,7 +33486,7 @@
       "properties": {
         "@id": "node/1037868092",
         "addr:city": "Oberá",
-        "addr:housenumber": "502",
+        "addr:housenumber": "512",
         "addr:postcode": "3360",
         "addr:street": "Avenida Tucumán",
         "amenity": "pharmacy",
@@ -41451,7 +41455,7 @@
         "addr:street": "Bolivia",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Araucaria II"
+        "name": "FarmaMas"
       },
       "geometry": {
         "type": "Point",
@@ -76196,7 +76200,7 @@
       "properties": {
         "@id": "node/4166265289",
         "addr:city": "Oberá",
-        "addr:housenumber": "144",
+        "addr:housenumber": "146",
         "addr:postcode": "3360",
         "addr:street": "Santa Fe",
         "amenity": "pharmacy",
@@ -76207,8 +76211,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.1207604,
-          -27.4871909
+          -55.1207416,
+          -27.4871504
         ]
       },
       "id": "node/4166265289"
@@ -79184,7 +79188,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4362256364",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -79679,16 +79684,18 @@
       "properties": {
         "@id": "node/4382093388",
         "addr:city": "Puerto Iguazú",
+        "addr:postcode": "3370",
         "addr:street": "Avenida Victoria Aguirre",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Principal"
+        "name": "Principal",
+        "phone": "+54 3757 424100"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.5748308,
-          -25.5993349
+          -54.5746829,
+          -25.5994755
         ]
       },
       "id": "node/4382093388"
@@ -96975,6 +96982,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5076271200",
+        "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "86",
+        "addr:postcode": "3370",
+        "addr:street": "Avenida República Argentina",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Cataratas II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5735352,
+          -25.6025636
+        ]
+      },
+      "id": "node/5076271200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5078776220",
         "addr:city": "Cerro Corá",
         "addr:postcode": "3309",
@@ -103710,7 +103739,7 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Del MOnte"
+        "name": "Del Monte"
       },
       "geometry": {
         "type": "Point",
@@ -103726,10 +103755,13 @@
       "properties": {
         "@id": "node/5460476132",
         "addr:city": "Leandro N. Alem",
+        "addr:housenumber": "501",
+        "addr:postcode": "3315",
         "addr:street": "Avenida Las Heras",
         "amenity": "pharmacy",
         "dispensing": "yes",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Sudamericana"
       },
       "geometry": {
         "type": "Point",
@@ -111622,6 +111654,10 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6096449884",
+        "addr:city": "Viedma",
+        "addr:housenumber": "950",
+        "addr:postcode": "8500",
+        "addr:street": "Avenida Raúl Alfonsín",
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
@@ -114893,7 +114929,7 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Raquel"
+        "name": "Marquel"
       },
       "geometry": {
         "type": "Point",
@@ -123584,7 +123620,8 @@
       "properties": {
         "@id": "node/7304066855",
         "addr:city": "Puerto Iguazú",
-        "addr:housenumber": "44",
+        "addr:housenumber": "49",
+        "addr:postcode": "3370",
         "addr:street": "Avenida Brasil",
         "amenity": "pharmacy",
         "dispensing": "yes",
@@ -124178,7 +124215,7 @@
       "properties": {
         "@id": "node/7313735815",
         "addr:city": "Oberá",
-        "addr:housenumber": "280",
+        "addr:housenumber": "1280",
         "addr:postcode": "3300",
         "addr:street": "Avenida Italia",
         "amenity": "pharmacy",
@@ -124189,7 +124226,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.1185476,
+          -55.1185342,
           -27.4997072
         ]
       },
@@ -125515,6 +125552,200 @@
         ]
       },
       "id": "node/7346704853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346711812",
+        "addr:city": "Puerto Iguazú",
+        "addr:street": "Avenida Néstor Kirchner",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Giofarma II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5773063,
+          -25.6259891
+        ]
+      },
+      "id": "node/7346711812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346739423",
+        "addr:city": "Puerto Iguazu",
+        "addr:postcode": "3370",
+        "addr:street": "El Zorzal",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Bravo II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5665207,
+          -25.6130664
+        ]
+      },
+      "id": "node/7346739423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346748222",
+        "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "757",
+        "addr:postcode": "3370",
+        "addr:street": "Avenida República Argentina",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Giofarma",
+        "phone": "+54 3757 424627"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.577193,
+          -25.6122672
+        ]
+      },
+      "id": "node/7346748222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346809211",
+        "addr:city": "Jardín América",
+        "addr:housenumber": "731",
+        "addr:postcode": "3328",
+        "addr:street": "Venezuela",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mendoza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2305836,
+          -27.0434182
+        ]
+      },
+      "id": "node/7346809211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7346818888",
+        "addr:city": "Jardín América",
+        "addr:housenumber": "201",
+        "addr:postcode": "3328",
+        "addr:street": "Avenida Antártida Argentina",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Litoral"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2352798,
+          -27.0409472
+        ]
+      },
+      "id": "node/7346818888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7347071644",
+        "addr:city": "Oberá",
+        "addr:housenumber": "821",
+        "addr:postcode": "3360",
+        "addr:street": "Larrea",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Epsom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1215802,
+          -27.4830982
+        ]
+      },
+      "id": "node/7347071644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7348266088",
+        "addr:city": "Oberá",
+        "addr:housenumber": "72",
+        "addr:postcode": "3360",
+        "addr:street": "Avenida Libertad",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmaplus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1191534,
+          -27.4856826
+        ]
+      },
+      "id": "node/7348266088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7348395654",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4760",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Tambor de Tacuarí",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "20 de Junio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9221001,
+          -27.3681569
+        ]
+      },
+      "id": "node/7348395654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7348578919",
+        "addr:city": "Itacaruaré",
+        "addr:postcode": "3353",
+        "addr:street": "José de San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2601326,
+          -27.8692571
+        ]
+      },
+      "id": "node/7348578919"
     }
   ]
 }
