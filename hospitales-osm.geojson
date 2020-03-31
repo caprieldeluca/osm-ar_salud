@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-31T00:03:02Z",
+  "timestamp": "2020-03-31T15:34:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4495,10 +4495,15 @@
       "type": "Feature",
       "properties": {
         "@id": "way/99814397",
+        "addr:city": "Concepción",
+        "addr:housenumber": "150",
+        "addr:postcode": "4146",
+        "addr:street": "San Luis",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital de Concepción"
+        "name": "Hospital Regional de Concepción Dr. Miguel Belascuain",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
       },
       "geometry": {
         "type": "Polygon",
@@ -14833,6 +14838,7 @@
       "properties": {
         "@id": "way/223641419",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Colonia Dr. Emilio Vidal Abal"
       },
       "geometry": {
@@ -37671,7 +37677,7 @@
         "addr:street": "Pirincha",
         "amenity": "hospital",
         "description": "Centro de Salud municipalidad de Córdoba",
-        "name": "Centro de Salud"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -52827,7 +52833,8 @@
         "amenity": "hospital",
         "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Distrital Tintina Dr. Francisco Vittar"
+        "name": "Hospital Distrital Tintina Dr. Francisco Vittar",
+        "phone": "+54 3846 421025"
       },
       "geometry": {
         "type": "Polygon",
@@ -53780,6 +53787,65 @@
         ]
       },
       "id": "way/785892094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/786049710",
+        "addr:city": "Pampa de los Guanacos",
+        "addr:housenumber": "251",
+        "addr:postcode": "3712",
+        "addr:street": "Maipu",
+        "amenity": "hospital",
+        "contact:phone": "+54 0841 491020",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Pampa de Los Guanacos",
+        "phone": "+54 3841 491035"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.8401603,
+              -26.2327854
+            ],
+            [
+              -61.8402446,
+              -26.2327829
+            ],
+            [
+              -61.8406218,
+              -26.2335018
+            ],
+            [
+              -61.8405935,
+              -26.2335541
+            ],
+            [
+              -61.8398081,
+              -26.2338853
+            ],
+            [
+              -61.8397497,
+              -26.2338819
+            ],
+            [
+              -61.8393842,
+              -26.2331486
+            ],
+            [
+              -61.8393937,
+              -26.2331148
+            ],
+            [
+              -61.8401603,
+              -26.2327854
+            ]
+          ]
+        ]
+      },
+      "id": "way/786049710"
     },
     {
       "type": "Feature",
@@ -56301,6 +56367,7 @@
         "@id": "node/1490089539",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal"
       },
       "geometry": {
@@ -60315,6 +60382,7 @@
         "@id": "node/2395321276",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal"
       },
       "geometry": {
@@ -66767,15 +66835,20 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3752237342",
+        "addr:city": "Concepción",
+        "addr:postcode": "4146",
+        "addr:street": "Hipólito Yrigoyen",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "CIC: Centro Integrador Comunitario"
+        "name": "Centro Integrador Comunitario Concepción Sur",
+        "nohousenumber": "yes",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.5967925,
-          -27.36059
+          -65.5973198,
+          -27.3605491
         ]
       },
       "id": "node/3752237342"
@@ -76410,27 +76483,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5063182739",
-        "addr:city": "Pampa de los Guanacos",
-        "addr:housenumber": "251",
-        "addr:postcode": "3712",
-        "addr:street": "Maipu",
-        "amenity": "hospital",
-        "name": "Hospital Distrital Pampa de Los Guanacos",
-        "phone": "+54 03841 491035"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.8397194,
-          -26.2334094
-        ]
-      },
-      "id": "node/5063182739"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5065359610",
         "amenity": "hospital",
         "name": "saps municipal \"Dr. Pedro Blugerman\""
@@ -80327,12 +80379,15 @@
       "properties": {
         "@id": "node/6115737510",
         "addr:city": "Concepción",
-        "addr:housenumber": "1500",
+        "addr:housenumber": "1567",
         "addr:postcode": "4146",
         "addr:street": "24 de Septiembre",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "clinica martin gaya"
+        "name": "Clinica Martín Gaya",
+        "operator": "Diagnóstico Médico Martin Gaya S.R.L.",
+        "operator:type": "private",
+        "source": "https://www.doctoraliar.com/clinicas/diagnostico-medico-martin-gaya-s-r-l"
       },
       "geometry": {
         "type": "Point",
@@ -82133,6 +82188,28 @@
         ]
       },
       "id": "node/7346823022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7348711345",
+        "addr:city": "Simoca",
+        "addr:housenumber": "800",
+        "addr:postcode": "4172",
+        "addr:street": "Alvaro Gomez Llueca",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Alvaro Gomez Llueca",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3582941,
+          -27.2657006
+        ]
+      },
+      "id": "node/7348711345"
     }
   ]
 }
