@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-31T15:35:02Z",
+  "timestamp": "2020-04-01T00:58:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1414,36 +1414,36 @@
         "coordinates": [
           [
             [
-              -62.1086887,
-              -32.6959892
+              -62.108517,
+              -32.6959937
             ],
             [
-              -62.1087081,
-              -32.6960678
+              -62.1085364,
+              -32.6960723
             ],
             [
-              -62.1086041,
-              -32.696086
+              -62.1084324,
+              -32.6960905
             ],
             [
-              -62.1085591,
-              -32.6960581
+              -62.1083874,
+              -32.6960626
             ],
             [
-              -62.1085549,
-              -32.6960408
+              -62.1083832,
+              -32.6960453
             ],
             [
-              -62.1086159,
-              -32.6960301
+              -62.1084442,
+              -32.6960346
             ],
             [
-              -62.1086093,
-              -32.6960031
+              -62.1084376,
+              -32.6960076
             ],
             [
-              -62.1086887,
-              -32.6959892
+              -62.108517,
+              -32.6959937
             ]
           ]
         ]
@@ -80032,6 +80032,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4396900000",
+        "addr:city": "Salto Encantado",
         "addr:street": "Avenida 8 de Septiembre",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
@@ -80191,10 +80192,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4409056215",
-        "addr:street": "25 de Mayo",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:postcode": "3364",
+        "addr:street": "De la República",
         "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-del-Pueblo-Aristobulo-del-Valle-1704623299772620/",
         "healthcare": "pharmacy",
-        "name": "Del Pueblo"
+        "name": "Del Pueblo",
+        "phone": "+54 3755 470329"
       },
       "geometry": {
         "type": "Point",
@@ -96916,10 +96921,12 @@
         "@id": "node/5043650536",
         "addr:city": "Aristóbulo del Valle",
         "addr:housenumber": "783",
+        "addr:postcode": "3364",
         "addr:street": "Avenida de Las Américas",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Avenida"
+        "name": "Avenida",
+        "phone": "+54 3755 470524"
       },
       "geometry": {
         "type": "Point",
@@ -123698,11 +123705,14 @@
         "@id": "node/7301808997",
         "addr:city": "Aristóbulo del Valle",
         "addr:housenumber": "943",
+        "addr:postcode": "3364",
         "addr:street": "Avenida de Las Américas",
         "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/farmaciamistral1/",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Mistral"
+        "name": "Mistral",
+        "phone": "+54 03755 470350"
       },
       "geometry": {
         "type": "Point",
@@ -124830,6 +124840,7 @@
       "properties": {
         "@id": "node/7315347704",
         "addr:city": "Villa Salto Encantado",
+        "addr:postcode": "N3364",
         "addr:street": "Gobernador Barreyro",
         "amenity": "pharmacy",
         "dispensing": "yes",
@@ -126256,6 +126267,50 @@
         ]
       },
       "id": "node/7350874819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7352402139",
+        "addr:city": "Puerto Rico",
+        "addr:housenumber": "2186",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida 9 de Julio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "La Botica",
+        "opening_hours": "Mo-Fr 08:00-12:00; 16:00-20:00; Sa 08:00-12:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0211315,
+          -26.8130022
+        ]
+      },
+      "id": "node/7352402139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7352734207",
+        "addr:city": "San Antonio",
+        "addr:postcode": "3366",
+        "addr:street": "Avenida Comandante Andresito",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Antonio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.7344168,
+          -26.0557722
+        ]
+      },
+      "id": "node/7352734207"
     }
   ]
 }

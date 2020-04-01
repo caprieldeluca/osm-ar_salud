@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-31T15:35:02Z",
+  "timestamp": "2020-04-01T00:57:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1075,34 +1075,42 @@
       "type": "Feature",
       "properties": {
         "@id": "way/204886158",
+        "addr:city": "Villa Quinteros",
+        "addr:full": "Jardín de la República e/Quinteros y Av. de Mayo",
+        "addr:postcode": "4144",
+        "addr:street": "Jardín de la República",
         "amenity": "clinic",
         "emergency": "no",
         "healthcare": "clinic",
-        "name": "CAPS"
+        "name": "CAPS Vª Quinteros",
+        "nohousenumber": "yes",
+        "opening_hours": "Mo-Su 07:00-13:00",
+        "phone": "+54 3863 471082",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -65.5508199,
-              -27.2538546
+              -65.5508209,
+              -27.253851
             ],
             [
-              -65.5509701,
-              -27.2540716
+              -65.550966,
+              -27.2540707
             ],
             [
-              -65.5507958,
-              -27.2541646
+              -65.5507976,
+              -27.2541585
             ],
             [
-              -65.550659,
-              -27.2539403
+              -65.5506526,
+              -27.2539388
             ],
             [
-              -65.5508199,
-              -27.2538546
+              -65.5508209,
+              -27.253851
             ]
           ]
         ]
@@ -30130,6 +30138,24 @@
         ]
       },
       "id": "node/3740804089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3741440405",
+        "addr:street": "Ruta Nacional 9",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS La Florida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9636537,
+          -27.3523352
+        ]
+      },
+      "id": "node/3741440405"
     },
     {
       "type": "Feature",

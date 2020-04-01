@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-03-31T15:34:02Z",
+  "timestamp": "2020-04-01T00:57:02Z",
   "features": [
     {
       "type": "Feature",
@@ -38708,6 +38708,51 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/451111083",
+        "addr:city": "Monteros",
+        "addr:housenumber": "453",
+        "addr:postcode": "4142",
+        "addr:street": "Sarmiento",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "-1",
+        "description": "Albergo a las familias evacuadas durante las inundaciones de febrero del año 2015.",
+        "healthcare": "hospital",
+        "name": "Hospital Gral. Lamadrid",
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.4915281,
+              -27.1619294
+            ],
+            [
+              -65.4920705,
+              -27.162588
+            ],
+            [
+              -65.491045,
+              -27.1632565
+            ],
+            [
+              -65.4905027,
+              -27.162598
+            ],
+            [
+              -65.4915281,
+              -27.1619294
+            ]
+          ]
+        ]
+      },
+      "id": "way/451111083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/451256593",
         "addr:city": "Gral. San Martín",
         "addr:postcode": "5570",
@@ -53850,6 +53895,49 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/786389102",
+        "addr:city": "Los Juries",
+        "addr:postcode": "63763",
+        "addr:street": "Avenida General Belgrano",
+        "amenity": "hospital",
+        "description": "El hospital Juan Carlos Salinas posee instalaciones aledañas al nosocomio donde se albergan a pacientes que deben realizar tratamientos ambulatorios y que se encuentran a largas distancias del lugar.\n\nAv. Belgrano s/n - Los Juríes – Dpto Gral Taboada",
+        "healthcare": "hospital",
+        "name": "Hospital Juan Carlos Salinas",
+        "operator": "Medicina Pública Provincial",
+        "phone": "+54 3857 471028"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.1140011,
+              -28.4656611
+            ],
+            [
+              -62.1145021,
+              -28.466436
+            ],
+            [
+              -62.1136169,
+              -28.4668784
+            ],
+            [
+              -62.1131157,
+              -28.4661036
+            ],
+            [
+              -62.1140011,
+              -28.4656611
+            ]
+          ]
+        ]
+      },
+      "id": "way/786389102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -66514,23 +66602,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3741440405",
-        "addr:street": "Ruta Nacional 9",
-        "amenity": "hospital",
-        "name": "CAPS La Florida"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9636537,
-          -27.3523352
-        ]
-      },
-      "id": "node/3741440405"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3741879737",
         "addr:city": "El Colorado",
         "addr:postcode": "3603",
@@ -72417,28 +72488,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4370543211",
-        "addr:city": "Los Juries",
-        "addr:housenumber": "s/n°",
-        "addr:postcode": "63763",
-        "addr:street": "Avenida General Belgrano",
-        "amenity": "hospital",
-        "description": "El hospital Juan Carlos Salinas posee instalaciones aledañas al nosocomio donde se albergan a pacientes que deben realizar tratamientos ambulatorios y que se encuentran a largas distancias del lugar.",
-        "name": "Hospital Juan Carlos Salinas",
-        "operator": "Medicina Pública Provincial"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.1137901,
-          -28.4662501
-        ]
-      },
-      "id": "node/4370543211"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4370546611",
         "addr:city": "Villa María",
         "addr:housenumber": "1364",
@@ -73653,6 +73702,7 @@
         "amenity": "hospital",
         "emergency": "yes",
         "fixme": "Verificar la posición exacta",
+        "healthcare": "hospital",
         "name": "Hospital de San Antonio",
         "phone": "+54 3741 493054"
       },
