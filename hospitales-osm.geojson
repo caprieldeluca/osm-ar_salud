@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-01T00:57:02Z",
+  "timestamp": "2020-04-02T00:57:02Z",
   "features": [
     {
       "type": "Feature",
@@ -53938,6 +53938,105 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/786400616",
+        "amenity": "hospital",
+        "disused:amenity": "helipad",
+        "fixme": "covid19",
+        "healthcare": "hospital",
+        "name": "Hospital Militar Reubicable",
+        "operator": "Fuerza Aérea Argentina",
+        "operator:type": "military",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.4128386,
+              -34.6528178
+            ],
+            [
+              -58.4127819,
+              -34.6529934
+            ],
+            [
+              -58.4125666,
+              -34.6529464
+            ],
+            [
+              -58.4126232,
+              -34.6527707
+            ],
+            [
+              -58.4128386,
+              -34.6528178
+            ]
+          ]
+        ]
+      },
+      "id": "way/786400616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/786531039",
+        "addr:city": "Bandera",
+        "addr:postcode": "3064",
+        "addr:street": "Rivadavia",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Dr. Eliseo Ogallar",
+        "phone": "(03857) 421031"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.2610412,
+              -28.88575
+            ],
+            [
+              -62.2611176,
+              -28.8857579
+            ],
+            [
+              -62.261702,
+              -28.886368
+            ],
+            [
+              -62.261693,
+              -28.886427
+            ],
+            [
+              -62.2610052,
+              -28.8869505
+            ],
+            [
+              -62.2609153,
+              -28.8869663
+            ],
+            [
+              -62.2602904,
+              -28.8863522
+            ],
+            [
+              -62.2602814,
+              -28.886305
+            ],
+            [
+              -62.2610412,
+              -28.88575
+            ]
+          ]
+        ]
+      },
+      "id": "way/786531039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -64770,6 +64869,7 @@
       "properties": {
         "@id": "node/3453809658",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Clínica San Isisdro"
       },
       "geometry": {
@@ -65094,6 +65194,7 @@
       "properties": {
         "@id": "node/3545089891",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Vicente Agüero"
       },
       "geometry": {
@@ -65110,6 +65211,7 @@
       "properties": {
         "@id": "node/3545593757",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Clinica Jesús María"
       },
       "geometry": {
@@ -68771,6 +68873,7 @@
       "properties": {
         "@id": "node/4094294832",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "dispensario municipal",
         "operator": "Marcela Venturini"
       },
@@ -69409,6 +69512,7 @@
       "properties": {
         "@id": "node/4100911250",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "HOSPITAL VICENTE AGÜERO",
         "operator": "MARCELA VENTURINI"
       },
@@ -73216,22 +73320,6 @@
         ]
       },
       "id": "node/4415799389"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4416983189",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.6734648,
-          -34.5501028
-        ]
-      },
-      "id": "node/4416983189"
     },
     {
       "type": "Feature",
@@ -77948,7 +78036,7 @@
         "healthcare": "hospital",
         "name": "Hospital Mario V. Stivala",
         "nohousenumber": "yes",
-        "souce": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
       },
       "geometry": {
         "type": "Point",
@@ -82260,6 +82348,43 @@
         ]
       },
       "id": "node/7348711345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7353255691",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CAPS Dr. Gomez Fentanez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9132039,
+          -35.022214
+        ]
+      },
+      "id": "node/7353255691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7357021766",
+        "amenity": "hospital",
+        "description": "Dispone de 330 camas de alta complejidad y que durante la pandemia del COVID-19 será utilizado por pacientes de la provincia de Buenos Aires.",
+        "fixme": "covid19",
+        "healthcare": "hospital",
+        "name": "Sanatorio Antártida",
+        "operator": "Obra Social de Choferes de Camiones"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4357917,
+          -34.6182149
+        ]
+      },
+      "id": "node/7357021766"
     }
   ]
 }
