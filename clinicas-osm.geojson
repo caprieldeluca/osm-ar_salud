@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-02T00:57:02Z",
+  "timestamp": "2020-04-03T19:15:02Z",
   "features": [
     {
       "type": "Feature",
@@ -245,6 +245,7 @@
         "building": "yes",
         "healthcare": "clinic",
         "name": "CAPS Monte Bello",
+        "opening_hours": "Mo 07:00-13:00; We 07:00-13:00",
         "source": "http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx"
       },
       "geometry": {
@@ -252,24 +253,24 @@
         "coordinates": [
           [
             [
-              -65.7523387,
-              -27.3767587
+              -65.7517961,
+              -27.3770638
             ],
             [
-              -65.7524002,
-              -27.3769111
+              -65.7519539,
+              -27.3770329
             ],
             [
-              -65.752277,
-              -27.3769397
+              -65.7519725,
+              -27.377108
             ],
             [
-              -65.7522339,
-              -27.3767825
+              -65.7518147,
+              -27.3771389
             ],
             [
-              -65.7523387,
-              -27.3767587
+              -65.7517961,
+              -27.3770638
             ]
           ]
         ]
@@ -30148,24 +30149,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3741440405",
-        "addr:street": "Ruta Nacional 9",
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "name": "CAPS La Florida"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.9636537,
-          -27.3523352
-        ]
-      },
-      "id": "node/3741440405"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3742070426",
         "addr:city": "Córdoba Capital",
         "addr:postcode": "5012",
@@ -30386,23 +30369,24 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3761813650",
+        "@id": "node/3761813655",
         "addr:city": "San Martin",
         "addr:housenumber": "235",
         "addr:postcode": "M5570JVE",
-        "addr:street": "Espejo Oeste",
+        "addr:street": "Espejo;Espejo Oeste",
         "amenity": "clinic",
         "healthcare": "clinic",
+        "name": "IMAGEN DIAGNOSTICA SAN MARTIN",
         "operator": "IMAGEN DIAGNOSTICA SAN MARTIN"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.4803517,
-          -33.0902555
+          -68.4803562,
+          -33.0902662
         ]
       },
-      "id": "node/3761813650"
+      "id": "node/3761813655"
     },
     {
       "type": "Feature",
@@ -31854,6 +31838,7 @@
         "addr:postcode": "5238",
         "addr:street": "Boulevard de la Estación",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "CIC - Hugo R. Giovanetti"
       },
       "geometry": {
@@ -32000,6 +31985,7 @@
         "addr:postcode": "2419",
         "addr:street": "Güemes",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro de Salud Municipal"
       },
       "geometry": {
@@ -40342,6 +40328,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5507021462",
+        "addr:city": "Chos Malal",
+        "addr:postcode": "8353",
+        "addr:street": "Sarmiento",
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Clínica Ceme"
@@ -42167,6 +42156,7 @@
       "properties": {
         "@id": "node/5785377798",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Urmed Emergencias"
       },
       "geometry": {
@@ -42183,6 +42173,7 @@
       "properties": {
         "@id": "node/5785377799",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro de Rehabilitacion"
       },
       "geometry": {
@@ -42199,6 +42190,7 @@
       "properties": {
         "@id": "node/5785377807",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica Privada Dean Funes"
       },
       "geometry": {
@@ -45284,6 +45276,68 @@
         ]
       },
       "id": "node/7343060673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7360461480",
+        "addr:city": "Los Sosa",
+        "addr:full": "Ruta Provincial 344 Km 7",
+        "addr:street": "Ruta Provincial 344",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS Los Sosa",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5540859,
+          -27.1487722
+        ]
+      },
+      "id": "node/7360461480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7360490391",
+        "addr:city": "Soldado Maldonado",
+        "addr:full": "Capitán Cáceres y Sargento Moya",
+        "addr:street": "Capitán Cáceres",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS Soldado Maldonado",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5652809,
+          -27.1454558
+        ]
+      },
+      "id": "node/7360490391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7360531388",
+        "addr:city": "La Florida",
+        "addr:street": "San Luis de las Casas Viejas",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS La Florida",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9721455,
+          -27.3219698
+        ]
+      },
+      "id": "node/7360531388"
     }
   ]
 }

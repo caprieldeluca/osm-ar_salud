@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-02T00:58:02Z",
+  "timestamp": "2020-04-03T19:16:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4730,6 +4730,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/393306967",
+        "addr:city": "Viedma",
+        "addr:housenumber": "1340",
+        "addr:postcode": "8500",
+        "addr:street": "Cardenal Cagliero",
         "amenity": "pharmacy",
         "building": "yes",
         "healthcare": "pharmacy",
@@ -4740,24 +4744,28 @@
         "coordinates": [
           [
             [
-              -62.983174,
-              -40.8226402
+              -62.9832787,
+              -40.8224878
             ],
             [
-              -62.9830215,
-              -40.8226278
+              -62.9831197,
+              -40.8224752
             ],
             [
-              -62.9830505,
-              -40.8224719
+              -62.9830735,
+              -40.8224715
             ],
             [
-              -62.9832015,
-              -40.8224836
+              -62.9830867,
+              -40.8223765
             ],
             [
-              -62.983174,
-              -40.8226402
+              -62.9832918,
+              -40.8223927
+            ],
+            [
+              -62.9832787,
+              -40.8224878
             ]
           ]
         ]
@@ -30520,12 +30528,12 @@
         "coordinates": [
           [
             [
-              -58.5335083,
-              -34.7270048
+              -58.5335076,
+              -34.727005
             ],
             [
-              -58.5334831,
-              -34.7269504
+              -58.5334823,
+              -34.7269506
             ],
             [
               -58.5336137,
@@ -30540,8 +30548,8 @@
               -34.7269832
             ],
             [
-              -58.5335083,
-              -34.7270048
+              -58.5335076,
+              -34.727005
             ]
           ]
         ]
@@ -31245,6 +31253,49 @@
         ]
       },
       "id": "way/786533269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/787180410",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia del Pueblo Express"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -67.7039059,
+              -53.7849918
+            ],
+            [
+              -67.7040306,
+              -53.7849299
+            ],
+            [
+              -67.7044005,
+              -53.7851899
+            ],
+            [
+              -67.7042758,
+              -53.7852519
+            ],
+            [
+              -67.7041766,
+              -53.7851822
+            ],
+            [
+              -67.7039059,
+              -53.7849918
+            ]
+          ]
+        ]
+      },
+      "id": "way/787180410"
     },
     {
       "type": "Feature",
@@ -35099,10 +35150,9 @@
         "addr:city": "Aguilares",
         "addr:housenumber": "633",
         "addr:postcode": "4152",
-        "addr:street": "San Martín",
+        "addr:street": "San Martin",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "is_in:state": "Tucumán",
         "name": "San Martín de Porres",
         "source": "https://datos.gob.ar/dataset/pami-farmacias"
       },
@@ -47379,6 +47429,7 @@
       "properties": {
         "@id": "node/2343921028",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Dean Funes"
       },
       "geometry": {
@@ -47395,6 +47446,7 @@
       "properties": {
         "@id": "node/2343921079",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Jorge de los Cielos"
       },
       "geometry": {
@@ -47411,6 +47463,7 @@
       "properties": {
         "@id": "node/2343921364",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Muiños"
       },
       "geometry": {
@@ -105314,7 +105367,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5501925445",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -105329,7 +105383,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5501925449",
-        "amenity": "pharmacy"
+        "addr:city": "Sumampa",
+        "addr:postcode": "5253",
+        "addr:street": "27 de Abril Oeste",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -107755,6 +107813,7 @@
         "addr:housenumber": "282",
         "addr:street": "Buenos Aires",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Ansenuza",
         "opening_hours": "Mo-Sa 09:00-13:00; Mo-Fr 17:00-21:00",
         "phone": "3563400031",
@@ -109463,6 +109522,7 @@
       "properties": {
         "@id": "node/5785377791",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Montañez"
       },
       "geometry": {
@@ -109479,6 +109539,7 @@
       "properties": {
         "@id": "node/5785377795",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "El Condor I"
       },
       "geometry": {
@@ -109495,6 +109556,7 @@
       "properties": {
         "@id": "node/5785377797",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Campregher"
       },
       "geometry": {
@@ -109511,6 +109573,7 @@
       "properties": {
         "@id": "node/5785377803",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Campregher"
       },
       "geometry": {
@@ -109527,6 +109590,7 @@
       "properties": {
         "@id": "node/5785377808",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Mizzau"
       },
       "geometry": {
@@ -109543,6 +109607,7 @@
       "properties": {
         "@id": "node/5785377810",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Las Crucecitas"
       },
       "geometry": {
@@ -109559,6 +109624,7 @@
       "properties": {
         "@id": "node/5785377811",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Salud"
       },
       "geometry": {
@@ -109575,6 +109641,7 @@
       "properties": {
         "@id": "node/5785377812",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "El Condor III"
       },
       "geometry": {
@@ -109590,7 +109657,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5785377823",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -111107,7 +111175,7 @@
       "properties": {
         "@id": "node/5933674991",
         "amenity": "pharmacy",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -111159,7 +111227,7 @@
       "properties": {
         "@id": "node/5935035286",
         "amenity": "pharmacy",
-        "name": "Farmacia",
+        "healthcare": "pharmacy",
         "phone": "0357515484258"
       },
       "geometry": {
@@ -123383,6 +123451,7 @@
       "properties": {
         "@id": "node/7189251785",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Antonio"
       },
       "geometry": {

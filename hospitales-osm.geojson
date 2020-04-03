@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-02T00:57:02Z",
+  "timestamp": "2020-04-03T19:15:02Z",
   "features": [
     {
       "type": "Feature",
@@ -38715,7 +38715,6 @@
         "addr:street": "Sarmiento",
         "amenity": "hospital",
         "building": "hospital",
-        "building:levels": "-1",
         "description": "Albergo a las familias evacuadas durante las inundaciones de febrero del año 2015.",
         "healthcare": "hospital",
         "name": "Hospital Gral. Lamadrid",
@@ -54037,6 +54036,104 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/787310403",
+        "addr:city": "Sumampa",
+        "addr:housenumber": "428",
+        "addr:postcode": "5253",
+        "addr:street": "Eva Perón",
+        "alt_name": "Hospital de Sumampa",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Doctor Schuld Grau",
+        "phone": "+54 3856 491013"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -63.4788847,
+              -29.3822056
+            ],
+            [
+              -63.4790724,
+              -29.383077
+            ],
+            [
+              -63.4784107,
+              -29.3831853
+            ],
+            [
+              -63.4783756,
+              -29.3831792
+            ],
+            [
+              -63.4782004,
+              -29.3823486
+            ],
+            [
+              -63.4782471,
+              -29.3823099
+            ],
+            [
+              -63.4784669,
+              -29.382274
+            ],
+            [
+              -63.4788847,
+              -29.3822056
+            ]
+          ]
+        ]
+      },
+      "id": "way/787310403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/787315495",
+        "addr:city": "Selva",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital de Selva",
+        "phone": "+54 3857 495071"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.0520053,
+              -29.7641436
+            ],
+            [
+              -62.051423,
+              -29.7647443
+            ],
+            [
+              -62.0513731,
+              -29.7647443
+            ],
+            [
+              -62.0507443,
+              -29.764314
+            ],
+            [
+              -62.0513499,
+              -29.7636815
+            ],
+            [
+              -62.0520053,
+              -29.7641436
+            ]
+          ]
+        ]
+      },
+      "id": "way/787315495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -54095,9 +54192,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/428845265",
+        "addr:city": "Famaillá",
+        "addr:housenumber": "210",
+        "addr:postcode": "4132",
+        "addr:street": "Belgrano",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "is_in": "Famaillá",
         "name": "Hospital Parajón Ortíz"
       },
       "geometry": {
@@ -61473,6 +61573,7 @@
       "properties": {
         "@id": "node/2598409395",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio"
       },
       "geometry": {
@@ -62199,7 +62300,8 @@
       "properties": {
         "@id": "node/2840327129",
         "amenity": "hospital",
-        "name": "Sala de Asistencia Primaria"
+        "healthcare": "hospital",
+        "name": "Establecimiento Asistencial Dr. Nestor Schanton"
       },
       "geometry": {
         "type": "Point",
@@ -63803,23 +63905,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3250149702",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.0515868,
-          -29.7644754
-        ]
-      },
-      "id": "node/3250149702"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3252964762",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -63876,6 +63961,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3269109393",
+        "addr:city": "La Paz",
         "addr:postcode": "5590",
         "addr:street": "Uriburu",
         "amenity": "hospital",
@@ -64723,6 +64809,7 @@
         "addr:postcode": "5236",
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal"
       },
       "geometry": {
@@ -66203,6 +66290,7 @@
         "@id": "node/3725336064",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal \"José Sauret\""
       },
       "geometry": {
@@ -69411,12 +69499,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4100749213",
-        "addr:city": "Alpachiri",
         "addr:housenumber": "715",
-        "addr:postcode": "6309",
-        "addr:street": "Urquiza y Buenos Aires",
+        "addr:street": "Urquiza",
         "amenity": "hospital",
-        "name": "Enrique Ferreti",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Enrique Pedro Ferreti",
         "phone": "+54 2953 497122"
       },
       "geometry": {
@@ -70427,13 +70514,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4112357303",
-        "addr:city": "Ataliva Roca",
         "addr:housenumber": "59",
-        "addr:postcode": "6308",
         "addr:street": "libertad",
         "amenity": "hospital",
         "description": "cuenta con un doctor permanente, dos enfermeros y una empleada administrativa.",
-        "name": "Ramón Carrillo",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Dr.Ramón Carrillo",
         "phone": "02954-496021"
       },
       "geometry": {
@@ -72711,6 +72797,7 @@
         "addr:street": "General Paz",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal",
         "operator": "Marissa Gisell"
       },
@@ -76347,7 +76434,8 @@
       "properties": {
         "@id": "node/4978281515",
         "amenity": "hospital",
-        "name": "Posta Sanitaria"
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Algarrobo del Aguila"
       },
       "geometry": {
         "type": "Point",
@@ -78387,22 +78475,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5501925444",
-        "amenity": "hospital",
-        "name": "Hospital Distrital Dr. Schuld Grau"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.4784943,
-          -29.3823761
-        ]
-      },
-      "id": "node/5501925444"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5506627079",
         "addr:city": "Soledad",
         "addr:postcode": "3025",
@@ -79134,7 +79206,8 @@
       "properties": {
         "@id": "node/5594938700",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Rogelio Amicarelli"
       },
       "geometry": {
         "type": "Point",
@@ -79150,7 +79223,8 @@
       "properties": {
         "@id": "node/5596447461",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Alejandro Posadas"
       },
       "geometry": {
         "type": "Point",
@@ -79165,12 +79239,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5597515263",
-        "addr:city": "Caleufú",
-        "addr:postcode": "6387",
+        "addr:housenumber": "750",
         "addr:street": "Islas Malvinas",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Luis A. Petrelli"
+        "name": "Hospital Dr. Luis A. Petrelli"
       },
       "geometry": {
         "type": "Point",
@@ -79947,6 +80020,7 @@
       "properties": {
         "@id": "node/5785377796",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Ernesto Romagosa"
       },
       "geometry": {
@@ -82312,7 +82386,7 @@
         "addr:city": "Juan Bautista Alberdi",
         "addr:housenumber": "850",
         "addr:postcode": "4158",
-        "addr:street": "Belgrano",
+        "addr:street": "Manuel Begrano",
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Hospital Juan B. Alberdi",
@@ -82334,7 +82408,7 @@
         "addr:city": "Simoca",
         "addr:housenumber": "800",
         "addr:postcode": "4172",
-        "addr:street": "Alvaro Gomez Llueca",
+        "addr:street": "Gomez Llueca",
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Hospital Dr. Alvaro Gomez Llueca",
@@ -82343,8 +82417,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.3582941,
-          -27.2657006
+          -65.3583064,
+          -27.2657718
         ]
       },
       "id": "node/7348711345"
@@ -82385,6 +82459,201 @@
         ]
       },
       "id": "node/7357021766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7360194922",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Modelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2852259,
+          -36.621075
+        ]
+      },
+      "id": "node/7360194922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7360418344",
+        "addr:city": "Santa Lucía",
+        "addr:housenumber": "51",
+        "addr:postcode": "4134",
+        "addr:street": "Marco Avellaneda",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Santa Lucía"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5299137,
+          -27.0941509
+        ]
+      },
+      "id": "node/7360418344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7360511626",
+        "addr:city": "Santa Rosa de Leales",
+        "addr:housenumber": "300",
+        "addr:postcode": "4111",
+        "addr:street": "Padilla",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Santa Rosa de Leales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2607843,
+          -27.1369893
+        ]
+      },
+      "id": "node/7360511626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653141",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Posta Sanitaria de Arbol Solo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4769626,
+          -36.6365542
+        ]
+      },
+      "id": "node/7361653141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653142",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Posta Sanitaria Arbol de La Esperanza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9557905,
+          -36.945073
+        ]
+      },
+      "id": "node/7361653142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653143",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Establecimiento Asistencial Aristides Granda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.355582,
+          -35.6376819
+        ]
+      },
+      "id": "node/7361653143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653144",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Jose Curci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0144794,
+          -36.5259245
+        ]
+      },
+      "id": "node/7361653144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653145",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Agustoni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3907324,
+          -35.7822664
+        ]
+      },
+      "id": "node/7361653145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653146",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Adolfo Van Praet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0359861,
+          -35.0177355
+        ]
+      },
+      "id": "node/7361653146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653147",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Abramo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8511443,
+          -37.896232
+        ]
+      },
+      "id": "node/7361653147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7361653148",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Jorge Ahuad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.712152,
+          -37.7742808
+        ]
+      },
+      "id": "node/7361653148"
     }
   ]
 }
