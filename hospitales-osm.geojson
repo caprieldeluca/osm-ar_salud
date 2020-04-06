@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-03T19:15:02Z",
+  "timestamp": "2020-04-06T00:13:02Z",
   "features": [
     {
       "type": "Feature",
@@ -22398,6 +22398,7 @@
         "addr:housenumber": "1451",
         "addr:street": "Av. del Libertador Gral. San Martín",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Dr. Arturo U. Illia",
         "phone": "(03547) 429-282/283/285"
       },
@@ -25664,7 +25665,7 @@
       "properties": {
         "@id": "way/311141381",
         "amenity": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -26923,48 +26924,120 @@
               -38.8913689
             ],
             [
-              -62.0921082,
-              -38.8916003
+              -62.0921456,
+              -38.891569
             ],
             [
-              -62.0928302,
-              -38.8916664
+              -62.092456,
+              -38.891622
             ],
             [
-              -62.0936371,
-              -38.8915121
+              -62.0925463,
+              -38.8916319
             ],
             [
-              -62.0942459,
-              -38.8911265
+              -62.0926696,
+              -38.8916313
             ],
             [
-              -62.0951661,
-              -38.8903992
+              -62.0928926,
+              -38.8916101
             ],
             [
-              -62.0959022,
-              -38.8904763
+              -62.0931307,
+              -38.891572
             ],
             [
-              -62.0962561,
-              -38.8909171
+              -62.0933443,
+              -38.8915344
             ],
             [
-              -62.0965251,
-              -38.8916664
+              -62.0935121,
+              -38.8914957
             ],
             [
-              -62.096688,
-              -38.8923153
+              -62.0936792,
+              -38.8914466
             ],
             [
-              -62.0967658,
-              -38.892625
+              -62.0938557,
+              -38.8913823
             ],
             [
-              -62.0932691,
-              -38.8934955
+              -62.0939795,
+              -38.8913298
+            ],
+            [
+              -62.0940902,
+              -38.8912724
+            ],
+            [
+              -62.0942382,
+              -38.8911924
+            ],
+            [
+              -62.0943988,
+              -38.8910935
+            ],
+            [
+              -62.0945453,
+              -38.8909856
+            ],
+            [
+              -62.0946604,
+              -38.8908847
+            ],
+            [
+              -62.0947641,
+              -38.8907906
+            ],
+            [
+              -62.0948875,
+              -38.8906581
+            ],
+            [
+              -62.0949981,
+              -38.890519
+            ],
+            [
+              -62.0951519,
+              -38.8902687
+            ],
+            [
+              -62.0961111,
+              -38.8904772
+            ],
+            [
+              -62.0962556,
+              -38.8906364
+            ],
+            [
+              -62.0967189,
+              -38.8922758
+            ],
+            [
+              -62.0970356,
+              -38.8927673
+            ],
+            [
+              -62.0964806,
+              -38.8929973
+            ],
+            [
+              -62.0963571,
+              -38.8925726
+            ],
+            [
+              -62.0962523,
+              -38.8924727
+            ],
+            [
+              -62.0941806,
+              -38.8933195
+            ],
+            [
+              -62.0932903,
+              -38.8935244
             ],
             [
               -62.0923772,
@@ -29828,46 +29901,6 @@
         ]
       },
       "id": "way/346598959"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/346775848",
-        "amenity": "hospital",
-        "name": "Centro de Salud"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.9139016,
-              -38.1468827
-            ],
-            [
-              -65.913954,
-              -38.1470891
-            ],
-            [
-              -65.9136294,
-              -38.14714
-            ],
-            [
-              -65.9135867,
-              -38.1469715
-            ],
-            [
-              -65.9136176,
-              -38.1469272
-            ],
-            [
-              -65.9139016,
-              -38.1468827
-            ]
-          ]
-        ]
-      },
-      "id": "way/346775848"
     },
     {
       "type": "Feature",
@@ -39940,6 +39973,7 @@
         "addr:postcode": "4425",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Nuestra Señora del Valle"
       },
       "geometry": {
@@ -45190,7 +45224,7 @@
         "addr:street": "25 de mayo",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Establecimiento Asistencial",
+        "name": "Hospital Juan B. Smith",
         "phone": "+54 2333 497134",
         "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
       },
@@ -52414,7 +52448,7 @@
         "addr:street": "Jujuy",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Doctor Herilicio Luna"
+        "name": "Hospital Doctor Heraclio Luna"
       },
       "geometry": {
         "type": "Polygon",
@@ -56671,6 +56705,7 @@
       "properties": {
         "@id": "node/1495629862",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario de José de la Quintana"
       },
       "geometry": {
@@ -58434,7 +58469,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1940659708",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -58797,6 +58833,7 @@
       "properties": {
         "@id": "node/2022413025",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital General Vedia"
       },
       "geometry": {
@@ -64483,6 +64520,7 @@
         "addr:street": "Maria Oberti de Basualdo",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Fermin Salaberry",
         "operator": "cbmaps.com.ar",
         "phone": "03436-422415",
@@ -67961,13 +67999,14 @@
         "addr:street": "San Martín",
         "amenity": "hospital",
         "building": "hospital",
-        "name": "Diego B. Morón"
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Diego B. Morón"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.4141188,
-          -37.166233
+          -63.4142013,
+          -37.1662357
         ]
       },
       "id": "node/3830134412"
@@ -68437,6 +68476,7 @@
       "properties": {
         "@id": "node/4011728271",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Vecinal"
       },
       "geometry": {
@@ -68708,7 +68748,8 @@
         "addr:postcode": "6213",
         "addr:street": "Dr. Martinez Zuviría",
         "amenity": "hospital",
-        "name": "Establecimiento Asistencial Dr Armando Parodi en Parera",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Armando Parodi",
         "operator": "CELE ALVAREZ",
         "phone": "+54 2331 497116",
         "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
@@ -69107,7 +69148,8 @@
       "properties": {
         "@id": "node/4096270650",
         "amenity": "hospital",
-        "name": "Posta Sanitaria"
+        "healthcare": "hospital",
+        "name": "Centro de Salud Puelén"
       },
       "geometry": {
         "type": "Point",
@@ -69583,7 +69625,7 @@
         "addr:street": "H. Irigoyen y Martín Fierro",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Posta Sanitaria Barrio Norte"
+        "name": "Centro de Salud Mabel Cerrutti"
       },
       "geometry": {
         "type": "Point",
@@ -69751,7 +69793,7 @@
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Centro Sanitario"
+        "name": "Centro Sanitario Asistencia Pública"
       },
       "geometry": {
         "type": "Point",
@@ -70415,6 +70457,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4110681989",
+        "addr:city": "Colonia Santa María",
+        "addr:postcode": "8214",
+        "addr:street": "Avenida Don Bosco",
+        "amenity": "hospital",
+        "description": "Pertenece al ámbito de la medicina pública provincial,en la cual se cuenta con un medico clinico.",
+        "healthcare": "hospital",
+        "name": "Centro de Salud \"Maria Hollman\"",
+        "phone": "02952-492037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2274204,
+          -37.4948207
+        ]
+      },
+      "id": "node/4110681989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4110742805",
         "addr:city": "Mojón de Fierro",
         "amenity": "hospital",
@@ -70830,6 +70894,24 @@
         ]
       },
       "id": "node/4147525790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4147600368",
+        "amenity": "hospital",
+        "description": "Centro de Salud Villa Santillán pertenece al ámbito de la medicina pública provincial - Servicios: medicina general, atención ambulatoria, medicina preventiva - dirección: Pio XII y Pestalozzi (CP:6300) Santa Rosa, provincia de La Pampa - teléfono 453336",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Villa Santillán"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2887258,
+          -36.6351621
+        ]
+      },
+      "id": "node/4147600368"
     },
     {
       "type": "Feature",
@@ -71521,7 +71603,8 @@
       "properties": {
         "@id": "node/4216563942",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Monte Nievas"
       },
       "geometry": {
         "type": "Point",
@@ -73032,7 +73115,7 @@
         "addr:street": "Enriqueta Schmidt",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Posta Barrio Esperanza"
+        "name": "Centro de Salud Reconversión"
       },
       "geometry": {
         "type": "Point",
@@ -73116,6 +73199,7 @@
         "addr:street": "Champagnat",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "operator": "Anabel"
       },
       "geometry": {
@@ -73299,7 +73383,7 @@
         "addr:street": "Antonio Acuña Monteiro",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "C. S. Los Hornos"
+        "name": "Centro de Salud Barrio Los Hornos"
       },
       "geometry": {
         "type": "Point",
@@ -73320,7 +73404,7 @@
         "addr:street": "Quemu Quemu",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Centro de Salud Villa Parque"
+        "name": "Centro de Salud Villa Parque Enfermera Juana Guzman"
       },
       "geometry": {
         "type": "Point",
@@ -73341,7 +73425,7 @@
         "addr:street": "Miguel Cané",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "C.S. Dr. Guillermo Furst"
+        "name": "Centro de Sauld Dr. Guillermo Furst EC"
       },
       "geometry": {
         "type": "Point",
@@ -74125,9 +74209,8 @@
       "properties": {
         "@id": "node/4446310791",
         "amenity": "hospital",
-        "name": "Centro Sanitario",
-        "name:en": "Health Center",
-        "name:es": "Centro Sanitario"
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Casa de Piedra"
       },
       "geometry": {
         "type": "Point",
@@ -74270,9 +74353,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4467154932",
-        "addr:city": "Catriló",
         "addr:housenumber": "318",
-        "addr:postcode": "6330",
         "addr:street": "General Manuel Belgrano",
         "amenity": "hospital",
         "description": "https://centrosmedicosyhospitales.com/argentina/hospitales/LA%2BPAMPA/CATRILO",
@@ -78211,7 +78292,7 @@
         "@id": "node/5408581780",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Evita"
+        "name": "Hospital Comunitario Evita"
       },
       "geometry": {
         "type": "Point",
@@ -79315,8 +79396,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5610168713",
+        "addr:housenumber": "994",
+        "addr:street": "Don Bosco",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "healthcare": "hospital",
+        "name": "Hospital Wilfrid Baron"
       },
       "geometry": {
         "type": "Point",
@@ -79357,9 +79441,8 @@
         "addr:street": "Belgrano",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Establecimiento Asistencial",
-        "phone": "+54 2335 495025",
-        "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
+        "name": "Ctro. de Salud Samuel Halfon",
+        "phone": "+54 2335 495025"
       },
       "geometry": {
         "type": "Point",
@@ -79422,6 +79505,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5623313500",
+        "addr:city": "General Manuel J. Campos",
+        "addr:postcode": "6310",
+        "addr:street": "Inmigrantes",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Dr. Juan Facca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.582196,
+          -37.4629488
+        ]
+      },
+      "id": "node/5623313500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5627873913",
         "amenity": "hospital",
         "healthcare": "hospital"
@@ -79468,7 +79572,7 @@
         "amenity": "hospital",
         "fixme": "Verificar Ubicación",
         "healthcare": "hospital",
-        "name": "Sala de Primeros Auxilios",
+        "name": "Hospital Dr. José Ingenieros",
         "phone": "+54 2333 498032"
       },
       "geometry": {
@@ -79490,7 +79594,7 @@
         "addr:street": "Salta",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital -Establecimiento Asistencial Dr. Antonio Olaiz",
+        "name": "Hospital Dr. Antonio Olaiz",
         "phone": "+54 2953 498510",
         "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
       },
@@ -79513,7 +79617,7 @@
         "addr:street": "Las Heras",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Local A.Calandri",
+        "name": "Hospital Dr. Atilio Calandri",
         "phone": "+54 2333 442269",
         "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
       },
@@ -79536,14 +79640,14 @@
         "addr:street": "Maipú",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital San José",
+        "name": "Hospital Dr.José Padros",
         "phone": "+54 2331 498112"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.6835553,
-          -35.0707012
+          -64.683569,
+          -35.0704889
         ]
       },
       "id": "node/5633415369"
@@ -79559,15 +79663,15 @@
         "amenity": "hospital",
         "description": "Posta Sanitaria",
         "healthcare": "hospital",
-        "name": "Hospital Segundo Taldriz",
+        "name": "Hospital Dr. Segundo Taldriz",
         "phone": "+54 2954 492005",
         "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.3803569,
-          -36.6713259
+          -64.3801491,
+          -36.6713535
         ]
       },
       "id": "node/5635842106"
@@ -79580,6 +79684,7 @@
         "addr:postcode": "6369",
         "amenity": "hospital",
         "healthcare": "hospital",
+        "name": "Hospital Dr. Guillermo Rawson",
         "phone": "+54 2302 499107",
         "website": "http://www.lapampa.gov.ar/emergencias-medicas.html"
       },
@@ -79602,7 +79707,7 @@
         "addr:street": "Calle 15",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Luisa Pedemonte",
+        "name": "Hospital Luisa Pedemonte de Pistarini",
         "phone": "+54 2338 432000",
         "phone_1": "+54 2338 432178",
         "phone_2": "+54 2338 432248",
@@ -79611,8 +79716,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.431209,
-          -36.2209172
+          -65.4310478,
+          -36.2208197
         ]
       },
       "id": "node/5638735227"
@@ -82123,7 +82228,8 @@
         "@id": "node/7320535191",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital San Roque"
+        "name": "Hospital San Roque",
+        "phone": "03472-481531"
       },
       "geometry": {
         "type": "Point",
@@ -82429,7 +82535,7 @@
         "@id": "node/7353255691",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "CAPS Dr. Gomez Fentanez"
+        "name": "Centro de Salud Dr. Gomez Fentanez"
       },
       "geometry": {
         "type": "Point",
@@ -82576,7 +82682,7 @@
         "@id": "node/7361653144",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Ctro. de Salud Dr. Jose Curci"
+        "name": "Centro de Salud Dr. Jose Curci"
       },
       "geometry": {
         "type": "Point",
@@ -82654,6 +82760,933 @@
         ]
       },
       "id": "node/7361653148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365458008",
+        "addr:city": "Clodomira",
+        "addr:housenumber": "623",
+        "addr:postcode": "4338",
+        "addr:street": "Avenida Adeodato Herrera",
+        "amenity": "hospital",
+        "contact:facebook": "https://www.facebook.com/Hospital-Distrital-Clodomira-324811527539549/",
+        "healthcare": "hospital",
+        "name": "Hospital de Clodomira Doctor Guillermo Rawson",
+        "phone": "+54 385 492 1033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1297257,
+          -27.5751431
+        ]
+      },
+      "id": "node/7365458008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365533692",
+        "addr:city": "Bandera Bajada",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital De Bandera Bajada Dr. Miguel Canllo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.512133,
+          -27.2768948
+        ]
+      },
+      "id": "node/7365533692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365606743",
+        "addr:city": "Medellín",
+        "addr:postcode": "4313",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital De Medellin Dr. Carlos Menem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7849386,
+          -28.6501943
+        ]
+      },
+      "id": "node/7365606743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365617778",
+        "addr:city": "Laprida",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital de Laprida",
+        "phone": "+54 3845 420154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5294144,
+          -28.3787434
+        ]
+      },
+      "id": "node/7365617778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365894857",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Chosmalal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.1680846,
+          -36.7822369
+        ]
+      },
+      "id": "node/7365894857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365894858",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Chamaico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9225044,
+          -35.0864226
+        ]
+      },
+      "id": "node/7365894858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365894859",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Chacharramendi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6523335,
+          -37.3313941
+        ]
+      },
+      "id": "node/7365894859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365894860",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Agustin Gorospe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7769879,
+          -35.290184
+        ]
+      },
+      "id": "node/7365894860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7365894861",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Carro Quemado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3437185,
+          -36.4750573
+        ]
+      },
+      "id": "node/7365894861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7366840555",
+        "addr:city": "Brea Pozo",
+        "addr:full": "Teniente Gral Uriburu s/n- Brea Pozo- Dpto. San Martin",
+        "amenity": "hospital",
+        "fixme": "Verificar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital de Brea Pozo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9475305,
+          -28.2423944
+        ]
+      },
+      "id": "node/7366840555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7367770020",
+        "addr:city": "Bella Vista",
+        "addr:housenumber": "250",
+        "addr:postcode": "4168",
+        "addr:street": "San Martín",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Centro De Salud Bella Vista Dr. Guillermo Salazar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3079583,
+          -27.0302837
+        ]
+      },
+      "id": "node/7367770020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7367848155",
+        "addr:city": "El Bracho",
+        "addr:postcode": "4111",
+        "addr:street": "Calle Principal",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital El Bracho",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1826561,
+          -26.9935456
+        ]
+      },
+      "id": "node/7367848155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965328",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Roberto Pibotto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6061996,
+          -37.3830674
+        ]
+      },
+      "id": "node/7368965328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965329",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Falucho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1042537,
+          -35.189119
+        ]
+      },
+      "id": "node/7368965329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965330",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3046147,
+          -35.9194272
+        ]
+      },
+      "id": "node/7368965330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965331",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Dorila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7161756,
+          -35.7747678
+        ]
+      },
+      "id": "node/7368965331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965332",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Cuchillo Co"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6431631,
+          -38.3354584
+        ]
+      },
+      "id": "node/7368965332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965333",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Francisco del Callejo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5971096,
+          -36.0011062
+        ]
+      },
+      "id": "node/7368965333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7368965334",
+        "addr:housenumber": "482",
+        "addr:street": "San Martin",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Alejandro Rost"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4299731,
+          -37.5753566
+        ]
+      },
+      "id": "node/7368965334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011129",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Salvador Abudara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7594712,
+          -35.6700562
+        ]
+      },
+      "id": "node/7369011129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011130",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Guillermo Brown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7775601,
+          -35.6730562
+        ]
+      },
+      "id": "node/7369011130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011131",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Frank Allan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7574212,
+          -35.6509068
+        ]
+      },
+      "id": "node/7369011131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011132",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Barrio Este"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7514156,
+          -35.6714812
+        ]
+      },
+      "id": "node/7369011132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011133",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Barrio Federal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7586573,
+          -35.6426736
+        ]
+      },
+      "id": "node/7369011133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011134",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Barrio Rucci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7753851,
+          -35.6595399
+        ]
+      },
+      "id": "node/7369011134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011135",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. Integracion Comunitaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7624406,
+          -35.659526
+        ]
+      },
+      "id": "node/7369011135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011136",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Mauricio Knobel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7593712,
+          -35.6742867
+        ]
+      },
+      "id": "node/7369011136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369011137",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Energia y Progreso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7421239,
+          -35.6635731
+        ]
+      },
+      "id": "node/7369011137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196272",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Nelida Maldonado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2975917,
+          -36.6425806
+        ]
+      },
+      "id": "node/7369196272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196273",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Armando Miranda MA (Obreros de la constr)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2887167,
+          -36.5850806
+        ]
+      },
+      "id": "node/7369196273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196274",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Crto. Salud Dra. M. Viola Aerop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.277575,
+          -36.6053028
+        ]
+      },
+      "id": "node/7369196274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196275",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Barrio Villa Germinal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2963703,
+          -36.5939291
+        ]
+      },
+      "id": "node/7369196275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196276",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Barrio Mataderos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2707222,
+          -36.6298417
+        ]
+      },
+      "id": "node/7369196276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196277",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Barrio Zona Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2986639,
+          -36.60825
+        ]
+      },
+      "id": "node/7369196277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196278",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Manuel Perez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9401667,
+          -36.2306444
+        ]
+      },
+      "id": "node/7369196278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196279",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Barrio Rio Atuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2803361,
+          -36.6412139
+        ]
+      },
+      "id": "node/7369196279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196280",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Quehue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.51595,
+          -37.1221278
+        ]
+      },
+      "id": "node/7369196280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196281",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. De Salud de Quetrequen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5239444,
+          -35.0567861
+        ]
+      },
+      "id": "node/7369196281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196282",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Luis Colosio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0332472,
+          -36.2087667
+        ]
+      },
+      "id": "node/7369196282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196283",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. De Salud Puelches"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9138167,
+          -38.1469333
+        ]
+      },
+      "id": "node/7369196283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369196284",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Aquiles José Reagazzoli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.292175,
+          -36.1909694
+        ]
+      },
+      "id": "node/7369196284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208885",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Francisco Liñon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1027778,
+          -36.2020694
+        ]
+      },
+      "id": "node/7369208885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208886",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. De Salud de La Gloria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7436306,
+          -36.5070806
+        ]
+      },
+      "id": "node/7369208886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208887",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud La Humada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0139743,
+          -36.3495378
+        ]
+      },
+      "id": "node/7369208887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208888",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Dr. Atilio Crenna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5913333,
+          -35.2408444
+        ]
+      },
+      "id": "node/7369208888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208889",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de La Adela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0895917,
+          -38.9835167
+        ]
+      },
+      "id": "node/7369208889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208890",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud de Limay Mahuida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6761298,
+          -37.1594004
+        ]
+      },
+      "id": "node/7369208890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208891",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. de Salud Domingo Gabred"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8186437,
+          -35.5472021
+        ]
+      },
+      "id": "node/7369208891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208892",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Julio Tapia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.86015,
+          -36.5065417
+        ]
+      },
+      "id": "node/7369208892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208893",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dra. Cecilia Grierson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5118167,
+          -36.2618028
+        ]
+      },
+      "id": "node/7369208893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369208894",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ctro. De Salud de Tomas M. Anchorena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5224528,
+          -36.8408056
+        ]
+      },
+      "id": "node/7369208894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7370117897",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Lucio Molas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2917396,
+          -36.5995189
+        ]
+      },
+      "id": "node/7370117897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7370303505",
+        "addr:city": "Los Telares",
+        "addr:full": "calle 20 de julio - Los Telares- Dpto. Salavina",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Los Telares"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4495893,
+          -28.9862462
+        ]
+      },
+      "id": "node/7370303505"
     }
   ]
 }
