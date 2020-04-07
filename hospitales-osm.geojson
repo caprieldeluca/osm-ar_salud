@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-06T00:13:02Z",
+  "timestamp": "2020-04-07T14:31:02Z",
   "features": [
     {
       "type": "Feature",
@@ -5843,9 +5843,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/128436899",
+        "addr:city": "Puerto Deseado",
+        "addr:full": "Almirante Brown Y Colon",
+        "addr:place": "Deseado",
+        "addr:postcode": "9050",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
-        "name": "Hospital Distrital de Puerto Deseado"
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Puerto Deseado",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780142183010",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -12269,6 +12279,9 @@
       "type": "Feature",
       "properties": {
         "@id": "way/194212219",
+        "addr:city": "Allen",
+        "addr:postcode": "8328",
+        "addr:street": "Ingeniero Pascual Quesnel",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
@@ -12280,12 +12293,16 @@
         "coordinates": [
           [
             [
-              -67.8199286,
-              -38.9805
+              -67.8199689,
+              -38.9804905
             ],
             [
-              -67.8200606,
-              -38.9810844
+              -67.8200732,
+              -38.981011
+            ],
+            [
+              -67.8202173,
+              -38.9817305
             ],
             [
               -67.8203041,
@@ -12296,52 +12313,52 @@
               -38.9824975
             ],
             [
-              -67.8171016,
-              -38.9825475
+              -67.8172743,
+              -38.982544
             ],
             [
-              -67.8170319,
-              -38.9821055
+              -67.8171852,
+              -38.9820918
             ],
             [
               -67.8171499,
               -38.9819512
             ],
             [
-              -67.8169943,
-              -38.9812757
+              -67.8170934,
+              -38.9816279
             ],
             [
-              -67.8168441,
-              -38.9813007
+              -67.8181342,
+              -38.9814936
             ],
             [
-              -67.8166617,
-              -38.9804833
+              -67.8178976,
+              -38.9804011
             ],
             [
-              -67.8166775,
-              -38.9804102
+              -67.8178723,
+              -38.9802719
             ],
             [
-              -67.8183998,
-              -38.9801748
+              -67.8183648,
+              -38.9802111
             ],
             [
-              -67.8184746,
-              -38.9803434
+              -67.8184466,
+              -38.980269
             ],
             [
-              -67.818539,
-              -38.9806604
+              -67.8185336,
+              -38.9806865
             ],
             [
-              -67.8188161,
-              -38.9806324
+              -67.8188215,
+              -38.9806522
             ],
             [
-              -67.8199286,
-              -38.9805
+              -67.8199689,
+              -38.9804905
             ]
           ]
         ]
@@ -13329,11 +13346,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/205571358",
+        "addr:city": "Caleta Olivia",
+        "addr:full": "Eva Peron S/N",
+        "addr:place": "Deseado",
+        "addr:postcode": "9011",
         "amenity": "hospital",
         "building": "yes",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Zonal"
+        "name": "Hospital Zonal De Caleta Olivia Padre Jose Tardivo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780142183017",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -14287,10 +14313,18 @@
       "properties": {
         "@id": "way/215107096",
         "addr:city": "Pico Truncado",
+        "addr:full": "Sarmiento Esq. Velez Sarfield 305",
+        "addr:place": "Deseado",
+        "addr:postcode": "9015",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital Humberto Kuester",
-        "operator": "hospital"
+        "name": "Hospital Distrital Dr. Guillermo Hubertus Carlos Kuester",
+        "operator": "hospital",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780142183004",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -19201,14 +19235,21 @@
       "properties": {
         "@id": "way/247276405",
         "addr:city": "Río Grande",
+        "addr:full": "Av. Belgrano 350",
         "addr:housenumber": "755",
+        "addr:place": "Rio Grande",
         "addr:postcode": "9420",
-        "addr:street": "Florentino Ameghino",
+        "addr:street": "Avenida Belgrano",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Regional Río Grande",
-        "phone": "+54 2964 422086"
+        "name": "Hospital Regional Nuestra Señora De La Candelaria",
+        "operator:type": "public",
+        "phone": "+54 2964 422086",
+        "ref:sisa_refes": "10940072195002",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -25233,7 +25274,8 @@
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Regional de Río Gallegos",
+        "name": "Hospital Regional Río Gallegos Santa Cruz",
+        "operator:type": "public",
         "phone": "(02966) 42-0025"
       },
       "geometry": {
@@ -25277,11 +25319,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/305909684",
+        "addr:city": "Gobernador Gregores",
+        "addr:full": "Mario Castulo Paradelo 1025",
         "addr:housenumber": "1025",
+        "addr:place": "Rio Chico",
+        "addr:postcode": "9311",
         "addr:street": "Paradelo",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Distrital"
+        "name": "Hospital Distrital Dr. Ramon Eraso Santa Paul",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780492183008",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -32298,6 +32349,7 @@
         "addr:postcode": "5186",
         "addr:street": "Intendente J. Molinari",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario Julio R. Barrientos",
         "operator": "Claudia Mónica di Ronco"
       },
@@ -37610,9 +37662,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439250373",
+        "addr:city": "Yacimientos Rio Turbio",
+        "addr:full": "Gendarmeria Nacional 126",
+        "addr:place": "Guer Aike",
+        "addr:postcode": "9407",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital Distrital Río Turbio"
+        "name": "Hospital Cuenca Carbonifera",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780212183003",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -43946,11 +44007,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/517478591",
-        "addr:city": "Veintiocho de Noviembre",
+        "addr:city": "28 De Noviembre",
+        "addr:full": "Río Negro Y 9 De Julio S/N",
+        "addr:place": "Guer Aike",
+        "addr:postcode": "9408",
         "addr:street": "9 de Julio",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "healthcare": "hospital",
-        "name": "Hospital San Lucas"
+        "name": "Hospital Distrital San Lucas",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780212183011",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -44908,31 +44977,31 @@
         "addr:street": "Varsovia",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital"
+        "name": "Hospital de Colonia Dora"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -62.9485555,
-              -28.6044309
+              -62.9485364,
+              -28.6044983
             ],
             [
-              -62.9486628,
-              -28.6042708
+              -62.9487061,
+              -28.6043132
             ],
             [
-              -62.9490061,
-              -28.604544
+              -62.9491254,
+              -28.6046097
             ],
             [
-              -62.9488559,
-              -28.6046664
+              -62.9489557,
+              -28.6047947
             ],
             [
-              -62.9485555,
-              -28.6044309
+              -62.9485364,
+              -28.6044983
             ]
           ]
         ]
@@ -49687,11 +49756,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/672019012",
+        "addr:city": "Comandante Luis Piedrabuena",
+        "addr:full": "Saenz Peña 244",
+        "addr:place": "Corpen Aike",
+        "addr:postcode": "9303",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "emergency": "yes",
         "healthcare": "hospital",
         "healthcare:speciality": "general",
-        "name": "Hospital público \"Dr. Armando Zamudio\"",
+        "name": "Hospital Seccional Dr. Armando Zamudio",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780072183014",
+        "ref:sisa_tipologia": "ESCIEP",
+        "source": "sedronar.gov.ar | Public Domain (PD)",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -54168,6 +54246,92 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/788317950",
+        "addr:city": "Aráoz",
+        "addr:postcode": "4178",
+        "addr:street": "Ruta Provincial 302",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Estación Araoz",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.9218319,
+              -27.0564912
+            ],
+            [
+              -64.9212304,
+              -27.056939
+            ],
+            [
+              -64.9208508,
+              -27.0565347
+            ],
+            [
+              -64.9214523,
+              -27.0560868
+            ],
+            [
+              -64.9218319,
+              -27.0564912
+            ]
+          ]
+        ]
+      },
+      "id": "way/788317950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/788326051",
+        "addr:city": "Ranchillos y San Miguel",
+        "addr:housenumber": "750",
+        "addr:postcode": "4178",
+        "addr:street": "Santiago",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Maria Auxiliadora Ranchillos"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.0415523,
+              -26.9557651
+            ],
+            [
+              -65.0408177,
+              -26.9563433
+            ],
+            [
+              -65.0403622,
+              -26.9567018
+            ],
+            [
+              -65.0396267,
+              -26.9559594
+            ],
+            [
+              -65.0408169,
+              -26.9550227
+            ],
+            [
+              -65.0415523,
+              -26.9557651
+            ]
+          ]
+        ]
+      },
+      "id": "way/788326051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -54528,9 +54692,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/638322741",
+        "addr:city": "Puerto San Julian",
+        "addr:full": "Av. Costanera Y El Cano S/N",
+        "addr:place": "Magallanes",
+        "addr:postcode": "9310",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Distrital San Julián"
+        "name": "Hospital Distrital Dr. Miguel A. Lombardich",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780422183006",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -55888,11 +56061,18 @@
       "properties": {
         "@id": "node/1333703168",
         "addr:city": "Las Heras",
+        "addr:full": "El Calafate Y Juan Jose Paso",
+        "addr:place": "Deseado",
         "addr:postcode": "9017",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Distrital Benigno Fernandez"
+        "name": "Hospital Distrital Las Heras",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780142183009",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -56807,9 +56987,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1557455256",
+        "addr:city": "Perito Moreno",
+        "addr:full": "Colon 1237",
+        "addr:place": "Lago Buenos Aires",
+        "addr:postcode": "9040",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Distrital"
+        "name": "Hospital Distrital Dr. Oscar H. Natale",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780352183007",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -57357,15 +57546,23 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1754401128",
+        "addr:city": "Ushuaia",
+        "addr:full": "12 de Octubre 65",
+        "addr:place": "Ushuaia",
         "addr:postcode": "9410",
-        "addr:street": "Avenida Maipú",
+        "addr:street": "12 de Octubre",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
         "internet_access": "wlan",
-        "name": "Hospital Regional Ushuaia",
+        "name": "Hospital Regional Ushuaia Gobernador Ernesto M. Campos",
         "opening_hours": "24/7",
-        "phone": "02901 44-1000"
+        "operator:type": "public",
+        "phone": "02901 44-1000",
+        "ref:sisa_refes": "10940142195003",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -58285,8 +58482,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1920813156",
+        "addr:city": "Los Antiguos",
+        "addr:full": "Patagonia Argentina 98",
+        "addr:place": "Lago Buenos Aires",
+        "addr:postcode": "9041",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Seccional Los Antiguos Dr. Reinaldo Bimbi",
+        "operator:type": "public",
+        "ref:sisa_refes": "10780352183016",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -59990,7 +60197,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2200311043",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -61028,22 +61236,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2499526361",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0407135,
-          -26.9562658
-        ]
-      },
-      "id": "node/2499526361"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2499968550",
         "amenity": "hospital",
         "emergency": "yes",
@@ -61085,6 +61277,7 @@
       "properties": {
         "@id": "node/2501280220",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Panamericano"
       },
       "geometry": {
@@ -61104,6 +61297,7 @@
         "addr:postcode": "5850",
         "addr:street": "C. Saavedra",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Cerino"
       },
       "geometry": {
@@ -61120,6 +61314,7 @@
       "properties": {
         "@id": "node/2504505481",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Escuela"
       },
       "geometry": {
@@ -61136,6 +61331,7 @@
       "properties": {
         "@id": "node/2504505482",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Int. Ferrero"
       },
       "geometry": {
@@ -61152,6 +61348,7 @@
       "properties": {
         "@id": "node/2504505483",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Magnasco"
       },
       "geometry": {
@@ -61168,6 +61365,7 @@
       "properties": {
         "@id": "node/2504505484",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Sarmiento"
       },
       "geometry": {
@@ -61184,6 +61382,7 @@
       "properties": {
         "@id": "node/2507677587",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Belgrano"
       },
       "geometry": {
@@ -61200,6 +61399,7 @@
       "properties": {
         "@id": "node/2507677590",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Castagnino"
       },
       "geometry": {
@@ -61232,6 +61432,7 @@
       "properties": {
         "@id": "node/2507677596",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Norte"
       },
       "geometry": {
@@ -61248,6 +61449,7 @@
       "properties": {
         "@id": "node/2507677599",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Asistencial Bº Pque. Monte Grande"
       },
       "geometry": {
@@ -62792,6 +62994,7 @@
         "@id": "node/2931506906",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Dispensario Carrillo"
       },
       "geometry": {
@@ -66408,8 +66611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.1156573,
-          -25.228177
+          -58.1150779,
+          -25.2285866
         ]
       },
       "id": "node/3732350953"
@@ -66800,6 +67003,7 @@
       "properties": {
         "@id": "node/3740776929",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro Asistencial Santa Rosa"
       },
       "geometry": {
@@ -69070,27 +69274,6 @@
         ]
       },
       "id": "node/4094663095"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4095399114",
-        "addr:city": "Río Gallegos",
-        "addr:postcode": "9400",
-        "addr:street": "José Ingenieros",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital Regional Rio Gallegos Santa Cruz",
-        "operator:type": "public"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.220373,
-          -51.6283464
-        ]
-      },
-      "id": "node/4095399114"
     },
     {
       "type": "Feature",
