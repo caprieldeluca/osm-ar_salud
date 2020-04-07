@@ -49,4 +49,4 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
   
 ----
 
-Última actualización: 05/Abril/2020.
+Última actualización: 07/Abril/2020.
