@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-07T15:13:02Z",
+  "timestamp": "2020-04-09T20:55:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4795,6 +4795,54 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/522331725",
+        "addr:city": "San Salvador de Jujuy, Jujuy",
+        "addr:postcode": "Y4604",
+        "addr:street": "William King",
+        "alt_name": "Centro de Atención Primaria de la Salud Sargento Cabral",
+        "amenity": "doctors",
+        "building": "public",
+        "description": "Con atención médica general los días Martes, Miércoles y Viernes y pediatría los días Lunes y Jueves",
+        "healthcare": "hospital",
+        "name": "CAPS Sargento Cabral",
+        "phone": "0388 428-2211"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2804492,
+              -24.2251249
+            ],
+            [
+              -65.2806676,
+              -24.225123
+            ],
+            [
+              -65.2806683,
+              -24.225216
+            ],
+            [
+              -65.280423,
+              -24.225218
+            ],
+            [
+              -65.2804226,
+              -24.2251456
+            ],
+            [
+              -65.2804492,
+              -24.2251249
+            ]
+          ]
+        ]
+      },
+      "id": "way/522331725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/522360130",
         "addr:city": "San Salvador de Jujuy",
         "addr:housenumber": "137",
@@ -4878,6 +4926,47 @@
         ]
       },
       "id": "way/523170128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524517695",
+        "alt_name": "Centro de Atención Primaria de la Salud Eva Perón",
+        "amenity": "doctors",
+        "building": "public",
+        "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "hospital",
+        "name": "CAPS Eva Perón",
+        "phone": "0388 428-2210"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2697755,
+              -24.2338705
+            ],
+            [
+              -65.2696403,
+              -24.2339152
+            ],
+            [
+              -65.2695489,
+              -24.2336852
+            ],
+            [
+              -65.269684,
+              -24.2336405
+            ],
+            [
+              -65.2697755,
+              -24.2338705
+            ]
+          ]
+        ]
+      },
+      "id": "way/524517695"
     },
     {
       "type": "Feature",
@@ -12822,6 +12911,22 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4397213791",
+        "amenity": "doctors",
+        "name": "consultorios medicos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9174418,
+          -39.2357968
+        ]
+      },
+      "id": "node/4397213791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4403514210",
         "amenity": "doctors",
         "name": "Consultorio Médico"
@@ -15790,8 +15895,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4090629,
-          -34.5945051
+          -58.4092319,
+          -34.5945824
         ]
       },
       "id": "node/4906271721"
@@ -17119,38 +17224,6 @@
         ]
       },
       "id": "node/5453847022"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5455169204",
-        "amenity": "doctors",
-        "name": "Consultorio Odontologico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0002241,
-          -31.7451822
-        ]
-      },
-      "id": "node/5455169204"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5455169321",
-        "amenity": "doctors",
-        "name": "Consultorio Odontologico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.004572,
-          -31.7215829
-        ]
-      },
-      "id": "node/5455169321"
     },
     {
       "type": "Feature",
@@ -19352,6 +19425,7 @@
       "properties": {
         "@id": "node/6316883087",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Odontologico"
       },
       "geometry": {
@@ -20060,6 +20134,7 @@
       "properties": {
         "@id": "node/6698080176",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorio Sanarte"
       },
       "geometry": {
@@ -20074,24 +20149,9 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6698123789",
-        "amenity": "doctors",
-        "name": "Consultorio Dental"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.5393965,
-          -32.0685039
-        ]
-      },
-      "id": "node/6698123789"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6698123829",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Calamuchita Salud"
       },
       "geometry": {

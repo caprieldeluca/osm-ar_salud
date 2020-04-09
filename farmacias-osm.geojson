@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-07T15:08:02Z",
+  "timestamp": "2020-04-09T20:54:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1807,6 +1807,7 @@
         "@id": "way/305325394",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Trozzi"
       },
       "geometry": {
@@ -1814,24 +1815,24 @@
         "coordinates": [
           [
             [
-              -57.5854816,
-              -38.0306175
+              -57.5854841,
+              -38.0306092
             ],
             [
-              -57.5853618,
-              -38.0305141
+              -57.585371,
+              -38.030516
             ],
             [
-              -57.58547,
-              -38.0304364
+              -57.5854829,
+              -38.0304283
             ],
             [
-              -57.5855898,
-              -38.0305397
+              -57.5855985,
+              -38.0305199
             ],
             [
-              -57.5854816,
-              -38.0306175
+              -57.5854841,
+              -38.0306092
             ]
           ]
         ]
@@ -4088,32 +4089,32 @@
         "coordinates": [
           [
             [
-              -62.9937376,
-              -40.8070734
+              -62.9937798,
+              -40.8070777
             ],
             [
-              -62.9936126,
-              -40.8070195
+              -62.9936603,
+              -40.8070209
             ],
             [
-              -62.9936272,
-              -40.8069996
+              -62.9936753,
+              -40.8070009
             ],
             [
-              -62.9935852,
-              -40.8069823
+              -62.9936345,
+              -40.8069833
             ],
             [
-              -62.9936424,
-              -40.806909
+              -62.9936899,
+              -40.8069095
             ],
             [
-              -62.9938116,
-              -40.8069822
+              -62.9938528,
+              -40.8069795
             ],
             [
-              -62.9937376,
-              -40.8070734
+              -62.9937798,
+              -40.8070777
             ]
           ]
         ]
@@ -4459,33 +4460,46 @@
       "type": "Feature",
       "properties": {
         "@id": "way/393306960",
+        "addr:city": "Viedma",
+        "addr:housenumber": "265",
+        "addr:postcode": "8500",
+        "addr:street": "Belgrano",
         "amenity": "pharmacy",
         "building": "yes",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Central"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -62.9913056,
-              -40.8076193
+              -62.9913827,
+              -40.8076703
             ],
             [
-              -62.991249,
-              -40.8075965
+              -62.9913046,
+              -40.8076352
             ],
             [
-              -62.9913074,
-              -40.8075161
+              -62.9914467,
+              -40.8074369
             ],
             [
-              -62.991364,
-              -40.8075389
+              -62.991529,
+              -40.8074683
             ],
             [
-              -62.9913056,
-              -40.8076193
+              -62.9914938,
+              -40.8075188
+            ],
+            [
+              -62.9914744,
+              -40.8075462
+            ],
+            [
+              -62.9913827,
+              -40.8076703
             ]
           ]
         ]
@@ -20504,24 +20518,24 @@
         "coordinates": [
           [
             [
-              -58.397753,
-              -34.595294
+              -58.3977704,
+              -34.5952697
             ],
             [
-              -58.3978185,
-              -34.5952865
+              -58.3978359,
+              -34.5952622
             ],
             [
-              -58.3978361,
-              -34.5953918
+              -58.3978535,
+              -34.5953675
             ],
             [
-              -58.3977706,
-              -34.5953992
+              -58.397788,
+              -34.5953749
             ],
             [
-              -58.397753,
-              -34.595294
+              -58.3977704,
+              -34.5952697
             ]
           ]
         ]
@@ -32490,8 +32504,10 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Isaco Abitbol",
         "amenity": "pharmacy",
+        "email": "fcialoreta@hotmail.com",
         "healthcare": "pharmacy",
-        "name": "Loreta"
+        "name": "Loreta",
+        "phone": "+54 376 4901209"
       },
       "geometry": {
         "type": "Point",
@@ -32911,8 +32927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4143168,
-          -34.5977911
+          -58.4142504,
+          -34.5977707
         ]
       },
       "id": "node/724287413"
@@ -34549,6 +34565,7 @@
       "properties": {
         "@id": "node/1088091783",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Del Pueblo"
       },
       "geometry": {
@@ -37707,6 +37724,7 @@
         "addr:street": "Av. San Martín 390",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Del Valle"
       },
       "geometry": {
@@ -38849,7 +38867,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1666789151",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -42306,7 +42325,8 @@
         "name": "Miguel Lanús - Sucursal 1",
         "opening_hours": "Mo-Su 07:30-22:00",
         "operator": "Red Miguel Lanús",
-        "phone": "+54 376 436 5545"
+        "phone": "+54 376 436 5545",
+        "website": "http://www.redmiguellanus.com.ar/?"
       },
       "geometry": {
         "type": "Point",
@@ -44636,7 +44656,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2183578266",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -44652,6 +44673,7 @@
       "properties": {
         "@id": "node/2183578267",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia S y S"
       },
       "geometry": {
@@ -44667,7 +44689,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2183578269",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -44682,7 +44705,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2183578272",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -52340,9 +52364,10 @@
         "addr:door": "16",
         "addr:floor": "1",
         "addr:housename": "Hipermercado Libertad",
+        "addr:housenumber": "3598",
         "addr:postcode": "3300",
         "addr:province": "Misiones",
-        "addr:street": "Avenida Tomás Guido",
+        "addr:street": "Avenida Quaranta",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
         "level": "1",
@@ -53189,8 +53214,9 @@
         "addr:street": "Buenos Aires",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Melius Farmacia",
-        "old_name": "Melius Mutual"
+        "name": "Melius",
+        "old_name": "Melius Mutual",
+        "phone": "+54 376 4427739"
       },
       "geometry": {
         "type": "Point",
@@ -53247,10 +53273,14 @@
       "properties": {
         "@id": "node/2660522193",
         "addr:city": "Posadas",
+        "addr:housenumber": "1999",
+        "addr:postcode": "3300",
         "addr:street": "Buenos Aires",
         "amenity": "pharmacy",
+        "email": "olivera_hugo@yahoo.com.ar",
         "healthcare": "pharmacy",
-        "name": "Belmont"
+        "name": "Belmont",
+        "phone": "+54 376 4424224"
       },
       "geometry": {
         "type": "Point",
@@ -53832,12 +53862,14 @@
         "@id": "node/2672802571",
         "addr:city": "Posadas",
         "addr:country": "AR",
+        "addr:housenumber": "4184",
         "addr:postcode": "3300",
         "addr:province": "Misiones",
         "addr:street": "Avenida Lavalle",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Del Rosario"
+        "name": "María del Rosario",
+        "phone": "+54 376 4571388"
       },
       "geometry": {
         "type": "Point",
@@ -53853,12 +53885,14 @@
       "properties": {
         "@id": "node/2672810074",
         "addr:city": "Posadas",
-        "addr:housenumber": "8471",
+        "addr:housenumber": "8411",
         "addr:postcode": "3300",
         "addr:street": "Avenida Tulo Llamosas",
         "amenity": "pharmacy",
+        "email": "celpi@yahoo.com.ar",
         "healthcare": "pharmacy",
-        "name": "MaryCel"
+        "name": "MaryCel",
+        "phone": "+54 376 4481377"
       },
       "geometry": {
         "type": "Point",
@@ -53958,13 +53992,14 @@
         "addr:street": "Bolívar",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Fleming"
+        "name": "Fleming",
+        "phone": "+54 376 4429927"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.9000038,
-          -27.3664039
+          -55.9000172,
+          -27.3664515
         ]
       },
       "id": "node/2680275732"
@@ -54094,6 +54129,7 @@
         "addr:province": "Misiones",
         "addr:street": "Avenida Tambor de Tacuarí",
         "amenity": "pharmacy",
+        "email": "gerencia@farmaserweb.com.ar",
         "healthcare": "pharmacy",
         "name": "FarmaSer",
         "phone": "+54 376 4460066"
@@ -54163,6 +54199,7 @@
       "properties": {
         "@id": "node/2688955658",
         "addr:city": "Posadas",
+        "addr:housenumber": "1018",
         "addr:postcode": "3300",
         "addr:street": "Junín",
         "amenity": "pharmacy",
@@ -54207,7 +54244,8 @@
         "addr:street": "Avenida Tulo Llamosas",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "El Angel"
+        "name": "El Angel",
+        "phone": "+54 376 4482670"
       },
       "geometry": {
         "type": "Point",
@@ -57600,6 +57638,7 @@
         "addr:housenumber": "91",
         "addr:street": "Av. Las Magnolias",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia de la Clinica"
       },
       "geometry": {
@@ -57732,6 +57771,7 @@
       "properties": {
         "@id": "node/3016170268",
         "addr:city": "Posadas",
+        "addr:housenumber": "1947",
         "addr:postcode": "N3300",
         "addr:street": "Colón",
         "amenity": "pharmacy",
@@ -59712,6 +59752,7 @@
       "properties": {
         "@id": "node/3200691555",
         "addr:city": "Posadas",
+        "addr:housenumber": "2735",
         "addr:postcode": "3300",
         "addr:street": "Avenida Lavalle",
         "amenity": "pharmacy",
@@ -59731,12 +59772,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3202355761",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2275",
+        "addr:postcode": "3300",
         "addr:street": "San Martín",
         "amenity": "pharmacy",
+        "contact:phone": "0800-444-7257",
         "healthcare": "pharmacy",
         "name": "General Paz",
         "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-12:00, 16:30-21:00",
-        "phone": "+54 376 4427222"
+        "phone": "+54 376 4427222",
+        "website": "https://www.farmaciageneralpaz.com/"
       },
       "geometry": {
         "type": "Point",
@@ -62906,6 +62952,7 @@
         "@id": "node/3319197653",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Orioni"
       },
       "geometry": {
@@ -63032,6 +63079,7 @@
         "@id": "node/3328512479",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Lescano"
       },
       "geometry": {
@@ -63049,6 +63097,7 @@
         "@id": "node/3329841513",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Brochero"
       },
       "geometry": {
@@ -63065,6 +63114,7 @@
       "properties": {
         "@id": "node/3329841518",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Eduardo"
       },
       "geometry": {
@@ -63082,6 +63132,7 @@
         "@id": "node/3329841526",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Farmasierras"
       },
       "geometry": {
@@ -64055,6 +64106,7 @@
       "properties": {
         "@id": "node/3383736319",
         "addr:city": "Posadas",
+        "addr:housenumber": "5038",
         "addr:postcode": "3300",
         "addr:street": "Avenida López y Planes",
         "amenity": "pharmacy",
@@ -64091,6 +64143,7 @@
       "properties": {
         "@id": "node/3383835991",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "El Sol Del Oeste"
       },
       "geometry": {
@@ -64107,6 +64160,7 @@
       "properties": {
         "@id": "node/3387103663",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Gailhou"
       },
       "geometry": {
@@ -64123,6 +64177,7 @@
       "properties": {
         "@id": "node/3390908807",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Meba"
       },
       "geometry": {
@@ -64138,7 +64193,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3390965890",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -68095,7 +68151,7 @@
       "properties": {
         "@id": "node/3585518893",
         "addr:city": "Posadas",
-        "addr:housenumber": "1699",
+        "addr:housenumber": "1417",
         "addr:postcode": "3300",
         "addr:street": "Córdoba",
         "amenity": "pharmacy",
@@ -70941,11 +70997,13 @@
       "properties": {
         "@id": "node/3770290434",
         "addr:city": "Posadas",
+        "addr:housenumber": "6604",
         "addr:postcode": "3300",
         "addr:street": "Avenida Cocomarola",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Kairos II"
+        "name": "Kairos II",
+        "phone": "+54 376 4468800"
       },
       "geometry": {
         "type": "Point",
@@ -72714,7 +72772,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3855861968",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -72729,7 +72788,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3855861974",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -72744,7 +72804,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3855861976",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -72759,7 +72820,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3855861983",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -73626,11 +73688,14 @@
       "properties": {
         "@id": "node/3928032062",
         "addr:city": "Posadas",
+        "addr:housenumber": "2878",
         "addr:postcode": "3300",
         "addr:street": "Avenida 200",
         "amenity": "pharmacy",
+        "email": "alarmaspossegur@gmail.com",
         "healthcare": "pharmacy",
-        "name": "Gauchito Gil"
+        "name": "Gauchito Gil",
+        "phone": "+54 376 154510123"
       },
       "geometry": {
         "type": "Point",
@@ -73646,11 +73711,13 @@
       "properties": {
         "@id": "node/3928032073",
         "addr:city": "Posadas",
+        "addr:housenumber": "8167",
         "addr:postcode": "3300",
         "addr:street": "Avenida Isaco Abitbol",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Mercedes"
+        "name": "Mercedes",
+        "phone": "+54 376 4465542"
       },
       "geometry": {
         "type": "Point",
@@ -74241,8 +74308,10 @@
         "addr:street": "Avenida Francisco de Haro",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "email": "emjrivaskeiner@gmail.com",
         "healthcare": "pharmacy",
-        "name": "Medifarm"
+        "name": "Medifarm",
+        "phone": "+54 376 4465162"
       },
       "geometry": {
         "type": "Point",
@@ -74359,6 +74428,7 @@
       "properties": {
         "@id": "node/3971985710",
         "addr:city": "Posadas",
+        "addr:housenumber": "2062",
         "addr:street": "Santiago del Estero",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
@@ -74883,7 +74953,8 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Chacabuco",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Iturbe"
       },
       "geometry": {
         "type": "Point",
@@ -75484,13 +75555,13 @@
         "@id": "node/4088623823",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Universidad"
+        "name": "Farmacia Universidad"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.5804694,
-          -31.5385499
+          -68.5804555,
+          -31.5384783
         ]
       },
       "id": "node/4088623823"
@@ -76345,6 +76416,7 @@
       "properties": {
         "@id": "node/4124904492",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Gailhou Del Arroyo"
       },
       "geometry": {
@@ -76518,11 +76590,13 @@
       "properties": {
         "@id": "node/4139698015",
         "addr:city": "Posadas",
-        "addr:housenumber": "5999",
+        "addr:housenumber": "5971",
         "addr:postcode": "3300",
         "addr:street": "Avenida Lavalle",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Maria Auxiliadora",
+        "phone": "+54 376 4453968"
       },
       "geometry": {
         "type": "Point",
@@ -77150,17 +77224,18 @@
       "properties": {
         "@id": "node/4182211466",
         "addr:city": "Posadas",
+        "addr:housenumber": "3423",
         "addr:postcode": "3300",
         "addr:street": "Avenida Arturo Jauretche",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Sofía"
+        "name": "Francisco I"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.9404257,
-          -27.3766252
+          -55.9404827,
+          -27.3766312
         ]
       },
       "id": "node/4182211466"
@@ -77374,8 +77449,9 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Chacabuco",
         "amenity": "pharmacy",
+        "email": "farmacia.guacurari@hotmail.com",
         "healthcare": "pharmacy",
-        "name": "Angel",
+        "name": "Guacurarí II",
         "phone": "+54 376 465004"
       },
       "geometry": {
@@ -77392,6 +77468,7 @@
       "properties": {
         "@id": "node/4210814965",
         "addr:city": "Posadas",
+        "addr:housenumber": "7349",
         "addr:postcode": "3300",
         "addr:street": "Avenida López y Planes",
         "amenity": "pharmacy",
@@ -78908,11 +78985,13 @@
         "@id": "node/4318289030",
         "addr:city": "Posadas",
         "addr:country": "AR",
+        "addr:housenumber": "4130",
         "addr:place": "Changomás",
         "addr:postcode": "3300",
-        "addr:street": "Avenida Alicia Moreau de Justo",
+        "addr:street": "Avenida Cabo de Hornos",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Changomás"
       },
       "geometry": {
         "type": "Point",
@@ -80440,6 +80519,7 @@
       "properties": {
         "@id": "node/4382093388",
         "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "210",
         "addr:postcode": "3370",
         "addr:street": "Avenida Victoria Aguirre",
         "amenity": "pharmacy",
@@ -81482,11 +81562,14 @@
       "properties": {
         "@id": "node/4421010348",
         "addr:city": "Posadas",
+        "addr:housenumber": "4574",
         "addr:postcode": "3300",
         "addr:street": "Avenida Lavalle",
         "amenity": "pharmacy",
+        "email": "farmhara@hotmail.com.ar",
         "healthcare": "pharmacy",
-        "name": "FarmHara"
+        "name": "FarmHara",
+        "phone": "+54 376 4433111"
       },
       "geometry": {
         "type": "Point",
@@ -81560,13 +81643,14 @@
         "addr:postcode": "3363",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Santa Catalina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.5198816,
-          -27.4741886
+          -54.5199084,
+          -27.4742172
         ]
       },
       "id": "node/4422845475"
@@ -82315,6 +82399,7 @@
       "properties": {
         "@id": "node/4452516537",
         "addr:city": "Posadas",
+        "addr:housenumber": "1908",
         "addr:postcode": "3300",
         "addr:street": "Avenida Santa Catalina",
         "amenity": "pharmacy",
@@ -82324,8 +82409,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.9090394,
-          -27.3665362
+          -55.9090167,
+          -27.3665197
         ]
       },
       "id": "node/4452516537"
@@ -82463,10 +82548,12 @@
       "properties": {
         "@id": "node/4472150514",
         "addr:city": "Posadas",
+        "addr:housenumber": "1265",
         "addr:street": "Avenida Cabred",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Madariaga"
+        "name": "Madariaga",
+        "phone": "+54 376 4434692"
       },
       "geometry": {
         "type": "Point",
@@ -82742,12 +82829,13 @@
       "properties": {
         "@id": "node/4496903163",
         "addr:city": "Posadas",
-        "addr:housenumber": "3400",
+        "addr:housenumber": "3408",
         "addr:postcode": "3300",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Farmacia"
+        "name": "Luz y Milagros",
+        "phone": "+54 376 4476204"
       },
       "geometry": {
         "type": "Point",
@@ -82955,6 +83043,7 @@
         "addr:housenumber": "229",
         "addr:street": "Libertad",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Peñalba"
       },
       "geometry": {
@@ -82970,7 +83059,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4523439049",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -82986,6 +83076,7 @@
       "properties": {
         "@id": "node/4523490552",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Ferroni"
       },
       "geometry": {
@@ -84203,6 +84294,7 @@
       "properties": {
         "@id": "node/4579917991",
         "addr:city": "Eldorado",
+        "addr:housenumber": "1890",
         "addr:postcode": "3380",
         "addr:street": "Avenida San Martín Este",
         "amenity": "pharmacy",
@@ -93316,6 +93408,7 @@
       "properties": {
         "@id": "node/4705308600",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Sindical"
       },
       "geometry": {
@@ -93332,6 +93425,7 @@
       "properties": {
         "@id": "node/4705308601",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Spedaletti"
       },
       "geometry": {
@@ -93348,6 +93442,7 @@
       "properties": {
         "@id": "node/4705308603",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Vital"
       },
       "geometry": {
@@ -93364,6 +93459,7 @@
       "properties": {
         "@id": "node/4707379450",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Del Pueblo"
       },
       "geometry": {
@@ -94592,7 +94688,8 @@
         "addr:street": "Avenida López Torres",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "M&P"
+        "name": "M&P",
+        "prone": "+54 376 4427840"
       },
       "geometry": {
         "type": "Point",
@@ -95737,7 +95834,8 @@
         "addr:postcode": "3304",
         "addr:street": "Colectora Tita Merello",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Uno Sucrusal IV"
       },
       "geometry": {
         "type": "Point",
@@ -95839,8 +95937,10 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Ramón Martirenez",
         "amenity": "pharmacy",
+        "email": "bensioncohen@yahoo.com.ar",
         "healthcare": "pharmacy",
-        "name": "Loben"
+        "name": "Loben",
+        "phone": "+54 376 15563623"
       },
       "geometry": {
         "type": "Point",
@@ -96802,10 +96902,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4952478657",
+        "addr:city": "Colonia Aurora",
+        "addr:housenumber": "58",
+        "addr:postcode": "3363",
         "addr:street": "Avenida Santa Catalina",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Farmacia Aurora"
+        "name": "Aurora"
       },
       "geometry": {
         "type": "Point",
@@ -96863,11 +96966,13 @@
       "properties": {
         "@id": "node/4964626821",
         "addr:city": "Posadas",
-        "addr:housenumber": "6400",
+        "addr:housenumber": "6434",
         "addr:postcode": "3300",
         "addr:street": "Avenida López y Planes",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Hygea",
+        "phone": "+54 3755 307857"
       },
       "geometry": {
         "type": "Point",
@@ -98600,11 +98705,14 @@
       "properties": {
         "@id": "node/5145095394",
         "addr:city": "Posadas",
+        "addr:housenumber": "3468",
         "addr:postcode": "3300",
         "addr:street": "Avenida Uruguay",
         "amenity": "pharmacy",
+        "email": "farmaciadrexpress@gmail.com",
         "healthcare": "pharmacy",
-        "name": "Dr. Express"
+        "name": "Dr. Express",
+        "phone": "+54 376 4710208"
       },
       "geometry": {
         "type": "Point",
@@ -99613,6 +99721,7 @@
         "addr:street": "Los Cedros",
         "amenity": "pharmacy",
         "email": "farmaciaubino@gmail.com",
+        "healthcare": "pharmacy",
         "name": "Farmacia Ubino",
         "name:en": "Pharmacy Ubino",
         "phone": "03584888446",
@@ -101598,6 +101707,7 @@
         "@id": "node/5320659622",
         "addr:city": "Posadas",
         "addr:country": "AR",
+        "addr:housenumber": "2909",
         "addr:street": "Avenida Kolping",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
@@ -101813,17 +101923,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5335799322",
-        "addr:housenumber": "1048",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1017",
         "addr:postcode": "3300",
         "addr:street": "Catamarca",
         "amenity": "pharmacy",
+        "communication:mobile_phone": "+3794237443",
         "dispensing": "yes",
         "drive_through": "yes",
         "healthcare": "pharmacy",
         "level": "0",
-        "name": "Costanera",
-        "opening_hours": "Mo-Sa 08:00-23:00",
-        "telephone": "+543764421350"
+        "name": "Farmalife Costanera",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "phone_1": "+543764421350",
+        "telephone": "+543764421350",
+        "website": "https://www.facebook.com/Farmalife-Costanera-324812681542618"
       },
       "geometry": {
         "type": "Point",
@@ -103574,10 +103688,12 @@
       "properties": {
         "@id": "node/5386825396",
         "addr:city": "Posadas",
+        "addr:housenumber": "4516",
         "addr:postcode": "3300",
         "addr:street": "Avenida López y Planes",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Serra"
       },
       "geometry": {
         "type": "Point",
@@ -103845,28 +103961,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5415104024",
-        "addr:city": "Posadas",
-        "addr:country": "AR",
-        "addr:housenumber": "7210",
-        "addr:street": "Calle 176",
-        "addr:unit": "2",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy",
-        "name": "Santa Rita"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.9558158,
-          -27.4171307
-        ]
-      },
-      "id": "node/5415104024"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5419126440",
         "addr:housenumber": "825",
         "addr:street": "El Alambrador",
@@ -104003,6 +104097,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5429910835",
+        "addr:city": "Oberá",
+        "addr:housenumber": "1539",
+        "addr:postcode": "3360",
         "addr:street": "Avenida Sarmiento",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
@@ -104077,12 +104174,13 @@
       "properties": {
         "@id": "node/5443674778",
         "addr:city": "Posadas",
+        "addr:housenumber": "4511",
         "addr:postcode": "3300",
         "addr:street": "Avenida Chacabuco",
         "amenity": "pharmacy",
         "contact:phone": "+54 376 4403639",
         "healthcare": "pharmacy",
-        "name": "Farmacia"
+        "name": "Guacurari I"
       },
       "geometry": {
         "type": "Point",
@@ -104284,6 +104382,7 @@
       "properties": {
         "@id": "node/5455169207",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Vital"
       },
       "geometry": {
@@ -104606,12 +104705,13 @@
       "properties": {
         "@id": "node/5463064923",
         "addr:city": "Oberá",
+        "addr:housenumber": "580",
         "addr:postcode": "3360",
         "addr:street": "Avenida Sarmiento",
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Cityfarma"
+        "name": "Eurociti II"
       },
       "geometry": {
         "type": "Point",
@@ -104671,6 +104771,7 @@
       "properties": {
         "@id": "node/5464256368",
         "addr:city": "Posadas",
+        "addr:housenumber": "1192",
         "addr:postcode": "3300",
         "addr:street": "Avenida General Roca",
         "amenity": "pharmacy",
@@ -106391,7 +106492,8 @@
         "addr:street": "Ruta Nacional 12",
         "amenity": "pharmacy",
         "dispensing": "yes",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "San Jorge"
       },
       "geometry": {
         "type": "Point",
@@ -106949,8 +107051,9 @@
       "properties": {
         "@id": "node/5569299119",
         "addr:city": "San Pedro",
+        "addr:housenumber": "301",
         "addr:postcode": "3364",
-        "addr:street": "San Martín",
+        "addr:street": "Avenida 25 de Mayo",
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
@@ -107895,6 +107998,7 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Tambor de Tacuarí",
         "amenity": "pharmacy",
+        "email": "fjmuzza71@live.com.ar",
         "healthcare": "pharmacy",
         "name": "El Boticario",
         "phone": "+54 376 4462162"
@@ -107972,11 +108076,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5691367149",
-        "addr:housenumber": "1001",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1007",
         "addr:postcode": "3304",
         "addr:street": "Avenida Juan Domingo Perón",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "email": "farmaciafarmasur@hotmail.com",
+        "healthcare": "pharmacy",
+        "name": "Farmasur",
+        "phone": "+54 3764-689044"
       },
       "geometry": {
         "type": "Point",
@@ -111563,6 +111671,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5967188485",
+        "addr:city": "Posadas",
+        "addr:housenumber": "3690",
         "addr:postcode": "3300",
         "addr:street": "Avenida López y Planes",
         "amenity": "pharmacy",
@@ -112029,6 +112139,7 @@
       "properties": {
         "@id": "node/6023210123",
         "addr:city": "Oberá",
+        "addr:housenumber": "611",
         "addr:postcode": "3360",
         "addr:street": "Avenida Sarmiento",
         "amenity": "pharmacy",
@@ -113743,7 +113854,7 @@
         "dispensing": "yes",
         "facebook": "https://www.facebook.com/pages/category/Medical-Equipment-Manufacturer/Farmacia-Del-Cerro-174971329733702/",
         "healthcare": "pharmacy",
-        "name": "Farmacia del Cerro",
+        "name": "Del Cerro",
         "phone": "+54 3754 509207"
       },
       "geometry": {
@@ -115607,6 +115718,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6278622785",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1563",
         "addr:postcode": "3300",
         "addr:street": "Junín",
         "amenity": "pharmacy",
@@ -116161,6 +116274,7 @@
       "properties": {
         "@id": "node/6316882300",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Teti"
       },
       "geometry": {
@@ -117030,7 +117144,7 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Mistral"
+        "name": "Bienestar"
       },
       "geometry": {
         "type": "Point",
@@ -117097,28 +117211,6 @@
         ]
       },
       "id": "node/6344078202"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6351002820",
-        "addr:city": "San Pedro",
-        "addr:housenumber": "364",
-        "addr:postcode": "3364",
-        "addr:street": "Avenida Güemes",
-        "amenity": "pharmacy",
-        "dispensing": "yes",
-        "healthcare": "pharmacy",
-        "name": "Farmavida"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.1118065,
-          -26.6282399
-        ]
-      },
-      "id": "node/6351002820"
     },
     {
       "type": "Feature",
@@ -117316,12 +117408,14 @@
       "properties": {
         "@id": "node/6379328330",
         "addr:city": "Montecarlo",
+        "addr:housenumber": "2860",
         "addr:postcode": "3384",
         "addr:street": "Avenida El Libertador",
         "amenity": "pharmacy",
         "description": "Ex Altura 2860",
         "dispensing": "yes",
         "healthcare": "pharmacy",
+        "name": "Americana",
         "operator": "Americana",
         "phone": "+54 3751 480089"
       },
@@ -118325,7 +118419,7 @@
       "properties": {
         "@id": "node/6458071340",
         "addr:city": "Campo Grande",
-        "addr:housenumber": "855",
+        "addr:housenumber": "587",
         "addr:postcode": "3362",
         "addr:street": "Avenida Los Cafetales",
         "amenity": "pharmacy",
@@ -118473,12 +118567,13 @@
       "properties": {
         "@id": "node/6533667828",
         "addr:city": "Posadas",
-        "addr:housenumber": "1590",
+        "addr:housenumber": "1580",
         "addr:postcode": "3300",
         "addr:street": "Avenida Juan Domingo Perón",
         "amenity": "pharmacy",
         "dispensing": "yes",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "San Francisco"
       },
       "geometry": {
         "type": "Point",
@@ -119079,6 +119174,7 @@
       "properties": {
         "@id": "node/6693784097",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Villa Strada"
       },
       "geometry": {
@@ -119095,6 +119191,7 @@
       "properties": {
         "@id": "node/6693784098",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Costanera"
       },
       "geometry": {
@@ -119111,6 +119208,7 @@
       "properties": {
         "@id": "node/6693784099",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Grau"
       },
       "geometry": {
@@ -119127,6 +119225,7 @@
       "properties": {
         "@id": "node/6693784100",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Sacarias"
       },
       "geometry": {
@@ -119143,6 +119242,7 @@
       "properties": {
         "@id": "node/6693784101",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Independencia"
       },
       "geometry": {
@@ -119159,6 +119259,7 @@
       "properties": {
         "@id": "node/6693784102",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Catalina"
       },
       "geometry": {
@@ -119175,6 +119276,7 @@
       "properties": {
         "@id": "node/6693784103",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Amate"
       },
       "geometry": {
@@ -119191,6 +119293,7 @@
       "properties": {
         "@id": "node/6693784104",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Costa Azul"
       },
       "geometry": {
@@ -120488,6 +120591,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6912214768",
+        "addr:city": "Posadas",
+        "addr:housenumber": "5785",
+        "addr:postcode": "3300",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
@@ -121736,11 +121842,14 @@
       "properties": {
         "@id": "node/7129672499",
         "addr:city": "Posadas",
+        "addr:housenumber": "3198",
         "addr:postcode": "3300",
         "addr:street": "Avenida Lavalle",
         "amenity": "pharmacy",
+        "email": "hernanchesani@gmail.com",
         "healthcare": "pharmacy",
-        "name": "Farmaplus"
+        "name": "Farmaplus",
+        "phone": "+54  376-154390404"
       },
       "geometry": {
         "type": "Point",
@@ -124138,7 +124247,7 @@
         "@id": "node/7300723290",
         "addr:city": "El Alcázar",
         "addr:postcode": "3384",
-        "addr:street": "Ruta Provincial 11",
+        "addr:street": "Avenida Güemes",
         "alt_name": "Botiquín de Farmacia Walko",
         "amenity": "pharmacy",
         "description": "https://commons.wikimedia.org/wiki/File:Botiqu%C3%ADn_de_Farmacia_Walko_en_El_Alc%C3%A1zar,_Provincia_de_Misiones.jpg",
@@ -124162,7 +124271,7 @@
         "@id": "node/7300756712",
         "addr:city": "El Alcázar",
         "addr:postcode": "3384",
-        "addr:street": "Ruta Provincial 11",
+        "addr:street": "Avenida Güemes",
         "amenity": "pharmacy",
         "contact:facebook": "https://www.facebook.com/farmacia.vida.98",
         "dispensing": "yes",
@@ -124235,7 +124344,7 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Santa María II"
+        "name": "Farma Yan"
       },
       "geometry": {
         "type": "Point",
@@ -124325,7 +124434,7 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Farmacia Araucaria",
+        "name": "Araucaria",
         "opening_hours": "Mo-Sa 08:00-12 Mo-Fr 16-20",
         "phone": "+54 3755 49-6368",
         "website": "https://website--784455998963263439142-pharmacy.negocio.site/"
@@ -124583,6 +124692,7 @@
         "@id": "node/7306717420",
         "addr:city": "Leandro N. Alem",
         "addr:full": "Avenida Libertador y Urquiza",
+        "addr:housenumber": "100",
         "addr:postcode": "3315",
         "addr:street": "Avenida Libertador",
         "amenity": "pharmacy",
@@ -124593,8 +124703,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.3207149,
-          -27.6052892
+          -55.3206819,
+          -27.6052581
         ]
       },
       "id": "node/7306717420"
@@ -124965,6 +125075,7 @@
       "properties": {
         "@id": "node/7313674426",
         "addr:city": "Oberá",
+        "addr:housenumber": "53",
         "addr:postcode": "3360",
         "addr:street": "Avenida de Las Américas",
         "amenity": "pharmacy",
@@ -125266,7 +125377,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7315118626",
+        "addr:city": "Eldorado",
         "addr:housenumber": "2295",
+        "addr:postcode": "3380",
         "addr:street": "Avenida San Martín Este",
         "amenity": "pharmacy",
         "dispensing": "yes",
@@ -125485,7 +125598,8 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Del Rosario"
+        "name": "Del Rosario",
+        "phone": "+54 3741-15402987"
       },
       "geometry": {
         "type": "Point",
@@ -125979,6 +126093,7 @@
       "properties": {
         "@id": "node/7339677317",
         "addr:city": "Andresito",
+        "addr:housenumber": "33",
         "addr:postcode": "3385",
         "addr:street": "Avenida República Argentina",
         "amenity": "pharmacy",
@@ -126030,7 +126145,7 @@
         "contact:facebook": "https://www.facebook.com/Farmacia-Libertad-665420057187935/",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Farmacia Libertad",
+        "name": "Libertad",
         "phone": "+54 3754 15413556"
       },
       "geometry": {
@@ -126066,6 +126181,7 @@
       "properties": {
         "@id": "node/7342207185",
         "addr:city": "Puerto Esperanza",
+        "addr:housenumber": "262",
         "addr:postcode": "3378",
         "addr:street": "Avenida 20 de Junio",
         "amenity": "pharmacy",
@@ -126376,6 +126492,7 @@
       "properties": {
         "@id": "node/7346711812",
         "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "467",
         "addr:street": "Avenida Néstor Kirchner",
         "amenity": "pharmacy",
         "dispensing": "yes",
@@ -126606,7 +126723,7 @@
       "properties": {
         "@id": "node/7350614596",
         "addr:city": "Puerto Rico",
-        "addr:housenumber": "1969",
+        "addr:housenumber": "1983",
         "addr:postcode": "3334",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
@@ -126722,7 +126839,7 @@
         "amenity": "pharmacy",
         "dispensing": "yes",
         "healthcare": "pharmacy",
-        "name": "Reis"
+        "name": "Nativa"
       },
       "geometry": {
         "type": "Point",
@@ -126782,7 +126899,7 @@
       "properties": {
         "@id": "node/7350796452",
         "addr:city": "Puerto Rico",
-        "addr:housenumber": "1890",
+        "addr:housenumber": "2890",
         "addr:postcode": "3334",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
@@ -127105,6 +127222,1355 @@
         ]
       },
       "id": "node/7357127504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376630654",
+        "addr:city": "Apóstoles",
+        "addr:housenumber": "510",
+        "addr:postcode": "3350",
+        "addr:street": "Tucumán",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Romavikar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7498686,
+          -27.9074582
+        ]
+      },
+      "id": "node/7376630654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376636974",
+        "addr:city": "Apóstoles",
+        "addr:housenumber": "356",
+        "addr:postcode": "3350",
+        "addr:street": "Avenida Polonia",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "email": "farmaciaapostoles@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Apóstoles",
+        "phone": "+54 376 4181672"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7468368,
+          -27.907761
+        ]
+      },
+      "id": "node/7376636974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376643042",
+        "addr:city": "Apóstoles",
+        "addr:housenumber": "587",
+        "addr:postcode": "3350",
+        "addr:street": "Italia",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "I.P.S."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7481643,
+          -27.9186766
+        ]
+      },
+      "id": "node/7376643042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376647185",
+        "addr:city": "Apóstoles",
+        "addr:housenumber": "1403",
+        "addr:postcode": "3350",
+        "addr:street": "San Juan",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Del Barrio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7545757,
+          -27.9039595
+        ]
+      },
+      "id": "node/7376647185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376810315",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4134",
+        "addr:postcode": "3300",
+        "addr:street": "Calle 31a",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "SYS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8938887,
+          -27.3876967
+        ]
+      },
+      "id": "node/7376810315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376813039",
+        "addr:city": "Posadas",
+        "addr:housenumber": "6891",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida López y Planes",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Santa Rita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9441518,
+          -27.3693974
+        ]
+      },
+      "id": "node/7376813039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7376889087",
+        "addr:city": "Pozo Azul",
+        "addr:postcode": "3364",
+        "addr:street": "Ruta Provincial 17",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmazul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.1515891,
+          -26.3468138
+        ]
+      },
+      "id": "node/7376889087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7377469696",
+        "addr:housenumber": "775",
+        "addr:street": "San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Santa Catalina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8128522,
+          -38.980693
+        ]
+      },
+      "id": "node/7377469696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7379811393",
+        "addr:city": "Veinticinco de Mayo",
+        "addr:housenumber": "332",
+        "addr:postcode": "3363",
+        "addr:street": "Roberto Frank",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Micaela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7446999,
+          -27.3796861
+        ]
+      },
+      "id": "node/7379811393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7379844956",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:housenumber": "1355",
+        "addr:postcode": "3364",
+        "addr:street": "Avenida de Las Américas",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Nueva Del Salto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8894904,
+          -27.0936258
+        ]
+      },
+      "id": "node/7379844956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7379848416",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:housenumber": "424",
+        "addr:postcode": "3364",
+        "addr:street": "Avenida de Las Américas",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Centro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8916556,
+          -27.1004902
+        ]
+      },
+      "id": "node/7379848416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7379859424",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:housenumber": "611",
+        "addr:postcode": "3364",
+        "addr:street": "Avenida de Las Américas",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Del Valle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8938175,
+          -27.0997918
+        ]
+      },
+      "id": "node/7379859424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7379867759",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:housenumber": "835",
+        "addr:postcode": "3364",
+        "addr:street": "Avenida de Las Américas",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "IPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8955733,
+          -27.0970872
+        ]
+      },
+      "id": "node/7379867759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7379983023",
+        "addr:housenumber": "4130",
+        "addr:street": "Avenida Reconquista",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Pluss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5771353,
+          -26.4050769
+        ]
+      },
+      "id": "node/7379983023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380005460",
+        "addr:city": "Concepción de la Sierra",
+        "addr:housenumber": "1218",
+        "addr:postcode": "3355",
+        "addr:street": "Avenida Gonzalo de Doblas",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Central"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5145903,
+          -27.9822143
+        ]
+      },
+      "id": "node/7380005460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380029618",
+        "addr:city": "Eldorado",
+        "addr:housenumber": "1480",
+        "addr:postcode": "3380",
+        "addr:street": "Avenida San Martín Este",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Global"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6103624,
+          -26.4084095
+        ]
+      },
+      "id": "node/7380029618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380137151",
+        "addr:city": "Eldorado",
+        "addr:postcode": "3380",
+        "addr:street": "Avenida San Martín Oeste",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "9 de Julio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6633579,
+          -26.4067793
+        ]
+      },
+      "id": "node/7380137151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380155592",
+        "addr:city": "Eldorado",
+        "addr:housenumber": "336",
+        "addr:postcode": "3380",
+        "addr:street": "Avenida San Martín Este",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "9 de Julio IV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6287768,
+          -26.4039999
+        ]
+      },
+      "id": "node/7380155592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380205409",
+        "addr:city": "Leandro N. Alem",
+        "addr:housenumber": "1054",
+        "addr:postcode": "3315",
+        "addr:street": "Avenida Belgrano",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Belgrano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3279661,
+          -27.6122214
+        ]
+      },
+      "id": "node/7380205409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380219271",
+        "addr:city": "Jardín América",
+        "addr:housenumber": "175",
+        "addr:postcode": "3328",
+        "addr:street": "Avenida Sarmiento",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "IPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2299098,
+          -27.0454577
+        ]
+      },
+      "id": "node/7380219271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380226602",
+        "addr:city": "Leandro N. Alem",
+        "addr:housenumber": "456",
+        "addr:postcode": "3315",
+        "addr:street": "Urquiza",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "APTM mutual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3235385,
+          -27.6082784
+        ]
+      },
+      "id": "node/7380226602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380258967",
+        "addr:city": "Oberá",
+        "addr:housenumber": "602",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Italia",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Trebol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1158029,
+          -27.4937741
+        ]
+      },
+      "id": "node/7380258967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380298425",
+        "addr:city": "Oberá",
+        "addr:housenumber": "457",
+        "addr:postcode": "3360",
+        "addr:street": "Avenida Sarmiento",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1165128,
+          -27.4837173
+        ]
+      },
+      "id": "node/7380298425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380318147",
+        "addr:city": "Posadas",
+        "addr:housenumber": "5765",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Ituzaingó",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Polaquito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9350786,
+          -27.3872773
+        ]
+      },
+      "id": "node/7380318147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380320548",
+        "addr:city": "Posadas",
+        "addr:housenumber": "6061",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Centenario",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9345277,
+          -27.3636878
+        ]
+      },
+      "id": "node/7380320548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380335229",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2763",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Eva Perón",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "La Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9471978,
+          -27.370394
+        ]
+      },
+      "id": "node/7380335229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380347618",
+        "addr:city": "Posadas",
+        "addr:housenumber": "5695",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Rademacher",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Acuario II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8982907,
+          -27.4009002
+        ]
+      },
+      "id": "node/7380347618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380352261",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2390",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Lavalle",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mutual 27 De Agosto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9057849,
+          -27.3705584
+        ]
+      },
+      "id": "node/7380352261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380386992",
+        "addr:city": "Posadas",
+        "addr:housenumber": "3528",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida López Torres",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Help II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8923092,
+          -27.3829234
+        ]
+      },
+      "id": "node/7380386992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380388953",
+        "addr:city": "Posadas",
+        "addr:housenumber": "3584",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida López Torres",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Central"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8923709,
+          -27.3831568
+        ]
+      },
+      "id": "node/7380388953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380404045",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1695",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Roque Sáenz Peña",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "La Cibeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8867512,
+          -27.36672
+        ]
+      },
+      "id": "node/7380404045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380413646",
+        "addr:city": "Posadas",
+        "addr:housenumber": "6425",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Tambor de Tacuarí",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Boscarino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9385173,
+          -27.3666397
+        ]
+      },
+      "id": "node/7380413646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380428602",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2354",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Martin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9170057,
+          -27.3692934
+        ]
+      },
+      "id": "node/7380428602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380432211",
+        "addr:city": "Posadas",
+        "addr:housenumber": "6291",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Tambor de Tacuarí",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Ferrpic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9368354,
+          -27.3668717
+        ]
+      },
+      "id": "node/7380432211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380439554",
+        "addr:city": "Posadas",
+        "addr:housenumber": "5158",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Tambor de Tacuarí",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "operator": "Changomás"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9264107,
+          -27.3672255
+        ]
+      },
+      "id": "node/7380439554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380441809",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4566",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Saludable"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9196372,
+          -27.3886066
+        ]
+      },
+      "id": "node/7380441809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380444445",
+        "addr:city": "Posadas",
+        "addr:housenumber": "6184",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Tambor de Tacuarí",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Flower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9360546,
+          -27.3666296
+        ]
+      },
+      "id": "node/7380444445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380458179",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2458",
+        "addr:postcode": "3300",
+        "addr:street": "Tucumán",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Smaunam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9012987,
+          -27.3717482
+        ]
+      },
+      "id": "node/7380458179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380462779",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4246",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Santa Catalina",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Santa Catalina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9118216,
+          -27.3867821
+        ]
+      },
+      "id": "node/7380462779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380473459",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4862",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Urquiza",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Ceilan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9224273,
+          -27.3579454
+        ]
+      },
+      "id": "node/7380473459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380474970",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1510",
+        "addr:postcode": "3300",
+        "addr:street": "La Rioja",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Eurocity I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.890828,
+          -27.3691235
+        ]
+      },
+      "id": "node/7380474970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380478150",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2572",
+        "addr:postcode": "3300",
+        "addr:street": "Buenos Aires",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Pharmaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8936512,
+          -27.374151
+        ]
+      },
+      "id": "node/7380478150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380478412",
+        "addr:city": "Puerto Rico",
+        "addr:housenumber": "2774",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida 9 de Julio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmahorro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.022707,
+          -26.8200945
+        ]
+      },
+      "id": "node/7380478412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380496713",
+        "addr:city": "Posadas",
+        "addr:housenumber": "6299",
+        "addr:postcode": "3300",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Las Calandrias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9853508,
+          -27.4084992
+        ]
+      },
+      "id": "node/7380496713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380503534",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1542",
+        "addr:postcode": "3300",
+        "addr:street": "La Rioja",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "IAMSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8910857,
+          -27.3690907
+        ]
+      },
+      "id": "node/7380503534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380513579",
+        "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "350",
+        "addr:postcode": "3370",
+        "addr:street": "Bonpland",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "IPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5709883,
+          -25.5962014
+        ]
+      },
+      "id": "node/7380513579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380514122",
+        "addr:city": "Puerto Esperanza",
+        "addr:housenumber": "247",
+        "addr:postcode": "3378",
+        "addr:street": "Avenida 25 de Mayo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "IPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6155857,
+          -26.0227136
+        ]
+      },
+      "id": "node/7380514122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380516132",
+        "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "30",
+        "addr:postcode": "3370",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Sindical"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5714949,
+          -25.5949629
+        ]
+      },
+      "id": "node/7380516132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380531966",
+        "addr:city": "San Pedro",
+        "addr:housenumber": "385",
+        "addr:postcode": "3364",
+        "addr:street": "Avenida 25 de Mayo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Cielo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.1112048,
+          -26.6231667
+        ]
+      },
+      "id": "node/7380531966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380549198",
+        "addr:city": "Puerto Rico",
+        "addr:housenumber": "2068",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0257119,
+          -26.8114003
+        ]
+      },
+      "id": "node/7380549198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7380550333",
+        "addr:city": "Puerto Rico",
+        "addr:housenumber": "1135",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Benitez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0212026,
+          -26.8005777
+        ]
+      },
+      "id": "node/7380550333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7384249385",
+        "addr:housenumber": "201",
+        "addr:street": "25 de Mayo",
+        "amenity": "pharmacy",
+        "fixme": "¿Ubicacion correcta?",
+        "name": "Marichal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4044093,
+          -31.5255807
+        ]
+      },
+      "id": "node/7384249385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7384249386",
+        "addr:housenumber": "298",
+        "addr:street": "San Martin",
+        "amenity": "pharmacy",
+        "fixme": "¿Ubicacion correcta?",
+        "name": "Del Centro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4046373,
+          -31.5248719
+        ]
+      },
+      "id": "node/7384249386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7384471340",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Meglioli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5791622,
+          -31.5351639
+        ]
+      },
+      "id": "node/7384471340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7386283956",
+        "addr:city": "Eldorado",
+        "addr:housenumber": "3181",
+        "addr:postcode": "3380",
+        "addr:street": "Avenida San Martin Este",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "El Alba",
+        "phone": "+54 3751 424713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.58951,
+          -26.4083242
+        ]
+      },
+      "id": "node/7386283956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7386533382",
+        "addr:city": "Guaraní",
+        "addr:postcode": "3361",
+        "addr:street": "Antártida Argentina",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Virgen de Fátima"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1569941,
+          -27.523926
+        ]
+      },
+      "id": "node/7386533382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7386538806",
+        "addr:city": "Guaraní",
+        "addr:full": "Avenida Remedios de Escalada casi Avenida Libertad",
+        "addr:postcode": "3361",
+        "addr:street": "Avenida Remedios de Escalada",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Crisol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1601275,
+          -27.5254041
+        ]
+      },
+      "id": "node/7386538806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7386931664",
+        "addr:city": "Garuhapé",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida República Argentina",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Argentina",
+        "official_name": "Farmacia Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.9587062,
+          -26.8203503
+        ]
+      },
+      "id": "node/7386931664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7387077661",
+        "addr:city": "Hipólito Irigoyen",
+        "addr:full": "Ruta Nacional 12 Km 1430",
+        "addr:postcode": "3328",
+        "addr:street": "Ruta Nacional 12",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Nerenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2874589,
+          -27.0837784
+        ]
+      },
+      "id": "node/7387077661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7387117385",
+        "addr:city": "Garupá",
+        "addr:housenumber": "2606",
+        "addr:postcode": "3304",
+        "addr:street": "Avenida de Las Américas",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mass"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.851746,
+          -27.4673072
+        ]
+      },
+      "id": "node/7387117385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7387253229",
+        "addr:city": "Montecarlo",
+        "addr:housenumber": "4063",
+        "addr:postcode": "3384",
+        "addr:street": "Avenida Brasil",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farma Salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7595608,
+          -26.5650745
+        ]
+      },
+      "id": "node/7387253229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7387253239",
+        "addr:city": "Montecarlo",
+        "addr:full": "Neuquén y Armenia",
+        "addr:housenumber": "61",
+        "addr:postcode": "3384",
+        "addr:street": "Neuquén",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Marcos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7346759,
+          -26.5729496
+        ]
+      },
+      "id": "node/7387253239"
     }
   ]
 }
