@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-09T20:54:02Z",
+  "timestamp": "2020-04-11T23:59:02Z",
   "features": [
     {
       "type": "Feature",
@@ -25716,6 +25716,48 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/790235681",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:use": "hospital",
+        "fixme": "covid19",
+        "name": "Consultorios Externos para Coronavirus",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "source": "http://www.lujan.gob.ar/?p=18929"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.0966708,
+              -34.569583
+            ],
+            [
+              -59.096741,
+              -34.5697287
+            ],
+            [
+              -59.0963849,
+              -34.5698449
+            ],
+            [
+              -59.0963147,
+              -34.5696992
+            ],
+            [
+              -59.0966708,
+              -34.569583
+            ]
+          ]
+        ]
+      },
+      "id": "way/790235681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/420034699",
         "addr:city": "San Isidro",
         "addr:postcode": "4707",
@@ -28533,6 +28575,7 @@
       "properties": {
         "@id": "node/3170973406",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica Privada Guerra"
       },
       "geometry": {
@@ -29210,6 +29253,7 @@
       "properties": {
         "@id": "node/3329839888",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Dispensario"
       },
       "geometry": {
@@ -30928,6 +30972,7 @@
         "addr:postcode": "5184",
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Pakton",
         "social_facility": "group_home",
         "social_facility:for": "mental_health",
@@ -31099,6 +31144,7 @@
       "properties": {
         "@id": "node/3837810682",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sala de Primeros Auxilio"
       },
       "geometry": {
@@ -31135,6 +31181,7 @@
       "properties": {
         "@id": "node/3853100314",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Dispensario"
       },
       "geometry": {
@@ -32448,6 +32495,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4124830920",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidad Sanitaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7020394,
+          -26.9398809
+        ]
+      },
+      "id": "node/4124830920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4126309889",
         "amenity": "clinic",
         "healthcare": "clinic",
@@ -33028,6 +33092,28 @@
         ]
       },
       "id": "node/4226134390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4226784478",
+        "addr:city": "San Miguel de Tucuman",
+        "addr:full": "Av. Francisco de Aguirre esq. Av. Mitre",
+        "addr:postcode": "4000",
+        "addr:street": "Avenida Francisco de Aguirre",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS Canal Norte",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2100527,
+          -26.7916722
+        ]
+      },
+      "id": "node/4226784478"
     },
     {
       "type": "Feature",
@@ -34534,6 +34620,26 @@
         ]
       },
       "id": "node/4487769592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4489771036",
+        "addr:city": "Tafí del Valle",
+        "addr:postcode": "4127",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS La Costa I",
+        "operator": "Centro medico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6728051,
+          -26.8559315
+        ]
+      },
+      "id": "node/4489771036"
     },
     {
       "type": "Feature",
@@ -37117,6 +37223,7 @@
       "properties": {
         "@id": "node/4703859282",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Primeros Auxilios"
       },
       "geometry": {
@@ -39752,6 +39859,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5314372082",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CAPS El Raco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4262242,
+          -26.6829523
+        ]
+      },
+      "id": "node/5314372082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5328181085",
         "addr:city": "Concordia",
         "addr:country": "AR",
@@ -42030,6 +42154,7 @@
       "properties": {
         "@id": "node/5633959427",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Dispensario Médico"
       },
       "geometry": {
@@ -42418,6 +42543,7 @@
       "properties": {
         "@id": "node/5746311385",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Dispensario Minicipal"
       },
       "geometry": {
@@ -43973,6 +44099,7 @@
       "properties": {
         "@id": "node/6316883294",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Medico Privado Villa Dolores"
       },
       "geometry": {
@@ -43983,6 +44110,28 @@
         ]
       },
       "id": "node/6316883294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6316930529",
+        "addr:city": "San Pedro de Colalao",
+        "addr:housenumber": "170",
+        "addr:street": "Las Heras",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "CAPS San Pedro de Colalao",
+        "operator": "SiProSa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.494595,
+          -26.2339582
+        ]
+      },
+      "id": "node/6316930529"
     },
     {
       "type": "Feature",

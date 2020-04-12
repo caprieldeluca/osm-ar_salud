@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-09T20:53:03Z",
+  "timestamp": "2020-04-11T23:59:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4737,43 +4737,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/107055678",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Avellaneda"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.2051075,
-              -26.7998641
-            ],
-            [
-              -65.2054301,
-              -26.801256
-            ],
-            [
-              -65.2044018,
-              -26.8014628
-            ],
-            [
-              -65.2040217,
-              -26.8000539
-            ],
-            [
-              -65.2051075,
-              -26.7998641
-            ]
-          ]
-        ]
-      },
-      "id": "way/107055678"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/107056870",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -6552,8 +6515,8 @@
               -34.6308242
             ],
             [
-              -58.5732248,
-              -34.6304062
+              -58.5731471,
+              -34.6303736
             ],
             [
               -58.5717693,
@@ -27924,44 +27887,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/327630536",
-        "amenity": "hospital",
-        "building": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital Tafi del Valle"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.7105833,
-              -26.8498057
-            ],
-            [
-              -65.7105267,
-              -26.8494119
-            ],
-            [
-              -65.710892,
-              -26.8493701
-            ],
-            [
-              -65.7109486,
-              -26.8497639
-            ],
-            [
-              -65.7105833,
-              -26.8498057
-            ]
-          ]
-        ]
-      },
-      "id": "way/327630536"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/328036827",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -33452,6 +33377,7 @@
       "properties": {
         "@id": "way/373215538",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Regional Villa Dolores",
         "phone": "(03544) 42-6406/15/37"
       },
@@ -34286,7 +34212,7 @@
       "properties": {
         "@id": "way/386580078",
         "amenity": "hospital",
-        "name": "Hospital",
+        "healthcare": "hospital",
         "operator": "Municipalidad"
       },
       "geometry": {
@@ -34323,7 +34249,7 @@
       "properties": {
         "@id": "way/386797444",
         "amenity": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -40817,24 +40743,24 @@
         "coordinates": [
           [
             [
-              -59.0981077,
-              -34.5705767
+              -59.0981389,
+              -34.5705952
             ],
             [
-              -59.0969362,
-              -34.5709839
+              -59.0969382,
+              -34.5709634
             ],
             [
-              -59.0962351,
-              -34.5696165
+              -59.0962508,
+              -34.5696461
             ],
             [
-              -59.0974066,
-              -34.5692093
+              -59.0974462,
+              -34.5692336
             ],
             [
-              -59.0981077,
-              -34.5705767
+              -59.0981389,
+              -34.5705952
             ]
           ]
         ]
@@ -52612,7 +52538,7 @@
         "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
         "healthcare": "hospital",
-        "layer": "1",
+        "layer": "2",
         "name": "Hospital Central de Mendoza",
         "operator:type": "public",
         "phone": "54 0261 4297100;4319148",
@@ -55289,6 +55215,218 @@
         ]
       },
       "id": "way/789761487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/790211368",
+        "addr:city": "Mendoza",
+        "addr:housenumber": "485",
+        "addr:postcode": "M5500GEE",
+        "addr:street": "Avenida Colón",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Pediátrico Alexander Fleming",
+        "operator": "OSEP",
+        "phone": "+54 0261 4290020",
+        "website": "https://osepmendoza.com.ar/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.8465672,
+              -32.8932731
+            ],
+            [
+              -68.8466267,
+              -32.8934887
+            ],
+            [
+              -68.8466913,
+              -32.8937233
+            ],
+            [
+              -68.8464786,
+              -32.8937647
+            ],
+            [
+              -68.8463544,
+              -32.8933145
+            ],
+            [
+              -68.8465672,
+              -32.8932731
+            ]
+          ]
+        ]
+      },
+      "id": "way/790211368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/790222852",
+        "addr:city": "Tafí del Valle",
+        "addr:postcode": "4137",
+        "addr:street": "Avenida San Martín",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Elias L. Medici",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.7117903,
+              -26.8501529
+            ],
+            [
+              -65.710528,
+              -26.8503004
+            ],
+            [
+              -65.7104444,
+              -26.8495738
+            ],
+            [
+              -65.7104065,
+              -26.849244
+            ],
+            [
+              -65.7117379,
+              -26.8491221
+            ],
+            [
+              -65.7117903,
+              -26.8501529
+            ]
+          ]
+        ]
+      },
+      "id": "way/790222852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/790239254",
+        "addr:city": "San Miguel de Tucuman",
+        "addr:housenumber": "2000",
+        "addr:postcode": "4000",
+        "addr:street": "Catamarca",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital De Clínicas Presidente Dr. Nicolás Avellaneda"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2051306,
+              -26.7998471
+            ],
+            [
+              -65.2054018,
+              -26.8009845
+            ],
+            [
+              -65.2054873,
+              -26.8013432
+            ],
+            [
+              -65.205692,
+              -26.8022017
+            ],
+            [
+              -65.2056713,
+              -26.8022303
+            ],
+            [
+              -65.205271,
+              -26.8023063
+            ],
+            [
+              -65.2046433,
+              -26.8024255
+            ],
+            [
+              -65.2040706,
+              -26.8000238
+            ],
+            [
+              -65.2050987,
+              -26.7998285
+            ],
+            [
+              -65.2051306,
+              -26.7998471
+            ]
+          ]
+        ]
+      },
+      "id": "way/790239254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/790614309",
+        "addr:city": "San Miguel de Tucuman",
+        "addr:housenumber": "2550",
+        "addr:postcode": "4000",
+        "addr:street": "Muñecas",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital De Salud Mental Nuestra Señora Del Carmen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1993018,
+              -26.7946112
+            ],
+            [
+              -65.1993804,
+              -26.7949354
+            ],
+            [
+              -65.1997556,
+              -26.7964843
+            ],
+            [
+              -65.1984363,
+              -26.796739
+            ],
+            [
+              -65.1982451,
+              -26.7959499
+            ],
+            [
+              -65.1981458,
+              -26.7955399
+            ],
+            [
+              -65.1985256,
+              -26.7954665
+            ],
+            [
+              -65.1983624,
+              -26.7947925
+            ],
+            [
+              -65.1993018,
+              -26.7946112
+            ]
+          ]
+        ]
+      },
+      "id": "way/790614309"
     },
     {
       "type": "Feature",
@@ -61800,6 +61938,7 @@
         "@id": "node/2363141770",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Hogar de Ancianos"
       },
       "geometry": {
@@ -65649,6 +65788,7 @@
       "properties": {
         "@id": "node/3329984227",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Capilla del Monte"
       },
       "geometry": {
@@ -65914,6 +66054,7 @@
       "properties": {
         "@id": "node/3378709894",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Tanti"
       },
       "geometry": {
@@ -65978,7 +66119,7 @@
       "properties": {
         "@id": "node/3380577579",
         "amenity": "hospital",
-        "name": "Centro De Salud"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -66451,30 +66592,6 @@
         ]
       },
       "id": "node/3484563744"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3512448987",
-        "addr:city": "Mendoza",
-        "addr:housenumber": "485",
-        "addr:postcode": "M5500GEE",
-        "addr:street": "Avenida Colón",
-        "amenity": "hospital",
-        "building": "yes",
-        "healthcare": "hospital",
-        "name": "Hospital Pediátrico Alexander Fleming",
-        "operator": "OSEP",
-        "phone": "54 0261 4290020"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.8465733,
-          -32.8937702
-        ]
-      },
-      "id": "node/3512448987"
     },
     {
       "type": "Feature",
@@ -69205,6 +69322,7 @@
       "properties": {
         "@id": "node/3823306311",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario"
       },
       "geometry": {
@@ -69546,7 +69664,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3903100431",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -70350,6 +70469,28 @@
         ]
       },
       "id": "node/4094663095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4094742667",
+        "addr:city": "La Reforma",
+        "addr:postcode": "8201",
+        "addr:street": "Miguel Recalde",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de La Reforma",
+        "opening_hours": "Mo-Fr 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2275785,
+          -37.5507214
+        ]
+      },
+      "id": "node/4094742667"
     },
     {
       "type": "Feature",
@@ -72002,23 +72143,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4124830920",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Unidad Sanitaria"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7020394,
-          -26.9398809
-        ]
-      },
-      "id": "node/4124830920"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4126309890",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -73381,22 +73505,6 @@
         ]
       },
       "id": "node/4226143321"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4226784478",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2100527,
-          -26.7916722
-        ]
-      },
-      "id": "node/4226784478"
     },
     {
       "type": "Feature",
@@ -76230,26 +76338,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4489771036",
-        "addr:city": "Tafí del Valle",
-        "addr:postcode": "4127",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "CAPS COSTA I",
-        "operator": "Centro medico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6728051,
-          -26.8559315
-        ]
-      },
-      "id": "node/4489771036"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4493539819",
         "amenity": "hospital"
       },
@@ -78119,6 +78207,7 @@
         "@id": "node/5080607069",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Gistas"
       },
       "geometry": {
@@ -78310,6 +78399,7 @@
         "addr:postcode": "3427",
         "addr:street": "San Antonio",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Antonio",
         "phone": "+54 3782 498087"
       },
@@ -79212,23 +79302,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5314372082",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "C. A. P. S."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4262242,
-          -26.6829523
-        ]
-      },
-      "id": "node/5314372082"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5318421523",
         "addr:housenumber": "300",
         "addr:street": "Avelino Díaz",
@@ -79349,6 +79422,7 @@
         "addr:postcode": "3384",
         "addr:street": "Neuquén",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital de Área Montecarlo",
         "opening_hours": "24/7",
         "phone": "480020"
@@ -80023,6 +80097,7 @@
       "properties": {
         "@id": "node/5523755617",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital de La Paz"
       },
       "geometry": {
@@ -82214,6 +82289,7 @@
       "properties": {
         "@id": "node/6211590846",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal de Villa de Soto"
       },
       "geometry": {
@@ -82625,28 +82701,6 @@
         ]
       },
       "id": "node/6316707334"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6316930529",
-        "addr:city": "San Pedro de Colalao",
-        "addr:housenumber": "170",
-        "addr:street": "Las Heras",
-        "amenity": "hospital",
-        "healthcare": "clinic",
-        "healthcare:speciality": "general",
-        "name": "CAPS San Pedro de Colalao",
-        "operator": "SiProSa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.494595,
-          -26.2339582
-        ]
-      },
-      "id": "node/6316930529"
     },
     {
       "type": "Feature",
@@ -86292,6 +86346,193 @@
         ]
       },
       "id": "node/7387171241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391073673",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Gdor. Duval"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4359613,
+          -38.741165
+        ]
+      },
+      "id": "node/7391073673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370468",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Barrio Escondido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2751774,
+          -36.6553867
+        ]
+      },
+      "id": "node/7391370468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370469",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Padre Castellaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9437449,
+          -35.7724959
+        ]
+      },
+      "id": "node/7391370469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370470",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Barrio Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1345251,
+          -35.6909252
+        ]
+      },
+      "id": "node/7391370470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370471",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Dr. Luis Argondizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1349542,
+          -35.6984665
+        ]
+      },
+      "id": "node/7391370471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370472",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1396427,
+          -37.6603566
+        ]
+      },
+      "id": "node/7391370472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370473",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Pichihunca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7701228,
+          -35.6501215
+        ]
+      },
+      "id": "node/7391370473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370474",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Unanue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3514514,
+          -37.5447134
+        ]
+      },
+      "id": "node/7391370474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370475",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud de Sarah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6875081,
+          -35.0265964
+        ]
+      },
+      "id": "node/7391370475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370476",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Barrio Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2437714,
+          -35.0322015
+        ]
+      },
+      "id": "node/7391370476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391370477",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro de Salud Maisonnave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3850997,
+          -35.0412639
+        ]
+      },
+      "id": "node/7391370477"
     }
   ]
 }

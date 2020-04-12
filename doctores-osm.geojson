@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-09T20:55:02Z",
+  "timestamp": "2020-04-12T00:00:01Z",
   "features": [
     {
       "type": "Feature",
@@ -7694,6 +7694,52 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/790513476",
+        "addr:city": "Viedma",
+        "addr:housenumber": "247",
+        "addr:postcode": "8500",
+        "addr:street": "Álvaro Barros",
+        "amenity": "doctors",
+        "building": "yes",
+        "healthcare": "doctor",
+        "name": "Traumatóloga - Dra. La Valle Crespo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.9895236,
+              -40.8102973
+            ],
+            [
+              -62.9894655,
+              -40.8102718
+            ],
+            [
+              -62.9895634,
+              -40.8101376
+            ],
+            [
+              -62.9896533,
+              -40.8100148
+            ],
+            [
+              -62.9897101,
+              -40.8100363
+            ],
+            [
+              -62.9895236,
+              -40.8102973
+            ]
+          ]
+        ]
+      },
+      "id": "way/790513476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/427988926",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -11716,27 +11762,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4094742667",
-        "addr:city": "La Reforma",
-        "addr:postcode": "8201",
-        "addr:street": "Miguel Recalde",
-        "amenity": "doctors",
-        "emergency": "yes",
-        "name": "Posta Sanitaria",
-        "opening_hours": "Mo-Fr 08:00-18:00"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.2275785,
-          -37.5507214
-        ]
-      },
-      "id": "node/4094742667"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4097996150",
         "addr:city": "Morón",
         "addr:housenumber": "1300",
@@ -14826,6 +14851,7 @@
       "properties": {
         "@id": "node/4677877122",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "C.I.C.",
         "name:es": "C.I.C."
       },
@@ -14843,6 +14869,7 @@
       "properties": {
         "@id": "node/4677893203",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Salud LA ESTACIÓN",
         "name:es": "Centro de Salud LA ESTACIÓN"
       },
@@ -14860,6 +14887,7 @@
       "properties": {
         "@id": "node/4677893204",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Salud LAS FLORES",
         "name:es": "Centro de Salud LAS FLORES"
       },
@@ -14877,6 +14905,7 @@
       "properties": {
         "@id": "node/4678004491",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Salud 9 DE JILIO",
         "name:es": "Centro de Salud 9 DE JILIO"
       },
@@ -17228,22 +17257,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5455169395",
-        "amenity": "doctors",
-        "name": "Consultorio Odontologico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0051889,
-          -31.8005378
-        ]
-      },
-      "id": "node/5455169395"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5462118223",
         "addr:city": "Oberá",
         "addr:street": "Ralf Singer",
@@ -18846,22 +18859,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6052877742",
-        "amenity": "doctors",
-        "name": "Centro Odontologico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0547615,
-          -31.9521804
-        ]
-      },
-      "id": "node/6052877742"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6053038677",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -19161,6 +19158,7 @@
         "@id": "node/6221972806",
         "amenity": "doctors",
         "health_facility:type": "office",
+        "healthcare": "doctor",
         "name": "Doctor Butiler",
         "opening_hours": "Mo-Th 17:00-21:00",
         "phone": "+054 03544 550398"
