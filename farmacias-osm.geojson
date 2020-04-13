@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-12T00:00:01Z",
+  "timestamp": "2020-04-13T17:33:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4758,8 +4758,8 @@
         "coordinates": [
           [
             [
-              -62.9832787,
-              -40.8224878
+              -62.9832761,
+              -40.8224875
             ],
             [
               -62.9831197,
@@ -4770,16 +4770,24 @@
               -40.8224715
             ],
             [
-              -62.9830867,
-              -40.8223765
+              -62.9830869,
+              -40.8223655
             ],
             [
-              -62.9832918,
-              -40.8223927
+              -62.9832349,
+              -40.8223751
             ],
             [
-              -62.9832787,
-              -40.8224878
+              -62.9832312,
+              -40.8223879
+            ],
+            [
+              -62.9832944,
+              -40.822393
+            ],
+            [
+              -62.9832761,
+              -40.8224875
             ]
           ]
         ]
@@ -28875,6 +28883,7 @@
         "building": "yes",
         "healthcare": "pharmacy",
         "name": "Farmacia Carbone",
+        "operator:type": "private",
         "phone": "03543 493408"
       },
       "geometry": {
@@ -28917,6 +28926,7 @@
         "building": "yes",
         "healthcare": "pharmacy",
         "name": "Farmacia Maroni",
+        "operator:type": "private",
         "phone": "03543 492501"
       },
       "geometry": {
@@ -31321,6 +31331,65 @@
         ]
       },
       "id": "way/787180410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/791126380",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "building:levels": "1",
+        "healthcare": "pharmacy",
+        "name": "Hiperfarmacia San Martín"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5735676,
+              -31.528334
+            ],
+            [
+              -68.5736417,
+              -31.5283096
+            ],
+            [
+              -68.5737017,
+              -31.5283104
+            ],
+            [
+              -68.573758,
+              -31.5283277
+            ],
+            [
+              -68.5737536,
+              -31.5285983
+            ],
+            [
+              -68.5737463,
+              -31.528708
+            ],
+            [
+              -68.5735879,
+              -31.5287044
+            ],
+            [
+              -68.5735983,
+              -31.5283733
+            ],
+            [
+              -68.5735646,
+              -31.5283725
+            ],
+            [
+              -68.5735676,
+              -31.528334
+            ]
+          ]
+        ]
+      },
+      "id": "way/791126380"
     },
     {
       "type": "Feature",
@@ -41902,7 +41971,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1903129604",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -42873,14 +42943,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2000080807",
+        "addr:housenumber": "91",
+        "addr:street": "Diagonal España",
         "amenity": "pharmacy",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Farmacia Global",
+        "phone": "54 0299 4472682"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.0577885,
-          -38.9500488
+          -68.0577214,
+          -38.9499946
         ]
       },
       "id": "node/2000080807"
@@ -43535,6 +43609,7 @@
         "@id": "node/2101700940",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Del Super"
       },
       "geometry": {
@@ -43958,7 +44033,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2125486448",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -57429,7 +57505,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2998346742",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -63632,6 +63709,7 @@
       "properties": {
         "@id": "node/3358848074",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Fermin"
       },
       "geometry": {
@@ -63785,6 +63863,7 @@
       "properties": {
         "@id": "node/3378992019",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pomar"
       },
       "geometry": {
@@ -63801,6 +63880,7 @@
       "properties": {
         "@id": "node/3378992021",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Abdel Masih"
       },
       "geometry": {
@@ -63817,6 +63897,7 @@
       "properties": {
         "@id": "node/3378992025",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Americana"
       },
       "geometry": {
@@ -63833,6 +63914,7 @@
       "properties": {
         "@id": "node/3379032308",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Salbego de Núñez"
       },
       "geometry": {
@@ -63849,6 +63931,7 @@
       "properties": {
         "@id": "node/3379032309",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Nueva Villanueva"
       },
       "geometry": {
@@ -63865,6 +63948,7 @@
       "properties": {
         "@id": "node/3379032319",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Edén"
       },
       "geometry": {
@@ -63880,7 +63964,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3379032328",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -63896,6 +63981,7 @@
       "properties": {
         "@id": "node/3379032334",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Margiotta"
       },
       "geometry": {
@@ -63912,7 +63998,8 @@
       "properties": {
         "@id": "node/3379113987",
         "addr:city": "Villa Giardino",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -63928,7 +64015,8 @@
       "properties": {
         "@id": "node/3379113988",
         "addr:city": "Villa Giardino",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -63945,6 +64033,7 @@
         "@id": "node/3379113989",
         "addr:city": "Villa Giardino",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farri"
       },
       "geometry": {
@@ -64027,7 +64116,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3379910564",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -64042,7 +64132,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3379910568",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -68800,23 +68891,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3634796871",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy",
-        "name": "Hiperfarmacia San Martín"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.573687,
-          -31.5283966
-        ]
-      },
-      "id": "node/3634796871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3638054274",
         "addr:city": "Buenos Aires",
         "addr:street": "Avenida Rivadavia",
@@ -69285,6 +69359,7 @@
       "properties": {
         "@id": "node/3673455723",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Agnessini"
       },
       "geometry": {
@@ -69301,6 +69376,7 @@
       "properties": {
         "@id": "node/3673455724",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Americana"
       },
       "geometry": {
@@ -69318,6 +69394,7 @@
         "@id": "node/3673455725",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Cabrini"
       },
       "geometry": {
@@ -69335,6 +69412,7 @@
         "@id": "node/3673455726",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "La Falda"
       },
       "geometry": {
@@ -71905,6 +71983,7 @@
       "properties": {
         "@id": "node/3825831957",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Cosquin"
       },
       "geometry": {
@@ -77449,6 +77528,7 @@
         "addr:postcode": "5166",
         "addr:street": "Corrientes",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Paidón",
         "opening_hours": "24/7"
       },
@@ -81480,6 +81560,7 @@
       "properties": {
         "@id": "node/4418363001",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Villa Paranacito",
         "phone": "+543446495133"
       },
@@ -103457,9 +103538,12 @@
       "properties": {
         "@id": "node/5376992530",
         "addr:city": "Salsipuedes",
+        "addr:postcode": "X5113",
+        "addr:street": "Avenida Sarmiento",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
         "name": "Farmacia Cordera",
+        "operator_type": "private",
         "phone": "03543 477553"
       },
       "geometry": {
@@ -107838,7 +107922,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5646642919",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -107854,6 +107939,7 @@
       "properties": {
         "@id": "node/5646643837",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farma Ser"
       },
       "geometry": {
@@ -108750,6 +108836,7 @@
       "properties": {
         "@id": "node/5748135720",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Temprana"
       },
       "geometry": {
@@ -108766,6 +108853,7 @@
       "properties": {
         "@id": "node/5748135721",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Ardiles"
       },
       "geometry": {
@@ -108782,6 +108870,7 @@
       "properties": {
         "@id": "node/5748135722",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Agüero"
       },
       "geometry": {
@@ -108798,6 +108887,7 @@
       "properties": {
         "@id": "node/5748135724",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Punilla"
       },
       "geometry": {
@@ -108814,6 +108904,7 @@
       "properties": {
         "@id": "node/5748135725",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Strycek de Dieguez"
       },
       "geometry": {
@@ -108830,6 +108921,7 @@
       "properties": {
         "@id": "node/5748135726",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Guil Lopez"
       },
       "geometry": {
@@ -108846,6 +108938,7 @@
       "properties": {
         "@id": "node/5748135727",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Noya"
       },
       "geometry": {
@@ -108862,6 +108955,7 @@
       "properties": {
         "@id": "node/5748135728",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Ardiles"
       },
       "geometry": {
@@ -108878,6 +108972,7 @@
       "properties": {
         "@id": "node/5748135729",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farma Gen"
       },
       "geometry": {
@@ -108894,6 +108989,7 @@
       "properties": {
         "@id": "node/5748135730",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Arguello"
       },
       "geometry": {
@@ -108926,6 +109022,7 @@
       "properties": {
         "@id": "node/5748135732",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Del Super"
       },
       "geometry": {
@@ -113904,6 +114001,7 @@
       "properties": {
         "@id": "node/6157194085",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Americana"
       },
       "geometry": {
@@ -114485,6 +114583,7 @@
         "@id": "node/6187152664",
         "addr:city": "Huerta Grande",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Gontero Decara"
       },
       "geometry": {
@@ -114502,6 +114601,7 @@
         "@id": "node/6187152668",
         "addr:city": "Huerta Grande",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Huerta Grande"
       },
       "geometry": {
@@ -125844,7 +125944,8 @@
         "amenity": "pharmacy",
         "dispensing": "no",
         "healthcare": "pharmacy",
-        "name": "Farma Dino"
+        "name": "Farma Dino",
+        "operator:type": "private"
       },
       "geometry": {
         "type": "Point",
@@ -125866,6 +125967,7 @@
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
         "name": "Farmacia Lucca",
+        "operator:type": "private",
         "phone": "03543 493900"
       },
       "geometry": {
@@ -125888,6 +125990,7 @@
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
         "name": "Farmacia Salsipuedes",
+        "operator:type": "private",
         "phone": "03543 493392"
       },
       "geometry": {
@@ -128885,6 +128988,70 @@
         ]
       },
       "id": "node/7392815479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7393803354",
+        "addr:city": "Córdoba",
+        "addr:housenumber": "2850",
+        "addr:postcode": "X5014DTN",
+        "addr:street": "Pigüé",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Milagros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1603236,
+          -31.4481745
+        ]
+      },
+      "id": "node/7393803354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7393887128",
+        "addr:city": "Córdoba",
+        "addr:housenumber": "3034",
+        "addr:postcode": "5014",
+        "addr:street": "Avenida Pablo Ricchieri",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Richieri",
+        "phone": "+54 351 4645038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1768971,
+          -31.4470029
+        ]
+      },
+      "id": "node/7393887128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7393927175",
+        "addr:housenumber": "1452",
+        "addr:street": "José de San Martin",
+        "amenity": "pharmacy",
+        "name": "Farmacia Farmaceuticos Asociados de Neuquen S.R.L.",
+        "phone": "54 0299 4475777"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0794457,
+          -38.9550475
+        ]
+      },
+      "id": "node/7393927175"
     }
   ]
 }

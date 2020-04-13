@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-11T23:59:02Z",
+  "timestamp": "2020-04-13T17:34:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4187,9 +4187,13 @@
       "type": "Feature",
       "properties": {
         "@id": "way/83586672",
+        "addr:city": "San Miguel de Tucumán",
+        "addr:housenumber": "550",
+        "addr:postcode": "4000",
+        "addr:street": "Alberdi",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Padilla"
+        "name": "Hospital Ángel Cruz Padilla"
       },
       "geometry": {
         "type": "Polygon",
@@ -4888,10 +4892,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/109440743",
+        "addr:city": "San Miguel de Tucumán",
+        "addr:housenumber": "750",
+        "addr:postcode": "4000",
+        "addr:street": "Avenida Avellaneda",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Centro de Salud"
+        "name": "Hospital Centro De Salud Zenón J. Santillán"
       },
       "geometry": {
         "type": "Polygon",
@@ -5169,43 +5177,6 @@
         ]
       },
       "id": "way/109849153"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/110467079",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "920"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.8088675,
-              -28.4674818
-            ],
-            [
-              -65.8087402,
-              -28.4675661
-            ],
-            [
-              -65.8086544,
-              -28.4674659
-            ],
-            [
-              -65.8087817,
-              -28.4673817
-            ],
-            [
-              -65.8088675,
-              -28.4674818
-            ]
-          ]
-        ]
-      },
-      "id": "way/110467079"
     },
     {
       "type": "Feature",
@@ -6689,6 +6660,49 @@
         ]
       },
       "id": "way/134025971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/137976479",
+        "addr:city": "San Fernando del Valle de Catamarca",
+        "addr:postcode": "4700",
+        "addr:street": "Salta",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Instituto Medico de la Comunidad",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.777144,
+              -28.4608454
+            ],
+            [
+              -65.777146,
+              -28.4607469
+            ],
+            [
+              -65.777614,
+              -28.4607543
+            ],
+            [
+              -65.7776119,
+              -28.4608529
+            ],
+            [
+              -65.777144,
+              -28.4608454
+            ]
+          ]
+        ]
+      },
+      "id": "way/137976479"
     },
     {
       "type": "Feature",
@@ -9428,7 +9442,7 @@
         "addr:housenumber": "450",
         "addr:place": "Confluencia",
         "addr:street": "Buenos Aires",
-        "alt_name": "Hospital Castro Rendon",
+        "alt_name": "Hospital Castro Rendon - HCR - HPN",
         "amenity": "hospital",
         "description": "Alto riesgo con terapia intensiva especializada",
         "healthcare": "hospital",
@@ -11306,6 +11320,7 @@
         "@id": "way/187575581",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Regional Domingo Funes"
       },
       "geometry": {
@@ -11343,6 +11358,7 @@
         "@id": "way/187579010",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Centro De Reabilitación Socio Laboral Cusca Ñámpi"
       },
       "geometry": {
@@ -29387,9 +29403,11 @@
         "addr:postcode": "B2900",
         "addr:street": "Avenida Doctor Mariano Moreno",
         "amenity": "hospital",
-        "contact:phone": "+54 (336) 442-2054",
+        "beds": "158",
         "emergency": "yes",
-        "name": "Hospital Interzonal General de Agudos \"San Felipe\""
+        "healthcare": "hospital",
+        "name": "Hospital Interzonal General de Agudos \"San Felipe\"",
+        "phone": "+54 3461 4422054"
       },
       "geometry": {
         "type": "Polygon",
@@ -33830,6 +33848,7 @@
         "addr:postcode": "5166",
         "addr:street": "San Luis y Plaemón Carranza",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Armando Cima"
       },
       "geometry": {
@@ -42402,6 +42421,115 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/491693973",
+        "addr:city": "San Fernando del Valle de Catamarca",
+        "addr:postcode": "4700",
+        "addr:street": "Chacabuco;Salta",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in": "San Fdo. del Valle de Catamarca",
+        "name": "Sanatorio Pasteur",
+        "operator:type": "private",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.7774318,
+              -28.4709057
+            ],
+            [
+              -65.7773693,
+              -28.471485
+            ],
+            [
+              -65.777327,
+              -28.4715355
+            ],
+            [
+              -65.7772949,
+              -28.4715504
+            ],
+            [
+              -65.7772307,
+              -28.4715504
+            ],
+            [
+              -65.7771851,
+              -28.4715281
+            ],
+            [
+              -65.7771699,
+              -28.4715103
+            ],
+            [
+              -65.7769705,
+              -28.4714895
+            ],
+            [
+              -65.7769705,
+              -28.47147
+            ],
+            [
+              -65.7769705,
+              -28.4714449
+            ],
+            [
+              -65.777033,
+              -28.4714464
+            ],
+            [
+              -65.7770415,
+              -28.4712399
+            ],
+            [
+              -65.7770989,
+              -28.4712429
+            ],
+            [
+              -65.777104,
+              -28.4710914
+            ],
+            [
+              -65.7770432,
+              -28.4710884
+            ],
+            [
+              -65.7770471,
+              -28.4710224
+            ],
+            [
+              -65.7769549,
+              -28.4710196
+            ],
+            [
+              -65.7769709,
+              -28.4708445
+            ],
+            [
+              -65.7771238,
+              -28.4708567
+            ],
+            [
+              -65.7771207,
+              -28.4708824
+            ],
+            [
+              -65.7774318,
+              -28.4709057
+            ]
+          ]
+        ]
+      },
+      "id": "way/491693973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/494685331",
         "addr:city": "Resistencia",
         "addr:postcode": "3500",
@@ -44534,6 +44662,66 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/521673980",
+        "addr:city": "San Fernando del Valle de Catamarca",
+        "addr:postcode": "4700",
+        "addr:street": "Junin",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Sanatorio Junin",
+        "operator:type": "private",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.7835855,
+              -28.4652403
+            ],
+            [
+              -65.7835693,
+              -28.4656086
+            ],
+            [
+              -65.7831778,
+              -28.4655953
+            ],
+            [
+              -65.7831827,
+              -28.4654837
+            ],
+            [
+              -65.7830332,
+              -28.4654787
+            ],
+            [
+              -65.7830381,
+              -28.4653672
+            ],
+            [
+              -65.7831905,
+              -28.4653723
+            ],
+            [
+              -65.7831969,
+              -28.4652271
+            ],
+            [
+              -65.7835855,
+              -28.4652403
+            ]
+          ]
+        ]
+      },
+      "id": "way/521673980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/521898129",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -45476,8 +45664,9 @@
         "addr:postcode": "6300",
         "addr:street": "Raul B. Diaz",
         "amenity": "hospital",
+        "disused": "Centro de Medicina Nuclear",
         "healthcare": "hospital",
-        "name": "Centro de Medicina Nuclear"
+        "name": "Centro de Asistencia Respiratoria"
       },
       "geometry": {
         "type": "Polygon",
@@ -48326,52 +48515,6 @@
         ]
       },
       "id": "way/620769837"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/622377634",
-        "amenity": "hospital",
-        "building": "yes",
-        "healthcare": "hospital",
-        "name": "Mini hospital"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.8009987,
-              -28.4959692
-            ],
-            [
-              -65.8008671,
-              -28.4958277
-            ],
-            [
-              -65.8010353,
-              -28.4957069
-            ],
-            [
-              -65.8011005,
-              -28.4957771
-            ],
-            [
-              -65.801046,
-              -28.4958163
-            ],
-            [
-              -65.8011124,
-              -28.4958877
-            ],
-            [
-              -65.8009987,
-              -28.4959692
-            ]
-          ]
-        ]
-      },
-      "id": "way/622377634"
     },
     {
       "type": "Feature",
@@ -55431,6 +55574,344 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/790906458",
+        "addr:city": "Banda del Río Salí",
+        "addr:full": "Ruta Nacional 9 y Camino del Carmen",
+        "addr:postcode": "4109",
+        "addr:street": "Ruta Nacional 9",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Del Este Eva Perón",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1663334,
+              -26.8514579
+            ],
+            [
+              -65.1662356,
+              -26.8531217
+            ],
+            [
+              -65.1662078,
+              -26.8531507
+            ],
+            [
+              -65.1642267,
+              -26.8535273
+            ],
+            [
+              -65.1642477,
+              -26.8531695
+            ],
+            [
+              -65.163853,
+              -26.8531511
+            ],
+            [
+              -65.1638264,
+              -26.8536033
+            ],
+            [
+              -65.1637673,
+              -26.8536146
+            ],
+            [
+              -65.1635454,
+              -26.8515747
+            ],
+            [
+              -65.1662776,
+              -26.8511011
+            ],
+            [
+              -65.1662825,
+              -26.8511234
+            ],
+            [
+              -65.1662481,
+              -26.8511327
+            ],
+            [
+              -65.1662164,
+              -26.8511478
+            ],
+            [
+              -65.1661886,
+              -26.8511682
+            ],
+            [
+              -65.1661659,
+              -26.8511929
+            ],
+            [
+              -65.1661489,
+              -26.8512212
+            ],
+            [
+              -65.1661385,
+              -26.8512519
+            ],
+            [
+              -65.166135,
+              -26.8512838
+            ],
+            [
+              -65.1661385,
+              -26.8513157
+            ],
+            [
+              -65.1661489,
+              -26.8513463
+            ],
+            [
+              -65.1661659,
+              -26.8513746
+            ],
+            [
+              -65.1661886,
+              -26.8513994
+            ],
+            [
+              -65.1662164,
+              -26.8514197
+            ],
+            [
+              -65.1662481,
+              -26.8514348
+            ],
+            [
+              -65.1662825,
+              -26.8514441
+            ],
+            [
+              -65.1663334,
+              -26.8514579
+            ]
+          ]
+        ]
+      },
+      "id": "way/790906458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/790913990",
+        "addr:city": "San Pablo",
+        "addr:postcode": "4129",
+        "addr:street": "Avenida San Martín",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital San Pablo",
+        "nohousenumber": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.3109436,
+              -26.8710941
+            ],
+            [
+              -65.3101334,
+              -26.8712639
+            ],
+            [
+              -65.3100496,
+              -26.8710059
+            ],
+            [
+              -65.3099904,
+              -26.8707124
+            ],
+            [
+              -65.3100044,
+              -26.8706944
+            ],
+            [
+              -65.310325,
+              -26.8706439
+            ],
+            [
+              -65.3105801,
+              -26.8706037
+            ],
+            [
+              -65.3108386,
+              -26.8705631
+            ],
+            [
+              -65.3109436,
+              -26.8710941
+            ]
+          ]
+        ]
+      },
+      "id": "way/790913990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/790916280",
+        "addr:city": "Córdoba",
+        "addr:housenumber": "3176",
+        "addr:postcode": "5016",
+        "addr:street": "Avenida Pablo Ricchieri",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clínica Privada Ricchieri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.1774451,
+              -31.4487195
+            ],
+            [
+              -64.1771282,
+              -31.4487208
+            ],
+            [
+              -64.177129,
+              -31.4488095
+            ],
+            [
+              -64.1774456,
+              -31.4488083
+            ],
+            [
+              -64.1774457,
+              -31.4488985
+            ],
+            [
+              -64.1767288,
+              -31.4489008
+            ],
+            [
+              -64.176729,
+              -31.4486278
+            ],
+            [
+              -64.177445,
+              -31.4486302
+            ],
+            [
+              -64.1774451,
+              -31.4487195
+            ]
+          ]
+        ]
+      },
+      "id": "way/790916280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/791217316",
+        "addr:city": "Ramallo",
+        "addr:housenumber": "1374",
+        "addr:postcode": "2915",
+        "addr:street": "José María Gomendio",
+        "amenity": "hospital",
+        "beds": "84",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal José María Gomendio",
+        "operator": "Municipalidad de Ramallo",
+        "operator:type": "government",
+        "phone": "+54 3407 421555"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.0070643,
+              -33.4901885
+            ],
+            [
+              -60.0068922,
+              -33.4903332
+            ],
+            [
+              -60.0068354,
+              -33.4903809
+            ],
+            [
+              -60.0067656,
+              -33.4904396
+            ],
+            [
+              -60.0067339,
+              -33.4904662
+            ],
+            [
+              -60.0067007,
+              -33.4904941
+            ],
+            [
+              -60.006439,
+              -33.4907135
+            ],
+            [
+              -60.0064016,
+              -33.4907136
+            ],
+            [
+              -60.0061976,
+              -33.4905448
+            ],
+            [
+              -60.0059795,
+              -33.4903643
+            ],
+            [
+              -60.0057703,
+              -33.4901912
+            ],
+            [
+              -60.0057699,
+              -33.4901596
+            ],
+            [
+              -60.0063948,
+              -33.4896344
+            ],
+            [
+              -60.0064323,
+              -33.4896343
+            ],
+            [
+              -60.0067314,
+              -33.4898816
+            ],
+            [
+              -60.0069119,
+              -33.4900308
+            ],
+            [
+              -60.0070642,
+              -33.4901567
+            ],
+            [
+              -60.0070643,
+              -33.4901885
+            ]
+          ]
+        ]
+      },
+      "id": "way/791217316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -55509,26 +55990,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/441515555",
-        "addr:city": "San Fernando del Valle de Catamarca",
-        "addr:postcode": "4700",
-        "addr:street": "Salta",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Instituto Medico de la Comunidad"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7773325,
-          -28.4608533
-        ]
-      },
-      "id": "node/441515555"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/475257295",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -55542,28 +56003,6 @@
         ]
       },
       "id": "node/475257295"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/567776738",
-        "addr:alt_street": "General Conessa Norte",
-        "addr:housenumber": "151",
-        "addr:street": "Conessa",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Clínica del Niño",
-        "note": "La numeracion es vieja",
-        "phone": "+54 (03833) 42-7485"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7919595,
-          -28.4685703
-        ]
-      },
-      "id": "node/567776738"
     },
     {
       "type": "Feature",
@@ -55889,63 +56328,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/757412886",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Uap Nº 1 la Viñita",
-        "phone": "+54 (03833)473456"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7795584,
-          -28.4875892
-        ]
-      },
-      "id": "node/757412886"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/757414415",
-        "addr:city": "San Fernando del Valle de Catamarca",
-        "addr:postcode": "4700",
-        "addr:street": "Avenida Los Legisladores",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Uap Nº 2 Posta Madre Teresa de Calcuta",
-        "phone": "+54 (03833) 473460"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7739938,
-          -28.4601202
-        ]
-      },
-      "id": "node/757414415"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/757422007",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Uap Nº 6 la Tablada",
-        "phone": "+54 (03833) 473458"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7862317,
-          -28.4861849
-        ]
-      },
-      "id": "node/757422007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/791746743",
         "amenity": "hospital",
         "description": "Kids",
@@ -55959,23 +56341,6 @@
         ]
       },
       "id": "node/791746743"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/840855912",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro de Atención Primaria de Salud Doctor Carlos A. Herrera \"Pepito\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.8087655,
-          -28.4674801
-        ]
-      },
-      "id": "node/840855912"
     },
     {
       "type": "Feature",
@@ -56187,6 +56552,7 @@
       "properties": {
         "@id": "node/993956646",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Domingo Funes"
       },
       "geometry": {
@@ -58795,22 +59161,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1784551838",
-        "amenity": "hospital",
-        "name": "Posta Nº 11 de Villa Parque Norte"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7853282,
-          -28.440926
-        ]
-      },
-      "id": "node/1784551838"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1785540671",
         "amenity": "hospital",
         "healthcare": "hospital"
@@ -58966,23 +59316,6 @@
         ]
       },
       "id": "node/1849183910"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1873946946",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Posta Sanitaria"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7328522,
-          -28.4342384
-        ]
-      },
-      "id": "node/1873946946"
     },
     {
       "type": "Feature",
@@ -59492,6 +59825,7 @@
         "@id": "node/1903130642",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Sala De Salud"
       },
       "geometry": {
@@ -61740,24 +62074,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2340430259",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro integral de Salud",
-        "website": "http://www.diarioc.com.ar/salud/Catamarca_cuenta_con_nuevo_Centro_de_Salud_Integral/197266"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7881138,
-          -28.4370169
-        ]
-      },
-      "id": "node/2340430259"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2340974405",
         "amenity": "hospital",
         "name": "Entrada Urgencias HPC"
@@ -62156,23 +62472,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2432335545",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Posta Sanitaria"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7831699,
-          -28.4943467
-        ]
-      },
-      "id": "node/2432335545"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2441013445",
         "amenity": "hospital",
         "description": "Sala de primeros auxilios",
@@ -62218,23 +62517,6 @@
         ]
       },
       "id": "node/2456009735"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2457588967",
-        "amenity": "hospital",
-        "emergency": "no",
-        "name": "Dispensario Municipal de La Granja"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2691607,
-          -31.0084363
-        ]
-      },
-      "id": "node/2457588967"
     },
     {
       "type": "Feature",
@@ -62819,23 +63101,6 @@
         ]
       },
       "id": "node/2558011700"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2562748112",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Posta Sanitaria"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7778039,
-          -28.4520472
-        ]
-      },
-      "id": "node/2562748112"
     },
     {
       "type": "Feature",
@@ -64882,6 +65147,7 @@
       "properties": {
         "@id": "node/3197363414",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios"
       },
       "geometry": {
@@ -66087,6 +66353,7 @@
       "properties": {
         "@id": "node/3378992029",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario"
       },
       "geometry": {
@@ -66103,6 +66370,7 @@
       "properties": {
         "@id": "node/3379032307",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital de la Falda"
       },
       "geometry": {
@@ -69521,6 +69789,7 @@
         "addr:postcode": "2823",
         "addr:street": "Arroyo La Tinta s/n",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Paranacito",
         "phone": "+54 3446 495 117"
       },
@@ -71594,6 +71863,7 @@
       "properties": {
         "@id": "node/4107844537",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario municipal centro"
       },
       "geometry": {
@@ -74743,6 +75013,7 @@
         "@id": "node/4401241561",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Consultorios Externos"
       },
       "geometry": {
@@ -74760,6 +75031,7 @@
         "@id": "node/4401245419",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Chalet Consultorios"
       },
       "geometry": {
@@ -75699,28 +75971,6 @@
         ]
       },
       "id": "node/4459525593"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4459869908",
-        "addr:city": "Tapiales",
-        "addr:postcode": "B1771B1A",
-        "addr:street": "Autopista Ricchieri y Boulogne Sur Mer",
-        "amenity": "hospital",
-        "description": "Centro Médico Dr. Ramón Carrillo de la Corporación Mercado Central de Buenos Aires. \nDirector: Dr. Marcelo Viggiano.",
-        "healthcare": "hospital",
-        "name": "Centro Médico",
-        "operator": "Corporación Mercado Central de Buenos Aires"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4999701,
-          -34.7081908
-        ]
-      },
-      "id": "node/4459869908"
     },
     {
       "type": "Feature",
@@ -78222,27 +78472,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5082701874",
-        "addr:city": "San Fernando del Valle de Catamarca",
-        "addr:postcode": "4700",
-        "addr:street": "Junin",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "name": "Sanatorio Junin"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7831448,
-          -28.4655041
-        ]
-      },
-      "id": "node/5082701874"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5102257821",
         "addr:city": "Taco Pozo",
         "addr:postcode": "3174",
@@ -79788,22 +80017,6 @@
         ]
       },
       "id": "node/5469621433"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5470132522",
-        "amenity": "hospital",
-        "name": "Hospital de San pablo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3108224,
-          -26.8706021
-        ]
-      },
-      "id": "node/5470132522"
     },
     {
       "type": "Feature",
@@ -86533,6 +86746,44 @@
         ]
       },
       "id": "node/7391370477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7396447181",
+        "amenity": "hospital",
+        "fixme": "covid19",
+        "healthcare": "hospital",
+        "name": "Hospital de Campaña",
+        "source": "Ministerio de Salud de La Pampa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7653261,
+          -35.6736076
+        ]
+      },
+      "id": "node/7396447181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7396456413",
+        "amenity": "hospital",
+        "fixme": "covid19",
+        "healthcare": "hospital",
+        "name": "Hospital de Campaña",
+        "source": "Ministerio de Salud de La Pampa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2923685,
+          -36.5971148
+        ]
+      },
+      "id": "node/7396456413"
     }
   ]
 }

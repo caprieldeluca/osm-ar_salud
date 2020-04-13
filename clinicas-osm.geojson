@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-11T23:59:02Z",
+  "timestamp": "2020-04-13T17:32:02Z",
   "features": [
     {
       "type": "Feature",
@@ -5486,6 +5486,7 @@
         "addr:street": "Hipolito Yrigoyen",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Dispensario Doctor Benito Soria"
       },
       "geometry": {
@@ -23395,6 +23396,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/705090090",
+        "addr:city": "Salsipuedes",
+        "addr:postcode": "X5113",
+        "addr:street": "Avenida Independencia",
+        "amenity": "clinic",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "clinic",
+        "name": "Dispensario Municipal  Dr. Santiago Kuzma",
+        "operator": "Municipalidad de Salsipuedes",
+        "phone": "03543 492174"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.2951406,
+              -31.1070776
+            ],
+            [
+              -64.2951966,
+              -31.1071519
+            ],
+            [
+              -64.2950864,
+              -31.1072127
+            ],
+            [
+              -64.2950304,
+              -31.1071384
+            ],
+            [
+              -64.2951406,
+              -31.1070776
+            ]
+          ]
+        ]
+      },
+      "id": "way/705090090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/706273915",
         "addr:city": "Chimbas",
         "addr:housenumber": "1617 (O)",
@@ -25351,16 +25396,16 @@
         "coordinates": [
           [
             [
-              -58.5342152,
-              -34.7280922
+              -58.5342163,
+              -34.7280903
             ],
             [
-              -58.5342531,
-              -34.7281783
+              -58.5342536,
+              -34.7281768
             ],
             [
-              -58.5340756,
-              -34.7282296
+              -58.5340711,
+              -34.7282299
             ],
             [
               -58.5339186,
@@ -25371,12 +25416,32 @@
               -34.7282836
             ],
             [
+              -58.5338899,
+              -34.7283368
+            ],
+            [
+              -58.5338552,
+              -34.7283787
+            ],
+            [
+              -58.5338279,
+              -34.7284117
+            ],
+            [
               -58.5338081,
               -34.7284356
             ],
             [
               -58.5336703,
               -34.7283585
+            ],
+            [
+              -58.5336885,
+              -34.7283365
+            ],
+            [
+              -58.5337575,
+              -34.7282532
             ],
             [
               -58.5337962,
@@ -25391,20 +25456,20 @@
               -34.7281982
             ],
             [
-              -58.5338825,
+              -58.5338824,
               -34.7281884
             ],
             [
-              -58.5340285,
-              -34.7281452
+              -58.534029,
+              -34.7281453
             ],
             [
-              -58.534169,
-              -34.7281054
+              -58.5341689,
+              -34.7281042
             ],
             [
-              -58.5342152,
-              -34.7280922
+              -58.5342163,
+              -34.7280903
             ]
           ]
         ]
@@ -25758,6 +25823,51 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/791452665",
+        "addr:street": "Manuel Pedraza",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;pulmonology",
+        "name": "Centro de Salud Carlos Bravo",
+        "opening_hours": "24/7",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.783322,
+              -28.4939563
+            ],
+            [
+              -65.7834901,
+              -28.4944688
+            ],
+            [
+              -65.7829366,
+              -28.494609
+            ],
+            [
+              -65.782838,
+              -28.4943083
+            ],
+            [
+              -65.7830008,
+              -28.4940377
+            ],
+            [
+              -65.783322,
+              -28.4939563
+            ]
+          ]
+        ]
+      },
+      "id": "way/791452665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/420034699",
         "addr:city": "San Isidro",
         "addr:postcode": "4707",
@@ -25776,6 +25886,30 @@
         ]
       },
       "id": "node/420034699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/567776738",
+        "addr:alt_street": "General Conessa Norte",
+        "addr:housenumber": "151",
+        "addr:street": "Conessa",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "name": "Clínica del Niño",
+        "note": "La numeracion es vieja",
+        "operator:type": "private",
+        "phone": "+54 383 442 7485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7919595,
+          -28.4685703
+        ]
+      },
+      "id": "node/567776738"
     },
     {
       "type": "Feature",
@@ -26080,6 +26214,7 @@
         "addr:street": "Padre Kloster",
         "amenity": "clinic",
         "emergency": "no",
+        "healthcare": "clinic",
         "name": "Plaza"
       },
       "geometry": {
@@ -26273,7 +26408,7 @@
         "@id": "node/1903229929",
         "amenity": "clinic",
         "emergency": "no",
-        "name": "Centro De Salud"
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -26553,6 +26688,26 @@
         ]
       },
       "id": "node/2291001655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2340430259",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro integral de Salud",
+        "operator:type": "public",
+        "source": "http://www.diarioc.com.ar/salud/Catamarca_cuenta_con_nuevo_Centro_de_Salud_Integral/197266",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7881138,
+          -28.4370169
+        ]
+      },
+      "id": "node/2340430259"
     },
     {
       "type": "Feature",
@@ -26902,6 +27057,30 @@
         ]
       },
       "id": "node/2453034673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457588967",
+        "addr:city": "La Granja",
+        "addr:postcode": "X5115",
+        "addr:street": "Avenida Los Fresnos",
+        "amenity": "clinic",
+        "emergency": "no",
+        "healthcare": "clinic",
+        "name": "Dispensario Municipal de La Granja",
+        "operator": "Municipalidad de La Granja",
+        "operator:type": "public",
+        "phone": "03525 498121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2691607,
+          -31.0084363
+        ]
+      },
+      "id": "node/2457588967"
     },
     {
       "type": "Feature",
@@ -29417,6 +29596,7 @@
       "properties": {
         "@id": "node/3379032326",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica la Falda"
       },
       "geometry": {
@@ -29434,6 +29614,7 @@
         "@id": "node/3379113980",
         "addr:city": "Villa Giardino",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sala Primeros Auxilios"
       },
       "geometry": {
@@ -29451,6 +29632,7 @@
         "@id": "node/3380165212",
         "addr:street": "Pedro Ortíz y Tucumán",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica San Antonio",
         "opening_hours": "24/7"
       },
@@ -29471,6 +29653,7 @@
         "addr:postcode": "5166",
         "addr:street": "Sarmiento 540",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica Privada Sarmiento"
       },
       "geometry": {
@@ -29488,6 +29671,7 @@
         "@id": "node/3380259274",
         "addr:street": "Palemón Carranza y Obispo Bustos",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro de Salud - CREMED",
         "opening_hours": "24/7"
       },
@@ -32264,13 +32448,16 @@
         "@id": "node/4108160411",
         "amenity": "clinic",
         "healthcare": "clinic",
-        "name": "Policlinico Edgardo Acuña"
+        "healthcare:speciality": "general;pulmonology",
+        "name": "Policlinico Edgardo Acuña",
+        "opening_hours": "24/7",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.7818661,
-          -28.4501256
+          -65.7817776,
+          -28.4500696
         ]
       },
       "id": "node/4108160411"
@@ -33135,6 +33322,30 @@
         ]
       },
       "id": "node/4229257489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4231094502",
+        "addr:city": "Salsipuedes",
+        "addr:postcode": "X5113",
+        "addr:street": "Córdoba",
+        "amenity": "clinic",
+        "emergency": "yes",
+        "healthcare": "clinic",
+        "name": "Dispensario Municipal Dr. Julian Ostrovsky",
+        "operator": "Municipalidad de Salsipuedes",
+        "operator:type": "public",
+        "phone": "03543 492087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2918204,
+          -31.1368203
+        ]
+      },
+      "id": "node/4231094502"
     },
     {
       "type": "Feature",
@@ -34516,6 +34727,27 @@
         ]
       },
       "id": "node/4456890193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4459869908",
+        "addr:city": "Tapiales",
+        "addr:postcode": "B1771B1A",
+        "addr:street": "Autopista Ricchieri y Boulogne Sur Mer",
+        "amenity": "clinic",
+        "description": "Centro Médico Dr. Ramón Carrillo de la Corporación Mercado Central de Buenos Aires. \nDirector: Dr. Marcelo Viggiano.",
+        "name": "Centro Médico",
+        "operator": "Corporación Mercado Central de Buenos Aires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4999701,
+          -34.7081908
+        ]
+      },
+      "id": "node/4459869908"
     },
     {
       "type": "Feature",
@@ -40430,10 +40662,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5452667821",
+        "addr:city": "Corrientes",
         "addr:housenumber": "1472",
         "addr:postcode": "3400",
         "addr:street": "San Martín",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica"
       },
       "geometry": {
@@ -42243,6 +42477,7 @@
       "properties": {
         "@id": "node/5646643828",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Medico Privado"
       },
       "geometry": {
@@ -43845,6 +44080,7 @@
         "@id": "node/6187152651",
         "addr:city": "Huerta Grande",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Medico Punilla de Ospedyc"
       },
       "geometry": {
@@ -45181,6 +45417,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6903969073",
+        "addr:city": "El Manzano",
+        "addr:postcode": "X5107",
+        "addr:street": "General Juan Domingo Perón",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dispensario El Manzano",
+        "operator": "Comuna de El Manzano",
+        "operator:type": "public",
+        "operator_type": "public",
+        "phone": "03525 493341"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2969046,
+          -31.0844106
+        ]
+      },
+      "id": "node/6903969073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6906816285",
         "addr:housenumber": "311",
         "addr:postcode": "1878",
@@ -46076,6 +46336,51 @@
         ]
       },
       "id": "node/7387171238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7395299571",
+        "addr:city": "Villa Cerro Azul",
+        "addr:postcode": "X5107",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dispensario Villa Cerro Azul",
+        "operator": "Comuna de Villa Cerro Azul",
+        "operator:type": "public",
+        "phone": "03525 490699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3164649,
+          -31.0705918
+        ]
+      },
+      "id": "node/7395299571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7395299572",
+        "addr:city": "Agua de Oro",
+        "addr:postcode": "X5107",
+        "addr:street": "San Martin",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dispensario Agua de Oro",
+        "operator": "Municipalidad de Agua de Oro",
+        "operator:type": "government",
+        "phone": "03525 493266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3021724,
+          -31.0657725
+        ]
+      },
+      "id": "node/7395299572"
     }
   ]
 }
