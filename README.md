@@ -29,11 +29,11 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
   * [caps-remediar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/caps-remediar.geojson) es el resultado de una geolocalización en Nominatim del [listado de Centros de Atención Primaria de la Salud de REMEDIAR](http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx).
   
-  * [establecimientos-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/establecimientos-sisa.geojson) es una conversion a GeoJSON de los registros georreferenciados de la consulta por tipo Establecimientos de Salud en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
+  * [establecimientos-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/establecimientos-sisa.geojson) es una conversión a GeoJSON de los registros georreferenciados de la consulta por tipo Establecimientos de Salud en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
   
-  * [farmacias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-sisa.geojson) es una conversion a GeoJSON de los registros georreferenciados de la consulta por tipo Establecimientos de Salud en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
+  * [farmacias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-sisa.geojson) es una conversión a GeoJSON de los registros georreferenciados de la consulta por tipo Establecimientos de Salud en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
     
-  * [droguerias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/droguerias-sisa.geojson) es una conversion a GeoJSON de los registros georreferenciados de la consulta por tipo Droguerías en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
+  * [droguerias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/droguerias-sisa.geojson) es una conversión a GeoJSON de los registros georreferenciados de la consulta por tipo Droguerías en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
 
 * CABA (*Atribucion 2.5 Argentina (CC BY 2.5 AR)*)
 
