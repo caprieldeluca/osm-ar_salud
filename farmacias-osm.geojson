@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-13T17:33:02Z",
+  "timestamp": "2020-04-14T23:13:02Z",
   "features": [
     {
       "type": "Feature",
@@ -31390,6 +31390,48 @@
         ]
       },
       "id": "way/791126380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/791581581",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.5458168,
+              -38.0804402
+            ],
+            [
+              -57.5459024,
+              -38.0805107
+            ],
+            [
+              -57.5458071,
+              -38.0805821
+            ],
+            [
+              -57.5457539,
+              -38.08052
+            ],
+            [
+              -57.545759,
+              -38.0804833
+            ],
+            [
+              -57.5458168,
+              -38.0804402
+            ]
+          ]
+        ]
+      },
+      "id": "way/791581581"
     },
     {
       "type": "Feature",
@@ -63847,7 +63889,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3378709910",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -70203,6 +70246,10 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3732532171",
+        "addr:city": "Clorinda",
+        "addr:full": "Avenida San Martín y Los Andes",
+        "addr:postcode": "3610",
+        "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
         "name": "Del Norte"
@@ -95665,13 +95712,13 @@
       "properties": {
         "@id": "node/4809160847",
         "amenity": "pharmacy",
-        "name": "Farmacia"
+        "name": "Galileos Sur"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.545799,
-          -38.0804709
+          -57.5458165,
+          -38.0805094
         ]
       },
       "id": "node/4809160847"
@@ -95747,6 +95794,7 @@
         "addr:postcode": "3463",
         "addr:street": "Belgrano",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia \"Del Pueblo\""
       },
       "geometry": {
@@ -95763,9 +95811,11 @@
       "properties": {
         "@id": "node/4809883784",
         "addr:city": "Sauce",
+        "addr:housenumber": "556",
         "addr:postcode": "3463",
         "addr:street": "San Martín",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Techlit"
       },
       "geometry": {
@@ -121195,17 +121245,19 @@
       "properties": {
         "@id": "node/7041088986",
         "addr:city": "Clorinda",
+        "addr:housenumber": "1282",
         "addr:postcode": "3610",
         "addr:street": "12 de Octubre",
         "amenity": "pharmacy",
         "dispensing": "yes",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "San Carlos"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.7156055,
-          -25.2888306
+          -57.7156126,
+          -25.2889206
         ]
       },
       "id": "node/7041088986"
@@ -129052,6 +129104,558 @@
         ]
       },
       "id": "node/7393927175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7400080535",
+        "addr:housenumber": "758",
+        "addr:street": "638 - Negrito Manuel",
+        "amenity": "pharmacy",
+        "name": "Zona Vital",
+        "phone": "+542323435800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1037193,
+          -34.5618911
+        ]
+      },
+      "id": "node/7400080535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243964",
+        "addr:city": "Clorinda",
+        "addr:housenumber": "644",
+        "addr:postcode": "3610",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/farmaciaclorinda/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Clorinda",
+        "official_name": "Farmacia Clorinda",
+        "phone": "+54 3718 15601369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7133434,
+          -25.2870342
+        ]
+      },
+      "id": "node/7402243964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243965",
+        "addr:city": "Clorinda",
+        "addr:housenumber": "744",
+        "addr:postcode": "3610",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7145856,
+          -25.2869298
+        ]
+      },
+      "id": "node/7402243965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243967",
+        "addr:city": "Clorinda",
+        "addr:street": "General Martín de Güemes",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-Luz-y-Fuerza-Clorinda-1104315649612628/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Luz y Fuerza",
+        "phone": "+54 3718 433126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7261499,
+          -25.2970962
+        ]
+      },
+      "id": "node/7402243967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243968",
+        "addr:city": "Clorinda",
+        "addr:full": "Juan Bautista Alberdi y 12 de Octubre",
+        "addr:postcode": "3610",
+        "addr:street": "Juan Bautista Alberdi",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7156697,
+          -25.2892595
+        ]
+      },
+      "id": "node/7402243968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243970",
+        "addr:city": "Clorinda",
+        "addr:housenumber": "667",
+        "addr:postcode": "3610",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7135466,
+          -25.2867524
+        ]
+      },
+      "id": "node/7402243970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243971",
+        "addr:city": "Clorinda",
+        "addr:full": "Italia y Juan Bautista Alberdi",
+        "addr:housenumber": "1303",
+        "addr:postcode": "3610",
+        "addr:street": "Juan Bautista Alberdi",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Oviedo",
+        "phone": "+54 3718 42-6500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7143655,
+          -25.2893559
+        ]
+      },
+      "id": "node/7402243971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243972",
+        "addr:city": "Clorinda",
+        "addr:housenumber": "707",
+        "addr:postcode": "3610",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Carlos II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7141998,
+          -25.2867219
+        ]
+      },
+      "id": "node/7402243972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402243973",
+        "addr:city": "Clorinda",
+        "addr:housenumber": "1291",
+        "addr:postcode": "3610",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mi Farmacia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.721393,
+          -25.2861007
+        ]
+      },
+      "id": "node/7402243973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402395003",
+        "addr:city": "Bella Vista",
+        "addr:housenumber": "771",
+        "addr:postcode": "3432",
+        "addr:street": "Salta",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/farmaciabellavista40/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Bella Vista",
+        "official_name": "Farmacia Bella Vista",
+        "phone": "+54 3777 451181"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0413405,
+          -28.5072407
+        ]
+      },
+      "id": "node/7402395003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402395004",
+        "addr:city": "Bella Vista",
+        "addr:housenumber": "852",
+        "addr:postcode": "3432",
+        "addr:street": "Santa Fe",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San José",
+        "phone": "+54 3794 747837"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0432747,
+          -28.5090729
+        ]
+      },
+      "id": "node/7402395004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402395007",
+        "addr:city": "Bella Vista",
+        "addr:housenumber": "1026",
+        "addr:postcode": "3432",
+        "addr:street": "Corrientes",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Catedral"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0444953,
+          -28.5080175
+        ]
+      },
+      "id": "node/7402395007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402395012",
+        "addr:city": "Bella Vista",
+        "addr:housenumber": "1495",
+        "addr:postcode": "3432",
+        "addr:street": "Buenos Aires",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/grialoficial/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Grial",
+        "phone": "+54 3777 452843",
+        "website": "https://farmaciagrial.negocio.site/?fbclid=IwAR1wTD_fqq3ZP-DZMRZeHEMF2YRinihm-OVl31a6xRmZ6hZR_L_OAiSDOJQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0405627,
+          -28.515957
+        ]
+      },
+      "id": "node/7402395012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402395025",
+        "addr:city": "Bella Vista",
+        "addr:housenumber": "770",
+        "addr:postcode": "3432",
+        "addr:street": "Buenos Aires",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/Farmacia-La-Guarani-208733462505124/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "La Guaraní",
+        "official_name": "Farmacia La Guarani",
+        "phone": "+54 3777 450539"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0449429,
+          -28.5090477
+        ]
+      },
+      "id": "node/7402395025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402449347",
+        "addr:city": "Saladas",
+        "addr:housenumber": "538",
+        "addr:postcode": "3420",
+        "addr:street": "25 de Mayo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "La Plaza",
+        "phone": "+54 3794 785928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6206991,
+          -28.2552958
+        ]
+      },
+      "id": "node/7402449347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402588217",
+        "addr:city": "Goya",
+        "addr:housenumber": "1001",
+        "addr:postcode": "3450",
+        "addr:street": "Colón",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Catedral",
+        "network": "FARMAR",
+        "phone": "+54 3482 583336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2645821,
+          -29.1448791
+        ]
+      },
+      "id": "node/7402588217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402588218",
+        "addr:city": "Goya",
+        "addr:housenumber": "396",
+        "addr:postcode": "3450",
+        "addr:street": "San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmar I",
+        "network": "FARMAR",
+        "phone": "+54 3482 323263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2619858,
+          -29.1401994
+        ]
+      },
+      "id": "node/7402588218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402588219",
+        "addr:city": "Goya",
+        "addr:housenumber": "410",
+        "addr:postcode": "3450",
+        "addr:street": "Mariano I. Loza",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Miguel",
+        "network": "FARMAR",
+        "phone": "+54 3482 523291"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2631646,
+          -29.1437187
+        ]
+      },
+      "id": "node/7402588219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402588220",
+        "addr:city": "Goya",
+        "addr:housenumber": "793",
+        "addr:postcode": "3450",
+        "addr:street": "José Gómez",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Pasteur",
+        "network": "FARMAR",
+        "phone": "+54 3794 785927"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2625484,
+          -29.1424349
+        ]
+      },
+      "id": "node/7402588220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402588221",
+        "addr:city": "Goya",
+        "addr:housenumber": "503",
+        "addr:postcode": "3450",
+        "addr:street": "Colón",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Colón",
+        "network": "FARMAR",
+        "phone": "+54 3794 874553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2631434,
+          -29.1389653
+        ]
+      },
+      "id": "node/7402588221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402704717",
+        "addr:city": "Mercedes",
+        "addr:housenumber": "1010",
+        "addr:postcode": "3470",
+        "addr:street": "España",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Cristobal",
+        "network": "FARMAR",
+        "phone": "+54 3794 788495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0765116,
+          -29.1822571
+        ]
+      },
+      "id": "node/7402704717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402704720",
+        "addr:city": "Mercedes",
+        "addr:housenumber": "846",
+        "addr:postcode": "3470",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/farmaciakairuz/",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Kairuz",
+        "phone": "+54 3773 420208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0745887,
+          -29.1837807
+        ]
+      },
+      "id": "node/7402704720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7402850141",
+        "addr:housenumber": "686",
+        "addr:street": "Ambrosio Olmos",
+        "amenity": "pharmacy",
+        "name": "Estrella II",
+        "phone": "4681133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1882363,
+          -31.430002
+        ]
+      },
+      "id": "node/7402850141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7403569297",
+        "addr:city": "Sauce",
+        "addr:housenumber": "998",
+        "addr:postcode": "3463",
+        "addr:street": "Belgrano",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Bermudez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7884857,
+          -30.0869571
+        ]
+      },
+      "id": "node/7403569297"
     }
   ]
 }

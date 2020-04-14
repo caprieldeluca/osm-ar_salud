@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-13T17:34:02Z",
+  "timestamp": "2020-04-14T23:11:02Z",
   "features": [
     {
       "type": "Feature",
@@ -12581,7 +12581,8 @@
         "healthcare": "hospital",
         "healthcare:speciality": "neurology",
         "name": "FLENI",
-        "official_name": "Fundación para la Lucha de las Enfermedades Neurológicas de la Infancia"
+        "official_name": "Fundación para la Lucha de las Enfermedades Neurológicas de la Infancia",
+        "wikidata": "Q90410178"
       },
       "geometry": {
         "type": "Polygon",
@@ -42829,7 +42830,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/496778036",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -63713,6 +63715,7 @@
         "addr:street": "Los Olmos",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Dispensario Villa Santa Cruz del Lago"
       },
       "geometry": {
@@ -66337,6 +66340,7 @@
       "properties": {
         "@id": "node/3378777632",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario"
       },
       "geometry": {
@@ -72553,6 +72557,7 @@
         "amenity": "hospital",
         "description": "El Hospital Santa Rosa de Sauce Corrientes- Hospital Público de la Zona Sanitaria 4 del Ministerio de Salud de la provincia de Corrientes.",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Santa Rosa",
         "phone": "+54 03774 480019 / 494016"
       },
@@ -86784,6 +86789,28 @@
         ]
       },
       "id": "node/7396456413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7399819676",
+        "addr:city": "Villa Tesei",
+        "addr:housenumber": "Florencia Nightingale 1099",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "community",
+        "name": "Sala 2 de junio",
+        "operator": "Municipalidad Hurlingham",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6409992,
+          -34.6236188
+        ]
+      },
+      "id": "node/7399819676"
     }
   ]
 }
