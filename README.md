@@ -23,11 +23,17 @@ Soporte de datos y visualización para el proyecto de mapeo de OpenStreetMap: [A
 
   * [hospitales-sedronar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/hospitales-sedronar.geojson) es una conversión directa de la [capa de Hospitales Públicos de la IDE Sedronar](http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa) a GeoJSON.
   
-* Datos Argentina (PAMI y REMEDIAR) (*Creative Commons Attribution 4.0*)
+* Datos Argentina (PAMI, REMEDIAR y SISA) (*Creative Commons Attribution 4.0*)
 
   * [farmacias-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-pami.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/farmacias).
 
   * [caps-remediar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/caps-remediar.geojson) es el resultado de una geolocalización en Nominatim del [listado de Centros de Atención Primaria de la Salud de REMEDIAR](http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx).
+  
+  * [establecimientos-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/establecimientos-sisa.geojson) es una conversion a GeoJSON de los registros georreferenciados de la consulta por tipo Establecimientos de Salud en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
+  
+  * [farmacias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-sisa.geojson) es una conversion a GeoJSON de los registros georreferenciados de la consulta por tipo Establecimientos de Salud en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
+    
+  * [droguerias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/droguerias-sisa.geojson) es una conversion a GeoJSON de los registros georreferenciados de la consulta por tipo Droguerías en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
 
 * CABA (*Atribucion 2.5 Argentina (CC BY 2.5 AR)*)
 
