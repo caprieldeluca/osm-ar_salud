@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-14T23:14:02Z",
+  "timestamp": "2020-04-17T04:54:03Z",
   "features": [
     {
       "type": "Feature",
@@ -4432,14 +4432,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/486893617",
+        "addr:housenumber": "1021",
         "addr:street": "Tropero Moreira",
         "amenity": "doctors",
         "building": "yes",
+        "description": "Atención Covid 19 y prácticas esenciales",
         "healthcare": "doctor",
         "name": "Centro de Atención Primaria de la Salud Santa María",
-        "opening_hours": "Mo- Fr 07:00-19:00; Sa 09:00-12:00",
+        "opening_hours": "Mo-Fr 08:00-15:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 2323 494534"
       },
       "geometry": {
         "type": "Polygon",
@@ -4518,10 +4521,13 @@
         "@id": "way/487234273",
         "amenity": "doctors",
         "building": "yes",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "name": "Centro de Atención Primaria de la Salud Parque Lasa",
-        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
+        "opening_hours": "Mo-Fr 07:00-14:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 2323 36-6854"
       },
       "geometry": {
         "type": "Polygon",
@@ -7837,6 +7843,54 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/792577026",
+        "addr:city": "Oberá",
+        "addr:postcode": "3360",
+        "addr:street": "Oncativo",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "CAPS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.1101049,
+              -27.4719874
+            ],
+            [
+              -55.1100789,
+              -27.4721
+            ],
+            [
+              -55.1100351,
+              -27.472092
+            ],
+            [
+              -55.110028,
+              -27.472103
+            ],
+            [
+              -55.1099549,
+              -27.4720896
+            ],
+            [
+              -55.1099836,
+              -27.4719653
+            ],
+            [
+              -55.1101049,
+              -27.4719874
+            ]
+          ]
+        ]
+      },
+      "id": "way/792577026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/427988926",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -8765,10 +8819,13 @@
       "properties": {
         "@id": "node/2017556149",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "name": "Centro de Atención Primaria de la Salud Carlos Keen",
-        "opening_hours": "Mo-Sa 08:00-16:00",
+        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 3180-9715"
       },
       "geometry": {
         "type": "Point",
@@ -13114,10 +13171,13 @@
         "addr:postcode": "6608",
         "addr:street": "Juan XXIII",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "name": "Centro de Atención Primaria de la Salud Olivera",
-        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
+        "opening_hours": "Mo-Fr 08:00-16:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 3196-2339;+54 2323 48-3146"
       },
       "geometry": {
         "type": "Point",
@@ -16487,8 +16547,7 @@
       "properties": {
         "@id": "node/5025773823",
         "amenity": "doctors",
-        "name": "CIOS",
-        "name:es": "CIOS"
+        "name": "CIOS"
       },
       "geometry": {
         "type": "Point",
@@ -19425,12 +19484,15 @@
         "addr:city": "Luján",
         "addr:street": "10 bis - Roma",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
         "name": "Centro de Atención Primaria de la Salud Padre Varela",
-        "opening_hours": "Mo-Fr 07:00-15:00",
+        "opening_hours": "Mo-Fr 07:00-13:00; Sa 07:00-11:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 5582-8118"
       },
       "geometry": {
         "type": "Point",
@@ -19474,10 +19536,11 @@
         "healthcare": "doctor",
         "healthcare:speciality": "general",
         "name": "Centro de Atención Primaria de la Salud San Francisco",
+        "opening_hours": "Mo-Fr 08:00-16:00",
         "opening_hours:covid19": "off",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+542323429965"
+        "phone": "+54 2323 429965"
       },
       "geometry": {
         "type": "Point",
@@ -20175,11 +20238,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6551871763",
+        "addr:street": "General Mosconi",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "name": "Centro de Atención Primaria de la Salud Santo Cristo",
-        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
+        "opening_hours": "Mo-Fr 07:00-13:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 2323 36-3205"
       },
       "geometry": {
         "type": "Point",
@@ -24748,11 +24815,14 @@
       "properties": {
         "@id": "node/7181029099",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "healthcare": "doctor",
         "name": "Centro de Atención Primaria de la Salud Santa Elena",
-        "opening_hours": "Mo-Fr 07:00-19:00",
+        "opening_hours": "Mo-Fr 08:00-13:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 4024-6344"
       },
       "geometry": {
         "type": "Point",
@@ -24900,10 +24970,13 @@
         "addr:housenumber": "944",
         "addr:street": "Corrientes",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "name": "Centro de Atención Primaria de la Salud Open Door",
-        "opening_hours": "Mo-Fr 07:00-16:00",
+        "opening_hours": "Mo-Fr 07:00-19:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 4023-0119"
       },
       "geometry": {
         "type": "Point",
@@ -24921,11 +24994,14 @@
         "addr:housenumber": "1755",
         "addr:street": "462 - Jujuy",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "healthcare": "doctor",
         "name": "Centro de Atención Primaria de la Salud Villa del Parque",
-        "opening_hours": "Mo-Fr 07:00-18:00",
+        "opening_hours": "Mo-Fr 08:00-18:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 4175-2616"
       },
       "geometry": {
         "type": "Point",
@@ -24941,11 +25017,14 @@
       "properties": {
         "@id": "node/7344926917",
         "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
         "healthcare": "doctor",
         "name": "Centro de Atención Primaria de la Salud Ameghino",
-        "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-12:00",
+        "opening_hours": "Mo-Fr 08:00-18:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 2323 36-2988"
       },
       "geometry": {
         "type": "Point",
@@ -25091,6 +25170,51 @@
         ]
       },
       "id": "node/7398889064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7411322406",
+        "addr:city": "Oberá",
+        "addr:country": "AR",
+        "addr:postcode": "3360",
+        "addr:street": "Oncativo",
+        "amenity": "doctors",
+        "description": "Centro de Atención Primaria de la Salud",
+        "healthcare": "doctor",
+        "name": "CAPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1100678,
+          -27.4719454
+        ]
+      },
+      "id": "node/7411322406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7412849760",
+        "addr:street": "331 - Los Rosales",
+        "amenity": "doctors",
+        "description": "Atención Covid 19 y prácticas esenciales",
+        "fixme": "covid19",
+        "name": "CIC San Fermín",
+        "opening_hours": "Mo-Fr 08:00-16:00; Sa 09:00-12:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 2323 44-0947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1186434,
+          -34.5470302
+        ]
+      },
+      "id": "node/7412849760"
     }
   ]
 }

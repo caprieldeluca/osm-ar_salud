@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-14T23:11:02Z",
+  "timestamp": "2020-04-17T04:47:03Z",
   "features": [
     {
       "type": "Feature",
@@ -984,10 +984,16 @@
       "type": "Feature",
       "properties": {
         "@id": "relation/4745469",
+        "addr:city": "Cañada de Gómez",
+        "addr:housenumber": "750",
+        "addr:postcode": "S3580",
+        "addr:street": "Urquiza",
         "amenity": "hospital",
         "building": "hospital",
         "healthcare": "hospital",
         "name": "Hospital Provincial San José",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
         "type": "multipolygon"
       },
       "geometry": {
@@ -1186,103 +1192,6 @@
         ]
       },
       "id": "relation/4745469"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "relation/6467677",
-        "amenity": "hospital",
-        "name": "Hospital Doctor Pablo Bianchi",
-        "type": "multipolygon"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.3616911,
-              -41.6103041
-            ],
-            [
-              -65.362705,
-              -41.6103172
-            ],
-            [
-              -65.3628049,
-              -41.6103201
-            ],
-            [
-              -65.3628452,
-              -41.6103262
-            ],
-            [
-              -65.3629042,
-              -41.6103528
-            ],
-            [
-              -65.362931,
-              -41.6103724
-            ],
-            [
-              -65.3629648,
-              -41.6103844
-            ],
-            [
-              -65.362996,
-              -41.6103982
-            ],
-            [
-              -65.3630299,
-              -41.6104167
-            ],
-            [
-              -65.3630705,
-              -41.6104485
-            ],
-            [
-              -65.3631282,
-              -41.6105027
-            ],
-            [
-              -65.3631678,
-              -41.610543
-            ],
-            [
-              -65.3633234,
-              -41.6108864
-            ],
-            [
-              -65.3633488,
-              -41.610947
-            ],
-            [
-              -65.3637822,
-              -41.6119797
-            ],
-            [
-              -65.3637954,
-              -41.6120112
-            ],
-            [
-              -65.3640045,
-              -41.6125092
-            ],
-            [
-              -65.3634434,
-              -41.6126545
-            ],
-            [
-              -65.3627884,
-              -41.612816
-            ],
-            [
-              -65.3616911,
-              -41.6103041
-            ]
-          ]
-        ]
-      },
-      "id": "relation/6467677"
     },
     {
       "type": "Feature",
@@ -4188,12 +4097,19 @@
       "properties": {
         "@id": "way/83586672",
         "addr:city": "San Miguel de Tucumán",
+        "addr:full": "Juan Bautista Alberdi 550",
         "addr:housenumber": "550",
+        "addr:place": "Capital",
         "addr:postcode": "4000",
         "addr:street": "Alberdi",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "healthcare": "hospital",
-        "name": "Hospital Ángel Cruz Padilla"
+        "name": "Hospital Ángel Cruz Padilla",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900842196008",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -4472,12 +4388,20 @@
       "properties": {
         "@id": "way/99331676",
         "addr:city": "San Miguel de Tucumán",
+        "addr:full": "Pasaje Hungria 750",
         "addr:housenumber": "750",
+        "addr:place": "Capital",
+        "addr:postcode": "4000",
         "addr:street": "Pasaje Hungría",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "healthcare": "hospital",
         "name": "Hospital del Niño Jesús",
-        "phone": "54 0381 4205341"
+        "operator:type": "public",
+        "phone": "54 0381 4205341",
+        "ref:sisa_refes": "11900842196059",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -4513,14 +4437,20 @@
       "properties": {
         "@id": "way/99814397",
         "addr:city": "Concepción",
+        "addr:full": "San Luis 150",
         "addr:housenumber": "150",
+        "addr:place": "Chicligasta",
         "addr:postcode": "4146",
         "addr:street": "San Luis",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital Regional de Concepción Dr. Miguel Belascuain",
-        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+        "operator:type": "public",
+        "ref:sisa_refes": "10900212196029",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -4742,10 +4672,24 @@
       "type": "Feature",
       "properties": {
         "@id": "way/107056870",
+        "addr:city": "San Miguel De Tucuman",
+        "addr:full": "San Miguel 1850",
+        "addr:housenumber": "1850",
+        "addr:place": "Capital",
+        "addr:postcode": "4000",
+        "addr:street": "San Miguel",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "healthcare": "hospital",
-        "name": "Hospital Juan María Obarrio",
-        "operator": "Sistema Provincial de Salud"
+        "name": "Hospital Colonia Juan Maria Obarrio",
+        "opening_hours": "24/7",
+        "operator": "Sistema Provincial de Salud",
+        "operator:type": "public",
+        "phone": "+543814330781",
+        "ref:sisa_refes": "13900842196067",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)",
+        "website": "https://m.facebook.com/hospitaljuanobarrio/"
       },
       "geometry": {
         "type": "Polygon",
@@ -4893,13 +4837,20 @@
       "properties": {
         "@id": "way/109440743",
         "addr:city": "San Miguel de Tucumán",
+        "addr:full": "Av. Nicolas Avellaneda 750",
         "addr:housenumber": "750",
+        "addr:place": "Capital",
         "addr:postcode": "4000",
         "addr:street": "Avenida Avellaneda",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Centro De Salud Zenón J. Santillán"
+        "name": "Hospital Centro De Salud Zenón J. Santillán",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900842196011",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -5712,9 +5663,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/123412859",
+        "addr:city": "San Pedro",
+        "addr:full": "Avda. Siria 44",
+        "addr:place": "San Pedro",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
-        "name": "Hospital Guillermo Paterson"
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Guillermo C. Paterson",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380632150018",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -8105,15 +8065,24 @@
       "type": "Feature",
       "properties": {
         "@id": "way/154377751",
+        "addr:city": "San Salvador De Jujuy",
+        "addr:full": "San Martin 330",
         "addr:housenumber": "330",
+        "addr:place": "Doctor Manuel Belgrano",
         "addr:street": "San Martín",
         "amenity": "hospital",
         "building": "hospital",
         "building:levels": "1",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
         "height": "6",
         "name": "Hospital San Roque",
+        "operator:type": "public",
         "phone": "0388 422-1305",
-        "roof:shape": "hipped"
+        "ref:sisa_refes": "10380212150031",
+        "ref:sisa_tipologia": "ESCIG",
+        "roof:shape": "hipped",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -11321,7 +11290,8 @@
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Regional Domingo Funes"
+        "name": "Hospital Regional Domingo Funes",
+        "wikidata": "Q5902617"
       },
       "geometry": {
         "type": "Polygon",
@@ -11744,7 +11714,7 @@
         "addr:street": "Justo José de Urquiza",
         "amenity": "hospital",
         "building": "hospital",
-        "contact:phone": "+54 341 472-4643; +54 341 472-4649; +54 341 480-4521",
+        "contact:phone": "+54 341 472-4643;+54 341 472-4649;+54 341 480-4521",
         "healthcare": "hospital",
         "name": "Hospital Provincial del Centenario",
         "operator": "Provincia de Santa Fe",
@@ -12216,8 +12186,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/192543916",
+        "addr:city": "Santa Victoria",
+        "addr:full": "24 De Septiembre S/N°",
+        "addr:place": "Santa Victoria",
+        "addr:postcode": "9111",
         "amenity": "hospital",
-        "name": "Hospital Juan Dávalos"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Juan Carlos Davalos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661612173042",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -13107,32 +13087,42 @@
       "type": "Feature",
       "properties": {
         "@id": "way/204347272",
+        "addr:city": "Cafayate",
+        "addr:full": "Victoria Toscano N°215 - Cafayate",
+        "addr:place": "Cafayate",
+        "addr:postcode": "4427",
         "amenity": "hospital",
-        "name": "Hospital Público"
+        "description": "Alto riesgo con terapia intensiva especializada",
+        "healthcare": "hospital",
+        "name": "Hospital Nuestra Señora Del Rosario",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660212173031",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -65.9798312,
-              -26.0739955
+              -65.97963,
+              -26.0740075
             ],
             [
-              -65.9790536,
-              -26.0740871
+              -65.9788873,
+              -26.074104
             ],
             [
-              -65.9789887,
-              -26.0733754
+              -65.9787929,
+              -26.0734067
             ],
             [
-              -65.9797188,
-              -26.0733113
+              -65.9795418,
+              -26.0733258
             ],
             [
-              -65.9798312,
-              -26.0739955
+              -65.97963,
+              -26.0740075
             ]
           ]
         ]
@@ -16170,14 +16160,23 @@
       "type": "Feature",
       "properties": {
         "@id": "way/233485311",
+        "addr:city": "San Salvador De Jujuy",
+        "addr:full": "Jose Hernandez 624",
         "addr:housenumber": "624",
+        "addr:place": "Doctor Manuel Belgrano",
         "addr:street": "José Hernández",
         "amenity": "hospital",
         "building": "hospital",
         "building:levels": "5",
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
         "height": "14",
-        "name": "Hospital de Niños Doctor Héctor Quintana",
-        "phone": "0388 424-5005"
+        "name": "Hospital Materno Infantil Dr. Hector Quintana",
+        "operator:type": "public",
+        "phone": "0388 424-5005",
+        "ref:sisa_refes": "11380212150041",
+        "ref:sisa_tipologia": "ESCIEP",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -17404,7 +17403,8 @@
         "@id": "way/238810336",
         "amenity": "hospital",
         "emergency": "yes",
-        "name": "Hospital Militar"
+        "name": "Hospital Militar",
+        "wikidata": "Q88566752"
       },
       "geometry": {
         "type": "Polygon",
@@ -18967,6 +18967,8 @@
       "properties": {
         "@id": "way/244619355",
         "addr:city": "Monte Quemado",
+        "addr:full": "Luis Pasteur S/N",
+        "addr:place": "Copo",
         "addr:postcode": "3714",
         "addr:street": "Luis Pasteur",
         "alt_name": "Hospital Zonal Monte Quemado Dr. Antonio F. David",
@@ -18975,7 +18977,11 @@
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital Zonal del Norte Grande Dr. Antonio Francisco Drancisvid",
-        "phone": "+54 3841 421413"
+        "operator:type": "public",
+        "phone": "+54 3841 421413",
+        "ref:sisa_refes": "10860562192054",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -19179,9 +19185,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/246745091",
+        "addr:city": "Salta",
+        "addr:full": "Calle S/N, Barrio Solidaridad",
+        "addr:place": "Capital",
+        "addr:postcode": "4400",
         "amenity": "hospital",
         "building": "yes",
-        "name": "Hospital Papa Francisco"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Papa Francisco",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660282173678",
+        "ref:sisa_tipologia": "ESCIETE",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -20419,9 +20435,16 @@
       "type": "Feature",
       "properties": {
         "@id": "way/255490649",
+        "addr:city": "Vera",
+        "addr:housenumber": "2495",
+        "addr:postcode": "S2440",
+        "addr:street": "Soldado Gómez",
         "amenity": "hospital",
+        "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Regional de Vera"
+        "name": "Hospital Regional de Vera",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -22829,11 +22852,21 @@
       "type": "Feature",
       "properties": {
         "@id": "way/282009103",
+        "addr:city": "Santiago Del Estero",
+        "addr:full": "Avenida Belgrano Norte 660",
         "addr:housenumber": "660",
+        "addr:place": "Capital",
+        "addr:postcode": "4200",
         "addr:street": "Av. Belgrano Norte",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
-        "name": "Hospital Independencia"
+        "healthcare": "hospital",
+        "name": "Hospital Zonal Independencia",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860492192059",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -23171,9 +23204,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/287039395",
+        "addr:city": "Santiago Del Estero",
+        "addr:full": "Avenida Belgrano Sur 2273, Santiago Del Estero",
+        "addr:place": "Capital",
+        "addr:postcode": "4200",
         "amenity": "hospital",
-        "name": "Hospital Regional Dr. Ramon Carrillo",
-        "source": "Bing"
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital Regional Dr. Ramón Carrillo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860492192048",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -26405,9 +26447,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/315473984",
+        "addr:city": "Iruya",
+        "addr:full": "San Martin S/N, Iruya",
+        "addr:place": "Iruya",
+        "addr:postcode": "4633",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
-        "name": "Hospital iruya"
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Ramon Carrillo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660702173047",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -28007,8 +28059,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/328276650",
+        "addr:city": "General Guemes",
+        "addr:full": "Cabred S/N°",
+        "addr:place": "General Guemes",
+        "addr:postcode": "4432",
         "amenity": "hospital",
-        "name": "Hospital Doctor Joaquín Castellanos"
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital Doctor Joaquín Castellanos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660492173041",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -28121,9 +28183,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/329561885",
+        "addr:city": "Tartagal (Tartagal)",
+        "addr:full": "Alberdi N°855 - Tartagal",
+        "addr:place": "Grl. Jose De San Martín",
+        "addr:postcode": "4560",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Juan Domingo Peron"
+        "name": "Hospital Presidente Juan Domingo Peron De Tartagal",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660562173063",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -28159,10 +28230,17 @@
       "properties": {
         "@id": "way/329797319",
         "addr:city": "Profesor Salvador Mazza",
+        "addr:full": "Isalas Malvinas Y Jose Hernadez",
+        "addr:place": "General Jose De San Martin",
         "addr:postcode": "4568",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Salvador Mazza"
+        "name": "Hospital Prof. Salvador Mazza",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660562173062",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -28197,9 +28275,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/330285222",
+        "addr:city": "Coronel Juan Sola",
+        "addr:full": "Belgrano S/N°- Coronel Juan Sola",
+        "addr:place": "Rivadavia",
+        "addr:postcode": "4554",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Morillo"
+        "name": "Hospital Morillo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661332173036",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -29504,58 +29591,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/337815028",
-        "addr:city": "San Miguel de Tucumán",
-        "addr:housenumber": "128",
-        "addr:postcode": "4000",
-        "addr:street": "Mendoza",
-        "amenity": "hospital",
-        "emergency": "no",
-        "healthcare": "hospital",
-        "name": "Hospital de dia Nestor Kirchner",
-        "opening_hours": "Mo-Fr 07:00-19:00",
-        "operator": "SIPROSA"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.1988529,
-              -26.8292691
-            ],
-            [
-              -65.1990015,
-              -26.829967
-            ],
-            [
-              -65.1988281,
-              -26.8299955
-            ],
-            [
-              -65.1987891,
-              -26.8298502
-            ],
-            [
-              -65.1984706,
-              -26.8299007
-            ],
-            [
-              -65.1983715,
-              -26.8293575
-            ],
-            [
-              -65.1988529,
-              -26.8292691
-            ]
-          ]
-        ]
-      },
-      "id": "way/337815028"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/337817558",
         "addr:city": "Yerba Buena",
         "addr:housenumber": "2050",
@@ -30247,11 +30282,19 @@
       "properties": {
         "@id": "way/349914064",
         "addr:city": "Rosario de la Frontera",
+        "addr:full": "Avellaneda Esq. Guemes S/N, Rosario De La Frontera",
+        "addr:place": "Rosario De La Frontera",
         "addr:postcode": "4190",
         "addr:street": "Avellaneda",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
-        "name": "Hospital Melchora Figueroa de Cornejo"
+        "healthcare": "hospital",
+        "name": "Hospital Melchora Figueroa de Cornejo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661402173059",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -33804,13 +33847,20 @@
       "properties": {
         "@id": "way/378354904",
         "addr:city": "Las Termas de Río Hondo",
+        "addr:full": "Buenos Aires Y Antonio Taboada",
+        "addr:place": "Rio Hondo",
         "addr:postcode": "4220",
         "addr:street": "Antonio Taboada",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Zonal Dr. Emilio Mera",
-        "phone": "+54 3858 421578"
+        "name": "Hospital Zonal Termas Dr. Emilio Mera",
+        "operator:type": "public",
+        "phone": "+54 3858 421578",
+        "ref:sisa_refes": "10861472192056",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -33891,7 +33941,10 @@
         "addr:street": "Boulevard Hipólito Yrigoyen",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Central de Reconquista"
+        "name": "Hospital Central de Reconquista",
+        "official_name": "Hospital Central de Reconquista Doctora Olga Stucky de Rizzi",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -37538,9 +37591,15 @@
       "type": "Feature",
       "properties": {
         "@id": "way/436773333",
+        "addr:city": "Villa Gobernador Gálvez",
+        "addr:housenumber": "1355",
+        "addr:postcode": "S2124",
+        "addr:street": "Balcarce",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Doctor Anselmo P. Gammen"
+        "name": "Hospital Doctor Anselmo P. Gammen",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -37623,16 +37682,25 @@
       "type": "Feature",
       "properties": {
         "@id": "way/436984762",
+        "addr:city": "San Salvador De Jujuy",
+        "addr:full": "Guemes 1345",
         "addr:housenumber": "1345",
+        "addr:place": "Doctor Manuel Belgrano",
+        "addr:postcode": "4600",
         "addr:street": "General Güemes",
         "amenity": "hospital",
         "building": "hospital",
         "building:levels": "2",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "emergency": "yes",
         "healthcare": "hospital",
         "height": "8",
         "name": "Hospital Pablo Soria",
-        "roof:shape": "hipped"
+        "operator:type": "public",
+        "ref:sisa_refes": "10380212150028",
+        "ref:sisa_tipologia": "ESCIG",
+        "roof:shape": "hipped",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -39147,15 +39215,19 @@
       "properties": {
         "@id": "way/451111083",
         "addr:city": "Monteros",
+        "addr:full": "Sarmiento 453",
         "addr:housenumber": "453",
+        "addr:place": "Monteros",
         "addr:postcode": "4142",
         "addr:street": "Sarmiento",
         "amenity": "hospital",
-        "building": "hospital",
-        "description": "Albergo a las familias evacuadas durante las inundaciones de febrero del año 2015.",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital Gral. Lamadrid",
-        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+        "name": "Hospital Gral. Lamadrid Monteros",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900702196022",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -40373,12 +40445,21 @@
       "properties": {
         "@id": "way/471480786",
         "addr:city": "La Viña",
-        "addr:housenumber": "Belgrano",
+        "addr:full": "Av. Belgrano S/N - La Viña",
+        "addr:place": "La Viña",
         "addr:postcode": "4425",
+        "addr:street": "Belgrano",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Nuestra Señora del Valle"
+        "name": "Hospital Nuestra Señora Del Valle",
+        "name:es": "Nuestra Señora del Valle",
+        "operator:type": "public",
+        "phone": "0387-4992031",
+        "ref:sisa_refes": "10660982173039",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -42100,7 +42181,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/485547309",
-        "amenity": "hospital"
+        "addr:city": "Santa Victoria",
+        "addr:full": "San Martín Y Guemes - Santa Victoria Este",
+        "addr:place": "Santa Victoria",
+        "addr:postcode": "4561",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Santa Victoria Este",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661612173071",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -42176,9 +42268,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/487217401",
+        "addr:city": "Ingeniero Forres",
+        "addr:full": "Dr Ramón Carrillo S/N",
+        "addr:place": "Robles",
+        "addr:postcode": "2354",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "emergency": "yes",
-        "name": "Hospital Distrital Forres"
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Forres",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861612192038",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -42571,14 +42673,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/494952838",
+        "addr:city": "Rosario",
         "addr:housenumber": "141",
         "addr:postcode": "S2001",
         "addr:street": "Ayolas",
         "amenity": "hospital",
         "contact:phone": "+54 341 472-9183",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Hospital Geriátrico Provincial",
-        "operator": "Gustavo Sergio Ruggeri",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
         "source": "http://www.enrosario.com/comercio/clinicas-e-institutos-de-salud/1791/hospital-geriatrico-provincial"
       },
       "geometry": {
@@ -43771,7 +43876,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/509448757",
-        "amenity": "hospital"
+        "addr:city": "Yuto",
+        "addr:full": "Sanchez De Bustamante Y Mendoza",
+        "addr:place": "Ledesma",
+        "addr:postcode": "4518",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital San Miguel",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380352150030",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -44091,12 +44207,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/513219413",
-        "addr:city": "LIBERTADOR GENERAL SAN MARTIN",
+        "addr:city": "Libertador General San Martin",
+        "addr:full": "Avda. Reymundo Keyner 891",
         "addr:housenumber": "891",
+        "addr:place": "Ledesma",
         "addr:postcode": "4512",
         "addr:street": "R Keiner",
         "amenity": "hospital",
-        "name": "Hospital Oscar Orias"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Oscar Orias",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380352150020",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -44250,12 +44374,19 @@
         "@id": "way/515677544",
         "addr:city": "Palma Sola",
         "addr:country": "AR",
+        "addr:full": "Dardo Dominguez S/N",
+        "addr:place": "Santa Barbara",
         "addr:postcode": "4501",
         "addr:street": "Avenida Roberto Dardo Domínguez",
         "amenity": "hospital",
-        "building": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
         "name": "Hospital Nuestra Señora del Valle",
-        "phone": "03886 49-6001"
+        "operator:type": "public",
+        "phone": "03886 49-6001",
+        "ref:sisa_refes": "10380702150027",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -44511,57 +44642,6 @@
         ]
       },
       "id": "way/517478591"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/517749171",
-        "addr:city": "Santa Fe",
-        "addr:housenumber": "3551",
-        "addr:postcode": "3000",
-        "addr:street": "Boulevard Pellegrini",
-        "amenity": "hospital",
-        "description": "Este hospital fue afectado por las inundaciones de 2003 causadas por la creciente y desborde del río Salado",
-        "healthcare": "hospital",
-        "name": "Hospital Iturraspe",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -60.7153909,
-              -31.6340877
-            ],
-            [
-              -60.7151538,
-              -31.633246
-            ],
-            [
-              -60.7152391,
-              -31.6331789
-            ],
-            [
-              -60.7173852,
-              -31.6327122
-            ],
-            [
-              -60.7175826,
-              -31.633644
-            ],
-            [
-              -60.7155025,
-              -31.6341526
-            ],
-            [
-              -60.7153909,
-              -31.6340877
-            ]
-          ]
-        ]
-      },
-      "id": "way/517749171"
     },
     {
       "type": "Feature",
@@ -44878,13 +44958,19 @@
         "@id": "way/527903152",
         "addr:city": "Palpalá",
         "addr:country": "AR",
+        "addr:full": "Avda. Río De La Plata S/N",
         "addr:housenumber": "350",
         "addr:postcode": "Y4613AAQ",
         "addr:street": "Avenida Río de la Plata",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Doctor Wenseslao Gallardo",
-        "phone": "0388 427-0523"
+        "operator:type": "public",
+        "phone": "0388 427-0523",
+        "ref:sisa_refes": "10380422150032",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -45172,13 +45258,21 @@
       "type": "Feature",
       "properties": {
         "@id": "way/530023516",
-        "addr:city": "San Salvador de Jujuy, Jujuy",
+        "addr:city": "San Salvador De Jujuy",
         "addr:country": "AR",
+        "addr:full": "Ecuador 53 B° Mariano Moreno",
         "addr:housenumber": "53",
+        "addr:place": "Doctor Manuel Belgrano",
         "addr:postcode": "Y4607IBA",
         "addr:street": "Ecuador",
         "amenity": "hospital",
-        "name": "Hospital Psiquiátrico Doctor Néstor Sequeiros"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Psiquiátrico Doctor Néstor Sequeiros",
+        "operator:type": "public",
+        "ref:sisa_refes": "13380212150042",
+        "ref:sisa_tipologia": "ESCIESM",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -45667,8 +45761,12 @@
         "addr:street": "Raul B. Diaz",
         "amenity": "hospital",
         "disused": "Centro de Medicina Nuclear",
+        "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Centro de Asistencia Respiratoria"
+        "healthcare:speciality": "intensive",
+        "name": "Centro Emergente de Asistencia Respiratoria",
+        "operator": "Ministerio de Salud de La Pampa",
+        "operator:type": "government"
       },
       "geometry": {
         "type": "Polygon",
@@ -45927,8 +46025,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/544437022",
+        "addr:city": "Joaquin V. Gonzalez",
+        "addr:full": "Gral. Guemes S/N°- Joaquin V. Gonzalez",
+        "addr:place": "Anta",
+        "addr:postcode": "4448",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Oscar H. Costas",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660072173024",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -46027,8 +46135,21 @@
       "type": "Feature",
       "properties": {
         "@id": "way/545075441",
+        "addr:city": "El Galpón",
+        "addr:full": "Gral. Guemes N°292 - El Galpon",
+        "addr:housenumber": "292",
+        "addr:place": "Metan",
+        "addr:postcode": "4444",
+        "addr:street": "General Güemes",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital San Francisco Solano",
+        "name:es": "Hospital San Francisco",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661122173066",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -46467,9 +46588,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/550754326",
+        "addr:city": "San Ramon De La Nueva Oran",
+        "addr:full": "Pueyrredon N°701 - Oran",
+        "addr:place": "Oran",
+        "addr:postcode": "4533",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "healthcare": "hospital",
-        "name": "San Vicente de Paul"
+        "name": "Hospital San Vicente De Paul De Oran",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661262173068",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -46675,9 +46805,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/555517841",
+        "addr:city": "La Quiaca",
+        "addr:full": "Patricias Argentinas 185",
+        "addr:place": "Yavi",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital Doctor Jorge Uro"
+        "name": "Hospital Doctor Jorge Uro",
+        "operator:type": "public",
+        "ref:sisa_refes": "10381122150019",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -47058,9 +47196,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/560408491",
+        "addr:city": "Humahuaca",
+        "addr:full": "Santa Fe 34",
+        "addr:place": "Humahuaca",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Manuel Belgrano"
+        "name": "Hospital General M. Belgrano",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380282150021",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -47656,11 +47802,14 @@
         "addr:city": "Recreo",
         "addr:housenumber": "1.5 km",
         "addr:postcode": "3018",
+        "addr:street": "Ruta Provincial 5",
         "amenity": "hospital",
         "description": "El hospital protomédico de la ciudad de Recreo se ubica en la intersección de la RN11, que se une con la RP5 sobre la misma hacia el este 1,5 km.",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital Protomédico Manuel Rodríguez",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
         "phone": "+54 342 490-5394"
       },
       "geometry": {
@@ -48522,10 +48671,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/626017915",
+        "addr:city": "Salta",
+        "addr:full": "Av. Sarmiento N°555",
         "addr:housenumber": "577",
+        "addr:place": "Capital",
+        "addr:postcode": "4400",
         "addr:street": "Sarmiento",
         "amenity": "hospital",
-        "name": "Hospital Señor del Milagro"
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Señor del Milagro",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660282173072",
+        "ref:sisa_tipologia": "ESCIE",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -48660,8 +48819,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/627037555",
+        "addr:city": "Salta",
+        "addr:full": "Jose Tobias N°69",
+        "addr:place": "Capital",
+        "addr:postcode": "4400",
         "amenity": "hospital",
-        "name": "Hospital San Bernardo"
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital San Bernardo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660282173065",
+        "ref:sisa_tipologia": "ESCIEP",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -49070,12 +49239,14 @@
       "properties": {
         "@id": "way/627875221",
         "addr:city": "Santa Fe",
-        "addr:housenumber": "5212",
+        "addr:housenumber": "8260",
         "addr:postcode": "S3000",
-        "addr:street": "French",
+        "addr:street": "Avenida Blas Parera",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "hospital sayago"
+        "name": "Hospital Sayago",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -49325,8 +49496,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/630388123",
+        "addr:city": "Salta",
+        "addr:full": "Gral. Richieri S/N°",
+        "addr:place": "Capital",
+        "addr:postcode": "4400",
         "amenity": "hospital",
-        "name": "Hospital de Salud Mental Miguel Ragone"
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital de Salud Mental Miguel Ragone",
+        "operator:type": "public",
+        "ref:sisa_refes": "13660282173084",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -51201,9 +51382,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/697055451",
+        "addr:city": "El Carmen",
+        "addr:full": "Mitre 686",
+        "addr:place": "El Carmen",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Nuestra Señora de el Carmen"
+        "name": "Hospital Nuestra Señora Del Carmen",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380142150025",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -51749,10 +51938,13 @@
         "addr:housenumber": "8430",
         "addr:postcode": "S3000",
         "addr:street": "Avenida Blas Parera",
+        "alt_name": "Hospital Mira y López",
         "amenity": "hospital",
         "healthcare": "hospital",
         "healthcare:speciality": "psychiatry;general;emergency",
-        "name": "Hospital General Dr. Mira y López"
+        "name": "Hospital General Polivalente Doctor Mira Y López",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -51885,9 +52077,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/739618836",
+        "addr:city": "Fraile Pintado",
+        "addr:full": "Belgrano Y Senador Perez S/N",
+        "addr:place": "Ledesma",
+        "addr:postcode": "4506",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "healthcare": "hospital",
-        "name": "Hospital Zegada"
+        "name": "Hospital Presbitero Escolastico Zegada",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380352150029",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54098,12 +54299,18 @@
       "properties": {
         "@id": "way/785690285",
         "addr:city": "Nueva Esperanza",
+        "addr:place": "Pellegrini",
+        "addr:postcode": "4197",
         "addr:street": "Pedro Gallo",
         "amenity": "hospital",
-        "description": "Nueva Esperanza- Dpto. Pellegrini",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Nueva Esperanza",
-        "phone": "+54 3861 421025"
+        "name": "Hospital Zonal Nueva Esperanza",
+        "operator:type": "public",
+        "phone": "+54 3861 421025",
+        "ref:sisa_refes": "10861332192060",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54463,12 +54670,19 @@
       "properties": {
         "@id": "way/785892094",
         "addr:city": "Pozo Hondo",
+        "addr:full": "Calle Francisco Pesce",
+        "addr:place": "Jimenez",
+        "addr:postcode": "4184",
         "addr:street": "Francisco Pece",
         "amenity": "hospital",
-        "description": "Bajo Riesgo Con Internación Simple ",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Distrital de Pozo Hondo",
-        "phone": "+54 3858 490145"
+        "operator:type": "public",
+        "phone": "+54 3858 490145",
+        "ref:sisa_refes": "10860912192042",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54803,12 +55017,19 @@
       "properties": {
         "@id": "way/788317950",
         "addr:city": "Aráoz",
+        "addr:full": "Ruta 302 S/N",
+        "addr:place": "Leales",
         "addr:postcode": "4178",
         "addr:street": "Ruta Provincial 302",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Estación Araoz",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900562196020",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54843,13 +55064,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/788326051",
-        "addr:city": "Ranchillos y San Miguel",
+        "addr:city": "Ranchillos",
+        "addr:full": "Santiago N° 750 Ranchillos",
         "addr:housenumber": "750",
+        "addr:place": "Cruz Alta",
         "addr:postcode": "4178",
         "addr:street": "Santiago",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Maria Auxiliadora Ranchillos"
+        "name": "Hospital Maria Auxiliadora Ranchillos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900142196025",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54889,12 +55117,19 @@
       "properties": {
         "@id": "way/789113929",
         "addr:city": "Los Ralos",
+        "addr:full": "Eudoro Avellaneda S/N",
+        "addr:place": "Cruz Alta",
         "addr:postcode": "4182",
         "addr:street": "Avellaneda",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Los Ralos",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900142196006",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54962,12 +55197,19 @@
       "properties": {
         "@id": "way/789115252",
         "addr:city": "Gobernador Garmendia",
+        "addr:full": "9 De Julio Sn",
+        "addr:place": "Burruyacu",
         "addr:postcode": "4187",
         "addr:street": "9 de Julio",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Garmendia",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900072196021",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55002,14 +55244,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/789125972",
-        "addr:city": "Burruyacú",
+        "addr:city": "Villa Burruyacu",
         "addr:full": "Independencia y Belgrano",
+        "addr:place": "Burruyacu",
         "addr:postcode": "4119",
         "addr:street": "Independencia",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Burruyacú",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900072196009",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55309,12 +55557,19 @@
       "properties": {
         "@id": "way/789761487",
         "addr:city": "Trancas",
+        "addr:full": "Av. Hipolito Yrigoyen 161",
         "addr:housenumber": "161",
+        "addr:place": "Trancas",
         "addr:postcode": "4124",
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Trancas"
+        "name": "Hospital De Trancas",
+        "operator:type": "public",
+        "ref:sisa_refes": "10901122196014",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55415,12 +55670,19 @@
       "properties": {
         "@id": "way/790222852",
         "addr:city": "Tafí del Valle",
+        "addr:full": "Av.San Martín S/N",
+        "addr:place": "Tafi Del Valle",
         "addr:postcode": "4137",
         "addr:street": "Avenida San Martín",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
         "name": "Hospital Dr. Elias L. Medici",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900982196016",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55460,12 +55722,19 @@
       "properties": {
         "@id": "way/790239254",
         "addr:city": "San Miguel de Tucuman",
+        "addr:full": "Catamarca 2000",
         "addr:housenumber": "2000",
+        "addr:place": "Capital",
         "addr:postcode": "4000",
         "addr:street": "Catamarca",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital De Clínicas Presidente Dr. Nicolás Avellaneda"
+        "name": "Hospital De Clínicas Presidente Dr. Nicolás Avellaneda",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900842196013",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55521,12 +55790,19 @@
       "properties": {
         "@id": "way/790614309",
         "addr:city": "San Miguel de Tucuman",
+        "addr:full": "Muñecas 2550",
         "addr:housenumber": "2550",
+        "addr:place": "Capital",
         "addr:postcode": "4000",
         "addr:street": "Muñecas",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital De Salud Mental Nuestra Señora Del Carmen"
+        "name": "Hospital De Salud Mental Nuestra Señora Del Carmen",
+        "operator:type": "public",
+        "ref:sisa_refes": "13900842196068",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55579,12 +55855,18 @@
         "@id": "way/790906458",
         "addr:city": "Banda del Río Salí",
         "addr:full": "Ruta Nacional 9 y Camino del Carmen",
+        "addr:place": "Cruz Alta",
         "addr:postcode": "4109",
         "addr:street": "Ruta Nacional 9",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Del Este Eva Perón",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900142197141",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55704,12 +55986,19 @@
       "properties": {
         "@id": "way/790913990",
         "addr:city": "San Pablo",
+        "addr:full": "Av. San Martín S/N",
+        "addr:place": "Lules",
         "addr:postcode": "4129",
         "addr:street": "Avenida San Martín",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital San Pablo",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900632196030",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -55973,12 +56262,19 @@
       "properties": {
         "@id": "node/428845265",
         "addr:city": "Famaillá",
+        "addr:full": "Belgrano 210",
         "addr:housenumber": "210",
+        "addr:place": "Famaillá",
         "addr:postcode": "4132",
         "addr:street": "Belgrano",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Parajón Ortíz"
+        "name": "Hospital Parajón Ortíz",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900282196027",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -56092,8 +56388,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/595234316",
+        "addr:city": "Cachi",
+        "addr:full": "Benjamin Zorrilla S/N°",
+        "addr:place": "Cachi",
+        "addr:postcode": "4417",
         "amenity": "hospital",
-        "name": "Hospital San José"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr.Arne Hoygaard",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660142173021",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -56352,8 +56658,12 @@
         "addr:housenumber": "2150",
         "addr:postcode": "S3000",
         "addr:street": "Avenida Gobernador Freyre",
+        "alt_name": "Hospital Cullen",
         "amenity": "hospital",
-        "name": "Hospital José María Cullen",
+        "healthcare": "hospital",
+        "name": "Hospital Doctor José María Cullen",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes",
         "wheelchair:description": "los baños son accesibles, pero no están tan higiénicos como debiera."
@@ -56484,8 +56794,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/965178942",
+        "addr:city": "Seclantas",
+        "addr:full": "Abraham Cornejo S/N°- Seclantas",
+        "addr:place": "Molinos",
+        "addr:postcode": "4419",
         "amenity": "hospital",
-        "name": "Hospital Presbitero Benjamín Olmos"
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Presbitero Benjamín Olmos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661192173060",
+        "ref:sisa_tipologia": "ESCIE",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -56606,23 +56926,6 @@
         ]
       },
       "id": "node/997980488"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1025561689",
-        "amenity": "hospital",
-        "is_in": "Cafayate",
-        "name": "Guardia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.9796535,
-          -26.0737522
-        ]
-      },
-      "id": "node/1025561689"
     },
     {
       "type": "Feature",
@@ -58336,22 +58639,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1489909004",
-        "amenity": "hospital",
-        "name": "Hospital Doctor Ramón Carillo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2171397,
-          -22.7922578
-        ]
-      },
-      "id": "node/1489909004"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1490089539",
         "amenity": "hospital",
         "emergency": "yes",
@@ -58965,7 +59252,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1717160527",
-        "amenity": "hospital"
+        "addr:city": "San Carlos",
+        "addr:full": "Gral. San Martín S/N°",
+        "addr:place": "San Carlos",
+        "addr:postcode": "4427",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospita San Carlos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661542173034",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -59393,10 +59691,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1877489706",
+        "addr:city": "Casilda",
+        "addr:housenumber": "2351",
+        "addr:postcode": "S2170",
+        "addr:street": "Bulevar 9 de Julio",
         "amenity": "hospital",
-        "fixme": "Actualizar datos.",
         "healthcare": "hospital",
         "name": "Hospital San Carlos",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
         "phone": "+54 (3464) 42-2107"
       },
       "geometry": {
@@ -59855,40 +60158,6 @@
         ]
       },
       "id": "node/1904515547"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1905073385",
-        "amenity": "hospital",
-        "construction": "yes",
-        "emergency": "no",
-        "name": "Hospital Iturraspe (En construcción)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.7271903,
-          -31.5835972
-        ]
-      },
-      "id": "node/1905073385"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1909333924",
-        "amenity": "hospital",
-        "name": "Hospital de Niños"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.7275957,
-          -31.6448197
-        ]
-      },
-      "id": "node/1909333924"
     },
     {
       "type": "Feature",
@@ -60835,8 +61104,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2063107849",
+        "addr:city": "La Caldera",
+        "addr:full": "B° El Jardin",
+        "addr:place": "La Caldera",
+        "addr:postcode": "4425",
         "amenity": "hospital",
-        "name": "Hospital Base Enfermera Corina Adela Bustamante"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Base Enfermera Corina Adela Bustamante",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660772173052",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61085,8 +61364,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2117188829",
+        "addr:city": "Angastaco",
+        "addr:full": "Angastaco",
+        "addr:place": "San Carlos",
+        "addr:postcode": "4405",
         "amenity": "hospital",
-        "name": "Hospital de Angastaco"
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Nuestra Señora Del Valle De Angastaco",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661542173603",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61215,11 +61504,19 @@
       "properties": {
         "@id": "node/2130944952",
         "addr:city": "San Antonio de los Cobres",
+        "addr:full": "Carlos Pellegrini S/N - San Antonio De Los Cobres",
+        "addr:place": "Los Andes",
         "addr:postcode": "4411",
         "addr:street": "Carlos Pellegrini",
         "amenity": "hospital",
-        "name": "Hospital Dr Cayetano Pagano",
-        "phone": "+54 0387 4909022"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Nicolas Cayetano Pagano",
+        "operator:type": "public",
+        "phone": "+54 0387 4909022",
+        "ref:sisa_refes": "10661052173045",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61236,10 +61533,17 @@
         "@id": "node/2132059361",
         "addr:city": "Tilcara",
         "addr:country": "AR",
+        "addr:full": "Lavalle 552",
+        "addr:place": "Tilcara",
         "addr:street": "Lavalle",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Doctor Salvador Mazza"
+        "name": "Hospital Doctor Salvador Mazza",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380942150014",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61255,11 +61559,19 @@
       "properties": {
         "@id": "node/2135293845",
         "addr:city": "Apolinario Saravia",
+        "addr:full": "Pje. Peyrotti 179 - Apolinario Saravia",
+        "addr:place": "Anta",
         "addr:postcode": "4449",
         "addr:street": "Martin Miguel de Güemes",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
-        "name": "Hospital Doctor Mario Villafañe"
+        "healthcare": "hospital",
+        "name": "Hospital Doctor Mario Villafañe",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660072173048",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61274,8 +61586,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2145279671",
+        "addr:city": "Calilegua",
+        "addr:full": "San Lorenzo S/N",
+        "addr:place": "Ledesma",
         "amenity": "hospital",
-        "name": "Hospital de Calilegua"
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital de Calilegua",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380352150016",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61715,8 +62036,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2234847853",
+        "addr:city": "La Merced",
+        "addr:full": "Hipolito Yrigoyen N°958 - La Merced",
+        "addr:place": "Cerrillos",
+        "addr:postcode": "4421",
         "amenity": "hospital",
-        "name": "Hospital Doctor Nicolás Lozano"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Doctor Nicolás Lozano",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660352173046",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61731,9 +62062,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2236232881",
+        "addr:city": "Rosario De Lerma",
+        "addr:full": "Mariano Moreno N°19",
         "addr:housenumber": "19",
+        "addr:place": "Rosario De Lerma",
+        "addr:postcode": "4405",
         "amenity": "hospital",
-        "name": "Hospital Joaquín Corbalán"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Joaquín Corbalán",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661472173057",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61748,9 +62089,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2241421541",
+        "addr:city": "Cerrillos",
+        "addr:full": "Libertad N°352 - Cerrillos",
         "addr:housenumber": "352",
+        "addr:place": "Cerrillos",
+        "addr:postcode": "4403",
         "amenity": "hospital",
-        "name": "Hospital Sta. Teresita"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Santa Teresita",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660352173070",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -61765,8 +62116,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2245032826",
+        "addr:city": "Campo Quijano",
+        "addr:full": "Antártida Argetina S/N°- Campo Quijano",
+        "addr:place": "Rosario De Lerma",
+        "addr:postcode": "4407",
         "amenity": "hospital",
-        "name": "Hospital"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Francisco Herrera",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661472173040",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -63898,11 +64259,19 @@
       "properties": {
         "@id": "node/2823669111",
         "addr:city": "Hipólito Yrigoyen",
+        "addr:full": "San Martín Esq. 20 De Febrero",
+        "addr:place": "Oran",
         "addr:postcode": "4533",
         "addr:street": "San Martín",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
-        "name": "Hospital Eva Perón"
+        "healthcare": "hospital",
+        "name": "Hospital Eva Perón",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661262173027",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -64447,26 +64816,6 @@
         ]
       },
       "id": "node/2933180917"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2941391504",
-        "addr:city": "San Salvador de Jujuy",
-        "addr:postcode": "4600",
-        "addr:street": "Independencia",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Guardia del Hospital San Roque"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2979259,
-          -24.1874031
-        ]
-      },
-      "id": "node/2941391504"
     },
     {
       "type": "Feature",
@@ -66160,25 +66509,19 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3360136353",
-        "amenity": "hospital",
-        "name": "Hospital San Miguel"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.4736353,
-          -23.6404227
-        ]
-      },
-      "id": "node/3360136353"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3360556665",
+        "addr:city": "Pichanal",
+        "addr:full": "Rivadavia N°747 - Pichanal - Oran",
+        "addr:place": "Oran",
+        "addr:postcode": "4534",
         "amenity": "hospital",
-        "name": "Hospital Doctor Vicente Arroyabe"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Doctor Vicente Arroyabe",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661262173050",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -66240,9 +66583,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3362455677",
+        "addr:city": "General Mosconi",
+        "addr:full": "Calle Juan Xxiii S/N - Loc. General Mosconi -",
+        "addr:place": "General Jose De San Martin",
+        "addr:postcode": "4562",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital General Mosconi"
+        "name": "Hospital General Mosconi",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660562173055",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -67024,22 +67376,6 @@
         ]
       },
       "id": "node/3547291070"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3550252874",
-        "amenity": "hospital",
-        "name": "Hospital Regional Dr. Ramón Carrillo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2508901,
-          -27.8049653
-        ]
-      },
-      "id": "node/3550252874"
     },
     {
       "type": "Feature",
@@ -68514,8 +68850,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3741350063",
+        "addr:city": "Colonia El Simbolar",
+        "addr:full": "Sector A",
+        "addr:place": "Robles",
+        "addr:postcode": "4354",
         "amenity": "hospital",
-        "name": "Sala Primeros Auxilios"
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Colonia El Simbolar",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861612192033",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -68572,11 +68918,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3742106933",
-        "addr:city": "la Mendieta",
-        "addr:housenumber": "Florida",
+        "addr:city": "La Mendieta",
+        "addr:full": "Florida S/N",
+        "addr:place": "San Pedro",
         "addr:postcode": "4522",
         "amenity": "hospital",
-        "name": "Hospital La Mendieta"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital La Mendieta",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380632150022",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -68669,17 +69022,20 @@
       "properties": {
         "@id": "node/3743633073",
         "addr:city": "Santa Isabel",
+        "addr:housenumber": "1349",
         "addr:postcode": "S2605",
         "addr:street": "Misiones",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Miguel Rueda"
+        "name": "Hospital Miguel Rueda",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.6867921,
-          -33.8873612
+          -61.6866285,
+          -33.8871118
         ]
       },
       "id": "node/3743633073"
@@ -69629,8 +69985,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3823790782",
+        "addr:city": "Robles",
+        "addr:full": "Beltran - Dpto Robles",
+        "addr:place": "Robles",
+        "addr:postcode": "4313",
         "amenity": "hospital",
-        "name": "Hospital de transito"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Beltran",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861612192014",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -71031,6 +71397,7 @@
         "addr:postcode": "5152",
         "addr:street": "Teniente PM Valko y comodoro PM De la Colina",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario de Playas de Oro",
         "operator": "Susana Del Valle Domínguez"
       },
@@ -71516,6 +71883,7 @@
         "@id": "node/4103900628",
         "addr:street": "Avenida Cárcano",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario Municipal Sol y Río",
         "operator": "Silvina Chagardoy"
       },
@@ -72381,6 +72749,7 @@
         "addr:street": "Avenida Presidente Juan D. Perón",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Gumersindo Sayago",
         "phone": "03541 - 436416"
       },
@@ -72435,7 +72804,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4127042003",
-        "amenity": "hospital"
+        "addr:city": "Santiago Del Estero",
+        "addr:full": "Solano Godoy 160",
+        "addr:place": "Capital",
+        "addr:postcode": "4200",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Neumonologico Dr. Gumersindo Sayago",
+        "operator:type": "public",
+        "ref:sisa_refes": "14860492192087",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -72948,8 +73328,7 @@
         "addr:street": "Avenida 5 de octubre",
         "amenity": "hospital",
         "emergency": "yes",
-        "healthcare": "hospital",
-        "name": "Centro de salud"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -73387,10 +73766,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4218409613",
+        "addr:city": "Maimara",
+        "addr:full": "Belgrano S/N",
+        "addr:place": "Tilcara",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Maimará"
+        "name": "Hospital Maimará",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380942150023",
+        "ref:sisa_tipologia": "ESCIEP",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -73942,29 +74329,6 @@
         ]
       },
       "id": "node/4241384622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4241601589",
-        "addr:housenumber": "1850",
-        "addr:postcode": "4000",
-        "addr:street": "San Miguel",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital Juan Maria Obarrio",
-        "opening_hours": "24/7",
-        "phone": "+543814330781",
-        "website": "https://m.facebook.com/hospitaljuanobarrio/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2202534,
-          -26.8025425
-        ]
-      },
-      "id": "node/4241601589"
     },
     {
       "type": "Feature",
@@ -75362,23 +75726,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4424427592",
-        "amenity": "hospital",
-        "name": "Hospital Monterrico",
-        "name:es": "Hospital Monterrico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.1591381,
-          -24.4426474
-        ]
-      },
-      "id": "node/4424427592"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4424450189",
         "addr:city": "Santa Lucia",
         "addr:housenumber": "249",
@@ -75695,11 +76042,19 @@
       "properties": {
         "@id": "node/4425280089",
         "addr:city": "San José de Metán",
+        "addr:full": "Jose Ignacio Sierra N°610",
+        "addr:place": "Metan",
         "addr:postcode": "4440",
         "addr:street": "José Ignacio Sierra",
         "amenity": "hospital",
-        "name": "Nuestra Señora del Carmen",
-        "name:es": "Nuestra Señora del Carmen"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Del Carmen",
+        "name:es": "Nuestra Señora del Carmen",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661122173051",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -76095,6 +76450,7 @@
       "properties": {
         "@id": "node/4471839920",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario Municipal"
       },
       "geometry": {
@@ -76842,10 +77198,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4593415290",
+        "addr:city": "Lules",
+        "addr:full": "Belgrano 300",
+        "addr:place": "Lules",
+        "addr:postcode": "4128",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "HL hospital de Lules",
-        "name:es": "HL hospital de Lules"
+        "name": "Hospital Eliseo Canton Lules",
+        "name:es": "HL hospital de Lules",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900632196019",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -76942,26 +77307,6 @@
         ]
       },
       "id": "node/4677877518"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4679161007",
-        "addr:postcode": "4425",
-        "addr:street": "Belgrano",
-        "amenity": "hospital",
-        "name": "Nuestra Señora del Valle",
-        "name:es": "Nuestra Señora del Valle",
-        "phone": "0387-4992031"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.5661099,
-          -25.4693991
-        ]
-      },
-      "id": "node/4679161007"
     },
     {
       "type": "Feature",
@@ -77282,27 +77627,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4731427021",
-        "addr:city": "El Galpón",
-        "addr:housenumber": "292",
-        "addr:postcode": "4444",
-        "addr:street": "General Güemes",
-        "amenity": "hospital",
-        "name": "Hospital San Francisco",
-        "name:es": "Hospital San Francisco"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6487476,
-          -25.379708
-        ]
-      },
-      "id": "node/4731427021"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4739187821",
         "amenity": "hospital",
         "name": "Sala de Salud"
@@ -77430,8 +77754,12 @@
         "amenity": "hospital",
         "description": "El Hospital de Niños \"Dr. Orlando Alassia\" fue creado el 29 de Abril de 1999 en la ciudad de Santa Fe.",
         "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "pediatrics",
         "name": "Hospital de Niños Dr. Orlando Alassia",
-        "phone": "0342 450-5900"
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 342 450-5900"
       },
       "geometry": {
         "type": "Point",
@@ -77441,22 +77769,6 @@
         ]
       },
       "id": "node/4765362628"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4765448065",
-        "amenity": "hospital",
-        "name": "Reapertura del Hospital de Niños Dr. O. Alassia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.7275957,
-          -31.6448197
-        ]
-      },
-      "id": "node/4765448065"
     },
     {
       "type": "Feature",
@@ -78479,11 +78791,19 @@
       "properties": {
         "@id": "node/5102257821",
         "addr:city": "Taco Pozo",
+        "addr:full": "San Martín Y Vedia",
+        "addr:place": "Almirante Brown",
         "addr:postcode": "3174",
         "addr:street": "Avenida San Martín",
         "amenity": "hospital",
-        "name": "Hospital de Taco Pozo",
-        "phone": "+54 03877 495019"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Rural Taco Pozo Dra. E Orellana",
+        "operator:type": "public",
+        "phone": "+54 03877 495019",
+        "ref:sisa_refes": "10220072126021",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -78499,6 +78819,7 @@
       "properties": {
         "@id": "node/5102366840",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Nuestra Señora de Nieva"
       },
       "geometry": {
@@ -78608,12 +78929,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5122423921",
+        "addr:city": "Guachipas",
+        "addr:full": "Eugenio Romano S/N° - Guachipas",
+        "addr:place": "Guachipas",
         "addr:postcode": "4425",
         "addr:street": "Eugenio Romanow",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
         "name": "Hospital Guachipas",
         "name:es": "Hospital Guachipas",
-        "opening_hours": "24/7"
+        "opening_hours": "24/7",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660632173056",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -79105,6 +79435,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5203007417",
+        "addr:city": "Carlos Pellegrini",
+        "addr:housenumber": "721",
+        "addr:postcode": "S2453",
+        "addr:street": "San Martín",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Doctor Julio Cortes Belascuen",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3401 48-0217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7844437,
+          -32.047428
+        ]
+      },
+      "id": "node/5203007417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5203426149",
         "addr:city": "Piamonte",
         "addr:housenumber": "1099",
@@ -79262,7 +79616,7 @@
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Sanatorio Santa Rosa",
-        "opening_hours": "Mo-Su 00:00-00:00",
+        "opening_hours": "24/7",
         "operator": "457000"
       },
       "geometry": {
@@ -79314,8 +79668,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5238803950",
+        "addr:city": "Aguaray",
+        "addr:full": "Av. Sarmiento Y Guemes S/N°",
+        "addr:place": "General Jose De San Martin",
+        "addr:postcode": "4566",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Luis Adolfo Guemes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660562173044",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -79330,8 +79694,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5245125846",
+        "addr:city": "Embarcacion",
+        "addr:full": "Entre Ríos N°349 - Embarcacion",
+        "addr:place": "General Jose De San Martin",
+        "addr:postcode": "4550",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital San Roque",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660562173067",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -79363,11 +79737,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5258501455",
+        "addr:city": "Colonia Santa Rosa",
+        "addr:full": "Independencia N°524 - Colonia Santa Rosa",
         "addr:housenumber": "524",
+        "addr:place": "Oran",
+        "addr:postcode": "4531",
         "addr:street": "Independencia",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "healthcare": "hospital",
-        "phone": "+54 3878 494118"
+        "name": "Hospital Dr. Elias Anna",
+        "operator:type": "public",
+        "phone": "+54 3878 494118",
+        "ref:sisa_refes": "10661262173026",
+        "ref:sisa_tipologia": "ESCIEP",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -79383,12 +79767,19 @@
       "properties": {
         "@id": "node/5260976049",
         "addr:city": "Las Lajitas",
+        "addr:full": "Cordoba N°184 - Las Lajitas",
         "addr:housenumber": "184",
+        "addr:place": "Anta",
         "addr:postcode": "4449",
         "addr:street": "Córdoba",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Las Lajitas"
+        "name": "Hospital Esperanza De Aguirre",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660072173054",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -79398,22 +79789,6 @@
         ]
       },
       "id": "node/5260976049"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5262911600",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.1240989,
-          -25.1130207
-        ]
-      },
-      "id": "node/5262911600"
     },
     {
       "type": "Feature",
@@ -79764,13 +80139,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5370822903",
-        "addr:housenumber": "Leandro alem  y",
+        "addr:city": "Perico",
+        "addr:full": "Leandro Alem S/N",
+        "addr:place": "El Carmen",
         "addr:street": "Avenida Belgrano",
         "amenity": "hospital",
         "healthcare": "hospital",
         "healthcare:speciality": "general",
-        "name": "Hospital  Dr.  Arturo Zabala",
-        "operator": "karls"
+        "name": "Hospital Dr. Arturo Zabala",
+        "operator": "karls",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380142150017",
+        "ref:sisa_tipologia": "ESCIE",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -80989,9 +81370,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5603147254",
+        "addr:city": "Coronel Moldes",
+        "addr:full": "J.J. De Urquiza S/N°- Coronel Moldes",
+        "addr:place": "La Viña",
+        "addr:postcode": "4425",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Coronel Moldes"
+        "name": "Hospital Dr L.M. Anzoategui",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660982173043",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -81355,22 +81745,6 @@
         ]
       },
       "id": "node/5638735227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5651583121",
-        "amenity": "hospital",
-        "name": "Nuestra Señora Del Carmen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.2626151,
-          -24.3913697
-        ]
-      },
-      "id": "node/5651583121"
     },
     {
       "type": "Feature",
@@ -82031,10 +82405,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5897238408",
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "8325",
+        "addr:street": "Avenida Blas Parera",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "iturraspe",
-        "wheelchair": "limited"
+        "name": "Hospital José Bernardo Iturraspe",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -82065,10 +82444,20 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5919488420",
+        "addr:city": "Salta",
+        "addr:full": "Av Sarmiento Y Gral Arenales",
         "addr:housenumber": "1301",
+        "addr:place": "Capital",
+        "addr:postcode": "4400",
         "addr:street": "Avenida Sarmiento",
         "amenity": "hospital",
-        "name": "Hospital Público Materno Infantil"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Público Materno Infantil",
+        "operator:type": "public",
+        "ref:sisa_refes": "12660282173081",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -82078,27 +82467,6 @@
         ]
       },
       "id": "node/5919488420"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5927488721",
-        "addr:city": "Santa Fe",
-        "addr:housenumber": "5212",
-        "addr:postcode": "S3000",
-        "addr:street": "French",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "hospital sayago"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.724852,
-          -31.5853377
-        ]
-      },
-      "id": "node/5927488721"
     },
     {
       "type": "Feature",
@@ -83438,9 +83806,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6867094238",
+        "addr:city": "Chicoana",
+        "addr:full": "El Carmen N°360",
+        "addr:place": "Chicoana",
+        "addr:postcode": "4423",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Dr. Rafael Villagran"
+        "name": "Hospital Dr. Villagran",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660422173025",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84170,13 +84547,19 @@
       "properties": {
         "@id": "node/7348711345",
         "addr:city": "Simoca",
+        "addr:full": "Alvaro Gomez Llueca 800 Y Balbin",
         "addr:housenumber": "800",
+        "addr:place": "Simoca",
         "addr:postcode": "4172",
         "addr:street": "Gomez Llueca",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva especializada",
         "healthcare": "hospital",
         "name": "Hospital Dr. Alvaro Gomez Llueca",
-        "source": "http://ide.sedronar.gov.ar/layers/geonode:web_hospitales_publicos_sisa"
+        "operator:type": "public",
+        "ref:sisa_refes": "10900912196015",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84246,12 +84629,19 @@
       "properties": {
         "@id": "node/7360418344",
         "addr:city": "Santa Lucía",
+        "addr:full": "Marcos Avellaneda",
         "addr:housenumber": "51",
+        "addr:place": "Monteros",
         "addr:postcode": "4134",
         "addr:street": "Marco Avellaneda",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Santa Lucía"
+        "name": "Hospital Santa Lucía",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900702196032",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84267,12 +84657,19 @@
       "properties": {
         "@id": "node/7360511626",
         "addr:city": "Santa Rosa de Leales",
+        "addr:full": "Ernesto Padilla 300",
         "addr:housenumber": "300",
+        "addr:place": "Leales",
         "addr:postcode": "4111",
         "addr:street": "Padilla",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Santa Rosa de Leales"
+        "name": "Hospital Santa Rosa de Leales",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900562196033",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84424,14 +84821,21 @@
       "properties": {
         "@id": "node/7365458008",
         "addr:city": "Clodomira",
+        "addr:full": "San Martín S/N",
         "addr:housenumber": "623",
+        "addr:place": "Banda",
         "addr:postcode": "4338",
         "addr:street": "Avenida Adeodato Herrera",
         "amenity": "hospital",
         "contact:facebook": "https://www.facebook.com/Hospital-Distrital-Clodomira-324811527539549/",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital de Clodomira Doctor Guillermo Rawson",
-        "phone": "+54 385 492 1033"
+        "name": "Hospital Distrital Clodomira Dr Guillermo Rawson",
+        "operator:type": "public",
+        "phone": "+54 385 492 1033",
+        "ref:sisa_refes": "10860352192039",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84608,12 +85012,19 @@
       "properties": {
         "@id": "node/7367770020",
         "addr:city": "Bella Vista",
+        "addr:full": "San Martín 250",
         "addr:housenumber": "250",
+        "addr:place": "Leales",
         "addr:postcode": "4168",
         "addr:street": "San Martín",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Centro De Salud Bella Vista Dr. Guillermo Salazar"
+        "name": "Hospital Centro De Salud Bella Vista Dr. Guillermo Salazar",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900562196010",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84629,12 +85040,19 @@
       "properties": {
         "@id": "node/7367848155",
         "addr:city": "El Bracho",
+        "addr:full": "Calle Principal Sn Entre ( Entre Alberdi Y Avel )",
+        "addr:place": "Cruz Alta",
         "addr:postcode": "4111",
         "addr:street": "Calle Principal",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital El Bracho",
-        "nohousenumber": "yes"
+        "nohousenumber": "yes",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900142196017",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -85270,8 +85688,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.86015,
-          -36.5065417
+          -63.8600829,
+          -36.5067271
         ]
       },
       "id": "node/7369208892"
@@ -86811,6 +87229,691 @@
         ]
       },
       "id": "node/7399819676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7403956407",
+        "addr:city": "Sierra Grande",
+        "addr:full": "Av. Antartida Argentina Y Av. Los Mineros S/N",
+        "addr:place": "San Antonio",
+        "addr:postcode": "8532",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Area Programa Sierra Grande - Doctor Pablo Bianchi",
+        "operator:type": "public",
+        "ref:sisa_refes": "10620772170042",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3628768,
+          -41.6117843
+        ]
+      },
+      "id": "node/7403956407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049732",
+        "addr:city": "Santiago Del Estero",
+        "addr:full": "Ruta N° 9 S/N",
+        "addr:place": "Capital",
+        "addr:postcode": "4200",
+        "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Psiquiatrico Dr. Diego Alcorta",
+        "operator:type": "public",
+        "ref:sisa_refes": "13860492192084",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2444187,
+          -27.8346642
+        ]
+      },
+      "id": "node/7404049732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049733",
+        "addr:city": "La Banda",
+        "addr:full": "Laprida 47",
+        "addr:place": "Banda",
+        "addr:postcode": "4300",
+        "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Referencial Antenor Alvarez",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860352192049",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.236392,
+          -27.730931
+        ]
+      },
+      "id": "node/7404049733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049734",
+        "addr:city": "El Tala",
+        "addr:full": "Libertad N°550",
+        "addr:place": "La Candelaria",
+        "addr:postcode": "4126",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Santa Teresa",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660842173069",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.274663,
+          -26.109609
+        ]
+      },
+      "id": "node/7404049734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049735",
+        "addr:city": "El Potrero (Apeadero Cochabamba)",
+        "addr:full": "C. Saavedra Y San Martin",
+        "addr:place": "Rosario De La Frontera",
+        "addr:postcode": "4533",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Ricardo Salinas Reto",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661402173049",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.640459,
+          -26.047722
+        ]
+      },
+      "id": "node/7404049735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049736",
+        "addr:city": "El Mojon",
+        "addr:full": "El Mojon - Dpto Pellegrini",
+        "addr:place": "Pellegrini",
+        "addr:postcode": "4197",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito El Mojon",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861332192018",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3083417,
+          -26.0933653
+        ]
+      },
+      "id": "node/7404049736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049737",
+        "addr:city": "El Charco",
+        "addr:full": "El Charco - Dpto Jimenez",
+        "addr:place": "Rio Hondo",
+        "addr:postcode": "4306",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito El Charco",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861472192019",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.700433,
+          -27.228818
+        ]
+      },
+      "id": "node/7404049737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049738",
+        "addr:city": "El Bobadal",
+        "addr:full": "El Bobadal - Dpto. Jimenez",
+        "addr:place": "Jimenez",
+        "addr:postcode": "4187",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital El Bobadal",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860912192037",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3954063,
+          -26.7220124
+        ]
+      },
+      "id": "node/7404049738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049739",
+        "addr:city": "El Timbo Viejo",
+        "addr:full": "Ruta 305 Km 18 - El Timbo Viejo",
+        "addr:place": "Burruyacu",
+        "addr:postcode": "4101",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital El Timbo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10900072196018",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1361196,
+          -26.6792584
+        ]
+      },
+      "id": "node/7404049739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404049740",
+        "addr:city": "La Banda",
+        "addr:full": "San Carlos 18",
+        "addr:place": "Banda",
+        "addr:postcode": "4300",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Zonal De Niños Dr. Francisco Jose Viano",
+        "operator:type": "public",
+        "ref:sisa_refes": "11860352192079",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.242268,
+          -27.732281
+        ]
+      },
+      "id": "node/7404049740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158660",
+        "addr:city": "Salta",
+        "addr:full": "Dr. Eduardo Paz Chain N°30 - Salta Capital",
+        "addr:place": "Capital",
+        "addr:postcode": "4400",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Endocrinologia Y Metabolismo Dr Arturo Oñativia",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660282173037",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.3983337,
+          -24.7894083
+        ]
+      },
+      "id": "node/7404158660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158661",
+        "addr:city": "San Jose Del Boqueron",
+        "addr:full": "Ruta Provincial N°5",
+        "addr:place": "Copo",
+        "addr:postcode": "4197",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito San Jose Del Boqueron",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860562192026",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7047664,
+          -26.1200098
+        ]
+      },
+      "id": "node/7404158661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158662",
+        "addr:city": "Molinos",
+        "addr:full": "Av. Belgrano Y Alberdi S/N°",
+        "addr:place": "Molinos",
+        "addr:postcode": "4419",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Juan A Fernandez",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661192173022",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.295153,
+          -25.437007
+        ]
+      },
+      "id": "node/7404158662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158663",
+        "addr:city": "Nazareno",
+        "addr:full": "Salta S/N",
+        "addr:place": "Santa Victoria",
+        "addr:postcode": "4651",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Nazareno",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661612173030",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.102211,
+          -22.509955
+        ]
+      },
+      "id": "node/7404158663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158664",
+        "addr:city": "La Union",
+        "addr:full": "Av Amilcar Longarini S/N°- La Union",
+        "addr:place": "Rivadavia",
+        "addr:postcode": "4535",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De La Union",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661332173038",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1992268,
+          -23.8972817
+        ]
+      },
+      "id": "node/7404158664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158665",
+        "addr:city": "El Talar",
+        "addr:full": "El Talar S/N",
+        "addr:place": "Santa Barbara",
+        "addr:postcode": "3634",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Nuestra Señora Del Pilar",
+        "operator:type": "public",
+        "ref:sisa_refes": "10380702150015",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3634913,
+          -23.5565081
+        ]
+      },
+      "id": "node/7404158665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158666",
+        "addr:city": "Rivadavia",
+        "addr:full": "Av. Longarini S/N°",
+        "addr:place": "Rivadavia",
+        "addr:postcode": "4535",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Rivadavia Banda Sur",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661332173064",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.887736,
+          -24.183967
+        ]
+      },
+      "id": "node/7404158666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158667",
+        "addr:city": "Urundel",
+        "addr:full": "Alvear S/N°- Urundel",
+        "addr:place": "Oran",
+        "addr:postcode": "4552",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Luis Gardel",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661262173023",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3981862,
+          -23.5558737
+        ]
+      },
+      "id": "node/7404158667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158668",
+        "addr:city": "Alto De La Sierra",
+        "addr:full": "Alto La Sierra",
+        "addr:place": "Rivadavia",
+        "addr:postcode": "4533",
+        "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital Kacha Wet Choh Wai - Alto La Sierra",
+        "operator:type": "public",
+        "ref:sisa_refes": "10661332173028",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.497906,
+          -22.740787
+        ]
+      },
+      "id": "node/7404158668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158669",
+        "addr:city": "El Carril",
+        "addr:full": "San Rafael N°445",
+        "addr:place": "Chicoana",
+        "addr:postcode": "4421",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital San Rafael",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660422173035",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.493701,
+          -25.079443
+        ]
+      },
+      "id": "node/7404158669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158670",
+        "addr:city": "El Quebrachal",
+        "addr:full": "Gral. San Martin S/N°- El Quebrachal - Anta",
+        "addr:place": "Anta",
+        "addr:postcode": "4452",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Enrique Romero",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660072173053",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0237464,
+          -25.3346917
+        ]
+      },
+      "id": "node/7404158670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158671",
+        "addr:city": "Perico",
+        "addr:full": "Coronel Arias Ruta 45",
+        "addr:place": "El Carmen",
+        "addr:postcode": "4608",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "fixme": "confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital Dr. Vicente Arroyabe",
+        "operator:type": "public",
+        "ref:sisa_refes": "14380142150455",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.153702,
+          -24.411802
+        ]
+      },
+      "id": "node/7404158671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404158672",
+        "addr:city": "La Poma",
+        "addr:full": "Gral. Guemes S/N°",
+        "addr:place": "La Poma",
+        "addr:postcode": "4417",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital La Poma",
+        "operator:type": "public",
+        "ref:sisa_refes": "10660912173058",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.2012221,
+          -24.7227336
+        ]
+      },
+      "id": "node/7404158672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7409267697",
+        "amenity": "hospital",
+        "disused": "La Casa del Medico",
+        "fixme": "Covid19",
+        "healthcare": "hospital",
+        "name": "Hospital de Campaña"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8605927,
+          -36.5065936
+        ]
+      },
+      "id": "node/7409267697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7412865589",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name:es": "Hospital Municipal Santa Teresita",
+        "phone": "02246 42-0381;2246 430783;02246 15583478;107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.7145921,
+          -36.5427407
+        ]
+      },
+      "id": "node/7412865589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7412993974",
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "3738",
+        "addr:postcode": "S3000",
+        "addr:street": "Monseñor Zaspe",
+        "amenity": "hospital",
+        "fixme": "Verify ubication",
+        "healthcare": "hospital",
+        "healthcare:speciality": "rehabilitation",
+        "name": "Hospital de Rehabilitación Doctor Vera Candioti",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7249312,
+          -31.6531245
+        ]
+      },
+      "id": "node/7412993974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7413026887",
+        "addr:city": "Maciel",
+        "addr:housenumber": "84",
+        "addr:postcode": "S2253",
+        "addr:street": "Bulevar Sarmiento",
+        "alt_name": "S.A.M.Co. Maciel",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Federico Meroi",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.8878728,
+          -32.4625977
+        ]
+      },
+      "id": "node/7413026887"
     }
   ]
 }

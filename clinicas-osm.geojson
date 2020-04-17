@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-14T23:12:02Z",
+  "timestamp": "2020-04-17T04:50:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1285,28 +1285,28 @@
         "coordinates": [
           [
             [
-              -58.4817471,
-              -34.6432172
+              -58.4817961,
+              -34.643233
             ],
             [
-              -58.4818108,
-              -34.6434056
+              -58.4818598,
+              -34.6434214
             ],
             [
-              -58.4814189,
-              -34.6434954
+              -58.4814679,
+              -34.6435112
             ],
             [
-              -58.4813551,
-              -34.643307
+              -58.4814041,
+              -34.6433228
             ],
             [
-              -58.4817125,
-              -34.6432251
+              -58.4817615,
+              -34.6432409
             ],
             [
-              -58.4817471,
-              -34.6432172
+              -58.4817961,
+              -34.643233
             ]
           ]
         ]
@@ -4155,6 +4155,65 @@
         ]
       },
       "id": "way/337783980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/337815028",
+        "addr:city": "San Miguel de Tucumán",
+        "addr:full": "Mendoza 128",
+        "addr:housenumber": "128",
+        "addr:place": "Capital",
+        "addr:postcode": "4000",
+        "addr:street": "Mendoza",
+        "amenity": "clinic",
+        "description": "Con atencion medica diaria y con especialidades y/o otras profesiones",
+        "emergency": "no",
+        "healthcare": "clinic",
+        "name": "Hospital de dia Nestor Kirchner",
+        "opening_hours": "Mo-Fr 07:00-19:00",
+        "operator": "SIPROSA",
+        "operator:type": "public",
+        "ref:sisa_refes": "14900842998209",
+        "ref:sisa_tipologia": "ESSIDT",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1988529,
+              -26.8292691
+            ],
+            [
+              -65.1990015,
+              -26.829967
+            ],
+            [
+              -65.1988281,
+              -26.8299955
+            ],
+            [
+              -65.1987891,
+              -26.8298502
+            ],
+            [
+              -65.1984706,
+              -26.8299007
+            ],
+            [
+              -65.1983715,
+              -26.8293575
+            ],
+            [
+              -65.1988529,
+              -26.8292691
+            ]
+          ]
+        ]
+      },
+      "id": "way/337815028"
     },
     {
       "type": "Feature",
@@ -26105,9 +26164,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1119491743",
+        "addr:city": "Ciudad Autónoma de Buenos Aires",
+        "addr:housenumber": "1863",
+        "addr:postcode": "C1050AAK",
+        "addr:street": "Tucumán",
         "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/sanatoriodelaprovidencia",
+        "contact:mobile": "+54 11 6300 5284",
         "healthcare": "clinic",
-        "name": "Sanatorio de la Providencia"
+        "name": "Sanatorio de la Providencia",
+        "phone": "+54 11  5299 9000",
+        "website": "http://www.sanatoriodelaprovidencia.com/"
       },
       "geometry": {
         "type": "Point",
@@ -28880,6 +28947,7 @@
         "addr:housenumber": "1928",
         "addr:street": "Calle 122",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Puesto de Salud Chacra 29"
       },
       "geometry": {
@@ -31014,7 +31082,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3774428363",
+        "addr:city": "Concepción del Uruguay",
+        "addr:country": "AR",
+        "addr:housenumber": "377",
+        "addr:street": "14 de Julio",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Cooperativa Médica Clínica"
       },
       "geometry": {
@@ -32631,6 +32704,7 @@
         "addr:postcode": "5152",
         "addr:street": "Belgrano",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Instituto Medico Privado"
       },
       "geometry": {
@@ -34314,6 +34388,32 @@
         ]
       },
       "id": "node/4424223089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424427592",
+        "addr:city": "Monterrico",
+        "addr:full": "Calles Las Maravillas S/N° B° San Cayetano",
+        "addr:place": "El Carmen",
+        "addr:postcode": "4608",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital Monterrico",
+        "name:es": "Hospital Monterrico",
+        "operator:type": "public",
+        "ref:sisa_refes": "50380142150311",
+        "ref:sisa_tipologia": "ESSIT",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1591381,
+          -24.4426474
+        ]
+      },
+      "id": "node/4424427592"
     },
     {
       "type": "Feature",
@@ -38252,6 +38352,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4838734721",
+        "addr:city": "Bernal",
+        "addr:housenumber": "572",
         "addr:street": "Avenida San Martín",
         "amenity": "clinic",
         "name": "Sanatorio Bernal",
@@ -40703,6 +40805,7 @@
       "properties": {
         "@id": "node/5455169154",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Privado Punilla"
       },
       "geometry": {
@@ -40719,6 +40822,7 @@
       "properties": {
         "@id": "node/5455169188",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "CEC"
       },
       "geometry": {
@@ -42518,6 +42622,7 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Tambor de Tacuarí",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Villa Cabello Salud",
         "phone": "+54 376 4475981"
       },
@@ -42538,6 +42643,7 @@
         "addr:postcode": "3300",
         "addr:street": "Avenida Tambor de Tacuarí",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Policonsultirio Villa Cabello",
         "phone": "+54 376 4465894"
       },
@@ -45157,6 +45263,7 @@
       "properties": {
         "@id": "node/6796916720",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Medico Punilla"
       },
       "geometry": {
@@ -46189,8 +46296,10 @@
         "@id": "node/7385184845",
         "addr:city": "San Antonio Oeste",
         "addr:full": "Irigoyen 554",
+        "addr:housenumber": "554",
         "addr:place": "San Antonio",
         "addr:postcode": "8520",
+        "addr:street": "Hipólito Yrigoyen",
         "amenity": "clinic",
         "description": "Con guardia permanente",
         "healthcare": "clinic",
@@ -46381,6 +46490,40 @@
         ]
       },
       "id": "node/7395299572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7409187853",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Lourdes S.R.L."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.123357,
+          -25.1171576
+        ]
+      },
+      "id": "node/7409187853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7409187854",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Virgen de Huachana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1253443,
+          -25.1186222
+        ]
+      },
+      "id": "node/7409187854"
     }
   ]
 }
