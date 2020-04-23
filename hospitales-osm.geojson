@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-17T04:47:03Z",
+  "timestamp": "2020-04-23T01:40:03Z",
   "features": [
     {
       "type": "Feature",
@@ -894,91 +894,6 @@
         ]
       },
       "id": "relation/4439266"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "relation/4575164",
-        "amenity": "hospital",
-        "name": "Sanatorio J. J. Puente",
-        "type": "multipolygon"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -63.9349492,
-              -29.8528415
-            ],
-            [
-              -63.9340033,
-              -29.8541652
-            ],
-            [
-              -63.9338209,
-              -29.8542117
-            ],
-            [
-              -63.9324798,
-              -29.853458
-            ],
-            [
-              -63.9266678,
-              -29.8504371
-            ],
-            [
-              -63.9308974,
-              -29.8453219
-            ],
-            [
-              -63.9338243,
-              -29.8468504
-            ],
-            [
-              -63.9347288,
-              -29.8472776
-            ],
-            [
-              -63.9394637,
-              -29.8497297
-            ],
-            [
-              -63.9392282,
-              -29.8499406
-            ],
-            [
-              -63.9382734,
-              -29.8507967
-            ],
-            [
-              -63.9371468,
-              -29.8523786
-            ],
-            [
-              -63.936664,
-              -29.8530207
-            ],
-            [
-              -63.9364065,
-              -29.8531882
-            ],
-            [
-              -63.9359934,
-              -29.8532408
-            ],
-            [
-              -63.9354991,
-              -29.8530905
-            ],
-            [
-              -63.9349492,
-              -29.8528415
-            ]
-          ]
-        ]
-      },
-      "id": "relation/4575164"
     },
     {
       "type": "Feature",
@@ -17275,7 +17190,7 @@
         "@id": "way/238616590",
         "addr:city": "La Bebida",
         "addr:full": "Ignacio De La Roza 8000 Oeste",
-        "addr:housenumber": "14800 (O)",
+        "addr:housenumber": "8000 (O)",
         "addr:place": "Rivadavia",
         "addr:postcode": "5407",
         "addr:street": "Avenida José Ignacio de la Roza",
@@ -17287,6 +17202,7 @@
         "name": "Hospital General Doctora Julieta Lanteri - El Zonda",
         "operator": "Ministerio de Salud Pública",
         "operator:type": "public",
+        "phone": "+54 264 421 2442",
         "ref:sisa_refes": "13700842177037",
         "ref:sisa_tipologia": "ESCIESM",
         "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -17366,6 +17282,7 @@
         "@id": "way/238681546",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Josefina Prieur"
       },
       "geometry": {
@@ -23130,6 +23047,7 @@
         "@id": "way/286543824",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Príncipe de Asturias"
       },
       "geometry": {
@@ -24901,6 +24819,7 @@
         "@id": "way/301953936",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Maternidad de Moreno Estela de Carlotto"
       },
       "geometry": {
@@ -30473,6 +30392,7 @@
       "properties": {
         "@id": "way/352899118",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario"
       },
       "geometry": {
@@ -31284,7 +31204,7 @@
       "type": "Feature",
       "properties": {
         "@id": "way/358697198",
-        "addr:city": "Punta de Rieles",
+        "addr:city": "Rivadavia",
         "addr:full": "Avda.San Martin Y Rastreador Calivar 5499",
         "addr:housenumber": "5401 (O)",
         "addr:place": "Rivadavia",
@@ -31294,7 +31214,7 @@
         "description": "Alto riesgo con terapia intensiva",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Dr Marcial V. Quiroga",
+        "name": "Hospital Doctor Marcial Vicente Quiroga",
         "operator:type": "public",
         "phone": "+54 264 433 0880",
         "ref:sisa_refes": "10700842177017",
@@ -42442,6 +42362,7 @@
         "addr:street": "Ucrania",
         "amenity": "hospital",
         "building": "no",
+        "healthcare": "hospital",
         "name": "Clínica Privada Neuropsiquiátrica San Isidro"
       },
       "geometry": {
@@ -42482,6 +42403,7 @@
         "addr:street": "Santa Fe",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Clínica Psiquiátrica Dr. René Arditi Rocha"
       },
       "geometry": {
@@ -43255,6 +43177,96 @@
         ]
       },
       "id": "way/503475375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/504322610",
+        "addr:city": "Coronda",
+        "addr:housenumber": "2307",
+        "addr:postcode": "S2240",
+        "addr:street": "España",
+        "amenity": "hospital",
+        "contact:email": "samcocoronda@yahoo.com.ar",
+        "healthcare": "hospital",
+        "name": "SAMCo Coronda",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 342 491-0030",
+        "source": "SISA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.9156425,
+              -31.979767
+            ],
+            [
+              -60.9156392,
+              -31.9800114
+            ],
+            [
+              -60.9148664,
+              -31.9800138
+            ],
+            [
+              -60.9148681,
+              -31.9798924
+            ],
+            [
+              -60.9150663,
+              -31.9798916
+            ],
+            [
+              -60.915069,
+              -31.9798574
+            ],
+            [
+              -60.9151022,
+              -31.9798572
+            ],
+            [
+              -60.9151015,
+              -31.9798363
+            ],
+            [
+              -60.9151504,
+              -31.9798358
+            ],
+            [
+              -60.9151492,
+              -31.9798125
+            ],
+            [
+              -60.9152703,
+              -31.9798118
+            ],
+            [
+              -60.915271,
+              -31.9797582
+            ],
+            [
+              -60.9153174,
+              -31.9797573
+            ],
+            [
+              -60.9153186,
+              -31.9797301
+            ],
+            [
+              -60.9156129,
+              -31.9797308
+            ],
+            [
+              -60.9156425,
+              -31.979767
+            ]
+          ]
+        ]
+      },
+      "id": "way/504322610"
     },
     {
       "type": "Feature",
@@ -44647,8 +44659,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/519456187",
+        "addr:city": "Villa San Martin",
+        "addr:full": "Ruta 9 Y Camino A Cnia Hipolito Yrigoyen",
+        "addr:place": "Loreto",
+        "addr:postcode": "4350",
         "amenity": "hospital",
-        "name": "Hospital Dr. Oscar Abalos"
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Loreto Dr. Oscar Abalos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861052192057",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -45570,11 +45592,18 @@
       "properties": {
         "@id": "way/536525599",
         "addr:city": "Colonia Dora",
+        "addr:full": "Bartolome Mitre Y Varsovia",
+        "addr:place": "Avellaneda",
         "addr:postcode": "4332",
         "addr:street": "Varsovia",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Colonia Dora"
+        "name": "Hospital De Transito Colonia Dora",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860282192016",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -53733,13 +53762,19 @@
       "properties": {
         "@id": "way/785369427",
         "addr:city": "Tintina",
+        "addr:full": "J. S. Farhat S/N",
+        "addr:place": "Moreno",
         "addr:postcode": "3743",
         "addr:street": "J. Farhat",
         "amenity": "hospital",
         "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Distrital Tintina Dr. Francisco Vittar",
-        "phone": "+54 3846 421025"
+        "operator:type": "public",
+        "phone": "+54 3846 421025",
+        "ref:sisa_refes": "10861192192045",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54239,11 +54274,19 @@
       "properties": {
         "@id": "way/785642939",
         "addr:city": "Quimilí",
+        "addr:full": "Independencia Y Obispo Yanes S/N",
+        "addr:place": "Moreno",
+        "addr:postcode": "3740",
         "addr:street": "Sarmiento",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Zonal Dr. Bernardo Houssay en Quimilí",
-        "phone": "+54 3843 421012"
+        "name": "Hospital Zonal Quimili Dr. Bernardo Houssay",
+        "operator:type": "public",
+        "phone": "+54 3843 421012",
+        "ref:sisa_refes": "10861192192055",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54346,13 +54389,21 @@
       "properties": {
         "@id": "way/785718924",
         "addr:city": "Fernández",
+        "addr:full": "Dorrego 491",
         "addr:housenumber": "491",
+        "addr:place": "Robles",
+        "addr:postcode": "4322",
         "addr:street": "Dorrego",
         "amenity": "hospital",
         "contact:facebook": "https://www.facebook.com/Hospital-Zonal-de-Fernandez-Rudecindo-del-Valle-Cazzaniga-1816246965165299/",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Fernandez Dr. Rudecindo Cazzaniga",
-        "phone": "+54 385 4911373"
+        "name": "Hospital Zonal Fernandez Dr. Rudecindo Del V. Cazzaniga",
+        "operator:type": "public",
+        "phone": "+54 385 4911373",
+        "ref:sisa_refes": "10861612192058",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54388,14 +54439,20 @@
       "properties": {
         "@id": "way/785728742",
         "addr:city": "Añatuya",
+        "addr:full": "Avenida España 377",
+        "addr:place": "General Taboada",
         "addr:postcode": "3760",
         "addr:street": "Av. España",
         "amenity": "hospital",
-        "description": "Ubicación:Av. España S/N- Añatuya- Dpto. Gral. Taboada",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Público Monseñor Jorge Gottau",
-        "phone": "+54 3844 421034"
+        "name": "Hospital Zonal Añatuya - Monseñor Jorge Gottau",
+        "operator:type": "public",
+        "phone": "+54 3844 421034",
+        "ref:sisa_refes": "10860772192050",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54439,12 +54496,19 @@
       "properties": {
         "@id": "way/785738135",
         "addr:city": "Villa Ojo de Agua",
+        "addr:full": "25 De Mayo Y Sarmiento",
+        "addr:place": "Ojo De Agua",
         "addr:postcode": "5250",
         "addr:street": "Juan F. Borges",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospital de Ojo de Agua Dr. Cleofas Mazza",
-        "phone": "+54 3856-421032"
+        "name": "Hospital Zonal Ojo De Agua - Dr. Cleofas Mazza",
+        "operator:type": "public",
+        "phone": "+54 3856-421032",
+        "ref:sisa_refes": "10861262192052",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54718,14 +54782,21 @@
       "properties": {
         "@id": "way/786049710",
         "addr:city": "Pampa de los Guanacos",
+        "addr:full": "Maipu 251",
         "addr:housenumber": "251",
+        "addr:place": "Copo",
         "addr:postcode": "3712",
         "addr:street": "Maipu",
         "amenity": "hospital",
         "contact:phone": "+54 0841 491020",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Distrital Pampa de Los Guanacos",
-        "phone": "+54 3841 491035"
+        "operator:type": "public",
+        "phone": "+54 3841 491035",
+        "ref:sisa_refes": "10860562192041",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54777,14 +54848,20 @@
       "properties": {
         "@id": "way/786389102",
         "addr:city": "Los Juries",
+        "addr:full": "Av. Belgrano S/N",
+        "addr:place": "General Taboada",
         "addr:postcode": "63763",
         "addr:street": "Avenida General Belgrano",
         "amenity": "hospital",
-        "description": "El hospital Juan Carlos Salinas posee instalaciones aledañas al nosocomio donde se albergan a pacientes que deben realizar tratamientos ambulatorios y que se encuentran a largas distancias del lugar.\n\nAv. Belgrano s/n - Los Juríes – Dpto Gral Taboada",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Juan Carlos Salinas",
+        "name": "Hospital Distrital Los Juries - Juan Carlos Salinas",
         "operator": "Medicina Pública Provincial",
-        "phone": "+54 3857 471028"
+        "operator:type": "public",
+        "phone": "+54 3857 471028",
+        "ref:sisa_refes": "10860772192040",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54862,12 +54939,19 @@
       "properties": {
         "@id": "way/786531039",
         "addr:city": "Bandera",
+        "addr:full": "Rivadavia S/N",
+        "addr:place": "Belgrano",
         "addr:postcode": "3064",
         "addr:street": "Rivadavia",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "healthcare": "hospital",
-        "name": "Hospital Distrital Dr. Eliseo Ogallar",
-        "phone": "(03857) 421031"
+        "name": "Hospital Distrital Bandera Dr. Eliseo Ogallar",
+        "operator:type": "public",
+        "phone": "(03857) 421031",
+        "ref:sisa_refes": "10860422192034",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54919,14 +55003,21 @@
       "properties": {
         "@id": "way/787310403",
         "addr:city": "Sumampa",
+        "addr:full": "Eva Peron S/N",
         "addr:housenumber": "428",
+        "addr:place": "Quebrachos",
         "addr:postcode": "5253",
         "addr:street": "Eva Perón",
         "alt_name": "Hospital de Sumampa",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Distrital Doctor Schuld Grau",
-        "phone": "+54 3856 491013"
+        "name": "Hospital Distrital Sumampa Dr. Schuld Grau",
+        "operator:type": "public",
+        "phone": "+54 3856 491013",
+        "ref:sisa_refes": "10861402192036",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -54974,10 +55065,18 @@
       "properties": {
         "@id": "way/787315495",
         "addr:city": "Selva",
+        "addr:full": "Alejandro Zeithz",
+        "addr:place": "Rivadavia",
+        "addr:postcode": "2354",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "healthcare": "hospital",
-        "name": "Hospital de Selva",
-        "phone": "+54 3857 495071"
+        "name": "Hospital Distrital Selva",
+        "operator:type": "public",
+        "phone": "+54 3857 495071",
+        "ref:sisa_refes": "10861542192043",
+        "ref:sisa_tipologia": "ESCIEM",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Polygon",
@@ -56199,6 +56298,155 @@
         ]
       },
       "id": "way/791217316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793646176",
+        "addr:city": "Saladas",
+        "addr:housenumber": "750",
+        "addr:postcode": "3420",
+        "addr:street": "Alvear",
+        "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Maria Auxiliadora",
+        "official_name": "Hospital Maria Auxiliadora",
+        "phone": "+54 3782 421082"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.6283804,
+              -28.258191
+            ],
+            [
+              -58.6286567,
+              -28.2583257
+            ],
+            [
+              -58.6289142,
+              -28.2590982
+            ],
+            [
+              -58.6288847,
+              -28.2591644
+            ],
+            [
+              -58.6277877,
+              -28.2594384
+            ],
+            [
+              -58.6277314,
+              -28.2593959
+            ],
+            [
+              -58.627616,
+              -28.2591313
+            ],
+            [
+              -58.6276643,
+              -28.2590604
+            ],
+            [
+              -58.6275597,
+              -28.2588123
+            ],
+            [
+              -58.6274846,
+              -28.2587675
+            ],
+            [
+              -58.6273639,
+              -28.2584367
+            ],
+            [
+              -58.6283804,
+              -28.258191
+            ]
+          ]
+        ]
+      },
+      "id": "way/793646176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/794580835",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.2756407,
+              -27.7635849
+            ],
+            [
+              -57.2757167,
+              -27.7640385
+            ],
+            [
+              -57.2752339,
+              -27.7641009
+            ],
+            [
+              -57.2751579,
+              -27.7640001
+            ],
+            [
+              -57.2749409,
+              -27.7636701
+            ],
+            [
+              -57.2756407,
+              -27.7635849
+            ]
+          ]
+        ]
+      },
+      "id": "way/794580835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/794596248",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.8210226,
+              -27.9143683
+            ],
+            [
+              -55.8214335,
+              -27.9150618
+            ],
+            [
+              -55.8209893,
+              -27.9152673
+            ],
+            [
+              -55.8205785,
+              -27.9145737
+            ],
+            [
+              -55.8210226,
+              -27.9143683
+            ]
+          ]
+        ]
+      },
+      "id": "way/794596248"
     },
     {
       "type": "Feature",
@@ -59934,8 +60182,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1877874956",
+        "addr:city": "Gálvez",
+        "addr:housenumber": "1551",
+        "addr:postcode": "S2252",
+        "addr:street": "Mitre",
+        "alt_name": "SAMCo Gálvez",
         "amenity": "hospital",
-        "name": "Hospital S.A.M.Co. \"Doctor Alfredo Baetti\""
+        "email": "contaduriasamcogalvez@cegnet.com.ar",
+        "healthcare": "hospital",
+        "name": "SAMCo Doctor Alfredo Baetti",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3404 48-0391"
       },
       "geometry": {
         "type": "Point",
@@ -59950,15 +60208,23 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1877875042",
+        "addr:city": "Gálvez",
+        "addr:housenumber": "303",
+        "addr:postcode": "S2252",
+        "addr:street": "Sarmiento",
         "amenity": "hospital",
+        "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Sanatorios Integrados"
+        "healthcare:speciality": "emergency;internist;radiology",
+        "name": "Sanatorios Integrados",
+        "operator:type": "private",
+        "phone": "+54 3404 48-0423"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.2187815,
-          -32.0323348
+          -61.2187081,
+          -32.0322894
         ]
       },
       "id": "node/1877875042"
@@ -61748,9 +62014,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2164900141",
+        "addr:city": "Villa Atamisqui",
+        "addr:full": "Av. 25 De Mayo Y Rivadavia",
+        "addr:place": "Atamisqui",
+        "addr:postcode": "4317",
         "addr:street": "Av. 25 de Mayo",
         "amenity": "hospital",
-        "name": "Hospital Distrital Villa Atamisqui"
+        "description": "Alto riesgo con terapia intensiva",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Villa Atamisqui",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860212192046",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -62527,6 +62803,7 @@
         "addr:postcode": "1607",
         "addr:street": "Paraná",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Fundacion Creciendo con los Angeles",
         "phone": "+54 11 4765-4572",
         "website": "http://www.cre-angeles.org.ar",
@@ -63618,12 +63895,15 @@
       "properties": {
         "@id": "node/2604527696",
         "addr:city": "Capioví",
-        "addr:housenumber": "400",
+        "addr:housenumber": "375",
         "addr:street": "Avenida San Luis Gonzaga",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital \"René Favaloro\"",
         "phone": "+54 3743 493299",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -69359,22 +69639,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3796301863",
-        "amenity": "hospital",
-        "name": "Centro de Salud \"Eva Perón\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.2299162,
-          -32.0337167
-        ]
-      },
-      "id": "node/3796301863"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3801713376",
         "addr:housenumber": "282",
         "addr:street": "Andrés Baranda",
@@ -69544,6 +69808,7 @@
       "properties": {
         "@id": "node/3816393434",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "DISPENSARIO ZONAL"
       },
       "geometry": {
@@ -70552,9 +70817,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4011728271",
+        "addr:city": "San Francisco Del Chañar",
+        "addr:full": "Belgrano 323",
+        "addr:place": "Sobremonte",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Vecinal"
+        "name": "Hospital Municipal San Francisco Del Chañar",
+        "operator:type": "public",
+        "ref:sisa_refes": "10141542231224",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -70708,6 +70981,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4082354787",
+        "addr:housenumber": "943",
+        "addr:street": "Avenida Bartolomé Mitre",
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Sanatorio Azul"
@@ -70715,8 +70990,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.8530801,
-          -36.7824115
+          -59.8530767,
+          -36.7824136
         ]
       },
       "id": "node/4082354787"
@@ -72679,9 +72954,13 @@
         "alt_name": "Hospital Nivel I de Campo Grande",
         "alt_name_1": "Unidad Sanitaria de Nivel I",
         "amenity": "hospital",
+        "description": " Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospitalcampogrande@hotmail.com",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Nivel I",
         "phone": "+54 3755 499190",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -72949,28 +73228,6 @@
         ]
       },
       "id": "node/4145282051"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4147525790",
-        "addr:city": "Saladas",
-        "addr:housenumber": "750",
-        "addr:postcode": "3420",
-        "addr:street": "Alvear",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Maria Auxiliadora",
-        "phone": "+54 3782 421082"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.6278773,
-          -28.2588571
-        ]
-      },
-      "id": "node/4147525790"
     },
     {
       "type": "Feature",
@@ -75684,9 +75941,14 @@
         "addr:housenumber": "575",
         "addr:street": "Aconcagua",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospijam@gmail.com",
         "emergency": "yes",
-        "name": "Hospital “Doctor Tadayoshi Kamada”",
+        "healthcare": "hospital",
+        "name": "Hospital Doctor Tadayoshi Kamada",
+        "official_name": "Hospital De Jardín América Todoyoski Kamada",
         "phone": "+54 3743 460174",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -75707,11 +75969,14 @@
         "addr:postcode": "3350",
         "addr:street": "Tucumán",
         "amenity": "hospital",
+        "contact:phone": "+54 3758 422400",
+        "description": "Categoría de tipología: Vacunatorios",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital “Doctor Bernardo Allassia”",
         "note": "NIvel II",
         "phone": "+54 3758 422666",
+        "ref": "ESCL",
         "source": "http://www.salud.misiones.gov.ar/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -75752,10 +76017,15 @@
         "addr:housenumber": "836",
         "addr:street": "Avenida San Roque González",
         "amenity": "hospital",
+        "contact:phone": "+54 3764 493014",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospitaldecandelaria@hotmail.com.ar",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Candelaria",
         "note": "Nivel I",
-        "phone": "+54 376 4493212"
+        "phone": "+54 376 4493212",
+        "ref": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -75772,12 +76042,16 @@
         "@id": "node/4424480589",
         "addr:city": "Santa Ana",
         "addr:full": "Avenida Manuel Belgrano y Antonio Melo",
+        "addr:postcode": "3316",
         "addr:street": "Avenida Manuel Belgrano",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "capssanamsp@hotmail.com.ar",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital de Santa Ana",
-        "phone": "+54 376 4497127"
+        "official_name": "Hospital Nivel I Santa Ana",
+        "phone": "+54 376 4497127;+54 3764 497027"
       },
       "geometry": {
         "type": "Point",
@@ -75798,10 +76072,13 @@
         "addr:street": "Avenida Horacio Quiroga",
         "alt_name": "Hospital H. Valdovino",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospitalsanignacio@gmail.com",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital de San Ignacio",
         "phone": "+54 376 4470007",
+        "ref": "ESCIG",
         "ref:nivel": "I",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
@@ -75844,10 +76121,15 @@
         "addr:postcode": "3327",
         "addr:street": "Avenida Curupaity",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospitaldecorpus@hotmail.com",
         "emergency": "yes",
         "fixme": "Verificar la posicion exacta",
+        "healthcare": "hospital",
         "name": "Hospital de Corpus",
+        "official_name": "Hospital De Corpus Nivel I⁣",
         "phone": "+54 376 4495044",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -75892,6 +76174,7 @@
         "addr:street": "Avenida Marcos Paz",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Puerto Piray",
         "phone": "+54 3751 461325",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
@@ -75910,12 +76193,16 @@
       "properties": {
         "@id": "node/4424502672",
         "addr:city": "Puerto Esperanza",
+        "addr:postcode": "3378",
         "addr:street": "Nicaragua",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospitalesperanza@gmail.com",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital de Puerto Esperanza",
         "phone": "+54 3757 480197",
+        "ref": "ESCIG",
         "ref:nivel": "I",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
@@ -75981,9 +76268,9 @@
         "addr:street": "Avenida Andresito",
         "amenity": "hospital",
         "emergency": "yes",
-        "fixme": "Verificar la posición exacta",
         "healthcare": "hospital",
         "name": "Hospital de San Antonio",
+        "nota": "El edificio nuevo va a funcionar detrás de este edificio",
         "phone": "+54 3741 493054"
       },
       "geometry": {
@@ -76001,11 +76288,16 @@
         "@id": "node/4424986133",
         "addr:city": "Bernardo de Irigoyen",
         "addr:housenumber": "290",
+        "addr:postcode": "3366",
         "addr:street": "Avenida de Las Américas",
         "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+        "email": "bdoirigoyenhospital@yahoo.com.ar",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Bernardo de Irigoyen",
-        "phone": "+54 3741 420201"
+        "phone": "+54 3741 420201;+54 3741 420220",
+        "ref:nivel": "I"
       },
       "geometry": {
         "type": "Point",
@@ -76022,10 +76314,15 @@
         "@id": "node/4425015718",
         "addr:city": "Veinticinco de Mayo",
         "addr:housenumber": "22",
+        "addr:postcode": "3363",
         "addr:street": "Comandante Andresito",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de 25 de Mayo",
+        "phone": "+54 3755 493066",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -76086,11 +76383,16 @@
       "properties": {
         "@id": "node/4425942392",
         "addr:city": "Dos de Mayo",
+        "addr:postcode": "3364",
         "addr:street": "Perú",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "labhospitaldosdemayo@hotmail.com",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Dos de Mayo",
-        "phone": "+54 3755 496715"
+        "phone": "+54 3755 496715",
+        "ref": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -76110,10 +76412,14 @@
         "addr:postcode": "3364",
         "addr:street": "Corrientes",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Mediano riesgo con internación con cuidados especiales",
+        "email": "hospitaladelvalle@hotmail.com.ar",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Aristóbulo del Valle Dr. Justo José Pereyra",
         "operator": "Ministerio de Salud de la Provincia de Misiones",
         "phone": "+54 3755 471001",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -76195,11 +76501,17 @@
       "properties": {
         "@id": "node/4425977869",
         "addr:city": "Bonpland",
+        "addr:full": "Juan Lavalle y Sarmiento",
+        "addr:postcode": "3317",
         "addr:street": "Juan Lavalle",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "capsbonpland@gmail.com",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Bonpland",
         "phone": "+54 376 4492053",
+        "ref": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -77848,8 +78160,11 @@
         "addr:postcode": "3460",
         "addr:street": "Francisco Podestá",
         "amenity": "hospital",
+        "email": "sanroque@curuzu.netv;contador@sanatoriosanroque.com",
+        "healthcare": "hospital",
         "name": "Sanatorio San Roque",
-        "phone": "03774423610"
+        "phone": "+54 3774 423610;+54 3774 422518",
+        "website": "https://sanatoriosanroque.com/web/"
       },
       "geometry": {
         "type": "Point",
@@ -80119,6 +80434,7 @@
         "addr:postcode": "3344",
         "addr:street": "Avenida Ejército Argentino",
         "amenity": "hospital",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "emergency": "yes",
         "healthcare": "hospital",
         "healthcare:speciality": "general;emergency",
@@ -80129,8 +80445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.5410141,
-          -29.0876072
+          -56.5410206,
+          -29.0875701
         ]
       },
       "id": "node/5370590666"
@@ -81751,11 +82067,15 @@
       "properties": {
         "@id": "node/5652603044",
         "addr:city": "Loreto",
+        "addr:full": "Comercio Y Julian Gonzalez",
         "addr:postcode": "3483",
         "addr:street": "Julián González",
+        "alt_name": "Hospital de Loreto",
         "amenity": "hospital",
+        "description": "Tipología: ESCIG\n Categoría de tipología: Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Loreto"
+        "name": "Hospital Doctor José Rodolfo Pińeiro Loreto",
+        "phone": "+54 3781 497029"
       },
       "geometry": {
         "type": "Point",
@@ -82966,11 +83286,13 @@
         "addr:street": "Estanislao Lassaga",
         "alt_name": "Hospital Doctor Lizardo Morales",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
         "healthcare:speciality": "general",
         "name": "Hospital de San Javier",
         "phone": "+54 3754 483031",
+        "ref": "ESCIG",
         "ref:nivel": "I"
       },
       "geometry": {
@@ -84346,6 +84668,7 @@
         "addr:postcode": "3368",
         "addr:street": "Chivilcoy",
         "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital de El Soberbio",
@@ -84470,12 +84793,19 @@
       "properties": {
         "@id": "node/7344434605",
         "addr:city": "Campo Gallo",
-        "addr:full": "Ubicación: Lasalle S/N Campo Gallo- Dpto. Alberdi",
+        "addr:full": "Lavalle",
+        "addr:place": "Alberdi",
+        "addr:postcode": "3747",
         "addr:street": "Lasalle",
         "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
         "healthcare": "hospital",
-        "name": "Hospitalde Campo Gallo",
-        "phone": "+54 3846 491070"
+        "name": "Hospital Zonal Campo Gallo",
+        "operator:type": "public",
+        "phone": "+54 3846 491070",
+        "ref:sisa_refes": "10860142192051",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84851,9 +85181,17 @@
       "properties": {
         "@id": "node/7365533692",
         "addr:city": "Bandera Bajada",
+        "addr:full": "Bandera Bajada - Dpto Figueroa",
+        "addr:place": "Figueroa",
+        "addr:postcode": "4301",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital De Bandera Bajada Dr. Miguel Canllo"
+        "name": "Hospital Distrital Bandera Bajada - Dr. Miguel Canllo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860702192032",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84869,10 +85207,17 @@
       "properties": {
         "@id": "node/7365606743",
         "addr:city": "Medellín",
+        "addr:full": "Medellin - Dpto Atamisqui",
+        "addr:place": "Atamisqui",
         "addr:postcode": "4313",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital De Medellin Dr. Carlos Menem"
+        "name": "Hospital De Transito De Medellin",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860212192017",
+        "ref:sisa_tipologia": "ESCIEM",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84888,10 +85233,18 @@
       "properties": {
         "@id": "node/7365617778",
         "addr:city": "Laprida",
+        "addr:full": "Laprida - Dpto Choya",
+        "addr:place": "Choya",
+        "addr:postcode": "4205",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital de Laprida",
-        "phone": "+54 3845 420154"
+        "name": "Hospital De Transito Laprida",
+        "operator:type": "public",
+        "phone": "+54 3845 420154",
+        "ref:sisa_refes": "10860632192022",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -84993,10 +85346,17 @@
         "@id": "node/7366840555",
         "addr:city": "Brea Pozo",
         "addr:full": "Teniente Gral Uriburu s/n- Brea Pozo- Dpto. San Martin",
+        "addr:place": "San Martin",
+        "addr:postcode": "4313",
         "amenity": "hospital",
+        "description": "Alto riesgo con terapia intensiva",
         "fixme": "Verificar ubicación",
         "healthcare": "hospital",
-        "name": "Hospital de Brea Pozo"
+        "name": "Hospital De Transito Brea Pozo",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861752192015",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -85733,10 +86093,17 @@
       "properties": {
         "@id": "node/7370303505",
         "addr:city": "Los Telares",
-        "addr:full": "calle 20 de julio - Los Telares- Dpto. Salavina",
+        "addr:full": "20 De Julio S/N",
+        "addr:place": "Salavina",
+        "addr:postcode": "4321",
         "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Los Telares"
+        "name": "Hospital De Transito Los Telares",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861682192024",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
@@ -87897,14 +88264,16 @@
         "@id": "node/7413026887",
         "addr:city": "Maciel",
         "addr:housenumber": "84",
-        "addr:postcode": "S2253",
+        "addr:postcode": "S2208",
         "addr:street": "Bulevar Sarmiento",
         "alt_name": "S.A.M.Co. Maciel",
         "amenity": "hospital",
+        "email": "samcomaciel@yahoo.com.ar",
         "healthcare": "hospital",
         "name": "Hospital Federico Meroi",
         "operator": "Provincia de Santa Fe",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 3476 47-0240"
       },
       "geometry": {
         "type": "Point",
@@ -87914,6 +88283,453 @@
         ]
       },
       "id": "node/7413026887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661105",
+        "addr:city": "Suncho Corral",
+        "addr:full": "25 De Mayo (S) S/N",
+        "addr:place": "Juan F Ibarra",
+        "addr:postcode": "4350",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Suncho Corral",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860982192044",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4347144,
+          -27.929965
+        ]
+      },
+      "id": "node/7435661105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661106",
+        "addr:city": "Lucio V. Mansilla",
+        "addr:full": "Calle Publica S/N",
+        "addr:place": "Tulumba",
+        "addr:postcode": "5216",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal Dr. Bercovich Rodriguez",
+        "operator:type": "public",
+        "ref:sisa_refes": "10141752231188",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7080373,
+          -29.806186
+        ]
+      },
+      "id": "node/7435661106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661107",
+        "addr:city": "La Cañada",
+        "addr:full": "Avenida San Martin 4354",
+        "addr:place": "Figueroa",
+        "addr:postcode": "4354",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito La Cañada",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860702192021",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7718304,
+          -27.70939
+        ]
+      },
+      "id": "node/7435661107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661108",
+        "addr:city": "Vilelas",
+        "addr:full": "Ruta Provincial N°94",
+        "addr:place": "Juan F Ibarra",
+        "addr:postcode": "3752",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "fixme": "Confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Vilelas",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860982192029",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.6125408,
+          -27.9601484
+        ]
+      },
+      "id": "node/7435661108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661109",
+        "addr:city": "Villa Salavina",
+        "addr:full": "Villa Salavina - Dpto Salavina",
+        "addr:place": "Salavina",
+        "addr:postcode": "2354",
+        "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "fixme": "Confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital Distrital Villa Salavina Dr. Albert Schweitzer",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861682192047",
+        "ref:sisa_tipologia": "ESCIESM",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4303334,
+          -28.8044711
+        ]
+      },
+      "id": "node/7435661109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661110",
+        "addr:city": "Guardia Escolta",
+        "addr:full": "Calle N° 7",
+        "addr:place": "Belgrano",
+        "addr:postcode": "3062",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Guardia Escolta",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860422192020",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.1272956,
+          -28.9872149
+        ]
+      },
+      "id": "node/7435661110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661111",
+        "addr:city": "Villa La Punta",
+        "addr:full": "Villa La Punta - Dpto. Choya",
+        "addr:place": "Choya",
+        "addr:postcode": "4203",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "fixme": "Confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Villa La Punta",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860632192030",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.790991,
+          -28.368291
+        ]
+      },
+      "id": "node/7435661111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661112",
+        "addr:city": "Los Pirpintos",
+        "addr:full": "Los Pirpintos - Dpto Copo",
+        "addr:place": "Copo",
+        "addr:postcode": "3712",
+        "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "fixme": "Confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito De Los Pirpintos",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860562192023",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.063582,
+          -26.131521
+        ]
+      },
+      "id": "node/7435661112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661113",
+        "addr:city": "Weisburd",
+        "addr:full": "Weisburd - Dpto. Moreno",
+        "addr:place": "Moreno",
+        "addr:postcode": "4351",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "fixme": "Confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Weisburd",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861192192031",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.5826165,
+          -27.3209807
+        ]
+      },
+      "id": "node/7435661113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661114",
+        "addr:city": "Sol De Julio",
+        "addr:full": "Publica S/N",
+        "addr:place": "Ojo De Agua",
+        "addr:postcode": "5255",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "fixme": "Confirmar ubicación",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Sol De Julio",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861262192028",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4574125,
+          -29.5659148
+        ]
+      },
+      "id": "node/7435661114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661115",
+        "addr:city": "Villa Candelaria Norte",
+        "addr:full": "Camino Principal Calle Publica S/N",
+        "addr:place": "Rio Seco",
+        "addr:postcode": "5249",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Vecinal Villa Candelaria",
+        "operator:type": "public",
+        "ref:sisa_refes": "10141122231266",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.3548913,
+          -29.8054684
+        ]
+      },
+      "id": "node/7435661115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661116",
+        "addr:city": "Santos Lugares",
+        "addr:full": "Santos Lugares - Dpto. Alberdi",
+        "addr:place": "Alberdi",
+        "addr:postcode": "4301",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Santos Lugares",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860142192027",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5553285,
+          -26.6869348
+        ]
+      },
+      "id": "node/7435661116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661117",
+        "addr:city": "Villa De Maria",
+        "addr:full": "Bolivia 173 Esquina Sarmiento",
+        "addr:place": "Rio Seco",
+        "addr:postcode": "5248",
+        "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal Del Norte",
+        "operator:type": "public",
+        "ref:sisa_refes": "10141122231183",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7206237,
+          -29.9005529
+        ]
+      },
+      "id": "node/7435661117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661118",
+        "addr:city": "Sachayoj",
+        "addr:full": "Sachayoj - Dpto Alberdi",
+        "addr:place": "Alberdi",
+        "addr:postcode": "3712",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Sachayoj",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860142192025",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.8139431,
+          -26.6759637
+        ]
+      },
+      "id": "node/7435661118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661119",
+        "addr:city": "Villa General Mitre (Estación Pinto)",
+        "addr:full": "Sarmiento 553",
+        "addr:place": "Aguirre",
+        "addr:postcode": "2356",
+        "amenity": "hospital",
+        "description": "Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "hospital",
+        "name": "Hospital Zonal Pinto",
+        "operator:type": "public",
+        "ref:sisa_refes": "10860072192061",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.6511989,
+          -29.1398354
+        ]
+      },
+      "id": "node/7435661119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661121",
+        "addr:city": "San Francisco Del Chañar",
+        "addr:full": "Zona Rural San Francisco Del Chañar",
+        "addr:place": "Sobremonte",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Geriatrico Jose Julian Puente",
+        "operator:type": "public",
+        "ref:sisa_refes": "14141542131371",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.9367061,
+          -29.8500984
+        ]
+      },
+      "id": "node/7435661121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661122",
+        "addr:city": "Garza",
+        "addr:full": "Garza - Dpto Sarmiento",
+        "addr:place": "Sarmiento",
+        "addr:postcode": "4324",
+        "amenity": "hospital",
+        "description": "Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital De Transito Garza",
+        "operator:type": "public",
+        "ref:sisa_refes": "10861822192013",
+        "ref:sisa_tipologia": "ESCIG",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5406733,
+          -28.1527519
+        ]
+      },
+      "id": "node/7435661122"
     }
   ]
 }

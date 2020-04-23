@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-17T04:51:02Z",
+  "timestamp": "2020-04-23T01:40:03Z",
   "features": [
     {
       "type": "Feature",
@@ -7659,7 +7659,6 @@
       "type": "Feature",
       "properties": {
         "@id": "way/463769909",
-        "addr:street": "Avenida Caseros",
         "amenity": "pharmacy",
         "brand": "Farmacity",
         "brand:wikidata": "Q5856076",
@@ -7667,8 +7666,7 @@
         "building": "retail",
         "healthcare": "pharmacy",
         "name": "Farmacity",
-        "opening_hours": "Mo-Fr 07:30-24:00; Sa 09:00-24:00; Su,PH 10:00-23:00",
-        "source": "Reconocimiento cartográfico 2016 por KG"
+        "opening_hours": "Mo-Fr 07:30-24:00; Sa 09:00-24:00; Su,PH 10:00-23:00"
       },
       "geometry": {
         "type": "Polygon",
@@ -7679,12 +7677,12 @@
               -34.6392029
             ],
             [
-              -58.4158553,
-              -34.6392048
+              -58.4158097,
+              -34.6392026
             ],
             [
-              -58.4158513,
-              -34.6390101
+              -58.4158111,
+              -34.6390057
             ],
             [
               -58.4159169,
@@ -8661,6 +8659,7 @@
         "building": "yes",
         "building:levels": "1",
         "fixme": "nombre",
+        "healthcare": "pharmacy",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -9204,7 +9203,8 @@
         "addr:street": "Paraná",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Central adelina",
+        "healthcare": "pharmacy",
+        "name": "Central Adelina",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
       "geometry": {
@@ -9254,6 +9254,7 @@
         "@id": "way/467020681",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Farmacias y Perfumerias",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
@@ -9301,7 +9302,8 @@
         "addr:street": "Paraná",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Farmacia del Pueblo",
+        "healthcare": "pharmacy",
+        "name": "Del Pueblo",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
       "geometry": {
@@ -9344,6 +9346,7 @@
         "addr:street": "Avenida de Mayo",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Farmacias Dr. Ahorro",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
@@ -9587,6 +9590,7 @@
         "@id": "way/467293846",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Farmacia",
         "source": "Reconocimiento cartográfico de campo 2016 por KG"
       },
@@ -9626,6 +9630,7 @@
         "addr:street": "Avenida Bernardo Ader",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Farmacia",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
@@ -14455,7 +14460,6 @@
       "type": "Feature",
       "properties": {
         "@id": "way/471532171",
-        "addr:street": "Avenida Nazca",
         "amenity": "pharmacy",
         "building": "yes",
         "healthcare": "pharmacy",
@@ -14466,24 +14470,24 @@
         "coordinates": [
           [
             [
-              -58.5001759,
-              -34.5888205
+              -58.5001853,
+              -34.5888282
             ],
             [
-              -58.5000649,
-              -34.5887511
+              -58.5000743,
+              -34.5887588
             ],
             [
-              -58.5001073,
-              -34.5887051
+              -58.5001167,
+              -34.5887128
             ],
             [
-              -58.5002184,
-              -34.5887745
+              -58.5002278,
+              -34.5887822
             ],
             [
-              -58.5001759,
-              -34.5888205
+              -58.5001853,
+              -34.5888282
             ]
           ]
         ]
@@ -17606,6 +17610,7 @@
         "addr:street": "Avenida del Libertador",
         "amenity": "pharmacy",
         "building": "commercial",
+        "healthcare": "pharmacy",
         "name": "Punta Chica",
         "source": "Reconocimiento terrestre 2016 por Kaart."
       },
@@ -17950,6 +17955,10 @@
             [
               -58.5949205,
               -34.419443
+            ],
+            [
+              -58.5950306,
+              -34.4195225
             ],
             [
               -58.5950579,
@@ -26875,6 +26884,7 @@
         "addr:street": "Laboulaye",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Maxifarma Farmacias en Red"
       },
       "geometry": {
@@ -26997,7 +27007,7 @@
         "addr:street": "Cipriano Perelló",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Polygon",
@@ -27035,7 +27045,7 @@
         "addr:street": "Juan del Risco y Alvarado",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Polygon",
@@ -30363,6 +30373,51 @@
         ]
       },
       "id": "way/780150100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/780150110",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "986 (N)",
+        "addr:postcode": "5400",
+        "addr:street": "Ingeniero Cesar Cipolletti",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "building:levels": "1",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Miñana",
+        "phone": "+54 264 423 4203"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5676665,
+              -31.5181921
+            ],
+            [
+              -68.5676742,
+              -31.5182578
+            ],
+            [
+              -68.5675511,
+              -31.5182684
+            ],
+            [
+              -68.5675517,
+              -31.5182024
+            ],
+            [
+              -68.5676665,
+              -31.5181921
+            ]
+          ]
+        ]
+      },
+      "id": "way/780150110"
     },
     {
       "type": "Feature",
@@ -34219,6 +34274,7 @@
       "properties": {
         "@id": "node/955986986",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Wilson"
       },
       "geometry": {
@@ -34733,6 +34789,7 @@
         "addr:housenumber": "6037",
         "addr:street": "56 - 1 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Tropezón",
         "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
       },
@@ -34750,6 +34807,7 @@
       "properties": {
         "@id": "node/1105526811",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Ethical"
       },
       "geometry": {
@@ -39087,6 +39145,7 @@
         "addr:street": "Avenida Maipú",
         "amenity": "pharmacy",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Selma",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -40084,7 +40143,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4201829,
+          -58.4201943,
           -34.6159354
         ]
       },
@@ -44066,6 +44125,7 @@
       "properties": {
         "@id": "node/2119246514",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Amit"
       },
       "geometry": {
@@ -51518,7 +51578,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2561826294",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -53194,6 +53255,7 @@
       "properties": {
         "@id": "node/2644367427",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "source": "Reconocimiento cartográfico de campo 2016 por KG."
       },
       "geometry": {
@@ -64519,7 +64581,8 @@
         "addr:postcode": "1686",
         "addr:street": "Avenida Julio A. Roca",
         "amenity": "pharmacy",
-        "name": "Farmacia Navarro",
+        "healthcare": "pharmacy",
+        "name": "Navarro",
         "phone": "+54 11 4452-2157"
       },
       "geometry": {
@@ -65185,6 +65248,7 @@
       "properties": {
         "@id": "node/3513762343",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pelliza"
       },
       "geometry": {
@@ -67463,6 +67527,7 @@
       "properties": {
         "@id": "node/3540582160",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "La Granja"
       },
       "geometry": {
@@ -67479,6 +67544,7 @@
       "properties": {
         "@id": "node/3540582164",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Nicolas"
       },
       "geometry": {
@@ -68351,8 +68417,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.8539008,
-          -32.9640393
+          -68.8537924,
+          -32.9637744
         ]
       },
       "id": "node/3591146518"
@@ -78173,7 +78239,8 @@
         "@id": "node/4251684913",
         "addr:housenumber": "6795",
         "addr:street": "Avenida del Libertador",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -81146,7 +81213,8 @@
         "addr:postcode": "2800",
         "addr:street": "Avenida Anta",
         "amenity": "pharmacy",
-        "name": "Farmacia Davies"
+        "healthcare": "pharmacy",
+        "name": "Davies"
       },
       "geometry": {
         "type": "Point",
@@ -81166,6 +81234,7 @@
         "addr:postcode": "2800",
         "addr:street": "M. de la Torre",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia y Óptica Ferrari"
       },
       "geometry": {
@@ -81186,7 +81255,8 @@
         "addr:postcode": "2800",
         "addr:street": "Sarmiento",
         "amenity": "pharmacy",
-        "name": "Farmacia CR Salud"
+        "healthcare": "pharmacy",
+        "name": "CR Salud"
       },
       "geometry": {
         "type": "Point",
@@ -81400,7 +81470,8 @@
         "@id": "node/4416968524",
         "addr:street": "Rivadavia",
         "amenity": "pharmacy",
-        "name": "Farmacia Jaimovich"
+        "healthcare": "pharmacy",
+        "name": "Jaimovich"
       },
       "geometry": {
         "type": "Point",
@@ -81553,6 +81624,7 @@
         "addr:postcode": "2800",
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Pasteur"
       },
       "geometry": {
@@ -81589,7 +81661,8 @@
         "addr:housenumber": "2401",
         "addr:street": "Avenida Antártida Argentina",
         "amenity": "pharmacy",
-        "name": "FARMACIA SIMINI"
+        "healthcare": "pharmacy",
+        "name": "Simini"
       },
       "geometry": {
         "type": "Point",
@@ -82021,7 +82094,8 @@
         "@id": "node/4425811891",
         "addr:street": "Avenida Anta",
         "amenity": "pharmacy",
-        "name": "Farmacia Montoya",
+        "healthcare": "pharmacy",
+        "name": "Montoya",
         "name:es": "Farmacia Montoya"
       },
       "geometry": {
@@ -82056,7 +82130,8 @@
       "properties": {
         "@id": "node/4425899526",
         "amenity": "pharmacy",
-        "name": "Farmacia Parada"
+        "healthcare": "pharmacy",
+        "name": "Parada"
       },
       "geometry": {
         "type": "Point",
@@ -84256,7 +84331,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4573421034",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -85341,7 +85417,8 @@
         "addr:city": "Martínez",
         "addr:street": "Diagonal Salta",
         "amenity": "pharmacy",
-        "name": "Farmacia Proética",
+        "healthcare": "pharmacy",
+        "name": "Proética",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -85360,6 +85437,7 @@
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "pharmacy",
         "fixme": "nombre",
+        "healthcare": "pharmacy",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -85378,6 +85456,7 @@
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "pharmacy",
         "fixme": "nombre",
+        "healthcare": "pharmacy",
         "name": "Farmacia",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -85430,7 +85509,8 @@
         "addr:postcode": "1686",
         "addr:street": "Avenida Julio A. Roca",
         "amenity": "pharmacy",
-        "name": "Farmacia Nueva Casella",
+        "healthcare": "pharmacy",
+        "name": "Nueva Casella",
         "name:es": "Farmacia Nueva Casella",
         "phone": "+54 11 4452-0815"
       },
@@ -85451,7 +85531,8 @@
         "addr:postcode": "1686",
         "addr:street": "General M. Necochea",
         "amenity": "pharmacy",
-        "name": "Farmacia Fernandez",
+        "healthcare": "pharmacy",
+        "name": "Fernández",
         "name:es": "Farmacia Fernandez",
         "opening_hours": "Mo-Sa 08:30-20:30",
         "phone": "+54 11 4659-3221"
@@ -85601,8 +85682,9 @@
         "@id": "node/4598901615",
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "healthcare:speciality": "homeopathy",
-        "name": "Farmacia Sudamericana",
+        "name": "Sudamericana",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -85989,6 +86071,7 @@
       "properties": {
         "@id": "node/4605169149",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia",
         "phone": "+54 11 4717-2181"
       },
@@ -86047,6 +86130,7 @@
         "@id": "node/4605792979",
         "addr:street": "Paraná",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -86083,6 +86167,7 @@
         "addr:street": "Capitán Justo Germán de Bermúdez",
         "amenity": "pharmacy",
         "fixme": "nombre",
+        "healthcare": "pharmacy",
         "name": "Farmacia",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -86101,7 +86186,8 @@
         "@id": "node/4608518421",
         "addr:street": "Mariano Pelliza",
         "amenity": "pharmacy",
-        "name": "Farmacia Menegol",
+        "healthcare": "pharmacy",
+        "name": "Menegol",
         "phone": "+54 11 4790-7757",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -86160,6 +86246,7 @@
         "@id": "node/4612498712",
         "addr:street": "Joaquín Gonzalez (SI) / Gervasio Méndez (VL)",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farcmacia",
         "source": "Reconocimiento cartográfico de campo 2016 por KG."
       },
@@ -86196,7 +86283,8 @@
         "@id": "node/4613034065",
         "addr:street": "Carlos Villate",
         "amenity": "pharmacy",
-        "name": "Farmacia Garcia",
+        "healthcare": "pharmacy",
+        "name": "García",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
       "geometry": {
@@ -86469,7 +86557,8 @@
         "@id": "node/4617143774",
         "addr:street": "Avenida de Mayo",
         "amenity": "pharmacy",
-        "name": "Farmacia Caminas",
+        "healthcare": "pharmacy",
+        "name": "Caminas",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
       "geometry": {
@@ -86486,6 +86575,7 @@
       "properties": {
         "@id": "node/4617181587",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Cargnoni",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
@@ -86683,7 +86773,8 @@
         "@id": "node/4619515627",
         "addr:street": "Avenida Bernardo Ader",
         "amenity": "pharmacy",
-        "name": "Farmacia Lioy",
+        "healthcare": "pharmacy",
+        "name": "Lioy",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
       "geometry": {
@@ -86997,7 +87088,8 @@
         "@id": "node/4623861612",
         "addr:street": "Carlos Villate",
         "amenity": "pharmacy",
-        "name": "Farmacia Jameson",
+        "healthcare": "pharmacy",
+        "name": "Jameson",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -97201,14 +97293,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4969267322",
+        "addr:city": "Mar del Tuyú",
+        "addr:housenumber": "134",
+        "addr:street": "Calle 79",
         "amenity": "pharmacy",
-        "name": "Bautista"
+        "name:es": "Bautista SCS",
+        "opening_hours": "Mo-Sa 08:30-13:00,16:30-20:30; Su off",
+        "phone": "02246 434 397"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.6895198,
-          -36.5813713
+          -56.6895855,
+          -36.5813831
         ]
       },
       "id": "node/4969267322"
@@ -107959,6 +108056,7 @@
       "properties": {
         "@id": "node/5644597918",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Los Boticarios"
       },
       "geometry": {
@@ -107974,7 +108072,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5644606446",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -110376,9 +110475,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5793965486",
+        "addr:city": "Santa Teresita",
+        "addr:housenumber": "1453",
+        "addr:street": "Calle 2",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Consumed"
+        "name:es": "Farmacia Consumed",
+        "phone": "02246 526 402"
       },
       "geometry": {
         "type": "Point",
@@ -112044,6 +112147,7 @@
       "properties": {
         "@id": "node/5987380085",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Nueva Villegas"
       },
       "geometry": {
@@ -115416,6 +115520,7 @@
       "properties": {
         "@id": "node/6232841887",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "De La Ruta"
       },
       "geometry": {
@@ -115924,6 +116029,7 @@
       "properties": {
         "@id": "node/6269173445",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "level": "1",
         "name": "Farmacity"
       },
@@ -120637,6 +120743,7 @@
         "@id": "node/6856085782",
         "addr:street": "Ubaldo Fernández",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Infanti"
       },
       "geometry": {
@@ -124675,8 +124782,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.8945428,
-          -27.095864
+          -54.8945162,
+          -27.0958843
         ]
       },
       "id": "node/7301808997"
@@ -124829,8 +124936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.576175,
-          -25.6051331
+          -54.5761326,
+          -25.605061
         ]
       },
       "id": "node/7304074731"
@@ -126774,7 +126881,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7346739423",
-        "addr:city": "Puerto Iguazu",
+        "addr:city": "Puerto Iguazú",
         "addr:postcode": "3370",
         "addr:street": "El Zorzal",
         "amenity": "pharmacy",
@@ -129759,7 +129866,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7412865600",
-        "amenity": "pharmacy"
+        "addr:city": "Santa Teresita",
+        "addr:housenumber": "994",
+        "addr:street": "Diag 21",
+        "amenity": "pharmacy",
+        "name:es": "Farmacia Tango",
+        "opening_hours": "09:00-17:00"
       },
       "geometry": {
         "type": "Point",
@@ -129784,6 +129896,151 @@
         ]
       },
       "id": "node/7412865605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7413244975",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "687 (S)",
+        "addr:postcode": "5400",
+        "addr:street": "Hipólito Yrigoyen",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Valentina",
+        "phone": "+54 264 426 5606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5681443,
+          -31.5369171
+        ]
+      },
+      "id": "node/7413244975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417070385",
+        "addr:housenumber": "898",
+        "addr:street": "San Carlos",
+        "amenity": "pharmacy",
+        "name": "Massera",
+        "phone": "+54 2323 49-5163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2230799,
+          -34.4854814
+        ]
+      },
+      "id": "node/7417070385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417492590",
+        "addr:housenumber": "786",
+        "addr:street": "Avenida 1010 - Lorenzo Casey",
+        "amenity": "pharmacy",
+        "name": "Lorenzo Casey",
+        "phone": "+54 2323 42-0222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1041473,
+          -34.5801636
+        ]
+      },
+      "id": "node/7417492590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435629819",
+        "addr:city": "Mar del Tuyú",
+        "addr:housenumber": "7571",
+        "addr:street": "Calle 2",
+        "amenity": "pharmacy",
+        "name:es": "Farmacia Paz s.c.s",
+        "opening_hours": "09:00-23:30",
+        "phone": "02246 434 883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.6903423,
+          -36.5778525
+        ]
+      },
+      "id": "node/7435629819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435629831",
+        "addr:city": "Mar del Tuyú",
+        "addr:housenumber": "7269",
+        "addr:street": "Calle 2",
+        "amenity": "pharmacy",
+        "contact:facebook": "farmaciacosentin",
+        "contact:whatsapp": "2246 461400",
+        "name:es": "Farmacia Cosentino",
+        "opening_hours": "08:30-00:00",
+        "phone": "(02246) 43-4051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.6904992,
+          -36.5748143
+        ]
+      },
+      "id": "node/7435629831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435693899",
+        "addr:city": "Santa Teresita",
+        "addr:housenumber": "305",
+        "addr:street": "Calle 38",
+        "amenity": "pharmacy",
+        "name:es": "Farmacia Salas",
+        "phone": "02246 520 340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.6918564,
+          -36.541243
+        ]
+      },
+      "id": "node/7435693899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435693900",
+        "addr:city": "Santa Teresita",
+        "addr:housenumber": "936",
+        "addr:street": "Calle 2",
+        "amenity": "pharmacy",
+        "name:es": "Farmacia Farmar",
+        "phone": "02246 422 103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.6897146,
+          -36.5400125
+        ]
+      },
+      "id": "node/7435693900"
     }
   ]
 }

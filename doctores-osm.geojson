@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-17T04:54:03Z",
+  "timestamp": "2020-04-23T01:41:02Z",
   "features": [
     {
       "type": "Feature",
@@ -2395,6 +2395,7 @@
         "addr:street": "Belgrano",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Consultorios Belgrano"
       },
       "geometry": {
@@ -2436,6 +2437,7 @@
         "addr:street": "Almirante Brown",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Socorro Medicina Integral"
       },
       "geometry": {
@@ -4483,8 +4485,11 @@
         "amenity": "doctors",
         "building": "yes",
         "healthcare:speciality": "general",
-        "name": "Centro de Atención Primaria de la Salud Barrio San Bernardo",
-        "operator": "Municipalidad de Luján"
+        "name": "Centro de Atención Primaria de la Salud San Bernardo",
+        "opening_hours": "Mo-Fr 08:00-16:00, Sa 09:00-12:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 11 3174-1998"
       },
       "geometry": {
         "type": "Polygon",
@@ -4567,10 +4572,12 @@
         "addr:street": "414 - Nicolás Repetto",
         "amenity": "doctors",
         "building": "yes",
+        "description": "Atención de prácticas esenciales",
         "name": "Centro de Atención Primaria de la Salud Juan XIII",
-        "opening_hours": "Mo-Fr 07:00-16:00",
+        "opening_hours": "Mo-Fr 07:00-14:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 5582-8100"
       },
       "geometry": {
         "type": "Polygon",
@@ -7891,6 +7898,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/792783927",
+        "addr:city": "Irigoyen",
+        "addr:housenumber": "450",
+        "addr:postcode": "S2248",
+        "addr:street": "Avenida Belgrano",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "SAMCo Pueblo Irigoyen",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3466 49-1023"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.1081695,
+              -32.157271
+            ],
+            [
+              -61.1092376,
+              -32.157087
+            ],
+            [
+              -61.1093478,
+              -32.1575451
+            ],
+            [
+              -61.1082797,
+              -32.1577293
+            ],
+            [
+              -61.1081695,
+              -32.157271
+            ]
+          ]
+        ]
+      },
+      "id": "way/792783927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/427988926",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -7914,17 +7965,19 @@
         "addr:housenumber": "275",
         "addr:postcode": "3370",
         "addr:street": "Avenida República Argentina",
+        "alt_name": "Sam Medicina Privada",
         "amenity": "doctors",
-        "email": "marketing@clinicasam.com.ar",
+        "email": "info@clinicasam.com.ar",
+        "healthcare": "doctor",
         "name": "Sam",
-        "phone": "+54 (03757) 420030 / 423192 / 421011 / 423000",
+        "phone": "+54 3757 420030 / 423192 / 421011 / 423000",
         "website": "http://clinicasam.com.ar/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.5761168,
-          -25.605076
+          -54.5762033,
+          -25.6051069
         ]
       },
       "id": "node/534125484"
@@ -9515,7 +9568,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2379595986",
+        "addr:city": "San Javier",
+        "addr:postcode": "3357",
+        "addr:street": "Libertad",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Kine Medic"
       },
       "geometry": {
@@ -9644,12 +9701,14 @@
         "addr:province": "Buenos Aires",
         "addr:street": "19 - General Las Heras",
         "amenity": "doctors",
+        "description": "Atención de prácticas esenciales",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
         "name": "Policlínico Eva Perón",
-        "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-12:00",
+        "opening_hours": "Mo-Fr 07:00-18:00, Sa 09:00-12:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 2323 42-1260;+54 11 5582-8124"
       },
       "geometry": {
         "type": "Point",
@@ -9804,8 +9863,13 @@
         "@id": "node/2657144749",
         "addr:city": "Mártires",
         "addr:postcode": "3318",
+        "alt_name": "CAPS Mártires",
         "amenity": "doctors",
-        "name": "CAPS Mártires"
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "doctor",
+        "name": "CAPS Otto Rosberg",
+        "official_name": "Centro de Atención Primaria de la Salud",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -9841,17 +9905,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2681621621",
+        "addr:housenumber": "397",
         "addr:street": "Nemesio Litardo",
         "amenity": "doctors",
+        "description": "Atención de prácticas esenciales",
         "name": "Centro de Atención Primaria de la Salud Torres",
-        "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
-        "operator:type": "public"
+        "opening_hours": "Mo-Fr 07:00-20:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 11 4023-0285"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.1266688,
-          -34.4320464
+          -59.1266841,
+          -34.4320021
         ]
       },
       "id": "node/2681621621"
@@ -10514,10 +10582,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3189299671",
+        "addr:city": "Posadas",
+        "addr:full": "Gómez Portiño, Chacra 3233",
+        "addr:postcode": "3300",
         "addr:street": "Gómez Portiño",
         "alt_name": "Centro de Atención Primaria de la Salud",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "email": "caps29@hotmail.com",
+        "healthcare": "doctor",
         "name": "CAPS 29 Cristo Rey",
+        "phone": "+54 3764 458205",
+        "ref": "ESSIDT",
         "short_name": "CAPS 29 Cristo Rey"
       },
       "geometry": {
@@ -10920,11 +10996,15 @@
       "properties": {
         "@id": "node/3232819647",
         "addr:city": "Guaraní",
-        "addr:postcode": "N3361",
+        "addr:postcode": "3361",
         "addr:street": "Avenida Remedios de Escalada",
         "alt_name": "Centro de Atención Primaria de la Salud",
         "amenity": "doctors",
-        "name": "CAPS Guaraní"
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "CAPS Guaraní",
+        "phone": "+54 3755 494201",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -11069,8 +11149,10 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3363545490",
+        "addr:city": "Puerto Rico",
         "alt_name": "Centro de Atención Primaria de la Salud",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "CAPS San Alberto Puerto"
       },
       "geometry": {
@@ -11253,6 +11335,7 @@
       "properties": {
         "@id": "node/3579349251",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Dispensario"
       },
       "geometry": {
@@ -11309,8 +11392,11 @@
         "addr:street": "Avenida Alberto Roth",
         "alt_name": "Centro de Atención Primaria de la Salud 20 Ñu Porá",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
         "healthcare": "doctor",
-        "name": "CAPS 20 Ñu Porá"
+        "name": "CAPS 20 Ñu Porá",
+        "phone": "+54 376 4488437",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -11558,6 +11644,30 @@
         ]
       },
       "id": "node/3780382757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3796301863",
+        "addr:city": "Gálvez",
+        "addr:postcode": "S2252",
+        "addr:street": "Sargento Cabral y  9 de Julio",
+        "alt_name": "CAPS Barrio Oeste",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Centro de Salud Eva Perón",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3404 48-3272"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.2299162,
+          -32.0337167
+        ]
+      },
+      "id": "node/3796301863"
     },
     {
       "type": "Feature",
@@ -12684,10 +12794,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4263395898",
+        "addr:city": "López",
+        "addr:housenumber": "1677",
+        "addr:postcode": "S2255",
+        "addr:street": "Aurelia",
         "alt_name": "SAMCo Rural número 35",
         "amenity": "doctors",
+        "email": "samcolopez@yahoo.com.ar",
         "healthcare": "doctor",
-        "name": "Sistema para la Atención Médica de la Comunidad Rural 35",
+        "name": "SAMCo López",
+        "operator": "Provincia de Santa Fe",
+        "phone": "+54 3404 49-8135",
         "short_name": "S.A.M.Co. Rural Nº 35",
         "wheelchair": "yes"
       },
@@ -13132,13 +13249,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4375533422",
-        "amenity": "doctors"
+        "amenity": "doctors",
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.5743304,
-          -27.3664475
+          -55.5744103,
+          -27.3664634
         ]
       },
       "id": "node/4375533422"
@@ -13212,6 +13330,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4385670474",
+        "addr:city": "an Carlos",
+        "addr:full": "25 de Mayo y Berón de Astrada",
+        "addr:postcode": "3306",
+        "addr:street": "25 de Mayo",
+        "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Estación Sanitaria;Centro De Salud San Carlos",
+        "office": "government",
+        "phone": "+54 3756 494107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8981521,
+          -27.7442902
+        ]
+      },
+      "id": "node/4385670474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4396436589",
         "addr:housenumber": "7",
         "addr:street": "Chimehuín",
@@ -13250,7 +13392,7 @@
       "properties": {
         "@id": "node/4403514210",
         "amenity": "doctors",
-        "name": "Consultorio Médico"
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -13403,6 +13545,7 @@
         "addr:street": "Avenida de Las Américas",
         "alt_name": "CEMED",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Médico"
       },
       "geometry": {
@@ -13892,9 +14035,12 @@
         "addr:city": "Hipólito Irigoyen",
         "addr:postcode": "3328",
         "addr:street": "Avenida General Manuel Belgrano",
+        "alt_name": "Puesto de Salud",
         "amenity": "doctors",
         "healthcare": "doctor",
-        "name": "Puesto de Salud"
+        "name": "Centro de Atención Primaria de la Salud",
+        "phone": "+54 3743 435526",
+        "short_name": "CAPS"
       },
       "geometry": {
         "type": "Point",
@@ -14217,9 +14363,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4548107798",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4415",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Lavalle",
+        "alt_name": "Consultorio Odontológico Dres. Cabral - Martinez",
         "amenity": "doctors",
-        "name": "Consultorio Odontologico Lavalle",
-        "name:es": "Consultorio Odontologico Lavalle"
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Consultorio Odontológico Lavalle",
+        "name:es": "Consultorio Odontológico Lavalle",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -14530,6 +14684,7 @@
         "@id": "node/4605119662",
         "addr:street": "Edison",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorio Médico",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -16401,24 +16556,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4990989797",
-        "addr:city": "Colonia Polana",
-        "amenity": "doctors",
-        "name": "Centro de Atención Primaira de la Salud",
-        "short_name": "CAPS"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.3179534,
-          -26.9829869
-        ]
-      },
-      "id": "node/4990989797"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5004041714",
         "addr:city": "Ciudad Autónoma de Buenos Aires",
         "addr:housenumber": "5750",
@@ -16691,6 +16828,7 @@
       "properties": {
         "@id": "node/5061312163",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Salud Cura Brochero"
       },
       "geometry": {
@@ -16932,16 +17070,22 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5154092422",
+        "addr:city": "Profundidad",
+        "addr:postcode": "3308",
         "alt_name": "Centro de Atención Primaria de la Salud Profundidad",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "email": "capsprofundidad@gmail.com",
         "healthcare": "doctor",
-        "name": "CAPS Profundidad"
+        "name": "CAPS Profundidad",
+        "phone": "+54 3764 104892",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.7057735,
-          -27.5617181
+          -55.705802,
+          -27.5616507
         ]
       },
       "id": "node/5154092422"
@@ -17101,6 +17245,7 @@
       "properties": {
         "@id": "node/5241194494",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Cruce Castelar"
       },
       "geometry": {
@@ -17355,8 +17500,12 @@
         "addr:street": "Barrios Arrechea",
         "alt_name": "Centro de Atención Primaria de la Salud Capioviciño",
         "amenity": "doctors",
+        "contact:mobile": "+54 376 4290373",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "email": "jaquelinnc@yahoo.com",
         "healthcare": "doctor",
-        "name": "CAPS Capioviciño"
+        "name": "Centro de Atención Primaria de la Salud Capioviciño",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -18089,6 +18238,7 @@
       "properties": {
         "@id": "node/5644606439",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Medico Privado"
       },
       "geometry": {
@@ -18105,6 +18255,7 @@
       "properties": {
         "@id": "node/5644606448",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Odontología"
       },
       "geometry": {
@@ -18161,11 +18312,14 @@
         "addr:street": "Avenida Amalio Díaz",
         "alt_name": "Centro de Atención Primaria de la Salud",
         "amenity": "doctors",
-        "description": "CAPS Nº 1 - Barrio San Cayetano",
+        "description": "CAPS Nº 1 - Barrio San Cayetano\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "email": "jefaturaareacandelaria@hotmail.com",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
-        "name": "CAPS 1",
+        "name": "CAPS 1 San Cayetano",
         "old_name": "Puesto de Salud",
+        "phone": "+54 376 4649170",
+        "ref": "ESSIDT",
         "short_name": "CAPS 1"
       },
       "geometry": {
@@ -19533,14 +19687,14 @@
         "addr:housenumber": "1259",
         "addr:street": "260 - Uruguay",
         "amenity": "doctors",
+        "description": "Atención de prácticas esenciales",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
         "name": "Centro de Atención Primaria de la Salud San Francisco",
         "opening_hours": "Mo-Fr 08:00-16:00",
-        "opening_hours:covid19": "off",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 2323 429965"
+        "phone": "+54 2323 42-9965;+54 11 3196-2338"
       },
       "geometry": {
         "type": "Point",
@@ -20515,6 +20669,7 @@
       "properties": {
         "@id": "node/6824454209",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Vacunatorio Municipal",
         "operator": "Municipio de Morón"
       },
@@ -20700,8 +20855,10 @@
         "addr:street": "Los Ficus",
         "alt_name": "Centro de Atención Primaria de la Salud Andresito",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
         "name": "CAPS Andresito",
+        "ref": "ESSIDT",
         "short_name": "CAPS Andresito"
       },
       "geometry": {
@@ -20717,11 +20874,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7001280596",
+        "addr:city": "Apóstoles",
+        "addr:postcode": "3350",
         "addr:street": "Belgrano",
         "alt_name": "Centro de Atención Primaria de la Salud 9 de Noviembre",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
         "healthcare": "doctor",
         "name": "CAPS 9 de Noviembre",
+        "ref": "ESSIDT",
         "short_name": "CAPS 9 de Noviembre"
       },
       "geometry": {
@@ -20838,10 +20999,15 @@
       "properties": {
         "@id": "node/7001463047",
         "addr:city": "San Javier",
+        "addr:full": "Lizardo Morales y Virgen Del Rosario",
+        "addr:postcode": "3357",
         "alt_name": "Centro de Atención Primaria de la Salud Barrio Niño Jesus",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Sin atención médica en forma periódica (menor a 3 veces por semana)",
         "healthcare": "doctor",
-        "name": "CAPS Barrio Niño Jesús"
+        "name": "CAPS Barrio Niño Jesús",
+        "phone": "+54  3754 461038",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -21002,8 +21168,11 @@
         "addr:street": "Avenida San Martín",
         "alt_name": "Centro de Atención Primaria de la Salud Gobernador Lopez",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones,",
         "healthcare": "doctor",
-        "name": "CAPS Gobernador López"
+        "name": "CAPS Gobernador López",
+        "phone": "+54 3754 491868",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -21044,6 +21213,7 @@
         "addr:street": "Primero de Mayo",
         "alt_name": "Centro de Atención Primaria de la Salud 8 De Diciembre",
         "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
         "name": "CAPS 8 De Diciembre"
       },
@@ -21319,11 +21489,16 @@
       "properties": {
         "@id": "node/7011043214",
         "addr:city": "Candelaria",
+        "addr:postcode": "3308",
         "addr:street": "Avenida Carlos Bosetti",
         "alt_name": "Centro de Atención Primaria de la Salud San Anselmo",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones.\nBarrio Anselmo Manzana L Calle Nº 7 Viviendas Del Iprodha",
+        "email": "mirenri349@gmail.com",
         "healthcare": "doctor",
-        "name": "CAPS San Anselmo"
+        "name": "CAPS San Anselmo",
+        "phone": "+54 376 4232952",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -21457,11 +21632,15 @@
       "properties": {
         "@id": "node/7011187344",
         "addr:city": "Colonia La Isolina",
+        "addr:postcode": "3322",
         "addr:street": "Ruta Provincial 210",
         "alt_name": "Centro de Atención Primaria de la Salud Colonia La Isolina",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Sin atención médica en forma periódica (menor a 3 veces por semana)",
         "healthcare": "doctor",
-        "name": "CAPS Colonia La Isolina"
+        "name": "CAPS Colonia La Isolina",
+        "phone": "+54 376 4856425",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -21496,10 +21675,15 @@
       "properties": {
         "@id": "node/7011195225",
         "addr:city": "Colonia Pastoreo",
+        "addr:full": "Colonia Pastoreo Sobre Ruta 210 a 20 Km De La Ciudad,⁣",
         "alt_name": "Centro de Atención Primaria de la Salud Colonia Pastoreo",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Sin atención médica en forma periódica (menor a 3 veces por semana)",
+        "email": "myriam213@hotmail.com",
         "healthcare": "doctor",
-        "name": "CAPS Paraje Pastoreo Grande"
+        "name": "CAPS Paraje Pastoreo Grande",
+        "phone": "+54 376 4856425",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -21533,6 +21717,7 @@
       "properties": {
         "@id": "node/7011229141",
         "addr:city": "Colonia Polana",
+        "addr:street": "Avenida de los Inmigrantes",
         "alt_name": "Centro de Atención Primaria de la Salud Colonia Polana",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -21646,10 +21831,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7011572093",
+        "addr:city": "Hipólito Irigoyen",
+        "addr:full": "Barrio Eva Perón a 100 Metros De La Ruta Nacional 12,",
         "alt_name": "Centro de Atención Primaria de la Salud Eva Perón",
         "amenity": "doctors",
+        "description": "Con atención médica general por lo menos 3 días de la semana,",
         "healthcare": "doctor",
-        "name": "CAPS Eva Perón"
+        "name": "CAPS Eva Perón",
+        "phone": "+54 3743 564437",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22049,6 +22239,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7014039174",
+        "addr:city": "El Soberbio",
+        "addr:postcode": "3364",
+        "addr:suburb": "Paraje Mariano Moreno",
         "alt_name": "Centro de Atención Primaria de la Salud Mariano Moreno",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -22379,8 +22572,11 @@
         "addr:street": "Formosa",
         "alt_name": "Centro de Atención Primaria de la Salud Santa Bárbara",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
         "healthcare": "doctor",
-        "name": "CAPS Santa Bárbara"
+        "name": "CAPS Santa Bárbara",
+        "phone": "+54 3758 15415131",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22439,8 +22635,11 @@
         "addr:street": "Justo José de Urquiza",
         "alt_name": "Puesto de Salud Centro Integrador Comunitario 200 Viviendas",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
-        "name": "Puesto de Salud CIC 200 Viviendas"
+        "name": "Puesto de Salud CIC 200 Viviendas",
+        "phone": "+54 3754 15412675",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22519,12 +22718,15 @@
       "properties": {
         "@id": "node/7016844163",
         "addr:city": "San Javier",
+        "addr:full": "9 de Julio y Belgrano",
         "addr:postcode": "3357",
         "addr:street": "Belgrano",
         "alt_name": "Puesto de Salud Centro Integrador Comunitario San Javier (Santa Teresita)",
         "amenity": "doctors",
         "healthcare": "doctor",
-        "name": "Puesto de Salud CIC San Javier"
+        "name": "Puesto de Salud CIC San Javier",
+        "phone": "+54 3754 461038",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22883,10 +23085,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7019229931",
+        "addr:city": "El Soberbio",
+        "addr:postcode": "3364",
         "alt_name": "Centro de Atención Primaria de la Salud Chafariz",
         "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Sin atención médica en forma periódica (menor a 3 veces por semana),",
         "healthcare": "doctor",
-        "name": "CAPS Paraje Chafariz"
+        "name": "CAPS Paraje Chafariz",
+        "phone": "+54 3757 527186"
       },
       "geometry": {
         "type": "Point",
@@ -23003,8 +23209,12 @@
         "addr:street": "Avenida Corrientes",
         "alt_name": "Centro de Integración Comunitaria Andresito",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "email": "centrointegradorcomunitarioc@yahoo.com.ar",
         "healthcare": "doctor",
-        "name": "Puesto de Salud CIC Andresito"
+        "name": "Puesto de Salud CIC Andresito",
+        "phone": "+54 3757 497006",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -23020,11 +23230,15 @@
       "properties": {
         "@id": "node/7019289295",
         "addr:city": "Puerto Rico",
+        "addr:postcode": "3334",
         "addr:street": "México",
         "alt_name": "Centro de Atención Primaria de la Salud Fátima",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
         "healthcare": "doctor",
-        "name": "CAPS Fátima"
+        "name": "CAPS Fátima",
+        "phone": "+54 3743 477229",
+        "ref": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -23059,12 +23273,17 @@
       "properties": {
         "@id": "node/7019299880",
         "addr:city": "San Pedro",
+        "addr:housenumber": "1056",
         "addr:postcode": "N3352",
         "addr:street": "Roque González",
         "alt_name": "Dirección de Salud Zona Norte",
         "amenity": "doctors",
+        "description": "Categoría de tipología: Otros",
+        "email": "zonanorestemisiones@gmail.com",
         "healthcare": "doctor",
-        "name": "Dirección de Salud Zona Norte"
+        "name": "Dirección de Salud Zona Norte",
+        "phone": "+54 3751 470516",
+        "ref": "ESCL"
       },
       "geometry": {
         "type": "Point",
@@ -23164,8 +23383,11 @@
         "addr:street": "25 de Mayo",
         "alt_name": "Hogar de día Iguazú",
         "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "email": "subsecomunitaria@gmail.com",
         "healthcare": "doctor",
-        "name": "Puesto de Salud Hogar de día Iguazú"
+        "name": "Puesto de Salud Hogar de día Iguazú",
+        "phone": "+54 376 4597813"
       },
       "geometry": {
         "type": "Point",
@@ -23202,11 +23424,14 @@
       "properties": {
         "@id": "node/7019380311",
         "addr:city": "Puerto Pinares",
+        "addr:postcode": "3380",
         "addr:street": "Avenida 9 de Julio",
         "alt_name": "Centro de Integración Comunitaria Pinares",
         "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
         "healthcare": "doctor",
-        "name": "Puesto de Salud CIC Pinares"
+        "name": "Puesto de Salud CIC Pinares",
+        "phone": "+54 3751 430707"
       },
       "geometry": {
         "type": "Point",
@@ -23397,8 +23622,10 @@
         "addr:street": "Ruta Nacional 101",
         "alt_name": "Centro de Atención Primaria de la Salud Cabure-í",
         "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
-        "name": "Caps Cabure-í"
+        "name": "Caps Cabure-í",
+        "phone": "+54 3757 497061"
       },
       "geometry": {
         "type": "Point",
@@ -23610,7 +23837,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7019653200",
-        "addr:city": "Puerto Iguazu",
+        "addr:city": "Puerto Iguazú",
+        "addr:full": "Las Calandrias y El Zorzal",
         "addr:postcode": "3370",
         "addr:street": "Las Calandrias",
         "alt_name": "Centro de Atención Primaria de la Salud Iprohda",
@@ -23942,8 +24170,10 @@
         "addr:street": "Avenida Antártida Argentina",
         "alt_name": "Centro de Atención Primaria de la Salud Santa Rosa",
         "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
-        "name": "CAPS Santa Rosa"
+        "name": "CAPS Santa Rosa",
+        "phone": "+54 3757 514417"
       },
       "geometry": {
         "type": "Point",
@@ -24705,6 +24935,7 @@
       "properties": {
         "@id": "node/7149219932",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "OMED Medicina Privada"
       },
       "geometry": {
@@ -25065,13 +25296,14 @@
         "addr:city": "Luján",
         "addr:street": "611 - Las Estrellas",
         "amenity": "doctors",
+        "description": "Atención de prácticas esenciales",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
         "name": "Centro de Atención Primaria de la Salud Los Laureles",
-        "opening_hours": "Mo-Fr 07:00-16:00",
-        "opening_hours:covid19": "off",
+        "opening_hours": "Mo-Fr 08:00-13:00",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 11 5582-8108"
       },
       "geometry": {
         "type": "Point",
@@ -25215,6 +25447,332 @@
         ]
       },
       "id": "node/7412849760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7413244154",
+        "addr:city": "Mercedes",
+        "addr:full": "Fray Luis Beltrán Y Alvear",
+        "addr:postcode": "3470",
+        "addr:street": "Fray Luis Beltrán",
+        "amenity": "doctors",
+        "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Policonsultorio Y Laboratorio Doctora Lecuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0799565,
+          -29.186605
+        ]
+      },
+      "id": "node/7413244154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7413251622",
+        "addr:city": "Mercedes",
+        "addr:housenumber": "971",
+        "addr:postcode": "3470",
+        "addr:street": "Avenida San Martín",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "doctor",
+        "name": "Policonsultorio Dra. Zaracho Maria Ines",
+        "ref": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0762517,
+          -29.1837053
+        ]
+      },
+      "id": "node/7413251622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7413292539",
+        "addr:city": "Colonia Belgrano",
+        "addr:housenumber": "1145",
+        "addr:postcode": "S2257",
+        "addr:street": "Avenida Belgrano",
+        "amenity": "doctors",
+        "email": "samcocolbel@hotmail.com.ar",
+        "fixme": "Verify ubication",
+        "healthcare": "doctor",
+        "name": "SAMCo Colonia Belgrano",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3404 49-6173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.4013759,
+          -31.9120665
+        ]
+      },
+      "id": "node/7413292539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414556758",
+        "addr:housenumber": "615",
+        "addr:street": "Castellar",
+        "amenity": "doctors",
+        "healthcare": "optometrist",
+        "name": "Instituto Oftalmologico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8552617,
+          -36.783529
+        ]
+      },
+      "id": "node/7414556758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414976543",
+        "addr:city": "Loma Alta",
+        "addr:housenumber": "S/N",
+        "addr:postcode": "S2253",
+        "addr:street": "Ricardo Cerato",
+        "alt_name": "Centro de Salud Loma Alta",
+        "amenity": "doctors",
+        "email": "samcolomaalta@cablenet.com.ar",
+        "healthcare": "doctor",
+        "name": "CAPS Vilmo Raimondi",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3404 45-7020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.1770566,
+          -31.9596379
+        ]
+      },
+      "id": "node/7414976543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414976548",
+        "addr:city": "Gessler",
+        "addr:housenumber": "1146",
+        "addr:postcode": "S2253",
+        "addr:street": "Presbítero Nardi",
+        "amenity": "doctors",
+        "email": "samcogessler@hotmail.com",
+        "healthcare": "doctor",
+        "name": "CAPS Gessler",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "phone": "+54 3404 49-7062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.1277533,
+          -31.8767339
+        ]
+      },
+      "id": "node/7414976548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414986682",
+        "addr:city": "Gobernador Roca",
+        "addr:housenumber": "1756",
+        "addr:postcode": "3324",
+        "addr:street": "Avenida San Martín",
+        "alt_name": "Centro Médico Dr. Viola",
+        "amenity": "doctors",
+        "contact:facebook": "https://www.facebook.com/Centro-M%C3%A9dico-Dr-Viola-615171581894767/",
+        "healthcare": "doctor",
+        "name": "Centro Medico Gobernador Roca",
+        "phone": "+54 376 4523808"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.4704323,
+          -27.191595
+        ]
+      },
+      "id": "node/7414986682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7415832276",
+        "addr:city": "Manfredi",
+        "addr:housenumber": "107",
+        "addr:postcode": "5988",
+        "addr:street": "Avenida 8 de Septiembre",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "email": "munmanfredi@yahoo.com.ar",
+        "healthcare": "doctor",
+        "name": "Centro De Salud Municipal Manfredi",
+        "phone": "+54 3572 493024",
+        "ref": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7468659,
+          -31.8461606
+        ]
+      },
+      "id": "node/7415832276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7415958729",
+        "addr:city": "San Ignacio",
+        "addr:postcode": "3322",
+        "addr:street": "Avenida Sargento Cabral",
+        "amenity": "doctors",
+        "email": "e11signacio@gendarmeria.gov.ar",
+        "healthcare": "doctor",
+        "name": "Escuadron 11 San Ignacio",
+        "operator": "Gendarmería Nacional",
+        "phone": "+54 3764 470023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5451581,
+          -27.2633774
+        ]
+      },
+      "id": "node/7415958729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7415981675",
+        "addr:city": "Jardín América",
+        "addr:street": "Esmeralda",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "doctor",
+        "name": "Centro de Atención Primaria de la Salud",
+        "phone": "+54 3743 439543",
+        "ref": "ESSIDT",
+        "short_name": "CAPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2311338,
+          -27.0521452
+        ]
+      },
+      "id": "node/7415981675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7419904019",
+        "addr:city": "Bernardino Rivadavia",
+        "addr:street": "Avenida Té del Valle",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Sin atención médica en forma periódica (menor a 3 veces por semana)",
+        "healthcare": "doctor",
+        "name": "CAPS Bernardino Rivadavia",
+        "official_name": "Centro de Atención Primaria de la Salud",
+        "phone": "+54 3755 15415818",
+        "ref": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6081063,
+          -27.0111248
+        ]
+      },
+      "id": "node/7419904019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7423981466",
+        "addr:city": "Loreto",
+        "addr:street": "Ruta Provincial 216",
+        "amenity": "doctors",
+        "description": "Tipología: ESCL\nCategoría de tipología: Sistema de Atención extra hospitalaria",
+        "healthcare": "doctor",
+        "name": "Unidad de atención extra hospitalaria",
+        "phone": "+54 376 4664805"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5258129,
+          -27.3376347
+        ]
+      },
+      "id": "node/7423981466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7423995981",
+        "addr:city": "Jardín América",
+        "addr:housenumber": "663",
+        "addr:postcode": "3328",
+        "addr:street": "Paraguay",
+        "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Consultorios Medicos Jardín América",
+        "phone": "+54 3743 460222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.2277197,
+          -27.0415637
+        ]
+      },
+      "id": "node/7423995981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7424185469",
+        "amenity": "doctors",
+        "description": "Atención de prácticas esenciales",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "name": "Centro de Atención Primaria de la Salud Loreto",
+        "opening_hours": "Mo-Fr 08:00-13:00",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 11 3174-1994"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1729655,
+          -34.6096051
+        ]
+      },
+      "id": "node/7424185469"
     }
   ]
 }

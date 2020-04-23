@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-17T04:50:02Z",
+  "timestamp": "2020-04-23T01:40:03Z",
   "features": [
     {
       "type": "Feature",
@@ -66,6 +66,85 @@
         ]
       },
       "id": "relation/6082615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10255282",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "2225 (O)",
+        "addr:postcode": "5400",
+        "addr:street": "Sargento Bautista Cabral",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "1",
+        "email": "zoecelli@hotmail.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro Medico Integral",
+        "operator": "Javier Alejandro Cirerol",
+        "operator:type": "private",
+        "phone": "+54 264 426 5995",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5625375,
+              -31.5208311
+            ],
+            [
+              -68.5624331,
+              -31.5208309
+            ],
+            [
+              -68.5624337,
+              -31.5206709
+            ],
+            [
+              -68.5624772,
+              -31.520671
+            ],
+            [
+              -68.5625382,
+              -31.5206711
+            ],
+            [
+              -68.5625381,
+              -31.5207041
+            ],
+            [
+              -68.5625375,
+              -31.5208311
+            ]
+          ],
+          [
+            [
+              -68.5625111,
+              -31.5207125
+            ],
+            [
+              -68.5624819,
+              -31.5207122
+            ],
+            [
+              -68.5624816,
+              -31.5207356
+            ],
+            [
+              -68.5625107,
+              -31.5207359
+            ],
+            [
+              -68.5625111,
+              -31.5207125
+            ]
+          ]
+        ]
+      },
+      "id": "relation/10255282"
     },
     {
       "type": "Feature",
@@ -3804,12 +3883,15 @@
       "properties": {
         "@id": "way/323457147",
         "addr:city": "9 de Julio",
+        "addr:housenumber": "1068",
         "addr:postcode": "6500",
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/clinicaindependencia9dejulio",
         "healthcare": "clinic",
         "name": "Clínica Independencia",
-        "operator": "Clinica Independencia S.A."
+        "operator": "Clinica Independencia S.A.",
+        "phone": "+54 2317 511952;+54 2317 431038"
       },
       "geometry": {
         "type": "Polygon",
@@ -4375,6 +4457,7 @@
       "properties": {
         "@id": "way/342857951",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Dispensario B°Ferreyra"
       },
       "geometry": {
@@ -5259,10 +5342,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/380539839",
+        "addr:city": "Posadas",
+        "addr:housenumber": "2991",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Bustamante",
         "amenity": "clinic",
         "building": "yes",
+        "email": "bernabe@camionerosmisiones.com",
+        "healthcare": "clinic",
         "name": "Centro de diagnóstico y tratamiento 15 de Diciembre",
         "operator": "Sindicato de Camioneros",
+        "phone": "+54 376 4458340",
+        "ref": "ESCL",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -6376,6 +6467,7 @@
         "addr:street": "Rómulo Noya",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Instituto Nefrológico"
       },
       "geometry": {
@@ -8732,6 +8824,7 @@
         "amenity": "clinic",
         "building": "yes",
         "building:levels": "3",
+        "healthcare": "clinic",
         "name": "AlunCo Salud - Centro de Neurorehabilitación Integral"
       },
       "geometry": {
@@ -8781,6 +8874,7 @@
         "@id": "way/466750389",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Sanatorio Mariano Pelliza"
       },
       "geometry": {
@@ -8867,6 +8961,7 @@
         "amenity": "clinic",
         "building": "yes",
         "description": "Clinica",
+        "healthcare": "clinic",
         "name": "Nuestra Señora de Pompeya",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
@@ -8906,6 +9001,7 @@
         "addr:street": "Avenida de Mayo",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Centro de Atención",
         "source": "Reconocimiento cartográfico 2016 por KG"
       },
@@ -9317,6 +9413,7 @@
         "addr:street": "643 - Avenida del Libertador General José de San Martín",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Asi",
         "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
       },
@@ -10156,6 +10253,7 @@
         "addr:street": "962 - Benito Pérez Galdós",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Establecimiento de Salud Mental",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
@@ -20617,11 +20715,17 @@
       "type": "Feature",
       "properties": {
         "@id": "way/567214740",
+        "addr:city": "Oberá",
+        "addr:housenumber": "1031",
+        "addr:postcode": "3360",
+        "addr:street": "Gobernador Barreyro",
         "amenity": "clinic",
         "building": "yes",
         "healthcare": "clinic",
         "height": "3.5",
-        "name": "Sanatorio Derna S.R.L."
+        "name": "Sanatorio Derna",
+        "official_name": "Sanatorio Derna SRL",
+        "website": "http://sanatorioderna.com/"
       },
       "geometry": {
         "type": "Polygon",
@@ -24439,6 +24543,102 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/743163915",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "78 (O)",
+        "addr:postcode": "5400",
+        "addr:street": "Sargento Bautista Cabral",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "1",
+        "email": "educanada@hotmail.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Centro Medico Coll",
+        "operator": "Eduardo Alfredo Cañadas",
+        "operator:type": "private",
+        "phone": "+54 264 423 5674"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5688518,
+              -31.5201983
+            ],
+            [
+              -68.5688519,
+              -31.5202164
+            ],
+            [
+              -68.568853,
+              -31.5203199
+            ],
+            [
+              -68.5688532,
+              -31.520341
+            ],
+            [
+              -68.5688148,
+              -31.5203413
+            ],
+            [
+              -68.5688151,
+              -31.5203701
+            ],
+            [
+              -68.5687781,
+              -31.5203704
+            ],
+            [
+              -68.5687778,
+              -31.5203423
+            ],
+            [
+              -68.5687771,
+              -31.5202702
+            ],
+            [
+              -68.5687769,
+              -31.5202569
+            ],
+            [
+              -68.5688148,
+              -31.5202566
+            ],
+            [
+              -68.5688147,
+              -31.520253
+            ],
+            [
+              -68.5688221,
+              -31.520253
+            ],
+            [
+              -68.5688218,
+              -31.5202242
+            ],
+            [
+              -68.5688293,
+              -31.5202241
+            ],
+            [
+              -68.568829,
+              -31.5201997
+            ],
+            [
+              -68.5688518,
+              -31.5201983
+            ]
+          ]
+        ]
+      },
+      "id": "way/743163915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/750328155",
         "amenity": "clinic",
         "building": "yes",
@@ -24528,7 +24728,8 @@
         "building": "yes",
         "building:levels": "1",
         "healthcare": "clinic",
-        "name": "Clínica San Martín"
+        "name": "Clínica San Martín",
+        "phone": "+54 264 433 3059"
       },
       "geometry": {
         "type": "Polygon",
@@ -24861,8 +25062,10 @@
         "amenity": "clinic",
         "full_name": "Centro de Atención Primaria de Salud La Bebida",
         "healthcare": "clinic",
+        "healthcare:speciality": "general",
         "name": "CAPS La Bebida",
-        "operator": "Ministerio de Salud Pública"
+        "operator": "Ministerio de Salud Pública",
+        "operator:type": "public"
       },
       "geometry": {
         "type": "Polygon",
@@ -25927,6 +26130,185 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/793752605",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "654 (S)",
+        "addr:postcode": "5400",
+        "addr:street": "Malvinas Argentinas",
+        "amenity": "clinic",
+        "email": "soldeabril.clinica@gmail.com",
+        "full_name": "Centro interdisciplinario para la salud y bienestar Sol de Abril",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;physiatry",
+        "name": "Clínica Sol de Abril",
+        "phone": "+54 264 433 2873",
+        "website": "https://www.soldeabrilcentro.com/nuestros-espacios"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5900721,
+              -31.5370338
+            ],
+            [
+              -68.5901036,
+              -31.5370403
+            ],
+            [
+              -68.5901543,
+              -31.5370516
+            ],
+            [
+              -68.5901068,
+              -31.5372101
+            ],
+            [
+              -68.5900582,
+              -31.5371996
+            ],
+            [
+              -68.5900014,
+              -31.5371873
+            ],
+            [
+              -68.5899603,
+              -31.5371784
+            ],
+            [
+              -68.5898991,
+              -31.5371652
+            ],
+            [
+              -68.5895425,
+              -31.5370882
+            ],
+            [
+              -68.5895505,
+              -31.5370594
+            ],
+            [
+              -68.5895756,
+              -31.5369691
+            ],
+            [
+              -68.5895833,
+              -31.5369415
+            ],
+            [
+              -68.5895858,
+              -31.5369327
+            ],
+            [
+              -68.5897874,
+              -31.5369745
+            ],
+            [
+              -68.5898757,
+              -31.5369933
+            ],
+            [
+              -68.5899274,
+              -31.5370039
+            ],
+            [
+              -68.5900721,
+              -31.5370338
+            ]
+          ]
+        ]
+      },
+      "id": "way/793752605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/794202470",
+        "addr:city": "Rivadavia",
+        "addr:housenumber": "627 (S)",
+        "addr:postcode": "5400",
+        "addr:street": "Centenario",
+        "amenity": "clinic",
+        "full_name": "Centro de Atención Primaria de Salud Villa Rodriguez Pinto",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "CAPS Villa Rodriguez Pinto",
+        "operator": "Ministerio de Salud Pública",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5698367,
+              -31.5362239
+            ],
+            [
+              -68.569802,
+              -31.5362164
+            ],
+            [
+              -68.5696902,
+              -31.5361921
+            ],
+            [
+              -68.5696611,
+              -31.5361857
+            ],
+            [
+              -68.5695893,
+              -31.5361701
+            ],
+            [
+              -68.5695434,
+              -31.5361601
+            ],
+            [
+              -68.569578,
+              -31.5360553
+            ],
+            [
+              -68.5696431,
+              -31.5360705
+            ],
+            [
+              -68.5696942,
+              -31.5360825
+            ],
+            [
+              -68.5697525,
+              -31.5360961
+            ],
+            [
+              -68.5698358,
+              -31.5361156
+            ],
+            [
+              -68.5698687,
+              -31.5361233
+            ],
+            [
+              -68.5698521,
+              -31.5361753
+            ],
+            [
+              -68.5698409,
+              -31.5362106
+            ],
+            [
+              -68.5698367,
+              -31.5362239
+            ]
+          ]
+        ]
+      },
+      "id": "way/794202470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/420034699",
         "addr:city": "San Isidro",
         "addr:postcode": "4707",
@@ -26092,6 +26474,7 @@
       "properties": {
         "@id": "node/909830243",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "healthcare:speciality": "ophthalmology",
         "name": "Clinica Nano"
       },
@@ -26314,7 +26697,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1492530225",
-        "amenity": "clinic"
+        "addr:city": "Colonia Liebig",
+        "addr:street": "Guillermo Brown",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIG:\nCategoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Hospital De Colonia Liebigs",
+        "phone": "+54 3782 49700;+54 3782 423131"
       },
       "geometry": {
         "type": "Point",
@@ -26333,9 +26722,11 @@
         "addr:postcode": "3334",
         "addr:street": "Avenida de Las Américas",
         "amenity": "clinic",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
         "emergency": "no",
         "healthcare": "clinic",
-        "name": "Puesto de Salud"
+        "name": "Puesto de Salud",
+        "phone": "+54 3743 491419"
       },
       "geometry": {
         "type": "Point",
@@ -26802,14 +27193,23 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2375624106",
+        "addr:city": "San Javier",
+        "addr:housenumber": "539",
+        "addr:postcode": "3357",
+        "addr:street": "Libertad",
         "amenity": "clinic",
-        "name": "C.A.M.E."
+        "contact:facebook": "https://www.facebook.com/beatriz1606/",
+        "description": "Consultorio Medico Ginecología Obstetricia Pediatría Odontología Laboratorio De Analisis",
+        "healthcare": "clinic",
+        "name": "Centro de Atención Médica Especializada",
+        "phone": "+54 3754 482236",
+        "short_name": "CAME"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.1360595,
-          -27.8731748
+          -55.1361029,
+          -27.873209
         ]
       },
       "id": "node/2375624106"
@@ -30548,10 +30948,16 @@
         "addr:city": "Apóstoles",
         "addr:postcode": "3350",
         "addr:street": "Alvear",
+        "alt_name": "Clínica DIA Diagnóstico Apóstoles",
         "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/Clinica-DIA-308476332601396/",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "clinicadiasrl@hotmail.com",
         "healthcare": "clinic",
         "name": "Dia",
-        "phone": "+543758424358"
+        "official_name": "Clínica DIA SRL",
+        "phone": "+54 3758 424358",
+        "ref": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -32008,10 +32414,15 @@
       "properties": {
         "@id": "node/4057044497",
         "addr:city": "Capioví",
+        "addr:housenumber": "310",
         "addr:postcode": "3332",
         "addr:street": "Los Jesuitas",
         "amenity": "clinic",
-        "name": "Clínica Cibils"
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Clínica Cibils",
+        "phone": "+54 3743 493006",
+        "ref": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -32442,17 +32853,23 @@
       "properties": {
         "@id": "node/4106717555",
         "addr:city": "Laboulaye",
+        "addr:housenumber": "71",
         "addr:postcode": "6120",
         "addr:street": "España",
         "amenity": "clinic",
+        "description": "Categoría de tipología: Mediano riesgo con internación con cuidados especiales",
+        "email": "clinicaprivadasanlucas@hotmail.com",
         "healthcare": "clinic",
-        "name": "San Lucas"
+        "name": "San Lucas",
+        "operator": "Clinica Privada San Lucas S.R.L.",
+        "operator:type": "private",
+        "phone": "03856426112"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.3877094,
-          -34.1247403
+          -63.3876048,
+          -34.1246892
         ]
       },
       "id": "node/4106717555"
@@ -32466,9 +32883,12 @@
         "addr:postcode": "3362",
         "addr:street": "Fray Luis Beltrán",
         "amenity": "clinic",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
         "name": "Clinica Integral",
         "operator": "Dr. Jorge Sartori",
-        "phone": "+54 3755 499177"
+        "phone": "+54 3755 499177",
+        "ref": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -32559,7 +32979,11 @@
         "addr:postcode": "3364",
         "addr:street": "Misiones",
         "amenity": "clinic",
-        "name": "Centro"
+        "description": "Categoría de tipología: Bajo riesgo con internación simple\nLocalidad: Dos De Mayo Nucleo I ",
+        "healthcare": "clinic",
+        "name": "Centro",
+        "phone": "+54 3755 496205",
+        "ref": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -32586,8 +33010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.686818,
-          -27.0250636
+          -54.6867625,
+          -27.0250237
         ]
       },
       "id": "node/4109847032"
@@ -33709,10 +34133,14 @@
       "properties": {
         "@id": "node/4330023778",
         "addr:city": "Posadas",
+        "addr:housenumber": "1431",
         "addr:postcode": "3300",
         "addr:street": "Salta",
         "amenity": "clinic",
-        "name": "Centro Quiropráctico Posadas"
+        "contact:facebook": "https://www.facebook.com/quiropraxiaposadas/",
+        "healthcare": "clinic",
+        "name": "Centro Quiropráctico Posadas",
+        "phone": "+54 376 4700110"
       },
       "geometry": {
         "type": "Point",
@@ -34797,8 +35225,16 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4456890190",
+        "addr:city": "Puerto Rico",
+        "addr:housenumber": "1967",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida San Martín",
         "amenity": "clinic",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Alto riesgo con terapia intensiva",
+        "email": "_facturacion@clinica-imsa.com.ar",
+        "healthcare": "clinic",
         "name": "Instituto Médico Sociedad Anónima",
+        "phone": "+54 3743 421900",
         "short_name": "IMSA"
       },
       "geometry": {
@@ -36245,24 +36681,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4627059041",
-        "addr:street": "56 - 1 de Mayo",
-        "amenity": "clinic",
-        "name": "Clinica Veterinaria Tropezon",
-        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5569903,
-          -34.5899926
-        ]
-      },
-      "id": "node/4627059041"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4629518202",
         "addr:street": "436 - Avenida La Plata",
         "amenity": "clinic",
@@ -36380,6 +36798,7 @@
         "addr:postcode": "1686",
         "addr:street": "Teniente General Pablo Richieri",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica Sagrado Corazón de Jesús"
       },
       "geometry": {
@@ -42233,10 +42652,11 @@
         "addr:housenumber": "727",
         "addr:postcode": "3364",
         "addr:street": "Miguel Chepoyá",
+        "alt_name": "Clínica Luego SRL",
         "amenity": "clinic",
         "email": "marcelaantunez@yahoo.com.ar",
         "healthcare": "clinic",
-        "name": "Clínica Luego SRL",
+        "name": "Clínica Lugo SRL",
         "phone": "+54 3751 470150",
         "website": "http://www.clinicalugosrl.com"
       },
@@ -42549,6 +42969,7 @@
       "properties": {
         "@id": "node/5644606427",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro de Atención Primaria de la Salud"
       },
       "geometry": {
@@ -46524,6 +46945,394 @@
         ]
       },
       "id": "node/7409187854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414536241",
+        "addr:housenumber": "546",
+        "addr:street": "Lavalle",
+        "amenity": "clinic",
+        "name": "Resonancia Del Centro",
+        "operator": "Privado",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8536269,
+          -36.7829135
+        ]
+      },
+      "id": "node/7414536241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414565954",
+        "addr:housenumber": "873",
+        "addr:street": "Avenida Bartolomé Mitre",
+        "amenity": "clinic",
+        "name": "Instituto Folkman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.854048,
+          -36.7816568
+        ]
+      },
+      "id": "node/7414565954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7414598135",
+        "addr:housenumber": "902",
+        "addr:street": "San Martín",
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.855707,
+          -36.7839372
+        ]
+      },
+      "id": "node/7414598135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7416161516",
+        "addr:city": "San Nicolás de los Arroyos",
+        "addr:full": "Schubert 1873 Barrio Las Mellizas",
+        "addr:housenumber": "1873",
+        "addr:postcode": "B2900",
+        "addr:street": "Franz Schubert",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dispensario H. R. Cardinale",
+        "operator": "Municipalidad de San Nicolás",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.2648747,
+          -33.2980959
+        ]
+      },
+      "id": "node/7416161516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7416165574",
+        "addr:city": "San Nicolás de los Arroyos",
+        "addr:full": "Sánchez (ex Otero) 1288 - Barrio San Martín",
+        "addr:housenumber": "1288",
+        "addr:postcode": "B2900",
+        "addr:street": "Reynaldo Otero",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dispensario Dr. O. Ricardini",
+        "operator": "Municipalidad de San Nicolás",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.2524304,
+          -33.3068232
+        ]
+      },
+      "id": "node/7416165574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417382881",
+        "addr:city": "San Javier",
+        "addr:housenumber": "474",
+        "addr:postcode": "3357",
+        "addr:street": "Libertad",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "San Javier",
+        "phone": "+54 3754 482446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1369262,
+          -27.8727211
+        ]
+      },
+      "id": "node/7417382881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417407301",
+        "addr:city": "San Javier",
+        "addr:housenumber": "474",
+        "addr:postcode": "3357",
+        "addr:street": "Libertad",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "San Javier",
+        "phone": "+54 3754 482446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1369262,
+          -27.8727211
+        ]
+      },
+      "id": "node/7417407301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417997961",
+        "addr:city": "Puerto Rico",
+        "addr:housenumber": "1669",
+        "addr:postcode": "3334",
+        "addr:street": "Avenida 9 de Julio",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "9 de Julio",
+        "official_name": "Clínica 9 de Julio SRL",
+        "phone": "+54 3743 420934",
+        "ref": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0204888,
+          -26.8079512
+        ]
+      },
+      "id": "node/7417997961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7419724227",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:housenumber": "753",
+        "addr:postcode": "3364",
+        "addr:street": "Mariano Moreno",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple,",
+        "healthcare": "clinic",
+        "name": "Elena",
+        "official_name": "Clínica Elena De La Madre Y El Nińo",
+        "phone": "+54 3758 490190",
+        "ref": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8976341,
+          -27.0949843
+        ]
+      },
+      "id": "node/7419724227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7419760018",
+        "addr:city": "Aristóbulo del Valle",
+        "addr:housenumber": "974",
+        "addr:postcode": "3364",
+        "addr:street": "25 de Mayo",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Policlinico Privado",
+        "official_name": "Policlinico Privado SRL",
+        "phone": "+54 3755 470150",
+        "ref": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8966689,
+          -27.0977695
+        ]
+      },
+      "id": "node/7419760018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7422310429",
+        "addr:city": "Puerto Esperanza",
+        "addr:housenumber": "94",
+        "addr:postcode": "3378",
+        "addr:street": "Formosa",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Clinica Esperanza",
+        "phone": "+54 3757 480208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6136017,
+          -26.0215398
+        ]
+      },
+      "id": "node/7422310429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7422331060",
+        "addr:city": "Puerto Iguazú",
+        "addr:housenumber": "33",
+        "addr:postcode": "3370",
+        "addr:street": "Bonpland",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Sanatorio De La Natividad",
+        "official_name": "Sanatorio De La Natividad Iguazú Med SRL",
+        "phone": "+54 3757 422994"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5744415,
+          -25.5993286
+        ]
+      },
+      "id": "node/7422331060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7424013080",
+        "addr:city": "Posadas",
+        "addr:housenumber": "4522",
+        "addr:postcode": "3300",
+        "addr:street": "Líbano",
+        "alt_name": "Arandú SRL Clínica Psiquiátrica",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIESM\nCategoría de tipología: Mediano riesgo con internación con cuidados especiales",
+        "healthcare": "clinic",
+        "name": "Arandú",
+        "official_name": "Arandú SRL",
+        "phone": "+54 376 450008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8997949,
+          -27.3905689
+        ]
+      },
+      "id": "node/7424013080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7424040079",
+        "addr:city": "Santiago del Estero",
+        "addr:housenumber": "138",
+        "addr:postcode": "4200",
+        "addr:street": "25 de Mayo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sanatorio Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.256131,
+          -27.7865196
+        ]
+      },
+      "id": "node/7424040079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7427626897",
+        "addr:city": "Cerro Azul",
+        "addr:housenumber": "547",
+        "addr:postcode": "3313",
+        "addr:street": "Yapeyú",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Mediano riesgo con internación con cuidados especiales,",
+        "healthcare": "clinic",
+        "name": "Clinica Integral",
+        "phone": "+54 376 4494066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.4957078,
+          -27.6337332
+        ]
+      },
+      "id": "node/7427626897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7427684258",
+        "addr:city": "El Soberbio",
+        "addr:housenumber": "398",
+        "addr:postcode": "3364",
+        "addr:street": "Avenida San Martín",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple,",
+        "healthcare": "clinic",
+        "name": "Modelo SH",
+        "official_name": "Clínica Modelo SH",
+        "phone": "+54 3755 495070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.1984576,
+          -27.2941628
+        ]
+      },
+      "id": "node/7427684258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435661120",
+        "addr:city": "San Jose",
+        "addr:full": "Camino Nacional Km 25",
+        "addr:place": "Avellaneda",
+        "addr:postcode": "4326",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto Sanitario San Jose (Area Hospital Zonal Fernandez)",
+        "operator:type": "public",
+        "ref:sisa_refes": "50860282192380",
+        "ref:sisa_tipologia": "ESCL",
+        "source": "sedronar.gov.ar | Public Domain (PD)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.997926,
+          -28.480927
+        ]
+      },
+      "id": "node/7435661120"
     }
   ]
 }
