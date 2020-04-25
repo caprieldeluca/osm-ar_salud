@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-23T01:40:03Z",
+  "timestamp": "2020-04-25T20:52:03Z",
   "features": [
     {
       "type": "Feature",
@@ -5282,6 +5282,7 @@
         "amenity": "hospital",
         "emergency": "yes",
         "fixme": "cant see naything in camera all needs re done",
+        "healthcare": "hospital",
         "name": "Sanatorio Allende Cerro"
       },
       "geometry": {
@@ -56451,6 +56452,65 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/795840392",
+        "addr:city": "Mercedes",
+        "addr:housenumber": "1050",
+        "addr:postcode": "3470",
+        "addr:street": "Dr. Juan R. Lacour",
+        "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple,⁣",
+        "healthcare": "hospital",
+        "name": "Hospital Las Mecedes",
+        "phone": "+54 3773 420031"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.0792546,
+              -29.1890297
+            ],
+            [
+              -58.0793173,
+              -29.1890501
+            ],
+            [
+              -58.0795321,
+              -29.1899078
+            ],
+            [
+              -58.0794707,
+              -29.1899403
+            ],
+            [
+              -58.0784122,
+              -29.190117
+            ],
+            [
+              -58.0783736,
+              -29.1900883
+            ],
+            [
+              -58.0781465,
+              -29.1892805
+            ],
+            [
+              -58.078165,
+              -29.189238
+            ],
+            [
+              -58.0792546,
+              -29.1890297
+            ]
+          ]
+        ]
+      },
+      "id": "way/795840392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -75264,8 +75324,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4376620590",
+        "addr:city": "San Antonio de Itatí",
+        "addr:housenumber": "812",
+        "addr:postcode": "3481",
+        "addr:street": "P. Sánchez",
         "amenity": "hospital",
-        "name": "Hospital J. R. Vidal"
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Juan Ramón Vidal",
+        "phone": "+54 3781 420050"
       },
       "geometry": {
         "type": "Point",
@@ -77012,8 +77079,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.2486306,
-          -31.3248069
+          -64.2486148,
+          -31.3247816
         ]
       },
       "id": "node/4477608017"
@@ -77024,6 +77091,7 @@
         "@id": "node/4477618584",
         "amenity": "hospital",
         "description": "Unidad Primaria de Atención Sanitaria Nº2",
+        "healthcare": "hospital",
         "name": "UPAS Nº2"
       },
       "geometry": {
@@ -77040,6 +77108,7 @@
       "properties": {
         "@id": "node/4477702612",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de Salud Primaria - B° Arguello"
       },
       "geometry": {
@@ -77057,6 +77126,7 @@
         "@id": "node/4477746123",
         "amenity": "hospital",
         "description": "Centro de Atención Primaria de la Salud (B° 16 de Noviembre)",
+        "healthcare": "hospital",
         "name": "Centro de Atención Primaria de la Salud"
       },
       "geometry": {
@@ -77074,6 +77144,7 @@
         "@id": "node/4477795074",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Centro de Atencion Primaria de Salud",
         "source": "http://prensa.cba.gov.ar/salud/de-la-sota-inauguro-el-caps-24-horas-de-barrio-sol-naciente/"
       },

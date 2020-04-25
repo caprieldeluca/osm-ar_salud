@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-23T01:40:03Z",
+  "timestamp": "2020-04-25T20:53:03Z",
   "features": [
     {
       "type": "Feature",
@@ -6667,6 +6667,7 @@
         "@id": "way/453828652",
         "amenity": "clinic",
         "fixme": "cant see naything in camera all needs re done",
+        "healthcare": "clinic",
         "name": "Alive Sanatorio Privado",
         "phone:AR": "0810-999-3656",
         "website": "https://www.alivesanatorio.com/"
@@ -43210,6 +43211,7 @@
       "properties": {
         "@id": "node/5742593481",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica Viamonte"
       },
       "geometry": {
@@ -47333,6 +47335,23 @@
         ]
       },
       "id": "node/7435661120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7442532156",
+        "amenity": "clinic",
+        "contact:email": "consultoriosboulevardvillaluro@gmail.com",
+        "name": "Consultorio Boulevard Villa Luro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5047977,
+          -34.6392944
+        ]
+      },
+      "id": "node/7442532156"
     }
   ]
 }
