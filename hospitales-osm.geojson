@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-25T20:52:03Z",
+  "timestamp": "2020-04-28T01:56:03Z",
   "features": [
     {
       "type": "Feature",
@@ -7194,8 +7194,10 @@
         "@id": "way/145809433",
         "addr:city": "San Antonio Oeste",
         "addr:full": "Avenida Belgrano 1799 Y Roque Saenz Peña",
+        "addr:housenumber": "1751",
         "addr:place": "San Antonio",
         "addr:postcode": "8520",
+        "addr:street": "Belgrano",
         "amenity": "hospital",
         "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
@@ -19468,6 +19470,7 @@
         "@id": "way/248391101",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Centro de Salud Parque Futura"
       },
       "geometry": {
@@ -56511,6 +56514,86 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/797119352",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.2478606,
+              -27.2738419
+            ],
+            [
+              -58.2481095,
+              -27.2738932
+            ],
+            [
+              -58.2480933,
+              -27.2739552
+            ],
+            [
+              -58.2482745,
+              -27.2739927
+            ],
+            [
+              -58.2482884,
+              -27.2739395
+            ],
+            [
+              -58.2486746,
+              -27.2740196
+            ],
+            [
+              -58.2487153,
+              -27.2740804
+            ],
+            [
+              -58.2485386,
+              -27.2747664
+            ],
+            [
+              -58.2476072,
+              -27.2745768
+            ],
+            [
+              -58.2476368,
+              -27.2744617
+            ],
+            [
+              -58.2474967,
+              -27.2744331
+            ],
+            [
+              -58.2475196,
+              -27.2743447
+            ],
+            [
+              -58.247461,
+              -27.2743327
+            ],
+            [
+              -58.2474929,
+              -27.2742104
+            ],
+            [
+              -58.2477505,
+              -27.2742635
+            ],
+            [
+              -58.2478606,
+              -27.2738419
+            ]
+          ]
+        ]
+      },
+      "id": "way/797119352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -64356,10 +64439,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2707308787",
+        "addr:city": "Maquinista Savio",
+        "addr:full": "Ruta 26 (Av. Constitución) N° 318 - esq. Juan XXIII",
+        "addr:postcode": "1620",
+        "addr:street": "Juan XXIII",
         "amenity": "hospital",
+        "email": "info@sanatoriosancarlos.com.ar",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Sanitario San Carlos"
+        "name": "Sanitario San Carlos",
+        "phone": "+54 348 4518400",
+        "website": "http://sanatoriosancarlos.com.ar/"
       },
       "geometry": {
         "type": "Point",
@@ -73489,9 +73579,11 @@
       "properties": {
         "@id": "node/4200741924",
         "addr:city": "Itá Ibaté",
+        "addr:full": "San Martín y Belgrano",
         "addr:postcode": "3480",
         "addr:street": "San Martín",
         "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
         "healthcare": "hospital",
         "name": "Hospital Inmaculada Concepción",
         "phone": "+54 03781 495183"
@@ -74610,14 +74702,17 @@
         "addr:postcode": "3414",
         "addr:street": "General Belgrano",
         "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
         "emergency": "yes",
-        "name": "Hospital Dres Garcia"
+        "healthcare": "hospital",
+        "name": "Hospital Dres Garcia",
+        "phone": "+54 3783 493323"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.2484563,
-          -27.2740928
+          -58.2483621,
+          -27.2741421
         ]
       },
       "id": "node/4240311298"
@@ -76167,6 +76262,7 @@
         "addr:street": "Rivadavia",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Gobernador Roca",
         "phone": "+54 376 4498017",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
@@ -76528,6 +76624,7 @@
         "addr:street": "Rivadavia",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital SAMIC “Doctor Juan Fernando Alegre”",
         "phone": "+54 3754 420290"
       },
@@ -88801,6 +88898,29 @@
         ]
       },
       "id": "node/7435661122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7454862395",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "957",
+        "addr:postcode": "3400",
+        "addr:street": "San Juan",
+        "amenity": "hospital",
+        "contact:facebook": "https://www.facebook.com/SanatorioSANJUANCorrientes/",
+        "healthcare": "hospital",
+        "name": "Sanatorio San Juan",
+        "phone": "+54 379 4427366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8367148,
+          -27.4681106
+        ]
+      },
+      "id": "node/7454862395"
     }
   ]
 }

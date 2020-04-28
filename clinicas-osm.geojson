@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-25T20:53:03Z",
+  "timestamp": "2020-04-28T01:57:02Z",
   "features": [
     {
       "type": "Feature",
@@ -17023,6 +17023,7 @@
       "properties": {
         "@id": "way/512074064",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "CAPS Ciudad Parque Las Rosas",
         "operator": "Gobierno Provincia de Córdoba"
       },
@@ -28081,6 +28082,7 @@
         "addr:postcode": "3115",
         "addr:street": "Rivadavia",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Médico Integral",
         "phone": "+54 3754 421968"
       },
@@ -47341,7 +47343,6 @@
       "properties": {
         "@id": "node/7442532156",
         "amenity": "clinic",
-        "contact:email": "consultoriosboulevardvillaluro@gmail.com",
         "name": "Consultorio Boulevard Villa Luro"
       },
       "geometry": {
@@ -47352,6 +47353,51 @@
         ]
       },
       "id": "node/7442532156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7454764781",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "657",
+        "addr:postcode": "3400",
+        "addr:street": "9 de Julio",
+        "amenity": "clinic",
+        "description": "Tipología: ESSIDT,\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "clinic",
+        "name": "Centro De Medicina Integral Iosap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8421632,
+          -27.4659521
+        ]
+      },
+      "id": "node/7454764781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7454774310",
+        "addr:city": "Posadas",
+        "addr:housenumber": "1775",
+        "addr:postcode": "3300",
+        "addr:street": "Santiago del Estero",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Laboratorio de Medicina Nuclear Doctor Prosen SRL",
+        "phone": "+54 376 4438119;+54 376 435-9145",
+        "website": "https://laboratorio-de-medicina-nuclear-dr-prosen-srl.negocio.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.894332,
+          -27.3736457
+        ]
+      },
+      "id": "node/7454774310"
     }
   ]
 }

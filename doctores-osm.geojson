@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-25T20:55:03Z",
+  "timestamp": "2020-04-28T01:58:02Z",
   "features": [
     {
       "type": "Feature",
@@ -12859,6 +12859,7 @@
       "properties": {
         "@id": "node/4301419591",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Perreti Emilliano"
       },
       "geometry": {
@@ -19356,28 +19357,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6150317185",
-        "addr:housenumber": "2920",
-        "addr:postcode": "3300",
-        "addr:street": "Junín",
-        "amenity": "doctors",
-        "email": "la.laboratirios@gmail.com",
-        "name": "L&A",
-        "opening_hours": "Mo-Fr 06:30-13:00, 16:30-19:30",
-        "phone": "+54 376 4432136"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.8986039,
-          -27.3715229
-        ]
-      },
-      "id": "node/6150317185"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6152785004",
         "addr:housenumber": "2153",
         "addr:street": "Juan Pringles",
@@ -24987,11 +24966,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7161320185",
+        "addr:city": "Corrientes",
         "addr:housenumber": "685",
         "addr:postcode": "3400",
         "addr:street": "Carlos Pellegrini",
         "amenity": "doctors",
-        "name": "Centro de",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Centro de Ojos de Corrientes",
         "name:es": "Centro de Ojos de Corrientes",
         "opening_hours": "Mo-Fr 08:30-20:30",
         "phone": "0379 442-2650"
@@ -25777,6 +25759,26 @@
         ]
       },
       "id": "node/7424185469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7453467492",
+        "addr:city": "San Gotardo",
+        "addr:street": "Los Pinos",
+        "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "CAPS San Gotardo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.1214806,
+          -26.9241463
+        ]
+      },
+      "id": "node/7453467492"
     }
   ]
 }
