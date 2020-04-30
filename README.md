@@ -55,5 +55,9 @@ Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Ar
   
 ----
 
+El directorio mapaton contiene los datos que se van a usar en los eventos de OpenStreetMap Argentina: Mapatón COVID19.
+
+----
+
 Se está actualizando cada dos días.
-Última actualización: 27/abril/2020.
+Última actualización: 29/abril/2020.

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-28T01:58:02Z",
+  "timestamp": "2020-04-30T01:25:02Z",
   "features": [
     {
       "type": "Feature",
@@ -15734,6 +15734,7 @@
         "addr:postcode": "3760",
         "addr:street": "25 de Mayo",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Dr. Raul Cejas",
         "name:en": "Dr. Raúl Cejas"
       },
@@ -25779,6 +25780,88 @@
         ]
       },
       "id": "node/7453467492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7463895085",
+        "addr:city": "Guaviraví",
+        "addr:postcode": "3232",
+        "addr:street": "Julio Argenetino Roca",
+        "amenity": "doctors",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "doctor",
+        "name": "Centro De Salud Nuestra Sra De Fatima",
+        "phone": "+54 3772 15506322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.8281294,
+          -29.366767
+        ]
+      },
+      "id": "node/7463895085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7464554584",
+        "addr:city": "Lavalle",
+        "addr:postcode": "3443",
+        "addr:street": "Islas Malvinas",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Puesto Sanitario Centro Integrador Comunitario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1834033,
+          -29.0275718
+        ]
+      },
+      "id": "node/7464554584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7464554587",
+        "amenity": "doctors",
+        "description": "Servicios: Medicina general\nDirección: junto a la Escuela N°426\nHorarios de atención: lunes a viernes de 7.30 hs a 12.30 hs",
+        "healthcare": "doctor",
+        "name": "Puesto Sanitario Paraje Puerto Viejo",
+        "short_name": "APS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1731835,
+          -29.0033335
+        ]
+      },
+      "id": "node/7464554587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7464554719",
+        "addr:city": "Paraje La bolsa",
+        "amenity": "doctors",
+        "description": "Dirección: frente a la EFA Santa Lucía.\nHorarios: lunes a viernes de 7.30 hs a 12.30 hs",
+        "healthcare": "doctor",
+        "name": "Puesto Sanitario Paraje La Bolsa",
+        "short_name": "APS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1286526,
+          -29.0285842
+        ]
+      },
+      "id": "node/7464554719"
     }
   ]
 }

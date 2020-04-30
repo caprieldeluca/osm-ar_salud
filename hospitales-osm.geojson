@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-28T01:56:03Z",
+  "timestamp": "2020-04-30T01:24:02Z",
   "features": [
     {
       "type": "Feature",
@@ -7191,54 +7191,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/145809433",
-        "addr:city": "San Antonio Oeste",
-        "addr:full": "Avenida Belgrano 1799 Y Roque Saenz Peña",
-        "addr:housenumber": "1751",
-        "addr:place": "San Antonio",
-        "addr:postcode": "8520",
-        "addr:street": "Belgrano",
-        "amenity": "hospital",
-        "description": "Bajo riesgo con internación simple",
-        "healthcare": "hospital",
-        "name": "Hospital Area Programa San Antonio Oeste Dr. Anibal Serra",
-        "operator:type": "public",
-        "ref:sisa_refes": "10620772170032",
-        "ref:sisa_tipologia": "ESCIG",
-        "source": "sedronar.gov.ar | Public Domain (PD)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -64.9576893,
-              -40.7294168
-            ],
-            [
-              -64.9577684,
-              -40.7303491
-            ],
-            [
-              -64.956499,
-              -40.730411
-            ],
-            [
-              -64.9564199,
-              -40.7294787
-            ],
-            [
-              -64.9576893,
-              -40.7294168
-            ]
-          ]
-        ]
-      },
-      "id": "way/145809433"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/146421377",
         "amenity": "hospital",
         "emergency": "yes",
@@ -8843,7 +8795,9 @@
         "addr:postcode": "3231",
         "addr:street": "San Lorenzo",
         "amenity": "hospital",
+        "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Daniel Vergara",
         "phone": "+54 3772 493014"
       },
@@ -8852,24 +8806,28 @@
         "coordinates": [
           [
             [
-              -56.814766,
-              -29.4697914
+              -56.8147365,
+              -29.4697774
             ],
             [
-              -56.8149162,
-              -29.4701323
+              -56.8149057,
+              -29.4701378
             ],
             [
-              -56.8142832,
-              -29.4703565
+              -56.8142277,
+              -29.4703419
             ],
             [
-              -56.8141317,
-              -29.4700176
+              -56.8141786,
+              -29.4703168
             ],
             [
-              -56.814766,
-              -29.4697914
+              -56.8140405,
+              -29.4700153
+            ],
+            [
+              -56.8147365,
+              -29.4697774
             ]
           ]
         ]
@@ -34330,24 +34288,24 @@
         "coordinates": [
           [
             [
-              -60.2807363,
-              -35.0274016
+              -60.2806424,
+              -35.0274356
             ],
             [
-              -60.2801824,
-              -35.0282428
+              -60.280055,
+              -35.0283405
             ],
             [
-              -60.2791217,
-              -35.0277744
+              -60.2789876,
+              -35.0278612
             ],
             [
-              -60.2796755,
-              -35.0269333
+              -60.2795816,
+              -35.0269388
             ],
             [
-              -60.2807363,
-              -35.0274016
+              -60.2806424,
+              -35.0274356
             ]
           ]
         ]
@@ -46797,6 +46755,7 @@
         "addr:street": "María Campos Matadero",
         "amenity": "hospital",
         "description": "El centro integrador comunitario tiene la función de sala de primeros auxilios. Posee instalaciones para albergar a personas que vienen desde lejos para atenderse en el hospital.",
+        "healthcare": "hospital",
         "name": "Centro Integral Comunitario",
         "operator": "salud",
         "short_name": "CIC"
@@ -56590,6 +56549,47 @@
         ]
       },
       "id": "way/797119352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/797703115",
+        "addr:city": "San Antonio Oeste",
+        "addr:housenumber": "1751",
+        "addr:postcode": "8520",
+        "addr:street": "Belgrano",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Área Programa San Antonio Oeste \"Doctor Aníbal Serra\""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.956463,
+              -40.7294625
+            ],
+            [
+              -64.9576386,
+              -40.7294054
+            ],
+            [
+              -64.9577148,
+              -40.7303055
+            ],
+            [
+              -64.956539,
+              -40.7303626
+            ],
+            [
+              -64.956463,
+              -40.7294625
+            ]
+          ]
+        ]
+      },
+      "id": "way/797703115"
     },
     {
       "type": "Feature",
@@ -88921,6 +88921,27 @@
         ]
       },
       "id": "node/7454862395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7460738073",
+        "addr:city": "San Antonio Oeste",
+        "addr:housenumber": "1751",
+        "addr:postcode": "8520",
+        "addr:street": "Belgrano",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Área Programa San Antonio Oeste \"Doctor Aníbal Serra\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9571254,
+          -40.7299469
+        ]
+      },
+      "id": "node/7460738073"
     }
   ]
 }
