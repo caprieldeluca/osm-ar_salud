@@ -1,7 +1,7 @@
 # covid-19
 Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Argentina: COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19).
 
-[Ir al mapa](http://umap.openstreetmap.fr/es/map/sistema-de-salud-argentina-covid19_437454)
+[Ir al mapa "Sistema de Salud - Argentina"](http://umap.openstreetmap.fr/es/map/sistema-de-salud-argentina-covid19_437454)
 
 ----
 
@@ -60,4 +60,4 @@ El directorio mapaton contiene los datos que se van a usar en los eventos de Ope
 ----
 
 Se está actualizando cada dos días.
-Última actualización: 29/abril/2020.
+Última actualización: 01/mayo/2020.

@@ -4,7 +4,7 @@ Soporte de datos y visualización para los eventos de mapeo de hospitales públi
 
 El objetivo de los eventos es verificar la ubicación geográfica de los establecimientos de salud con internación del listado de SISA, y cargarlos/editarlos en OSM.
 
-[Ir al mapa](https://umap.openstreetmap.fr/es/map/mapaton-covid19-osm-argentina_451066)
+[Ir al mapa "Mapatón - COVID19 - OSM Argentina"](https://umap.openstreetmap.fr/es/map/mapaton-covid19-osm-argentina_451066)
 
 ----
 

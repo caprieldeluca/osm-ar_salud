@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-30T01:25:02Z",
+  "timestamp": "2020-05-02T02:13:02Z",
   "features": [
     {
       "type": "Feature",
@@ -9410,6 +9410,7 @@
       "properties": {
         "@id": "node/2338793572",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Primeros Auxilios Municipal"
       },
       "geometry": {
@@ -16177,6 +16178,7 @@
         "@id": "node/4838736121",
         "addr:street": "Belgrano",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorios Belgrano",
         "name:es": "Consultorios Belgrano",
         "opening_hours": "Mo-Fr 09:00-20:00"
@@ -18056,7 +18058,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5543265723",
-        "amenity": "doctors"
+        "amenity": "doctors",
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -20316,6 +20319,7 @@
         "addr:postcode": "B1878FDC",
         "addr:street": "Condarco",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Médico psiquiatra",
         "opening_hours": "Th 15:30-18:30",
         "phone": "+54 11 5147-7999"
@@ -23646,7 +23650,7 @@
         "alt_name": "Centro de Atención Primaria de la Salud Cafetti",
         "amenity": "doctors",
         "healthcare": "doctor",
-        "name": "CAPS Cafetti"
+        "name": "CAPS Caffetti"
       },
       "geometry": {
         "type": "Point",
@@ -25100,6 +25104,7 @@
         "addr:postcode": "1846",
         "addr:street": "Plaza Espora",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "internet_access": "wlan",
         "name": "Centro de Chequeo Preventivo Adrogue",
         "phone": "5034-9888",
@@ -25862,6 +25867,25 @@
         ]
       },
       "id": "node/7464554719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7468675745",
+        "addr:city": "Cerrito",
+        "amenity": "doctors",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "doctor",
+        "name": "Salita Municipal De Cerrito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9135885,
+          -27.8423829
+        ]
+      },
+      "id": "node/7468675745"
     }
   ]
 }

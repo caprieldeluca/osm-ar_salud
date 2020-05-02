@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-30T01:24:02Z",
+  "timestamp": "2020-05-02T02:11:02Z",
   "features": [
     {
       "type": "Feature",
@@ -8837,67 +8837,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/155097266",
-        "addr:city": "Temperley",
-        "addr:housenumber": "2779",
-        "addr:postcode": "1834",
-        "addr:street": "Almirante Brown",
-        "amenity": "hospital",
-        "building": "yes",
-        "emergency": "yes",
-        "name": "Clínica Juncal",
-        "phone": "+54 11 4239-8000",
-        "ref:vatin": "AR30662249013",
-        "website": "http://sjuncal.com.ar"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.3969823,
-              -34.7696166
-            ],
-            [
-              -58.3969572,
-              -34.7701731
-            ],
-            [
-              -58.3968987,
-              -34.7701713
-            ],
-            [
-              -58.3968963,
-              -34.7702253
-            ],
-            [
-              -58.3967142,
-              -34.7702197
-            ],
-            [
-              -58.3967163,
-              -34.7701723
-            ],
-            [
-              -58.3965555,
-              -34.7701674
-            ],
-            [
-              -58.3965809,
-              -34.7696044
-            ],
-            [
-              -58.3969823,
-              -34.7696166
-            ]
-          ]
-        ]
-      },
-      "id": "way/155097266"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/155290752",
         "addr:city": "Puerto Tirol",
         "addr:postcode": "3505",
@@ -15807,6 +15746,7 @@
       "properties": {
         "@id": "way/231392156",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital \"Dr. Eduardo Wilde\""
       },
       "geometry": {
@@ -17439,6 +17379,7 @@
         "building": "yes",
         "building:levels": "5",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Presidente Perón",
         "phone": "+54 11 4204-1020;+54 11 4204-1984",
         "source": "http://www.mda.gob.ar/index.php?s=70&a=1",
@@ -21864,6 +21805,7 @@
         "@id": "way/266697217",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "UPA \"Vinalar\""
       },
       "geometry": {
@@ -22374,6 +22316,7 @@
         "@id": "way/278100496",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Nuestra Señora del Carmen"
       },
       "geometry": {
@@ -23174,6 +23117,7 @@
       "properties": {
         "@id": "way/287651548",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "(ex policlínico ferroviario) ",
         "name:es": "policlínica ferrovi"
       },
@@ -29865,6 +29809,7 @@
         "addr:street": "Río de Janeiro",
         "alt_name": "Hospital Interzonal Evita",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Interzonal General de Agudos \"Evita\""
       },
       "geometry": {
@@ -33763,6 +33708,10 @@
             [
               -64.8685343,
               -27.4955431
+            ],
+            [
+              -64.8689174,
+              -27.495145
             ],
             [
               -64.8696029,
@@ -44470,6 +44419,7 @@
         "addr:province": "Buenos Aires",
         "addr:street": "Ayacucho",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Clínica Santa Clara",
         "old_name": "Policlínico del Vidrio",
         "phone": "+54 11 4008-4300",
@@ -56594,6 +56544,197 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/798513540",
+        "addr:city": "Zapala",
+        "addr:postcode": "8340",
+        "addr:street": "Avenida San Martín",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Interzonal de Zapala",
+        "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.0658305,
+              -38.9017747
+            ],
+            [
+              -70.0651441,
+              -38.9026665
+            ],
+            [
+              -70.0643047,
+              -38.9022753
+            ],
+            [
+              -70.064991,
+              -38.9013834
+            ],
+            [
+              -70.0658305,
+              -38.9017747
+            ]
+          ]
+        ]
+      },
+      "id": "way/798513540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/798532714",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.6215483,
+              -27.7478761
+            ],
+            [
+              -57.6220162,
+              -27.7485931
+            ],
+            [
+              -57.6213394,
+              -27.7489391
+            ],
+            [
+              -57.6208714,
+              -27.7482222
+            ],
+            [
+              -57.6215483,
+              -27.7478761
+            ]
+          ]
+        ]
+      },
+      "id": "way/798532714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/798814053",
+        "addr:city": "Ayacucho",
+        "addr:housenumber": "300",
+        "addr:postcode": "7150",
+        "addr:street": "Avenida Solanet",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Centro de Atención Primaria de Salud Eva Perón"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.4746823,
+              -37.151211
+            ],
+            [
+              -58.4745558,
+              -37.1513007
+            ],
+            [
+              -58.474467,
+              -37.1512212
+            ],
+            [
+              -58.4745563,
+              -37.1511579
+            ],
+            [
+              -58.4745966,
+              -37.151194
+            ],
+            [
+              -58.4746338,
+              -37.1511676
+            ],
+            [
+              -58.4746823,
+              -37.151211
+            ]
+          ]
+        ]
+      },
+      "id": "way/798814053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/798976343",
+        "addr:city": "Presidencia Roque Sáenz Peña",
+        "addr:housenumber": "1350",
+        "addr:postcode": "3700",
+        "addr:street": "Avenida Malvinas Argentinas",
+        "amenity": "hospital",
+        "contact:facebook": "https://www.facebook.com/pages/Hospital-4-De-Junio/388946721169737",
+        "healthcare": "hospital",
+        "name": "Hospital 4 De Junio Ramon Carrillo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.4485,
+              -26.77423
+            ],
+            [
+              -60.4485534,
+              -26.7742301
+            ],
+            [
+              -60.4486014,
+              -26.7742542
+            ],
+            [
+              -60.4495325,
+              -26.7763724
+            ],
+            [
+              -60.4495144,
+              -26.776426
+            ],
+            [
+              -60.4468716,
+              -26.7773457
+            ],
+            [
+              -60.4468295,
+              -26.7773269
+            ],
+            [
+              -60.4459237,
+              -26.7751969
+            ],
+            [
+              -60.4459793,
+              -26.7751206
+            ],
+            [
+              -60.4485,
+              -26.77423
+            ]
+          ]
+        ]
+      },
+      "id": "way/798976343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -57392,7 +57533,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1060435685",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -57488,22 +57630,6 @@
         ]
       },
       "id": "node/1076132972"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1083433428",
-        "amenity": "hospital",
-        "name": "4 de Junio"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.446716,
-          -26.7761935
-        ]
-      },
-      "id": "node/1083433428"
     },
     {
       "type": "Feature",
@@ -65136,7 +65262,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2922789023",
+        "addr:city": "Caá Catí",
+        "addr:housenumber": "253",
+        "addr:postcode": "3407",
+        "addr:street": "Alberdi",
         "amenity": "hospital",
+        "contact:facebook": "https://www.facebook.com/Hospital-San-Vicente-De-Paul-1753045484990242/",
+        "healthcare": "hospital",
         "name": "San Vicente de Paul"
       },
       "geometry": {
@@ -66020,6 +66152,7 @@
       "properties": {
         "@id": "node/3219362111",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Unidad Sanitaria"
       },
       "geometry": {
@@ -66633,27 +66766,6 @@
         ]
       },
       "id": "node/3282717481"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3285187331",
-        "addr:city": "Ayacucho",
-        "addr:housenumber": "300",
-        "addr:postcode": "7150",
-        "addr:street": "Avenida Solanet",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro de Atención Primaria de Salud Eva Perón"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4745606,
-          -37.1512275
-        ]
-      },
-      "id": "node/3285187331"
     },
     {
       "type": "Feature",
@@ -67327,6 +67439,7 @@
       "properties": {
         "@id": "node/3442028058",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Oftalmológico Enrique de Maria"
       },
       "geometry": {
@@ -69058,6 +69171,7 @@
         "addr:postcode": "4200",
         "addr:street": "Presbítero Jorge Beratz",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "U.P.A N°4"
       },
       "geometry": {
@@ -69793,6 +69907,7 @@
         "addr:housenumber": "282",
         "addr:street": "Andrés Baranda",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio Modelo Quilmes",
         "phone": "+54 11 4257-4404"
       },
@@ -74220,35 +74335,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4218449203",
-        "addr:city": "Zapala",
-        "addr:full": "Luis Monti 155",
-        "addr:place": "Zapala",
-        "addr:postcode": "8340",
-        "addr:street": "Luis Monti",
-        "amenity": "hospital",
-        "description": "Bajo riesgo con internación simple",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "name": "Hospital Interzonal Zapala",
-        "operator:type": "public",
-        "phone": "(02942) 431 555;424 714;424 715;431 516;431 517",
-        "ref:sisa_refes": "10581122167032",
-        "ref:sisa_tipologia": "ESCIG",
-        "source": "sedronar.gov.ar | Public Domain (PD)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.0653145,
-          -38.9019599
-        ]
-      },
-      "id": "node/4218449203"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4218665608",
         "addr:city": "San Salvador de Jujuy",
         "addr:postcode": "4600",
@@ -74416,6 +74502,7 @@
       "properties": {
         "@id": "node/4221619601",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "HOSPITAL NUESTRA SEÑORA SEÑORA DEL ROSARIO"
       },
       "geometry": {
@@ -78688,6 +78775,7 @@
         "addr:postcode": "1874",
         "addr:street": "General Villegas",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Cruz Roja"
       },
       "geometry": {
@@ -79970,6 +80058,7 @@
         "addr:street": "Mitre",
         "amenity": "hospital",
         "email": "anexomitre@gmail.com",
+        "healthcare": "hospital",
         "internet_access": "wlan",
         "name": "ANEXO MITRE - Sanatorio Norte",
         "opening_hours": "Mo-Fr 08:00-21:00",
@@ -84165,6 +84254,7 @@
         "addr:postcode": "4200",
         "addr:street": "Ruta 211",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "PUESTO SANITARIO RAMON CARRILLO",
         "opening_hours": "Su-Fr 07:00-19:00"
       },
@@ -88942,6 +89032,31 @@
         ]
       },
       "id": "node/7460738073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7472559078",
+        "addr:city": "Presidencia Roque Sáenz Peña",
+        "addr:housenumber": "634",
+        "addr:postcode": "3700",
+        "addr:street": "Chacabuco",
+        "amenity": "hospital",
+        "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "hospital",
+        "name": "Instituto Privado Santa Maria",
+        "official_name": "Policonsultorio Instituto Privado Santa Maria SRL",
+        "phone": "+54 364 4426000;+54 364 4429213",
+        "website": "http://www.isantamaria.com.ar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4427765,
+          -26.7911565
+        ]
+      },
+      "id": "node/7472559078"
     }
   ]
 }

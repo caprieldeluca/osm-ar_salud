@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-30T01:24:02Z",
+  "timestamp": "2020-05-02T02:12:02Z",
   "features": [
     {
       "type": "Feature",
@@ -144,50 +144,6 @@
         ]
       },
       "id": "way/129546844"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/132090155",
-        "amenity": "pharmacy",
-        "dispensing": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.9920744,
-              -26.0692616
-            ],
-            [
-              -65.9921625,
-              -26.0701785
-            ],
-            [
-              -65.9913929,
-              -26.0702693
-            ],
-            [
-              -65.9914125,
-              -26.0703894
-            ],
-            [
-              -65.9893939,
-              -26.0706471
-            ],
-            [
-              -65.9892439,
-              -26.0696248
-            ],
-            [
-              -65.9920744,
-              -26.0692616
-            ]
-          ]
-        ]
-      },
-      "id": "way/132090155"
     },
     {
       "type": "Feature",
@@ -11343,7 +11299,8 @@
         "addr:street": "Pérez",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Farmacia D Ambrossio",
+        "healthcare": "pharmacy",
+        "name": "D'Ambrossio",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -11487,7 +11444,8 @@
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Farmacia Punto de Salud",
+        "healthcare": "pharmacy",
+        "name": "Punto de Salud",
         "shop": "medical_supply"
       },
       "geometry": {
@@ -11675,6 +11633,7 @@
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Farma 24"
       },
       "geometry": {
@@ -22642,7 +22601,8 @@
         "@id": "way/546654929",
         "addr:street": "Crámer",
         "amenity": "pharmacy",
-        "building": "yes"
+        "building": "yes",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Polygon",
@@ -22684,6 +22644,7 @@
         "addr:street": "Avenida Caseros",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Soy Tu Farmacia"
       },
       "geometry": {
@@ -22762,6 +22723,7 @@
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Soy Tu Farmacia"
       },
       "geometry": {
@@ -23568,6 +23530,7 @@
         "@id": "way/549435772",
         "addr:street": "Presidente Sarmiento",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia"
       },
       "geometry": {
@@ -23610,7 +23573,8 @@
         "addr:street": "Coronel Lacarra",
         "amenity": "pharmacy",
         "building": "yes",
-        "name": "Farmacia Heredia"
+        "healthcare": "pharmacy",
+        "name": "Heredia"
       },
       "geometry": {
         "type": "Polygon",
@@ -28227,6 +28191,7 @@
         "addr:street": "Marconi",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Cava"
       },
       "geometry": {
@@ -31496,6 +31461,160 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/798513568",
+        "addr:city": "Zapala",
+        "addr:postcode": "8340",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Zapala"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.0640572,
+              -38.9040368
+            ],
+            [
+              -70.0640043,
+              -38.9041081
+            ],
+            [
+              -70.0636041,
+              -38.903925
+            ],
+            [
+              -70.0636586,
+              -38.9038512
+            ],
+            [
+              -70.063802,
+              -38.903918
+            ],
+            [
+              -70.0640572,
+              -38.9040368
+            ]
+          ]
+        ]
+      },
+      "id": "way/798513568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/798513579",
+        "addr:city": "Zapala",
+        "addr:housenumber": "373",
+        "addr:postcode": "8340",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia del Pueblo",
+        "opening_hours": "Mo-Fr 08:30-13:3, 16:30-21:30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.0641343,
+              -38.9044461
+            ],
+            [
+              -70.0642233,
+              -38.9043301
+            ],
+            [
+              -70.0646214,
+              -38.9045172
+            ],
+            [
+              -70.0645335,
+              -38.904632
+            ],
+            [
+              -70.0644162,
+              -38.9045783
+            ],
+            [
+              -70.0643295,
+              -38.9045385
+            ],
+            [
+              -70.0642697,
+              -38.904509
+            ],
+            [
+              -70.0641343,
+              -38.9044461
+            ]
+          ]
+        ]
+      },
+      "id": "way/798513579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/798960596",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Norte III"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.2056139,
+              -38.9305085
+            ],
+            [
+              -69.2055274,
+              -38.9305129
+            ],
+            [
+              -69.2055248,
+              -38.9304823
+            ],
+            [
+              -69.2053903,
+              -38.9304892
+            ],
+            [
+              -69.2053846,
+              -38.9304186
+            ],
+            [
+              -69.2055719,
+              -38.9304091
+            ],
+            [
+              -69.2056076,
+              -38.9304349
+            ],
+            [
+              -69.2056139,
+              -38.9305085
+            ]
+          ]
+        ]
+      },
+      "id": "way/798960596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101967",
         "addr:housenumber": "405",
         "addr:street": "Salta",
@@ -32047,6 +32166,7 @@
         "@id": "node/488639070",
         "addr:street": "Avenida Nicolás Avellaneda",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Rubio"
       },
       "geometry": {
@@ -32080,6 +32200,7 @@
       "properties": {
         "@id": "node/509901677",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Duca"
       },
       "geometry": {
@@ -33497,6 +33618,7 @@
       "properties": {
         "@id": "node/763213544",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Punto Farma"
       },
       "geometry": {
@@ -33512,7 +33634,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/763213545",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -33528,6 +33651,7 @@
       "properties": {
         "@id": "node/763213546",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Dinelli Nestor Adrian"
       },
       "geometry": {
@@ -34117,7 +34241,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/865149710",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -34132,7 +34257,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/865149713",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -34149,7 +34275,8 @@
         "@id": "node/865152472",
         "addr:street": "Coronel Lacarra",
         "amenity": "pharmacy",
-        "name": "Farmacia Lacarra"
+        "healthcare": "pharmacy",
+        "name": "Lacarra"
       },
       "geometry": {
         "type": "Point",
@@ -34559,6 +34686,7 @@
       "properties": {
         "@id": "node/1055463195",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "is_in": "Cafayate",
         "name": "Del Valle"
       },
@@ -34592,6 +34720,7 @@
       "properties": {
         "@id": "node/1060434916",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia de la Esquina",
         "name:es": "Farmacia de la Esquina"
       },
@@ -34609,13 +34738,14 @@
       "properties": {
         "@id": "node/1060435600",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pastor"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.9744832,
-          -26.0684209
+          -65.9744537,
+          -26.0684113
         ]
       },
       "id": "node/1060435600"
@@ -39184,6 +39314,7 @@
         "addr:housenumber": "369",
         "addr:street": "Eugenio de Burzaco",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Sbatella"
       },
       "geometry": {
@@ -39568,6 +39699,7 @@
       "properties": {
         "@id": "node/1712761015",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "FarmaLanus"
       },
       "geometry": {
@@ -42275,6 +42407,7 @@
       "properties": {
         "@id": "node/1925879751",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Modelo"
       },
       "geometry": {
@@ -43153,14 +43286,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2014269279",
+        "addr:city": "Presidencia Roque Sáenz Peña",
+        "addr:postcode": "3700",
+        "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Vital"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.4354155,
-          -26.7910918
+          -60.4356569,
+          -26.7910487
         ]
       },
       "id": "node/2014269279"
@@ -56308,6 +56445,7 @@
         "addr:housenumber": "48",
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Del Pueblo",
         "opening_hours": "Mo-Fr 8:30-12:30,15:30-20:00;Sa 8:30-13:30",
         "ref:vatin": "AR27059181721"
@@ -57425,6 +57563,7 @@
         "addr:housenumber": "1277",
         "addr:street": "Avenida Meeks",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Allegrino",
         "phone": "+54 11 4244-0269",
         "ref:vatin": "AR27224102114"
@@ -64916,6 +65055,7 @@
         "addr:postcode": "1876",
         "addr:street": "Crámer",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Sanar 5",
         "phone": "+54 11 4252-9029"
       },
@@ -71855,6 +71995,7 @@
         "addr:street": "General Escalada",
         "amenity": "pharmacy",
         "drive_through": "no",
+        "healthcare": "pharmacy",
         "name": "Diamandy"
       },
       "geometry": {
@@ -74689,6 +74830,7 @@
       "properties": {
         "@id": "node/3974038999",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "opening_hours": "24/7"
       },
       "geometry": {
@@ -75029,23 +75171,6 @@
         ]
       },
       "id": "node/3989024820"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3991277007",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy",
-        "name": "Norte III"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.2055041,
-          -38.9304116
-        ]
-      },
-      "id": "node/3991277007"
     },
     {
       "type": "Feature",
@@ -80046,7 +80171,8 @@
         "addr:postcode": "1834",
         "addr:street": "Almirante Brown",
         "amenity": "pharmacy",
-        "name": "Jose A Gonzalez",
+        "healthcare": "pharmacy",
+        "name": "José A Gonzalez",
         "phone": "+54 11 4244-5689"
       },
       "geometry": {
@@ -81156,6 +81282,7 @@
         "@id": "node/4410572493",
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Puntofarma",
         "name:es": "Puntofarma"
       },
@@ -81173,7 +81300,8 @@
       "properties": {
         "@id": "node/4410573191",
         "addr:street": "Avenida Hipólito Yrigoyen",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -83044,7 +83172,8 @@
         "addr:housenumber": "97",
         "addr:street": "Avenida Espora",
         "amenity": "pharmacy",
-        "name": "Farmacia Grossi",
+        "healthcare": "pharmacy",
+        "name": "Grossi",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -83270,6 +83399,7 @@
       "properties": {
         "@id": "node/4520034609",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "UOM"
       },
       "geometry": {
@@ -83374,6 +83504,7 @@
       "properties": {
         "@id": "node/4524183689",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "FarMar",
         "name:es": "FarMar"
       },
@@ -85983,6 +86114,7 @@
         "addr:street": "Avenida General Iriarte",
         "amenity": "pharmacy",
         "fixme": "name",
+        "healthcare": "pharmacy",
         "source": "Reconocimiento cartográfico de campo 2016 por KG."
       },
       "geometry": {
@@ -86816,14 +86948,15 @@
         "addr:postcode": "3700",
         "addr:street": "Avenida Carlos Gardel",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia San Cayetano",
-        "name:es": "Farmacia San Cayetano"
+        "name:es": "Farmacia San Cayetano;Farm. San Cayetano"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.4557563,
-          -26.7972148
+          -60.4557385,
+          -26.7972045
         ]
       },
       "id": "node/4620518492"
@@ -87721,7 +87854,8 @@
         "@id": "node/4632926385",
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
-        "name": "Farmacias Ahumada"
+        "healthcare": "pharmacy",
+        "name": "Ahumada"
       },
       "geometry": {
         "type": "Point",
@@ -87738,6 +87872,7 @@
         "@id": "node/4632944547",
         "addr:street": "Almirante Brown",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Punto de Salud",
         "opening_hours": "24/7"
       },
@@ -87775,6 +87910,7 @@
         "@id": "node/4633097285",
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia"
       },
       "geometry": {
@@ -88682,6 +88818,7 @@
         "addr:street": "La Plata",
         "amenity": "pharmacy",
         "email": "anamonge22@hotmail.com",
+        "healthcare": "pharmacy",
         "name": "San Roque",
         "opening_hours": "Mo-Sa 09:00-13:30, 18:00-22:30",
         "operator": "Monge - Esto_Fan",
@@ -88704,6 +88841,7 @@
         "addr:postcode": "4200",
         "addr:street": "Absalon Rojas",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Droguería Monroe Americana",
         "name:es": "Droguería Monroe Americana",
         "opening_hours": "Mo-Sa 09:30-12:00, 18:00-21:00"
@@ -88782,9 +88920,7 @@
         "addr:postcode": "4230",
         "addr:street": "Pellegrini",
         "amenity": "pharmacy",
-        "name": "Farmacia",
-        "name:en": "Farmacia",
-        "name:es": "Farmacia",
+        "healthcare": "pharmacy",
         "opening_hours": "Mo-Fr 08:30-13:00; Sa 17:30-21:30"
       },
       "geometry": {
@@ -89876,8 +90012,7 @@
         "addr:postcode": "4230",
         "addr:street": "Pellegrini",
         "amenity": "pharmacy",
-        "name": "Farmacia",
-        "name:es": "Farmacia",
+        "healthcare": "pharmacy",
         "opening_hours": "Mo-Sa"
       },
       "geometry": {
@@ -91915,6 +92050,7 @@
         "addr:postcode": "4230",
         "addr:street": "Eva Perón",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Profarma",
         "name:es": "Farmacia Profarma",
         "opening_hours": "24/7"
@@ -91957,6 +92093,7 @@
         "addr:postcode": "4230",
         "addr:street": "Güemes",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia del Valle",
         "name:es": "Farmacia del Valle",
         "opening_hours": "Mo-Sa"
@@ -91998,8 +92135,7 @@
         "addr:postcode": "4230",
         "addr:street": "Dr. Raul Sabagh",
         "amenity": "pharmacy",
-        "name": "Farmacia",
-        "name:es": "Farmacia",
+        "healthcare": "pharmacy",
         "opening_hours": "Mo-Sa"
       },
       "geometry": {
@@ -93516,25 +93652,6 @@
         ]
       },
       "id": "node/4703854044"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4703911996",
-        "addr:postcode": "3700",
-        "addr:street": "Avenida Carlos Gardel",
-        "amenity": "pharmacy",
-        "name": "Farm. San Cayetano",
-        "name:es": "Farm. San Cayetano"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.4557206,
-          -26.7971942
-        ]
-      },
-      "id": "node/4703911996"
     },
     {
       "type": "Feature",
@@ -95243,6 +95360,7 @@
         "addr:postcode": "1883",
         "addr:street": "Formosa",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pharmatotal"
       },
       "geometry": {
@@ -97799,6 +97917,7 @@
       "properties": {
         "@id": "node/5037676722",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pastor",
         "name:es": "Pastor",
         "phone": "03868 421214"
@@ -98856,7 +98975,7 @@
         "addr:postcode": "4425",
         "addr:street": "General Juan A. A. de Arenales",
         "amenity": "pharmacy",
-        "name:es": "Farmacia",
+        "healthcare": "pharmacy",
         "opening_hours": "Mo-Fr 09:00-22:00"
       },
       "geometry": {
@@ -99259,6 +99378,7 @@
         "@id": "node/5184993819",
         "addr:street": "Avenida Dardo Rocha",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Soy Tu"
       },
       "geometry": {
@@ -99747,7 +99867,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5191469911",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -101665,7 +101786,7 @@
       "properties": {
         "@id": "node/5298558561",
         "amenity": "pharmacy",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -101769,7 +101890,8 @@
         "@id": "node/5305215796",
         "addr:street": "Presidente Juan Domingo Perón",
         "amenity": "pharmacy",
-        "name": "Farmacia Alsina"
+        "healthcare": "pharmacy",
+        "name": "Alsina"
       },
       "geometry": {
         "type": "Point",
@@ -101822,6 +101944,7 @@
         "@id": "node/5307176851",
         "addr:street": "Avenida Galicia",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia"
       },
       "geometry": {
@@ -101839,6 +101962,7 @@
         "@id": "node/5307176943",
         "addr:street": "Avenida Galicia",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Cota Medicina Integral"
       },
       "geometry": {
@@ -101893,6 +102017,7 @@
         "addr:street": "Paraguay",
         "amenity": "pharmacy",
         "fixme": "nombre",
+        "healthcare": "pharmacy",
         "name": "Farmacia"
       },
       "geometry": {
@@ -101928,6 +102053,7 @@
         "@id": "node/5307464145",
         "addr:street": "José Martín de la Serna",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia"
       },
       "geometry": {
@@ -102025,6 +102151,7 @@
       "properties": {
         "@id": "node/5321046002",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Duca"
       },
       "geometry": {
@@ -106166,8 +106293,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.273219,
-          -37.3774279
+          -70.2731763,
+          -37.3774699
         ]
       },
       "id": "node/5507021459"
@@ -112830,6 +112957,7 @@
         "addr:housenumber": "611",
         "addr:street": "Remedios de Escalada de San Martín",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Herrera Acosta"
       },
       "geometry": {
@@ -112846,6 +112974,7 @@
       "properties": {
         "@id": "node/6096412647",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Piñol"
       },
       "geometry": {
@@ -112961,6 +113090,7 @@
         "addr:housenumber": "2639",
         "addr:street": "Jorge Santiago Bynnon",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Díaz"
       },
       "geometry": {
@@ -113146,6 +113276,7 @@
         "addr:housenumber": "2241",
         "addr:street": "Hipólito Bouchard",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Luraghi"
       },
       "geometry": {
@@ -113456,6 +113587,7 @@
         "addr:housenumber": "1900",
         "addr:street": "Ceferino Ramírez",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Savy"
       },
       "geometry": {
@@ -113511,6 +113643,7 @@
         "addr:housenumber": "973",
         "addr:street": "Jacinto Calvo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Ceija"
       },
       "geometry": {
@@ -113619,6 +113752,7 @@
       "properties": {
         "@id": "node/6097174510",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Sassone"
       },
       "geometry": {
@@ -115450,6 +115584,7 @@
         "@id": "node/6226857489",
         "addr:street": "Calchaquí",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "De la Esquina"
       },
       "geometry": {
@@ -115484,6 +115619,7 @@
         "@id": "node/6231038386",
         "addr:street": "20 de Febrero",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "El Carril"
       },
       "geometry": {
@@ -115501,6 +115637,7 @@
         "@id": "node/6231385399",
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Jorge"
       },
       "geometry": {
@@ -115519,6 +115656,7 @@
         "addr:housenumber": "280",
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Divina Misericordia",
         "opening_hours": "Mo-Fr 09:00-13:00, 17:00-22:00"
       },
@@ -118498,24 +118636,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6433448953",
-        "amenity": "pharmacy",
-        "dispensing": "yes",
-        "healthcare": "pharmacy",
-        "name": "Farmacia del Pueblo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.0644019,
-          -38.9041859
-        ]
-      },
-      "id": "node/6433448953"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6434773533",
         "amenity": "pharmacy",
         "healthcare": "pharmacy"
@@ -119159,7 +119279,8 @@
         "addr:postcode": "1876",
         "addr:street": "Belgrano",
         "amenity": "pharmacy",
-        "name": "Farmacia Bardone"
+        "healthcare": "pharmacy",
+        "name": "Bardone"
       },
       "geometry": {
         "type": "Point",
@@ -119177,7 +119298,8 @@
         "addr:housenumber": "338",
         "addr:street": "Avenida Lamadrid",
         "amenity": "pharmacy",
-        "name": "Farmacia Fialco",
+        "healthcare": "pharmacy",
+        "name": "Fialco",
         "phone": "+54 11 4259-8374"
       },
       "geometry": {
@@ -120163,7 +120285,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6797832665",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -120793,7 +120916,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6862020186",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -120808,7 +120932,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6862022585",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -120823,7 +120948,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6862022685",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -121462,6 +121588,7 @@
       "properties": {
         "@id": "node/7041793721",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Barra"
       },
       "geometry": {
@@ -128883,8 +129010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.9587062,
-          -26.8203503
+          -54.9585694,
+          -26.8203599
         ]
       },
       "id": "node/7386931664"
@@ -130116,6 +130243,45 @@
         ]
       },
       "id": "node/7443811004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7468455285",
+        "addr:postcode": "1884",
+        "addr:street": "Calle 7 A",
+        "amenity": "pharmacy",
+        "name": "Rubbo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.2123531,
+          -34.7543309
+        ]
+      },
+      "id": "node/7468455285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7468548503",
+        "addr:city": "Caá Catí",
+        "addr:housenumber": "397",
+        "addr:postcode": "3407",
+        "addr:street": "Alberdi",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.6231017,
+          -27.7499867
+        ]
+      },
+      "id": "node/7468548503"
     }
   ]
 }

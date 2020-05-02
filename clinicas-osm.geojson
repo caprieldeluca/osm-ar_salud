@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-04-30T01:24:02Z",
+  "timestamp": "2020-05-02T02:12:02Z",
   "features": [
     {
       "type": "Feature",
@@ -588,6 +588,68 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/155097266",
+        "addr:city": "Temperley",
+        "addr:housenumber": "2779",
+        "addr:postcode": "1834",
+        "addr:street": "Almirante Brown",
+        "amenity": "clinic",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "clinic",
+        "name": "Clínica Juncal",
+        "phone": "+54 11 4239-8000",
+        "ref:vatin": "AR30662249013",
+        "website": "http://sjuncal.com.ar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.3969823,
+              -34.7696166
+            ],
+            [
+              -58.3969572,
+              -34.7701731
+            ],
+            [
+              -58.3968987,
+              -34.7701713
+            ],
+            [
+              -58.3968963,
+              -34.7702253
+            ],
+            [
+              -58.3967142,
+              -34.7702197
+            ],
+            [
+              -58.3967163,
+              -34.7701723
+            ],
+            [
+              -58.3965555,
+              -34.7701674
+            ],
+            [
+              -58.3965809,
+              -34.7696044
+            ],
+            [
+              -58.3969823,
+              -34.7696166
+            ]
+          ]
+        ]
+      },
+      "id": "way/155097266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/156840055",
         "addr:city": "Luján de Cuyo",
         "addr:postcode": "5507",
@@ -717,6 +779,7 @@
         "@id": "way/184307497",
         "amenity": "clinic",
         "emergency": "no",
+        "healthcare": "clinic",
         "name": "Dispensario de Salud \"Aráoz Alfaro\""
       },
       "geometry": {
@@ -6279,6 +6342,7 @@
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Policlínica Privada Piñeyro",
         "phone": "+54 11 4208-6874"
       },
@@ -10212,6 +10276,7 @@
         "addr:street": "Avenida Hipólito Yrigoyen",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Cardio"
       },
       "geometry": {
@@ -17195,6 +17260,7 @@
         "addr:province": "Buenos Aires",
         "addr:street": "Coronel Pringles",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Asistencial Modelo Don Bosco",
         "phone": "+54 11 4251-6395",
         "wheelchair": "yes"
@@ -20129,6 +20195,7 @@
         "addr:street": "Colonia",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Hospital Comunitario"
       },
       "geometry": {
@@ -20171,6 +20238,7 @@
         "addr:street": "Avenida Teodoro Sánchez de Bustamante",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Consultorio Medico Comuntario"
       },
       "geometry": {
@@ -26307,6 +26375,59 @@
         ]
       },
       "id": "way/794202470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/798412443",
+        "addr:city": "Tupelí",
+        "addr:postcode": "5443",
+        "amenity": "clinic",
+        "full_name": "Centro de Atención Primaria de Salud Tupelí",
+        "healthcare": "clinic",
+        "name": "CAPS Tupelí",
+        "operator": "Ministerio de Salud Pública"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.354764,
+              -31.8352502
+            ],
+            [
+              -68.3551068,
+              -31.8351928
+            ],
+            [
+              -68.3552581,
+              -31.8358236
+            ],
+            [
+              -68.3548666,
+              -31.8358907
+            ],
+            [
+              -68.3548367,
+              -31.8357645
+            ],
+            [
+              -68.3547262,
+              -31.8352973
+            ],
+            [
+              -68.3547438,
+              -31.8352753
+            ],
+            [
+              -68.354764,
+              -31.8352502
+            ]
+          ]
+        ]
+      },
+      "id": "way/798412443"
     },
     {
       "type": "Feature",
@@ -34059,6 +34180,7 @@
         "addr:postcode": "4200",
         "addr:street": "Av. Belgrano Sur",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Santiago"
       },
       "geometry": {
@@ -34382,6 +34504,7 @@
       "properties": {
         "@id": "node/4360899190",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica Yunes",
         "name:es": "Clínica Yunes"
       },
@@ -35757,6 +35880,7 @@
       "properties": {
         "@id": "node/4552784589",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Upa B° Mariano Moreno",
         "name:es": "Upa B° Mariano Moreno"
       },
@@ -36217,10 +36341,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4600858689",
+        "addr:city": "Quitilipi",
         "addr:housenumber": "646",
         "addr:postcode": "3530",
         "addr:street": "San Martín",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Integral Servicios de Salud",
         "name:es": "Integral Servicios de Salud",
         "opening_hours": "24/7",
@@ -36725,6 +36851,7 @@
         "@id": "node/4629666613",
         "amenity": "clinic",
         "fixme": "name",
+        "healthcare": "clinic",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -37573,6 +37700,7 @@
         "addr:postcode": "4230",
         "addr:street": "San Martín Sur",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "internet_access": "wlan",
         "name": "Centro Medico San Luis",
         "name:es": "Centro Medico San Luis",
@@ -37594,6 +37722,7 @@
         "addr:postcode": "4230",
         "addr:street": "San Martín Norte",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "internet_access": "wlan",
         "name": "Clinica Renacer",
         "name:es": "Clinica Renacer",
@@ -38363,6 +38492,7 @@
         "addr:postcode": "4200",
         "addr:street": "Av. Alsina",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro Renal Alsina",
         "name:en": "Alsina Renal Center",
         "opening_hours": "Su; Mo-Sa 06:00-22:00"
@@ -38540,6 +38670,7 @@
         "addr:street": "Alsina",
         "amenity": "clinic",
         "email": "centrorenalalsina@hotmail.com.ar",
+        "healthcare": "clinic",
         "internet_access": "wlan",
         "name": "Centro Renal Alsina",
         "phone": "543854283395"
@@ -38561,6 +38692,7 @@
         "addr:postcode": "4200",
         "addr:street": "Salta",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "internet_access": "wlan",
         "name": "Centro Oncologico Dra Giraudo",
         "phone": "0543854210700"
@@ -38778,6 +38910,7 @@
         "addr:housenumber": "572",
         "addr:street": "Avenida San Martín",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Bernal",
         "opening_hours": "24/7",
         "phone": "+54 11 4229-4600"
@@ -45452,6 +45585,7 @@
         "addr:postcode": "4200",
         "addr:street": "Ruta 211 El Dean",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "POSTA SANITARIA Dr. Ramón carrillo",
         "opening_hours": "Su-Fr 07:00-19:00"
       },
@@ -45978,6 +46112,7 @@
         "addr:postcode": "1878",
         "addr:street": "San Martín",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "CKR",
         "name:en": "Centro de Kinesiología y Rehabilitación",
         "phone": "+54 11 3314-9887"
@@ -47398,6 +47533,120 @@
         ]
       },
       "id": "node/7454774310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7465331693",
+        "addr:city": "Santo Tomé",
+        "addr:postcode": "3340",
+        "addr:street": "Centeno",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/clincaprinsasantotomecorrientes/",
+        "healthcare": "clinic",
+        "name": "Prinsa Clinica Médica",
+        "phone": "+54 3756 422952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0460679,
+          -28.5602326
+        ]
+      },
+      "id": "node/7465331693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7472559077",
+        "addr:city": "Presidencia Roque Sáenz Peña",
+        "addr:housenumber": "101",
+        "addr:postcode": "3700",
+        "addr:street": "Belgrano",
+        "amenity": "clinic",
+        "description": "Tipología: ESCIESM\nCategoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Sanatorio Mayo",
+        "phone": "+54 364 4421433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4414857,
+          -26.7925155
+        ]
+      },
+      "id": "node/7472559077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7472615992",
+        "addr:city": "Presidencia Roque Saenz Pena",
+        "addr:housenumber": "771",
+        "addr:postcode": "3700",
+        "addr:street": "Narciso Laprida",
+        "amenity": "clinic",
+        "email": "clinicacentromedicosp@gmail.com",
+        "healthcare": "clinic",
+        "name": "Clinica Centro Médico",
+        "offcial_name": "Clinica Centro Médico SRL",
+        "phone": "+54 364 4422440;+54 364 4422040",
+        "website": "https://www.clinicacentromedicosrl.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4428737,
+          -26.7850445
+        ]
+      },
+      "id": "node/7472615992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7472615993",
+        "addr:city": "Presidencia Roque Sáenz Peña",
+        "addr:housenumber": "155",
+        "addr:postcode": "3700",
+        "addr:street": "Belgrano",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Sáenz Peña",
+        "phone": "+54 364 4421605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4410109,
+          -26.7921916
+        ]
+      },
+      "id": "node/7472615993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7472615994",
+        "addr:city": "Presidencia Roque Sáenz Peña",
+        "addr:housenumber": "293",
+        "addr:postcode": "3700",
+        "addr:street": "Avenida Sarmiento",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clínica Avenida",
+        "phone": "+54 364 4423355"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4404245,
+          -26.7940523
+        ]
+      },
+      "id": "node/7472615994"
     }
   ]
 }
