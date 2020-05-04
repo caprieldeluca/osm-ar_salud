@@ -55,9 +55,11 @@ Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Ar
   
 ----
 
-El directorio mapaton contiene los datos que se van a usar en los eventos de OpenStreetMap Argentina: Mapatón COVID19.
+El directorio `[formateo](https://github.com/gabriel-de-luca/covid-19/tree/master/formateo)` contiene las funciones en Python que usamos para adecuar los nombres de campo y valores del listado SISA a claves y valores de etiquetas OSM.
+
+El directorio `[mapaton](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton)` contiene los datos que se van a usar en los eventos de OpenStreetMap Argentina: Mapatón COVID19.
 
 ----
 
 Se está actualizando cada dos días.
-Última actualización: 01/mayo/2020.
+Última actualización: 03/mayo/2020.

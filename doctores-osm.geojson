@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-02T02:13:02Z",
+  "timestamp": "2020-05-04T01:22:02Z",
   "features": [
     {
       "type": "Feature",
@@ -7662,6 +7662,7 @@
         "@id": "way/785600799",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Puesto Sanitario Yacuy"
       },
       "geometry": {
@@ -19401,6 +19402,7 @@
       "properties": {
         "@id": "node/6175640744",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Médico"
       },
       "geometry": {
@@ -19417,6 +19419,7 @@
       "properties": {
         "@id": "node/6175640745",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Odontologico"
       },
       "geometry": {
@@ -25886,6 +25889,48 @@
         ]
       },
       "id": "node/7468675745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7472658476",
+        "addr:city": "La Choza",
+        "addr:street": "Camino provincial secundario 041-06",
+        "amenity": "doctors",
+        "healthcare": "hospital",
+        "name": "Salita de Primero Auxilios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1136105,
+          -34.7817767
+        ]
+      },
+      "id": "node/7472658476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7473626786",
+        "addr:housenumber": "759",
+        "addr:postcode": "9020",
+        "addr:street": "Roca",
+        "amenity": "doctors",
+        "email": "drmafd@hotmail.com",
+        "internet_access": "wlan",
+        "name": "SEM ENERGENCIAS MEDICAS",
+        "opening_hours": "Mo-Sa 00:00-24:00",
+        "phone": "2976230582"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0710805,
+          -45.5880907
+        ]
+      },
+      "id": "node/7473626786"
     }
   ]
 }

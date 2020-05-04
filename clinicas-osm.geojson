@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-02T02:12:02Z",
+  "timestamp": "2020-05-04T01:21:02Z",
   "features": [
     {
       "type": "Feature",
@@ -17455,6 +17455,7 @@
         "@id": "way/526319886",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Clinica San Lorenzo"
       },
       "geometry": {
@@ -30675,6 +30676,7 @@
       "properties": {
         "@id": "node/3580647606",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sala de Primeros Auxilios",
         "operator": "M. Alevich."
       },
@@ -34176,6 +34178,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4286124089",
+        "addr:city": "Santiago del Estero",
         "addr:housenumber": "125",
         "addr:postcode": "4200",
         "addr:street": "Av. Belgrano Sur",
@@ -34991,6 +34994,7 @@
       "properties": {
         "@id": "node/4425239496",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica 9 de Julio",
         "name:es": "Clínica 9 de Julio"
       },
@@ -35008,6 +35012,7 @@
       "properties": {
         "@id": "node/4425253192",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica Metán",
         "name:es": "Clínica Metán"
       },
@@ -47591,7 +47596,7 @@
         "email": "clinicacentromedicosp@gmail.com",
         "healthcare": "clinic",
         "name": "Clinica Centro Médico",
-        "offcial_name": "Clinica Centro Médico SRL",
+        "official_name": "Clinica Centro Médico SRL",
         "phone": "+54 364 4422440;+54 364 4422040",
         "website": "https://www.clinicacentromedicosrl.com/"
       },
@@ -47647,6 +47652,47 @@
         ]
       },
       "id": "node/7472615994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7474433551",
+        "amenity": "clinic",
+        "name": "Dispensario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9557611,
+          -31.6408287
+        ]
+      },
+      "id": "node/7474433551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477174718",
+        "addr:city": "La Banda",
+        "addr:housenumber": "357",
+        "addr:postcode": "4300",
+        "addr:street": "Pellegrini",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sanatorio Jozami",
+        "official_name": "Sanatorio Jozami SRL",
+        "phone": "+54 385 4271214",
+        "ref:sisa_refes": "14860352393297",
+        "ref:sisa_tipologia": "ESCIE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.236276,
+          -27.7301745
+        ]
+      },
+      "id": "node/7477174718"
     }
   ]
 }
