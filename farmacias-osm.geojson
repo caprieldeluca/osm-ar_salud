@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-04T01:22:02Z",
+  "timestamp": "2020-05-06T01:17:02Z",
   "features": [
     {
       "type": "Feature",
@@ -59510,6 +59510,7 @@
         "addr:housenumber": "41",
         "amenity": "pharmacy",
         "dispensing": "no",
+        "healthcare": "pharmacy",
         "name": "San Roque"
       },
       "geometry": {
@@ -83134,6 +83135,7 @@
       "properties": {
         "@id": "node/4478130417",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "FARMACIA IASEP"
       },
       "geometry": {
@@ -83151,6 +83153,7 @@
         "@id": "node/4478147405",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "FarmaSOL"
       },
       "geometry": {
@@ -98448,7 +98451,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5092847122",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -102350,6 +102354,7 @@
         "addr:street": "Avenida Independencia",
         "amenity": "pharmacy",
         "email": "alan_olmedo91@hotmail.com",
+        "healthcare": "pharmacy",
         "name": "Farmacia Salud-Farma",
         "opening_hours": "Mo-Su 07:00-22:00",
         "operator": "Alan",
@@ -115937,6 +115942,7 @@
         "@id": "node/6245696289",
         "addr:street": "Sarmiento",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Mariela",
         "opening_hours": "Mo-Fr 09:00-13:00, 17:30-22:00"
       },
@@ -121491,7 +121497,8 @@
         "@id": "node/6994082786",
         "amenity": "pharmacy",
         "dispensing": "yes",
-        "name": "Farmacia Posse"
+        "healthcare": "pharmacy",
+        "name": "Posse"
       },
       "geometry": {
         "type": "Point",
@@ -130352,6 +130359,81 @@
         ]
       },
       "id": "node/7477174722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477438892",
+        "addr:city": "La Banda",
+        "addr:postcode": "4300",
+        "addr:street": "Hipólito Yrigoyen Norte",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Yrigoyen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2428368,
+          -27.7329849
+        ]
+      },
+      "id": "node/7477438892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477474597",
+        "addr:city": "La Banda",
+        "addr:housenumber": "483",
+        "addr:postcode": "4300",
+        "addr:street": "Avenida Belgrano",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Huaycuru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2445284,
+          -27.7359498
+        ]
+      },
+      "id": "node/7477474597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7482952467",
+        "amenity": "pharmacy",
+        "name": "Dolfato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5749669,
+          -34.5306587
+        ]
+      },
+      "id": "node/7482952467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7487102885",
+        "amenity": "pharmacy",
+        "name": "DR Pasteur Pharmacia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2972527,
+          -41.1447694
+        ]
+      },
+      "id": "node/7487102885"
     }
   ]
 }

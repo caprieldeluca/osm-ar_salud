@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-04T01:21:02Z",
+  "timestamp": "2020-05-06T01:15:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4714,6 +4714,9 @@
       "type": "Feature",
       "properties": {
         "@id": "way/107939585",
+        "addr:city": "General San Martín",
+        "addr:housenumber": "33",
+        "addr:street": "105 - Avellaneda",
         "amenity": "hospital",
         "name": "Hospital Municipal Doctor Diego E. Thompson",
         "source": "Reconocimiento cartográfico de campo 2016 por KG."
@@ -11327,6 +11330,9 @@
       "type": "Feature",
       "properties": {
         "@id": "way/189392345",
+        "addr:city": "Cordoba",
+        "addr:housenumber": "1502",
+        "addr:street": "Belgrano",
         "amenity": "hospital",
         "contact:phone": "434 4107 al 4111",
         "emergency": "yes",
@@ -28147,6 +28153,7 @@
       "properties": {
         "@id": "way/330444306",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Los Chiriguanos"
       },
       "geometry": {
@@ -28350,6 +28357,7 @@
         "addr:postcode": "3624",
         "addr:street": "Avenida 9 de Julio",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital de Ibarreta"
       },
       "geometry": {
@@ -28357,12 +28365,16 @@
         "coordinates": [
           [
             [
-              -59.8576782,
-              -25.2082845
+              -59.8576548,
+              -25.208261
             ],
             [
               -59.8586287,
               -25.2076323
+            ],
+            [
+              -59.8586701,
+              -25.2076827
             ],
             [
               -59.8593765,
@@ -28373,8 +28385,12 @@
               -25.2091951
             ],
             [
-              -59.8576782,
-              -25.2082845
+              -59.8577124,
+              -25.2083314
+            ],
+            [
+              -59.8576548,
+              -25.208261
             ]
           ]
         ]
@@ -28711,6 +28727,7 @@
         "addr:postcode": "3605",
         "addr:street": "Avenida 9 de Julio",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Misión Laishi"
       },
       "geometry": {
@@ -29903,9 +29920,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/341339327",
+        "addr:city": "Chillar",
+        "addr:postcode": "B7311",
+        "addr:street": "Avenida Alsina",
         "amenity": "hospital",
         "building": "hospital",
-        "name": "Dr Horacio Ferro"
+        "healthcare": "hospital",
+        "name": "Dr Horacio Ferro",
+        "phone": "+54 (2281) 49-7112"
       },
       "geometry": {
         "type": "Polygon",
@@ -32809,6 +32831,7 @@
         "addr:postcode": "3626",
         "addr:street": "Fortin Yunka",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Caritas-Claritas “Francescane Missionarie Di Gesu Bambino\""
       },
       "geometry": {
@@ -34391,6 +34414,7 @@
         "addr:postcode": "3636",
         "addr:street": "Cornelio Saavedra",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Ingeniero Juárez Eva Peron"
       },
       "geometry": {
@@ -52299,8 +52323,7 @@
       "properties": {
         "@id": "way/750933531",
         "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -52386,7 +52409,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/760081504",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -67675,8 +67699,7 @@
       "properties": {
         "@id": "node/3463611176",
         "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -68075,6 +68098,7 @@
         "addr:street": "Almirante Browm",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Público \"Dr. Justo Pastor Monjelos Benitez\""
       },
       "geometry": {
@@ -69366,6 +69390,7 @@
         "@id": "node/3740615287",
         "addr:city": "Estanislao del Campo",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Ex hospital de E. del Campo"
       },
       "geometry": {
@@ -69957,7 +69982,7 @@
         "description": "Bajo riesgo con internación simple",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Area Programatica Ramos Mexia",
+        "name": "Hospital Area Programa Ramos Mexía",
         "operator": "Riavitz, Eduardo",
         "operator:type": "public",
         "ref:sisa_refes": "10620492170038",
@@ -73931,6 +73956,7 @@
       "properties": {
         "@id": "node/4213023828",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios"
       },
       "geometry": {
@@ -77679,6 +77705,7 @@
       "properties": {
         "@id": "node/4530933392",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Villa dos Trece",
         "name:es": "Hospital Villa dos Trece"
       },
@@ -79268,6 +79295,7 @@
         "addr:city": "Villa General Güemes",
         "addr:street": "Avenida Comandante Fontana",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Rural"
       },
       "geometry": {
@@ -79283,7 +79311,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5061110182",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -88105,8 +88134,10 @@
         "@id": "node/7404049740",
         "addr:city": "La Banda",
         "addr:full": "San Carlos 18",
+        "addr:housenumber": "18",
         "addr:place": "Banda",
         "addr:postcode": "4300",
+        "addr:street": "San Carlos",
         "amenity": "hospital",
         "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-04T01:21:02Z",
+  "timestamp": "2020-05-06T01:15:02Z",
   "features": [
     {
       "type": "Feature",
@@ -35492,6 +35492,7 @@
         "@id": "node/4478185733",
         "addr:street": "Leandro N. Alem",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "ClÍNICA MODELO"
       },
       "geometry": {
@@ -45520,6 +45521,7 @@
         "addr:housenumber": "1942",
         "addr:postcode": "3300",
         "addr:street": "Belgrano",
+        "alt_name": "Instituto Higía",
         "amenity": "clinic",
         "email": "higiagastroenterologia@gmail.com",
         "facebook": "https://www.facebook.com/pg/higiaposadas/",
@@ -47097,6 +47099,7 @@
         "addr:housenumber": "546",
         "addr:street": "Lavalle",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Resonancia Del Centro",
         "operator": "Privado",
         "operator:type": "private"
@@ -47117,6 +47120,7 @@
         "addr:housenumber": "873",
         "addr:street": "Avenida Bartolomé Mitre",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Instituto Folkman"
       },
       "geometry": {
@@ -47693,6 +47697,56 @@
         ]
       },
       "id": "node/7477174718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477429781",
+        "addr:city": "La Banda",
+        "addr:housenumber": "199",
+        "addr:postcode": "4300",
+        "addr:street": "Avenida Belgrano",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple,",
+        "healthcare": "clinic",
+        "name": "Clínica Santa Maria",
+        "phone": "+54 385 4271928",
+        "ref:sisa_refes": "10860352392009",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.241623,
+          -27.734227
+        ]
+      },
+      "id": "node/7477429781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477438891",
+        "addr:city": "La Banda",
+        "addr:housenumber": "152",
+        "addr:postcode": "4300",
+        "addr:street": "Hipólito Yrigoyen Norte",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Otros",
+        "healthcare": "clinic",
+        "name": "Servicio De Hemodialisis Sanatorio Banda Acuńa-retondo",
+        "phone": "+54 385 4277488",
+        "ref:sisa_refes": "52860352393429",
+        "ref:sisa_tipologia": "ESSIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2427848,
+          -27.7330851
+        ]
+      },
+      "id": "node/7477438891"
     }
   ]
 }

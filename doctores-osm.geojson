@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-04T01:22:02Z",
+  "timestamp": "2020-05-06T01:16:02Z",
   "features": [
     {
       "type": "Feature",
@@ -7617,6 +7617,7 @@
       "properties": {
         "@id": "way/785596373",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Puesto de Salud Cieneguillas"
       },
       "geometry": {
@@ -20825,6 +20826,7 @@
         "addr:province": "Buenos Aires",
         "addr:street": "Colón",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorios Innova",
         "phone": "+54 2281 43 5758"
       },
@@ -25931,6 +25933,30 @@
         ]
       },
       "id": "node/7473626786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7477438890",
+        "addr:city": "La Banda",
+        "addr:housenumber": "636",
+        "addr:postcode": "4300",
+        "addr:street": "Avellaneda",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "doctor",
+        "name": "Sala De Primeros Auxilios Gremio Municipal,⁣",
+        "ref:sisa_refes": "50860352292731",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2455175,
+          -27.7382585
+        ]
+      },
+      "id": "node/7477438890"
     }
   ]
 }
