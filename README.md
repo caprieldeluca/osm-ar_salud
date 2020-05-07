@@ -52,6 +52,12 @@ Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Ar
 * Rosario (*Open Data Commons Attribution License (ODC-By) v1.0*)
 
   * [geosalud-rosario.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/geosalud-rosario.geojson) es una conversión del [dataset de Hospitales y Centros de Salud de Rosario](https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud) a GeoJSON.
+
+* Datos abiertos PBA (*Creative Commons Attribution 4.0*)
+
+  * [publicos-pba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/publicos-pba.geojson) es una conversión del [dataset de Establecimientos de salud públicos, de la provincia de Buenos Aires](https://catalogo.datos.gba.gob.ar/dataset/establecimientos-salud/archivo/c2d51824-c61d-4374-a014-cca5b76b082a), a GeoJSON.
+
+  * [privados-pba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/privados-pba.geojson) es una conversión del [dataset de Establecimientos de salud privados, de la provincia de Buenos Aires](https://catalogo.datos.gba.gob.ar/dataset/establecimientos-salud/archivo/b0290e89-edc5-4296-ba44-f0b8cd83bb5b), a GeoJSON.
   
 ----
 
