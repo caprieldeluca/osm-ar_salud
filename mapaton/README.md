@@ -1,6 +1,6 @@
 # mapatón
 
-Soporte de datos y visualización para los eventos de mapeo de hospitales públicos y privados de los departamentos considerados prioritarios, dentro del [proyecto de OpenStreetMap Argentina: COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19).
+Soporte de datos y visualización para los [eventos de mapeo de **hospitales** y **centros de atención** de los departamentos considerados prioritarios](https://wiki.openstreetmap.org/wiki/ES:Argentina/Eventos/Mapat%C3%B3n_Salud_2020), dentro del [proyecto de OpenStreetMap Argentina: COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19).
 
 El objetivo de los eventos es verificar la ubicación geográfica de los establecimientos de salud con internación del listado de SISA, y cargarlos/editarlos en OSM.
 
