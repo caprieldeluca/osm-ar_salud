@@ -18,7 +18,7 @@ El objetivo de los eventos es verificar la ubicación geográfica de los estable
   
 * Datos Argentina (SISA) (*Creative Commons Attribution 4.0*)
 
-  * [prioridad1-establecimientos-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/mapaton/prioridad1-hospitales-sisa.geojson) es un extracto para los departamentos del evento Prioridad 1, de la consulta de hospitales y centros de atención, en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
+  * [prioridad1-establecimientos-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/mapaton/prioridad1-establecimientos-sisa.geojson) es un extracto para los departamentos del evento Prioridad 1, de la consulta de hospitales y centros de atención, en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
 
 ----
 
