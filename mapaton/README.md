@@ -22,4 +22,8 @@ El objetivo de los eventos es verificar la ubicación geográfica de los estable
 
 ----
 
-En los directorios de cada evento se encuentra el desagregado de hospitales a mapear, por departamento, en ese evento.
+El directorio [`formateo`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton/formateo) contiene las funciones en Python que usamos para adecuar los nombres de campo y valores del listado SISA a claves y valores de etiquetas OSM.
+
+El directorio [`layout-maproulette`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton/layout-maproulette) contiene un archivo de configuración de layout para usar en MapRoulette en los eventos.
+
+El directorio [`prioridad1`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton/prioridad1) contiene el desagregado de hospitales a mapear, por departamento, en el evento deprioridad 1.
