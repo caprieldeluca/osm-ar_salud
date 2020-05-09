@@ -26,4 +26,4 @@ El directorio [`formateo`](https://github.com/gabriel-de-luca/covid-19/tree/mast
 
 El directorio [`layout-maproulette`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton/layout-maproulette) contiene un archivo de configuración de layout para usar en MapRoulette en los eventos.
 
-El directorio [`prioridad1`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton/prioridad1) contiene el desagregado de hospitales a mapear, por departamento, en el evento deprioridad 1.
+El directorio [`prioridad1`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton/prioridad1) contiene el desagregado de hospitales a mapear, por departamento, en el evento de prioridad 1.
