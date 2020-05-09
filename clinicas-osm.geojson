@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-06T01:15:02Z",
+  "timestamp": "2020-05-09T01:46:03Z",
   "features": [
     {
       "type": "Feature",
@@ -26129,24 +26129,24 @@
         "coordinates": [
           [
             [
-              -59.0966708,
-              -34.569583
+              -59.0968183,
+              -34.5698613
             ],
             [
-              -59.096741,
-              -34.5697287
+              -59.0968885,
+              -34.570007
             ],
             [
-              -59.0963849,
-              -34.5698449
+              -59.0965324,
+              -34.5701232
             ],
             [
-              -59.0963147,
-              -34.5696992
+              -59.0964622,
+              -34.5699775
             ],
             [
-              -59.0966708,
-              -34.569583
+              -59.0968183,
+              -34.5698613
             ]
           ]
         ]
@@ -27984,6 +27984,30 @@
         ]
       },
       "id": "node/2613499347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2615881283",
+        "addr:full": "Sarmiento 41- Matheu",
+        "addr:postcode": "1627",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polo Sanitario Doctor Horacio Canesi",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "(03488) 462759",
+        "ref:sisa_codigo": "50062522201837",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8251926,
+          -34.3838483
+        ]
+      },
+      "id": "node/2615881283"
     },
     {
       "type": "Feature",
@@ -31289,6 +31313,7 @@
         "addr:street": "Manuel Alberti",
         "amenity": "clinic",
         "emergency": "yes",
+        "healthcare": "clinic",
         "name": "Centro de Salud del Barrio Mariano Moreno",
         "operator": "Ministerio de Desarrollo Humano"
       },
@@ -36370,6 +36395,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4603437689",
+        "addr:housenumber": "1045",
+        "addr:street": "Belgrano",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;dentist;gynaecology",
+        "name": "Dirección de Salud Universitaria UNNE",
+        "name:es": "Dirección de Salud Universitaria UNNE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8378651,
+          -27.4718823
+        ]
+      },
+      "id": "node/4603437689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4608622021",
         "addr:city": "La Plata",
         "addr:housenumber": "480",
@@ -38637,6 +38683,8 @@
         "addr:postcode": "3400",
         "addr:street": "Moreno",
         "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
         "name": "Clinica Modelo"
       },
       "geometry": {
@@ -41291,7 +41339,8 @@
         "addr:housenumber": "1248",
         "addr:postcode": "3400",
         "addr:street": "Belgrano",
-        "amenity": "clinic"
+        "amenity": "clinic",
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -41310,6 +41359,8 @@
         "addr:postcode": "3400",
         "addr:street": "Avenida 3 de Abril",
         "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
         "name": "Cebtro Médico"
       },
       "geometry": {
@@ -42891,7 +42942,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5575990298",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
+        "addr:street": "San Martín",
         "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
         "name": "Instituto de la Mujer"
       },
       "geometry": {
@@ -42972,6 +43028,8 @@
         "addr:street": "Entre Rios",
         "amenity": "clinic",
         "email": "consultas@doctorgraciani.com.ar",
+        "healthcare": "clinic",
+        "healthcare:speciality": "plastic_surgery",
         "internet_access": "wlan",
         "name": "Dr. Arnaldo Graciani Cirujano Plastico",
         "opening_hours": "Mo-Fr 08:00-20:00",
@@ -46243,6 +46301,7 @@
         "addr:street": "Avenida González Lelong",
         "amenity": "clinic",
         "contact:facebook": "https://www.facebook.com/Centro-Medico-Del-Litoral-669952093173256/",
+        "healthcare": "clinic",
         "name": "Centro Medico Del Litoral",
         "phone": "+54 370 4571100"
       },
@@ -47214,33 +47273,11 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.1369262,
-          -27.8727211
+          -55.1369439,
+          -27.8727139
         ]
       },
       "id": "node/7417382881"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7417407301",
-        "addr:city": "San Javier",
-        "addr:housenumber": "474",
-        "addr:postcode": "3357",
-        "addr:street": "Libertad",
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "name": "San Javier",
-        "phone": "+54 3754 482446"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.1369262,
-          -27.8727211
-        ]
-      },
-      "id": "node/7417407301"
     },
     {
       "type": "Feature",
@@ -47747,6 +47784,220 @@
         ]
       },
       "id": "node/7477438891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7487710152",
+        "addr:city": "Paso de los Libres",
+        "addr:housenumber": "445",
+        "addr:postcode": "3230",
+        "addr:street": "Sarmiento",
+        "alt_name": "Clínica De Cirugia Ambulatoria Rincón Yatay",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/pages/Cl%C3%ADnica-Rinc%C3%B3n-Del-Yatay/230589717496948",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "clinic",
+        "name": "Clínica Rincón Del Yatay",
+        "ref:sisa_refes": "50181192339183",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.0826542,
+          -29.7163728
+        ]
+      },
+      "id": "node/7487710152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7490568102",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
+        "addr:street": "Córdoba",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;cardiology",
+        "name": "Instituto de Carfiología"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.834732,
+          -27.4716806
+        ]
+      },
+      "id": "node/7490568102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7490568103",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
+        "addr:street": "Avenida 3 de Abril",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Hospital Escuela José Francisco de San Martín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8360643,
+          -27.4755544
+        ]
+      },
+      "id": "node/7490568103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495012466",
+        "addr:full": "San Martin S/N°",
+        "addr:postcode": "5839",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puesto Sanitario Malena",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "(03582) 49-6030",
+        "ref:sisa_codigo": "50140982231567",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4308099,
+          -33.4879365
+        ]
+      },
+      "id": "node/7495012466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495089197",
+        "addr:full": "Las Casuarinas 347",
+        "addr:postcode": "1834",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidad Sanitaria Las Casuarinas",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "011-42600103",
+        "ref:sisa_codigo": "50064902202394",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3548414,
+          -34.749939
+        ]
+      },
+      "id": "node/7495089197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495102228",
+        "addr:full": "De Los Eucaliptos 47 Barrio San Jose",
+        "addr:postcode": "1834",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Unidad Sanitaria Barrio San Jose De Lomas De Zamora",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "011-42642100",
+        "ref:sisa_codigo": "50064902202129",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3621296,
+          -34.7625263
+        ]
+      },
+      "id": "node/7495102228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495770652",
+        "addr:city": "Tres Estacas",
+        "addr:full": "Zona Rural-Tres Estacas",
+        "addr:postcode": "3730",
+        "amenity": "clinic",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "clinic",
+        "name": "Centro De Salud Tres Estacas",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50220282126459",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.6264808,
+          -26.921198
+        ]
+      },
+      "id": "node/7495770652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495878573",
+        "addr:full": "Seccion Xv Colonia Necochea",
+        "addr:postcode": "3730",
+        "amenity": "clinic",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "clinic",
+        "name": "Centro De Salud Pampa Cabrera",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50220282126124",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.3690483,
+          -27.0964291
+        ]
+      },
+      "id": "node/7495878573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7498279391",
+        "addr:city": "Las Tolderias",
+        "addr:full": "Zona Rural - Las Tolderias",
+        "addr:postcode": "3730",
+        "amenity": "clinic",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "clinic",
+        "name": "Centro De Salud Las Tolderias",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50220282126321",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9779467,
+          -27.3189877
+        ]
+      },
+      "id": "node/7498279391"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-06T01:17:02Z",
+  "timestamp": "2020-05-09T01:48:02Z",
   "features": [
     {
       "type": "Feature",
@@ -47358,8 +47358,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2324975007",
+        "addr:city": "Corrientes",
+        "addr:postcode": "W3400AID",
+        "addr:street": "Entre Rios",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Anastacia",
+        "phone": "+54 03794-466508",
         "wheelchair": "limited"
       },
       "geometry": {
@@ -47700,8 +47705,10 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2339298830",
+        "addr:street": "Avenida Pedro Ferré",
         "amenity": "pharmacy",
-        "name": "Far Mar (Vidal)"
+        "healthcare": "pharmacy",
+        "name": "DEL PUENTE"
       },
       "geometry": {
         "type": "Point",
@@ -74518,7 +74525,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3949251183",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -115249,8 +115257,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -57.0870517,
-          -29.716087
+          -57.0870879,
+          -29.7159998
         ]
       },
       "id": "node/6204233288"
@@ -123477,7 +123485,8 @@
         "addr:postcode": "3400",
         "addr:street": "Avenida Artigas",
         "amenity": "pharmacy",
-        "name": "Farmacia Farmar del Hospital S.C.S.",
+        "healthcare": "pharmacy",
+        "name": "Farmacia del Hospital S.C.S.",
         "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-22:00",
         "phone": "0379 443 3825"
       },
@@ -123518,6 +123527,7 @@
         "addr:postcode": "3400",
         "addr:street": "Jujuy",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia San Agustín",
         "website": "https://farmalife.com.ar"
       },
@@ -123901,8 +123911,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7164323685",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
         "amenity": "pharmacy",
-        "name": "Farmalife"
+        "healthcare": "pharmacy",
+        "name": "De la Esquina"
       },
       "geometry": {
         "type": "Point",
@@ -130434,6 +130447,117 @@
         ]
       },
       "id": "node/7487102885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7490765556",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "2001",
+        "addr:postcode": "3400",
+        "addr:street": "Hipolito Irigoyen",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "DEL PUEBLO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8227939,
+          -27.4699187
+        ]
+      },
+      "id": "node/7490765556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7490765557",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
+        "addr:street": "Plácido Martínez",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "DEL PUERTO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8380361,
+          -27.4619539
+        ]
+      },
+      "id": "node/7490765557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7498803326",
+        "addr:city": "Charata",
+        "addr:housenumber": "499",
+        "addr:street": "Junín",
+        "amenity": "pharmacy",
+        "contact:facebook": "https://www.facebook.com/FarmaciaAlbrecht/?ref=page_internal",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Albrecht",
+        "phone": "+54 3731 435026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.1879679,
+          -27.2210804
+        ]
+      },
+      "id": "node/7498803326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7498803352",
+        "addr:city": "Charata",
+        "addr:housenumber": "845",
+        "addr:postcode": "3730",
+        "addr:street": "Maipú",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Ruckstull",
+        "phone": "+54 3731 451847"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.1851542,
+          -27.2248827
+        ]
+      },
+      "id": "node/7498803352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7498803353",
+        "addr:city": "Charata",
+        "addr:housenumber": "315",
+        "addr:postcode": "3730",
+        "addr:street": "Avenida San Martín",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Martín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.1916871,
+          -27.2138142
+        ]
+      },
+      "id": "node/7498803353"
     }
   ]
 }

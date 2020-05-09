@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-06T01:16:02Z",
+  "timestamp": "2020-05-09T01:48:02Z",
   "features": [
     {
       "type": "Feature",
@@ -9644,8 +9644,7 @@
         "addr:street": "Avenida del Libertador",
         "amenity": "doctors",
         "healthcare": "doctor",
-        "name": "Eneri",
-        "source": "Reconocimiento cartográfico de campo 2016 por KG."
+        "name": "Eneri"
       },
       "geometry": {
         "type": "Point",
@@ -9796,23 +9795,6 @@
         ]
       },
       "id": "node/2569565278"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2615881283",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Sala de Primeros Auxilios"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8252248,
-          -34.3838616
-        ]
-      },
-      "id": "node/2615881283"
     },
     {
       "type": "Feature",
@@ -14670,25 +14652,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4603437689",
-        "addr:housenumber": "1045",
-        "addr:street": "Belgrano",
-        "amenity": "doctors",
-        "name": "Dirección de Salud Universitaria UNNE",
-        "name:es": "Dirección de Salud Universitaria UNNE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8378651,
-          -27.4718823
-        ]
-      },
-      "id": "node/4603437689"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4605119662",
         "addr:street": "Edison",
         "amenity": "doctors",
@@ -17678,6 +17641,8 @@
         "addr:postcode": "3400",
         "addr:street": "Córdoba",
         "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
         "name": "Consultorio"
       },
       "geometry": {
@@ -25005,6 +24970,8 @@
         "addr:postcode": "3400",
         "addr:street": "Avenida 3 de Abril",
         "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
         "name": "Centro Ocular Láser",
         "opening_hours": "Mo-Fr 08:30-20:50; Sa 09:00-12:30",
         "phone": "0379 442-3777"
@@ -25957,6 +25924,99 @@
         ]
       },
       "id": "node/7477438890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7487710148",
+        "addr:city": "Paso de los Libres",
+        "addr:housenumber": "750",
+        "addr:postcode": "3230",
+        "addr:street": "Amado Bonpland",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Policonsultorio Sindicato De Empleados De Comercio Paso De Los Libres",
+        "ref:sisa_refes": "50181192840185",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.0888701,
+          -29.7173081
+        ]
+      },
+      "id": "node/7487710148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7487710150",
+        "addr:city": "Paso de los Libres",
+        "addr:housenumber": "655",
+        "addr:postcode": "3230",
+        "addr:street": "Coronel López",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "doctor",
+        "name": "Policonsultorio Asociacion Mutual Empleados Bancarios Corrientes",
+        "ref:sisa_refes": "50181192739257",
+        "ref:sisa_tipologia": "ESSIDT",
+        "short_name": "amebac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.0870385,
+          -29.7160775
+        ]
+      },
+      "id": "node/7487710150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495326142",
+        "addr:city": "Romang",
+        "addr:housenumber": "1680",
+        "addr:postcode": "3555",
+        "addr:street": "Calle 6",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Centro De Salud Barrio Obrero",
+        "ref:sisa_refes": "50820982184546",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.742403,
+          -29.5067904
+        ]
+      },
+      "id": "node/7495326142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495341778",
+        "addr:city": "Colonia Durán",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "name": "Centro De Salud Colonia Duran",
+        "ref:sisa_refes": "50820982184616",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.9268521,
+          -29.5607194
+        ]
+      },
+      "id": "node/7495341778"
     }
   ]
 }
