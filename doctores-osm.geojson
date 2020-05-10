@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-09T01:48:02Z",
+  "timestamp": "2020-05-09T23:57:02Z",
   "features": [
     {
       "type": "Feature",
@@ -523,11 +523,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/254696147",
+        "addr:city": "Posadas",
+        "addr:housenumber": "3700",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida López Torres",
         "amenity": "doctors",
         "building": "yes",
         "emergency": "no",
         "healthcare": "doctor",
+        "healthcare:speciality": "general",
         "name": "Consultorios Externos y Laboratorio",
+        "phone": "+54 376 4444067",
+        "ref:sisa_codigo": "53540282166006",
+        "ref:sisa_tipologia": "ESCL",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -1915,47 +1923,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/337032416",
-        "addr:city": "Ciudadela",
-        "addr:housenumber": "3550",
-        "addr:postcode": "B1702",
-        "addr:street": "205 - Gaceta de Buenos Aires",
-        "amenity": "doctors",
-        "name": "Unidad Sanitaria 1 Wenceslao de Tata",
-        "phone": "+54 11 4488-4777"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.5360609,
-              -34.6378627
-            ],
-            [
-              -58.5360513,
-              -34.6382236
-            ],
-            [
-              -58.5355582,
-              -34.6382137
-            ],
-            [
-              -58.5355699,
-              -34.6378555
-            ],
-            [
-              -58.5360609,
-              -34.6378627
-            ]
-          ]
-        ]
-      },
-      "id": "way/337032416"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/345629277",
         "amenity": "doctors",
         "building": "yes"
@@ -2174,8 +2141,16 @@
       "type": "Feature",
       "properties": {
         "@id": "way/407705838",
+        "addr:housenumber": "986",
+        "addr:postcode": "1744",
+        "addr:street": "Carlos Guido y Spano",
         "amenity": "doctors",
-        "name": "Sala de Primeros Auxilios La Victoria"
+        "name": "Unidad Sanitaria La Victoria",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237 466-2426",
+        "ref:sisa_codigo": "50065602202384",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Polygon",
@@ -2255,6 +2230,60 @@
         ]
       },
       "id": "way/419597196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/419597225",
+        "addr:housenumber": "7101",
+        "addr:street": "Avenida Mendoza",
+        "amenity": "doctors",
+        "contact:phone": "+54 341 456-1550",
+        "healthcare": "doctor",
+        "healthcare:speciality": "geriatrics",
+        "name": "Clínica Residencial Mendoza",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10820842384051",
+        "ref:sisa_tipologia": "ESCIG",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.7173378,
+              -32.9408597
+            ],
+            [
+              -60.7173486,
+              -32.9405333
+            ],
+            [
+              -60.7173782,
+              -32.9405171
+            ],
+            [
+              -60.7174062,
+              -32.9405018
+            ],
+            [
+              -60.7178421,
+              -32.9405153
+            ],
+            [
+              -60.7178327,
+              -32.9408743
+            ],
+            [
+              -60.7173378,
+              -32.9408597
+            ]
+          ]
+        ]
+      },
+      "id": "way/419597225"
     },
     {
       "type": "Feature",
@@ -4435,16 +4464,19 @@
       "properties": {
         "@id": "way/486893617",
         "addr:housenumber": "1021",
+        "addr:postcode": "6706",
         "addr:street": "Tropero Moreira",
         "amenity": "doctors",
         "building": "yes",
         "description": "Atención Covid 19 y prácticas esenciales",
         "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de la Salud Santa María",
+        "name": "Centro de Atención Primaria Santa María",
         "opening_hours": "Mo-Fr 08:00-15:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 2323 494534"
+        "phone": "+54 2323 494534",
+        "ref:sisa_codigo": "50064972202820",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Polygon",
@@ -4481,15 +4513,17 @@
         "@id": "way/487090460",
         "addr:city": "Luján",
         "addr:postcode": "6700",
-        "addr:street": "424 - Joaquín V. González",
+        "addr:street": "424 - Joaquín V. González 372",
         "amenity": "doctors",
         "building": "yes",
         "healthcare:speciality": "general",
-        "name": "Centro de Atención Primaria de la Salud San Bernardo",
+        "name": "Centro de Atención Primaria de la Salud Barrio San Bernardo",
         "opening_hours": "Mo-Fr 08:00-16:00, Sa 09:00-12:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 3174-1998"
+        "phone": "+54 11 3174-1998",
+        "ref:sisa_codigo": "50064972202774",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Polygon",
@@ -4524,6 +4558,7 @@
       "type": "Feature",
       "properties": {
         "@id": "way/487234273",
+        "addr:postcode": "6700",
         "amenity": "doctors",
         "building": "yes",
         "description": "Atención Covid 19 y prácticas esenciales",
@@ -4532,7 +4567,9 @@
         "opening_hours": "Mo-Fr 07:00-14:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 2323 36-6854"
+        "phone": "+54 2323 36-6854",
+        "ref:sisa_codigo": "50064972201463",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Polygon",
@@ -4567,12 +4604,12 @@
       "type": "Feature",
       "properties": {
         "@id": "way/487236741",
-        "addr:city": "Luján",
         "addr:postcode": "6700",
         "addr:street": "414 - Nicolás Repetto",
         "amenity": "doctors",
         "building": "yes",
         "description": "Atención de prácticas esenciales",
+        "healthcare": "doctor",
         "name": "Centro de Atención Primaria de la Salud Juan XIII",
         "opening_hours": "Mo-Fr 07:00-14:00",
         "operator": "Municipalidad de Luján",
@@ -5029,46 +5066,6 @@
         ]
       },
       "id": "way/524518613"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/524522691",
-        "alt_name": "Centro de Atención Primaria de la Salud La Loma Dr. Rene Favarolo",
-        "amenity": "doctors",
-        "building": "public",
-        "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
-        "name": "CAPs La Loma Dr. Rene Favarolo",
-        "phone": "0388 427-5986"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.2537759,
-              -24.251556
-            ],
-            [
-              -65.2537688,
-              -24.2517563
-            ],
-            [
-              -65.2536649,
-              -24.2517533
-            ],
-            [
-              -65.253672,
-              -24.251553
-            ],
-            [
-              -65.2537759,
-              -24.251556
-            ]
-          ]
-        ]
-      },
-      "id": "way/524522691"
     },
     {
       "type": "Feature",
@@ -8198,24 +8195,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/791747633",
-        "amenity": "doctors",
-        "description": "For kids",
-        "healthcare": "doctor",
-        "name": "Clínica Del Sol"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.18322,
-          -31.426064
-        ]
-      },
-      "id": "node/791747633"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/840855912",
         "addr:street": "Avenida Gobernador Galindez",
         "alt_name": "Posta de las 920 viviendas",
@@ -8292,9 +8271,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1105781544",
+        "addr:housenumber": "1719",
+        "addr:postcode": "1744",
+        "addr:street": "Juramento",
         "amenity": "doctors",
         "name": "Salita Juramento",
-        "operator": "Municipalidad de Moreno"
+        "official_name": "Centro Asistencial Juramento",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237-4629951",
+        "ref:sisa_codigo": "50065602201092",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -8364,9 +8351,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1211494539",
+        "addr:housenumber": "2202",
+        "addr:postcode": "1744",
+        "addr:street": "Julio Nicolas Fonrouge",
+        "alt_name": "Salita San Jorge",
         "amenity": "doctors",
-        "name": "Salita San Jorge",
-        "operator": "Municipalidad de Moreno"
+        "name": "Unidad Sanitaria San Jorge",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237 4635450",
+        "ref:sisa_codigo": "50065602202792",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -8471,23 +8466,6 @@
         ]
       },
       "id": "node/1394134851"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1402320005",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Centro Médico Barrial 12 Flores"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4651515,
-          -34.6191312
-        ]
-      },
-      "id": "node/1402320005"
     },
     {
       "type": "Feature",
@@ -8873,6 +8851,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2017556149",
+        "addr:street": "San Carlos",
         "amenity": "doctors",
         "description": "Atención Covid 19 y prácticas esenciales",
         "fixme": "covid19",
@@ -8880,7 +8859,9 @@
         "opening_hours": "Mo-Fr 07:00-16:00; Sa 09:00-12:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 3180-9715"
+        "phone": "+54 11 3180-9715",
+        "ref:sisa_codigo": "50064972201460",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -8909,22 +8890,6 @@
         ]
       },
       "id": "node/2021202407"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2023702494",
-        "amenity": "doctors",
-        "name": "Puesto Sanitario La Eduvigis"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.0676284,
-          -26.8360956
-        ]
-      },
-      "id": "node/2023702494"
     },
     {
       "type": "Feature",
@@ -9434,8 +9399,13 @@
         "addr:postcode": "6700",
         "addr:street": "304 - Los Helechos",
         "amenity": "doctors",
-        "name": "Centro de Atención Primaria de la Salud Barrio La Loma",
-        "phone": "+54 11-15-54501921"
+        "healthcare": "doctor",
+        "name": "Centro de Atención Primaria de la Salud La Loma",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 11 54501921",
+        "ref:sisa_codigo": "50064972201255",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -9894,11 +9864,14 @@
         "addr:street": "Nemesio Litardo",
         "amenity": "doctors",
         "description": "Atención de prácticas esenciales",
+        "fixme": "covid19, revisar ubicación",
         "name": "Centro de Atención Primaria de la Salud Torres",
         "opening_hours": "Mo-Fr 07:00-20:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 4023-0285"
+        "phone": "+54 11 4023-0285, +54 2323 49-3295",
+        "ref:sisa_codigo": "50064972201467",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -11264,21 +11237,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3458097203",
-        "amenity": "doctors"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.395314,
-          -34.9060566
-        ]
-      },
-      "id": "node/3458097203"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3458484393",
         "addr:city": "Victoria",
         "addr:country": "AR",
@@ -11355,10 +11313,18 @@
       "properties": {
         "@id": "node/3581000157",
         "addr:city": "Cuartel V",
-        "addr:street": "Perito Moreno",
+        "addr:full": "Juana De Ibarborou 9547",
+        "addr:housenumber": "9547",
+        "addr:postcode": "1744",
+        "addr:street": "Juana de Ibarbourou",
+        "alt_name": "Salita Florencio Molina Campos",
         "amenity": "doctors",
-        "name": "Salita Molina Campos",
-        "source": "techo.org"
+        "name": "Unidad Sanitaria Florencio Molina Campos",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 2320 451762",
+        "ref:sisa_codigo": "50065602202295",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -11842,9 +11808,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3900847965",
+        "addr:postcode": "1744",
         "addr:street": "Epidio González",
         "amenity": "doctors",
-        "name": "Sala de primeros auxilios La Reja"
+        "name": "Unidad Sanitaria Reja Centro",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237-4626899",
+        "ref:sisa_codigo": "50065602202751",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -12215,11 +12187,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4106667109",
-        "addr:city": "Trujui",
-        "addr:postcode": "1744",
-        "addr:street": "Tablada",
+        "addr:postcode": "1664",
         "amenity": "doctors",
-        "name": "Unidad Sanitaria La fortuna"
+        "name": "Unidad Sanitaria La Fortuna",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237-4815097",
+        "ref": "4",
+        "ref:sisa_codigo": "50065602202622",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -12235,10 +12211,16 @@
       "properties": {
         "@id": "node/4106667117",
         "addr:city": "Trujui",
+        "addr:housenumber": "2302",
         "addr:postcode": "1744",
-        "addr:street": "Rosario",
+        "addr:street": "Vicente Yañez Pinzón",
         "amenity": "doctors",
-        "name": "Unidad Sanitaria Lomas del Marilo"
+        "name": "Unidad Sanitaria Lomas De Marilo",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237-4815607",
+        "ref:sisa_codigo": "50065602202415",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -13282,7 +13264,9 @@
         "opening_hours": "Mo-Fr 08:00-16:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 3196-2339;+54 2323 48-3146"
+        "phone": "+54 11 3196-2339;+54 2323 48-3146",
+        "ref:sisa_codigo": "50064972202699",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -14726,23 +14710,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4618478312",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Unidad Sanitaria Número 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5281107,
-          -34.6020618
-        ]
-      },
-      "id": "node/4618478312"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4618812330",
         "addr:housenumber": "655",
         "addr:street": "Rivadavia",
@@ -15804,8 +15771,16 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4765879371",
+        "addr:housenumber": "90",
+        "addr:postcode": "1744",
+        "addr:street": "Nahuel Huapi",
         "amenity": "doctors",
-        "name": "Salita Martín Fierro"
+        "name": "Unidad Sanitaria Martín Fierro",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237-4662402",
+        "ref:sisa_codigo": "50065602202444",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -15815,55 +15790,6 @@
         ]
       },
       "id": "node/4765879371"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4767918421",
-        "addr:city": "Ushuaia",
-        "addr:housenumber": "2008",
-        "addr:postcode": "9410",
-        "addr:street": "Avenida Leandro N. Alem",
-        "amenity": "doctors",
-        "email": "caps7ush@tierradelfuego.gov.ar",
-        "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de Salud (CAPS) Nro.7",
-        "name:es": "Centro de Atención Primaria de Salud (CAPS) Nro.7",
-        "phone": "2901 435647",
-        "website": "http://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-7/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3313295,
-          -54.8062747
-        ]
-      },
-      "id": "node/4767918421"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4768038121",
-        "addr:housenumber": "2631",
-        "addr:postcode": "9410",
-        "addr:street": "Juan Facundo Quiroga",
-        "amenity": "doctors",
-        "email": "caps1ush@tierradelfuego.gov.ar",
-        "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de Salud (CAPS) Nro.1",
-        "name:es": "Centro de Atención Primaria de Salud (CAPS) Nro.1",
-        "phone": "2901 441026",
-        "website": "http://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-1/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.2657511,
-          -54.7916535
-        ]
-      },
-      "id": "node/4768038121"
     },
     {
       "type": "Feature",
@@ -15888,52 +15814,6 @@
         ]
       },
       "id": "node/4773731324"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4773731325",
-        "addr:housenumber": "898",
-        "addr:postcode": "9410",
-        "addr:street": "Gobernador Valdez",
-        "amenity": "doctors",
-        "email": "caps3ush@tierradelfuego.gov.ar",
-        "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de Salud (CAPS) Nro. 3",
-        "name:es": "Centro de Atención Primaria de Salud (",
-        "phone": "2901 463236",
-        "website": "http://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-3/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3141516,
-          -54.8024967
-        ]
-      },
-      "id": "node/4773731325"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4773849321",
-        "addr:housenumber": "1089",
-        "addr:postcode": "9410",
-        "addr:street": "Independencia",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de Salud (CAPS) Nro. 5",
-        "name:es": "Caps 5",
-        "phone": "2901 441030"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3371493,
-          -54.8278677
-        ]
-      },
-      "id": "node/4773849321"
     },
     {
       "type": "Feature",
@@ -16667,22 +16547,6 @@
         ]
       },
       "id": "node/5025773823"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5030919261",
-        "amenity": "doctors",
-        "name": "Unidad Sanitaria"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7636108,
-          -34.610672
-        ]
-      },
-      "id": "node/5030919261"
     },
     {
       "type": "Feature",
@@ -19591,7 +19455,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6227111195",
-        "addr:city": "Luján",
+        "addr:postcode": "6700",
         "addr:street": "10 bis - Roma",
         "amenity": "doctors",
         "description": "Atención Covid 19 y prácticas esenciales",
@@ -19602,7 +19466,9 @@
         "opening_hours": "Mo-Fr 07:00-13:00; Sa 07:00-11:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 5582-8118"
+        "phone": "+54 11 5582-8118",
+        "ref:sisa_codigo": "50064972201143",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -19650,7 +19516,9 @@
         "opening_hours": "Mo-Fr 08:00-16:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 2323 42-9965;+54 11 3196-2338"
+        "phone": "+54 2323 42-9965;+54 11 3196-2338",
+        "ref:sisa_codigo": "50064972201353",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -20349,15 +20217,21 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6551871763",
+        "addr:full": "General Mosconi y Doctor Muñiz",
+        "addr:postcode": "6712",
         "addr:street": "General Mosconi",
         "amenity": "doctors",
         "description": "Atención Covid 19 y prácticas esenciales",
         "fixme": "covid19",
+        "healthcare": "doctor",
+        "healthcare:speciality": "clinic;general",
         "name": "Centro de Atención Primaria de la Salud Santo Cristo",
         "opening_hours": "Mo-Fr 07:00-13:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 2323 36-3205"
+        "phone": "+54 2323 36-3205, +54 2323 48.8232",
+        "ref:sisa_codigo": "50064972202833",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -25008,6 +24882,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7181029099",
+        "addr:postcode": "6700",
         "amenity": "doctors",
         "description": "Atención Covid 19 y prácticas esenciales",
         "fixme": "covid19",
@@ -25016,7 +24891,9 @@
         "opening_hours": "Mo-Fr 08:00-13:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 4024-6344"
+        "phone": "+54 11 4024-6344, +54 2323 42-9845",
+        "ref:sisa_codigo": "50064972201465",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -25163,6 +25040,7 @@
       "properties": {
         "@id": "node/7344509664",
         "addr:housenumber": "944",
+        "addr:postcode": "6708",
         "addr:street": "Corrientes",
         "amenity": "doctors",
         "description": "Atención Covid 19 y prácticas esenciales",
@@ -25171,7 +25049,9 @@
         "opening_hours": "Mo-Fr 07:00-19:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 4023-0119"
+        "phone": "+54 11 4023-0119, +54 2323 49-6230",
+        "ref:sisa_codigo": "50064972201142",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -25237,12 +25117,17 @@
         "addr:city": "Luján",
         "addr:street": "16 - Adolfo Alsina",
         "amenity": "doctors",
+        "fixme": "covid19",
         "healthcare": "doctor",
         "healthcare:speciality": "general",
-        "name": "Centro de Atención Primaria de la Salud San Cayetano",
+        "name": "Centro de Atención Primaria de la Salud Barrio San Cayetano",
         "opening_hours": "Mo-Fr 07:00-15:00",
+        "opening_hours:covid19": "off",
         "operator": "Municipalidad de Luján",
-        "operator:type": "public"
+        "operator:type": "public",
+        "phone": "+54 2323 42-9808",
+        "ref:sisa_codigo": "50064972201464",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -25257,7 +25142,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7345110669",
-        "addr:city": "Luján",
+        "addr:full": "Las Estrellas y Venus S/N Barrio Los Laureles",
         "addr:street": "611 - Las Estrellas",
         "amenity": "doctors",
         "description": "Atención de prácticas esenciales",
@@ -25267,7 +25152,9 @@
         "opening_hours": "Mo-Fr 08:00-13:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 5582-8108"
+        "phone": "+54 11 5582-8108, +54 2323 42-8951",
+        "ref:sisa_codigo": "50064972202102",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -25393,7 +25280,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7412849760",
-        "addr:street": "331 - Los Rosales",
+        "addr:street": "Los Rosales y Madreselvas",
         "amenity": "doctors",
         "description": "Atención Covid 19 y prácticas esenciales",
         "fixme": "covid19",
@@ -25401,7 +25288,9 @@
         "opening_hours": "Mo-Fr 08:00-16:00; Sa 09:00-12:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 2323 44-0947"
+        "phone": "+54 2323 44-0947",
+        "ref:sisa_codigo": "50064972201529",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -25719,6 +25608,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7424185469",
+        "addr:city": "Jauiregui",
         "amenity": "doctors",
         "description": "Atención de prácticas esenciales",
         "healthcare": "doctor",
@@ -25727,7 +25617,9 @@
         "opening_hours": "Mo-Fr 08:00-13:00",
         "operator": "Municipalidad de Luján",
         "operator:type": "public",
-        "phone": "+54 11 3174-1994"
+        "phone": "+54 11 3174-1994",
+        "ref:sisa_codigo": "50064972215018",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -26017,6 +25909,229 @@
         ]
       },
       "id": "node/7495341778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501174304",
+        "addr:full": "Ruta 39 Km 1",
+        "addr:postcode": "2812",
+        "amenity": "doctors",
+        "fixme": "covid19, revisar ubicación",
+        "healthcare": "general",
+        "name": "Sala de Primeros Auxilios Pavón",
+        "operator": "Municipalidad de Exaltación de la Cruz",
+        "phone": "+54 2323 47-3100",
+        "ref:sisa_codigo": "50062662201874",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0422601,
+          -34.3810208
+        ]
+      },
+      "id": "node/7501174304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501332135",
+        "addr:housenumber": "422",
+        "addr:postcode": "2152",
+        "addr:street": "Chaco",
+        "amenity": "doctors",
+        "contact:phone": "+54 341 471-4535",
+        "healthcare": "doctor",
+        "name": "Centro de Salud 30 Santa Rita",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50820842184968",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7029605,
+          -32.8402579
+        ]
+      },
+      "id": "node/7501332135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501585424",
+        "addr:postcode": "2812",
+        "amenity": "doctors",
+        "fixme": "Revisar ubicación",
+        "name": "Sala de Primeros Auxilios Barrio Esperanza",
+        "operator": "Municipalidad de Exaltación de la Cruz",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50062662201960",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0829948,
+          -34.3216037
+        ]
+      },
+      "id": "node/7501585424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501610843",
+        "addr:housenumber": "2222",
+        "addr:postcode": "6700",
+        "addr:street": "518 - Los 33 Orientales",
+        "amenity": "doctors",
+        "description": "Atención de prácticas esenciales",
+        "fixme": "Revisar ubicación",
+        "name": "Centro de Atención Primaria de la Salud Los Gallitos",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "opening_hours:covid19": "off",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50064972215015",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1118875,
+          -34.5887063
+        ]
+      },
+      "id": "node/7501610843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501677062",
+        "addr:postcode": "6700",
+        "amenity": "doctors",
+        "fixme": "covid19",
+        "name": "Centro de Atención Primaria de la Salud El Milagro",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "opening_hours:covid19": "off",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 2323 42-9868",
+        "ref:sisa_codigo": "50064972201461",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1031033,
+          -34.5560373
+        ]
+      },
+      "id": "node/7501677062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501742756",
+        "addr:full": "Las Margaritas S/N Y Las Calas - Barrio San Pedro",
+        "addr:housenumber": "1066",
+        "addr:postcode": "6700",
+        "addr:street": "337 - Las Margaritas",
+        "amenity": "doctors",
+        "fixme": "covid19, revisar ubicación",
+        "healthcare": "doctor",
+        "name": "Centro de Atención Primaria de Salud San Pedro",
+        "opening_hours:covid19": "off",
+        "operator": "Municipalidad de Luján",
+        "operator:type": "public",
+        "phone": "+54 2323 42-9872",
+        "ref:sisa_codigo": "50064972202802",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1210157,
+          -34.539036
+        ]
+      },
+      "id": "node/7501742756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501940367",
+        "addr:housenumber": "906",
+        "addr:postcode": "1744",
+        "addr:street": "Avenida Miero",
+        "amenity": "doctors",
+        "name": "Unidad Sanitaria Doctor Corsi",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237 466-2153",
+        "ref": "5",
+        "ref:sisa_codigo": "50065602202637",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8062377,
+          -34.6508936
+        ]
+      },
+      "id": "node/7501940367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7502136086",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "1465",
+        "addr:postcode": "W3400CEI",
+        "addr:street": "Quintana",
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "name": "Instituto Medico Privado - Servicio De Radiologia Y Ecografia",
+        "phone": "3794 424275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8317308,
+          -27.4633271
+        ]
+      },
+      "id": "node/7502136086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7502168139",
+        "addr:housenumber": "5160",
+        "addr:postcode": "1744",
+        "addr:street": "Perú",
+        "amenity": "doctors",
+        "name": "Unidad Sanitaria Jose De San Martin",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237 4688805",
+        "ref:sisa_codigo": "50065602202347",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7927449,
+          -34.6257812
+        ]
+      },
+      "id": "node/7502168139"
     }
   ]
 }
