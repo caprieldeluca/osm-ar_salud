@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-09T23:56:02Z",
+  "timestamp": "2020-05-10T23:03:02Z",
   "features": [
     {
       "type": "Feature",
@@ -42791,6 +42791,7 @@
       "properties": {
         "@id": "node/1955644966",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Carlos",
         "phone": "499010"
       },
@@ -43425,6 +43426,7 @@
         "addr:city": "Las Breñas",
         "addr:postcode": "3722",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Avenida"
       },
       "geometry": {
@@ -43671,6 +43673,7 @@
       "properties": {
         "@id": "node/2081460382",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Victoria"
       },
       "geometry": {
@@ -51619,6 +51622,7 @@
         "@id": "node/2542347122",
         "addr:street": "Avenida General San Martín",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "San Cayetano",
         "phone": "3624491027"
       },
@@ -61245,6 +61249,7 @@
       "properties": {
         "@id": "node/3243472561",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "9 de Julio"
       },
       "geometry": {
@@ -63168,8 +63173,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.781053,
-          -34.6592122
+          -58.7810584,
+          -34.6592287
         ]
       },
       "id": "node/3301684561"
@@ -75585,8 +75590,13 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4063657432",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
+        "addr:street": "La Rioja",
         "amenity": "pharmacy",
-        "name": "Pharmacia"
+        "dispensing": "no",
+        "healthcare": "pharmacy",
+        "name": "Centro de Jubilados"
       },
       "geometry": {
         "type": "Point",
@@ -80868,7 +80878,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4378084215",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -91564,7 +91575,7 @@
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
         "name": "Farmacia del Oeste",
-        "phone": "11-46879941",
+        "phone": "+541146879941",
         "source": "Reconocimiento terrestre por Kaart 2016"
       },
       "geometry": {
@@ -98082,14 +98093,15 @@
         "addr:postcode": "3722",
         "addr:street": "General Jones",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Pértile",
         "phone": "+54 03731 460044"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.0816885,
-          -27.0886676
+          -61.0816349,
+          -27.0887607
         ]
       },
       "id": "node/5046349470"
@@ -100435,6 +100447,7 @@
         "addr:postcode": "3722",
         "addr:street": "Arbo y Blanco",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Fuerte Esperanza",
         "phone": "+54 3731 462743"
       },
@@ -130559,6 +130572,23 @@
         ]
       },
       "id": "node/7498803353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7504289021",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Mirande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8558706,
+          -36.7837427
+        ]
+      },
+      "id": "node/7504289021"
     }
   ]
 }
