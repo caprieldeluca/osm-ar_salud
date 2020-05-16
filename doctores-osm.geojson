@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-14T02:56:03Z",
+  "timestamp": "2020-05-16T14:27:03Z",
   "features": [
     {
       "type": "Feature",
@@ -10,6 +10,7 @@
         "@id": "relation/8052156",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Laboratorios Güemes",
         "type": "multipolygon"
       },
@@ -73,6 +74,7 @@
       "properties": {
         "@id": "way/145555097",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorios Güemes"
       },
       "geometry": {
@@ -342,6 +344,7 @@
         "addr:state": "Chaco",
         "addr:street": "Eva Duarte",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Laboratorio Analisis"
       },
       "geometry": {
@@ -8662,6 +8665,7 @@
       "properties": {
         "@id": "node/1589504177",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Instituto Cardiológico"
       },
       "geometry": {
@@ -8695,6 +8699,7 @@
       "properties": {
         "@id": "node/1589583746",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Servicio de Kinesiología del Sanatorio Chaco"
       },
       "geometry": {
@@ -8732,6 +8737,7 @@
       "properties": {
         "@id": "node/1605949059",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Clínica Estética"
       },
       "geometry": {
@@ -8794,6 +8800,7 @@
       "properties": {
         "@id": "node/1741501464",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Instituto Modelo de Medicina Infantil"
       },
       "geometry": {
@@ -8810,6 +8817,7 @@
       "properties": {
         "@id": "node/1741501465",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Instituto Oftalmológico"
       },
       "geometry": {
@@ -8976,6 +8984,7 @@
       "properties": {
         "@id": "node/1983543118",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Clínica Benegas"
       },
       "geometry": {
@@ -9216,6 +9225,7 @@
       "properties": {
         "@id": "node/2274623211",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Kinesióloga"
       },
       "geometry": {
@@ -9232,6 +9242,7 @@
       "properties": {
         "@id": "node/2303357142",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Resonancia Magnética"
       },
       "geometry": {
@@ -9266,7 +9277,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2308992760",
-        "amenity": "doctors"
+        "amenity": "doctors",
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -9566,6 +9578,7 @@
       "properties": {
         "@id": "node/2349418717",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorio Doctora Pineda"
       },
       "geometry": {
@@ -9581,7 +9594,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2350127593",
-        "amenity": "doctors"
+        "amenity": "doctors",
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -9596,7 +9610,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2352667424",
-        "amenity": "doctors"
+        "amenity": "doctors",
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -9690,6 +9705,7 @@
       "properties": {
         "@id": "node/2411275648",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Sala De Primeros Auxilios"
       },
       "geometry": {
@@ -11296,6 +11312,7 @@
         "addr:street": "Necochea",
         "amenity": "doctors",
         "emergency": "yes",
+        "healthcare": "doctor",
         "name": "INSTITUTO DE ESTUDIOS BIOQUIMICOS"
       },
       "geometry": {
@@ -15468,6 +15485,7 @@
         "addr:postcode": "3500",
         "addr:street": "San Lorenzo",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "C.O.R.D.I.C.",
         "name:es": "C.O.R.D.I.C.",
         "opening_hours": "Mo-Fr 07:00-18:00"
@@ -17952,6 +17970,7 @@
       "properties": {
         "@id": "node/5550817641",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Laboratorio Análisis Adolfo A. Petraglia"
       },
       "geometry": {
@@ -24723,6 +24742,7 @@
       "properties": {
         "@id": "node/7093311387",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Labiratorio de análisis clínicos"
       },
       "geometry": {
@@ -25842,13 +25862,15 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7473626786",
+        "addr:city": "Sarmiento",
         "addr:housenumber": "759",
         "addr:postcode": "9020",
         "addr:street": "Roca",
         "amenity": "doctors",
         "email": "drmafd@hotmail.com",
+        "healthcare": "doctor",
         "internet_access": "wlan",
-        "name": "SEM ENERGENCIAS MEDICAS",
+        "name": "SEM Emergencias Médicas",
         "opening_hours": "Mo-Sa 00:00-24:00",
         "phone": "2976230582"
       },
@@ -27225,6 +27247,72 @@
         ]
       },
       "id": "node/7505303590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7516251215",
+        "addr:postcode": "1722",
+        "amenity": "doctors",
+        "name": "Unidad Sanitaria 17 Madre del Pueblo",
+        "operator": "Municipalidad de Merlo",
+        "operator:type": "public",
+        "phone": "+54 220-4852644",
+        "ref:sisa_codigo": "50065392202528",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.719188,
+          -34.6880014
+        ]
+      },
+      "id": "node/7516251215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7520826930",
+        "addr:postcode": "1761",
+        "amenity": "doctors",
+        "name": "Unidad Sanitaria 25",
+        "operator": "Municipalidad de Merlo",
+        "operator:type": "public",
+        "phone": "+54 220 4933358",
+        "ref:sisa_codigo": "50065392202574",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7131959,
+          -34.7172144
+        ]
+      },
+      "id": "node/7520826930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7524963314",
+        "addr:postcode": "1722",
+        "amenity": "doctors",
+        "name": "Unidad Sanitaria 31",
+        "operator": "Municipalidad de Merlo",
+        "operator:type": "public",
+        "phone": "+54 220-4850097",
+        "ref:sisa_codigo": "50065392202598",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7365285,
+          -34.6834447
+        ]
+      },
+      "id": "node/7524963314"
     }
   ]
 }

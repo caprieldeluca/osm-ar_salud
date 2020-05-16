@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-14T02:56:03Z",
+  "timestamp": "2020-05-16T14:29:03Z",
   "features": [
     {
       "type": "Feature",
@@ -10,6 +10,7 @@
         "@id": "way/114332924",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "FarmaCity",
         "operator": "Farmacity",
         "shop": "chemist"
@@ -4347,6 +4348,7 @@
       "properties": {
         "@id": "node/5509042332",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "FarmaCity",
         "operator": "Farmacity",
         "shop": "chemist"
@@ -4544,6 +4546,25 @@
         ]
       },
       "id": "node/6008882001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6088075186",
+        "addr:city": "Apóstoles",
+        "addr:postcode": "3350",
+        "addr:street": "Belgrano",
+        "name": "Gotas de Rocío",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7597296,
+          -27.920258
+        ]
+      },
+      "id": "node/6088075186"
     },
     {
       "type": "Feature",
