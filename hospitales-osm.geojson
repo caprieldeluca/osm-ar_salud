@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-16T14:18:02Z",
+  "timestamp": "2020-05-21T23:36:02Z",
   "features": [
     {
       "type": "Feature",
@@ -2361,7 +2361,7 @@
         "name": "Hospital General De Agudos Doctor Carlos G. Durand",
         "opening_hours": "24/7",
         "operator": "Gobierno de la Ciudad de Buenos Aires",
-        "operator:type": "private",
+        "operator:type": "public",
         "phone": "+541148838340;+541149825655",
         "ref:sisa_codigo": "10020012215218",
         "ref:sisa_tipologia": "ESCIG",
@@ -4190,7 +4190,8 @@
         "contact:website": "http://www.hdcm.gov.ar/",
         "emergency": "yes",
         "healthcare:speciality": "pathology;biochemistry;cardiology;general;surgery;plastic_surgery;paediatrics;dermatology;diagnostic_radiology;gastroenterology;gynecology;infectious_diseases;kinesiotherapy;nephrology;neurology;obstetrics;dentistry;oncology;physiotherapy;trauma;urology",
-        "name": "Delicia Concepción Masvernat"
+        "name": "Delicia Concepción Masvernat",
+        "wikidata": "Q94691122"
       },
       "geometry": {
         "type": "Polygon",
@@ -4716,9 +4717,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/103512645",
+        "addr:city": "Resistencia",
+        "addr:full": "Avenida 9 De Julio 1100",
+        "addr:housenumber": "1100",
+        "addr:postcode": "3500",
+        "addr:street": "Avenida 9 de Julio",
+        "alt_name": "Hospital Doctor Julio Cecilio Perrando",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Julio César Perrando"
+        "name": "Hospital Julio César Perrando",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "+54 362 4425050",
+        "ref:sisa_codigo": "10221402126044",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -5768,11 +5780,19 @@
         "@id": "way/121533512",
         "addr:city": "Resistencia",
         "addr:country": "AR",
+        "addr:full": "Almirante Brown 315",
         "addr:housenumber": "315",
+        "addr:postcode": "3500",
         "addr:street": "Almirante Brown",
+        "alt_name": "Sanatorio Chaco S.r.l.",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Sanatorio Chaco"
+        "name": "Sanatorio Chaco",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 362 4445111",
+        "ref:sisa_codigo": "10221402326076",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -7293,6 +7313,7 @@
         "addr:postcode": "1748",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Vicente Lopez y Planes",
         "operator": "Gobierno de la Provincia de Buenos Aires",
         "operator:type": "public",
@@ -7333,10 +7354,21 @@
       "type": "Feature",
       "properties": {
         "@id": "way/144053194",
+        "addr:city": "Pilar",
+        "addr:full": "Avenida Juan Domingo Perón 1500",
+        "addr:housenumber": "1500",
+        "addr:postcode": "1635",
+        "addr:street": "Avenida Juan Domingo Perón",
+        "alt_name": "Hospital Universitario Austral",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Universitario Austral"
+        "name": "Hospital Universitario Austral",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 2322 482000",
+        "ref:sisa_codigo": "10066382300374",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -7370,95 +7402,6 @@
         ]
       },
       "id": "way/144053194"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/144053195",
-        "addr:city": "Pilar",
-        "addr:housenumber": "1500",
-        "addr:street": "Avenida Juan Domingo Perón",
-        "amenity": "hospital",
-        "building": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital Universitario Austral"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.8647192,
-              -34.4556873
-            ],
-            [
-              -58.8647828,
-              -34.4558829
-            ],
-            [
-              -58.8645056,
-              -34.4559373
-            ],
-            [
-              -58.8641796,
-              -34.4560013
-            ],
-            [
-              -58.8640845,
-              -34.4560782
-            ],
-            [
-              -58.8639705,
-              -34.456427
-            ],
-            [
-              -58.8639316,
-              -34.456546
-            ],
-            [
-              -58.8636692,
-              -34.4564875
-            ],
-            [
-              -58.863734,
-              -34.4562922
-            ],
-            [
-              -58.8631202,
-              -34.4561415
-            ],
-            [
-              -58.863211,
-              -34.4558884
-            ],
-            [
-              -58.8637034,
-              -34.4560115
-            ],
-            [
-              -58.8639344,
-              -34.4558338
-            ],
-            [
-              -58.8638823,
-              -34.4556295
-            ],
-            [
-              -58.8640903,
-              -34.4555862
-            ],
-            [
-              -58.8641505,
-              -34.4557952
-            ],
-            [
-              -58.8647192,
-              -34.4556873
-            ]
-          ]
-        ]
-      },
-      "id": "way/144053195"
     },
     {
       "type": "Feature",
@@ -7563,9 +7506,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/145565096",
+        "addr:city": "Resistencia",
+        "addr:full": "Córdoba 198",
+        "addr:housenumber": "198",
+        "addr:postcode": "3500",
+        "addr:street": "Córdoba",
+        "alt_name": "Sanatorio Frangioli De Salud 2000 S.r.l.",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Sanatorio Frangioli"
+        "name": "Sanatorio Frangioli",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(0362)- 444-4333",
+        "ref:sisa_codigo": "10221402326079",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -7712,6 +7666,7 @@
       "properties": {
         "@id": "way/146810158",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Dr. Pedro Romanazzi"
       },
       "geometry": {
@@ -12334,7 +12289,8 @@
         "@id": "way/191264319",
         "amenity": "hospital",
         "emergency": "yes",
-        "name": "Hospital Santa Rosa"
+        "name": "Hospital Santa Rosa",
+        "wikidata": "Q94691255"
       },
       "geometry": {
         "type": "Polygon",
@@ -15160,7 +15116,8 @@
       "properties": {
         "@id": "way/219061682",
         "amenity": "hospital",
-        "name": "Hospital Falucho"
+        "name": "Hospital Falucho",
+        "wikidata": "Q94691151"
       },
       "geometry": {
         "type": "Polygon",
@@ -15273,43 +15230,6 @@
         ]
       },
       "id": "way/219433289"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/220739929",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro de Salud"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -59.0006751,
-              -27.4478027
-            ],
-            [
-              -59.0004197,
-              -27.4475862
-            ],
-            [
-              -59.0007442,
-              -27.4472847
-            ],
-            [
-              -59.0009997,
-              -27.4475011
-            ],
-            [
-              -59.0006751,
-              -27.4478027
-            ]
-          ]
-        ]
-      },
-      "id": "way/220739929"
     },
     {
       "type": "Feature",
@@ -15798,17 +15718,15 @@
       "type": "Feature",
       "properties": {
         "@id": "way/224573002",
-        "addr:full": "Bartolomé Mitre 2553",
         "addr:housenumber": "2553",
         "addr:postcode": "1039",
         "addr:street": "Bartolomé Mitre",
         "amenity": "hospital",
         "building": "yes",
         "healthcare": "hospital",
-        "name": "Sanatorio De La Trinidad Mitre",
-        "operator": "Privado",
+        "name": "Sanatorio de La Trinidad Mitre",
         "operator:type": "private",
-        "phone": "(011) 4954-7070",
+        "phone": "+54 11 4954-7070",
         "ref:sisa_codigo": "10020012315238",
         "ref:sisa_tipologia": "ESCIG",
         "wikidata": "Q93141483"
@@ -15904,6 +15822,7 @@
         "addr:street": "Necochea",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital José Ramón Vidal",
         "phone": "+54 0379 4421372",
         "website": "http://www.hospitalvidal.com.ar/",
@@ -16663,44 +16582,44 @@
         "coordinates": [
           [
             [
-              -58.9692438,
-              -27.2585024
+              -58.9692505,
+              -27.2585262
             ],
             [
-              -58.9691405,
-              -27.258415
+              -58.9691472,
+              -27.2584388
             ],
             [
-              -58.9690259,
-              -27.2583181
+              -58.9690326,
+              -27.2583419
             ],
             [
-              -58.9690947,
-              -27.258234
+              -58.9691014,
+              -27.2582578
             ],
             [
-              -58.9691836,
-              -27.2583063
+              -58.9691903,
+              -27.2583301
             ],
             [
-              -58.9692778,
-              -27.2582148
+              -58.9692845,
+              -27.2582386
             ],
             [
-              -58.9693358,
-              -27.258262
+              -58.9693425,
+              -27.2582858
             ],
             [
-              -58.9692466,
-              -27.2583487
+              -58.9692533,
+              -27.2583725
             ],
             [
-              -58.9693211,
-              -27.2584302
+              -58.9693278,
+              -27.258454
             ],
             [
-              -58.9692438,
-              -27.2585024
+              -58.9692505,
+              -27.2585262
             ]
           ]
         ]
@@ -17513,6 +17432,7 @@
         "@id": "way/237986412",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Centro Integrador Comunitario"
       },
       "geometry": {
@@ -17520,24 +17440,24 @@
         "coordinates": [
           [
             [
-              -64.7929504,
-              -30.737542
+              -64.7929557,
+              -30.7375391
             ],
             [
-              -64.7929452,
-              -30.7381161
+              -64.7929399,
+              -30.7381188
             ],
             [
-              -64.7925565,
-              -30.7381138
+              -64.7925616,
+              -30.7381111
             ],
             [
-              -64.7925826,
-              -30.7375286
+              -64.7925775,
+              -30.7375315
             ],
             [
-              -64.7929504,
-              -30.737542
+              -64.7929557,
+              -30.7375391
             ]
           ]
         ]
@@ -17552,6 +17472,7 @@
         "amenity": "hospital",
         "building": "yes",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Regional Aurelio Crespo",
         "phone": "(03549) - 426747 - 426748 - 426752 - 426743"
       },
@@ -18102,7 +18023,6 @@
         "addr:street": "Avenida Eva Perón",
         "amenity": "hospital",
         "building": "yes",
-        "healthcare": "hospital",
         "name": "Diagnostico Por Imagen Privado Cruz Del Eje - Dr. Roger E. Duran"
       },
       "geometry": {
@@ -18879,8 +18799,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/243364448",
+        "addr:city": "General Pacheco",
+        "addr:full": "Avenida Constituyentes 395",
+        "addr:housenumber": "395",
+        "addr:postcode": "1617",
+        "addr:street": "Avenida de los Constituyentes",
+        "alt_name": "Hospital Zonal General Agudos Magdalena V. De Martinez",
         "amenity": "hospital",
-        "name": "Hospital Zonal de Agudos Magdalena V. de Martínez"
+        "healthcare": "hospital",
+        "name": "Hospital Zonal de Agudos Magdalena V. de Martínez",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "11 4738 0144",
+        "ref:sisa_codigo": "10068052100391",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -22078,14 +22010,19 @@
       "properties": {
         "@id": "way/262780007",
         "addr:city": "Barranqueras",
+        "addr:full": "Avenida 9 De Julio 4902",
         "addr:housenumber": "5100",
         "addr:postcode": "3503",
         "addr:street": "Avenida 9 de Julio",
         "amenity": "hospital",
-        "building": "yes",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Eva Perón"
+        "name": "Hospital Eva Perón",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "0362 4488627",
+        "ref:sisa_codigo": "10221402127102",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -22134,6 +22071,7 @@
         "amenity": "hospital",
         "email": "contactos@hospitalsanjose.org.ar",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital San Jose",
         "opening_hours": "Mo-Fr 06:00-18:00",
         "phone": "+54 03772 42-8127;+54 03772 42-8128",
@@ -22342,12 +22280,18 @@
       "properties": {
         "@id": "way/265074741",
         "addr:city": "Tigre",
+        "addr:full": "Maipú 257",
         "addr:housenumber": "257",
         "addr:postcode": "1648",
         "addr:street": "Maipú",
         "amenity": "hospital",
+        "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Comunal de Tigre"
+        "name": "Hospital Comunal de Tigre",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "ref:sisa_codigo": "10068052200203",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -22360,6 +22304,10 @@
             [
               -58.588439,
               -34.4133311
+            ],
+            [
+              -58.5880075,
+              -34.4142526
             ],
             [
               -58.5878218,
@@ -24427,16 +24375,15 @@
       "type": "Feature",
       "properties": {
         "@id": "way/292194016",
-        "addr:full": "Avenida Belgrano 2975",
         "addr:housenumber": "2975",
         "addr:postcode": "1209",
         "addr:street": "Avenida Belgrano",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Sociedad Espańola De Beneficencia Hospital Espańol",
-        "operator": "Privado",
+        "name": "Hospital Español",
+        "official_name": "Sociedad Española de Beneficencia Hospital Español",
         "operator:type": "private",
-        "phone": "(011) 4959-6100",
+        "phone": "+54 11 4959-6100",
         "ref:sisa_codigo": "10020012315255",
         "ref:sisa_tipologia": "ESCIG",
         "website": "http://www.hospital-espanol.com.ar/",
@@ -24483,21 +24430,20 @@
       "type": "Feature",
       "properties": {
         "@id": "way/292194018",
-        "addr:full": "Avenida Belgrano 2199",
         "addr:housenumber": "2189",
         "addr:postcode": "1094",
         "addr:street": "Avenida Belgrano",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Centro Gallego De Buenos Aires",
-        "operator": "Privado",
+        "name": "Centro Gallego",
+        "official_name": "Centro Gallego de Buenos Aires",
         "operator:type": "private",
-        "phone": "(011) 4127-1000",
+        "phone": "+54 11 4127-1000",
         "ref:sisa_codigo": "10020012315175",
         "ref:sisa_tipologia": "ESCIG",
-        "website": "http://www.centrogallegoba.com.aramenity=hospital",
+        "website": "http://www.centrogallegoba.com.ar",
         "wikidata": "Q5761275",
-        "wikipedia": "ES:Centro Gallego De Buenos Aires"
+        "wikipedia": "es:Centro Gallego De Buenos Aires"
       },
       "geometry": {
         "type": "Polygon",
@@ -24873,7 +24819,8 @@
       "properties": {
         "@id": "way/294433482",
         "amenity": "hospital",
-        "name": "San Jose"
+        "name": "San Jose",
+        "wikidata": "Q94691240"
       },
       "geometry": {
         "type": "Polygon",
@@ -24995,8 +24942,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/294888838",
+        "addr:city": "Fontana",
+        "addr:full": "Salta 4550",
+        "addr:housenumber": "4550",
+        "addr:postcode": "3514",
+        "addr:street": "Salta",
         "amenity": "hospital",
-        "name": "Hospital Luis Fleitas"
+        "healthcare": "hospital",
+        "name": "Hospital Luis Fleitas",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "0362 476-5258",
+        "ref:sisa_codigo": "10221402127103",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -25280,12 +25238,18 @@
       "properties": {
         "@id": "way/297230516",
         "addr:city": "Baradero",
-        "addr:housenumber": "1150",
-        "addr:postcode": "2942",
+        "addr:housenumber": "1170",
+        "addr:postcode": "B2942ENL",
         "addr:street": "Teófilo Rosell",
         "amenity": "hospital",
+        "email": "hospital@baradero.gov.ar",
         "healthcare": "hospital",
-        "name": "Hospital Dr. Lino Piñeiro"
+        "name": "Hospital Subzonal General Doctor Lino Piñeiro",
+        "operator": "Municipalidad de Baradero",
+        "operator:type": "public",
+        "phone": "+543329480321;+543329480004",
+        "ref:sisa_codigo": "10060702200364",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -26889,8 +26853,7 @@
         "@id": "way/313898024",
         "amenity": "hospital",
         "building": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital Municipal Doctor Saverio Galvagni"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -27054,6 +27017,7 @@
         "addr:street": "Montevideo",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital El Salvador",
         "phone": "+54 03777-45-1063",
         "wheelchair": "yes"
@@ -29537,8 +29501,22 @@
       "type": "Feature",
       "properties": {
         "@id": "way/331255722",
+        "addr:city": "Ezeiza",
+        "addr:full": "Alem Nş 349",
+        "addr:housenumber": "349",
+        "addr:postcode": "1804",
+        "addr:street": "Leandro N. Alem",
+        "alt_name": "Hospital Zonal General De Agudos Eurnekian (ex Madre Teresa De Calcuta)",
         "amenity": "hospital",
-        "name": "Hospital de Ezeiza \"Dr. Alberto Eurnekian\""
+        "contact:facebook": "https://www.facebook.com/Hospital-Eurnekian-Ezeiza-120533941978802/",
+        "healthcare": "hospital",
+        "name": "Hospital de Ezeiza \"Dr. Alberto Eurnekian\"",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "011-4800265",
+        "ref:sisa_codigo": "10062702100403",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "http://www.hospitaleurnekian.com.ar/"
       },
       "geometry": {
         "type": "Polygon",
@@ -29987,7 +29965,8 @@
         "addr:housenumber": "235",
         "addr:street": "Esteva Berga",
         "amenity": "hospital",
-        "name": "Hospital San Benjamin"
+        "name": "Hospital San Benjamin",
+        "wikidata": "Q94691218"
       },
       "geometry": {
         "type": "Polygon",
@@ -30680,12 +30659,20 @@
       "properties": {
         "@id": "way/337823855",
         "addr:city": "Belén de Escobar",
+        "addr:full": "Eugenia Tapia De Cruz",
+        "addr:housenumber": "21",
+        "addr:postcode": "1625",
         "addr:street": "Eugenia Tapia de Cruz",
+        "alt_name": "Hospital Zonal General Agudos Doctor Erill",
         "amenity": "hospital",
         "building": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Zonal General de Agudos \"Dr. Enrique Erill\"",
-        "phone": "54 0348 433143",
+        "name": "Hospital Zonal General de Agudos Dr. Enrique Erill",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "+54 348 433143;+54 3321 423994",
+        "ref:sisa_codigo": "10062522100384",
+        "ref:sisa_tipologia": "ESCIG",
         "website": "http://www.ms.gba.gov.ar/sitios/herill/"
       },
       "geometry": {
@@ -30743,8 +30730,11 @@
         "addr:street": "Dr. René Favaloro",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Zonal de Agudos \"Gobernador Domingo Mercante\"",
-        "phone": "54 2320 413950"
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "+54 2320 413950",
+        "ref:sisa_codigo": "10064122100400",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -31444,45 +31434,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/352899118",
-        "addr:city": "Córdoba",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "CAPS Ciudad de Mis Sueños",
-        "phone": "0351 156310095"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -64.0856783,
-              -31.4776636
-            ],
-            [
-              -64.0856812,
-              -31.4778877
-            ],
-            [
-              -64.0854612,
-              -31.4778898
-            ],
-            [
-              -64.0854583,
-              -31.4776657
-            ],
-            [
-              -64.0856783,
-              -31.4776636
-            ]
-          ]
-        ]
-      },
-      "id": "way/352899118"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/353338652",
         "addr:city": "Santa María",
         "addr:full": "Av. 1° De Mayo 269",
@@ -31575,7 +31526,8 @@
         "addr:postcode": "3174",
         "addr:street": "Dr. E. Rozados",
         "amenity": "hospital",
-        "name": "Hospital San Roque"
+        "name": "Hospital San Roque",
+        "wikidata": "Q94691247"
       },
       "geometry": {
         "type": "Polygon",
@@ -32676,6 +32628,9 @@
       "type": "Feature",
       "properties": {
         "@id": "way/361291175",
+        "addr:city": "Justo Daract",
+        "addr:postcode": "5738",
+        "addr:street": "Pringles",
         "amenity": "hospital",
         "building": "yes",
         "healthcare": "hospital",
@@ -33432,14 +33387,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/368640817",
-        "addr:full": "Avenida Rivadavia 13280",
+        "addr:housenumber": "13280",
         "addr:postcode": "1704",
+        "addr:street": "Avenida Rivadavia",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Sanatorio De La Trinidad De Ramos Mejia",
-        "operator": "Privado",
+        "name": "Sanatorio de La Trinidad Ramos Mejía",
         "operator:type": "private",
-        "phone": "8107772583",
+        "phone:AR": "08107772583",
         "ref:sisa_codigo": "10064272317039",
         "ref:sisa_tipologia": "ESCIG"
       },
@@ -36923,6 +36878,7 @@
         "addr:housenumber": "1849",
         "addr:street": "Avenida República Oriental del Uruguay",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Militar Curzú Cuatiá"
       },
       "geometry": {
@@ -38717,45 +38673,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/439820663",
-        "addr:city": "General Pacheco",
-        "addr:postcode": "1617",
-        "addr:street": "Sacriste",
-        "amenity": "hospital",
-        "name": "Centro de Salud Las Tunas"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.6642996,
-              -34.4401245
-            ],
-            [
-              -58.6639554,
-              -34.4402166
-            ],
-            [
-              -58.6638534,
-              -34.4399224
-            ],
-            [
-              -58.6641995,
-              -34.4398361
-            ],
-            [
-              -58.6642996,
-              -34.4401245
-            ]
-          ]
-        ]
-      },
-      "id": "way/439820663"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/440225834",
         "addr:city": "Formosa",
         "addr:postcode": "3600",
@@ -38925,6 +38842,7 @@
         "addr:street": "Avenida Tomás Mazzanti",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Zonal Goya"
       },
       "geometry": {
@@ -39249,7 +39167,8 @@
         "addr:postcode": "3218",
         "addr:street": "T. González",
         "amenity": "hospital",
-        "name": "San Miguel"
+        "name": "San Miguel",
+        "wikidata": "Q94691246"
       },
       "geometry": {
         "type": "Polygon",
@@ -39775,7 +39694,6 @@
         "addr:postcode": "4600",
         "addr:street": "Juanita Moro",
         "amenity": "hospital",
-        "description": "Manzana 47",
         "name": "Centro de Salud Belgrano Puesto 2"
       },
       "geometry": {
@@ -39826,10 +39744,8 @@
         "amenity": "hospital",
         "building:levels": "1",
         "contact:phone": "0388 422 8866",
-        "description": "Manzana 06",
         "emergency": "yes",
-        "name": "SAE Central",
-        "place": "plot"
+        "name": "SAE Central"
       },
       "geometry": {
         "type": "Polygon",
@@ -39915,54 +39831,6 @@
         ]
       },
       "id": "way/459185910"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/461947120",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.7910045,
-              -34.4519477
-            ],
-            [
-              -58.7901438,
-              -34.4514698
-            ],
-            [
-              -58.790356,
-              -34.4512099
-            ],
-            [
-              -58.7908201,
-              -34.4514675
-            ],
-            [
-              -58.7907906,
-              -34.4515036
-            ],
-            [
-              -58.791088,
-              -34.4516718
-            ],
-            [
-              -58.7911872,
-              -34.4517238
-            ],
-            [
-              -58.7910045,
-              -34.4519477
-            ]
-          ]
-        ]
-      },
-      "id": "way/461947120"
     },
     {
       "type": "Feature",
@@ -40280,7 +40148,8 @@
         "addr:postcode": "3228",
         "addr:street": "Dr. Planas",
         "amenity": "hospital",
-        "name": "Santa Rosa"
+        "name": "Santa Rosa",
+        "wikidata": "Q94691253"
       },
       "geometry": {
         "type": "Polygon",
@@ -40639,62 +40508,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/468504516",
-        "amenity": "hospital",
-        "building": "yes",
-        "source": "Reconocimiento cartográfico de campo 2016 por KG"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.5260882,
-              -34.5499519
-            ],
-            [
-              -58.5257208,
-              -34.5504691
-            ],
-            [
-              -58.5251342,
-              -34.5501864
-            ],
-            [
-              -58.5255193,
-              -34.5496443
-            ],
-            [
-              -58.5257256,
-              -34.5497437
-            ],
-            [
-              -58.5254157,
-              -34.55018
-            ],
-            [
-              -58.5256624,
-              -34.5502989
-            ],
-            [
-              -58.5259545,
-              -34.5498875
-            ],
-            [
-              -58.5260882,
-              -34.5499519
-            ]
-          ]
-        ]
-      },
-      "id": "way/468504516"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/468790553",
+        "addr:city": "Don Torcuato",
+        "addr:full": "Menéndez y Pelayo 1302",
+        "addr:postcode": "1648",
+        "addr:street": "Menéndez y Pelayo",
+        "alt_name": "Hospital de Diagnostico",
         "amenity": "hospital",
-        "name": "Hospital de Diagnostico"
+        "healthcare": "hospital",
+        "name": "Hospital Municipal De Diagnostico Inmediato Don Torcuato",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "011-4519-6443",
+        "ref:sisa_codigo": "50068052216886",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -43994,46 +43821,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/494685331",
-        "addr:city": "Resistencia",
-        "addr:postcode": "3500",
-        "addr:street": "Avenida Marconi y Dónovan",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro de Salud General Belgrano"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -59.004499,
-              -27.4603545
-            ],
-            [
-              -59.0043093,
-              -27.4602088
-            ],
-            [
-              -59.0043839,
-              -27.4601325
-            ],
-            [
-              -59.0045735,
-              -27.4602782
-            ],
-            [
-              -59.004499,
-              -27.4603545
-            ]
-          ]
-        ]
-      },
-      "id": "way/494685331"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/494952838",
         "addr:city": "Rosario",
         "addr:housenumber": "141",
@@ -45461,7 +45248,8 @@
         "@id": "way/511367537",
         "amenity": "hospital",
         "name": "Hospital Eva Duarte",
-        "phone": "+54 03446 492027"
+        "phone": "+54 03446 492027",
+        "wikidata": "Q94691148"
       },
       "geometry": {
         "type": "Polygon",
@@ -46541,7 +46329,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/526026112",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -48222,6 +48011,59 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/546891919",
+        "addr:city": "Temperley",
+        "addr:full": "Avenida Eva Perón 3097",
+        "addr:housenumber": "3097",
+        "addr:postcode": "1834",
+        "addr:street": "Avenida Eva Perón",
+        "alt_name": "Clinica Privada Passo Sa",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Clinica Passo S.A.",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(011) 4264-0056",
+        "ref:sisa_codigo": "10064902300142",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.3608361,
+              -34.7612995
+            ],
+            [
+              -58.3607378,
+              -34.7614476
+            ],
+            [
+              -58.3605215,
+              -34.7613508
+            ],
+            [
+              -58.3606076,
+              -34.761221
+            ],
+            [
+              -58.3606461,
+              -34.7612144
+            ],
+            [
+              -58.3608361,
+              -34.7612995
+            ]
+          ]
+        ]
+      },
+      "id": "way/546891919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/546924556",
         "addr:street": "Calle 817",
         "amenity": "hospital",
@@ -48816,43 +48658,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/556647440",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro Municipal de Diabetes Dr. Alberto Maggio"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.7059596,
-              -34.5069458
-            ],
-            [
-              -58.7063631,
-              -34.507236
-            ],
-            [
-              -58.7061699,
-              -34.5074375
-            ],
-            [
-              -58.7057517,
-              -34.5071332
-            ],
-            [
-              -58.7059596,
-              -34.5069458
-            ]
-          ]
-        ]
-      },
-      "id": "way/556647440"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/556783903",
         "addr:city": "Alvear",
         "addr:postcode": "3344",
@@ -49354,9 +49159,16 @@
       "type": "Feature",
       "properties": {
         "@id": "way/567174714",
+        "addr:full": "Avenida Croacia 2312 - Barrio Vucetich",
+        "addr:postcode": "1665",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital capiraletti"
+        "name": "Hospital Unidad de Diagnostico Precoz de Alta Complejidad Rubén Caporaletti",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "+54 2320 353102 int. 217/ 213/ 212",
+        "ref:sisa_codigo": "10064122217889",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -49986,7 +49798,8 @@
         "healthcare": "hospital",
         "healthcare:speciality": "general",
         "name": "Hospital J.J De Urquiza",
-        "phone": "03442 44-3902"
+        "phone": "03442 44-3902",
+        "wikidata": "Q94691173"
       },
       "geometry": {
         "type": "Polygon",
@@ -50466,85 +50279,51 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/620753886",
-        "addr:city": "Benavidez",
-        "addr:housenumber": "1186",
-        "addr:postcode": "1621",
-        "addr:street": "Tomás Godoy",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "Centro de Salud El Arco"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.7152481,
-              -34.4041257
-            ],
-            [
-              -58.7151205,
-              -34.4042851
-            ],
-            [
-              -58.7149426,
-              -34.4041881
-            ],
-            [
-              -58.7150702,
-              -34.4040287
-            ],
-            [
-              -58.7152481,
-              -34.4041257
-            ]
-          ]
-        ]
-      },
-      "id": "way/620753886"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/620769837",
-        "addr:city": "Garín",
+        "@id": "way/625469215",
+        "addr:city": "Garin",
+        "addr:full": "Boulevard Presidente Peron 240",
         "addr:postcode": "1619",
-        "addr:street": "Misiones Salesianas",
+        "addr:street": "Boulevard Presidente Perón",
+        "alt_name": "Hospital Municipal Oftalmologico Doctor Horacio Lopez",
         "amenity": "hospital",
+        "building": "yes",
         "healthcare": "hospital",
-        "healthcare:speciality": "emergency;general",
-        "name": "Sala de primeros auxilios Ramón Carrillo"
+        "healthcare:speciality": "oftalmologico_gral",
+        "name": "clinica oftalmologico",
+        "opening_hours": "24/7",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "ref:sisa_codigo": "10062522215001",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -58.724279,
-              -34.4363247
+              -58.735835,
+              -34.4209954
             ],
             [
-              -58.724133,
-              -34.4365169
+              -58.7362194,
+              -34.4208332
             ],
             [
-              -58.723923,
-              -34.4364084
+              -58.7363762,
+              -34.4210902
             ],
             [
-              -58.724069,
-              -34.4362162
+              -58.7359653,
+              -34.421236
             ],
             [
-              -58.724279,
-              -34.4363247
+              -58.735835,
+              -34.4209954
             ]
           ]
         ]
       },
-      "id": "way/620769837"
+      "id": "way/625469215"
     },
     {
       "type": "Feature",
@@ -51412,88 +51191,6 @@
         ]
       },
       "id": "way/630388123"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/643564160",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Unidad Funcional \"Grand Bourg\""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.732237,
-              -34.4864772
-            ],
-            [
-              -58.7324198,
-              -34.4865707
-            ],
-            [
-              -58.7323375,
-              -34.4866724
-            ],
-            [
-              -58.7323942,
-              -34.4867031
-            ],
-            [
-              -58.7323251,
-              -34.4867887
-            ],
-            [
-              -58.7320945,
-              -34.4866626
-            ],
-            [
-              -58.732237,
-              -34.4864772
-            ]
-          ]
-        ]
-      },
-      "id": "way/643564160"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/643889104",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Salita Tierras Altas"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.7411028,
-              -34.4802595
-            ],
-            [
-              -58.7410284,
-              -34.4803523
-            ],
-            [
-              -58.7407705,
-              -34.4802117
-            ],
-            [
-              -58.740845,
-              -34.4801189
-            ],
-            [
-              -58.7411028,
-              -34.4802595
-            ]
-          ]
-        ]
-      },
-      "id": "way/643889104"
     },
     {
       "type": "Feature",
@@ -55933,7 +55630,8 @@
       "properties": {
         "@id": "way/785406288",
         "amenity": "hospital",
-        "name": "Hospital San Jose"
+        "name": "Hospital San Jose",
+        "wikidata": "Q94691233"
       },
       "geometry": {
         "type": "Polygon",
@@ -57446,63 +57144,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/789625007",
-        "addr:full": "Alberti 447/9",
-        "addr:postcode": "1096",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Clinica Ciudad De La Vida - Obra Social Del Personal Grafico",
-        "operator": "Obra social",
-        "operator:type": "private",
-        "phone": "(011) 4308-2433",
-        "ref:sisa_codigo": "10020012715186",
-        "ref:sisa_tipologia": "ESCIG",
-        "wikidata": "Q90410146"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.4013865,
-              -34.6149986
-            ],
-            [
-              -58.4013931,
-              -34.6149269
-            ],
-            [
-              -58.4017278,
-              -34.6149479
-            ],
-            [
-              -58.4017231,
-              -34.6150086
-            ],
-            [
-              -58.4016627,
-              -34.6150086
-            ],
-            [
-              -58.4016567,
-              -34.6150759
-            ],
-            [
-              -58.4013811,
-              -34.6150843
-            ],
-            [
-              -58.4013865,
-              -34.6149986
-            ]
-          ]
-        ]
-      },
-      "id": "way/789625007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/789627972",
         "addr:city": "Ciudad Autónoma de Buenos Aires",
         "addr:housenumber": "66",
@@ -58148,6 +57789,74 @@
         ]
       },
       "id": "way/790916280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/791132008",
+        "alt_name": "Centro de Integracion e Identidad Ciudadana",
+        "amenity": "hospital",
+        "description": "Usado solamente para posibles casos de Coronavirus (COVID-19)",
+        "fixme": "covid19",
+        "healthcare:speciality": "pulmonology;infectious_diseases",
+        "name": "Hospital Monovalente Carlos Malbrán",
+        "official_name": "Hospital Monovalente Respiratorio Doctor Carlos Gregorio Malbrán",
+        "old_name": "Hotel Sussex",
+        "operator": "Gobierno de Catamarca",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.7822409,
+              -28.5048808
+            ],
+            [
+              -65.7817903,
+              -28.504803
+            ],
+            [
+              -65.7809213,
+              -28.504473
+            ],
+            [
+              -65.7805431,
+              -28.5035726
+            ],
+            [
+              -65.7803553,
+              -28.5030823
+            ],
+            [
+              -65.7805404,
+              -28.5024694
+            ],
+            [
+              -65.7806825,
+              -28.5022691
+            ],
+            [
+              -65.7811519,
+              -28.5027146
+            ],
+            [
+              -65.7814067,
+              -28.502955
+            ],
+            [
+              -65.7816455,
+              -28.5033628
+            ],
+            [
+              -65.7822409,
+              -28.5048808
+            ]
+          ]
+        ]
+      },
+      "id": "way/791132008"
     },
     {
       "type": "Feature",
@@ -58830,52 +58539,6 @@
         ]
       },
       "id": "way/798976343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/801768523",
-        "amenity": "hospital",
-        "building": "hospital",
-        "healthcare": "hospital",
-        "name": "Unidad Sanitaria de Alsina"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -59.3932655,
-              -33.9073297
-            ],
-            [
-              -59.3931847,
-              -33.9073955
-            ],
-            [
-              -59.393019,
-              -33.9072552
-            ],
-            [
-              -59.3930583,
-              -33.9072233
-            ],
-            [
-              -59.393001,
-              -33.9071748
-            ],
-            [
-              -59.3930424,
-              -33.9071411
-            ],
-            [
-              -59.3932655,
-              -33.9073297
-            ]
-          ]
-        ]
-      },
-      "id": "way/801768523"
     },
     {
       "type": "Feature",
@@ -59973,6 +59636,358 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/804766188",
+        "addr:full": "Camino General Manuel Belgrano 4786",
+        "addr:postcode": "1886",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Privada Ranelagh",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "011-42233227",
+        "ref:sisa_codigo": "10060912300146",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.2174647,
+              -34.8050626
+            ],
+            [
+              -58.217179,
+              -34.8052267
+            ],
+            [
+              -58.2171281,
+              -34.805219
+            ],
+            [
+              -58.216825,
+              -34.8048523
+            ],
+            [
+              -58.2170731,
+              -34.8047146
+            ],
+            [
+              -58.2174647,
+              -34.8050626
+            ]
+          ]
+        ]
+      },
+      "id": "way/804766188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/804810730",
+        "addr:city": "Córdoba",
+        "addr:full": "Wilson 2101",
+        "addr:housenumber": "2101",
+        "addr:postcode": "5864",
+        "addr:street": "Wilson",
+        "amenity": "hospital",
+        "description": "Centro de Rehabilitación con internación",
+        "healthcare": "hospital",
+        "name": "Sanatorio Privado del Noreste",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 0351 4513209",
+        "ref:sisa_codigo": "10140142331311",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "http://sanatoriodelnoreste.com.ar/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.1361146,
+              -31.3844558
+            ],
+            [
+              -64.1357366,
+              -31.3844543
+            ],
+            [
+              -64.1357331,
+              -31.3840992
+            ],
+            [
+              -64.1360041,
+              -31.3840992
+            ],
+            [
+              -64.1360075,
+              -31.3842363
+            ],
+            [
+              -64.1361163,
+              -31.3842363
+            ],
+            [
+              -64.1361146,
+              -31.3844558
+            ]
+          ]
+        ]
+      },
+      "id": "way/804810730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/804897306",
+        "amenity": "hospital",
+        "name": "Consultorios Dr. Ramon Carrillo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.8384585,
+              -34.7830856
+            ],
+            [
+              -58.8385558,
+              -34.78322
+            ],
+            [
+              -58.8384735,
+              -34.7832602
+            ],
+            [
+              -58.8384015,
+              -34.7831642
+            ],
+            [
+              -58.8383752,
+              -34.7831263
+            ],
+            [
+              -58.8384127,
+              -34.783108
+            ],
+            [
+              -58.8384585,
+              -34.7830856
+            ]
+          ]
+        ]
+      },
+      "id": "way/804897306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/804899937",
+        "addr:full": "25 De Mayo 70",
+        "addr:postcode": "1727",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Privada Provincial",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "0220-71574",
+        "ref:sisa_codigo": "10065252305923",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.8384454,
+              -34.7833029
+            ],
+            [
+              -58.8384034,
+              -34.7833241
+            ],
+            [
+              -58.8383257,
+              -34.7832206
+            ],
+            [
+              -58.8383669,
+              -34.7831997
+            ],
+            [
+              -58.8383571,
+              -34.7831866
+            ],
+            [
+              -58.8384015,
+              -34.7831642
+            ],
+            [
+              -58.8384735,
+              -34.7832602
+            ],
+            [
+              -58.8384985,
+              -34.7832935
+            ],
+            [
+              -58.8384549,
+              -34.7833155
+            ],
+            [
+              -58.8384454,
+              -34.7833029
+            ]
+          ]
+        ]
+      },
+      "id": "way/804899937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/805118281",
+        "addr:city": "Baradero",
+        "addr:housenumber": "910",
+        "addr:postcode": "B2942EEQ",
+        "addr:street": "René Simón",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanatorio O.S.P.R.E.M.",
+        "operator": "SAMI Baradero S. A.",
+        "operator:type": "private",
+        "phone": "+543329480108;+5403329482511",
+        "ref:sisa_codigo": "10060702705006",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.4981139,
+              -33.8091205
+            ],
+            [
+              -59.4977187,
+              -33.809336
+            ],
+            [
+              -59.4975464,
+              -33.8091178
+            ],
+            [
+              -59.4979417,
+              -33.8089024
+            ],
+            [
+              -59.4981139,
+              -33.8091205
+            ]
+          ]
+        ]
+      },
+      "id": "way/805118281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/805136982",
+        "addr:city": "Baradero",
+        "addr:housenumber": "1167",
+        "addr:postcode": "B2942EBQ",
+        "addr:street": "Boedo",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clínica Privada Moderna",
+        "operator": "Clínica Privada Moderna S.A.",
+        "operator:type": "private",
+        "phone": "+543329480202",
+        "ref:sisa_codigo": "10060702300135",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.5017754,
+              -33.8101563
+            ],
+            [
+              -59.5017117,
+              -33.8100706
+            ],
+            [
+              -59.5019257,
+              -33.8099608
+            ],
+            [
+              -59.5019894,
+              -33.8100466
+            ],
+            [
+              -59.5017754,
+              -33.8101563
+            ]
+          ]
+        ]
+      },
+      "id": "way/805136982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/806011696",
+        "addr:city": "Henderson",
+        "addr:housenumber": "502",
+        "addr:postcode": "6465",
+        "addr:street": "Justo José de Urquiza",
+        "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal Doctor Saverio Galvagni",
+        "operator:type": "public",
+        "phone": "+54 2314 452062",
+        "ref:sisa_codigo": "10064062200315",
+        "ref:sisa_refes": "10064062200315",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.7241222,
+              -36.3064282
+            ],
+            [
+              -61.7245905,
+              -36.3068056
+            ],
+            [
+              -61.7239848,
+              -36.3072937
+            ],
+            [
+              -61.7235166,
+              -36.3069163
+            ],
+            [
+              -61.7241222,
+              -36.3064282
+            ]
+          ]
+        ]
+      },
+      "id": "way/806011696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -60343,37 +60358,28 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/718792974",
-        "addr:city": "Ingeniero Maschwitz",
-        "addr:postcode": "1623",
-        "addr:street": "La Plata y Maipú 1991",
-        "amenity": "hospital",
-        "description": "Sala Primeros Auxilios Ingeniero Maschwitz pertenece al ámbito de la medicina pública municipal",
-        "emergency": "yes",
-        "name": "Sala de Primero Auxilos"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7374222,
-          -34.3885937
-        ]
-      },
-      "id": "node/718792974"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/723185196",
+        "addr:city": "Belén de Escobar",
+        "addr:full": "Spadaccini 1084",
+        "addr:housenumber": "1084",
+        "addr:postcode": "1625",
+        "addr:street": "Spadaccini",
+        "alt_name": "Sanatorio Clinica Privada Fatima",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Clinica Fatima"
+        "name": "Clínica Fatima",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(03488) 421000",
+        "ref:sisa_codigo": "10062522300112",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "http://clinicafatimaescobar.com.ar/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7957411,
-          -34.3506508
+          -58.7967416,
+          -34.3514037
         ]
       },
       "id": "node/723185196"
@@ -60455,7 +60461,8 @@
       "properties": {
         "@id": "node/870946457",
         "amenity": "hospital",
-        "name": "Hospital San Antonio"
+        "name": "Hospital San Antonio",
+        "wikidata": "Q94691214"
       },
       "geometry": {
         "type": "Point",
@@ -60553,23 +60560,6 @@
         ]
       },
       "id": "node/909830274"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/953607528",
-        "addr:city": "Garín",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7336201,
-          -34.4208248
-        ]
-      },
-      "id": "node/953607528"
     },
     {
       "type": "Feature",
@@ -60757,7 +60747,8 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Hospital Materno Infantil San Roque",
-        "source": "ourairports.com"
+        "source": "ourairports.com",
+        "wikidata": "Q94691181"
       },
       "geometry": {
         "type": "Point",
@@ -60788,14 +60779,22 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1060515876",
+        "addr:full": "Avenida Eva Perón 4798",
+        "addr:postcode": "1834",
         "amenity": "hospital",
-        "name": "Comahue"
+        "healthcare": "hospital",
+        "name": "Clinica Comahue",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(011) 4243-9232",
+        "ref:sisa_codigo": "10064902300028",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.3430532,
-          -34.752407
+          -58.3431685,
+          -34.7524819
         ]
       },
       "id": "node/1060515876"
@@ -60866,7 +60865,8 @@
         "addr:street": "Entre Ríos",
         "amenity": "hospital",
         "contact:phone": "+54 345 421-2580",
-        "name": "Hospital Felipe Heras"
+        "name": "Hospital Felipe Heras",
+        "wikidata": "Q94691154"
       },
       "geometry": {
         "type": "Point",
@@ -61057,23 +61057,6 @@
         ]
       },
       "id": "node/1179204583"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1195228509",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Laboratorio Central"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.9785241,
-          -27.4570343
-        ]
-      },
-      "id": "node/1195228509"
     },
     {
       "type": "Feature",
@@ -62170,7 +62153,8 @@
       "properties": {
         "@id": "node/1400136832",
         "amenity": "hospital",
-        "name": "Hospital Centenario"
+        "name": "Hospital Centenario",
+        "wikidata": "Q94691101"
       },
       "geometry": {
         "type": "Point",
@@ -62497,23 +62481,6 @@
         ]
       },
       "id": "node/1495629862"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1502351828",
-        "amenity": "hospital",
-        "emergency": "no",
-        "name": "Dispensario Marques de Sobremonte"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.1955189,
-          -31.3627813
-        ]
-      },
-      "id": "node/1502351828"
     },
     {
       "type": "Feature",
@@ -63143,9 +63110,20 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1728971716",
+        "addr:city": "Resistencia",
+        "addr:full": "San Lorenzo 180",
+        "addr:housenumber": "180",
+        "addr:postcode": "3500",
+        "addr:street": "San Lorenzo",
+        "alt_name": "Sanatorio Antartida Centro Medico Para La Mujer S.r.l.",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Sanatorio Antártida"
+        "name": "Sanatorio Antártida",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 362  442 9155",
+        "ref:sisa_codigo": "10221402326072",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -63246,22 +63224,6 @@
         ]
       },
       "id": "node/1756124865"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1758960444",
-        "amenity": "hospital",
-        "name": "Hospital Local Doctor Enrique Marengo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5497097,
-          -34.5477301
-        ]
-      },
-      "id": "node/1758960444"
     },
     {
       "type": "Feature",
@@ -63850,23 +63812,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1880933097",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Unidad Sanitaria El Zorzal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8109619,
-          -34.7393885
-        ]
-      },
-      "id": "node/1880933097"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1892893208",
         "addr:city": "Hughes",
         "addr:postcode": "S2725",
@@ -64269,6 +64214,7 @@
       "properties": {
         "@id": "node/1934356386",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Caps 5"
       },
       "geometry": {
@@ -64329,22 +64275,6 @@
         ]
       },
       "id": "node/1940694251"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1940985242",
-        "amenity": "hospital",
-        "name": "Puesto Sanitario"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.9364512,
-          -27.1886192
-        ]
-      },
-      "id": "node/1940985242"
     },
     {
       "type": "Feature",
@@ -64484,23 +64414,6 @@
         ]
       },
       "id": "node/1981207891"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1990559036",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Sala Primeros Auxilios"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.9517891,
-          -27.3292849
-        ]
-      },
-      "id": "node/1990559036"
     },
     {
       "type": "Feature",
@@ -65020,6 +64933,35 @@
         ]
       },
       "id": "node/2073750907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2076566414",
+        "addr:city": "El Talar",
+        "addr:full": "Ruta 197 y Panamericana",
+        "addr:housenumber": "197",
+        "addr:postcode": "1617",
+        "addr:street": "Colectora Panamericana Oeste",
+        "amenity": "hospital",
+        "email": "secretaria@centromedicotalar.com",
+        "healthcare": "hospital",
+        "name": "Centro Médico Talar",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 11 4740 0577",
+        "ref:sisa_codigo": "10068052300013",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "http://www.centromedicotalar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6639099,
+          -34.4758814
+        ]
+      },
+      "id": "node/2076566414"
     },
     {
       "type": "Feature",
@@ -65600,22 +65542,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2171882235",
-        "amenity": "hospital",
-        "name": "Puesto de salud"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.9874634,
-          -27.3990219
-        ]
-      },
-      "id": "node/2171882235"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2173755468",
         "amenity": "hospital",
         "fixme": "Esto es de juguete. Ver como mapearlo.",
@@ -65669,6 +65595,7 @@
       "properties": {
         "@id": "node/2184331796",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Centro Salud Apipe"
       },
       "geometry": {
@@ -66497,9 +66424,19 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2374935591",
+        "addr:city": "Resistencia",
+        "addr:full": "Avenida 9 De Julio 1698",
+        "addr:postcode": "3500",
+        "addr:street": "Avenida 9 de Julio",
+        "alt_name": "C M Q R Centro Medico Quirurgico Resistencia",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Centro Médico Quirúrgico Resistencia"
+        "name": "Centro Médico Quirúrgico Resistencia",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "0362 4413309",
+        "ref:sisa_codigo": "10221402326935",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -66573,8 +66510,20 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2393442456",
+        "addr:city": "Resistencia",
+        "addr:full": "Avenida Marconi 1486",
+        "addr:housenumber": "1486",
+        "addr:postcode": "3500",
+        "addr:street": "Avenida Marconi",
+        "alt_name": "Sanatorio Chaco S.r.l. Sucursal Oeste",
         "amenity": "hospital",
-        "name": "Sanatorio Chaco Oeste"
+        "healthcare": "hospital",
+        "name": "Sanatorio Chaco Oeste",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "0362- 446-2566",
+        "ref:sisa_codigo": "10221402326077",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -66750,22 +66699,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2460972942",
-        "amenity": "hospital",
-        "name": "SANOS Ex-Clínica San Carlos"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.807378,
-          -30.7227157
-        ]
-      },
-      "id": "node/2460972942"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2460974167",
         "amenity": "hospital",
         "name": "Empresa Prior"
@@ -66794,22 +66727,6 @@
         ]
       },
       "id": "node/2460986700"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2464192456",
-        "amenity": "hospital",
-        "name": "Empresa Cabrera Servicios de Salud"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.8065449,
-          -30.7223574
-        ]
-      },
-      "id": "node/2464192456"
     },
     {
       "type": "Feature",
@@ -67413,23 +67330,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2579020294",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro de Salud Villa Rosa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.868107,
-          -34.4238485
-        ]
-      },
-      "id": "node/2579020294"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2585241239",
         "amenity": "hospital",
         "emergency": "yes",
@@ -67470,15 +67370,26 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2588707702",
+        "addr:city": "Pilar",
+        "addr:full": "Mayor Vergani 860",
+        "addr:housenumber": "860",
+        "addr:postcode": "1629",
+        "addr:street": "Víctor Vergani",
+        "alt_name": "Hospital Municipal Juan Cirilo Sanguinetti",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital del Pilar"
+        "name": "Hospital del Pilar",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "+54 2322 43 3741",
+        "ref:sisa_codigo": "10066382200322",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.9101506,
-          -34.4613073
+          -58.9101291,
+          -34.4612376
         ]
       },
       "id": "node/2588707702"
@@ -67504,8 +67415,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.9101247,
-          -34.460842
+          -58.9101663,
+          -34.4609095
         ]
       },
       "id": "node/2588707703"
@@ -67642,6 +67553,7 @@
         "amenity": "hospital",
         "description": "Hospital zonal de Nivel 1",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de Área",
         "source": "Neco Barrios y Asociados para el \"Gran Atlas de Misiones\" (IPEC, 2012)."
       },
@@ -67925,7 +67837,7 @@
       "properties": {
         "@id": "node/2707308787",
         "addr:city": "Maquinista Savio",
-        "addr:full": "Ruta 26 (Av. Constitución) N° 318 - esq. Juan XXIII",
+        "addr:full": "Ruta Provincial 26 318",
         "addr:postcode": "1620",
         "addr:street": "Juan XXIII",
         "amenity": "hospital",
@@ -67933,7 +67845,10 @@
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Sanitario San Carlos",
+        "operator:type": "private",
         "phone": "+54 348 4518400",
+        "ref:sisa_codigo": "10062522300150",
+        "ref:sisa_tipologia": "ESCIG",
         "website": "http://sanatoriosancarlos.com.ar/"
       },
       "geometry": {
@@ -68549,7 +68464,8 @@
       "properties": {
         "@id": "node/2900151222",
         "amenity": "hospital",
-        "name": "Hospital San Isidro Labrador"
+        "name": "Hospital San Isidro Labrador",
+        "wikidata": "Q94691230"
       },
       "geometry": {
         "type": "Point",
@@ -68905,7 +68821,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2983201795",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -68958,22 +68875,6 @@
         ]
       },
       "id": "node/2998894290"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3018471850",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5246071,
-          -34.592487
-        ]
-      },
-      "id": "node/3018471850"
     },
     {
       "type": "Feature",
@@ -69319,6 +69220,7 @@
         "addr:postcode": "3226",
         "addr:street": "Belgrano",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Mocoretá"
       },
       "geometry": {
@@ -69407,6 +69309,30 @@
         ]
       },
       "id": "node/3140177215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3140191833",
+        "addr:full": "Adolfo Alsina 1519",
+        "addr:postcode": "1832",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanatorio Privado Del Nińo",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(011) 4244-1830",
+        "ref:sisa_codigo": "10064902306619",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3954293,
+          -34.754492
+        ]
+      },
+      "id": "node/3140191833"
     },
     {
       "type": "Feature",
@@ -69620,6 +69546,7 @@
         "@id": "node/3225447894",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital San Roque"
       },
       "geometry": {
@@ -69668,7 +69595,8 @@
       "properties": {
         "@id": "node/3226297273",
         "amenity": "hospital",
-        "name": "Hospital San Vicente"
+        "name": "Hospital San Vicente",
+        "wikidata": "Q94691249"
       },
       "geometry": {
         "type": "Point",
@@ -69948,8 +69876,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.791216,
-          -34.4516961
+          -58.7911329,
+          -34.4517105
         ]
       },
       "id": "node/3274972361"
@@ -71611,6 +71539,7 @@
         "addr:postcode": "3307",
         "addr:street": "Islas Malvinas Argentinas",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital de San José",
         "note": "Nivel 1 ",
         "phone": "+54 3758 492213",
@@ -72617,29 +72546,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3746142154",
-        "addr:city": "Berazategui",
-        "addr:housenumber": "3126",
-        "addr:postcode": "1884",
-        "addr:street": "Avenida 14",
-        "amenity": "hospital",
-        "emergency": "no",
-        "healthcare": "hospital",
-        "name": "Centro Oftalmológico Clínico Quirúrgico San Camilo",
-        "operator": "Público"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.227199,
-          -34.7710312
-        ]
-      },
-      "id": "node/3746142154"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3749953053",
         "addr:city": "San Miguel de Tucumán",
         "addr:country": "AR",
@@ -72758,11 +72664,19 @@
       "properties": {
         "@id": "node/3763220338",
         "addr:city": "José C. Paz",
+        "addr:full": "General Lavalle 2066",
+        "addr:housenumber": "2066",
         "addr:postcode": "1665",
         "addr:street": "General Lavalle",
+        "alt_name": "Hospital Privado Doctor Alberto Duhau",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Duhau"
+        "name": "Hospital Duhau",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(02320) 423419",
+        "ref:sisa_codigo": "10064122300347",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -73610,7 +73524,8 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Hospital Paranacito",
-        "phone": "+54 3446 495 117"
+        "phone": "+54 3446 495 117",
+        "wikidata": "Q94691195"
       },
       "geometry": {
         "type": "Point",
@@ -74066,15 +73981,22 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4071019982",
+        "addr:full": "Avenida Hipólito Yrigoyen 8439",
+        "addr:postcode": "1832",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Policlinico de Lomas de Zamora"
+        "name": "Asociacion Medica De Lomas De Zamora S.a Policlinico Lomas",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "011-42393300",
+        "ref:sisa_codigo": "10064902316021",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.401272,
-          -34.7538089
+          -58.4013626,
+          -34.7537762
         ]
       },
       "id": "node/4071019982"
@@ -74083,14 +74005,22 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4071022009",
+        "addr:full": "Mariano Boedo 535",
+        "addr:postcode": "1832",
         "amenity": "hospital",
-        "name": "Clínica Boedo de Lomas de Zamora"
+        "healthcare": "hospital",
+        "name": "Clinica Privada Boedo",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(011) 4292-1114/1115",
+        "ref:sisa_codigo": "10064902306647",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4044881,
-          -34.7587857
+          -58.4045632,
+          -34.7587593
         ]
       },
       "id": "node/4071022009"
@@ -74414,7 +74344,8 @@
       "properties": {
         "@id": "node/4093511194",
         "amenity": "hospital",
-        "name": "Santa Rosa"
+        "name": "Santa Rosa",
+        "wikidata": "Q94691254"
       },
       "geometry": {
         "type": "Point",
@@ -74463,27 +74394,6 @@
         ]
       },
       "id": "node/4094294832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4094663095",
-        "addr:city": "Grand Bourg",
-        "addr:postcode": "1615",
-        "addr:street": "Luis Vernet y Batalla de Chacabuco",
-        "amenity": "hospital",
-        "description": "Sala de Primeros Auxilios",
-        "healthcare": "hospital",
-        "name": "Unidad Funcional \"Grand Bourg\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7322598,
-          -34.4866106
-        ]
-      },
-      "id": "node/4094663095"
     },
     {
       "type": "Feature",
@@ -75569,6 +75479,7 @@
         "addr:postcode": "3460",
         "addr:street": "Berón de Astrada y Comandante Andresito",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Civil Fernando Irastorza",
         "phone": "(03774) 422811",
         "wheelchair": "yes"
@@ -76200,6 +76111,7 @@
         "addr:street": "Juan Pujol",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Emergencias Médicas EMECUR",
         "phone": "+54 3774 424224"
       },
@@ -76279,6 +76191,7 @@
         "addr:postcode": "3460",
         "addr:street": "Avenida República Oriental del Uruguay",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Militar Curuzú Cuatiá",
         "phone": "54 3774 42 2307"
       },
@@ -77567,6 +77480,7 @@
         "addr:postcode": "3450",
         "addr:street": "Avenida Tomás Mazzanti",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "hospital zonal de goya",
         "opening_hours": "24/7"
       },
@@ -78379,27 +78293,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4379967292",
-        "addr:city": "Córdoba",
-        "addr:postcode": "5012",
-        "addr:street": "José Quevedo",
-        "amenity": "hospital",
-        "emergency": "no",
-        "name": "U.P.S Dispensario Municipal",
-        "operator": "Silvana Margarita"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.1425277,
-          -31.3819325
-        ]
-      },
-      "id": "node/4379967292"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4379980108",
         "addr:city": "marcos paz",
         "addr:postcode": "1727",
@@ -78895,6 +78788,7 @@
         "addr:street": "Avenida Pincén",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital SAMIC de Oberá",
         "note": "Nivel III",
         "phone": "+54 3755 421227",
@@ -79461,6 +79355,7 @@
         "amenity": "hospital",
         "emergency": "yes",
         "fixme": "Verificar la posicion exacta",
+        "healthcare": "hospital",
         "name": "Hospital de Cerro Azul",
         "phone": "+54 376 4494208",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
@@ -79680,27 +79575,6 @@
         ]
       },
       "id": "node/4469404062"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4470662175",
-        "addr:city": "Rincón de Milberg",
-        "addr:housenumber": "3000",
-        "addr:postcode": "B1624BPX",
-        "addr:street": "Avenida Santa María de las Conchas",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Centro materno Infantil Madre Teresa de Calcuta"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.6029518,
-          -34.4149893
-        ]
-      },
-      "id": "node/4470662175"
     },
     {
       "type": "Feature",
@@ -79946,48 +79820,6 @@
         ]
       },
       "id": "node/4477477204"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4477746123",
-        "addr:city": "Córdoba",
-        "addr:housenumber": "SN",
-        "addr:street": "Cauque",
-        "amenity": "hospital",
-        "description": "Centro de Atención Primaria de la Salud (B° 16 de Noviembre)",
-        "healthcare": "hospital",
-        "name": "UPAS N°3 VILLA CORNÚ",
-        "operator": "MUNICIPALIDAD DE CÓRDOBA",
-        "operator:type": "government"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2617769,
-          -31.3132449
-        ]
-      },
-      "id": "node/4477746123"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4477795074",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "name": "Centro de Atencion Primaria de Salud",
-        "source": "http://prensa.cba.gov.ar/salud/de-la-sota-inauguro-el-caps-24-horas-de-barrio-sol-naciente/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2423637,
-          -31.3219526
-        ]
-      },
-      "id": "node/4477795074"
     },
     {
       "type": "Feature",
@@ -80261,6 +80093,7 @@
       "properties": {
         "@id": "node/4501604411",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Caps 2"
       },
       "geometry": {
@@ -80277,6 +80110,7 @@
       "properties": {
         "@id": "node/4501604574",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de Salud Caps 1"
       },
       "geometry": {
@@ -80573,31 +80407,6 @@
         ]
       },
       "id": "node/4694444336"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4695952750",
-        "addr:full": "Avenida Rivadavia 14252",
-        "addr:postcode": "1704",
-        "addr:street": "Avenida Rivadavia",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Clinica Dim Rivadavia",
-        "operator": "Privado",
-        "operator:type": "private",
-        "phone": "011-5554-8888",
-        "ref:sisa_codigo": "10064272316509",
-        "ref:sisa_tipologia": "ESCIG"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5681611,
-          -34.6413761
-        ]
-      },
-      "id": "node/4695952750"
     },
     {
       "type": "Feature",
@@ -81024,6 +80833,7 @@
         "addr:street": "Juan de Vera",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Sanatorio Curuzú Cuatiá",
         "phone": "03774-422437"
       },
@@ -81221,7 +81031,7 @@
         "addr:city": "Mocoretá",
         "addr:postcode": "3226",
         "amenity": "hospital",
-        "name": "Farmacia"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -81239,7 +81049,7 @@
         "addr:city": "Mocoretá",
         "addr:postcode": "3226",
         "amenity": "hospital",
-        "name": "Farmacia"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -81342,27 +81152,6 @@
         ]
       },
       "id": "node/4888646421"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4888705933",
-        "addr:city": "Córdoba",
-        "addr:housenumber": "3900",
-        "addr:street": "Acampes",
-        "amenity": "hospital",
-        "description": "Dispensario de la zona. Atencion médica básica",
-        "name": "Centro de Atención Primaria de la Salud B° Villa Azalais Oeste",
-        "operator": "Municipalidad de Cordoba"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.1751108,
-          -31.3662616
-        ]
-      },
-      "id": "node/4888705933"
     },
     {
       "type": "Feature",
@@ -81762,16 +81551,23 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5049414023",
+        "addr:full": "General San Martín 2993",
+        "addr:postcode": "1613",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Ramon carillo",
-        "name:es": "Ramon carillo"
+        "name": "Hospital Municipal Doctor Ramon Carrillo",
+        "name:es": "Ramon carillo",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "011-46601616",
+        "ref:sisa_codigo": "10065152200224",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.6938186,
-          -34.4982512
+          -58.6939675,
+          -34.4982324
         ]
       },
       "id": "node/5049414023"
@@ -81930,6 +81726,7 @@
         "addr:postcode": "3400",
         "addr:street": "Montes de Oca",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "healthcare:speciality": "general",
         "name": "SAPS XXXI \"Dr. Blugerman\" B° Virgen de Los Dolores",
         "phone": "478822 (4822)"
@@ -82118,6 +81915,7 @@
         "addr:postcode": "3423",
         "addr:street": "Capitan Arbo y Blanco",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Inmaculada Concepción",
         "phone": "+54 3782 497000"
       },
@@ -82138,6 +81936,7 @@
         "addr:postcode": "3346",
         "addr:street": "Avenida Augusto Ballester",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Antonio de Padua"
       },
       "geometry": {
@@ -82205,7 +82004,7 @@
       "properties": {
         "@id": "node/5127539105",
         "amenity": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -83061,7 +82860,8 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Hospital Ecuador",
-        "phone": "+54 3438 494034"
+        "phone": "+54 3438 494034",
+        "wikidata": "Q94691142"
       },
       "geometry": {
         "type": "Point",
@@ -84321,8 +84121,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.4780567,
-          -25.2800475
+          -65.4780594,
+          -25.280016
         ]
       },
       "id": "node/5603147254"
@@ -84376,6 +84176,7 @@
         "addr:postcode": "3450",
         "addr:street": "Avenida del Trabajo",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Emergencia Belgrano",
         "name:en": "Español",
         "opening_hours": "24/7"
@@ -85256,27 +85057,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5864647291",
-        "addr:city": "Benavidez",
-        "addr:housenumber": "1186",
-        "addr:postcode": "1621",
-        "addr:street": "Tomás Godoy",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro de Salud El Arco"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7150255,
-          -34.4042504
-        ]
-      },
-      "id": "node/5864647291"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5866226737",
         "addr:city": "Mendoza",
         "addr:housenumber": "621",
@@ -85423,30 +85203,6 @@
         ]
       },
       "id": "node/5919488420"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5934087678",
-        "addr:city": "Manuel Alberti",
-        "addr:postcode": "1667",
-        "addr:street": "Mariano Paillete",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "Centro De Salud Manuel Alberti",
-        "phone": "02320 47-4140",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.776637,
-          -34.4586917
-        ]
-      },
-      "id": "node/5934087678"
     },
     {
       "type": "Feature",
@@ -85771,7 +85527,8 @@
       "properties": {
         "@id": "node/6184963631",
         "amenity": "hospital",
-        "name": "Hospital Perú"
+        "name": "Hospital Perú",
+        "wikidata": "Q94691199"
       },
       "geometry": {
         "type": "Point",
@@ -85781,6 +85538,30 @@
         ]
       },
       "id": "node/6184963631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6196906961",
+        "addr:full": "Av. Molina Arrotea 2499",
+        "addr:postcode": "1832",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Privada 2 De Abril",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(011) 4282-1406",
+        "ref:sisa_codigo": "10064902300036",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4333316,
+          -34.7675237
+        ]
+      },
+      "id": "node/6196906961"
     },
     {
       "type": "Feature",
@@ -85970,29 +85751,6 @@
         ]
       },
       "id": "node/6245854745"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6247232715",
-        "addr:city": "Tortuguitas",
-        "addr:postcode": "1667",
-        "addr:street": "Directorio",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "Salita de emergencia",
-        "source": "Reconocimiento terreste por LU9DCE 2019"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7572368,
-          -34.4696334
-        ]
-      },
-      "id": "node/6247232715"
     },
     {
       "type": "Feature",
@@ -86189,22 +85947,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6316629739",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.0115012,
-          -32.4104867
-        ]
-      },
-      "id": "node/6316629739"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6316707334",
         "amenity": "hospital",
         "healthcare": "hospital"
@@ -86351,9 +86093,16 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6358991351",
+        "addr:full": "Leandro N. Alem 250",
+        "addr:postcode": "1727",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Municipal Doctor Agnillo"
+        "name": "Hospital Municipal Doctor Hector J. D Agnillo",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "(0220) 47-1333",
+        "ref:sisa_codigo": "10065252200212",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -87168,31 +86917,6 @@
         ]
       },
       "id": "node/7204020155"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7209722373",
-        "addr:city": "Libertad",
-        "addr:housenumber": "21",
-        "addr:postcode": "1716",
-        "addr:street": "Colombia",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "healthcare:speciality": "ophthalmology;dentist",
-        "name": "Hospital Municipal Odonto-Oftalmologico de Libertad",
-        "operator": "Municipal",
-        "operator:type": "public"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.6908306,
-          -34.6949063
-        ]
-      },
-      "id": "node/7209722373"
     },
     {
       "type": "Feature",
@@ -93929,30 +93653,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/7504290710",
-        "addr:full": "Avenida Rivadavia 15577",
-        "addr:postcode": "1706",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Clinica Privada Dres. Marcelo S. Tachella",
-        "operator": "Privado",
-        "operator:type": "private",
-        "phone": "+54 11 4460 9000;+54 11 4460 9032",
-        "ref:sisa_codigo": "10065682300104",
-        "ref:sisa_tipologia": "ESCIG"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5861025,
-          -34.6434649
-        ]
-      },
-      "id": "node/7504290710"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/7504303054",
         "addr:city": "Ramos Mejía",
         "addr:full": "Mitre 175",
@@ -94501,6 +94201,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/7508875525",
+        "addr:full": "Sarmiento 256",
+        "addr:postcode": "5121",
+        "amenity": "hospital",
+        "name": "Hospital Municipal Despeñaderos",
+        "operator": "municipal",
+        "operator:type": "público",
+        "phone": "03547-492013",
+        "ref:sisa_codigo": "10141472231184",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2869347,
+          -31.8180181
+        ]
+      },
+      "id": "node/7508875525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/7509055949",
         "addr:full": "Av. Calchaquí 24",
         "addr:postcode": "1878",
@@ -94785,28 +94508,6 @@
         ]
       },
       "id": "node/7514929460"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7514969651",
-        "addr:city": "Corrientes",
-        "addr:postcode": "3400",
-        "addr:street": "Roque Pérez",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "SAPS VII - B° San Marcos",
-        "phone": "474828 (4828)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8227171,
-          -27.4890227
-        ]
-      },
-      "id": "node/7514969651"
     },
     {
       "type": "Feature",
@@ -95216,6 +94917,515 @@
         ]
       },
       "id": "node/7524863594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7526681451",
+        "addr:full": "Flores De Estrada 5248",
+        "addr:postcode": "1826",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Estrada",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(011) 4202-9070",
+        "ref:sisa_codigo": "10064342300039",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3957643,
+          -34.7349566
+        ]
+      },
+      "id": "node/7526681451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7526709755",
+        "addr:full": "Belgrano 1309",
+        "addr:postcode": "1832",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanatorio Modelo Banfield",
+        "operator": "Privado",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10064902305160",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3919281,
+          -34.745684
+        ]
+      },
+      "id": "node/7526709755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7526861275",
+        "addr:full": "Balcarce 351",
+        "addr:postcode": "1832",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Interzonal General Agudos L. C. De Gandulfo",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "(011) 4244-1923",
+        "ref:sisa_codigo": "10064902100232",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3929965,
+          -34.7619666
+        ]
+      },
+      "id": "node/7526861275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7526865386",
+        "addr:city": "Colonia Baranda",
+        "addr:full": "Ruta 89 S/n",
+        "addr:postcode": "3505",
+        "amenity": "hospital",
+        "fixme": "Verificar ubibación exacta",
+        "healthcare": "hospital",
+        "name": "Hospital Geriatrico Colonia Baranda",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "420332",
+        "ref:sisa_codigo": "10221402126059",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.3069641,
+          -27.5595879
+        ]
+      },
+      "id": "node/7526865386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7527135718",
+        "addr:full": "Sarmiento 250",
+        "addr:postcode": "1832",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Instituto Medico Sarmiento",
+        "operator": "Privado",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10064902317030",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4045096,
+          -34.7631491
+        ]
+      },
+      "id": "node/7527135718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7527627781",
+        "addr:full": "Ruta Nacional 36 Km 797",
+        "addr:postcode": "5000",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centro Medico Complejo Carcelario 1 Reverendo Padre Luchesse",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "351-434 2613",
+        "ref:sisa_codigo": "10140142135177",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2289817,
+          -31.5498584
+        ]
+      },
+      "id": "node/7527627781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7527835700",
+        "addr:city": "Barranqueras",
+        "addr:full": "Av. 9 De Julio 4202",
+        "addr:housenumber": "4202",
+        "addr:postcode": "3503",
+        "addr:street": "Avenida 9 de Julio",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Klinic",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "(0362)- 448-5606",
+        "ref:sisa_codigo": "10221402326015",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9495392,
+          -27.4842127
+        ]
+      },
+      "id": "node/7527835700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7528070884",
+        "addr:city": "Córdoba",
+        "addr:full": "Avenida Emilio Caraffa 2532",
+        "addr:housenumber": "2532",
+        "addr:postcode": "5000",
+        "addr:street": "Avenida Caraffa",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;gynaecology;paediatrics;dermatology;radiology;cardiology;surgery;plastic_surgery",
+        "name": "Clinica Privada Caraffa",
+        "operator": "Clinica Privada Caraffa S.R.L.",
+        "operator:type": "private",
+        "phone": "+54 0351 4273333",
+        "ref:sisa_codigo": "10140142331025",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "http://www.clinica-caraffa.com.ar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2130395,
+          -31.3875786
+        ]
+      },
+      "id": "node/7528070884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7529357718",
+        "addr:full": "General San Martín 2993",
+        "addr:postcode": "1613",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal Doctor Ramon Carrillo",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "011-46601616",
+        "ref:sisa_codigo": "10065152200224",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7058427,
+          -34.5071688
+        ]
+      },
+      "id": "node/7529357718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7529976979",
+        "addr:city": "Don Torcuato",
+        "addr:full": "General Ricchieri 1600",
+        "addr:housenumber": "1600",
+        "addr:postcode": "1611",
+        "addr:street": "General Ricchieri",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Los Almendros Torcuato",
+        "operator": "Privado",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10068052318194",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "https://www.clinicalosalmendros.com.ar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6205771,
+          -34.4885143
+        ]
+      },
+      "id": "node/7529976979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7529976980",
+        "addr:city": "Pilar",
+        "addr:full": "San Luis 425",
+        "addr:housenumber": "425",
+        "addr:postcode": "1629",
+        "addr:street": "San Luis",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clínica Los Almendros",
+        "operator:type": "private",
+        "phone": "+54 2322 42-6270",
+        "ref:sisa_codigo": "10066382300155",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "https://www.clinicalosalmendros.com.ar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9075208,
+          -34.4673845
+        ]
+      },
+      "id": "node/7529976980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7530004912",
+        "addr:city": "Don Torcuato",
+        "addr:full": "Marcelo T. De Alvear 650;Avda Alvear (Ruta 202) Nº 650 (B1611ELR) Don Torcuato",
+        "addr:housenumber": "650",
+        "addr:postcode": "1611",
+        "addr:street": "Avenida Ángel Torcuato de Alvear",
+        "alt_name": "Clinica Privada Don Torcuato",
+        "amenity": "hospital",
+        "email": "recepcion@sagradocorazondontorcuato.com",
+        "healthcare": "hospital",
+        "name": "Clinica Sagrado Corazon Don Torcuato",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 11 4741 7070;+54 11 5263 3204",
+        "ref:sisa_codigo": "10068052300102;10068052305040",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6406864,
+          -34.498955
+        ]
+      },
+      "id": "node/7530004912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7530074816",
+        "addr:full": "Laprida",
+        "addr:postcode": "2942",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Privada Moderna",
+        "operator": "Privado",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10060702305010",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5018405,
+          -33.8093907
+        ]
+      },
+      "id": "node/7530074816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7530330452",
+        "addr:city": "Villa Ángela",
+        "addr:full": "San Martín Y Donovan",
+        "addr:housenumber": "580",
+        "addr:postcode": "3540",
+        "addr:street": "San Martín",
+        "amenity": "hospital",
+        "email": "sanatorioparque@sanatorioparquesrl.arnetbiz.com.ar",
+        "healthcare": "hospital",
+        "name": "Sanatorio Parque",
+        "official_name": "Sanatorio Parque SRL",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 3735 421364",
+        "ref:sisa_codigo": "10220982326088",
+        "ref:sisa_tipologia": "ESCIG",
+        "website": "https://www.parquesrl.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.710633,
+          -27.5732326
+        ]
+      },
+      "id": "node/7530330452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7537524498",
+        "addr:city": "Henderson",
+        "addr:full": "Diagonal 25 De Mayo",
+        "addr:postcode": "6465",
+        "addr:street": "25 de Mayo",
+        "amenity": "hospital",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "hospital",
+        "name": "Sala Ramón Carrillo",
+        "operator:type": "public",
+        "phone": "+54 2314 15628124",
+        "ref:sisa_codigo": "50064062201967",
+        "ref:sisa_refes": "50064062201967",
+        "ref:sisa_tipologia": "ESSIDT",
+        "source": "https://www.gba.gob.ar/provinciaabierta/mapadedependencias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.7131452,
+          -36.2984712
+        ]
+      },
+      "id": "node/7537524498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7539351680",
+        "addr:city": "Belén de Escobar",
+        "addr:full": "Florentino Ameghino 650",
+        "addr:housenumber": "650",
+        "addr:postcode": "1625",
+        "addr:street": "Florentino Ameghino",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanatorio Plaza",
+        "operator": "Privado",
+        "operator:type": "private",
+        "phone": "+54 3488 420761",
+        "ref:sisa_codigo": "10062522300110",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7932756,
+          -34.3480345
+        ]
+      },
+      "id": "node/7539351680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7541393698",
+        "addr:full": "Avenida Eva Perón 3619",
+        "addr:postcode": "7600",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanatorio Modelo La Torre San Martin",
+        "operator": "Privado",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10063712318397",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5655269,
+          -34.5758799
+        ]
+      },
+      "id": "node/7541393698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7541412098",
+        "addr:full": "18 De Diciembre De 1856 N° 1848",
+        "addr:postcode": "1650",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanatorio San Martin - Aniva S.a.",
+        "operator": "Otros",
+        "operator:type": "private",
+        "phone": "4014-4304 / 115932-3917",
+        "ref:sisa_codigo": "10063713017272",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5375112,
+          -34.5803326
+        ]
+      },
+      "id": "node/7541412098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7541521082",
+        "addr:full": "Avenida De Los Constituyentes 3120",
+        "addr:postcode": "1651",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Zonal General Agudos Manuel Belgrano",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "(011) 4747-7224",
+        "ref:sisa_codigo": "10063712100390",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5255459,
+          -34.5497569
+        ]
+      },
+      "id": "node/7541521082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7541545440",
+        "addr:full": "E. Marengo 3908",
+        "addr:postcode": "1653",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Clinica Privada Santa Maria",
+        "operator": "Privado",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10063712305068",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5477955,
+          -34.5562455
+        ]
+      },
+      "id": "node/7541545440"
     }
   ]
 }
