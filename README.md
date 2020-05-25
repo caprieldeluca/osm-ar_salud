@@ -25,6 +25,8 @@ Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Ar
   
 * Datos Argentina (PAMI, REMEDIAR y SISA) (*Creative Commons Attribution 4.0*)
 
+  * [agencias-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/agencias-pami.geojson) es una conversión a GeoJSON de los registros georreferenciados del [dataset de agencias y centros de atención de PAMI publicado en el portal de Datos Argentina](https://datos.gob.ar/dataset/pami-listado-unidades-gestion-local-ugl-agencias).
+
   * [farmacias-pami.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/farmacias-pami.geojson) es el resultado de una geolocalización en Nominatim del [listado de farmacias del portal de datos abiertos de PAMI](https://datos.pami.org.ar/dataset/farmacias).
 
   * [caps-remediar.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/caps-remediar.geojson) es el resultado de una geolocalización en Nominatim del [listado de Centros de Atención Primaria de la Salud de REMEDIAR](http://sir.medicamentos.msal.gov.ar/int_Listado_de_CAPS_Habilitados_y_Activos/ShowInt_Listado_de_CAPS_Habilitados_y_ActivosTable.aspx).
