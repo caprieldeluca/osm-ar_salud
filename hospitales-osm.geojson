@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-21T23:36:02Z",
+  "timestamp": "2020-05-25T08:59:03Z",
   "features": [
     {
       "type": "Feature",
@@ -59636,6 +59636,131 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/804700817",
+        "addr:city": "Colonia Baranda",
+        "addr:full": "Ruta 89 S/n",
+        "addr:postcode": "3505",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Geriátrico Colonia Baranda",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "420332",
+        "ref:sisa_codigo": "10221402126059",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.3065314,
+              -27.558188
+            ],
+            [
+              -59.3067292,
+              -27.5582107
+            ],
+            [
+              -59.3067014,
+              -27.5584014
+            ],
+            [
+              -59.306731,
+              -27.5584048
+            ],
+            [
+              -59.3067238,
+              -27.5584535
+            ],
+            [
+              -59.3067504,
+              -27.5584566
+            ],
+            [
+              -59.3067396,
+              -27.5585305
+            ],
+            [
+              -59.3066851,
+              -27.5585242
+            ],
+            [
+              -59.3066583,
+              -27.5587074
+            ],
+            [
+              -59.3065646,
+              -27.5586966
+            ],
+            [
+              -59.3065892,
+              -27.5585288
+            ],
+            [
+              -59.3064506,
+              -27.5585128
+            ],
+            [
+              -59.3064205,
+              -27.5587185
+            ],
+            [
+              -59.3063619,
+              -27.5587118
+            ],
+            [
+              -59.3063525,
+              -27.5587762
+            ],
+            [
+              -59.3062585,
+              -27.5587654
+            ],
+            [
+              -59.3062695,
+              -27.5586899
+            ],
+            [
+              -59.3063067,
+              -27.5586942
+            ],
+            [
+              -59.3063373,
+              -27.5584849
+            ],
+            [
+              -59.3061009,
+              -27.5584578
+            ],
+            [
+              -59.3061189,
+              -27.5583347
+            ],
+            [
+              -59.3066275,
+              -27.5583931
+            ],
+            [
+              -59.3066442,
+              -27.5582786
+            ],
+            [
+              -59.3065202,
+              -27.5582644
+            ],
+            [
+              -59.3065314,
+              -27.558188
+            ]
+          ]
+        ]
+      },
+      "id": "way/804700817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/804766188",
         "addr:full": "Camino General Manuel Belgrano 4786",
         "addr:postcode": "1886",
@@ -59984,6 +60109,59 @@
         ]
       },
       "id": "way/806011696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/806543364",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital \"San Jose\""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.6370077,
+              -32.0676541
+            ],
+            [
+              -60.6369865,
+              -32.0676736
+            ],
+            [
+              -60.6363477,
+              -32.0677936
+            ],
+            [
+              -60.6362911,
+              -32.0677756
+            ],
+            [
+              -60.6361513,
+              -32.0672132
+            ],
+            [
+              -60.6361796,
+              -32.0671892
+            ],
+            [
+              -60.6368237,
+              -32.0670663
+            ],
+            [
+              -60.6368644,
+              -32.0670768
+            ],
+            [
+              -60.6370077,
+              -32.0676541
+            ]
+          ]
+        ]
+      },
+      "id": "way/806543364"
     },
     {
       "type": "Feature",
@@ -65381,7 +65559,8 @@
         "@id": "node/2145360203",
         "amenity": "hospital",
         "emergency": "yes",
-        "name": "hospital de lincoln dr. rubén o. miravalle"
+        "healthcare": "hospital",
+        "name": "Hospital de Lincoln Dr. Rubén O. Miravalle"
       },
       "geometry": {
         "type": "Point",
@@ -66750,6 +66929,7 @@
       "properties": {
         "@id": "node/2467222419",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Subzonal Especializado Doctor Dardo Rocha",
         "phone": "+54 (2226) 49-3037"
       },
@@ -69135,7 +69315,7 @@
         "addr:full": "Azcuénaga 870",
         "addr:housenumber": "870",
         "addr:postcode": "1115",
-        "addr:street": "General Miguel de Azcuénaga",
+        "addr:street": "Azcuénaga",
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Sanatorio Otamendi Y Miroli",
@@ -71459,6 +71639,7 @@
         "amenity": "hospital",
         "emergency": "yes",
         "fixme": "Verificar la posicion eacta",
+        "healthcare": "hospital",
         "name": "Hospital SAMIC de San Vicente",
         "phone": "+54 3755 461840"
       },
@@ -71480,6 +71661,7 @@
         "amenity": "hospital",
         "emergency": "yes",
         "fixme": "Verificar la posicion exacta",
+        "healthcare": "hospital",
         "name": "Hospital de Colonia Delicia",
         "phone": "+54 3751 427777",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
@@ -79022,6 +79204,7 @@
         "addr:street": "Doctor Ricardo Gutiérrez",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital de área “Doctor Ricardo Gutierrez”",
         "phone": "+54 3743 420520",
         "phone_1": "+54 3743 420544",
@@ -79310,6 +79493,7 @@
         "addr:postcode": "3364",
         "addr:street": "Ruta Provincial 8",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital \"Doctor Ricardo Alba Posse\"",
         "phone": "+54 3755 482011"
       },
@@ -81375,6 +81559,7 @@
         "@id": "node/4952478659",
         "addr:street": "Avenida San Martín",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Colonia Aurora"
       },
       "geometry": {
@@ -85098,28 +85283,6 @@
         ]
       },
       "id": "node/5866226746"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5867842757",
-        "addr:city": "Corrientes",
-        "addr:housenumber": "1536 Viv.",
-        "addr:postcode": "3400",
-        "addr:street": "Cosquin",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "C.A.P.S. III - Dr. Taglialene",
-        "phone": "3794477608"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8251532,
-          -27.4945453
-        ]
-      },
-      "id": "node/5867842757"
     },
     {
       "type": "Feature",
@@ -94469,113 +94632,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/7514763573",
-        "addr:city": "Corrientes",
-        "addr:postcode": "3400",
-        "addr:street": "Irala",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "CAPS XIV - Barrio Juan de Vera"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8434725,
-          -27.4899058
-        ]
-      },
-      "id": "node/7514763573"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7514929460",
-        "addr:city": "Corrientes",
-        "addr:postcode": "3400",
-        "addr:street": "Nuestra Señora de la Asunción",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "SAP XIX - B° Primera Junta",
-        "phone": "0379 438-7090"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8182985,
-          -27.490675
-        ]
-      },
-      "id": "node/7514929460"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7515038495",
-        "addr:city": "Corrientes",
-        "addr:postcode": "3400",
-        "addr:street": "Pirovano",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "SAPS XI - B° Villa Chiquita",
-        "phone": "484688 (4688)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8060926,
-          -27.4842498
-        ]
-      },
-      "id": "node/7515038495"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7515082931",
-        "addr:city": "Corrientes",
-        "addr:postcode": "3400",
-        "addr:street": "Pasaje Paris",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "SAPS II - B° Villa García"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8028451,
-          -27.4779315
-        ]
-      },
-      "id": "node/7515082931"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7515121624",
-        "addr:city": "Corrientes",
-        "addr:postcode": "3400",
-        "addr:street": "Calle Berazategui",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "SAP X - Dr. Korimblum"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.810613,
-          -27.4963344
-        ]
-      },
-      "id": "node/7515121624"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/7515629621",
         "addr:city": "Fuerte Esperanza",
         "addr:full": "Planta Urbana Sin Numero",
@@ -94988,32 +95044,6 @@
         ]
       },
       "id": "node/7526861275"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7526865386",
-        "addr:city": "Colonia Baranda",
-        "addr:full": "Ruta 89 S/n",
-        "addr:postcode": "3505",
-        "amenity": "hospital",
-        "fixme": "Verificar ubibación exacta",
-        "healthcare": "hospital",
-        "name": "Hospital Geriatrico Colonia Baranda",
-        "operator": "Provincial",
-        "operator:type": "public",
-        "phone": "420332",
-        "ref:sisa_codigo": "10221402126059",
-        "ref:sisa_tipologia": "ESCIG"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.3069641,
-          -27.5595879
-        ]
-      },
-      "id": "node/7526865386"
     },
     {
       "type": "Feature",

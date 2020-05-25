@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-21T23:39:02Z",
+  "timestamp": "2020-05-25T09:05:02Z",
   "features": [
     {
       "type": "Feature",
@@ -128,6 +128,7 @@
         "@id": "way/191319237",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Pigerl"
       },
       "geometry": {
@@ -13122,8 +13123,7 @@
         "addr:street": "Avenida de Las Américas",
         "alt_name": "CEMED",
         "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Centro Médico"
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -13551,6 +13551,7 @@
         "@id": "node/4440823587",
         "alt_name": "Centro de Atención Primaria de la Salud",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "CAPS",
         "short_name": "CAPS"
       },
@@ -17388,26 +17389,6 @@
         ]
       },
       "id": "node/5503856262"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5506939794",
-        "addr:city": "Corrientes",
-        "addr:street": "Guemes",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Centro de Atención Primaria de la Salud Nº 16",
-        "short_name": "CAPS Nº 16"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8105909,
-          -27.4948744
-        ]
-      },
-      "id": "node/5506939794"
     },
     {
       "type": "Feature",
@@ -25697,6 +25678,29 @@
         ]
       },
       "id": "node/7501742756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7501900931",
+        "addr:full": "O Brien Y Ruta 23",
+        "addr:postcode": "1744",
+        "amenity": "doctors",
+        "name": "CAPS Centro Integrador Comunitario La Bibiana",
+        "operator": "Municipalidad de Moreno",
+        "operator:type": "public",
+        "phone": "+54 237 4681156",
+        "ref:sisa_codigo": "50065602207544",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7683287,
+          -34.6143662
+        ]
+      },
+      "id": "node/7501900931"
     },
     {
       "type": "Feature",

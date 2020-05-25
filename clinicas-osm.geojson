@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-21T23:38:03Z",
+  "timestamp": "2020-05-25T09:00:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1344,31 +1344,31 @@
         "@id": "way/196936873",
         "amenity": "clinic",
         "healthcare": "clinic",
-        "name": "Centro de Salud N° 15"
+        "name": "Centro de Salud N°15 Bº Castañares"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -65.4020226,
-              -24.7310774
+              -65.4019695,
+              -24.7310983
             ],
             [
-              -65.4021156,
-              -24.7316518
+              -65.4020499,
+              -24.7316217
             ],
             [
-              -65.4014867,
-              -24.7317358
+              -65.401436,
+              -24.7317046
             ],
             [
-              -65.4013937,
-              -24.7311614
+              -65.4013745,
+              -24.7311757
             ],
             [
-              -65.4020226,
-              -24.7310774
+              -65.4019695,
+              -24.7310983
             ]
           ]
         ]
@@ -1867,44 +1867,6 @@
         ]
       },
       "id": "way/230967842"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/232250929",
-        "amenity": "clinic",
-        "building": "yes",
-        "healthcare": "clinic",
-        "name": "CAPS 4 Doctor Graciano Lugo"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.8051721,
-              -27.4898045
-            ],
-            [
-              -58.8049681,
-              -27.4899003
-            ],
-            [
-              -58.8048409,
-              -27.4897023
-            ],
-            [
-              -58.8050425,
-              -27.4896022
-            ],
-            [
-              -58.8051721,
-              -27.4898045
-            ]
-          ]
-        ]
-      },
-      "id": "way/232250929"
     },
     {
       "type": "Feature",
@@ -7056,6 +7018,7 @@
         "building": "yes",
         "emergency": "yes",
         "facebook": "https://es-la.facebook.com/pages/Sanatorio-Imi/1713660962181619",
+        "healthcare": "clinic",
         "name": "Sanatorio IMI (Instituto Materno Infantil)",
         "phone": "+54 3751 422755",
         "phone_1": "+54 3751 422339"
@@ -32420,6 +32383,7 @@
       "properties": {
         "@id": "node/809089281",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio"
       },
       "geometry": {
@@ -37007,6 +36971,7 @@
       "properties": {
         "@id": "node/3314365377",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica Rehabilitación Junin"
       },
       "geometry": {
@@ -39287,6 +39252,7 @@
       "properties": {
         "@id": "node/3762060875",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Unidad Sanitaria"
       },
       "geometry": {
@@ -39657,6 +39623,7 @@
         "addr:street": "Pionero Kennedy",
         "amenity": "clinic",
         "facebook": "https://www.facebook.com/pages/Sanatorio-Imi/1713660962181619",
+        "healthcare": "clinic",
         "name": "Sanatorio IMI",
         "phone": "+54 3751 422152"
       },
@@ -41676,7 +41643,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4177383903",
-        "amenity": "clinic"
+        "amenity": "clinic",
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -43029,6 +42997,7 @@
         "addr:postcode": "N3364",
         "addr:street": "Avenida 8 de Septiembre",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Regional",
         "phone": "+54 3755 498131"
       },
@@ -43652,6 +43621,7 @@
       "properties": {
         "@id": "node/4456890189",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica Vecchia SRL"
       },
       "geometry": {
@@ -43695,6 +43665,7 @@
         "addr:city": "Puerto Rico",
         "addr:street": "Avenida San Martín",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica de Ojos"
       },
       "geometry": {
@@ -47183,18 +47154,21 @@
         "@id": "node/4733305421",
         "addr:housenumber": "753",
         "addr:postcode": "4200",
-        "addr:street": "Av. Alsina",
+        "addr:street": "Av. Alsina;Alsina",
         "amenity": "clinic",
+        "email": "centrorenalalsina@hotmail.com.ar",
         "healthcare": "clinic",
+        "internet_access": "wlan",
         "name": "Centro Renal Alsina",
         "name:en": "Alsina Renal Center",
-        "opening_hours": "Su; Mo-Sa 06:00-22:00"
+        "opening_hours": "Su; Mo-Sa 06:00-22:00",
+        "phone": "543854283395"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.259533,
-          -27.7980107
+          -64.2595356,
+          -27.798021
         ]
       },
       "id": "node/4733305421"
@@ -47357,29 +47331,6 @@
         ]
       },
       "id": "node/4750974198"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4753706224",
-        "addr:housenumber": "753",
-        "addr:postcode": "4200",
-        "addr:street": "Alsina",
-        "amenity": "clinic",
-        "email": "centrorenalalsina@hotmail.com.ar",
-        "healthcare": "clinic",
-        "internet_access": "wlan",
-        "name": "Centro Renal Alsina",
-        "phone": "543854283395"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.2595381,
-          -27.7980313
-        ]
-      },
-      "id": "node/4753706224"
     },
     {
       "type": "Feature",
@@ -48488,6 +48439,7 @@
         "addr:street": "Jujuy",
         "amenity": "clinic",
         "facebook": "https://www.facebook.com/policlinicoeldorado/",
+        "healthcare": "clinic",
         "healthcare:speciality": "general",
         "name": "Policlínico Eldorado",
         "phone": "+54 3751 422180"
@@ -48535,6 +48487,7 @@
         "addr:street": "Avenida San Martín Este",
         "amenity": "clinic",
         "facebook": "https://www.facebook.com/centro.buddenberg",
+        "healthcare": "clinic",
         "name": "Centro Medico Buddenberg km 8"
       },
       "geometry": {
@@ -55806,6 +55759,7 @@
       "properties": {
         "@id": "node/6991078336",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Unidad Sanitaria"
       },
       "geometry": {
@@ -56108,6 +56062,7 @@
       "properties": {
         "@id": "node/7177358533",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Unidad Sanitaria"
       },
       "geometry": {
@@ -61158,30 +61113,6 @@
         ]
       },
       "id": "node/7501898892"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7501900931",
-        "addr:full": "O Brien Y Ruta 23",
-        "addr:postcode": "1744",
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "name": "CAPS Centro Integrador Comunitario La Bibiana",
-        "operator": "Municipal",
-        "operator:type": "public",
-        "phone": "0237-4681156",
-        "ref:sisa_codigo": "50065602207544",
-        "ref:sisa_tipologia": "ESSIDT"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7683555,
-          -34.6144015
-        ]
-      },
-      "id": "node/7501900931"
     },
     {
       "type": "Feature",
@@ -87844,6 +87775,198 @@
         ]
       },
       "id": "node/7541873299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7549061902",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "1050",
+        "addr:postcode": "3400",
+        "addr:street": "Necochea",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hospital José Ramón Vidal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8390049,
+          -27.4793322
+        ]
+      },
+      "id": "node/7549061902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7549061903",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "2085",
+        "addr:postcode": "3400",
+        "addr:street": "Avenida Alberdi",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Educativo Terapéutico Con Integración"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8464293,
+          -27.4856023
+        ]
+      },
+      "id": "node/7549061903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7549122999",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "1050",
+        "addr:postcode": "3400",
+        "addr:street": "Avenida Juan De Garay",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Policonsultorio Sindicato De Trabajadores Cerveceros De Corrientes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8413492,
+          -27.4935327
+        ]
+      },
+      "id": "node/7549122999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7549730676",
+        "addr:city": "Strobel",
+        "addr:street": "Paraná",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "clinic",
+        "name": "C.a.p.s. Eva Peron",
+        "operator:type": "public",
+        "phone": "+54 3443 4984866",
+        "ref:sisa_codigo": "50300212142458",
+        "ref:sisa_refes": "50300212142458",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6128828,
+          -32.0558488
+        ]
+      },
+      "id": "node/7549730676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7549983317",
+        "addr:city": "Corrientes",
+        "addr:postcode": "3400",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Rehabilitación Integral De La Salud Cris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.82602,
+          -27.4982109
+        ]
+      },
+      "id": "node/7549983317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7549991331",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "1718",
+        "addr:postcode": "3400",
+        "addr:street": "Avenida Maipú",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Policonsultorio Dra. Susana Olga Fernández"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8210583,
+          -27.4893451
+        ]
+      },
+      "id": "node/7549991331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7550010156",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "1612",
+        "addr:postcode": "3400",
+        "addr:street": "Medrano",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinica Del Sol SRL",
+        "phone": "3794 455061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7987208,
+          -27.481914
+        ]
+      },
+      "id": "node/7550010156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7550010306",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "3935",
+        "addr:postcode": "3400",
+        "addr:street": "Avenida Cazadores Correntinos",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Policonsultorio Dra. Acevedo Ursula Del Pilar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.807658,
+          -27.4864041
+        ]
+      },
+      "id": "node/7550010306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7550032833",
+        "addr:city": "Corrientes",
+        "addr:housenumber": "5138",
+        "addr:postcode": "3400",
+        "addr:street": "Pasaje Acevedo",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Policonsultorio Gabriel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7937507,
+          -27.4821234
+        ]
+      },
+      "id": "node/7550032833"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-21T23:39:02Z",
+  "timestamp": "2020-05-25T09:06:02Z",
   "features": [
     {
       "type": "Feature",
@@ -31712,6 +31712,7 @@
       "type": "Feature",
       "properties": {
         "@id": "way/806543379",
+        "addr:city": "Diamante",
         "amenity": "pharmacy",
         "building": "yes",
         "dispensing": "yes",
@@ -58935,6 +58936,7 @@
         "addr:housenumber": "1099",
         "addr:street": "Avenida Alberto Larroque",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Balboa"
       },
       "geometry": {
@@ -81467,6 +81469,7 @@
       "properties": {
         "@id": "node/4396950161",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "phone": "+54 11 4242-7725"
       },
       "geometry": {
@@ -107168,22 +107171,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5526593496",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4008478,
-          -24.7272325
-        ]
-      },
-      "id": "node/5526593496"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/5526611478",
         "amenity": "pharmacy",
         "healthcare": "pharmacy"
@@ -107350,22 +107337,6 @@
         ]
       },
       "id": "node/5532366972"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5533238698",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.3992181,
-          -24.7274328
-        ]
-      },
-      "id": "node/5533238698"
     },
     {
       "type": "Feature",
@@ -124552,7 +124523,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7177358532",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -129161,6 +129133,9 @@
         "addr:postcode": "3334",
         "addr:street": "Avenida 9 de Julio",
         "amenity": "pharmacy",
+        "brand": "Farmahorro",
+        "brand:wikidata": "Q20015002",
+        "brand:wikipedia": "es:Farmahorro",
         "dispensing": "yes",
         "healthcare": "pharmacy",
         "name": "Farmahorro"
@@ -131156,7 +131131,7 @@
         "addr:housenumber": "498",
         "addr:postcode": "3540",
         "addr:street": "1ro de Mayo",
-        "alt_nam": "Farmacia Villa Ángela",
+        "alt_name": "Farmacia Villa Ángela",
         "amenity": "pharmacy",
         "contact:facebook": "https://www.facebook.com/Farmacia-Villa-Angela-1888677874782874/",
         "dispensing": "yes",
