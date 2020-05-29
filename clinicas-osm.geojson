@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-25T09:00:02Z",
+  "timestamp": "2020-05-29T23:37:02Z",
   "features": [
     {
       "type": "Feature",
@@ -3187,6 +3187,7 @@
         "addr:street": "Ayacucho",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Sanatorio Cooperativa Luis Jeanot Sueiro (exAgos)"
       },
       "geometry": {
@@ -4825,6 +4826,7 @@
         "@id": "way/307090139",
         "amenity": "clinic",
         "building": "hospital",
+        "healthcare": "clinic",
         "name": "Cruz Verde"
       },
       "geometry": {
@@ -4982,6 +4984,7 @@
         "@id": "way/308089890",
         "amenity": "clinic",
         "building": "yes",
+        "healthcare": "clinic",
         "name": "Centro Médico San Lucas"
       },
       "geometry": {
@@ -5339,6 +5342,7 @@
         "addr:street": "Estrada",
         "amenity": "clinic",
         "building": "hospital",
+        "healthcare": "clinic",
         "name": "GUM Enfermería"
       },
       "geometry": {
@@ -23547,43 +23551,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/601833132",
-        "amenity": "clinic",
-        "building": "yes",
-        "healthcare": "clinic"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.963871,
-              -29.0765448
-            ],
-            [
-              -58.963903,
-              -29.0766706
-            ],
-            [
-              -58.9637844,
-              -29.0766936
-            ],
-            [
-              -58.9637525,
-              -29.0765677
-            ],
-            [
-              -58.963871,
-              -29.0765448
-            ]
-          ]
-        ]
-      },
-      "id": "way/601833132"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/607118505",
         "addr:city": "Ramos Mejía",
         "addr:housenumber": "770",
@@ -28725,11 +28692,11 @@
             ],
             [
               -68.569802,
-              -31.5362164
+              -31.5362163
             ],
             [
               -68.5696902,
-              -31.5361921
+              -31.536192
             ],
             [
               -68.5696611,
@@ -28748,6 +28715,10 @@
               -31.5360553
             ],
             [
+              -68.5695951,
+              -31.5360593
+            ],
+            [
               -68.5696431,
               -31.5360705
             ],
@@ -28760,6 +28731,10 @@
               -31.5360961
             ],
             [
+              -68.5697587,
+              -31.5360976
+            ],
+            [
               -68.5698358,
               -31.5361156
             ],
@@ -28768,7 +28743,7 @@
               -31.5361233
             ],
             [
-              -68.5698521,
+              -68.5698522,
               -31.5361753
             ],
             [
@@ -32168,6 +32143,172 @@
         ]
       },
       "id": "way/805539627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/808610732",
+        "addr:city": "Rivadavia",
+        "addr:postcode": "5400",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "CAPS Docentes Sanjuaninos",
+        "official_name": "Centro de Atención Primaria de Salud Docentes Sanjuaninos",
+        "operator": "Ministerio de Salud Pública",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.5640395,
+              -31.5539208
+            ],
+            [
+              -68.5638444,
+              -31.553964
+            ],
+            [
+              -68.5637729,
+              -31.5539225
+            ],
+            [
+              -68.5637429,
+              -31.5538492
+            ],
+            [
+              -68.5639972,
+              -31.5537935
+            ],
+            [
+              -68.5640395,
+              -31.5539208
+            ]
+          ]
+        ]
+      },
+      "id": "way/808610732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809581676",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.9638517,
+              -29.0765721
+            ],
+            [
+              -58.9638594,
+              -29.0766104
+            ],
+            [
+              -58.9638742,
+              -29.0766081
+            ],
+            [
+              -58.9638886,
+              -29.0766794
+            ],
+            [
+              -58.9637893,
+              -29.0766946
+            ],
+            [
+              -58.9637672,
+              -29.076585
+            ],
+            [
+              -58.9638517,
+              -29.0765721
+            ]
+          ]
+        ]
+      },
+      "id": "way/809581676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809581680",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.8376134,
+              -28.9791587
+            ],
+            [
+              -58.8374944,
+              -28.9792078
+            ],
+            [
+              -58.8374212,
+              -28.9790721
+            ],
+            [
+              -58.8375402,
+              -28.979023
+            ],
+            [
+              -58.8376134,
+              -28.9791587
+            ]
+          ]
+        ]
+      },
+      "id": "way/809581680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809584943",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Salud N°49"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.4044949,
+              -24.7372255
+            ],
+            [
+              -65.4045368,
+              -24.7376295
+            ],
+            [
+              -65.4040173,
+              -24.7376922
+            ],
+            [
+              -65.4037666,
+              -24.7372997
+            ],
+            [
+              -65.4044949,
+              -24.7372255
+            ]
+          ]
+        ]
+      },
+      "id": "way/809584943"
     },
     {
       "type": "Feature",
@@ -35710,7 +35851,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3071074317",
-        "amenity": "clinic"
+        "amenity": "clinic",
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -39079,6 +39221,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3750781896",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro Cardiológico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5148757,
+          -33.0041422
+        ]
+      },
+      "id": "node/3750781896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3751691075",
         "addr:full": "Los Andes y Malvinas Argentinas",
         "addr:postcode": "1876",
@@ -39286,6 +39445,7 @@
       "properties": {
         "@id": "node/3774428362",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica Uruguay"
       },
       "geometry": {
@@ -42099,6 +42259,7 @@
       "properties": {
         "@id": "node/4224402697",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Hospital San Martin"
       },
       "geometry": {
@@ -44382,6 +44543,7 @@
         "addr:postcode": "3384",
         "addr:street": "Antàrtida Argentina",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Dallmann",
         "opening_hours": "24/7",
         "phone": "+54 3751 480770"
@@ -47799,6 +47961,7 @@
       "properties": {
         "@id": "node/4882144521",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "INBICU - instituto bioquímico",
         "name:es": "INBICU - instituto bioquímico"
       },
@@ -47819,6 +47982,7 @@
         "addr:postcode": "3260",
         "addr:street": "Alberdi",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "INBICU- laboratorio bioquímico",
         "name:es": "INBICU- laboratorio bioquímico",
         "opening_hours": "Mo-Fr 06:45-12:30; Sa 07:00-12:00",
@@ -47840,6 +48004,7 @@
         "addr:housenumber": "110",
         "addr:street": "Onésimo Leguizamón",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "ConSalud"
       },
       "geometry": {
@@ -47858,6 +48023,7 @@
         "addr:housenumber": "304",
         "addr:street": "Supremo Entrerriano",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "OSPE - red unimedica",
         "name:es": "OSPE - red unimedica"
       },
@@ -47913,6 +48079,7 @@
         "addr:street": "Entre Rios",
         "amenity": "clinic",
         "email": "lic.nicoeckerdt@gmail.com",
+        "healthcare": "clinic",
         "name": "Quiropraxia San José",
         "name:en": "Chiropractic San José",
         "name:es": "Quiropraxia San José",
@@ -48346,6 +48513,7 @@
         "amenity": "clinic",
         "contact:phone": "+54 345 422-5373",
         "description": "Consultorios Médicos Interdisciplinarios",
+        "healthcare": "clinic",
         "name": "MEDICEF"
       },
       "geometry": {
@@ -48363,6 +48531,7 @@
         "@id": "node/5010487775",
         "addr:housenumber": "1033",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Laboratorio de Diagnóstico Bioquímico"
       },
       "geometry": {
@@ -48607,6 +48776,7 @@
         "amenity": "clinic",
         "contact:phone": "+54 9-345 529-6943",
         "description": "Centro de Kinesiología y Fisioterapia De Alejandro Maximiliano Navarro Jaurena. Lic. en Kinesiología y Fisiatría. M.P. 1078.",
+        "healthcare": "clinic",
         "name": "KineF",
         "opening_hours": "Mo-Fr 08:00-21:00"
       },
@@ -50569,6 +50739,7 @@
       "properties": {
         "@id": "node/5500109555",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sala de Primeros Auxilio"
       },
       "geometry": {
@@ -52366,6 +52537,7 @@
         "addr:housenumber": "318",
         "addr:street": "Supremo Entrerriano",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Murumed",
         "opening_hours": "Mo-Fr 08:00-13:00, 17:00-20:00; Sa 08:30-12:30"
       },
@@ -52431,6 +52603,7 @@
         "addr:street": "Rocamora",
         "amenity": "clinic",
         "email": "rosonano@hotmail.com",
+        "healthcare": "clinic",
         "name": "Clínica de Ojos",
         "phone": "+453442425410"
       },
@@ -52446,6 +52619,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5617846011",
+        "addr:city": "Cafarreño",
+        "addr:postcode": "W3445XAZ",
+        "addr:street": "Ruta Provincial 84",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Sala de Primeros Auxilios Paraje Cafarreño",
+        "operator": "Centro de Salud Modelo Dr. Arturo Illia",
+        "operator:type": "public",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8375293,
+          -28.9791511
+        ]
+      },
+      "id": "node/5617846011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5623265922",
         "addr:city": "Concepción del Uruguay",
         "addr:country": "AR",
@@ -52453,6 +52650,7 @@
         "addr:street": "Justo José de Urquiza",
         "amenity": "clinic",
         "contact:website": "http://alcec.org/",
+        "healthcare": "clinic",
         "name": "Centro Oncológico",
         "operator": "ALCEC"
       },
@@ -52817,10 +53015,16 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5718703193",
-        "addr:postcode": "3445",
+        "addr:city": "Punta Ifrán",
+        "addr:postcode": "W3453XAF",
+        "addr:street": "Avenida El Trabajador",
         "amenity": "clinic",
         "healthcare": "clinic",
-        "name": "Sala de primeros auxilios Don José Ledesma"
+        "healthcare:speciality": "general",
+        "name": "Sala de primeros auxilios Don José Ledesma",
+        "operator": "Centro de Salud Modelo Dr. Arturo Illia",
+        "operator:type": "public",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -53015,6 +53219,7 @@
         "addr:housenumber": "172",
         "addr:street": "Justo José de Urquiza",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Nueva Maternidad Concepcion"
       },
       "geometry": {
@@ -53203,6 +53408,7 @@
       "properties": {
         "@id": "node/5813458336",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Primeros Auxilios"
       },
       "geometry": {
@@ -54794,6 +55000,7 @@
       "properties": {
         "@id": "node/6426871685",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clínica Bovril"
       },
       "geometry": {
@@ -55145,6 +55352,7 @@
         "@id": "node/6596842589",
         "addr:street": "Avenida Alem",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro de Medicina Laboral Integral"
       },
       "geometry": {
@@ -69995,6 +70203,7 @@
         "addr:postcode": "1706",
         "addr:street": "Segunda Rivadavia",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Clinica Tachella",
         "official_name": "Clinica Privada Dres. Marcelo S. Tachella",
         "operator:type": "private",
@@ -87967,6 +88176,34 @@
         ]
       },
       "id": "node/7550032833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7564458466",
+        "addr:city": "Ciudad de Mendoza",
+        "addr:full": "Localidad 8a. Seccion",
+        "addr:postcode": "5500",
+        "addr:street": "Cordón del Plata Sur",
+        "amenity": "clinic",
+        "description": "Centro De Salud N 1 Barrio San Martín ,Centro De Atención Primario Area Departamebtal Capital , Ministerio De Salud. Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "email": "caps001@mendoza.gov.ar",
+        "healthcare": "clinic",
+        "name": "CAPS 1 Barrio San Martín",
+        "operator": "Provincial",
+        "operator:type": "public",
+        "phone": "+54 261 4444792",
+        "ref:sisa_codigo": "50500072158739",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8638633,
+          -32.863813
+        ]
+      },
+      "id": "node/7564458466"
     }
   ]
 }

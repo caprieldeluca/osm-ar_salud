@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-25T09:05:02Z",
+  "timestamp": "2020-05-29T23:40:03Z",
   "features": [
     {
       "type": "Feature",
@@ -300,6 +300,7 @@
         "@id": "way/218602790",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Médico Las Heras",
         "opening_hours": "Mo-Fr 08:30-20:00"
       },
@@ -4363,6 +4364,7 @@
         "amenity": "doctors",
         "building": "yes",
         "emergency": "no",
+        "healthcare": "doctor",
         "name": "Centro de Salud N. 2"
       },
       "geometry": {
@@ -7060,6 +7062,7 @@
       "properties": {
         "@id": "way/785416149",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Salud Doctor Diego Paroisien - Ubajay"
       },
       "geometry": {
@@ -9939,6 +9942,7 @@
       "properties": {
         "@id": "node/3094360203",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Kinesiologia"
       },
       "geometry": {
@@ -9955,6 +9959,7 @@
       "properties": {
         "@id": "node/3094360204",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Kinesiologia"
       },
       "geometry": {
@@ -10787,6 +10792,7 @@
       "properties": {
         "@id": "node/3281950670",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Doctor"
       },
       "geometry": {
@@ -11900,6 +11906,7 @@
         "addr:postcode": "3200",
         "addr:street": "Av. Isaac Castro",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Salud Barrio Nébel"
       },
       "geometry": {
@@ -13314,6 +13321,7 @@
       "properties": {
         "@id": "node/4425753891",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Médico Cerrito",
         "name:es": "Centro Médico Cerrito"
       },
@@ -13398,6 +13406,7 @@
       "properties": {
         "@id": "node/4431708524",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Médico Cerrito",
         "name:es": "Centro Médico Cerrito"
       },
@@ -13415,6 +13424,7 @@
       "properties": {
         "@id": "node/4431739404",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorio Dr. Jelin",
         "name:es": "Consultorio Dr. Jelin"
       },
@@ -13910,6 +13920,7 @@
         "alt_name": "Centro de Atención Primaria de la Salud",
         "amenity": "doctors",
         "description": "Centro de Atención Primaria de la Salud Municipal",
+        "healthcare": "doctor",
         "name": "CAPS Colonia Aeroparque"
       },
       "geometry": {
@@ -13974,6 +13985,7 @@
         "addr:street": "Bartolomé Mitre",
         "amenity": "doctors",
         "description": "Doctor: Hiller Ruben D .",
+        "healthcare": "doctor",
         "name": "Kinesiología - Gimnasio",
         "opening_hours": "Mo-Fr 07:00-12:00",
         "phone": "03751-481024"
@@ -17605,7 +17617,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5612366424",
-        "amenity": "doctors"
+        "amenity": "doctors",
+        "healthcare": "doctor"
       },
       "geometry": {
         "type": "Point",
@@ -25346,6 +25359,7 @@
       "properties": {
         "@id": "node/7472658476",
         "addr:city": "La Choza",
+        "addr:postcode": "1737",
         "addr:street": "Camino provincial secundario 041-06",
         "amenity": "doctors",
         "healthcare": "hospital",
@@ -26409,6 +26423,7 @@
         "addr:full": "Ruta 24 y Galicia, Barrio San Fermín",
         "addr:postcode": "1748",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Atención Primaria de la Salud 2",
         "operator": "Municipalidad de General Rodríguez",
         "operator:type": "public",
@@ -27135,6 +27150,29 @@
         ]
       },
       "id": "node/7533794424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7564401653",
+        "addr:city": "Colonia Alpina",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "doctor",
+        "name": "Puesto Sanitario Colonia Alpina (hosp Selva)",
+        "opertor:type": "public",
+        "ref:sisa_codigo": "50861542092246",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.1041037,
+          -30.0592865
+        ]
+      },
+      "id": "node/7564401653"
     }
   ]
 }

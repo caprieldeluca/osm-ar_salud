@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-25T08:59:03Z",
+  "timestamp": "2020-05-29T23:29:02Z",
   "features": [
     {
       "type": "Feature",
@@ -4189,6 +4189,7 @@
         "contact:phone": "+54 345 425-1135",
         "contact:website": "http://www.hdcm.gov.ar/",
         "emergency": "yes",
+        "healthcare": "hospital",
         "healthcare:speciality": "pathology;biochemistry;cardiology;general;surgery;plastic_surgery;paediatrics;dermatology;diagnostic_radiology;gastroenterology;gynecology;infectious_diseases;kinesiotherapy;nephrology;neurology;obstetrics;dentistry;oncology;physiotherapy;trauma;urology",
         "name": "Delicia Concepción Masvernat",
         "wikidata": "Q94691122"
@@ -4242,6 +4243,7 @@
         "beds": "53",
         "contact:phone": "+54 345 421-2607",
         "emergency": "yes",
+        "healthcare": "hospital",
         "healthcare:speciality": "general;paediatrics;gynaecology;maternity;applied_kinesiology;kinesiotherapy;physiotherapy",
         "name": "Hospital Materno Infantil Doctor Ramón Carrillo",
         "name:de": "Mutter und Kind Krankenhaus Arzt Ramón Carrillo",
@@ -10331,8 +10333,9 @@
         "addr:street": "Avenida Chiocconi",
         "amenity": "hospital",
         "building": "yes",
+        "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital municipal doctor Pedro Arozarena"
+        "name": "Hospital Municipal Pedro Arozarena"
       },
       "geometry": {
         "type": "Polygon",
@@ -12561,7 +12564,7 @@
         "amenity": "hospital",
         "description": "Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Dr. Juan Carlos Davalos",
+        "name": "Hospital Dr. Juan Carlos Dávalos",
         "operator:type": "public",
         "ref:sisa_refes": "10661612173042",
         "ref:sisa_tipologia": "ESCIG",
@@ -12572,24 +12575,24 @@
         "coordinates": [
           [
             [
-              -64.9647812,
-              -22.251883
+              -64.9647617,
+              -22.2519391
             ],
             [
-              -64.9647184,
-              -22.2520331
+              -64.9647077,
+              -22.2520975
             ],
             [
-              -64.9643296,
-              -22.2518937
+              -64.9643154,
+              -22.251983
             ],
             [
-              -64.9643924,
-              -22.2517436
+              -64.9643693,
+              -22.2518246
             ],
             [
-              -64.9647812,
-              -22.251883
+              -64.9647617,
+              -22.2519391
             ]
           ]
         ]
@@ -16103,6 +16106,7 @@
         "addr:postcode": "3190",
         "addr:street": "Maipú",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Zonal 9 de Julio"
       },
       "geometry": {
@@ -24819,6 +24823,7 @@
       "properties": {
         "@id": "way/294433482",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "San Jose",
         "wikidata": "Q94691240"
       },
@@ -25400,6 +25405,7 @@
         "amenity": "hospital",
         "building": "hospital",
         "fixme": "check;http://www.entreriostotal.com.ar/villaelisa/datos.php",
+        "healthcare": "hospital",
         "name": "Hospital San Roque"
       },
       "geometry": {
@@ -29965,6 +29971,7 @@
         "addr:housenumber": "235",
         "addr:street": "Esteva Berga",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Benjamin",
         "wikidata": "Q94691218"
       },
@@ -34699,7 +34706,8 @@
         "addr:city": "Federal",
         "addr:housenumber": "855",
         "addr:street": "Irigoyen",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -34771,6 +34779,7 @@
         "addr:postcode": "3200",
         "addr:street": "2 de Abril",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Salita primeros Auxilios Contitución",
         "operator": "4271147"
       },
@@ -40148,6 +40157,7 @@
         "addr:postcode": "3228",
         "addr:street": "Dr. Planas",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Santa Rosa",
         "wikidata": "Q94691253"
       },
@@ -42967,6 +42977,7 @@
       "properties": {
         "@id": "way/479455987",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Miguel"
       },
       "geometry": {
@@ -44122,7 +44133,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/497187694",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -44158,6 +44170,7 @@
       "properties": {
         "@id": "way/498289818",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Salita De Primeros Auxilios Municipal"
       },
       "geometry": {
@@ -51195,6 +51208,80 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/633519549",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Sala de primeros auxilios Don José Ledesma",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.9639587,
+              -29.0764515
+            ],
+            [
+              -58.9640725,
+              -29.0768246
+            ],
+            [
+              -58.9640806,
+              -29.0768779
+            ],
+            [
+              -58.9640725,
+              -29.0769241
+            ],
+            [
+              -58.9640603,
+              -29.0769685
+            ],
+            [
+              -58.9640319,
+              -29.0770165
+            ],
+            [
+              -58.9639993,
+              -29.0770485
+            ],
+            [
+              -58.9639587,
+              -29.0770769
+            ],
+            [
+              -58.9638997,
+              -29.0771035
+            ],
+            [
+              -58.9638367,
+              -29.0771195
+            ],
+            [
+              -58.9636213,
+              -29.0771586
+            ],
+            [
+              -58.9633936,
+              -29.0771941
+            ],
+            [
+              -58.9632635,
+              -29.076583
+            ],
+            [
+              -58.9639587,
+              -29.0764515
+            ]
+          ]
+        ]
+      },
+      "id": "way/633519549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/651752936",
         "addr:city": "Rauch",
         "addr:housenumber": "450",
@@ -55630,6 +55717,7 @@
       "properties": {
         "@id": "way/785406288",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Jose",
         "wikidata": "Q94691233"
       },
@@ -60166,6 +60254,153 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/809386527",
+        "addr:city": "Salazar",
+        "addr:postcode": "6471",
+        "addr:street": "25 de Mayo",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.1984167,
+              -36.3045432
+            ],
+            [
+              -62.1980119,
+              -36.3043976
+            ],
+            [
+              -62.1980871,
+              -36.3042617
+            ],
+            [
+              -62.1982229,
+              -36.3043106
+            ],
+            [
+              -62.1982647,
+              -36.3042351
+            ],
+            [
+              -62.1983516,
+              -36.3042664
+            ],
+            [
+              -62.19841,
+              -36.3041608
+            ],
+            [
+              -62.1985921,
+              -36.3042263
+            ],
+            [
+              -62.1984167,
+              -36.3045432
+            ]
+          ]
+        ]
+      },
+      "id": "way/809386527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809579607",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.919774,
+              -29.0186847
+            ],
+            [
+              -58.9200086,
+              -29.0186534
+            ],
+            [
+              -58.9200573,
+              -29.0189324
+            ],
+            [
+              -58.9199974,
+              -29.0189404
+            ],
+            [
+              -58.9199523,
+              -29.0189464
+            ],
+            [
+              -58.919912,
+              -29.0189517
+            ],
+            [
+              -58.9197502,
+              -29.0189733
+            ],
+            [
+              -58.9197136,
+              -29.018763
+            ],
+            [
+              -58.919774,
+              -29.0186847
+            ]
+          ]
+        ]
+      },
+      "id": "way/809579607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809581681",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Sala de Primeros Auxilios Paraje Cafarreño",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.8377683,
+              -28.97924
+            ],
+            [
+              -58.8374196,
+              -28.9793785
+            ],
+            [
+              -58.8372455,
+              -28.9784162
+            ],
+            [
+              -58.8373658,
+              -28.9783992
+            ],
+            [
+              -58.8377683,
+              -28.97924
+            ]
+          ]
+        ]
+      },
+      "id": "way/809581681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -61043,6 +61278,7 @@
         "addr:street": "Entre Ríos",
         "amenity": "hospital",
         "contact:phone": "+54 345 421-2580",
+        "healthcare": "hospital",
         "name": "Hospital Felipe Heras",
         "wikidata": "Q94691154"
       },
@@ -62110,6 +62346,7 @@
         "alt_name": "Hospital de Área Montecarlo",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Montecarlo Doctor Oscar Eugenio Darú",
         "phone": "+54 3751 480020",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
@@ -62331,6 +62568,7 @@
       "properties": {
         "@id": "node/1400136832",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Centenario",
         "wikidata": "Q94691101"
       },
@@ -67687,7 +67925,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2611448518",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -69775,6 +70014,7 @@
       "properties": {
         "@id": "node/3226297273",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Vicente",
         "wikidata": "Q94691249"
       },
@@ -70934,7 +71174,9 @@
       "properties": {
         "@id": "node/3463611176",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "healthcare": "hospital",
+        "name": "Hospital Susques \"Ntra. Sra. de Belén\"",
+        "phone": "3887490219"
       },
       "geometry": {
         "type": "Point",
@@ -71780,6 +72022,7 @@
         "addr:street": "1ro de Mayo",
         "amenity": "hospital",
         "ele": "31",
+        "healthcare": "hospital",
         "name": "Sanatorio Concordia Sogin"
       },
       "geometry": {
@@ -72025,10 +72268,17 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3725336064",
+        "addr:city": "Morteros",
+        "addr:housenumber": "1270",
+        "addr:street": "Boulevard 25 de Mayo",
+        "alt_name": "Hospital Municipal Dr. Jose Sauret Morteros",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Municipal \"José Sauret\""
+        "name": "Hospital Municipal José Sauret",
+        "phone": "+54 3562 425335",
+        "ref:sisa_codigo": "10141402231193",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -72896,6 +73146,7 @@
       "properties": {
         "@id": "node/3772003845",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Rio Uruguay"
       },
       "geometry": {
@@ -73575,6 +73826,7 @@
         "addr:postcode": "3129",
         "addr:street": "Benteveo",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de Salud"
       },
       "geometry": {
@@ -73727,6 +73979,7 @@
         "addr:street": "Chile",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Centro de Salud Sala de 1° Auxilios Villa Zorraquin"
       },
       "geometry": {
@@ -75313,6 +75566,7 @@
         "@id": "node/4103900476",
         "amenity": "hospital",
         "description": "Atiende a diario una enfermera y los días jueves una medica generalista. Durante las inundaciones la enfermera durmió algunos días allí, ya que su casa estaba con unos  30   cm de agua y debió abandonarla. ",
+        "healthcare": "hospital",
         "name": "Dispensario"
       },
       "geometry": {
@@ -78120,6 +78374,7 @@
         "addr:postcode": "3187",
         "addr:street": "San Martín",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Gral. Francisco Ramirez"
       },
       "geometry": {
@@ -78136,6 +78391,7 @@
       "properties": {
         "@id": "node/4371838389",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios"
       },
       "geometry": {
@@ -78836,7 +79092,7 @@
         "@id": "node/4415799389",
         "amenity": "hospital",
         "internet_access": "wlan",
-        "name": "sala de primeros auxilios cosme argerich"
+        "name": "Sala de primeros auxilios Cosme Argerich"
       },
       "geometry": {
         "type": "Point",
@@ -81102,26 +81358,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/4848615617",
-        "addr:city": "General Las Heras",
-        "addr:postcode": "1741",
-        "addr:street": "Avenida Chiocconi",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "name": "Pedro Arozarena"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.9416941,
-          -34.9298024
-        ]
-      },
-      "id": "node/4848615617"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/4866638023",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -81478,6 +81714,7 @@
         "addr:postcode": "3144",
         "addr:street": "Avenida Pancho Ramirez",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Crispin Velázquez"
       },
       "geometry": {
@@ -84320,17 +84557,23 @@
         "addr:postcode": "3445",
         "addr:street": "Yatay",
         "amenity": "hospital",
+        "emergency": "yes",
         "healthcare": "hospital",
-        "healthcare:speciality": "general",
-        "name": "Centro De Salud Modelo Dr. Arturo Illia",
+        "healthcare:speciality": "general;dentist;clinic",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Centro de Salud Modelo Dr. Arturo Illia",
         "opening_hours": "24/7",
-        "website": "https://www.facebook.com/csmodelo.arturoillia.1"
+        "operator": "Ministerio de Salud Pública de Corrientes",
+        "operator:type": "public",
+        "website": "https://www.facebook.com/csmodelo.arturoillia.1",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.9199519,
-          -29.0187826
+          -58.9199499,
+          -29.0187044
         ]
       },
       "id": "node/5607162587"
@@ -84396,27 +84639,6 @@
         ]
       },
       "id": "node/5615969465"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5617846011",
-        "addr:city": "Cafarreño",
-        "addr:postcode": "W3445XAZ",
-        "addr:street": "Ruta Provincial 84",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Sala de Primeros Auxilios",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.8375293,
-          -28.9791511
-        ]
-      },
-      "id": "node/5617846011"
     },
     {
       "type": "Feature",
@@ -85758,26 +85980,6 @@
         ]
       },
       "id": "node/6211590846"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6214328997",
-        "addr:city": "Salazar",
-        "addr:postcode": "6471",
-        "addr:street": "25 de Mayo",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital Municipal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.1983862,
-          -36.30437
-        ]
-      },
-      "id": "node/6214328997"
     },
     {
       "type": "Feature",
