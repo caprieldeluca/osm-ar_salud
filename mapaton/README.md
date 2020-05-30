@@ -2,15 +2,15 @@
 
 Soporte de datos y visualización para los [eventos de mapeo de **hospitales** y **centros de atención** de los departamentos considerados prioritarios](https://wiki.openstreetmap.org/wiki/ES:Argentina/Eventos/Mapat%C3%B3n_Salud_2020), dentro del [proyecto de OpenStreetMap Argentina: COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19).
 
-El objetivo de los eventos es verificar la ubicación geográfica de los establecimientos de salud listado de SISA, y cargarlos/editarlos en OSM.
+El objetivo de los eventos es verificar la ubicación geográfica de los establecimientos de salud del listado de SISA, y cargarlos/editarlos en OSM.
 
 [Ir al mapa "Mapatón - COVID19 - OSM Argentina"](https://umap.openstreetmap.fr/es/map/mapaton-covid19-osm-argentina_451066)
 
 ----
 
-Definimos como Prioridad 1 a los departamentos que registran casos positivos confirmados por transmisión comunitaria y transmisión por conglomerado.
+Definimos como Prioridad 1 a los departamentos que registran casos positivos confirmados por transmisión comunitaria o transmisión por conglomerado.
 
-Definimos como Prioridad 2 a los departamentos que registran casos positivos confirmados importados y por contacto estrecho.
+Definimos como Prioridad 2 a los departamentos que registran casos positivos confirmados importados o por contacto estrecho, únicamente.
 
 ----
 
