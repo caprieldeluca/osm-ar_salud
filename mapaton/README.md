@@ -8,9 +8,9 @@ El objetivo de los eventos es verificar la ubicación geográfica de los estable
 
 ----
 
-Definimos como Prioridad 1 a los departamentos que registran casos positivos confirmados por transmisión comunitaria y transmisión por conglomerado.
+Definimos como Prioridad 1 a los departamentos que registran casos positivos confirmados por transmisión comunitaria o transmisión por conglomerado.
 
-Definimos como Prioridad 2 a los departamentos que registran casos positivos confirmados importados y por contacto estrecho.
+Definimos como Prioridad 2 a los departamentos que registran casos positivos confirmados importados o por contacto estrecho, únicamente.
 
 ----
 
