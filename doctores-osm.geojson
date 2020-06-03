@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-29T23:40:03Z",
+  "timestamp": "2020-06-03T10:49:03Z",
   "features": [
     {
       "type": "Feature",
@@ -1438,6 +1438,7 @@
         "@id": "way/315535912",
         "addr:housenumber": "1220",
         "addr:postcode": "S2132",
+        "addr:street": "Presidente Perón",
         "amenity": "doctors",
         "building": "commercial",
         "building:levels": "1",
@@ -1607,7 +1608,7 @@
         "building": "commercial",
         "building:levels": "1",
         "contact:facebook": "https://fb.com/jacarandaespaciodesalud/",
-        "contact:phone": "+54 341 654-6322",
+        "contact:phone": "+54 9 341 654-6322",
         "contact:website": "https://www.espaciojacaranda.com/",
         "name": "Jacarandá",
         "opening_hours": "Mo-Sa 08:00-20:00",
@@ -1656,7 +1657,7 @@
         "addr:street": "Avenida Córdoba",
         "amenity": "doctors",
         "contact:facebook": "https://fb.com/neuro-funes",
-        "contact:phone": "+54 341 334-2836",
+        "contact:phone": "+54 9 341 334-2836",
         "description": "Neurorehabilitación",
         "healthcare": "rehabilitation",
         "name": "Neuro Funes",
@@ -7740,6 +7741,79 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/810897125",
+        "addr:city": "Arroyo Corto",
+        "addr:postcode": "8172",
+        "addr:street": "Dip. Chiappara",
+        "amenity": "doctors",
+        "building": "healthcare",
+        "healthcare": "doctor",
+        "name": "Sala de Primeros Auxilios"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.3151136,
+              -37.5136066
+            ],
+            [
+              -62.3150107,
+              -37.5137906
+            ],
+            [
+              -62.314676,
+              -37.5136728
+            ],
+            [
+              -62.3146957,
+              -37.5136376
+            ],
+            [
+              -62.3146107,
+              -37.5136076
+            ],
+            [
+              -62.3146315,
+              -37.5135705
+            ],
+            [
+              -62.3146806,
+              -37.5135878
+            ],
+            [
+              -62.3146912,
+              -37.5135688
+            ],
+            [
+              -62.3147725,
+              -37.5135975
+            ],
+            [
+              -62.3148042,
+              -37.5135408
+            ],
+            [
+              -62.3149109,
+              -37.5135784
+            ],
+            [
+              -62.3149311,
+              -37.5135424
+            ],
+            [
+              -62.3151136,
+              -37.5136066
+            ]
+          ]
+        ]
+      },
+      "id": "way/810897125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/427988926",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -13268,6 +13342,7 @@
         "addr:housenumber": "122",
         "addr:street": "9 de Julio",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorios Integrar",
         "name:es": "Consultorios Integrar"
       },
@@ -13339,6 +13414,7 @@
       "properties": {
         "@id": "node/4427919294",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Consultorios Integrar",
         "name:es": "Consultorios Integrar"
       },
@@ -13390,6 +13466,7 @@
         "@id": "node/4428323191",
         "addr:street": "Av. Congreso",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Privado de Familia. Psicología-Psiquiatría"
       },
       "geometry": {
@@ -13526,6 +13603,7 @@
       "properties": {
         "@id": "node/4438441296",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Adventista Vida Sana",
         "name:es": "Centro Adventista Vida Sana"
       },
@@ -18160,26 +18238,6 @@
         ]
       },
       "id": "node/5777972366"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5802535247",
-        "addr:city": "Arroyo Corto",
-        "addr:postcode": "8172",
-        "addr:street": "Dip. Chiappara",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "name": "Sala de Primeros Auxilios"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.314939,
-          -37.5136614
-        ]
-      },
-      "id": "node/5802535247"
     },
     {
       "type": "Feature",
@@ -24195,7 +24253,7 @@
         "addr:street": "San José",
         "amenity": "doctors",
         "contact:facebook": "https://fb.com/oftalmofunes",
-        "contact:phone": "+54 341 613-5139;+54 341 272-0902",
+        "contact:phone": "+54 9 341 613-5139;+54 9 341 272-0902",
         "description": "Local 24",
         "health_facility:type": "office",
         "health_specialty:ophthalmology": "yes",
@@ -27161,7 +27219,7 @@
         "fixme": "Verificar ubicación exacta",
         "healthcare": "doctor",
         "name": "Puesto Sanitario Colonia Alpina (hosp Selva)",
-        "opertor:type": "public",
+        "operator:type": "public",
         "ref:sisa_codigo": "50861542092246",
         "ref:sisa_tipologia": "ESSIDT"
       },
@@ -27173,6 +27231,95 @@
         ]
       },
       "id": "node/7564401653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572491311",
+        "addr:city": "Mocoretá",
+        "addr:postcode": "3226",
+        "alt_name": "CAPS Angelita Tagliapietra",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
+        "healthcare": "doctor",
+        "name": "Centro de Asistencia Primaria de la Salud Angelita Tagliapietra",
+        "operator:type": "public",
+        "ref:sisa_codigo": "50181122239088",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9777926,
+          -30.6157661
+        ]
+      },
+      "id": "node/7572491311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572946746",
+        "addr:city": "Chajarí",
+        "addr:housenumber": "3275",
+        "addr:postcode": "3228",
+        "addr:street": "Avenida 9 de Julio",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Centro de día",
+        "healthcare": "doctor",
+        "name": "Servicio De Emergencias Y Urgencias Medicas Berta Silveyra D Avila S.h.",
+        "ref:sisa_codigo": "53300282343452",
+        "ref:sisa_tipologia": "ESSIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9885942,
+          -30.7589254
+        ]
+      },
+      "id": "node/7572946746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572946753",
+        "addr:city": "Chajarí",
+        "addr:housenumber": "1225",
+        "addr:postcode": "3228",
+        "addr:street": "Mitre",
+        "amenity": "doctors",
+        "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
+        "healthcare": "doctor",
+        "name": "Consultorio Medico Giacoboni Malleret",
+        "phone": "+54 3456 422328",
+        "ref:sisa_codigo": "50300282343461",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9848134,
+          -30.7616199
+        ]
+      },
+      "id": "node/7572946753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7580096691",
+        "amenity": "doctors",
+        "name": "Centro Médico Aguaray"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7362041,
+          -22.2454988
+        ]
+      },
+      "id": "node/7580096691"
     }
   ]
 }

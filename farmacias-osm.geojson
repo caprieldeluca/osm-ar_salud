@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-29T23:38:02Z",
+  "timestamp": "2020-06-03T10:47:03Z",
   "features": [
     {
       "type": "Feature",
@@ -2215,6 +2215,7 @@
         "amenity": "pharmacy",
         "building": "farm",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Cafarati",
         "opening_hours": "08:30-12:30,15:30-20:00",
         "phone": "+54 03455 422035"
@@ -2262,6 +2263,7 @@
         "amenity": "pharmacy",
         "building": "farm",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Del Sol",
         "phone": "+54 03455 423782"
       },
@@ -2314,6 +2316,7 @@
         "amenity": "pharmacy",
         "building": "retail",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Luis Tres",
         "opening_hours": "08:30-12:30;15:30-20:00",
         "phone": "+54 03455 422959"
@@ -2375,6 +2378,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Villaguay",
         "opening_hours": "08:00-12:00,16:00-20:00",
         "phone": "+54 03455 421040"
@@ -2419,6 +2423,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Del Pueblo",
         "opening_hours": "08:00-12:00,15:30-20:00",
         "phone": "+54 03455 421708"
@@ -2465,6 +2470,7 @@
         "amenity": "pharmacy",
         "building": "retail",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "La Botica",
         "phone": "+54 03455 420298"
       },
@@ -2509,6 +2515,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Augustus",
         "phone": "+54 03455 422216"
       },
@@ -2556,6 +2563,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Bidigorry",
         "phone": "+54 03455 422205"
       },
@@ -2604,6 +2612,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "FarmaPlus",
         "phone": "+54 03455 499552"
       },
@@ -2668,6 +2677,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "La Entrerriana",
         "phone": "+54 03455 423943"
       },
@@ -2716,6 +2726,7 @@
         "amenity": "pharmacy",
         "building": "commercial",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Nueva Urquiza",
         "phone": "+54 03455 424422"
       },
@@ -31849,6 +31860,69 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/810050053",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Vantage 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.4915084,
+              -30.982656
+            ],
+            [
+              -64.4915218,
+              -30.9826249
+            ],
+            [
+              -64.4915513,
+              -30.9826318
+            ],
+            [
+              -64.4916237,
+              -30.9826617
+            ],
+            [
+              -64.4915888,
+              -30.9827392
+            ],
+            [
+              -64.4915687,
+              -30.9827836
+            ],
+            [
+              -64.4915352,
+              -30.9827928
+            ],
+            [
+              -64.4915124,
+              -30.9827813
+            ],
+            [
+              -64.4915164,
+              -30.9827687
+            ],
+            [
+              -64.4914679,
+              -30.9827475
+            ],
+            [
+              -64.4915084,
+              -30.982656
+            ]
+          ]
+        ]
+      },
+      "id": "way/810050053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101967",
         "addr:housenumber": "405",
         "addr:street": "Salta",
@@ -45069,7 +45143,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2156475460",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -49707,7 +49782,8 @@
         "addr:city": "Viale",
         "addr:postcode": "3109",
         "addr:street": "Avenida San Martín",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -49722,7 +49798,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2429435974",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -52789,13 +52866,13 @@
         "@id": "node/2608845229",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Centinela"
+        "name": "Farmacia Centinela"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.5631931,
-          -31.553111
+          -68.5632077,
+          -31.5531143
         ]
       },
       "id": "node/2608845229"
@@ -52870,6 +52947,7 @@
         "addr:postcode": "2840",
         "addr:street": "Monte Caseros",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "La Estación II",
         "operator": "Farmacias La Estación",
         "phone": "03444 - 423144",
@@ -56037,6 +56115,7 @@
       "properties": {
         "@id": "node/2783762964",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Buzzi"
       },
       "geometry": {
@@ -64386,7 +64465,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3358911285",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -69658,8 +69738,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.5852242,
-          -26.408213
+          -54.5851768,
+          -26.4081875
         ]
       },
       "id": "node/3648052666"
@@ -73733,7 +73813,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3878445567",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -81685,6 +81766,7 @@
         "addr:street": "San Antonio Norte",
         "amenity": "pharmacy",
         "email": "farmaciasanz@farmaciasanz.com.ar",
+        "healthcare": "pharmacy",
         "name": "Sanz",
         "name:es": "Sanz",
         "phone": "034444230",
@@ -82502,7 +82584,8 @@
       "properties": {
         "@id": "node/4424223091",
         "amenity": "pharmacy",
-        "name": "Farmacia Sorrivas",
+        "healthcare": "pharmacy",
+        "name": "Sorrivas",
         "name:es": "Farmacia Sorrivas"
       },
       "geometry": {
@@ -82536,14 +82619,15 @@
       "properties": {
         "@id": "node/4424340191",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Pérez",
         "name:es": "Pérez"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.355008,
-          -37.9841566
+          -61.3551716,
+          -37.9841629
         ]
       },
       "id": "node/4424340191"
@@ -82553,6 +82637,7 @@
       "properties": {
         "@id": "node/4424350192",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Bastard",
         "name:es": "Bastard"
       },
@@ -82641,6 +82726,7 @@
         "addr:postcode": "3103",
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Püiggari",
         "name:es": "Farmacia Püiggari"
       },
@@ -82658,6 +82744,7 @@
       "properties": {
         "@id": "node/4424509992",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Marrone",
         "name:es": "Farmacia Marrone",
         "opening_hours": "Su-Th 08:00-13:30,15:00-21:00, Fr 08:00-19:00"
@@ -82676,6 +82763,7 @@
       "properties": {
         "@id": "node/4424519689",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Libertador",
         "name:es": "Farmacia Libertador",
         "opening_hours": "Fr 08:00-18:00, Su-Th 08:00-13:00,15:00-19:00, Sa 20:00-21:30"
@@ -82841,6 +82929,7 @@
       "properties": {
         "@id": "node/4427939591",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Bellafarma",
         "name:es": "Bellafarma"
       },
@@ -95596,6 +95685,7 @@
       "properties": {
         "@id": "node/4731001362",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Piaggo"
       },
       "geometry": {
@@ -96085,13 +96175,14 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4781210525",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.3578447,
-          -37.9789356
+          -61.3580298,
+          -37.9789293
         ]
       },
       "id": "node/4781210525"
@@ -96393,8 +96484,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.7749401,
-          -28.4757795
+          -65.7748851,
+          -28.47575
         ]
       },
       "id": "node/4804468467"
@@ -97295,6 +97386,28 @@
         ]
       },
       "id": "node/4876617421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4879064305",
+        "addr:city": "Mocoretá",
+        "addr:postcode": "3226",
+        "addr:street": "Pedro Pablo Marturet",
+        "alt_name": "Farmacia del Carmen",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Del Carmen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9660647,
+          -30.6183103
+        ]
+      },
+      "id": "node/4879064305"
     },
     {
       "type": "Feature",
@@ -106117,7 +106230,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5485413976",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -106132,7 +106246,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5485413977",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -106147,7 +106262,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5485413978",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -114633,6 +114749,7 @@
       "properties": {
         "@id": "node/6136026765",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "El Aguila"
       },
       "geometry": {
@@ -114649,6 +114766,7 @@
       "properties": {
         "@id": "node/6136026770",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Campañaro"
       },
       "geometry": {
@@ -114665,6 +114783,7 @@
       "properties": {
         "@id": "node/6136226414",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "9 de Julio"
       },
       "geometry": {
@@ -114680,7 +114799,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6136226417",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -114696,6 +114816,7 @@
       "properties": {
         "@id": "node/6136226418",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Del Centro"
       },
       "geometry": {
@@ -115385,7 +115506,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6184963620",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -115400,7 +115522,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6184963622",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -115415,7 +115538,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6184963623",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -115469,6 +115593,7 @@
         "addr:postcode": "3153",
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacia Victoria"
       },
       "geometry": {
@@ -129412,6 +129537,7 @@
         "addr:street": "25 de Mayo",
         "amenity": "pharmacy",
         "fixme": "¿Ubicacion correcta?",
+        "healthcare": "pharmacy",
         "name": "Marichal"
       },
       "geometry": {
@@ -129431,6 +129557,7 @@
         "addr:street": "San Martin",
         "amenity": "pharmacy",
         "fixme": "¿Ubicacion correcta?",
+        "healthcare": "pharmacy",
         "name": "Del Centro"
       },
       "geometry": {
@@ -131288,6 +131415,320 @@
         ]
       },
       "id": "node/7546234242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572491353",
+        "addr:city": "Mocoretá",
+        "addr:postcode": "3226",
+        "addr:street": "Pedro Pablo Marturet",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mocoretá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.966096,
+          -30.6181482
+        ]
+      },
+      "id": "node/7572491353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376386",
+        "addr:city": "Morteros",
+        "addr:housenumber": "262",
+        "addr:postcode": "2421",
+        "addr:street": "Avenidad del Libertador",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Canello",
+        "phone": "+54 3562 422019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0052671,
+          -30.7044605
+        ]
+      },
+      "id": "node/7576376386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376397",
+        "addr:city": "Morteros",
+        "addr:housenumber": "676",
+        "addr:postcode": "2421",
+        "addr:street": "Avenidad del Libertador",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Maletto de Ferrero",
+        "phone": "+54 3562 422417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0062394,
+          -30.708752
+        ]
+      },
+      "id": "node/7576376397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376402",
+        "addr:city": "Morteros",
+        "addr:housenumber": "244",
+        "addr:postcode": "2421",
+        "addr:street": "Avenidad del Libertador",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "San Roque",
+        "phone": "+54 3562 402145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0052209,
+          -30.7042271
+        ]
+      },
+      "id": "node/7576376402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376404",
+        "addr:city": "Morteros",
+        "addr:housenumber": "801",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard Belgrano",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Viotto",
+        "phone": "+54 3562 423392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0019685,
+          -30.710995
+        ]
+      },
+      "id": "node/7576376404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376405",
+        "addr:city": "Morteros",
+        "addr:full": "Boulevard 25 de Mayo y Leon XIII",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard 25 de Mayo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "fixme": "Verificar ubicación exacta",
+        "healthcare": "pharmacy",
+        "name": "FarmaNova",
+        "phone": "+54 3562 422943"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0125338,
+          -30.7091148
+        ]
+      },
+      "id": "node/7576376405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376406",
+        "addr:city": "Morteros",
+        "addr:housenumber": "980",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard Hipólito Irigoyen",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Del Lago",
+        "phone": "+54 3562 404445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0043634,
+          -30.7125584
+        ]
+      },
+      "id": "node/7576376406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376407",
+        "addr:city": "Morteros",
+        "addr:postcode": "2421",
+        "addr:street": "J. B. Cabral",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Vitta Bello",
+        "phone": "+54 3562 402844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0084855,
+          -30.7131695
+        ]
+      },
+      "id": "node/7576376407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376408",
+        "addr:city": "Morteros",
+        "addr:housenumber": "536",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard 25 de Mayo",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farma Salud",
+        "phone": "+54 3562 404075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0107573,
+          -30.7093851
+        ]
+      },
+      "id": "node/7576376408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376409",
+        "addr:city": "Morteros",
+        "addr:housenumber": "835",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard 25 de Mayo",
+        "amenity": "pharmacy",
+        "contact:whatsapp": "+54 3562 671528",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Senn",
+        "phone": "+54 3562 15671528"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0141187,
+          -30.7091946
+        ]
+      },
+      "id": "node/7576376409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376410",
+        "addr:city": "Morteros",
+        "addr:full": "General Paz y Boulevard Belgrano",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard Belgrano",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Marengo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0021547,
+          -30.7117351
+        ]
+      },
+      "id": "node/7576376410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376411",
+        "addr:city": "Morteros",
+        "addr:housenumber": "840",
+        "addr:postcode": "2421",
+        "addr:street": "Italia",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Morello",
+        "phone": "+54 3562 422411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0078795,
+          -30.7105294
+        ]
+      },
+      "id": "node/7576376411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376412",
+        "addr:city": "Morteros",
+        "addr:housenumber": "1475",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard 9 de Julio",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Alesso",
+        "phone": "+54 3562 422307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0077075,
+          -30.7176771
+        ]
+      },
+      "id": "node/7576376412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7588170285",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3860286,
+          -32.4526254
+        ]
+      },
+      "id": "node/7588170285"
     }
   ]
 }

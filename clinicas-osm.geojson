@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-29T23:37:02Z",
+  "timestamp": "2020-06-03T10:33:03Z",
   "features": [
     {
       "type": "Feature",
@@ -4895,6 +4895,7 @@
       "properties": {
         "@id": "way/307670634",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "ER Emergencias"
       },
       "geometry": {
@@ -4931,6 +4932,7 @@
       "properties": {
         "@id": "way/307670635",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Americano"
       },
       "geometry": {
@@ -25796,6 +25798,10 @@
               -31.1380761
             ],
             [
+              -64.296431,
+              -31.137839
+            ],
+            [
               -64.29642,
               -31.1377191
             ],
@@ -34862,6 +34868,7 @@
         "addr:postcode": "2820",
         "addr:street": "Schachtel",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sala de primeros auxilos Barrio San Isidro"
       },
       "geometry": {
@@ -35817,7 +35824,7 @@
         "name": "Centro de Salud Villa Forestación",
         "operator": "Provincial",
         "operator:type": "public",
-        "phone": "(03722) 410111",
+        "phone": "+54 3722 410111",
         "ref:sisa_codigo": "50221402126476",
         "ref:sisa_tipologia": "ESSIDT"
       },
@@ -37300,6 +37307,7 @@
       "properties": {
         "@id": "node/3358913327",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Sanatorio Adventista del Plata",
         "opening_hours": "Su-Fr 07:00-20:00",
         "phone": "3434200220"
@@ -40423,6 +40431,7 @@
       "properties": {
         "@id": "node/4018874798",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Centro de Salud"
       },
       "geometry": {
@@ -43373,6 +43382,7 @@
       "properties": {
         "@id": "node/4424509991",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Emergencias SAP",
         "opening_hours": "24/7"
       },
@@ -43654,7 +43664,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4454030889",
-        "amenity": "clinic"
+        "amenity": "clinic",
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -43669,7 +43680,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4454032690",
-        "amenity": "clinic"
+        "amenity": "clinic",
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -43684,7 +43696,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4454032789",
-        "amenity": "clinic"
+        "amenity": "clinic",
+        "healthcare": "clinic"
       },
       "geometry": {
         "type": "Point",
@@ -54699,14 +54712,23 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6312026676",
+        "addr:city": "Esquina",
+        "addr:full": "Schweizer Y Moreno 1386",
+        "addr:postcode": "3196",
+        "addr:street": "Coronel Schweizer",
         "amenity": "clinic",
-        "healthcare": "clinic"
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "clinic",
+        "name": "Sanatorio Doctor Martín De Medicos Asociados SRL",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10180492339063",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.5247936,
-          -30.0136355
+          -59.5247558,
+          -30.0136951
         ]
       },
       "id": "node/6312026676"
@@ -55869,6 +55891,7 @@
       "properties": {
         "@id": "node/6897045833",
         "amenity": "clinic",
+        "healthcare": "clinic",
         "name": "Dispensario"
       },
       "geometry": {
@@ -85327,8 +85350,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7023517,
-          -34.5314155
+          -58.7170998,
+          -34.5210931
         ]
       },
       "id": "node/7529755096"
@@ -88204,6 +88227,180 @@
         ]
       },
       "id": "node/7564458466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572491324",
+        "addr:city": "Mocoretá",
+        "addr:full": "San Martin Y Alvear",
+        "addr:postcode": "3226",
+        "addr:street": "Alvear",
+        "alt_name": "Clínica San Juan",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple,",
+        "healthcare": "clinic",
+        "name": "San Juan",
+        "operator:type": "private",
+        "ref:sisa_codigo": "10181122339017",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9650878,
+          -30.6227977
+        ]
+      },
+      "id": "node/7572491324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7572946752",
+        "addr:city": "Chajarí",
+        "addr:housenumber": "3230",
+        "addr:postcode": "3228",
+        "addr:street": "Entre Rios",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Diagnostico por Imágenes",
+        "healthcare": "clinic",
+        "name": "Sala De Diagnostico Por Imagenes Centro Tomografico Sala De Diagnostico Por Imagenes Centro Tomografico Chajari",
+        "phone": "+54 3456 420329",
+        "ref:sisa_codigo": "51300282342523",
+        "ref:sisa_tipologia": "ESSID"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9855888,
+          -30.7611687
+        ]
+      },
+      "id": "node/7572946752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376329",
+        "addr:city": "Morteros",
+        "addr:housenumber": "710",
+        "addr:postcode": "2421",
+        "addr:street": "Boulevard 25 de Mayo",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Alto riesgo con terapia intensiva",
+        "healthcare": "clinic",
+        "name": "Clinica Privada San Jose SRl",
+        "phone": "+54 3562 422438",
+        "ref:sisa_codigo": "10141402331106",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0128435,
+          -30.7090689
+        ]
+      },
+      "id": "node/7576376329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376350",
+        "addr:city": "Morteros",
+        "addr:housenumber": "205",
+        "addr:postcode": "2421",
+        "addr:street": "Intendente Italo Antonio J. Rossi",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro De Medicina Nuclear Spect SRL",
+        "ref:sisa_codigo": "50141402333077",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0036737,
+          -30.6993025
+        ]
+      },
+      "id": "node/7576376350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376364",
+        "addr:city": "Morteros",
+        "addr:housenumber": "64",
+        "addr:postcode": "2421",
+        "addr:street": "Olmos",
+        "amenity": "clinic",
+        "description": "Categoría de tipología: Diagnostico por Imágenes",
+        "healthcare": "clinic",
+        "name": "Centro De Resonancia Morteros",
+        "ref:sisa_codigo": "51141402333080",
+        "ref:sisa_tipologia": "ESSID"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0041778,
+          -30.7082389
+        ]
+      },
+      "id": "node/7576376364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7578639892",
+        "addr:city": "Morteros",
+        "addr:housenumber": "432",
+        "addr:postcode": "2421",
+        "addr:street": "Saenz Peña",
+        "alt_name": "Centro de Atención Primaria Malvinas-San Cayetano",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Centro de Atención Primaria de Salud Malvinas-San Cayetano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0141338,
+          -30.7047937
+        ]
+      },
+      "id": "node/7578639892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7579087818",
+        "addr:full": "Esmeralda S/Nº",
+        "addr:postcode": "5889",
+        "addr:street": "Esmeralda",
+        "alt_name": "Puesto Sanitario De Arroyo De Los Patos",
+        "amenity": "clinic",
+        "email": "dispensarioarroyodelospatos@hotmail.com",
+        "fixme": "ubicar precisamente",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;pediatrics",
+        "name": "Dispensario Sor Teresa López",
+        "operator": "Municipal",
+        "operator:type": "public",
+        "phone": "+54 03544 472310",
+        "ref:sisa_codigo": "50141262231861",
+        "ref:sisa_tipologia": "ESSIDT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0020331,
+          -31.7624403
+        ]
+      },
+      "id": "node/7579087818"
     }
   ]
 }

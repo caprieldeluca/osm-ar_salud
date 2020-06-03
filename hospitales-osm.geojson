@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-05-29T23:29:02Z",
+  "timestamp": "2020-06-03T10:32:03Z",
   "features": [
     {
       "type": "Feature",
@@ -1649,6 +1649,172 @@
         ]
       },
       "id": "relation/10847687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10974629",
+        "addr:full": "La Rioja 951",
+        "addr:postcode": "1221",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Unidad Asistencial Por Mas Salud Doctor Cesar Milstein (ex Hospital Frances)",
+        "operator": "Nacional",
+        "operator:type": "public",
+        "phone": "(011) 4959-1500",
+        "ref:sisa_codigo": "14020012715328",
+        "ref:sisa_tipologia": "ESCIG",
+        "type": "multipolygon",
+        "wikidata": "Q5902646",
+        "wikipedia": "es:Hospital Francés"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.4083293,
+              -34.6212231
+            ],
+            [
+              -58.4080698,
+              -34.6211902
+            ],
+            [
+              -58.4080383,
+              -34.6213594
+            ],
+            [
+              -58.407932,
+              -34.621346
+            ],
+            [
+              -58.4079156,
+              -34.621344
+            ],
+            [
+              -58.4078345,
+              -34.6213337
+            ],
+            [
+              -58.4078375,
+              -34.6213175
+            ],
+            [
+              -58.4076253,
+              -34.6212907
+            ],
+            [
+              -58.4076423,
+              -34.621199
+            ],
+            [
+              -58.4078546,
+              -34.6212257
+            ],
+            [
+              -58.4078668,
+              -34.6211601
+            ],
+            [
+              -58.4076554,
+              -34.6211334
+            ],
+            [
+              -58.4076744,
+              -34.6210315
+            ],
+            [
+              -58.4077829,
+              -34.6210452
+            ],
+            [
+              -58.4077924,
+              -34.6209949
+            ],
+            [
+              -58.4090958,
+              -34.6213177
+            ],
+            [
+              -58.4091125,
+              -34.6213365
+            ],
+            [
+              -58.4090509,
+              -34.6222641
+            ],
+            [
+              -58.4089932,
+              -34.6222972
+            ],
+            [
+              -58.4086777,
+              -34.6222309
+            ],
+            [
+              -58.4087089,
+              -34.6220136
+            ],
+            [
+              -58.4084099,
+              -34.6219759
+            ],
+            [
+              -58.4083828,
+              -34.6221213
+            ],
+            [
+              -58.4081671,
+              -34.6220941
+            ],
+            [
+              -58.4083293,
+              -34.6212231
+            ]
+          ],
+          [
+            [
+              -58.4088302,
+              -34.6218973
+            ],
+            [
+              -58.408851,
+              -34.6218999
+            ],
+            [
+              -58.4088597,
+              -34.621901
+            ],
+            [
+              -58.4088825,
+              -34.6214518
+            ],
+            [
+              -58.4085546,
+              -34.6213718
+            ],
+            [
+              -58.408564,
+              -34.6212818
+            ],
+            [
+              -58.4085402,
+              -34.6212762
+            ],
+            [
+              -58.4084338,
+              -34.6218473
+            ],
+            [
+              -58.4088302,
+              -34.6218973
+            ]
+          ]
+        ]
+      },
+      "id": "relation/10974629"
     },
     {
       "type": "Feature",
@@ -5648,6 +5814,7 @@
       "properties": {
         "@id": "way/118117567",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal"
       },
       "geometry": {
@@ -10232,6 +10399,7 @@
         "addr:housenumber": "10",
         "addr:street": "Doctor Mariano Etchegaray",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Mariano Etchegaray"
       },
       "geometry": {
@@ -12292,6 +12460,7 @@
         "@id": "way/191264319",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Santa Rosa",
         "wikidata": "Q94691255"
       },
@@ -15119,6 +15288,7 @@
       "properties": {
         "@id": "way/219061682",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Falucho",
         "wikidata": "Q94691151"
       },
@@ -18254,6 +18424,7 @@
         "addr:street": "Mitre",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Centro de Salud \"Helena Zabinski\""
       },
       "geometry": {
@@ -24438,16 +24609,16 @@
         "addr:postcode": "1094",
         "addr:street": "Avenida Belgrano",
         "amenity": "hospital",
+        "contact:phone": "+54 11 412 71000",
+        "contact:website": "http://www.centrogallegoba.com.ar",
         "healthcare": "hospital",
         "name": "Centro Gallego",
         "official_name": "Centro Gallego de Buenos Aires",
         "operator:type": "private",
-        "phone": "+54 11 4127-1000",
         "ref:sisa_codigo": "10020012315175",
         "ref:sisa_tipologia": "ESCIG",
-        "website": "http://www.centrogallegoba.com.ar",
         "wikidata": "Q5761275",
-        "wikipedia": "es:Centro Gallego De Buenos Aires"
+        "wikipedia": "es:Centro Gallego de Buenos Aires"
       },
       "geometry": {
         "type": "Polygon",
@@ -25136,8 +25307,8 @@
               -38.7238209
             ],
             [
-              -61.2762561,
-              -38.7231895
+              -61.2762715,
+              -38.7231847
             ],
             [
               -61.2770888,
@@ -26243,6 +26414,7 @@
       "properties": {
         "@id": "way/307654196",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "highway": "construction",
         "name": "Centro Salud C.Silva"
       },
@@ -26569,6 +26741,7 @@
       "properties": {
         "@id": "way/311214716",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Doctor Yarcho"
       },
       "geometry": {
@@ -26608,7 +26781,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/311490115",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -30781,6 +30955,7 @@
         "addr:postcode": "3150",
         "addr:street": "Bulevar España",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio Urquiza",
         "phone": "+54 3435 421163"
       },
@@ -31533,6 +31708,7 @@
         "addr:postcode": "3174",
         "addr:street": "Dr. E. Rozados",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Roque",
         "wikidata": "Q94691247"
       },
@@ -31813,6 +31989,7 @@
         "addr:postcode": "3174",
         "addr:street": "Avda. San Martin",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Neuropsiquiatrico \"Dr. Luis Ellerman\""
       },
       "geometry": {
@@ -35367,6 +35544,7 @@
       "properties": {
         "@id": "way/388526212",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Enfermería UAP"
       },
       "geometry": {
@@ -35627,7 +35805,7 @@
         "ref:sisa_tipologia": "ESCIG",
         "start_date": "1883",
         "wikidata": "Q5490732",
-        "wikipedia": "ES:Hospital Ramos Mejía"
+        "wikipedia": "es:Hospital General de Agudos Dr. José María Ramos Mejía"
       },
       "geometry": {
         "type": "Polygon",
@@ -39176,6 +39354,7 @@
         "addr:postcode": "3218",
         "addr:street": "T. González",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "San Miguel",
         "wikidata": "Q94691246"
       },
@@ -39213,6 +39392,7 @@
       "properties": {
         "@id": "way/448499773",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios \"Pancho Ramirez\""
       },
       "geometry": {
@@ -40156,9 +40336,16 @@
         "addr:housenumber": "2285",
         "addr:postcode": "3228",
         "addr:street": "Dr. Planas",
+        "alt_name": "Hospital Santa Rosa",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Mediano riesgo con internación con cuidados especiales",
+        "email": "hospitalsantarosachajari@xinet.com.ar",
         "healthcare": "hospital",
         "name": "Santa Rosa",
+        "operator:type": "public",
+        "phone": "+54 3456 420035",
+        "ref:sisa_codigo": "10300282142077",
+        "ref:sisa_tipologia": "ESCIG",
         "wikidata": "Q94691253"
       },
       "geometry": {
@@ -40861,32 +41048,32 @@
         "coordinates": [
           [
             [
-              -58.7174741,
-              -34.5209277
+              -58.717458,
+              -34.5209211
             ],
             [
-              -58.7170957,
-              -34.5211918
+              -58.7170796,
+              -34.5211852
             ],
             [
-              -58.7166456,
-              -34.5207541
+              -58.7166295,
+              -34.5207475
             ],
             [
-              -58.7167541,
-              -34.5206784
+              -58.716738,
+              -34.5206718
             ],
             [
-              -58.7168212,
-              -34.5207437
+              -58.7168051,
+              -34.5207371
             ],
             [
-              -58.7170912,
-              -34.5205553
+              -58.7170751,
+              -34.5205487
             ],
             [
-              -58.7174741,
-              -34.5209277
+              -58.717458,
+              -34.5209211
             ]
           ]
         ]
@@ -41679,7 +41866,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/474601160",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -45260,6 +45448,7 @@
       "properties": {
         "@id": "way/511367537",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Eva Duarte",
         "phone": "+54 03446 492027",
         "wikidata": "Q94691148"
@@ -51086,21 +51275,29 @@
       "type": "Feature",
       "properties": {
         "@id": "way/630035419",
+        "addr:city": "Vera y Pintado",
+        "addr:postcode": "3054",
+        "addr:street": "Tucumán",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple,",
         "healthcare": "hospital",
-        "name": "Hospital"
+        "name": "Hospital",
+        "operator:type": "public",
+        "phone": "+54 3498 496037",
+        "ref:sisa_codigo": "10821122184147",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -60.3398678,
+              -60.3399062,
               -30.1465365
             ],
             [
-              -60.340027,
-              -30.1471108
+              -60.3400731,
+              -30.1471064
             ],
             [
               -60.3397996,
@@ -51119,7 +51316,7 @@
               -30.1466652
             ],
             [
-              -60.3398678,
+              -60.3399062,
               -30.1465365
             ]
           ]
@@ -60401,6 +60598,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/809947463",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.9622518,
+              -30.6162179
+            ],
+            [
+              -57.9622279,
+              -30.6169144
+            ],
+            [
+              -57.961668,
+              -30.6169001
+            ],
+            [
+              -57.9616698,
+              -30.6168472
+            ],
+            [
+              -57.9616735,
+              -30.6167403
+            ],
+            [
+              -57.961692,
+              -30.6162036
+            ],
+            [
+              -57.9622518,
+              -30.6162179
+            ]
+          ]
+        ]
+      },
+      "id": "way/809947463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -60874,6 +61115,7 @@
       "properties": {
         "@id": "node/870946457",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Antonio",
         "wikidata": "Q94691214"
       },
@@ -62258,7 +62500,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1387955528",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -65867,13 +66110,14 @@
         "@id": "node/2156506444",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Sala de primeros auxilios"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.9212625,
-          -37.5065341
+          -61.9212515,
+          -37.5065504
         ]
       },
       "id": "node/2156506444"
@@ -66792,6 +67036,7 @@
         "@id": "node/2353864054",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "C.E.M."
       },
       "geometry": {
@@ -66808,6 +67053,7 @@
       "properties": {
         "@id": "node/2353864067",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sur Centro Médico"
       },
       "geometry": {
@@ -66994,6 +67240,7 @@
       "properties": {
         "@id": "node/2400684410",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal de Coronel Suárez"
       },
       "geometry": {
@@ -67052,6 +67299,7 @@
         "aeroway": "no",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Castilla Mira"
       },
       "geometry": {
@@ -68011,6 +68259,7 @@
         "addr:street": "America",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital San Francisco de Asis",
         "operator": "Salud segura"
       },
@@ -68033,6 +68282,7 @@
         "addr:street": "25 de Mayo",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Clinica Parque Crespo",
         "phone": "+54 9 0343-4951096"
       },
@@ -68050,6 +68300,7 @@
       "properties": {
         "@id": "node/2622685465",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro Medico Crespo"
       },
       "geometry": {
@@ -68506,6 +68757,7 @@
         "addr:postcode": "2840",
         "addr:street": "San Antonio Norte",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Las Catenarias Salud",
         "phone": "03444-429323 / 03444-423338"
       },
@@ -68883,6 +69135,7 @@
       "properties": {
         "@id": "node/2900151222",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital San Isidro Labrador",
         "wikidata": "Q94691230"
       },
@@ -68900,6 +69153,7 @@
       "properties": {
         "@id": "node/2900151224",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de primeros auxilios"
       },
       "geometry": {
@@ -69636,11 +69890,17 @@
       "properties": {
         "@id": "node/3103362851",
         "addr:city": "Mocoretá",
+        "addr:full": "Belgrano y Sarmiento",
         "addr:postcode": "3226",
         "addr:street": "Belgrano",
+        "alt_name": "Hospital Base Mocoreta",
         "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
         "healthcare": "hospital",
-        "name": "Hospital Mocoretá"
+        "name": "Hospital Mocoretá",
+        "operator:type": "public",
+        "ref:sisa_codigo": "10181122139027",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -70699,6 +70959,7 @@
         "addr:postcode": "3153",
         "addr:street": "San Martín",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Policlínico Victoria",
         "source": "http://victoria.tur.ar/index.php/telefonos-utiles/"
       },
@@ -74094,13 +74355,14 @@
       "properties": {
         "@id": "node/3917136414",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Dispensario y Primeros Auxilios"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.4652502,
-          -32.0760447
+          -60.4652727,
+          -32.0760752
         ]
       },
       "id": "node/3917136414"
@@ -74779,6 +75041,7 @@
       "properties": {
         "@id": "node/4093511194",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Santa Rosa",
         "wikidata": "Q94691254"
       },
@@ -77938,6 +78201,7 @@
         "addr:postcode": "7530",
         "addr:street": "Avenida 25 de Mayo",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital municipal Dr. Manuel B. Cabrera"
       },
       "geometry": {
@@ -78605,9 +78869,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4376693546",
+        "addr:city": "Helvecia",
+        "addr:housenumber": "830",
+        "addr:postcode": "3003",
+        "addr:street": "Velez Sarsfield",
+        "alt_name": "Samco Helvecia",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "Hospital Municipal"
+        "name": "Hospital Municipal",
+        "operator:type": "public",
+        "phone": "+54 3405 470164",
+        "ref:sisa_codigo": "10820352184164",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Point",
@@ -78640,6 +78913,7 @@
       "properties": {
         "@id": "node/4377736891",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatório Evangélico",
         "name:es": "Sanatório Evangélico"
       },
@@ -80005,6 +80279,7 @@
         "addr:street": "America",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital San Francisco de Asis"
       },
       "geometry": {
@@ -80834,6 +81109,7 @@
         "addr:street": "Mariano Moreno",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Hospital Geriatrico Domingo Cúneo",
         "operator": "cbmaps.com.ar",
         "phone": "03436-420867",
@@ -80989,6 +81265,7 @@
         "addr:street": "Arenales",
         "amenity": "hospital",
         "description": "cbmaps.com.ar",
+        "healthcare": "hospital",
         "name": "Centro de Salud Elena de Zabisky",
         "operator": "min salud Entre Rios"
       },
@@ -81048,6 +81325,7 @@
         "addr:street": "Mendoza",
         "amenity": "hospital",
         "description": "cbmaps.com.ar",
+        "healthcare": "hospital",
         "name": "Hospital San Blas",
         "operator": "min salud de Entre Rios"
       },
@@ -81443,24 +81721,6 @@
         ]
       },
       "id": "node/4879047492"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4879064305",
-        "addr:city": "Mocoretá",
-        "addr:postcode": "3226",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.9660647,
-          -30.6183103
-        ]
-      },
-      "id": "node/4879064305"
     },
     {
       "type": "Feature",
@@ -82074,6 +82334,7 @@
         "addr:street": "Luis Maria Ghglione",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Centro De Salud Dr. Hector Vicario"
       },
       "geometry": {
@@ -85912,6 +86173,7 @@
       "properties": {
         "@id": "node/6184963631",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Perú",
         "wikidata": "Q94691199"
       },
@@ -86962,7 +87224,7 @@
       "properties": {
         "@id": "node/6897045834",
         "amenity": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -91259,15 +91521,15 @@
         "healthcare": "hospital",
         "name": "Hospital De Transito De Los Pirpintos",
         "operator:type": "public",
-        "ref:sisa_refes": "10860562192023",
+        "ref:sisa_codigo": "10860562192023",
         "ref:sisa_tipologia": "ESCIG",
         "source": "sedronar.gov.ar | Public Domain (PD)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.063582,
-          -26.131521
+          -62.0638194,
+          -26.1320666
         ]
       },
       "id": "node/7435661112"
@@ -93843,32 +94105,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/7503892114",
-        "addr:full": "La Rioja 951",
-        "addr:postcode": "1221",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Unidad Asistencial Por Mas Salud Doctor Cesar Milstein (ex Hospital Frances)",
-        "operator": "Nacional",
-        "operator:type": "public",
-        "phone": "(011) 4959-1500",
-        "ref:sisa_codigo": "14020012715328",
-        "ref:sisa_tipologia": "ESCIG",
-        "wikidata": "Q93141743",
-        "wikipedia": "ES:Hospital Francés"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4083053,
-          -34.6216445
-        ]
-      },
-      "id": "node/7503892114"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/7503904780",
         "addr:full": "Lavalle 1974",
         "addr:postcode": "1051",
@@ -95658,6 +95894,35 @@
         ]
       },
       "id": "node/7541545440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7576376351",
+        "addr:city": "Morteros",
+        "addr:housenumber": "210",
+        "addr:postcode": "2421",
+        "addr:street": "Avenidad del Libertador",
+        "amenity": "hospital",
+        "description": "Categoría de tipología: Alto riesgo con terapia intensiva,⁣",
+        "email": "info@sanatoriosanroque.com.ar",
+        "healthcare": "hospital",
+        "name": "Sanatorio San Roque",
+        "official_name": "Centro Privado De Asistencia Renal SRL",
+        "phone": "+54 3562 422168;+54 3562 403689",
+        "ref:sisa_codigo": "10141402331114",
+        "ref:sisa_tipologia": "ESCIG",
+        "short_name": "CEPAR",
+        "website": "http://www.sanatoriosanroque.com.ar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.0051719,
+          -30.7039178
+        ]
+      },
+      "id": "node/7576376351"
     }
   ]
 }
