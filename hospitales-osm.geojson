@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-03T10:32:03Z",
+  "timestamp": "2020-06-06T19:10:03Z",
   "features": [
     {
       "type": "Feature",
@@ -12129,8 +12129,7 @@
         "contact:phone": "+54 0261 4319925 / 4058600",
         "emergency": "yes",
         "healthcare": "hospital",
-        "layer": "-1",
-        "name": "Hospital Italiano"
+        "layer": "-1"
       },
       "geometry": {
         "type": "Polygon",
@@ -30427,6 +30426,7 @@
         "addr:postcode": "6000",
         "addr:street": "Lavalle",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Interzonal General de Agudos \"Abraham Piñeyro\"",
         "phone": "54 0236 433313"
       },
@@ -62624,7 +62624,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1397531502",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -68449,9 +68450,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2699438591",
+        "addr:city": "Río Turbio",
+        "addr:street": "Avenida Gendarmería Nacional",
+        "alt_name": "CIC Río Turbio",
         "amenity": "hospital",
         "healthcare": "hospital",
-        "name": "CIC Río Turbio"
+        "name": "CIC Padre Mujica"
       },
       "geometry": {
         "type": "Point",
@@ -75409,8 +75413,7 @@
       "properties": {
         "@id": "node/4097916610",
         "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Hospital"
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -88484,8 +88487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.6061996,
-          -37.3830674
+          -64.6063151,
+          -37.383242
         ]
       },
       "id": "node/7368965328"

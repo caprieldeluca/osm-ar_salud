@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-03T10:47:03Z",
+  "timestamp": "2020-06-06T19:13:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1729,6 +1729,7 @@
         "@id": "way/305313347",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "San Rafael"
       },
       "geometry": {
@@ -29482,16 +29483,16 @@
               -38.9549572
             ],
             [
-              -68.0604225,
-              -38.9547868
+              -68.060422,
+              -38.9547872
             ],
             [
               -68.06054,
               -38.9547872
             ],
             [
-              -68.0605397,
-              -38.9548383
+              -68.06054,
+              -38.9548381
             ],
             [
               -68.0605391,
@@ -31919,6 +31920,73 @@
         ]
       },
       "id": "way/810050053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/812627467",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Karenke"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.524881,
+              -30.8586282
+            ],
+            [
+              -64.5248601,
+              -30.8585353
+            ],
+            [
+              -64.5248866,
+              -30.8584836
+            ],
+            [
+              -64.5249574,
+              -30.8584183
+            ],
+            [
+              -64.5250547,
+              -30.8584487
+            ],
+            [
+              -64.5251485,
+              -30.858473
+            ],
+            [
+              -64.5251609,
+              -30.8585018
+            ],
+            [
+              -64.5250317,
+              -30.8585246
+            ],
+            [
+              -64.525037,
+              -30.858558
+            ],
+            [
+              -64.5250742,
+              -30.858558
+            ],
+            [
+              -64.5250835,
+              -30.8585951
+            ],
+            [
+              -64.524881,
+              -30.8586282
+            ]
+          ]
+        ]
+      },
+      "id": "way/812627467"
     },
     {
       "type": "Feature",
@@ -55800,7 +55868,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2735584724",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -59901,8 +59970,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.3959745,
-          -23.5757836
+          -65.3959799,
+          -23.5757664
         ]
       },
       "id": "node/3142931269"
@@ -69075,6 +69144,7 @@
       "properties": {
         "@id": "node/3595164993",
         "addr:city": "Villa Ángela",
+        "addr:housenumber": "930",
         "addr:postcode": "3540",
         "addr:street": "Avenida John Fitzgerald Kennedy",
         "amenity": "pharmacy",
@@ -78764,7 +78834,8 @@
       "properties": {
         "@id": "node/4232462177",
         "amenity": "pharmacy",
-        "name": "Farmacia Romero"
+        "healthcare": "pharmacy",
+        "name": "Romero"
       },
       "geometry": {
         "type": "Point",
@@ -96195,14 +96266,15 @@
         "addr:street": "Bandera de los Andes",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
-        "name": "Farmacia Bandera de los Andes",
+        "name": "Farmacia Bandera de los Andes I",
+        "opening_hours:covid19": "open",
         "phone": "54 0261 4324438"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.8210067,
-          -32.8943401
+          -68.8210872,
+          -32.894268
         ]
       },
       "id": "node/4783271335"
@@ -131729,6 +131801,25 @@
         ]
       },
       "id": "node/7588170285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7595922112",
+        "addr:street": "Bandera de los Andes",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Murialdo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7857744,
+          -32.904876
+        ]
+      },
+      "id": "node/7595922112"
     }
   ]
 }
