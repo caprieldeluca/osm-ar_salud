@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-06T19:18:02Z",
+  "timestamp": "2020-06-11T00:31:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1009,6 +1009,7 @@
         "@id": "way/311055086",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Comunitario Bernardino Rivadavia"
       },
       "geometry": {
@@ -1046,6 +1047,7 @@
         "@id": "way/311055250",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Comunitario Ciudad Nueva"
       },
       "geometry": {
@@ -1083,6 +1085,7 @@
         "@id": "way/311055649",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Comunitario Güemes"
       },
       "geometry": {
@@ -1120,6 +1123,7 @@
         "@id": "way/311055650",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Comunitario Juan XXIII"
       },
       "geometry": {
@@ -1233,6 +1237,7 @@
         "@id": "way/311055830",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Comunitario San José Obrero"
       },
       "geometry": {
@@ -8606,22 +8611,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1865192867",
-        "amenity": "doctors",
-        "name": "OSECAC Moreno"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7884186,
-          -34.6488819
-        ]
-      },
-      "id": "node/1865192867"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1873946946",
         "amenity": "doctors",
         "healthcare": "doctor",
@@ -8799,6 +8788,7 @@
         "addr:street": "Hipólito Yrigoyen",
         "amenity": "doctors",
         "name": "Principal Plan",
+        "operator:type": "private",
         "phone": "+54 237 4639372"
       },
       "geometry": {
@@ -8809,22 +8799,6 @@
         ]
       },
       "id": "node/2147188833"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2147189004",
-        "amenity": "doctors",
-        "name": "Construir Salud"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.79282,
-          -34.6509322
-        ]
-      },
-      "id": "node/2147189004"
     },
     {
       "type": "Feature",
@@ -11116,7 +11090,6 @@
       "properties": {
         "@id": "node/3581000157",
         "addr:city": "Cuartel V",
-        "addr:full": "Juana De Ibarborou 9547",
         "addr:housenumber": "9547",
         "addr:postcode": "1744",
         "addr:street": "Juana de Ibarbourou",
@@ -11501,22 +11474,6 @@
         ]
       },
       "id": "node/3827454755"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3854620313",
-        "amenity": "doctors",
-        "name": "Centro Médico San Augusto"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7638501,
-          -34.6588676
-        ]
-      },
-      "id": "node/3854620313"
     },
     {
       "type": "Feature",
@@ -13536,8 +13493,7 @@
       "properties": {
         "@id": "node/4433498389",
         "amenity": "doctors",
-        "name": "Diagnóstico por imágenes dxim",
-        "name:es": "Diagnóstico por imágenes dxim"
+        "name": "Diagnóstico por imágenes Dxim"
       },
       "geometry": {
         "type": "Point",
@@ -15239,8 +15195,7 @@
       "properties": {
         "@id": "node/4715532390",
         "amenity": "doctors",
-        "name": "Vacunatorio Municipal",
-        "name:es": "Vacunatorio Municipal"
+        "name": "Vacunatorio Municipal"
       },
       "geometry": {
         "type": "Point",
@@ -18655,6 +18610,7 @@
       "properties": {
         "@id": "node/5929724691",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro Odontológico"
       },
       "geometry": {
@@ -26096,7 +26052,7 @@
         "name": "Unidad Sanitaria Anderson",
         "operator": "Municipalidad de Moreno",
         "operator:type": "public",
-        "phone": "+54 02320 454056",
+        "phone": "+54 2320 454056",
         "ref:sisa_codigo": "50065602202057"
       },
       "geometry": {

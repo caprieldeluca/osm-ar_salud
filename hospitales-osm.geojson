@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-06T19:10:03Z",
+  "timestamp": "2020-06-11T00:30:03Z",
   "features": [
     {
       "type": "Feature",
@@ -10634,6 +10634,83 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/169784925",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.4975281,
+              -36.7532418
+            ],
+            [
+              -62.4973963,
+              -36.7533393
+            ],
+            [
+              -62.4971663,
+              -36.753167
+            ],
+            [
+              -62.4970836,
+              -36.7532333
+            ],
+            [
+              -62.4970065,
+              -36.7531715
+            ],
+            [
+              -62.496967,
+              -36.7532032
+            ],
+            [
+              -62.496872,
+              -36.7531271
+            ],
+            [
+              -62.4969914,
+              -36.7530313
+            ],
+            [
+              -62.4969388,
+              -36.7529892
+            ],
+            [
+              -62.4970763,
+              -36.7528789
+            ],
+            [
+              -62.497221,
+              -36.7529947
+            ],
+            [
+              -62.4972378,
+              -36.7529811
+            ],
+            [
+              -62.4973084,
+              -36.7530376
+            ],
+            [
+              -62.4972949,
+              -36.7530484
+            ],
+            [
+              -62.4975281,
+              -36.7532418
+            ]
+          ]
+        ]
+      },
+      "id": "way/169784925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/170145808",
         "amenity": "hospital",
         "healthcare": "hospital",
@@ -13844,81 +13921,6 @@
         ]
       },
       "id": "way/205037220"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/205038206",
-        "addr:city": "Ciudad Autónoma de Buenos Aires",
-        "addr:housenumber": "3150",
-        "addr:postcode": "C1427ARO",
-        "addr:street": "Avenida Combatientes de Malvinas",
-        "amenity": "hospital",
-        "building": "yes",
-        "building:use": "hospital",
-        "email": "info@lanari.uba.ar",
-        "healthcare": "hospital",
-        "name": "Instituto de Investigaciones Médicas Doctor Alfredo Lanari",
-        "operator": "Asociación de Profesionales Universitarios del Instituto de Investigaciones Médicas Alfredo Lanari",
-        "operator:type": "public",
-        "phone": "+541152873700;+541145148701;+541145148706;+541145148704",
-        "ref:sisa_codigo": "10020012515227",
-        "ref:sisa_tipologia": "ESCIG",
-        "website": "http://lanari.uba.ar/",
-        "wikidata": "Q93141285"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -58.472257,
-              -34.5852352
-            ],
-            [
-              -58.4725184,
-              -34.5847362
-            ],
-            [
-              -58.4726739,
-              -34.5847914
-            ],
-            [
-              -58.4725571,
-              -34.5850145
-            ],
-            [
-              -58.4726702,
-              -34.5850546
-            ],
-            [
-              -58.4726102,
-              -34.5851693
-            ],
-            [
-              -58.4724596,
-              -34.5851158
-            ],
-            [
-              -58.4724431,
-              -34.5851472
-            ],
-            [
-              -58.4724825,
-              -34.5851611
-            ],
-            [
-              -58.4724144,
-              -34.5852911
-            ],
-            [
-              -58.472257,
-              -34.5852352
-            ]
-          ]
-        ]
-      },
-      "id": "way/205038206"
     },
     {
       "type": "Feature",
@@ -25927,6 +25929,7 @@
         "addr:inclusion": "actual",
         "addr:interpolation": "odd",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Doctor Alejandro Gutierrez"
       },
       "geometry": {
@@ -26368,6 +26371,7 @@
         "addr:street": "Colono",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "S.A.M.Co. Laguna Paiva",
         "phone": "0342-4572949"
       },
@@ -26878,17 +26882,19 @@
       "type": "Feature",
       "properties": {
         "@id": "way/312362989",
-        "addr:full": "Monroe 3555",
+        "addr:housenumber": "3555",
+        "addr:postcode": "1419",
+        "addr:street": "Avenida Monroe",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital General De Agudos Doctor Ignacio Pirovano",
-        "operator": "Municipal",
+        "name": "Hospital Pirovano",
+        "official_name": "Hospital General de Agudos Doctor Ignacio Pirovano",
+        "operator": "Gobierno de la Ciudad de Buenos Aires",
         "operator:type": "public",
-        "phone": "(011) 4542-9906",
+        "phone": "+54 11 4542-9906",
         "ref:sisa_codigo": "10020012215219",
         "ref:sisa_tipologia": "ESCIG",
-        "short_name": "Hospital Pirovano",
         "wikidata": "Q5908544",
         "wikipedia": "es:Hospital Pirovano"
       },
@@ -40113,16 +40119,16 @@
               -34.6608841
             ],
             [
-              -58.4452342,
-              -34.6610044
+              -58.445249,
+              -34.6609912
             ],
             [
-              -58.4451428,
-              -34.6609339
+              -58.4451589,
+              -34.6609218
             ],
             [
-              -58.4449126,
-              -34.6607493
+              -58.4449475,
+              -34.6607294
             ],
             [
               -58.4452937,
@@ -41239,18 +41245,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/471529410",
-        "addr:full": "Campana 4658",
+        "addr:housenumber": "4658",
         "addr:postcode": "1419",
-        "addr:street": "Avenida General Mosconi",
+        "addr:street": "Campana",
         "amenity": "hospital",
         "emergency": "yes",
         "healthcare": "hospital",
-        "name": "Hospital Asociacion De Beneficencia Hospital Sirio Libanes",
+        "name": "Hosptal Sirio Libanés",
+        "official_name": "Asociacion de Beneficencia Hospital Sirio Libanes",
         "operator:type": "private",
-        "phone": "(011) 4574-4343",
+        "phone": "+54 11 4574-4343",
         "ref:sisa_codigo": "10020012315205",
         "ref:sisa_tipologia": "ESCIG",
-        "short_name": "Hospital Sirio Libanes",
         "wikidata": "Q93140196"
       },
       "geometry": {
@@ -45897,6 +45903,7 @@
       "properties": {
         "@id": "way/515893394",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Alejandro Gutierrez"
       },
       "geometry": {
@@ -60642,6 +60649,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/813743693",
+        "addr:city": "Laguna Alsina",
+        "addr:postcode": "6439",
+        "addr:street": "Doctor Rómulo Cesar",
+        "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Hospital Municipal Adolfo Alsina",
+        "phone": "+54 2929 493058",
+        "ref:sisa_codigo": "10063992200283",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.2547525,
+              -36.8118114
+            ],
+            [
+              -62.2541347,
+              -36.8126051
+            ],
+            [
+              -62.253171,
+              -36.8121122
+            ],
+            [
+              -62.2537994,
+              -36.8113289
+            ],
+            [
+              -62.2547525,
+              -36.8118114
+            ]
+          ]
+        ]
+      },
+      "id": "way/813743693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -63265,7 +63316,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/1565511004",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -65023,6 +65075,7 @@
         "addr:street": "Avenida 59",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "S.A.M.Co. - Servicio de Asistencia Médica a la Comunidad",
         "phone": "03462-450245",
         "wheelchair": "yes"
@@ -70528,6 +70581,7 @@
       "properties": {
         "@id": "node/3269897894",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal Adelia María"
       },
       "geometry": {
@@ -75611,6 +75665,7 @@
         "addr:street": "San José",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "S.A.M.Co."
       },
       "geometry": {
@@ -81748,6 +81803,7 @@
       "properties": {
         "@id": "node/4886712948",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Samco Recreo"
       },
       "geometry": {
@@ -81758,24 +81814,6 @@
         ]
       },
       "id": "node/4886712948"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4887949521",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Centro Médico Devoto Consultorios Pami",
-        "name:es": "Centro Médico Devoto Consultorios Pami"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5113325,
-          -34.5927808
-        ]
-      },
-      "id": "node/4887949521"
     },
     {
       "type": "Feature",
@@ -81808,6 +81846,7 @@
         "addr:street": "Samiento",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Hospital SAMCO"
       },
       "geometry": {
@@ -85388,24 +85427,6 @@
         ]
       },
       "id": "node/5730782854"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5744706291",
-        "addr:city": "Laguna Alsina",
-        "addr:street": "Doctor Rómulo Cesar",
-        "amenity": "hospital",
-        "healthcare": "hospital"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.2536966,
-          -36.8118626
-        ]
-      },
-      "id": "node/5744706291"
     },
     {
       "type": "Feature",
@@ -95926,6 +95947,51 @@
         ]
       },
       "id": "node/7576376351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7601162879",
+        "addr:city": "Garré",
+        "addr:full": "17 De Octubre Y Diagonal Nort",
+        "addr:postcode": "6439",
+        "addr:street": "Diagonal Norte",
+        "amenity": "hospital",
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "healthcare": "hospital",
+        "name": "Unidad Sanitaria Garré",
+        "phone": "+54 2929 492041",
+        "ref:sisa_codigo": "10063992200508",
+        "ref:sisa_tipologia": "ESCIG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.6007287,
+          -36.5593314
+        ]
+      },
+      "id": "node/7601162879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7608364840",
+        "addr:city": "Santo Pipó",
+        "addr:postcode": "3326",
+        "addr:street": "Avenida San Martín",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital de Santo Pipó"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.4073759,
+          -27.1404097
+        ]
+      },
+      "id": "node/7608364840"
     }
   ]
 }

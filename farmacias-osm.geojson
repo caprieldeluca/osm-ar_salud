@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-06T19:13:02Z",
+  "timestamp": "2020-06-11T00:31:02Z",
   "features": [
     {
       "type": "Feature",
@@ -42263,6 +42263,7 @@
         "addr:street": "Mitre",
         "amenity": "pharmacy",
         "contact:phone": "+54 03404 48-0478",
+        "healthcare": "pharmacy",
         "name": "Meynet"
       },
       "geometry": {
@@ -58547,7 +58548,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3012104021",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -58563,6 +58565,7 @@
       "properties": {
         "@id": "node/3012104022",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Solá"
       },
       "geometry": {
@@ -72651,7 +72654,8 @@
         "addr:city": "Venado Tuerto",
         "addr:postcode": "S2600",
         "addr:street": "Lisandro de la Torre",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -87659,7 +87663,8 @@
         "addr:housenumber": "251",
         "addr:street": "Avenida San Martín",
         "amenity": "pharmacy",
-        "name": "Farmacia Martinez"
+        "healthcare": "pharmacy",
+        "name": "Martinez"
       },
       "geometry": {
         "type": "Point",
@@ -87677,7 +87682,8 @@
         "addr:housenumber": "75",
         "addr:street": "Juan XXXIII",
         "amenity": "pharmacy",
-        "name": "Farmacia La Merced"
+        "healthcare": "pharmacy",
+        "name": "La Merced"
       },
       "geometry": {
         "type": "Point",
@@ -87695,7 +87701,8 @@
         "addr:housenumber": "631",
         "addr:street": "Av. San Martín",
         "amenity": "pharmacy",
-        "name": "Farmacia Rearte"
+        "healthcare": "pharmacy",
+        "name": "Rearte"
       },
       "geometry": {
         "type": "Point",
@@ -87712,7 +87719,8 @@
         "@id": "node/4621127049",
         "addr:street": "Colón",
         "amenity": "pharmacy",
-        "name": "Farmacia Lourdes"
+        "healthcare": "pharmacy",
+        "name": "Lourdes"
       },
       "geometry": {
         "type": "Point",
@@ -87730,7 +87738,8 @@
         "addr:housenumber": "462",
         "addr:street": "Juan XXXIII",
         "amenity": "pharmacy",
-        "name": "Farmacia Santa María"
+        "healthcare": "pharmacy",
+        "name": "Santa María"
       },
       "geometry": {
         "type": "Point",
@@ -87746,7 +87755,8 @@
       "properties": {
         "@id": "node/4621127051",
         "amenity": "pharmacy",
-        "name": "Farmacia Diaz Garro"
+        "healthcare": "pharmacy",
+        "name": "Diaz Garro"
       },
       "geometry": {
         "type": "Point",
@@ -87764,7 +87774,8 @@
         "addr:housenumber": "267",
         "addr:street": "Las Heras",
         "amenity": "pharmacy",
-        "name": "Farmacia Martinez Milanesio"
+        "healthcare": "pharmacy",
+        "name": "Martinez Milanesio"
       },
       "geometry": {
         "type": "Point",
@@ -87782,7 +87793,8 @@
         "addr:housenumber": "65",
         "addr:street": "Hipolito Irigoyen",
         "amenity": "pharmacy",
-        "name": "Farmacia Alberti"
+        "healthcare": "pharmacy",
+        "name": "Alberti"
       },
       "geometry": {
         "type": "Point",
@@ -112384,6 +112396,7 @@
       "properties": {
         "@id": "node/5929724696",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Frati"
       },
       "geometry": {
@@ -129016,7 +129029,9 @@
         "addr:street": "Avenida Centenario",
         "amenity": "pharmacy",
         "dispensing": "yes",
-        "healthcare": "pharmacy"
+        "healthcare": "pharmacy",
+        "name": "Centenario",
+        "phone": "+54 376 5232479"
       },
       "geometry": {
         "type": "Point",
@@ -131820,6 +131835,30 @@
         ]
       },
       "id": "node/7595922112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7606597053",
+        "addr:city": "Eldorado",
+        "addr:full": "Avda. san martín o 986 km4 - Frente a ex. secadero schick km 5",
+        "addr:housenumber": "986",
+        "addr:postcode": "3380",
+        "addr:street": "Avenida San Martín Oeste",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Sebastian",
+        "phone": "+54 3751 430125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6489566,
+          -26.4062354
+        ]
+      },
+      "id": "node/7606597053"
     }
   ]
 }
