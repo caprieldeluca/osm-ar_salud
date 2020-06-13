@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-11T00:30:03Z",
+  "timestamp": "2020-06-13T23:52:03Z",
   "features": [
     {
       "type": "Feature",
@@ -9827,81 +9827,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/160244733",
-        "addr:city": "Neuquén",
-        "addr:country": "AR",
-        "addr:full": "Buenos Aires 450",
-        "addr:housenumber": "450",
-        "addr:place": "Confluencia",
-        "addr:street": "Buenos Aires",
-        "alt_name": "Hospital Castro Rendon - HCR - HPN",
-        "amenity": "hospital",
-        "description": "Alto riesgo con terapia intensiva especializada",
-        "healthcare": "hospital",
-        "name": "Hospital Provincial Neuquen - Dr. Eduardo Castro Rendon",
-        "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
-        "operator:type": "public",
-        "phone": "54 0299 4490800",
-        "ref:sisa_refes": "10580352167033",
-        "ref:sisa_tipologia": "ESCIG",
-        "source": "sedronar.gov.ar | Public Domain (PD)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -68.0574549,
-              -38.9497745
-            ],
-            [
-              -68.0575186,
-              -38.9498242
-            ],
-            [
-              -68.0575204,
-              -38.9502322
-            ],
-            [
-              -68.0575243,
-              -38.9506475
-            ],
-            [
-              -68.0574773,
-              -38.9506904
-            ],
-            [
-              -68.056374,
-              -38.9506949
-            ],
-            [
-              -68.0563235,
-              -38.950632
-            ],
-            [
-              -68.056324,
-              -38.9498055
-            ],
-            [
-              -68.0563581,
-              -38.9497746
-            ],
-            [
-              -68.0568799,
-              -38.9497722
-            ],
-            [
-              -68.0574549,
-              -38.9497745
-            ]
-          ]
-        ]
-      },
-      "id": "way/160244733"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/160244740",
         "addr:city": "Neuquén",
         "addr:country": "AR",
@@ -12413,6 +12338,7 @@
         "@id": "way/190344778",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Centro de Salud Nuevo Horizonte"
       },
       "geometry": {
@@ -30191,6 +30117,7 @@
         "addr:postcode": "S3000",
         "addr:street": "Avenida 27 de Febrero",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de Especialidades Médicas de Santa Fe \"Héroes de Malvinas\"",
         "short_name": "CEMAFE"
       },
@@ -32212,6 +32139,7 @@
         "addr:street": "Montiel",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Centro de Referencia \"Ramón Carrillo\"",
         "operator": "Público"
       },
@@ -33411,6 +33339,7 @@
       "properties": {
         "@id": "way/368496306",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio Garay",
         "wheelchair": "yes"
       },
@@ -60693,6 +60622,90 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/815495099",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0644484,
+              -38.9546569
+            ],
+            [
+              -68.0644477,
+              -38.9549415
+            ],
+            [
+              -68.0642341,
+              -38.9549401
+            ],
+            [
+              -68.0642345,
+              -38.9546579
+            ],
+            [
+              -68.0644484,
+              -38.9546569
+            ]
+          ]
+        ]
+      },
+      "id": "way/815495099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/815582752",
+        "addr:city": "Neuquén",
+        "addr:housenumber": "450",
+        "addr:postcode": "Q8300",
+        "addr:street": "Buenos Aires",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hospital Provincial Doctor Castro Rendón",
+        "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0575836,
+              -38.9507289
+            ],
+            [
+              -68.0562292,
+              -38.9507377
+            ],
+            [
+              -68.0562184,
+              -38.949715
+            ],
+            [
+              -68.0574821,
+              -38.949707
+            ],
+            [
+              -68.0575733,
+              -38.9497716
+            ],
+            [
+              -68.0575836,
+              -38.9507289
+            ]
+          ]
+        ]
+      },
+      "id": "way/815582752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101961",
         "addr:housenumber": "37",
         "addr:street": "Bravard",
@@ -72571,6 +72584,7 @@
         "addr:postcode": "S3000",
         "addr:street": "Suipacha",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio Mayo",
         "wheelchair": "yes"
       },
@@ -72843,6 +72857,7 @@
         "addr:postcode": "S3000",
         "addr:street": "Alberti",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de Salud San Martín"
       },
       "geometry": {
@@ -73607,6 +73622,7 @@
         "addr:street": "Belgrano",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Centro Odontológico Privado",
         "operator": "COP Salud",
         "phone": "+54 342 4528440"
@@ -74379,6 +74395,7 @@
         "addr:postcode": "S3000",
         "addr:street": "Belgrano",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio Santa Fe",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes"
@@ -76829,6 +76846,7 @@
       "properties": {
         "@id": "node/4131820072",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de salud"
       },
       "geometry": {
@@ -78181,7 +78199,8 @@
       "properties": {
         "@id": "node/4257597989",
         "addr:street": "Miguel David",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -79912,7 +79931,7 @@
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "Hospital de San Antonio",
-        "nota": "El edificio nuevo va a funcionar detrás de este edificio",
+        "note": "El edificio nuevo va a funcionar detrás de este edificio",
         "phone": "+54 3741 493054"
       },
       "geometry": {
@@ -80786,7 +80805,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4498746541",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Point",
@@ -82817,6 +82837,7 @@
         "@id": "node/5161890322",
         "addr:street": "General Alvarado",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital De La Baxada: Doctora Teresa Ratto"
       },
       "geometry": {
@@ -83720,6 +83741,7 @@
       "properties": {
         "@id": "node/5325935276",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro de Salud Manuel Belgrano"
       },
       "geometry": {

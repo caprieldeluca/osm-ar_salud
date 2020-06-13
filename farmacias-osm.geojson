@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-11T00:31:02Z",
+  "timestamp": "2020-06-13T23:52:03Z",
   "features": [
     {
       "type": "Feature",
@@ -31991,6 +31991,144 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/815117254",
+        "addr:city": "Neuquén",
+        "addr:housenumber": "31",
+        "addr:postcode": "Q8300",
+        "addr:street": "La Rioja",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Global"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0632649,
+              -38.954651
+            ],
+            [
+              -68.0634209,
+              -38.9545283
+            ],
+            [
+              -68.0634231,
+              -38.9547293
+            ],
+            [
+              -68.063383,
+              -38.9547444
+            ],
+            [
+              -68.0632649,
+              -38.954651
+            ]
+          ]
+        ]
+      },
+      "id": "way/815117254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/815495094",
+        "addr:city": "Neuquén",
+        "addr:housenumber": "301",
+        "addr:postcode": "Q8300",
+        "addr:street": "Juan Bautista Justo",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia del Pueblo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0636326,
+              -38.9540959
+            ],
+            [
+              -68.0636322,
+              -38.9540518
+            ],
+            [
+              -68.0636557,
+              -38.9540316
+            ],
+            [
+              -68.0637828,
+              -38.9540314
+            ],
+            [
+              -68.063783,
+              -38.9540956
+            ],
+            [
+              -68.0636326,
+              -38.9540959
+            ]
+          ]
+        ]
+      },
+      "id": "way/815495094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/815582750",
+        "addr:city": "Neuquén",
+        "addr:housenumber": "91",
+        "addr:postcode": "Q8300",
+        "addr:street": "Diagonal España",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Global"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0578735,
+              -38.9500627
+            ],
+            [
+              -68.0578365,
+              -38.9501165
+            ],
+            [
+              -68.0577269,
+              -38.9501151
+            ],
+            [
+              -68.0577256,
+              -38.9500148
+            ],
+            [
+              -68.0577751,
+              -38.9499794
+            ],
+            [
+              -68.0578735,
+              -38.9500627
+            ]
+          ]
+        ]
+      },
+      "id": "way/815582750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/302101967",
         "addr:housenumber": "405",
         "addr:street": "Salta",
@@ -34519,6 +34657,7 @@
       "properties": {
         "@id": "node/848015473",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Bonazola"
       },
       "geometry": {
@@ -40288,6 +40427,7 @@
       "properties": {
         "@id": "node/1739372941",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -41714,24 +41854,6 @@
         ]
       },
       "id": "node/1870401229"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1870401233",
-        "addr:city": "Neuquén",
-        "addr:street": "Avenida Argentina",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0636788,
-          -38.9540354
-        ]
-      },
-      "id": "node/1870401233"
     },
     {
       "type": "Feature",
@@ -48975,22 +49097,6 @@
         ]
       },
       "id": "node/2384635029"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2385538759",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0633729,
-          -38.9546876
-        ]
-      },
-      "id": "node/2385538759"
     },
     {
       "type": "Feature",
@@ -56722,6 +56828,7 @@
       "properties": {
         "@id": "node/2855604245",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Diaz"
       },
       "geometry": {
@@ -63583,8 +63690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.8717514,
-          -27.4460146
+          -55.8721081,
+          -27.4456708
         ]
       },
       "id": "node/3291128070"
@@ -72449,6 +72556,7 @@
         "addr:postcode": "S3000",
         "addr:street": "Marcial Candioti",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Arrimada"
       },
       "geometry": {
@@ -72465,6 +72573,7 @@
       "properties": {
         "@id": "node/3814151886",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Pasteur",
         "wheelchair": "yes"
       },
@@ -81418,7 +81527,7 @@
       "properties": {
         "@id": "node/4377629475",
         "amenity": "pharmacy",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -81697,8 +81806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.9148167,
-          -39.2383055
+          -70.9148972,
+          -39.2383117
         ]
       },
       "id": "node/4397221593"
@@ -83205,23 +83314,6 @@
         ]
       },
       "id": "node/4434419178"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4440054368",
-        "amenity": "pharmacy",
-        "healthcare": "pharmacy",
-        "name": "sury"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.057802,
-          -38.9517144
-        ]
-      },
-      "id": "node/4440054368"
     },
     {
       "type": "Feature",
@@ -87486,7 +87578,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4619279692",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -98092,7 +98185,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4966829415",
-        "amenity": "pharmacy"
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -113456,6 +113550,7 @@
       "properties": {
         "@id": "node/6035797916",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Romano"
       },
       "geometry": {
@@ -113472,6 +113567,7 @@
       "properties": {
         "@id": "node/6035797918",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Imoberdorf"
       },
       "geometry": {
@@ -114951,7 +115047,7 @@
       "properties": {
         "@id": "node/6148327613",
         "amenity": "pharmacy",
-        "name": "Farmacia"
+        "healthcare": "pharmacy"
       },
       "geometry": {
         "type": "Point",
@@ -126668,6 +126764,7 @@
       "properties": {
         "@id": "node/7315119964",
         "addr:city": "Eldorado",
+        "addr:full": "Lowe 358 km9 - Detrás terminal de ómnibus km 9",
         "addr:housenumber": "354",
         "addr:postcode": "3380",
         "addr:street": "Lowe",
