@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-13T23:53:02Z",
+  "timestamp": "2020-06-26T22:49:02Z",
   "features": [
     {
       "type": "Feature",
@@ -1454,6 +1454,7 @@
         "addr:street": "Avenida José Manuel Estrada",
         "amenity": "pharmacy",
         "building": "yes",
+        "healthcare": "pharmacy",
         "name": "Farmacity",
         "shop": "chemist"
       },
@@ -1999,6 +2000,7 @@
       "properties": {
         "@id": "node/791743849",
         "amenity": "pharmacy",
+        "healthcare": "pharmacy",
         "name": "Farmacity",
         "shop": "chemist"
       },
@@ -5171,6 +5173,22 @@
         ]
       },
       "id": "node/7537831460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7630668959",
+        "name": "TJ",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4391614,
+          -34.5648877
+        ]
+      },
+      "id": "node/7630668959"
     }
   ]
 }

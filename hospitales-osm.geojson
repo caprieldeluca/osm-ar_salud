@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-13T23:52:03Z",
+  "timestamp": "2020-06-26T22:47:03Z",
   "features": [
     {
       "type": "Feature",
@@ -1815,6 +1815,96 @@
         ]
       },
       "id": "relation/10974629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11215475",
+        "addr:city": "Lujan",
+        "addr:housenumber": "501",
+        "addr:postcode": "B6700FOK",
+        "addr:street": "Avenida 215 - Julio Argentino Roca",
+        "amenity": "hospital",
+        "beds": "270",
+        "contact:email": "cnspilar@hsjd.org",
+        "contact:phone": "+54 2323 420-344",
+        "contact:website": "http://www.cnspilar.org.ar/",
+        "name": "Clinica Nuestra Señora del Pilar",
+        "operator": "Orden Hospitalaria de San Juan de Dios",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.1307454,
+              -34.5570299
+            ],
+            [
+              -59.13087,
+              -34.556872
+            ],
+            [
+              -59.1316288,
+              -34.555894
+            ],
+            [
+              -59.1318398,
+              -34.5556359
+            ],
+            [
+              -59.132252,
+              -34.5558226
+            ],
+            [
+              -59.1324375,
+              -34.5557256
+            ],
+            [
+              -59.1328027,
+              -34.5559099
+            ],
+            [
+              -59.1327143,
+              -34.5560166
+            ],
+            [
+              -59.1331737,
+              -34.5562664
+            ],
+            [
+              -59.1330589,
+              -34.5564192
+            ],
+            [
+              -59.1339953,
+              -34.5568921
+            ],
+            [
+              -59.1330971,
+              -34.5580731
+            ],
+            [
+              -59.1326672,
+              -34.5578403
+            ],
+            [
+              -59.1316572,
+              -34.5572947
+            ],
+            [
+              -59.1315247,
+              -34.557462
+            ],
+            [
+              -59.1307454,
+              -34.5570299
+            ]
+          ]
+        ]
+      },
+      "id": "relation/11215475"
     },
     {
       "type": "Feature",
@@ -4134,6 +4224,7 @@
         "@id": "way/71069326",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Hospital San Roque"
       },
       "geometry": {
@@ -4175,6 +4266,7 @@
         "@id": "way/71165537",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Sanatorio Dolores"
       },
       "geometry": {
@@ -4212,6 +4304,7 @@
         "@id": "way/71165539",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Sanatorio Regional"
       },
       "geometry": {
@@ -6981,7 +7074,8 @@
       "type": "Feature",
       "properties": {
         "@id": "way/134025971",
-        "amenity": "hospital"
+        "amenity": "hospital",
+        "healthcare": "hospital"
       },
       "geometry": {
         "type": "Polygon",
@@ -7290,6 +7384,7 @@
         "@id": "way/139315608",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Nacional de Clínicas"
       },
       "geometry": {
@@ -9877,90 +9972,6 @@
         ]
       },
       "id": "way/160244740"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/160400947",
-        "addr:city": "Neuquén",
-        "addr:country": "AR",
-        "addr:housenumber": "250",
-        "addr:postcode": "8300",
-        "addr:street": "Bernardino Rivadavia",
-        "amenity": "hospital",
-        "building": "yes",
-        "healthcare": "hospital",
-        "name": "Policlínico Neuquen",
-        "phone": "54 0299 4422331"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -68.0553792,
-              -38.9529998
-            ],
-            [
-              -68.0553797,
-              -38.9531755
-            ],
-            [
-              -68.0556071,
-              -38.9531751
-            ],
-            [
-              -68.0556081,
-              -38.9534668
-            ],
-            [
-              -68.0554226,
-              -38.9534672
-            ],
-            [
-              -68.055424,
-              -38.953884
-            ],
-            [
-              -68.0553628,
-              -38.9538841
-            ],
-            [
-              -68.0552936,
-              -38.9538843
-            ],
-            [
-              -68.0552921,
-              -38.9533998
-            ],
-            [
-              -68.0554339,
-              -38.9533995
-            ],
-            [
-              -68.0554333,
-              -38.9532378
-            ],
-            [
-              -68.0553149,
-              -38.9532381
-            ],
-            [
-              -68.0553141,
-              -38.953
-            ],
-            [
-              -68.055349,
-              -38.9529999
-            ],
-            [
-              -68.0553792,
-              -38.9529998
-            ]
-          ]
-        ]
-      },
-      "id": "way/160400947"
     },
     {
       "type": "Feature",
@@ -14275,6 +14286,7 @@
         "@id": "way/208505403",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Maternidad Nacional - UNC"
       },
       "geometry": {
@@ -21595,6 +21607,7 @@
         "healthcare": "hospital",
         "name": "Hospital De Area Villa La Angostura Dr. Oscar Arraiz",
         "operator:type": "public",
+        "phone": "54 0299 4494170",
         "ref:sisa_refes": "10580702167030",
         "ref:sisa_tipologia": "ESCIG",
         "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -21855,12 +21868,24 @@
               -34.168569
             ],
             [
+              -58.9491455,
+              -34.1685769
+            ],
+            [
               -58.9490544,
               -34.1685829
             ],
             [
               -58.9489458,
               -34.1685901
+            ],
+            [
+              -58.9488743,
+              -34.1685946
+            ],
+            [
+              -58.9483471,
+              -34.1686277
             ],
             [
               -58.9481912,
@@ -26710,8 +26735,18 @@
       "type": "Feature",
       "properties": {
         "@id": "way/311490115",
+        "addr:city": "General Campos",
+        "addr:postcode": "3216",
+        "addr:street": "Batalla de Cepeda",
         "amenity": "hospital",
-        "healthcare": "hospital"
+        "description": "Categoría de tipología: Bajo riesgo con internación simple",
+        "email": "hospitalgralcampos@yahoo.com.ar",
+        "healthcare": "hospital",
+        "name": "Maria Eva Duarte De Perón",
+        "official_name": "Hospital Maria Eva Duarte De Perón",
+        "phone": "+54 345 4901340",
+        "ref:sisa_codigo": "10300882142045",
+        "ref:sisa_tipologia": "ESCIG"
       },
       "geometry": {
         "type": "Polygon",
@@ -27241,95 +27276,6 @@
         ]
       },
       "id": "way/316476333"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/316708520",
-        "addr:city": "Lujan",
-        "addr:housenumber": "501",
-        "addr:postcode": "B6700FOK",
-        "addr:street": "Avenida 215 - Julio Argentino Roca",
-        "amenity": "hospital",
-        "beds": "270",
-        "contact:email": "cnspilar@hsjd.org",
-        "contact:phone": "+54 2323 420-344",
-        "contact:website": "http://www.cnspilar.org.ar/",
-        "name": "Clinica Nuestra Señora del Pilar",
-        "operator": "Orden Hospitalaria de San Juan de Dios"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -59.1307454,
-              -34.5570299
-            ],
-            [
-              -59.13087,
-              -34.556872
-            ],
-            [
-              -59.1316288,
-              -34.555894
-            ],
-            [
-              -59.1318398,
-              -34.5556359
-            ],
-            [
-              -59.132252,
-              -34.5558226
-            ],
-            [
-              -59.1324375,
-              -34.5557256
-            ],
-            [
-              -59.1328027,
-              -34.5559099
-            ],
-            [
-              -59.1327143,
-              -34.5560166
-            ],
-            [
-              -59.1331737,
-              -34.5562664
-            ],
-            [
-              -59.1330589,
-              -34.5564192
-            ],
-            [
-              -59.1339953,
-              -34.5568921
-            ],
-            [
-              -59.1330971,
-              -34.5580731
-            ],
-            [
-              -59.1326672,
-              -34.5578403
-            ],
-            [
-              -59.1316572,
-              -34.5572947
-            ],
-            [
-              -59.1315247,
-              -34.557462
-            ],
-            [
-              -59.1307454,
-              -34.5570299
-            ]
-          ]
-        ]
-      },
-      "id": "way/316708520"
     },
     {
       "type": "Feature",
@@ -28439,6 +28385,7 @@
         "amenity": "hospital",
         "contact:phone": "434 9010",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Córdoba"
       },
       "geometry": {
@@ -28475,6 +28422,7 @@
       "properties": {
         "@id": "way/327022088",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Instituto del Quemado"
       },
       "geometry": {
@@ -31217,6 +31165,7 @@
       "properties": {
         "@id": "way/345410859",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Casa de Los Abuelos"
       },
       "geometry": {
@@ -31277,6 +31226,7 @@
       "properties": {
         "@id": "way/345410864",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital Municipal"
       },
       "geometry": {
@@ -34397,9 +34347,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/371983059",
+        "addr:city": "Ciudadela",
         "addr:housenumber": "3979",
         "addr:postcode": "1702",
-        "addr:street": "225 - Avenida Gaona",
+        "addr:street": "Avenida Gaona",
         "amenity": "hospital",
         "building": "yes",
         "contact:phone": "+54 11 4488-9024",
@@ -34990,6 +34941,7 @@
         "addr:street": "Avenida 1",
         "amenity": "hospital",
         "email": "administracion-hsmartin@ms.gba.gov.ar",
+        "healthcare": "hospital",
         "name": "Hospital San Martín",
         "official_name": "Hospital Interzonal General de Agudos \"General San Martín\"",
         "phone": "54 0221 4211195",
@@ -39458,6 +39410,7 @@
         "addr:postcode": "6740",
         "addr:street": "Italia",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sanatorio Chacabuco"
       },
       "geometry": {
@@ -43297,6 +43250,7 @@
       "properties": {
         "@id": "way/482840752",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "107 Emergencias Médicas Municipal",
         "operator": "Municipalidad de Córdoba"
       },
@@ -47675,7 +47629,7 @@
               -37.3165854
             ],
             [
-              -59.1384582,
+              -59.1384535,
               -37.3159011
             ],
             [
@@ -47853,6 +47807,7 @@
         "amenity": "hospital",
         "building": "yes",
         "building:levels": "1",
+        "healthcare": "hospital",
         "name": "Unidad Sanitaria Campamento"
       },
       "geometry": {
@@ -48517,6 +48472,7 @@
         "addr:street": "Domingo Faustino Sarmiento",
         "amenity": "hospital",
         "building": "yes",
+        "healthcare": "hospital",
         "name": "Cruz Roja Argentina Fillial San Nicolás"
       },
       "geometry": {
@@ -54559,201 +54515,6 @@
         ]
       },
       "id": "way/770923732"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/771688727",
-        "addr:street": "Leandro N. Alem",
-        "amenity": "hospital",
-        "building": "yes",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "layer": "1",
-        "name": "Hospital Central - Anexo",
-        "phone": "54 0261 4297100;4319148",
-        "source": "Bing",
-        "website": "http://www.hospitalcentral.mendoza.gov.ar/"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -68.8339662,
-              -32.8913276
-            ],
-            [
-              -68.8339846,
-              -32.8917969
-            ],
-            [
-              -68.8340324,
-              -32.8917955
-            ],
-            [
-              -68.8340438,
-              -32.892086
-            ],
-            [
-              -68.8337298,
-              -32.8920946
-            ],
-            [
-              -68.8337001,
-              -32.8913349
-            ],
-            [
-              -68.8339662,
-              -32.8913276
-            ]
-          ]
-        ]
-      },
-      "id": "way/771688727"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/771688729",
-        "addr:city": "Mendoza (3A. Seccion)",
-        "addr:full": "Avenida Alem 450, Capital",
-        "addr:place": "Capital",
-        "addr:street": "Leandro N. Alem",
-        "amenity": "hospital",
-        "building": "yes",
-        "description": "Alto riesgo con terapia intensiva",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "layer": "2",
-        "name": "Hospital Central de Mendoza",
-        "operator:type": "public",
-        "phone": "54 0261 4297100;4319148",
-        "ref:sisa_refes": "10500072157040",
-        "ref:sisa_tipologia": "ESCIG",
-        "source": "sedronar.gov.ar | Public Domain (PD)",
-        "website": "http://www.hospitalcentral.mendoza.gov.ar/"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -68.8327139,
-              -32.8921696
-            ],
-            [
-              -68.8322607,
-              -32.8921735
-            ],
-            [
-              -68.832261,
-              -32.8921997
-            ],
-            [
-              -68.8320018,
-              -32.892202
-            ],
-            [
-              -68.8319999,
-              -32.8920524
-            ],
-            [
-              -68.8318592,
-              -32.8920536
-            ],
-            [
-              -68.8318556,
-              -32.8917534
-            ],
-            [
-              -68.8322554,
-              -32.89175
-            ],
-            [
-              -68.8322591,
-              -32.8920502
-            ],
-            [
-              -68.832324,
-              -32.8920497
-            ],
-            [
-              -68.8323195,
-              -32.8916893
-            ],
-            [
-              -68.8324525,
-              -32.8916881
-            ],
-            [
-              -68.832457,
-              -32.8920479
-            ],
-            [
-              -68.8328509,
-              -32.8920445
-            ],
-            [
-              -68.8328485,
-              -32.8918486
-            ],
-            [
-              -68.8330027,
-              -32.8918473
-            ],
-            [
-              -68.8330051,
-              -32.8920422
-            ],
-            [
-              -68.8334154,
-              -32.8920387
-            ],
-            [
-              -68.8334109,
-              -32.8916698
-            ],
-            [
-              -68.8335376,
-              -32.8916687
-            ],
-            [
-              -68.8335421,
-              -32.892037
-            ],
-            [
-              -68.8335856,
-              -32.8920366
-            ],
-            [
-              -68.8335872,
-              -32.8921605
-            ],
-            [
-              -68.8331469,
-              -32.8921643
-            ],
-            [
-              -68.833148,
-              -32.8922596
-            ],
-            [
-              -68.8329297,
-              -32.892261
-            ],
-            [
-              -68.832715,
-              -32.8922633
-            ],
-            [
-              -68.8327139,
-              -32.8921696
-            ]
-          ]
-        ]
-      },
-      "id": "way/771688729"
     },
     {
       "type": "Feature",
@@ -61136,7 +60897,8 @@
         "@id": "node/791746743",
         "amenity": "hospital",
         "description": "Kids",
-        "name": "Clínica del niño"
+        "healthcare": "hospital",
+        "name": "Clínica del Niño"
       },
       "geometry": {
         "type": "Point",
@@ -61864,6 +61626,7 @@
         "amenity": "hospital",
         "description": "Urgencias marque 107 desde celular *107",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Municipal",
         "phone": "+54 2262 42 2405",
         "wheelchair": "yes"
@@ -61919,6 +61682,7 @@
       "properties": {
         "@id": "node/1278234559",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala Médica"
       },
       "geometry": {
@@ -62150,6 +61914,7 @@
       "properties": {
         "@id": "node/1320243404",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios"
       },
       "geometry": {
@@ -62531,6 +62296,7 @@
         "addr:street": "25 de Mayo",
         "amenity": "hospital",
         "emergency": "yes",
+        "healthcare": "hospital",
         "name": "Hospital Subzonal Municipal"
       },
       "geometry": {
@@ -66698,6 +66464,7 @@
       "properties": {
         "@id": "node/2277166395",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Clinica Privada San Pedro"
       },
       "geometry": {
@@ -69549,6 +69316,7 @@
         "@id": "node/2973890405",
         "amenity": "hospital",
         "emergency": "no",
+        "healthcare": "hospital",
         "name": "Unidad Sanitaria Parque Hermoso"
       },
       "geometry": {
@@ -70667,6 +70435,7 @@
         "addr:housenumber": "1360",
         "addr:street": "Abad e Illana",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Centro Odontológico"
       },
       "geometry": {
@@ -70683,6 +70452,7 @@
       "properties": {
         "@id": "node/3282717481",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Consultorio Odontológico"
       },
       "geometry": {
@@ -71923,6 +71693,7 @@
       "properties": {
         "@id": "node/3589019489",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "sala asistencial"
       },
       "geometry": {
@@ -72176,6 +71947,7 @@
       "properties": {
         "@id": "node/3627035483",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Unidad Sanitaria La Dulce"
       },
       "geometry": {
@@ -72233,11 +72005,14 @@
         "addr:housenumber": "12",
         "addr:street": "Avenida José Invernizzi",
         "amenity": "hospital",
+        "description": "Categoría de tipología\tBajo riesgo con internación simple",
         "emergency": "yes",
         "fixme": "Verificar la posicion exacta",
         "healthcare": "hospital",
         "name": "Hospital de Colonia Delicia",
         "phone": "+54 3751 427777",
+        "ref:sisa_codigo": "10540422164507",
+        "ref:sisa_tipologia": "ESCIG",
         "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
       },
       "geometry": {
@@ -74115,6 +73890,7 @@
         "addr:housenumber": "2200",
         "addr:street": "Alejandro Korn",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Sala de Primeros Auxilios \"José Coelho de Meyrelles",
         "operator": "Municipalidad de Gral. Pueyrredon"
       },
@@ -74376,6 +74152,7 @@
       "properties": {
         "@id": "node/3882458489",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "UPA Punta Mogotes"
       },
       "geometry": {
@@ -75887,6 +75664,7 @@
       "properties": {
         "@id": "node/4103895597",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Subcentro de Salud \"El Martillo\""
       },
       "geometry": {
@@ -79442,6 +79220,7 @@
       "properties": {
         "@id": "node/4415799389",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "internet_access": "wlan",
         "name": "Sala de primeros auxilios Cosme Argerich"
       },
@@ -79656,6 +79435,7 @@
         "addr:postcode": "2935",
         "addr:street": "San Lorenzo",
         "amenity": "hospital",
+        "healthcare": "hospital",
         "name": "Hospital de Santa Lucía",
         "name:es": "Hospital de Santa Lucía"
       },
@@ -81572,7 +81352,7 @@
         "description": "El Hospital de Niños \"Dr. Orlando Alassia\" fue creado el 29 de Abril de 1999 en la ciudad de Santa Fe.",
         "emergency": "no",
         "healthcare": "hospital",
-        "healthcare:speciality": "pediatrics",
+        "healthcare:speciality": "paediatrics",
         "name": "Hospital de Niños Dr. Orlando Alassia",
         "operator": "Provincia de Santa Fe",
         "operator:type": "public",
@@ -84576,8 +84356,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/5526863023",
+        "addr:city": "isidro casanova",
         "addr:full": "Dante Alighieri 3637",
+        "addr:housenumber": "3637",
         "addr:postcode": "1765",
+        "addr:street": "Dante Alighieri",
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Sanatorio Privado Figueroa Paredes Sa",
@@ -94669,8 +94452,11 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7504721248",
+        "addr:city": "Ituzaingó",
         "addr:full": "Gral. Olazabal 319",
+        "addr:housenumber": "319",
         "addr:postcode": "1714",
+        "addr:street": "Olazabal",
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Sanatorio Del Oeste - (ex Imc Sanatorio Ituzaingo)",
@@ -95814,8 +95600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.7131452,
-          -36.2984712
+          -61.7130862,
+          -36.2984366
         ]
       },
       "id": "node/7537524498"
@@ -96014,6 +95800,21 @@
         ]
       },
       "id": "node/7608364840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7656457497",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.664565,
+          -22.9001261
+        ]
+      },
+      "id": "node/7656457497"
     }
   ]
 }

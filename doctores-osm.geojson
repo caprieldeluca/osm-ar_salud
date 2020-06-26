@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-13T23:53:02Z",
+  "timestamp": "2020-06-26T22:50:03Z",
   "features": [
     {
       "type": "Feature",
@@ -2646,6 +2646,7 @@
         "addr:street": "Diagonal 79",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Centro Médico Diagonal",
         "source": "Reconocimiento cartográfico de campo 2016 por KG."
       },
@@ -3385,12 +3386,12 @@
               -34.5390632
             ],
             [
-              -58.465163,
-              -34.5389236
+              -58.4651818,
+              -34.5388982
             ],
             [
-              -58.4652124,
-              -34.5388462
+              -58.4652272,
+              -34.5388252
             ],
             [
               -58.4655347,
@@ -5399,6 +5400,7 @@
         "addr:street": "Avenida Santa Ana",
         "amenity": "doctors",
         "building": "yes",
+        "healthcare": "doctor",
         "name": "Optica Vistana"
       },
       "geometry": {
@@ -6779,6 +6781,7 @@
       "properties": {
         "@id": "way/775584617",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Centro de Diagnóstico"
       },
       "geometry": {
@@ -8003,6 +8006,7 @@
         "@id": "node/791743836",
         "amenity": "doctors",
         "description": "Oftalmocentro",
+        "healthcare": "doctor",
         "is_in": "Córdoba",
         "name": "Luis Darío garcia"
       },
@@ -8023,6 +8027,7 @@
         "addr:street": "Independencia",
         "amenity": "doctors",
         "description": "Kinesiologia fisioterapia nutrición psicología pediatra endocrinologia odontología clínica",
+        "healthcare": "doctor",
         "is_in": "Córdoba"
       },
       "geometry": {
@@ -8040,6 +8045,7 @@
         "@id": "node/791746735",
         "amenity": "doctors",
         "description": "Nariz nose garganta throat alergias cir plastica",
+        "healthcare": "doctor",
         "is_in": "Córdoba",
         "name": "Longo"
       },
@@ -8059,6 +8065,7 @@
         "addr:street": "Avenida Vélez Sarsfield",
         "amenity": "doctors",
         "description": "Skin piel estética",
+        "healthcare": "doctor",
         "is_in": "Córdoba",
         "name": "Cipe"
       },
@@ -8145,31 +8152,6 @@
         ]
       },
       "id": "node/1082328193"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1105781544",
-        "addr:housenumber": "1719",
-        "addr:postcode": "1744",
-        "addr:street": "Juramento",
-        "amenity": "doctors",
-        "name": "Salita Juramento",
-        "official_name": "Centro Asistencial Juramento",
-        "operator": "Municipalidad de Moreno",
-        "operator:type": "public",
-        "phone": "+54 237-4629951",
-        "ref:sisa_codigo": "50065602201092",
-        "ref:sisa_tipologia": "ESSIDT"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7950237,
-          -34.6649734
-        ]
-      },
-      "id": "node/1105781544"
     },
     {
       "type": "Feature",
@@ -8626,27 +8608,6 @@
         ]
       },
       "id": "node/1873946946"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1877886385",
-        "addr:city": "Neuquén",
-        "addr:housename": "250",
-        "addr:street": "Bernardino Rivadavia",
-        "amenity": "doctors",
-        "contact:phone": "+54 0299 4488820",
-        "healthcare": "doctor",
-        "name": "Consultorios Externos - Policlínico Neuquén"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0552547,
-          -38.9538771
-        ]
-      },
-      "id": "node/1877886385"
     },
     {
       "type": "Feature",
@@ -9420,33 +9381,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2467045289",
-        "addr:city": "Luján",
-        "addr:housenumber": "475",
-        "addr:province": "Buenos Aires",
-        "addr:street": "19 - General Las Heras",
-        "amenity": "doctors",
-        "description": "Atención de prácticas esenciales",
-        "healthcare": "doctor",
-        "healthcare:speciality": "general",
-        "name": "Policlínico Eva Perón",
-        "opening_hours": "Mo-Fr 07:00-18:00, Sa 09:00-12:00",
-        "operator": "Municipalidad de Luján",
-        "operator:type": "public",
-        "phone": "+54 2323 42-1260;+54 11 5582-8124"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.1167903,
-          -34.5678526
-        ]
-      },
-      "id": "node/2467045289"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/2472432532",
         "addr:housenumber": "430",
         "addr:street": "Senador Manuel Castro",
@@ -9574,6 +9508,7 @@
         "addr:postcode": "5000",
         "addr:street": "Tucuman",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "RepensarMe - Consultorio Psicologico",
         "phone": "+5493513517423",
         "website": "www.facebook.com/Repensarme",
@@ -11241,6 +11176,7 @@
       "properties": {
         "@id": "node/3724741997",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Laboratios LACE"
       },
       "geometry": {
@@ -11722,6 +11658,7 @@
       "properties": {
         "@id": "node/4034878415",
         "amenity": "doctors",
+        "healthcare": "laboratory",
         "name": "Laboratorio Moreno"
       },
       "geometry": {
@@ -11834,6 +11771,7 @@
         "addr:street": "Grimaldi",
         "amenity": "doctors",
         "emergency": "yes",
+        "healthcare": "doctor",
         "name": "Centro Municipal de Salud Nº26 \"Lourdes\""
       },
       "geometry": {
@@ -12649,7 +12587,7 @@
         "amenity": "doctors",
         "contact:phone": "+54 11 5777-3200",
         "health_facility:type": "laboratory",
-        "healthcare": "doctor",
+        "healthcare": "laboratory",
         "name": "Laboratorio Central FLENI",
         "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:00"
       },
@@ -14129,6 +14067,7 @@
         "@id": "node/4580162273",
         "addr:street": "Diagonal 73",
         "amenity": "doctors",
+        "healthcare": "doctor",
         "name": "Enfermeria Comunitaria",
         "source": "Reconocimiento cartográfico de campo 2016 por KG."
       },
@@ -15712,29 +15651,6 @@
         ]
       },
       "id": "node/4849531261"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4873034921",
-        "addr:housenumber": "250",
-        "addr:postcode": "8300",
-        "addr:street": "Juan Bautista Alberdi",
-        "amenity": "doctors",
-        "healthcare": "doctor",
-        "internet_access": "wlan",
-        "name": "Kranex",
-        "name:en": "Kranex",
-        "name:es": "Kranex"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0555852,
-          -38.9528421
-        ]
-      },
-      "id": "node/4873034921"
     },
     {
       "type": "Feature",
@@ -21885,10 +21801,14 @@
       "properties": {
         "@id": "node/7016690624",
         "addr:city": "Azara",
+        "addr:street": "Puerto Azara",
         "alt_name": "Centro de Atención Primaria de la Salud Puerto Azara",
         "amenity": "doctors",
+        "description": "Categoría de tipología\tSin atención médica en forma periódica (menor a 3 veces por semana)",
         "healthcare": "doctor",
-        "name": "CAPS Puerto Azara"
+        "name": "CAPS Puerto Azara",
+        "ref:sisa_codigo": "50540072164049",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22546,8 +22466,11 @@
         "addr:street": "Ruta Provincial 24",
         "alt_name": "Centro de Atención Primaria de la Salud Itatí",
         "amenity": "doctors",
+        "description": "Categoría de tipología\tSin atención médica en forma periódica (menor a 3 veces por semana)",
         "healthcare": "doctor",
-        "name": "CAPS Itatí"
+        "name": "CAPS Itatí",
+        "ref:sisa_codigo": "50540492165863",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22586,8 +22509,11 @@
         "addr:city": "Deseado",
         "alt_name": "Centro de Atención Primaria de la Salud Deseado",
         "amenity": "doctors",
+        "description": "Categoría de tipología\tSin atención médica en forma periódica (menor a 3 veces por semana)",
         "healthcare": "doctor",
-        "name": "CAPS Deseado"
+        "name": "CAPS Deseado",
+        "ref:sisa_codigo": "50540492264264",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -22880,11 +22806,16 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7019392524",
+        "addr:city": "Puerto Esperanza",
+        "addr:postcode": "3378",
         "addr:street": "Pablo M. Aranda",
         "alt_name": "Centro de Atención Primaria de la Salud Alegre",
         "amenity": "doctors",
+        "description": "Categoría de tipología\tCon atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
-        "name": "CAPS Alegre"
+        "name": "CAPS Alegre",
+        "ref:sisa_codigo": "50540632264249",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -23836,8 +23767,11 @@
         "addr:street": "Sarmiento",
         "alt_name": "Centro de Integración Comunitaria Colonia Delicia",
         "amenity": "doctors",
+        "description": "Categoría de tipología\tCon atención médica general por lo menos 3 días de la semana",
         "healthcare": "doctor",
-        "name": "Puesto de Salud CIC Colonia Delicia"
+        "name": "Puesto de Salud CIC Colonia Delicia",
+        "ref:sisa_codigo": "50540422265157",
+        "ref:sisa_tipologia": "ESSIDT"
       },
       "geometry": {
         "type": "Point",
@@ -27250,6 +27184,25 @@
         ]
       },
       "id": "node/7580096691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7633473532",
+        "addr:city": "Santa Ana",
+        "amenity": "doctors",
+        "fixme": "Verificar la ubicación correcta",
+        "healthcare": "doctor",
+        "name": "CAPS Puerto Santa Ana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5858738,
+          -27.3368241
+        ]
+      },
+      "id": "node/7633473532"
     }
   ]
 }
