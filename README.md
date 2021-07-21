@@ -71,4 +71,4 @@ El directorio [`mapaton`](https://github.com/gabriel-de-luca/covid-19/tree/maste
 
 ----
 
-Última actualización: 26/junio/2020.
+Última actualización: 21/julio/2021.
