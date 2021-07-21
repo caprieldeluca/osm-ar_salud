@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-06-26T22:49:02Z",
+  "timestamp": "2021-07-21T01:17:39Z",
   "features": [
     {
       "type": "Feature",
@@ -256,6 +256,7 @@
         "building:levels": "2",
         "description": "Perfumería y pañalería",
         "name": "Berenice",
+        "opening_hours:signed": "no",
         "roof:levels": "1",
         "roof:shape": "half-hipped",
         "shop": "chemist",
@@ -266,49 +267,89 @@
         "coordinates": [
           [
             [
-              -60.812955,
-              -32.9132243
+              -60.8129071,
+              -32.9132177
             ],
             [
-              -60.8129684,
-              -32.9132725
+              -60.8129287,
+              -32.9131749
             ],
             [
-              -60.8129223,
-              -32.9132806
+              -60.8129801,
+              -32.9131659
             ],
             [
-              -60.812908,
-              -32.9132175
+              -60.8129847,
+              -32.9131843
             ],
             [
-              -60.8129292,
-              -32.9131768
+              -60.8129711,
+              -32.9131866
             ],
             [
-              -60.8129802,
-              -32.9131669
-            ],
-            [
-              -60.8129848,
-              -32.9131842
-            ],
-            [
-              -60.812971,
-              -32.9131867
-            ],
-            [
-              -60.8129743,
+              -60.8129742,
               -32.9131991
             ],
             [
-              -60.812955,
-              -32.9132243
+              -60.8129565,
+              -32.913224
+            ],
+            [
+              -60.8129686,
+              -32.9132725
+            ],
+            [
+              -60.8129227,
+              -32.9132805
+            ],
+            [
+              -60.8129071,
+              -32.9132177
             ]
           ]
         ]
       },
       "id": "way/253888140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/293777236",
+        "addr:postcode": "S2132",
+        "addr:street": "Suipacha",
+        "building": "retail",
+        "description": "Forraje",
+        "opening_hours": "Mo-Fr 09:00-13:00,17:00-20:00",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.8128612,
+              -32.9088161
+            ],
+            [
+              -60.8128631,
+              -32.9087443
+            ],
+            [
+              -60.8130128,
+              -32.9087471
+            ],
+            [
+              -60.8130108,
+              -32.9088189
+            ],
+            [
+              -60.8128612,
+              -32.9088161
+            ]
+          ]
+        ]
+      },
+      "id": "way/293777236"
     },
     {
       "type": "Feature",
@@ -325,7 +366,8 @@
         "name": "Orcellet",
         "opening_hours": "Mo-Su 09:00-13:00,16:30-20:30, Sa off",
         "payment:cash": "yes",
-        "shop": "chemist"
+        "shop": "chemist",
+        "wheelchair": "limited"
       },
       "geometry": {
         "type": "Polygon",
@@ -367,6 +409,7 @@
         "building:levels": "2",
         "contact:phone": "+54 341 493-7593",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Sabín",
         "payment:cash": "yes",
         "shop": "chemist",
@@ -685,24 +728,24 @@
         "coordinates": [
           [
             [
-              -58.5649561,
-              -34.5660456
+              -58.5649655,
+              -34.5660644
             ],
             [
-              -58.5649867,
-              -34.5661377
+              -58.5649961,
+              -34.5661565
             ],
             [
-              -58.5648974,
-              -34.5661578
+              -58.5649068,
+              -34.5661766
             ],
             [
-              -58.5648668,
-              -34.5660657
+              -58.5648762,
+              -34.5660845
             ],
             [
-              -58.5649561,
-              -34.5660456
+              -58.5649655,
+              -34.5660644
             ]
           ]
         ]
@@ -766,33 +809,74 @@
         "coordinates": [
           [
             [
-              -58.5655799,
-              -34.5654942
+              -58.5655933,
+              -34.5655086
             ],
             [
-              -58.5656431,
-              -34.5655557
+              -58.5656565,
+              -34.5655701
             ],
             [
-              -58.5656364,
-              -34.5655954
+              -58.5656498,
+              -34.5656098
             ],
             [
-              -58.5655439,
-              -34.5656175
+              -58.5655573,
+              -34.5656319
             ],
             [
-              -58.5654851,
-              -34.5655603
+              -58.5654985,
+              -34.5655747
             ],
             [
-              -58.5655799,
-              -34.5654942
+              -58.5655933,
+              -34.5655086
             ]
           ]
         ]
       },
       "id": "way/466464273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/468153361",
+        "building": "yes",
+        "name": "La Jaboneía",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.7092221,
+              -34.6288095
+            ],
+            [
+              -58.7092305,
+              -34.6288317
+            ],
+            [
+              -58.7089786,
+              -34.6290474
+            ],
+            [
+              -58.7088502,
+              -34.6289458
+            ],
+            [
+              -58.7088561,
+              -34.6287995
+            ],
+            [
+              -58.7092221,
+              -34.6288095
+            ]
+          ]
+        ]
+      },
+      "id": "way/468153361"
     },
     {
       "type": "Feature",
@@ -1035,6 +1119,48 @@
         ]
       },
       "id": "way/471648820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/471840851",
+        "addr:city": "Longchamps",
+        "addr:postcode": "1854",
+        "addr:street": "Avenida Doctor Chiesa",
+        "building": "yes",
+        "name": "Rocco",
+        "opening_hours:covid19": "open",
+        "shop": "chemist",
+        "source": "Reconocimiento terrestre 2016 por Kaart."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.3868491,
+              -34.8586733
+            ],
+            [
+              -58.3868439,
+              -34.8587489
+            ],
+            [
+              -58.3867149,
+              -34.8587436
+            ],
+            [
+              -58.3867194,
+              -34.8586684
+            ],
+            [
+              -58.3868491,
+              -34.8586733
+            ]
+          ]
+        ]
+      },
+      "id": "way/471840851"
     },
     {
       "type": "Feature",
@@ -1589,6 +1715,55 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/751354462",
+        "building": "yes",
+        "name": "El Balcón",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.5004455,
+              -30.9276433
+            ],
+            [
+              -64.5004431,
+              -30.9276279
+            ],
+            [
+              -64.5004579,
+              -30.927609
+            ],
+            [
+              -64.500483,
+              -30.9275769
+            ],
+            [
+              -64.5005022,
+              -30.9275485
+            ],
+            [
+              -64.5006416,
+              -30.9276118
+            ],
+            [
+              -64.5005826,
+              -30.927705
+            ],
+            [
+              -64.5004455,
+              -30.9276433
+            ]
+          ]
+        ]
+      },
+      "id": "way/751354462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/787016202",
         "addr:city": "Viedma",
         "addr:housenumber": "1011",
@@ -1641,23 +1816,23 @@
         "coordinates": [
           [
             [
-              -64.2915193,
+              -64.2915187,
               -33.0919301
             ],
             [
-              -64.2914671,
-              -33.0919842
+              -64.2914669,
+              -33.0919811
             ],
             [
-              -64.2914282,
-              -33.0919516
+              -64.2914258,
+              -33.0919517
             ],
             [
-              -64.2914779,
-              -33.0919024
+              -64.2914777,
+              -33.0919008
             ],
             [
-              -64.2915193,
+              -64.2915187,
               -33.0919301
             ]
           ]
@@ -1678,24 +1853,24 @@
         "coordinates": [
           [
             [
-              -64.2859731,
-              -33.088595
+              -64.2859733,
+              -33.0885961
             ],
             [
-              -64.2860569,
-              -33.0886521
+              -64.2860557,
+              -33.0886522
             ],
             [
-              -64.2860061,
-              -33.0887043
+              -64.286006,
+              -33.0887034
             ],
             [
-              -64.285927,
-              -33.088647
+              -64.2859236,
+              -33.0886473
             ],
             [
-              -64.2859731,
-              -33.088595
+              -64.2859733,
+              -33.0885961
             ]
           ]
         ]
@@ -1757,8 +1932,16 @@
               -30.981597
             ],
             [
-              -64.4915979,
-              -30.981603
+              -64.4915696,
+              -30.9815999
+            ],
+            [
+              -64.4916002,
+              -30.9816017
+            ],
+            [
+              -64.4916004,
+              -30.9816107
             ],
             [
               -64.491591,
@@ -1825,9 +2008,320 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/820789331",
+        "building": "yes",
+        "name": "Econoclean",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0012882,
+              -38.938937
+            ],
+            [
+              -68.00136,
+              -38.9391522
+            ],
+            [
+              -68.0012787,
+              -38.9391707
+            ],
+            [
+              -68.0012189,
+              -38.938992
+            ],
+            [
+              -68.0012059,
+              -38.9389532
+            ],
+            [
+              -68.0012882,
+              -38.938937
+            ]
+          ]
+        ]
+      },
+      "id": "way/820789331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821270339",
+        "addr:city": "Neuquén",
+        "addr:postcode": "Q8300",
+        "addr:street": "Intendente Pedro Linares",
+        "building": "yes",
+        "name": "CAROMAR Mayorista",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0448287,
+              -38.9598149
+            ],
+            [
+              -68.0448352,
+              -38.9602018
+            ],
+            [
+              -68.0445356,
+              -38.9602043
+            ],
+            [
+              -68.0445309,
+              -38.9598155
+            ],
+            [
+              -68.0448287,
+              -38.9598149
+            ]
+          ]
+        ]
+      },
+      "id": "way/821270339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/844643450",
+        "building": "yes",
+        "name": "Segulimp",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0672832,
+              -38.9580759
+            ],
+            [
+              -68.0671499,
+              -38.9580765
+            ],
+            [
+              -68.0671494,
+              -38.9579659
+            ],
+            [
+              -68.0671486,
+              -38.9578059
+            ],
+            [
+              -68.0672426,
+              -38.9578056
+            ],
+            [
+              -68.0672819,
+              -38.9578055
+            ],
+            [
+              -68.0672832,
+              -38.9580759
+            ]
+          ]
+        ]
+      },
+      "id": "way/844643450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/848677640",
+        "building": "yes",
+        "name": "Smart Clean",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.266607,
+              -50.3398083
+            ],
+            [
+              -72.266592,
+              -50.3398829
+            ],
+            [
+              -72.2665779,
+              -50.3399515
+            ],
+            [
+              -72.2664051,
+              -50.3399376
+            ],
+            [
+              -72.2664219,
+              -50.3398521
+            ],
+            [
+              -72.2664425,
+              -50.3397478
+            ],
+            [
+              -72.2665664,
+              -50.3397579
+            ],
+            [
+              -72.2665573,
+              -50.3398043
+            ],
+            [
+              -72.266607,
+              -50.3398083
+            ]
+          ]
+        ]
+      },
+      "id": "way/848677640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/852793388",
+        "building": "yes",
+        "name": "Shaddai",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -67.9975435,
+              -38.9260732
+            ],
+            [
+              -67.9974327,
+              -38.9260735
+            ],
+            [
+              -67.9974322,
+              -38.9259833
+            ],
+            [
+              -67.9974799,
+              -38.9259832
+            ],
+            [
+              -67.997522,
+              -38.9260086
+            ],
+            [
+              -67.9975435,
+              -38.9260732
+            ]
+          ]
+        ]
+      },
+      "id": "way/852793388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/901809323",
+        "building": "yes",
+        "name": "A Y M",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.7122629,
+              -32.8305174
+            ],
+            [
+              -60.7122059,
+              -32.8305278
+            ],
+            [
+              -60.7121705,
+              -32.8304863
+            ],
+            [
+              -60.7122044,
+              -32.8303867
+            ],
+            [
+              -60.71236,
+              -32.8303931
+            ],
+            [
+              -60.7123523,
+              -32.8304372
+            ],
+            [
+              -60.7122675,
+              -32.8304501
+            ],
+            [
+              -60.7122629,
+              -32.8305174
+            ]
+          ]
+        ]
+      },
+      "id": "way/901809323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/942040652",
+        "building": "yes",
+        "name": "Alpros",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.2613783,
+              -38.7248549
+            ],
+            [
+              -62.2614578,
+              -38.724918
+            ],
+            [
+              -62.2614588,
+              -38.7249772
+            ],
+            [
+              -62.261418,
+              -38.725008
+            ],
+            [
+              -62.261301,
+              -38.724914
+            ],
+            [
+              -62.2613783,
+              -38.7248549
+            ]
+          ]
+        ]
+      },
+      "id": "way/942040652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/540460770",
         "amenity": "pharmacy",
         "healthcare": "pharmacy",
+        "name": "Farmacity",
         "operator": "Farmacity",
         "shop": "chemist"
       },
@@ -2082,22 +2576,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/1496703483",
-        "name": "Todo Suelto Centenario",
-        "shop": "chemist"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.7929888,
-          -34.6664373
-        ]
-      },
-      "id": "node/1496703483"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/1565600662",
         "shop": "chemist"
       },
@@ -2164,6 +2642,7 @@
         "@id": "node/1828064709",
         "addr:city": "Florida",
         "addr:housenumber": "1756",
+        "addr:postcode": "1602",
         "addr:street": "Presidente Hipólito Yrigoyen",
         "name": "Farmacia Iris",
         "phone": "+54 11 4791-2522",
@@ -2454,6 +2933,25 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2533703997",
+        "addr:housenumber": "2409",
+        "addr:street": "Avenida Cabildo",
+        "description": "sahumerios, velas, jabones naturales",
+        "name": "Aroma Fusión",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4590496,
+          -34.5589887
+        ]
+      },
+      "id": "node/2533703997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2638629874",
         "shop": "chemist"
       },
@@ -2724,22 +3222,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3726222913",
-        "name": "Laboratorio ELEA",
-        "shop": "chemist"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.5030449,
-          -34.6146736
-        ]
-      },
-      "id": "node/3726222913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3729721505",
         "name": "Limpissimo",
         "shop": "chemist"
@@ -2824,6 +3306,22 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4082392202",
+        "name": "Articulos Sueltos Limpieza",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8611578,
+          -36.7847812
+        ]
+      },
+      "id": "node/4082392202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4129555366",
         "shop": "chemist"
       },
@@ -2840,6 +3338,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4167717576",
+        "name": "Tienda de Mascotas",
         "shop": "chemist"
       },
       "geometry": {
@@ -2939,6 +3438,7 @@
         "@id": "node/4270042667",
         "addr:housenumber": "397",
         "addr:street": "Hipólito Bouchard",
+        "delivery": "yes",
         "name": "Quimica Bouchard",
         "phone": "+54 237 462-0862",
         "shop": "chemist",
@@ -3077,8 +3577,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7929211,
-          -34.6663915
+          -58.7926321,
+          -34.6663694
         ]
       },
       "id": "node/4429112324"
@@ -3155,21 +3655,6 @@
         ]
       },
       "id": "node/4494833330"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4498274350",
-        "shop": "chemist"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.7056749,
-          -32.8623939
-        ]
-      },
-      "id": "node/4498274350"
     },
     {
       "type": "Feature",
@@ -3450,6 +3935,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4633363912",
+        "name": "Japones",
+        "prepayment:sube": "yes",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.8003648,
+          -34.665879
+        ]
+      },
+      "id": "node/4633363912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4644719861",
         "addr:street": "Avenida Presidente Hipólito Yrigoyen",
         "name": "50+ Drugstores",
@@ -3499,24 +4001,6 @@
         ]
       },
       "id": "node/4650075059"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4657255176",
-        "addr:street": "Avenida Juan Bautista Justo",
-        "name": "Drugstore",
-        "shop": "chemist",
-        "source": "Reconocimiento terrestre por Kaart 2016"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4676379,
-          -34.6113705
-        ]
-      },
-      "id": "node/4657255176"
     },
     {
       "type": "Feature",
@@ -3704,8 +4188,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7959442,
-          -34.6451662
+          -58.7959791,
+          -34.6451463
         ]
       },
       "id": "node/4679439385"
@@ -3783,7 +4267,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4697965914",
-        "addr:street": "137 - Avenida Bernardino Rivadavia",
+        "addr:street": "137 - Avenida Rivadavia",
         "name": "Lp Fragancias",
         "shop": "chemist"
       },
@@ -4051,7 +4535,7 @@
         "addr:country": "AR",
         "addr:housenumber": "4817",
         "addr:postcode": "1431",
-        "addr:street": "Avenida Monroe",
+        "addr:street": "Monroe",
         "delivery": "yes",
         "description": "Articulos de limpieza sueltos",
         "name": "Burbujas",
@@ -4076,7 +4560,7 @@
         "addr:housenumber": "4576",
         "addr:postcode": "1431",
         "addr:street": "Avenida Triunvirato",
-        "facebook": "https://www.facebook.com/perfumeriaspigmento/",
+        "contact:facebook": "https://www.facebook.com/perfumeriaspigmento/",
         "name": "Pigmento",
         "opening_hours": "Mo-Sa 09:00-21:00; Su 10:30-20:30",
         "phone": "+54 11 4514-8173",
@@ -4124,8 +4608,8 @@
         "addr:housenumber": "4968",
         "addr:postcode": "1431",
         "addr:street": "La Pampa",
+        "contact:facebook": "https://www.facebook.com/AcquaLimpiezaProfesional/",
         "email": "sulfonico@hotmail.com",
-        "facebook": "https://www.facebook.com/AcquaLimpiezaProfesional/",
         "name": "ACQUA",
         "opening_hours": "Mo-Fr 09:00-13:00,17:30-20:00; Sa 09:00-13:00",
         "phone": "+54 11 4522-5589",
@@ -4183,18 +4667,23 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5127248883",
-        "name": "Valkiria",
+        "@id": "node/5106438407",
+        "addr:city": "Concordia",
+        "addr:country": "AR",
+        "addr:postcode": "3200",
+        "addr:street": "Presidente Marcelo Torcuato de Alvear",
+        "description": "Productos de Limpieza Sueltos",
+        "name": "Aromitos",
         "shop": "chemist"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7855822,
-          -34.6581634
+          -58.0234155,
+          -31.3866527
         ]
       },
-      "id": "node/5127248883"
+      "id": "node/5106438407"
     },
     {
       "type": "Feature",
@@ -4228,6 +4717,27 @@
         ]
       },
       "id": "node/5197156041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5208337296",
+        "addr:city": "Puerto Madryn",
+        "addr:housenumber": "548",
+        "addr:postcode": "9120",
+        "addr:street": "Mendoza",
+        "description": "Venta de elementos orgánicos de higiene personal y para el hogar",
+        "name": "Ayliñ Piuke",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.052092,
+          -42.7761066
+        ]
+      },
+      "id": "node/5208337296"
     },
     {
       "type": "Feature",
@@ -4343,14 +4853,15 @@
         "@id": "node/5345221062",
         "addr:housenumber": "635",
         "addr:street": "Mitre",
+        "level": "-1",
         "name": "Limpiatutti",
         "shop": "chemist"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.5735113,
-          -33.8945167
+          -60.5735169,
+          -33.8945207
         ]
       },
       "id": "node/5345221062"
@@ -4737,17 +5248,35 @@
       "type": "Feature",
       "properties": {
         "@id": "node/6387952441",
-        "name": "La Mulata",
+        "contact:email": "quimicalarotonda@gmail.com",
+        "contact:phone": "+54 11 2488-8934",
+        "name": "La rotonda",
         "shop": "chemist"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.1259742,
-          -34.5511472
+          -59.1260207,
+          -34.5511373
         ]
       },
       "id": "node/6387952441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6405277279",
+        "name": "Mopin",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9988923,
+          -38.9225846
+        ]
+      },
+      "id": "node/6405277279"
     },
     {
       "type": "Feature",
@@ -4850,6 +5379,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6813316326",
+        "addr:city": "Azul",
+        "addr:country": "AR",
+        "addr:housenumber": "752",
+        "addr:postcode": "7300",
+        "addr:street": "Avenida Juan Domingo Perón",
+        "name": "Limpio y ReSuelto",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8613651,
+          -36.7846256
+        ]
+      },
+      "id": "node/6813316326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6915725438",
         "addr:housenumber": "155",
         "addr:street": "Doctor Eugenio Asconapé",
@@ -4917,6 +5467,43 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/7079676651",
+        "addr:housenumber": "2851",
+        "addr:street": "Avenida Uruguay",
+        "contact:facebook": "https://www.facebook.com/solarpoolspiscinas/",
+        "email": "solarpools@solarpools.arnetbiz.com.ar",
+        "name": "Solarpools Piscinas",
+        "phone": "+54 376 5223632",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8986878,
+          -27.3765783
+        ]
+      },
+      "id": "node/7079676651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113528849",
+        "name": "La Esquina",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7839904,
+          -34.6536501
+        ]
+      },
+      "id": "node/7113528849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/7192010675",
         "name": "Química Bouchard",
         "shop": "chemist"
@@ -4940,8 +5527,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7945005,
-          -34.6423367
+          -58.7943878,
+          -34.6420929
         ]
       },
       "id": "node/7202514783"
@@ -4993,8 +5580,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.7968551,
-          -34.6567636
+          -58.7968988,
+          -34.6566979
         ]
       },
       "id": "node/7239477455"
@@ -5189,6 +5776,638 @@
         ]
       },
       "id": "node/7630668959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7659028944",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7840784,
+          -34.643327
+        ]
+      },
+      "id": "node/7659028944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7661587375",
+        "name": "Todo Suelto",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5706566,
+          -39.0291561
+        ]
+      },
+      "id": "node/7661587375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7725802836",
+        "name": "Punto Clean",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2981003,
+          -41.1359259
+        ]
+      },
+      "id": "node/7725802836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7727537934",
+        "name": "El Balcón",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5005711,
+          -30.9276038
+        ]
+      },
+      "id": "node/7727537934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7732071511",
+        "name": "Misión Limpieza",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4821358,
+          -34.5873711
+        ]
+      },
+      "id": "node/7732071511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7797387457",
+        "name": "Rayos de Sol",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7992757,
+          -37.8829063
+        ]
+      },
+      "id": "node/7797387457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7813586943",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49987,
+          -34.5983099
+        ]
+      },
+      "id": "node/7813586943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7824246086",
+        "name": "TodoLimpio.com",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4964874,
+          -31.4282768
+        ]
+      },
+      "id": "node/7824246086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7847688908",
+        "name": "Aqualimp",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7934069,
+          -34.6559141
+        ]
+      },
+      "id": "node/7847688908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7847690898",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7963542,
+          -34.6569398
+        ]
+      },
+      "id": "node/7847690898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7847694543",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7940769,
+          -34.6562336
+        ]
+      },
+      "id": "node/7847694543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7861974651",
+        "name": "El Emporio de la Limpieza",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0675599,
+          -38.9545046
+        ]
+      },
+      "id": "node/7861974651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7895281205",
+        "addr:city": "Azul",
+        "addr:housenumber": "402",
+        "addr:postcode": "7300",
+        "addr:street": "Diab",
+        "name": "Artículos de Limpieza Cha-Cha",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8575491,
+          -36.772043
+        ]
+      },
+      "id": "node/7895281205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7895405014",
+        "name": "Lo de Rafa",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5312676,
+          -34.6146393
+        ]
+      },
+      "id": "node/7895405014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7901631927",
+        "addr:city": "Santa Rosa",
+        "addr:housenumber": "2787",
+        "addr:postcode": "6300",
+        "addr:street": "Avenida Presidente Juan Domingo Perón",
+        "contact:facebook": "https://www.facebook.com/brillanteproductos/",
+        "name": "Más que Brillante",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3181032,
+          -36.6372016
+        ]
+      },
+      "id": "node/7901631927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7911352723",
+        "name": "Clean Up",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9902529,
+          -38.9414067
+        ]
+      },
+      "id": "node/7911352723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7936106542",
+        "name": "MG Higiene",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7878434,
+          -34.652558
+        ]
+      },
+      "id": "node/7936106542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7955046747",
+        "name": "S&S Limpieza",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.998631,
+          -38.9294396
+        ]
+      },
+      "id": "node/7955046747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7988026471",
+        "addr:housenumber": "602",
+        "addr:street": "Gral. Antonio Tiscornia",
+        "description": "Desde hace 40 años los mejores artículos de limpieza y al precio más bajo, los encontrás en Super Clin",
+        "name": "Súper Clin",
+        "phone": "0294 443-2546",
+        "shop": "chemist",
+        "website": "https://super-clin.com.ar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3018723,
+          -41.1385422
+        ]
+      },
+      "id": "node/7988026471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7990435045",
+        "name": "La Jaboneria",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7269221,
+          -34.6624337
+        ]
+      },
+      "id": "node/7990435045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7990459219",
+        "name": "Any",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7266561,
+          -34.661937
+        ]
+      },
+      "id": "node/7990459219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8001815393",
+        "name": "Artículos de Limpieza",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.505239,
+          -30.925205
+        ]
+      },
+      "id": "node/8001815393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8033175858",
+        "name": "Todo Suelto",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.0516707,
+          -27.3281904
+        ]
+      },
+      "id": "node/8033175858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8235460760",
+        "name": "H2O Limpieza",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6435729,
+          -40.7638818
+        ]
+      },
+      "id": "node/8235460760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8301569454",
+        "name": "Limpio & Relimpio",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5287772,
+          -34.6023125
+        ]
+      },
+      "id": "node/8301569454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8371464265",
+        "name": "Distribuidora BH",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.1422784,
+          -37.3224583
+        ]
+      },
+      "id": "node/8371464265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8412453832",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7903399,
+          -30.7380204
+        ]
+      },
+      "id": "node/8412453832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8446059725",
+        "name": "La Jabonera",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.8060921,
+          -30.7207173
+        ]
+      },
+      "id": "node/8446059725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8464781682",
+        "name": "Kiosco de jabón - Todo Suelto",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0069661,
+          -34.8865393
+        ]
+      },
+      "id": "node/8464781682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8554281034",
+        "name": "Farmacia Tao Pehuenes",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.395641,
+          -41.1261877
+        ]
+      },
+      "id": "node/8554281034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8581216585",
+        "name": "Natural Paper",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4593821,
+          -34.5638853
+        ]
+      },
+      "id": "node/8581216585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8612207930",
+        "addr:city": "Azul",
+        "addr:housenumber": "683",
+        "addr:postcode": "7300",
+        "addr:street": "Hipólito Yrigoyen",
+        "name": "Autoservicio Brillo's",
+        "phone": "+54 2281 42 6109",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.8587536,
+          -36.7806062
+        ]
+      },
+      "id": "node/8612207930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8616313068",
+        "name": "Pulcro",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.7889993,
+          -34.6472566
+        ]
+      },
+      "id": "node/8616313068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8640964443",
+        "name": "Geminis",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.9714625,
+          -27.2639064
+        ]
+      },
+      "id": "node/8640964443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8645389146",
+        "name": "Geminis",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.971446,
+          -27.2639173
+        ]
+      },
+      "id": "node/8645389146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8752897072",
+        "addr:city": "Posadas",
+        "addr:postcode": "3300",
+        "addr:street": "Avenida Blas Parera",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9440794,
+          -27.3725498
+        ]
+      },
+      "id": "node/8752897072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783933441",
+        "addr:city": "Bahía Blanca",
+        "addr:housenumber": "382",
+        "addr:postcode": "B8000",
+        "addr:street": "Zelarrayán",
+        "name": "Planeta",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.268956,
+          -38.7137733
+        ]
+      },
+      "id": "node/8783933441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8784302358",
+        "addr:city": "Bahía Blanca",
+        "addr:housenumber": "184",
+        "addr:postcode": "B8000",
+        "addr:street": "Zelarrayán",
+        "name": "Fina Lavanda",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.2666588,
+          -38.7155656
+        ]
+      },
+      "id": "node/8784302358"
     }
   ]
 }
