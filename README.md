@@ -68,7 +68,3 @@ Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Ar
 ----
 
 El directorio [`mapaton`](https://github.com/gabriel-de-luca/covid-19/tree/master/mapaton) contiene los datos que se van a usar en los eventos de OpenStreetMap Argentina: Mapatón COVID19.
-
-----
-
-Última actualización: 21/julio/2021.
