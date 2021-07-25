@@ -20,6 +20,10 @@ osmtogeojson automatizacion/doctores-osm.json > doctores-osm.geojson
 osmtogeojson automatizacion/higiene-osm.json > higiene-osm.geojson
 echo "    ... hecho."
 
+echo "  Mostrar status resumido ..."
+git status -s
+echo "    ... hecho."
+
 echo "  Agregar y confirmar actualización al repositorio local ..."
 git commit -a -m "Actualizacion $(date +%Y%m%d)"
 echo "    ... hecho."
