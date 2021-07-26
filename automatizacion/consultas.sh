@@ -9,7 +9,7 @@ wget -O automatizacion/farmacias-osm.json --post-file=automatizacion/consulta-fa
 sleep 60
 wget -O automatizacion/doctores-osm.json --post-file=automatizacion/consulta-doctores.txt "https://overpass-api.de/api/interpreter"
 sleep 60
-wget -O automatizacion/higiene-osm.json --post-file=consulta-higiene.txt "https://overpass-api.de/api/interpreter"
+wget -O automatizacion/higiene-osm.json --post-file=automatizacion/consulta-higiene.txt "https://overpass-api.de/api/interpreter"
 echo "    ... hecho."
 
 echo "  Convertir json a geojson ..."

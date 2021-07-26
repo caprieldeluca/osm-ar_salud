@@ -6,6 +6,7 @@ area(3600286393)->.searchArea;
   // query part for: “shop=chemist”
   node["shop"="chemist"](area.searchArea);
   way["shop"="chemist"](area.searchArea);
+  relation["shop"="chemist"](area.searchArea);
 );
 // print results
 out body;
