@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-07-25T15:47:09Z",
-    "timestamp_areas_base": "2021-07-25T14:37:13Z",
+    "timestamp_osm_base": "2021-07-26T00:05:09Z",
+    "timestamp_areas_base": "2021-07-25T23:21:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1598,6 +1598,9 @@
   "lat": -27.1646033,
   "lon": -65.4954860,
   "tags": {
+    "addr:city": "Monteros",
+    "addr:postcode": "4142",
+    "addr:street": "Leandro Araoz",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -9822,12 +9825,12 @@
 {
   "type": "node",
   "id": 4095479889,
-  "lat": -38.3722265,
-  "lon": -60.2616019,
+  "lat": -38.3717343,
+  "lon": -60.2617541,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal Dr Ignacio Pirovano"
+    "name": "Hospital Municipal Doctor Ignacio Pirovano"
   }
 },
 {
@@ -26322,10 +26325,17 @@
   "id": 112256364,
   "nodes": [
     1276460462,
+    8949332223,
+    8949332222,
+    8949332217,
+    8949332218,
     1276460605,
     1276460766,
-    4103114682,
+    8949332219,
+    8949256716,
     1276460481,
+    8949332221,
+    8949332220,
     1276460462
   ],
   "tags": {
@@ -29279,6 +29289,9 @@
     2113291886
   ],
   "tags": {
+    "addr:city": "Las Lomitas",
+    "addr:postcode": "3630",
+    "addr:street": "General Manuel Belgrano",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -44112,7 +44125,8 @@
     "operator:type": "private",
     "phone": "+54 11 42495167",
     "ref:sisa_codigo": "10064342300060",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "wheelchair": "yes"
   }
 },
 {
@@ -58950,32 +58964,74 @@
 {
   "type": "node",
   "id": 1276460462,
-  "lat": -38.3713041,
-  "lon": -60.2630354
+  "lat": -38.3712876,
+  "lon": -60.2631155
 },
 {
   "type": "node",
   "id": 1276460481,
-  "lat": -38.3727172,
-  "lon": -60.2612115
+  "lat": -38.3726471,
+  "lon": -60.2612460
 },
 {
   "type": "node",
   "id": 1276460605,
-  "lat": -38.3706186,
-  "lon": -60.2621717
-},
-{
-  "type": "node",
-  "id": 4103114682,
-  "lat": -38.3724402,
-  "lon": -60.2608686
+  "lat": -38.3706149,
+  "lon": -60.2621788
 },
 {
   "type": "node",
   "id": 1276460766,
-  "lat": -38.3720107,
-  "lon": -60.2603371
+  "lat": -38.3719439,
+  "lon": -60.2604491
+},
+{
+  "type": "node",
+  "id": 8949256716,
+  "lat": -38.3720403,
+  "lon": -60.2604448
+},
+{
+  "type": "node",
+  "id": 8949332217,
+  "lat": -38.3706091,
+  "lon": -60.2623008
+},
+{
+  "type": "node",
+  "id": 8949332218,
+  "lat": -38.3705916,
+  "lon": -60.2622442
+},
+{
+  "type": "node",
+  "id": 8949332219,
+  "lat": -38.3719931,
+  "lon": -60.2604283
+},
+{
+  "type": "node",
+  "id": 8949332220,
+  "lat": -38.3726524,
+  "lon": -60.2613356
+},
+{
+  "type": "node",
+  "id": 8949332221,
+  "lat": -38.3726642,
+  "lon": -60.2612939
+},
+{
+  "type": "node",
+  "id": 8949332222,
+  "lat": -38.3712229,
+  "lon": -60.2631110
+},
+{
+  "type": "node",
+  "id": 8949332223,
+  "lat": -38.3712499,
+  "lon": -60.2631246
 },
 {
   "type": "node",
