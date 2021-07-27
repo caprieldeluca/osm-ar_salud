@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-07-26T00:17:17Z",
-    "timestamp_areas_base": "2021-07-25T23:21:43Z",
+    "timestamp_osm_base": "2021-07-27T00:57:12Z",
+    "timestamp_areas_base": "2021-07-27T00:04:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -26975,6 +26975,7 @@
     "addr:postcode": "1646",
     "addr:street": "Garibaldi",
     "amenity": "clinic",
+    "description": "Centro de salud. Próximo a mudarse al nuevo edificio para el Centro de Salud, sito en las calles Entre Ríos y Carlos Casares.",
     "healthcare": "clinic",
     "healthcare:speciality": "gynaecology;clinic",
     "name": "Centro De Salud 31 De San Fernando",
@@ -26982,7 +26983,8 @@
     "operator:type": "public",
     "phone": "+54 11 4746-3921",
     "ref:sisa_codigo": "50067492201313",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://www.sanfernando.gob.ar/noticias/obras-publicas/juan-andreotti-recorrio-la-ultima-etapa-de-obra-del-nuevo-centro-de-salud-31"
   }
 },
 {
@@ -42873,6 +42875,23 @@
   }
 },
 {
+  "type": "node",
+  "id": 8952180250,
+  "lat": -34.4588626,
+  "lon": -58.5555061,
+  "tags": {
+    "addr:city": "Victoria",
+    "addr:street": "Entre Ríos y Carlos Casares",
+    "amenity": "clinic",
+    "description": "Nuevo centro de salud 31, en reemplazo del anterior, ubicado a unas cuadras.\nReemplaza a la estación de bombeo de agua que antes estaba en este lugar.",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;specialist_pediatrician;obstetrics",
+    "name": "Nuevo Centro de Salud 31",
+    "operator": "Municipio de San Fernando",
+    "source": "https://www.sanfernando.gob.ar/noticias/obras-publicas/juan-andreotti-recorrio-la-ultima-etapa-de-obra-del-nuevo-centro-de-salud-31"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -50046,6 +50065,7 @@
     "health_facility:type": "laboratory",
     "healthcare": "clinic",
     "name": "Laboratorio Hidalgo",
+    "opening_hours": "Mo-Fr 07:00-15:00; Sa 07:00-13:00",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
   }
 },

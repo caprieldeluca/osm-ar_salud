@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-07-26T00:18:26Z",
-    "timestamp_areas_base": "2021-07-25T23:21:43Z",
+    "timestamp_osm_base": "2021-07-27T00:59:10Z",
+    "timestamp_areas_base": "2021-07-27T00:04:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5319,13 +5319,13 @@
 {
   "type": "node",
   "id": 1707817130,
-  "lat": -53.7854019,
-  "lon": -67.7091225,
+  "lat": -53.7853876,
+  "lon": -67.7091064,
   "tags": {
     "addr:city": "Río Grande",
     "addr:housenumber": "902",
     "addr:postcode": "9420",
-    "addr:street": "Juan B. Thorne",
+    "addr:street": "Juan Bautista Thorne",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -5353,13 +5353,13 @@
 {
   "type": "node",
   "id": 1707817385,
-  "lat": -53.7870426,
-  "lon": -67.7240763,
+  "lat": -53.7870109,
+  "lon": -67.7240870,
   "tags": {
     "addr:city": "Río Grande",
     "addr:housenumber": "1607",
     "addr:postcode": "9420",
-    "addr:street": "Islas Malvinas",
+    "addr:street": "Islas Malvinas Argentinas",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "drive_through": "yes",
@@ -38679,6 +38679,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Ángel",
+    "opening_hours": "Mo-Fr 09:30-20:00; Sa 09:30-19:00",
     "phone": "+54 11 4742-5089"
   }
 },
@@ -43515,8 +43516,8 @@
 {
   "type": "node",
   "id": 4793550532,
-  "lat": -31.5381934,
-  "lon": -68.5361506,
+  "lat": -31.5381711,
+  "lon": -68.5361734,
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -49252,8 +49253,10 @@
   "lat": -53.8063009,
   "lon": -67.6801398,
   "tags": {
+    "addr:city": "Río Grande",
     "addr:housenumber": "825",
-    "addr:street": "El Alambrador",
+    "addr:postcode": "9420",
+    "addr:street": "Seriot",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Simon",
@@ -68056,9 +68059,13 @@
 {
   "type": "node",
   "id": 7732217156,
-  "lat": -53.7870295,
-  "lon": -67.6988066,
+  "lat": -53.7870422,
+  "lon": -67.6988254,
   "tags": {
+    "addr:city": "Río Grande",
+    "addr:housenumber": "402",
+    "addr:postcode": "9420",
+    "addr:street": "Avenida General José de San Martín",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -68127,10 +68134,11 @@
 {
   "type": "node",
   "id": 7768503627,
-  "lat": -34.4620834,
-  "lon": -58.5624946,
+  "lat": -34.4620740,
+  "lon": -58.5624602,
   "tags": {
     "addr:city": "Victoria",
+    "addr:housenumber": "2807",
     "addr:postcode": "B1644",
     "addr:street": "Carlos Casares",
     "amenity": "pharmacy",
@@ -68141,6 +68149,7 @@
     "opening_hours": "Mo-Sa 08:00-20:00",
     "opening_hours:covid19": "same",
     "payment:cash": "yes",
+    "payment:debit_cards": "yes",
     "phone": "+54 11 4746-4536"
   }
 },
@@ -72380,6 +72389,30 @@
     "source": "SISA",
     "start_date": "1998",
     "website": "http://farmacia10esquinas.blogspot.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8949936449,
+  "lat": -34.6106844,
+  "lon": -58.4427873,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "801",
+    "addr:postcode": "C1405BAF",
+    "addr:street": "Avenida Doctor Honorio Pueyrredón",
+    "amenity": "pharmacy",
+    "email": "abcsa@abcsalud.com.ar",
+    "healthcare": "pharmacy",
+    "name": "ABC",
+    "opening_hours": "Mo-Su 08:00-21:00; Sa 09:00-20:00",
+    "operator": "ABC S.A.",
+    "phone": "+54 11 4983-6093",
+    "ref:sisa_codigo": "70020012318174",
+    "ref:sisa_tipologia": "Farmacia",
+    "source": "SISA",
+    "start_date": "2006",
+    "website": "https://farmaciasabc.com.ar/"
   }
 },
 {
@@ -80832,25 +80865,6 @@
 },
 {
   "type": "way",
-  "id": 476182684,
-  "nodes": [
-    1678902598,
-    5485223966,
-    4698232003,
-    5485223965,
-    4698232004,
-    4698232005,
-    1678902598
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016."
-  }
-},
-{
-  "type": "way",
   "id": 476358560,
   "nodes": [
     4699574080,
@@ -88631,7 +88645,7 @@
   ],
   "tags": {
     "addr:city": "Río Grande",
-    "addr:housenumber": "467",
+    "addr:housenumber": "444",
     "addr:postcode": "V9420",
     "addr:street": "Leonardo Rosales",
     "amenity": "pharmacy",
@@ -108139,42 +108153,6 @@
   "id": 5927888424,
   "lat": -34.6071954,
   "lon": -58.4463513
-},
-{
-  "type": "node",
-  "id": 1678902598,
-  "lat": -34.6106584,
-  "lon": -58.4429078
-},
-{
-  "type": "node",
-  "id": 4698232003,
-  "lat": -34.6107603,
-  "lon": -58.4428270
-},
-{
-  "type": "node",
-  "id": 4698232004,
-  "lat": -34.6106874,
-  "lon": -58.4426333
-},
-{
-  "type": "node",
-  "id": 4698232005,
-  "lat": -34.6105689,
-  "lon": -58.4427140
-},
-{
-  "type": "node",
-  "id": 5485223965,
-  "lat": -34.6107583,
-  "lon": -58.4427868
-},
-{
-  "type": "node",
-  "id": 5485223966,
-  "lat": -34.6107404,
-  "lon": -58.4428519
 },
 {
   "type": "node",

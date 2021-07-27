@@ -18257,52 +18257,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/476182684",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016.",
-    "id": "way/476182684"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.4429078,
-          -34.6106584
-        ],
-        [
-          -58.4428519,
-          -34.6107404
-        ],
-        [
-          -58.442827,
-          -34.6107603
-        ],
-        [
-          -58.4427868,
-          -34.6107583
-        ],
-        [
-          -58.4426333,
-          -34.6106874
-        ],
-        [
-          -58.442714,
-          -34.6105689
-        ],
-        [
-          -58.4429078,
-          -34.6106584
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/476358560",
   "properties": {
     "addr:street": "9 de Julio",
@@ -35171,7 +35125,7 @@
   "id": "way/851910159",
   "properties": {
     "addr:city": "Río Grande",
-    "addr:housenumber": "467",
+    "addr:housenumber": "444",
     "addr:postcode": "V9420",
     "addr:street": "Leonardo Rosales",
     "amenity": "pharmacy",
@@ -45417,7 +45371,7 @@
     "addr:city": "Río Grande",
     "addr:housenumber": "902",
     "addr:postcode": "9420",
-    "addr:street": "Juan B. Thorne",
+    "addr:street": "Juan Bautista Thorne",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -45428,8 +45382,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.7091225,
-      -53.7854019
+      -67.7091064,
+      -53.7853876
     ]
   }
 },
@@ -45463,7 +45417,7 @@
     "addr:city": "Río Grande",
     "addr:housenumber": "1607",
     "addr:postcode": "9420",
-    "addr:street": "Islas Malvinas",
+    "addr:street": "Islas Malvinas Argentinas",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "drive_through": "yes",
@@ -45475,8 +45429,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.7240763,
-      -53.7870426
+      -67.724087,
+      -53.7870109
     ]
   }
 },
@@ -94509,6 +94463,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Ángel",
+    "opening_hours": "Mo-Fr 09:30-20:00; Sa 09:30-19:00",
     "phone": "+54 11 4742-5089",
     "id": "node/4644986781"
   },
@@ -101541,8 +101496,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5361506,
-      -31.5381934
+      -68.5361734,
+      -31.5381711
     ]
   }
 },
@@ -109990,8 +109945,10 @@
   "type": "Feature",
   "id": "node/5419126440",
   "properties": {
+    "addr:city": "Río Grande",
     "addr:housenumber": "825",
-    "addr:street": "El Alambrador",
+    "addr:postcode": "9420",
+    "addr:street": "Seriot",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Simon",
@@ -137257,6 +137214,10 @@
   "type": "Feature",
   "id": "node/7732217156",
   "properties": {
+    "addr:city": "Río Grande",
+    "addr:housenumber": "402",
+    "addr:postcode": "9420",
+    "addr:street": "Avenida General José de San Martín",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -137266,8 +137227,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.6988066,
-      -53.7870295
+      -67.6988254,
+      -53.7870422
     ]
   }
 },
@@ -137359,6 +137320,7 @@
   "id": "node/7768503627",
   "properties": {
     "addr:city": "Victoria",
+    "addr:housenumber": "2807",
     "addr:postcode": "B1644",
     "addr:street": "Carlos Casares",
     "amenity": "pharmacy",
@@ -137369,14 +137331,15 @@
     "opening_hours": "Mo-Sa 08:00-20:00",
     "opening_hours:covid19": "same",
     "payment:cash": "yes",
+    "payment:debit_cards": "yes",
     "phone": "+54 11 4746-4536",
     "id": "node/7768503627"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5624946,
-      -34.4620834
+      -58.5624602,
+      -34.462074
     ]
   }
 },
@@ -143493,6 +143456,36 @@
     "coordinates": [
       -58.4469823,
       -34.6075586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8949936449",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "801",
+    "addr:postcode": "C1405BAF",
+    "addr:street": "Avenida Doctor Honorio Pueyrredón",
+    "amenity": "pharmacy",
+    "email": "abcsa@abcsalud.com.ar",
+    "healthcare": "pharmacy",
+    "name": "ABC",
+    "opening_hours": "Mo-Su 08:00-21:00; Sa 09:00-20:00",
+    "operator": "ABC S.A.",
+    "phone": "+54 11 4983-6093",
+    "ref:sisa_codigo": "70020012318174",
+    "ref:sisa_tipologia": "Farmacia",
+    "source": "SISA",
+    "start_date": "2006",
+    "website": "https://farmaciasabc.com.ar/",
+    "id": "node/8949936449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4427873,
+      -34.6106844
     ]
   }
 }
