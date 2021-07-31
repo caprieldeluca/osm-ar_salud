@@ -37,7 +37,7 @@ Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Ar
     
   * [droguerias-sisa.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/droguerias-sisa.geojson) es una conversión a GeoJSON de los registros georreferenciados de la consulta por tipo Droguerías en el [Sistema Integrado de Información Sanitaria Argentina (SISA)](https://sisa.msal.gov.ar/sisa).
 
-* CABA (*Atribucion 2.5 Argentina (CC BY 2.5 AR)*)
+* CABA (*Atribución 2.5 Argentina (CC BY 2.5 AR)*)
 
   * [csp-caba.geojson](https://github.com/gabriel-de-luca/covid-19/blob/master/csp-caba.geojson) es una conversión directa de la [capa de Centros de Salud Privados de CABA](https://data.buenosaires.gob.ar/dataset/centros-salud-privados) a GeoJSON.
   
