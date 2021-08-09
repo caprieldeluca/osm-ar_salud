@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-08-08T01:59:25Z",
-    "timestamp_areas_base": "2021-08-08T01:13:43Z",
+    "timestamp_osm_base": "2021-08-09T01:58:52Z",
+    "timestamp_areas_base": "2021-08-09T01:31:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -36034,7 +36034,7 @@
     "addr:street": "General Román Deheza",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Sanatorio Del Salvador",
+    "name": "Sanatorio del Salvador",
     "official_name": "Sanatorio Del Salvador Privado S.A.",
     "operator": "Privado",
     "operator:type": "private",
@@ -37667,43 +37667,6 @@
     "description": "Municipalidad de Chascomùs",
     "healthcare": "hospital",
     "name": "Hospital Municipal de Chascomús- San Vicente de Paul"
-  }
-},
-{
-  "type": "way",
-  "id": 366142024,
-  "nodes": [
-    3701318423,
-    3701319063,
-    3701318954,
-    3701318422,
-    3701319066,
-    3701318955,
-    3701318424,
-    3701314873,
-    3701318959,
-    3701318834,
-    3701318961,
-    3701319126,
-    3701318963,
-    3701318964,
-    3701296939,
-    3701318158,
-    3701318960,
-    3701318962,
-    3701318835,
-    3701319127,
-    3701319125,
-    3701318833,
-    3701319067,
-    3701318157,
-    3701318423
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Casa del Niño",
-    "operator": "Gobierno de la Provincia de Buenos Aires"
   }
 },
 {
@@ -48113,14 +48076,19 @@
   ],
   "tags": {
     "addr:housenumber": "951",
-    "addr:postcode": "C1221ACI",
+    "addr:postcode": "1221",
     "addr:street": "La Rioja",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Unidad Asistencial Doctor César Milstein",
+    "name": "Unidad Asistencial Doctor Cesar Milstein",
+    "old_name": "Hospital Francés",
     "operator": "PAMI",
     "operator:type": "public",
-    "phone": "+54 11 4866-2546"
+    "phone": "+54 11 4959-1500",
+    "ref:sisa_codigo": "14020012715328",
+    "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q5902646",
+    "wikipedia": "es:Hospital Francés"
   }
 },
 {
@@ -51506,38 +51474,6 @@
     "ref:sisa_tipologia": "ESCIESM",
     "type": "multipolygon",
     "website": "https://www.argentina.gob.ar/montes-de-oca"
-  }
-},
-{
-  "type": "relation",
-  "id": 10974629,
-  "members": [
-    {
-      "type": "way",
-      "ref": 789326528,
-      "role": "inner"
-    },
-    {
-      "type": "way",
-      "ref": 789326529,
-      "role": "outer"
-    }
-  ],
-  "tags": {
-    "addr:full": "La Rioja 951",
-    "addr:postcode": "1221",
-    "amenity": "hospital",
-    "building": "hospital",
-    "healthcare": "hospital",
-    "name": "Unidad Asistencial Por Mas Salud Doctor Cesar Milstein (ex Hospital Frances)",
-    "operator": "Nacional",
-    "operator:type": "public",
-    "phone": "(011) 4959-1500",
-    "ref:sisa_codigo": "14020012715328",
-    "ref:sisa_tipologia": "ESCIG",
-    "type": "multipolygon",
-    "wikidata": "Q5902646",
-    "wikipedia": "es:Hospital Francés"
   }
 },
 {
@@ -59804,150 +59740,6 @@
   "id": 6152314435,
   "lat": -38.5449213,
   "lon": -58.7172079
-},
-{
-  "type": "node",
-  "id": 3701296939,
-  "lat": -38.0802385,
-  "lon": -57.5395599
-},
-{
-  "type": "node",
-  "id": 3701314873,
-  "lat": -38.0798974,
-  "lon": -57.5396404
-},
-{
-  "type": "node",
-  "id": 3701318157,
-  "lat": -38.0799106,
-  "lon": -57.5398804
-},
-{
-  "type": "node",
-  "id": 3701318158,
-  "lat": -38.0802060,
-  "lon": -57.5395055
-},
-{
-  "type": "node",
-  "id": 3701318424,
-  "lat": -38.0798441,
-  "lon": -57.5395511
-},
-{
-  "type": "node",
-  "id": 3701318833,
-  "lat": -38.0799850,
-  "lon": -57.5397526
-},
-{
-  "type": "node",
-  "id": 3701318834,
-  "lat": -38.0800927,
-  "lon": -57.5395452
-},
-{
-  "type": "node",
-  "id": 3701318835,
-  "lat": -38.0801732,
-  "lon": -57.5396602
-},
-{
-  "type": "node",
-  "id": 3701318955,
-  "lat": -38.0797519,
-  "lon": -57.5396400
-},
-{
-  "type": "node",
-  "id": 3701318959,
-  "lat": -38.0800574,
-  "lon": -57.5394861
-},
-{
-  "type": "node",
-  "id": 3701318960,
-  "lat": -38.0801458,
-  "lon": -57.5395635
-},
-{
-  "type": "node",
-  "id": 3701318961,
-  "lat": -38.0801670,
-  "lon": -57.5394735
-},
-{
-  "type": "node",
-  "id": 3701318962,
-  "lat": -38.0801925,
-  "lon": -57.5396416
-},
-{
-  "type": "node",
-  "id": 3701318963,
-  "lat": -38.0802571,
-  "lon": -57.5392584
-},
-{
-  "type": "node",
-  "id": 3701318964,
-  "lat": -38.0803646,
-  "lon": -57.5394383
-},
-{
-  "type": "node",
-  "id": 3701319066,
-  "lat": -38.0797962,
-  "lon": -57.5397142
-},
-{
-  "type": "node",
-  "id": 3701319067,
-  "lat": -38.0798894,
-  "lon": -57.5398448
-},
-{
-  "type": "node",
-  "id": 3701319125,
-  "lat": -38.0800006,
-  "lon": -57.5397788
-},
-{
-  "type": "node",
-  "id": 3701319126,
-  "lat": -38.0801184,
-  "lon": -57.5393922
-},
-{
-  "type": "node",
-  "id": 3701319127,
-  "lat": -38.0801551,
-  "lon": -57.5396298
-},
-{
-  "type": "node",
-  "id": 3701318422,
-  "lat": -38.0796415,
-  "lon": -57.5398634
-},
-{
-  "type": "node",
-  "id": 3701318423,
-  "lat": -38.0796705,
-  "lon": -57.5401120
-},
-{
-  "type": "node",
-  "id": 3701318954,
-  "lat": -38.0796040,
-  "lon": -57.5398008
-},
-{
-  "type": "node",
-  "id": 3701319063,
-  "lat": -38.0795282,
-  "lon": -57.5398739
 },
 {
   "type": "node",
@@ -69024,14 +68816,14 @@
 {
   "type": "node",
   "id": 5645978372,
-  "lat": -31.4124760,
-  "lon": -64.1762012
+  "lat": -31.4124544,
+  "lon": -64.1762281
 },
 {
   "type": "node",
   "id": 5645978373,
-  "lat": -31.4130574,
-  "lon": -64.1764212
+  "lat": -31.4130459,
+  "lon": -64.1764593
 },
 {
   "type": "node",
@@ -69859,13 +69651,13 @@
   "type": "node",
   "id": 3339092929,
   "lat": -31.4091283,
-  "lon": -64.1631137
+  "lon": -64.1631214
 },
 {
   "type": "node",
   "id": 3339092930,
-  "lat": -31.4087528,
-  "lon": -64.1632774
+  "lat": -31.4087517,
+  "lon": -64.1632723
 },
 {
   "type": "node",
@@ -84005,60 +83797,6 @@
 },
 {
   "type": "node",
-  "id": 7380404318,
-  "lat": -34.6220136,
-  "lon": -58.4087089
-},
-{
-  "type": "node",
-  "id": 7380404319,
-  "lat": -34.6212762,
-  "lon": -58.4085402
-},
-{
-  "type": "node",
-  "id": 7380404320,
-  "lat": -34.6212231,
-  "lon": -58.4083293
-},
-{
-  "type": "node",
-  "id": 7380404321,
-  "lat": -34.6210452,
-  "lon": -58.4077829
-},
-{
-  "type": "node",
-  "id": 7380404322,
-  "lat": -34.6212818,
-  "lon": -58.4085640
-},
-{
-  "type": "node",
-  "id": 7380404323,
-  "lat": -34.6213718,
-  "lon": -58.4085546
-},
-{
-  "type": "node",
-  "id": 7380404324,
-  "lat": -34.6214518,
-  "lon": -58.4088825
-},
-{
-  "type": "node",
-  "id": 7380404325,
-  "lat": -34.6219010,
-  "lon": -58.4088597
-},
-{
-  "type": "node",
-  "id": 7380404326,
-  "lat": -34.6218973,
-  "lon": -58.4088302
-},
-{
-  "type": "node",
   "id": 7380404327,
   "lat": -34.6222309,
   "lon": -58.4086777
@@ -84068,108 +83806,6 @@
   "id": 7380404328,
   "lat": -34.6209949,
   "lon": -58.4077924
-},
-{
-  "type": "node",
-  "id": 7380404337,
-  "lat": -34.6211601,
-  "lon": -58.4078668
-},
-{
-  "type": "node",
-  "id": 7380404338,
-  "lat": -34.6212257,
-  "lon": -58.4078546
-},
-{
-  "type": "node",
-  "id": 7380404339,
-  "lat": -34.6213175,
-  "lon": -58.4078375
-},
-{
-  "type": "node",
-  "id": 7380404353,
-  "lat": -34.6219759,
-  "lon": -58.4084099
-},
-{
-  "type": "node",
-  "id": 7380404354,
-  "lat": -34.6218473,
-  "lon": -58.4084338
-},
-{
-  "type": "node",
-  "id": 7380404355,
-  "lat": -34.6218999,
-  "lon": -58.4088510
-},
-{
-  "type": "node",
-  "id": 7380404356,
-  "lat": -34.6221213,
-  "lon": -58.4083828
-},
-{
-  "type": "node",
-  "id": 7380404357,
-  "lat": -34.6220941,
-  "lon": -58.4081671
-},
-{
-  "type": "node",
-  "id": 7380404358,
-  "lat": -34.6213594,
-  "lon": -58.4080383
-},
-{
-  "type": "node",
-  "id": 7380404359,
-  "lat": -34.6213440,
-  "lon": -58.4079156
-},
-{
-  "type": "node",
-  "id": 7380404360,
-  "lat": -34.6211902,
-  "lon": -58.4080698
-},
-{
-  "type": "node",
-  "id": 7380404361,
-  "lat": -34.6213460,
-  "lon": -58.4079320
-},
-{
-  "type": "node",
-  "id": 7380404362,
-  "lat": -34.6213337,
-  "lon": -58.4078345
-},
-{
-  "type": "node",
-  "id": 7380404363,
-  "lat": -34.6210315,
-  "lon": -58.4076744
-},
-{
-  "type": "node",
-  "id": 7380404364,
-  "lat": -34.6211334,
-  "lon": -58.4076554
-},
-{
-  "type": "node",
-  "id": 7380404365,
-  "lat": -34.6211990,
-  "lon": -58.4076423
-},
-{
-  "type": "node",
-  "id": 7380404366,
-  "lat": -34.6212907,
-  "lon": -58.4076253
 },
 {
   "type": "node",
@@ -106049,52 +105685,6 @@
     7304005348,
     2203837510,
     2203837520
-  ]
-},
-{
-  "type": "way",
-  "id": 789326528,
-  "nodes": [
-    7380404326,
-    7380404354,
-    7380404319,
-    7380404322,
-    7380404323,
-    7380404324,
-    7380404325,
-    7380404355,
-    7380404326
-  ]
-},
-{
-  "type": "way",
-  "id": 789326529,
-  "nodes": [
-    7380404320,
-    7380404357,
-    7380404356,
-    7380404353,
-    7380404318,
-    7380404327,
-    7380410294,
-    7380410295,
-    7380410288,
-    7380410289,
-    7380404328,
-    7380404321,
-    7380404363,
-    7380404364,
-    7380404337,
-    7380404338,
-    7380404365,
-    7380404366,
-    7380404339,
-    7380404362,
-    7380404359,
-    7380404361,
-    7380404358,
-    7380404360,
-    7380404320
   ]
 },
 {
