@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-08-11T02:01:56Z",
-    "timestamp_areas_base": "2021-08-11T01:10:57Z",
+    "timestamp_osm_base": "2021-08-12T02:00:57Z",
+    "timestamp_areas_base": "2021-08-12T01:32:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8552,31 +8552,6 @@
 },
 {
   "type": "node",
-  "id": 4524868189,
-  "lat": -32.9609925,
-  "lon": -60.7217253,
-  "tags": {
-    "addr:housenumber": "7751",
-    "addr:postcode": "S2009",
-    "addr:street": "Calle 1709",
-    "amenity": "clinic",
-    "contact:email": "centroguevara@gmail.com",
-    "contact:phone": "+54 341 472-7507",
-    "contact:website": "http://centroguevara.blogspot.com.ar",
-    "healthcare": "clinic",
-    "internet_access": "wlan",
-    "name": "Centro de Salud Doctor Ernesto Che Guevara",
-    "name:es": "Centro de Salud Doctor Ernesto Che Guevara",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842184649",
-    "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "Centro Guevara"
-  }
-},
-{
-  "type": "node",
   "id": 4529290731,
   "lat": -34.9650791,
   "lon": -57.9794404,
@@ -10338,15 +10313,14 @@
 {
   "type": "node",
   "id": 4702530778,
-  "lat": -34.6234652,
-  "lon": -58.4006654,
+  "lat": -34.6234310,
+  "lon": -58.4006667,
   "tags": {
     "addr:city": "Buenos Aires",
     "addr:street": "Avenida San Juan",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Medico San Juan",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
+    "name": "Centro Medico San Juan"
   }
 },
 {
@@ -42900,8 +42874,8 @@
 {
   "type": "node",
   "id": 8984371642,
-  "lat": -34.6236648,
-  "lon": -58.4002557,
+  "lat": -34.6236604,
+  "lon": -58.4002852,
   "tags": {
     "amenity": "clinic",
     "name": "Centro Médico Nikkai"
@@ -47251,8 +47225,7 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Waícon",
-    "source": "Reconocimiento cartográfico 2016 por KG"
+    "name": "Waícon"
   }
 },
 {
@@ -61293,6 +61266,43 @@
   }
 },
 {
+  "type": "way",
+  "id": 972264987,
+  "nodes": [
+    8998631063,
+    8998631066,
+    8998631069,
+    5540925647,
+    8998631070,
+    8998631064,
+    8998631072,
+    8998631073,
+    8998631065,
+    8998631075,
+    8998631063
+  ],
+  "tags": {
+    "addr:housenumber": "7751",
+    "addr:postcode": "S2009",
+    "addr:street": "Calle 1709",
+    "amenity": "clinic",
+    "contact:email": "centroguevara@gmail.com",
+    "contact:phone": "+54 341 472-7507",
+    "contact:website": "http://centroguevara.blogspot.com.ar",
+    "healthcare": "clinic",
+    "internet_access": "wlan",
+    "name": "Centro de Salud Ernesto Che Guevara",
+    "official_name": "Centro de Salud Doctor Ernesto Che Guevara",
+    "official_name:es": "Centro de Salud Doctor Ernesto Che Guevara",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842184649",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "Centro Guevara"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -73280,6 +73290,24 @@
 },
 {
   "type": "node",
+  "id": 8998631063,
+  "lat": -32.9613468,
+  "lon": -60.7217781
+},
+{
+  "type": "node",
+  "id": 8998631065,
+  "lat": -32.9613416,
+  "lon": -60.7216371
+},
+{
+  "type": "node",
+  "id": 8998631075,
+  "lat": -32.9613444,
+  "lon": -60.7217134
+},
+{
+  "type": "node",
   "id": 2970603556,
   "lat": -32.9224977,
   "lon": -60.8067960
@@ -73745,6 +73773,48 @@
   "id": 1980624688,
   "lat": -32.9403788,
   "lon": -60.7601667
+},
+{
+  "type": "node",
+  "id": 5540925647,
+  "lat": -32.9609799,
+  "lon": -60.7217974
+},
+{
+  "type": "node",
+  "id": 8998631064,
+  "lat": -32.9609806,
+  "lon": -60.7216561
+},
+{
+  "type": "node",
+  "id": 8998631066,
+  "lat": -32.9611167,
+  "lon": -60.7217902
+},
+{
+  "type": "node",
+  "id": 8998631069,
+  "lat": -32.9610643,
+  "lon": -60.7217930
+},
+{
+  "type": "node",
+  "id": 8998631070,
+  "lat": -32.9609752,
+  "lon": -60.7216710
+},
+{
+  "type": "node",
+  "id": 8998631072,
+  "lat": -32.9610305,
+  "lon": -60.7216535
+},
+{
+  "type": "node",
+  "id": 8998631073,
+  "lat": -32.9612382,
+  "lon": -60.7216425
 },
 {
   "type": "node",
