@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-08-17T02:03:25Z",
-    "timestamp_areas_base": "2021-08-17T01:20:29Z",
+    "timestamp_osm_base": "2021-08-18T02:04:12Z",
+    "timestamp_areas_base": "2021-08-18T01:43:47Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -38780,9 +38780,14 @@
   "lon": -58.5285989,
   "tags": {
     "addr:city": "San Isidro",
+    "addr:housenumber": "138",
+    "addr:postcode": "B1642",
     "addr:street": "Avenida Andrés Rolón",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Farmacia Añón",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "phone": "+54 11 4723-7658",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -72496,6 +72501,34 @@
   }
 },
 {
+  "type": "node",
+  "id": 9015678381,
+  "lat": -32.3042461,
+  "lon": -64.4837103,
+  "tags": {
+    "addr:city": "La Cruz",
+    "addr:housenumber": "657",
+    "addr:street": "Vélez Sarsfield",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Sucaria Aruani"
+  }
+},
+{
+  "type": "node",
+  "id": 9015714380,
+  "lat": -32.2975150,
+  "lon": -64.4777102,
+  "tags": {
+    "addr:city": "La Cruz",
+    "addr:housenumber": "178",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Luján de Bima"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -80490,10 +80523,13 @@
     4691042631
   ],
   "tags": {
+    "addr:city": "San Fernando",
+    "addr:postcode": "1646",
     "addr:street": "Avenida del Libertador",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farmacia Perfumeria",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Perfumería",
     "source": "Reconocimiento terrestre 2016 por Kaart."
   }
 },
