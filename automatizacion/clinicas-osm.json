@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-08-21T02:01:13Z",
-    "timestamp_areas_base": "2021-08-21T01:01:53Z",
+    "timestamp_osm_base": "2021-08-23T02:01:28Z",
+    "timestamp_areas_base": "2021-08-23T00:53:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -43656,50 +43656,6 @@
 },
 {
   "type": "way",
-  "id": 239010626,
-  "nodes": [
-    2565666120,
-    3797190075,
-    2468169517,
-    2565666118,
-    2468169471,
-    3797190072,
-    3797190071,
-    3797190069,
-    2468169538,
-    2468169451,
-    2565666120
-  ],
-  "tags": {
-    "addr:housenumber": "767",
-    "addr:postcode": "S2132",
-    "addr:street": "Maipú",
-    "amenity": "clinic",
-    "building": "hospital",
-    "building:levels": "1",
-    "contact:phone": "+54 341 493-6555",
-    "dispensing": "yes",
-    "electricity": "grid",
-    "healthcare": "clinic",
-    "insurance:health": "private;public",
-    "name": "Centro de Salud Doctor Abel Faust",
-    "opening_hours": "Mo-Su 08:00-20:00",
-    "operational_status": "operational",
-    "operator": "Municipalidad de Funes",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842284647",
-    "ref:sisa_tipologia": "ESSIDT",
-    "roof:levels": "1",
-    "roof:material": "brik",
-    "roof:shape": "gabled",
-    "short_name": "Centro de Salud Abel Faust",
-    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
-    "wheelchair": "yes",
-    "wikidata": "Q97671903"
-  }
-},
-{
-  "type": "way",
   "id": 242479687,
   "nodes": [
     2499407180,
@@ -46904,8 +46860,7 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Sucursal Ezeiza",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Centro Medico Sucursal Ezeiza"
   }
 },
 {
@@ -47419,9 +47374,12 @@
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "3",
+    "email": "sinb250@uocra.org",
     "healthcare": "clinic",
     "name": "Construír Salud",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "phone": "+54 11 4798-1884",
+    "source": "Reconocimiento terrestre por Kaart 2016;local knowledge",
+    "website": "http://www.uocra.org/"
   }
 },
 {
@@ -47637,7 +47595,7 @@
     4612837176
   ],
   "tags": {
-    "addr:street": "Cetrángolo",
+    "addr:street": "Doctor Antonio Cetrángolo",
     "amenity": "clinic",
     "building": "yes",
     "name": "Policonsultorios Médicos",
@@ -59644,6 +59602,7 @@
     "operator": "Luis Mario Minin",
     "phone": "+54 264 426 3070",
     "ref:sisa_tipologia": "ESSIDT",
+    "roof:shape": "flat",
     "wheelchair": "yes"
   }
 },
@@ -61362,6 +61321,42 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Praca SA"
+  }
+},
+{
+  "type": "way",
+  "id": 975314232,
+  "nodes": [
+    9025598788,
+    9025598789,
+    9025598790,
+    9025598792,
+    9025598791,
+    9025598788
+  ],
+  "tags": {
+    "addr:housenumber": "767",
+    "addr:postcode": "S2132",
+    "addr:street": "Maipú",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 493-6555",
+    "dispensing": "yes",
+    "electricity": "grid",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;vaccination;covid19",
+    "insurance:health": "private;public",
+    "name": "Centro de Salud Doctor Abel Faust",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "operational_status": "operational",
+    "operator": "Municipalidad de Funes",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842284647",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "Centro de Salud Abel Faust",
+    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
+    "wheelchair": "yes",
+    "wikidata": "Q97671903",
+    "wikimedia_commons": "File:Centro_de_Salud_Dr._Abel_Faust_(Funes).jpg"
   }
 },
 {
@@ -73628,63 +73623,33 @@
 },
 {
   "type": "node",
-  "id": 2468169451,
-  "lat": -32.9139072,
-  "lon": -60.7980149
+  "id": 9025598788,
+  "lat": -32.9139491,
+  "lon": -60.7981167
 },
 {
   "type": "node",
-  "id": 2468169471,
-  "lat": -32.9138398,
-  "lon": -60.7978106
+  "id": 9025598789,
+  "lat": -32.9140068,
+  "lon": -60.7977999
 },
 {
   "type": "node",
-  "id": 2468169517,
-  "lat": -32.9139573,
-  "lon": -60.7978412
+  "id": 9025598791,
+  "lat": -32.9137372,
+  "lon": -60.7980619
 },
 {
   "type": "node",
-  "id": 2468169538,
-  "lat": -32.9138000,
-  "lon": -60.7979870
+  "id": 9025598792,
+  "lat": -32.9137678,
+  "lon": -60.7978942
 },
 {
   "type": "node",
-  "id": 2565666118,
-  "lat": -32.9138819,
-  "lon": -60.7978216
-},
-{
-  "type": "node",
-  "id": 2565666120,
-  "lat": -32.9139179,
-  "lon": -60.7979567
-},
-{
-  "type": "node",
-  "id": 3797190069,
-  "lat": -32.9138166,
-  "lon": -60.7978966
-},
-{
-  "type": "node",
-  "id": 3797190071,
-  "lat": -32.9138237,
-  "lon": -60.7978984
-},
-{
-  "type": "node",
-  "id": 3797190072,
-  "lat": -32.9138280,
-  "lon": -60.7978750
-},
-{
-  "type": "node",
-  "id": 3797190075,
-  "lat": -32.9139353,
-  "lon": -60.7979612
+  "id": 9025598790,
+  "lat": -32.9137950,
+  "lon": -60.7977451
 },
 {
   "type": "node",
@@ -82767,8 +82732,8 @@
 {
   "type": "node",
   "id": 5405547030,
-  "lat": -34.6149986,
-  "lon": -58.4013865
+  "lat": -34.6149953,
+  "lon": -58.4014066
 },
 {
   "type": "node",
@@ -82797,38 +82762,38 @@
 {
   "type": "node",
   "id": 7382707852,
-  "lat": -34.6150843,
-  "lon": -58.4013811
+  "lat": -34.6150810,
+  "lon": -58.4014012
 },
 {
   "type": "node",
   "id": 7382707853,
-  "lat": -34.6150759,
-  "lon": -58.4016567
+  "lat": -34.6150726,
+  "lon": -58.4016768
 },
 {
   "type": "node",
   "id": 7382707854,
-  "lat": -34.6150086,
-  "lon": -58.4016627
+  "lat": -34.6150053,
+  "lon": -58.4016828
 },
 {
   "type": "node",
   "id": 7382707855,
-  "lat": -34.6150086,
-  "lon": -58.4017231
+  "lat": -34.6150053,
+  "lon": -58.4017432
 },
 {
   "type": "node",
   "id": 7382707856,
-  "lat": -34.6149479,
-  "lon": -58.4017278
+  "lat": -34.6149446,
+  "lon": -58.4017479
 },
 {
   "type": "node",
   "id": 7382707857,
-  "lat": -34.6149269,
-  "lon": -58.4013931
+  "lat": -34.6149236,
+  "lon": -58.4014132
 },
 {
   "type": "node",

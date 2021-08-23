@@ -2152,89 +2152,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/239010626",
-  "properties": {
-    "addr:housenumber": "767",
-    "addr:postcode": "S2132",
-    "addr:street": "Maipú",
-    "amenity": "clinic",
-    "building": "hospital",
-    "building:levels": "1",
-    "contact:phone": "+54 341 493-6555",
-    "dispensing": "yes",
-    "electricity": "grid",
-    "healthcare": "clinic",
-    "insurance:health": "private;public",
-    "name": "Centro de Salud Doctor Abel Faust",
-    "opening_hours": "Mo-Su 08:00-20:00",
-    "operational_status": "operational",
-    "operator": "Municipalidad de Funes",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842284647",
-    "ref:sisa_tipologia": "ESSIDT",
-    "roof:levels": "1",
-    "roof:material": "brik",
-    "roof:shape": "gabled",
-    "short_name": "Centro de Salud Abel Faust",
-    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
-    "wheelchair": "yes",
-    "wikidata": "Q97671903",
-    "id": "way/239010626"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.7979567,
-          -32.9139179
-        ],
-        [
-          -60.7979612,
-          -32.9139353
-        ],
-        [
-          -60.7978412,
-          -32.9139573
-        ],
-        [
-          -60.7978216,
-          -32.9138819
-        ],
-        [
-          -60.7978106,
-          -32.9138398
-        ],
-        [
-          -60.797875,
-          -32.913828
-        ],
-        [
-          -60.7978984,
-          -32.9138237
-        ],
-        [
-          -60.7978966,
-          -32.9138166
-        ],
-        [
-          -60.797987,
-          -32.9138
-        ],
-        [
-          -60.7980149,
-          -32.9139072
-        ],
-        [
-          -60.7979567,
-          -32.9139179
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/242479687",
   "properties": {
     "addr:street": "Ingeniero Cipolletti",
@@ -9194,8 +9111,7 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Sucursal Ezeiza",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "Centro Medico Sucursal Ezeiza",
     "id": "way/459208314"
   },
   "geometry": {
@@ -10283,9 +10199,12 @@
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "3",
+    "email": "sinb250@uocra.org",
     "healthcare": "clinic",
     "name": "Construír Salud",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "phone": "+54 11 4798-1884",
+    "source": "Reconocimiento terrestre por Kaart 2016;local knowledge",
+    "website": "http://www.uocra.org/",
     "id": "way/464846232"
   },
   "geometry": {
@@ -10743,7 +10662,7 @@
   "type": "Feature",
   "id": "way/466498244",
   "properties": {
-    "addr:street": "Cetrángolo",
+    "addr:street": "Doctor Antonio Cetrángolo",
     "amenity": "clinic",
     "building": "yes",
     "name": "Policonsultorios Médicos",
@@ -28491,36 +28410,36 @@
     "coordinates": [
       [
         [
-          -58.4013865,
-          -34.6149986
+          -58.4014066,
+          -34.6149953
         ],
         [
-          -58.4013931,
-          -34.6149269
+          -58.4014132,
+          -34.6149236
         ],
         [
-          -58.4017278,
-          -34.6149479
+          -58.4017479,
+          -34.6149446
         ],
         [
-          -58.4017231,
-          -34.6150086
+          -58.4017432,
+          -34.6150053
         ],
         [
-          -58.4016627,
-          -34.6150086
+          -58.4016828,
+          -34.6150053
         ],
         [
-          -58.4016567,
-          -34.6150759
+          -58.4016768,
+          -34.6150726
         ],
         [
-          -58.4013811,
-          -34.6150843
+          -58.4014012,
+          -34.615081
         ],
         [
-          -58.4013865,
-          -34.6149986
+          -58.4014066,
+          -34.6149953
         ]
       ]
     ]
@@ -36629,6 +36548,7 @@
     "operator": "Luis Mario Minin",
     "phone": "+54 264 426 3070",
     "ref:sisa_tipologia": "ESSIDT",
+    "roof:shape": "flat",
     "wheelchair": "yes",
     "id": "way/845934762"
   },
@@ -40597,6 +40517,66 @@
         [
           -62.9900841,
           -40.8113245
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/975314232",
+  "properties": {
+    "addr:housenumber": "767",
+    "addr:postcode": "S2132",
+    "addr:street": "Maipú",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 493-6555",
+    "dispensing": "yes",
+    "electricity": "grid",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;vaccination;covid19",
+    "insurance:health": "private;public",
+    "name": "Centro de Salud Doctor Abel Faust",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "operational_status": "operational",
+    "operator": "Municipalidad de Funes",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842284647",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "Centro de Salud Abel Faust",
+    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
+    "wheelchair": "yes",
+    "wikidata": "Q97671903",
+    "wikimedia_commons": "File:Centro_de_Salud_Dr._Abel_Faust_(Funes).jpg",
+    "id": "way/975314232"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.7981167,
+          -32.9139491
+        ],
+        [
+          -60.7977999,
+          -32.9140068
+        ],
+        [
+          -60.7977451,
+          -32.913795
+        ],
+        [
+          -60.7978942,
+          -32.9137678
+        ],
+        [
+          -60.7980619,
+          -32.9137372
+        ],
+        [
+          -60.7981167,
+          -32.9139491
         ]
       ]
     ]
