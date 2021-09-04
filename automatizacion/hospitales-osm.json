@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-03T01:58:50Z",
-    "timestamp_areas_base": "2021-09-03T01:11:57Z",
+    "timestamp_osm_base": "2021-09-04T01:59:17Z",
+    "timestamp_areas_base": "2021-09-04T01:37:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -44392,17 +44392,25 @@
   "nodes": [
     5459932669,
     5459932672,
+    9060199042,
+    9060171954,
     5459932670,
     5459932671,
+    9060190188,
     5459932669
   ],
   "tags": {
     "addr:city": "Chivilcoy",
+    "addr:housenumber": "31",
     "addr:postcode": "6620",
-    "addr:street": "Avenida Calixto Calderón",
+    "addr:street": "Avenida Hijas de San José",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Municipal"
+    "healthcare:speciality": "general;paediatrics;ophthalmology;intensive;vaccination;dentistry;gynaecology;surgery;cardiology;radiology;psychiatry;maternity",
+    "name": "Hospital Municipal de Chivilcoy \"Dr. Santiago Fornos\"",
+    "operator": "Muncipalidad de Chivilcoy",
+    "operator:type": "government"
   }
 },
 {
@@ -77783,8 +77791,26 @@
 {
   "type": "node",
   "id": 5459932672,
-  "lat": -34.9114188,
-  "lon": -60.0358663
+  "lat": -34.9113819,
+  "lon": -60.0359013
+},
+{
+  "type": "node",
+  "id": 9060171954,
+  "lat": -34.9117705,
+  "lon": -60.0362800
+},
+{
+  "type": "node",
+  "id": 9060190188,
+  "lat": -34.9112051,
+  "lon": -60.0369320
+},
+{
+  "type": "node",
+  "id": 9060199042,
+  "lat": -34.9114438,
+  "lon": -60.0358957
 },
 {
   "type": "node",
