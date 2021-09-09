@@ -10761,18 +10761,24 @@
   "type": "Feature",
   "id": "node/3189290861",
   "properties": {
-    "addr:housenumber": "4407",
-    "addr:street": "Japón",
+    "addr:city": "Posadas",
+    "addr:housenumber": "4409",
+    "addr:postcode": "3300",
+    "addr:street": "Zabala",
     "alt_name": "Centro de Atención Primaria de la Salud",
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "CAPS Las Rosas",
+    "operator": "Municipalidad de Posadas",
+    "phone": "+54 376 4597855",
+    "ref:sisa_codigo": "50540282265176",
     "id": "node/3189290861"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.9237604,
-      -27.3978668
+      -55.9237389,
+      -27.3979585
     ]
   }
 },
@@ -10865,6 +10871,7 @@
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "CAPS Barrio Belén",
+    "operator": "Municipalidad de Posadas",
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N95791",
     "ref:sisa_codigo": "50540282265180",
@@ -11105,6 +11112,7 @@
     "name": "CAPS Los Paraísos",
     "operator": "Municipalidad de Posadas",
     "phone": "+54 376 4488571",
+    "ref:sisa_codigo": "50540282265178",
     "id": "node/3190907660"
   },
   "geometry": {
@@ -11128,6 +11136,7 @@
     "description": "Centro de Atención Primaria de la Salud Municipal",
     "healthcare": "doctor",
     "name": "CAPS Miguel Lanús",
+    "operator": "Municipalidad de Posadas",
     "phone": "+54 376 4482120",
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N05449",
@@ -11137,8 +11146,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.8744237,
-      -27.4276473
+      -55.8744429,
+      -27.427649
     ]
   }
 },
@@ -13932,17 +13941,25 @@
   "type": "Feature",
   "id": "node/4425059633",
   "properties": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "5600",
+    "addr:postcode": "3300",
+    "addr:street": "Calle 122",
     "alt_name": "Centro de Atención Primaria de la Salud",
     "amenity": "doctors",
-    "name": "CAPS",
+    "healthcare": "doctor",
+    "name": "CAPS Dos de Abril",
+    "operator": "Municipalidad de Posadas",
+    "phone": "+54 376 4459300",
+    "ref:sisa_codigo": "50540282265838",
     "short_name": "CAPS",
     "id": "node/4425059633"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.9350088,
-      -27.398951
+      -55.9349847,
+      -27.3989474
     ]
   }
 },
@@ -16676,14 +16693,17 @@
     "alt_name": "Centro de Atención Primaria de la Salud",
     "amenity": "doctors",
     "description": "Centro de Atención Primaria de la Salud Municipal",
+    "healthcare": "doctor",
     "name": "CAPS Don Pedro",
+    "phone": "+54 376 4916666",
+    "ref:sisa_codigo": "50540282265706",
     "id": "node/5015393435"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.8734509,
-      -27.4511732
+      -55.8734938,
+      -27.451197
     ]
   }
 },
@@ -33579,6 +33599,7 @@
     "healthcare": "doctor",
     "healthcare:speciality": "cardiology;ophthalmology;gastroenterology;clinic",
     "name": "OSECAC San Isidro",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 08:00-12:00; Su off",
     "website": "https://www.osecac.org.ar/",
     "id": "node/9025448563"
   },
@@ -33627,6 +33648,54 @@
     "coordinates": [
       -58.4335788,
       -32.4467797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9073282615",
+  "properties": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "3192",
+    "addr:postcode": "3300",
+    "addr:street": "Calle 125",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CAPS San Gerardo",
+    "operator": "Municipalidad de Posadas",
+    "ref:sisa_codigo": "50540282265181",
+    "id": "node/9073282615"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9373993,
+      -27.3752079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9073283447",
+  "properties": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "5155",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Blas Parera",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Instituto de Medicina Física y Rehabilitación",
+    "operator": "Municipalidad de Posadas",
+    "phone": "+54 376 4449066",
+    "ref:sisa_codigo": "53540282265859",
+    "short_name": "IMeFiR",
+    "id": "node/9073283447"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9274094,
+      -27.3749334
     ]
   }
 }
