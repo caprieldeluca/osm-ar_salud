@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-14T02:03:43Z",
-    "timestamp_areas_base": "2021-09-14T01:49:27Z",
+    "timestamp_osm_base": "2021-09-15T02:03:56Z",
+    "timestamp_areas_base": "2021-09-15T01:22:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -27271,8 +27271,8 @@
 {
   "type": "node",
   "id": 3796842765,
-  "lat": -28.4614222,
-  "lon": -65.8014375,
+  "lat": -28.4613911,
+  "lon": -65.8015083,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -72772,6 +72772,40 @@
   }
 },
 {
+  "type": "node",
+  "id": 9092851274,
+  "lat": -30.9462776,
+  "lon": -58.7856737,
+  "tags": {
+    "addr:city": "Federal",
+    "addr:postcode": "3180",
+    "addr:street": "Irigoyen",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/search/top/?q=farmacia%2C%20federal%2C%20entre%20r%C3%ADos",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Federal",
+    "phone": "+54 3454 422367"
+  }
+},
+{
+  "type": "node",
+  "id": 9092851283,
+  "lat": -30.9508126,
+  "lon": -58.7852727,
+  "tags": {
+    "addr:city": "Federal",
+    "addr:housenumber": "827",
+    "addr:postcode": "3180",
+    "addr:street": "Belgrano",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/pages/Farmacia%20y%20Perfumeria%20Duarte/214987169262513/",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Duarte"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -77755,6 +77789,7 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Carricaburu"
   }
 },
@@ -90191,6 +90226,60 @@
     "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 983421473,
+  "nodes": [
+    9092804958,
+    9092804959,
+    9092804960,
+    9092804961,
+    9092804958
+  ],
+  "tags": {
+    "addr:street": "Calle 422 Bis",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Pasquali Hijo"
+  }
+},
+{
+  "type": "way",
+  "id": 983421777,
+  "nodes": [
+    9092806146,
+    9092806147,
+    9092806148,
+    9092806149,
+    9092806146
+  ],
+  "tags": {
+    "addr:street": "Calle 419 - Avenida Arana",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Olivera"
+  }
+},
+{
+  "type": "way",
+  "id": 983422056,
+  "nodes": [
+    9092809639,
+    9092809640,
+    9092809641,
+    9092809642,
+    9092809639
+  ],
+  "tags": {
+    "addr:street": "Calle 419",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Franco"
   }
 },
 {
@@ -103803,6 +103892,30 @@
 },
 {
   "type": "node",
+  "id": 9092806146,
+  "lat": -34.8566057,
+  "lon": -58.0825214
+},
+{
+  "type": "node",
+  "id": 9092806147,
+  "lat": -34.8566754,
+  "lon": -58.0824348
+},
+{
+  "type": "node",
+  "id": 9092806148,
+  "lat": -34.8567295,
+  "lon": -58.0824994
+},
+{
+  "type": "node",
+  "id": 9092806149,
+  "lat": -34.8566599,
+  "lon": -58.0825860
+},
+{
+  "type": "node",
   "id": 6345778872,
   "lat": -34.8556728,
   "lon": -58.0754421
@@ -103836,6 +103949,54 @@
   "id": 6345778877,
   "lat": -34.8557224,
   "lon": -58.0754933
+},
+{
+  "type": "node",
+  "id": 9092804958,
+  "lat": -34.8529444,
+  "lon": -58.0725716
+},
+{
+  "type": "node",
+  "id": 9092804959,
+  "lat": -34.8529959,
+  "lon": -58.0724678
+},
+{
+  "type": "node",
+  "id": 9092804960,
+  "lat": -34.8530607,
+  "lon": -58.0725155
+},
+{
+  "type": "node",
+  "id": 9092804961,
+  "lat": -34.8530093,
+  "lon": -58.0726193
+},
+{
+  "type": "node",
+  "id": 9092809639,
+  "lat": -34.8511150,
+  "lon": -58.0762495
+},
+{
+  "type": "node",
+  "id": 9092809640,
+  "lat": -34.8511665,
+  "lon": -58.0761457
+},
+{
+  "type": "node",
+  "id": 9092809641,
+  "lat": -34.8512313,
+  "lon": -58.0761934
+},
+{
+  "type": "node",
+  "id": 9092809642,
+  "lat": -34.8511799,
+  "lon": -58.0762972
 },
 {
   "type": "node",
