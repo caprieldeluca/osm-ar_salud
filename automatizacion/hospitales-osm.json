@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-16T01:58:57Z",
-    "timestamp_areas_base": "2021-09-16T00:56:21Z",
+    "timestamp_osm_base": "2021-09-17T01:59:17Z",
+    "timestamp_areas_base": "2021-09-17T01:03:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14461,7 +14461,8 @@
     "amenity": "hospital",
     "emergency": "no",
     "healthcare": "hospital",
-    "name": "Hospital SAMCO"
+    "name": "Sistema para la Atención Médica de la Comunidad",
+    "short_name": "SAMCO"
   }
 },
 {
@@ -16461,9 +16462,12 @@
   "lat": -35.0262760,
   "lon": -63.5836563,
   "tags": {
+    "addr:city": "Bernardo Larroudé",
+    "addr:postcode": "6220",
+    "addr:street": "Francisco Speroni",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Ctro. de Salud Dr. Alejandro Posadas"
+    "name": "Centro de Salud Doctor Alejandro Posadas"
   }
 },
 {
@@ -24675,6 +24679,34 @@
     "ref:sisa_tipologia": "ESCIG",
     "short_name": "SAMCO",
     "wikipedia": "es:https://es.wikipedia.org/wiki/SAMCo"
+  }
+},
+{
+  "type": "node",
+  "id": 9099272888,
+  "lat": -32.2501582,
+  "lon": -63.6508967,
+  "tags": {
+    "addr:city": "Pampayasta Sur",
+    "addr:postcode": "5931",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Farmacia Cánovas"
+  }
+},
+{
+  "type": "node",
+  "id": 9099283627,
+  "lat": -32.4116066,
+  "lon": -63.2271297,
+  "tags": {
+    "addr:city": "Villa Maria",
+    "addr:housenumber": "1966",
+    "addr:postcode": "5900",
+    "addr:street": "Bulevard Sarmiento",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Farmavida Sarmiento"
   }
 },
 {
@@ -51211,6 +51243,29 @@
   "tags": {
     "amenity": "hospital",
     "name": "Hospital Fidanza"
+  }
+},
+{
+  "type": "way",
+  "id": 984107215,
+  "nodes": [
+    9099323615,
+    9099323616,
+    9099332317,
+    9099332318,
+    9099323615
+  ],
+  "tags": {
+    "addr:city": "Don Torcuato",
+    "addr:housenumber": "2111",
+    "addr:postcode": "1611",
+    "addr:street": "Rosario",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Cruz Roja",
+    "operator": "Cruz Roja",
+    "operator:wikidata": "Q7178",
+    "operator:wikipedia": "es:Cruz Roja"
   }
 },
 {
@@ -87345,6 +87400,30 @@
   "id": 8533127816,
   "lat": -34.4966738,
   "lon": -58.7077871
+},
+{
+  "type": "node",
+  "id": 9099323615,
+  "lat": -34.4996829,
+  "lon": -58.6285987
+},
+{
+  "type": "node",
+  "id": 9099323616,
+  "lat": -34.4996406,
+  "lon": -58.6285201
+},
+{
+  "type": "node",
+  "id": 9099332317,
+  "lat": -34.4997970,
+  "lon": -58.6283962
+},
+{
+  "type": "node",
+  "id": 9099332318,
+  "lat": -34.4998393,
+  "lon": -58.6284748
 },
 {
   "type": "node",
