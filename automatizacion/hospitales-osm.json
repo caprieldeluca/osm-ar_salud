@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-18T01:58:58Z",
-    "timestamp_areas_base": "2021-09-18T01:18:01Z",
+    "timestamp_osm_base": "2021-09-21T01:59:01Z",
+    "timestamp_areas_base": "2021-09-21T01:15:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9760,9 +9760,15 @@
   "lat": -32.3945616,
   "lon": -59.5286084,
   "tags": {
+    "addr:city": "Lucas González",
+    "addr:postcode": "3152",
+    "addr:street": "Islas Malvinas",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Santa Rosa",
+    "phone": "+54 3435 480053",
+    "ref:sisa_codigo": "10300772142078",
+    "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q94691254"
   }
 },
@@ -13362,7 +13368,7 @@
     "addr:street": "20 de Febrero",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Sanatorio del Sol"
+    "name": "Clínica San Fernando"
   }
 },
 {
@@ -34005,31 +34011,6 @@
 },
 {
   "type": "way",
-  "id": 289828686,
-  "nodes": [
-    2933637044,
-    2933637045,
-    2933637046,
-    2933637047,
-    2933637044
-  ],
-  "tags": {
-    "addr:city": "Catriel",
-    "addr:housenumber": "50",
-    "addr:postcode": "8307",
-    "addr:street": "España",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Catriel",
-    "operator:type": "public",
-    "phone": "+54 299 491 1102",
-    "ref:sisa_codigo": "10620422170011",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "way",
   "id": 289854052,
   "nodes": [
     2933904234,
@@ -40249,7 +40230,7 @@
   "tags": {
     "addr:city": "San Salvador",
     "addr:postcode": "3218",
-    "addr:street": "T. González",
+    "addr:street": "Tulio González",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "San Miguel",
@@ -48880,37 +48861,6 @@
 },
 {
   "type": "way",
-  "id": 802160743,
-  "nodes": [
-    7503281275,
-    7503281259,
-    7503281258,
-    7503281274,
-    7503281265,
-    7503281268,
-    7503281273,
-    7503281269,
-    7503281272,
-    7503281271,
-    7503281275
-  ],
-  "tags": {
-    "addr:city": "Catriel",
-    "addr:housenumber": "448",
-    "addr:postcode": "8307",
-    "addr:street": "Avenida Julio Argentino Roca",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clinica y Maternidad Juan Domingo Perón",
-    "operator": "Sindicato de Petróleo y Gas Privado de Río Negro, Neuquén y La Pampa",
-    "operator:type": "private",
-    "phone": "+54 299 491 3790",
-    "ref:sisa_codigo": "10620422870420",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "way",
   "id": 802168038,
   "nodes": [
     7503375004,
@@ -51266,6 +51216,74 @@
     "operator": "Cruz Roja",
     "operator:wikidata": "Q7178",
     "operator:wikipedia": "es:Cruz Roja"
+  }
+},
+{
+  "type": "way",
+  "id": 985010645,
+  "nodes": [
+    9106562527,
+    9106562533,
+    9106562534,
+    9106562535,
+    9106562532,
+    9106562536,
+    9106562528,
+    9106562538,
+    9106562539,
+    9106562540,
+    9106562537,
+    9106562542,
+    9106562545,
+    9106562543,
+    9106562544,
+    9106562529,
+    9106562541,
+    9106562547,
+    9106562551,
+    9106562550,
+    9106562549,
+    9106562548,
+    9106562530,
+    9106562546,
+    9106562531,
+    9106562527
+  ],
+  "tags": {
+    "addr:city": "Catriel",
+    "addr:housenumber": "1699",
+    "addr:postcode": "R8307",
+    "addr:street": "Avenida General Enrique Mosconi",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Catriel \"Doctora Cecilia Grierson\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 985010660,
+  "nodes": [
+    9106562630,
+    9106562631,
+    9106562632,
+    9106562633,
+    9106562630
+  ],
+  "tags": {
+    "addr:city": "Catriel",
+    "addr:housenumber": "50",
+    "addr:postcode": "R8307",
+    "addr:street": "España",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Viejo Catriel",
+    "old_name": "Hospital de Área Programa Catriel",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public"
   }
 },
 {
@@ -56179,87 +56197,177 @@
 },
 {
   "type": "node",
-  "id": 7503281258,
-  "lat": -37.8802859,
-  "lon": -67.7982388
+  "id": 9106562632,
+  "lat": -37.8771108,
+  "lon": -67.7934091
 },
 {
   "type": "node",
-  "id": 7503281259,
-  "lat": -37.8802005,
-  "lon": -67.7983105
+  "id": 9106562633,
+  "lat": -37.8774433,
+  "lon": -67.7944121
 },
 {
   "type": "node",
-  "id": 7503281265,
-  "lat": -37.8801831,
-  "lon": -67.7979232
+  "id": 9106562630,
+  "lat": -37.8763995,
+  "lon": -67.7950219
 },
 {
   "type": "node",
-  "id": 7503281268,
-  "lat": -37.8801532,
-  "lon": -67.7978665
+  "id": 9106562631,
+  "lat": -37.8763883,
+  "lon": -67.7938150
 },
 {
   "type": "node",
-  "id": 7503281269,
-  "lat": -37.8800071,
-  "lon": -67.7979400
+  "id": 9106562527,
+  "lat": -37.8626885,
+  "lon": -67.7916933
 },
 {
   "type": "node",
-  "id": 7503281271,
-  "lat": -37.8799128,
-  "lon": -67.7981180
+  "id": 9106562530,
+  "lat": -37.8615242,
+  "lon": -67.7916956
 },
 {
   "type": "node",
-  "id": 7503281272,
-  "lat": -37.8798775,
-  "lon": -67.7980506
+  "id": 9106562531,
+  "lat": -37.8626726,
+  "lon": -67.7916954
 },
 {
   "type": "node",
-  "id": 7503281273,
-  "lat": -37.8801369,
-  "lon": -67.7978344
+  "id": 9106562532,
+  "lat": -37.8627260,
+  "lon": -67.7916376
 },
 {
   "type": "node",
-  "id": 7503281274,
-  "lat": -37.8803293,
-  "lon": -67.7982024
+  "id": 9106562533,
+  "lat": -37.8627019,
+  "lon": -67.7916878
 },
 {
   "type": "node",
-  "id": 7503281275,
-  "lat": -37.8800706,
-  "lon": -67.7984197
+  "id": 9106562534,
+  "lat": -37.8627132,
+  "lon": -67.7916773
 },
 {
   "type": "node",
-  "id": 2933637045,
-  "lat": -37.8774295,
-  "lon": -67.7943645
+  "id": 9106562535,
+  "lat": -37.8627227,
+  "lon": -67.7916604
 },
 {
   "type": "node",
-  "id": 2933637046,
-  "lat": -37.8771054,
-  "lon": -67.7933806
+  "id": 9106562546,
+  "lat": -37.8615425,
+  "lon": -67.7916983
 },
 {
   "type": "node",
-  "id": 2933637044,
-  "lat": -37.8763888,
-  "lon": -67.7949882
+  "id": 9106562547,
+  "lat": -37.8614992,
+  "lon": -67.7916118
 },
 {
   "type": "node",
-  "id": 2933637047,
-  "lat": -37.8763861,
-  "lon": -67.7937767
+  "id": 9106562548,
+  "lat": -37.8615072,
+  "lon": -67.7916860
+},
+{
+  "type": "node",
+  "id": 9106562549,
+  "lat": -37.8614977,
+  "lon": -67.7916700
+},
+{
+  "type": "node",
+  "id": 9106562550,
+  "lat": -37.8614931,
+  "lon": -67.7916525
+},
+{
+  "type": "node",
+  "id": 9106562551,
+  "lat": -37.8614938,
+  "lon": -67.7916332
+},
+{
+  "type": "node",
+  "id": 9106562528,
+  "lat": -37.8627222,
+  "lon": -67.7898741
+},
+{
+  "type": "node",
+  "id": 9106562529,
+  "lat": -37.8620311,
+  "lon": -67.7898682
+},
+{
+  "type": "node",
+  "id": 9106562536,
+  "lat": -37.8627232,
+  "lon": -67.7898933
+},
+{
+  "type": "node",
+  "id": 9106562537,
+  "lat": -37.8626736,
+  "lon": -67.7898345
+},
+{
+  "type": "node",
+  "id": 9106562538,
+  "lat": -37.8627172,
+  "lon": -67.7898566
+},
+{
+  "type": "node",
+  "id": 9106562539,
+  "lat": -37.8627074,
+  "lon": -67.7898432
+},
+{
+  "type": "node",
+  "id": 9106562540,
+  "lat": -37.8626907,
+  "lon": -67.7898363
+},
+{
+  "type": "node",
+  "id": 9106562541,
+  "lat": -37.8620235,
+  "lon": -67.7898865
+},
+{
+  "type": "node",
+  "id": 9106562542,
+  "lat": -37.8620875,
+  "lon": -67.7898361
+},
+{
+  "type": "node",
+  "id": 9106562543,
+  "lat": -37.8620570,
+  "lon": -67.7898444
+},
+{
+  "type": "node",
+  "id": 9106562544,
+  "lat": -37.8620433,
+  "lon": -67.7898544
+},
+{
+  "type": "node",
+  "id": 9106562545,
+  "lat": -37.8620722,
+  "lon": -67.7898383
 },
 {
   "type": "node",
@@ -68888,8 +68996,8 @@
 {
   "type": "node",
   "id": 1525476776,
-  "lat": -31.4058682,
-  "lon": -64.2041716
+  "lat": -31.4058676,
+  "lon": -64.2041689
 },
 {
   "type": "node",
@@ -68900,8 +69008,8 @@
 {
   "type": "node",
   "id": 1525476815,
-  "lat": -31.4057349,
-  "lon": -64.2038823
+  "lat": -31.4057470,
+  "lon": -64.2038876
 },
 {
   "type": "node",
@@ -68912,14 +69020,14 @@
 {
   "type": "node",
   "id": 1525476824,
-  "lat": -31.4056755,
-  "lon": -64.2040910
+  "lat": -31.4056891,
+  "lon": -64.2040954
 },
 {
   "type": "node",
   "id": 1525476843,
   "lat": -31.4058337,
-  "lon": -64.2041581
+  "lon": -64.2041554
 },
 {
   "type": "node",
@@ -68942,14 +69050,14 @@
 {
   "type": "node",
   "id": 1525476905,
-  "lat": -31.4060134,
-  "lon": -64.2031899
+  "lat": -31.4060220,
+  "lon": -64.2031711
 },
 {
   "type": "node",
   "id": 1525476907,
-  "lat": -31.4060939,
-  "lon": -64.2032214
+  "lat": -31.4061022,
+  "lon": -64.2032053
 },
 {
   "type": "node",

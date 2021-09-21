@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-18T02:06:08Z",
-    "timestamp_areas_base": "2021-09-18T01:18:01Z",
+    "timestamp_osm_base": "2021-09-21T02:06:14Z",
+    "timestamp_areas_base": "2021-09-21T01:15:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -632,8 +632,8 @@
 {
   "type": "node",
   "id": 2115814778,
-  "lat": -28.4727856,
-  "lon": -65.7809111,
+  "lat": -28.4732078,
+  "lon": -65.7810378,
   "tags": {
     "addr:housenumber": "938",
     "amenity": "doctors",
@@ -1245,6 +1245,7 @@
     "amenity": "doctors",
     "description": "Atención de prácticas esenciales",
     "fixme": "covid19, revisar ubicación",
+    "healthcare": "doctor",
     "name": "Centro de Atención Primaria de la Salud Torres",
     "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "Municipalidad de Luján",
@@ -5473,17 +5474,6 @@
     "healthcare": "doctor",
     "name": "Sancor Salud",
     "name:es": "Sancor Salud"
-  }
-},
-{
-  "type": "node",
-  "id": 4820741625,
-  "lat": -34.5622378,
-  "lon": -58.4470812,
-  "tags": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Centro Médico Barrancas"
   }
 },
 {
@@ -21900,7 +21890,8 @@
     "name": "Centro Médico City",
     "opening_hours": "Mo-Fr 09:00-13:00,16:00-21:00; Sa 09:00-13:00",
     "ref": "2",
-    "reservation": "yes"
+    "reservation": "yes",
+    "wheelchair": "yes"
   }
 },
 {

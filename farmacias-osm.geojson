@@ -675,28 +675,28 @@
     "coordinates": [
       [
         [
-          -60.8130774,
-          -32.9147265
+          -60.813076,
+          -32.9147215
         ],
         [
-          -60.8130852,
+          -60.8130851,
           -32.9147566
         ],
         [
-          -60.8130933,
-          -32.9147878
+          -60.8130932,
+          -32.9147877
         ],
         [
-          -60.8129453,
-          -32.9148148
+          -60.8129452,
+          -32.9148149
         ],
         [
-          -60.8129293,
-          -32.914753
+          -60.812928,
+          -32.9147487
         ],
         [
-          -60.8130774,
-          -32.9147265
+          -60.813076,
+          -32.9147215
         ]
       ]
     ]
@@ -5558,7 +5558,7 @@
   "type": "Feature",
   "id": "way/459210936",
   "properties": {
-    "addr:street": "Conquista del Desierto",
+    "addr:street": "Avenida Presidente Néstor Carlos Kirchner",
     "amenity": "pharmacy",
     "building": "yes",
     "building:levels": "2",
@@ -11638,6 +11638,7 @@
     "addr:street": "Ramón Franco Bahamonde",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/468911120"
@@ -11681,6 +11682,7 @@
     "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Punto Farma",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/468915492"
@@ -18047,6 +18049,7 @@
     "addr:street": "Avenida Hipólito Irigoyen",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Lazecki",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/476149734"
@@ -24348,24 +24351,24 @@
     "coordinates": [
       [
         [
-          -64.1881518,
-          -31.4119083
+          -64.1881466,
+          -31.4118839
         ],
         [
-          -64.188192,
-          -31.4120411
+          -64.1881978,
+          -31.4120139
         ],
         [
-          -64.1880273,
-          -31.4120774
+          -64.1880366,
+          -31.4120602
         ],
         [
-          -64.1879871,
-          -31.4119447
+          -64.1879854,
+          -31.4119302
         ],
         [
-          -64.1881518,
-          -31.4119083
+          -64.1881466,
+          -31.4118839
         ]
       ]
     ]
@@ -24386,24 +24389,24 @@
     "coordinates": [
       [
         [
-          -64.1899006,
-          -31.4113544
+          -64.1899057,
+          -31.4113509
         ],
         [
           -64.1899651,
           -31.4114858
         ],
         [
-          -64.1897935,
-          -31.4115407
+          -64.1898067,
+          -31.411532
         ],
         [
-          -64.1897303,
-          -31.4114184
+          -64.1897547,
+          -31.4113993
         ],
         [
-          -64.1899006,
-          -31.4113544
+          -64.1899057,
+          -31.4113509
         ]
       ]
     ]
@@ -70460,8 +70463,11 @@
   "type": "Feature",
   "id": "node/3379910564",
   "properties": {
+    "addr:housenumber": "2000",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Padro",
     "id": "node/3379910564"
   },
   "geometry": {
@@ -70476,8 +70482,11 @@
   "type": "Feature",
   "id": "node/3379910568",
   "properties": {
+    "addr:housenumber": "1881",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "solidaria",
     "id": "node/3379910568"
   },
   "geometry": {
@@ -79766,7 +79775,7 @@
   "id": "node/3896012254",
   "properties": {
     "addr:city": "Tristán Suárez",
-    "addr:street": "Sudamérica",
+    "addr:street": "Avenida Presidente Néstor Carlos Kirchner",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Suárez",
@@ -81322,6 +81331,9 @@
   "id": "node/3986618291",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/3986618291"
@@ -81330,7 +81342,7 @@
     "type": "Point",
     "coordinates": [
       -64.1882737,
-      -31.4184426
+      -31.4185113
     ]
   }
 },
@@ -90270,7 +90282,7 @@
   "id": "node/4565393520",
   "properties": {
     "addr:city": "Tristán Suárez",
-    "addr:street": "Sudamérica",
+    "addr:street": "Avenida Presidente Néstor Carlos Kirchner",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Jaurigoity",
@@ -107458,6 +107470,7 @@
   "properties": {
     "addr:street": "Marco Avellaneda",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Punto Farma",
     "id": "node/5280913753"
   },
@@ -144433,6 +144446,48 @@
     "coordinates": [
       -58.7852727,
       -30.9508126
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9108345071",
+  "properties": {
+    "addr:housenumber": "3036",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Cabrini",
+    "id": "node/9108345071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4652029,
+      -31.2649107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9108900389",
+  "properties": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "608",
+    "addr:postcode": "5900",
+    "addr:street": "Entre Ríos",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Paviotti",
+    "id": "node/9108900389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2465556,
+      -32.4162937
     ]
   }
 }

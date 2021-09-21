@@ -3845,6 +3845,8 @@
     "name": "Hospital Cecilia Grierson",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+541146049000;+541146049007;+541146049045",
     "ref:sisa_codigo": "50020082218914",
     "ref:sisa_tipologia": "ESSIDT",
@@ -40568,6 +40570,51 @@
 },
 {
   "type": "Feature",
+  "id": "way/985010600",
+  "properties": {
+    "addr:city": "Catriel",
+    "addr:housenumber": "448",
+    "addr:postcode": "R8307",
+    "addr:street": "Avenida Julio Argentino Roca",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Clínica y Maternidad Juan Domingo Perón",
+    "operator": "Sindicato de Petróleo y Gas Privado de Río Negro y Neuquén",
+    "operator:type": "association",
+    "id": "way/985010600"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.7981694,
+          -37.8799168
+        ],
+        [
+          -67.7984132,
+          -37.8800491
+        ],
+        [
+          -67.7982581,
+          -37.8802268
+        ],
+        [
+          -67.798015,
+          -37.8800939
+        ],
+        [
+          -67.7981694,
+          -37.8799168
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -45989,6 +46036,7 @@
     "addr:street": "Coronel Osorio",
     "amenity": "clinic",
     "emergency": "yes",
+    "healthcare": "clinic",
     "name": "UPA 24 - Unidad de Pronta Atención",
     "operator": "Gobierno de la Provincia de Buenos Aires",
     "operator:type": "public",

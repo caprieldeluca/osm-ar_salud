@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-18T02:04:01Z",
-    "timestamp_areas_base": "2021-09-18T00:58:42Z",
+    "timestamp_osm_base": "2021-09-21T02:04:13Z",
+    "timestamp_areas_base": "2021-09-21T01:15:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -22117,8 +22117,11 @@
   "lat": -31.2770462,
   "lon": -64.4636536,
   "tags": {
+    "addr:housenumber": "2000",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Padro"
   }
 },
 {
@@ -22127,8 +22130,11 @@
   "lat": -31.2787628,
   "lon": -64.4633102,
   "tags": {
+    "addr:housenumber": "1881",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "solidaria"
   }
 },
 {
@@ -28441,7 +28447,7 @@
   "lon": -58.5680157,
   "tags": {
     "addr:city": "Tristán Suárez",
-    "addr:street": "Sudamérica",
+    "addr:street": "Avenida Presidente Néstor Carlos Kirchner",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Suárez"
@@ -29483,10 +29489,13 @@
 {
   "type": "node",
   "id": 3986618291,
-  "lat": -31.4184426,
+  "lat": -31.4185113,
   "lon": -64.1882737,
   "tags": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
     "name": "Farmacity"
   }
@@ -35573,7 +35582,7 @@
   "lon": -58.5659972,
   "tags": {
     "addr:city": "Tristán Suárez",
-    "addr:street": "Sudamérica",
+    "addr:street": "Avenida Presidente Néstor Carlos Kirchner",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Jaurigoity"
@@ -47319,6 +47328,7 @@
   "tags": {
     "addr:street": "Marco Avellaneda",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Punto Farma"
   }
 },
@@ -72812,6 +72822,36 @@
   }
 },
 {
+  "type": "node",
+  "id": 9108345071,
+  "lat": -31.2649107,
+  "lon": -64.4652029,
+  "tags": {
+    "addr:housenumber": "3036",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Cabrini"
+  }
+},
+{
+  "type": "node",
+  "id": 9108900389,
+  "lat": -32.4162937,
+  "lon": -63.2465556,
+  "tags": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "608",
+    "addr:postcode": "5900",
+    "addr:street": "Entre Ríos",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Paviotti"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -75409,7 +75449,7 @@
     4551185122
   ],
   "tags": {
-    "addr:street": "Conquista del Desierto",
+    "addr:street": "Avenida Presidente Néstor Carlos Kirchner",
     "amenity": "pharmacy",
     "building": "yes",
     "building:levels": "2",
@@ -78193,6 +78233,7 @@
     "addr:street": "Ramón Franco Bahamonde",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -78211,6 +78252,7 @@
     "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Punto Farma",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -81181,6 +81223,7 @@
     "addr:street": "Avenida Hipólito Irigoyen",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Lazecki",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -97137,26 +97180,26 @@
 {
   "type": "node",
   "id": 5360102385,
-  "lat": -31.4119447,
-  "lon": -64.1879871
+  "lat": -31.4119302,
+  "lon": -64.1879854
 },
 {
   "type": "node",
   "id": 5360102386,
-  "lat": -31.4120774,
-  "lon": -64.1880273
+  "lat": -31.4120602,
+  "lon": -64.1880366
 },
 {
   "type": "node",
   "id": 5360102387,
-  "lat": -31.4120411,
-  "lon": -64.1881920
+  "lat": -31.4120139,
+  "lon": -64.1881978
 },
 {
   "type": "node",
   "id": 5360102388,
-  "lat": -31.4119083,
-  "lon": -64.1881518
+  "lat": -31.4118839,
+  "lon": -64.1881466
 },
 {
   "type": "node",
@@ -97167,20 +97210,20 @@
 {
   "type": "node",
   "id": 5360102390,
-  "lat": -31.4115407,
-  "lon": -64.1897935
+  "lat": -31.4115320,
+  "lon": -64.1898067
 },
 {
   "type": "node",
   "id": 5360102391,
-  "lat": -31.4114184,
-  "lon": -64.1897303
+  "lat": -31.4113993,
+  "lon": -64.1897547
 },
 {
   "type": "node",
   "id": 5360102392,
-  "lat": -31.4113544,
-  "lon": -64.1899006
+  "lat": -31.4113509,
+  "lon": -64.1899057
 },
 {
   "type": "node",
@@ -99417,32 +99460,32 @@
 {
   "type": "node",
   "id": 2466787364,
-  "lat": -32.9147530,
-  "lon": -60.8129293
+  "lat": -32.9147487,
+  "lon": -60.8129280
 },
 {
   "type": "node",
   "id": 2466787365,
-  "lat": -32.9147265,
-  "lon": -60.8130774
+  "lat": -32.9147215,
+  "lon": -60.8130760
 },
 {
   "type": "node",
   "id": 2466787366,
-  "lat": -32.9147878,
-  "lon": -60.8130933
+  "lat": -32.9147877,
+  "lon": -60.8130932
 },
 {
   "type": "node",
   "id": 2466787367,
-  "lat": -32.9148148,
-  "lon": -60.8129453
+  "lat": -32.9148149,
+  "lon": -60.8129452
 },
 {
   "type": "node",
   "id": 2563443163,
   "lat": -32.9147566,
-  "lon": -60.8130852
+  "lon": -60.8130851
 },
 {
   "type": "node",

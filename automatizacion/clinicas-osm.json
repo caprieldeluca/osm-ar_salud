@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-18T02:01:55Z",
-    "timestamp_areas_base": "2021-09-18T00:58:42Z",
+    "timestamp_osm_base": "2021-09-21T02:02:06Z",
+    "timestamp_areas_base": "2021-09-21T01:15:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3903,6 +3903,7 @@
     "addr:street": "Coronel Osorio",
     "amenity": "clinic",
     "emergency": "yes",
+    "healthcare": "clinic",
     "name": "UPA 24 - Unidad de Pronta Atención",
     "operator": "Gobierno de la Provincia de Buenos Aires",
     "operator:type": "public",
@@ -44343,6 +44344,8 @@
     "name": "Hospital Cecilia Grierson",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+541146049000;+541146049007;+541146049045",
     "ref:sisa_codigo": "50020082218914",
     "ref:sisa_tipologia": "ESSIDT",
@@ -61243,6 +61246,30 @@
   }
 },
 {
+  "type": "way",
+  "id": 985010600,
+  "nodes": [
+    9106562372,
+    9106562373,
+    9106562374,
+    9106562375,
+    9106562372
+  ],
+  "tags": {
+    "addr:city": "Catriel",
+    "addr:housenumber": "448",
+    "addr:postcode": "R8307",
+    "addr:street": "Avenida Julio Argentino Roca",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Clínica y Maternidad Juan Domingo Perón",
+    "operator": "Sindicato de Petróleo y Gas Privado de Río Negro y Neuquén",
+    "operator:type": "association"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -64785,6 +64812,30 @@
   "id": 7504528991,
   "lat": -38.9729106,
   "lon": -67.8353787
+},
+{
+  "type": "node",
+  "id": 9106562372,
+  "lat": -37.8799168,
+  "lon": -67.7981694
+},
+{
+  "type": "node",
+  "id": 9106562373,
+  "lat": -37.8800939,
+  "lon": -67.7980150
+},
+{
+  "type": "node",
+  "id": 9106562374,
+  "lat": -37.8802268,
+  "lon": -67.7982581
+},
+{
+  "type": "node",
+  "id": 9106562375,
+  "lat": -37.8800491,
+  "lon": -67.7984132
 },
 {
   "type": "node",
