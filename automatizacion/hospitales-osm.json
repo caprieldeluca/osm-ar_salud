@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-25T01:59:26Z",
-    "timestamp_areas_base": "2021-09-25T00:59:46Z",
+    "timestamp_osm_base": "2021-09-26T01:59:46Z",
+    "timestamp_areas_base": "2021-09-26T01:15:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -51195,7 +51195,8 @@
     "healthcare": "hospital",
     "name": "Hospital de Área Programa Catriel \"Doctora Cecilia Grierson\"",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public"
+    "operator:type": "public",
+    "phone": "+54 299 491-1298;+54 299 491-1102"
   }
 },
 {
@@ -51216,9 +51217,35 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Viejo Catriel",
-    "old_name": "Hospital de Área Programa Catriel",
+    "loc_name": "Hospital Viejo",
+    "name": "Hospital de Área Programa Catriel",
+    "old_name": "Hospital de Área Programa Catriel ¨Doctora Cecilia Grierson¨",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 986995384,
+  "nodes": [
+    9123057168,
+    9123057169,
+    9123057170,
+    9123057171,
+    9123057172,
+    9123057173,
+    9123057168
+  ],
+  "tags": {
+    "addr:city": "25 de Mayo",
+    "addr:housenumber": "76",
+    "addr:postcode": "L8201",
+    "addr:street": "Victorica",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Joge Ahuad",
+    "operator": "Ministerio de Salud - Gobierno de La Pampa",
     "operator:type": "public"
   }
 },
@@ -56304,6 +56331,42 @@
   "id": 9106562545,
   "lat": -37.8620722,
   "lon": -67.7898383
+},
+{
+  "type": "node",
+  "id": 9123057168,
+  "lat": -37.7740236,
+  "lon": -67.7134610
+},
+{
+  "type": "node",
+  "id": 9123057169,
+  "lat": -37.7752804,
+  "lon": -67.7125420
+},
+{
+  "type": "node",
+  "id": 9123057172,
+  "lat": -37.7736534,
+  "lon": -67.7125729
+},
+{
+  "type": "node",
+  "id": 9123057173,
+  "lat": -37.7736418,
+  "lon": -67.7126254
+},
+{
+  "type": "node",
+  "id": 9123057170,
+  "lat": -37.7748955,
+  "lon": -67.7116993
+},
+{
+  "type": "node",
+  "id": 9123057171,
+  "lat": -37.7748616,
+  "lon": -67.7116901
 },
 {
   "type": "node",
