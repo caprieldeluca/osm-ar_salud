@@ -10701,6 +10701,7 @@
     "addr:street": "Triunvirato",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia Magnin",
     "source": "Reconocimiento cartográfico por KG 2016",
     "id": "way/468491714"
@@ -37859,6 +37860,61 @@
 },
 {
   "type": "Feature",
+  "id": "way/987231884",
+  "properties": {
+    "addr:city": "Plaza Huincul",
+    "addr:housenumber": "1",
+    "addr:postcode": "8318",
+    "addr:street": "Las Heras",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "email": "farmacia@farmaone.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Farma One",
+    "opening_hours": "Mo-Sa 09:00-13:00; 16:30-20:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+5402994866755",
+    "website": "https://www.instagram.com/farmaonefarmacia/",
+    "wheelchair": "yes",
+    "id": "way/987231884"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.2143664,
+          -38.9305211
+        ],
+        [
+          -69.2143626,
+          -38.9305446
+        ],
+        [
+          -69.2143181,
+          -38.9305727
+        ],
+        [
+          -69.2142524,
+          -38.9305651
+        ],
+        [
+          -69.2142607,
+          -38.9305117
+        ],
+        [
+          -69.2143664,
+          -38.9305211
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -44734,6 +44790,7 @@
   "id": "node/1573474917",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "La Merced",
     "id": "node/1573474917"
   },
@@ -92988,6 +93045,7 @@
   "properties": {
     "addr:street": "Avenida Sucre",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Nueva Santa Rita",
     "source": "Reconocimiento cartográfico 2016 por KG",
     "id": "node/4618688988"
@@ -94948,6 +95006,7 @@
     "addr:street": "Avenida Andrés Rolón",
     "amenity": "pharmacy",
     "delivery": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia Thevenet",
     "phone": "+54 11 4723-5163",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -144630,6 +144689,36 @@
     "coordinates": [
       -63.2480245,
       -32.9411904
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124373623",
+  "properties": {
+    "addr:city": "Plaza Huincul",
+    "addr:housenumber": "1",
+    "addr:postcode": "8318",
+    "addr:street": "Las Heras",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "email": "farmacia@farmaone.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Farma One",
+    "opening_hours": "Mo-Su 09:00-13:00; 16:30-20:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+54 4866755",
+    "wheelchair": "yes",
+    "id": "node/9124373623"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.2143167,
+      -38.9305416
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-26T02:03:55Z",
-    "timestamp_areas_base": "2021-09-26T01:15:23Z",
+    "timestamp_osm_base": "2021-09-27T02:03:33Z",
+    "timestamp_areas_base": "2021-09-27T01:25:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4661,6 +4661,7 @@
   "lon": -58.5598095,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "La Merced"
   }
 },
@@ -37441,6 +37442,7 @@
   "tags": {
     "addr:street": "Avenida Sucre",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Nueva Santa Rita",
     "source": "Reconocimiento cartográfico 2016 por KG"
   }
@@ -38771,6 +38773,7 @@
     "addr:street": "Avenida Andrés Rolón",
     "amenity": "pharmacy",
     "delivery": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia Thevenet",
     "phone": "+54 11 4723-5163",
     "source": "Reconocimiento terrestre por Kaart 2016"
@@ -72951,6 +72954,30 @@
   }
 },
 {
+  "type": "node",
+  "id": 9124373623,
+  "lat": -38.9305416,
+  "lon": -69.2143167,
+  "tags": {
+    "addr:city": "Plaza Huincul",
+    "addr:housenumber": "1",
+    "addr:postcode": "8318",
+    "addr:street": "Las Heras",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "email": "farmacia@farmaone.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Farma One",
+    "opening_hours": "Mo-Su 09:00-13:00; 16:30-20:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+54 4866755",
+    "wheelchair": "yes"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -77917,6 +77944,7 @@
     "addr:street": "Triunvirato",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia Magnin",
     "source": "Reconocimiento cartográfico por KG 2016"
   }
@@ -90432,6 +90460,37 @@
   }
 },
 {
+  "type": "way",
+  "id": 987231884,
+  "nodes": [
+    9125224453,
+    9125224454,
+    9125224455,
+    9125224456,
+    9125224457,
+    9125224453
+  ],
+  "tags": {
+    "addr:city": "Plaza Huincul",
+    "addr:housenumber": "1",
+    "addr:postcode": "8318",
+    "addr:street": "Las Heras",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "email": "farmacia@farmaone.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Farma One",
+    "opening_hours": "Mo-Sa 09:00-13:00; 16:30-20:30",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+5402994866755",
+    "website": "https://www.instagram.com/farmaonefarmacia/",
+    "wheelchair": "yes"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -91828,6 +91887,36 @@
   "id": 7641192908,
   "lat": -38.9329855,
   "lon": -69.2257866
+},
+{
+  "type": "node",
+  "id": 9125224453,
+  "lat": -38.9305211,
+  "lon": -69.2143664
+},
+{
+  "type": "node",
+  "id": 9125224454,
+  "lat": -38.9305446,
+  "lon": -69.2143626
+},
+{
+  "type": "node",
+  "id": 9125224455,
+  "lat": -38.9305727,
+  "lon": -69.2143181
+},
+{
+  "type": "node",
+  "id": 9125224456,
+  "lat": -38.9305651,
+  "lon": -69.2142524
+},
+{
+  "type": "node",
+  "id": 9125224457,
+  "lat": -38.9305117,
+  "lon": -69.2142607
 },
 {
   "type": "node",
