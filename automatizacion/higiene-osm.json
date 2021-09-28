@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-09-27T02:08:27Z",
-    "timestamp_areas_base": "2021-09-27T01:25:58Z",
+    "timestamp_osm_base": "2021-09-28T02:09:02Z",
+    "timestamp_areas_base": "2021-09-28T01:12:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -83,8 +83,12 @@
   "lon": -58.3901818,
   "tags": {
     "amenity": "pharmacy",
+    "branch": "Lopez",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
-    "name": "Farmacity Lopez",
+    "name": "Farmacity",
     "operator": "Farmacity",
     "shop": "chemist"
   }
@@ -96,8 +100,12 @@
   "lon": -58.3911377,
   "tags": {
     "amenity": "pharmacy",
+    "branch": "Recoleta",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
-    "name": "Farmacity Recoleta",
+    "name": "Farmacity",
     "operator": "Farmacity",
     "shop": "chemist"
   }
@@ -122,8 +130,12 @@
   "lon": -58.3910946,
   "tags": {
     "amenity": "pharmacy",
+    "branch": "La Biela",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
-    "name": "Farmacity La Biela",
+    "name": "Farmacity",
     "operator": "Farmacity",
     "shop": "chemist"
   }
@@ -3333,10 +3345,12 @@
     "addr:housenumber": "18",
     "addr:postcode": "B1642",
     "addr:street": "Laprida",
-    "building": "yes",
+    "building": "retail",
+    "building:levels": "1",
     "name": "Simplicity",
     "opening_hours": "Mo-Sa 09:00-21:00",
     "phone": "+54 0800-666-4321",
+    "roof:levels": "0",
     "shop": "chemist",
     "source": "Reconocimiento terrestre por Kaart 2016.;local knowledge",
     "website": "https://simplicity.com.ar/"
