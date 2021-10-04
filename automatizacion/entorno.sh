@@ -17,7 +17,7 @@ git pull
 echo "    ... hecho."
 
 echo "  Correr consultas.sh ..."
-source automatizacion/consultas.sh
+sh /home/gabriel/Proyectos/covid-19/automatizacion/consultas.sh
 echo "    ... hecho."
 
 echo "  Hacer push ..."
