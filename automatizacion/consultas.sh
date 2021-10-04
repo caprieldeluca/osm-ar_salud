@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "  Consultar overpass API ..."
-wget -O automatizacion/hospitales-osm.json --post-file=automatizacion/consulta-hospitales.txt --no-check-certificate --no-cache --no-cookies --no-http-keep-alive "https://overpass-api.de/api/interpreter"
+wget -O automatizacion/hospitales-osm.json --post-file=automatizacion/consulta-hospitales.txt "https://overpass-api.de/api/interpreter"
 sleep 120
 wget -O automatizacion/clinicas-osm.json --post-file=automatizacion/consulta-clinicas.txt --no-check-certificate --no-cache --no-cookies --no-http-keep-alive "https://overpass-api.de/api/interpreter"
 sleep 120
