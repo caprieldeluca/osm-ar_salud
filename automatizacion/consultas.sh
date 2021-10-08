@@ -1,25 +1,82 @@
 #!/bin/bash
 
+$DORMIR=15
+
 echo "  Consultar overpass API  y convertir a geojson..."
-if wget -O automatizacion/hospitales-osm.json --post-file=automatizacion/consulta-hospitales.txt "https://overpass-api.de/api/interpreter"; then
-    osmtogeojson automatizacion/hospitales-osm.json > hospitales-osm.geojson
+
+echo Hospitales:
+JSONFILE=automatizacion/hospitales-osm.json
+POSTFILE=automatizacion/consulta-hospitales.txt
+GEOJSONFILE=hospitales-osm.geojson
+if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
+then
+  JSONSIZE=$( wc -c < $JSONFILE )
+  if [ $JSONSIZE -gt 60000 ]
+  then
+    osmtogeojson $JSONFILE > $GEOJSONFILE
+  fi
 fi
-sleep 10
-if wget -O automatizacion/clinicas-osm.json --post-file=automatizacion/consulta-clinicas.txt "https://overpass-api.de/api/interpreter"; then
-    osmtogeojson automatizacion/clinicas-osm.json > clinicas-osm.geojson
+
+sleep $DORMIR
+
+echo Clinicas:
+JSONFILE=automatizacion/clinicas-osm.json
+POSTFILE=automatizacion/consulta-clinicas.txt
+GEOJSONFILE=clinicas-osm.geojson
+if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
+then
+  JSONSIZE=$( wc -c < $JSONFILE )
+  if [ $JSONSIZE -gt 60000 ]
+  then
+    osmtogeojson $JSONFILE > $GEOJSONFILE
+  fi
 fi
-sleep 10
-if wget -O automatizacion/farmacias-osm.json --post-file=automatizacion/consulta-farmacias.txt "https://overpass-api.de/api/interpreter"; then
-    osmtogeojson automatizacion/farmacias-osm.json > farmacias-osm.geojson
+
+sleep $DORMIR
+
+echo Farmacias:
+JSONFILE=automatizacion/farmacias-osm.json
+POSTFILE=automatizacion/consulta-farmacias.txt
+GEOJSONFILE=farmacias-osm.geojson
+if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
+then
+  JSONSIZE=$( wc -c < $JSONFILE )
+  if [ $JSONSIZE -gt 60000 ]
+  then
+    osmtogeojson $JSONFILE > $GEOJSONFILE
+  fi
 fi
-sleep 10
-if wget -O automatizacion/doctores-osm.json --post-file=automatizacion/consulta-doctores.txt "https://overpass-api.de/api/interpreter"; then
-    osmtogeojson automatizacion/doctores-osm.json > doctores-osm.geojson
+
+sleep $DORMIR
+
+echo Doctores:
+JSONFILE=automatizacion/doctores-osm.json
+POSTFILE=automatizacion/consulta-doctores.txt
+GEOJSONFILE=doctores-osm.geojson
+if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
+then
+  JSONSIZE=$( wc -c < $JSONFILE )
+  if [ $JSONSIZE -gt 60000 ]
+  then
+    osmtogeojson $JSONFILE > $GEOJSONFILE
+  fi
 fi
-sleep 10
-if wget -O automatizacion/higiene-osm.json --post-file=automatizacion/consulta-higiene.txt "https://overpass-api.de/api/interpreter"; then
-    osmtogeojson automatizacion/higiene-osm.json > higiene-osm.geojson
+
+sleep $DORMIR
+
+echo Higiene:
+JSONFILE=automatizacion/higiene-osm.json
+POSTFILE=automatizacion/consulta-higiene.txt
+GEOJSONFILE=higiene-osm.geojson
+if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
+then
+  JSONSIZE=$( wc -c < $JSONFILE )
+  if [ $JSONSIZE -gt 60000 ]
+  then
+    osmtogeojson $JSONFILE > $GEOJSONFILE
+  fi
 fi
+
 echo "    ... hecho."
 
 echo "  Mostrar status resumido ..."
