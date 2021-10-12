@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-10-11T01:58:28Z",
-    "timestamp_areas_base": "2021-10-11T01:31:13Z",
+    "timestamp_osm_base": "2021-10-12T02:04:26Z",
+    "timestamp_areas_base": "2021-10-12T00:09:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4163,10 +4163,14 @@
   "tags": {
     "alt_name": "Centro Integral de Medicina de Alta Complejidad",
     "amenity": "clinic",
+    "contact:email": "cimacsa@cimacsanjuan.com.ar",
+    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
     "healthcare": "clinic",
     "name": "Cimac",
     "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:30-12:30",
-    "phone": "(0264) 4293100"
+    "operator:type": "private",
+    "phone": "+54 264 4293100",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -42702,6 +42706,187 @@
   }
 },
 {
+  "type": "node",
+  "id": 9163932251,
+  "lat": -35.7768482,
+  "lon": -58.5042009,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto Sanitario"
+  }
+},
+{
+  "type": "node",
+  "id": 9165874852,
+  "lat": -29.1534211,
+  "lon": -59.6569284,
+  "tags": {
+    "addr:city": "Reconquista",
+    "addr:housenumber": "1655",
+    "addr:postcode": "S3560",
+    "addr:street": "Bulevar Hipólito Yrigoyen",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Clinica de Ojos Dr. Farollch",
+    "opening_hours": "Mo-Su 08:00-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9165950217,
+  "lat": -29.1515389,
+  "lon": -59.6569308,
+  "tags": {
+    "addr:city": "Reconquista",
+    "addr:postcode": "S3560",
+    "addr:street": "Boulevard Hipólito Yrigoyen",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentist;orthodontics",
+    "name": "Centro Odontologico Integral"
+  }
+},
+{
+  "type": "node",
+  "id": 9166057493,
+  "lat": -32.2161172,
+  "lon": -67.7952728,
+  "tags": {
+    "addr:city": "Encón",
+    "addr:postcode": "5421",
+    "amenity": "clinic",
+    "description": "Con atención médica general por lo menos 3 días de la semana",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS El Encón",
+    "official_name": "Centro de Atención Primaria de Salud El Encón",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "phone": "+54 264 4200201",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9166061220,
+  "lat": -31.9659960,
+  "lon": -68.3215982,
+  "tags": {
+    "addr:city": "Cochagual",
+    "addr:postcode": "5435",
+    "addr:street": "Avellaneda",
+    "amenity": "clinic",
+    "description": "Con atención médica general por lo menos 3 días de la semana",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS La Cilvica",
+    "official_name": "Centro de Atención Primaria de Salud La Cilvica",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9166061625,
+  "lat": -31.8948982,
+  "lon": -68.4193191,
+  "tags": {
+    "addr:city": "Punta del Médano",
+    "addr:postcode": "5435",
+    "amenity": "clinic",
+    "description": "Sin atención médica en forma periódica (menor a 3 veces por semana)",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Punta del Médano",
+    "official_name": "Centro de Atención Primaria de Salud Punta del Médano",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9166090473,
+  "lat": -32.0353970,
+  "lon": -68.2103080,
+  "tags": {
+    "addr:city": "Punta del Agua",
+    "addr:postcode": "5443",
+    "amenity": "clinic",
+    "description": "Sin atención médica en forma periódica (menor a 3 veces por semana)",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Punta del Agua",
+    "official_name": "Centro de Atención Primaria de Salud Punta del Agua",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9166094469,
+  "lat": -31.9131531,
+  "lon": -68.3720800,
+  "tags": {
+    "addr:city": "Cochagual",
+    "addr:postcode": "5435",
+    "addr:street": "Carmona",
+    "amenity": "clinic",
+    "description": "Con atención médica general por lo menos 3 días de la semana",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Cochagual Centro",
+    "official_name": "Centro de Atención Primaria de Salud Cochagual Centro",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9166101466,
+  "lat": -31.8801496,
+  "lon": -68.3840776,
+  "tags": {
+    "addr:city": "Cochagual",
+    "addr:postcode": "5435",
+    "addr:street": "Independencia",
+    "amenity": "clinic",
+    "description": "Con atención médica general por lo menos 3 días de la semana",
+    "fixme": "Corregir ubicacion",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Cochagual Norte",
+    "official_name": "Centro de Atención Primaria de Salud Cochagual Norte",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9166114184,
+  "lat": -31.9022147,
+  "lon": -68.4689400,
+  "tags": {
+    "addr:city": "Colonia Fiscal",
+    "addr:postcode": "5435",
+    "addr:street": "Salvador María del Carril",
+    "amenity": "clinic",
+    "description": "Con atención médica general por lo menos 3 días de la semana",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Cerro Valdivia",
+    "official_name": "Centro de Atención Primaria de Salud Cerro Valdivia",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -51721,7 +51906,8 @@
     "ref:sisa_tipologia": "ESSIDT",
     "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
     "wheelchair": "yes",
-    "wikidata": "Q97671972"
+    "wikidata": "Q97671972",
+    "wikimedia_commons": "File:Centro de Salud Eva Perón (Funes).jpg"
   }
 },
 {

@@ -63252,10 +63252,15 @@
     "amenity": "hospital",
     "building": "hospital",
     "building:levels": "2",
+    "contact:email": "rrhh@colegiomedico.org.ar",
+    "description": "Alto riesgo con terapia intensiva",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Privado del Colegio Médico de San Juan",
     "operator": "Colegio Medico de San Juan",
+    "operator:type": "private",
+    "phone": "+54 264 4308500",
+    "ref:sisa_tipologia": "ESCIG",
     "id": "way/972628869"
   },
   "geometry": {
@@ -88430,9 +88435,18 @@
   "type": "Feature",
   "id": "node/6184963631",
   "properties": {
+    "addr:city": "General Galarza",
+    "addr:housenumber": "81",
+    "addr:postcode": "2843",
+    "addr:street": "Doctor Diego O. Echazarreta",
     "amenity": "hospital",
+    "email": "hospitalperu@hotmail.com",
     "healthcare": "hospital",
     "name": "Hospital Perú",
+    "phone": "+54 3444 481040",
+    "ref:sisa_codigo": "10300492142057",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "https://maproulette.org/challenge/13148/task/45782159#close",
     "wikidata": "Q94691199",
     "id": "node/6184963631"
   },
@@ -98288,6 +98302,30 @@
     "coordinates": [
       -65.092941,
       -40.8062962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9166088935",
+  "properties": {
+    "addr:city": "General Galarza",
+    "addr:housenumber": "304",
+    "addr:postcode": "2843",
+    "addr:street": "Hernandarias",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Servicio De Rehabilitacion Centro De Neurologia Y Recuperacion Psicofisica Cener",
+    "phone": "+54 3444 487026",
+    "ref:sisa_codigo": "14300492343446",
+    "ref:sisa_tipologia": "ESCIE",
+    "id": "node/9166088935"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.3926089,
+      -32.7156986
     ]
   }
 }
