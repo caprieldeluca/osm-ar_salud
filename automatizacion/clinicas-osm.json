@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-10-24T02:04:26Z",
-    "timestamp_areas_base": "2021-10-24T00:08:13Z",
+    "timestamp_osm_base": "2021-10-25T02:04:26Z",
+    "timestamp_areas_base": "2021-10-25T01:48:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -58100,16 +58100,20 @@
     7662356963,
     7662356964,
     7662356961,
+    9198309430,
     7662356962
   ],
   "tags": {
     "addr:city": "Cipolletti",
+    "addr:housenumber": "28",
     "addr:postcode": "R8324",
     "addr:street": "Manuel Belgrano",
     "amenity": "clinic",
     "building": "yes",
+    "building:levels": "2",
     "healthcare": "clinic",
     "healthcare:speciality": "neurology",
+    "height": "6",
     "name": "Centro de Neurología Infantil del Valle"
   }
 },
@@ -58117,12 +58121,15 @@
   "type": "way",
   "id": 820789295,
   "nodes": [
-    7662499654,
+    9198286288,
     7662499655,
-    7662499656,
-    7662499657,
-    7662499653,
-    7662499654
+    9198286262,
+    9198286286,
+    9198286263,
+    9198286287,
+    9198286264,
+    9198286285,
+    9198286288
   ],
   "tags": {
     "addr:city": "Cipolletti",
@@ -58131,7 +58138,9 @@
     "addr:street": "25 de Mayo",
     "amenity": "clinic",
     "building": "yes",
+    "building:levels": "2",
     "healthcare": "clinic",
+    "height": "7",
     "name": "Centro Integral Médico"
   }
 },
@@ -64256,57 +64265,81 @@
 },
 {
   "type": "node",
-  "id": 7662499653,
-  "lat": -38.9396118,
-  "lon": -68.0004782
-},
-{
-  "type": "node",
-  "id": 7662499654,
-  "lat": -38.9395827,
-  "lon": -68.0006140
-},
-{
-  "type": "node",
   "id": 7662499655,
-  "lat": -38.9396852,
-  "lon": -68.0006489
+  "lat": -38.9396904,
+  "lon": -68.0006007
 },
 {
   "type": "node",
-  "id": 7662499656,
-  "lat": -38.9397385,
-  "lon": -68.0003698
+  "id": 9198286262,
+  "lat": -38.9397056,
+  "lon": -68.0005246
 },
 {
   "type": "node",
-  "id": 7662499657,
-  "lat": -38.9396419,
-  "lon": -68.0003377
+  "id": 9198286263,
+  "lat": -38.9396881,
+  "lon": -68.0004985
+},
+{
+  "type": "node",
+  "id": 9198286264,
+  "lat": -38.9396117,
+  "lon": -68.0004076
+},
+{
+  "type": "node",
+  "id": 9198286285,
+  "lat": -38.9395932,
+  "lon": -68.0004997
+},
+{
+  "type": "node",
+  "id": 9198286286,
+  "lat": -38.9397094,
+  "lon": -68.0005056
+},
+{
+  "type": "node",
+  "id": 9198286287,
+  "lat": -38.9397005,
+  "lon": -68.0004370
+},
+{
+  "type": "node",
+  "id": 9198286288,
+  "lat": -38.9395803,
+  "lon": -68.0005643
 },
 {
   "type": "node",
   "id": 7662356961,
-  "lat": -38.9403588,
-  "lon": -67.9996633
+  "lat": -38.9403339,
+  "lon": -67.9996730
 },
 {
   "type": "node",
   "id": 7662356962,
-  "lat": -38.9403224,
-  "lon": -67.9998368
+  "lat": -38.9403087,
+  "lon": -67.9998000
 },
 {
   "type": "node",
   "id": 7662356963,
-  "lat": -38.9402170,
-  "lon": -67.9997995
+  "lat": -38.9402014,
+  "lon": -67.9997647
 },
 {
   "type": "node",
   "id": 7662356964,
-  "lat": -38.9402539,
-  "lon": -67.9996286
+  "lat": -38.9402269,
+  "lon": -67.9996379
+},
+{
+  "type": "node",
+  "id": 9198309430,
+  "lat": -38.9403219,
+  "lon": -67.9997335
 },
 {
   "type": "node",
