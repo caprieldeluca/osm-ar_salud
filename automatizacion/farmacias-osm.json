@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-10-30T02:09:14Z",
-    "timestamp_areas_base": "2021-10-30T01:52:08Z",
+    "timestamp_osm_base": "2021-11-01T01:52:19Z",
+    "timestamp_areas_base": "2021-11-01T01:12:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21963,8 +21963,8 @@
 {
   "type": "node",
   "id": 3378709906,
-  "lat": -31.3550019,
-  "lon": -64.5914769,
+  "lat": -31.3550477,
+  "lon": -64.5914876,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -51011,6 +51011,7 @@
   "lon": -69.1550088,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Manzano"
   }
 },
@@ -70670,8 +70671,8 @@
 {
   "type": "node",
   "id": 8538372865,
-  "lat": -38.9409022,
-  "lon": -67.9952379,
+  "lat": -38.9408863,
+  "lon": -67.9952315,
   "tags": {
     "addr:city": "Cipolletti",
     "addr:housenumber": "66",
@@ -70679,8 +70680,10 @@
     "addr:street": "Miguel Muñoz",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Federada Farmacia"
+    "name": "Federada Farmacia",
+    "operator": "Mutual Federada 25 de Junio S.P.R."
   }
 },
 {
@@ -73761,6 +73764,21 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia"
+  }
+},
+{
+  "type": "node",
+  "id": 9213082586,
+  "lat": -32.9447584,
+  "lon": -60.6376621,
+  "tags": {
+    "addr:housenumber": "641",
+    "addr:postcode": "S2000",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Inglesa"
   }
 },
 {
@@ -84743,28 +84761,6 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Percara"
-  }
-},
-{
-  "type": "way",
-  "id": 555340084,
-  "nodes": [
-    4556381735,
-    5358150244,
-    5358150245,
-    5358150246,
-    4556381735
-  ],
-  "tags": {
-    "addr:housenumber": "641",
-    "addr:postcode": "S2000",
-    "addr:street": "Sarmiento",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "layer": "-1",
-    "name": "Farmacia Inglesa"
   }
 },
 {
@@ -101450,33 +101446,9 @@
 },
 {
   "type": "node",
-  "id": 4556381735,
-  "lat": -32.9447071,
-  "lon": -60.6376809
-},
-{
-  "type": "node",
   "id": 4561722125,
   "lat": -32.9439958,
   "lon": -60.6380792
-},
-{
-  "type": "node",
-  "id": 5358150244,
-  "lat": -32.9447261,
-  "lon": -60.6375487
-},
-{
-  "type": "node",
-  "id": 5358150245,
-  "lat": -32.9448049,
-  "lon": -60.6375648
-},
-{
-  "type": "node",
-  "id": 5358150246,
-  "lat": -32.9447859,
-  "lon": -60.6376970
 },
 {
   "type": "node",

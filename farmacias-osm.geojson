@@ -23695,49 +23695,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/555340084",
-  "properties": {
-    "addr:housenumber": "641",
-    "addr:postcode": "S2000",
-    "addr:street": "Sarmiento",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "layer": "-1",
-    "name": "Farmacia Inglesa",
-    "id": "way/555340084"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.6376809,
-          -32.9447071
-        ],
-        [
-          -60.637697,
-          -32.9447859
-        ],
-        [
-          -60.6375648,
-          -32.9448049
-        ],
-        [
-          -60.6375487,
-          -32.9447261
-        ],
-        [
-          -60.6376809,
-          -32.9447071
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/555340097",
   "properties": {
     "addr:housenumber": "2076",
@@ -70846,8 +70803,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.5914769,
-      -31.3550019
+      -64.5914876,
+      -31.3550477
     ]
   }
 },
@@ -113492,6 +113449,7 @@
   "id": "node/5526611752",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Manzano",
     "id": "node/5526611752"
   },
@@ -141992,15 +141950,17 @@
     "addr:street": "Miguel Muñoz",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Federada Farmacia",
+    "operator": "Mutual Federada 25 de Junio S.P.R.",
     "id": "node/8538372865"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9952379,
-      -38.9409022
+      -67.9952315,
+      -38.9408863
     ]
   }
 },
@@ -146359,6 +146319,27 @@
     "coordinates": [
       -63.5705205,
       -32.0388966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9213082586",
+  "properties": {
+    "addr:housenumber": "641",
+    "addr:postcode": "S2000",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Inglesa",
+    "id": "node/9213082586"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6376621,
+      -32.9447584
     ]
   }
 }

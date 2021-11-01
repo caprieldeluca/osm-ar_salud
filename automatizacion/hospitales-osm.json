@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-10-30T01:59:13Z",
-    "timestamp_areas_base": "2021-10-30T01:52:08Z",
+    "timestamp_osm_base": "2021-11-01T01:52:19Z",
+    "timestamp_areas_base": "2021-11-01T01:12:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24506,7 +24506,7 @@
 {
   "type": "node",
   "id": 8777701060,
-  "lat": -27.0376773,
+  "lat": -27.0372776,
   "lon": -55.2189868,
   "tags": {
     "addr:city": "Jardín América",
@@ -28732,6 +28732,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Centro de Salud N°91 \"Colonia de Rosas\""
   }
 },
@@ -46693,7 +46694,7 @@
     "healthcare": "hospital",
     "name": "Clínica Güemes",
     "operator:type": "private",
-    "phone": "+54 02323 43-8495",
+    "phone": "+54 2323 43-8495",
     "ref:sisa_codigo": "10064972300043",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -49095,24 +49096,25 @@
   "id": 802304840,
   "nodes": [
     7504687291,
-    7504666580,
+    9211719056,
     7504687292,
-    7504666581,
+    9211719057,
+    9211719052,
     7504687295,
+    9211719051,
     7504687294,
-    7504687290,
     7504687293,
-    7504666576,
     7504687291
   ],
   "tags": {
     "addr:city": "General Fernández Oro",
-    "addr:postcode": "8324",
+    "addr:postcode": "R8324",
     "addr:street": "Avenida Cipolletti",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Area Programa Fernández Oro",
-    "operator": "Ministerio de Salud de Río Negro",
+    "name": "Hospital de Área Programa General Fernández Oro",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
     "phone": "+54 299 499 6016",
     "ref:sisa_codigo": "10620422170020",
@@ -56273,39 +56275,15 @@
 },
 {
   "type": "node",
-  "id": 7504666576,
-  "lat": -38.9552846,
-  "lon": -67.9233788
-},
-{
-  "type": "node",
-  "id": 7504666580,
-  "lat": -38.9552305,
-  "lon": -67.9235209
-},
-{
-  "type": "node",
-  "id": 7504666581,
-  "lat": -38.9552914,
-  "lon": -67.9236482
-},
-{
-  "type": "node",
-  "id": 7504687290,
-  "lat": -38.9555666,
-  "lon": -67.9234863
-},
-{
-  "type": "node",
   "id": 7504687291,
-  "lat": -38.9552605,
-  "lon": -67.9233703
+  "lat": -38.9552667,
+  "lon": -67.9233728
 },
 {
   "type": "node",
   "id": 7504687292,
-  "lat": -38.9552112,
-  "lon": -67.9236179
+  "lat": -38.9552087,
+  "lon": -67.9236460
 },
 {
   "type": "node",
@@ -56316,14 +56294,38 @@
 {
   "type": "node",
   "id": 7504687294,
-  "lat": -38.9555789,
-  "lon": -67.9235201
+  "lat": -38.9555803,
+  "lon": -67.9235220
 },
 {
   "type": "node",
   "id": 7504687295,
-  "lat": -38.9555309,
-  "lon": -67.9237387
+  "lat": -38.9555302,
+  "lon": -67.9237587
+},
+{
+  "type": "node",
+  "id": 9211719051,
+  "lat": -38.9555451,
+  "lon": -67.9236882
+},
+{
+  "type": "node",
+  "id": 9211719052,
+  "lat": -38.9554170,
+  "lon": -67.9237190
+},
+{
+  "type": "node",
+  "id": 9211719056,
+  "lat": -38.9552307,
+  "lon": -67.9235422
+},
+{
+  "type": "node",
+  "id": 9211719057,
+  "lat": -38.9552927,
+  "lon": -67.9236755
 },
 {
   "type": "node",
