@@ -3113,7 +3113,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Natal 3",
-    "opening_hours": "Mo-Fr 8:00-24:00;Sa 9:00-24:00;PH 10:00-14:00;18:00-22:00",
+    "opening_hours": "Mo-Fr 08:00-24:00; Sa 09:00-24:00; PH 10:00-14:00,18:00-22:00",
     "operator": "Natal",
     "id": "way/320566469"
   },
@@ -13134,11 +13134,13 @@
   "id": "way/470792096",
   "properties": {
     "addr:city": "Martínez",
+    "addr:postcode": "B1640",
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Selma",
+    "opening_hours": "24/7 closed",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/470792096"
   },
@@ -37820,7 +37822,7 @@
     "email": "farmacia@farmaone.com.ar",
     "healthcare": "pharmacy",
     "name": "Farma One",
-    "opening_hours": "Mo-Sa 09:00-13:00; 16:30-20:30",
+    "opening_hours": "Mo-Sa 09:00-13:00,16:30-20:30",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -83026,7 +83028,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Duclos",
-    "opening_hours": "Mo-Fr 08:00-13:00; 16:30-20:00; Sa 08:00-13:00",
+    "opening_hours": "Mo-Fr 08:00-13:00,16:30-20:00; Sa 08:00-13:00",
     "phone": "+542241481733",
     "id": "node/4098722050"
   },
@@ -83385,7 +83387,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "D´Andrea",
-    "opening_hours": "Mo-Sa 08:00-13:00; 16:00-20:00",
+    "opening_hours": "Mo-Sa 08:00-13:00,16:00-20:00",
     "phone": "+542241481646",
     "id": "node/4117756204"
   },
@@ -86866,7 +86868,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Scattolini",
-    "opening_hours": "Mo-Sa 08:00-13:00; Mo-Sa 16:00-20:30",
+    "opening_hours": "Mo-Sa 08:00-13:00,16:00-20:30",
     "phone": "03573 - 480238",
     "id": "node/4349345877"
   },
@@ -138491,7 +138493,7 @@
     "email": "farmaciarebora@hotmail.com",
     "healthcare": "pharmacy",
     "name": "Rebora",
-    "opening_hours": "Mo-Fr 08:00-12:30; 16:00-20:30; Sa 08:00-12:30",
+    "opening_hours": "Mo-Fr 08:00-12:30,16:00-20:30; Sa 08:00-12:30",
     "website": "https://www.farmaciarebora.com/",
     "id": "node/7785704243"
   },
@@ -138543,7 +138545,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Santa Lucía",
-    "opening_hours": "Mo-Fr 08:00-12:30; 16:00-20:00; Sa 08:00-12:00",
+    "opening_hours": "Mo-Fr 08:00-12:30,16:00-20:00; Sa 08:00-12:00",
     "phone": "+54 3445 423237",
     "website": "http://www.farmacia-santalucia.com/",
     "id": "node/7785704245"
@@ -145256,7 +145258,7 @@
     "email": "farmacia@farmaone.com.ar",
     "healthcare": "pharmacy",
     "name": "Farma One",
-    "opening_hours": "Mo-Su 09:00-13:00; 16:30-20:30",
+    "opening_hours": "09:00-13:00,16:30-20:30",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:maestro": "yes",
@@ -146376,6 +146378,39 @@
     "coordinates": [
       -60.6450879,
       -32.9446333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9248639031",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Sassin",
+    "id": "node/9248639031"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.0954517,
+      -35.1772926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9250137264",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/9250137264"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2020921,
+      -31.4619232
     ]
   }
 }

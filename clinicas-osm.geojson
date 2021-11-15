@@ -19775,7 +19775,6 @@
   "type": "Feature",
   "id": "way/528176632",
   "properties": {
-    "addr:postcode": "S2132",
     "amenity": "clinic",
     "contact:phone": "+54 341 493-6011",
     "dispensing": "yes",
@@ -49110,7 +49109,10 @@
   "type": "Feature",
   "id": "node/4093374652",
   "properties": {
+    "addr:city": "Mazaruca",
+    "addr:postcode": "2846",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Sala de Primeros auxilios.",
     "id": "node/4093374652"
   },
@@ -79580,30 +79582,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7504586717",
-  "properties": {
-    "addr:full": "Lago Mascardi Y Cornelio Saavedra",
-    "addr:postcode": "8328",
-    "addr:street": "Lago Mascardi",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud San Valentin",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "51620422171044",
-    "ref:sisa_tipologia": "ESSID",
-    "id": "node/7504586717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.8301129,
-      -38.9720019
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7504591712",
   "properties": {
     "addr:city": "Corrientes",
@@ -99036,6 +99014,22 @@
     "coordinates": [
       -57.0389655,
       -37.3485892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9250151941",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Clínica Mottura",
+    "id": "node/9250151941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1967106,
+      -31.438307
     ]
   }
 }
