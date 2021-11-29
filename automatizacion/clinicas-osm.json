@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2021-11-28T02:04:56Z",
-    "timestamp_areas_base": "2021-11-28T01:15:31Z",
+    "timestamp_osm_base": "2021-11-29T02:04:08Z",
+    "timestamp_areas_base": "2021-11-29T01:48:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17512,10 +17512,10 @@
     "addr:postcode": "3378",
     "addr:street": "Formosa",
     "amenity": "clinic",
-    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
     "healthcare": "clinic",
     "name": "Clinica Esperanza",
-    "phone": "+54 3757 480208"
+    "phone": "+54 3757 480208",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -28289,24 +28289,6 @@
 },
 {
   "type": "node",
-  "id": 7504563686,
-  "lat": -38.9737067,
-  "lon": -67.8120174,
-  "tags": {
-    "addr:full": "Puerto Argentino S/N Y Colombia",
-    "addr:postcode": "8328",
-    "addr:street": "Puerto Argentino",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Progreso",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50620422170184",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7504573187,
   "lat": -27.4708296,
   "lon": -58.8249341,
@@ -36803,7 +36785,7 @@
     "opening_hours": "Mo-Fr 7:30-13:00",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "+54 0351 4341556",
+    "phone": "+54 (351) 434-1556",
     "ref:sisa_codigo": "53140142134291",
     "ref:sisa_tipologia": "ESCL",
     "website": "https://www.facebook.com/Banco-de-Sangre-de-la-Provincia-De-C%C3%B3rdoba-Argentina-180013335348702/"
@@ -42954,6 +42936,35 @@
   }
 },
 {
+  "type": "node",
+  "id": 9290790314,
+  "lat": -35.1922808,
+  "lon": -59.0970271,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 9290984965,
+  "lat": -31.5816810,
+  "lon": -59.8901542,
+  "tags": {
+    "addr:city": "El Pingo",
+    "addr:full": "San Lorenzo Esquina Buenos Aires",
+    "addr:postcode": "3132",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CAPS Doctor Juan Jose Elberg",
+    "official_name": "CAPS Doctor Juan Jose Elberg",
+    "phone": "+54 343 4871101",
+    "ref:sisa_codigo": "50300842142244",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -43559,7 +43570,7 @@
     "building": "yes",
     "emergency": "yes",
     "healthcare": "clinic",
-    "name": "Instituto Oncologico Doctor Urrutia",
+    "name": "Instituto Oncológico Doctor Urrutia",
     "operator": "Provincial",
     "operator:type": "public",
     "phone": "0351-4348779",

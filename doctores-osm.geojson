@@ -21365,12 +21365,12 @@
     "addr:street": "Primero de Mayo",
     "alt_name": "Centro de Atención Primaria de la Salud 8 De Diciembre",
     "amenity": "doctors",
-    "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica general por lo menos 3 días de la semana",
     "healthcare": "doctor",
     "name": "CAPS 8 De Diciembre",
     "ref:ZonaSanitaria": "Norte Paraná",
     "ref:cuie_codigo": "N20010",
     "ref:sisa_codigo": "50540632264248",
+    "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7003017128"
   },
   "geometry": {
@@ -25031,7 +25031,6 @@
     "addr:street": "Sarmiento",
     "alt_name": "Centro de Integración Comunitaria Colonia Delicia",
     "amenity": "doctors",
-    "description": "Categoría de tipología\tCon atención médica general por lo menos 3 días de la semana",
     "healthcare": "doctor",
     "name": "Puesto de Salud CIC Colonia Delicia",
     "ref:sisa_codigo": "50540422265157",
@@ -26457,12 +26456,12 @@
     "addr:street": "Los Pinos",
     "alt_name": "Centro de Atención Primaria de la Salud San Gotardo",
     "amenity": "doctors",
-    "description": "Tipología: ESSIDT\nCategoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones",
     "healthcare": "doctor",
     "name": "CAPS San Gotardo",
     "ref:ZonaSanitaria": "Centro Paraná",
     "ref:cuie_codigo": "N05255",
     "ref:sisa_codigo": "50540772164121",
+    "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7453467492"
   },
   "geometry": {
@@ -33854,6 +33853,23 @@
     "coordinates": [
       -58.3849311,
       -34.907688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9290790311",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "cardiology",
+    "id": "node/9290790311"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.098564,
+      -35.1818241
     ]
   }
 }
