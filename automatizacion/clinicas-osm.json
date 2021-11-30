@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-11-29T02:04:08Z",
-    "timestamp_areas_base": "2021-11-29T01:48:52Z",
+    "timestamp_osm_base": "2021-11-30T02:05:04Z",
+    "timestamp_areas_base": "2021-11-30T01:37:47Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -403,14 +403,17 @@
   "lat": -34.6191312,
   "lon": -58.4651515,
   "tags": {
+    "addr:city": "Buenos Aires",
     "addr:full": "Paez 2283",
+    "addr:housenumber": "2283",
     "addr:postcode": "1406",
+    "addr:street": "Páez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 12",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4631-8254",
+    "phone": "+54 11 4631 8254",
     "ref:sisa_codigo": "50020012115389",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -18047,13 +18050,15 @@
   "lon": -58.5267113,
   "tags": {
     "addr:full": "Coligue 2977",
+    "addr:housenumber": "2977",
     "addr:postcode": "1419",
+    "addr:street": "Coligue",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 19",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4566-8314",
+    "phone": "+54 11 4566 8314",
     "ref:sisa_codigo": "50020012115396",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -19687,25 +19692,6 @@
     "operator:type": "public",
     "phone": "02320-431127",
     "ref:sisa_codigo": "50064122201101",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7501687318,
-  "lat": -34.5599219,
-  "lon": -59.0834749,
-  "tags": {
-    "addr:full": "José Ingenieros y Ameghino",
-    "addr:postcode": "6700",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de Salud Barrio Ameghino",
-    "opening_hours:covid19": "Lu-Vi 08:00-18:00",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "(02323) 15-582-8106, (02323) 15-362988",
-    "ref:sisa_codigo": "50064972201450",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -23975,14 +23961,17 @@
   "lat": -34.5779675,
   "lon": -58.4553498,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:full": "Gregoria Perez 3434",
+    "addr:housenumber": "3434",
     "addr:postcode": "1426",
+    "addr:street": "Gregoria Pérez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 11",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4551-8522",
+    "phone": "+54 11 4551 8522",
     "ref:sisa_codigo": "50020012115388",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -24287,14 +24276,17 @@
   "lat": -34.5447441,
   "lon": -58.4766090,
   "tags": {
+    "addr:city": "Ciudad Autonoma de Buenos Aires",
     "addr:full": "Cramer 4354",
+    "addr:housenumber": "4354",
     "addr:postcode": "1429",
+    "addr:street": "Crámer",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 33",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4702-5661",
+    "phone": "+54 11 4702 5661",
     "ref:sisa_codigo": "50020012115412",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -42625,12 +42617,15 @@
   "lat": -34.5570589,
   "lon": -58.4476492,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:housenumber": "5962",
     "addr:street": "Avenida Del Libertador",
     "amenity": "clinic",
-    "name": "IVI",
-    "phone": "(+54 11) 5246 0449",
-    "website": "https://ivi.com.ar/"
+    "healthcare": "centre",
+    "healthcare:speciality": "fertility",
+    "name": "WeFIV",
+    "phone": "+54 11 5246 0449",
+    "website": "https://wefiv.com"
   }
 },
 {
@@ -42962,6 +42957,18 @@
     "ref:sisa_codigo": "50300842142244",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS"
+  }
+},
+{
+  "type": "node",
+  "id": 9293922931,
+  "lat": -31.8899246,
+  "lon": -60.5939234,
+  "tags": {
+    "addr:street": "Presidente Nicolás Avellaneda",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud"
   }
 },
 {
@@ -49687,7 +49694,7 @@
     "name": "CESAC 11",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4864-1446",
+    "phone": "+54 11 4864 1446",
     "ref:sisa_codigo": "50020012115345",
     "ref:sisa_tipologia": "ESSIDT",
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",

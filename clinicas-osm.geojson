@@ -14908,7 +14908,7 @@
     "name": "CESAC 11",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4864-1446",
+    "phone": "+54 11 4864 1446",
     "ref:sisa_codigo": "50020012115345",
     "ref:sisa_tipologia": "ESSIDT",
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",
@@ -41246,14 +41246,17 @@
   "type": "Feature",
   "id": "node/1402320005",
   "properties": {
+    "addr:city": "Buenos Aires",
     "addr:full": "Paez 2283",
+    "addr:housenumber": "2283",
     "addr:postcode": "1406",
+    "addr:street": "Páez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 12",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4631-8254",
+    "phone": "+54 11 4631 8254",
     "ref:sisa_codigo": "50020012115389",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/1402320005"
@@ -65928,13 +65931,15 @@
   "id": "node/7500892448",
   "properties": {
     "addr:full": "Coligue 2977",
+    "addr:housenumber": "2977",
     "addr:postcode": "1419",
+    "addr:street": "Coligue",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 19",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4566-8314",
+    "phone": "+54 11 4566 8314",
     "ref:sisa_codigo": "50020012115396",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7500892448"
@@ -68098,31 +68103,6 @@
     "coordinates": [
       -58.7676755,
       -34.5162114
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7501687318",
-  "properties": {
-    "addr:full": "José Ingenieros y Ameghino",
-    "addr:postcode": "6700",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de Salud Barrio Ameghino",
-    "opening_hours:covid19": "Lu-Vi 08:00-18:00",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "(02323) 15-582-8106, (02323) 15-362988",
-    "ref:sisa_codigo": "50064972201450",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7501687318"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.0834749,
-      -34.5599219
     ]
   }
 },
@@ -73752,14 +73732,17 @@
   "type": "Feature",
   "id": "node/7502431614",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:full": "Gregoria Perez 3434",
+    "addr:housenumber": "3434",
     "addr:postcode": "1426",
+    "addr:street": "Gregoria Pérez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 11",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4551-8522",
+    "phone": "+54 11 4551 8522",
     "ref:sisa_codigo": "50020012115388",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7502431614"
@@ -74166,14 +74149,17 @@
   "type": "Feature",
   "id": "node/7502464486",
   "properties": {
+    "addr:city": "Ciudad Autonoma de Buenos Aires",
     "addr:full": "Cramer 4354",
+    "addr:housenumber": "4354",
     "addr:postcode": "1429",
+    "addr:street": "Crámer",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 33",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4702-5661",
+    "phone": "+54 11 4702 5661",
     "ref:sisa_codigo": "50020012115412",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7502464486"
@@ -98612,12 +98598,15 @@
   "type": "Feature",
   "id": "node/8994361360",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:housenumber": "5962",
     "addr:street": "Avenida Del Libertador",
     "amenity": "clinic",
-    "name": "IVI",
-    "phone": "(+54 11) 5246 0449",
-    "website": "https://ivi.com.ar/",
+    "healthcare": "centre",
+    "healthcare:speciality": "fertility",
+    "name": "WeFIV",
+    "phone": "+54 11 5246 0449",
+    "website": "https://wefiv.com",
     "id": "node/8994361360"
   },
   "geometry": {
@@ -99088,6 +99077,24 @@
     "coordinates": [
       -59.8901542,
       -31.581681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9293922931",
+  "properties": {
+    "addr:street": "Presidente Nicolás Avellaneda",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud",
+    "id": "node/9293922931"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5939234,
+      -31.8899246
     ]
   }
 }
