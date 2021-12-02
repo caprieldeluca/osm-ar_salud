@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2021-11-30T02:05:04Z",
-    "timestamp_areas_base": "2021-11-30T01:37:47Z",
+    "timestamp_osm_base": "2021-12-02T02:03:55Z",
+    "timestamp_areas_base": "2021-12-02T01:25:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4872,7 +4872,8 @@
     "operator": "Municipal",
     "operator:type": "public",
     "ref:sisa_codigo": "50060912216422",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "wheelchair": "yes"
   }
 },
 {
@@ -10533,9 +10534,13 @@
 {
   "type": "node",
   "id": 4719478497,
-  "lat": -32.6679825,
-  "lon": -61.0870416,
+  "lat": -32.6679851,
+  "lon": -61.0870385,
   "tags": {
+    "addr:city": "Salto Grande",
+    "addr:housenumber": "666",
+    "addr:postcode": "S2142",
+    "addr:street": "Balcarce",
     "amenity": "clinic",
     "healthcare": "clinic"
   }
@@ -61494,6 +61499,33 @@
   }
 },
 {
+  "type": "way",
+  "id": 1008174453,
+  "nodes": [
+    7616400713,
+    9301033819,
+    7058802675,
+    7058802674,
+    7058802673,
+    9300999708,
+    9300999709,
+    9300999710,
+    9300999711,
+    9300999712,
+    9300999713,
+    9300999714,
+    9300999715,
+    7616400710,
+    7616400713
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Diquecito"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -72452,6 +72484,90 @@
   "id": 7814378164,
   "lat": -31.4202539,
   "lon": -64.4933099
+},
+{
+  "type": "node",
+  "id": 7058802673,
+  "lat": -31.3610293,
+  "lon": -64.3837260
+},
+{
+  "type": "node",
+  "id": 7058802674,
+  "lat": -31.3610334,
+  "lon": -64.3841943
+},
+{
+  "type": "node",
+  "id": 7058802675,
+  "lat": -31.3610603,
+  "lon": -64.3845206
+},
+{
+  "type": "node",
+  "id": 7616400710,
+  "lat": -31.3588476,
+  "lon": -64.3852975
+},
+{
+  "type": "node",
+  "id": 7616400713,
+  "lat": -31.3608144,
+  "lon": -64.3849348
+},
+{
+  "type": "node",
+  "id": 9300999708,
+  "lat": -31.3608391,
+  "lon": -64.3837103
+},
+{
+  "type": "node",
+  "id": 9300999709,
+  "lat": -31.3604406,
+  "lon": -64.3836908
+},
+{
+  "type": "node",
+  "id": 9300999710,
+  "lat": -31.3604768,
+  "lon": -64.3834466
+},
+{
+  "type": "node",
+  "id": 9300999711,
+  "lat": -31.3594009,
+  "lon": -64.3832502
+},
+{
+  "type": "node",
+  "id": 9300999712,
+  "lat": -31.3588977,
+  "lon": -64.3840837
+},
+{
+  "type": "node",
+  "id": 9300999713,
+  "lat": -31.3585759,
+  "lon": -64.3846199
+},
+{
+  "type": "node",
+  "id": 9300999714,
+  "lat": -31.3584414,
+  "lon": -64.3848535
+},
+{
+  "type": "node",
+  "id": 9300999715,
+  "lat": -31.3583167,
+  "lon": -64.3851127
+},
+{
+  "type": "node",
+  "id": 9301033819,
+  "lat": -31.3610786,
+  "lon": -64.3845743
 },
 {
   "type": "node",
