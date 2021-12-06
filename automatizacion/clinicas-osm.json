@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-12-04T02:05:04Z",
-    "timestamp_areas_base": "2021-12-04T01:49:32Z",
+    "timestamp_osm_base": "2021-12-06T02:04:56Z",
+    "timestamp_areas_base": "2021-12-06T00:56:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -51997,11 +51997,12 @@
   "type": "way",
   "id": 528176635,
   "nodes": [
+    9311123886,
+    5133463693,
     5133463694,
     5133463691,
     5133463692,
-    5133463693,
-    5133463694
+    9311123886
   ],
   "tags": {
     "addr:housenumber": "2498",
@@ -52020,7 +52021,9 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842284470",
     "ref:sisa_tipologia": "ESSIDT",
-    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud"
+    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
+    "wikidata": "Q97671910",
+    "wikimedia_commons": "File:Centro_de_Salud_Dr._Esteban_Maradona_(Funes).jpg"
   }
 },
 {
@@ -52846,26 +52849,6 @@
     "building:levels": "3",
     "healthcare": "clinic",
     "name": "Clinife"
-  }
-},
-{
-  "type": "way",
-  "id": 547116210,
-  "nodes": [
-    5286456018,
-    5286456019,
-    5286456020,
-    5286458121,
-    5286458122,
-    5286456018
-  ],
-  "tags": {
-    "addr:street": "Lavalle",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Lavalle Consultorios"
   }
 },
 {
@@ -73582,26 +73565,32 @@
 {
   "type": "node",
   "id": 5133463691,
-  "lat": -32.9187854,
-  "lon": -60.8619934
+  "lat": -32.9187790,
+  "lon": -60.8619911
 },
 {
   "type": "node",
   "id": 5133463692,
-  "lat": -32.9190478,
-  "lon": -60.8619785
+  "lat": -32.9190263,
+  "lon": -60.8619846
 },
 {
   "type": "node",
   "id": 5133463693,
-  "lat": -32.9190592,
-  "lon": -60.8622628
+  "lat": -32.9190483,
+  "lon": -60.8622728
 },
 {
   "type": "node",
   "id": 5133463694,
-  "lat": -32.9187967,
-  "lon": -60.8622777
+  "lat": -32.9187844,
+  "lon": -60.8622797
+},
+{
+  "type": "node",
+  "id": 9311123886,
+  "lat": -32.9190434,
+  "lon": -60.8620086
 },
 {
   "type": "node",
@@ -87024,36 +87013,6 @@
   "id": 5286035945,
   "lat": -34.7509716,
   "lon": -58.2371305
-},
-{
-  "type": "node",
-  "id": 5286456018,
-  "lat": -34.7500061,
-  "lon": -58.2352942
-},
-{
-  "type": "node",
-  "id": 5286456019,
-  "lat": -34.7500377,
-  "lon": -58.2353553
-},
-{
-  "type": "node",
-  "id": 5286456020,
-  "lat": -34.7501125,
-  "lon": -58.2352980
-},
-{
-  "type": "node",
-  "id": 5286458121,
-  "lat": -34.7500976,
-  "lon": -58.2352692
-},
-{
-  "type": "node",
-  "id": 5286458122,
-  "lat": -34.7500528,
-  "lon": -58.2352585
 },
 {
   "type": "node",

@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-12-04T01:59:02Z",
-    "timestamp_areas_base": "2021-12-04T01:49:32Z",
+    "timestamp_osm_base": "2021-12-06T01:58:54Z",
+    "timestamp_areas_base": "2021-12-06T00:56:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14182,8 +14182,8 @@
 {
   "type": "node",
   "id": 4746000528,
-  "lat": -30.5412175,
-  "lon": -65.9547917,
+  "lat": -30.5412095,
+  "lon": -65.9548472,
   "tags": {
     "addr:city": "Chañar",
     "addr:full": "Av. San Martín 664",
@@ -14193,8 +14193,9 @@
     "addr:street": "Av. San Martín",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Seccional Chañar",
+    "name": "Hospital Omar B. Pérez",
     "opening_hours": "24/7",
     "operator:type": "public",
     "phone": "03826495000",
@@ -24841,6 +24842,48 @@
   }
 },
 {
+  "type": "node",
+  "id": 9310722709,
+  "lat": -30.5489091,
+  "lon": -66.0196455,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "CAPS El Simbolar",
+    "operator": "Hospital Omar B. Perez",
+    "operator:type": "public",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9313398638,
+  "lat": -27.4757257,
+  "lon": -58.8189014,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Pediatrico"
+  }
+},
+{
+  "type": "node",
+  "id": 9313398699,
+  "lat": -27.4773660,
+  "lon": -58.8181258,
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "2755",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida Pedro Ferré",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Campaña \"Escuela Hogar\"",
+    "operator": "Gobierno de Corrientes"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -30429,36 +30472,6 @@
 },
 {
   "type": "way",
-  "id": 221153000,
-  "nodes": [
-    2302093319,
-    2302093316,
-    2302093317,
-    2302093318,
-    2302093311,
-    2302093313,
-    2302093307,
-    2345998200,
-    2302093309,
-    2302093312,
-    2302093314,
-    2302093328,
-    2302093327,
-    2302093330,
-    2302093329,
-    2302093325,
-    2302093324,
-    2302093321,
-    2302093320,
-    2302093319
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "name": "Hospital Pediatrico"
-  }
-},
-{
-  "type": "way",
   "id": 222084507,
   "nodes": [
     2310625597,
@@ -30578,34 +30591,6 @@
     "ref:sisa_codigo": "10020012315238",
     "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q93141483"
-  }
-},
-{
-  "type": "way",
-  "id": 224696167,
-  "nodes": [
-    2334902186,
-    2334902188,
-    2334902190,
-    2334902193,
-    2334902187,
-    2334902178,
-    2334902181,
-    2334902189,
-    2334902184,
-    2334902195,
-    2334902182,
-    2334902183,
-    2334902186
-  ],
-  "tags": {
-    "addr:city": "Corrientes",
-    "addr:housenumber": "2755",
-    "addr:postcode": "3400",
-    "addr:street": "Avenida Pedro Ferré",
-    "amenity": "hospital",
-    "name": "Hospital de Campaña \"Escuela Hogar\"",
-    "operator": "Gobierno de Corrientes"
   }
 },
 {
@@ -51603,6 +51588,26 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clínica Trinidad"
+  }
+},
+{
+  "type": "way",
+  "id": 1009117147,
+  "nodes": [
+    9310722696,
+    9310722697,
+    9310722698,
+    9310722699,
+    9310722696
+  ],
+  "tags": {
+    "addr:city": "Chañar",
+    "addr:housenumber": "664",
+    "addr:postcode": "5276",
+    "addr:street": "San Martín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Omar B. Pérez"
   }
 },
 {
@@ -93339,6 +93344,30 @@
 },
 {
   "type": "node",
+  "id": 9310722696,
+  "lat": -30.5411475,
+  "lon": -65.9549222
+},
+{
+  "type": "node",
+  "id": 9310722697,
+  "lat": -30.5411773,
+  "lon": -65.9547189
+},
+{
+  "type": "node",
+  "id": 9310722698,
+  "lat": -30.5414022,
+  "lon": -65.9547697
+},
+{
+  "type": "node",
+  "id": 9310722699,
+  "lat": -30.5413763,
+  "lon": -65.9549661
+},
+{
+  "type": "node",
   "id": 2506507384,
   "lat": -29.4324623,
   "lon": -66.8599658
@@ -102906,192 +102935,6 @@
   "id": 2793707476,
   "lat": -27.4712376,
   "lon": -58.8338195
-},
-{
-  "type": "node",
-  "id": 2302093325,
-  "lat": -27.4759605,
-  "lon": -58.8189475
-},
-{
-  "type": "node",
-  "id": 2302093329,
-  "lat": -27.4761811,
-  "lon": -58.8189839
-},
-{
-  "type": "node",
-  "id": 2334902182,
-  "lat": -27.4774546,
-  "lon": -58.8186605
-},
-{
-  "type": "node",
-  "id": 2334902183,
-  "lat": -27.4773525,
-  "lon": -58.8194697
-},
-{
-  "type": "node",
-  "id": 2334902186,
-  "lat": -27.4766503,
-  "lon": -58.8193578
-},
-{
-  "type": "node",
-  "id": 2334902195,
-  "lat": -27.4775143,
-  "lon": -58.8186543
-},
-{
-  "type": "node",
-  "id": 2302093327,
-  "lat": -27.4761274,
-  "lon": -58.8181448
-},
-{
-  "type": "node",
-  "id": 2302093328,
-  "lat": -27.4761506,
-  "lon": -58.8179666
-},
-{
-  "type": "node",
-  "id": 2302093330,
-  "lat": -27.4762868,
-  "lon": -58.8181712
-},
-{
-  "type": "node",
-  "id": 2334902178,
-  "lat": -27.4769692,
-  "lon": -58.8166649
-},
-{
-  "type": "node",
-  "id": 2334902181,
-  "lat": -27.4776761,
-  "lon": -58.8167553
-},
-{
-  "type": "node",
-  "id": 2334902184,
-  "lat": -27.4776497,
-  "lon": -58.8175822
-},
-{
-  "type": "node",
-  "id": 2334902187,
-  "lat": -27.4768671,
-  "lon": -58.8175761
-},
-{
-  "type": "node",
-  "id": 2334902188,
-  "lat": -27.4767645,
-  "lon": -58.8184942
-},
-{
-  "type": "node",
-  "id": 2334902189,
-  "lat": -27.4775952,
-  "lon": -58.8175707
-},
-{
-  "type": "node",
-  "id": 2334902190,
-  "lat": -27.4766360,
-  "lon": -58.8184727
-},
-{
-  "type": "node",
-  "id": 2334902193,
-  "lat": -27.4767312,
-  "lon": -58.8175661
-},
-{
-  "type": "node",
-  "id": 2302093307,
-  "lat": -27.4752913,
-  "lon": -58.8188324
-},
-{
-  "type": "node",
-  "id": 2302093311,
-  "lat": -27.4755300,
-  "lon": -58.8189782
-},
-{
-  "type": "node",
-  "id": 2302093313,
-  "lat": -27.4755435,
-  "lon": -58.8188741
-},
-{
-  "type": "node",
-  "id": 2302093316,
-  "lat": -27.4756407,
-  "lon": -58.8191217
-},
-{
-  "type": "node",
-  "id": 2302093317,
-  "lat": -27.4756476,
-  "lon": -58.8190682
-},
-{
-  "type": "node",
-  "id": 2302093318,
-  "lat": -27.4756566,
-  "lon": -58.8189991
-},
-{
-  "type": "node",
-  "id": 2302093319,
-  "lat": -27.4757838,
-  "lon": -58.8191454
-},
-{
-  "type": "node",
-  "id": 2302093320,
-  "lat": -27.4757904,
-  "lon": -58.8190947
-},
-{
-  "type": "node",
-  "id": 2302093321,
-  "lat": -27.4758004,
-  "lon": -58.8190180
-},
-{
-  "type": "node",
-  "id": 2302093324,
-  "lat": -27.4759481,
-  "lon": -58.8190425
-},
-{
-  "type": "node",
-  "id": 2302093309,
-  "lat": -27.4753967,
-  "lon": -58.8180218
-},
-{
-  "type": "node",
-  "id": 2302093312,
-  "lat": -27.4755343,
-  "lon": -58.8180446
-},
-{
-  "type": "node",
-  "id": 2302093314,
-  "lat": -27.4755572,
-  "lon": -58.8178686
-},
-{
-  "type": "node",
-  "id": 2345998200,
-  "lat": -27.4753807,
-  "lon": -58.8181449
 },
 {
   "type": "node",

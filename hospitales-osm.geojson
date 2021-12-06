@@ -15565,102 +15565,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/221153000",
-  "properties": {
-    "amenity": "hospital",
-    "name": "Hospital Pediatrico",
-    "id": "way/221153000"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.8191454,
-          -27.4757838
-        ],
-        [
-          -58.8190947,
-          -27.4757904
-        ],
-        [
-          -58.819018,
-          -27.4758004
-        ],
-        [
-          -58.8190425,
-          -27.4759481
-        ],
-        [
-          -58.8189475,
-          -27.4759605
-        ],
-        [
-          -58.8189839,
-          -27.4761811
-        ],
-        [
-          -58.8181712,
-          -27.4762868
-        ],
-        [
-          -58.8181448,
-          -27.4761274
-        ],
-        [
-          -58.8179666,
-          -27.4761506
-        ],
-        [
-          -58.8178686,
-          -27.4755572
-        ],
-        [
-          -58.8180446,
-          -27.4755343
-        ],
-        [
-          -58.8180218,
-          -27.4753967
-        ],
-        [
-          -58.8181449,
-          -27.4753807
-        ],
-        [
-          -58.8188324,
-          -27.4752913
-        ],
-        [
-          -58.8188741,
-          -27.4755435
-        ],
-        [
-          -58.8189782,
-          -27.47553
-        ],
-        [
-          -58.8189991,
-          -27.4756566
-        ],
-        [
-          -58.8190682,
-          -27.4756476
-        ],
-        [
-          -58.8191217,
-          -27.4756407
-        ],
-        [
-          -58.8191454,
-          -27.4757838
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/222084507",
   "properties": {
     "addr:city": "Ramos Mejía",
@@ -16008,79 +15912,6 @@
         [
           -58.4022616,
           -34.6085936
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/224696167",
-  "properties": {
-    "addr:city": "Corrientes",
-    "addr:housenumber": "2755",
-    "addr:postcode": "3400",
-    "addr:street": "Avenida Pedro Ferré",
-    "amenity": "hospital",
-    "name": "Hospital de Campaña \"Escuela Hogar\"",
-    "operator": "Gobierno de Corrientes",
-    "id": "way/224696167"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.8193578,
-          -27.4766503
-        ],
-        [
-          -58.8194697,
-          -27.4773525
-        ],
-        [
-          -58.8186605,
-          -27.4774546
-        ],
-        [
-          -58.8186543,
-          -27.4775143
-        ],
-        [
-          -58.8175822,
-          -27.4776497
-        ],
-        [
-          -58.8175707,
-          -27.4775952
-        ],
-        [
-          -58.8167553,
-          -27.4776761
-        ],
-        [
-          -58.8166649,
-          -27.4769692
-        ],
-        [
-          -58.8175761,
-          -27.4768671
-        ],
-        [
-          -58.8175661,
-          -27.4767312
-        ],
-        [
-          -58.8184727,
-          -27.476636
-        ],
-        [
-          -58.8184942,
-          -27.4767645
-        ],
-        [
-          -58.8193578,
-          -27.4766503
         ]
       ]
     ]
@@ -64232,6 +64063,47 @@
 },
 {
   "type": "Feature",
+  "id": "way/1009117147",
+  "properties": {
+    "addr:city": "Chañar",
+    "addr:housenumber": "664",
+    "addr:postcode": "5276",
+    "addr:street": "San Martín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Omar B. Pérez",
+    "id": "way/1009117147"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.9549222,
+          -30.5411475
+        ],
+        [
+          -65.9549661,
+          -30.5413763
+        ],
+        [
+          -65.9547697,
+          -30.5414022
+        ],
+        [
+          -65.9547189,
+          -30.5411773
+        ],
+        [
+          -65.9549222,
+          -30.5411475
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -84269,8 +84141,9 @@
     "addr:street": "Av. San Martín",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Seccional Chañar",
+    "name": "Hospital Omar B. Pérez",
     "opening_hours": "24/7",
     "operator:type": "public",
     "phone": "03826495000",
@@ -84282,8 +84155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.9547917,
-      -30.5412175
+      -65.9548472,
+      -30.5412095
     ]
   }
 },
@@ -98797,6 +98670,66 @@
     "coordinates": [
       -63.2546851,
       -32.3941995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310722709",
+  "properties": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "CAPS El Simbolar",
+    "operator": "Hospital Omar B. Perez",
+    "operator:type": "public",
+    "wheelchair": "limited",
+    "id": "node/9310722709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.0196455,
+      -30.5489091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9313398638",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Pediatrico",
+    "id": "node/9313398638"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.8189014,
+      -27.4757257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9313398699",
+  "properties": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "2755",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida Pedro Ferré",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Campaña \"Escuela Hogar\"",
+    "operator": "Gobierno de Corrientes",
+    "id": "node/9313398699"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.8181258,
+      -27.477366
     ]
   }
 }
