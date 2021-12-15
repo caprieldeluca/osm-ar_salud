@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2021-12-14T01:59:05Z",
-    "timestamp_areas_base": "2021-12-14T01:47:00Z",
+    "timestamp_osm_base": "2021-12-15T01:58:39Z",
+    "timestamp_areas_base": "2021-12-15T01:45:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9166,17 +9166,6 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Centro de Salud Sala de 1° Auxilios Villa Zorraquin"
-  }
-},
-{
-  "type": "node",
-  "id": 3876088724,
-  "lat": -38.8463242,
-  "lon": -68.0470903,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro de Salud \"La Armonía\""
   }
 },
 {
@@ -29579,32 +29568,42 @@
   "id": 201503514,
   "nodes": [
     2114997404,
-    4053064339,
+    9338081920,
+    9338498637,
     3369440235,
     2114997405,
+    9338498638,
+    9338498809,
     3369440234,
     2114997406,
-    4053064347,
+    9338498640,
+    3369440314,
+    3369440313,
+    9338498639,
+    9338445513,
     2114997407,
-    3369440233,
-    3369440236,
+    9338445512,
+    9338498636,
     2114997404
   ],
   "tags": {
     "addr:city": "General Roca",
     "addr:full": "Gelonch 721",
+    "addr:housenumber": "S/N",
     "addr:place": "General Roca",
-    "addr:postcode": "8332",
+    "addr:postcode": "R8332",
+    "addr:street": "Edmundo Gelonch",
     "amenity": "hospital",
     "description": "Alto riesgo con terapia intensiva",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Francisco López Lima De General Roca",
-    "operator": "Ministerio de Salud de Río Negro",
+    "name": "Hospital Zonal \"Doctor Francisco López Lima\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
-    "phone": "+54 298 443 5848",
+    "phone": "+54 298 143-5848;+54 298 143-5856;+54 298 143-5854",
     "ref:sisa_codigo": "10620422170040",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
+    "source": "sedronar.gov.ar | Public Domain (PD);Zonas Sanitarias y Hospitales Cabecera de Zona - Ministerio de Salud - Gobierno de Río Negro"
   }
 },
 {
@@ -31274,6 +31273,8 @@
   "id": 236787213,
   "nodes": [
     2447624766,
+    4312971586,
+    4312971587,
     2447624767,
     3418909501,
     2447624768,
@@ -31283,18 +31284,19 @@
   "tags": {
     "addr:city": "Cervantes",
     "addr:full": "25 De Mayo 530",
-    "addr:housenumber": "612",
+    "addr:housenumber": "530",
     "addr:place": "General Roca",
-    "addr:postcode": "8326",
+    "addr:postcode": "R8326",
     "addr:street": "25 de Mayo",
     "amenity": "hospital",
     "description": "Alto riesgo con terapia intensiva especializada",
     "email": "hospitalcervantes@yahoo.com.ar",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Area Programa Cervantes",
+    "name": "Hospital de Área Programa Cervantes",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
-    "phone": "+54 02941 493015/493007",
+    "phone": "+54 294 149-3015;+54 294 149-3007",
     "ref:sisa_codigo": "10620422170012",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)",
@@ -38555,9 +38557,16 @@
   "nodes": [
     3821088104,
     7504317181,
-    7504317180,
-    3821088105,
+    9337987538,
+    9337987539,
+    9337987540,
+    3820753012,
+    3820753013,
+    3820753014,
+    3820753015,
+    3820753016,
     7504317184,
+    9337987534,
     3821088106,
     7504317183,
     7504317182,
@@ -38567,14 +38576,16 @@
   "tags": {
     "addr:city": "Cinco Saltos",
     "addr:housenumber": "845",
-    "addr:postcode": "8303",
-    "addr:street": "Martin Fierro",
+    "addr:postcode": "R8303",
+    "addr:street": "Martín Fierro",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Área Cinco Saltos",
+    "name": "Hospital de Área Programa Cinco Saltos",
     "official_name": "Área Hospitalaria Programa Cinco Saltos",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
-    "phone": "+54 299 498 0336",
+    "phone": "+54 299 498-0336;+54 299 498-1333",
     "ref:sisa_codigo": "10620422170015",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -49865,13 +49876,13 @@
     7935901630,
     7935901631,
     7935901652,
-    7935901638,
-    7935901639,
     7935901633,
+    9338533151,
+    9338533152,
+    9338533153,
     7935901634,
+    9338533154,
     7935901635,
-    7935901642,
-    7935901643,
     7935901630
   ],
   "tags": {
@@ -49882,9 +49893,10 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital de Área Ingeniero Huergo",
+    "name": "Hospital de Área Programa Ingeniero Huergo \"Doctor Carlos Ratti\"",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public"
+    "operator:type": "public",
+    "phone": "+54 294 148-0070;+54 294 148-0534"
   }
 },
 {
@@ -51609,6 +51621,29 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Omar B. Pérez"
+  }
+},
+{
+  "type": "way",
+  "id": 1012132864,
+  "nodes": [
+    9337753430,
+    9337753431,
+    9337753432,
+    9337753433,
+    9337753430
+  ],
+  "tags": {
+    "addr:postcode": "4407",
+    "addr:street": "Juan Carlos Dávalos y Ruta 36",
+    "amenity": "hospital",
+    "building:levels": "1",
+    "healthcare": "hospital",
+    "name": "Centro Médico Barrio el Portal",
+    "operator": "Ministerio de Salud",
+    "operator:short": "MSAL",
+    "operator:wikidata": "Q5420596",
+    "operator:wikipedia": "es:Ministerio de Salud (Argentina)"
   }
 },
 {
@@ -54681,153 +54716,207 @@
 },
 {
   "type": "node",
-  "id": 2114997407,
-  "lat": -39.0220090,
-  "lon": -67.5743182
-},
-{
-  "type": "node",
-  "id": 3369440233,
-  "lat": -39.0219794,
-  "lon": -67.5743434
+  "id": 9338445512,
+  "lat": -39.0215372,
+  "lon": -67.5742666
 },
 {
   "type": "node",
   "id": 2114997404,
-  "lat": -39.0199644,
-  "lon": -67.5738658
+  "lat": -39.0200013,
+  "lon": -67.5739507
 },
 {
   "type": "node",
   "id": 2114997405,
-  "lat": -39.0203100,
+  "lat": -39.0203085,
   "lon": -67.5714281
 },
 {
   "type": "node",
   "id": 2114997406,
-  "lat": -39.0222920,
-  "lon": -67.5718963
+  "lat": -39.0223196,
+  "lon": -67.5718802
+},
+{
+  "type": "node",
+  "id": 2114997407,
+  "lat": -39.0216035,
+  "lon": -67.5737300
 },
 {
   "type": "node",
   "id": 3369440234,
-  "lat": -39.0222548,
-  "lon": -67.5718250
+  "lat": -39.0222974,
+  "lon": -67.5718411
 },
 {
   "type": "node",
   "id": 3369440235,
-  "lat": -39.0202583,
-  "lon": -67.5714783
+  "lat": -39.0202779,
+  "lon": -67.5714511
 },
 {
   "type": "node",
-  "id": 3369440236,
-  "lat": -39.0199909,
-  "lon": -67.5739214
+  "id": 3369440313,
+  "lat": -39.0220840,
+  "lon": -67.5735272
 },
 {
   "type": "node",
-  "id": 4053064339,
-  "lat": -39.0200574,
-  "lon": -67.5731106
+  "id": 3369440314,
+  "lat": -39.0221096,
+  "lon": -67.5733151
 },
 {
   "type": "node",
-  "id": 4053064347,
-  "lat": -39.0221094,
-  "lon": -67.5734591
+  "id": 9338081920,
+  "lat": -39.0199761,
+  "lon": -67.5739043
+},
+{
+  "type": "node",
+  "id": 9338445513,
+  "lat": -39.0220802,
+  "lon": -67.5738275
+},
+{
+  "type": "node",
+  "id": 9338498636,
+  "lat": -39.0200794,
+  "lon": -67.5739668
+},
+{
+  "type": "node",
+  "id": 9338498637,
+  "lat": -39.0200789,
+  "lon": -67.5730722
+},
+{
+  "type": "node",
+  "id": 9338498638,
+  "lat": -39.0220330,
+  "lon": -67.5717862
+},
+{
+  "type": "node",
+  "id": 9338498639,
+  "lat": -39.0221105,
+  "lon": -67.5735805
+},
+{
+  "type": "node",
+  "id": 9338498640,
+  "lat": -39.0221485,
+  "lon": -67.5732716
+},
+{
+  "type": "node",
+  "id": 9338498809,
+  "lat": -39.0220563,
+  "lon": -67.5717910
 },
 {
   "type": "node",
   "id": 2447624766,
-  "lat": -39.0533467,
-  "lon": -67.3961945
+  "lat": -39.0533648,
+  "lon": -67.3962194
 },
 {
   "type": "node",
   "id": 2447624767,
-  "lat": -39.0534049,
-  "lon": -67.3957118
+  "lat": -39.0534240,
+  "lon": -67.3957395
 },
 {
   "type": "node",
   "id": 2447624768,
-  "lat": -39.0537872,
-  "lon": -67.3957534
+  "lat": -39.0537827,
+  "lon": -67.3957793
 },
 {
   "type": "node",
   "id": 2447624769,
-  "lat": -39.0537269,
-  "lon": -67.3962684
+  "lat": -39.0537194,
+  "lon": -67.3962920
 },
 {
   "type": "node",
   "id": 3418909501,
-  "lat": -39.0534370,
-  "lon": -67.3956854
+  "lat": -39.0534597,
+  "lon": -67.3957131
+},
+{
+  "type": "node",
+  "id": 4312971586,
+  "lat": -39.0533781,
+  "lon": -67.3961121
+},
+{
+  "type": "node",
+  "id": 4312971587,
+  "lat": -39.0534211,
+  "lon": -67.3957632
 },
 {
   "type": "node",
   "id": 7935901630,
-  "lat": -39.0728828,
-  "lon": -67.2369530
+  "lat": -39.0728351,
+  "lon": -67.2369171
 },
 {
   "type": "node",
   "id": 7935901631,
-  "lat": -39.0728161,
-  "lon": -67.2374973
+  "lat": -39.0727758,
+  "lon": -67.2374358
 },
 {
   "type": "node",
   "id": 7935901633,
-  "lat": -39.0736949,
-  "lon": -67.2377223
+  "lat": -39.0731111,
+  "lon": -67.2375589
 },
 {
   "type": "node",
   "id": 7935901634,
-  "lat": -39.0737474,
-  "lon": -67.2376818
+  "lat": -39.0737142,
+  "lon": -67.2375306
 },
 {
   "type": "node",
   "id": 7935901635,
-  "lat": -39.0738135,
-  "lon": -67.2371422
-},
-{
-  "type": "node",
-  "id": 7935901638,
-  "lat": -39.0732816,
-  "lon": -67.2376367
-},
-{
-  "type": "node",
-  "id": 7935901639,
-  "lat": -39.0734243,
-  "lon": -67.2376662
-},
-{
-  "type": "node",
-  "id": 7935901642,
-  "lat": -39.0737735,
-  "lon": -67.2371341
-},
-{
-  "type": "node",
-  "id": 7935901643,
-  "lat": -39.0736545,
-  "lon": -67.2371099
+  "lat": -39.0737642,
+  "lon": -67.2370934
 },
 {
   "type": "node",
   "id": 7935901652,
-  "lat": -39.0728448,
-  "lon": -67.2375460
+  "lat": -39.0728122,
+  "lon": -67.2375022
+},
+{
+  "type": "node",
+  "id": 9338533151,
+  "lat": -39.0731161,
+  "lon": -67.2375154
+},
+{
+  "type": "node",
+  "id": 9338533152,
+  "lat": -39.0736719,
+  "lon": -67.2376210
+},
+{
+  "type": "node",
+  "id": 9338533153,
+  "lat": -39.0736829,
+  "lon": -67.2375247
+},
+{
+  "type": "node",
+  "id": 9338533154,
+  "lat": -39.0737488,
+  "lon": -67.2372279
 },
 {
   "type": "node",
@@ -56205,57 +56294,99 @@
 },
 {
   "type": "node",
-  "id": 3821088105,
-  "lat": -38.8206340,
-  "lon": -68.0609331
+  "id": 3820753012,
+  "lat": -38.8204282,
+  "lon": -68.0611611
 },
 {
   "type": "node",
-  "id": 7504317180,
-  "lat": -38.8204143,
-  "lon": -68.0611630
+  "id": 3820753013,
+  "lat": -38.8205556,
+  "lon": -68.0610327
+},
+{
+  "type": "node",
+  "id": 3820753014,
+  "lat": -38.8205190,
+  "lon": -68.0609730
+},
+{
+  "type": "node",
+  "id": 3820753015,
+  "lat": -38.8205548,
+  "lon": -68.0609368
+},
+{
+  "type": "node",
+  "id": 3820753016,
+  "lat": -38.8205238,
+  "lon": -68.0608862
 },
 {
   "type": "node",
   "id": 7504317184,
-  "lat": -38.8206360,
-  "lon": -68.0609103
+  "lat": -38.8205654,
+  "lon": -68.0608443
+},
+{
+  "type": "node",
+  "id": 9337987534,
+  "lat": -38.8202916,
+  "lon": -68.0603970
+},
+{
+  "type": "node",
+  "id": 9337987540,
+  "lat": -38.8203725,
+  "lon": -68.0612174
 },
 {
   "type": "node",
   "id": 3821088104,
-  "lat": -38.8200295,
-  "lon": -68.0615332
+  "lat": -38.8200139,
+  "lon": -68.0615287
 },
 {
   "type": "node",
   "id": 3821088106,
-  "lat": -38.8201721,
-  "lon": -68.0601485
+  "lat": -38.8201735,
+  "lon": -68.0602041
 },
 {
   "type": "node",
   "id": 3821088107,
-  "lat": -38.8194658,
-  "lon": -68.0606219
+  "lat": -38.8194716,
+  "lon": -68.0606682
 },
 {
   "type": "node",
   "id": 7504317181,
-  "lat": -38.8200614,
-  "lon": -68.0615325
+  "lat": -38.8200572,
+  "lon": -68.0615352
 },
 {
   "type": "node",
   "id": 7504317182,
-  "lat": -38.8194867,
-  "lon": -68.0605508
+  "lat": -38.8194925,
+  "lon": -68.0606008
 },
 {
   "type": "node",
   "id": 7504317183,
-  "lat": -38.8201094,
-  "lon": -68.0601431
+  "lat": -38.8201224,
+  "lon": -68.0601931
+},
+{
+  "type": "node",
+  "id": 9337987538,
+  "lat": -38.8201086,
+  "lon": -68.0614834
+},
+{
+  "type": "node",
+  "id": 9337987539,
+  "lat": -38.8201518,
+  "lon": -68.0614398
 },
 {
   "type": "node",
@@ -97470,6 +97601,30 @@
   "id": 4656377217,
   "lat": -25.4697952,
   "lon": -65.5663626
+},
+{
+  "type": "node",
+  "id": 9337753430,
+  "lat": -24.9102356,
+  "lon": -65.6357500
+},
+{
+  "type": "node",
+  "id": 9337753431,
+  "lat": -24.9102308,
+  "lon": -65.6356226
+},
+{
+  "type": "node",
+  "id": 9337753432,
+  "lat": -24.9103127,
+  "lon": -65.6356155
+},
+{
+  "type": "node",
+  "id": 9337753433,
+  "lat": -24.9103143,
+  "lon": -65.6357482
 },
 {
   "type": "node",
