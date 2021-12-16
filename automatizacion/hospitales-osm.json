@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-12-15T01:58:39Z",
-    "timestamp_areas_base": "2021-12-15T01:45:39Z",
+    "timestamp_osm_base": "2021-12-16T01:59:08Z",
+    "timestamp_areas_base": "2021-12-16T00:12:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15952,29 +15952,6 @@
 },
 {
   "type": "node",
-  "id": 5418805094,
-  "lat": -39.1870989,
-  "lon": -65.9577966,
-  "tags": {
-    "addr:city": "Coronel Belisle",
-    "addr:full": "Avenida Pablo Belisle S/N",
-    "addr:place": "Avellaneda",
-    "addr:postcode": "8368;3463",
-    "addr:street": "Avenida Coronel Belisle",
-    "amenity": "hospital",
-    "contact:facebook": "https://www.facebook.com/hospitalareaprograma.coronelbelisle.9?lst=1323346442%3A100004845883545%3A1518893834",
-    "description": "Alto riesgo con terapia intensiva especializada",
-    "healthcare": "hospital",
-    "name": "Hospital Area Programa Coronel Belisle",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10620142170017",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)",
-    "website": "https://salud.rionegro.gov.ar/sala/index.php?option=com_content&view=article&id=13&Itemid=32"
-  }
-},
-{
-  "type": "node",
   "id": 5440714993,
   "lat": -37.6713386,
   "lon": -59.3957822,
@@ -19493,29 +19470,6 @@
 },
 {
   "type": "node",
-  "id": 7376909748,
-  "lat": -39.1153674,
-  "lon": -66.9427594,
-  "tags": {
-    "addr:city": "Chichinales",
-    "addr:full": "El Fortin Y Proceres Argentinos",
-    "addr:place": "General Roca",
-    "addr:postcode": "8326",
-    "addr:street": "Próceres Argentinos",
-    "amenity": "hospital",
-    "description": "Alto riesgo con terapia intensiva",
-    "healthcare": "hospital",
-    "name": "Hospital Area Programa Chichinales",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "2984548048",
-    "ref:sisa_codigo": "50620422170224",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
   "id": 7376909749,
   "lat": -41.8506730,
   "lon": -70.9016450,
@@ -19626,28 +19580,6 @@
     "name": "Hospital Area Programa Las Grutas",
     "operator:type": "public",
     "ref:sisa_codigo": "10620772170026",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
-  "id": 7385184848,
-  "lat": -39.3089162,
-  "lon": -65.7595453,
-  "tags": {
-    "addr:city": "Luis Beltran",
-    "addr:full": "V. López y Planes 773 y Chacabuco",
-    "addr:housenumber": "773",
-    "addr:postcode": "8361",
-    "addr:street": "Vicente López y Planes",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "healthcare": "hospital",
-    "name": "Hospital Area Programa Luis Beltran Doctor Fernando Rocha",
-    "operator:type": "public",
-    "phone": "02946 480116/480323 5128",
-    "ref:sisa_codigo": "10620142170037",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
   }
@@ -24870,6 +24802,17 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "CAPS San Justo Dispensario"
+  }
+},
+{
+  "type": "node",
+  "id": 9340817968,
+  "lat": -26.1823568,
+  "lon": -58.2354595,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sipec Lote 111 Base"
   }
 },
 {
@@ -35715,23 +35658,33 @@
   "id": 319791902,
   "nodes": [
     3262524162,
+    9339559894,
     3262524184,
+    9339559880,
     3262524165,
+    9339559896,
     3262524155,
+    9339559883,
+    9339559882,
+    9339559881,
+    9339559879,
     3262524162
   ],
   "tags": {
     "addr:city": "Lamarque",
     "addr:full": "Rivadavia 250",
     "addr:housenumber": "250",
-    "addr:postcode": "8363",
+    "addr:postcode": "R8363",
     "addr:street": "Rivadavia",
     "amenity": "hospital",
+    "barrier": "fence",
     "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Area Programa Lamarque Doctor Jorge Rebok",
+    "name": "Hospital de Área Programa Lamarque \"Doctor Jorge Rebock\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
-    "phone": "(02946) 49-7039",
+    "phone": "+54 294 649-7039;+54 294 649-5133",
     "ref:sisa_codigo": "10620142170025",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -49958,9 +49911,17 @@
   "id": 858282902,
   "nodes": [
     8001125358,
+    9339559826,
+    9339559825,
+    9339559822,
     8001125359,
+    9339559821,
+    9339559830,
+    9339559831,
+    9339559829,
     8001125360,
     8001125361,
+    9339559828,
     8001125358
   ],
   "tags": {
@@ -49971,9 +49932,11 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital de Área Choele Choel",
+    "name": "Hospital Zonal Choele Choel",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public"
+    "operator:type": "public",
+    "phone": "+54 294 644-2219;+54 294 644-3139;+54 294 644-3159",
+    "source": "Zonas Sanitarias y Hospitales Cabecera de Zona - Ministerio de Salud - Gobierno de Río Negro"
   }
 },
 {
@@ -50736,9 +50699,10 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital de Área \"Doctor Elías Smirnoff\"",
+    "name": "Hospital de Área Programa Villa Regina \"Doctor Elías Smirnoff\"",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public"
+    "operator:type": "public",
+    "phone": "+54 294 146-1277;+54 294 146-1262"
   }
 },
 {
@@ -51644,6 +51608,172 @@
     "operator:short": "MSAL",
     "operator:wikidata": "Q5420596",
     "operator:wikipedia": "es:Ministerio de Salud (Argentina)"
+  }
+},
+{
+  "type": "way",
+  "id": 1012326855,
+  "nodes": [
+    9339434447,
+    9339434448,
+    9339434457,
+    9339434449,
+    9339434458,
+    9339434450,
+    9339434451,
+    9339434452,
+    9339434447
+  ],
+  "tags": {
+    "addr:city": "Chichinales",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8326",
+    "addr:street": "Próceres Argentinos",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Chichinales",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 294 149-1171;+54 294 149-1404"
+  }
+},
+{
+  "type": "way",
+  "id": 1012329163,
+  "nodes": [
+    9339465721,
+    9339465722,
+    9339465723,
+    9339465724,
+    9339465725,
+    9339465721
+  ],
+  "tags": {
+    "addr:city": "El Cuy",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8333",
+    "addr:street": "Río Negro",
+    "amenity": "hospital",
+    "barrier": "fence",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa El Cuy",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 294 149-9310;+54 294 149-9305"
+  }
+},
+{
+  "type": "way",
+  "id": 1012339136,
+  "nodes": [
+    9339559833,
+    9339559834,
+    9339559835,
+    9339559836,
+    9339559837,
+    9339559851,
+    9339559850,
+    9339559833
+  ],
+  "tags": {
+    "addr:city": "Luis Beltrán",
+    "addr:housenumber": "773",
+    "addr:postcode": "R8361",
+    "addr:street": "Vicente López y Planes",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Luis Beltrán \"Doctor Fernando Rocha\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 294 648-0116;+54 294 648-0323"
+  }
+},
+{
+  "type": "way",
+  "id": 1012339151,
+  "nodes": [
+    9339559909,
+    9339559910,
+    9339559913,
+    9339559914,
+    9339559912,
+    8000846585,
+    8000844184,
+    8000844183,
+    9339559909
+  ],
+  "tags": {
+    "addr:city": "Chimpay",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8364",
+    "addr:street": "Don Bosco",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Chimpay \"Doctor Máximo Laure\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 294 649-4500;+54 294 649-4725"
+  }
+},
+{
+  "type": "way",
+  "id": 1012339154,
+  "nodes": [
+    9339564123,
+    9339564138,
+    9339564139,
+    9339564124,
+    9339564143,
+    9339564125,
+    9339564142,
+    9339564127,
+    9339564126,
+    9339564128,
+    9339564123
+  ],
+  "tags": {
+    "addr:city": "Coronel Belisle",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8368",
+    "addr:street": "Avenida Coronel Belisle",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Coronel Belisle",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 294 649-2031"
+  }
+},
+{
+  "type": "way",
+  "id": 1012339163,
+  "nodes": [
+    9339564145,
+    9339564146,
+    9339564147,
+    9339564148,
+    9339564149,
+    9339564150,
+    9339564145
+  ],
+  "tags": {
+    "addr:city": "Río Colorado",
+    "addr:housenumber": "555",
+    "addr:postcode": "R8138",
+    "addr:street": "Avenida España",
+    "amenity": "hospital",
+    "barrier": "fence",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Río Colorado \"José Cibanal\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 293 143-2222;+54 293 143-2600"
   }
 },
 {
@@ -54551,6 +54681,36 @@
   "id": 4713445140,
   "lat": -39.3984423,
   "lon": -69.5944957
+},
+{
+  "type": "node",
+  "id": 9339465721,
+  "lat": -39.9273096,
+  "lon": -68.3438624
+},
+{
+  "type": "node",
+  "id": 9339465722,
+  "lat": -39.9268189,
+  "lon": -68.3433347
+},
+{
+  "type": "node",
+  "id": 9339465723,
+  "lat": -39.9264361,
+  "lon": -68.3439398
+},
+{
+  "type": "node",
+  "id": 9339465724,
+  "lat": -39.9268295,
+  "lon": -68.3443787
+},
+{
+  "type": "node",
+  "id": 9339465725,
+  "lat": -39.9270324,
+  "lon": -68.3443400
 },
 {
   "type": "node",
@@ -58184,51 +58344,375 @@
 },
 {
   "type": "node",
+  "id": 9339434447,
+  "lat": -39.1155942,
+  "lon": -66.9430280
+},
+{
+  "type": "node",
+  "id": 9339434448,
+  "lat": -39.1156772,
+  "lon": -66.9424691
+},
+{
+  "type": "node",
+  "id": 9339434449,
+  "lat": -39.1153535,
+  "lon": -66.9423893
+},
+{
+  "type": "node",
+  "id": 9339434450,
+  "lat": -39.1152757,
+  "lon": -66.9429139
+},
+{
+  "type": "node",
+  "id": 9339434451,
+  "lat": -39.1153048,
+  "lon": -66.9429565
+},
+{
+  "type": "node",
+  "id": 9339434452,
+  "lat": -39.1153806,
+  "lon": -66.9429753
+},
+{
+  "type": "node",
+  "id": 9339434457,
+  "lat": -39.1154574,
+  "lon": -66.9424149
+},
+{
+  "type": "node",
+  "id": 9339434458,
+  "lat": -39.1153263,
+  "lon": -66.9425732
+},
+{
+  "type": "node",
   "id": 3262524162,
-  "lat": -39.4205539,
-  "lon": -65.7068889
+  "lat": -39.4205763,
+  "lon": -65.7067727
+},
+{
+  "type": "node",
+  "id": 9339559879,
+  "lat": -39.4205379,
+  "lon": -65.7067739
 },
 {
   "type": "node",
   "id": 3262524155,
-  "lat": -39.4198820,
-  "lon": -65.7060080
+  "lat": -39.4203531,
+  "lon": -65.7062242
 },
 {
   "type": "node",
   "id": 3262524165,
-  "lat": -39.4205626,
-  "lon": -65.7051382
+  "lat": -39.4208610,
+  "lon": -65.7055547
 },
 {
   "type": "node",
   "id": 3262524184,
-  "lat": -39.4212345,
-  "lon": -65.7060191
+  "lat": -39.4211744,
+  "lon": -65.7059976
+},
+{
+  "type": "node",
+  "id": 9339559880,
+  "lat": -39.4211752,
+  "lon": -65.7059542
+},
+{
+  "type": "node",
+  "id": 9339559881,
+  "lat": -39.4199370,
+  "lon": -65.7059989
+},
+{
+  "type": "node",
+  "id": 9339559882,
+  "lat": -39.4199357,
+  "lon": -65.7059567
+},
+{
+  "type": "node",
+  "id": 9339559883,
+  "lat": -39.4200372,
+  "lon": -65.7058227
+},
+{
+  "type": "node",
+  "id": 9339559894,
+  "lat": -39.4208708,
+  "lon": -65.7063911
+},
+{
+  "type": "node",
+  "id": 9339559896,
+  "lat": -39.4205721,
+  "lon": -65.7059355
+},
+{
+  "type": "node",
+  "id": 8000844183,
+  "lat": -39.1645681,
+  "lon": -66.1416078
+},
+{
+  "type": "node",
+  "id": 8000844184,
+  "lat": -39.1646716,
+  "lon": -66.1416051
+},
+{
+  "type": "node",
+  "id": 8000846585,
+  "lat": -39.1646634,
+  "lon": -66.1410893
+},
+{
+  "type": "node",
+  "id": 9339559909,
+  "lat": -39.1645692,
+  "lon": -66.1416798
+},
+{
+  "type": "node",
+  "id": 9339559910,
+  "lat": -39.1644696,
+  "lon": -66.1416824
+},
+{
+  "type": "node",
+  "id": 9339559912,
+  "lat": -39.1644937,
+  "lon": -66.1410938
+},
+{
+  "type": "node",
+  "id": 9339559913,
+  "lat": -39.1644293,
+  "lon": -66.1416835
+},
+{
+  "type": "node",
+  "id": 9339559914,
+  "lat": -39.1644199,
+  "lon": -66.1410957
+},
+{
+  "type": "node",
+  "id": 9339564123,
+  "lat": -39.1871481,
+  "lon": -65.9581749
+},
+{
+  "type": "node",
+  "id": 9339564124,
+  "lat": -39.1871287,
+  "lon": -65.9575882
+},
+{
+  "type": "node",
+  "id": 9339564125,
+  "lat": -39.1868121,
+  "lon": -65.9576056
+},
+{
+  "type": "node",
+  "id": 9339564126,
+  "lat": -39.1868315,
+  "lon": -65.9581924
+},
+{
+  "type": "node",
+  "id": 9339564127,
+  "lat": -39.1868191,
+  "lon": -65.9578163
+},
+{
+  "type": "node",
+  "id": 9339564128,
+  "lat": -39.1870097,
+  "lon": -65.9581826
+},
+{
+  "type": "node",
+  "id": 9339564138,
+  "lat": -39.1871415,
+  "lon": -65.9579766
+},
+{
+  "type": "node",
+  "id": 9339564139,
+  "lat": -39.1871300,
+  "lon": -65.9576290
+},
+{
+  "type": "node",
+  "id": 9339564142,
+  "lat": -39.1868171,
+  "lon": -65.9577562
+},
+{
+  "type": "node",
+  "id": 9339564143,
+  "lat": -39.1868785,
+  "lon": -65.9576020
+},
+{
+  "type": "node",
+  "id": 9339559833,
+  "lat": -39.3083797,
+  "lon": -65.7599285
+},
+{
+  "type": "node",
+  "id": 9339559834,
+  "lat": -39.3086625,
+  "lon": -65.7602945
+},
+{
+  "type": "node",
+  "id": 9339559835,
+  "lat": -39.3091000,
+  "lon": -65.7597301
+},
+{
+  "type": "node",
+  "id": 9339559836,
+  "lat": -39.3088410,
+  "lon": -65.7593948
+},
+{
+  "type": "node",
+  "id": 9339559837,
+  "lat": -39.3087974,
+  "lon": -65.7593894
+},
+{
+  "type": "node",
+  "id": 9339559850,
+  "lat": -39.3085684,
+  "lon": -65.7596850
+},
+{
+  "type": "node",
+  "id": 9339559851,
+  "lat": -39.3087352,
+  "lon": -65.7594697
 },
 {
   "type": "node",
   "id": 8001125358,
-  "lat": -39.2958351,
-  "lon": -65.6568483
+  "lat": -39.2958677,
+  "lon": -65.6569289
 },
 {
   "type": "node",
   "id": 8001125359,
-  "lat": -39.2962791,
-  "lon": -65.6574698
+  "lat": -39.2963289,
+  "lon": -65.6575650
 },
 {
   "type": "node",
   "id": 8001125360,
-  "lat": -39.2966015,
-  "lon": -65.6570853
+  "lat": -39.2966519,
+  "lon": -65.6571741
 },
 {
   "type": "node",
   "id": 8001125361,
-  "lat": -39.2961576,
-  "lon": -65.6564637
+  "lat": -39.2961908,
+  "lon": -65.6565379
+},
+{
+  "type": "node",
+  "id": 9339559821,
+  "lat": -39.2963836,
+  "lon": -65.6574988
+},
+{
+  "type": "node",
+  "id": 9339559822,
+  "lat": -39.2960108,
+  "lon": -65.6571263
+},
+{
+  "type": "node",
+  "id": 9339559825,
+  "lat": -39.2959891,
+  "lon": -65.6570963
+},
+{
+  "type": "node",
+  "id": 9339559826,
+  "lat": -39.2958991,
+  "lon": -65.6569723
+},
+{
+  "type": "node",
+  "id": 9339559828,
+  "lat": -39.2961055,
+  "lon": -65.6566411
+},
+{
+  "type": "node",
+  "id": 9339559829,
+  "lat": -39.2965936,
+  "lon": -65.6572447
+},
+{
+  "type": "node",
+  "id": 9339559830,
+  "lat": -39.2963606,
+  "lon": -65.6574669
+},
+{
+  "type": "node",
+  "id": 9339559831,
+  "lat": -39.2965710,
+  "lon": -65.6572135
+},
+{
+  "type": "node",
+  "id": 9339564145,
+  "lat": -38.9875230,
+  "lon": -64.0919574
+},
+{
+  "type": "node",
+  "id": 9339564146,
+  "lat": -38.9884160,
+  "lon": -64.0916989
+},
+{
+  "type": "node",
+  "id": 9339564147,
+  "lat": -38.9884452,
+  "lon": -64.0916533
+},
+{
+  "type": "node",
+  "id": 9339564148,
+  "lat": -38.9882584,
+  "lon": -64.0906144
+},
+{
+  "type": "node",
+  "id": 9339564149,
+  "lat": -38.9882041,
+  "lon": -64.0905717
+},
+{
+  "type": "node",
+  "id": 9339564150,
+  "lat": -38.9874497,
+  "lon": -64.0915383
 },
 {
   "type": "node",
