@@ -88211,7 +88211,7 @@
     "addr:city": "Zárate",
     "addr:housenumber": "1512",
     "addr:postcode": "2800",
-    "addr:street": "M. de la Torre",
+    "addr:street": "Manuel de la Torre",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia y Óptica Ferrari",
@@ -109139,8 +109139,14 @@
   "type": "Feature",
   "id": "node/5349762061",
   "properties": {
+    "addr:city": "Olta",
+    "addr:postcode": "5383",
+    "addr:street": "Castro Barros",
     "amenity": "pharmacy",
-    "name": "Del Cenreo",
+    "dispensing": "no",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Santa María",
     "id": "node/5349762061"
   },
   "geometry": {
@@ -146528,9 +146534,14 @@
   "type": "Feature",
   "id": "node/9269867314",
   "properties": {
+    "addr:city": "Idiazábal",
+    "addr:housenumber": "545",
+    "addr:postcode": "X2557",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Fenoglio",
+    "phone": "+54 (3537) 49-6359",
     "id": "node/9269867314"
   },
   "geometry": {
@@ -146795,6 +146806,24 @@
     "coordinates": [
       -58.4575274,
       -34.5623761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9366406987",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Piccilli",
+    "id": "node/9366406987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.345692,
+      -26.5372848
     ]
   }
 }
