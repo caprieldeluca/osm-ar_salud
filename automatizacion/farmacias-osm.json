@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2021-12-26T02:09:14Z",
-    "timestamp_areas_base": "2021-12-26T01:37:40Z",
+    "timestamp_osm_base": "2021-12-27T02:09:20Z",
+    "timestamp_areas_base": "2021-12-27T00:21:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -54332,7 +54332,8 @@
   "lon": -63.0020799,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Depiante"
   }
 },
 {
@@ -74814,7 +74815,7 @@
     "addr:city": "Ibarlucea",
     "addr:housenumber": "1032",
     "addr:postcode": "S2143",
-    "addr:street": "San Martin",
+    "addr:street": "José de San Martín",
     "amenity": "pharmacy",
     "building": "retail",
     "contact:phone": "+54 341 490-4153",
@@ -91897,6 +91898,30 @@
   }
 },
 {
+  "type": "way",
+  "id": 1015478211,
+  "nodes": [
+    9367296900,
+    9367296901,
+    9367296910,
+    9367296902,
+    9367296900
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "1067",
+    "addr:postcode": "8000",
+    "addr:street": "Avenida Alem",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Guzman",
+    "phone": "+54 9 291 452-6811"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -95735,6 +95760,30 @@
   "id": 9313008432,
   "lat": -38.7117026,
   "lon": -62.2671450
+},
+{
+  "type": "node",
+  "id": 9367296900,
+  "lat": -38.7037574,
+  "lon": -62.2688310
+},
+{
+  "type": "node",
+  "id": 9367296901,
+  "lat": -38.7037924,
+  "lon": -62.2687977
+},
+{
+  "type": "node",
+  "id": 9367296902,
+  "lat": -38.7038193,
+  "lon": -62.2689376
+},
+{
+  "type": "node",
+  "id": 9367296910,
+  "lat": -38.7038542,
+  "lon": -62.2689043
 },
 {
   "type": "node",
