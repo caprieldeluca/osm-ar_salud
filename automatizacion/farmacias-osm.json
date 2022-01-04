@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-01-03T02:10:13Z",
-    "timestamp_areas_base": "2022-01-03T01:51:05Z",
+    "timestamp_osm_base": "2022-01-04T02:09:40Z",
+    "timestamp_areas_base": "2022-01-04T01:17:07Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -62737,8 +62737,8 @@
 {
   "type": "node",
   "id": 7189251785,
-  "lat": -30.7826175,
-  "lon": -63.4143066,
+  "lat": -30.7826319,
+  "lon": -63.4141945,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -74108,6 +74108,16 @@
   }
 },
 {
+  "type": "node",
+  "id": 9388617442,
+  "lat": -42.7688052,
+  "lon": -65.0362553,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Social"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -74203,30 +74213,6 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "way",
-  "id": 187503818,
-  "nodes": [
-    1981779118,
-    1981779122,
-    1981779176,
-    1981779125,
-    1981779094,
-    1981779199,
-    1981779118
-  ],
-  "tags": {
-    "addr:housenumber": "1195",
-    "addr:postcode": "S2000",
-    "addr:street": "Avenida Carlos Pellegrini",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "building:levels": "13",
-    "healthcare": "pharmacy",
-    "height": "40",
-    "name": "FarmaVip"
   }
 },
 {
@@ -91961,6 +91947,30 @@
   }
 },
 {
+  "type": "way",
+  "id": 1017914946,
+  "nodes": [
+    9389008635,
+    9389008634,
+    9389008633,
+    1981779118,
+    9389008635
+  ],
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:housenumber": "1197",
+    "addr:street": "Avenida Carlos Pellegrini",
+    "amenity": "pharmacy",
+    "building:part": "yes",
+    "contact:phone": "0810 220 3990",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "FarmaVip",
+    "opening_hours": "24/7",
+    "website": "https://farmavip.com.ar/"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -101706,39 +101716,27 @@
 },
 {
   "type": "node",
-  "id": 1981779094,
-  "lat": -32.9574466,
-  "lon": -60.6421590
-},
-{
-  "type": "node",
   "id": 1981779118,
   "lat": -32.9572377,
   "lon": -60.6422274
 },
 {
   "type": "node",
-  "id": 1981779122,
-  "lat": -32.9572918,
-  "lon": -60.6419469
+  "id": 9389008633,
+  "lat": -32.9573037,
+  "lon": -60.6422455
 },
 {
   "type": "node",
-  "id": 1981779125,
-  "lat": -32.9573821,
-  "lon": -60.6421414
+  "id": 9389008634,
+  "lat": -32.9573217,
+  "lon": -60.6421553
 },
 {
   "type": "node",
-  "id": 1981779176,
-  "lat": -32.9574132,
-  "lon": -60.6419801
-},
-{
-  "type": "node",
-  "id": 1981779199,
-  "lat": -32.9574237,
-  "lon": -60.6422783
+  "id": 9389008635,
+  "lat": -32.9572553,
+  "lon": -60.6421363
 },
 {
   "type": "node",
