@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-01-06T02:09:19Z",
-    "timestamp_areas_base": "2022-01-06T00:40:22Z",
+    "timestamp_osm_base": "2022-01-08T02:10:09Z",
+    "timestamp_areas_base": "2022-01-08T01:04:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -26769,11 +26769,17 @@
 {
   "type": "node",
   "id": 3756734461,
-  "lat": -31.2342472,
-  "lon": -64.3171028,
+  "lat": -31.2343011,
+  "lon": -64.3170927,
   "tags": {
+    "addr:city": "Unquillo",
+    "addr:housenumber": "2247",
+    "addr:postcode": "X5109",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Martha Arias",
+    "phone": "+54 (3543) 48-6797"
   }
 },
 {
@@ -27696,9 +27702,14 @@
   "lat": -31.2232171,
   "lon": -64.3196675,
   "tags": {
+    "addr:city": "Unquillo",
+    "addr:housenumber": "3566",
+    "addr:postcode": "X5109",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Pomiro"
+    "name": "Pomiro II",
+    "phone": "+54 (3543) 48-5792"
   }
 },
 {
@@ -28555,8 +28566,8 @@
 {
   "type": "node",
   "id": 3903079131,
-  "lat": -31.3181018,
-  "lon": -65.0899854,
+  "lat": -31.3181921,
+  "lon": -65.0899366,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -37278,10 +37289,7 @@
   "lon": -58.5004514,
   "tags": {
     "addr:street": "Francisco Narciso de Laprida",
-    "amenity": "pharmacy",
-    "fixme": "name",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+    "amenity": "pharmacy"
   }
 },
 {
@@ -69799,10 +69807,11 @@
 {
   "type": "node",
   "id": 8250188877,
-  "lat": -31.1704169,
-  "lon": -64.3162903,
+  "lat": -31.1704369,
+  "lon": -64.3162319,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Estevan de Ergueta"
   }
 },
@@ -69813,6 +69822,7 @@
   "lon": -64.3162353,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "FamaPlus"
   }
 },
@@ -74133,6 +74143,16 @@
     "healthcare": "pharmacy",
     "name": "Ferrero",
     "phone": "+54 (3463) 49-7040"
+  }
+},
+{
+  "type": "node",
+  "id": 9397535290,
+  "lat": -27.3189048,
+  "lon": -58.5793859,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Paso de la Patria"
   }
 },
 {
@@ -91944,6 +91964,7 @@
   "id": 1016592696,
   "nodes": [
     9376579069,
+    9397007091,
     9376579068,
     9376579067,
     9376579066,
@@ -97541,26 +97562,32 @@
 {
   "type": "node",
   "id": 9376579066,
-  "lat": -34.2647009,
-  "lon": -62.7114482
+  "lat": -34.2647026,
+  "lon": -62.7114484
 },
 {
   "type": "node",
   "id": 9376579067,
-  "lat": -34.2648780,
-  "lon": -62.7114982
+  "lat": -34.2648781,
+  "lon": -62.7114980
 },
 {
   "type": "node",
   "id": 9376579068,
-  "lat": -34.2648489,
+  "lat": -34.2648488,
   "lon": -62.7116494
 },
 {
   "type": "node",
   "id": 9376579069,
-  "lat": -34.2646709,
-  "lon": -62.7115992
+  "lat": -34.2646739,
+  "lon": -62.7115999
+},
+{
+  "type": "node",
+  "id": 9397007091,
+  "lat": -34.2647317,
+  "lon": -62.7116164
 },
 {
   "type": "node",
@@ -114532,12 +114559,6 @@
 },
 {
   "type": "node",
-  "id": 4612622911,
-  "lat": -34.5473011,
-  "lon": -58.5021557
-},
-{
-  "type": "node",
   "id": 4669222764,
   "lat": -34.5544183,
   "lon": -58.4853495
@@ -114593,26 +114614,32 @@
 {
   "type": "node",
   "id": 4612622907,
-  "lat": -34.5471883,
-  "lon": -58.5022358
+  "lat": -34.5471828,
+  "lon": -58.5022143
 },
 {
   "type": "node",
   "id": 4612622908,
-  "lat": -34.5471556,
-  "lon": -58.5022334
+  "lat": -34.5471501,
+  "lon": -58.5022119
 },
 {
   "type": "node",
   "id": 4612622909,
-  "lat": -34.5471028,
-  "lon": -58.5021175
+  "lat": -34.5470973,
+  "lon": -58.5020960
+},
+{
+  "type": "node",
+  "id": 4612622911,
+  "lat": -34.5472779,
+  "lon": -58.5021450
 },
 {
   "type": "node",
   "id": 4614529964,
-  "lat": -34.5472403,
-  "lon": -58.5020257
+  "lat": -34.5472171,
+  "lon": -58.5020150
 },
 {
   "type": "node",
