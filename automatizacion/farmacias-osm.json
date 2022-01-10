@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-01-09T02:10:00Z",
-    "timestamp_areas_base": "2022-01-09T01:15:12Z",
+    "timestamp_osm_base": "2022-01-10T02:09:57Z",
+    "timestamp_areas_base": "2022-01-10T01:26:28Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -33087,8 +33087,12 @@
   "lat": -31.1536489,
   "lon": -63.3986392,
   "tags": {
+    "addr:city": "Santa Rosa de Río Primero",
+    "addr:postcode": "X5133",
+    "addr:street": "9 de Julio",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Santa Rosa"
   }
 },
 {
@@ -74178,6 +74182,35 @@
   }
 },
 {
+  "type": "node",
+  "id": 9404093774,
+  "lat": -31.4191399,
+  "lon": -63.0581693,
+  "tags": {
+    "addr:city": "Arroyito",
+    "addr:housenumber": "1619",
+    "addr:postcode": "2434",
+    "addr:street": "Avenida Mariano Moreno",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "ABC Pharma"
+  }
+},
+{
+  "type": "node",
+  "id": 9406348916,
+  "lat": -33.7486071,
+  "lon": -63.0991519,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Saladino",
+    "phone": "+54 (3463) 49-8725"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -86246,8 +86279,10 @@
     "addr:street": "Avenida Santa Ana",
     "amenity": "pharmacy",
     "building": "yes",
+    "contact:phone": "+54 351 480 9775",
+    "contact:whatsapp": "+54 9 351 541 6365",
     "healthcare": "pharmacy",
-    "name": "Bayaspirina Forte"
+    "name": "Carla Guirao"
   }
 },
 {
