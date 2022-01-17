@@ -18355,18 +18355,24 @@
   "id": "way/241958727",
   "properties": {
     "addr:city": "San Juan",
-    "addr:full": "Av. Rawson -Sur- 568",
+    "addr:housenumber": "494 (S)",
     "addr:place": "Capital",
     "addr:postcode": "5400",
+    "addr:street": "Avenida Doctor Guillermo Rawson",
     "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/HospitalRawsonSJ",
+    "contact:instagram": "https://www.instagram.com/hospitaldr.guillermorawson",
     "description": "Alto riesgo con terapia intensiva especializada",
+    "email": "hospitalrawson@sanjuan.gov.ar",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Dr. Guillermo Rawson",
     "operator:type": "public",
+    "phone": "+54 264 4222272",
     "ref:sisa_codigo": "10700282177016",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)",
+    "website": "https://hospitalrawson.sanjuan.gob.ar",
     "id": "way/241958727"
   },
   "geometry": {
@@ -25718,16 +25724,16 @@
           -34.6678881
         ],
         [
-          -58.7220936,
-          -34.6689172
+          -58.7221177,
+          -34.6689062
         ],
         [
           -58.7212248,
           -34.6686329
         ],
         [
-          -58.7217228,
-          -34.6676038
+          -58.7217255,
+          -34.6676192
         ],
         [
           -58.7225915,
@@ -57145,6 +57151,59 @@
 },
 {
   "type": "Feature",
+  "id": "way/792746549",
+  "properties": {
+    "addr:city": "Carlos Pellegrini",
+    "addr:housenumber": "721",
+    "addr:postcode": "S2453",
+    "addr:street": "San Martín",
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Julio Cortes Belascuen",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "phone": "+54 (3401) 48-0217",
+    "id": "way/792746549"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -61.7846206,
+          -32.0473691
+        ],
+        [
+          -61.7845938,
+          -32.0474107
+        ],
+        [
+          -61.7845579,
+          -32.0473941
+        ],
+        [
+          -61.7844376,
+          -32.0475814
+        ],
+        [
+          -61.7842602,
+          -32.0474995
+        ],
+        [
+          -61.7844073,
+          -32.0472706
+        ],
+        [
+          -61.7846206,
+          -32.0473691
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/793646176",
   "properties": {
     "addr:city": "Saladas",
@@ -81730,6 +81789,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/4224402697",
+  "properties": {
+    "addr:city": "Villa Hernandarias",
+    "addr:street": "Diamante",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital San Martín",
+    "id": "node/4224402697"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.9908029,
+      -31.2317835
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4224610489",
   "properties": {
     "addr:housenumber": "484",
@@ -86910,30 +86988,6 @@
     "coordinates": [
       -62.1103935,
       -31.8218978
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5203007417",
-  "properties": {
-    "addr:city": "Carlos Pellegrini",
-    "addr:housenumber": "721",
-    "addr:postcode": "S2453",
-    "addr:street": "San Martín",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Doctor Julio Cortes Belascuen",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "phone": "+54 3401 48-0217",
-    "id": "node/5203007417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -61.7844437,
-      -32.047428
     ]
   }
 },
