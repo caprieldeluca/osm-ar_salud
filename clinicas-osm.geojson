@@ -16768,6 +16768,50 @@
 },
 {
   "type": "Feature",
+  "id": "way/476155710",
+  "properties": {
+    "addr:city": "Firmat",
+    "addr:housenumber": "1260",
+    "addr:postcode": "S2630",
+    "addr:street": "Sarmiento",
+    "amenity": "clinic",
+    "building": "yes",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "name": "Clinica del Pilar",
+    "phone": "+54 (3465) 42-2624",
+    "id": "way/476155710"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -61.4878645,
+          -33.459528
+        ],
+        [
+          -61.4875984,
+          -33.4595443
+        ],
+        [
+          -61.4875625,
+          -33.4591346
+        ],
+        [
+          -61.4878285,
+          -33.4591184
+        ],
+        [
+          -61.4878645,
+          -33.459528
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/476155758",
   "properties": {
     "addr:street": "Avenida Directorio",
@@ -40493,7 +40537,7 @@
     "contact:instagram": "https://www.instagram.com/areaoperativanorte/",
     "email": "comunicacion.hpmisalta@gmail.com",
     "name": "Centro de Salud N°59 \"Dr. Adolfo Troyano\" - Barrio Palmeritas",
-    "operator": "Area Operativa Norte",
+    "operator": "Area Operativa Norte - Ministerio de Salud de la Provincia de Salta",
     "website": "http://aonorte.gob.ar/",
     "id": "way/1021529916"
   },
@@ -40502,24 +40546,24 @@
     "coordinates": [
       [
         [
-          -65.454538,
-          -24.7849654
+          -65.4545377,
+          -24.784965
         ],
         [
-          -65.454538,
-          -24.7851067
+          -65.4545383,
+          -24.7851081
         ],
         [
-          -65.4542939,
-          -24.7851103
+          -65.4542949,
+          -24.7851089
         ],
         [
-          -65.4542953,
-          -24.7849654
+          -65.4542943,
+          -24.7849658
         ],
         [
-          -65.454538,
-          -24.7849654
+          -65.4545377,
+          -24.784965
         ]
       ]
     ]
@@ -40624,6 +40668,14 @@
           -30.8600239
         ],
         [
+          -64.5263445,
+          -30.8600478
+        ],
+        [
+          -64.5262932,
+          -30.8600551
+        ],
+        [
           -64.5262468,
           -30.8600617
         ],
@@ -40673,6 +40725,84 @@
         [
           -61.1627314,
           -33.0425013
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1022158251",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro de Salud N° 47 - Barrio Roberto Romero",
+    "operator": "Area Operativa Norte - Ministerio de Salud de la Provincia de Salta",
+    "website": "http://aonorte.gob.ar/",
+    "id": "way/1022158251"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.44994,
+          -24.7866813
+        ],
+        [
+          -65.4498593,
+          -24.7867906
+        ],
+        [
+          -65.4496537,
+          -24.7866654
+        ],
+        [
+          -65.4497344,
+          -24.7865561
+        ],
+        [
+          -65.44994,
+          -24.7866813
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1022158276",
+  "properties": {
+    "amenity": "clinic",
+    "email": "comunicacion.hpmisalta@gmail.com",
+    "name": "Centro de Salud N°56 \"Madre Teresa de Calcuta\" - Barrio Palermo",
+    "operator": "Area Operativa Norte - Ministerio de Salud de la Provincia de Salta",
+    "phone": "3874364382",
+    "website": "http://aonorte.gob.ar/",
+    "id": "way/1022158276"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4620014,
+          -24.7903258
+        ],
+        [
+          -65.4619971,
+          -24.7907404
+        ],
+        [
+          -65.4618174,
+          -24.7907389
+        ],
+        [
+          -65.4618217,
+          -24.7903243
+        ],
+        [
+          -65.4620014,
+          -24.7903258
         ]
       ]
     ]
@@ -98123,6 +98253,65 @@
     "coordinates": [
       -60.4968139,
       -31.7339672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9431848974",
+  "properties": {
+    "amenity": "clinic",
+    "email": "info@clinicadelsolsanjuan.com",
+    "name": "Clínica del Sol",
+    "phone": "+54 264 4272227",
+    "website": "https://clinicadelsolsanjuan.com",
+    "id": "node/9431848974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5207776,
+      -31.535229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9431908797",
+  "properties": {
+    "amenity": "clinic",
+    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
+    "healthcare": "laboratory",
+    "name": "SIEM",
+    "official_name": "Servicio Integral de Estudios Médicos",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:30",
+    "operator:type": "private",
+    "phone": "+54 264 4202014 ; +54 264 3733855 ; +54 264 4219648",
+    "ref:sisa_tipologia": "ESSIDT",
+    "wheelchair": "yes",
+    "id": "node/9431908797"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5191287,
+      -31.5387705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9432427912",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro Integral de Salud Infantil Evita",
+    "id": "node/9432427912"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7888811,
+      -34.6409216
     ]
   }
 }
