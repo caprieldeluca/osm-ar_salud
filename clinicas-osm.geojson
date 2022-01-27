@@ -14377,7 +14377,6 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Consultorios Medicos",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/472680153"
   },
   "geometry": {
@@ -54830,16 +54829,26 @@
   "type": "Feature",
   "id": "node/4695641884",
   "properties": {
+    "addr:housenumber": "752 (S)",
+    "addr:street": "General Mariano Acha",
     "amenity": "clinic",
+    "contact:whatsapp": "+54 264 4128712",
+    "description": "Bajo riesgo con internación simple",
+    "email": "consultas@delavision.com.ar",
     "healthcare": "clinic",
     "name": "Clínica de la Visión",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-12:00",
+    "operator:type": "private",
+    "phone": "+54 264 4228400",
+    "ref:sisa_tipologia": "ESCIE",
+    "website": "https://delavision.com.ar",
     "id": "node/4695641884"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5234726,
-      -31.5432846
+      -68.5235316,
+      -31.5433246
     ]
   }
 },
@@ -98345,6 +98354,42 @@
     "coordinates": [
       -64.2100741,
       -31.4058289
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9448320317",
+  "properties": {
+    "addr:housenumber": "861 (S)",
+    "addr:street": "Mendoza",
+    "amenity": "clinic",
+    "name": "Clínica de Patología Digestiva",
+    "phone": "0264 4229491",
+    "id": "node/9448320317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5252118,
+      -31.5446567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9448320417",
+  "properties": {
+    "addr:street": "Mendoza",
+    "amenity": "clinic",
+    "name": "Instituto Privado de Cardiología",
+    "id": "node/9448320417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5252761,
+      -31.5434284
     ]
   }
 }
