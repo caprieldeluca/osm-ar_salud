@@ -1958,11 +1958,14 @@
     "addr:postcode": "C1405DCD",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "healthcare:speciality": "zoonosis",
     "name": "Instituto de Zoonosis Luis Pasteur",
     "opening_hours": "7:00-18:00",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+54 11 4958-9900",
     "ref:sisa_codigo": "50020062218983",
     "ref:sisa_tipologia": "ESSIDT",
@@ -6268,8 +6271,12 @@
     "amenity": "clinic",
     "building": "house",
     "building:levels": "3",
+    "contact:instagram": "https://www.instagram.com/cimyn.sanjuan",
+    "contact:whatsapp": "+54 264 6243561",
     "healthcare": "clinic",
     "name": "CIMyN",
+    "official_name": "Centro Integral de la Mujer y el Niño",
+    "website": "https://cimynsanjuan.com.ar",
     "id": "way/362258626"
   },
   "geometry": {
@@ -39707,97 +39714,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/965275030",
-  "properties": {
-    "amenity": "clinic",
-    "building": "house",
-    "building:levels": "2",
-    "healthcare": "clinic",
-    "name": "Clínica Córdoba",
-    "id": "way/965275030"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5245791,
-          -31.540067
-        ],
-        [
-          -68.5245844,
-          -31.540015
-        ],
-        [
-          -68.5247509,
-          -31.5400259
-        ],
-        [
-          -68.5247479,
-          -31.5400561
-        ],
-        [
-          -68.5247468,
-          -31.5400671
-        ],
-        [
-          -68.524715,
-          -31.540065
-        ],
-        [
-          -68.524712,
-          -31.540108
-        ],
-        [
-          -68.5247424,
-          -31.54011
-        ],
-        [
-          -68.5247408,
-          -31.5401259
-        ],
-        [
-          -68.5247341,
-          -31.5401922
-        ],
-        [
-          -68.5245674,
-          -31.5401825
-        ],
-        [
-          -68.5245759,
-          -31.540099
-        ],
-        [
-          -68.524613,
-          -31.540102
-        ],
-        [
-          -68.524643,
-          -31.540105
-        ],
-        [
-          -68.524647,
-          -31.54006
-        ],
-        [
-          -68.524617,
-          -31.540059
-        ],
-        [
-          -68.524616,
-          -31.54007
-        ],
-        [
-          -68.5245791,
-          -31.540067
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/966622989",
   "properties": {
     "addr:city": "Cipolletti",
@@ -72917,6 +72833,8 @@
     "name": "Centro de Salud Nivel 1 Almagro - CeSAC 38",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+541128213638;+541149584783",
     "ref:sisa_codigo": "50020012115371",
     "ref:sisa_tipologia": "ESSIDT",
@@ -75173,6 +75091,8 @@
     "note": "Por favor confirmar si sigue operando. No lo encontré en la página de los Establecimientos de Salud de la Ciudad. https://www.buenosaires.gob.ar/salud/establecimientos",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "id": "node/7503417387"
   },
   "geometry": {
@@ -98370,6 +98290,44 @@
     "coordinates": [
       -68.5252761,
       -31.5434284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9456759227",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica Córdoba",
+    "id": "node/9456759227"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5246635,
+      -31.5401566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9456759242",
+  "properties": {
+    "addr:housenumber": "56 (E)",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/cimyn.sanjuan",
+    "name": "Consultos Externos Cimyn",
+    "phone": "+54 264 4227428",
+    "website": "https://cimynsanjuan.com.ar",
+    "id": "node/9456759242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5246119,
+      -31.5401578
     ]
   }
 }

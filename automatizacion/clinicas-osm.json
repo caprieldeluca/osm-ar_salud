@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-01-28T02:03:56Z",
-    "timestamp_areas_base": "2022-01-28T01:47:51Z",
+    "timestamp_osm_base": "2022-01-31T02:04:24Z",
+    "timestamp_areas_base": "2022-01-31T01:27:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23282,6 +23282,8 @@
     "name": "Centro de Salud Nivel 1 Almagro - CeSAC 38",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+541128213638;+541149584783",
     "ref:sisa_codigo": "50020012115371",
     "ref:sisa_tipologia": "ESSIDT",
@@ -24997,7 +24999,9 @@
     "name": "Centro de Salud y Acción Comunitaria - CeSAC 23",
     "note": "Por favor confirmar si sigue operando. No lo encontré en la página de los Establecimientos de Salud de la Ciudad. https://www.buenosaires.gob.ar/salud/establecimientos",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public"
+    "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires"
   }
 },
 {
@@ -42341,6 +42345,32 @@
   }
 },
 {
+  "type": "node",
+  "id": 9456759227,
+  "lat": -31.5401566,
+  "lon": -68.5246635,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica Córdoba"
+  }
+},
+{
+  "type": "node",
+  "id": 9456759242,
+  "lat": -31.5401578,
+  "lon": -68.5246119,
+  "tags": {
+    "addr:housenumber": "56 (E)",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/cimyn.sanjuan",
+    "name": "Consultos Externos Cimyn",
+    "phone": "+54 264 4227428",
+    "website": "https://cimynsanjuan.com.ar"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -43033,11 +43063,14 @@
     "addr:postcode": "C1405DCD",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "healthcare:speciality": "zoonosis",
     "name": "Instituto de Zoonosis Luis Pasteur",
     "opening_hours": "7:00-18:00",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
+    "operator:wikidata": "Q16571953",
+    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+54 11 4958-9900",
     "ref:sisa_codigo": "50020062218983",
     "ref:sisa_tipologia": "ESSIDT",
@@ -45017,8 +45050,12 @@
     "amenity": "clinic",
     "building": "house",
     "building:levels": "3",
+    "contact:instagram": "https://www.instagram.com/cimyn.sanjuan",
+    "contact:whatsapp": "+54 264 6243561",
     "healthcare": "clinic",
-    "name": "CIMyN"
+    "name": "CIMyN",
+    "official_name": "Centro Integral de la Mujer y el Niño",
+    "website": "https://cimynsanjuan.com.ar"
   }
 },
 {
@@ -60397,37 +60434,6 @@
 },
 {
   "type": "way",
-  "id": 965275030,
-  "nodes": [
-    8929561174,
-    8929561308,
-    8929561204,
-    8929561338,
-    8929486007,
-    8929561251,
-    8929561143,
-    7202711571,
-    7202711578,
-    8929561122,
-    8929561290,
-    8929561226,
-    8929561389,
-    8929561312,
-    8929561350,
-    8929561274,
-    8929561197,
-    8929561174
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "house",
-    "building:levels": "2",
-    "healthcare": "clinic",
-    "name": "Clínica Córdoba"
-  }
-},
-{
-  "type": "way",
   "id": 966622989,
   "nodes": [
     8942949976,
@@ -68511,18 +68517,6 @@
 },
 {
   "type": "node",
-  "id": 7202711571,
-  "lat": -31.5401825,
-  "lon": -68.5245674
-},
-{
-  "type": "node",
-  "id": 7202711578,
-  "lat": -31.5401922,
-  "lon": -68.5247341
-},
-{
-  "type": "node",
   "id": 8909827367,
   "lat": -31.5398234,
   "lon": -68.5301005
@@ -68538,96 +68532,6 @@
   "id": 8909827370,
   "lat": -31.5397090,
   "lon": -68.5300300
-},
-{
-  "type": "node",
-  "id": 8929486007,
-  "lat": -31.5401050,
-  "lon": -68.5246430
-},
-{
-  "type": "node",
-  "id": 8929561122,
-  "lat": -31.5401259,
-  "lon": -68.5247408
-},
-{
-  "type": "node",
-  "id": 8929561143,
-  "lat": -31.5400990,
-  "lon": -68.5245759
-},
-{
-  "type": "node",
-  "id": 8929561174,
-  "lat": -31.5400670,
-  "lon": -68.5245791
-},
-{
-  "type": "node",
-  "id": 8929561197,
-  "lat": -31.5400150,
-  "lon": -68.5245844
-},
-{
-  "type": "node",
-  "id": 8929561204,
-  "lat": -31.5400590,
-  "lon": -68.5246170
-},
-{
-  "type": "node",
-  "id": 8929561226,
-  "lat": -31.5401080,
-  "lon": -68.5247120
-},
-{
-  "type": "node",
-  "id": 8929561251,
-  "lat": -31.5401020,
-  "lon": -68.5246130
-},
-{
-  "type": "node",
-  "id": 8929561274,
-  "lat": -31.5400259,
-  "lon": -68.5247509
-},
-{
-  "type": "node",
-  "id": 8929561290,
-  "lat": -31.5401100,
-  "lon": -68.5247424
-},
-{
-  "type": "node",
-  "id": 8929561308,
-  "lat": -31.5400700,
-  "lon": -68.5246160
-},
-{
-  "type": "node",
-  "id": 8929561312,
-  "lat": -31.5400671,
-  "lon": -68.5247468
-},
-{
-  "type": "node",
-  "id": 8929561338,
-  "lat": -31.5400600,
-  "lon": -68.5246470
-},
-{
-  "type": "node",
-  "id": 8929561350,
-  "lat": -31.5400561,
-  "lon": -68.5247479
-},
-{
-  "type": "node",
-  "id": 8929561389,
-  "lat": -31.5400650,
-  "lon": -68.5247150
 },
 {
   "type": "node",
