@@ -12935,28 +12935,28 @@
     "coordinates": [
       [
         [
-          -58.4568861,
-          -34.5615057
+          -58.4568982,
+          -34.5615046
         ],
         [
-          -58.4566953,
-          -34.5613972
+          -58.4567194,
+          -34.5613983
         ],
         [
-          -58.4565224,
-          -34.5612914
+          -58.4565264,
+          -34.5612804
         ],
         [
-          -58.4565761,
-          -34.5612275
+          -58.4565828,
+          -34.5612209
         ],
         [
-          -58.4569464,
-          -34.561434
+          -58.4569571,
+          -34.5614351
         ],
         [
-          -58.4568861,
-          -34.5615057
+          -58.4568982,
+          -34.5615046
         ]
       ]
     ]
@@ -17812,6 +17812,7 @@
     "addr:street": "Constitución",
     "amenity": "pharmacy",
     "building": "commercial",
+    "healthcare": "pharmacy",
     "name": "Farmacia Andreu",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
     "id": "way/475955746"
@@ -87569,6 +87570,7 @@
   "type": "Feature",
   "id": "node/4366331191",
   "properties": {
+    "addr:street": "Avenida Leandro N. Alem",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "id": "node/4366331191"
@@ -99093,14 +99095,12 @@
   "type": "Feature",
   "id": "node/4690775256",
   "properties": {
-    "addr:street": "Avenida Díaz Vélez",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
     "name": "Farmacity",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4690775256"
   },
   "geometry": {
@@ -103686,7 +103686,7 @@
     "addr:city": "Villa María",
     "addr:housenumber": "1486",
     "addr:postcode": "5900",
-    "addr:street": "Bulevar Argentino del Valle Larrabure",
+    "addr:street": "Av. Larrabure",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "FarmaVida Sucursal 10",
@@ -148012,6 +148012,42 @@
     "coordinates": [
       -63.2296219,
       -32.4129906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9464630121",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Lamadrid",
+    "phone": "0353 4523868",
+    "id": "node/9464630121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2333832,
+      -32.4049149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465972288",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Blaze",
+    "opening_hours": "Mo-Fr 07:00-23:00; Fr 08:00-20:00",
+    "phone": "0353 6560238",
+    "website": "https://www.facebook.com/Farmacia-Blaze-107877904819638/",
+    "id": "node/9465972288"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2331467,
+      -32.4210968
     ]
   }
 }
