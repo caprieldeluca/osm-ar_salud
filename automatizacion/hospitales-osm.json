@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-02-07T01:59:07Z",
-    "timestamp_areas_base": "2022-02-07T01:28:54Z",
+    "timestamp_osm_base": "2022-02-13T01:58:29Z",
+    "timestamp_areas_base": "2022-02-13T01:27:46Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -59,8 +59,8 @@
 {
   "type": "node",
   "id": 475257295,
-  "lat": -38.7199649,
-  "lon": -62.2352436,
+  "lat": -38.7199497,
+  "lon": -62.2353073,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -1691,26 +1691,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 1512949318,
-  "lat": -45.8684000,
-  "lon": -67.4873561,
-  "tags": {
-    "addr:city": "Comodoro Rivadavia",
-    "addr:full": "Hipolito Irigoyen 950",
-    "addr:place": "Escalante",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Regional Comodoro Rivadavia",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10260212129011",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
 {
@@ -5752,7 +5732,6 @@
   "lon": -58.4487471,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:full": "Cabildo 1295",
     "addr:housenumber": "1295",
     "addr:postcode": "1426",
     "addr:street": "Avenida Cabildo",
@@ -7735,14 +7714,14 @@
 {
   "type": "node",
   "id": 3667952976,
-  "lat": -31.3990867,
-  "lon": -58.0107331,
+  "lat": -31.3990845,
+  "lon": -58.0107344,
   "tags": {
     "addr:city": "Concordia",
     "addr:country": "AR",
     "addr:housenumber": "393",
     "addr:postcode": "3200",
-    "addr:street": "1º de Mayo",
+    "addr:street": "1° de Mayo",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio Concordia Sogin"
@@ -18849,8 +18828,8 @@
 {
   "type": "node",
   "id": 7369011133,
-  "lat": -35.6426736,
-  "lon": -63.7586573,
+  "lat": -35.6403369,
+  "lon": -63.7540868,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -21017,7 +20996,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "healthcare:speciality": "oncology;radiotherapy",
-    "name": "IPR · INSTITUTO PRIVADO DE RADIOTERAPIA",
+    "name": "Instituto Zunino",
     "wheelchair": "yes"
   }
 },
@@ -24562,6 +24541,25 @@
   }
 },
 {
+  "type": "node",
+  "id": 9499474540,
+  "lat": -31.1674116,
+  "lon": -58.1939631,
+  "tags": {
+    "addr:city": "Los Charrúas",
+    "addr:housenumber": "366",
+    "addr:street": "Juan José Paso",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Atención Primaria de la Salud",
+    "official_name": "CAPS Doctor José Ramon Larroca",
+    "phone": "+54 345 4907048",
+    "ref:sisa_codigo": "50300152142243",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -27795,7 +27793,7 @@
   "tags": {
     "addr:housenumber": "405",
     "addr:postcode": "M5500CJI",
-    "addr:street": "Garibaldi",
+    "addr:street": "José Garibaldi",
     "amenity": "hospital",
     "building": "yes",
     "contact:phone": "54 0261 4201615; 4614000",
@@ -28560,9 +28558,21 @@
     1979663213
   ],
   "tags": {
+    "addr:city": "Rufino",
+    "addr:housenumber": "17",
+    "addr:street": "Bernabé Ferreyra",
     "amenity": "hospital",
+    "building": "hospital",
+    "building:levels": "3",
+    "contact:email": "sanatoriomodelosrl@gmail.com",
+    "contact:facebook": "https://es-la.facebook.com/SanatorioModelo/",
+    "contact:phone": "(03382) 429277 / 427680 / 426510",
+    "contact:whatsapp": "+54 3382410592",
     "healthcare": "hospital",
-    "name": "Sanatorio Modelo"
+    "height": "13",
+    "name": "Sanatorio Modelo",
+    "start_date": "1934",
+    "website": "https://www.sanatorio-modelo.com.ar/"
   }
 },
 {
@@ -30062,9 +30072,16 @@
     2282712992
   ],
   "tags": {
+    "addr:city": "Maciá",
+    "addr:postcode": "3177",
+    "addr:street": "Nesa Boeri",
     "amenity": "hospital",
+    "email": "hospitalfalucho@gmail.com",
     "healthcare": "hospital",
     "name": "Hospital Falucho",
+    "phone": "+54 3445 461234",
+    "ref:sisa_codigo": "10300912142039",
+    "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q94691151"
   }
 },
@@ -43374,22 +43391,6 @@
 },
 {
   "type": "way",
-  "id": 530379578,
-  "nodes": [
-    5058767469,
-    5150365823,
-    5150365824,
-    5058767470,
-    5058767469
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Diagonstico Maipu ( Construccion)"
-  }
-},
-{
-  "type": "way",
   "id": 533352846,
   "nodes": [
     5174518669,
@@ -50772,21 +50773,6 @@
 },
 {
   "type": "way",
-  "id": 932455382,
-  "nodes": [
-    8643809743,
-    8643809744,
-    8643809745,
-    8643809746,
-    8643809743
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
-  }
-},
-{
-  "type": "way",
   "id": 934486154,
   "nodes": [
     6858573249,
@@ -51911,6 +51897,73 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1029899777,
+  "nodes": [
+    9494133616,
+    3216686911,
+    9494156617,
+    9494156618,
+    9494133616
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "psychiatry;paediatrics;dentistry;ophthalmology;vaccination;intensive;emergency;surgery;cardiology;radiology;internal;general;orthodontics;maternity",
+    "name": "Hospital Centenario",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1029903902,
+  "nodes": [
+    9494187727,
+    9494187711,
+    9494187710,
+    9494187709,
+    9494187712,
+    9494187718,
+    9494187717,
+    9494187716,
+    9494187715,
+    9494187714,
+    9494187713,
+    9494187722,
+    9494187723,
+    9494187719,
+    9494187720,
+    9494187721,
+    9494187724,
+    9494187725,
+    9494187708,
+    9494187707,
+    9494187706,
+    9494187705,
+    9494187704,
+    9494187703,
+    9494187726,
+    9496904878,
+    9494164762,
+    9494187727
+  ],
+  "tags": {
+    "addr:city": "Comodoro Rivadavia",
+    "addr:full": "Hipolito Irigoyen 950",
+    "addr:place": "Escalante",
+    "amenity": "hospital",
+    "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Regional Doctor Sanguinetti",
+    "operator:type": "public",
+    "ref:sisa_codigo": "10260212129011",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
 {
@@ -53643,6 +53696,168 @@
   "id": 3896730488,
   "lat": -46.4443963,
   "lon": -67.5119769
+},
+{
+  "type": "node",
+  "id": 9494187703,
+  "lat": -45.8687876,
+  "lon": -67.4890621
+},
+{
+  "type": "node",
+  "id": 9494187704,
+  "lat": -45.8687952,
+  "lon": -67.4890662
+},
+{
+  "type": "node",
+  "id": 9494187705,
+  "lat": -45.8688172,
+  "lon": -67.4890683
+},
+{
+  "type": "node",
+  "id": 9494187706,
+  "lat": -45.8688349,
+  "lon": -67.4890614
+},
+{
+  "type": "node",
+  "id": 9494187707,
+  "lat": -45.8688506,
+  "lon": -67.4890443
+},
+{
+  "type": "node",
+  "id": 9494187708,
+  "lat": -45.8688644,
+  "lon": -67.4890121
+},
+{
+  "type": "node",
+  "id": 9494187725,
+  "lat": -45.8688707,
+  "lon": -67.4889819
+},
+{
+  "type": "node",
+  "id": 9494187726,
+  "lat": -45.8687788,
+  "lon": -67.4890535
+},
+{
+  "type": "node",
+  "id": 9494164762,
+  "lat": -45.8679425,
+  "lon": -67.4878924
+},
+{
+  "type": "node",
+  "id": 9494187709,
+  "lat": -45.8676035,
+  "lon": -67.4873609
+},
+{
+  "type": "node",
+  "id": 9494187710,
+  "lat": -45.8676040,
+  "lon": -67.4873884
+},
+{
+  "type": "node",
+  "id": 9494187711,
+  "lat": -45.8676098,
+  "lon": -67.4874178
+},
+{
+  "type": "node",
+  "id": 9494187712,
+  "lat": -45.8676102,
+  "lon": -67.4873342
+},
+{
+  "type": "node",
+  "id": 9494187713,
+  "lat": -45.8681777,
+  "lon": -67.4864754
+},
+{
+  "type": "node",
+  "id": 9494187714,
+  "lat": -45.8681610,
+  "lon": -67.4864877
+},
+{
+  "type": "node",
+  "id": 9494187715,
+  "lat": -45.8681381,
+  "lon": -67.4865083
+},
+{
+  "type": "node",
+  "id": 9494187716,
+  "lat": -45.8681071,
+  "lon": -67.4865419
+},
+{
+  "type": "node",
+  "id": 9494187717,
+  "lat": -45.8680651,
+  "lon": -67.4865933
+},
+{
+  "type": "node",
+  "id": 9494187718,
+  "lat": -45.8679262,
+  "lon": -67.4868126
+},
+{
+  "type": "node",
+  "id": 9494187719,
+  "lat": -45.8687962,
+  "lon": -67.4864946
+},
+{
+  "type": "node",
+  "id": 9494187720,
+  "lat": -45.8688034,
+  "lon": -67.4865056
+},
+{
+  "type": "node",
+  "id": 9494187721,
+  "lat": -45.8688086,
+  "lon": -67.4865261
+},
+{
+  "type": "node",
+  "id": 9494187722,
+  "lat": -45.8681891,
+  "lon": -67.4864713
+},
+{
+  "type": "node",
+  "id": 9494187723,
+  "lat": -45.8687838,
+  "lon": -67.4864857
+},
+{
+  "type": "node",
+  "id": 9494187724,
+  "lat": -45.8688153,
+  "lon": -67.4865659
+},
+{
+  "type": "node",
+  "id": 9494187727,
+  "lat": -45.8676192,
+  "lon": -67.4874436
+},
+{
+  "type": "node",
+  "id": 9496904878,
+  "lat": -45.8684151,
+  "lon": -67.4885486
 },
 {
   "type": "node",
@@ -68365,14 +68580,14 @@
 {
   "type": "node",
   "id": 1979663211,
-  "lat": -34.2657000,
-  "lon": -62.7127270
+  "lat": -34.2656996,
+  "lon": -62.7127287
 },
 {
   "type": "node",
   "id": 1979663213,
-  "lat": -34.2655744,
-  "lon": -62.7126899
+  "lat": -34.2655747,
+  "lon": -62.7126910
 },
 {
   "type": "node",
@@ -71269,8 +71484,8 @@
 {
   "type": "node",
   "id": 1525476821,
-  "lat": -31.4057687,
-  "lon": -64.2043912
+  "lat": -31.4057672,
+  "lon": -64.2043948
 },
 {
   "type": "node",
@@ -71317,8 +71532,8 @@
 {
   "type": "node",
   "id": 1525476909,
-  "lat": -31.4056726,
-  "lon": -64.2043456
+  "lat": -31.4056695,
+  "lon": -64.2043564
 },
 {
   "type": "node",
@@ -71371,14 +71586,14 @@
 {
   "type": "node",
   "id": 2188034132,
-  "lat": -31.4059079,
-  "lon": -64.2050415
+  "lat": -31.4058844,
+  "lon": -64.2051059
 },
 {
   "type": "node",
   "id": 2188034133,
-  "lat": -31.4064812,
-  "lon": -64.2031988
+  "lat": -31.4064876,
+  "lon": -64.2031744
 },
 {
   "type": "node",
@@ -81939,30 +82154,6 @@
   "id": 2909206633,
   "lat": -34.4544010,
   "lon": -58.8635995
-},
-{
-  "type": "node",
-  "id": 5058767469,
-  "lat": -34.4419213,
-  "lon": -58.8530210
-},
-{
-  "type": "node",
-  "id": 5058767470,
-  "lat": -34.4404639,
-  "lon": -58.8531378
-},
-{
-  "type": "node",
-  "id": 5150365823,
-  "lat": -34.4419111,
-  "lon": -58.8522397
-},
-{
-  "type": "node",
-  "id": 5150365824,
-  "lat": -34.4404240,
-  "lon": -58.8523365
 },
 {
   "type": "node",
@@ -94278,6 +94469,30 @@
 },
 {
   "type": "node",
+  "id": 3216686911,
+  "lat": -33.0095979,
+  "lon": -58.5322477
+},
+{
+  "type": "node",
+  "id": 9494133616,
+  "lat": -33.0096753,
+  "lon": -58.5338957
+},
+{
+  "type": "node",
+  "id": 9494156617,
+  "lat": -33.0109075,
+  "lon": -58.5321100
+},
+{
+  "type": "node",
+  "id": 9494156618,
+  "lat": -33.0110002,
+  "lon": -58.5337968
+},
+{
+  "type": "node",
   "id": 5623748285,
   "lat": -32.4818353,
   "lon": -58.2618238
@@ -96729,30 +96944,6 @@
   "id": 4747723679,
   "lat": -28.4412617,
   "lon": -65.7154089
-},
-{
-  "type": "node",
-  "id": 8643809743,
-  "lat": -28.3896014,
-  "lon": -65.7016091
-},
-{
-  "type": "node",
-  "id": 8643809744,
-  "lat": -28.3895700,
-  "lon": -65.7005249
-},
-{
-  "type": "node",
-  "id": 8643809745,
-  "lat": -28.3900761,
-  "lon": -65.7005198
-},
-{
-  "type": "node",
-  "id": 8643809746,
-  "lat": -28.3901164,
-  "lon": -65.7016244
 },
 {
   "type": "node",
