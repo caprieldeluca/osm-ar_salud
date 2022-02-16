@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-02-13T02:04:55Z",
-    "timestamp_areas_base": "2022-02-13T01:47:52Z",
+    "timestamp_osm_base": "2022-02-16T02:03:55Z",
+    "timestamp_areas_base": "2022-02-16T01:26:28Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9784,11 +9784,14 @@
   "lat": -34.4965923,
   "lon": -58.5471686,
   "tags": {
+    "addr:housenumber": "329",
     "addr:street": "Avenida Fondo de la Legua",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Hidalgo",
-    "source": "Actualizaciones en Argentina. Reconocimiento terrestre por #Kaart 2016."
+    "phone": "+54 11 4898-5300",
+    "source": "Actualizaciones en Argentina. Reconocimiento terrestre por #Kaart 2016.;survey",
+    "website": "https://www.laboratoriohidalgo.com/"
   }
 },
 {
@@ -26685,27 +26688,6 @@
 },
 {
   "type": "node",
-  "id": 7504305142,
-  "lat": -34.4407146,
-  "lon": -58.5569603,
-  "tags": {
-    "addr:city": "San Fernando",
-    "addr:full": "Constitucion 1044",
-    "addr:housenumber": "1044",
-    "addr:postcode": "1646",
-    "addr:street": "Constitución",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Escobar",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4725-1488",
-    "ref:sisa_codigo": "50067492201240",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7504305790,
   "lat": -34.4452458,
   "lon": -58.5825240,
@@ -41511,6 +41493,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico HEPTA",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
     "website": "https://www.hepta.com.ar/"
   }
 },
@@ -41799,8 +41782,12 @@
   "lat": -34.5007892,
   "lon": -58.5441871,
   "tags": {
+    "addr:city": "Villa Adelina",
+    "addr:postcode": "B1607",
+    "addr:street": "Colectora Panamericana Este",
     "amenity": "clinic",
-    "name": "Consultorios Externos Obra Social de Choferes de Camiones"
+    "name": "Consultorios Externos Obra Social de Choferes de Camiones",
+    "phone": "+54 11 4836-1122"
   }
 },
 {
@@ -42473,6 +42460,94 @@
     "healthcare": "clinic",
     "name": "Centro Medico Privado Vamedic",
     "phone": "+54 344 5467045"
+  }
+},
+{
+  "type": "node",
+  "id": 9506350216,
+  "lat": -32.4840150,
+  "lon": -58.2736160,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Villa las Lomas Norte"
+  }
+},
+{
+  "type": "node",
+  "id": 9506599925,
+  "lat": -32.4832157,
+  "lon": -58.2509662,
+  "tags": {
+    "addr:city": "Concepción del Uruguay",
+    "addr:street": "Boulevard Díaz Vélez",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de salud Rocamora",
+    "operator": "Municipalidad de Concepción del Uruguay"
+  }
+},
+{
+  "type": "node",
+  "id": 9506599930,
+  "lat": -32.4732254,
+  "lon": -58.2579419,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Zapata CIC"
+  }
+},
+{
+  "type": "node",
+  "id": 9506881210,
+  "lat": -32.5263479,
+  "lon": -64.5857759,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud Municipal"
+  }
+},
+{
+  "type": "node",
+  "id": 9507653443,
+  "lat": -32.4823073,
+  "lon": -58.2254434,
+  "tags": {
+    "addr:city": "Concepción del Uruguay",
+    "addr:postcode": "3260",
+    "addr:street": "Perú",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Sala de Primeros Auxilios Hospitalito"
+  }
+},
+{
+  "type": "node",
+  "id": 9507653447,
+  "lat": -32.4903081,
+  "lon": -58.2472476,
+  "tags": {
+    "addr:city": "Concepción del Uruguay",
+    "addr:postcode": "3260",
+    "addr:street": "Enrique de Vedia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Sala Comunitaria y Primeros Auxilios A. Ledesma"
+  }
+},
+{
+  "type": "node",
+  "id": 9507653448,
+  "lat": -32.4929707,
+  "lon": -58.2341503,
+  "tags": {
+    "addr:city": "Concepcion del uruguay",
+    "addr:postcode": "3260",
+    "addr:street": "Malvar y Pinto",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud La Concepción"
   }
 },
 {
@@ -73322,8 +73397,8 @@
 {
   "type": "node",
   "id": 2832826352,
-  "lat": -32.9178287,
-  "lon": -60.8106085
+  "lat": -32.9178288,
+  "lon": -60.8106084
 },
 {
   "type": "node",
@@ -73370,8 +73445,8 @@
 {
   "type": "node",
   "id": 3470653861,
-  "lat": -32.9178460,
-  "lon": -60.8105173
+  "lat": -32.9178585,
+  "lon": -60.8104496
 },
 {
   "type": "node",

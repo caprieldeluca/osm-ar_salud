@@ -5883,12 +5883,12 @@
           -32.9177868
         ],
         [
-          -60.8106085,
-          -32.9178287
+          -60.8106084,
+          -32.9178288
         ],
         [
-          -60.8105173,
-          -32.917846
+          -60.8104496,
+          -32.9178585
         ],
         [
           -60.8104036,
@@ -54485,11 +54485,14 @@
   "type": "Feature",
   "id": "node/4689049576",
   "properties": {
+    "addr:housenumber": "329",
     "addr:street": "Avenida Fondo de la Legua",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Hidalgo",
-    "source": "Actualizaciones en Argentina. Reconocimiento terrestre por #Kaart 2016.",
+    "phone": "+54 11 4898-5300",
+    "source": "Actualizaciones en Argentina. Reconocimiento terrestre por #Kaart 2016.;survey",
+    "website": "https://www.laboratoriohidalgo.com/",
     "id": "node/4689049576"
   },
   "geometry": {
@@ -77406,33 +77409,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7504305142",
-  "properties": {
-    "addr:city": "San Fernando",
-    "addr:full": "Constitucion 1044",
-    "addr:housenumber": "1044",
-    "addr:postcode": "1646",
-    "addr:street": "Constitución",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Escobar",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4725-1488",
-    "ref:sisa_codigo": "50067492201240",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7504305142"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5569603,
-      -34.4407146
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7504305790",
   "properties": {
     "addr:full": "Ruta 197 Y Sarmiento - Carupa",
@@ -97198,6 +97174,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico HEPTA",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
     "website": "https://www.hepta.com.ar/",
     "id": "node/8868767809"
   },
@@ -97582,8 +97559,12 @@
   "type": "Feature",
   "id": "node/9005287361",
   "properties": {
+    "addr:city": "Villa Adelina",
+    "addr:postcode": "B1607",
+    "addr:street": "Colectora Panamericana Este",
     "amenity": "clinic",
     "name": "Consultorios Externos Obra Social de Choferes de Camiones",
+    "phone": "+54 11 4836-1122",
     "id": "node/9005287361"
   },
   "geometry": {
@@ -98545,6 +98526,136 @@
     "coordinates": [
       -59.3981402,
       -32.1762887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9506350216",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Villa las Lomas Norte",
+    "id": "node/9506350216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.273616,
+      -32.484015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9506599925",
+  "properties": {
+    "addr:city": "Concepción del Uruguay",
+    "addr:street": "Boulevard Díaz Vélez",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de salud Rocamora",
+    "operator": "Municipalidad de Concepción del Uruguay",
+    "id": "node/9506599925"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2509662,
+      -32.4832157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9506599930",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Zapata CIC",
+    "id": "node/9506599930"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2579419,
+      -32.4732254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9506881210",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro de Salud Municipal",
+    "id": "node/9506881210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.5857759,
+      -32.5263479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9507653443",
+  "properties": {
+    "addr:city": "Concepción del Uruguay",
+    "addr:postcode": "3260",
+    "addr:street": "Perú",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Sala de Primeros Auxilios Hospitalito",
+    "id": "node/9507653443"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2254434,
+      -32.4823073
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9507653447",
+  "properties": {
+    "addr:city": "Concepción del Uruguay",
+    "addr:postcode": "3260",
+    "addr:street": "Enrique de Vedia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Sala Comunitaria y Primeros Auxilios A. Ledesma",
+    "id": "node/9507653447"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2472476,
+      -32.4903081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9507653448",
+  "properties": {
+    "addr:city": "Concepcion del uruguay",
+    "addr:postcode": "3260",
+    "addr:street": "Malvar y Pinto",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud La Concepción",
+    "id": "node/9507653448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2341503,
+      -32.4929707
     ]
   }
 }
