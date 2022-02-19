@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-02-16T01:58:59Z",
-    "timestamp_areas_base": "2022-02-16T01:09:11Z",
+    "timestamp_osm_base": "2022-02-19T01:59:00Z",
+    "timestamp_areas_base": "2022-02-19T01:49:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11031,8 +11031,8 @@
 {
   "type": "node",
   "id": 4210936488,
-  "lat": -31.2154436,
-  "lon": -64.3503517,
+  "lat": -31.2153759,
+  "lon": -64.3504201,
   "tags": {
     "addr:street": "Avenida 5 de octubre",
     "amenity": "hospital",
@@ -12215,10 +12215,16 @@
   "lat": -32.1774853,
   "lon": -60.2029657,
   "tags": {
+    "addr:city": "General Ramírez",
+    "addr:postcode": "3164",
+    "addr:street": "Avenida San Martín",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatório Evangélico",
-    "name:es": "Sanatório Evangélico"
+    "name:es": "Sanatório Evangélico",
+    "phone": "+54 343 4901170",
+    "ref:sisa_codigo": "10300212342617",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -16092,8 +16098,8 @@
 {
   "type": "node",
   "id": 5526611511,
-  "lat": -33.7796066,
-  "lon": -69.0655383,
+  "lat": -33.7745914,
+  "lon": -69.0572742,
   "tags": {
     "addr:city": "Eugenio Bustos",
     "addr:full": "Bernardo Quiroga Y Las Heras, Eugenio Bustos, San Carlos",
@@ -17881,8 +17887,18 @@
   "lat": -32.1711445,
   "lon": -60.2005076,
   "tags": {
+    "addr:city": "General Ramírez",
+    "addr:housenumber": "132",
+    "addr:postcode": "3164",
+    "addr:street": "Colón",
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "email": "hnslujan@hotmail.com.ar",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Nuestra Seńora De Lujan",
+    "phone": "+54 343 4901060",
+    "ref:sisa_codigo": "10300212142054",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -51967,6 +51983,25 @@
   }
 },
 {
+  "type": "way",
+  "id": 1032736827,
+  "nodes": [
+    9515208705,
+    9515208706,
+    9515208707,
+    9515208708,
+    9515208709,
+    9515208705
+  ],
+  "tags": {
+    "addr:city": "Eugenio Bustos",
+    "addr:postcode": "5569",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Victorino Tagarelli"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -63206,6 +63241,36 @@
   "id": 2410107878,
   "lat": -33.6020209,
   "lon": -69.3817644
+},
+{
+  "type": "node",
+  "id": 9515208706,
+  "lat": -33.7748835,
+  "lon": -69.0569274
+},
+{
+  "type": "node",
+  "id": 9515208707,
+  "lat": -33.7751141,
+  "lon": -69.0592283
+},
+{
+  "type": "node",
+  "id": 9515208708,
+  "lat": -33.7740923,
+  "lon": -69.0591412
+},
+{
+  "type": "node",
+  "id": 9515208709,
+  "lat": -33.7740335,
+  "lon": -69.0585919
+},
+{
+  "type": "node",
+  "id": 9515208705,
+  "lat": -33.7738572,
+  "lon": -69.0567099
 },
 {
   "type": "node",

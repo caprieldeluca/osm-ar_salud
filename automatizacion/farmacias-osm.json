@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-02-16T02:10:05Z",
-    "timestamp_areas_base": "2022-02-16T02:09:02Z",
+    "timestamp_osm_base": "2022-02-19T02:10:20Z",
+    "timestamp_areas_base": "2022-02-19T01:49:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4475,17 +4475,6 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Bolivar",
     "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "node",
-  "id": 1521836929,
-  "lat": -34.2635861,
-  "lon": -62.7104292,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "ADOS"
   }
 },
 {
@@ -17635,17 +17624,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Cientifarma"
-  }
-},
-{
-  "type": "node",
-  "id": 2987825178,
-  "lat": -31.5413588,
-  "lon": -68.5064270,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmc"
   }
 },
 {
@@ -35256,7 +35234,7 @@
   "tags": {
     "addr:housenumber": "149",
     "addr:postcode": "5700",
-    "addr:street": "Av. del Viento Chorrillero",
+    "addr:street": "Avenida del Viento Chorrillero",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Aimar",
@@ -44058,7 +44036,7 @@
   "tags": {
     "addr:housenumber": "1012",
     "addr:postcode": "5701",
-    "addr:street": "Av. del Viento Chorrillero",
+    "addr:street": "Avenida del Viento Chorrillero",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia San Antonio",
@@ -75123,6 +75101,57 @@
   }
 },
 {
+  "type": "node",
+  "id": 9512686600,
+  "lat": -26.5379774,
+  "lon": -59.3411019,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9515385506,
+  "lat": -26.8604918,
+  "lon": -65.2960007,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9517428892,
+  "lat": -33.1484273,
+  "lon": -59.3118624,
+  "tags": {
+    "addr:city": "Gualeguay",
+    "addr:housenumber": "101",
+    "addr:postcode": "2840",
+    "addr:street": "San Antonio",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "San Roque"
+  }
+},
+{
+  "type": "node",
+  "id": 9517428905,
+  "lat": -33.1506012,
+  "lon": -59.3202178,
+  "tags": {
+    "addr:city": "Gualeguay",
+    "addr:postcode": "2840",
+    "addr:street": "General Urquiza",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Urquiza"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -83088,33 +83117,6 @@
     "healthcare": "pharmacy",
     "name": "Nueva Casilda",
     "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "way",
-  "id": 475344707,
-  "nodes": [
-    4691042631,
-    3462464197,
-    4691042636,
-    4691042637,
-    4691042638,
-    4691042639,
-    4691042640,
-    4691042635,
-    4691042634,
-    4691042632,
-    4691042631
-  ],
-  "tags": {
-    "addr:city": "San Fernando",
-    "addr:postcode": "1646",
-    "addr:street": "Avenida del Libertador",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Perfumería",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
   }
 },
 {
@@ -92962,6 +92964,25 @@
   }
 },
 {
+  "type": "way",
+  "id": 1032608373,
+  "nodes": [
+    9514140928,
+    9514140927,
+    9397007107,
+    9397007104,
+    9397007103,
+    9514140928
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building:part": "yes",
+    "healthcare": "pharmacy",
+    "height": "5",
+    "name": "ADOS"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -98510,6 +98531,36 @@
   "id": 9397007091,
   "lat": -34.2647317,
   "lon": -62.7116164
+},
+{
+  "type": "node",
+  "id": 9397007103,
+  "lat": -34.2635899,
+  "lon": -62.7103813
+},
+{
+  "type": "node",
+  "id": 9397007104,
+  "lat": -34.2636107,
+  "lon": -62.7104282
+},
+{
+  "type": "node",
+  "id": 9397007107,
+  "lat": -34.2635857,
+  "lon": -62.7105591
+},
+{
+  "type": "node",
+  "id": 9514140927,
+  "lat": -34.2635117,
+  "lon": -62.7105389
+},
+{
+  "type": "node",
+  "id": 9514140928,
+  "lat": -34.2635447,
+  "lon": -62.7103686
 },
 {
   "type": "node",
@@ -114758,66 +114809,6 @@
   "id": 4697594270,
   "lat": -34.4443702,
   "lon": -58.5526770
-},
-{
-  "type": "node",
-  "id": 3462464197,
-  "lat": -34.4466833,
-  "lon": -58.5458349
-},
-{
-  "type": "node",
-  "id": 4691042631,
-  "lat": -34.4466938,
-  "lon": -58.5458374
-},
-{
-  "type": "node",
-  "id": 4691042632,
-  "lat": -34.4467887,
-  "lon": -58.5458547
-},
-{
-  "type": "node",
-  "id": 4691042634,
-  "lat": -34.4468461,
-  "lon": -58.5458645
-},
-{
-  "type": "node",
-  "id": 4691042635,
-  "lat": -34.4469423,
-  "lon": -58.5459583
-},
-{
-  "type": "node",
-  "id": 4691042636,
-  "lat": -34.4466954,
-  "lon": -58.5457586
-},
-{
-  "type": "node",
-  "id": 4691042637,
-  "lat": -34.4467314,
-  "lon": -58.5457669
-},
-{
-  "type": "node",
-  "id": 4691042638,
-  "lat": -34.4469263,
-  "lon": -58.5458187
-},
-{
-  "type": "node",
-  "id": 4691042639,
-  "lat": -34.4469609,
-  "lon": -58.5458290
-},
-{
-  "type": "node",
-  "id": 4691042640,
-  "lat": -34.4470162,
-  "lon": -58.5458469
 },
 {
   "type": "node",
