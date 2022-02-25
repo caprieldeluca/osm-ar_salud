@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-02-22T01:58:53Z",
-    "timestamp_areas_base": "2022-02-22T01:34:35Z",
+    "timestamp_osm_base": "2022-02-25T01:58:44Z",
+    "timestamp_areas_base": "2022-02-24T23:15:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1193,39 +1193,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 1376329696,
-  "lat": -29.7123764,
-  "lon": -57.0849588,
-  "tags": {
-    "addr:city": "Paso de los Libres",
-    "addr:housenumber": "876",
-    "addr:postcode": "3230",
-    "addr:street": "Bartolomé Mitre",
-    "amenity": "hospital",
-    "contact:facebook": "https://www.facebook.com/pages/Clinica-Madariaga/408935242533228",
-    "healthcare": "hospital",
-    "name": "Clínica Madariaga",
-    "phone": "+54 3772 424390"
-  }
-},
-{
-  "type": "node",
-  "id": 1376329697,
-  "lat": -29.7118012,
-  "lon": -57.0972461,
-  "tags": {
-    "addr:city": "Paso de los Libres",
-    "addr:housenumber": "1639",
-    "addr:postcode": "3230",
-    "addr:street": "Belgrano",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clínica Medicom",
-    "phone": "+54 3772 424111"
   }
 },
 {
@@ -2800,17 +2767,6 @@
 },
 {
   "type": "node",
-  "id": 1934356386,
-  "lat": -27.5226101,
-  "lon": -58.7953143,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Caps 5"
-  }
-},
-{
-  "type": "node",
   "id": 1936749708,
   "lat": -38.9649216,
   "lon": -68.0718282,
@@ -3448,7 +3404,8 @@
     "fax": "+54 03772 470128",
     "healthcare": "hospital",
     "name": "Hospital Doctor Miguel Sussini",
-    "phone": "+54 3772 470005; +54 3772 470011"
+    "operator": "Hospital Doctor Miguel Sussini",
+    "phone": "+54 3772 470005;+54 3772 470011"
   }
 },
 {
@@ -4156,21 +4113,6 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "CIC Formenti"
-  }
-},
-{
-  "type": "node",
-  "id": 2342294236,
-  "lat": -27.4938098,
-  "lon": -58.8379009,
-  "tags": {
-    "addr:city": "Corrientes",
-    "addr:postcode": "3400",
-    "addr:street": "Avenida del IV Centenario",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "healthcare:speciality": "general",
-    "name": "Caps 13 Juan XXIII"
   }
 },
 {
@@ -11736,15 +11678,17 @@
 {
   "type": "node",
   "id": 4303016237,
-  "lat": -29.1365884,
-  "lon": -59.2471609,
+  "lat": -29.1367477,
+  "lon": -59.2471689,
   "tags": {
+    "addr:city": "Goya",
     "addr:housenumber": "550",
     "addr:postcode": "3450",
     "addr:street": "Avenida Tomás Mazzanti",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "hospital zonal de goya",
+    "name": "Hospital Zonal Goya",
     "opening_hours": "24/7"
   }
 },
@@ -13614,28 +13558,6 @@
 },
 {
   "type": "node",
-  "id": 4501604411,
-  "lat": -29.7178943,
-  "lon": -57.1130562,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Caps 2"
-  }
-},
-{
-  "type": "node",
-  "id": 4501604574,
-  "lat": -29.7106288,
-  "lon": -57.1183286,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro de Salud Caps 1"
-  }
-},
-{
-  "type": "node",
   "id": 4515200798,
   "lat": -32.8427392,
   "lon": -68.7734860,
@@ -14134,41 +14056,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Enfermeria"
-  }
-},
-{
-  "type": "node",
-  "id": 4809819733,
-  "lat": -29.7896789,
-  "lon": -58.0564836,
-  "tags": {
-    "addr:city": "Curuzú Cuatiá",
-    "addr:housenumber": "765",
-    "addr:postcode": "3460",
-    "addr:street": "Juan de Vera",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Sanatorio Curuzú Cuatiá",
-    "phone": "03774-422437"
-  }
-},
-{
-  "type": "node",
-  "id": 4809838164,
-  "lat": -29.7934829,
-  "lon": -58.0509418,
-  "tags": {
-    "addr:city": "Curuzú Cuatiá",
-    "addr:housenumber": "522",
-    "addr:postcode": "3460",
-    "addr:street": "Francisco Podestá",
-    "amenity": "hospital",
-    "email": "sanroque@curuzu.netv;contador@sanatoriosanroque.com",
-    "healthcare": "hospital",
-    "name": "Sanatorio San Roque",
-    "phone": "+54 3774 423610;+54 3774 422518",
-    "website": "https://sanatoriosanroque.com/web/"
   }
 },
 {
@@ -14824,8 +14711,8 @@
 {
   "type": "node",
   "id": 5115911678,
-  "lat": -28.3915229,
-  "lon": -57.8947010,
+  "lat": -28.3915913,
+  "lon": -57.8943791,
   "tags": {
     "addr:city": "Concepción",
     "addr:postcode": "3423",
@@ -16287,29 +16174,6 @@
     "ref:sisa_codigo": "10660982173043",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
-  "id": 5607162587,
-  "lat": -29.0187044,
-  "lon": -58.9199499,
-  "tags": {
-    "addr:city": "Yatay Tí Calle",
-    "addr:postcode": "3445",
-    "addr:street": "Yatay",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "healthcare:speciality": "general;dentist;clinic",
-    "internet_access": "wlan",
-    "internet_access:fee": "yes",
-    "name": "Centro de Salud Modelo Dr. Arturo Illia",
-    "opening_hours": "24/7",
-    "operator": "Ministerio de Salud Pública de Corrientes",
-    "operator:type": "public",
-    "website": "https://www.facebook.com/csmodelo.arturoillia.1",
-    "wheelchair": "yes"
   }
 },
 {
@@ -19427,13 +19291,13 @@
   "lon": -69.4186324,
   "tags": {
     "addr:city": "Calingasta",
-    "addr:full": "Av. Argentina S/N°",
+    "addr:full": "Avenida Argentina S/N",
     "addr:place": "Calingasta",
     "addr:postcode": "5403",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "hospital",
-    "name": "Hospital Dr. Aldo Cantoni",
+    "name": "Hospital Doctor Aldo Cantoni",
     "operator:type": "public",
     "ref:sisa_codigo": "10700212177009",
     "ref:sisa_tipologia": "ESCIG",
@@ -20855,23 +20719,6 @@
 },
 {
   "type": "node",
-  "id": 7454862395,
-  "lat": -27.4681106,
-  "lon": -58.8367148,
-  "tags": {
-    "addr:city": "Corrientes",
-    "addr:housenumber": "957",
-    "addr:postcode": "3400",
-    "addr:street": "San Juan",
-    "amenity": "hospital",
-    "contact:facebook": "https://www.facebook.com/SanatorioSANJUANCorrientes/",
-    "healthcare": "hospital",
-    "name": "Sanatorio San Juan",
-    "phone": "+54 379 4427366"
-  }
-},
-{
-  "type": "node",
   "id": 7472559078,
   "lat": -26.7911565,
   "lon": -60.4427765,
@@ -21031,6 +20878,31 @@
     "healthcare:speciality": "radiotherapy;oncology",
     "name": "IPRO · INSTITUTO PRIVADO DE RADIOTERAPIA ONCOLÓGICA",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7490568102,
+  "lat": -27.4716806,
+  "lon": -58.8347320,
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "1334",
+    "addr:postcode": "3400",
+    "addr:street": "Bolívar",
+    "amenity": "hospital",
+    "building": "hospital",
+    "building:levels": "3",
+    "healthcare": "hospital",
+    "healthcare:speciality": "cardiology",
+    "name": "Instituto de Cardiología de Corrientes",
+    "opening_hours": "24/7",
+    "phone": "+54 0379 4 410 000",
+    "toilets:wheelchair": "yes",
+    "website": "http://www.icc.org.ar",
+    "wheelchair": "yes",
+    "wikidata": "Q16579156",
+    "wikipedia": "es:Instituto de Cardiología de Corrientes"
   }
 },
 {
@@ -24576,6 +24448,202 @@
   }
 },
 {
+  "type": "node",
+  "id": 9530658071,
+  "lat": -29.4701149,
+  "lon": -56.8146122,
+  "tags": {
+    "addr:city": "Yapeyú",
+    "addr:postcode": "3231",
+    "addr:street": "San Lorenzo",
+    "amenity": "hospital",
+    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Daniel Vergara",
+    "phone": "+54 3772 493014"
+  }
+},
+{
+  "type": "node",
+  "id": 9530677197,
+  "lat": -29.7120929,
+  "lon": -57.1060349,
+  "tags": {
+    "addr:city": "Paso de los Libres",
+    "addr:housenumber": "1700",
+    "addr:street": "Avenida Di Tomaso",
+    "amenity": "hospital",
+    "email": "contactos@hospitalsanjose.org.ar",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital San Jose",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "phone": "+54 03772 42-8127;+54 03772 42-8128",
+    "website": "http://hospitalsanjose.org.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9530681301,
+  "lat": -27.4720747,
+  "lon": -58.8106215,
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida Raúl Alfonsín",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "Ángela Iglesias De Llano",
+    "wikidata": "Q23715015"
+  }
+},
+{
+  "type": "node",
+  "id": 9530690538,
+  "lat": -27.4794771,
+  "lon": -58.8389959,
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "1050",
+    "addr:postcode": "3400",
+    "addr:street": "Necochea",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital José Ramón Vidal",
+    "phone": "+54 0379 4421372",
+    "website": "http://www.hospitalvidal.com.ar/",
+    "wheelchair": "yes",
+    "wikidata": "Q17633907",
+    "wikipedia": "es:Anexo:Hospitales de la Ciudad de Corrientes"
+  }
+},
+{
+  "type": "node",
+  "id": 9530703054,
+  "lat": -27.5814648,
+  "lon": -56.6822216,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Ricardo Billinghurst"
+  }
+},
+{
+  "type": "node",
+  "id": 9530704258,
+  "lat": -27.4754687,
+  "lon": -58.8360724,
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida 3 de Abril",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "Hospital Escuela José Francisco de San Martín",
+    "phone": "3794427058"
+  }
+},
+{
+  "type": "node",
+  "id": 9530719197,
+  "lat": -27.3705517,
+  "lon": -58.5116861,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Julio C. Rivero"
+  }
+},
+{
+  "type": "node",
+  "id": 9531143516,
+  "lat": -27.5171064,
+  "lon": -58.5555856,
+  "tags": {
+    "addr:city": "San Luis del Palmar",
+    "addr:housenumber": "1150",
+    "addr:postcode": "3403",
+    "addr:street": "Misiones",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Psiquiatrico Eugenio F. Ramirez"
+  }
+},
+{
+  "type": "node",
+  "id": 9531147784,
+  "lat": -27.5045164,
+  "lon": -58.5494490,
+  "tags": {
+    "addr:city": "San Luis del Palmar",
+    "addr:street": "Rivadavia",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Provincial"
+  }
+},
+{
+  "type": "node",
+  "id": 9531164434,
+  "lat": -28.5227644,
+  "lon": -59.0446952,
+  "tags": {
+    "addr:city": "Bella Vista",
+    "addr:housenumber": "1851",
+    "addr:postcode": "3432",
+    "addr:street": "Montevideo",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital El Salvador",
+    "phone": "+54 03777-45-1063",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9531166718,
+  "lat": -29.1892949,
+  "lon": -58.0787381,
+  "tags": {
+    "addr:city": "Mercedes",
+    "addr:housenumber": "1050",
+    "addr:postcode": "3470",
+    "addr:street": "Doctor Juan R. Lacour",
+    "amenity": "hospital",
+    "description": "Tipología: ESCIG Categoría de tipología: Bajo riesgo con internación simple,⁣",
+    "healthcare": "hospital",
+    "name": "Hospital Las Mecedes",
+    "phone": "+54 3773 420031"
+  }
+},
+{
+  "type": "node",
+  "id": 9531176652,
+  "lat": -28.2588759,
+  "lon": -58.6278455,
+  "tags": {
+    "addr:city": "Saladas",
+    "addr:housenumber": "750",
+    "addr:postcode": "3420",
+    "addr:street": "Alvear",
+    "amenity": "hospital",
+    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Maria Auxiliadora",
+    "official_name": "Hospital Maria Auxiliadora",
+    "phone": "+54 3782 421082"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -25896,7 +25964,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Regional de Concepción Dr. Miguel Belascuain",
+    "name": "Hospital Regional de Concepción Doctor Miguel Belascuain",
     "operator:type": "public",
     "ref:sisa_codigo": "10900212196029",
     "ref:sisa_tipologia": "ESCIG",
@@ -27615,15 +27683,8 @@
     1670606281
   ],
   "tags": {
-    "addr:city": "Yapeyú",
-    "addr:postcode": "3231",
-    "addr:street": "San Lorenzo",
     "amenity": "hospital",
-    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Daniel Vergara",
-    "phone": "+54 3772 493014"
+    "healthcare": "hospital"
   }
 },
 {
@@ -30334,19 +30395,8 @@
     2342829868
   ],
   "tags": {
-    "addr:city": "Corrientes",
-    "addr:housenumber": "1050",
-    "addr:postcode": "3400",
-    "addr:street": "Necochea",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital José Ramón Vidal",
-    "phone": "+54 0379 4421372",
-    "website": "http://www.hospitalvidal.com.ar/",
-    "wheelchair": "yes",
-    "wikidata": "Q17633907",
-    "wikipedia": "es:Anexo:Hospitales de la Ciudad de Corrientes"
+    "healthcare": "hospital"
   }
 },
 {
@@ -30360,15 +30410,8 @@
     2343872399
   ],
   "tags": {
-    "addr:city": "Corrientes",
-    "addr:postcode": "3400",
-    "addr:street": "Avenida 3 de Abril",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "healthcare:speciality": "general",
-    "name": "Hospital Escuela José Francisco de San Martín",
-    "phone": "3794427058"
+    "healthcare": "hospital"
   }
 },
 {
@@ -30376,7 +30419,6 @@
   "id": 226373247,
   "nodes": [
     2352132254,
-    2352132255,
     2352132258,
     2352132256,
     2352132260,
@@ -30392,19 +30434,11 @@
     2352132262,
     2352132259,
     2352132257,
-    8534573893,
     2352132254
   ],
   "tags": {
-    "addr:city": "Corrientes",
-    "addr:postcode": "3400",
-    "addr:street": "Avenida Raúl Alfonsín",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "healthcare:speciality": "general",
-    "name": "Ángela Iglesias De Llano",
-    "wikidata": "Q23715015"
+    "healthcare": "hospital"
   }
 },
 {
@@ -30419,8 +30453,7 @@
   ],
   "tags": {
     "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Ricardo Billinghurst"
+    "healthcare": "hospital"
   }
 },
 {
@@ -31609,6 +31642,8 @@
     2517734769,
     2517734887,
     2517734889,
+    9137966256,
+    9137966257,
     2517734809
   ],
   "tags": {
@@ -32980,18 +33015,8 @@
     2685599111
   ],
   "tags": {
-    "addr:city": "Paso de los Libres",
-    "addr:housenumber": "1700",
-    "addr:street": "Avenida Di Tomaso",
     "amenity": "hospital",
-    "email": "contactos@hospitalsanjose.org.ar",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital San Jose",
-    "opening_hours": "Mo-Fr 06:00-18:00",
-    "phone": "+54 03772 42-8127;+54 03772 42-8128",
-    "website": "http://hospitalsanjose.org.ar/",
-    "wheelchair": "yes"
+    "healthcare": "hospital"
   }
 },
 {
@@ -33332,22 +33357,8 @@
     2793707465
   ],
   "tags": {
-    "addr:city": "Corrientes",
-    "addr:housenumber": "1334",
-    "addr:postcode": "3400",
-    "addr:street": "Bolívar",
     "amenity": "hospital",
-    "building": "hospital",
-    "building:levels": "3",
-    "healthcare": "hospital",
-    "healthcare:speciality": "cardiology",
-    "name": "Instituto de Cardiología de Corrientes",
-    "phone": "+54 0379 4 410 000",
-    "toilets:wheelchair": "yes",
-    "website": "http://www.icc.org.ar",
-    "wheelchair": "yes",
-    "wikidata": "Q16579156",
-    "wikipedia": "es:Instituto de Cardiología de Corrientes"
+    "healthcare": "hospital"
   }
 },
 {
@@ -34331,22 +34342,6 @@
 },
 {
   "type": "way",
-  "id": 294823620,
-  "nodes": [
-    2984474225,
-    2984474226,
-    2984474227,
-    2984474228,
-    2984474225
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Doctor Julio C. Rivero"
-  }
-},
-{
-  "type": "way",
   "id": 294888838,
   "nodes": [
     2985132274,
@@ -35264,16 +35259,8 @@
     4025004794
   ],
   "tags": {
-    "addr:city": "Bella Vista",
-    "addr:housenumber": "1851",
-    "addr:postcode": "3432",
-    "addr:street": "Montevideo",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital El Salvador",
-    "phone": "+54 03777-45-1063",
-    "wheelchair": "yes"
+    "healthcare": "hospital"
   }
 },
 {
@@ -39199,8 +39186,7 @@
     "addr:housenumber": "1849",
     "addr:street": "Avenida República Oriental del Uruguay",
     "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Militar Curzú Cuatiá"
+    "healthcare": "hospital"
   }
 },
 {
@@ -39986,14 +39972,8 @@
     4391170673
   ],
   "tags": {
-    "addr:city": "Goya",
-    "addr:housenumber": "550",
-    "addr:postcode": "3450",
-    "addr:street": "Avenida Tomás Mazzanti",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Zonal Goya"
+    "healthcare": "hospital"
   }
 },
 {
@@ -42246,11 +42226,8 @@
     4880527686
   ],
   "tags": {
-    "addr:city": "San Luis del Palmar",
-    "addr:street": "Rivadavia",
     "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Provincial"
+    "healthcare": "hospital"
   }
 },
 {
@@ -44283,14 +44260,8 @@
     5370548245
   ],
   "tags": {
-    "addr:city": "Alvear",
-    "addr:postcode": "3344",
-    "addr:street": "Manuel Belgrano",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Doctor Miguel Sussini",
-    "operator": "Hospital Doctor Miguel Sussini"
+    "healthcare": "hospital"
   }
 },
 {
@@ -45536,32 +45507,6 @@
 },
 {
   "type": "way",
-  "id": 633519549,
-  "nodes": [
-    5980389395,
-    5980389396,
-    5980389397,
-    5980389398,
-    5980389399,
-    5984150123,
-    5980389400,
-    5984150120,
-    5980389401,
-    5984150121,
-    5980389402,
-    5984150122,
-    5980389403,
-    5980389395
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "operator": "Sala de primeros auxilios Don José Ledesma",
-    "operator:type": "public"
-  }
-},
-{
-  "type": "way",
   "id": 645347149,
   "nodes": [
     6066702961,
@@ -46624,13 +46569,8 @@
     7124520026
   ],
   "tags": {
-    "addr:city": "San Luis del Palmar",
-    "addr:housenumber": "1150",
-    "addr:postcode": "3403",
-    "addr:street": "Misiones",
     "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Psiquiatrico Eugenio F. Ramirez"
+    "healthcare": "hospital"
   }
 },
 {
@@ -48443,17 +48383,8 @@
     7423876404
   ],
   "tags": {
-    "addr:city": "Saladas",
-    "addr:housenumber": "750",
-    "addr:postcode": "3420",
-    "addr:street": "Alvear",
     "amenity": "hospital",
-    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Maria Auxiliadora",
-    "official_name": "Hospital Maria Auxiliadora",
-    "phone": "+54 3782 421082"
+    "healthcare": "hospital"
   }
 },
 {
@@ -48502,15 +48433,8 @@
     7443743716
   ],
   "tags": {
-    "addr:city": "Mercedes",
-    "addr:housenumber": "1050",
-    "addr:postcode": "3470",
-    "addr:street": "Doctor Juan R. Lacour",
     "amenity": "hospital",
-    "description": "Tipología: ESCIG Categoría de tipología: Bajo riesgo con internación simple,⁣",
-    "healthcare": "hospital",
-    "name": "Hospital Las Mecedes",
-    "phone": "+54 3773 420031"
+    "healthcare": "hospital"
   }
 },
 {
@@ -104302,84 +104226,6 @@
 },
 {
   "type": "node",
-  "id": 5980389395,
-  "lat": -29.0764515,
-  "lon": -58.9639587
-},
-{
-  "type": "node",
-  "id": 5980389396,
-  "lat": -29.0765830,
-  "lon": -58.9632635
-},
-{
-  "type": "node",
-  "id": 5980389397,
-  "lat": -29.0771941,
-  "lon": -58.9633936
-},
-{
-  "type": "node",
-  "id": 5980389398,
-  "lat": -29.0771586,
-  "lon": -58.9636213
-},
-{
-  "type": "node",
-  "id": 5980389399,
-  "lat": -29.0771195,
-  "lon": -58.9638367
-},
-{
-  "type": "node",
-  "id": 5980389400,
-  "lat": -29.0770769,
-  "lon": -58.9639587
-},
-{
-  "type": "node",
-  "id": 5980389401,
-  "lat": -29.0770165,
-  "lon": -58.9640319
-},
-{
-  "type": "node",
-  "id": 5980389402,
-  "lat": -29.0769241,
-  "lon": -58.9640725
-},
-{
-  "type": "node",
-  "id": 5980389403,
-  "lat": -29.0768246,
-  "lon": -58.9640725
-},
-{
-  "type": "node",
-  "id": 5984150120,
-  "lat": -29.0770485,
-  "lon": -58.9639993
-},
-{
-  "type": "node",
-  "id": 5984150121,
-  "lat": -29.0769685,
-  "lon": -58.9640603
-},
-{
-  "type": "node",
-  "id": 5984150122,
-  "lat": -29.0768779,
-  "lon": -58.9640806
-},
-{
-  "type": "node",
-  "id": 5984150123,
-  "lat": -29.0771035,
-  "lon": -58.9638997
-},
-{
-  "type": "node",
   "id": 7569684058,
   "lat": -29.0186534,
   "lon": -58.9200086
@@ -104999,110 +104845,98 @@
 {
   "type": "node",
   "id": 2352132254,
-  "lat": -27.4718327,
-  "lon": -58.8113541
-},
-{
-  "type": "node",
-  "id": 2352132255,
-  "lat": -27.4718700,
-  "lon": -58.8113656
+  "lat": -27.4718550,
+  "lon": -58.8113390
 },
 {
   "type": "node",
   "id": 2352132256,
-  "lat": -27.4720253,
-  "lon": -58.8116467
+  "lat": -27.4720314,
+  "lon": -58.8116425
 },
 {
   "type": "node",
   "id": 2352132257,
-  "lat": -27.4720465,
-  "lon": -58.8104935
+  "lat": -27.4720378,
+  "lon": -58.8104773
 },
 {
   "type": "node",
   "id": 2352132258,
-  "lat": -27.4720668,
-  "lon": -58.8114115
+  "lat": -27.4720827,
+  "lon": -58.8114004
 },
 {
   "type": "node",
   "id": 2352132259,
-  "lat": -27.4721110,
-  "lon": -58.8105088
+  "lat": -27.4721034,
+  "lon": -58.8104949
 },
 {
   "type": "node",
   "id": 2352132260,
-  "lat": -27.4721466,
-  "lon": -58.8116797
+  "lat": -27.4721426,
+  "lon": -58.8116725
 },
 {
   "type": "node",
   "id": 2352132261,
-  "lat": -27.4721958,
-  "lon": -58.8114535
+  "lat": -27.4721909,
+  "lon": -58.8114449
 },
 {
   "type": "node",
   "id": 2352132262,
-  "lat": -27.4722162,
-  "lon": -58.8099580
+  "lat": -27.4722169,
+  "lon": -58.8099592
 },
 {
   "type": "node",
   "id": 2352132263,
-  "lat": -27.4722942,
-  "lon": -58.8101454
+  "lat": -27.4722884,
+  "lon": -58.8101495
 },
 {
   "type": "node",
   "id": 2352132264,
-  "lat": -27.4723214,
-  "lon": -58.8099886
+  "lat": -27.4723227,
+  "lon": -58.8099877
 },
 {
   "type": "node",
   "id": 2352132265,
-  "lat": -27.4725623,
-  "lon": -58.8115186
+  "lat": -27.4725791,
+  "lon": -58.8115495
 },
 {
   "type": "node",
   "id": 2352132266,
-  "lat": -27.4726302,
-  "lon": -58.8113044
+  "lat": -27.4726309,
+  "lon": -58.8113051
 },
 {
   "type": "node",
   "id": 2352132267,
-  "lat": -27.4727761,
-  "lon": -58.8113388
+  "lat": -27.4727795,
+  "lon": -58.8113451
 },
 {
   "type": "node",
   "id": 2352132268,
-  "lat": -27.4727999,
-  "lon": -58.8105394
+  "lat": -27.4727866,
+  "lon": -58.8105485
 },
 {
   "type": "node",
   "id": 2352132269,
-  "lat": -27.4728609,
-  "lon": -58.8102831
+  "lat": -27.4728397,
+  "lon": -58.8102979
 },
 {
   "type": "node",
   "id": 2352132270,
-  "lat": -27.4729458,
-  "lon": -58.8105853
-},
-{
-  "type": "node",
-  "id": 8534573893,
-  "lat": -27.4719210,
-  "lon": -58.8109987
+  "lat": -27.4729395,
+  "lon": -58.8105897
 },
 {
   "type": "node",
@@ -105661,30 +105495,6 @@
   "id": 4880527691,
   "lat": -27.5048168,
   "lon": -58.5494958
-},
-{
-  "type": "node",
-  "id": 2984474225,
-  "lat": -27.3705180,
-  "lon": -58.5117204
-},
-{
-  "type": "node",
-  "id": 2984474226,
-  "lat": -27.3707058,
-  "lon": -58.5115740
-},
-{
-  "type": "node",
-  "id": 2984474227,
-  "lat": -27.3704711,
-  "lon": -58.5112000
-},
-{
-  "type": "node",
-  "id": 2984474228,
-  "lat": -27.3703122,
-  "lon": -58.5113341
 },
 {
   "type": "node",
@@ -106771,6 +106581,18 @@
   "id": 2517734889,
   "lat": -26.1831304,
   "lon": -58.1896057
+},
+{
+  "type": "node",
+  "id": 9137966256,
+  "lat": -26.1821318,
+  "lon": -58.1900171
+},
+{
+  "type": "node",
+  "id": 9137966257,
+  "lat": -26.1818686,
+  "lon": -58.1901255
 },
 {
   "type": "node",
