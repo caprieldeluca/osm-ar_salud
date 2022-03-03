@@ -69598,7 +69598,8 @@
     "addr:street": "Rivadavia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "San Bernardo",
+    "name": "Farmacia San Bernardo",
+    "name:en": "Farmacy San Bernardo",
     "phone": "+549 02646 420005",
     "id": "node/3285923801"
   },
@@ -104502,8 +104503,10 @@
     "addr:city": "Azul",
     "addr:housenumber": "311",
     "addr:postcode": "7300",
-    "addr:street": "Diab",
+    "addr:street": "Amado Diab",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Diab",
     "id": "node/5013209190"
@@ -123974,6 +123977,7 @@
     "amenity": "pharmacy",
     "indoor": "yes",
     "name": "Embon",
+    "wheelchair": "yes",
     "id": "node/6326520366"
   },
   "geometry": {
@@ -148373,6 +148377,69 @@
     "coordinates": [
       -58.5952163,
       -34.9113701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9547850650",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Villa",
+    "id": "node/9547850650"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.8052601,
+      -36.0908952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9547850651",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Gestido",
+    "id": "node/9547850651"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.8019369,
+      -36.0910957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9547850662",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "La Cuenca",
+    "id": "node/9547850662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.8084426,
+      -36.0918727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9548014988",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/9548014988"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.9891014,
+      -35.5747895
     ]
   }
 }

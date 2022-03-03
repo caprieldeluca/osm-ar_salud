@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-01T02:10:15Z",
-    "timestamp_areas_base": "2022-03-01T01:10:32Z",
+    "timestamp_osm_base": "2022-03-03T02:09:41Z",
+    "timestamp_areas_base": "2022-03-03T00:37:34Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21117,7 +21117,8 @@
     "addr:street": "Rivadavia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "San Bernardo",
+    "name": "Farmacia San Bernardo",
+    "name:en": "Farmacy San Bernardo",
     "phone": "+549 02646 420005"
   }
 },
@@ -44945,8 +44946,10 @@
     "addr:city": "Azul",
     "addr:housenumber": "311",
     "addr:postcode": "7300",
-    "addr:street": "Diab",
+    "addr:street": "Amado Diab",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Diab"
   }
@@ -58098,7 +58101,8 @@
   "tags": {
     "amenity": "pharmacy",
     "indoor": "yes",
-    "name": "Embon"
+    "name": "Embon",
+    "wheelchair": "yes"
   }
 },
 {
@@ -75201,6 +75205,45 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Punto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 9547850650,
+  "lat": -36.0908952,
+  "lon": -57.8052601,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Villa"
+  }
+},
+{
+  "type": "node",
+  "id": 9547850651,
+  "lat": -36.0910957,
+  "lon": -57.8019369,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Gestido"
+  }
+},
+{
+  "type": "node",
+  "id": 9547850662,
+  "lat": -36.0918727,
+  "lon": -57.8084426,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "La Cuenca"
+  }
+},
+{
+  "type": "node",
+  "id": 9548014988,
+  "lat": -35.5747895,
+  "lon": -57.9891014,
+  "tags": {
+    "amenity": "pharmacy"
   }
 },
 {
