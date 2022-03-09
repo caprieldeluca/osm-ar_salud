@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-08T02:00:09Z",
-    "timestamp_areas_base": "2022-03-08T01:38:46Z",
+    "timestamp_osm_base": "2022-03-09T01:59:24Z",
+    "timestamp_areas_base": "2022-03-08T14:45:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1147,11 +1147,13 @@
   "lat": -27.4507362,
   "lon": -58.9915283,
   "tags": {
-    "addr:full": "Necochea 268",
+    "addr:city": "Resistencia",
+    "addr:housenumber": "268",
+    "addr:street": "Necochea",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "operator:type",
-    "operator": "private",
+    "name": "Sanatorio Galeno",
+    "operator:type": "private",
     "ref:sisa_codigo": "10221402326080",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -2056,6 +2058,7 @@
     "alt_name": "Sanatorio Antartida Centro Medico Para La Mujer S.r.l.",
     "amenity": "hospital",
     "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics",
     "name": "Sanatorio Antártida",
     "operator": "Privado",
     "operator:type": "private",
@@ -9834,24 +9837,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 4098200950,
-  "lat": -38.8282022,
-  "lon": -68.1409192,
-  "tags": {
-    "addr:city": "Centenario",
-    "addr:postcode": "8309",
-    "addr:street": "Santo Domingo y Canadá",
-    "amenity": "hospital",
-    "description": "Zona de inundación de calles",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Centro de Salud Sarmiento 2",
-    "operator": "Público",
-    "phone": "0299 4891885"
   }
 },
 {
@@ -17803,18 +17788,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sala Primeros Auxilios"
-  }
-},
-{
-  "type": "node",
-  "id": 6974526400,
-  "lat": -38.8804987,
-  "lon": -68.1000637,
-  "tags": {
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Base Operativa SIEN 3"
   }
 },
 {
@@ -40155,27 +40128,6 @@
 },
 {
   "type": "way",
-  "id": 464410559,
-  "nodes": [
-    4595215541,
-    4595215542,
-    4595215543,
-    4595215544,
-    4595215541
-  ],
-  "tags": {
-    "addr:city": "Ciudad de Centenario",
-    "addr:housenumber": "Ex Peaje",
-    "addr:postcode": "8309",
-    "addr:street": "Ruta Provincial 7",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Base Operativa SIEN 3"
-  }
-},
-{
-  "type": "way",
   "id": 465044013,
   "nodes": [
     4600723111,
@@ -43139,6 +43091,7 @@
     "healthcare:speciality": "blood_check;cardiology;clinical_pathology;community;general",
     "insurance:health": "private;public",
     "name": "Doctor Bernardo Houssay",
+    "name:etymology:wikidata": "Q237160",
     "opening_hours": "24/7",
     "operational_status": "operational",
     "operator": "Municipalidad de Funes",
@@ -56809,30 +56762,6 @@
   "id": 9149652818,
   "lat": -38.9248804,
   "lon": -67.9791276
-},
-{
-  "type": "node",
-  "id": 4595215541,
-  "lat": -38.8803492,
-  "lon": -68.1002752
-},
-{
-  "type": "node",
-  "id": 4595215542,
-  "lat": -38.8806715,
-  "lon": -68.1001515
-},
-{
-  "type": "node",
-  "id": 4595215543,
-  "lat": -38.8806051,
-  "lon": -68.0998213
-},
-{
-  "type": "node",
-  "id": 4595215544,
-  "lat": -38.8802731,
-  "lon": -68.0999410
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-08T02:05:08Z",
-    "timestamp_areas_base": "2022-03-08T01:42:51Z",
+    "timestamp_osm_base": "2022-03-09T02:04:24Z",
+    "timestamp_areas_base": "2022-03-08T10:47:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -25069,26 +25069,6 @@
 },
 {
   "type": "node",
-  "id": 7503417387,
-  "lat": -34.6113258,
-  "lon": -58.4270145,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:housenumber": "4290",
-    "addr:postcode": "C1183AGB",
-    "addr:street": "Querandíes",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Salud y Acción Comunitaria - CeSAC 23",
-    "note": "Por favor confirmar si sigue operando. No lo encontré en la página de los Establecimientos de Salud de la Ciudad. https://www.buenosaires.gob.ar/salud/establecimientos",
-    "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public",
-    "operator:wikidata": "Q16571953",
-    "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires"
-  }
-},
-{
-  "type": "node",
   "id": 7503419467,
   "lat": -34.6462845,
   "lon": -58.6189543,
@@ -42686,6 +42666,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 9563126463,
+  "lat": -32.4075180,
+  "lon": -63.2483570,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Médico Elite"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -51695,6 +51686,7 @@
     "healthcare": "clinic",
     "insurance:health": "private;public",
     "name": "Centro de Salud Doctor Laureano Maradona",
+    "name:etymology:wikidata": "Q5400794",
     "official_name": "Centro de Salud Doctor Laureano Maradona",
     "operational_status": "operational",
     "operator": "Municipalidad de Funes",
@@ -61246,6 +61238,22 @@
     "building": "yes",
     "healthcare:speciality": "nuclear",
     "name": "Centro de Medicina Nuclear PET/CT"
+  }
+},
+{
+  "type": "way",
+  "id": 1038273998,
+  "nodes": [
+    9562761711,
+    9562761712,
+    9562761713,
+    9562761714,
+    9562761711
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic"
   }
 },
 {
@@ -91161,6 +91169,30 @@
   "id": 5120290598,
   "lat": -26.1848073,
   "lon": -58.1940891
+},
+{
+  "type": "node",
+  "id": 9562761711,
+  "lat": -26.1866728,
+  "lon": -58.1684089
+},
+{
+  "type": "node",
+  "id": 9562761712,
+  "lat": -26.1867545,
+  "lon": -58.1683739
+},
+{
+  "type": "node",
+  "id": 9562761713,
+  "lat": -26.1866938,
+  "lon": -58.1681497
+},
+{
+  "type": "node",
+  "id": 9562761714,
+  "lat": -26.1866016,
+  "lon": -58.1681941
 },
 {
   "type": "node",
