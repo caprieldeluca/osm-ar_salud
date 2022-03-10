@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-09T02:04:24Z",
-    "timestamp_areas_base": "2022-03-08T10:47:24Z",
+    "timestamp_osm_base": "2022-03-10T02:04:51Z",
+    "timestamp_areas_base": "2022-03-09T22:04:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -20455,24 +20455,6 @@
     "operator:type": "public",
     "phone": "+54 11 45123150",
     "ref:sisa_codigo": "50067562201471",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7501971395,
-  "lat": -34.7814311,
-  "lon": -58.3379698,
-  "tags": {
-    "addr:full": "Av. San Martín 4900 Y San Carlos Barrio San Geronimo Rafael Calzada",
-    "addr:postcode": "1847",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Sanitaria 16 De Rafael Calzada",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "011-42368122",
-    "ref:sisa_codigo": "50060282202520",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -42677,6 +42659,20 @@
   }
 },
 {
+  "type": "node",
+  "id": 9565040087,
+  "lat": -34.6133938,
+  "lon": -58.4258093,
+  "tags": {
+    "addr:housenumber": "4283",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "clinic",
+    "name": "Centro Médico Policlínica Actis",
+    "operator": "IOSFA",
+    "phone": "+54 11 4981-2771"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -61257,6 +61253,51 @@
   }
 },
 {
+  "type": "way",
+  "id": 1038777283,
+  "nodes": [
+    9566222260,
+    9566222261,
+    9566222262,
+    9566222263,
+    9566222260
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CAP Dr. Raúl Prota"
+  }
+},
+{
+  "type": "way",
+  "id": 1038831423,
+  "nodes": [
+    9566640868,
+    9566640869,
+    9566640870,
+    9566640871,
+    9566640873,
+    9566640872,
+    9566640868
+  ],
+  "tags": {
+    "addr:city": "Rafael Calzada",
+    "addr:housenumber": "4900",
+    "addr:postcode": "B1847",
+    "addr:street": "Avenida General San Martín",
+    "amenity": "clinic",
+    "building": "yes",
+    "email": "calzada.saludbrown@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics;vaccination;gynaecology;dentist",
+    "name": "CAPS 16 Rafael Calzada",
+    "operator": "Municipal",
+    "operator:type": "government",
+    "phone": "3981-8255"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -76460,6 +76501,30 @@
 },
 {
   "type": "node",
+  "id": 9566222260,
+  "lat": -34.3324860,
+  "lon": -58.8041046
+},
+{
+  "type": "node",
+  "id": 9566222261,
+  "lat": -34.3325930,
+  "lon": -58.8040220
+},
+{
+  "type": "node",
+  "id": 9566222262,
+  "lat": -34.3325377,
+  "lon": -58.8039170
+},
+{
+  "type": "node",
+  "id": 9566222263,
+  "lat": -34.3324307,
+  "lon": -58.8039996
+},
+{
+  "type": "node",
   "id": 4421153201,
   "lat": -34.1096453,
   "lon": -59.0306515
@@ -79889,6 +79954,42 @@
   "id": 5296522570,
   "lat": -34.7895216,
   "lon": -58.3528365
+},
+{
+  "type": "node",
+  "id": 9566640868,
+  "lat": -34.7813352,
+  "lon": -58.3381497
+},
+{
+  "type": "node",
+  "id": 9566640869,
+  "lat": -34.7815361,
+  "lon": -58.3380187
+},
+{
+  "type": "node",
+  "id": 9566640870,
+  "lat": -34.7814921,
+  "lon": -58.3379383
+},
+{
+  "type": "node",
+  "id": 9566640871,
+  "lat": -34.7816022,
+  "lon": -58.3378632
+},
+{
+  "type": "node",
+  "id": 9566640872,
+  "lat": -34.7812352,
+  "lon": -58.3379689
+},
+{
+  "type": "node",
+  "id": 9566640873,
+  "lat": -34.7814958,
+  "lon": -58.3377953
 },
 {
   "type": "node",
