@@ -1449,51 +1449,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/297437710",
-  "properties": {
-    "addr:city": "Ibarlucea",
-    "addr:housenumber": "1032",
-    "addr:postcode": "S2143",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "building": "retail",
-    "contact:phone": "+54 341 490-4153",
-    "emergency": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Fedyszyn",
-    "smoking": "no",
-    "id": "way/297437710"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.7867638,
-          -32.8524936
-        ],
-        [
-          -60.7867622,
-          -32.8525494
-        ],
-        [
-          -60.7866978,
-          -32.8525481
-        ],
-        [
-          -60.7866994,
-          -32.8524924
-        ],
-        [
-          -60.7867638,
-          -32.8524936
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/300302155",
   "properties": {
     "addr:postcode": "S2132",
@@ -1805,41 +1760,41 @@
 },
 {
   "type": "Feature",
-  "id": "way/305753420",
+  "id": "way/305753421",
   "properties": {
     "addr:city": "Roldán",
     "addr:housenumber": "818",
     "addr:postcode": "S2134",
     "addr:street": "Bulevar José de San Martín",
     "amenity": "pharmacy",
-    "building": "retail",
+    "building": "yes",
     "healthcare": "pharmacy",
     "name": "Albinoli",
-    "id": "way/305753420"
+    "id": "way/305753421"
   },
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -60.909093,
-          -32.8997631
+          -60.909058,
+          -32.8998707
         ],
         [
-          -60.9091076,
-          -32.8998313
+          -60.9090434,
+          -32.8998025
         ],
         [
-          -60.9090542,
-          -32.8998393
+          -60.9090759,
+          -32.8997976
         ],
         [
-          -60.9090396,
-          -32.8997711
+          -60.9090905,
+          -32.8998658
         ],
         [
-          -60.909093,
-          -32.8997631
+          -60.909058,
+          -32.8998707
         ]
       ]
     ]
@@ -41381,8 +41336,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4146492,
-      -34.5911194
+      -58.4146707,
+      -34.591158
     ]
   }
 },
@@ -44011,6 +43966,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Florida",
+    "opening_hours": "Mo-Fr 08:30-13:00,17:00-21:00; Sa 09:00-13:00",
     "id": "node/1373990890"
   },
   "geometry": {
@@ -44063,6 +44019,7 @@
     "healthcare": "pharmacy",
     "name": "Mayo",
     "name:es": "Mayo",
+    "opening_hours": "Mo-Fr 09:00-22:00, Sa 08:30-13:30,17:00-22:00, PH,Su 10:00-13:30, Su 18:00-22:30",
     "id": "node/1373990895"
   },
   "geometry": {
@@ -50382,7 +50339,7 @@
   "id": "node/2045262519",
   "properties": {
     "amenity": "pharmacy",
-    "name": "Inseep",
+    "name": "Insssep",
     "id": "node/2045262519"
   },
   "geometry": {
@@ -66040,8 +65997,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4151072,
-      -34.5887165
+      -58.4150978,
+      -34.5886977
     ]
   }
 },
@@ -100256,6 +100213,23 @@
     "coordinates": [
       -58.5140353,
       -34.6818612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4701895474",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "amenity": "pharmacy",
+    "name": "La Santé",
+    "id": "node/4701895474"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4117622,
+      -34.5978874
     ]
   }
 },
@@ -148563,6 +148537,63 @@
     "coordinates": [
       -63.2316284,
       -32.4165192
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9570491017",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Nueva Rioja",
+    "id": "node/9570491017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5227226,
+      -31.5265813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9574031785",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Fátima",
+    "payment:Efectivo": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "id": "node/9574031785"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.1469057,
+      -32.6209446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9577922602",
+  "properties": {
+    "addr:city": "Salto Encantado",
+    "addr:street": "Avenida 8 de Septiembre",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Mar",
+    "id": "node/9577922602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -54.8316557,
+      -27.0844881
     ]
   }
 }

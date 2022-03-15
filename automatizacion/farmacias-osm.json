@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-11T02:09:41Z",
-    "timestamp_areas_base": "2022-03-11T01:22:54Z",
+    "timestamp_osm_base": "2022-03-15T02:09:59Z",
+    "timestamp_areas_base": "2022-03-15T01:20:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1842,8 +1842,8 @@
 {
   "type": "node",
   "id": 872671020,
-  "lat": -34.5911194,
-  "lon": -58.4146492,
+  "lat": -34.5911580,
+  "lon": -58.4146707,
   "tags": {
     "addr:housenumber": "1770",
     "addr:postcode": "1425",
@@ -3632,7 +3632,8 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Florida"
+    "name": "Florida",
+    "opening_hours": "Mo-Fr 08:30-13:00,17:00-21:00; Sa 09:00-13:00"
   }
 },
 {
@@ -3666,7 +3667,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Mayo",
-    "name:es": "Mayo"
+    "name:es": "Mayo",
+    "opening_hours": "Mo-Fr 09:00-22:00, Sa 08:30-13:30,17:00-22:00, PH,Su 10:00-13:30, Su 18:00-22:30"
   }
 },
 {
@@ -7988,7 +7990,7 @@
   "lon": -58.9928806,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Inseep"
+    "name": "Insssep"
   }
 },
 {
@@ -18617,8 +18619,8 @@
 {
   "type": "node",
   "id": 3124526334,
-  "lat": -34.5887165,
-  "lon": -58.4151072,
+  "lat": -34.5886977,
+  "lon": -58.4150978,
   "tags": {
     "addr:housenumber": "1845",
     "addr:street": "Jerónimo Salguero",
@@ -41931,6 +41933,17 @@
     "fixme": "name",
     "healthcare": "pharmacy",
     "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4701895474,
+  "lat": -34.5978874,
+  "lon": -58.4117622,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "amenity": "pharmacy",
+    "name": "La Santé"
   }
 },
 {
@@ -75229,6 +75242,45 @@
   }
 },
 {
+  "type": "node",
+  "id": 9570491017,
+  "lat": -31.5265813,
+  "lon": -68.5227226,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Nueva Rioja"
+  }
+},
+{
+  "type": "node",
+  "id": 9574031785,
+  "lat": -32.6209446,
+  "lon": -60.1469057,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Fátima",
+    "payment:Efectivo": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9577922602,
+  "lat": -27.0844881,
+  "lon": -54.8316557,
+  "tags": {
+    "addr:city": "Salto Encantado",
+    "addr:street": "Avenida 8 de Septiembre",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Mar"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -75891,30 +75943,6 @@
 },
 {
   "type": "way",
-  "id": 297437710,
-  "nodes": [
-    3013316466,
-    3013316467,
-    3013316468,
-    3013316469,
-    3013316466
-  ],
-  "tags": {
-    "addr:city": "Ibarlucea",
-    "addr:housenumber": "1032",
-    "addr:postcode": "S2143",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "building": "retail",
-    "contact:phone": "+54 341 490-4153",
-    "emergency": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Fedyszyn",
-    "smoking": "no"
-  }
-},
-{
-  "type": "way",
   "id": 300302155,
   "nodes": [
     4044971648,
@@ -76055,13 +76083,13 @@
 },
 {
   "type": "way",
-  "id": 305753420,
+  "id": 305753421,
   "nodes": [
-    3104178070,
     3104178078,
-    3089707652,
-    3089707648,
-    3104178070
+    3104178070,
+    3089707645,
+    3104178077,
+    3104178078
   ],
   "tags": {
     "addr:city": "Roldán",
@@ -76069,7 +76097,7 @@
     "addr:postcode": "S2134",
     "addr:street": "Bulevar José de San Martín",
     "amenity": "pharmacy",
-    "building": "retail",
+    "building": "yes",
     "healthcare": "pharmacy",
     "name": "Albinoli"
   }
@@ -101788,27 +101816,27 @@
 },
 {
   "type": "node",
-  "id": 3089707648,
-  "lat": -32.8997711,
-  "lon": -60.9090396
-},
-{
-  "type": "node",
-  "id": 3089707652,
-  "lat": -32.8998393,
-  "lon": -60.9090542
+  "id": 3089707645,
+  "lat": -32.8997976,
+  "lon": -60.9090759
 },
 {
   "type": "node",
   "id": 3104178070,
-  "lat": -32.8997631,
-  "lon": -60.9090930
+  "lat": -32.8998025,
+  "lon": -60.9090434
+},
+{
+  "type": "node",
+  "id": 3104178077,
+  "lat": -32.8998658,
+  "lon": -60.9090905
 },
 {
   "type": "node",
   "id": 3104178078,
-  "lat": -32.8998313,
-  "lon": -60.9091076
+  "lat": -32.8998707,
+  "lon": -60.9090580
 },
 {
   "type": "node",
@@ -103255,30 +103283,6 @@
   "id": 8420938537,
   "lat": -32.8584914,
   "lon": -60.7140181
-},
-{
-  "type": "node",
-  "id": 3013316466,
-  "lat": -32.8524936,
-  "lon": -60.7867638
-},
-{
-  "type": "node",
-  "id": 3013316467,
-  "lat": -32.8525494,
-  "lon": -60.7867622
-},
-{
-  "type": "node",
-  "id": 3013316468,
-  "lat": -32.8525481,
-  "lon": -60.7866978
-},
-{
-  "type": "node",
-  "id": 3013316469,
-  "lat": -32.8524924,
-  "lon": -60.7866994
 },
 {
   "type": "node",
