@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-16T02:09:43Z",
-    "timestamp_areas_base": "2022-03-16T01:36:22Z",
+    "timestamp_osm_base": "2022-03-17T02:14:37Z",
+    "timestamp_areas_base": "2022-03-16T06:38:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -26055,9 +26055,18 @@
   "lat": -34.6662881,
   "lon": -58.6997909,
   "tags": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "23",
+    "addr:postcode": "1718",
+    "addr:street": "Noguera",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Central Oeste"
+    "name": "Central Oeste",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "operator": "Central Oeste",
+    "phone": "02204829461",
+    "website": "http://www.centraloeste.com.ar/"
   }
 },
 {
@@ -64148,8 +64157,8 @@
 {
   "type": "node",
   "id": 7315347704,
-  "lat": -27.0861981,
-  "lon": -54.8309505,
+  "lat": -27.0861019,
+  "lon": -54.8310087,
   "tags": {
     "addr:city": "Villa Salto Encantado",
     "addr:postcode": "N3364",
@@ -75281,6 +75290,58 @@
   }
 },
 {
+  "type": "node",
+  "id": 9583731284,
+  "lat": -34.6660106,
+  "lon": -58.6992108,
+  "tags": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "23870",
+    "addr:postcode": "1718",
+    "addr:street": "Avenida Presidente Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Aparicio - Estilo Salud",
+    "opening_hours": "Mo-Sa 08:30-21:00",
+    "phone": "01122761829",
+    "website": "http://www.estilosalud.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 9583731301,
+  "lat": -34.6706030,
+  "lon": -58.6942466,
+  "tags": {
+    "addr:city": "San Antonio de Padua",
+    "addr:postcode": "1718",
+    "addr:street": "Noguera",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Nuova Varrone",
+    "phone": "02204822165"
+  }
+},
+{
+  "type": "node",
+  "id": 9583731303,
+  "lat": -34.6708979,
+  "lon": -58.6988224,
+  "tags": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "1608",
+    "addr:postcode": "1718",
+    "addr:street": "Intendente Mendiluce",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Guercio",
+    "phone": "02204855212"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -80352,23 +80413,6 @@
     "building": "yes",
     "fixme": "name",
     "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "way",
-  "id": 468786787,
-  "nodes": [
-    4632547274,
-    4632547275,
-    4632547276,
-    4632547277,
-    4632547274
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Estilo Salud"
   }
 },
 {
@@ -87826,28 +87870,6 @@
     "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "way",
-  "id": 614348990,
-  "nodes": [
-    5811448833,
-    5811448834,
-    5811448835,
-    5811448836,
-    5811448833
-  ],
-  "tags": {
-    "addr:city": "San Antonio de Padua",
-    "addr:housenumber": "1608",
-    "addr:postcode": "1718",
-    "addr:street": "Intendente Mendiluce",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Guercio",
-    "phone": "0220 485-5212"
   }
 },
 {
@@ -107903,54 +107925,6 @@
   "id": 3080758814,
   "lat": -34.7097268,
   "lon": -58.5150946
-},
-{
-  "type": "node",
-  "id": 4632547274,
-  "lat": -34.6659794,
-  "lon": -58.6992472
-},
-{
-  "type": "node",
-  "id": 4632547275,
-  "lat": -34.6659679,
-  "lon": -58.6991538
-},
-{
-  "type": "node",
-  "id": 4632547276,
-  "lat": -34.6661373,
-  "lon": -58.6991202
-},
-{
-  "type": "node",
-  "id": 4632547277,
-  "lat": -34.6661486,
-  "lon": -58.6992141
-},
-{
-  "type": "node",
-  "id": 5811448833,
-  "lat": -34.6708092,
-  "lon": -58.6988225
-},
-{
-  "type": "node",
-  "id": 5811448834,
-  "lat": -34.6708561,
-  "lon": -58.6989519
-},
-{
-  "type": "node",
-  "id": 5811448835,
-  "lat": -34.6709841,
-  "lon": -58.6988379
-},
-{
-  "type": "node",
-  "id": 5811448836,
-  "lat": -34.6708916,
-  "lon": -58.6987501
 },
 {
   "type": "node",

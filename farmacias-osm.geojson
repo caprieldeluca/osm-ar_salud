@@ -10995,44 +10995,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/468786787",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Estilo Salud",
-    "id": "way/468786787"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.6992472,
-          -34.6659794
-        ],
-        [
-          -58.6992141,
-          -34.6661486
-        ],
-        [
-          -58.6991202,
-          -34.6661373
-        ],
-        [
-          -58.6991538,
-          -34.6659679
-        ],
-        [
-          -58.6992472,
-          -34.6659794
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/468786929",
   "properties": {
     "addr:city": "Temperley",
@@ -27135,49 +27097,6 @@
         [
           -61.4846942,
           -31.2528324
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/614348990",
-  "properties": {
-    "addr:city": "San Antonio de Padua",
-    "addr:housenumber": "1608",
-    "addr:postcode": "1718",
-    "addr:street": "Intendente Mendiluce",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Guercio",
-    "phone": "0220 485-5212",
-    "id": "way/614348990"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.6988225,
-          -34.6708092
-        ],
-        [
-          -58.6989519,
-          -34.6708561
-        ],
-        [
-          -58.6988379,
-          -34.6709841
-        ],
-        [
-          -58.6987501,
-          -34.6708916
-        ],
-        [
-          -58.6988225,
-          -34.6708092
         ]
       ]
     ]
@@ -76960,9 +76879,18 @@
   "type": "Feature",
   "id": "node/3695518281",
   "properties": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "23",
+    "addr:postcode": "1718",
+    "addr:street": "Noguera",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Central Oeste",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "operator": "Central Oeste",
+    "phone": "02204829461",
+    "website": "http://www.centraloeste.com.ar/",
     "id": "node/3695518281"
   },
   "geometry": {
@@ -132780,8 +132708,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -54.8309505,
-      -27.0861981
+      -54.8310087,
+      -27.0861019
     ]
   }
 },
@@ -148594,6 +148522,76 @@
     "coordinates": [
       -54.8316557,
       -27.0844881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9583731284",
+  "properties": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "23870",
+    "addr:postcode": "1718",
+    "addr:street": "Avenida Presidente Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Aparicio - Estilo Salud",
+    "opening_hours": "Mo-Sa 08:30-21:00",
+    "phone": "01122761829",
+    "website": "http://www.estilosalud.com.ar/",
+    "id": "node/9583731284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6992108,
+      -34.6660106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9583731301",
+  "properties": {
+    "addr:city": "San Antonio de Padua",
+    "addr:postcode": "1718",
+    "addr:street": "Noguera",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Nuova Varrone",
+    "phone": "02204822165",
+    "id": "node/9583731301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6942466,
+      -34.670603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9583731303",
+  "properties": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "1608",
+    "addr:postcode": "1718",
+    "addr:street": "Intendente Mendiluce",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Guercio",
+    "phone": "02204855212",
+    "id": "node/9583731303"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6988224,
+      -34.6708979
     ]
   }
 }
