@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-03-25T01:58:36Z",
-    "timestamp_areas_base": "2022-03-25T00:34:27Z",
+    "timestamp_osm_base": "2022-03-26T01:58:44Z",
+    "timestamp_areas_base": "2022-03-26T01:48:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6612,18 +6612,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sala de primeros auxilios"
-  }
-},
-{
-  "type": "node",
-  "id": 3298704620,
-  "lat": -37.9950672,
-  "lon": -57.5872982,
-  "tags": {
-    "amenity": "hospital",
-    "emergency": "no",
-    "healthcare": "hospital",
-    "name": "Unidad Sanitaria Centenario"
   }
 },
 {
@@ -18721,17 +18709,6 @@
 },
 {
   "type": "node",
-  "id": 7369196279,
-  "lat": -36.6412139,
-  "lon": -64.2803361,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Ctro. de Salud Barrio Rio Atuel"
-  }
-},
-{
-  "type": "node",
   "id": 7369196280,
   "lat": -37.1221278,
   "lon": -64.5159500,
@@ -23363,7 +23340,7 @@
     "healthcare": "hospital",
     "name": "Sala Ramón Carrillo",
     "operator:type": "public",
-    "phone": "+54 2314 15628124",
+    "phone": "+54 (2314) 15628124",
     "ref:sisa_codigo": "50064062201967",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://www.gba.gob.ar/provinciaabierta/mapadedependencias"
@@ -24425,8 +24402,8 @@
 {
   "type": "node",
   "id": 9530719197,
-  "lat": -27.3705517,
-  "lon": -58.5116861,
+  "lat": -27.3705898,
+  "lon": -58.5114662,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -24793,6 +24770,17 @@
   "tags": {
     "amenity": "hospital",
     "name": "Centro De Salud Enfernero Nicolas Lavagno"
+  }
+},
+{
+  "type": "node",
+  "id": 9604556294,
+  "lat": -27.3766358,
+  "lon": -58.5115957,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Julio O. Rivero",
+    "operator": "Gobierno de Corrientes"
   }
 },
 {
@@ -49233,6 +49221,30 @@
 },
 {
   "type": "way",
+  "id": 845751275,
+  "nodes": [
+    7890528457,
+    9605145112,
+    7890528458,
+    7890528459,
+    7890528460,
+    7890528461,
+    7890528462,
+    7369196279,
+    7890528463,
+    7890528464,
+    9605145113,
+    7890528457
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Ctro. de Salud Barrio Rio Atuel"
+  }
+},
+{
+  "type": "way",
   "id": 846604864,
   "nodes": [
     7899101473,
@@ -51666,6 +51678,26 @@
     "building": "yes",
     "healthcare": "hospital",
     "name": "HPC Area Azcuenaga"
+  }
+},
+{
+  "type": "way",
+  "id": 1043634971,
+  "nodes": [
+    9604769784,
+    9604769783,
+    9604769782,
+    3298704620,
+    9604769781,
+    3602725051,
+    3602725050,
+    9604769784
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "Unidad Sanitaria Centenario"
   }
 },
 {
@@ -62383,6 +62415,48 @@
 },
 {
   "type": "node",
+  "id": 3298704620,
+  "lat": -37.9950377,
+  "lon": -57.5870864
+},
+{
+  "type": "node",
+  "id": 3602725050,
+  "lat": -37.9951342,
+  "lon": -57.5872731
+},
+{
+  "type": "node",
+  "id": 3602725051,
+  "lat": -37.9950455,
+  "lon": -57.5872032
+},
+{
+  "type": "node",
+  "id": 9604769781,
+  "lat": -37.9949986,
+  "lon": -57.5871662
+},
+{
+  "type": "node",
+  "id": 9604769782,
+  "lat": -37.9952198,
+  "lon": -57.5867145
+},
+{
+  "type": "node",
+  "id": 9604769783,
+  "lat": -37.9953695,
+  "lon": -57.5868325
+},
+{
+  "type": "node",
+  "id": 9604769784,
+  "lat": -37.9951483,
+  "lon": -57.5872842
+},
+{
+  "type": "node",
   "id": 3701210878,
   "lat": -37.9937660,
   "lon": -57.6003552
@@ -66598,6 +66672,72 @@
   "id": 5408586737,
   "lat": -36.6466005,
   "lon": -64.2860726
+},
+{
+  "type": "node",
+  "id": 7369196279,
+  "lat": -36.6412140,
+  "lon": -64.2802568
+},
+{
+  "type": "node",
+  "id": 7890528457,
+  "lat": -36.6410793,
+  "lon": -64.2803058
+},
+{
+  "type": "node",
+  "id": 7890528458,
+  "lat": -36.6410502,
+  "lon": -64.2802508
+},
+{
+  "type": "node",
+  "id": 7890528459,
+  "lat": -36.6410110,
+  "lon": -64.2802522
+},
+{
+  "type": "node",
+  "id": 7890528460,
+  "lat": -36.6410120,
+  "lon": -64.2801435
+},
+{
+  "type": "node",
+  "id": 7890528461,
+  "lat": -36.6412741,
+  "lon": -64.2801509
+},
+{
+  "type": "node",
+  "id": 7890528462,
+  "lat": -36.6412708,
+  "lon": -64.2802589
+},
+{
+  "type": "node",
+  "id": 7890528463,
+  "lat": -36.6411788,
+  "lon": -64.2802555
+},
+{
+  "type": "node",
+  "id": 7890528464,
+  "lat": -36.6411444,
+  "lon": -64.2802931
+},
+{
+  "type": "node",
+  "id": 9605145112,
+  "lat": -36.6410793,
+  "lon": -64.2802870
+},
+{
+  "type": "node",
+  "id": 9605145113,
+  "lat": -36.6411433,
+  "lon": -64.2803078
 },
 {
   "type": "node",
@@ -82412,8 +82552,8 @@
 {
   "type": "node",
   "id": 7639626234,
-  "lat": -34.1685769,
-  "lon": -58.9491455
+  "lat": -34.1685764,
+  "lon": -58.9491792
 },
 {
   "type": "node",
