@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-03T02:04:11Z",
-    "timestamp_areas_base": "2022-04-03T01:33:48Z",
+    "timestamp_osm_base": "2022-04-04T02:04:38Z",
+    "timestamp_areas_base": "2022-04-04T01:45:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -336,7 +336,6 @@
   "lon": -58.9785241,
   "tags": {
     "addr:city": "Resistencia",
-    "addr:full": "Avenida Vélez Sarsfield 98",
     "addr:housenumber": "98",
     "addr:postcode": "3500",
     "addr:street": "Avenida Vélez Sarsfield",
@@ -346,7 +345,7 @@
     "name": "Laboratorio Central",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "03722-452588",
+    "phone": "+54 362 4452588",
     "ref:sisa_codigo": "51221402126623",
     "ref:sisa_tipologia": "ESSID"
   }
@@ -34996,10 +34995,9 @@
     "addr:street": "Avenida 9 de Julio",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Central De Coordinacion De Emergencias Medicas",
+    "name": "Unidad Central De Coordinación De Emergencias Médicas",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "numero de emergencias107",
     "ref:sisa_codigo": "53221402126799",
     "ref:sisa_tipologia": "ESCL",
     "short_name": "UCCEM"
@@ -35018,10 +35016,11 @@
     "addr:street": "Ameghino",
     "amenity": "clinic",
     "healthcare": "clinic",
+    "healthcare:speciality": "psychiatry",
     "name": "Casa De Medio Camino La Casita",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "0362 445254",
+    "phone": "+54 362 4445254",
     "ref:sisa_codigo": "52221402127149",
     "ref:sisa_tipologia": "ESSIT"
   }
@@ -35142,7 +35141,7 @@
     "name": "Centro De La Medida De Seguridad Curativa",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "0362 4420222",
+    "phone": "+54 362 4420222",
     "ref:sisa_codigo": "50221402127148",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -35275,7 +35274,7 @@
     "name": "Centro Dermatologico Doctor Manuel M. Gimenez",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "(03722) 452602",
+    "phone": "+54 362 4452602",
     "ref:sisa_codigo": "50221402126494",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -35511,7 +35510,7 @@
     "name": "Centro De Aplicaciones Bionucleares",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "0362 4425409",
+    "phone": "+54 362 4425409",
     "ref:sisa_codigo": "52221402127277",
     "ref:sisa_tipologia": "ESSIT",
     "short_name": "CABIN"
@@ -61370,6 +61369,25 @@
   }
 },
 {
+  "type": "way",
+  "id": 1047628235,
+  "nodes": [
+    9633371764,
+    9633371765,
+    9633371766,
+    9633371767,
+    9633371768,
+    9633371769,
+    9633371764
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Juan Bautista",
+    "operator:type": "public"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -75100,6 +75118,42 @@
   "id": 8433131265,
   "lat": -32.8586036,
   "lon": -60.7027069
+},
+{
+  "type": "node",
+  "id": 9633371764,
+  "lat": -32.7745646,
+  "lon": -60.7870517
+},
+{
+  "type": "node",
+  "id": 9633371765,
+  "lat": -32.7744410,
+  "lon": -60.7868272
+},
+{
+  "type": "node",
+  "id": 9633371766,
+  "lat": -32.7742863,
+  "lon": -60.7869477
+},
+{
+  "type": "node",
+  "id": 9633371767,
+  "lat": -32.7742599,
+  "lon": -60.7868997
+},
+{
+  "type": "node",
+  "id": 9633371768,
+  "lat": -32.7740682,
+  "lon": -60.7870489
+},
+{
+  "type": "node",
+  "id": 9633371769,
+  "lat": -32.7742181,
+  "lon": -60.7873214
 },
 {
   "type": "node",

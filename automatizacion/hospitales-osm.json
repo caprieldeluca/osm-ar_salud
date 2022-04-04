@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-03T01:59:13Z",
-    "timestamp_areas_base": "2022-04-03T01:33:48Z",
+    "timestamp_osm_base": "2022-04-04T01:59:36Z",
+    "timestamp_areas_base": "2022-04-04T01:45:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3886,7 +3886,7 @@
   "lon": -58.9712684,
   "tags": {
     "addr:city": "Resistencia",
-    "addr:full": "Avenida 9 De Julio 1698",
+    "addr:housenumber": "1698",
     "addr:postcode": "3500",
     "addr:street": "Avenida 9 de Julio",
     "alt_name": "C M Q R Centro Medico Quirurgico Resistencia",
@@ -3895,7 +3895,7 @@
     "name": "Centro Médico Quirúrgico Resistencia",
     "operator": "Privado",
     "operator:type": "private",
-    "phone": "0362 4413309",
+    "phone": "+54 362 4413309",
     "ref:sisa_codigo": "10221402326935",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -21860,9 +21860,9 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clinica Klinic",
-    "operator": "Privado",
+    "operator": "Clinica Klinic S.R.L.",
     "operator:type": "private",
-    "phone": "(0362)- 448-5606",
+    "phone": "+54 362 4485606",
     "ref:sisa_codigo": "10221402326015",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -47750,7 +47750,7 @@
     "name": "Hospital Geriátrico Colonia Baranda",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "420332",
+    "phone": "+54 362 4420332",
     "ref:sisa_codigo": "10221402126059",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -52394,6 +52394,21 @@
     "ref:sisa_codigo": "10140982331271",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.imrc.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1047723837,
+  "nodes": [
+    9634364247,
+    9634364248,
+    9634364249,
+    9634364250,
+    9634364247
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
   }
 },
 {
@@ -82378,6 +82393,30 @@
   "id": 7487698843,
   "lat": -36.7808995,
   "lon": -59.0860537
+},
+{
+  "type": "node",
+  "id": 9634364247,
+  "lat": -36.7818675,
+  "lon": -59.0861260
+},
+{
+  "type": "node",
+  "id": 9634364248,
+  "lat": -36.7812446,
+  "lon": -59.0853557
+},
+{
+  "type": "node",
+  "id": 9634364249,
+  "lat": -36.7804117,
+  "lon": -59.0864056
+},
+{
+  "type": "node",
+  "id": 9634364250,
+  "lat": -36.7810348,
+  "lon": -59.0871760
 },
 {
   "type": "node",
