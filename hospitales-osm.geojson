@@ -38465,8 +38465,15 @@
   "type": "Feature",
   "id": "way/448579762",
   "properties": {
+    "addr:postcode": "7600",
+    "addr:street": "Córdoba",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
+    "name": "Hospital Privado de Comunidad (HPC)",
+    "phone": "2234990000",
+    "website": "https://www.hpc.org.ar/",
+    "wikidata": "Q30254200",
     "id": "way/448579762"
   },
   "geometry": {
@@ -38480,6 +38487,10 @@
         [
           -57.5653069,
           -38.0221147
+        ],
+        [
+          -57.5652426,
+          -38.0220353
         ],
         [
           -57.5647931,
@@ -38534,8 +38545,8 @@
           -38.0222988
         ],
         [
-          -57.5657977,
-          -38.022373
+          -57.5657975,
+          -38.0223728
         ],
         [
           -57.5657824,
@@ -40570,6 +40581,68 @@
         [
           -58.4862491,
           -34.528368
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/472775774",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:full": "Acevedo 865",
+    "addr:housenumber": "865",
+    "addr:postcode": "1414",
+    "addr:street": "Acevedo",
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Centro Médico Integral Fitz Roy",
+    "operator": "Privado",
+    "operator:type": "private",
+    "phone": "+54 (11) 4777-4800",
+    "ref:sisa_codigo": "10020012315179",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wikidata": "Q93139724",
+    "id": "way/472775774"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4357553,
+          -34.595017
+        ],
+        [
+          -58.4356752,
+          -34.5951
+        ],
+        [
+          -58.4354941,
+          -34.5952878
+        ],
+        [
+          -58.4354184,
+          -34.5952384
+        ],
+        [
+          -58.4353417,
+          -34.5953179
+        ],
+        [
+          -58.4352459,
+          -34.5952553
+        ],
+        [
+          -58.4355837,
+          -34.5949049
+        ],
+        [
+          -58.4357553,
+          -34.595017
         ]
       ]
     ]
@@ -70012,6 +70085,116 @@
 },
 {
   "type": "Feature",
+  "id": "way/1047776164",
+  "properties": {
+    "addr:city": "Río Grande",
+    "addr:full": "20 De Junio 815",
+    "addr:housenumber": "815",
+    "addr:postcode": "9420",
+    "addr:street": "20 de Junio",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinica De Especialidades Medicas Privada (cemep)",
+    "opening_hours": "24/7",
+    "operator": "Privado",
+    "operator:type": "private",
+    "phone": "(02964) 431002",
+    "ref:sisa_codigo": "10940072395000",
+    "ref:sisa_tipologia": "ESCIG",
+    "toilets:wheelchair": "yes",
+    "website": "https://cemep.com.ar/",
+    "wheelchair": "yes",
+    "id": "way/1047776164"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.7134046,
+          -53.7662411
+        ],
+        [
+          -67.7128185,
+          -53.7665487
+        ],
+        [
+          -67.7121882,
+          -53.7661111
+        ],
+        [
+          -67.7121902,
+          -53.7660239
+        ],
+        [
+          -67.7125785,
+          -53.765733
+        ],
+        [
+          -67.7126496,
+          -53.765729
+        ],
+        [
+          -67.7134046,
+          -53.7662411
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1047781440",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:country": "AR",
+    "addr:housenumber": "402",
+    "addr:postcode": "4000",
+    "addr:street": "Congreso de Tucumán",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "C.A.P.S Villa Alem",
+    "id": "way/1047781440"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.2073859,
+          -26.8476392
+        ],
+        [
+          -65.2074469,
+          -26.847939
+        ],
+        [
+          -65.2073289,
+          -26.8479575
+        ],
+        [
+          -65.2072909,
+          -26.8477638
+        ],
+        [
+          -65.2072779,
+          -26.8476973
+        ],
+        [
+          -65.2073077,
+          -26.847656
+        ],
+        [
+          -65.2073859,
+          -26.8476392
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -70885,29 +71068,6 @@
     "coordinates": [
       -57.5516277,
       -38.0025243
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1236954457",
-  "properties": {
-    "addr:postcode": "7600",
-    "addr:street": "Córdoba",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Privado de Comunidad (HPC)",
-    "phone": "2234990000",
-    "website": "https://www.hpc.org.ar/",
-    "wikidata": "Q30254200",
-    "id": "node/1236954457"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -57.5655725,
-      -38.022281
     ]
   }
 },
@@ -74125,37 +74285,6 @@
     "coordinates": [
       -67.7099186,
       -53.7707137
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2037066707",
-  "properties": {
-    "addr:city": "Río Grande",
-    "addr:full": "20 De Junio 815",
-    "addr:housenumber": "815",
-    "addr:postcode": "9420",
-    "addr:street": "20 de Junio",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clinica De Especialidades Medicas Privada (cemep)",
-    "opening_hours": "24/7",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "(02964) 431002",
-    "ref:sisa_codigo": "10940072395000",
-    "ref:sisa_tipologia": "ESCIG",
-    "toilets:wheelchair": "yes",
-    "website": "https://cemep.com.ar/",
-    "wheelchair": "yes",
-    "id": "node/2037066707"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.7128222,
-      -53.7661092
     ]
   }
 },
@@ -81174,29 +81303,6 @@
     "coordinates": [
       -58.2270161,
       -34.7709934
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3749953053",
-  "properties": {
-    "addr:city": "San Miguel de Tucumán",
-    "addr:country": "AR",
-    "addr:housenumber": "402",
-    "addr:postcode": "4000",
-    "addr:street": "Congreso de Tucumán",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "C.A.P.S Villa Alem",
-    "id": "node/3749953053"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.2072943,
-      -26.8477259
     ]
   }
 },
@@ -98690,34 +98796,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7502103165",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:full": "Acevedo 865",
-    "addr:housenumber": "865",
-    "addr:postcode": "1414",
-    "addr:street": "Acevedo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro Medico Integral Fitz Roy",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "+54 (11) 4777-4800",
-    "ref:sisa_codigo": "10020012315179",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93139724",
-    "id": "node/7502103165"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4356463,
-      -34.5949914
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7502113748",
   "properties": {
     "addr:city": "Rafaela",
@@ -100030,7 +100108,7 @@
     "name": "Hospital Fuerte Esperanza",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "03715-400288",
+    "phone": "+54 3715 400288",
     "ref:sisa_codigo": "10220632126054",
     "ref:sisa_tipologia": "ESCIG",
     "id": "node/7515629621"

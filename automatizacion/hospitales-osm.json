@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.1 74a55df1",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-04T01:59:36Z",
-    "timestamp_areas_base": "2022-04-04T01:45:25Z",
+    "timestamp_osm_base": "2022-04-05T01:58:48Z",
+    "timestamp_areas_base": "2022-04-05T01:58:48Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -638,23 +638,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": " Clínica del Niño y la Madre"
-  }
-},
-{
-  "type": "node",
-  "id": 1236954457,
-  "lat": -38.0222810,
-  "lon": -57.5655725,
-  "tags": {
-    "addr:postcode": "7600",
-    "addr:street": "Córdoba",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Privado de Comunidad (HPC)",
-    "phone": "2234990000",
-    "website": "https://www.hpc.org.ar/",
-    "wikidata": "Q30254200"
   }
 },
 {
@@ -2869,31 +2852,6 @@
     "ref:sisa_codigo": "10940072395004",
     "ref:sisa_tipologia": "ESCIG",
     "website": "http://sanatoriofueguino.com/",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 2037066707,
-  "lat": -53.7661092,
-  "lon": -67.7128222,
-  "tags": {
-    "addr:city": "Río Grande",
-    "addr:full": "20 De Junio 815",
-    "addr:housenumber": "815",
-    "addr:postcode": "9420",
-    "addr:street": "20 de Junio",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clinica De Especialidades Medicas Privada (cemep)",
-    "opening_hours": "24/7",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "(02964) 431002",
-    "ref:sisa_codigo": "10940072395000",
-    "ref:sisa_tipologia": "ESCIG",
-    "toilets:wheelchair": "yes",
-    "website": "https://cemep.com.ar/",
     "wheelchair": "yes"
   }
 },
@@ -7837,23 +7795,6 @@
     "ref:sisa_codigo": "10060912317143",
     "ref:sisa_tipologia": "ESCIG",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 3749953053,
-  "lat": -26.8477259,
-  "lon": -65.2072943,
-  "tags": {
-    "addr:city": "San Miguel de Tucumán",
-    "addr:country": "AR",
-    "addr:housenumber": "402",
-    "addr:postcode": "4000",
-    "addr:street": "Congreso de Tucumán",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "C.A.P.S Villa Alem"
   }
 },
 {
@@ -20498,28 +20439,6 @@
 },
 {
   "type": "node",
-  "id": 7502103165,
-  "lat": -34.5949914,
-  "lon": -58.4356463,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:full": "Acevedo 865",
-    "addr:housenumber": "865",
-    "addr:postcode": "1414",
-    "addr:street": "Acevedo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro Medico Integral Fitz Roy",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "+54 (11) 4777-4800",
-    "ref:sisa_codigo": "10020012315179",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93139724"
-  }
-},
-{
-  "type": "node",
   "id": 7502113748,
   "lat": -31.2514195,
   "lon": -61.4939831,
@@ -21522,7 +21441,7 @@
     "name": "Hospital Fuerte Esperanza",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "03715-400288",
+    "phone": "+54 3715 400288",
     "ref:sisa_codigo": "10220632126054",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -38679,12 +38598,20 @@
     4455832196,
     4455823633,
     4455823634,
+    1236954457,
     4455832203,
     4455820551
   ],
   "tags": {
+    "addr:postcode": "7600",
+    "addr:street": "Córdoba",
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Privado de Comunidad (HPC)",
+    "phone": "2234990000",
+    "website": "https://www.hpc.org.ar/",
+    "wikidata": "Q30254200"
   }
 },
 {
@@ -39630,6 +39557,38 @@
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.hospitalprivadomodelo.org/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 472775774,
+  "nodes": [
+    4669788027,
+    7502103165,
+    4669788028,
+    4669788029,
+    4669788030,
+    4669788031,
+    4669788032,
+    4669788027
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:full": "Acevedo 865",
+    "addr:housenumber": "865",
+    "addr:postcode": "1414",
+    "addr:street": "Acevedo",
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Centro Médico Integral Fitz Roy",
+    "operator": "Privado",
+    "operator:type": "private",
+    "phone": "+54 (11) 4777-4800",
+    "ref:sisa_codigo": "10020012315179",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wikidata": "Q93139724"
   }
 },
 {
@@ -52412,6 +52371,62 @@
   }
 },
 {
+  "type": "way",
+  "id": 1047776164,
+  "nodes": [
+    9634839660,
+    9634839659,
+    9634839658,
+    9634839657,
+    9634839656,
+    2037066707,
+    9634839660
+  ],
+  "tags": {
+    "addr:city": "Río Grande",
+    "addr:full": "20 De Junio 815",
+    "addr:housenumber": "815",
+    "addr:postcode": "9420",
+    "addr:street": "20 de Junio",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinica De Especialidades Medicas Privada (cemep)",
+    "opening_hours": "24/7",
+    "operator": "Privado",
+    "operator:type": "private",
+    "phone": "(02964) 431002",
+    "ref:sisa_codigo": "10940072395000",
+    "ref:sisa_tipologia": "ESCIG",
+    "toilets:wheelchair": "yes",
+    "website": "https://cemep.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1047781440,
+  "nodes": [
+    9634870330,
+    9634870329,
+    9634870328,
+    3749953053,
+    9634870327,
+    9634870326,
+    9634870330
+  ],
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:country": "AR",
+    "addr:housenumber": "402",
+    "addr:postcode": "4000",
+    "addr:street": "Congreso de Tucumán",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "C.A.P.S Villa Alem"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -53515,6 +53530,42 @@
   "id": 8402626650,
   "lat": -53.7831084,
   "lon": -67.6982770
+},
+{
+  "type": "node",
+  "id": 2037066707,
+  "lat": -53.7657290,
+  "lon": -67.7126496
+},
+{
+  "type": "node",
+  "id": 9634839656,
+  "lat": -53.7657330,
+  "lon": -67.7125785
+},
+{
+  "type": "node",
+  "id": 9634839657,
+  "lat": -53.7660239,
+  "lon": -67.7121902
+},
+{
+  "type": "node",
+  "id": 9634839658,
+  "lat": -53.7661111,
+  "lon": -67.7121882
+},
+{
+  "type": "node",
+  "id": 9634839659,
+  "lat": -53.7665487,
+  "lon": -67.7128185
+},
+{
+  "type": "node",
+  "id": 9634839660,
+  "lat": -53.7662411,
+  "lon": -67.7134046
 },
 {
   "type": "node",
@@ -63658,6 +63709,12 @@
 },
 {
   "type": "node",
+  "id": 1236954457,
+  "lat": -38.0220353,
+  "lon": -57.5652426
+},
+{
+  "type": "node",
   "id": 2340975056,
   "lat": -38.0223636,
   "lon": -57.5646418
@@ -63671,8 +63728,8 @@
 {
   "type": "node",
   "id": 4455820552,
-  "lat": -38.0223730,
-  "lon": -57.5657977
+  "lat": -38.0223728,
+  "lon": -57.5657975
 },
 {
   "type": "node",
@@ -90436,6 +90493,48 @@
 },
 {
   "type": "node",
+  "id": 4669788027,
+  "lat": -34.5950170,
+  "lon": -58.4357553
+},
+{
+  "type": "node",
+  "id": 4669788028,
+  "lat": -34.5952878,
+  "lon": -58.4354941
+},
+{
+  "type": "node",
+  "id": 4669788029,
+  "lat": -34.5952384,
+  "lon": -58.4354184
+},
+{
+  "type": "node",
+  "id": 4669788030,
+  "lat": -34.5953179,
+  "lon": -58.4353417
+},
+{
+  "type": "node",
+  "id": 4669788031,
+  "lat": -34.5952553,
+  "lon": -58.4352459
+},
+{
+  "type": "node",
+  "id": 4669788032,
+  "lat": -34.5949049,
+  "lon": -58.4355837
+},
+{
+  "type": "node",
+  "id": 7502103165,
+  "lat": -34.5951000,
+  "lon": -58.4356752
+},
+{
+  "type": "node",
   "id": 2616815599,
   "lat": -34.6066273,
   "lon": -58.4265302
@@ -102037,6 +102136,42 @@
   "id": 1149032314,
   "lat": -26.8412095,
   "lon": -65.2104844
+},
+{
+  "type": "node",
+  "id": 3749953053,
+  "lat": -26.8477638,
+  "lon": -65.2072909
+},
+{
+  "type": "node",
+  "id": 9634870326,
+  "lat": -26.8476560,
+  "lon": -65.2073077
+},
+{
+  "type": "node",
+  "id": 9634870327,
+  "lat": -26.8476973,
+  "lon": -65.2072779
+},
+{
+  "type": "node",
+  "id": 9634870328,
+  "lat": -26.8479575,
+  "lon": -65.2073289
+},
+{
+  "type": "node",
+  "id": 9634870329,
+  "lat": -26.8479390,
+  "lon": -65.2074469
+},
+{
+  "type": "node",
+  "id": 9634870330,
+  "lat": -26.8476392,
+  "lon": -65.2073859
 },
 {
   "type": "node",

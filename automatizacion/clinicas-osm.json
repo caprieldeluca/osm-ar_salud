@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-04T02:04:38Z",
-    "timestamp_areas_base": "2022-04-04T01:45:25Z",
+    "timestamp_osm_base": "2022-04-05T02:04:58Z",
+    "timestamp_areas_base": "2022-04-05T01:58:48Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1305,14 +1305,16 @@
   "tags": {
     "addr:city": "Resistencia",
     "addr:full": "Pasaje Cruz Roja 111",
+    "addr:housenumber": "111",
     "addr:postcode": "3500",
     "addr:street": "Pasaje Cruz Roja",
     "amenity": "clinic",
+    "contact:facebook": "https://facebook.com/centrodesaludbarriotoba",
     "healthcare": "clinic",
     "name": "Centro de Salud Barrio Toba",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "(03722) 468562",
+    "phone": "+54 362 4468562",
     "ref:sisa_codigo": "50221402126163",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -1920,7 +1922,7 @@
     "name": "Centro de Salud Barrio Santa Rita",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "CENTREX 67373",
+    "phone": "+54 362 4467373",
     "ref:sisa_codigo": "50221402126450",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -2248,8 +2250,17 @@
   "lat": -27.4250881,
   "lon": -59.0265086,
   "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "3750",
+    "addr:street": "Mendoza",
     "amenity": "clinic",
-    "name": "Centro de Salud Barrio Cacique Pelayo"
+    "healthcare": "clinic",
+    "healthcare:speciality": "obstetrics;dentist;social_work",
+    "name": "Centro de Salud Barrio Cacique Pelayo",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-12:00",
+    "operator": "Ministerio de Salud Pública Chaco",
+    "operator:type": "public",
+    "phone": "+54 362 4468560"
   }
 },
 {
@@ -3555,10 +3566,12 @@
     "alt_name": "Centro De Salud Enrique Finochietto",
     "amenity": "clinic",
     "healthcare": "clinic",
+    "healthcare:speciality": "obstetrics;nutrition;dentist;pediatric;kinesitherapy;clinical_laboratory",
     "name": "Centro de Salud Doctor Finocchieto",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-12:00",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "03722-488605",
+    "phone": "+54 362 4488605",
     "ref:sisa_codigo": "50221402126253",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -35094,14 +35107,16 @@
   "tags": {
     "addr:city": "Resistencia",
     "addr:full": "Julio Florencio Acosta 3300 Y Haiti",
+    "addr:housenumber": "3002",
     "addr:postcode": "3500",
     "addr:street": "Julio E. Acosta",
     "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/pg/Centro-de-Salud-villa-Don-Andres-1954313931499973",
     "healthcare": "clinic",
-    "name": "Centro De Salud Villa Don Andres",
+    "name": "Centro De Salud Villa Don Andrés",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "0362 4765014",
+    "phone": "+54 362 4765014",
     "ref:sisa_codigo": "50221402126474",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -49238,27 +49253,6 @@
     "healthcare": "clinic",
     "name": "Centro Medico Laboral",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
-  }
-},
-{
-  "type": "way",
-  "id": 472775774,
-  "nodes": [
-    4669788027,
-    4669788028,
-    4669788029,
-    4669788030,
-    4669788031,
-    4669788032,
-    4669788027
-  ],
-  "tags": {
-    "addr:street": "Acevedo",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Centro Médico Integral Fitz Roy",
-    "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
 {
@@ -82198,42 +82192,6 @@
   "id": 4675836851,
   "lat": -34.5920238,
   "lon": -58.4495025
-},
-{
-  "type": "node",
-  "id": 4669788027,
-  "lat": -34.5950127,
-  "lon": -58.4357205
-},
-{
-  "type": "node",
-  "id": 4669788028,
-  "lat": -34.5952777,
-  "lon": -58.4354777
-},
-{
-  "type": "node",
-  "id": 4669788029,
-  "lat": -34.5952277,
-  "lon": -58.4353973
-},
-{
-  "type": "node",
-  "id": 4669788030,
-  "lat": -34.5952917,
-  "lon": -58.4353386
-},
-{
-  "type": "node",
-  "id": 4669788031,
-  "lat": -34.5952277,
-  "lon": -58.4352355
-},
-{
-  "type": "node",
-  "id": 4669788032,
-  "lat": -34.5948988,
-  "lon": -58.4355370
 },
 {
   "type": "node",
