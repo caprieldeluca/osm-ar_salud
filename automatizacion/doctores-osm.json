@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-19T02:15:21Z",
-    "timestamp_areas_base": "2022-04-19T01:54:02Z",
+    "timestamp_osm_base": "2022-04-20T02:14:54Z",
+    "timestamp_areas_base": "2022-04-20T01:21:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1643,11 +1643,11 @@
 {
   "type": "node",
   "id": 3189249861,
-  "lat": -27.3749289,
-  "lon": -55.9275039,
+  "lat": -27.3749503,
+  "lon": -55.9262218,
   "tags": {
     "addr:city": "Posadas",
-    "addr:housenumber": "5155",
+    "addr:housenumber": "4977",
     "addr:postcode": "3300",
     "addr:street": "Blas Parera",
     "alt_name": "Centro de Atención Primaria de la Salud 5 Yacyretá",
@@ -1657,19 +1657,6 @@
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N00329",
     "ref:sisa_codigo": "50540282165661"
-  }
-},
-{
-  "type": "node",
-  "id": 3189250404,
-  "lat": -27.3749117,
-  "lon": -55.9262099,
-  "tags": {
-    "addr:housenumber": "4977",
-    "addr:street": "Avenida Blas Parera",
-    "alt_name": "Centro de Atención Primaria de la Salud",
-    "amenity": "doctors",
-    "name": "CAPS Barrio Yacyretá"
   }
 },
 {
@@ -5926,7 +5913,6 @@
   "lon": -55.8734938,
   "tags": {
     "addr:city": "Posadas",
-    "addr:housenumber": "1515",
     "addr:postcode": "3300",
     "addr:street": "Calle 53",
     "alt_name": "Centro de Atención Primaria de la Salud",
@@ -5934,7 +5920,10 @@
     "description": "Centro de Atención Primaria de la Salud Municipal",
     "healthcare": "doctor",
     "name": "CAPS Don Pedro",
+    "operator": "Municipalidad de Posadas",
     "phone": "+54 376 4916666",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N99980",
     "ref:sisa_codigo": "50540282265706"
   }
 },
@@ -8661,22 +8650,6 @@
     "addr:postcode": "3300",
     "amenity": "doctors",
     "name": "Consultorios Externos IOT"
-  }
-},
-{
-  "type": "node",
-  "id": 6688544085,
-  "lat": -27.3734398,
-  "lon": -55.9399900,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida Jauretche",
-    "alt_name": "Centro de Atención Primaria de la Salud San Gerardo",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "CAPS San Gerardo",
-    "short_name": "CAPS"
   }
 },
 {
@@ -15922,25 +15895,6 @@
 },
 {
   "type": "node",
-  "id": 8013726315,
-  "lat": -27.4546142,
-  "lon": -55.8700077,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:postcode": "3300",
-    "addr:street": "Calle 55",
-    "alt_name": "Centro de Atención Primaria de la Salud Barrio Don Pedro (Municipal)",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "CAPS Barrio Don Pedro",
-    "operator": "Municipalidad de",
-    "ref:ZonaSanitaria": "Capital",
-    "ref:cuie_codigo": "N99980",
-    "ref:sisa_codigo": "50540282265706"
-  }
-},
-{
-  "type": "node",
   "id": 8013748076,
   "lat": -27.7219878,
   "lon": -54.9158973,
@@ -18203,6 +18157,8 @@
     "healthcare": "doctor",
     "name": "CAPS San Gerardo",
     "operator": "Municipalidad de Posadas",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N05455",
     "ref:sisa_codigo": "50540282265181"
   }
 },
@@ -18621,6 +18577,19 @@
     "name": "Capitalis Especialidades Médicas",
     "opening_hours": "Mo-Fr 08:00-20:00",
     "phone": "0353 6566390"
+  }
+},
+{
+  "type": "node",
+  "id": 9668109112,
+  "lat": -32.9206728,
+  "lon": -60.8054964,
+  "tags": {
+    "addr:street": "Gustavo Cochet",
+    "amenity": "doctors",
+    "healthcare": "rehabilitation",
+    "name": "Ikigai Centro Terapéutico",
+    "short_name": "Ikigai"
   }
 },
 {
@@ -21278,24 +21247,6 @@
     "contact:website": "http://www.britanicasalud.com.ar/",
     "healthcare": "doctor",
     "name": "Británica Salud",
-    "wheelchair": "limited"
-  }
-},
-{
-  "type": "way",
-  "id": 579965475,
-  "nodes": [
-    5553269712,
-    5553269709,
-    5553269710,
-    5553269711,
-    5553269712
-  ],
-  "tags": {
-    "amenity": "doctors",
-    "building": "yes",
-    "healthcare": "doctor",
-    "name": "Las Gaviotas",
     "wheelchair": "limited"
   }
 },
@@ -24417,30 +24368,6 @@
   "id": 5499982407,
   "lat": -32.9198996,
   "lon": -60.8104929
-},
-{
-  "type": "node",
-  "id": 5553269709,
-  "lat": -32.9208841,
-  "lon": -60.8068897
-},
-{
-  "type": "node",
-  "id": 5553269710,
-  "lat": -32.9208999,
-  "lon": -60.8067998
-},
-{
-  "type": "node",
-  "id": 5553269711,
-  "lat": -32.9209581,
-  "lon": -60.8068143
-},
-{
-  "type": "node",
-  "id": 5553269712,
-  "lat": -32.9209423,
-  "lon": -60.8069041
 },
 {
   "type": "node",

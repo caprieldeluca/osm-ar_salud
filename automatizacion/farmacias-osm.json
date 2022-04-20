@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-19T02:09:20Z",
-    "timestamp_areas_base": "2022-04-19T01:54:02Z",
+    "timestamp_osm_base": "2022-04-20T02:09:57Z",
+    "timestamp_areas_base": "2022-04-20T02:07:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -41230,8 +41230,8 @@
 {
   "type": "node",
   "id": 4691623867,
-  "lat": -32.4346970,
-  "lon": -63.2476425,
+  "lat": -32.4346812,
+  "lon": -63.2476291,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -52965,6 +52965,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Rossi",
+    "opening_hours": "Mo-Fr 08:00-12:00,15:30-19:30",
     "phone": "+54 2346 423629"
   }
 },
@@ -70815,6 +70816,16 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Nueva Vicente"
+  }
+},
+{
+  "type": "node",
+  "id": 8575297163,
+  "lat": -34.2915586,
+  "lon": -59.1011424,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Lanfranchi"
   }
 },
 {
@@ -93237,6 +93248,24 @@
   }
 },
 {
+  "type": "way",
+  "id": 1052893099,
+  "nodes": [
+    9676100803,
+    9676100804,
+    9676100805,
+    9676100806,
+    9676100803
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Cardin"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -107539,6 +107568,30 @@
   "id": 4675211442,
   "lat": -34.7702661,
   "lon": -58.6203157
+},
+{
+  "type": "node",
+  "id": 9676100803,
+  "lat": -34.7054602,
+  "lon": -58.6417746
+},
+{
+  "type": "node",
+  "id": 9676100804,
+  "lat": -34.7054977,
+  "lon": -58.6416431
+},
+{
+  "type": "node",
+  "id": 9676100806,
+  "lat": -34.7053864,
+  "lon": -58.6417424
+},
+{
+  "type": "node",
+  "id": 9676100805,
+  "lat": -34.7054205,
+  "lon": -58.6416110
 },
 {
   "type": "node",

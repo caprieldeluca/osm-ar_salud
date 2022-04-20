@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-19T01:59:09Z",
-    "timestamp_areas_base": "2022-04-19T01:54:02Z",
+    "timestamp_osm_base": "2022-04-20T01:59:32Z",
+    "timestamp_areas_base": "2022-04-20T00:07:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -232,27 +232,6 @@
     "description": "Kids",
     "healthcare": "hospital",
     "name": "Clínica del Niño"
-  }
-},
-{
-  "type": "node",
-  "id": 862140690,
-  "lat": -31.6486886,
-  "lon": -60.7187626,
-  "tags": {
-    "addr:city": "Santa Fe",
-    "addr:housenumber": "2150",
-    "addr:postcode": "S3000",
-    "addr:street": "Avenida Gobernador Freyre",
-    "alt_name": "Hospital Cullen",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Doctor José María Cullen",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "toilets:wheelchair": "yes",
-    "wheelchair": "yes",
-    "wheelchair:description": "los baños son accesibles, pero no están tan higiénicos como debiera."
   }
 },
 {
@@ -52495,6 +52474,51 @@
   }
 },
 {
+  "type": "way",
+  "id": 1052914563,
+  "nodes": [
+    9676231201,
+    9676231190,
+    862140690,
+    9676231200,
+    9676231199,
+    9676231198,
+    9676231197,
+    9676231196,
+    9676231195,
+    9676231194,
+    4771789492,
+    4771789491,
+    4771789490,
+    4771789489,
+    4771789488,
+    4771789487,
+    4771789486,
+    4771789485,
+    4771789484,
+    4771789493,
+    9676231193,
+    9676231192,
+    9676231191,
+    9676231201
+  ],
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2150",
+    "addr:postcode": "S3000",
+    "addr:street": "Avenida Gobernador Freyre",
+    "alt_name": "Hospital Cullen",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor José María Cullen",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "los baños son accesibles, pero no están tan higiénicos como debiera."
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -80745,6 +80769,144 @@
 },
 {
   "type": "node",
+  "id": 862140690,
+  "lat": -31.6485993,
+  "lon": -60.7191681
+},
+{
+  "type": "node",
+  "id": 9676231198,
+  "lat": -31.6491865,
+  "lon": -60.7192777
+},
+{
+  "type": "node",
+  "id": 9676231199,
+  "lat": -31.6491437,
+  "lon": -60.7193179
+},
+{
+  "type": "node",
+  "id": 9676231200,
+  "lat": -31.6489393,
+  "lon": -60.7192603
+},
+{
+  "type": "node",
+  "id": 4771789484,
+  "lat": -31.6488828,
+  "lon": -60.7170857
+},
+{
+  "type": "node",
+  "id": 4771789485,
+  "lat": -31.6489576,
+  "lon": -60.7171063
+},
+{
+  "type": "node",
+  "id": 4771789486,
+  "lat": -31.6489428,
+  "lon": -60.7171802
+},
+{
+  "type": "node",
+  "id": 4771789487,
+  "lat": -31.6491063,
+  "lon": -60.7172255
+},
+{
+  "type": "node",
+  "id": 4771789488,
+  "lat": -31.6491151,
+  "lon": -60.7171813
+},
+{
+  "type": "node",
+  "id": 4771789489,
+  "lat": -31.6491474,
+  "lon": -60.7171902
+},
+{
+  "type": "node",
+  "id": 4771789490,
+  "lat": -31.6491535,
+  "lon": -60.7171597
+},
+{
+  "type": "node",
+  "id": 4771789491,
+  "lat": -31.6491197,
+  "lon": -60.7171503
+},
+{
+  "type": "node",
+  "id": 4771789492,
+  "lat": -31.6491733,
+  "lon": -60.7168827
+},
+{
+  "type": "node",
+  "id": 4771789493,
+  "lat": -31.6489366,
+  "lon": -60.7168173
+},
+{
+  "type": "node",
+  "id": 9676231190,
+  "lat": -31.6480608,
+  "lon": -60.7190222
+},
+{
+  "type": "node",
+  "id": 9676231191,
+  "lat": -31.6482555,
+  "lon": -60.7179004
+},
+{
+  "type": "node",
+  "id": 9676231192,
+  "lat": -31.6484895,
+  "lon": -60.7167363
+},
+{
+  "type": "node",
+  "id": 9676231193,
+  "lat": -31.6485226,
+  "lon": -60.7167055
+},
+{
+  "type": "node",
+  "id": 9676231194,
+  "lat": -31.6492487,
+  "lon": -60.7169066
+},
+{
+  "type": "node",
+  "id": 9676231195,
+  "lat": -31.6495969,
+  "lon": -60.7170159
+},
+{
+  "type": "node",
+  "id": 9676231196,
+  "lat": -31.6496249,
+  "lon": -60.7170723
+},
+{
+  "type": "node",
+  "id": 9676231197,
+  "lat": -31.6494805,
+  "lon": -60.7177703
+},
+{
+  "type": "node",
+  "id": 9676231201,
+  "lat": -31.6480403,
+  "lon": -60.7189807
+},
+{
+  "type": "node",
   "id": 3754778092,
   "lat": -31.6338335,
   "lon": -60.7170213
@@ -96496,8 +96658,8 @@
 {
   "type": "node",
   "id": 2091352450,
-  "lat": -34.5550875,
-  "lon": -58.4499638
+  "lat": -34.5550996,
+  "lon": -58.4499517
 },
 {
   "type": "node",
@@ -96508,8 +96670,8 @@
 {
   "type": "node",
   "id": 2091352452,
-  "lat": -34.5552193,
-  "lon": -58.4501877
+  "lat": -34.5552303,
+  "lon": -58.4501716
 },
 {
   "type": "node",

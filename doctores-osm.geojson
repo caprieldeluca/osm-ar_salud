@@ -5807,45 +5807,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/579965475",
-  "properties": {
-    "amenity": "doctors",
-    "building": "yes",
-    "healthcare": "doctor",
-    "name": "Las Gaviotas",
-    "wheelchair": "limited",
-    "id": "way/579965475"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.8069041,
-          -32.9209423
-        ],
-        [
-          -60.8068143,
-          -32.9209581
-        ],
-        [
-          -60.8067998,
-          -32.9208999
-        ],
-        [
-          -60.8068897,
-          -32.9208841
-        ],
-        [
-          -60.8069041,
-          -32.9209423
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/581052001",
   "properties": {
     "addr:street": "Doctor Lázaro Lánger",
@@ -10784,7 +10745,7 @@
   "id": "node/3189249861",
   "properties": {
     "addr:city": "Posadas",
-    "addr:housenumber": "5155",
+    "addr:housenumber": "4977",
     "addr:postcode": "3300",
     "addr:street": "Blas Parera",
     "alt_name": "Centro de Atención Primaria de la Salud 5 Yacyretá",
@@ -10799,27 +10760,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.9275039,
-      -27.3749289
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3189250404",
-  "properties": {
-    "addr:housenumber": "4977",
-    "addr:street": "Avenida Blas Parera",
-    "alt_name": "Centro de Atención Primaria de la Salud",
-    "amenity": "doctors",
-    "name": "CAPS Barrio Yacyretá",
-    "id": "node/3189250404"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.9262099,
-      -27.3749117
+      -55.9262218,
+      -27.3749503
     ]
   }
 },
@@ -16857,7 +16799,6 @@
   "id": "node/5015393435",
   "properties": {
     "addr:city": "Posadas",
-    "addr:housenumber": "1515",
     "addr:postcode": "3300",
     "addr:street": "Calle 53",
     "alt_name": "Centro de Atención Primaria de la Salud",
@@ -16865,7 +16806,10 @@
     "description": "Centro de Atención Primaria de la Salud Municipal",
     "healthcare": "doctor",
     "name": "CAPS Don Pedro",
+    "operator": "Municipalidad de Posadas",
     "phone": "+54 376 4916666",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N99980",
     "ref:sisa_codigo": "50540282265706",
     "id": "node/5015393435"
   },
@@ -20775,28 +20719,6 @@
     "coordinates": [
       -55.8997136,
       -27.3660147
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6688544085",
-  "properties": {
-    "addr:city": "Posadas",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida Jauretche",
-    "alt_name": "Centro de Atención Primaria de la Salud San Gerardo",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "CAPS San Gerardo",
-    "short_name": "CAPS",
-    "id": "node/6688544085"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.93999,
-      -27.3734398
     ]
   }
 },
@@ -30653,31 +30575,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8013726315",
-  "properties": {
-    "addr:city": "Posadas",
-    "addr:postcode": "3300",
-    "addr:street": "Calle 55",
-    "alt_name": "Centro de Atención Primaria de la Salud Barrio Don Pedro (Municipal)",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "CAPS Barrio Don Pedro",
-    "operator": "Municipalidad de",
-    "ref:ZonaSanitaria": "Capital",
-    "ref:cuie_codigo": "N99980",
-    "ref:sisa_codigo": "50540282265706",
-    "id": "node/8013726315"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.8700077,
-      -27.4546142
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8013748076",
   "properties": {
     "addr:city": "Panambí",
@@ -33826,6 +33723,8 @@
     "healthcare": "doctor",
     "name": "CAPS San Gerardo",
     "operator": "Municipalidad de Posadas",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N05455",
     "ref:sisa_codigo": "50540282265181",
     "id": "node/9073282615"
   },
@@ -34443,6 +34342,25 @@
     "coordinates": [
       -63.2485606,
       -32.4058663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9668109112",
+  "properties": {
+    "addr:street": "Gustavo Cochet",
+    "amenity": "doctors",
+    "healthcare": "rehabilitation",
+    "name": "Ikigai Centro Terapéutico",
+    "short_name": "Ikigai",
+    "id": "node/9668109112"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.8054964,
+      -32.9206728
     ]
   }
 },
