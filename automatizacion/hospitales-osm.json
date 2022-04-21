@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-20T01:59:32Z",
-    "timestamp_areas_base": "2022-04-20T00:07:03Z",
+    "timestamp_osm_base": "2022-04-21T01:58:59Z",
+    "timestamp_areas_base": "2022-04-21T01:19:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -240,9 +240,15 @@
   "lat": -33.1318282,
   "lon": -59.3089575,
   "tags": {
+    "addr:city": "Gualeguay",
+    "addr:postcode": "2840",
+    "addr:street": "Avenida de la Soberanía",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital San Antonio",
+    "phone": "+54 3444 427405",
+    "ref:sisa_codigo": "10300492142063",
+    "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q94691214"
   }
 },
@@ -7466,21 +7472,6 @@
 },
 {
   "type": "node",
-  "id": 3735385089,
-  "lat": -31.5968754,
-  "lon": -60.7170188,
-  "tags": {
-    "addr:city": "Santa Fe",
-    "addr:housenumber": "4401",
-    "addr:postcode": "S3000",
-    "addr:street": "Alberti",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro de Salud San Martín"
-  }
-},
-{
-  "type": "node",
   "id": 3736117375,
   "lat": -32.9562598,
   "lon": -60.6320546,
@@ -10906,28 +10897,6 @@
     "operator:type": "private",
     "ref:sisa_codigo": "10065682305587",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
-  "id": 4332951051,
-  "lat": -34.6529395,
-  "lon": -58.4120504,
-  "tags": {
-    "addr:full": "Ventura De La Vega 3697",
-    "addr:housenumber": "3697",
-    "addr:postcode": "1437",
-    "addr:street": "Ventura de La Vega",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Aeronáutico Central",
-    "operator": "FFAA/Seguridad",
-    "operator:type": "public",
-    "phone": "+54 11 51687100",
-    "ref:sisa_codigo": "10020012415206",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q16575995",
-    "wikipedia": "es:Hospital Aeronáutico Central"
   }
 },
 {
@@ -21492,29 +21461,6 @@
     "phone": "+54 364 4471173",
     "ref:sisa_codigo": "10220632326020",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
-  "id": 7516297515,
-  "lat": -31.3585225,
-  "lon": -64.2473254,
-  "tags": {
-    "addr:city": "Córdoba",
-    "addr:full": "Evangelista Torricelli 5615",
-    "addr:housenumber": "5615",
-    "addr:postcode": "5147",
-    "addr:street": "Evangelista Torricelli",
-    "amenity": "hospital",
-    "email": "info@centrogallia.com",
-    "healthcare": "hospital",
-    "healthcare:speciality": "dentist;plastic_surgery;fertility",
-    "name": "Clinica Privada Gallia",
-    "operator:type": "private",
-    "phone": "0810-444-2554",
-    "ref:sisa_codigo": "10140142331059",
-    "ref:sisa_tipologia": "ESCIG",
-    "website": "http://www.clinicagallia.com/"
   }
 },
 {
@@ -52489,12 +52435,6 @@
     9676231194,
     4771789492,
     4771789491,
-    4771789490,
-    4771789489,
-    4771789488,
-    4771789487,
-    4771789486,
-    4771789485,
     4771789484,
     4771789493,
     9676231193,
@@ -52516,6 +52456,100 @@
     "toilets:wheelchair": "yes",
     "wheelchair": "yes",
     "wheelchair:description": "los baños son accesibles, pero no están tan higiénicos como debiera."
+  }
+},
+{
+  "type": "way",
+  "id": 1053212291,
+  "nodes": [
+    9678951220,
+    9678951219,
+    9678951218,
+    9678951217,
+    9678911416,
+    9678911415,
+    3735385089,
+    9678951220
+  ],
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "4401",
+    "addr:postcode": "S3000",
+    "addr:street": "Alberti",
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Centro de Salud San Martín"
+  }
+},
+{
+  "type": "way",
+  "id": 1053224284,
+  "nodes": [
+    9679069946,
+    9679069945,
+    9679069944,
+    9679069943,
+    9679069942,
+    9679069941,
+    9679069940,
+    9679069939,
+    9679069938,
+    9679069937,
+    7516297515,
+    9679069946
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:full": "Evangelista Torricelli 5615",
+    "addr:housenumber": "5615",
+    "addr:postcode": "5147",
+    "addr:street": "Evangelista Torricelli",
+    "amenity": "hospital",
+    "building": "yes",
+    "email": "info@centrogallia.com",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dentist;plastic_surgery;fertility",
+    "name": "Clinica Privada Gallia",
+    "operator:type": "private",
+    "phone": "0810-444-2554",
+    "ref:sisa_codigo": "10140142331059",
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "http://www.clinicagallia.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1053276449,
+  "nodes": [
+    9679536536,
+    9679536535,
+    9679536526,
+    9679536527,
+    9679536528,
+    9679536529,
+    9679536530,
+    9679536531,
+    9679536532,
+    9679536534,
+    9679536533,
+    9679536536
+  ],
+  "tags": {
+    "addr:full": "Ventura De La Vega 3697",
+    "addr:housenumber": "3697",
+    "addr:postcode": "1437",
+    "addr:street": "Ventura de La Vega",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Aeronáutico Central",
+    "operator": "FFAA/Seguridad",
+    "operator:type": "public",
+    "phone": "+54 11 51687100",
+    "ref:sisa_codigo": "10020012415206",
+    "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q16575995",
+    "wikipedia": "es:Hospital Aeronáutico Central"
   }
 },
 {
@@ -73557,6 +73591,72 @@
 },
 {
   "type": "node",
+  "id": 7516297515,
+  "lat": -31.3585598,
+  "lon": -64.2474263
+},
+{
+  "type": "node",
+  "id": 9679069937,
+  "lat": -31.3586271,
+  "lon": -64.2474544
+},
+{
+  "type": "node",
+  "id": 9679069938,
+  "lat": -31.3586778,
+  "lon": -64.2472880
+},
+{
+  "type": "node",
+  "id": 9679069939,
+  "lat": -31.3586386,
+  "lon": -64.2472716
+},
+{
+  "type": "node",
+  "id": 9679069940,
+  "lat": -31.3586496,
+  "lon": -64.2472355
+},
+{
+  "type": "node",
+  "id": 9679069941,
+  "lat": -31.3585856,
+  "lon": -64.2472088
+},
+{
+  "type": "node",
+  "id": 9679069942,
+  "lat": -31.3585743,
+  "lon": -64.2472459
+},
+{
+  "type": "node",
+  "id": 9679069943,
+  "lat": -31.3584674,
+  "lon": -64.2472013
+},
+{
+  "type": "node",
+  "id": 9679069944,
+  "lat": -31.3584370,
+  "lon": -64.2473012
+},
+{
+  "type": "node",
+  "id": 9679069945,
+  "lat": -31.3585279,
+  "lon": -64.2473392
+},
+{
+  "type": "node",
+  "id": 9679069946,
+  "lat": -31.3585079,
+  "lon": -64.2474046
+},
+{
+  "type": "node",
   "id": 1286934907,
   "lat": -31.3586062,
   "lon": -64.2431429
@@ -80794,62 +80894,26 @@
 {
   "type": "node",
   "id": 4771789484,
-  "lat": -31.6488828,
-  "lon": -60.7170857
-},
-{
-  "type": "node",
-  "id": 4771789485,
-  "lat": -31.6489576,
-  "lon": -60.7171063
-},
-{
-  "type": "node",
-  "id": 4771789486,
-  "lat": -31.6489428,
-  "lon": -60.7171802
-},
-{
-  "type": "node",
-  "id": 4771789487,
-  "lat": -31.6491063,
-  "lon": -60.7172255
-},
-{
-  "type": "node",
-  "id": 4771789488,
-  "lat": -31.6491151,
-  "lon": -60.7171813
-},
-{
-  "type": "node",
-  "id": 4771789489,
-  "lat": -31.6491474,
-  "lon": -60.7171902
-},
-{
-  "type": "node",
-  "id": 4771789490,
-  "lat": -31.6491535,
-  "lon": -60.7171597
+  "lat": -31.6488945,
+  "lon": -60.7170818
 },
 {
   "type": "node",
   "id": 4771789491,
-  "lat": -31.6491197,
-  "lon": -60.7171503
+  "lat": -31.6491319,
+  "lon": -60.7171441
 },
 {
   "type": "node",
   "id": 4771789492,
-  "lat": -31.6491733,
-  "lon": -60.7168827
+  "lat": -31.6491799,
+  "lon": -60.7168916
 },
 {
   "type": "node",
   "id": 4771789493,
-  "lat": -31.6489366,
-  "lon": -60.7168173
+  "lat": -31.6489425,
+  "lon": -60.7168293
 },
 {
   "type": "node",
@@ -80878,8 +80942,8 @@
 {
   "type": "node",
   "id": 9676231194,
-  "lat": -31.6492487,
-  "lon": -60.7169066
+  "lat": -31.6492510,
+  "lon": -60.7169120
 },
 {
   "type": "node",
@@ -81096,6 +81160,48 @@
   "id": 3754778226,
   "lat": -31.6348308,
   "lon": -60.7171555
+},
+{
+  "type": "node",
+  "id": 3735385089,
+  "lat": -31.5968412,
+  "lon": -60.7170453
+},
+{
+  "type": "node",
+  "id": 9678911415,
+  "lat": -31.5968740,
+  "lon": -60.7168939
+},
+{
+  "type": "node",
+  "id": 9678911416,
+  "lat": -31.5969997,
+  "lon": -60.7169315
+},
+{
+  "type": "node",
+  "id": 9678951217,
+  "lat": -31.5969864,
+  "lon": -60.7169924
+},
+{
+  "type": "node",
+  "id": 9678951218,
+  "lat": -31.5969351,
+  "lon": -60.7169771
+},
+{
+  "type": "node",
+  "id": 9678951219,
+  "lat": -31.5968735,
+  "lon": -60.7172614
+},
+{
+  "type": "node",
+  "id": 9678951220,
+  "lat": -31.5967991,
+  "lon": -60.7172391
 },
 {
   "type": "node",
@@ -87430,8 +87536,8 @@
 {
   "type": "node",
   "id": 692939151,
-  "lat": -34.6669698,
-  "lon": -58.6696171
+  "lat": -34.6670382,
+  "lon": -58.6695956
 },
 {
   "type": "node",
@@ -87461,12 +87567,12 @@
   "type": "node",
   "id": 692939146,
   "lat": -34.6686955,
-  "lon": -58.6673644
+  "lon": -58.6674315
 },
 {
   "type": "node",
   "id": 692939152,
-  "lat": -34.6699920,
+  "lat": -34.6700560,
   "lon": -58.6656994
 },
 {
@@ -87478,8 +87584,8 @@
 {
   "type": "node",
   "id": 1622604625,
-  "lat": -34.6705463,
-  "lon": -58.6650317
+  "lat": -34.6706014,
+  "lon": -58.6650237
 },
 {
   "type": "node",
@@ -89586,6 +89692,72 @@
   "id": 7352906452,
   "lat": -34.6529934,
   "lon": -58.4127819
+},
+{
+  "type": "node",
+  "id": 9679536533,
+  "lat": -34.6527139,
+  "lon": -58.4130701
+},
+{
+  "type": "node",
+  "id": 9679536536,
+  "lat": -34.6533129,
+  "lon": -58.4132378
+},
+{
+  "type": "node",
+  "id": 9679536526,
+  "lat": -34.6528187,
+  "lon": -58.4114990
+},
+{
+  "type": "node",
+  "id": 9679536527,
+  "lat": -34.6527591,
+  "lon": -58.4114487
+},
+{
+  "type": "node",
+  "id": 9679536528,
+  "lat": -34.6526863,
+  "lon": -58.4114112
+},
+{
+  "type": "node",
+  "id": 9679536529,
+  "lat": -34.6526047,
+  "lon": -58.4114085
+},
+{
+  "type": "node",
+  "id": 9679536530,
+  "lat": -34.6525219,
+  "lon": -58.4114380
+},
+{
+  "type": "node",
+  "id": 9679536531,
+  "lat": -34.6524701,
+  "lon": -58.4114957
+},
+{
+  "type": "node",
+  "id": 9679536532,
+  "lat": -34.6524182,
+  "lon": -58.4115855
+},
+{
+  "type": "node",
+  "id": 9679536534,
+  "lat": -34.6523829,
+  "lon": -58.4116901
+},
+{
+  "type": "node",
+  "id": 9679536535,
+  "lat": -34.6528650,
+  "lon": -58.4115614
 },
 {
   "type": "node",
