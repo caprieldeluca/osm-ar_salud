@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.2 48842a1b",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-23T02:09:25Z",
-    "timestamp_areas_base": "2022-04-23T01:47:12Z",
+    "timestamp_osm_base": "2022-04-25T02:09:57Z",
+    "timestamp_areas_base": "2022-04-25T01:24:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8590,7 +8590,8 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia del Pueblo"
+    "name": "Farmacia del Pueblo",
+    "opening_hours": "Mo-Su 08:30-21:00"
   }
 },
 {
@@ -10475,7 +10476,8 @@
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "Farmacia Alvear",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Alvear"
   }
 },
 {
@@ -38066,13 +38068,12 @@
 {
   "type": "node",
   "id": 4630094222,
-  "lat": -34.5616766,
-  "lon": -58.5401696,
+  "lat": -34.5616932,
+  "lon": -58.5401830,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia San Andrés Golf",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG"
+    "name": "San Andrés Golf"
   }
 },
 {
@@ -60580,8 +60581,8 @@
 {
   "type": "node",
   "id": 6881829786,
-  "lat": -25.6696654,
-  "lon": -54.0387757,
+  "lat": -25.6695765,
+  "lon": -54.0388003,
   "tags": {
     "addr:city": "Comandante Andresito",
     "addr:postcode": "3385",
@@ -74547,7 +74548,8 @@
     "addr:housenumber": "142",
     "addr:street": "Lisandro de la Torre",
     "amenity": "pharmacy",
-    "name": "Farmacia Oñativia I",
+    "healthcare": "pharmacy",
+    "name": "Oñativia I",
     "opening_hours": "Mo-Fr 08:30-12:30, 16:30-20:30; Sa 08:30-12:30",
     "phone": "0353 4520138",
     "website": "https://www.xn--oativia-4za.com.ar/nueva/index.php"
@@ -74562,7 +74564,8 @@
     "addr:housenumber": "780",
     "addr:street": "Santa Fe",
     "amenity": "pharmacy",
-    "name": "Farmacia Onativia",
+    "healthcare": "pharmacy",
+    "name": "Oñativia",
     "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:30-12:30, 16:00-20:00",
     "phone": "0353 4549688",
     "website": "https://www.xn--oativia-4za.com.ar/nueva/index.php"
@@ -74649,10 +74652,13 @@
   "lat": -31.6541634,
   "lon": -63.9150505,
   "tags": {
+    "addr:city": "Río Segundo",
     "addr:housenumber": "1076",
+    "addr:postcode": "5960",
     "addr:street": "Belgrano",
     "amenity": "pharmacy",
-    "name": "Farmacia Marcos Acosta",
+    "healthcare": "pharmacy",
+    "name": "Marcos Acosta",
     "opening_hours": "Mo-Fr 09:00-12:30, 16:30-20:00",
     "phone": "03572 42-3462",
     "website": "https://www.facebook.com/farmaciaMarcosAcosta/"
@@ -74828,7 +74834,8 @@
   "lon": -63.2333832,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Farmacia Lamadrid",
+    "healthcare": "pharmacy",
+    "name": "Lamadrid",
     "phone": "0353 4523868"
   }
 },
@@ -89867,6 +89874,7 @@
     7860077893,
     7590161230,
     7590161231,
+    9688978927,
     7590161232,
     7590161233,
     7590161234,
@@ -93289,6 +93297,28 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Cardin"
+  }
+},
+{
+  "type": "way",
+  "id": 1054242317,
+  "nodes": [
+    9688297185,
+    9688297188,
+    9688297193,
+    9688316523,
+    9688297189,
+    9688297190,
+    9688316522,
+    9688297186,
+    9688297185
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Monserrat"
   }
 },
 {
@@ -101072,6 +101102,12 @@
   "id": 7860077893,
   "lat": -30.8584559,
   "lon": -64.5250823
+},
+{
+  "type": "node",
+  "id": 9688978927,
+  "lat": -30.8585059,
+  "lon": -64.5251378
 },
 {
   "type": "node",
@@ -119000,6 +119036,54 @@
   "id": 5017408051,
   "lat": -23.8162332,
   "lon": -64.7910085
+},
+{
+  "type": "node",
+  "id": 9688297185,
+  "lat": -22.5173168,
+  "lon": -63.8036615
+},
+{
+  "type": "node",
+  "id": 9688297186,
+  "lat": -22.5174351,
+  "lon": -63.8036615
+},
+{
+  "type": "node",
+  "id": 9688297188,
+  "lat": -22.5173149,
+  "lon": -63.8035731
+},
+{
+  "type": "node",
+  "id": 9688297189,
+  "lat": -22.5175487,
+  "lon": -63.8035741
+},
+{
+  "type": "node",
+  "id": 9688297190,
+  "lat": -22.5175534,
+  "lon": -63.8036615
+},
+{
+  "type": "node",
+  "id": 9688297193,
+  "lat": -22.5174652,
+  "lon": -63.8035737
+},
+{
+  "type": "node",
+  "id": 9688316522,
+  "lat": -22.5174775,
+  "lon": -63.8036615
+},
+{
+  "type": "node",
+  "id": 9688316523,
+  "lat": -22.5175160,
+  "lon": -63.8035739
 },
 {
   "type": "way",

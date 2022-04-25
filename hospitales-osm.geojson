@@ -6064,14 +6064,13 @@
   "id": "way/107939585",
   "properties": {
     "addr:city": "General San Martín",
-    "addr:full": "Avellaneda 33 E/ Matheu y Mitre",
     "addr:housenumber": "33",
     "addr:postcode": "1650",
     "addr:street": "105 - Avellaneda",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Municipal Doctor Diego E. Thompson",
-    "operator": "Municipal",
+    "operator": "Municipalidad de San Marín",
     "operator:type": "public",
     "phone": "+54 11 4754-4635",
     "ref:sisa_codigo": "10063712200299",
@@ -6083,8 +6082,8 @@
     "coordinates": [
       [
         [
-          -58.5441375,
-          -34.5815063
+          -58.5442166,
+          -34.5815836
         ],
         [
           -58.5435228,
@@ -6095,12 +6094,16 @@
           -34.5802682
         ],
         [
-          -58.5450336,
-          -34.580788
+          -58.5451059,
+          -34.5808196
         ],
         [
-          -58.5441375,
-          -34.5815063
+          -58.54511,
+          -34.5808476
+        ],
+        [
+          -58.5442166,
+          -34.5815836
         ]
       ]
     ]
@@ -15370,12 +15373,12 @@
           -34.6139651
         ],
         [
-          -58.3910129,
-          -34.6138455
+          -58.3910183,
+          -34.6138985
         ],
         [
-          -58.3913135,
-          -34.6138486
+          -58.3913189,
+          -34.6139016
         ],
         [
           -58.3913105,
@@ -35724,16 +35727,24 @@
           -32.9200417
         ],
         [
-          -60.820537,
-          -32.9199934
+          -60.8205357,
+          -32.919972
         ],
         [
-          -60.8212584,
-          -32.919856
+          -60.8212571,
+          -32.9198346
         ],
         [
           -60.8212986,
           -32.9198492
+        ],
+        [
+          -60.8212989,
+          -32.9199203
+        ],
+        [
+          -60.8212928,
+          -32.9200494
         ],
         [
           -60.8212574,
@@ -61246,13 +61257,14 @@
   "id": "way/884242420",
   "properties": {
     "addr:city": "Senillosa",
+    "addr:housenumber": "500",
     "addr:postcode": "Q8316",
-    "addr:street": "Laprida",
+    "addr:street": "Belgrano",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Provincial \"Adolfo del Valle\"",
-    "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
+    "name": "Hospital de Área Programa Senillosa \"Adolfo del Valle\"",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
     "operator:type": "public",
     "id": "way/884242420"
   },
@@ -61261,60 +61273,48 @@
     "coordinates": [
       [
         [
-          -68.4265054,
-          -39.0136271
+          -68.4264311,
+          -39.0136491
         ],
         [
-          -68.4261458,
-          -39.0141297
+          -68.4260729,
+          -39.0141554
         ],
         [
-          -68.4252305,
-          -39.0137432
+          -68.425168,
+          -39.0137688
         ],
         [
-          -68.42545,
-          -39.0134293
+          -68.4255306,
+          -39.0132565
         ],
         [
-          -68.4255714,
-          -39.0134801
+          -68.4256227,
+          -39.013234
         ],
         [
-          -68.4256068,
-          -39.0134725
+          -68.4256588,
+          -39.0133237
         ],
         [
-          -68.4255967,
-          -39.0134452
+          -68.4257541,
+          -39.0133023
         ],
         [
-          -68.4255943,
-          -39.0134199
+          -68.4257696,
+          -39.0133437
         ],
         [
-          -68.4255854,
-          -39.0133241
+          -68.4260366,
+          -39.0132787
         ],
         [
-          -68.4258353,
-          -39.0132697
+          -68.4261789,
+          -39.013329
         ],
         [
-          -68.4258718,
-          -39.0133836
-        ],
-        [
-          -68.4259699,
-          -39.0133617
-        ],
-        [
-          -68.4262532,
-          -39.0132933
-        ],
-        [
-          -68.4265054,
-          -39.0136271
+          -68.4264311,
+          -39.0136491
         ]
       ]
     ]
@@ -73492,22 +73492,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1785540671",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "id": "node/1785540671"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0832458,
-      -38.9446899
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1796556340",
   "properties": {
     "addr:city": "Fiambalá",
@@ -76936,7 +76920,7 @@
     "name": "Hospital General Donovan",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "(0362)- 449-5018",
+    "phone": "+54 362 4495018",
     "ref:sisa_codigo": "10220562126055",
     "ref:sisa_tipologia": "ESCIG",
     "id": "node/2542347158"
@@ -91147,32 +91131,6 @@
     "coordinates": [
       -58.2584066,
       -34.8098067
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5342807126",
-  "properties": {
-    "addr:city": "Ciudad autónoma de Buenos Aires",
-    "addr:housenumber": "33",
-    "addr:postcode": "C1013AAB",
-    "addr:street": "Talcahuano",
-    "addr:unit": "33",
-    "amenity": "hospital",
-    "description": "Dentistry, implants, dentures",
-    "healthcare": "hospital",
-    "name": "Kilden odontology",
-    "operator": "Kiden Odontology",
-    "phone": "+54 11 4372-0844",
-    "website": "http://www.kilden.com.ar/",
-    "id": "node/5342807126"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.3848,
-      -34.6083246
     ]
   }
 },

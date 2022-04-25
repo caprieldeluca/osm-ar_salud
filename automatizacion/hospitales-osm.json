@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-23T01:58:59Z",
-    "timestamp_areas_base": "2022-04-23T01:47:12Z",
+    "timestamp_osm_base": "2022-04-25T01:59:00Z",
+    "timestamp_areas_base": "2022-04-25T01:07:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1957,16 +1957,6 @@
     "emergency": "no",
     "healthcare": "hospital",
     "name": "Geriatrico Punta Indio"
-  }
-},
-{
-  "type": "node",
-  "id": 1785540671,
-  "lat": -38.9446899,
-  "lon": -68.0832458,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
   }
 },
 {
@@ -4357,7 +4347,7 @@
     "name": "Hospital General Donovan",
     "operator": "Provincial",
     "operator:type": "public",
-    "phone": "(0362)- 449-5018",
+    "phone": "+54 362 4495018",
     "ref:sisa_codigo": "10220562126055",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -14463,26 +14453,6 @@
     "ref:sisa_codigo": "10062742300130",
     "ref:sisa_tipologia": "ESCIG",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 5342807126,
-  "lat": -34.6083246,
-  "lon": -58.3848000,
-  "tags": {
-    "addr:city": "Ciudad autónoma de Buenos Aires",
-    "addr:housenumber": "33",
-    "addr:postcode": "C1013AAB",
-    "addr:street": "Talcahuano",
-    "addr:unit": "33",
-    "amenity": "hospital",
-    "description": "Dentistry, implants, dentures",
-    "healthcare": "hospital",
-    "name": "Kilden odontology",
-    "operator": "Kiden Odontology",
-    "phone": "+54 11 4372-0844",
-    "website": "http://www.kilden.com.ar/"
   }
 },
 {
@@ -24756,19 +24726,19 @@
     1239475785,
     1239475802,
     1239475810,
+    9687264751,
     1239475783,
     1239475785
   ],
   "tags": {
     "addr:city": "General San Martín",
-    "addr:full": "Avellaneda 33 E/ Matheu y Mitre",
     "addr:housenumber": "33",
     "addr:postcode": "1650",
     "addr:street": "105 - Avellaneda",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Municipal Doctor Diego E. Thompson",
-    "operator": "Municipal",
+    "operator": "Municipalidad de San Marín",
     "operator:type": "public",
     "phone": "+54 11 4754-4635",
     "ref:sisa_codigo": "10063712200299",
@@ -37277,6 +37247,8 @@
     4040661624,
     9191162287,
     4040661620,
+    4987461724,
+    5728989860,
     4040661677,
     4040661676,
     4040661673,
@@ -48561,30 +48533,28 @@
   "type": "way",
   "id": 884242420,
   "nodes": [
-    8223357998,
-    8223357999,
-    8223358000,
-    8223358001,
-    8223358002,
-    8223358003,
-    8223357991,
-    8223358008,
+    9688228753,
+    9688228754,
+    9688228755,
+    9688228756,
     8223358004,
     8223358005,
+    9688228766,
     8223358006,
-    8223357992,
-    8223358007,
-    8223357998
+    9688228772,
+    9688228757,
+    9688228753
   ],
   "tags": {
     "addr:city": "Senillosa",
+    "addr:housenumber": "500",
     "addr:postcode": "Q8316",
-    "addr:street": "Laprida",
+    "addr:street": "Belgrano",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Provincial \"Adolfo del Valle\"",
-    "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
+    "name": "Hospital de Área Programa Senillosa \"Adolfo del Valle\"",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
     "operator:type": "public"
   }
 },
@@ -56473,81 +56443,63 @@
 },
 {
   "type": "node",
-  "id": 8223357998,
-  "lat": -39.0136271,
-  "lon": -68.4265054
+  "id": 9688228753,
+  "lat": -39.0136491,
+  "lon": -68.4264311
 },
 {
   "type": "node",
-  "id": 8223357999,
-  "lat": -39.0141297,
-  "lon": -68.4261458
-},
-{
-  "type": "node",
-  "id": 8223358007,
-  "lat": -39.0132933,
-  "lon": -68.4262532
-},
-{
-  "type": "node",
-  "id": 8223357991,
-  "lat": -39.0134452,
-  "lon": -68.4255967
-},
-{
-  "type": "node",
-  "id": 8223357992,
-  "lat": -39.0133617,
-  "lon": -68.4259699
-},
-{
-  "type": "node",
-  "id": 8223358000,
-  "lat": -39.0137432,
-  "lon": -68.4252305
-},
-{
-  "type": "node",
-  "id": 8223358001,
-  "lat": -39.0134293,
-  "lon": -68.4254500
-},
-{
-  "type": "node",
-  "id": 8223358002,
-  "lat": -39.0134801,
-  "lon": -68.4255714
-},
-{
-  "type": "node",
-  "id": 8223358003,
-  "lat": -39.0134725,
-  "lon": -68.4256068
+  "id": 9688228757,
+  "lat": -39.0133290,
+  "lon": -68.4261789
 },
 {
   "type": "node",
   "id": 8223358004,
-  "lat": -39.0133241,
-  "lon": -68.4255854
+  "lat": -39.0132340,
+  "lon": -68.4256227
 },
 {
   "type": "node",
   "id": 8223358005,
-  "lat": -39.0132697,
-  "lon": -68.4258353
+  "lat": -39.0133237,
+  "lon": -68.4256588
 },
 {
   "type": "node",
   "id": 8223358006,
-  "lat": -39.0133836,
-  "lon": -68.4258718
+  "lat": -39.0133437,
+  "lon": -68.4257696
 },
 {
   "type": "node",
-  "id": 8223358008,
-  "lat": -39.0134199,
-  "lon": -68.4255943
+  "id": 9688228754,
+  "lat": -39.0141554,
+  "lon": -68.4260729
+},
+{
+  "type": "node",
+  "id": 9688228755,
+  "lat": -39.0137688,
+  "lon": -68.4251680
+},
+{
+  "type": "node",
+  "id": 9688228756,
+  "lat": -39.0132565,
+  "lon": -68.4255306
+},
+{
+  "type": "node",
+  "id": 9688228766,
+  "lat": -39.0133023,
+  "lon": -68.4257541
+},
+{
+  "type": "node",
+  "id": 9688228772,
+  "lat": -39.0132787,
+  "lon": -68.4260366
 },
 {
   "type": "node",
@@ -77114,8 +77066,8 @@
 {
   "type": "node",
   "id": 4040661624,
-  "lat": -32.9199934,
-  "lon": -60.8205370
+  "lat": -32.9199720,
+  "lon": -60.8205357
 },
 {
   "type": "node",
@@ -77161,6 +77113,12 @@
 },
 {
   "type": "node",
+  "id": 4987461724,
+  "lat": -32.9199203,
+  "lon": -60.8212989
+},
+{
+  "type": "node",
   "id": 5517448606,
   "lat": -32.9206625,
   "lon": -60.8204618
@@ -77173,9 +77131,15 @@
 },
 {
   "type": "node",
+  "id": 5728989860,
+  "lat": -32.9200494,
+  "lon": -60.8212928
+},
+{
+  "type": "node",
   "id": 9191162287,
-  "lat": -32.9198560,
-  "lon": -60.8212584
+  "lat": -32.9198346,
+  "lon": -60.8212571
 },
 {
   "type": "node",
@@ -92870,8 +92834,8 @@
 {
   "type": "node",
   "id": 2205036744,
-  "lat": -34.6138486,
-  "lon": -58.3913135
+  "lat": -34.6139016,
+  "lon": -58.3913189
 },
 {
   "type": "node",
@@ -92894,8 +92858,8 @@
 {
   "type": "node",
   "id": 2205036748,
-  "lat": -34.6138455,
-  "lon": -58.3910129
+  "lat": -34.6138985,
+  "lon": -58.3910183
 },
 {
   "type": "node",
@@ -94304,14 +94268,14 @@
 {
   "type": "node",
   "id": 1239475783,
-  "lat": -34.5807880,
-  "lon": -58.5450336
+  "lat": -34.5808476,
+  "lon": -58.5451100
 },
 {
   "type": "node",
   "id": 1239475785,
-  "lat": -34.5815063,
-  "lon": -58.5441375
+  "lat": -34.5815836,
+  "lon": -58.5442166
 },
 {
   "type": "node",
@@ -94324,6 +94288,12 @@
   "id": 1239475810,
   "lat": -34.5802682,
   "lon": -58.5444189
+},
+{
+  "type": "node",
+  "id": 9687264751,
+  "lat": -34.5808196,
+  "lon": -58.5451059
 },
 {
   "type": "node",
