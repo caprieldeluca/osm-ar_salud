@@ -40572,6 +40572,60 @@
 },
 {
   "type": "Feature",
+  "id": "way/471550360",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:full": "Tres Arroyos 2060",
+    "addr:housenumber": "2060",
+    "addr:postcode": "1416",
+    "addr:street": "Tres Arroyos",
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Clinica de la Esperanza",
+    "operator": "Privado",
+    "operator:type": "private",
+    "phone": "+541145885700",
+    "ref:sisa_codigo": "10020012315192",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wikidata": "Q93139821",
+    "id": "way/471550360"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4663644,
+          -34.6120855
+        ],
+        [
+          -58.4664121,
+          -34.6121115
+        ],
+        [
+          -58.4664589,
+          -34.612137
+        ],
+        [
+          -58.4662261,
+          -34.612426
+        ],
+        [
+          -58.4661317,
+          -34.6123745
+        ],
+        [
+          -58.4663644,
+          -34.6120855
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/471645174",
   "properties": {
     "addr:street": "Monroe",
@@ -89348,12 +89402,14 @@
   "id": "node/4888392214",
   "properties": {
     "addr:city": "Saavedra",
-    "addr:postcode": "8174",
-    "addr:street": "Maipú y Balcarce",
+    "addr:housenumber": "418",
+    "addr:postcode": "B8174",
+    "addr:street": "Balcarce",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Municipal Dr. Miguel Svarch",
+    "phone": "+54 (2923) 49-7123/7320",
     "id": "node/4888392214"
   },
   "geometry": {
@@ -98875,34 +98931,6 @@
     "coordinates": [
       -64.1897276,
       -31.4118557
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7501875880",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:full": "Tres Arroyos 2060",
-    "addr:housenumber": "2060",
-    "addr:postcode": "1416",
-    "addr:street": "Tres Arroyos",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clinica De La Esperanza",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "+541145885700",
-    "ref:sisa_codigo": "10020012315192",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93139821",
-    "id": "node/7501875880"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4663046,
-      -34.6120836
     ]
   }
 },
