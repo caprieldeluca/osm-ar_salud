@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-04-29T02:05:20Z",
-    "timestamp_areas_base": "2022-04-29T01:17:47Z",
+    "timestamp_osm_base": "2022-04-30T02:04:48Z",
+    "timestamp_areas_base": "2022-04-30T01:07:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -348,19 +348,6 @@
     "phone": "+54 362 4452588",
     "ref:sisa_codigo": "51221402126623",
     "ref:sisa_tipologia": "ESSID"
-  }
-},
-{
-  "type": "node",
-  "id": 1374380078,
-  "lat": -38.9476994,
-  "lon": -68.0410344,
-  "tags": {
-    "addr:housenumber": "1325",
-    "addr:street": "Islas Malvinas",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Liga Argentina de Lucha Contra el Cáncer (LALCEC)"
   }
 },
 {
@@ -8547,7 +8534,11 @@
   "lat": -27.3408173,
   "lon": -57.9341551,
   "tags": {
+    "addr:city": "Scorza Cué",
+    "addr:postcode": "3414",
+    "addr:street": "Ruta Nacional 12",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro de Antención Primaria de la Salud",
     "short_name": "CAPS"
   }
@@ -53798,6 +53789,8 @@
   "id": 636907507,
   "nodes": [
     6005293127,
+    9702712105,
+    9702712106,
     6005293126,
     6005293125,
     6005293124,
@@ -61450,6 +61443,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1056122370,
+  "nodes": [
+    9704313883,
+    9704313884,
+    9704313885,
+    9704313886,
+    9704313887,
+    9704313888,
+    9704313878,
+    9704313882,
+    9704313889,
+    9704313890,
+    9704313891,
+    9704313892,
+    9704313893,
+    9704313894,
+    9704313883
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -64068,6 +64087,90 @@
   "id": 7881391686,
   "lat": -38.9505122,
   "lon": -68.0521959
+},
+{
+  "type": "node",
+  "id": 9704313878,
+  "lat": -38.9477063,
+  "lon": -68.0409583
+},
+{
+  "type": "node",
+  "id": 9704313882,
+  "lat": -38.9478867,
+  "lon": -68.0409605
+},
+{
+  "type": "node",
+  "id": 9704313883,
+  "lat": -38.9480037,
+  "lon": -68.0407205
+},
+{
+  "type": "node",
+  "id": 9704313884,
+  "lat": -38.9478815,
+  "lon": -68.0407190
+},
+{
+  "type": "node",
+  "id": 9704313885,
+  "lat": -38.9478812,
+  "lon": -68.0407848
+},
+{
+  "type": "node",
+  "id": 9704313886,
+  "lat": -38.9477692,
+  "lon": -68.0407839
+},
+{
+  "type": "node",
+  "id": 9704313887,
+  "lat": -38.9477690,
+  "lon": -68.0408259
+},
+{
+  "type": "node",
+  "id": 9704313888,
+  "lat": -38.9477073,
+  "lon": -68.0408254
+},
+{
+  "type": "node",
+  "id": 9704313889,
+  "lat": -38.9478870,
+  "lon": -68.0408870
+},
+{
+  "type": "node",
+  "id": 9704313890,
+  "lat": -38.9479190,
+  "lon": -68.0408872
+},
+{
+  "type": "node",
+  "id": 9704313891,
+  "lat": -38.9479193,
+  "lon": -68.0408005
+},
+{
+  "type": "node",
+  "id": 9704313892,
+  "lat": -38.9479456,
+  "lon": -68.0408007
+},
+{
+  "type": "node",
+  "id": 9704313893,
+  "lat": -38.9479454,
+  "lon": -68.0408459
+},
+{
+  "type": "node",
+  "id": 9704313894,
+  "lat": -38.9479741,
+  "lon": -68.0408461
 },
 {
   "type": "node",
@@ -71368,26 +71471,38 @@
 {
   "type": "node",
   "id": 6005293124,
-  "lat": -34.0300860,
-  "lon": -60.5022130
+  "lat": -34.0300684,
+  "lon": -60.5022079
 },
 {
   "type": "node",
   "id": 6005293125,
-  "lat": -34.0301358,
-  "lon": -60.5021380
+  "lat": -34.0301189,
+  "lon": -60.5021342
 },
 {
   "type": "node",
   "id": 6005293126,
-  "lat": -34.0300641,
-  "lon": -60.5020686
+  "lat": -34.0300344,
+  "lon": -60.5020498
 },
 {
   "type": "node",
   "id": 6005293127,
-  "lat": -34.0300143,
-  "lon": -60.5021437
+  "lat": -34.0300055,
+  "lon": -60.5021452
+},
+{
+  "type": "node",
+  "id": 9702712105,
+  "lat": -34.0300126,
+  "lon": -60.5021402
+},
+{
+  "type": "node",
+  "id": 9702712106,
+  "lat": -34.0299887,
+  "lon": -60.5021164
 },
 {
   "type": "node",
