@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-05-11T02:09:26Z",
-    "timestamp_areas_base": "2022-05-11T01:48:46Z",
+    "timestamp_osm_base": "2022-05-12T02:10:14Z",
+    "timestamp_areas_base": "2022-05-12T02:03:10Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13003,8 +13003,14 @@
   "lat": -34.4413207,
   "lon": -58.5566416,
   "tags": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1438",
+    "addr:postcode": "B1646GEP",
+    "addr:street": "9 de Julio",
     "amenity": "pharmacy",
-    "name": "Farmacia 9 de Julio"
+    "healthcare": "pharmacy",
+    "name": "Farmacia 9 de Julio",
+    "phone": "+54 11 4744-9912"
   }
 },
 {
@@ -41603,10 +41609,9 @@
   "lat": -34.6158365,
   "lon": -58.4392047,
   "tags": {
-    "addr:street": "Hidalgo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "name": "Dalton"
   }
 },
 {
@@ -75540,6 +75545,93 @@
   }
 },
 {
+  "type": "node",
+  "id": 9731335291,
+  "lat": -34.5997023,
+  "lon": -58.4430819,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Bera"
+  }
+},
+{
+  "type": "node",
+  "id": 9731383158,
+  "lat": -34.5087567,
+  "lon": -58.5339677,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Modarelli"
+  }
+},
+{
+  "type": "node",
+  "id": 9731399386,
+  "lat": -34.5995114,
+  "lon": -58.4393494,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 9731402531,
+  "lat": -34.5968010,
+  "lon": -58.4417942,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Anco"
+  }
+},
+{
+  "type": "node",
+  "id": 9733459559,
+  "lat": -29.1741904,
+  "lon": -56.6438987,
+  "tags": {
+    "addr:city": "La Cruz",
+    "addr:postcode": "3346",
+    "addr:street": "Unión",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Martín II"
+  }
+},
+{
+  "type": "node",
+  "id": 9733688693,
+  "lat": -34.4383345,
+  "lon": -58.5600138,
+  "tags": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "652",
+    "addr:postcode": "1646",
+    "addr:street": "Constitución",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Zinga"
+  }
+},
+{
+  "type": "node",
+  "id": 9733688695,
+  "lat": -34.4357626,
+  "lon": -58.5635691,
+  "tags": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1234",
+    "addr:postcode": "B1646",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Rubinich"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -83711,11 +83803,16 @@
   "tags": {
     "addr:city": "San Fernando",
     "addr:housenumber": "1286",
+    "addr:postcode": "B1646",
     "addr:street": "Constitución",
     "amenity": "pharmacy",
     "building": "commercial",
     "healthcare": "pharmacy",
     "name": "Farmacia Andreu",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:nfc": "yes",
     "source": "Reconocimiento terrestre 2016 por Kaart."
   }
 },
