@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-05-16T02:04:50Z",
-    "timestamp_areas_base": "2022-05-16T01:53:39Z",
+    "timestamp_osm_base": "2022-05-18T02:03:57Z",
+    "timestamp_areas_base": "2022-05-18T01:33:34Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -42836,6 +42836,32 @@
   }
 },
 {
+  "type": "node",
+  "id": 9749237267,
+  "lat": -36.6217798,
+  "lon": -64.2852853,
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "461",
+    "addr:postcode": "6300",
+    "addr:street": "Lisandro de la Torre",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Torre Médica"
+  }
+},
+{
+  "type": "node",
+  "id": 9749237270,
+  "lat": -36.6233188,
+  "lon": -64.2871553,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "María Mater Diagnostico por Imagenes"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -51789,7 +51815,7 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842284697",
     "ref:sisa_tipologia": "ESSIDT",
-    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
+    "source:url": "http://www.funes.gob.ar/ciudad/centros-de-salud",
     "wheelchair": "yes",
     "wikidata": "Q97671972",
     "wikimedia_commons": "File:Centro de Salud Eva Perón (Funes).jpg"
@@ -51824,7 +51850,7 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842284470",
     "ref:sisa_tipologia": "ESSIDT",
-    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
+    "source:url": "http://www.funes.gob.ar/ciudad/centros-de-salud",
     "wikidata": "Q97671910",
     "wikimedia_commons": "File:Centro_de_Salud_Dr._Esteban_Maradona_(Funes).jpg"
   }
@@ -61054,7 +61080,7 @@
     "ref:sisa_codigo": "50820842284647",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "Centro de Salud Abel Faust",
-    "source": "http://www.funes.gob.ar/ciudad/centros-de-salud",
+    "source:url": "http://www.funes.gob.ar/ciudad/centros-de-salud",
     "wheelchair": "yes",
     "wikidata": "Q97671903",
     "wikimedia_commons": "File:Centro_de_Salud_Dr._Abel_Faust_(Funes).jpg"
@@ -61156,33 +61182,6 @@
     "phone": "+54 342 452-8250;+54 342 453-9166",
     "short_name": "COT - CEDiR",
     "website": "https://gruposantafe.com.ar/unidades-prestacionales/cedir/"
-  }
-},
-{
-  "type": "way",
-  "id": 1008174453,
-  "nodes": [
-    7616400713,
-    9301033819,
-    7058802675,
-    7058802674,
-    7058802673,
-    9300999708,
-    9300999709,
-    9300999710,
-    9300999711,
-    9300999712,
-    9300999713,
-    9300999714,
-    9300999715,
-    7616400710,
-    7616400713
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Clínica Diquecito"
   }
 },
 {
@@ -61505,6 +61504,66 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1060557619,
+  "nodes": [
+    9743878098,
+    9743878099,
+    9743878100,
+    9743878101,
+    9743878098
+  ],
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "640",
+    "addr:postcode": "6300",
+    "addr:street": "1 de Mayo",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "POLYMEDIC"
+  }
+},
+{
+  "type": "way",
+  "id": 1060885734,
+  "nodes": [
+    9747499629,
+    9747499630,
+    9747499631,
+    9747499632,
+    9747499629
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Instituto Oftalmologico Cortina"
+  }
+},
+{
+  "type": "way",
+  "id": 1061087061,
+  "nodes": [
+    9749186355,
+    9749186356,
+    9749186357,
+    9749186358,
+    9749186355
+  ],
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "164",
+    "addr:postcode": "6300",
+    "addr:street": "Urquiza",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Instituto Profensa"
   }
 },
 {
@@ -71311,6 +71370,30 @@
 },
 {
   "type": "node",
+  "id": 9749186355,
+  "lat": -36.6183324,
+  "lon": -64.2827877
+},
+{
+  "type": "node",
+  "id": 9749186356,
+  "lat": -36.6183324,
+  "lon": -64.2822224
+},
+{
+  "type": "node",
+  "id": 9749186357,
+  "lat": -36.6184424,
+  "lon": -64.2822243
+},
+{
+  "type": "node",
+  "id": 9749186358,
+  "lat": -36.6184365,
+  "lon": -64.2827895
+},
+{
+  "type": "node",
   "id": 7778765484,
   "lat": -36.6179739,
   "lon": -64.2874076
@@ -71332,6 +71415,54 @@
   "id": 7778803887,
   "lat": -36.6179725,
   "lon": -64.2875584
+},
+{
+  "type": "node",
+  "id": 9743878098,
+  "lat": -36.6147580,
+  "lon": -64.2906057
+},
+{
+  "type": "node",
+  "id": 9743878099,
+  "lat": -36.6147565,
+  "lon": -64.2903055
+},
+{
+  "type": "node",
+  "id": 9743878100,
+  "lat": -36.6152117,
+  "lon": -64.2903166
+},
+{
+  "type": "node",
+  "id": 9743878101,
+  "lat": -36.6152087,
+  "lon": -64.2906039
+},
+{
+  "type": "node",
+  "id": 9747499629,
+  "lat": -36.6182748,
+  "lon": -64.2670087
+},
+{
+  "type": "node",
+  "id": 9747499630,
+  "lat": -36.6182770,
+  "lon": -64.2664857
+},
+{
+  "type": "node",
+  "id": 9747499631,
+  "lat": -36.6187506,
+  "lon": -64.2664884
+},
+{
+  "type": "node",
+  "id": 9747499632,
+  "lat": -36.6187506,
+  "lon": -64.2670034
 },
 {
   "type": "node",
@@ -72274,90 +72405,6 @@
   "id": 7814378164,
   "lat": -31.4202539,
   "lon": -64.4933099
-},
-{
-  "type": "node",
-  "id": 7058802673,
-  "lat": -31.3610293,
-  "lon": -64.3837260
-},
-{
-  "type": "node",
-  "id": 7058802674,
-  "lat": -31.3610334,
-  "lon": -64.3841943
-},
-{
-  "type": "node",
-  "id": 7058802675,
-  "lat": -31.3610603,
-  "lon": -64.3845206
-},
-{
-  "type": "node",
-  "id": 7616400710,
-  "lat": -31.3588476,
-  "lon": -64.3852975
-},
-{
-  "type": "node",
-  "id": 7616400713,
-  "lat": -31.3608144,
-  "lon": -64.3849348
-},
-{
-  "type": "node",
-  "id": 9300999708,
-  "lat": -31.3608391,
-  "lon": -64.3837103
-},
-{
-  "type": "node",
-  "id": 9300999709,
-  "lat": -31.3604406,
-  "lon": -64.3836908
-},
-{
-  "type": "node",
-  "id": 9300999710,
-  "lat": -31.3604768,
-  "lon": -64.3834466
-},
-{
-  "type": "node",
-  "id": 9300999711,
-  "lat": -31.3594009,
-  "lon": -64.3832502
-},
-{
-  "type": "node",
-  "id": 9300999712,
-  "lat": -31.3588977,
-  "lon": -64.3840837
-},
-{
-  "type": "node",
-  "id": 9300999713,
-  "lat": -31.3585759,
-  "lon": -64.3846199
-},
-{
-  "type": "node",
-  "id": 9300999714,
-  "lat": -31.3584414,
-  "lon": -64.3848535
-},
-{
-  "type": "node",
-  "id": 9300999715,
-  "lat": -31.3583167,
-  "lon": -64.3851127
-},
-{
-  "type": "node",
-  "id": 9301033819,
-  "lat": -31.3610786,
-  "lon": -64.3845743
 },
 {
   "type": "node",

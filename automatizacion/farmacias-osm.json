@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.2 48842a1b",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-05-16T02:09:47Z",
-    "timestamp_areas_base": "2022-05-16T02:07:53Z",
+    "timestamp_osm_base": "2022-05-18T02:10:01Z",
+    "timestamp_areas_base": "2022-05-18T01:21:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -42845,13 +42845,20 @@
 {
   "type": "node",
   "id": 4713381690,
-  "lat": -38.9272822,
-  "lon": -68.0791627,
+  "lat": -38.9273311,
+  "lon": -68.0793072,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "578",
+    "addr:postcode": "Q8300",
+    "addr:street": "Cabellera del Frío",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia global",
-    "name:es": "Farmacia global"
+    "name": "Farmacias Global",
+    "name:es": "Farmacia global",
+    "operator": "Farmacias Global S.H."
   }
 },
 {
@@ -60639,8 +60646,8 @@
 {
   "type": "node",
   "id": 6901566270,
-  "lat": -31.5308598,
-  "lon": -68.5956469,
+  "lat": -31.5308426,
+  "lon": -68.5956313,
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -68313,6 +68320,8 @@
     "addr:postcode": "L6300",
     "addr:street": "Avenida General San Martín Este",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
@@ -68322,8 +68331,8 @@
 {
   "type": "node",
   "id": 7770924247,
-  "lat": -36.6208291,
-  "lon": -64.2855755,
+  "lat": -36.6208163,
+  "lon": -64.2854923,
   "tags": {
     "addr:city": "Santa Rosa",
     "addr:housenumber": "437",
@@ -69507,8 +69516,6 @@
   "lon": -68.6004076,
   "tags": {
     "amenity": "pharmacy",
-    "building": "yes",
-    "building:levels": "1",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Desamparados II",
@@ -74162,7 +74169,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "level": "0",
-    "name": "Leal",
+    "name": "Farmacia Leal",
     "operator": "Leal S.R.L.",
     "wheelchair": "designated"
   }
@@ -75644,6 +75651,58 @@
     "healthcare": "pharmacy",
     "name": "Santa Mónica",
     "opening_hours": "Lu-Sa 9:00-13:00/17:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9742460422,
+  "lat": -31.5309958,
+  "lon": -68.5964401,
+  "tags": {
+    "addr:city": "Rivadavia",
+    "addr:housenumber": "5580 (O)",
+    "addr:postcode": "5407",
+    "addr:street": "Avenida Libertador General San Martín",
+    "amenity": "pharmacy",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Miramax"
+  }
+},
+{
+  "type": "node",
+  "id": 9747462625,
+  "lat": -36.6151548,
+  "lon": -64.2901563,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Polyfarma Norte"
+  }
+},
+{
+  "type": "node",
+  "id": 9749111915,
+  "lat": -36.6168197,
+  "lon": -64.2957137,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Alsina"
+  }
+},
+{
+  "type": "node",
+  "id": 9749255310,
+  "lat": -36.6255752,
+  "lon": -64.2848906,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Pampa"
   }
 },
 {
@@ -86236,33 +86295,6 @@
 },
 {
   "type": "way",
-  "id": 549027721,
-  "nodes": [
-    5303629043,
-    6900492344,
-    5303629050,
-    5303629044,
-    5303629051,
-    6900492400,
-    5303649386,
-    5303649392,
-    5303613289,
-    5303629043
-  ],
-  "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "5580 (O)",
-    "addr:postcode": "5407",
-    "addr:street": "Avenida Libertador General San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Miramax"
-  }
-},
-{
-  "type": "way",
   "id": 549180907,
   "nodes": [
     5305026413,
@@ -87809,24 +87841,6 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Romero Centro"
-  }
-},
-{
-  "type": "way",
-  "id": 566500379,
-  "nodes": [
-    5455573270,
-    5455573271,
-    5432546069,
-    5455573146,
-    5455573270
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia La Paz"
   }
 },
 {
@@ -90636,6 +90650,8 @@
     "addr:postcode": "L6300",
     "addr:street": "Nicolás Avellaneda",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -98044,30 +98060,6 @@
 },
 {
   "type": "node",
-  "id": 5432546069,
-  "lat": -31.5346529,
-  "lon": -68.6032592
-},
-{
-  "type": "node",
-  "id": 5455573146,
-  "lat": -31.5346670,
-  "lon": -68.6033654
-},
-{
-  "type": "node",
-  "id": 5455573270,
-  "lat": -31.5347255,
-  "lon": -68.6033554
-},
-{
-  "type": "node",
-  "id": 5455573271,
-  "lat": -31.5347131,
-  "lon": -68.6032500
-},
-{
-  "type": "node",
   "id": 3636036348,
   "lat": -31.5256196,
   "lon": -68.6289266
@@ -98089,60 +98081,6 @@
   "id": 3636036351,
   "lat": -31.5257399,
   "lon": -68.6288773
-},
-{
-  "type": "node",
-  "id": 5303613289,
-  "lat": -31.5309501,
-  "lon": -68.5964023
-},
-{
-  "type": "node",
-  "id": 5303629043,
-  "lat": -31.5309655,
-  "lon": -68.5964926
-},
-{
-  "type": "node",
-  "id": 5303629044,
-  "lat": -31.5310952,
-  "lon": -68.5964158
-},
-{
-  "type": "node",
-  "id": 5303629050,
-  "lat": -31.5311028,
-  "lon": -68.5964603
-},
-{
-  "type": "node",
-  "id": 5303629051,
-  "lat": -31.5311526,
-  "lon": -68.5964023
-},
-{
-  "type": "node",
-  "id": 5303649386,
-  "lat": -31.5310612,
-  "lon": -68.5963758
-},
-{
-  "type": "node",
-  "id": 5303649392,
-  "lat": -31.5309978,
-  "lon": -68.5963909
-},
-{
-  "type": "node",
-  "id": 6900492344,
-  "lat": -31.5310877,
-  "lon": -68.5964638
-},
-{
-  "type": "node",
-  "id": 6900492400,
-  "lat": -31.5311575,
-  "lon": -68.5963528
 },
 {
   "type": "node",

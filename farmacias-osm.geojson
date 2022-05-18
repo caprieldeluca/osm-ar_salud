@@ -22842,69 +22842,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/549027721",
-  "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "5580 (O)",
-    "addr:postcode": "5407",
-    "addr:street": "Avenida Libertador General San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Miramax",
-    "id": "way/549027721"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5964926,
-          -31.5309655
-        ],
-        [
-          -68.5964638,
-          -31.5310877
-        ],
-        [
-          -68.5964603,
-          -31.5311028
-        ],
-        [
-          -68.5964158,
-          -31.5310952
-        ],
-        [
-          -68.5964023,
-          -31.5311526
-        ],
-        [
-          -68.5963528,
-          -31.5311575
-        ],
-        [
-          -68.5963758,
-          -31.5310612
-        ],
-        [
-          -68.5963909,
-          -31.5309978
-        ],
-        [
-          -68.5964023,
-          -31.5309501
-        ],
-        [
-          -68.5964926,
-          -31.5309655
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/549180907",
   "properties": {
     "addr:street": "Calle 75",
@@ -26272,45 +26209,6 @@
         [
           -63.0510424,
           -31.4219269
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/566500379",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia La Paz",
-    "id": "way/566500379"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.6033554,
-          -31.5347255
-        ],
-        [
-          -68.60325,
-          -31.5347131
-        ],
-        [
-          -68.6032592,
-          -31.5346529
-        ],
-        [
-          -68.6033654,
-          -31.534667
-        ],
-        [
-          -68.6033554,
-          -31.5347255
         ]
       ]
     ]
@@ -32413,6 +32311,8 @@
     "addr:postcode": "L6300",
     "addr:street": "Nicolás Avellaneda",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -101684,17 +101584,24 @@
   "type": "Feature",
   "id": "node/4713381690",
   "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "578",
+    "addr:postcode": "Q8300",
+    "addr:street": "Cabellera del Frío",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia global",
+    "name": "Farmacias Global",
     "name:es": "Farmacia global",
+    "operator": "Farmacias Global S.H.",
     "id": "node/4713381690"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0791627,
-      -38.9272822
+      -68.0793072,
+      -38.9273311
     ]
   }
 },
@@ -127947,8 +127854,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5956469,
-      -31.5308598
+      -68.5956313,
+      -31.5308426
     ]
   }
 },
@@ -138693,6 +138600,8 @@
     "addr:postcode": "L6300",
     "addr:street": "Avenida General San Martín Este",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
@@ -138724,8 +138633,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.2855755,
-      -36.6208291
+      -64.2854923,
+      -36.6208163
     ]
   }
 },
@@ -140409,8 +140318,6 @@
   "id": "node/7987060007",
   "properties": {
     "amenity": "pharmacy",
-    "building": "yes",
-    "building:levels": "1",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Desamparados II",
@@ -147116,7 +147023,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "level": "0",
-    "name": "Leal",
+    "name": "Farmacia Leal",
     "operator": "Leal S.R.L.",
     "wheelchair": "designated",
     "id": "node/9386822429"
@@ -149259,6 +149166,82 @@
     "coordinates": [
       -64.5803783,
       -32.0680098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9742460422",
+  "properties": {
+    "addr:city": "Rivadavia",
+    "addr:housenumber": "5580 (O)",
+    "addr:postcode": "5407",
+    "addr:street": "Avenida Libertador General San Martín",
+    "amenity": "pharmacy",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Miramax",
+    "id": "node/9742460422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5964401,
+      -31.5309958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9747462625",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Polyfarma Norte",
+    "id": "node/9747462625"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2901563,
+      -36.6151548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749111915",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Alsina",
+    "id": "node/9749111915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2957137,
+      -36.6168197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749255310",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Pampa",
+    "id": "node/9749255310"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2848906,
+      -36.6255752
     ]
   }
 }
