@@ -48120,6 +48120,8 @@
   "id": "node/1861710862",
   "properties": {
     "addr:city": "Olivos",
+    "addr:housenumber": "2440",
+    "addr:postcode": "1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -48844,10 +48846,13 @@
   "type": "Feature",
   "id": "node/1886233442",
   "properties": {
+    "addr:city": "Villa Ballester",
     "addr:postcode": "1653",
-    "addr:street": "114 - Marcelo Torcuato de Alvear",
+    "addr:street": "114 - Alvear",
     "amenity": "pharmacy",
-    "name": "El Aguila",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Aguila",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/1886233442"
   },
@@ -77242,11 +77247,17 @@
   "type": "Feature",
   "id": "node/3710051994",
   "properties": {
+    "addr:city": "Olivos",
+    "addr:housenumber": "2223",
+    "addr:postcode": "1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Suizo",
-    "source": "Reconocimiento terrestre por Kaart 2016.",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "phone": "+54 11 6051 7700",
+    "source": "Reconocimiento terrestre por Kaart 2016.;local knowledge",
+    "website": "http://www.selmadigital.com/",
     "id": "node/3710051994"
   },
   "geometry": {
@@ -87961,6 +87972,10 @@
   "type": "Feature",
   "id": "node/4382883457",
   "properties": {
+    "addr:city": "Ezeiza",
+    "addr:housenumber": "201",
+    "addr:postcode": "1806",
+    "addr:street": "Pedro Pravaz",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Ginesta",
@@ -90664,7 +90679,10 @@
   "type": "Feature",
   "id": "node/4551147469",
   "properties": {
-    "addr:street": "Tucumán",
+    "addr:city": "Ezeiza",
+    "addr:housenumber": "499",
+    "addr:postcode": "1804",
+    "addr:street": "French",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Moyano",
@@ -93609,7 +93627,7 @@
     "addr:city": "Villa Ballester",
     "addr:housenumber": "2574",
     "addr:postcode": "1653",
-    "addr:street": "114 - Marcelo Torcuato de Alvear",
+    "addr:street": "114 - Alvear",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -96641,11 +96659,14 @@
   "id": "node/4657350829",
   "properties": {
     "addr:city": "Vicente López",
+    "addr:housenumber": "2102",
+    "addr:postcode": "1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "La Quinta Plus",
     "opening_hours": "Mo-Sa 08:00-14:00,16:00-20:00; Su off",
+    "phone": "+54 11 4795 6380",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4657350829"
   },
@@ -103007,8 +103028,10 @@
   "type": "Feature",
   "id": "node/4826023721",
   "properties": {
-    "addr:street": "Alvear",
+    "addr:street": "114 - Alvear",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
     "name": "Alvear",
     "id": "node/4826023721"
   },
@@ -125916,9 +125939,13 @@
   "type": "Feature",
   "id": "node/6558282038",
   "properties": {
+    "addr:city": "Chepes",
+    "addr:postcode": "5470",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Cristal",
+    "phone": "+54 3821 42 0079",
     "id": "node/6558282038"
   },
   "geometry": {
@@ -128810,6 +128837,10 @@
   "type": "Feature",
   "id": "node/7093474821",
   "properties": {
+    "addr:city": "Ezeiza",
+    "addr:housenumber": "864",
+    "addr:postcode": "1804",
+    "addr:street": "French",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Cerrato",
@@ -145553,7 +145584,8 @@
     "payment:credit_cards": "yes",
     "payment:maestro": "yes",
     "payment:visa_debit": "yes",
-    "phone": "+54 4866755",
+    "phone": "+54 299 4866755",
+    "website": "https://www.juanitalenceria.com.ar",
     "wheelchair": "yes",
     "id": "node/9124373623"
   },
@@ -146261,8 +146293,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -63.2464689,
-      -32.420362
+      -63.2464474,
+      -32.4203484
     ]
   }
 },
@@ -149299,6 +149331,118 @@
     "coordinates": [
       -59.6086165,
       -38.3455146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9765719896",
+  "properties": {
+    "addr:city": "Guaymallén",
+    "addr:full": "Bandera De Los Andes 6001 Es - Villa Nueva De Guaymallen",
+    "addr:housenumber": "6001",
+    "addr:postcode": "5523",
+    "addr:street": "Bandera de Los Andes",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Nueva Italia",
+    "id": "node/9765719896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.7719797,
+      -32.9100815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9765766336",
+  "properties": {
+    "addr:city": "Federación",
+    "addr:housenumber": "1087",
+    "addr:postcode": "3206",
+    "addr:street": "Las Magnolias",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Federación",
+    "phone": "+54 3456 465166",
+    "id": "node/9765766336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.9236973,
+      -30.9829882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9772930880",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Sol",
+    "id": "node/9772930880"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2822913,
+      -36.6219137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9773842218",
+  "properties": {
+    "addr:city": "Reconquista",
+    "addr:full": "Alvear Y 9 De Julio",
+    "addr:housenumber": "498",
+    "addr:postcode": "S3560",
+    "addr:street": "Alvear",
+    "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/farmacia.paduan/",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Paduan",
+    "phone": "+54 3482 42-2201",
+    "id": "node/9773842218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6471966,
+      -29.1418191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9773869525",
+  "properties": {
+    "addr:city": "Chepes",
+    "addr:full": "San Juan Y Peñaloza",
+    "addr:housenumber": "287",
+    "addr:postcode": "5470",
+    "addr:street": "Ángel Vicente Peñaloza",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Maria de la Salud",
+    "id": "node/9773869525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.5927493,
+      -31.3374796
     ]
   }
 }

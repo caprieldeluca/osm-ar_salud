@@ -27616,7 +27616,7 @@
           -38.9429549
         ],
         [
-          -68.0564198,
+          -68.0564221,
           -38.9430985
         ],
         [
@@ -27625,7 +27625,7 @@
         ],
         [
           -68.0563449,
-          -38.9431572
+          -38.9431571
         ],
         [
           -68.05627,
@@ -46153,13 +46153,12 @@
   "id": "node/3372715190",
   "properties": {
     "addr:city": "Ezeiza",
-    "addr:full": "Giribone 154",
+    "addr:full": "Esquina Senadora Prov. Josefina Moscoso de Herrera.  Entre San Juan  y De Vedia",
     "addr:housenumber": "163",
     "addr:postcode": "1804",
     "addr:street": "Giribone",
     "alt_name": "Centro De Salud 2",
     "amenity": "clinic",
-    "description": "Esquina Senadora Prov. Josefina Moscoso de Herrera.  Entre San Juan  y De Vedia\n\n\n\nGiribone 163\nesquina Senadora\nProv. Josefina Moscoso\nde Herrera\nSan Juan De Vedia",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Nº 2",
     "operator": "Municipal",
@@ -52139,13 +52138,14 @@
   "properties": {
     "addr:city": "Ezeiza",
     "addr:full": "Cordoba Y Rivadavia Barrio Villa Guillermina",
+    "addr:housenumber": "589",
     "addr:postcode": "1804",
-    "addr:street": "Cordoba Esq. Rivadavia",
+    "addr:street": "Provincia de Córdoba",
     "alt_name": "Centro De Salud 16",
     "amenity": "clinic",
-    "description": "Córdoba 589\nesquina Rivadavia 584 Tucumán/Monteagudo",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Nº 16",
+    "name": "Unidad Sanitaria 16",
+    "official_name": "Unidad Sanitaria Nº 16",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 11 42329085",
@@ -52215,13 +52215,12 @@
   "id": "node/4455668397",
   "properties": {
     "addr:city": "Tristán Suárez",
-    "addr:full": "Saavedra 946",
+    "addr:full": "Saavedra 946 Esq. Los Manzanos. Entre Los girasoles y Los Ciruelos",
     "addr:housenumber": "947",
     "addr:postcode": "1804",
     "addr:street": "Cornelio Saavedra",
     "alt_name": "Centro De Salud 18",
     "amenity": "clinic",
-    "description": "Esq. Los Manzanos. Entre Los girasoles y Los Ciruelos\n\n\nLos Manzanos 292\nesquina Saavedra 947\nDr. E. Gómez\nLos Girasoles",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria 18",
     "official_name": "Unidad Sanitaria Nº 18",
@@ -53807,28 +53806,12 @@
 },
 {
   "type": "Feature",
-  "id": "node/4616598512",
-  "properties": {
-    "addr:street": "114 - Marcelo Torcuato de Alvear",
-    "amenity": "clinic",
-    "name": "Bagualito",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
-    "id": "node/4616598512"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5509982,
-      -34.5471347
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4616728367",
   "properties": {
-    "addr:street": "114 - Marcelo Torcuato de Alvear",
+    "addr:city": "Villa Ballester",
+    "addr:street": "114 - Alvear",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro Pediatrico Ballester",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/4616728367"
@@ -53845,6 +53828,9 @@
   "type": "Feature",
   "id": "node/4616728368",
   "properties": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "2301",
+    "addr:street": "114 - Alvear",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "anaesthetics;plastic_surgery",
@@ -63681,7 +63667,7 @@
   "id": "node/6539853785",
   "properties": {
     "addr:housenumber": "24",
-    "addr:street": "Avenida 227 - José María Pérez",
+    "addr:street": "227 - José María Pérez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "psychiatry",
@@ -99470,6 +99456,23 @@
     "coordinates": [
       -64.2871553,
       -36.6233188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9772550921",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios Garibaldi",
+    "id": "node/9772550921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.284899,
+      -36.6214562
     ]
   }
 }
