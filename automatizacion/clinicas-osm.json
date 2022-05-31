@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57 93a4d346",
+  "generator": "Overpass API 0.7.57.2 48842a1b",
   "osm3s": {
-    "timestamp_osm_base": "2022-05-30T02:04:25Z",
-    "timestamp_areas_base": "2022-05-30T01:49:10Z",
+    "timestamp_osm_base": "2022-05-31T02:04:35Z",
+    "timestamp_areas_base": "2022-05-31T02:02:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7702,6 +7702,22 @@
 },
 {
   "type": "node",
+  "id": 4425753891,
+  "lat": -31.5807443,
+  "lon": -60.0711126,
+  "tags": {
+    "addr:city": "Cerrito",
+    "addr:postcode": "3122",
+    "addr:street": "Avenida Uruguay",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/centromedico.cerrito",
+    "healthcare": "clinic",
+    "name": "Centro Médico Cerrito",
+    "name:es": "Centro Médico Cerrito"
+  }
+},
+{
+  "type": "node",
   "id": 4427909691,
   "lat": -45.8356756,
   "lon": -67.4785925,
@@ -8886,19 +8902,20 @@
 {
   "type": "node",
   "id": 4600858689,
-  "lat": -26.8692193,
-  "lon": -60.2164393,
+  "lat": -26.8692450,
+  "lon": -60.2166250,
   "tags": {
     "addr:city": "Quitilipi",
     "addr:housenumber": "646",
     "addr:postcode": "3530",
     "addr:street": "San Martín",
     "amenity": "clinic",
+    "email": "raguirre.integral@aclysachaco.org",
     "healthcare": "clinic",
     "name": "Integral Servicios de Salud",
     "name:es": "Integral Servicios de Salud",
     "opening_hours": "24/7",
-    "phone": "+54 364 481400"
+    "phone": "+54 364 481400;+54 364 4481400"
   }
 },
 {
@@ -9120,7 +9137,7 @@
     "addr:street": "Avenida Avelino Rolón",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Ortopedico Junin",
+    "name": "Centro Ortopedico Junín",
     "source": "Reconocimiento cartográfico 2016 por KG"
   }
 },
@@ -11898,23 +11915,6 @@
   "lon": -58.3173796,
   "tags": {
     "amenity": "clinic"
-  }
-},
-{
-  "type": "node",
-  "id": 5208186223,
-  "lat": -26.8687835,
-  "lon": -60.2174852,
-  "tags": {
-    "addr:housenumber": "646",
-    "addr:postcode": "3530",
-    "addr:street": "San Martín",
-    "amenity": "clinic",
-    "email": "raguirre.integral@aclysachaco.org",
-    "healthcare": "clinic",
-    "name": "Integral Servicios de Salud",
-    "opening_hours": "24/7",
-    "phone": "+54 364 4481400"
   }
 },
 {
@@ -42879,6 +42879,50 @@
   }
 },
 {
+  "type": "node",
+  "id": 9781501105,
+  "lat": -36.6263808,
+  "lon": -64.3044425,
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "1297",
+    "addr:postcode": "6300",
+    "addr:street": "Colectora Presidente Juan Domingo Perón",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Oncologia y Terapia Radiante"
+  }
+},
+{
+  "type": "node",
+  "id": 9782137339,
+  "lat": -36.6107620,
+  "lon": -64.2900318,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Médico Ambulatorio NODUS"
+  }
+},
+{
+  "type": "node",
+  "id": 9783385754,
+  "lat": -31.6643020,
+  "lon": -59.9031740,
+  "tags": {
+    "addr:city": "María Grande",
+    "addr:housenumber": "271",
+    "addr:postcode": "3133",
+    "addr:street": "Sarmiento",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorio Medico Genesis",
+    "phone": "+54 343 4941536",
+    "ref:sisa_codigo": "50300842342732",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -49973,7 +50017,7 @@
     "addr:city": "Boulogne Sur Mer",
     "addr:housenumber": "129",
     "addr:postcode": "B1609",
-    "addr:street": "Blanco Encalada",
+    "addr:street": "Almirante Blanco Encalada",
     "amenity": "clinic",
     "building": "yes",
     "health_facility:type": "laboratory",

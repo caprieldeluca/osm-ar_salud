@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.57.2 48842a1b",
+  "generator": "Overpass API 0.7.57 93a4d346",
   "osm3s": {
-    "timestamp_osm_base": "2022-05-30T01:59:21Z",
-    "timestamp_areas_base": "2022-05-30T01:49:10Z",
+    "timestamp_osm_base": "2022-05-31T01:59:10Z",
+    "timestamp_areas_base": "2022-05-31T01:02:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1779,7 +1779,7 @@
   "tags": {
     "addr:city": "San Isidro",
     "addr:housenumber": "3028",
-    "addr:street": "M. Lezica",
+    "addr:street": "Martín Lezica",
     "amenity": "hospital",
     "designation": "Instituto Cardiovascular Lezica",
     "healthcare": "hospital",
@@ -4531,8 +4531,16 @@
   "lat": -31.5804511,
   "lon": -60.0701004,
   "tags": {
+    "addr:city": "Cerrito",
+    "addr:housenumber": "414",
+    "addr:postcode": "3122",
+    "addr:street": "Boulevard Libertad",
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "healthcare": "hospital",
+    "name": "Hospital José Maria Miranda",
+    "phone": "+54 343 4890133",
+    "ref:sisa_codigo": "10300842142049",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -23151,6 +23159,45 @@
   }
 },
 {
+  "type": "node",
+  "id": 9783385752,
+  "lat": -31.6663385,
+  "lon": -59.9022580,
+  "tags": {
+    "addr:city": "María Grande",
+    "addr:housenumber": "261",
+    "addr:postcode": "3133",
+    "addr:street": "25 de mayo",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinica Sanatorio 24 De Noviembre",
+    "official_name": "Clinica Sanatorio 24 De Noviembre S.R.L.",
+    "phone": "+54 343 4940144",
+    "ref:sisa_codigo": "10300842342113",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "SISA"
+  }
+},
+{
+  "type": "node",
+  "id": 9783385753,
+  "lat": -31.6630706,
+  "lon": -59.9075490,
+  "tags": {
+    "addr:city": "María Grande",
+    "addr:housenumber": "480",
+    "addr:postcode": "3133",
+    "addr:street": "Sarmiento",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinica Sanatorio María Grande",
+    "official_name": "Clinica Sanatorio Maria Grande S.R.L.",
+    "phone": "+54 343 4940159",
+    "ref:sisa_codigo": "Clinica Sanatorio Maria Grande S.R.L.",
+    "ref:sisa_tipologia": "Clinica Sanatorio Maria Grande S.R.L."
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -29699,10 +29746,12 @@
   "tags": {
     "addr:city": "Pablo Nogués",
     "addr:housenumber": "2000",
+    "addr:postcode": "1613",
     "addr:street": "Avenida del Sesquicentenario",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital de Pediatria Claudio Zin"
+    "name": "Hospital Pediátrico de Malvinas Argentinas",
+    "old_name": "Hospital de Pediatria Claudio Zin"
   }
 },
 {
