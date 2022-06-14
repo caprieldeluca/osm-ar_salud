@@ -21580,8 +21580,6 @@
     "ref:sisa_codigo": "10020012315256",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.hospitalitaliano.org.ar/",
-    "wikidata": "Q1134710",
-    "wikipedia": "es:Hospital Italiano de Buenos Aires",
     "id": "way/255977249"
   },
   "geometry": {
@@ -36049,45 +36047,6 @@
         [
           -65.2418725,
           -26.8302856
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/409155161",
-  "properties": {
-    "addr:housenumber": "490",
-    "addr:street": "Carmen de Patagones",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro de Salud Pública Bº Sapere",
-    "id": "way/409155161"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0287907,
-          -38.9497791
-        ],
-        [
-          -68.0287813,
-          -38.9496102
-        ],
-        [
-          -68.029063,
-          -38.9496111
-        ],
-        [
-          -68.029067,
-          -38.9497791
-        ],
-        [
-          -68.0287907,
-          -38.9497791
         ]
       ]
     ]
@@ -80595,7 +80554,7 @@
   "properties": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Sala 1ros Auxilios",
+    "name": "Sala de Primeros Auxilios",
     "id": "node/3406136364"
   },
   "geometry": {
@@ -90729,7 +90688,10 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital San Antonio",
+    "official_name": "Hospital San Antonio De Padua",
     "phone": "+54 3782 498087",
+    "ref:sisa_codigo": "10180982139026",
+    "ref:sisa_tipologia": "ESCIG",
     "id": "node/5125005043"
   },
   "geometry": {
@@ -103611,6 +103573,25 @@
     "coordinates": [
       -59.907549,
       -31.6630706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9812772595",
+  "properties": {
+    "addr:city": "Suncho Corral",
+    "addr:postcode": "4350",
+    "addr:street": "25 de Mayo",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "node/9812772595"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.4257175,
+      -27.9417897
     ]
   }
 }
