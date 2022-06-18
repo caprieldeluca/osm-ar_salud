@@ -2915,6 +2915,9 @@
   "type": "Feature",
   "id": "way/467837098",
   "properties": {
+    "addr:city": "Vicente López",
+    "addr:housenumber": "1442",
+    "addr:postcode": "B1638",
     "addr:street": "Avenida Maipú",
     "amenity": "doctors",
     "building": "hospital",
@@ -2922,6 +2925,7 @@
     "healthcare": "doctor",
     "name": "Hospital Británico",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "http://www.hospitalbritanico.org.ar/",
     "id": "way/467837098"
   },
   "geometry": {
@@ -8398,6 +8402,62 @@
         [
           -58.4582419,
           -34.5472656
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1069680766",
+  "properties": {
+    "addr:housenumber": "1190",
+    "addr:street": "Avenida Carlos López Piacentini",
+    "amenity": "doctors",
+    "contact:facebook": "https://www.facebook.com/piacentinisalud/",
+    "contact:instagram": "https://www.instagram.com/piacentini_salud/",
+    "healthcare": "doctor",
+    "level": "0",
+    "name": "Piacentini Salud Integral",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-12:00",
+    "phone": "+54 362 4638913",
+    "id": "way/1069680766"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.9872411,
+          -27.469817
+        ],
+        [
+          -58.987236,
+          -27.4698635
+        ],
+        [
+          -58.9872246,
+          -27.4699727
+        ],
+        [
+          -58.987169,
+          -27.4699679
+        ],
+        [
+          -58.9871619,
+          -27.4699605
+        ],
+        [
+          -58.9871534,
+          -27.4699516
+        ],
+        [
+          -58.987169,
+          -27.4698107
+        ],
+        [
+          -58.9872411,
+          -27.469817
         ]
       ]
     ]
@@ -34221,6 +34281,31 @@
     "coordinates": [
       -58.2267959,
       -28.0470962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9818609729",
+  "properties": {
+    "addr:city": "Posadas",
+    "addr:full": "Avenida Pino Paraná y Chivato",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Pino Paraná",
+    "alt_name": "Centro de Atención Primaria de la Salud",
+    "amenity": "doctors",
+    "description": "Categoría de tipología: Con atención médica diaria y con especialidades y/o otras profesiones.",
+    "healthcare": "doctor",
+    "name": "CAPS 508 Itaembé Guazú",
+    "ref:ZonaSanitaria": "Capital",
+    "short_name": "CAPS 508 Itaembé Guazú",
+    "id": "node/9818609729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9993921,
+      -27.3933013
     ]
   }
 }
