@@ -38772,6 +38772,50 @@
 },
 {
   "type": "Feature",
+  "id": "way/1071150412",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "17",
+    "addr:postcode": "Q8300",
+    "addr:street": "Presidente Arturo Illia",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacia Rosario",
+    "id": "way/1071150412"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0448828,
+          -38.9548011
+        ],
+        [
+          -68.0448832,
+          -38.9546937
+        ],
+        [
+          -68.0450286,
+          -38.954694
+        ],
+        [
+          -68.0450282,
+          -38.9548014
+        ],
+        [
+          -68.0448828,
+          -38.9548011
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -48137,23 +48181,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1854428651",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Rosario",
-    "id": "node/1854428651"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0449005,
-      -38.954257
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1861673207",
   "properties": {
     "amenity": "pharmacy",
@@ -50363,15 +50390,22 @@
   "type": "Feature",
   "id": "node/2028368339",
   "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "525",
+    "addr:postcode": "Q8300",
+    "addr:street": "Islas Malvinas",
     "amenity": "pharmacy",
+    "dispensing": "no",
+    "drive_through": "no",
     "healthcare": "pharmacy",
+    "name": "Farmacia del Bosque",
     "id": "node/2028368339"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.051932,
-      -38.9475854
+      -68.0516864,
+      -38.9476209
     ]
   }
 },
@@ -94032,15 +94066,25 @@
   "type": "Feature",
   "id": "node/4620551690",
   "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "86",
+    "addr:street": "Avenida Soldati",
     "amenity": "pharmacy",
+    "branch": "Zona del Parque",
+    "brand": "Farmacia Plazoleta",
+    "email": "info@farmaciasplazoleta.com",
     "healthcare": "pharmacy",
+    "name": "Plazoleta",
+    "opening_hours": "Mo-Su 08:00-00:00",
+    "operator": "Farmacias Plazoleta",
+    "website": "https://farmaciasplazoleta.com/",
     "id": "node/4620551690"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.1949346,
-      -26.8316936
+      -65.1950042,
+      -26.8318466
     ]
   }
 },
@@ -120926,7 +120970,7 @@
   "properties": {
     "addr:city": "La Violeta",
     "addr:housenumber": "262",
-    "addr:street": "Belgrano",
+    "addr:street": "Avenida General Manuel Belgrano",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -138989,26 +139033,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7786046293",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "level": "0",
-    "name": "Farmacia del Sol",
-    "id": "node/7786046293"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -64.2820209,
-      -36.6211058
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7788558969",
   "properties": {
     "addr:city": "San Juan",
@@ -147234,8 +147258,11 @@
   "type": "Feature",
   "id": "node/9397535290",
   "properties": {
+    "addr:housenumber": "342",
+    "addr:street": "8 de Diciembre",
     "amenity": "pharmacy",
     "name": "Paso de la Patria",
+    "website": "https://farmacia-paso-de-la-patria.negocio.site/",
     "id": "node/9397535290"
   },
   "geometry": {
@@ -148922,7 +148949,11 @@
   "type": "Feature",
   "id": "node/9604556261",
   "properties": {
+    "addr:city": "San Cosme",
+    "addr:postcode": "3412",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Agumar",
     "id": "node/9604556261"
   },
