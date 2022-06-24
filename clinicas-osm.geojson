@@ -12669,6 +12669,55 @@
 },
 {
   "type": "Feature",
+  "id": "way/469440440",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "635",
+    "addr:postcode": "1642",
+    "addr:street": "Avenida Centenario",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Centro Médico del Hospital Italiano",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "phone": "+54 11 4959-0200",
+    "social_facility": "healthcare",
+    "source": "Reconocimiento terrestre por Kaart 2016.;local knowledge",
+    "website": "http://hospitalitaliano.org.ar",
+    "id": "way/469440440"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5168976,
+          -34.4695468
+        ],
+        [
+          -58.5165252,
+          -34.469352
+        ],
+        [
+          -58.516567,
+          -34.4692977
+        ],
+        [
+          -58.5169394,
+          -34.4694925
+        ],
+        [
+          -58.5168976,
+          -34.4695468
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/469515753",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
@@ -14381,6 +14430,9 @@
   "type": "Feature",
   "id": "way/472680153",
   "properties": {
+    "addr:city": "Florida",
+    "addr:housenumber": "1619",
+    "addr:postcode": "B1602",
     "addr:street": "Francisco Narciso de Laprida",
     "amenity": "clinic",
     "building": "yes",
@@ -15719,6 +15771,8 @@
   "type": "Feature",
   "id": "way/473856108",
   "properties": {
+    "addr:city": "San Isidro",
+    "addr:postcode": "B1642",
     "addr:street": "Almirante Brown",
     "amenity": "clinic",
     "building": "commercial",
@@ -50325,7 +50379,7 @@
   "properties": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Vacunatorio Pedriátrico",
+    "name": "Centro Vacunatorio Pediátrico de la Clínica Monte Grande",
     "id": "node/4129555502"
   },
   "geometry": {
@@ -50342,7 +50396,7 @@
   "properties": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro de Urologia",
+    "name": "Instituto de Otorrinolaringología de la Clínica Monte Grande",
     "id": "node/4129555503"
   },
   "geometry": {
@@ -54952,25 +55006,6 @@
     "coordinates": [
       -58.4019156,
       -34.5961147
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4675682013",
-  "properties": {
-    "addr:street": "Avenida Centenario",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Ortopedia San Isidoro",
-    "source": "Reconocimiento terrestre por Kaart 2016.",
-    "id": "node/4675682013"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.515962,
-      -34.4705627
     ]
   }
 },
@@ -68130,11 +68165,13 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CAPS UAP Marcelino",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 11 47969644",
     "ref:sisa_codigo": "50068612202004",
     "ref:sisa_tipologia": "ESSIDT",
+    "website": "http://www.vicentelopez.gov.ar/secretaria-de-salud",
     "id": "node/7501610242"
   },
   "geometry": {
@@ -99793,6 +99830,142 @@
     "coordinates": [
       -64.3394001,
       -31.35587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810239",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto de Urologia",
+    "id": "node/9842810239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4651372,
+      -34.8147337
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810240",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto Cardiovascular Buenos Aires Sur de la Clínica Monte Grande",
+    "id": "node/9842810240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.465333,
+      -34.814541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810241",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Diálisis de la Clínica Monte Grande",
+    "id": "node/9842810241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4660438,
+      -34.8133849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810242",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Nefrología de la Clínica Monte Grande",
+    "id": "node/9842810242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4661001,
+      -34.8134146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810244",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios Externos de la Clínica Monte Grande",
+    "id": "node/9842810244"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4663643,
+      -34.8144078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810245",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Resonancia Magnética Nuclear de la Clínica Monte Grande",
+    "id": "node/9842810245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4659848,
+      -34.813691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810246",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto de Ojos de la Clínica Monte Grande",
+    "id": "node/9842810246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4659338,
+      -34.8136723
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9842810247",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Guardia Pediátrica de la Clínica Monte Grande",
+    "id": "node/9842810247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4658869,
+      -34.8136536
     ]
   }
 }

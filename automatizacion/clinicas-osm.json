@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.3 b33c3320",
   "osm3s": {
-    "timestamp_osm_base": "2022-06-23T02:05:39Z",
-    "timestamp_areas_base": "2022-06-23T01:34:03Z",
+    "timestamp_osm_base": "2022-06-24T02:03:53Z",
+    "timestamp_areas_base": "2022-06-24T01:22:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6486,7 +6486,7 @@
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Vacunatorio Pedriátrico"
+    "name": "Centro Vacunatorio Pediátrico de la Clínica Monte Grande"
   }
 },
 {
@@ -6497,7 +6497,7 @@
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro de Urologia"
+    "name": "Instituto de Otorrinolaringología de la Clínica Monte Grande"
   }
 },
 {
@@ -9768,19 +9768,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Sistema Diagnostica"
-  }
-},
-{
-  "type": "node",
-  "id": 4675682013,
-  "lat": -34.4705627,
-  "lon": -58.5159620,
-  "tags": {
-    "addr:street": "Avenida Centenario",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Ortopedia San Isidoro",
-    "source": "Reconocimiento terrestre por Kaart 2016."
   }
 },
 {
@@ -19293,11 +19280,13 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CAPS UAP Marcelino",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 11 47969644",
     "ref:sisa_codigo": "50068612202004",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "website": "http://www.vicentelopez.gov.ar/secretaria-de-salud"
   }
 },
 {
@@ -43014,6 +43003,94 @@
   }
 },
 {
+  "type": "node",
+  "id": 9842810239,
+  "lat": -34.8147337,
+  "lon": -58.4651372,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto de Urologia"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810240,
+  "lat": -34.8145410,
+  "lon": -58.4653330,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto Cardiovascular Buenos Aires Sur de la Clínica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810241,
+  "lat": -34.8133849,
+  "lon": -58.4660438,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Diálisis de la Clínica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810242,
+  "lat": -34.8134146,
+  "lon": -58.4661001,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Nefrología de la Clínica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810244,
+  "lat": -34.8144078,
+  "lon": -58.4663643,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios Externos de la Clínica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810245,
+  "lat": -34.8136910,
+  "lon": -58.4659848,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Resonancia Magnética Nuclear de la Clínica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810246,
+  "lat": -34.8136723,
+  "lon": -58.4659338,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto de Ojos de la Clínica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 9842810247,
+  "lat": -34.8136536,
+  "lon": -58.4658869,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Guardia Pediátrica de la Clínica Monte Grande"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -48675,6 +48752,34 @@
 },
 {
   "type": "way",
+  "id": 469440440,
+  "nodes": [
+    4637770045,
+    4637770048,
+    4637770049,
+    4637770046,
+    4637770045
+  ],
+  "tags": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "635",
+    "addr:postcode": "1642",
+    "addr:street": "Avenida Centenario",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Centro Médico del Hospital Italiano",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "phone": "+54 11 4959-0200",
+    "social_facility": "healthcare",
+    "source": "Reconocimiento terrestre por Kaart 2016.;local knowledge",
+    "website": "http://hospitalitaliano.org.ar"
+  }
+},
+{
+  "type": "way",
   "id": 469515753,
   "nodes": [
     6263292679,
@@ -49491,6 +49596,9 @@
     4668723459
   ],
   "tags": {
+    "addr:city": "Florida",
+    "addr:housenumber": "1619",
+    "addr:postcode": "B1602",
     "addr:street": "Francisco Narciso de Laprida",
     "amenity": "clinic",
     "building": "yes",
@@ -50178,6 +50286,8 @@
     4678916540
   ],
   "tags": {
+    "addr:city": "San Isidro",
+    "addr:postcode": "B1642",
     "addr:street": "Almirante Brown",
     "amenity": "clinic",
     "building": "commercial",
@@ -85576,6 +85686,30 @@
   "id": 4599138676,
   "lat": -34.4762190,
   "lon": -58.5105463
+},
+{
+  "type": "node",
+  "id": 4637770045,
+  "lat": -34.4695468,
+  "lon": -58.5168976
+},
+{
+  "type": "node",
+  "id": 4637770046,
+  "lat": -34.4693520,
+  "lon": -58.5165252
+},
+{
+  "type": "node",
+  "id": 4637770048,
+  "lat": -34.4694925,
+  "lon": -58.5169394
+},
+{
+  "type": "node",
+  "id": 4637770049,
+  "lat": -34.4692977,
+  "lon": -58.5165670
 },
 {
   "type": "node",
