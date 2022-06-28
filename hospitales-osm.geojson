@@ -12987,12 +12987,12 @@
     "coordinates": [
       [
         [
-          -64.1968073,
-          -31.4320256
+          -64.1967912,
+          -31.431924
         ],
         [
-          -64.1969409,
-          -31.4323345
+          -64.1969517,
+          -31.4323299
         ],
         [
           -64.1970595,
@@ -13039,12 +13039,12 @@
           -31.4322572
         ],
         [
-          -64.1967174,
-          -31.4319148
+          -64.1967405,
+          -31.4318973
         ],
         [
-          -64.1968073,
-          -31.4320256
+          -64.1967912,
+          -31.431924
         ]
       ]
     ]
@@ -19088,6 +19088,14 @@
           -31.5404495
         ],
         [
+          -68.5128864,
+          -31.540426
+        ],
+        [
+          -68.5127147,
+          -31.5404118
+        ],
+        [
           -68.5125473,
           -31.5403977
         ],
@@ -19102,6 +19110,10 @@
         [
           -68.5117585,
           -31.5403093
+        ],
+        [
+          -68.5117634,
+          -31.5401629
         ],
         [
           -68.5117917,
@@ -22941,43 +22953,6 @@
         [
           -58.587817,
           -34.4130669
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/265691002",
-  "properties": {
-    "amenity": "hospital",
-    "building": "yes",
-    "healthcare": "hospital",
-    "id": "way/265691002"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -61.529293,
-          -32.6826217
-        ],
-        [
-          -61.5288612,
-          -32.683475
-        ],
-        [
-          -61.5284401,
-          -32.6833238
-        ],
-        [
-          -61.5288746,
-          -32.6824682
-        ],
-        [
-          -61.529293,
-          -32.6826217
         ]
       ]
     ]
@@ -59922,28 +59897,28 @@
     "coordinates": [
       [
         [
-          -68.0575836,
-          -38.9507289
+          -68.057539,
+          -38.9507078
         ],
         [
           -68.0562292,
           -38.9507377
         ],
         [
-          -68.0562184,
-          -38.949715
+          -68.0562884,
+          -38.9497422
         ],
         [
           -68.0574821,
           -38.949707
         ],
         [
-          -68.0575733,
-          -38.9497716
+          -68.0575248,
+          -38.9497942
         ],
         [
-          -68.0575836,
-          -38.9507289
+          -68.057539,
+          -38.9507078
         ]
       ]
     ]
@@ -71258,6 +71233,51 @@
 },
 {
   "type": "Feature",
+  "id": "way/1073353903",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Las Parejas",
+    "id": "way/1073353903"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -61.5295587,
+          -32.682591
+        ],
+        [
+          -61.5295194,
+          -32.6826661
+        ],
+        [
+          -61.5292263,
+          -32.6832264
+        ],
+        [
+          -61.5290246,
+          -32.683612
+        ],
+        [
+          -61.5282553,
+          -32.6833303
+        ],
+        [
+          -61.528782,
+          -32.682314
+        ],
+        [
+          -61.5295587,
+          -32.682591
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -73096,10 +73116,16 @@
   "id": "node/1403193925",
   "properties": {
     "addr:city": "San Cristóbal",
+    "addr:housenumber": "1456",
     "addr:postcode": "3070",
-    "addr:street": "9 de Julio",
+    "addr:street": "Cochabamba",
+    "alt_name": "Hospital Don Julio Cesar Villanueva",
     "amenity": "hospital",
     "healthcare": "hospital",
+    "name": "Hospital De San Cristobal Don Julio Cesar Villanueva",
+    "phone": "+54 3408 420520",
+    "ref:sisa_codigo": "10820912184192",
+    "ref:sisa_tipologia": "ESCIG",
     "id": "node/1403193925"
   },
   "geometry": {
@@ -75068,9 +75094,16 @@
   "type": "Feature",
   "id": "node/2015823953",
   "properties": {
+    "addr:city": "General Pinedo",
+    "addr:full": "Calle 23 y 8",
+    "addr:postcode": "3732",
+    "addr:street": "Bulevar Soldado Díaz",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Isaac",
+    "name": "Hospital Isaac Wasman",
+    "phone": "+54 3731 480113",
+    "ref:sisa_codigo": "10220362126060",
+    "ref:sisa_tipologia": "ESCIG",
     "id": "node/2015823953"
   },
   "geometry": {
@@ -79704,26 +79737,6 @@
     "coordinates": [
       -63.2443503,
       -32.407075
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3236654377",
-  "properties": {
-    "addr:city": "Neuquen",
-    "addr:postcode": "8300",
-    "addr:street": "Verzegnassi",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Mariano Moreno",
-    "id": "node/3236654377"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0436373,
-      -38.9583539
     ]
   }
 },

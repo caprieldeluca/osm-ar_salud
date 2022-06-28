@@ -38816,6 +38816,101 @@
 },
 {
   "type": "Feature",
+  "id": "way/1073254842",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "18",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bahía Blanca",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Farmacias Global S.H.",
+    "id": "way/1073254842"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0506247,
+          -38.955354
+        ],
+        [
+          -68.0504973,
+          -38.9553539
+        ],
+        [
+          -68.0504975,
+          -38.955237
+        ],
+        [
+          -68.0506249,
+          -38.9552372
+        ],
+        [
+          -68.0506247,
+          -38.955354
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1073468470",
+  "properties": {
+    "addr:street": "Avenida Arturo Illia",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "contact:instagram": "farmaciadelpueblo_funes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Pueblo",
+    "id": "way/1073468470"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.8047527,
+          -32.9285817
+        ],
+        [
+          -60.8048264,
+          -32.9286018
+        ],
+        [
+          -60.8048262,
+          -32.9286268
+        ],
+        [
+          -60.8048256,
+          -32.928705
+        ],
+        [
+          -60.8048255,
+          -32.9287162
+        ],
+        [
+          -60.8047517,
+          -32.9287158
+        ],
+        [
+          -60.8047527,
+          -32.9285817
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -50543,9 +50638,15 @@
   "type": "Feature",
   "id": "node/2054271994",
   "properties": {
+    "addr:city": "General Pinedo",
+    "addr:housenumber": "601",
+    "addr:postcode": "3732",
+    "addr:street": "Mariano Moreno",
     "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/Farmacia-San-Carlos-2408444492774568/",
     "healthcare": "pharmacy",
     "name": "San Carlos",
+    "phone": "+54 3731 480319",
     "id": "node/2054271994"
   },
   "geometry": {
@@ -51369,10 +51470,15 @@
   "type": "Feature",
   "id": "node/2136234467",
   "properties": {
+    "addr:city": "Martínez",
+    "addr:housenumber": "202",
+    "addr:postcode": "1640",
+    "addr:street": "Arenales",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
     "opening_hours": "Mo-Su 08:30-21:00",
+    "phone": "+54 11 4792 1202",
     "id": "node/2136234467"
   },
   "geometry": {
@@ -59405,6 +59511,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Selma",
+    "opening_hours": "Mo-Sa 08:30-22:00; Su 10:00-22:00",
     "id": "node/2604040443"
   },
   "geometry": {
@@ -71883,6 +71990,7 @@
     "addr:city": "Martínez",
     "addr:country": "AR",
     "addr:housenumber": "336",
+    "addr:postcode": "1640",
     "addr:province": "Buenos Aires",
     "addr:street": "General Alvear",
     "amenity": "pharmacy",
@@ -150600,25 +150708,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9799384873",
-  "properties": {
-    "addr:street": "Avenida Arturo Illia",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "fixme": "check",
-    "healthcare": "pharmacy",
-    "id": "node/9799384873"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.8048161,
-      -32.9286992
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9801931439",
   "properties": {
     "amenity": "pharmacy",
@@ -151331,6 +151420,168 @@
     "coordinates": [
       -68.4900102,
       -31.53372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9845783216",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "650",
+    "addr:postcode": "Q8300",
+    "addr:street": "Perito Moreno",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia C.E.C.",
+    "operator": "Centro de Empleados de Comercio del Neuquén",
+    "id": "node/9845783216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.049993,
+      -38.9581352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9849069882",
+  "properties": {
+    "addr:city": "San Cristóbal",
+    "addr:housenumber": "949",
+    "addr:postcode": "3070",
+    "addr:street": "Alvear",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Dipiazza",
+    "ref:sisa_codigo": "70820912387395",
+    "id": "node/9849069882"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.23739,
+      -30.3102809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9849069887",
+  "properties": {
+    "addr:city": "San Cristóbal",
+    "addr:housenumber": "619",
+    "addr:postcode": "3070",
+    "addr:street": "Alvear",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Gaitan",
+    "ref:sisa_codigo": "70820912387397",
+    "id": "node/9849069887"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2326637,
+      -30.3112042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9849069908",
+  "properties": {
+    "addr:city": "San Cristóbal",
+    "addr:housenumber": "1298",
+    "addr:postcode": "3070",
+    "addr:street": "Caseros",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Pierantoni",
+    "phone": "+54 340 8423455",
+    "ref:sisa_codigo": "70820912387400",
+    "id": "node/9849069908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2329971,
+      -30.3088272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9849069909",
+  "properties": {
+    "addr:city": "San Cristóbal",
+    "addr:housenumber": "1741",
+    "addr:postcode": "3070",
+    "addr:street": "Caseros",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Schmidt",
+    "ref:sisa_codigo": "70820912387401",
+    "id": "node/9849069909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2320104,
+      -30.3034701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9849069919",
+  "properties": {
+    "addr:city": "San Cristóbal",
+    "addr:housenumber": "1441",
+    "addr:postcode": "3070",
+    "addr:street": "Caseros",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Lemos",
+    "ref:sisa_codigo": "70820912387398",
+    "id": "node/9849069919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2328569,
+      -30.3069294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9849069959",
+  "properties": {
+    "addr:city": "San Cristóbal",
+    "addr:housenumber": "1191",
+    "addr:postcode": "3070",
+    "addr:street": "Perón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Pesquedua",
+    "ref:sisa_codigo": "70820912387399",
+    "id": "node/9849069959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.240746,
+      -30.3085202
     ]
   }
 }
