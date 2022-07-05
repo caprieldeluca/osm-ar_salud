@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.3 b33c3320",
   "osm3s": {
-    "timestamp_osm_base": "2022-07-03T01:59:22Z",
-    "timestamp_areas_base": "2022-07-03T01:43:14Z",
+    "timestamp_osm_base": "2022-07-05T01:59:07Z",
+    "timestamp_areas_base": "2022-07-05T01:07:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15910,9 +15910,16 @@
   "lat": -30.8575624,
   "lon": -64.9936933,
   "tags": {
+    "addr:city": "Villa de Soto",
+    "addr:housenumber": "451",
+    "addr:postcode": "5284",
+    "addr:street": "Oncativo",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal de Villa de Soto"
+    "name": "Hospital Municipal de Villa de Soto",
+    "phone": "+54 3549 480306",
+    "ref:sisa_codigo": "10140282231237",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -16388,7 +16395,7 @@
     "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
-    "phone": "+54 11 4743-0396",
+    "phone": "+54 11 4742 2509",
     "ref:sisa_codigo": "10067562300019",
     "ref:sisa_tipologia": "ESCIG",
     "website": "http://cpbeccar.com.ar/",
@@ -31131,7 +31138,7 @@
     "healthcare": "hospital",
     "name": "Hospital Italiano de Buenos Aires",
     "name:en": "Hospital Italiano of Buenos Aires",
-    "name:es": "Hospital Italiano",
+    "name:es": "Hospital Italiano de Buenos Aires",
     "operator": "Sociedad Italiana de Beneficencia en Buenos Aires",
     "operator:type": "private",
     "phone": "+54 11 4959-0200",
@@ -35875,10 +35882,26 @@
   "id": 363467461,
   "nodes": [
     3676324207,
+    9864944874,
+    9864945176,
+    9864946281,
+    9864945059,
+    9864945356,
     3676324208,
+    9864945772,
+    9864944661,
+    9864945218,
+    9864944063,
+    9864943764,
+    9864936774,
     3676324209,
+    9864945786,
+    9864945184,
     3676324210,
+    9864945792,
     3676324211,
+    9864946512,
+    9864944321,
     3676324207
   ],
   "tags": {
@@ -35887,9 +35910,8 @@
     "addr:postcode": "5400",
     "addr:street": "General José María Paz",
     "amenity": "hospital",
-    "building": "yes",
     "healthcare": "hospital",
-    "name": "Santa Clara"
+    "name": "Clínica Santa Clara"
   }
 },
 {
@@ -67146,32 +67168,128 @@
 {
   "type": "node",
   "id": 3676324207,
-  "lat": -31.5415680,
-  "lon": -68.5246091
+  "lat": -31.5415600,
+  "lon": -68.5246000
 },
 {
   "type": "node",
   "id": 3676324208,
-  "lat": -31.5419468,
-  "lon": -68.5245703
+  "lat": -31.5419530,
+  "lon": -68.5245590
 },
 {
   "type": "node",
   "id": 3676324209,
-  "lat": -31.5419886,
-  "lon": -68.5251738
+  "lat": -31.5419960,
+  "lon": -68.5251800
 },
 {
   "type": "node",
   "id": 3676324210,
-  "lat": -31.5416502,
-  "lon": -68.5252020
+  "lat": -31.5416479,
+  "lon": -68.5252110
 },
 {
   "type": "node",
   "id": 3676324211,
-  "lat": -31.5416125,
-  "lon": -68.5251611
+  "lat": -31.5416068,
+  "lon": -68.5251691
+},
+{
+  "type": "node",
+  "id": 9864936774,
+  "lat": -31.5419925,
+  "lon": -68.5251320
+},
+{
+  "type": "node",
+  "id": 9864943764,
+  "lat": -31.5419818,
+  "lon": -68.5249840
+},
+{
+  "type": "node",
+  "id": 9864944063,
+  "lat": -31.5419784,
+  "lon": -68.5249371
+},
+{
+  "type": "node",
+  "id": 9864944321,
+  "lat": -31.5415622,
+  "lon": -68.5246300
+},
+{
+  "type": "node",
+  "id": 9864944661,
+  "lat": -31.5419651,
+  "lon": -68.5247390
+},
+{
+  "type": "node",
+  "id": 9864944874,
+  "lat": -31.5416421,
+  "lon": -68.5245906
+},
+{
+  "type": "node",
+  "id": 9864945059,
+  "lat": -31.5417610,
+  "lon": -68.5245770
+},
+{
+  "type": "node",
+  "id": 9864945176,
+  "lat": -31.5416731,
+  "lon": -68.5245871
+},
+{
+  "type": "node",
+  "id": 9864945184,
+  "lat": -31.5417281,
+  "lon": -68.5252039
+},
+{
+  "type": "node",
+  "id": 9864945218,
+  "lat": -31.5419683,
+  "lon": -68.5247871
+},
+{
+  "type": "node",
+  "id": 9864945356,
+  "lat": -31.5418540,
+  "lon": -68.5245683
+},
+{
+  "type": "node",
+  "id": 9864945772,
+  "lat": -31.5419552,
+  "lon": -68.5245910
+},
+{
+  "type": "node",
+  "id": 9864945786,
+  "lat": -31.5417941,
+  "lon": -68.5251980
+},
+{
+  "type": "node",
+  "id": 9864945792,
+  "lat": -31.5416346,
+  "lon": -68.5251975
+},
+{
+  "type": "node",
+  "id": 9864946281,
+  "lat": -31.5416841,
+  "lon": -68.5245858
+},
+{
+  "type": "node",
+  "id": 9864946512,
+  "lat": -31.5415972,
+  "lon": -68.5250531
 },
 {
   "type": "node",
@@ -77646,26 +77764,26 @@
 {
   "type": "node",
   "id": 3426783600,
-  "lat": -32.8636204,
-  "lon": -61.1437425
+  "lat": -32.8635437,
+  "lon": -61.1436714
 },
 {
   "type": "node",
   "id": 3426783602,
-  "lat": -32.8638213,
+  "lat": -32.8637461,
   "lon": -61.1425295
 },
 {
   "type": "node",
   "id": 3426782370,
-  "lat": -32.8627786,
-  "lon": -61.1435449
+  "lat": -32.8627800,
+  "lon": -61.1434796
 },
 {
   "type": "node",
   "id": 3426782371,
-  "lat": -32.8629794,
-  "lon": -61.1423319
+  "lat": -32.8629825,
+  "lon": -61.1423375
 },
 {
   "type": "node",
