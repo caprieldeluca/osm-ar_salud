@@ -10790,7 +10790,7 @@
   "properties": {
     "addr:city": "Castelar",
     "addr:housenumber": "1901",
-    "addr:street": "Fray Luis Beltran",
+    "addr:street": "Fray Luis Beltrán",
     "amenity": "pharmacy",
     "building": "yes",
     "dispensing": "yes",
@@ -11818,28 +11818,28 @@
     "coordinates": [
       [
         [
-          -58.4746335,
-          -34.5813432
+          -58.4746375,
+          -34.5813266
         ],
         [
-          -58.4745346,
-          -34.5812814
+          -58.4745386,
+          -34.5812648
         ],
         [
-          -58.4745371,
-          -34.5812251
+          -58.4745411,
+          -34.5812085
         ],
         [
-          -58.4746636,
-          -34.5810879
+          -58.4746676,
+          -34.5810713
         ],
         [
-          -58.4747938,
-          -34.5811694
+          -58.4747978,
+          -34.5811528
         ],
         [
-          -58.4746335,
-          -34.5813432
+          -58.4746375,
+          -34.5813266
         ]
       ]
     ]
@@ -75495,6 +75495,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Farmacia Sastre",
     "id": "node/3556510565"
   },
   "geometry": {
@@ -104088,10 +104089,12 @@
     "addr:postcode": "3300",
     "addr:street": "Colón",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2022-07-07",
     "healthcare": "pharmacy",
     "name": "Cóndor II",
     "opening_hours": "Mo-Su,PH 12:00-24:00",
     "phone": "+54 376 442 3888",
+    "wheelchair": "yes",
     "id": "node/4907715269"
   },
   "geometry": {
@@ -124825,6 +124828,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "AMUSAP",
+    "opening_hours": "Mo-Fr 08:00-12:00,16:00-20:00",
+    "wheelchair": "no",
     "id": "node/6354465591"
   },
   "geometry": {
@@ -150851,7 +150856,8 @@
     "amenity": "pharmacy",
     "contact:facebook": "https://www.facebook.com/Farmacia-UNO-2-142155186417716",
     "contact:whatsapp": "+54 264 4143880",
-    "name": "Uno II",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Uno II",
     "phone": "+54 264 4233985",
     "id": "node/9804225112"
   },
@@ -151041,8 +151047,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.529981,
-      -31.5368573
+      -68.5298467,
+      -31.5370619
     ]
   }
 },
@@ -151706,6 +151712,22 @@
     "coordinates": [
       -58.5307644,
       -34.4614592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9871126044",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Washington",
+    "id": "node/9871126044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4697511,
+      -34.5739961
     ]
   }
 }
