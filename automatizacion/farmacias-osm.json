@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.3 b33c3320",
   "osm3s": {
-    "timestamp_osm_base": "2022-07-08T02:09:42Z",
-    "timestamp_areas_base": "2022-07-08T02:07:51Z",
+    "timestamp_osm_base": "2022-07-10T02:09:19Z",
+    "timestamp_areas_base": "2022-07-10T02:07:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -51595,14 +51595,15 @@
 {
   "type": "node",
   "id": 5569960387,
-  "lat": -32.9381192,
-  "lon": -60.8832113,
+  "lat": -32.9376555,
+  "lon": -60.8831174,
   "tags": {
     "addr:city": "Roldán",
     "addr:housenumber": "2904",
     "addr:postcode": "S2134",
     "addr:street": "Cañada de Gómez",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Priotti"
   }
 },
@@ -78421,7 +78422,7 @@
     "addr:housenumber": "411",
     "addr:postcode": "3240",
     "addr:state": "Entre Rios",
-    "addr:street": "Colon",
+    "addr:street": "Colón",
     "amenity": "pharmacy",
     "building": "retail",
     "dispensing": "yes",
@@ -95394,6 +95395,29 @@
   }
 },
 {
+  "type": "way",
+  "id": 1077195953,
+  "nodes": [
+    9876940206,
+    9876940197,
+    9876940207,
+    9876940205,
+    9876940206
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "499",
+    "addr:postcode": "Q8300",
+    "addr:street": "Teniente General Pablo Riccheri",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacia Richieri"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -97354,6 +97378,30 @@
   "id": 9789383029,
   "lat": -38.9412622,
   "lon": -68.0588028
+},
+{
+  "type": "node",
+  "id": 9876940197,
+  "lat": -38.9626513,
+  "lon": -68.0524108
+},
+{
+  "type": "node",
+  "id": 9876940205,
+  "lat": -38.9627418,
+  "lon": -68.0522848
+},
+{
+  "type": "node",
+  "id": 9876940206,
+  "lat": -38.9627415,
+  "lon": -68.0524111
+},
+{
+  "type": "node",
+  "id": 9876940207,
+  "lat": -38.9626515,
+  "lon": -68.0522840
 },
 {
   "type": "node",
