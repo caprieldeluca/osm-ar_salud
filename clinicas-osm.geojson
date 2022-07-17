@@ -11448,60 +11448,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/468116169",
-  "properties": {
-    "addr:street": "Avenida del Libertador",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "3",
-    "healthcare": "clinic",
-    "healthcare:speciality": "plastic_surgery",
-    "name": "Van Thiesen",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "way/468116169"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5001643,
-          -34.4751769
-        ],
-        [
-          -58.5003185,
-          -34.4752587
-        ],
-        [
-          -58.5002762,
-          -34.4753129
-        ],
-        [
-          -58.5002192,
-          -34.4753167
-        ],
-        [
-          -58.5000663,
-          -34.4752355
-        ],
-        [
-          -58.5001086,
-          -34.4751813
-        ],
-        [
-          -58.5001456,
-          -34.4752009
-        ],
-        [
-          -58.5001643,
-          -34.4751769
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/468151892",
   "properties": {
     "addr:street": "643 - Avenida del Libertador General José de San Martín",
@@ -15767,48 +15713,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/473856108",
-  "properties": {
-    "addr:city": "San Isidro",
-    "addr:postcode": "B1642",
-    "addr:street": "Almirante Brown",
-    "amenity": "clinic",
-    "building": "commercial",
-    "healthcare": "laboratory",
-    "name": "Laboratorio Hidalgo",
-    "source": "Reconocimiento terrestre 2016 por Kaart.",
-    "id": "way/473856108"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5147562,
-          -34.4696635
-        ],
-        [
-          -58.5148297,
-          -34.4696152
-        ],
-        [
-          -58.5148963,
-          -34.4696839
-        ],
-        [
-          -58.5148228,
-          -34.4697323
-        ],
-        [
-          -58.5147562,
-          -34.4696635
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/473856841",
   "properties": {
     "addr:street": "Irigoyen",
@@ -16134,6 +16038,8 @@
   "type": "Feature",
   "id": "way/474488084",
   "properties": {
+    "addr:city": "San Isidro",
+    "addr:postcode": "1642",
     "addr:street": "Leandro N. Alem",
     "amenity": "clinic",
     "building": "commercial",
@@ -41418,6 +41324,53 @@
         [
           -68.04964,
           -38.9578516
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1079064636",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "layer": "1",
+    "name": "IGEA",
+    "id": "way/1079064636"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.7338506,
+          -32.7487201
+        ],
+        [
+          -60.7337337,
+          -32.7487235
+        ],
+        [
+          -60.7337326,
+          -32.7485703
+        ],
+        [
+          -60.7337688,
+          -32.7485685
+        ],
+        [
+          -60.7338481,
+          -32.7485644
+        ],
+        [
+          -60.7338496,
+          -32.7486557
+        ],
+        [
+          -60.7338506,
+          -32.7487201
         ]
       ]
     ]
@@ -100176,6 +100129,50 @@
     "coordinates": [
       -60.6339979,
       -32.9560009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9889988005",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "210",
+    "addr:postcode": "B1642",
+    "addr:street": "Marín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Médico Pueyrredón",
+    "phone": "+54 11 4743 4783",
+    "website": "http://www.cm-pueyrredon.com.ar/",
+    "id": "node/9889988005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5138077,
+      -34.472124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9889988009",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "269",
+    "addr:postcode": "1642",
+    "addr:street": "Alsina",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "IOMA - Círculo médico de San Isidro",
+    "id": "node/9889988009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5189029,
+      -34.4734605
     ]
   }
 }
