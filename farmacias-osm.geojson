@@ -51487,9 +51487,14 @@
   "type": "Feature",
   "id": "node/2115075059",
   "properties": {
+    "addr:housenumber": "4800",
+    "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Abc",
+    "phone": "+54 11 4773-2083",
+    "survey:date": "2022-07-27",
+    "website": "https://farmaciasabc.com.ar/",
     "id": "node/2115075059"
   },
   "geometry": {
@@ -85154,7 +85159,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Del Pueblo",
+    "name": "Proteger Salud",
     "id": "node/4184237120"
   },
   "geometry": {
@@ -98829,11 +98834,19 @@
   "type": "Feature",
   "id": "node/4677302879",
   "properties": {
+    "addr:city": "Virreyes",
+    "addr:housenumber": "1899",
+    "addr:postcode": "1646",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
+    "delivery": "yes",
     "healthcare": "pharmacy",
     "name": "Farmanoi",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016.",
+    "website": "http://www.farmanoi.com.ar/",
     "id": "node/4677302879"
   },
   "geometry": {
@@ -152463,6 +152476,31 @@
     "coordinates": [
       -58.5405591,
       -34.4556505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9919515861",
+  "properties": {
+    "addr:city": "Virreyes",
+    "addr:housenumber": "2111",
+    "addr:postcode": "1646",
+    "addr:street": "Coronel Brandsen",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Mastronardi",
+    "opening_hours": "Mo-Sa 08:30-20:30",
+    "phone": "+54  11 4744-4185",
+    "website": "http://www.farmanoi.com.ar/",
+    "id": "node/9919515861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5513199,
+      -34.4505731
     ]
   }
 }

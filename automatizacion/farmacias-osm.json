@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-07-29T02:09:57Z",
+    "timestamp_osm_base": "2022-07-30T02:09:54Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -8421,9 +8421,14 @@
   "lat": -34.5780305,
   "lon": -58.4273674,
   "tags": {
+    "addr:housenumber": "4800",
+    "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Abc"
+    "name": "Farmacia Abc",
+    "phone": "+54 11 4773-2083",
+    "survey:date": "2022-07-27",
+    "website": "https://farmaciasabc.com.ar/"
   }
 },
 {
@@ -31300,7 +31305,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Del Pueblo"
+    "name": "Proteger Salud"
   }
 },
 {
@@ -40667,11 +40672,19 @@
   "lat": -34.4516132,
   "lon": -58.5546178,
   "tags": {
+    "addr:city": "Virreyes",
+    "addr:housenumber": "1899",
+    "addr:postcode": "1646",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
+    "delivery": "yes",
     "healthcare": "pharmacy",
     "name": "Farmanoi",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016.",
+    "website": "http://www.farmanoi.com.ar/"
   }
 },
 {
@@ -77752,6 +77765,25 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Santamarina"
+  }
+},
+{
+  "type": "node",
+  "id": 9919515861,
+  "lat": -34.4505731,
+  "lon": -58.5513199,
+  "tags": {
+    "addr:city": "Virreyes",
+    "addr:housenumber": "2111",
+    "addr:postcode": "1646",
+    "addr:street": "Coronel Brandsen",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Mastronardi",
+    "opening_hours": "Mo-Sa 08:30-20:30",
+    "phone": "+54  11 4744-4185",
+    "website": "http://www.farmanoi.com.ar/"
   }
 },
 {
