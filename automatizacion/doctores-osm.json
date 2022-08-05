@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-08-03T02:15:39Z",
+    "timestamp_osm_base": "2022-08-05T02:15:05Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -615,9 +615,15 @@
   "lat": -27.6817989,
   "lon": -60.9032035,
   "tags": {
+    "addr:city": "Coronel Du Graty",
+    "addr:housenumber": "349",
+    "addr:postcode": "3541",
+    "addr:street": "Avenida Mariano Moreno",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Consultorio Clínico"
+    "name": "Consultorio Clínico",
+    "ref:sisa_codigo": "50220982327407",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -1615,7 +1621,7 @@
     "addr:city": "Posadas",
     "addr:housenumber": "4977",
     "addr:postcode": "3300",
-    "addr:street": "Blas Parera",
+    "addr:street": "Avenida Blas Parera",
     "alt_name": "Centro de Atención Primaria de la Salud 5 Yacyretá",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -8275,7 +8281,7 @@
     "addr:city": "Posadas",
     "addr:housenumber": "2414",
     "addr:postcode": "3300",
-    "addr:street": "Avenida Roque S. Peña",
+    "addr:street": "Avenida Roque Sáenz Peña",
     "amenity": "doctors",
     "contact:facebook": "https://www.facebook.com/enfantsconsultoriopediatrico/",
     "description": "Consultorio Pediátrico",
@@ -18547,13 +18553,29 @@
 {
   "type": "node",
   "id": 9920035571,
-  "lat": -30.7671336,
-  "lon": -57.9945441,
+  "lat": -30.7670472,
+  "lon": -57.9946326,
   "tags": {
+    "addr:housenumber": "1450",
+    "addr:street": "Artigas",
     "amenity": "doctors",
+    "contact:phone": "+54 3456 422154",
     "healthcare": "doctor",
-    "name": "Sala N 1",
+    "name": "Centro De Salud Nº 1 – Angelita Tagliapietra",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9929568117,
+  "lat": -27.3683743,
+  "lon": -55.8889187,
+  "tags": {
+    "addr:housenumber": "1432",
+    "addr:postcode": "3300",
+    "addr:street": "Córdoba",
+    "amenity": "doctors",
+    "name": "San Andrés"
   }
 },
 {
@@ -18682,7 +18704,8 @@
     "addr:street": "Eva Duarte",
     "amenity": "doctors",
     "healthcare": "laboratory",
-    "name": "Laboratorio Analisis"
+    "name": "Laboratorio Analisis",
+    "operator": "Vilma Dellamea"
   }
 },
 {

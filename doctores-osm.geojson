@@ -345,6 +345,7 @@
     "amenity": "doctors",
     "healthcare": "laboratory",
     "name": "Laboratorio Analisis",
+    "operator": "Vilma Dellamea",
     "id": "way/232287936"
   },
   "geometry": {
@@ -9341,9 +9342,15 @@
   "type": "Feature",
   "id": "node/2081460496",
   "properties": {
+    "addr:city": "Coronel Du Graty",
+    "addr:housenumber": "349",
+    "addr:postcode": "3541",
+    "addr:street": "Avenida Mariano Moreno",
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Consultorio Clínico",
+    "ref:sisa_codigo": "50220982327407",
+    "ref:sisa_tipologia": "ESSIDT",
     "id": "node/2081460496"
   },
   "geometry": {
@@ -10785,7 +10792,7 @@
     "addr:city": "Posadas",
     "addr:housenumber": "4977",
     "addr:postcode": "3300",
-    "addr:street": "Blas Parera",
+    "addr:street": "Avenida Blas Parera",
     "alt_name": "Centro de Atención Primaria de la Salud 5 Yacyretá",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -20259,7 +20266,7 @@
     "addr:city": "Posadas",
     "addr:housenumber": "2414",
     "addr:postcode": "3300",
-    "addr:street": "Avenida Roque S. Peña",
+    "addr:street": "Avenida Roque Sáenz Peña",
     "amenity": "doctors",
     "contact:facebook": "https://www.facebook.com/enfantsconsultoriopediatrico/",
     "description": "Consultorio Pediátrico",
@@ -34386,17 +34393,39 @@
   "type": "Feature",
   "id": "node/9920035571",
   "properties": {
+    "addr:housenumber": "1450",
+    "addr:street": "Artigas",
     "amenity": "doctors",
+    "contact:phone": "+54 3456 422154",
     "healthcare": "doctor",
-    "name": "Sala N 1",
+    "name": "Centro De Salud Nº 1 – Angelita Tagliapietra",
     "wheelchair": "yes",
     "id": "node/9920035571"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.9945441,
-      -30.7671336
+      -57.9946326,
+      -30.7670472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9929568117",
+  "properties": {
+    "addr:housenumber": "1432",
+    "addr:postcode": "3300",
+    "addr:street": "Córdoba",
+    "amenity": "doctors",
+    "name": "San Andrés",
+    "id": "node/9929568117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.8889187,
+      -27.3683743
     ]
   }
 }
