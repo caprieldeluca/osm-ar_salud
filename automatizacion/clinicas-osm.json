@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-08-10T02:03:53Z",
-    "timestamp_areas_base": "2022-07-20T10:48:09Z",
+    "timestamp_osm_base": "2022-08-11T02:04:04Z",
+    "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -50029,9 +50029,12 @@
     4674810845
   ],
   "tags": {
+    "addr:city": "San Fernando",
+    "addr:postcode": "B1646D",
     "addr:street": "Avenida del Libertador",
     "amenity": "clinic",
     "building": "yes",
+    "building:levels": "3",
     "healthcare": "clinic",
     "healthcare:speciality": "dialysis",
     "name": "Centro de Neurología y Diálisis",
@@ -62168,6 +62171,31 @@
   }
 },
 {
+  "type": "way",
+  "id": 1085459378,
+  "nodes": [
+    9946083438,
+    9946083437,
+    9946083443,
+    9946083455,
+    9946083444,
+    9946083442,
+    9946083508,
+    9946083495,
+    9946083439,
+    9946083438
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "121",
+    "addr:postcode": "Q8300",
+    "addr:street": "Martín Fierro",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Terapéutico Neuquén"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -63553,6 +63581,60 @@
   "id": 8225425910,
   "lat": -38.9687186,
   "lon": -68.0670094
+},
+{
+  "type": "node",
+  "id": 9946083437,
+  "lat": -38.9726894,
+  "lon": -68.0612388
+},
+{
+  "type": "node",
+  "id": 9946083438,
+  "lat": -38.9730344,
+  "lon": -68.0612424
+},
+{
+  "type": "node",
+  "id": 9946083439,
+  "lat": -38.9730368,
+  "lon": -68.0607804
+},
+{
+  "type": "node",
+  "id": 9946083442,
+  "lat": -38.9721550,
+  "lon": -68.0607690
+},
+{
+  "type": "node",
+  "id": 9946083443,
+  "lat": -38.9726879,
+  "lon": -68.0614727
+},
+{
+  "type": "node",
+  "id": 9946083444,
+  "lat": -38.9723907,
+  "lon": -68.0610814
+},
+{
+  "type": "node",
+  "id": 9946083455,
+  "lat": -38.9724827,
+  "lon": -68.0612025
+},
+{
+  "type": "node",
+  "id": 9946083495,
+  "lat": -38.9726853,
+  "lon": -68.0607759
+},
+{
+  "type": "node",
+  "id": 9946083508,
+  "lat": -38.9722470,
+  "lon": -68.0607702
 },
 {
   "type": "node",
