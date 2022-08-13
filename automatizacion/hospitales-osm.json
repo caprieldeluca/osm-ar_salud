@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-08-12T01:59:36Z",
+    "timestamp_osm_base": "2022-08-13T01:58:36Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -23801,8 +23801,14 @@
   "id": 26684425,
   "nodes": [
     292651546,
+    9948578170,
     4187552024,
     292651553,
+    9948578187,
+    9948578188,
+    9948578192,
+    9948578191,
+    9948578190,
     1627710195,
     4187225612,
     4187225611,
@@ -23816,7 +23822,7 @@
     "amenity": "hospital",
     "contact:phone": "+54 8104446777",
     "healthcare": "hospital",
-    "name": "Policlínica Bancaria 9 De Julio - OSBA",
+    "name": "Policlínica Bancaria 9 de Julio - OSBA",
     "official_name": "Policlínico Bancario \"9 de Julio\"",
     "operator": "Obra Social Servicios Sociales Bancarios",
     "operator:type": "private",
@@ -44834,7 +44840,6 @@
   "id": 729092130,
   "nodes": [
     6830732513,
-    6830757725,
     6830732514,
     6830732515,
     6830732516,
@@ -44842,10 +44847,11 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
-    "addr:housenumber": "Blas Parera",
+    "addr:housenumber": "8430",
     "addr:postcode": "3000",
-    "addr:street": "8430",
+    "addr:street": "Avenida Blas Parera",
     "amenity": "hospital",
+    "building": "yes",
     "building:levels": "1",
     "healthcare": "hospital",
     "name": "Radio en la Mira",
@@ -45287,7 +45293,7 @@
     "addr:city": "Arrufó",
     "addr:housenumber": "323",
     "addr:postcode": "S2344",
-    "addr:street": "Iglesias J.M.",
+    "addr:street": "Doctor Juan Manuel Iglesias",
     "amenity": "hospital",
     "building": "yes",
     "description": "Ante cualquier emergencia se cuenta con 2 médicos clínicos, odontóloga y enfermería.",
@@ -82107,32 +82113,26 @@
 {
   "type": "node",
   "id": 6830732513,
-  "lat": -31.5822436,
-  "lon": -60.7285364
+  "lat": -31.5820789,
+  "lon": -60.7285464
 },
 {
   "type": "node",
   "id": 6830732514,
-  "lat": -31.5824540,
-  "lon": -60.7284819
+  "lat": -31.5824230,
+  "lon": -60.7284616
 },
 {
   "type": "node",
   "id": 6830732515,
-  "lat": -31.5824458,
-  "lon": -60.7284017
+  "lat": -31.5824079,
+  "lon": -60.7283774
 },
 {
   "type": "node",
   "id": 6830732516,
-  "lat": -31.5822382,
-  "lon": -60.7284530
-},
-{
-  "type": "node",
-  "id": 6830757725,
-  "lat": -31.5823488,
-  "lon": -60.7285092
+  "lat": -31.5820639,
+  "lon": -60.7284622
 },
 {
   "type": "node",
@@ -91095,20 +91095,38 @@
 {
   "type": "node",
   "id": 292651546,
-  "lat": -34.6117467,
-  "lon": -58.4604090
+  "lat": -34.6117831,
+  "lon": -58.4604036
 },
 {
   "type": "node",
   "id": 292651553,
-  "lat": -34.6108589,
-  "lon": -58.4586187
+  "lat": -34.6109141,
+  "lon": -58.4587179
 },
 {
   "type": "node",
   "id": 4187552024,
   "lat": -34.6113259,
   "lon": -58.4595605
+},
+{
+  "type": "node",
+  "id": 9948578170,
+  "lat": -34.6117305,
+  "lon": -58.4603843
+},
+{
+  "type": "node",
+  "id": 9948578187,
+  "lat": -34.6109137,
+  "lon": -58.4586798
+},
+{
+  "type": "node",
+  "id": 9948578188,
+  "lat": -34.6109358,
+  "lon": -58.4586489
 },
 {
   "type": "node",
@@ -91305,8 +91323,20 @@
 {
   "type": "node",
   "id": 1627710195,
-  "lat": -34.6129250,
-  "lon": -58.4572160
+  "lat": -34.6129338,
+  "lon": -58.4574266
+},
+{
+  "type": "node",
+  "id": 9948578190,
+  "lat": -34.6129032,
+  "lon": -58.4574178
+},
+{
+  "type": "node",
+  "id": 9948578191,
+  "lat": -34.6128596,
+  "lon": -58.4574285
 },
 {
   "type": "node",
@@ -91655,6 +91685,12 @@
   "id": 7281556902,
   "lat": -34.6189428,
   "lon": -58.4108690
+},
+{
+  "type": "node",
+  "id": 9948578192,
+  "lat": -34.6127978,
+  "lon": -58.4573078
 },
 {
   "type": "node",
