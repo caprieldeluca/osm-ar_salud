@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-08-15T02:04:51Z",
-    "timestamp_areas_base": "2022-07-20T10:48:09Z",
+    "timestamp_osm_base": "2022-08-17T02:05:00Z",
+    "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -41445,7 +41445,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "gynaecology;clinic",
     "name": "Centro Médico VIctoria",
-    "opening_hours": "Mo-Fr 08:30-19:00",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa,Su off",
     "website": "https://centromedicovictoria.webnode.com.ar/"
   }
 },
@@ -43323,6 +43323,18 @@
     "name": "Sanatorio Médico Los Tilos",
     "opening_hours": "PH,Mo-Su 12:00",
     "phone": "+54 221 4834151;+54 221 4251929"
+  }
+},
+{
+  "type": "node",
+  "id": 9956150030,
+  "lat": -31.3858610,
+  "lon": -62.8281224,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensario Municipal Dr. José V. Poncini",
+    "operator": "Municipalidad de El Tío"
   }
 },
 {
@@ -48016,7 +48028,8 @@
     "building": "yes",
     "building:levels": "3",
     "healthcare": "clinic",
-    "name": "AlunCo Salud - Centro de Neurorehabilitación Integral"
+    "name": "AlunCo Salud - Centro de Neurorehabilitación Integral",
+    "opening_hours": "Mo-Fr 09:00-17:30; Sa,Su off"
   }
 },
 {
@@ -60366,24 +60379,6 @@
 },
 {
   "type": "way",
-  "id": 884488945,
-  "nodes": [
-    8225425906,
-    8225425907,
-    8225425908,
-    8225425909,
-    8225425910,
-    8225425906
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Fava"
-  }
-},
-{
-  "type": "way",
   "id": 888499050,
   "nodes": [
     8122134315,
@@ -63533,36 +63528,6 @@
   "id": 7790252835,
   "lat": -38.9505591,
   "lon": -68.1165078
-},
-{
-  "type": "node",
-  "id": 8225425906,
-  "lat": -38.9686265,
-  "lon": -68.0670083
-},
-{
-  "type": "node",
-  "id": 8225425907,
-  "lat": -38.9686276,
-  "lon": -68.0668603
-},
-{
-  "type": "node",
-  "id": 8225425908,
-  "lat": -38.9687515,
-  "lon": -68.0668617
-},
-{
-  "type": "node",
-  "id": 8225425909,
-  "lat": -38.9687508,
-  "lon": -68.0669654
-},
-{
-  "type": "node",
-  "id": 8225425910,
-  "lat": -38.9687186,
-  "lon": -68.0670094
 },
 {
   "type": "node",
