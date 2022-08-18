@@ -27036,66 +27036,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/757709416",
-  "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "5325 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Clínica San Martín",
-    "phone": "+54 264 433 3059",
-    "id": "way/757709416"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5939642,
-          -31.5299724
-        ],
-        [
-          -68.5939189,
-          -31.5301921
-        ],
-        [
-          -68.5938204,
-          -31.5301782
-        ],
-        [
-          -68.5938376,
-          -31.5300893
-        ],
-        [
-          -68.593896,
-          -31.5300975
-        ],
-        [
-          -68.5939161,
-          -31.5299937
-        ],
-        [
-          -68.5939225,
-          -31.5299946
-        ],
-        [
-          -68.5939278,
-          -31.5299673
-        ],
-        [
-          -68.5939642,
-          -31.5299724
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/758647809",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
@@ -97868,6 +97808,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "dermatology;clinic;gastroenterology;cardiology",
     "name": "Centro Médico San Carlos",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-13:00; Su off",
     "phone": "+54 11 4746-4851",
     "website": "https://www.centromedicosancarlos.com/",
     "id": "node/8868767805"
@@ -100472,6 +100413,54 @@
     "coordinates": [
       -62.8281224,
       -31.385861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9959931607",
+  "properties": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1016",
+    "addr:postcode": "1646",
+    "addr:street": "Madero",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "CIO - Centro Integral Oftalmológico",
+    "phone": "+54 114 744-1486",
+    "website": "http://www.oftalmologiacio.com/",
+    "id": "node/9959931607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5559447,
+      -34.439425
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960525475",
+  "properties": {
+    "addr:city": "Rivadavia",
+    "addr:housenumber": "5325 (O)",
+    "addr:postcode": "5400",
+    "addr:street": "Avenida Libertador General San Martín",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Clínica San Martín",
+    "phone": "+54 264 433 3059",
+    "id": "node/9960525475"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5938715,
+      -31.5302176
     ]
   }
 }
