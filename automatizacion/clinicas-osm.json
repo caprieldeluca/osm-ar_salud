@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-08-18T02:04:07Z",
-    "timestamp_areas_base": "2022-07-20T11:06:24Z",
+    "timestamp_osm_base": "2022-08-19T02:05:55Z",
+    "timestamp_areas_base": "2022-07-20T10:48:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -50489,6 +50489,7 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Centro Medico Santa Rita",
+    "opening_hours": "Mo-Fr 08:30-20:00; Su off; Sa 08:30-20:00",
     "phone": "+54 11 4765-1902",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "website": "http://www.santaritamedicina.com.ar"
@@ -62183,6 +62184,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1087120710,
+  "nodes": [
+    9960742787,
+    9960742786,
+    9960742761,
+    9960742788,
+    9960742789,
+    9960742787
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "545",
+    "addr:postcode": "Q8300",
+    "addr:street": "José Fava",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Centro de Diagnóstico y Tratamiento Médico Fava",
+    "operator": "Fava S.R.L.",
+    "operator:type": "private"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -63538,6 +63565,36 @@
   "id": 7790252835,
   "lat": -38.9505591,
   "lon": -68.1165078
+},
+{
+  "type": "node",
+  "id": 9960742761,
+  "lat": -38.9687538,
+  "lon": -68.0668238
+},
+{
+  "type": "node",
+  "id": 9960742786,
+  "lat": -38.9686410,
+  "lon": -68.0668236
+},
+{
+  "type": "node",
+  "id": 9960742787,
+  "lat": -38.9686406,
+  "lon": -68.0669846
+},
+{
+  "type": "node",
+  "id": 9960742788,
+  "lat": -38.9687536,
+  "lon": -68.0669401
+},
+{
+  "type": "node",
+  "id": 9960742789,
+  "lat": -38.9687206,
+  "lon": -68.0669849
 },
 {
   "type": "node",
