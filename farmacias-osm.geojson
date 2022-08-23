@@ -2660,10 +2660,14 @@
   "type": "Feature",
   "id": "way/311129415",
   "properties": {
+    "addr:city": "Olivos",
+    "addr:housenumber": "2217",
+    "addr:postcode": "1636",
+    "addr:street": "Avenida del Libertador",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Zona Vital",
+    "name": "FarmaOlivos",
     "id": "way/311129415"
   },
   "geometry": {
@@ -26055,7 +26059,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Santa Lucia Farmacia",
+    "name": "Santa Lucía",
     "id": "way/557736169"
   },
   "geometry": {
@@ -26063,8 +26067,8 @@
     "coordinates": [
       [
         [
-          -64.1851739,
-          -31.3974063
+          -64.1851735,
+          -31.397407
         ],
         [
           -64.185137,
@@ -26075,20 +26079,16 @@
           -31.3973038
         ],
         [
-          -64.1851551,
-          -31.3972953
+          -64.1852161,
+          -31.3972823
         ],
         [
-          -64.1852188,
-          -31.3972775
+          -64.185256,
+          -31.3973832
         ],
         [
-          -64.1852577,
-          -31.3973839
-        ],
-        [
-          -64.1851739,
-          -31.3974063
+          -64.1851735,
+          -31.397407
         ]
       ]
     ]
@@ -132549,27 +132549,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7304088983",
-  "properties": {
-    "addr:city": "Puerto Iguazú",
-    "addr:housenumber": "270",
-    "addr:street": "Gustavo Eppens",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Centro I",
-    "id": "node/7304088983"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -54.5753459,
-      -25.598336
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7304126372",
   "properties": {
     "addr:city": "Jardín América",
@@ -148447,6 +148426,7 @@
   "id": "node/9448854104",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/9448854104"
   },
   "geometry": {
@@ -148462,6 +148442,7 @@
   "id": "node/9448857379",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/9448857379"
   },
   "geometry": {
