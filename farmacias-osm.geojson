@@ -18231,8 +18231,10 @@
     "addr:street": "Avenida Santiago de Liniers",
     "amenity": "pharmacy",
     "building": "yes",
-    "fixme": "name",
+    "name": "Arballos",
+    "phone": "+54 11 4749-8612",
     "source": "Reconocimiento terrestre por Kaart 2016.",
+    "survey:date": "2022-08-26",
     "id": "way/476371851"
   },
   "geometry": {
@@ -39155,6 +39157,56 @@
         [
           -60.7339951,
           -32.7487186
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1089918137",
+  "properties": {
+    "addr:city": "Villa La Bolsa",
+    "addr:street": "Ruta Provincial 5",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Valle II",
+    "operator": "0354715447661",
+    "id": "way/1089918137"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4300485,
+          -31.7296839
+        ],
+        [
+          -64.430033,
+          -31.7297006
+        ],
+        [
+          -64.4299754,
+          -31.7297564
+        ],
+        [
+          -64.4299442,
+          -31.7297335
+        ],
+        [
+          -64.4300103,
+          -31.7296671
+        ],
+        [
+          -64.4300154,
+          -31.7296604
+        ],
+        [
+          -64.4300485,
+          -31.7296839
         ]
       ]
     ]
@@ -85415,8 +85467,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.9476067,
-      -27.3689441
+      -55.947688,
+      -27.3689821
     ]
   }
 },
@@ -101682,14 +101734,13 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Suiza",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4708971718"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3768569,
-      -34.6010814
+      -58.3768556,
+      -34.6010693
     ]
   }
 },
@@ -131571,7 +131622,7 @@
   "id": "node/7192091988",
   "properties": {
     "addr:housenumber": "2311",
-    "addr:street": "425 - Alberti",
+    "addr:street": "425 - Alberdi",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Jorge",
@@ -145747,14 +145798,15 @@
   "id": "node/9043703033",
   "properties": {
     "amenity": "pharmacy",
-    "name": "Del Valle II",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
     "id": "node/9043703033"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4299543,
-      -31.7297378
+      -64.4299961,
+      -31.7297104
     ]
   }
 },
@@ -152744,6 +152796,52 @@
     "coordinates": [
       -68.0647864,
       -38.9687431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9982750682",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1069",
+    "addr:postcode": "Q8300",
+    "addr:street": "Avenida Olascoaga",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Farmacias Global S.H.",
+    "id": "node/9982750682"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0596163,
+      -38.966506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9982799997",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "744",
+    "addr:postcode": "Q8300",
+    "addr:street": "Manuel Lainez",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia San Jorge",
+    "id": "node/9982799997"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0662425,
+      -38.9632616
     ]
   }
 }

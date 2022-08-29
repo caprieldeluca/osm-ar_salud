@@ -331,96 +331,6 @@
 },
 {
   "type": "Feature",
-  "id": "relation/10451736",
-  "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "5095 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Consultorios Ser",
-    "type": "multipolygon",
-    "id": "relation/10451736"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5912535,
-          -31.5296318
-        ],
-        [
-          -68.5912371,
-          -31.5297962
-        ],
-        [
-          -68.5911976,
-          -31.5297945
-        ],
-        [
-          -68.5911936,
-          -31.5298311
-        ],
-        [
-          -68.5911385,
-          -31.5298222
-        ],
-        [
-          -68.591141,
-          -31.5297957
-        ],
-        [
-          -68.5911451,
-          -31.5297526
-        ],
-        [
-          -68.5911507,
-          -31.5296944
-        ],
-        [
-          -68.5911617,
-          -31.5296953
-        ],
-        [
-          -68.5911696,
-          -31.529625
-        ],
-        [
-          -68.5912535,
-          -31.5296318
-        ]
-      ],
-      [
-        [
-          -68.5911997,
-          -31.5297527
-        ],
-        [
-          -68.5911714,
-          -31.5297519
-        ],
-        [
-          -68.5911703,
-          -31.5297801
-        ],
-        [
-          -68.5911986,
-          -31.529781
-        ],
-        [
-          -68.5911997,
-          -31.5297527
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "relation/12535543",
   "properties": {
     "addr:city": "Villa Fiorito",
@@ -1961,28 +1871,60 @@
     "coordinates": [
       [
         [
-          -64.1675599,
-          -31.4270805
+          -64.1675481,
+          -31.4270904
         ],
         [
-          -64.1676409,
-          -31.4275607
+          -64.1675906,
+          -31.4272973
         ],
         [
-          -64.1670739,
-          -31.427648
+          -64.1672552,
+          -31.4273474
         ],
         [
-          -64.1668053,
-          -31.4273788
+          -64.1672754,
+          -31.4274456
         ],
         [
-          -64.166784,
-          -31.4272042
+          -64.1676073,
+          -31.4273959
         ],
         [
-          -64.1675599,
-          -31.4270805
+          -64.1676393,
+          -31.4275516
+        ],
+        [
+          -64.1671979,
+          -31.4276176
+        ],
+        [
+          -64.1672006,
+          -31.427631
+        ],
+        [
+          -64.1670727,
+          -31.4276501
+        ],
+        [
+          -64.1670701,
+          -31.4276375
+        ],
+        [
+          -64.1670156,
+          -31.4276456
+        ],
+        [
+          -64.166915,
+          -31.4275477
+        ],
+        [
+          -64.1668427,
+          -31.4271958
+        ],
+        [
+          -64.1675481,
+          -31.4270904
         ]
       ]
     ]
@@ -41505,6 +41447,78 @@
 },
 {
   "type": "Feature",
+  "id": "way/1089790756",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "735",
+    "addr:postcode": "Q8300",
+    "addr:street": "Avenida Olascoaga",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "beige",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Centro Médico Olascoaga",
+    "operator": "Centro Médico Olascoaga Neuquén",
+    "operator:type": "private",
+    "website": "https://www.cmolascoaga.com/",
+    "id": "way/1089790756"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0596205,
+          -38.9628949
+        ],
+        [
+          -68.0599324,
+          -38.962894
+        ],
+        [
+          -68.0599326,
+          -38.9629811
+        ],
+        [
+          -68.059933,
+          -38.9631577
+        ],
+        [
+          -68.0596754,
+          -38.9631576
+        ],
+        [
+          -68.0596218,
+          -38.9631576
+        ],
+        [
+          -68.0596217,
+          -38.9630781
+        ],
+        [
+          -68.0595838,
+          -38.9630782
+        ],
+        [
+          -68.0595836,
+          -38.9629912
+        ],
+        [
+          -68.0596207,
+          -38.9629912
+        ],
+        [
+          -68.0596205,
+          -38.9628949
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -45300,6 +45314,7 @@
     "addr:housenumber": "1238",
     "addr:street": "San Martín",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Clínica Modelo",
     "opening_hours": "24/7",
     "phone": "(0343) 423-1200",
@@ -62374,6 +62389,7 @@
   "properties": {
     "addr:street": "Avenida Tambor de Tacuarí",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Villa Cabello Salud",
     "phone": "+543764475981",
     "id": "node/5838835886"
@@ -75225,7 +75241,7 @@
     "addr:city": "Villa Gobernador Gálvez",
     "addr:housenumber": "480",
     "addr:postcode": "S2124",
-    "addr:street": "Suárez",
+    "addr:street": "José Mármol",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud María Auxiliadora",
@@ -100496,13 +100512,7 @@
   "type": "Feature",
   "id": "node/9960525475",
   "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "5325 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
     "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
     "healthcare": "clinic",
     "name": "Clínica San Martín",
     "phone": "+54 264 433 3059",
@@ -100511,8 +100521,44 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5938715,
-      -31.5302176
+      -68.5938438,
+      -31.530171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9980932717",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Médico del Sol",
+    "survey:date": "2022-08-26",
+    "website": "http://www.centromedicodelsol.com/",
+    "id": "node/9980932717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5947437,
+      -34.4369762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9981537192",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "counselling",
+    "name": "Consultorios Ser",
+    "id": "node/9981537192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5911842,
+      -31.5298234
     ]
   }
 }
