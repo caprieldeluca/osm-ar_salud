@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-09-05T01:59:15Z",
+    "timestamp_osm_base": "2022-09-06T01:59:31Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -23178,6 +23178,40 @@
     "operator:type": "government",
     "phone": "+54 11 4512-9914",
     "survey:date": "2022-08-02"
+  }
+},
+{
+  "type": "node",
+  "id": 10001184718,
+  "lat": -29.2228056,
+  "lon": -65.7739116,
+  "tags": {
+    "addr:city": "San Martín",
+    "addr:postcode": "5263",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "internet_access": "no",
+    "name": "Mini Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 10002011206,
+  "lat": -32.7847500,
+  "lon": -60.9056218,
+  "tags": {
+    "addr:city": "Luis Palacios",
+    "addr:housenumber": "441",
+    "addr:postcode": "2142",
+    "addr:street": "Facundo Quiroga",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Samco Luis Palacios",
+    "phone": "+54 3476 499178",
+    "ref:sisa_codigo": "50821192184766",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -52776,6 +52810,21 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Regional Tostado"
+  }
+},
+{
+  "type": "way",
+  "id": 1092013327,
+  "nodes": [
+    10001184719,
+    10001184720,
+    10001184721,
+    10001184722,
+    10001184719
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
   }
 },
 {
@@ -101465,6 +101514,30 @@
 },
 {
   "type": "node",
+  "id": 10001184719,
+  "lat": -29.2228221,
+  "lon": -65.7740850
+},
+{
+  "type": "node",
+  "id": 10001184720,
+  "lat": -29.2231850,
+  "lon": -65.7739257
+},
+{
+  "type": "node",
+  "id": 10001184721,
+  "lat": -29.2230692,
+  "lon": -65.7735143
+},
+{
+  "type": "node",
+  "id": 10001184722,
+  "lat": -29.2227140,
+  "lon": -65.7736514
+},
+{
+  "type": "node",
   "id": 3167052134,
   "lat": -30.3978900,
   "lon": -64.1209440
@@ -113694,8 +113767,8 @@
 {
   "type": "node",
   "id": 4459892102,
-  "lat": -26.1891872,
-  "lon": -58.1687114
+  "lat": -26.1891920,
+  "lon": -58.1687080
 },
 {
   "type": "node",

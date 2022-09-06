@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-09-05T02:04:36Z",
-    "timestamp_areas_base": "2022-07-20T10:48:09Z",
+    "timestamp_osm_base": "2022-09-06T02:04:39Z",
+    "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -30354,8 +30354,8 @@
 {
   "type": "node",
   "id": 7508374633,
-  "lat": -24.5770118,
-  "lon": -61.5320222,
+  "lat": -24.5772313,
+  "lon": -61.5321563,
   "tags": {
     "addr:full": "Planta Urbana S/N",
     "addr:postcode": "3718",
@@ -40578,6 +40578,7 @@
   "lon": -60.7995763,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Dispensario"
   }
 },
@@ -43377,6 +43378,20 @@
     "amenity": "clinic",
     "healthcare": "counselling",
     "name": "Consultorios Ser"
+  }
+},
+{
+  "type": "node",
+  "id": 10002293633,
+  "lat": -34.5542031,
+  "lon": -58.4495163,
+  "tags": {
+    "addr:housenumber": "6249",
+    "addr:street": "Avenida Del Libertador",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Instituto Donato"
   }
 },
 {
@@ -61898,12 +61913,18 @@
     9576059651
   ],
   "tags": {
+    "addr:city": "Roldán",
+    "addr:full": "Avenida Central Y Larrea,",
+    "addr:postcode": "2134",
+    "addr:street": "Juan Larrea",
     "alt_name": "Dispensario Villa Flores",
     "amenity": "clinic",
-    "contact:phone": "+54 341 496-0202",
+    "contact:phone": "+54 341 4960202",
     "healthcare": "clinic",
     "name": "Centro de Salud Villa Flores",
     "operator": "Municipalidad de Roldán",
+    "ref:sisa_codigo": "50821192284999",
+    "ref:sisa_tipologia": "ESSIDT",
     "wheelchair": "yes"
   }
 },
