@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-09-13T02:04:34Z",
+    "timestamp_osm_base": "2022-09-14T02:04:19Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -210,7 +210,10 @@
     "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
     "name": "Clinica Dr. Nano",
-    "opening_hours": "Mo-Su 08:00-19:30"
+    "opening_hours": "Mo-Su 08:00-19:30",
+    "phone": "+54 11 4717-4000",
+    "survey:date": "2022-09-12",
+    "website": "http://www.clinicanano.com.ar/"
   }
 },
 {
@@ -7547,11 +7550,11 @@
 {
   "type": "node",
   "id": 4396900002,
-  "lat": -27.0844785,
-  "lon": -54.8282856,
+  "lat": -27.0844881,
+  "lon": -54.8282566,
   "tags": {
-    "addr:city": "Villa Salto Encantado",
-    "addr:housenumber": "1121",
+    "addr:city": "Salto Encantado",
+    "addr:housenumber": "290",
     "addr:postcode": "N3364",
     "addr:street": "Colectora Norte Avenida 8 de Septiembre",
     "amenity": "clinic",
@@ -62295,6 +62298,31 @@
   }
 },
 {
+  "type": "way",
+  "id": 1094320922,
+  "nodes": [
+    10022522510,
+    10022522511,
+    10022522512,
+    10022522513,
+    10022522514,
+    10022522515,
+    10022522516,
+    10022540717,
+    10022540718,
+    10022522510
+  ],
+  "tags": {
+    "addr:city": "Salto Encantado",
+    "addr:postcode": "3339",
+    "addr:street": "Colectora Norte Avenida 8 de Septiembre",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sanatorio Regional"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -92860,6 +92888,60 @@
   "id": 6275643104,
   "lat": -25.2889003,
   "lon": -57.7153802
+},
+{
+  "type": "node",
+  "id": 10022522510,
+  "lat": -27.0841490,
+  "lon": -54.8284775
+},
+{
+  "type": "node",
+  "id": 10022522511,
+  "lat": -27.0841489,
+  "lon": -54.8283513
+},
+{
+  "type": "node",
+  "id": 10022522512,
+  "lat": -27.0841682,
+  "lon": -54.8283513
+},
+{
+  "type": "node",
+  "id": 10022522513,
+  "lat": -27.0841679,
+  "lon": -54.8280984
+},
+{
+  "type": "node",
+  "id": 10022522514,
+  "lat": -27.0843352,
+  "lon": -54.8280982
+},
+{
+  "type": "node",
+  "id": 10022522515,
+  "lat": -27.0843344,
+  "lon": -54.8279506
+},
+{
+  "type": "node",
+  "id": 10022522516,
+  "lat": -27.0845064,
+  "lon": -54.8279488
+},
+{
+  "type": "node",
+  "id": 10022540717,
+  "lat": -27.0845078,
+  "lon": -54.8284385
+},
+{
+  "type": "node",
+  "id": 10022540718,
+  "lat": -27.0844663,
+  "lon": -54.8284772
 },
 {
   "type": "node",
