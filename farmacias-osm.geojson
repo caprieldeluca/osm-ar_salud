@@ -113664,9 +113664,14 @@
   "type": "Feature",
   "id": "node/5503855504",
   "properties": {
+    "addr:city": "San Genaro",
+    "addr:housenumber": "801",
+    "addr:postcode": "S2417",
+    "addr:street": "Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Gómez",
+    "phone": "+54 (3401) 49-3177",
     "id": "node/5503855504"
   },
   "geometry": {
@@ -113715,6 +113720,10 @@
   "type": "Feature",
   "id": "node/5503855514",
   "properties": {
+    "addr:city": "San Genaro",
+    "addr:housenumber": "1532",
+    "addr:postcode": "S2417",
+    "addr:street": "Avenida Roque Saenz Peña",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Flores",
@@ -116969,6 +116978,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Ace",
     "id": "node/5758725136"
   },
   "geometry": {
@@ -123796,6 +123806,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Once",
+    "opening_hours": "Mo-Fr 09:00-19:00",
     "id": "node/6282914087"
   },
   "geometry": {
@@ -145410,12 +145421,12 @@
   "properties": {
     "addr:city": "El Fortin",
     "addr:housenumber": "126",
-    "addr:postcode": "5951",
+    "addr:postcode": "X5951",
     "addr:street": "Mateo Olivero",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "FARMACIA TOLOSA",
+    "name": "Tolosa",
     "id": "node/8945513252"
   },
   "geometry": {
@@ -145432,12 +145443,12 @@
   "properties": {
     "addr:city": "El Fortin",
     "addr:housenumber": "365",
-    "addr:postcode": "5951",
+    "addr:postcode": "X5951",
     "addr:street": "Mateo Olivero",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "FARMACIA CAVALLERO",
+    "name": "Cavallero",
     "id": "node/8945513253"
   },
   "geometry": {
@@ -153061,6 +153072,69 @@
     "coordinates": [
       -67.4959022,
       -29.1628944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10035353929",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Poli",
+    "id": "node/10035353929"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.5262343,
+      -34.1878829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10035353930",
+  "properties": {
+    "addr:city": "Teodelina",
+    "addr:housenumber": "265",
+    "addr:postcode": "S6009",
+    "addr:street": "Moreno",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Melo",
+    "id": "node/10035353930"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.5251903,
+      -34.1875374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10035499300",
+  "properties": {
+    "addr:city": "Juan Bernabè Molina",
+    "addr:housenumber": "546",
+    "addr:postcode": "S2103",
+    "addr:street": "Domingo Faustino Samiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Garrofe",
+    "phone": "+54 9 (3460) 69-0315",
+    "id": "node/10035499300"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5143175,
+      -33.493624
     ]
   }
 }
