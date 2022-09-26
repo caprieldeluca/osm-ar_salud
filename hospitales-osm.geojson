@@ -4851,6 +4851,7 @@
   "id": "way/55080844",
   "properties": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Hospital de Geriatría General Rodríguez",
     "id": "way/55080844"
   },
@@ -38496,8 +38497,12 @@
   "id": "way/448499773",
   "properties": {
     "amenity": "hospital",
+    "building": "yes",
+    "building:levels": "1",
+    "building:material": "brick",
     "healthcare": "hospital",
     "name": "Sala de Primeros Auxilios \"Pancho Ramirez\"",
+    "roof:shape": "skillion",
     "id": "way/448499773"
   },
   "geometry": {
@@ -103987,6 +103992,30 @@
     "coordinates": [
       -60.9056218,
       -32.78475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10052531067",
+  "properties": {
+    "addr:city": "Concepción del Bermejo",
+    "addr:housenumber": "635",
+    "addr:postcode": "3708",
+    "addr:street": "Avenida San Martín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Enfermero Ramon Alvarez Concepcion Del Bermejo",
+    "phone": "+54 364 4493176",
+    "ref:sisa_codigo": "10220072126026",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "node/10052531067"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.9459768,
+      -26.5979748
     ]
   }
 }
