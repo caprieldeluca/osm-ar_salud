@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-09-26T01:58:47Z",
-    "timestamp_areas_base": "2022-07-20T10:48:09Z",
+    "timestamp_osm_base": "2022-10-01T01:59:39Z",
+    "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9055,11 +9055,13 @@
   "lon": -61.0824725,
   "tags": {
     "addr:city": "San Jerónimo Norte",
+    "addr:housenumber": "702",
     "addr:postcode": "3015",
     "addr:street": "9 de Julio",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Samco"
+    "name": "Samco",
+    "phone": "+54 (3404) 46-0054"
   }
 },
 {
@@ -12890,7 +12892,7 @@
   "tags": {
     "addr:city": "Chañar",
     "addr:full": "Av. San Martín 664",
-    "addr:housenumber": "664",
+    "addr:housenumber": "466",
     "addr:place": "General Belgrano",
     "addr:postcode": "5276",
     "addr:street": "Av. San Martín",
@@ -12898,6 +12900,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "general;dentist",
     "name": "Hospital Omar B. Pérez",
     "opening_hours": "24/7",
     "operator:type": "public",
@@ -23228,6 +23231,26 @@
     "phone": "+54 364 4493176",
     "ref:sisa_codigo": "10220072126026",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 10065149789,
+  "lat": -29.1399925,
+  "lon": -59.2638883,
+  "tags": {
+    "addr:city": "Goya",
+    "addr:housenumber": "555",
+    "addr:postcode": "3450",
+    "addr:street": "San Martín",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "sala_de_atención_primaria_de_la_salud;general",
+    "name": "Sala Cabecera",
+    "operator": "Dr. Emilio Martinez",
+    "operator:type": "government",
+    "wheelchair": "yes"
   }
 },
 {
@@ -37195,6 +37218,7 @@
   "id": 401652867,
   "nodes": [
     5517448606,
+    10056335233,
     5517448609,
     4040661625,
     4040661624,
@@ -37202,12 +37226,14 @@
     4040661620,
     4987461724,
     5728989860,
+    10056335238,
     4040661677,
     4040661676,
     4040661673,
     4040661672,
     4040661671,
     4040661670,
+    10056335232,
     5517448606
   ],
   "tags": {
@@ -49988,12 +50014,14 @@
   ],
   "tags": {
     "addr:city": "Chañar",
-    "addr:housenumber": "664",
+    "addr:housenumber": "466",
     "addr:postcode": "5276",
     "addr:street": "San Martín",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Omar B. Pérez"
+    "healthcare:speciality": "general;dentistry",
+    "name": "Hospital Seccional Omar B. Pérez"
   }
 },
 {
@@ -52895,6 +52923,65 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Salas Sanitarias"
+  }
+},
+{
+  "type": "way",
+  "id": 1098097207,
+  "nodes": [
+    10054630477,
+    10054630514,
+    10054630482,
+    10054630481,
+    10054630498,
+    10054630480,
+    10054630458,
+    10054630462,
+    10054630461,
+    10054630478,
+    10054630473,
+    10054630515,
+    10054630477
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sanatorio Regional RS"
+  }
+},
+{
+  "type": "way",
+  "id": 1098097211,
+  "nodes": [
+    10054636124,
+    10054636125,
+    10054636126,
+    10054630516,
+    10054636127,
+    10054636130,
+    10054636134,
+    10054636124
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CCVR"
+  }
+},
+{
+  "type": "way",
+  "id": 1098177992,
+  "nodes": [
+    10055319748,
+    10055319749,
+    10055319750,
+    10055319751,
+    10055319748
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Instituto del Quemado"
   }
 },
 {
@@ -75562,6 +75649,30 @@
 },
 {
   "type": "node",
+  "id": 10055319748,
+  "lat": -31.4063299,
+  "lon": -64.1587878
+},
+{
+  "type": "node",
+  "id": 10055319749,
+  "lat": -31.4062852,
+  "lon": -64.1583873
+},
+{
+  "type": "node",
+  "id": 10055319750,
+  "lat": -31.4069163,
+  "lon": -64.1583072
+},
+{
+  "type": "node",
+  "id": 10055319751,
+  "lat": -31.4069426,
+  "lon": -64.1586091
+},
+{
+  "type": "node",
   "id": 7527918761,
   "lat": -31.3844558,
   "lon": -64.1361146
@@ -77855,26 +77966,26 @@
 {
   "type": "node",
   "id": 4040661670,
-  "lat": -32.9207394,
-  "lon": -60.8204586
+  "lat": -32.9207397,
+  "lon": -60.8204582
 },
 {
   "type": "node",
   "id": 4040661671,
-  "lat": -32.9207418,
-  "lon": -60.8205622
+  "lat": -32.9207423,
+  "lon": -60.8205621
 },
 {
   "type": "node",
   "id": 4040661672,
-  "lat": -32.9207457,
-  "lon": -60.8207287
+  "lat": -32.9207462,
+  "lon": -60.8207286
 },
 {
   "type": "node",
   "id": 4040661673,
-  "lat": -32.9207530,
-  "lon": -60.8210031
+  "lat": -32.9207529,
+  "lon": -60.8210030
 },
 {
   "type": "node",
@@ -77917,6 +78028,24 @@
   "id": 9191162287,
   "lat": -32.9198346,
   "lon": -60.8212571
+},
+{
+  "type": "node",
+  "id": 10056335232,
+  "lat": -32.9206932,
+  "lon": -60.8204598
+},
+{
+  "type": "node",
+  "id": 10056335233,
+  "lat": -32.9206364,
+  "lon": -60.8204629
+},
+{
+  "type": "node",
+  "id": 10056335238,
+  "lat": -32.9203488,
+  "lon": -60.8212796
 },
 {
   "type": "node",
@@ -79621,6 +79750,120 @@
   "id": 8660672703,
   "lat": -32.9515431,
   "lon": -60.6343852
+},
+{
+  "type": "node",
+  "id": 10054630458,
+  "lat": -32.9532192,
+  "lon": -60.6348103
+},
+{
+  "type": "node",
+  "id": 10054630461,
+  "lat": -32.9533323,
+  "lon": -60.6347406
+},
+{
+  "type": "node",
+  "id": 10054630462,
+  "lat": -32.9532356,
+  "lon": -60.6347247
+},
+{
+  "type": "node",
+  "id": 10054630473,
+  "lat": -32.9535697,
+  "lon": -60.6347801
+},
+{
+  "type": "node",
+  "id": 10054630477,
+  "lat": -32.9533734,
+  "lon": -60.6351261
+},
+{
+  "type": "node",
+  "id": 10054630478,
+  "lat": -32.9534270,
+  "lon": -60.6347511
+},
+{
+  "type": "node",
+  "id": 10054630480,
+  "lat": -32.9531980,
+  "lon": -60.6348243
+},
+{
+  "type": "node",
+  "id": 10054630481,
+  "lat": -32.9531384,
+  "lon": -60.6351751
+},
+{
+  "type": "node",
+  "id": 10054630482,
+  "lat": -32.9532465,
+  "lon": -60.6351899
+},
+{
+  "type": "node",
+  "id": 10054630498,
+  "lat": -32.9531496,
+  "lon": -60.6351089
+},
+{
+  "type": "node",
+  "id": 10054630514,
+  "lat": -32.9532653,
+  "lon": -60.6350992
+},
+{
+  "type": "node",
+  "id": 10054630515,
+  "lat": -32.9535134,
+  "lon": -60.6351524
+},
+{
+  "type": "node",
+  "id": 10054630516,
+  "lat": -32.9532072,
+  "lon": -60.6356720
+},
+{
+  "type": "node",
+  "id": 10054636124,
+  "lat": -32.9531381,
+  "lon": -60.6360506
+},
+{
+  "type": "node",
+  "id": 10054636125,
+  "lat": -32.9532446,
+  "lon": -60.6360724
+},
+{
+  "type": "node",
+  "id": 10054636126,
+  "lat": -32.9533179,
+  "lon": -60.6357053
+},
+{
+  "type": "node",
+  "id": 10054636127,
+  "lat": -32.9531920,
+  "lon": -60.6357553
+},
+{
+  "type": "node",
+  "id": 10054636130,
+  "lat": -32.9531852,
+  "lon": -60.6357928
+},
+{
+  "type": "node",
+  "id": 10054636134,
+  "lat": -32.9531520,
+  "lon": -60.6359747
 },
 {
   "type": "node",

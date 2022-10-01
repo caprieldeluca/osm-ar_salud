@@ -35651,6 +35651,10 @@
           -32.9206625
         ],
         [
+          -60.8204629,
+          -32.9206364
+        ],
+        [
           -60.8204693,
           -32.9204809
         ],
@@ -35679,6 +35683,10 @@
           -32.9200494
         ],
         [
+          -60.8212796,
+          -32.9203488
+        ],
+        [
           -60.8212574,
           -32.9208522
         ],
@@ -35687,20 +35695,24 @@
           -32.9208519
         ],
         [
-          -60.8210031,
-          -32.920753
+          -60.821003,
+          -32.9207529
         ],
         [
-          -60.8207287,
-          -32.9207457
+          -60.8207286,
+          -32.9207462
         ],
         [
-          -60.8205622,
-          -32.9207418
+          -60.8205621,
+          -32.9207423
         ],
         [
-          -60.8204586,
-          -32.9207394
+          -60.8204582,
+          -32.9207397
+        ],
+        [
+          -60.8204598,
+          -32.9206932
         ],
         [
           -60.8204618,
@@ -64981,12 +64993,14 @@
   "id": "way/1009117147",
   "properties": {
     "addr:city": "Chañar",
-    "addr:housenumber": "664",
+    "addr:housenumber": "466",
     "addr:postcode": "5276",
     "addr:street": "San Martín",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Omar B. Pérez",
+    "healthcare:speciality": "general;dentistry",
+    "name": "Hospital Seccional Omar B. Pérez",
     "id": "way/1009117147"
   },
   "geometry": {
@@ -71672,6 +71686,161 @@
         [
           -58.9511448,
           -34.933842
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098097207",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sanatorio Regional RS",
+    "id": "way/1098097207"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.6351261,
+          -32.9533734
+        ],
+        [
+          -60.6351524,
+          -32.9535134
+        ],
+        [
+          -60.6347801,
+          -32.9535697
+        ],
+        [
+          -60.6347511,
+          -32.953427
+        ],
+        [
+          -60.6347406,
+          -32.9533323
+        ],
+        [
+          -60.6347247,
+          -32.9532356
+        ],
+        [
+          -60.6348103,
+          -32.9532192
+        ],
+        [
+          -60.6348243,
+          -32.953198
+        ],
+        [
+          -60.6351089,
+          -32.9531496
+        ],
+        [
+          -60.6351751,
+          -32.9531384
+        ],
+        [
+          -60.6351899,
+          -32.9532465
+        ],
+        [
+          -60.6350992,
+          -32.9532653
+        ],
+        [
+          -60.6351261,
+          -32.9533734
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098097211",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CCVR",
+    "id": "way/1098097211"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.6360506,
+          -32.9531381
+        ],
+        [
+          -60.6360724,
+          -32.9532446
+        ],
+        [
+          -60.6357053,
+          -32.9533179
+        ],
+        [
+          -60.635672,
+          -32.9532072
+        ],
+        [
+          -60.6357553,
+          -32.953192
+        ],
+        [
+          -60.6357928,
+          -32.9531852
+        ],
+        [
+          -60.6359747,
+          -32.953152
+        ],
+        [
+          -60.6360506,
+          -32.9531381
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1098177992",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Instituto del Quemado",
+    "id": "way/1098177992"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.1587878,
+          -31.4063299
+        ],
+        [
+          -64.1586091,
+          -31.4069426
+        ],
+        [
+          -64.1583072,
+          -31.4069163
+        ],
+        [
+          -64.1583873,
+          -31.4062852
+        ],
+        [
+          -64.1587878,
+          -31.4063299
         ]
       ]
     ]
@@ -84514,11 +84683,13 @@
   "id": "node/4097776586",
   "properties": {
     "addr:city": "San Jerónimo Norte",
+    "addr:housenumber": "702",
     "addr:postcode": "3015",
     "addr:street": "9 de Julio",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Samco",
+    "phone": "+54 (3404) 46-0054",
     "id": "node/4097776586"
   },
   "geometry": {
@@ -89861,7 +90032,7 @@
   "properties": {
     "addr:city": "Chañar",
     "addr:full": "Av. San Martín 664",
-    "addr:housenumber": "664",
+    "addr:housenumber": "466",
     "addr:place": "General Belgrano",
     "addr:postcode": "5276",
     "addr:street": "Av. San Martín",
@@ -89869,6 +90040,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "general;dentist",
     "name": "Hospital Omar B. Pérez",
     "opening_hours": "24/7",
     "operator:type": "public",
@@ -104016,6 +104188,32 @@
     "coordinates": [
       -60.9459768,
       -26.5979748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10065149789",
+  "properties": {
+    "addr:city": "Goya",
+    "addr:housenumber": "555",
+    "addr:postcode": "3450",
+    "addr:street": "San Martín",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "sala_de_atención_primaria_de_la_salud;general",
+    "name": "Sala Cabecera",
+    "operator": "Dr. Emilio Martinez",
+    "operator:type": "government",
+    "wheelchair": "yes",
+    "id": "node/10065149789"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.2638883,
+      -29.1399925
     ]
   }
 }

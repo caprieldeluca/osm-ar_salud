@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-09-26T02:10:00Z",
+    "timestamp_osm_base": "2022-10-01T02:09:33Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -21343,12 +21343,17 @@
 {
   "type": "node",
   "id": 3293061111,
-  "lat": -38.9586167,
-  "lon": -68.0703497,
+  "lat": -38.9586004,
+  "lon": -68.0703255,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "340",
+    "addr:postcode": "Q8300",
+    "addr:street": "Intendente Chaneton",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmcia Araucaria"
+    "name": "Farmacia Araucaria"
   }
 },
 {
@@ -21935,14 +21940,15 @@
 {
   "type": "node",
   "id": 3356350938,
-  "lat": -32.9581163,
-  "lon": -60.6371322,
+  "lat": -32.9581485,
+  "lon": -60.6371666,
   "tags": {
     "addr:housenumber": "809",
     "addr:postcode": "S2000",
     "addr:street": "Avenida Carlos Pellegrini",
     "amenity": "pharmacy",
     "contact:phone": "+54 341 481-7191",
+    "healthcare": "pharmacy",
     "name": "San Jorge"
   }
 },
@@ -25937,6 +25943,10 @@
   "lat": -26.9226007,
   "lon": -65.3370289,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "229",
+    "addr:postcode": "4128",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Isidro"
@@ -25948,9 +25958,14 @@
   "lat": -26.9241309,
   "lon": -65.3376429,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "102",
+    "addr:postcode": "4128",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Nobel"
+    "name": "Nobel",
+    "ref:sisa_codigo": "70900632397611"
   }
 },
 {
@@ -29733,6 +29748,7 @@
     "addr:street": "Leandro N. Alem",
     "amenity": "pharmacy",
     "contact:phone": "+54 341 485-5220",
+    "healthcare": "pharmacy",
     "name": "Pedro F. González"
   }
 },
@@ -29972,18 +29988,6 @@
     "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Daniotti"
-  }
-},
-{
-  "type": "node",
-  "id": 4071744316,
-  "lat": -30.9877477,
-  "lon": -64.0897362,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "no",
-    "healthcare": "pharmacy",
-    "name": "Pío León"
   }
 },
 {
@@ -32576,7 +32580,8 @@
   "lat": -32.9825498,
   "lon": -60.6632610,
   "tags": {
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -36769,9 +36774,14 @@
   "lat": -26.9258851,
   "lon": -65.3380306,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "31",
+    "addr:postcode": "4128",
+    "addr:street": "General Manuel Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Brahim"
+    "name": "Brahim",
+    "ref:sisa_codigo": "70900632397764"
   }
 },
 {
@@ -45857,7 +45867,8 @@
   "lon": -60.6540621,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Farmacia España",
+    "healthcare": "pharmacy",
+    "name": "España",
     "name:es": "Farmacia España"
   }
 },
@@ -48520,7 +48531,8 @@
   "lon": -60.6267348,
   "tags": {
     "addr:street": "Necochea",
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -52957,7 +52969,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Ace"
+    "name": "Ade"
   }
 },
 {
@@ -72855,7 +72867,8 @@
   "lat": -32.9666277,
   "lon": -60.6463373,
   "tags": {
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -72912,8 +72925,14 @@
   "lat": -26.9282195,
   "lon": -65.3386666,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "203",
+    "addr:postcode": "4128",
+    "addr:street": "General Manuel Belgrano",
     "amenity": "pharmacy",
-    "name": "Turi"
+    "healthcare": "pharmacy",
+    "name": "Turi",
+    "ref:sisa_codigo": "70900632397702"
   }
 },
 {
@@ -72922,8 +72941,14 @@
   "lat": -26.9286990,
   "lon": -65.3402726,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "249",
+    "addr:postcode": "4128",
+    "addr:street": "Italia",
     "amenity": "pharmacy",
-    "name": "San Jose"
+    "healthcare": "pharmacy",
+    "name": "San José",
+    "ref:sisa_codigo": "70900632397441"
   }
 },
 {
@@ -72942,8 +72967,14 @@
   "lat": -26.9215187,
   "lon": -65.3367823,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "319",
+    "addr:postcode": "4128",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
-    "name": "San Martín"
+    "healthcare": "pharmacy",
+    "name": "San Martín",
+    "ref:sisa_codigo": "70900632397714"
   }
 },
 {
@@ -72952,8 +72983,13 @@
   "lat": -26.9267883,
   "lon": -65.3387833,
   "tags": {
+    "addr:city": "San Isidro de Lules",
+    "addr:housenumber": "165",
+    "addr:street": "Libertad",
     "amenity": "pharmacy",
-    "name": "Libertad"
+    "healthcare": "pharmacy",
+    "name": "Libertad",
+    "ref:sisa_codigo": "70900632397671"
   }
 },
 {
@@ -72962,8 +72998,14 @@
   "lat": -26.9261306,
   "lon": -65.3381127,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "57",
+    "addr:postcode": "4128",
+    "addr:street": "General Manuel Belgrano",
     "amenity": "pharmacy",
-    "name": "Lules"
+    "healthcare": "pharmacy",
+    "name": "Lules",
+    "ref:sisa_codigo": "70900632397457"
   }
 },
 {
@@ -72972,8 +73014,14 @@
   "lat": -26.9256165,
   "lon": -65.3368682,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "278",
+    "addr:postcode": "4128",
+    "addr:street": "Avenida 9 de Julio",
     "amenity": "pharmacy",
-    "name": "9 de Julio"
+    "healthcare": "pharmacy",
+    "name": "9 de Julio",
+    "ref:sisa_codigo": "70900632397783"
   }
 },
 {
@@ -72982,8 +73030,14 @@
   "lat": -26.9253618,
   "lon": -65.3391534,
   "tags": {
+    "addr:city": "Lules",
+    "addr:housenumber": "101",
+    "addr:postcode": "4128",
+    "addr:street": "Avenida 9 de Julio",
     "amenity": "pharmacy",
-    "name": "El Condor"
+    "healthcare": "pharmacy",
+    "name": "El Condor",
+    "ref:sisa_codigo": "70900632397419"
   }
 },
 {
@@ -78227,6 +78281,40 @@
   }
 },
 {
+  "type": "node",
+  "id": 10059214130,
+  "lat": -38.3429664,
+  "lon": -59.6110057,
+  "tags": {
+    "addr:city": "San Cayetano",
+    "addr:housenumber": "173",
+    "addr:postcode": "7521",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Argentina",
+    "ref:sisa_codigo": "70067422313404"
+  }
+},
+{
+  "type": "node",
+  "id": 10059214131,
+  "lat": -38.3442451,
+  "lon": -59.6103039,
+  "tags": {
+    "addr:city": "San Cayetano",
+    "addr:housenumber": "302",
+    "addr:postcode": "7521",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Cosentino",
+    "ref:sisa_codigo": "70067422313857"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -78718,7 +78806,7 @@
   "tags": {
     "addr:city": "Marcos Juárez",
     "addr:housenumber": "809",
-    "addr:street": "Roque Sáenz Peña",
+    "addr:street": "Boulevard Roque Sáenz Peña",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
