@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-03T02:09:34Z",
+    "timestamp_osm_base": "2022-10-05T02:10:24Z",
     "timestamp_areas_base": "2022-07-20T11:06:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -13013,9 +13013,11 @@
     "addr:city": "San Fernando",
     "addr:country": "AR",
     "addr:housenumber": "1187",
+    "addr:postcode": "1646",
     "addr:street": "Madero",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia Traynor",
     "phone": "+54 11 4744-6818"
   }
@@ -15254,7 +15256,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Lobos",
-    "opening_hours": "Mo-Fr 08:30-13:00,15:00-19:30; Sa 08:30-13:00"
+    "opening_hours": "Mo-Fr 08:30-13:00,15:00-19:30; Sa 08:30-13:00",
+    "wheelchair": "limited"
   }
 },
 {
@@ -42084,11 +42087,13 @@
   "lat": -34.4267212,
   "lon": -58.5701393,
   "tags": {
+    "addr:city": "Tigre",
+    "addr:postcode": "B1648",
     "addr:street": "Avenida Italia",
     "amenity": "pharmacy",
-    "fixme": "name",
     "healthcare": "pharmacy",
-    "name": "Farmacia Nora",
+    "name": "Nora Pesqueira",
+    "phone": "+54 11 4731-4618",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -78347,6 +78352,31 @@
   }
 },
 {
+  "type": "node",
+  "id": 10074190420,
+  "lat": -26.8078166,
+  "lon": -55.0096295,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Punto Farma"
+  }
+},
+{
+  "type": "node",
+  "id": 10075515206,
+  "lat": -34.4300009,
+  "lon": -58.5713190,
+  "tags": {
+    "addr:city": "Tigre",
+    "addr:postcode": "B1648",
+    "addr:street": "Avenida Daniel M. Cazón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo Express"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -92720,6 +92750,27 @@
 },
 {
   "type": "way",
+  "id": 807939471,
+  "nodes": [
+    7555360637,
+    7555360789,
+    7555360790,
+    7555360791,
+    7555360792,
+    7555360777,
+    7555360638,
+    7555360637
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Silva"
+  }
+},
+{
+  "type": "way",
   "id": 810050053,
   "nodes": [
     7573338747,
@@ -104235,6 +104286,48 @@
   "id": 7573338766,
   "lat": -30.9827392,
   "lon": -64.4915888
+},
+{
+  "type": "node",
+  "id": 7555360637,
+  "lat": -30.9809256,
+  "lon": -64.4893032
+},
+{
+  "type": "node",
+  "id": 7555360638,
+  "lat": -30.9809064,
+  "lon": -64.4893398
+},
+{
+  "type": "node",
+  "id": 7555360777,
+  "lat": -30.9808054,
+  "lon": -64.4893072
+},
+{
+  "type": "node",
+  "id": 7555360789,
+  "lat": -30.9809421,
+  "lon": -64.4892353
+},
+{
+  "type": "node",
+  "id": 7555360790,
+  "lat": -30.9808935,
+  "lon": -64.4892105
+},
+{
+  "type": "node",
+  "id": 7555360791,
+  "lat": -30.9808844,
+  "lon": -64.4892406
+},
+{
+  "type": "node",
+  "id": 7555360792,
+  "lat": -30.9808162,
+  "lon": -64.4892264
 },
 {
   "type": "node",

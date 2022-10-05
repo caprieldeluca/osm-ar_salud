@@ -31060,6 +31060,57 @@
 },
 {
   "type": "Feature",
+  "id": "way/807939471",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Silva",
+    "id": "way/807939471"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4893032,
+          -30.9809256
+        ],
+        [
+          -64.4892353,
+          -30.9809421
+        ],
+        [
+          -64.4892105,
+          -30.9808935
+        ],
+        [
+          -64.4892406,
+          -30.9808844
+        ],
+        [
+          -64.4892264,
+          -30.9808162
+        ],
+        [
+          -64.4893072,
+          -30.9808054
+        ],
+        [
+          -64.4893398,
+          -30.9809064
+        ],
+        [
+          -64.4893032,
+          -30.9809256
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/810050053",
   "properties": {
     "amenity": "pharmacy",
@@ -58504,9 +58555,11 @@
     "addr:city": "San Fernando",
     "addr:country": "AR",
     "addr:housenumber": "1187",
+    "addr:postcode": "1646",
     "addr:street": "Madero",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia Traynor",
     "phone": "+54 11 4744-6818",
     "id": "node/2501739142"
@@ -61700,6 +61753,7 @@
     "healthcare": "pharmacy",
     "name": "Lobos",
     "opening_hours": "Mo-Fr 08:30-13:00,15:00-19:30; Sa 08:30-13:00",
+    "wheelchair": "limited",
     "id": "node/2667363432"
   },
   "geometry": {
@@ -101015,11 +101069,13 @@
   "type": "Feature",
   "id": "node/4701865330",
   "properties": {
+    "addr:city": "Tigre",
+    "addr:postcode": "B1648",
     "addr:street": "Avenida Italia",
     "amenity": "pharmacy",
-    "fixme": "name",
     "healthcare": "pharmacy",
-    "name": "Farmacia Nora",
+    "name": "Nora Pesqueira",
+    "phone": "+54 11 4731-4618",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4701865330"
   },
@@ -153416,6 +153472,43 @@
     "coordinates": [
       -68.9243597,
       -37.3908108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10074190420",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Punto Farma",
+    "id": "node/10074190420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.0096295,
+      -26.8078166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10075515206",
+  "properties": {
+    "addr:city": "Tigre",
+    "addr:postcode": "B1648",
+    "addr:street": "Avenida Daniel M. Cazón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo Express",
+    "id": "node/10075515206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.571319,
+      -34.4300009
     ]
   }
 }
