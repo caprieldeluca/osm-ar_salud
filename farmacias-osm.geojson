@@ -16297,6 +16297,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name": "Central Oeste",
     "id": "way/473899829"
   },
   "geometry": {
@@ -57481,7 +57482,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Boticaria",
+    "name": "Farmacia Boticaria",
     "id": "node/2454162668"
   },
   "geometry": {
@@ -57796,7 +57797,7 @@
     "type": "Point",
     "coordinates": [
       -64.8012513,
-      -30.7285981
+      -30.7285993
     ]
   }
 },
@@ -57806,14 +57807,14 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Minerva",
+    "name": "Farmacia Arrigoni",
     "id": "node/2461631619"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.801638,
-      -30.7283661
+      -64.8016742,
+      -30.7283938
     ]
   }
 },
@@ -68624,8 +68625,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.3089527,
-      -31.4025729
+      -62.3089627,
+      -31.4026194
     ]
   }
 },
@@ -94800,8 +94801,14 @@
   "type": "Feature",
   "id": "node/4621081170",
   "properties": {
+    "addr:city": "Villa Lynch",
+    "addr:housenumber": "5198",
+    "addr:postcode": "B1650",
+    "addr:street": "121 - Viacava",
     "amenity": "pharmacy",
-    "name": "Farmacia Casakin",
+    "healthcare": "pharmacy",
+    "name": "Casakin",
+    "phone": "+54 (11) 4712-4775",
     "source": "Reconocimiento Cartográfico 2016 por KG",
     "id": "node/4621081170"
   },
@@ -95332,12 +95339,15 @@
   "type": "Feature",
   "id": "node/4626900392",
   "properties": {
+    "addr:city": "Villa Lynch",
     "addr:housenumber": "4905",
+    "addr:postcode": "B1650",
     "addr:street": "42 - Perdriel",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "mapillary": "HNO9sKI3LFFw6xxahFiYmA",
     "name": "SUBI",
-    "phone": "+54 11 4724-3866",
+    "phone": "+54 (11) 4724-3866",
     "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016.",
     "id": "node/4626900392"
   },
@@ -96854,9 +96864,16 @@
   "type": "Feature",
   "id": "node/4649252954",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "868",
+    "addr:postcode": "C1426",
     "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
+    "phone": "+54 (11) 4776-6974",
     "id": "node/4649252954"
   },
   "geometry": {
@@ -110330,8 +110347,14 @@
   "type": "Feature",
   "id": "node/5353265378",
   "properties": {
+    "addr:city": "Buenos Aires",
+    "addr:housenumber": "3101",
+    "addr:postcode": "C1428",
+    "addr:street": "Avenida Congreso",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Gran Congreso",
+    "phone": "+54 (11) 4542-2037",
     "id": "node/5353265378"
   },
   "geometry": {
@@ -120454,6 +120477,7 @@
   "id": "node/6062354244",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "FarmaPlus",
     "id": "node/6062354244"
   },
@@ -129869,8 +129893,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3920425,
-      -34.6054424
+      -58.3920318,
+      -34.6055119
     ]
   }
 },
@@ -138814,6 +138838,7 @@
   "id": "node/7630573557",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Magistral Lacroze",
     "id": "node/7630573557"
   },
@@ -140292,6 +140317,7 @@
   "id": "node/7877101446",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "El Cóndor",
     "id": "node/7877101446"
   },
@@ -144962,6 +144988,7 @@
   "id": "node/8813202920",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/8813202920"
   },
   "geometry": {
@@ -147880,6 +147907,7 @@
   "id": "node/9357065205",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Dr. Ahorro",
     "id": "node/9357065205"
   },
@@ -151295,6 +151323,7 @@
   "id": "node/9793615205",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Zottola",
     "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
     "survey:date": "2022-09-10",
@@ -153443,6 +153472,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Facundo Obras Sociales",
+    "ref:sisa_codigo": "70580912367317",
     "id": "node/10065645352"
   },
   "geometry": {
@@ -153509,6 +153539,324 @@
     "coordinates": [
       -58.571319,
       -34.4300009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10078564466",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Sanatorio",
+    "id": "node/10078564466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.8011059,
+      -30.7284408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10078575097",
+  "properties": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "599",
+    "addr:postcode": "X5152",
+    "addr:street": "Boulevard Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Assusa",
+    "phone": "+54 (3541) 48-6836",
+    "id": "node/10078575097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.5029532,
+      -31.4128001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10079032083",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "150",
+    "addr:postcode": "Q8300",
+    "addr:street": "Fotheringham",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Alpina",
+    "id": "node/10079032083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0691902,
+      -38.9533436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10079054835",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "TKL",
+    "id": "node/10079054835"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3920081,
+      -34.6057258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10079095808",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "698",
+    "addr:postcode": "Q8300",
+    "addr:street": "Julio Argentino Roca",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia IMPS",
+    "operator": "Instituto Municipal de Previsión Social",
+    "id": "node/10079095808"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0688947,
+      -38.951882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10081125426",
+  "properties": {
+    "addr:city": "Pampa del Indio",
+    "addr:housenumber": "301",
+    "addr:postcode": "3531",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacentro",
+    "ref:sisa_codigo": "70220842327032",
+    "id": "node/10081125426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.9393985,
+      -26.0500479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082202792",
+  "properties": {
+    "addr:city": "Pampa del Indio",
+    "addr:housenumber": "444",
+    "addr:postcode": "3531",
+    "addr:street": "Chacabuco",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "El Shadai",
+    "ref:sisa_codigo": "70220842327031",
+    "id": "node/10082202792"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.9434282,
+      -26.0503082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082202793",
+  "properties": {
+    "addr:city": "Pampa del Indio",
+    "addr:housenumber": "354",
+    "addr:postcode": "3531",
+    "addr:street": "Malvinas Argentinas",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "San Luis",
+    "ref:sisa_codigo": "70220842327033",
+    "id": "node/10082202793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.9445679,
+      -26.0469843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082214620",
+  "properties": {
+    "addr:city": "Pampa del Indio",
+    "addr:housenumber": "450",
+    "addr:postcode": "3531",
+    "addr:street": "Suipacha",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Genesen",
+    "ref:sisa_codigo": "70220842327034",
+    "id": "node/10082214620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.9434593,
+      -26.0524329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082304848",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Aiassa de Barizonsi",
+    "id": "node/10082304848"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.0660322,
+      -31.0139702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082706301",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "España",
+    "id": "node/10082706301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.0177247,
+      -27.4468276
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082910536",
+  "properties": {
+    "addr:city": "Rincón de Los Sauces",
+    "addr:housenumber": "204",
+    "addr:postcode": "8319",
+    "addr:street": "Misiones",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "San José",
+    "ref:sisa_codigo": "70580912367395",
+    "id": "node/10082910536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.9209697,
+      -37.388988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082910537",
+  "properties": {
+    "addr:city": "Rincón de Los Sauces",
+    "addr:housenumber": "145",
+    "addr:postcode": "8319",
+    "addr:street": "Salta",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Mututal De Empleados Y Obreros Petroleros Privados",
+    "ref:sisa_codigo": "70580912867366",
+    "id": "node/10082910537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.9198857,
+      -37.3888988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082910538",
+  "properties": {
+    "addr:city": "Rincón de Los Sauces",
+    "addr:housenumber": "1069",
+    "addr:postcode": "8319",
+    "addr:street": "Perón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Rincón",
+    "ref:sisa_codigo": "70580912367407",
+    "id": "node/10082910538"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.9234803,
+      -37.3903615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10082910543",
+  "properties": {
+    "addr:city": "Rincón de Los Sauces",
+    "addr:housenumber": "658",
+    "addr:postcode": "8319",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Romero",
+    "ref:sisa_codigo": "70580912367387",
+    "id": "node/10082910543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.9277875,
+      -37.3897667
     ]
   }
 }
