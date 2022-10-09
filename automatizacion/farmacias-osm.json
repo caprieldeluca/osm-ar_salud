@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-08T02:09:39Z",
-    "timestamp_areas_base": "2022-10-08T01:01:22Z",
+    "timestamp_osm_base": "2022-10-09T02:10:10Z",
+    "timestamp_areas_base": "2022-10-09T01:26:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -38607,11 +38607,14 @@
   "lat": -34.5699893,
   "lon": -58.4326725,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "516",
+    "addr:postcode": "C1426",
     "addr:street": "Arce",
     "amenity": "pharmacy",
-    "fixme": "name",
     "healthcare": "pharmacy",
-    "name": "Farmacia Jockey Club"
+    "name": "Farmacia Jockey Club",
+    "phone": "+54 (11) 4773-1772"
   }
 },
 {
@@ -78634,6 +78637,39 @@
   }
 },
 {
+  "type": "node",
+  "id": 10085780019,
+  "lat": -38.9507209,
+  "lon": -68.0783886,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1380",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Amancay"
+  }
+},
+{
+  "type": "node",
+  "id": 10086027257,
+  "lat": -34.9859177,
+  "lon": -61.7743355,
+  "tags": {
+    "addr:city": "Arenaza",
+    "addr:housenumber": "407",
+    "addr:postcode": "B6075",
+    "addr:street": "Ingeniero Osvaldo Mendizabal",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Arenaza",
+    "phone": "+54 (2355) 49-5353"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -82893,10 +82929,13 @@
     4619404365
   ],
   "tags": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "4787",
+    "addr:postcode": "B1653",
+    "addr:street": "101 - 9 de Julio",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
     "source": "Reconocimiento cartográfico de campo 2016 por KG"
   }
 },
@@ -86815,10 +86854,15 @@
     1142103445
   ],
   "tags": {
-    "addr:street": "Constitución",
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1202",
+    "addr:postcode": "B1646",
+    "addr:street": "Necochea",
     "amenity": "pharmacy",
     "building": "commercial",
-    "name": "Del Pueblo",
+    "healthcare": "pharmacy",
+    "name": "Gioia",
+    "phone": "+54 (11) 4744-0193",
     "source": "Reconocimiento terrestre 2016 por Kaart."
   }
 },

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-08T02:04:35Z",
-    "timestamp_areas_base": "2022-10-08T01:15:25Z",
+    "timestamp_osm_base": "2022-10-09T02:04:59Z",
+    "timestamp_areas_base": "2022-10-09T00:16:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -50180,6 +50180,7 @@
     "addr:street": "3 de Febrero",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "Premedic",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
   }
@@ -62773,6 +62774,58 @@
   }
 },
 {
+  "type": "way",
+  "id": 1102220049,
+  "nodes": [
+    10085768516,
+    10085768486,
+    10085768488,
+    10085768489,
+    10085780017,
+    10085780018,
+    10085768516
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1380",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "CEIN Centro Médico",
+    "operator": "Centro de Investigación de Neuquén S.A.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1102220088,
+  "nodes": [
+    10085780133,
+    10085780068,
+    10085780055,
+    10085780071,
+    10085780134,
+    10085780135,
+    10085780133
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1245",
+    "addr:postcode": "Q8300",
+    "addr:street": "Julio Argentino Roca",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "4",
+    "name": "Consultorios Roca 1245",
+    "operator:type": "private"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -64577,6 +64630,42 @@
 },
 {
   "type": "node",
+  "id": 10085780055,
+  "lat": -38.9516030,
+  "lon": -68.0765254
+},
+{
+  "type": "node",
+  "id": 10085780068,
+  "lat": -38.9514224,
+  "lon": -68.0765236
+},
+{
+  "type": "node",
+  "id": 10085780071,
+  "lat": -38.9516037,
+  "lon": -68.0764123
+},
+{
+  "type": "node",
+  "id": 10085780133,
+  "lat": -38.9514227,
+  "lon": -68.0764571
+},
+{
+  "type": "node",
+  "id": 10085780134,
+  "lat": -38.9515083,
+  "lon": -68.0764120
+},
+{
+  "type": "node",
+  "id": 10085780135,
+  "lat": -38.9515082,
+  "lon": -68.0764574
+},
+{
+  "type": "node",
   "id": 7857984236,
   "lat": -38.9540177,
   "lon": -68.0668970
@@ -65942,6 +66031,42 @@
   "id": 7885196228,
   "lat": -38.9536804,
   "lon": -68.0529117
+},
+{
+  "type": "node",
+  "id": 10085768486,
+  "lat": -38.9506980,
+  "lon": -68.0782713
+},
+{
+  "type": "node",
+  "id": 10085768488,
+  "lat": -38.9506969,
+  "lon": -68.0784318
+},
+{
+  "type": "node",
+  "id": 10085768489,
+  "lat": -38.9508706,
+  "lon": -68.0784325
+},
+{
+  "type": "node",
+  "id": 10085768516,
+  "lat": -38.9508066,
+  "lon": -68.0782717
+},
+{
+  "type": "node",
+  "id": 10085780017,
+  "lat": -38.9508711,
+  "lon": -68.0783470
+},
+{
+  "type": "node",
+  "id": 10085780018,
+  "lat": -38.9508064,
+  "lon": -68.0783467
 },
 {
   "type": "node",

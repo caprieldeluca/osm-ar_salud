@@ -9167,10 +9167,13 @@
   "type": "Feature",
   "id": "way/467293846",
   "properties": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "4787",
+    "addr:postcode": "B1653",
+    "addr:street": "101 - 9 de Julio",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
     "source": "Reconocimiento cartográfico de campo 2016 por KG",
     "id": "way/467293846"
   },
@@ -17607,10 +17610,15 @@
   "type": "Feature",
   "id": "way/476111654",
   "properties": {
-    "addr:street": "Constitución",
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1202",
+    "addr:postcode": "B1646",
+    "addr:street": "Necochea",
     "amenity": "pharmacy",
     "building": "commercial",
-    "name": "Del Pueblo",
+    "healthcare": "pharmacy",
+    "name": "Gioia",
+    "phone": "+54 (11) 4744-0193",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
     "id": "way/476111654"
   },
@@ -96048,11 +96056,14 @@
   "type": "Feature",
   "id": "node/4636073583",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "516",
+    "addr:postcode": "C1426",
     "addr:street": "Arce",
     "amenity": "pharmacy",
-    "fixme": "name",
     "healthcare": "pharmacy",
     "name": "Farmacia Jockey Club",
+    "phone": "+54 (11) 4773-1772",
     "id": "node/4636073583"
   },
   "geometry": {
@@ -153857,6 +153868,51 @@
     "coordinates": [
       -68.9277875,
       -37.3897667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10085780019",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1380",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Amancay",
+    "id": "node/10085780019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0783886,
+      -38.9507209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10086027257",
+  "properties": {
+    "addr:city": "Arenaza",
+    "addr:housenumber": "407",
+    "addr:postcode": "B6075",
+    "addr:street": "Ingeniero Osvaldo Mendizabal",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Arenaza",
+    "phone": "+54 (2355) 49-5353",
+    "id": "node/10086027257"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.7743355,
+      -34.9859177
     ]
   }
 }
