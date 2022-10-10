@@ -6,7 +6,7 @@ echo "  Consultar overpass API  y convertir a geojson..."
 
 echo Hospitales:
 JSONFILE=automatizacion/hospitales-osm.json
-POSTFILE=automatizacion/consulta-hospitales.txt
+POSTFILE=automatizacion/consulta-hospitales.overpassql
 GEOJSONFILE=hospitales-osm.geojson
 if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
 then
@@ -21,7 +21,7 @@ sleep $DORMIR
 
 echo Clinicas:
 JSONFILE=automatizacion/clinicas-osm.json
-POSTFILE=automatizacion/consulta-clinicas.txt
+POSTFILE=automatizacion/consulta-clinicas.overpassql
 GEOJSONFILE=clinicas-osm.geojson
 if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
 then
@@ -36,7 +36,7 @@ sleep $DORMIR
 
 echo Farmacias:
 JSONFILE=automatizacion/farmacias-osm.json
-POSTFILE=automatizacion/consulta-farmacias.txt
+POSTFILE=automatizacion/consulta-farmacias.overpassql
 GEOJSONFILE=farmacias-osm.geojson
 if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
 then
@@ -51,7 +51,7 @@ sleep $DORMIR
 
 echo Doctores:
 JSONFILE=automatizacion/doctores-osm.json
-POSTFILE=automatizacion/consulta-doctores.txt
+POSTFILE=automatizacion/consulta-doctores.overpassql
 GEOJSONFILE=doctores-osm.geojson
 if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
 then
@@ -66,7 +66,7 @@ sleep $DORMIR
 
 echo Higiene:
 JSONFILE=automatizacion/higiene-osm.json
-POSTFILE=automatizacion/consulta-higiene.txt
+POSTFILE=automatizacion/consulta-higiene.overpassql
 GEOJSONFILE=higiene-osm.geojson
 if wget -O $JSONFILE --post-file=$POSTFILE "https://overpass-api.de/api/interpreter"
 then
