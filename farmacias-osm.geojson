@@ -39407,6 +39407,82 @@
 },
 {
   "type": "Feature",
+  "id": "way/1103037345",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "1",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia America",
+    "id": "way/1103037345"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4282816,
+          -31.6592386
+        ],
+        [
+          -64.4283502,
+          -31.6592085
+        ],
+        [
+          -64.4283617,
+          -31.6592273
+        ],
+        [
+          -64.4283673,
+          -31.6592248
+        ],
+        [
+          -64.428385,
+          -31.6592536
+        ],
+        [
+          -64.4283768,
+          -31.6592572
+        ],
+        [
+          -64.4283903,
+          -31.6592791
+        ],
+        [
+          -64.4283593,
+          -31.6592929
+        ],
+        [
+          -64.428363,
+          -31.659299
+        ],
+        [
+          -64.4283356,
+          -31.6593112
+        ],
+        [
+          -64.4283319,
+          -31.6593052
+        ],
+        [
+          -64.4283241,
+          -31.6593087
+        ],
+        [
+          -64.4283208,
+          -31.659304
+        ],
+        [
+          -64.4282816,
+          -31.6592386
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -67043,8 +67119,12 @@
   "type": "Feature",
   "id": "node/3140520190",
   "properties": {
+    "addr:city": "Parque Leloir",
+    "addr:street": "Avenida Presidente Juan Domingo Perón",
     "amenity": "pharmacy",
     "branch": "Parque Leloir",
+    "dispensing": "yes",
+    "drive_through": "yes",
     "healthcare": "pharmacy",
     "name": "Central Oeste",
     "id": "node/3140520190"
@@ -67052,8 +67132,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.6890507,
-      -34.6285834
+      -58.6890883,
+      -34.6284767
     ]
   }
 },
@@ -105779,12 +105859,14 @@
   "id": "node/5046349470",
   "properties": {
     "addr:city": "Las Breñas",
+    "addr:housenumber": "699",
     "addr:postcode": "3722",
     "addr:street": "General Jones",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Pértile",
     "phone": "+54 03731 460044",
+    "ref:sisa_codigo": "70221052326881",
     "id": "node/5046349470"
   },
   "geometry": {
@@ -107978,6 +108060,7 @@
     "healthcare": "pharmacy",
     "name": "Fuerte Esperanza",
     "phone": "+54 3731 462743",
+    "ref:sisa_codigo": "70221052326876",
     "id": "node/5243729500"
   },
   "geometry": {
@@ -113049,8 +113132,9 @@
   "id": "node/5484880971",
   "properties": {
     "addr:city": "Las Breñas",
+    "addr:housenumber": "602",
     "addr:postcode": "3722",
-    "addr:street": "9 De Julio",
+    "addr:street": "Urquiza",
     "amenity": "pharmacy",
     "description": "http://www.lasbrenasdigital.com.ar/2017/12/31/enero-2018/",
     "dispensing": "yes",
@@ -113079,6 +113163,7 @@
     "healthcare": "pharmacy",
     "name": "Avenida",
     "phone": "+54 3731 462664",
+    "ref:sisa_codigo": "70221052326872",
     "id": "node/5484880972"
   },
   "geometry": {
@@ -113102,6 +113187,7 @@
     "healthcare": "pharmacy",
     "name": "Calderó",
     "phone": "+54 3731 460338",
+    "ref:sisa_codigo": "70221052326870",
     "id": "node/5484880973"
   },
   "geometry": {
@@ -113169,6 +113255,7 @@
     "healthcare": "pharmacy",
     "name": "Gutiérrez",
     "phone": "+54 3731 461417",
+    "ref:sisa_codigo": "70221052326875",
     "id": "node/5484880978"
   },
   "geometry": {
@@ -113215,12 +113302,13 @@
     "healthcare": "pharmacy",
     "name": "Moia",
     "phone": "+54 3731 461228",
+    "ref:sisa_codigo": "70221052327382",
     "id": "node/5484880980"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -61.0819345,
+      -61.0819139,
       -27.0904673
     ]
   }
@@ -113238,6 +113326,7 @@
     "healthcare": "pharmacy",
     "name": "San José",
     "phone": "+54 3731 460646",
+    "ref:sisa_codigo": "70221052326885",
     "id": "node/5484880991"
   },
   "geometry": {
@@ -153997,6 +154086,53 @@
     "coordinates": [
       -60.4112118,
       -27.2909276
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10090679551",
+  "properties": {
+    "addr:city": "Los Surgentes",
+    "addr:housenumber": "279",
+    "addr:postcode": "X2581",
+    "addr:street": "Boulevard Liniers",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Scaffino",
+    "phone": "+54 (3467) 49-5127",
+    "id": "node/10090679551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.02154,
+      -32.9845589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10091317523",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "801",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.H.",
+    "id": "node/10091317523"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0705355,
+      -38.9505539
     ]
   }
 }

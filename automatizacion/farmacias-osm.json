@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.58.5 b0c4acbb",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-10T19:57:07Z",
-    "timestamp_areas_base": "2022-10-10T04:30:08Z",
+    "timestamp_osm_base": "2022-10-12T15:43:34Z",
+    "timestamp_areas_base": "2022-10-12T00:58:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18849,11 +18849,15 @@
 {
   "type": "node",
   "id": 3140520190,
-  "lat": -34.6285834,
-  "lon": -58.6890507,
+  "lat": -34.6284767,
+  "lon": -58.6890883,
   "tags": {
+    "addr:city": "Parque Leloir",
+    "addr:street": "Avenida Presidente Juan Domingo Perón",
     "amenity": "pharmacy",
     "branch": "Parque Leloir",
+    "dispensing": "yes",
+    "drive_through": "yes",
     "healthcare": "pharmacy",
     "name": "Central Oeste"
   }
@@ -45324,12 +45328,14 @@
   "lon": -61.0816349,
   "tags": {
     "addr:city": "Las Breñas",
+    "addr:housenumber": "699",
     "addr:postcode": "3722",
     "addr:street": "General Jones",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Pértile",
-    "phone": "+54 03731 460044"
+    "phone": "+54 03731 460044",
+    "ref:sisa_codigo": "70221052326881"
   }
 },
 {
@@ -46784,7 +46790,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Fuerte Esperanza",
-    "phone": "+54 3731 462743"
+    "phone": "+54 3731 462743",
+    "ref:sisa_codigo": "70221052326876"
   }
 },
 {
@@ -50260,8 +50267,9 @@
   "lon": -61.0851146,
   "tags": {
     "addr:city": "Las Breñas",
+    "addr:housenumber": "602",
     "addr:postcode": "3722",
-    "addr:street": "9 De Julio",
+    "addr:street": "Urquiza",
     "amenity": "pharmacy",
     "description": "http://www.lasbrenasdigital.com.ar/2017/12/31/enero-2018/",
     "dispensing": "yes",
@@ -50283,7 +50291,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Avenida",
-    "phone": "+54 3731 462664"
+    "phone": "+54 3731 462664",
+    "ref:sisa_codigo": "70221052326872"
   }
 },
 {
@@ -50300,7 +50309,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Calderó",
-    "phone": "+54 3731 460338"
+    "phone": "+54 3731 460338",
+    "ref:sisa_codigo": "70221052326870"
   }
 },
 {
@@ -50349,7 +50359,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Gutiérrez",
-    "phone": "+54 3731 461417"
+    "phone": "+54 3731 461417",
+    "ref:sisa_codigo": "70221052326875"
   }
 },
 {
@@ -50373,7 +50384,7 @@
   "type": "node",
   "id": 5484880980,
   "lat": -27.0904673,
-  "lon": -61.0819345,
+  "lon": -61.0819139,
   "tags": {
     "addr:city": "Las Breñas",
     "addr:housenumber": "954",
@@ -50383,7 +50394,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Moia",
-    "phone": "+54 3731 461228"
+    "phone": "+54 3731 461228",
+    "ref:sisa_codigo": "70221052327382"
   }
 },
 {
@@ -50400,7 +50412,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San José",
-    "phone": "+54 3731 460646"
+    "phone": "+54 3731 460646",
+    "ref:sisa_codigo": "70221052326885"
   }
 },
 {
@@ -78736,6 +78749,41 @@
   }
 },
 {
+  "type": "node",
+  "id": 10090679551,
+  "lat": -32.9845589,
+  "lon": -62.0215400,
+  "tags": {
+    "addr:city": "Los Surgentes",
+    "addr:housenumber": "279",
+    "addr:postcode": "X2581",
+    "addr:street": "Boulevard Liniers",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Scaffino",
+    "phone": "+54 (3467) 49-5127"
+  }
+},
+{
+  "type": "node",
+  "id": 10091317523,
+  "lat": -38.9505539,
+  "lon": -68.0705355,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "801",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.H."
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -96994,6 +97042,34 @@
   }
 },
 {
+  "type": "way",
+  "id": 1103037345,
+  "nodes": [
+    10093750336,
+    10093750337,
+    10093750338,
+    10093750339,
+    10093750340,
+    10093750341,
+    10093750342,
+    10093750343,
+    10093750344,
+    10093750345,
+    10093750346,
+    10093750347,
+    10093750350,
+    10093750336
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "1",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia America"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -102848,6 +102924,84 @@
   "id": 9983869442,
   "lat": -31.7296671,
   "lon": -64.4300103
+},
+{
+  "type": "node",
+  "id": 10093750336,
+  "lat": -31.6592386,
+  "lon": -64.4282816
+},
+{
+  "type": "node",
+  "id": 10093750337,
+  "lat": -31.6592085,
+  "lon": -64.4283502
+},
+{
+  "type": "node",
+  "id": 10093750338,
+  "lat": -31.6592273,
+  "lon": -64.4283617
+},
+{
+  "type": "node",
+  "id": 10093750339,
+  "lat": -31.6592248,
+  "lon": -64.4283673
+},
+{
+  "type": "node",
+  "id": 10093750340,
+  "lat": -31.6592536,
+  "lon": -64.4283850
+},
+{
+  "type": "node",
+  "id": 10093750341,
+  "lat": -31.6592572,
+  "lon": -64.4283768
+},
+{
+  "type": "node",
+  "id": 10093750342,
+  "lat": -31.6592791,
+  "lon": -64.4283903
+},
+{
+  "type": "node",
+  "id": 10093750343,
+  "lat": -31.6592929,
+  "lon": -64.4283593
+},
+{
+  "type": "node",
+  "id": 10093750344,
+  "lat": -31.6592990,
+  "lon": -64.4283630
+},
+{
+  "type": "node",
+  "id": 10093750345,
+  "lat": -31.6593112,
+  "lon": -64.4283356
+},
+{
+  "type": "node",
+  "id": 10093750346,
+  "lat": -31.6593052,
+  "lon": -64.4283319
+},
+{
+  "type": "node",
+  "id": 10093750347,
+  "lat": -31.6593087,
+  "lon": -64.4283241
+},
+{
+  "type": "node",
+  "id": 10093750350,
+  "lat": -31.6593040,
+  "lon": -64.4283208
 },
 {
   "type": "node",
