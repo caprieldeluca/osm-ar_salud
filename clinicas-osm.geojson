@@ -10632,6 +10632,8 @@
   "type": "Feature",
   "id": "way/466749331",
   "properties": {
+    "addr:city": "Olivos",
+    "addr:postcode": "B1636",
     "addr:street": "Debenedetti",
     "amenity": "clinic",
     "building": "yes",
@@ -13834,12 +13836,10 @@
   "type": "Feature",
   "id": "way/471634923",
   "properties": {
-    "addr:street": "Argerich",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
     "name": "Consultorio de Salud",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/471634923"
   },
   "geometry": {
@@ -13847,31 +13847,31 @@
     "coordinates": [
       [
         [
-          -58.4946958,
+          -58.4947226,
           -34.5971646
         ],
         [
-          -58.4946615,
+          -58.4946883,
           -34.5971487
         ],
         [
-          -58.4947094,
+          -58.4947362,
           -34.5970785
         ],
         [
-          -58.4947246,
+          -58.4947514,
           -34.5970715
         ],
         [
-          -58.4947444,
+          -58.4947712,
           -34.5970692
         ],
         [
-          -58.4947571,
+          -58.4947839,
           -34.5970751
         ],
         [
-          -58.4946958,
+          -58.4947226,
           -34.5971646
         ]
       ]
@@ -42639,6 +42639,149 @@
 },
 {
   "type": "Feature",
+  "id": "way/1102765772",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "867",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "oncology",
+    "height": "3",
+    "name": "Centro Médico Oncológico Mariecurie",
+    "operator:type": "private",
+    "id": "way/1102765772"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0712979,
+          -38.9504785
+        ],
+        [
+          -68.0712987,
+          -38.9505503
+        ],
+        [
+          -68.0712146,
+          -38.9505509
+        ],
+        [
+          -68.0712138,
+          -38.9504791
+        ],
+        [
+          -68.0712979,
+          -38.9504785
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1102765809",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "414",
+    "addr:postcode": "Q8300",
+    "addr:street": "Fotheringham",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "4",
+    "healthcare": "clinic",
+    "healthcare:speciality": "urology",
+    "height": "12",
+    "name": "Clínica de Urología",
+    "operator:type": "private",
+    "id": "way/1102765809"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0691293,
+          -38.950414
+        ],
+        [
+          -68.0693137,
+          -38.9504122
+        ],
+        [
+          -68.0693148,
+          -38.9504983
+        ],
+        [
+          -68.0691304,
+          -38.9504995
+        ],
+        [
+          -68.0691293,
+          -38.950414
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1102919066",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "554",
+    "addr:postcode": "Q8300",
+    "addr:street": "Padre José María Brentana",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "lightgrey",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "height": "10",
+    "name": "Clínica Albor",
+    "operator": "Albor S.R.L.",
+    "operator:type": "private",
+    "website": "https://clinicaalbor.com/",
+    "id": "way/1102919066"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0719914,
+          -38.9489436
+        ],
+        [
+          -68.0723167,
+          -38.94894
+        ],
+        [
+          -68.0724399,
+          -38.9489386
+        ],
+        [
+          -68.0724412,
+          -38.9490262
+        ],
+        [
+          -68.0719927,
+          -38.9490305
+        ],
+        [
+          -68.0719914,
+          -38.9489436
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -51080,8 +51223,9 @@
   "id": "node/4097879293",
   "properties": {
     "addr:city": "Villa Cañás",
+    "addr:housenumber": "41",
     "addr:postcode": "S2607",
-    "addr:street": "54 Nº 41",
+    "addr:street": "54",
     "amenity": "clinic",
     "description": "Momentáneamente no realiza internación. Se realizan estudios tales como: ecografías, análisis de sangre, placas radiográficas, electrocardiograma, ecocardiograma y ergometrías. Grupo de profesionales: médicos clínicos, cirujano, pediatra, traumatólogo,",
     "healthcare": "clinic",
@@ -101749,6 +101893,29 @@
     "coordinates": [
       -68.5508278,
       -31.5241391
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10088187819",
+  "properties": {
+    "addr:city": "Villa Cañás",
+    "addr:housenumber": "12",
+    "addr:postcode": "S2607",
+    "addr:street": "54",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "AMUR",
+    "phone": "+54 (3462) 45-0777",
+    "website": "https://amur.com.ar/",
+    "id": "node/10088187819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.6050397,
+      -34.0016372
     ]
   }
 }
