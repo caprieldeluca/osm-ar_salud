@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-20T23:52:14Z",
-    "timestamp_areas_base": "2022-10-20T22:56:33Z",
+    "timestamp_osm_base": "2022-10-24T03:18:23Z",
+    "timestamp_areas_base": "2022-10-24T02:24:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2697,24 +2697,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica Privada Isidro Casanova"
-  }
-},
-{
-  "type": "node",
-  "id": 3080994250,
-  "lat": -27.4072124,
-  "lon": -58.9998748,
-  "tags": {
-    "addr:full": "Rotonda Ruta 11 - Km 1008 - Barrio Villa Cristo Rey",
-    "addr:postcode": "3500",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Salud Barrio Cristo Rey",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "+54 3722 46-8563 (68563)",
-    "ref:sisa_codigo": "50221402126472",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -16483,17 +16465,6 @@
     "phone": "02202-451255",
     "ref:sisa_codigo": "50064272201274",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 6879196589,
-  "lat": -38.9495033,
-  "lon": -68.0664048,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro Medico Elordi"
   }
 },
 {
@@ -55973,28 +55944,6 @@
 },
 {
   "type": "way",
-  "id": 780065528,
-  "nodes": [
-    7283811653,
-    7283811655,
-    7283811639,
-    7283811637,
-    7283811627,
-    7283811653
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:postcode": "8300",
-    "addr:street": "Avenida Argentina",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Instituto Médico Avellaneda",
-    "operator": "LACAlabs"
-  }
-},
-{
-  "type": "way",
   "id": 783289558,
   "nodes": [
     7315078487,
@@ -58035,23 +57984,6 @@
 },
 {
   "type": "way",
-  "id": 812693174,
-  "nodes": [
-    7590755813,
-    7590755814,
-    7590755815,
-    7590755816,
-    7590755813
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Centro de Especialidades Médicas"
-  }
-},
-{
-  "type": "way",
   "id": 812707457,
   "nodes": [
     7590843722,
@@ -59892,6 +59824,7 @@
     "email": "luis.minin@hotmail.com",
     "healthcare": "clinic",
     "name": "Consultorios Odontologicos Los Olivos",
+    "opening_hours": "Mo-Th 17:00-21:00",
     "operator": "Luis Mario Minin",
     "phone": "+54 264 426 3070",
     "ref:sisa_tipologia": "ESSIDT",
@@ -62919,6 +62852,166 @@
     "operator": "Albor S.R.L.",
     "operator:type": "private",
     "website": "https://clinicaalbor.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1105682261,
+  "nodes": [
+    10117801704,
+    10117801681,
+    10117801685,
+    10117801680,
+    10117801705,
+    10117801706,
+    10117801710,
+    10117801707,
+    10117801709,
+    10117801712,
+    10117801684,
+    10117801708,
+    10117801704
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "175;182",
+    "addr:postcode": "Q8300",
+    "addr:street": "Gobernador Eduardo Elordi",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "4",
+    "name": "Centro de Especialidades Médicas",
+    "operator": "Centro de Especialidades Médicas S.R.L.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1105682284,
+  "nodes": [
+    10117830155,
+    10117830156,
+    10117830157,
+    10117830158,
+    10117830155
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "627",
+    "addr:postcode": "Q8300",
+    "addr:street": "La Rioja",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Centro San Rafael",
+    "operator": "Centro de Evaluación y Rehabilitación Neurocognitiva y Neuropsiquiatría San Rafael S.R.L.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1105682309,
+  "nodes": [
+    10117830203,
+    10117830213,
+    10117830214,
+    10117830215,
+    10117830212,
+    10117830211,
+    10117830203
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "326",
+    "addr:postcode": "Q8300",
+    "addr:street": "Antártida Argentina",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;psychiatry",
+    "height": "6",
+    "name": "Altos del Neuquén",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1105682380,
+  "nodes": [
+    10117830385,
+    10117830345,
+    10117830386,
+    10117830344,
+    10117830387,
+    10117830388,
+    10117830385
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "595",
+    "addr:postcode": "Q8300",
+    "addr:street": "Sargento Cabral",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Medical Next",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1105682410,
+  "nodes": [
+    10117830415,
+    10117830458,
+    10117830413,
+    10117830459,
+    10117830460,
+    10117830461,
+    10117830415
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "503",
+    "addr:postcode": "Q8300",
+    "addr:street": "Gobernador Eduardo Elordi",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Centro Médico Elordi",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1106039469,
+  "nodes": [
+    3080994250,
+    10120750577,
+    10120750576,
+    10120750575,
+    3080994250
+  ],
+  "tags": {
+    "addr:full": "Rotonda Ruta 11 - Km 1008 - Barrio Villa Cristo Rey",
+    "addr:housenumber": "km 1008",
+    "addr:postcode": "3500",
+    "addr:street": "Ruta Nacional 11",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Barrio Cristo Rey",
+    "operator": "Provincial",
+    "operator:type": "public",
+    "phone": "+54 362 446-8563",
+    "ref:sisa_codigo": "50221402126472",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -66286,57 +66379,207 @@
 },
 {
   "type": "node",
-  "id": 7283811627,
-  "lat": -38.9499708,
-  "lon": -68.0596466
+  "id": 10117830344,
+  "lat": -38.9484394,
+  "lon": -68.0672680
 },
 {
   "type": "node",
-  "id": 7283811637,
-  "lat": -38.9499962,
-  "lon": -68.0596158
+  "id": 10117830345,
+  "lat": -38.9483452,
+  "lon": -68.0675060
 },
 {
   "type": "node",
-  "id": 7283811639,
-  "lat": -38.9500553,
-  "lon": -68.0595328
+  "id": 10117830385,
+  "lat": -38.9483454,
+  "lon": -68.0673411
 },
 {
   "type": "node",
-  "id": 7283811653,
-  "lat": -38.9499719,
-  "lon": -68.0594414
+  "id": 10117830386,
+  "lat": -38.9484378,
+  "lon": -68.0675065
 },
 {
   "type": "node",
-  "id": 7283811655,
-  "lat": -38.9500564,
-  "lon": -68.0594401
+  "id": 10117830387,
+  "lat": -38.9483854,
+  "lon": -68.0672679
 },
 {
   "type": "node",
-  "id": 7590755813,
-  "lat": -38.9493752,
-  "lon": -68.0617307
+  "id": 10117830388,
+  "lat": -38.9483851,
+  "lon": -68.0673414
 },
 {
   "type": "node",
-  "id": 7590755814,
-  "lat": -38.9493762,
-  "lon": -68.0616395
+  "id": 10117830413,
+  "lat": -38.9495282,
+  "lon": -68.0665979
 },
 {
   "type": "node",
-  "id": 7590755815,
-  "lat": -38.9495462,
-  "lon": -68.0616418
+  "id": 10117830415,
+  "lat": -38.9494307,
+  "lon": -68.0663447
 },
 {
   "type": "node",
-  "id": 7590755816,
-  "lat": -38.9495462,
-  "lon": -68.0617331
+  "id": 10117830458,
+  "lat": -38.9495280,
+  "lon": -68.0663450
+},
+{
+  "type": "node",
+  "id": 10117830459,
+  "lat": -38.9494539,
+  "lon": -68.0665982
+},
+{
+  "type": "node",
+  "id": 10117830460,
+  "lat": -38.9494542,
+  "lon": -68.0664732
+},
+{
+  "type": "node",
+  "id": 10117830461,
+  "lat": -38.9494307,
+  "lon": -68.0664731
+},
+{
+  "type": "node",
+  "id": 10117801680,
+  "lat": -38.9495585,
+  "lon": -68.0614888
+},
+{
+  "type": "node",
+  "id": 10117801681,
+  "lat": -38.9493285,
+  "lon": -68.0614878
+},
+{
+  "type": "node",
+  "id": 10117801684,
+  "lat": -38.9493736,
+  "lon": -68.0617182
+},
+{
+  "type": "node",
+  "id": 10117801685,
+  "lat": -38.9494023,
+  "lon": -68.0614881
+},
+{
+  "type": "node",
+  "id": 10117801704,
+  "lat": -38.9493281,
+  "lon": -68.0615982
+},
+{
+  "type": "node",
+  "id": 10117801705,
+  "lat": -38.9495575,
+  "lon": -68.0616023
+},
+{
+  "type": "node",
+  "id": 10117801706,
+  "lat": -38.9495385,
+  "lon": -68.0616022
+},
+{
+  "type": "node",
+  "id": 10117801707,
+  "lat": -38.9495384,
+  "lon": -68.0617183
+},
+{
+  "type": "node",
+  "id": 10117801708,
+  "lat": -38.9493739,
+  "lon": -68.0615983
+},
+{
+  "type": "node",
+  "id": 10117801709,
+  "lat": -38.9494420,
+  "lon": -68.0617182
+},
+{
+  "type": "node",
+  "id": 10117801710,
+  "lat": -38.9495384,
+  "lon": -68.0616249
+},
+{
+  "type": "node",
+  "id": 10117801712,
+  "lat": -38.9494298,
+  "lon": -68.0617182
+},
+{
+  "type": "node",
+  "id": 10117830155,
+  "lat": -38.9481708,
+  "lon": -68.0631829
+},
+{
+  "type": "node",
+  "id": 10117830156,
+  "lat": -38.9481708,
+  "lon": -68.0632761
+},
+{
+  "type": "node",
+  "id": 10117830157,
+  "lat": -38.9482559,
+  "lon": -68.0632753
+},
+{
+  "type": "node",
+  "id": 10117830158,
+  "lat": -38.9482562,
+  "lon": -68.0631822
+},
+{
+  "type": "node",
+  "id": 10117830203,
+  "lat": -38.9475644,
+  "lon": -68.0639025
+},
+{
+  "type": "node",
+  "id": 10117830211,
+  "lat": -38.9475653,
+  "lon": -68.0637696
+},
+{
+  "type": "node",
+  "id": 10117830212,
+  "lat": -38.9476547,
+  "lon": -68.0637697
+},
+{
+  "type": "node",
+  "id": 10117830213,
+  "lat": -38.9476329,
+  "lon": -68.0639022
+},
+{
+  "type": "node",
+  "id": 10117830214,
+  "lat": -38.9476330,
+  "lon": -68.0638059
+},
+{
+  "type": "node",
+  "id": 10117830215,
+  "lat": -38.9476547,
+  "lon": -68.0638059
 },
 {
   "type": "node",
@@ -93031,6 +93274,30 @@
   "id": 2711548995,
   "lat": -27.4634167,
   "lon": -58.9489458
+},
+{
+  "type": "node",
+  "id": 3080994250,
+  "lat": -27.4072247,
+  "lon": -58.9999757
+},
+{
+  "type": "node",
+  "id": 10120750575,
+  "lat": -27.4071267,
+  "lon": -58.9999396
+},
+{
+  "type": "node",
+  "id": 10120750576,
+  "lat": -27.4071921,
+  "lon": -58.9997145
+},
+{
+  "type": "node",
+  "id": 10120750577,
+  "lat": -27.4072901,
+  "lon": -58.9997507
 },
 {
   "type": "node",
