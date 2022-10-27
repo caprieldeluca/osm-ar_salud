@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-24T03:13:23Z",
-    "timestamp_areas_base": "2022-10-24T02:30:43Z",
+    "timestamp_osm_base": "2022-10-27T02:34:51Z",
+    "timestamp_areas_base": "2022-10-27T01:51:05Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1749,7 +1749,9 @@
     "amenity": "hospital",
     "designation": "Instituto Cardiovascular Lezica",
     "healthcare": "hospital",
-    "name": "Instituto Cardiovascular Lezica"
+    "name": "Instituto Cardiovascular Lezica",
+    "opening_hours": "Mo-Fr 09:00-21:00",
+    "website": "www.lezicacardio.com"
   }
 },
 {
@@ -2878,16 +2880,6 @@
 },
 {
   "type": "node",
-  "id": 2063107854,
-  "lat": -24.6021266,
-  "lon": -65.3792539,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
   "id": 2073750907,
   "lat": -37.6408754,
   "lon": -59.3874937,
@@ -3601,12 +3593,14 @@
   "lon": -58.5460011,
   "tags": {
     "addr:city": "San Isidro",
+    "addr:housenumber": "3041",
     "addr:postcode": "1642",
     "addr:street": "Monseñor Magliano",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Grupo Médico Las Lomas",
-    "phone": "+54 11 4735-4004",
+    "healthcare:speciality": "vaccination;dentist;urology;clinic;orthopaedics;oncology;ophthalmology;cardiology;gynaecology;infectious_diseases",
+    "name": "Grupo Médico Lomas de San Isidro",
+    "phone": "+54 11 7078-1400",
     "website": "https://www.gmlsi.com/"
   }
 },
@@ -6003,31 +5997,6 @@
     "phone": "54 0261 4921000",
     "ref:sisa_codigo": "50500702157376",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
-  "id": 3269527480,
-  "lat": -32.7210566,
-  "lon": -68.5935067,
-  "tags": {
-    "addr:city": "Villa Tulumaya",
-    "addr:full": "Boulevard Belgrano 415, Lavalle",
-    "addr:housenumber": "415",
-    "addr:place": "Lavalle",
-    "addr:postcode": "5533",
-    "addr:street": "Belgrano",
-    "amenity": "hospital",
-    "description": "Mediano riesgo con internación con cuidados especiales",
-    "fixme": "Direccion correcta, confirmar ubicacion (ciudad sin numeracion)",
-    "healthcare": "hospital",
-    "name": "Hospital Dr. Domingo Sicoli",
-    "operator": "Ministerio de Salud de la Provincia de Mendoza",
-    "operator:type": "public",
-    "phone": "54 0261 4941065",
-    "ref:sisa_codigo": "10500562157027",
-    "ref:sisa_tipologia": "ESCIESM",
     "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
@@ -9259,9 +9228,12 @@
     "addr:postcode": "3716",
     "addr:street": "Acceso Vladimiro Dworak",
     "amenity": "hospital",
-    "description": "El 15 de mayo de 1977, se inauguró el Hospital de Campo Largo, y se le impuso el nombre “Dr. Enrique M. A. Sagarduy”.",
+    "description": "El 15 de mayo de 1977, se inauguró el Hospital de Campo Largo, y se le impuso el nombre Dr. Enrique M. A. Sagarduy.",
     "healthcare": "hospital",
-    "name": "Enrique Sagarduy"
+    "name": "Hospital Doctor Enrique Sagarduy",
+    "phone": "+54 364 4495067",
+    "ref:sisa_codigo": "10220702126042",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -21065,7 +21037,7 @@
     "healthcare": "hospital",
     "name": "Hospital Municipal Despeñaderos",
     "operator": "municipal",
-    "operator:type": "público",
+    "operator:type": "public",
     "phone": "03547-492013",
     "ref:sisa_codigo": "10141472231184",
     "ref:sisa_tipologia": "ESCIG"
@@ -23244,6 +23216,46 @@
     "phone": "+54 364 4493176",
     "ref:sisa_codigo": "10220072126026",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 10126483416,
+  "lat": -23.5329368,
+  "lon": -65.9633457,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Puesto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 10126756216,
+  "lat": -26.6880934,
+  "lon": -60.7297597,
+  "tags": {
+    "addr:city": "Avia Terai",
+    "addr:full": "Calle 9 Entre 10 Y 12",
+    "addr:postcode": "3706",
+    "addr:street": "General José de San Martín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Ezequiel Morante",
+    "official_name": "Hospital Dr. Ezequiel P. Morante",
+    "ref:sisa_codigo": "10220702126040",
+    "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 10126933100,
+  "lat": -51.5791889,
+  "lon": -72.2172448,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Consultorio Externo"
   }
 },
 {
@@ -31758,6 +31770,7 @@
     2738872233
   ],
   "tags": {
+    "alt_name": "Centro De Salud Norcelo Cardozo",
     "amenity": "hospital",
     "building": "yes",
     "emergency": "no",
@@ -36136,27 +36149,6 @@
 },
 {
   "type": "way",
-  "id": 369263419,
-  "nodes": [
-    3730689019,
-    3730689020,
-    3730689021,
-    3730689022,
-    3730689023,
-    3730689019
-  ],
-  "tags": {
-    "addr:city": "Alta Gracia",
-    "addr:postcode": "5186",
-    "addr:street": "Intendente J. Molinari",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Dispensario Julio R. Barrientos",
-    "operator": "Claudia Mónica di Ronco"
-  }
-},
-{
-  "type": "way",
   "id": 369320883,
   "nodes": [
     3731208074,
@@ -38441,8 +38433,15 @@
   "nodes": [
     4455045512,
     4455045513,
+    10131474472,
+    10131474471,
+    10131474466,
+    10131474465,
     4455045514,
+    10131474461,
     4455045515,
+    10131474478,
+    10131474477,
     4455045512
   ],
   "tags": {
@@ -39747,9 +39746,11 @@
     "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
+    "operator_type": "private",
     "phone": "+54 11 4129-5500",
     "ref:sisa_codigo": "10067562306613",
     "ref:sisa_tipologia": "ESCIG",
+    "website": "https://www.laslomas.com.ar/",
     "wheelchair": "yes"
   }
 },
@@ -39776,7 +39777,7 @@
     1680233702
   ],
   "tags": {
-    "addr:city": "Boulogne Sur Mer",
+    "addr:city": "Martínez",
     "addr:full": "Avenida Fondo De La Legua 390",
     "addr:housenumber": "390",
     "addr:postcode": "1642",
@@ -72333,36 +72334,6 @@
 },
 {
   "type": "node",
-  "id": 3730689019,
-  "lat": -31.6461342,
-  "lon": -64.4150628
-},
-{
-  "type": "node",
-  "id": 3730689020,
-  "lat": -31.6462161,
-  "lon": -64.4150547
-},
-{
-  "type": "node",
-  "id": 3730689021,
-  "lat": -31.6462206,
-  "lon": -64.4149474
-},
-{
-  "type": "node",
-  "id": 3730689022,
-  "lat": -31.6460380,
-  "lon": -64.4149635
-},
-{
-  "type": "node",
-  "id": 3730689023,
-  "lat": -31.6460380,
-  "lon": -64.4150654
-},
-{
-  "type": "node",
   "id": 2902270610,
   "lat": -31.4699723,
   "lon": -64.2202857
@@ -101104,26 +101075,68 @@
 {
   "type": "node",
   "id": 4455045512,
-  "lat": -31.6259527,
-  "lon": -58.4980567
-},
-{
-  "type": "node",
-  "id": 4455045513,
-  "lat": -31.6262804,
-  "lon": -58.4976759
+  "lat": -31.6257815,
+  "lon": -58.4978074
 },
 {
   "type": "node",
   "id": 4455045514,
-  "lat": -31.6266036,
-  "lon": -58.4980594
+  "lat": -31.6265920,
+  "lon": -58.4979849
 },
 {
   "type": "node",
   "id": 4455045515,
-  "lat": -31.6262759,
-  "lon": -58.4984403
+  "lat": -31.6262485,
+  "lon": -58.4983428
+},
+{
+  "type": "node",
+  "id": 10131474461,
+  "lat": -31.6263012,
+  "lon": -58.4983479
+},
+{
+  "type": "node",
+  "id": 10131474465,
+  "lat": -31.6265759,
+  "lon": -58.4979379
+},
+{
+  "type": "node",
+  "id": 10131474466,
+  "lat": -31.6263658,
+  "lon": -58.4976971
+},
+{
+  "type": "node",
+  "id": 10131474471,
+  "lat": -31.6263362,
+  "lon": -58.4976631
+},
+{
+  "type": "node",
+  "id": 10131474472,
+  "lat": -31.6262572,
+  "lon": -58.4975726
+},
+{
+  "type": "node",
+  "id": 10131474477,
+  "lat": -31.6259331,
+  "lon": -58.4979813
+},
+{
+  "type": "node",
+  "id": 10131474478,
+  "lat": -31.6259923,
+  "lon": -58.4980491
+},
+{
+  "type": "node",
+  "id": 4455045513,
+  "lat": -31.6261135,
+  "lon": -58.4974079
 },
 {
   "type": "node",

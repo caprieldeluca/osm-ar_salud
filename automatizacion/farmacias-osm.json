@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-24T03:23:32Z",
-    "timestamp_areas_base": "2022-10-24T02:30:43Z",
+    "timestamp_osm_base": "2022-10-27T02:45:06Z",
+    "timestamp_areas_base": "2022-10-27T02:01:21Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4554,16 +4554,6 @@
     "addr:street": "Avenida Gobernador Galindez",
     "amenity": "pharmacy",
     "dispensing": "Maria Auxiliadora",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 1539262724,
-  "lat": -22.7914939,
-  "lon": -65.2169963,
-  "tags": {
-    "amenity": "pharmacy",
     "healthcare": "pharmacy"
   }
 },
@@ -14031,9 +14021,12 @@
   "lon": -58.5549970,
   "tags": {
     "amenity": "pharmacy",
+    "delivery": "yes",
     "healthcare": "pharmacy",
     "name": "Selma",
-    "opening_hours": "Mo-Sa 08:30-22:00; Su 10:00-22:00"
+    "opening_hours": "Mo-Sa 08:30-22:00; Su 10:00-22:00",
+    "phone": "+54 11 6798-0540",
+    "website": "https://www.selmadigital.com/"
   }
 },
 {
@@ -17509,29 +17502,9 @@
 },
 {
   "type": "node",
-  "id": 2975074627,
-  "lat": -33.0473421,
-  "lon": -68.5669085,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
   "id": 2975074628,
   "lat": -33.0557772,
   "lon": -68.5632446,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 2975074629,
-  "lat": -33.0529311,
-  "lon": -68.5589906,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -17944,7 +17917,7 @@
   "tags": {
     "addr:city": "Villa Gral Belgrano",
     "addr:housenumber": "91",
-    "addr:street": "Av. Las Magnolias",
+    "addr:street": "Avenida Las Magnolias",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia de la Clinica"
@@ -18182,6 +18155,8 @@
   "lat": -37.5426125,
   "lon": -62.7669224,
   "tags": {
+    "addr:city": "Puan",
+    "addr:postcode": "8180",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -19305,15 +19280,12 @@
   "lat": -34.6093505,
   "lon": -58.3963613,
   "tags": {
-    "addr:city": "Buenos Aires",
-    "addr:street": "Avenida Rivadavia",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "drive_through": "no",
-    "fixme": "name",
     "healthcare": "pharmacy",
     "internet_access": "no",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
+    "name": "Porteña"
   }
 },
 {
@@ -26791,7 +26763,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmcia Azcuenaga"
+    "name": "Farmacia Azcuénaga"
   }
 },
 {
@@ -29241,8 +29213,8 @@
 {
   "type": "node",
   "id": 3946470179,
-  "lat": -33.3002602,
-  "lon": -68.0449574,
+  "lat": -33.2999609,
+  "lon": -68.0444658,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -36563,6 +36535,7 @@
   "tags": {
     "addr:city": "Villa Adelina",
     "addr:housenumber": "872",
+    "addr:postcode": "B1640",
     "addr:street": "Avenida Fondo de la Legua",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -77997,17 +77970,20 @@
 {
   "type": "node",
   "id": 9920987617,
-  "lat": -34.4965974,
-  "lon": -58.5444180,
+  "lat": -34.4966874,
+  "lon": -58.5445272,
   "tags": {
+    "addr:city": "San Isidro",
     "addr:housenumber": "621",
+    "addr:postcode": "B1642",
     "addr:street": "Avenida Diego Carman",
     "amenity": "pharmacy",
+    "branch": "San Isidro I",
     "healthcare": "pharmacy",
     "name": "Farmaplus",
     "opening_hours": "24/7",
     "survey:date": "2022-07-30",
-    "website": "http://www.farmaplus.com.ar/",
+    "website": "https://www.farmaplus.com.ar/",
     "wheelchair": "yes"
   }
 },
@@ -78825,6 +78801,66 @@
     "contact:mobile": "+54 2323 60-3145",
     "contact:phone": "+54 2323 20-2092",
     "name": "Barrionuevo"
+  }
+},
+{
+  "type": "node",
+  "id": 10126767752,
+  "lat": -26.6883480,
+  "lon": -60.7303425,
+  "tags": {
+    "addr:city": "Avia Terai",
+    "addr:full": "Calle 12 Entre 7 Y 9",
+    "addr:postcode": "3706",
+    "addr:street": "General José de San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Vega",
+    "ref:sisa_codigo": "70220702326920"
+  }
+},
+{
+  "type": "node",
+  "id": 10126767771,
+  "lat": -26.6866202,
+  "lon": -60.7292762,
+  "tags": {
+    "addr:city": "Avia Terai",
+    "addr:full": "Calle 12 Entre 9 Y 11",
+    "addr:postcode": "3706",
+    "addr:street": "General José de San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmapolo",
+    "ref:sisa_codigo": "70220702326921"
+  }
+},
+{
+  "type": "node",
+  "id": 10126933105,
+  "lat": -51.5840075,
+  "lon": -72.2157723,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Rosario"
+  }
+},
+{
+  "type": "node",
+  "id": 10131377605,
+  "lat": -31.1690298,
+  "lon": -64.3134125,
+  "tags": {
+    "addr:city": "Río Ceballos",
+    "addr:street": "Avenida Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Dispensario Doctor Ostrovsky"
   }
 },
 {
