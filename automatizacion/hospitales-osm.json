@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-27T02:34:51Z",
-    "timestamp_areas_base": "2022-10-27T01:51:05Z",
+    "timestamp_osm_base": "2022-10-31T11:58:53Z",
+    "timestamp_areas_base": "2022-10-31T10:48:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1668,17 +1668,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 1685136773,
-  "lat": -28.5549318,
-  "lon": -56.0392045,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital San Juan Bautista"
   }
 },
 {
@@ -5780,12 +5769,13 @@
 {
   "type": "node",
   "id": 3219341152,
-  "lat": -34.7990566,
-  "lon": -58.4252855,
+  "lat": -34.7985764,
+  "lon": -58.4255537,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Cemma"
+    "name": "C.E.M.M.A.",
+    "official_name": "Centro Médico Malvinas Argentinas"
   }
 },
 {
@@ -21435,25 +21425,6 @@
 },
 {
   "type": "node",
-  "id": 7526861275,
-  "lat": -34.7619666,
-  "lon": -58.3929965,
-  "tags": {
-    "addr:full": "Balcarce 351",
-    "addr:postcode": "1832",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Interzonal General Agudos L. C. De Gandulfo",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "(011) 4244-1923",
-    "ref:sisa_codigo": "10064902100232",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93822320"
-  }
-},
-{
-  "type": "node",
   "id": 7527135718,
   "lat": -34.7631491,
   "lon": -58.4045096,
@@ -23259,6 +23230,55 @@
   }
 },
 {
+  "type": "node",
+  "id": 10140522027,
+  "lat": -34.7989634,
+  "lon": -58.4251678,
+  "tags": {
+    "addr:housenumber": "296",
+    "addr:street": "Doyhenard",
+    "alt_name": "Hospital de Llavallol",
+    "amenity": "hospital",
+    "contact:phone": "+54 9 11 2120-7500",
+    "emergency": "yes",
+    "name": "Hospital Municipal Dr. Norberto R. Piacentini",
+    "opening_hours": "24/7",
+    "short_name": "Hospital Piacentini"
+  }
+},
+{
+  "type": "node",
+  "id": 10141236629,
+  "lat": -34.7457274,
+  "lon": -58.4250797,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "name": "Hospital Odontológico Dr. Enrique Febbraro",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "start_date": "2021-10-07"
+  }
+},
+{
+  "type": "node",
+  "id": 10141236630,
+  "lat": -34.7458993,
+  "lon": -58.4253238,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Hospital Oftalmológico Dr. Roberto Oscar Vicario",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "start_date": "2021-10-07"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -23963,18 +23983,23 @@
     314793617
   ],
   "tags": {
-    "addr:city": "Lomas de Zamora",
     "addr:housenumber": "351",
     "addr:postcode": "1832",
     "addr:street": "Balcarce",
     "alt_name": "Hospital Gandulfo",
     "amenity": "hospital",
+    "contact:phone": "+54 9 11 4244-1923",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Interzonal General de Agudos \"Luisa C. Gandulfo\"",
-    "phone": "+54 11 4244-5841",
+    "name": "Hospital Interzonal General Agudos Luisa C. De Gandulfo",
+    "opening_hours": "24/7",
+    "operator": "Provincial",
+    "operator:type": "public",
+    "ref:sisa_codigo": "10064902100232",
+    "ref:sisa_tipologia": "ESCIG",
+    "short_name": "Hospital Gandulfo",
     "website": "http://higagandulfo.com.ar",
-    "wikidata": "Q21191693"
+    "wikidata": "Q93822320"
   }
 },
 {
@@ -37208,6 +37233,22 @@
     5517448609,
     4040661625,
     4040661624,
+    10141335855,
+    10141335852,
+    10141335825,
+    10141335824,
+    10141335826,
+    10141335827,
+    10141335837,
+    10141335836,
+    10141335835,
+    10141335834,
+    10141335833,
+    10141335832,
+    10141335831,
+    10141335830,
+    10141335829,
+    10141335828,
     9191162287,
     10067547049,
     4040661620,
@@ -47234,6 +47275,8 @@
     7502045599,
     7502045598,
     7502045597,
+    10139509421,
+    10139509422,
     7502045600,
     7502045602,
     7502045601,
@@ -53549,6 +53592,56 @@
     "ref:sisa_codigo": "12660282173081",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14749779,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1108333513,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333512,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333519,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333511,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333518,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333515,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333516,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1108333510,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "amenity": "hospital",
     "type": "multipolygon"
   }
 },
@@ -78106,6 +78199,102 @@
 },
 {
   "type": "node",
+  "id": 10141335824,
+  "lat": -32.9199437,
+  "lon": -60.8206915
+},
+{
+  "type": "node",
+  "id": 10141335825,
+  "lat": -32.9199508,
+  "lon": -60.8206526
+},
+{
+  "type": "node",
+  "id": 10141335826,
+  "lat": -32.9199366,
+  "lon": -60.8207305
+},
+{
+  "type": "node",
+  "id": 10141335827,
+  "lat": -32.9199295,
+  "lon": -60.8207695
+},
+{
+  "type": "node",
+  "id": 10141335828,
+  "lat": -32.9198588,
+  "lon": -60.8211590
+},
+{
+  "type": "node",
+  "id": 10141335829,
+  "lat": -32.9198659,
+  "lon": -60.8211201
+},
+{
+  "type": "node",
+  "id": 10141335830,
+  "lat": -32.9198729,
+  "lon": -60.8210811
+},
+{
+  "type": "node",
+  "id": 10141335831,
+  "lat": -32.9198800,
+  "lon": -60.8210422
+},
+{
+  "type": "node",
+  "id": 10141335832,
+  "lat": -32.9198871,
+  "lon": -60.8210032
+},
+{
+  "type": "node",
+  "id": 10141335833,
+  "lat": -32.9198942,
+  "lon": -60.8209642
+},
+{
+  "type": "node",
+  "id": 10141335834,
+  "lat": -32.9199012,
+  "lon": -60.8209253
+},
+{
+  "type": "node",
+  "id": 10141335835,
+  "lat": -32.9199083,
+  "lon": -60.8208863
+},
+{
+  "type": "node",
+  "id": 10141335836,
+  "lat": -32.9199154,
+  "lon": -60.8208474
+},
+{
+  "type": "node",
+  "id": 10141335837,
+  "lat": -32.9199225,
+  "lon": -60.8208084
+},
+{
+  "type": "node",
+  "id": 10141335852,
+  "lat": -32.9199578,
+  "lon": -60.8206136
+},
+{
+  "type": "node",
+  "id": 10141335855,
+  "lat": -32.9199649,
+  "lon": -60.8205747
+},
+{
+  "type": "node",
   "id": 3426783600,
   "lat": -32.8635437,
   "lon": -61.1436714
@@ -79601,68 +79790,80 @@
 {
   "type": "node",
   "id": 7502045596,
-  "lat": -32.9534678,
-  "lon": -60.6515538
+  "lat": -32.9534599,
+  "lon": -60.6515820
 },
 {
   "type": "node",
   "id": 7502045597,
-  "lat": -32.9535821,
-  "lon": -60.6522109
+  "lat": -32.9535742,
+  "lon": -60.6522391
 },
 {
   "type": "node",
   "id": 7502045598,
-  "lat": -32.9534862,
-  "lon": -60.6522111
+  "lat": -32.9534783,
+  "lon": -60.6522393
 },
 {
   "type": "node",
   "id": 7502045599,
-  "lat": -32.9534738,
-  "lon": -60.6516684
+  "lat": -32.9534659,
+  "lon": -60.6516966
 },
 {
   "type": "node",
   "id": 7502045600,
-  "lat": -32.9535658,
-  "lon": -60.6516958
+  "lat": -32.9535579,
+  "lon": -60.6517240
 },
 {
   "type": "node",
   "id": 7502045601,
-  "lat": -32.9537057,
-  "lon": -60.6517162
+  "lat": -32.9536978,
+  "lon": -60.6517444
 },
 {
   "type": "node",
   "id": 7502045602,
-  "lat": -32.9536607,
-  "lon": -60.6517175
+  "lat": -32.9536528,
+  "lon": -60.6517457
 },
 {
   "type": "node",
   "id": 7502045603,
-  "lat": -32.9533794,
-  "lon": -60.6516445
+  "lat": -32.9533715,
+  "lon": -60.6516727
 },
 {
   "type": "node",
   "id": 7502045604,
-  "lat": -32.9533783,
-  "lon": -60.6515304
+  "lat": -32.9533702,
+  "lon": -60.6515550
 },
 {
   "type": "node",
   "id": 7502045605,
-  "lat": -32.9537041,
-  "lon": -60.6516062
+  "lat": -32.9536962,
+  "lon": -60.6516344
 },
 {
   "type": "node",
   "id": 9620453457,
-  "lat": -32.9536562,
-  "lon": -60.6516029
+  "lat": -32.9536483,
+  "lon": -60.6516311
+},
+{
+  "type": "node",
+  "id": 10139509421,
+  "lat": -32.9535715,
+  "lon": -60.6521516
+},
+{
+  "type": "node",
+  "id": 10139509422,
+  "lat": -32.9535668,
+  "lon": -60.6520055
 },
 {
   "type": "node",
@@ -87181,6 +87382,60 @@
   "id": 2538371884,
   "lat": -34.8079101,
   "lon": -58.4643325
+},
+{
+  "type": "node",
+  "id": 10140512945,
+  "lat": -34.7989345,
+  "lon": -58.4253620
+},
+{
+  "type": "node",
+  "id": 10140512940,
+  "lat": -34.7989731,
+  "lon": -58.4253336
+},
+{
+  "type": "node",
+  "id": 10140512941,
+  "lat": -34.7987736,
+  "lon": -58.4250379
+},
+{
+  "type": "node",
+  "id": 10140512942,
+  "lat": -34.7988131,
+  "lon": -58.4251175
+},
+{
+  "type": "node",
+  "id": 10140512943,
+  "lat": -34.7990047,
+  "lon": -58.4249721
+},
+{
+  "type": "node",
+  "id": 10140512944,
+  "lat": -34.7989668,
+  "lon": -58.4248957
+},
+{
+  "type": "node",
+  "id": 10140512946,
+  "lat": -34.7988514,
+  "lon": -58.4251945
+},
+{
+  "type": "node",
+  "id": 10140512947,
+  "lat": -34.7990441,
+  "lon": -58.4250515
+},
+{
+  "type": "node",
+  "id": 10140512948,
+  "lat": -34.7991277,
+  "lon": -58.4252198
 },
 {
   "type": "node",
@@ -115935,6 +116190,71 @@
     7304005348,
     2203837510,
     2203837520
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333512,
+  "nodes": [
+    10140512945,
+    10140512940,
+    10140512948
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333513,
+  "nodes": [
+    10140512946,
+    10140512945
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333510,
+  "nodes": [
+    10140512946,
+    10140512942
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333511,
+  "nodes": [
+    10140512947,
+    10140512943
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333515,
+  "nodes": [
+    10140512941,
+    10140512944
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333516,
+  "nodes": [
+    10140512942,
+    10140512941
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333518,
+  "nodes": [
+    10140512944,
+    10140512943
+  ]
+},
+{
+  "type": "way",
+  "id": 1108333519,
+  "nodes": [
+    10140512948,
+    10140512947
   ]
 },
 {

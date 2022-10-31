@@ -116,7 +116,6 @@
     "healthcare": "pharmacy",
     "name": "FarmaCity",
     "operator": "Farmacity",
-    "shop": "chemist",
     "id": "way/114332924"
   },
   "geometry": {
@@ -823,54 +822,6 @@
         [
           -60.8098033,
           -32.9207529
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/254055855",
-  "properties": {
-    "addr:housenumber": "1631",
-    "addr:postcode": "S2132",
-    "addr:street": "Avenida Santa Fe",
-    "amenity": "pharmacy",
-    "building": "retail",
-    "building:levels": "1",
-    "healthcare": "pharmacy",
-    "name": "Marchetti",
-    "roof:levels": "1",
-    "wheelchair": "yes",
-    "id": "way/254055855"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.810739,
-          -32.9184181
-        ],
-        [
-          -60.8105949,
-          -32.9184435
-        ],
-        [
-          -60.8105796,
-          -32.9183826
-        ],
-        [
-          -60.8106484,
-          -32.9183705
-        ],
-        [
-          -60.8107238,
-          -32.9183572
-        ],
-        [
-          -60.810739,
-          -32.9184181
         ]
       ]
     ]
@@ -17702,6 +17653,7 @@
     "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Marabotto",
+    "opening_hours": "Mo-Su 08:00-22:00",
     "phone": "+54 11 4749-0026",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/476132588"
@@ -23289,45 +23241,6 @@
         [
           -60.6476426,
           -32.9562343
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/555030802",
-  "properties": {
-    "addr:street": "Avenida Carlos Pellegrini",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Jerárquicos Salud",
-    "id": "way/555030802"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.6520776,
-          -32.9550438
-        ],
-        [
-          -60.652108,
-          -32.9551767
-        ],
-        [
-          -60.6519537,
-          -32.9552014
-        ],
-        [
-          -60.6519234,
-          -32.9550685
-        ],
-        [
-          -60.6520776,
-          -32.9550438
         ]
       ]
     ]
@@ -39521,6 +39434,53 @@
 },
 {
   "type": "Feature",
+  "id": "way/1108377133",
+  "properties": {
+    "addr:housenumber": "1631",
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "Marchetti",
+    "roof:levels": "1",
+    "wheelchair": "yes",
+    "id": "way/1108377133"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.8106361,
+          -32.9184362
+        ],
+        [
+          -60.8106209,
+          -32.9183753
+        ],
+        [
+          -60.8106723,
+          -32.9183662
+        ],
+        [
+          -60.8107238,
+          -32.9183572
+        ],
+        [
+          -60.810739,
+          -32.918418
+        ],
+        [
+          -60.8106361,
+          -32.9184362
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -46332,9 +46292,14 @@
   "type": "Feature",
   "id": "node/1573474917",
   "properties": {
+    "addr:city": "Beccar",
+    "addr:postcode": "B1643",
+    "addr:street": "José Ingenieros",
     "amenity": "pharmacy",
+    "building:levels": "1",
     "healthcare": "pharmacy",
     "name": "La Merced",
+    "phone": "+54 11 4719-0784",
     "id": "node/1573474917"
   },
   "geometry": {
@@ -48040,7 +48005,11 @@
   "type": "Feature",
   "id": "node/1769979055",
   "properties": {
+    "addr:city": "Boulogne Sur Mer",
+    "addr:postcode": "1609",
+    "addr:street": "Almirante Blanco Encalada",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/1769979055"
   },
   "geometry": {
@@ -59567,6 +59536,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
+    "opening_hours": "Mo-Fr 08:00-24:00; Sa 08:30-24:00; Su 09:00-24:00",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/2567160978"
   },
@@ -94065,6 +94035,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia",
+    "opening_hours": "Mo-Sa 08:30-24:00; Su 09:30-13:00,16:00-24:00",
     "phone": "+54 11 4717-2181",
     "id": "node/4605169149"
   },
@@ -95204,6 +95175,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Nueva del Libertador",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-19:00",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4624585128"
   },
@@ -96545,6 +96517,8 @@
   "type": "Feature",
   "id": "node/4644986781",
   "properties": {
+    "addr:city": "Beccar",
+    "addr:postcode": "B1643",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Ángel",
@@ -110185,7 +110159,6 @@
     "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "image": "https://westnordost.de/p/10257.jpg",
     "name": "Oribe",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-13:00",
     "wheelchair": "limited",
@@ -149933,6 +149906,7 @@
   "properties": {
     "amenity": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "Su off",
     "id": "node/9696126413"
   },
   "geometry": {
@@ -154263,6 +154237,107 @@
     "coordinates": [
       -64.3134125,
       -31.1690298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10133753705",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Grisolía",
+    "id": "node/10133753705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7339618,
+      -32.7503779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10136395567",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "FarmaPlus",
+    "id": "node/10136395567"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.555027,
+      -34.4778665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10138452288",
+  "properties": {
+    "addr:city": "Córdoba",
+    "addr:postcode": "5000",
+    "addr:street": "Avenida Simón Laplace",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Sanatorio Allende Cerro",
+    "id": "node/10138452288"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.24245,
+      -31.358216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10141523688",
+  "properties": {
+    "addr:city": "Monte Cristo",
+    "addr:housenumber": "212",
+    "addr:postcode": "X5125",
+    "addr:street": "Manuel Pizarro",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Haniewicz",
+    "phone": "+54 (351) 491-7078",
+    "id": "node/10141523688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.9462202,
+      -31.3423432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10141523689",
+  "properties": {
+    "addr:city": "MONTE CRISTO",
+    "addr:housenumber": "375",
+    "addr:postcode": "X5125",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "López Blangino",
+    "phone": "+54 (351) 552-6203",
+    "id": "node/10141523689"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.9438359,
+      -31.3437744
     ]
   }
 }

@@ -2877,6 +2877,62 @@
 },
 {
   "type": "Feature",
+  "id": "relation/14749779",
+  "properties": {
+    "amenity": "hospital",
+    "type": "multipolygon",
+    "id": "relation/14749779"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4250379,
+          -34.7987736
+        ],
+        [
+          -58.4251175,
+          -34.7988131
+        ],
+        [
+          -58.4251945,
+          -34.7988514
+        ],
+        [
+          -58.425362,
+          -34.7989345
+        ],
+        [
+          -58.4253336,
+          -34.7989731
+        ],
+        [
+          -58.4252198,
+          -34.7991277
+        ],
+        [
+          -58.4250515,
+          -34.7990441
+        ],
+        [
+          -58.4249721,
+          -34.7990047
+        ],
+        [
+          -58.4248957,
+          -34.7989668
+        ],
+        [
+          -58.4250379,
+          -34.7987736
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/17495742",
   "properties": {
     "addr:full": "Cerviño 3356",
@@ -4424,18 +4480,23 @@
   "type": "Feature",
   "id": "way/28641286",
   "properties": {
-    "addr:city": "Lomas de Zamora",
     "addr:housenumber": "351",
     "addr:postcode": "1832",
     "addr:street": "Balcarce",
     "alt_name": "Hospital Gandulfo",
     "amenity": "hospital",
+    "contact:phone": "+54 9 11 4244-1923",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Interzonal General de Agudos \"Luisa C. Gandulfo\"",
-    "phone": "+54 11 4244-5841",
+    "name": "Hospital Interzonal General Agudos Luisa C. De Gandulfo",
+    "opening_hours": "24/7",
+    "operator": "Provincial",
+    "operator:type": "public",
+    "ref:sisa_codigo": "10064902100232",
+    "ref:sisa_tipologia": "ESCIG",
+    "short_name": "Hospital Gandulfo",
     "website": "http://higagandulfo.com.ar",
-    "wikidata": "Q21191693",
+    "wikidata": "Q93822320",
     "id": "way/28641286"
   },
   "geometry": {
@@ -35624,6 +35685,70 @@
           -32.919972
         ],
         [
+          -60.8205747,
+          -32.9199649
+        ],
+        [
+          -60.8206136,
+          -32.9199578
+        ],
+        [
+          -60.8206526,
+          -32.9199508
+        ],
+        [
+          -60.8206915,
+          -32.9199437
+        ],
+        [
+          -60.8207305,
+          -32.9199366
+        ],
+        [
+          -60.8207695,
+          -32.9199295
+        ],
+        [
+          -60.8208084,
+          -32.9199225
+        ],
+        [
+          -60.8208474,
+          -32.9199154
+        ],
+        [
+          -60.8208863,
+          -32.9199083
+        ],
+        [
+          -60.8209253,
+          -32.9199012
+        ],
+        [
+          -60.8209642,
+          -32.9198942
+        ],
+        [
+          -60.8210032,
+          -32.9198871
+        ],
+        [
+          -60.8210422,
+          -32.91988
+        ],
+        [
+          -60.8210811,
+          -32.9198729
+        ],
+        [
+          -60.8211201,
+          -32.9198659
+        ],
+        [
+          -60.821159,
+          -32.9198588
+        ],
+        [
           -60.821198,
           -32.9198517
         ],
@@ -58262,52 +58387,60 @@
     "coordinates": [
       [
         [
-          -60.6516062,
-          -32.9537041
+          -60.6516344,
+          -32.9536962
         ],
         [
-          -60.6516029,
-          -32.9536562
+          -60.6516311,
+          -32.9536483
         ],
         [
-          -60.6515538,
-          -32.9534678
+          -60.651582,
+          -32.9534599
         ],
         [
-          -60.6515304,
-          -32.9533783
+          -60.651555,
+          -32.9533702
         ],
         [
-          -60.6516445,
-          -32.9533794
+          -60.6516727,
+          -32.9533715
         ],
         [
-          -60.6516684,
-          -32.9534738
+          -60.6516966,
+          -32.9534659
         ],
         [
-          -60.6522111,
-          -32.9534862
+          -60.6522393,
+          -32.9534783
         ],
         [
-          -60.6522109,
-          -32.9535821
+          -60.6522391,
+          -32.9535742
         ],
         [
-          -60.6516958,
-          -32.9535658
+          -60.6521516,
+          -32.9535715
         ],
         [
-          -60.6517175,
-          -32.9536607
+          -60.6520055,
+          -32.9535668
         ],
         [
-          -60.6517162,
-          -32.9537057
+          -60.651724,
+          -32.9535579
         ],
         [
-          -60.6516062,
-          -32.9537041
+          -60.6517457,
+          -32.9536528
+        ],
+        [
+          -60.6517444,
+          -32.9536978
+        ],
+        [
+          -60.6516344,
+          -32.9536962
         ]
       ]
     ]
@@ -74297,23 +74430,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1685136773",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital San Juan Bautista",
-    "id": "node/1685136773"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -56.0392045,
-      -28.5549318
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1689183402",
   "properties": {
     "amenity": "hospital",
@@ -80130,14 +80246,15 @@
   "properties": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Cemma",
+    "name": "C.E.M.M.A.",
+    "official_name": "Centro Médico Malvinas Argentinas",
     "id": "node/3219341152"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4252855,
-      -34.7990566
+      -58.4255537,
+      -34.7985764
     ]
   }
 },
@@ -101764,31 +101881,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7526861275",
-  "properties": {
-    "addr:full": "Balcarce 351",
-    "addr:postcode": "1832",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Interzonal General Agudos L. C. De Gandulfo",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "(011) 4244-1923",
-    "ref:sisa_codigo": "10064902100232",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93822320",
-    "id": "node/7526861275"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.3929965,
-      -34.7619666
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7527135718",
   "properties": {
     "addr:full": "Sarmiento 250",
@@ -104298,6 +104390,73 @@
     "coordinates": [
       -72.2172448,
       -51.5791889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10140522027",
+  "properties": {
+    "addr:housenumber": "296",
+    "addr:street": "Doyhenard",
+    "alt_name": "Hospital de Llavallol",
+    "amenity": "hospital",
+    "contact:phone": "+54 9 11 2120-7500",
+    "emergency": "yes",
+    "name": "Hospital Municipal Dr. Norberto R. Piacentini",
+    "opening_hours": "24/7",
+    "short_name": "Hospital Piacentini",
+    "id": "node/10140522027"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4251678,
+      -34.7989634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10141236629",
+  "properties": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "name": "Hospital Odontológico Dr. Enrique Febbraro",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "start_date": "2021-10-07",
+    "id": "node/10141236629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4250797,
+      -34.7457274
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10141236630",
+  "properties": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Hospital Oftalmológico Dr. Roberto Oscar Vicario",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "start_date": "2021-10-07",
+    "id": "node/10141236630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4253238,
+      -34.7458993
     ]
   }
 }

@@ -340,6 +340,7 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Unidad de Pronta Atención Lomas de Zamora",
+    "opening_hours": "24/7",
     "type": "multipolygon",
     "id": "relation/12535543"
   },
@@ -1138,7 +1139,7 @@
     "emergency": "no",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud Doctor Gregorio Aráoz Alfaro",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
     "phone": "+54 11 4239-9688",
     "ref:sisa_codigo": "50064902207476",
@@ -12724,10 +12725,6 @@
   "properties": {
     "amenity": "clinic",
     "building": "yes",
-    "fixme": "name",
-    "healthcare": "clinic",
-    "noname": "yes",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/469533493"
   },
   "geometry": {
@@ -43028,6 +43025,59 @@
 },
 {
   "type": "Feature",
+  "id": "way/1108356621",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "446",
+    "addr:postcode": "Q8300",
+    "addr:street": "Avenida Argentina",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "height": "10",
+    "name": "Instituto Médico Avenida",
+    "operator:type": "private",
+    "id": "way/1108356621"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0595678,
+          -38.9499883
+        ],
+        [
+          -68.0594961,
+          -38.9500466
+        ],
+        [
+          -68.0594252,
+          -38.9501043
+        ],
+        [
+          -68.0594045,
+          -38.9501211
+        ],
+        [
+          -68.059404,
+          -38.9499887
+        ],
+        [
+          -68.0594226,
+          -38.9499884
+        ],
+        [
+          -68.0595678,
+          -38.9499883
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -44556,7 +44606,7 @@
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud Vicente López",
     "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
     "phone": "+54 11 4231-7016",
     "ref:sisa_codigo": "50064902202864",
@@ -53566,17 +53616,16 @@
   "type": "Feature",
   "id": "node/4406972116",
   "properties": {
-    "addr:city": "Temperley",
-    "addr:full": "Dr. Indalecio Gomez 702",
     "addr:housenumber": "702",
     "addr:postcode": "1834",
     "addr:street": "Indalecio Gómez",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4239-9663",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Doctor Angel A. Tullio",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Doctor Ángel A. Tullio",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42399663",
     "ref:sisa_codigo": "50064902202214",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/4406972116"
@@ -67838,14 +67887,16 @@
   "type": "Feature",
   "id": "node/7495102228",
   "properties": {
-    "addr:full": "De Los Eucaliptos 47 Barrio San Jose",
+    "addr:housenumber": "47",
     "addr:postcode": "1834",
+    "addr:street": "De los Eucaliptos",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Barrio San Jose De Lomas De Zamora",
+    "name": "Unidad Sanitaria Barrio San José",
+    "opening_hours": "Mo-Fr 06:30-17:30",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "011-42642100",
+    "phone": "+54 9 11 4264-2100",
     "ref:sisa_codigo": "50064902202129",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7495102228"
@@ -67902,8 +67953,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -61.3690483,
-      -27.0964291
+      -61.3700675,
+      -27.0962691
     ]
   }
 },
@@ -77199,22 +77250,23 @@
     "addr:postcode": "1834",
     "addr:street": "Anchoris",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4260-5623",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud Villa General San Martin",
     "opening_hours": "Mo-Fr 06:00-17:00; Sa 07:00-12:00",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "+54 11 4260-5623",
     "ref:sisa_codigo": "50064902202884",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "C.A.P.S. General San Martín",
+    "short_name": "C.A.P.S. Villa Gral. San Martin",
+    "wheelchair": "yes",
     "id": "node/7503079139"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3567008,
-      -34.751799
+      -58.3495688,
+      -34.7480106
     ]
   }
 },
@@ -77229,7 +77281,7 @@
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud Bartolomé Mitre",
     "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
     "phone": "+54 11 4244-7664",
     "ref:sisa_codigo": "50064902202147",
@@ -77253,12 +77305,12 @@
     "addr:postcode": "1832",
     "addr:street": "Metán",
     "amenity": "clinic",
+    "contact:phone": "+54 11 4285-5337",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud General Lamadrid",
     "opening_hours": "24/7",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "+54 11 4285-5337",
     "ref:sisa_codigo": "50064902202308",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "C.A.P.S. General Lamadrid",
@@ -82087,17 +82139,15 @@
   "type": "Feature",
   "id": "node/7504712230",
   "properties": {
-    "addr:city": "Lomas de Zamora",
-    "addr:full": "Bustos 775",
     "addr:housenumber": "775",
     "addr:postcode": "1832",
     "addr:street": "Bustos",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Villa Independencia",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 4283-0343",
+    "phone": "+54 9 11 4283-0343",
     "ref:sisa_codigo": "50064902207474",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7504712230"
@@ -82105,8 +82155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4464283,
-      -34.761662
+      -58.4465618,
+      -34.7614868
     ]
   }
 },
@@ -82310,17 +82360,15 @@
   "type": "Feature",
   "id": "node/7504721254",
   "properties": {
-    "addr:city": "Villa Fiorito",
-    "addr:full": "Fallieres 2328",
     "addr:housenumber": "2328",
     "addr:postcode": "6073",
     "addr:street": "Fallieres",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Villa Urbana",
-    "operator": "Municipal",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 42673873",
+    "phone": "+54 9 11 4267-3873",
     "ref:sisa_codigo": "50064902202908",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7504721254"
@@ -82434,17 +82482,17 @@
   "type": "Feature",
   "id": "node/7504727133",
   "properties": {
-    "addr:city": "Lomas de Zamora",
-    "addr:full": "Bolonia Y Lavarden",
+    "addr:full": "Bolonia y Lavardén",
     "addr:housenumber": "2699",
     "addr:postcode": "1832",
     "addr:street": "Bolonia",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4285-4607",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 19 De Diciembre De Lomas De Zamora",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria 19 de Diciembre",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42854607",
     "ref:sisa_codigo": "50064902202924",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7504727133"
@@ -82711,7 +82759,6 @@
   "id": "node/7504763137",
   "properties": {
     "addr:city": "Llavallol",
-    "addr:full": "Doyhenard 1240",
     "addr:housenumber": "1240",
     "addr:postcode": "1836",
     "addr:street": "Doyhenard",
@@ -89285,14 +89332,15 @@
   "type": "Feature",
   "id": "node/7526570423",
   "properties": {
-    "addr:full": "Campoamor Esquina Ginebra S/N",
+    "addr:full": "Ginebra y Campoamor",
     "addr:postcode": "1828",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4285-7016",
     "healthcare": "clinic",
-    "name": "Centro De Salud Doctor E. Finochietto",
-    "operator": "Municipal",
+    "name": "Centro de Salud Dr. Enrique Finochietto",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42857016",
     "ref:sisa_codigo": "50064902201225",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526570423"
@@ -89309,17 +89357,16 @@
   "type": "Feature",
   "id": "node/7526570425",
   "properties": {
-    "addr:city": "Banfield",
-    "addr:full": "Timoteo Gordillo 1523",
     "addr:housenumber": "1523",
     "addr:postcode": "1828",
     "addr:street": "Timoteo Gordillo",
     "amenity": "clinic",
+    "contact:phone": "+54 11 4285 5320",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Mariano Moreno",
-    "operator": "Municipal",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "+54 11 4285 5320",
     "ref:sisa_codigo": "50064902202442",
     "ref:sisa_tipologia": "ESSIDT",
     "website": "http://www.lomasdezamora.gov.ar/unidadessanitarias.aspx",
@@ -89338,18 +89385,18 @@
   "id": "node/7526582900",
   "properties": {
     "addr:city": "San José",
-    "addr:full": "Monteros 37",
     "addr:housenumber": "37",
     "addr:postcode": "1834",
     "addr:street": "Monteros",
     "alt_name": "Unidad Sanitaria Santa Rosa De Lomas De Zamora",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/unidadsanitaria.santarosa.1",
+    "contact:phone": "+54 9 11 4270-6895",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Santa Rosa",
-    "operator": "Municipal",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "+54 11 4270 6895",
     "ref:sisa_codigo": "50064902202825",
     "website": "http://www.lomasdezamora.gov.ar/unidadessanitarias.aspx",
     "id": "node/7526582900"
@@ -89357,8 +89404,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3407564,
-      -34.7515467
+      -58.3407658,
+      -34.7515643
     ]
   }
 },
@@ -89366,14 +89413,14 @@
   "type": "Feature",
   "id": "node/7526585391",
   "properties": {
-    "addr:full": "Gral. Necochea Y Germán Kurth",
+    "addr:full": "Gral. Necochea y Germán Kurth",
     "addr:postcode": "1836",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Lavallol",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Llavallol",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 4231-0955",
+    "phone": "+54 9 11 4231-0955",
     "ref:sisa_codigo": "50064902202407",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526585391"
@@ -89390,14 +89437,15 @@
   "type": "Feature",
   "id": "node/7526609172",
   "properties": {
-    "addr:full": "Luis Dávila S/N Entre Bouchard Y Arroyo Del Rey",
+    "addr:full": "Luis Dávila s/n entre Bouchard y Arroyo del Rey",
     "addr:postcode": "1836",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Salon Usos Multiples Arroyo Del Rey",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Juan B. Tavano",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 4293-8257",
+    "phone": "+54 9 11 4293-8257",
     "ref:sisa_codigo": "50064902202766",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526609172"
@@ -89414,17 +89462,16 @@
   "type": "Feature",
   "id": "node/7526609190",
   "properties": {
-    "addr:city": "Lomas de Zamora",
-    "addr:full": "Paris 1947",
     "addr:housenumber": "1947",
     "addr:postcode": "1828",
     "addr:street": "París",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4285-5329",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Provincias Unidas",
-    "operator": "Municipal",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 4285-5329",
     "ref:sisa_codigo": "50064902202737",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526609190"
@@ -89441,14 +89488,15 @@
   "type": "Feature",
   "id": "node/7526618683",
   "properties": {
-    "addr:full": "Capitán Martel 911 Entre Colón Y Diagonal 59 - Barrio Santa Catalina 3",
+    "addr:full": "Capitán Martel 911 entre Colón y Diagonal 59",
     "addr:postcode": "6073",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4693-4400",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Solidaridad",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "(011) 4693-4400",
     "ref:sisa_codigo": "50064902202845",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526618683"
@@ -89456,8 +89504,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.477305,
-      -34.751356
+      -58.4772809,
+      -34.751345
     ]
   }
 },
@@ -89465,17 +89513,16 @@
   "type": "Feature",
   "id": "node/7526635412",
   "properties": {
-    "addr:city": "Lomas de Zamora",
-    "addr:full": "Voltaire 1650 Barrio Santa Marta",
     "addr:housenumber": "1650",
     "addr:postcode": "1832",
     "addr:street": "Voltaire",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4285-6493",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Santa Marta",
+    "opening_hours": "24/7",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "011-42856493",
     "ref:sisa_codigo": "50064902202821",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526635412"
@@ -89494,12 +89541,14 @@
   "properties": {
     "addr:full": "Corsini e/Correa y Cabo del Monte, Santa Catalina",
     "addr:postcode": "6073",
+    "alt_name": "C.A.P.S Juan Manuel de Rosas",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4693-2087",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Juan Manuel De Rosas General Paz De Ingeniero Budge C.A.P.S Juan Manuel de Rosas",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Juan Manuel de Rosas",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-46932087",
     "ref:sisa_codigo": "50064902202351",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526668882"
@@ -89507,8 +89556,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4724693,
-      -34.7395627
+      -58.4733115,
+      -34.7390095
     ]
   }
 },
@@ -89539,14 +89588,15 @@
   "type": "Feature",
   "id": "node/7526699081",
   "properties": {
-    "addr:full": "Jose Ingenieros 1845 Villa El Faro",
+    "addr:housenumber": "1845",
     "addr:postcode": "1832",
+    "addr:street": "José Ingenieros",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Villa El Faro",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "011-42855323",
+    "phone": "+54 9 11 4285-5323",
     "ref:sisa_codigo": "50064902202880",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526699081"
@@ -89554,8 +89604,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4416338,
-      -34.7454785
+      -58.4415654,
+      -34.7454454
     ]
   }
 },
@@ -89619,12 +89669,13 @@
   "type": "Feature",
   "id": "node/7526814178",
   "properties": {
-    "addr:full": "Darwin 1835",
+    "addr:housenumber": "1835",
     "addr:postcode": "6030",
+    "addr:street": "Charles Darwin",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Doctor Ramon Carrillo De Lomas De Zamora",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Doctor Ramón Carrillo",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
     "phone": "011-42866629",
     "ref:sisa_codigo": "50064902202246",
@@ -89634,8 +89685,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4332015,
-      -34.708673
+      -58.4339322,
+      -34.7076996
     ]
   }
 },
@@ -89643,14 +89694,15 @@
   "type": "Feature",
   "id": "node/7526819992",
   "properties": {
-    "addr:full": "Gaspar Núñez De Arce 553",
+    "addr:housenumber": "553",
     "addr:postcode": "1828",
+    "addr:street": "Gaspar Núñez de Arce",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4286-6631",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Eva Peron De Lomas De Zamora",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Eva Perón",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42866631",
     "ref:sisa_codigo": "50064902202285",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526819992"
@@ -89667,11 +89719,14 @@
   "type": "Feature",
   "id": "node/7526820896",
   "properties": {
-    "addr:full": "Avenida Hipolito Yrigoyen 10067",
+    "addr:housenumber": "10067",
     "addr:postcode": "1834",
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "alt_name": "Centro Odontológico Infantil",
     "amenity": "clinic",
     "building": "construction",
     "healthcare": "clinic",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
     "name": "Unidad Sanitaria Doctor Gregorio A. Alfaro",
     "operator": "Municipal",
     "operator:type": "public",
@@ -89716,12 +89771,15 @@
   "type": "Feature",
   "id": "node/7526873320",
   "properties": {
-    "addr:full": "Avenida General Martín Rodríguez 1847",
+    "addr:housenumber": "1867",
     "addr:postcode": "1832",
+    "addr:street": "Avenida General Martín Rodríguez",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4273-0294",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Nestor Kirchner",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Néstor Kirchner",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-14:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
     "ref:sisa_codigo": "50064902215000",
     "ref:sisa_tipologia": "ESSIDT",
@@ -89730,8 +89788,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.439447,
-      -34.7383659
+      -58.4394094,
+      -34.738356
     ]
   }
 },
@@ -89765,14 +89823,14 @@
   "type": "Feature",
   "id": "node/7526886191",
   "properties": {
-    "addr:full": "Quesada Y Campoamor",
+    "addr:full": "Quesada y Campoamor",
     "addr:postcode": "6073",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 17 De Ingeniero Budge",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria 17 Ingeniero Budge",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 4285-5316",
+    "phone": "+54 9 11 4285-5316",
     "ref:sisa_codigo": "50064902202526",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7526886191"
@@ -89861,14 +89919,16 @@
   "type": "Feature",
   "id": "node/7527055531",
   "properties": {
-    "addr:full": "Ginebra 432",
+    "addr:housenumber": "432",
     "addr:postcode": "6073",
+    "addr:street": "Ginebra",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4286-6633",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Luis Agote De Villa Elvira",
-    "operator": "Municipal",
+    "name": "Unidad Sanitaria Luis Agote",
+    "opening_hours": "Mo-Fr 07:00-17:00; Sa 07:00-13:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42866633",
     "ref:sisa_codigo": "50064902202429",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527055531"
@@ -89885,14 +89945,16 @@
   "type": "Feature",
   "id": "node/7527074990",
   "properties": {
-    "addr:full": "Bustos 2172 Villa Albertina",
+    "addr:housenumber": "2172",
     "addr:postcode": "1832",
+    "addr:street": "Bustos",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4285-5326",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Villa Albertina",
-    "operator": "Municipal",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42855326",
     "ref:sisa_codigo": "50064902202865",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527074990"
@@ -89933,8 +89995,9 @@
   "type": "Feature",
   "id": "node/7527090755",
   "properties": {
-    "addr:full": "General Paz 1405",
+    "addr:housenumber": "1405",
     "addr:postcode": "1834",
+    "addr:street": "General Paz",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Temperley Oeste",
@@ -89947,8 +90010,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4156504,
-      -34.782015
+      -58.4156601,
+      -34.7820661
     ]
   }
 },
@@ -90029,14 +90092,16 @@
   "type": "Feature",
   "id": "node/7527126805",
   "properties": {
-    "addr:full": "Paris 80",
+    "addr:housenumber": "80",
     "addr:postcode": "7240",
+    "addr:street": "París",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4286-3941",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria La Cortada",
-    "operator": "Municipal",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 42863941",
     "ref:sisa_codigo": "50064902202360",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527126805"
@@ -90053,14 +90118,16 @@
   "type": "Feature",
   "id": "node/7527135820",
   "properties": {
-    "addr:full": "Germán Kurth E/ Wilde Y Padre Javier",
+    "addr:housenumber": "577",
     "addr:postcode": "1836",
+    "addr:street": "German Kurth",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4298-7917",
     "healthcare": "clinic",
-    "name": "Centro De Salud 25 De Mayo De Lomas De Zamora",
-    "operator": "Municipal",
+    "name": "Centro de Salud 25 de Mayo",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42987917",
     "ref:sisa_codigo": "50064902201391",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527135820"
@@ -90077,14 +90144,16 @@
   "type": "Feature",
   "id": "node/7527137963",
   "properties": {
-    "addr:full": "Larrazabal 2669",
+    "addr:housenumber": "3100",
     "addr:postcode": "1832",
+    "addr:street": "Larrazabal",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Nuevo Fiorito",
-    "operator": "Municipal",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42676307",
+    "phone": "+54 9 11 2000-8647",
     "ref:sisa_codigo": "50064902202696",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527137963"
@@ -90092,8 +90161,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4460092,
-      -34.696447
+      -58.4459663,
+      -34.6964205
     ]
   }
 },
@@ -90101,14 +90170,16 @@
   "type": "Feature",
   "id": "node/7527155319",
   "properties": {
-    "addr:full": "Araguaya 937",
+    "addr:housenumber": "937",
     "addr:postcode": "1836",
+    "addr:street": "Araguaya",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4298-9011",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Prosperidad",
-    "operator": "Municipal",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "011-42989011",
     "ref:sisa_codigo": "50064902202736",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527155319"
@@ -90125,14 +90196,16 @@
   "type": "Feature",
   "id": "node/7527158915",
   "properties": {
-    "addr:full": "Caraza 1848",
+    "addr:housenumber": "1848",
     "addr:postcode": "1828",
+    "addr:street": "Eduardo Caraza",
     "amenity": "clinic",
+    "contact:phone": "+54 9 11 4242-1615",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria Fonrouge",
-    "operator": "Municipal",
+    "opening_hours": "24/7",
+    "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public",
-    "phone": "(011) 4242-1615",
     "ref:sisa_codigo": "50064902202298",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/7527158915"
@@ -99301,6 +99374,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico San Blas",
+    "opening_hours": "Mo-Sa 08:00-19:30; Su off",
     "phone": "+54 11 4795-2796",
     "id": "node/8868767807"
   },
@@ -102110,6 +102184,197 @@
     "coordinates": [
       -61.6050397,
       -34.0016372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10133753703",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Traumatología y ART",
+    "id": "node/10133753703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7336059,
+      -32.7505174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10133753706",
+  "properties": {
+    "addr:street": "Avenida José de San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto Médico Regional",
+    "short_name": "IMR",
+    "id": "node/10133753706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.733933,
+      -32.7502413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10135914730",
+  "properties": {
+    "amenity": "clinic",
+    "contact:twitter": "https://twitter.com/clinicacemla",
+    "email": "comercial@cemla.com.ar",
+    "name": "CEMLA",
+    "phone": "+54 4363 7600",
+    "website": "https://cemla.com.ar",
+    "id": "node/10135914730"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3796163,
+      -34.6237915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10137820501",
+  "properties": {
+    "addr:housenumber": "1515",
+    "addr:street": "Bulevar Nicasio Oroño",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Diagnóstico Médico Oroño",
+    "id": "node/10137820501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6552617,
+      -32.9525878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10138462515",
+  "properties": {
+    "addr:city": "Córdoba",
+    "addr:full": "Av. Rafael Núñez 5019 primer piso, cerro de las rosas 5009 Córdoba",
+    "addr:housenumber": "5019",
+    "addr:postcode": "5000",
+    "addr:street": "Avenida Rafael Núñez",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100077517716920",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Instituto de la Visión Cerro",
+    "phone": "+54 351 4811955",
+    "website": "https://institutodelavisioncerro.com/",
+    "id": "node/10138462515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2406562,
+      -31.3580273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10140485193",
+  "properties": {
+    "addr:housenumber": "2420",
+    "addr:street": "Pasaje Eva Perón",
+    "amenity": "clinic",
+    "contact:phone": "+54 9 11 4286-8867",
+    "healthcare": "clinic",
+    "name": "Unidad Sanitaria La Salud Como Derecho",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "id": "node/10140485193"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4484813,
+      -34.7079414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10140485211",
+  "properties": {
+    "addr:housenumber": "130",
+    "addr:postcode": "B1828ATD",
+    "addr:street": "Castro Barros",
+    "amenity": "clinic",
+    "contact:phone": "+54 9 11 4202-1717",
+    "healthcare": "counselling",
+    "name": "Subsecretaría de salud mental y adicciones",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "id": "node/10140485211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3925646,
+      -34.7372106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10140522018",
+  "properties": {
+    "addr:full": "Avenida Doctor Gilberto Elizalde y Calle 27",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Unidad Sanitaria Nueva Esperanza",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "phone": "+54 9 11 6446-2767",
+    "short_name": "U.S. Nueva Esperanza",
+    "id": "node/10140522018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4969989,
+      -34.7276958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10140522021",
+  "properties": {
+    "addr:street": "Rodolfo Illescas",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Unidad Sanitaria Santa Catalina",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "id": "node/10140522021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.480166,
+      -34.7451524
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-27T02:45:06Z",
-    "timestamp_areas_base": "2022-10-27T02:01:21Z",
+    "timestamp_osm_base": "2022-10-31T12:10:09Z",
+    "timestamp_areas_base": "2022-10-31T10:48:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4633,9 +4633,14 @@
   "lat": -34.4767048,
   "lon": -58.5598095,
   "tags": {
+    "addr:city": "Beccar",
+    "addr:postcode": "B1643",
+    "addr:street": "José Ingenieros",
     "amenity": "pharmacy",
+    "building:levels": "1",
     "healthcare": "pharmacy",
-    "name": "La Merced"
+    "name": "La Merced",
+    "phone": "+54 11 4719-0784"
   }
 },
 {
@@ -5801,7 +5806,11 @@
   "lat": -34.4775127,
   "lon": -58.5732411,
   "tags": {
-    "amenity": "pharmacy"
+    "addr:city": "Boulogne Sur Mer",
+    "addr:postcode": "1609",
+    "addr:street": "Almirante Blanco Encalada",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -13632,6 +13641,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
+    "opening_hours": "Mo-Fr 08:00-24:00; Sa 08:30-24:00; Su 09:00-24:00",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -37180,6 +37190,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia",
+    "opening_hours": "Mo-Sa 08:30-24:00; Su 09:30-13:00,16:00-24:00",
     "phone": "+54 11 4717-2181"
   }
 },
@@ -37965,6 +37976,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Nueva del Libertador",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-19:00",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -38880,6 +38892,8 @@
   "lat": -34.4733280,
   "lon": -58.5553850,
   "tags": {
+    "addr:city": "Beccar",
+    "addr:postcode": "B1643",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Ángel",
@@ -48236,7 +48250,6 @@
     "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "image": "https://westnordost.de/p/10257.jpg",
     "name": "Oribe",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-13:00",
     "wheelchair": "limited"
@@ -75767,7 +75780,8 @@
   "lon": -58.9889111,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "opening_hours": "Su off"
   }
 },
 {
@@ -78864,6 +78878,77 @@
   }
 },
 {
+  "type": "node",
+  "id": 10133753705,
+  "lat": -32.7503779,
+  "lon": -60.7339618,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Grisolía"
+  }
+},
+{
+  "type": "node",
+  "id": 10136395567,
+  "lat": -34.4778665,
+  "lon": -58.5550270,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "FarmaPlus"
+  }
+},
+{
+  "type": "node",
+  "id": 10138452288,
+  "lat": -31.3582160,
+  "lon": -64.2424500,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:postcode": "5000",
+    "addr:street": "Avenida Simón Laplace",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Sanatorio Allende Cerro"
+  }
+},
+{
+  "type": "node",
+  "id": 10141523688,
+  "lat": -31.3423432,
+  "lon": -63.9462202,
+  "tags": {
+    "addr:city": "Monte Cristo",
+    "addr:housenumber": "212",
+    "addr:postcode": "X5125",
+    "addr:street": "Manuel Pizarro",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Haniewicz",
+    "phone": "+54 (351) 491-7078"
+  }
+},
+{
+  "type": "node",
+  "id": 10141523689,
+  "lat": -31.3437744,
+  "lon": -63.9438359,
+  "tags": {
+    "addr:city": "MONTE CRISTO",
+    "addr:housenumber": "375",
+    "addr:postcode": "X5125",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "López Blangino",
+    "phone": "+54 (351) 552-6203"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -78901,8 +78986,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "FarmaCity",
-    "operator": "Farmacity",
-    "shop": "chemist"
+    "operator": "Farmacity"
   }
 },
 {
@@ -79226,30 +79310,6 @@
     "operator": "María Eugenia Lascurain",
     "roof:levels": "1",
     "shop": "chemist",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 254055855,
-  "nodes": [
-    2598870401,
-    2598870398,
-    4417664608,
-    2598870399,
-    2598870403,
-    2598870401
-  ],
-  "tags": {
-    "addr:housenumber": "1631",
-    "addr:postcode": "S2132",
-    "addr:street": "Avenida Santa Fe",
-    "amenity": "pharmacy",
-    "building": "retail",
-    "building:levels": "1",
-    "healthcare": "pharmacy",
-    "name": "Marchetti",
-    "roof:levels": "1",
     "wheelchair": "yes"
   }
 },
@@ -87101,6 +87161,7 @@
     "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Marabotto",
+    "opening_hours": "Mo-Su 08:00-22:00",
     "phone": "+54 11 4749-0026",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -89681,24 +89742,6 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Morroni"
-  }
-},
-{
-  "type": "way",
-  "id": 555030802,
-  "nodes": [
-    5355880165,
-    5355880164,
-    5355880163,
-    5355880162,
-    5355880165
-  ],
-  "tags": {
-    "addr:street": "Avenida Carlos Pellegrini",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Jerárquicos Salud"
   }
 },
 {
@@ -97164,6 +97207,29 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 1108377133,
+  "nodes": [
+    10141335861,
+    2598870401,
+    2598870398,
+    4417664608,
+    10141335862,
+    10141335861
+  ],
+  "tags": {
+    "addr:housenumber": "1631",
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "Marchetti",
+    "roof:levels": "1",
+    "wheelchair": "yes"
   }
 },
 {
@@ -106600,21 +106666,9 @@
 },
 {
   "type": "node",
-  "id": 2598870399,
-  "lat": -32.9183826,
-  "lon": -60.8105796
-},
-{
-  "type": "node",
   "id": 2598870401,
-  "lat": -32.9184181,
+  "lat": -32.9184180,
   "lon": -60.8107390
-},
-{
-  "type": "node",
-  "id": 2598870403,
-  "lat": -32.9184435,
-  "lon": -60.8105949
 },
 {
   "type": "node",
@@ -106643,8 +106697,8 @@
 {
   "type": "node",
   "id": 4417664608,
-  "lat": -32.9183705,
-  "lon": -60.8106484
+  "lat": -32.9183662,
+  "lon": -60.8106723
 },
 {
   "type": "node",
@@ -106657,6 +106711,18 @@
   "id": 8948797604,
   "lat": -32.9207529,
   "lon": -60.8098033
+},
+{
+  "type": "node",
+  "id": 10141335861,
+  "lat": -32.9184362,
+  "lon": -60.8106361
+},
+{
+  "type": "node",
+  "id": 10141335862,
+  "lat": -32.9183753,
+  "lon": -60.8106209
 },
 {
   "type": "node",
@@ -107119,30 +107185,6 @@
   "id": 5355880158,
   "lat": -32.9562343,
   "lon": -60.6476426
-},
-{
-  "type": "node",
-  "id": 5355880162,
-  "lat": -32.9551767,
-  "lon": -60.6521080
-},
-{
-  "type": "node",
-  "id": 5355880163,
-  "lat": -32.9552014,
-  "lon": -60.6519537
-},
-{
-  "type": "node",
-  "id": 5355880164,
-  "lat": -32.9550685,
-  "lon": -60.6519234
-},
-{
-  "type": "node",
-  "id": 5355880165,
-  "lat": -32.9550438,
-  "lon": -60.6520776
 },
 {
   "type": "node",
