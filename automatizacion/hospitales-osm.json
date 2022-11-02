@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-31T11:58:53Z",
-    "timestamp_areas_base": "2022-10-31T10:48:39Z",
+    "timestamp_osm_base": "2022-11-02T19:11:09Z",
+    "timestamp_areas_base": "2022-11-02T11:06:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5467,8 +5467,8 @@
 {
   "type": "node",
   "id": 3040120304,
-  "lat": -37.3928836,
-  "lon": -62.8041625,
+  "lat": -37.3929295,
+  "lon": -62.8041579,
   "tags": {
     "addr:street": "De la Bandera",
     "amenity": "hospital",
@@ -53052,6 +53052,23 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1108993649,
+  "nodes": [
+    1428619911,
+    4391171415,
+    1395124631,
+    1395097233,
+    1428619911
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Mz.39",
+    "operator": "hospital"
   }
 },
 {
@@ -111415,6 +111432,24 @@
 },
 {
   "type": "node",
+  "id": 1395097233,
+  "lat": -29.1375908,
+  "lon": -59.2458639
+},
+{
+  "type": "node",
+  "id": 1395124631,
+  "lat": -29.1372849,
+  "lon": -59.2471888
+},
+{
+  "type": "node",
+  "id": 1428619911,
+  "lat": -29.1363186,
+  "lon": -59.2455660
+},
+{
+  "type": "node",
   "id": 4391170673,
   "lat": -29.1365945,
   "lon": -59.2469733
@@ -111478,6 +111513,12 @@
   "id": 4391170683,
   "lat": -29.1367949,
   "lon": -59.2461034
+},
+{
+  "type": "node",
+  "id": 4391171415,
+  "lat": -29.1360133,
+  "lon": -59.2469552
 },
 {
   "type": "node",

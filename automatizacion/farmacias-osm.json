@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-10-31T12:10:09Z",
-    "timestamp_areas_base": "2022-10-31T10:48:39Z",
+    "timestamp_osm_base": "2022-11-02T19:22:16Z",
+    "timestamp_areas_base": "2022-11-02T19:12:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -28272,7 +28272,7 @@
   "lon": -63.2354143,
   "tags": {
     "addr:housenumber": "1311",
-    "addr:street": "Sarmiento",
+    "addr:street": "Boulevard Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Fontanetto",
@@ -40461,6 +40461,8 @@
   "lat": -34.4715006,
   "lon": -58.5771474,
   "tags": {
+    "addr:city": "Victoria",
+    "addr:postcode": "B1644",
     "addr:street": "Blanco Encalada",
     "amenity": "pharmacy",
     "fixme": "name",
@@ -73694,7 +73696,7 @@
     "addr:city": "Villa María",
     "addr:housenumber": "1966",
     "addr:postcode": "5900",
-    "addr:street": "Bulevard Sarmiento",
+    "addr:street": "Boulevard Sarmiento",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -75132,7 +75134,7 @@
   "lon": -63.2391930,
   "tags": {
     "addr:housenumber": "898",
-    "addr:street": "Sarmiento",
+    "addr:street": "Boulevard Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Picotti",
@@ -75146,7 +75148,7 @@
   "lon": -63.2296219,
   "tags": {
     "addr:housenumber": "1769",
-    "addr:street": "Sarmiento",
+    "addr:street": "Boulevard Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Santunione de Cavallo",
@@ -78946,6 +78948,31 @@
     "healthcare": "pharmacy",
     "name": "López Blangino",
     "phone": "+54 (351) 552-6203"
+  }
+},
+{
+  "type": "node",
+  "id": 10143415484,
+  "lat": -27.3791759,
+  "lon": -54.3520126,
+  "tags": {
+    "addr:city": "Colonia Alicia",
+    "addr:street": "Ruta Provincial 221",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Alicia"
+  }
+},
+{
+  "type": "node",
+  "id": 10148476132,
+  "lat": -26.9540454,
+  "lon": -60.9721581,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -86408,9 +86435,12 @@
     4677353271
   ],
   "tags": {
+    "addr:city": "Virreyes",
+    "addr:postcode": "B1645",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
     "building": "yes",
+    "building:levels": "1",
     "healthcare": "pharmacy",
     "name": "Del Rosario",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
@@ -94103,9 +94133,12 @@
     7799197380
   ],
   "tags": {
+    "addr:city": "Virreyes",
+    "addr:postcode": "B1645",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
     "building": "yes",
+    "building:levels": "3",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Contreras",
