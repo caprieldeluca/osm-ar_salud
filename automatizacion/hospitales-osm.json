@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-02T19:11:09Z",
-    "timestamp_areas_base": "2022-11-02T11:06:39Z",
+    "timestamp_osm_base": "2022-11-06T00:29:39Z",
+    "timestamp_areas_base": "2022-11-05T23:54:10Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21822,7 +21822,7 @@
   "lon": -61.7692712,
   "tags": {
     "addr:city": "Montes de Oca",
-    "addr:postcode": "2521",
+    "addr:postcode": "S2521",
     "addr:street": "Sarmiento",
     "amenity": "hospital",
     "description": "Categoría de tipología: Bajo riesgo con internación simple,",
@@ -38332,11 +38332,15 @@
   ],
   "tags": {
     "addr:city": "Santa Silvina",
+    "addr:housenumber": "699",
     "addr:postcode": "3542",
     "addr:street": "9 de Julio",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Dr. Moreno Díaz Setuvi"
+    "name": "Hospital Doctor Moreno Díaz Setuvi",
+    "phone": "+54 3735 492200",
+    "ref:sisa_codigo": "10220432126053",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -53056,18 +53060,19 @@
 },
 {
   "type": "way",
-  "id": 1108993649,
+  "id": 1109977549,
   "nodes": [
-    1428619911,
-    4391171415,
+    9667052206,
+    9667052200,
+    1395097209,
     1395124631,
-    1395097233,
-    1428619911
+    10154456751,
+    9667052206
   ],
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Mz.39",
+    "name": "Mz.58",
     "operator": "hospital"
   }
 },
@@ -111432,21 +111437,15 @@
 },
 {
   "type": "node",
-  "id": 1395097233,
-  "lat": -29.1375908,
-  "lon": -59.2458639
+  "id": 1395097209,
+  "lat": -29.1369706,
+  "lon": -59.2485501
 },
 {
   "type": "node",
   "id": 1395124631,
   "lat": -29.1372849,
   "lon": -59.2471888
-},
-{
-  "type": "node",
-  "id": 1428619911,
-  "lat": -29.1363186,
-  "lon": -59.2455660
 },
 {
   "type": "node",
@@ -111516,9 +111515,21 @@
 },
 {
   "type": "node",
-  "id": 4391171415,
-  "lat": -29.1360133,
-  "lon": -59.2469552
+  "id": 9667052200,
+  "lat": -29.1360339,
+  "lon": -59.2482992
+},
+{
+  "type": "node",
+  "id": 9667052206,
+  "lat": -29.1362748,
+  "lon": -59.2471354
+},
+{
+  "type": "node",
+  "id": 10154456751,
+  "lat": -29.1363048,
+  "lon": -59.2469876
 },
 {
   "type": "node",

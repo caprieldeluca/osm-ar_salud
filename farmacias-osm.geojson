@@ -9884,8 +9884,10 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "retail",
+    "building:levels": "2",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "Mo-Su 00:00-24:00",
     "id": "way/468019531"
   },
   "geometry": {
@@ -11722,14 +11724,12 @@
   "id": "way/469185464",
   "properties": {
     "amenity": "pharmacy",
-    "area": "yes",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/469185464"
   },
   "geometry": {
@@ -11737,12 +11737,12 @@
     "coordinates": [
       [
         [
-          -58.4746375,
-          -34.5813266
+          -58.4746449,
+          -34.5813156
         ],
         [
           -58.4745386,
-          -34.5812648
+          -34.5812527
         ],
         [
           -58.4745411,
@@ -11757,8 +11757,8 @@
           -34.5811528
         ],
         [
-          -58.4746375,
-          -34.5813266
+          -58.4746449,
+          -34.5813156
         ]
       ]
     ]
@@ -14265,28 +14265,28 @@
     "coordinates": [
       [
         [
-          -58.4791965,
-          -34.5702479
+          -58.4792139,
+          -34.5702534
         ],
         [
-          -58.4790714,
-          -34.5703798
+          -58.4790888,
+          -34.5703853
         ],
         [
-          -58.478921,
-          -34.5702831
+          -58.4789384,
+          -34.5702886
         ],
         [
-          -58.479013,
-          -34.5701861
+          -58.4790304,
+          -34.5701916
         ],
         [
-          -58.4790845,
-          -34.5701759
+          -58.4791019,
+          -34.5701814
         ],
         [
-          -58.4791965,
-          -34.5702479
+          -58.4792139,
+          -34.5702534
         ]
       ]
     ]
@@ -50752,7 +50752,7 @@
     "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Buti 2",
+    "name": "FarmaPlus",
     "id": "node/1989731055"
   },
   "geometry": {
@@ -52219,6 +52219,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Doctor Ahorro",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 10:00-20:00",
     "id": "node/2151940523"
   },
   "geometry": {
@@ -59318,26 +59319,6 @@
     "coordinates": [
       -58.4656416,
       -34.5517869
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2533703995",
-  "properties": {
-    "addr:housenumber": "2676",
-    "addr:street": "Avenida Cabildo",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Buti",
-    "phone": "+54 11 4781-3022",
-    "id": "node/2533703995"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4611837,
-      -34.5572255
     ]
   }
 },
@@ -97138,14 +97119,13 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Lerida",
-    "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016.",
     "id": "node/4653463215"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4804473,
-      -34.5731824
+      -58.4804258,
+      -34.5731758
     ]
   }
 },
@@ -115091,9 +115071,15 @@
   "type": "Feature",
   "id": "node/5565358239",
   "properties": {
+    "addr:city": "Santa Sylvina",
+    "addr:housenumber": "482",
+    "addr:postcode": "3541",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/people/Farmacia-Del-PUeblo/100068381996500/",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
+    "phone": "+54 3735 492335",
     "id": "node/5565358239"
   },
   "geometry": {
@@ -141744,6 +141730,10 @@
   "type": "Feature",
   "id": "node/8233387751",
   "properties": {
+    "addr:city": "Villa La Angostura",
+    "addr:housenumber": "201",
+    "addr:postcode": "69Q4",
+    "addr:street": "Av. Siete Lagos",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
