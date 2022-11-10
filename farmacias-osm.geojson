@@ -87436,11 +87436,13 @@
   "type": "Feature",
   "id": "node/4334926192",
   "properties": {
-    "addr:postcode": "2720",
+    "addr:city": "Colón",
+    "addr:postcode": "B2720",
     "addr:street": "47",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Buenos Aires",
+    "phone": "+54 (2473) 42-2007",
     "id": "node/4334926192"
   },
   "geometry": {
@@ -132455,13 +132457,14 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.A.",
     "id": "node/7283811564"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0601055,
-      -38.9456688
+      -68.0599981,
+      -38.94569
     ]
   }
 },
@@ -153642,6 +153645,8 @@
   "type": "Feature",
   "id": "node/10078564466",
   "properties": {
+    "addr:housenumber": "315",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -154373,6 +154378,51 @@
     "coordinates": [
       -60.9721581,
       -26.9540454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10167962562",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "San Blas",
+    "id": "node/10167962562"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4707322,
+      -34.5538433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10169886906",
+  "properties": {
+    "addr:city": "mar del plata",
+    "addr:housenumber": "7693",
+    "addr:postcode": "7600",
+    "addr:street": "Avenida Libertad",
+    "amenity": "pharmacy",
+    "currency:XBT": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "healthcare:speciality": "vaccination",
+    "name": "Farmacia Zingale",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "phone": "+542235399462",
+    "survey:date": "2022-11-08",
+    "id": "node/10169886906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5934032,
+      -37.9676341
     ]
   }
 }
