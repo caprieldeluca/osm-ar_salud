@@ -3473,6 +3473,7 @@
     "healthcare": "hospital",
     "name": "Hospital Alemán",
     "name:de": "Deutsches Hospital",
+    "name:en": "German Hospital",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "+54 (11) 4827-7000",
@@ -21658,7 +21659,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Italiano de Buenos Aires",
-    "name:en": "Hospital Italiano of Buenos Aires",
+    "name:en": "Italian Hospital of Buenos Aires",
     "name:es": "Hospital Italiano de Buenos Aires",
     "operator": "Sociedad Italiana de Beneficencia en Buenos Aires",
     "operator:type": "private",
@@ -30211,9 +30212,15 @@
   "type": "Feature",
   "id": "way/332445073",
   "properties": {
+    "addr:city": "Intiyaco",
+    "addr:postcode": "3551",
+    "addr:street": "General López",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital de intiyaco",
+    "phone": "+54 3482 490315",
+    "ref:sisa_codigo": "10821332184168",
+    "ref:sisa_tipologia": "ESCIG",
     "id": "way/332445073"
   },
   "geometry": {
@@ -37399,6 +37406,7 @@
     "addr:housenumber": "505",
     "addr:postcode": "1642",
     "addr:street": "Diego Palma",
+    "alt_name": "Hospital Materno Infantil",
     "amenity": "hospital",
     "building": "yes",
     "emergency": "yes",
@@ -72037,6 +72045,56 @@
         [
           -59.3069123,
           -27.5581913
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1112546850",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:postcode": "8300",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Norpatagónico",
+    "operator": "Provincia de Neuquén",
+    "operator:type": "public",
+    "start_date": "2024-03-01",
+    "id": "way/1112546850"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.1583487,
+          -38.9182087
+        ],
+        [
+          -68.158566,
+          -38.9159218
+        ],
+        [
+          -68.1586313,
+          -38.9158759
+        ],
+        [
+          -68.1612062,
+          -38.9160406
+        ],
+        [
+          -68.164898,
+          -38.9162767
+        ],
+        [
+          -68.1621186,
+          -38.9178327
+        ],
+        [
+          -68.1583487,
+          -38.9182087
         ]
       ]
     ]

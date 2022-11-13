@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-10T12:48:53Z",
-    "timestamp_areas_base": "2022-11-10T10:49:52Z",
+    "timestamp_osm_base": "2022-11-13T12:35:09Z",
+    "timestamp_areas_base": "2022-11-13T11:25:05Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23522,6 +23522,7 @@
     "healthcare": "hospital",
     "name": "Hospital Alemán",
     "name:de": "Deutsches Hospital",
+    "name:en": "German Hospital",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "+54 (11) 4827-7000",
@@ -31207,7 +31208,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Italiano de Buenos Aires",
-    "name:en": "Hospital Italiano of Buenos Aires",
+    "name:en": "Italian Hospital of Buenos Aires",
     "name:es": "Hospital Italiano de Buenos Aires",
     "operator": "Sociedad Italiana de Beneficencia en Buenos Aires",
     "operator:type": "private",
@@ -34953,9 +34954,15 @@
     7212308012
   ],
   "tags": {
+    "addr:city": "Intiyaco",
+    "addr:postcode": "3551",
+    "addr:street": "General López",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital de intiyaco"
+    "name": "Hospital de intiyaco",
+    "phone": "+54 3482 490315",
+    "ref:sisa_codigo": "10821332184168",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -38040,6 +38047,7 @@
     "addr:housenumber": "505",
     "addr:postcode": "1642",
     "addr:street": "Diego Palma",
+    "alt_name": "Hospital Materno Infantil",
     "amenity": "hospital",
     "building": "yes",
     "emergency": "yes",
@@ -53063,6 +53071,29 @@
   }
 },
 {
+  "type": "way",
+  "id": 1112546850,
+  "nodes": [
+    10178728758,
+    10178728759,
+    10178728760,
+    10178728763,
+    10178728761,
+    10178728762,
+    10178728758
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:postcode": "8300",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Norpatagónico",
+    "operator": "Provincia de Neuquén",
+    "operator:type": "public",
+    "start_date": "2024-03-01"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -58008,6 +58039,42 @@
   "id": 9589054676,
   "lat": -38.9502250,
   "lon": -68.2284573
+},
+{
+  "type": "node",
+  "id": 10178728761,
+  "lat": -38.9162767,
+  "lon": -68.1648980
+},
+{
+  "type": "node",
+  "id": 10178728758,
+  "lat": -38.9182087,
+  "lon": -68.1583487
+},
+{
+  "type": "node",
+  "id": 10178728759,
+  "lat": -38.9159218,
+  "lon": -68.1585660
+},
+{
+  "type": "node",
+  "id": 10178728760,
+  "lat": -38.9158759,
+  "lon": -68.1586313
+},
+{
+  "type": "node",
+  "id": 10178728762,
+  "lat": -38.9178327,
+  "lon": -68.1621186
+},
+{
+  "type": "node",
+  "id": 10178728763,
+  "lat": -38.9160406,
+  "lon": -68.1612062
 },
 {
   "type": "node",

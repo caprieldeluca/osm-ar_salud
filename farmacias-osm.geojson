@@ -3233,7 +3233,6 @@
   "id": "way/346339194",
   "properties": {
     "amenity": "pharmacy",
-    "building": "retail",
     "building:levels": "1",
     "contact:email": "atencionalcliente@farmavip.com.ar",
     "contact:phone": "+54 341 459-6911",
@@ -8649,8 +8648,9 @@
     "addr:street": "Avenida de Mayo",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farmacia",
+    "name": "Farmacia Rosendi",
     "source": "Reconocimiento cartográfico 2016 por KG",
+    "wheelchair": "no",
     "id": "way/466984681"
   },
   "geometry": {
@@ -22832,6 +22832,46 @@
         [
           -58.1838284,
           -34.8305268
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/549201079",
+  "properties": {
+    "addr:street": "Presidente Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia D'Alsina",
+    "id": "way/549201079"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4011417,
+          -34.6771094
+        ],
+        [
+          -58.4010304,
+          -34.6771905
+        ],
+        [
+          -58.4009686,
+          -34.6771332
+        ],
+        [
+          -58.40108,
+          -34.6770521
+        ],
+        [
+          -58.4011417,
+          -34.6771094
         ]
       ]
     ]
@@ -63145,8 +63185,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4900199,
-      -31.4162732
+      -64.4899954,
+      -31.4162941
     ]
   }
 },
@@ -91140,14 +91180,14 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "UOM",
+    "name": "UOM Alsina",
     "id": "node/4520034609"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4063884,
-      -34.6731606
+      -58.4064152,
+      -34.6731452
     ]
   }
 },
@@ -107017,8 +107057,13 @@
   "type": "Feature",
   "id": "node/5184849934",
   "properties": {
+    "addr:city": "Villa La Angostura",
+    "addr:housenumber": "6510",
+    "addr:postcode": "Q8407",
+    "addr:street": "Av. Los Arrayanes",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Puerto Manzano Farmacia",
     "id": "node/5184849934"
   },
   "geometry": {
@@ -109533,14 +109578,14 @@
     "addr:street": "Presidente Juan Domingo Perón",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Alsina",
+    "name": "Farmacia D'Alsina",
     "id": "node/5305215796"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4010304,
-      -34.6771756
+      -58.4010384,
+      -34.6771469
     ]
   }
 },
@@ -128013,15 +128058,20 @@
   "type": "Feature",
   "id": "node/6797832665",
   "properties": {
+    "addr:city": "Gerli",
+    "addr:housenumber": "1492",
+    "addr:street": "Avenida Remedios de Escalada de San Martín",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Nueva Marina",
     "id": "node/6797832665"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.400017,
-      -34.6845658
+      -58.4000432,
+      -34.6845291
     ]
   }
 },
@@ -128531,8 +128581,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4996877,
-      -31.4206844
+      -64.4997104,
+      -31.4206665
     ]
   }
 },
@@ -128591,16 +128641,21 @@
   "type": "Feature",
   "id": "node/6854097723",
   "properties": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "59",
+    "addr:postcode": "X5152",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Mondino",
+    "phone": "+54 (3541) 43-7326",
     "id": "node/6854097723"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4984606,
-      -31.420341
+      -64.4984396,
+      -31.4203783
     ]
   }
 },
@@ -141731,28 +141786,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8233387751",
-  "properties": {
-    "addr:city": "Villa La Angostura",
-    "addr:housenumber": "201",
-    "addr:postcode": "69Q4",
-    "addr:street": "Av. Siete Lagos",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia La Montaña",
-    "id": "node/8233387751"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -71.6435778,
-      -40.7620605
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8250188877",
   "properties": {
     "amenity": "pharmacy",
@@ -146256,7 +146289,13 @@
   "type": "Feature",
   "id": "node/9081308701",
   "properties": {
+    "addr:city": "Villa La Angostura",
+    "addr:housenumber": "745",
+    "addr:postcode": "Q8407",
+    "addr:street": "Avenida Siete Lagos",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Pharmacy 7 LAgos",
     "id": "node/9081308701"
   },
   "geometry": {
@@ -154423,6 +154462,100 @@
     "coordinates": [
       -57.5934032,
       -37.9676341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10174404758",
+  "properties": {
+    "addr:city": "Villa La Angostura",
+    "addr:housenumber": "501",
+    "addr:postcode": "Q8407",
+    "addr:street": "Primeros Pobladores",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "La Botica",
+    "id": "node/10174404758"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.6563249,
+      -40.765038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10174419618",
+  "properties": {
+    "addr:city": "Villa La Angostura",
+    "addr:housenumber": "207",
+    "addr:postcode": "Q8407",
+    "addr:street": "Av. Arrayanes",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia de la Montaña",
+    "id": "node/10174419618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.6435791,
+      -40.7620542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10174667016",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia San Jose",
+    "id": "node/10174667016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4041342,
+      -34.6748188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10179147520",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Galetto",
+    "id": "node/10179147520"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4300737,
+      -31.65645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10179175901",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/10179175901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4981039,
+      -31.6267472
     ]
   }
 }
