@@ -14438,6 +14438,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Santa Ana",
+    "opening_hours": "Mo-Su 00:00-24:00",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/471856738"
   },
@@ -24337,6 +24338,45 @@
 },
 {
   "type": "Feature",
+  "id": "way/555845329",
+  "properties": {
+    "addr:street": "Avenida Caraffa",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Sánchez Antoniolli",
+    "id": "way/555845329"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2112271,
+          -31.3881813
+        ],
+        [
+          -64.2111273,
+          -31.3882137
+        ],
+        [
+          -64.2110709,
+          -31.3880873
+        ],
+        [
+          -64.2111707,
+          -31.3880549
+        ],
+        [
+          -64.2112271,
+          -31.3881813
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/555862423",
   "properties": {
     "addr:street": "Avenida Ambrosio Olmos",
@@ -33652,45 +33692,6 @@
         [
           -71.3235962,
           -42.9126227
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/838350297",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Clemen",
-    "id": "way/838350297"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.495952,
-          -31.4280549
-        ],
-        [
-          -64.4958303,
-          -31.4281011
-        ],
-        [
-          -64.4957906,
-          -31.4280252
-        ],
-        [
-          -64.4959123,
-          -31.4279789
-        ],
-        [
-          -64.495952,
-          -31.4280549
         ]
       ]
     ]
@@ -63197,8 +63198,9 @@
     "addr2:street": "Avenida Naciones Unidas",
     "addr:city": "Villa María",
     "addr:housename": "FarmaVida",
+    "addr:housenumber": "299",
     "addr:postcode": "5900",
-    "addr:street": "Italia 299",
+    "addr:street": "Boulevard Italia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "FarmaVida Sucursal 2",
@@ -63219,7 +63221,7 @@
     "addr:housename": "San Lucas",
     "addr:housenumber": "346",
     "addr:postcode": "5900",
-    "addr:street": "Italia",
+    "addr:street": "Boulevard Italia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Lucas",
@@ -100751,8 +100753,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3795633,
-      -34.5950985
+      -58.3795673,
+      -34.5950632
     ]
   }
 },
@@ -154556,6 +154558,58 @@
     "coordinates": [
       -58.4981039,
       -31.6267472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10181645103",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/10181645103"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5977488,
+      -34.6649386
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10183919887",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/10183919887"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.673024,
+      -27.490053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10183973301",
+  "properties": {
+    "addr:city": "Gancedo",
+    "addr:postcode": "3734",
+    "addr:street": "Avenida Argentina",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Gancedo",
+    "ref:sisa_codigo": "70220362326946",
+    "id": "node/10183973301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.6752336,
+      -27.4896375
     ]
   }
 }

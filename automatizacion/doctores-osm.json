@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-13T12:51:23Z",
-    "timestamp_areas_base": "2022-11-13T12:10:39Z",
+    "timestamp_osm_base": "2022-11-19T10:35:09Z",
+    "timestamp_areas_base": "2022-11-19T10:20:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18245,7 +18245,8 @@
     "healthcare": "doctor",
     "healthcare:speciality": "vaccination",
     "name": "Vacunatorio RosVac",
-    "operator": "La Cardera"
+    "operator": "La Cardera",
+    "wheelchair": "yes"
   }
 },
 {
@@ -22390,7 +22391,8 @@
     "healthcare": "doctor",
     "healthcare:speciality": "plastic_surgery;surgery",
     "name": "Cirugía Estética Funes",
-    "short_name": "CEF"
+    "short_name": "CEF",
+    "wheelchair": "yes"
   }
 },
 {
@@ -22558,6 +22560,8 @@
     10117163671,
     10117163672,
     9980377376,
+    10188988172,
+    10188988174,
     9980377377,
     10117163673,
     10117163674,
@@ -22607,6 +22611,57 @@
     "building:levels": "6",
     "healthcare": "doctor",
     "name": "Instituto Médico DAMIC (Docencia Asistencia Médica e Investigación Clínica) | D.A.M.I.C. S.R.L."
+  }
+},
+{
+  "type": "way",
+  "id": 1115003241,
+  "nodes": [
+    10197891281,
+    10197891280,
+    10197891279,
+    10197891278,
+    10197891281
+  ],
+  "tags": {
+    "addr:housenumber": "2825",
+    "addr:postcode": "5014",
+    "addr:street": "Onofrio Palamara",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "community",
+    "name": "Dispensario nro 75",
+    "operator": "Municipalidad de Córdoba",
+    "operator:type": "public",
+    "phone": "+54 351 4334357"
+  }
+},
+{
+  "type": "way",
+  "id": 1115003242,
+  "nodes": [
+    10197891285,
+    10197891284,
+    10197891283,
+    10197891282,
+    10197891285
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:full": "Bustos Y Ferreyra 3100",
+    "addr:housenumber": "3100",
+    "addr:postcode": "5000",
+    "addr:street": "Bustos y Ferreyra",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "community",
+    "name": "Centro De Salud 39 - Barrio Ferrer",
+    "operator": "Municipal",
+    "operator:type": "public",
+    "phone": "0351-4334355",
+    "ref:sisa_codigo": "50140142233258",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -23793,14 +23848,14 @@
 {
   "type": "node",
   "id": 9980377376,
-  "lat": -31.7286156,
-  "lon": -64.4295261
+  "lat": -31.7286297,
+  "lon": -64.4295353
 },
 {
   "type": "node",
   "id": 9980377377,
-  "lat": -31.7285774,
-  "lon": -64.4296074
+  "lat": -31.7285896,
+  "lon": -64.4296153
 },
 {
   "type": "node",
@@ -23882,6 +23937,18 @@
 },
 {
   "type": "node",
+  "id": 10188988172,
+  "lat": -31.7286156,
+  "lon": -64.4295261
+},
+{
+  "type": "node",
+  "id": 10188988174,
+  "lat": -31.7285774,
+  "lon": -64.4296074
+},
+{
+  "type": "node",
   "id": 5560821399,
   "lat": -31.4482495,
   "lon": -64.2056499
@@ -23903,6 +23970,30 @@
   "id": 5560821401,
   "lat": -31.4481156,
   "lon": -64.2055325
+},
+{
+  "type": "node",
+  "id": 10197891282,
+  "lat": -31.4452547,
+  "lon": -64.2107360
+},
+{
+  "type": "node",
+  "id": 10197891283,
+  "lat": -31.4452456,
+  "lon": -64.2106039
+},
+{
+  "type": "node",
+  "id": 10197891284,
+  "lat": -31.4451890,
+  "lon": -64.2106093
+},
+{
+  "type": "node",
+  "id": 10197891285,
+  "lat": -31.4451981,
+  "lon": -64.2107414
 },
 {
   "type": "node",
@@ -23933,6 +24024,30 @@
   "id": 7340922831,
   "lat": -31.7733952,
   "lon": -63.8104489
+},
+{
+  "type": "node",
+  "id": 10197891278,
+  "lat": -31.4641999,
+  "lon": -64.1600629
+},
+{
+  "type": "node",
+  "id": 10197891279,
+  "lat": -31.4642005,
+  "lon": -64.1599770
+},
+{
+  "type": "node",
+  "id": 10197891280,
+  "lat": -31.4640458,
+  "lon": -64.1599754
+},
+{
+  "type": "node",
+  "id": 10197891281,
+  "lat": -31.4640452,
+  "lon": -64.1600612
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-13T12:46:14Z",
-    "timestamp_areas_base": "2022-11-13T12:10:39Z",
+    "timestamp_osm_base": "2022-11-19T10:30:09Z",
+    "timestamp_areas_base": "2022-11-19T10:20:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16188,8 +16188,9 @@
     "addr2:street": "Avenida Naciones Unidas",
     "addr:city": "Villa María",
     "addr:housename": "FarmaVida",
+    "addr:housenumber": "299",
     "addr:postcode": "5900",
-    "addr:street": "Italia 299",
+    "addr:street": "Boulevard Italia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "FarmaVida Sucursal 2"
@@ -16204,7 +16205,7 @@
     "addr:housename": "San Lucas",
     "addr:housenumber": "346",
     "addr:postcode": "5900",
-    "addr:street": "Italia",
+    "addr:street": "Boulevard Italia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Lucas"
@@ -41795,8 +41796,8 @@
 {
   "type": "node",
   "id": 4698243466,
-  "lat": -34.5950985,
-  "lon": -58.3795633,
+  "lat": -34.5950632,
+  "lon": -58.3795673,
   "tags": {
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
@@ -79079,6 +79080,40 @@
   }
 },
 {
+  "type": "node",
+  "id": 10181645103,
+  "lat": -34.6649386,
+  "lon": -58.5977488,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10183919887,
+  "lat": -27.4900530,
+  "lon": -61.6730240,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10183973301,
+  "lat": -27.4896375,
+  "lon": -61.6752336,
+  "tags": {
+    "addr:city": "Gancedo",
+    "addr:postcode": "3734",
+    "addr:street": "Avenida Argentina",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Gancedo",
+    "ref:sisa_codigo": "70220362326946"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -85781,6 +85816,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Santa Ana",
+    "opening_hours": "Mo-Su 00:00-24:00",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -90386,6 +90422,24 @@
 },
 {
   "type": "way",
+  "id": 555845329,
+  "nodes": [
+    5362342593,
+    5362342590,
+    5362342591,
+    5362342592,
+    5362342593
+  ],
+  "tags": {
+    "addr:street": "Avenida Caraffa",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Sánchez Antoniolli"
+  }
+},
+{
+  "type": "way",
   "id": 555862423,
   "nodes": [
     5362538065,
@@ -94658,24 +94712,6 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Social"
-  }
-},
-{
-  "type": "way",
-  "id": 838350297,
-  "nodes": [
-    7824245809,
-    7824245810,
-    7824245811,
-    7824245812,
-    7824245809
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Clemen"
   }
 },
 {
@@ -103509,30 +103545,6 @@
 },
 {
   "type": "node",
-  "id": 7824245809,
-  "lat": -31.4280549,
-  "lon": -64.4959520
-},
-{
-  "type": "node",
-  "id": 7824245810,
-  "lat": -31.4279789,
-  "lon": -64.4959123
-},
-{
-  "type": "node",
-  "id": 7824245811,
-  "lat": -31.4280252,
-  "lon": -64.4957906
-},
-{
-  "type": "node",
-  "id": 7824245812,
-  "lat": -31.4281011,
-  "lon": -64.4958303
-},
-{
-  "type": "node",
   "id": 9431312080,
   "lat": -31.2413193,
   "lon": -64.4661580
@@ -104634,6 +104646,30 @@
   "id": 3186530285,
   "lat": -31.3642352,
   "lon": -64.2254615
+},
+{
+  "type": "node",
+  "id": 5362342590,
+  "lat": -31.3880549,
+  "lon": -64.2111707
+},
+{
+  "type": "node",
+  "id": 5362342591,
+  "lat": -31.3880873,
+  "lon": -64.2110709
+},
+{
+  "type": "node",
+  "id": 5362342592,
+  "lat": -31.3882137,
+  "lon": -64.2111273
+},
+{
+  "type": "node",
+  "id": 5362342593,
+  "lat": -31.3881813,
+  "lon": -64.2112271
 },
 {
   "type": "node",

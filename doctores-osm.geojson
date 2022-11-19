@@ -8157,6 +8157,7 @@
     "healthcare:speciality": "plastic_surgery;surgery",
     "name": "Cirugía Estética Funes",
     "short_name": "CEF",
+    "wheelchair": "yes",
     "id": "way/995330672"
   },
   "geometry": {
@@ -8574,12 +8575,20 @@
           -31.7286467
         ],
         [
+          -64.4295353,
+          -31.7286297
+        ],
+        [
           -64.4295261,
           -31.7286156
         ],
         [
           -64.4296074,
           -31.7285774
+        ],
+        [
+          -64.4296153,
+          -31.7285896
         ],
         [
           -64.4296277,
@@ -8702,6 +8711,99 @@
         [
           -64.2100152,
           -31.4060941
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1115003241",
+  "properties": {
+    "addr:housenumber": "2825",
+    "addr:postcode": "5014",
+    "addr:street": "Onofrio Palamara",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "community",
+    "name": "Dispensario nro 75",
+    "operator": "Municipalidad de Córdoba",
+    "operator:type": "public",
+    "phone": "+54 351 4334357",
+    "id": "way/1115003241"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.1600612,
+          -31.4640452
+        ],
+        [
+          -64.1600629,
+          -31.4641999
+        ],
+        [
+          -64.159977,
+          -31.4642005
+        ],
+        [
+          -64.1599754,
+          -31.4640458
+        ],
+        [
+          -64.1600612,
+          -31.4640452
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1115003242",
+  "properties": {
+    "addr:city": "Córdoba",
+    "addr:full": "Bustos Y Ferreyra 3100",
+    "addr:housenumber": "3100",
+    "addr:postcode": "5000",
+    "addr:street": "Bustos y Ferreyra",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "community",
+    "name": "Centro De Salud 39 - Barrio Ferrer",
+    "operator": "Municipal",
+    "operator:type": "public",
+    "phone": "0351-4334355",
+    "ref:sisa_codigo": "50140142233258",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "way/1115003242"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2107414,
+          -31.4451981
+        ],
+        [
+          -64.210736,
+          -31.4452547
+        ],
+        [
+          -64.2106039,
+          -31.4452456
+        ],
+        [
+          -64.2106093,
+          -31.445189
+        ],
+        [
+          -64.2107414,
+          -31.4451981
         ]
       ]
     ]
@@ -34179,6 +34281,7 @@
     "healthcare:speciality": "vaccination",
     "name": "Vacunatorio RosVac",
     "operator": "La Cardera",
+    "wheelchair": "yes",
     "id": "node/9483371126"
   },
   "geometry": {

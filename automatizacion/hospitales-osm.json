@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-13T12:35:09Z",
-    "timestamp_areas_base": "2022-11-13T11:25:05Z",
+    "timestamp_osm_base": "2022-11-19T10:18:52Z",
+    "timestamp_areas_base": "2022-11-19T09:19:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2146,7 +2146,7 @@
     "addr:city": "Villa María",
     "addr:housenumber": "1280",
     "addr:postcode": "5900",
-    "addr:street": "Santa Fé",
+    "addr:street": "Santa Fe",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "INEDI - Instituto de Neurociencias del Desarrollo Integral",
@@ -9605,6 +9605,8 @@
   "lat": -27.4870248,
   "lon": -61.6790276,
   "tags": {
+    "addr:city": "Gancedo",
+    "addr:street": "Alejandro Chamut",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Puesto Sanitario"
@@ -13822,20 +13824,6 @@
 },
 {
   "type": "node",
-  "id": 5187465763,
-  "lat": -31.4641687,
-  "lon": -64.1600533,
-  "tags": {
-    "addr:postcode": "5014",
-    "addr:street": "Onofrio Palamara",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "healthcare:speciality": "community",
-    "name": "Dispensario"
-  }
-},
-{
-  "type": "node",
   "id": 5189484422,
   "lat": -32.1791811,
   "lon": -64.1068203,
@@ -17493,9 +17481,10 @@
   "lat": -36.6053028,
   "lon": -64.2775750,
   "tags": {
+    "addr:street": "Carlos Gardel",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Crto. Salud Dra. M. Viola Aerop"
+    "name": "Crto. Salud Barrio Aeropuerto Dra. M. Viola"
   }
 },
 {
@@ -21980,6 +21969,7 @@
     "healthcare": "hospital",
     "name": "Hospital de Capioví \"Hermana Luitpolda S.E.S.\"",
     "official_name": "Hospital de Capioví Hermana Luitpolda SES Nivel I",
+    "phone": "+54 3743 493299",
     "ref:ZonaSanitaria": "Centro Paraná",
     "ref:cuie_codigo": "N05168",
     "ref:nivel": "I",
@@ -38937,6 +38927,7 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Británico de Buenos Aires",
+    "name:en": "British Hospital of Buenos Aires",
     "operator": "Hospital Británico de Buenos Aires Asociación Civil",
     "operator:type": "private",
     "phone": "+541143041081;+541143096400",
@@ -40218,34 +40209,6 @@
     "operator:type": "private",
     "ref:sisa_codigo": "10064272305643",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "way",
-  "id": 477766273,
-  "nodes": [
-    4710697163,
-    4710697167,
-    6330018724,
-    6330018725,
-    6330018726,
-    4710697172,
-    4710697168,
-    4710697169,
-    6330018720,
-    6330018721,
-    6330018722,
-    6330018723,
-    4710697163
-  ],
-  "tags": {
-    "addr:city": "Ciudad de Buenos Aires",
-    "addr:street": "Avenida Belgrano",
-    "amenity": "hospital",
-    "building": "yes",
-    "healthcare": "hospital",
-    "name": "Confederacion Medica de La Republica Argentina",
-    "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
 {
@@ -41925,7 +41888,7 @@
   "tags": {
     "addr:postcode": "S2132",
     "addr:street": "Domingo Faustino Sarmiento",
-    "alt_name": "Dispensario Houssay",
+    "alt_name": "Centro de Salud Doctor Bernardo Houssay",
     "amenity": "hospital",
     "contact:phone": "+54 341 493-6010;+54 341 493-6005",
     "dispensing": "yes",
@@ -41934,14 +41897,17 @@
     "healthcare": "hospital",
     "healthcare:speciality": "blood_check;cardiology;clinical_pathology;community;general",
     "insurance:health": "private;public",
-    "name": "Doctor Bernardo Houssay",
+    "loc_name": "Dispensario Houssay",
+    "name": "Hospital Doctor Bernardo Houssay",
     "name:etymology:wikidata": "Q237160",
+    "official_name": "Centro de Asistencia Pública de Salud Doctor Bernardo Houssay",
     "opening_hours": "24/7",
     "operational_status": "operational",
     "operator": "Municipalidad de Funes",
     "operator:type": "public",
     "ref:sisa_codigo": "50820842284644",
     "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "Houssay",
     "start_date": "1967-12-17",
     "wheelchair": "yes",
     "wikimedia_commons": "File:Centro de Salud Dr Houssay (Funes).jpg"
@@ -43354,6 +43320,7 @@
   "nodes": [
     5610558115,
     5610558114,
+    10181738629,
     5610558113,
     5610558111,
     5610558110,
@@ -43369,15 +43336,14 @@
   ],
   "tags": {
     "addr:city": "Morón",
-    "addr:full": "Doctor Rodolfo Monte 848",
     "addr:housenumber": "848",
     "addr:postcode": "1708",
     "addr:street": "Doctor Rodolfo Monte",
+    "alt_name": "Hospital Municipal",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal Ostaciana B. De Lavignole",
-    "name:es": "Hospital Municipal",
-    "operator": "Municipal",
+    "name": "Hospital Municipal Ostaciana B. de Lavignole",
+    "operator": "Municipalidad de Morón",
     "operator:type": "public",
     "phone": "+54 11 46289602",
     "phone:AR": "0800-555-5588",
@@ -89675,7 +89641,7 @@
 {
   "type": "node",
   "id": 5610558115,
-  "lat": -34.6589181,
+  "lat": -34.6589424,
   "lon": -58.6106296
 },
 {
@@ -89687,8 +89653,14 @@
 {
   "type": "node",
   "id": 5610558114,
-  "lat": -34.6583864,
-  "lon": -58.6099832
+  "lat": -34.6584096,
+  "lon": -58.6099899
+},
+{
+  "type": "node",
+  "id": 10181738629,
+  "lat": -34.6584123,
+  "lon": -58.6099182
 },
 {
   "type": "node",
@@ -94855,78 +94827,6 @@
   "id": 6334685573,
   "lat": -34.6144391,
   "lon": -58.3911494
-},
-{
-  "type": "node",
-  "id": 4710697163,
-  "lat": -34.6131963,
-  "lon": -58.3838771
-},
-{
-  "type": "node",
-  "id": 4710697167,
-  "lat": -34.6131866,
-  "lon": -58.3837260
-},
-{
-  "type": "node",
-  "id": 4710697168,
-  "lat": -34.6129106,
-  "lon": -58.3837447
-},
-{
-  "type": "node",
-  "id": 4710697169,
-  "lat": -34.6129174,
-  "lon": -58.3838937
-},
-{
-  "type": "node",
-  "id": 4710697172,
-  "lat": -34.6129813,
-  "lon": -58.3837441
-},
-{
-  "type": "node",
-  "id": 6330018720,
-  "lat": -34.6130124,
-  "lon": -58.3838884
-},
-{
-  "type": "node",
-  "id": 6330018721,
-  "lat": -34.6130109,
-  "lon": -58.3838483
-},
-{
-  "type": "node",
-  "id": 6330018722,
-  "lat": -34.6131219,
-  "lon": -58.3838423
-},
-{
-  "type": "node",
-  "id": 6330018723,
-  "lat": -34.6131234,
-  "lon": -58.3838816
-},
-{
-  "type": "node",
-  "id": 6330018724,
-  "lat": -34.6130514,
-  "lon": -58.3837379
-},
-{
-  "type": "node",
-  "id": 6330018725,
-  "lat": -34.6130533,
-  "lon": -58.3837902
-},
-{
-  "type": "node",
-  "id": 6330018726,
-  "lat": -34.6129816,
-  "lon": -58.3837941
 },
 {
   "type": "node",
