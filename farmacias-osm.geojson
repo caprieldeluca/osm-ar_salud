@@ -18553,6 +18553,8 @@
   "id": "way/476841710",
   "properties": {
     "addr:city": "Buenos Aires",
+    "addr:housenumber": "2676",
+    "addr:street": "Avenida Independencia",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
@@ -18560,6 +18562,8 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "website": "https://farmacity.com/",
     "id": "way/476841710"
   },
   "geometry": {
@@ -38763,7 +38767,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "operator": "Farmacias Global S.H.",
+    "operator": "Apteek S.R.L.",
     "id": "way/1073254842"
   },
   "geometry": {
@@ -39465,6 +39469,52 @@
         [
           -60.8106361,
           -32.9184362
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1118740959",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "774",
+    "addr:postcode": "Q8300",
+    "addr:street": "Presidente Arturo Illia",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "6",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "id": "way/1118740959"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0452357,
+          -38.9466988
+        ],
+        [
+          -68.0453841,
+          -38.9466991
+        ],
+        [
+          -68.0453836,
+          -38.946826
+        ],
+        [
+          -68.0452352,
+          -38.9468257
+        ],
+        [
+          -68.0452357,
+          -38.9466988
         ]
       ]
     ]
@@ -44867,7 +44917,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "operator": "Farmacias Global S.H.",
+    "operator": "Apteek S.R.L.",
     "id": "node/1374389776"
   },
   "geometry": {
@@ -61205,11 +61255,13 @@
     "addr:postcode": "3300",
     "addr:street": "Avenida Tambor de Tacuarí",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2022-12-01",
     "email": "farmacia_elremedio@hotmail.com",
     "healthcare": "pharmacy",
     "name": "Farmacom I",
     "opening_hours": "Mo-Sa 08:00-13:00,18:00-22:00",
     "phone": "+54 376 4432711",
+    "wheelchair": "yes",
     "id": "node/2657351470"
   },
   "geometry": {
@@ -75985,6 +76037,7 @@
     "addr:postcode": "Q8300",
     "addr:street": "Presidente Arturo Humberto Illia",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Alpina",
@@ -102483,8 +102536,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "name:es": "Farmacia global",
-    "operator": "Farmacias Global S.H.",
+    "operator": "Apteek S.R.L.",
     "id": "node/4713381690"
   },
   "geometry": {
@@ -126708,14 +126760,15 @@
   "id": "node/6514081419",
   "properties": {
     "addr:city": "Neuquén",
-    "addr:housenumber": "215",
+    "addr:housenumber": "231",
     "addr:postcode": "Q8300",
     "addr:street": "Avenida Doctor Luis Ramón",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Global",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
     "id": "node/6514081419"
   },
   "geometry": {
@@ -140554,17 +140607,22 @@
   "type": "Feature",
   "id": "node/7882316416",
   "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "145",
+    "addr:postcode": "Q8300",
+    "addr:street": "Tucumán",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia AMPSAS",
+    "operator": "Asociación Mutual del Personal de la Subsecretaría de Acción Social",
     "id": "node/7882316416"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0519849,
-      -38.9535349
+      -68.0519692,
+      -38.9535308
     ]
   }
 },
@@ -140694,6 +140752,10 @@
   "type": "Feature",
   "id": "node/7885469783",
   "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "534",
+    "addr:postcode": "Q8300",
+    "addr:street": "Ministro Joaquín González",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -140703,8 +140765,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0515692,
-      -38.9517579
+      -68.0515598,
+      -38.9517672
     ]
   }
 },
@@ -153135,7 +153197,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "operator": "Farmacias Global S.H.",
+    "operator": "Apteek S.R.L.",
     "id": "node/9982750682"
   },
   "geometry": {
@@ -153655,8 +153717,10 @@
     "addr:street": "Fotheringham",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Alpina",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
     "id": "node/10079032083"
   },
   "geometry": {
@@ -154561,6 +154625,72 @@
     "coordinates": [
       -68.7568241,
       -32.9044474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10224746905",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "91",
+    "addr:postcode": "Q8300",
+    "addr:street": "Diagonal España",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "id": "node/10224746905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0577482,
+      -38.9499954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10230958018",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Asame",
+    "phone": "+54 11 4735-0603",
+    "id": "node/10230958018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5314954,
+      -34.5129468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231747106",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "993",
+    "addr:postcode": "Q8300",
+    "addr:street": "José Rosa",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "id": "node/10231747106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0496845,
+      -38.965074
     ]
   }
 }

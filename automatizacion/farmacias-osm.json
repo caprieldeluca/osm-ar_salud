@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-28T21:53:09Z",
-    "timestamp_areas_base": "2022-11-28T21:39:54Z",
+    "timestamp_osm_base": "2022-12-02T20:02:37Z",
+    "timestamp_areas_base": "2022-12-02T18:01:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3673,7 +3673,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "operator": "Farmacias Global S.H."
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -14809,11 +14809,13 @@
     "addr:postcode": "3300",
     "addr:street": "Avenida Tambor de Tacuarí",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2022-12-01",
     "email": "farmacia_elremedio@hotmail.com",
     "healthcare": "pharmacy",
     "name": "Farmacom I",
     "opening_hours": "Mo-Sa 08:00-13:00,18:00-22:00",
-    "phone": "+54 376 4432711"
+    "phone": "+54 376 4432711",
+    "wheelchair": "yes"
   }
 },
 {
@@ -24885,6 +24887,7 @@
     "addr:postcode": "Q8300",
     "addr:street": "Presidente Arturo Humberto Illia",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Alpina"
@@ -43037,8 +43040,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "name:es": "Farmacia global",
-    "operator": "Farmacias Global S.H."
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -59498,14 +59500,15 @@
   "lon": -68.0626388,
   "tags": {
     "addr:city": "Neuquén",
-    "addr:housenumber": "215",
+    "addr:housenumber": "231",
     "addr:postcode": "Q8300",
     "addr:street": "Avenida Doctor Luis Ramón",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Global"
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -69291,13 +69294,18 @@
 {
   "type": "node",
   "id": 7882316416,
-  "lat": -38.9535349,
-  "lon": -68.0519849,
+  "lat": -38.9535308,
+  "lon": -68.0519692,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "145",
+    "addr:postcode": "Q8300",
+    "addr:street": "Tucumán",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia AMPSAS"
+    "name": "Farmacia AMPSAS",
+    "operator": "Asociación Mutual del Personal de la Subsecretaría de Acción Social"
   }
 },
 {
@@ -69389,9 +69397,13 @@
 {
   "type": "node",
   "id": 7885469783,
-  "lat": -38.9517579,
-  "lon": -68.0515692,
+  "lat": -38.9517672,
+  "lon": -68.0515598,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "534",
+    "addr:postcode": "Q8300",
+    "addr:street": "Ministro Joaquín González",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -78113,7 +78125,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "operator": "Farmacias Global S.H."
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -78477,8 +78489,10 @@
     "addr:street": "Fotheringham",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Alpina"
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -79112,6 +79126,54 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Farmacia San Javier"
+  }
+},
+{
+  "type": "node",
+  "id": 10224746905,
+  "lat": -38.9499954,
+  "lon": -68.0577482,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "91",
+    "addr:postcode": "Q8300",
+    "addr:street": "Diagonal España",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L."
+  }
+},
+{
+  "type": "node",
+  "id": 10230958018,
+  "lat": -34.5129468,
+  "lon": -58.5314954,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Asame",
+    "phone": "+54 11 4735-0603"
+  }
+},
+{
+  "type": "node",
+  "id": 10231747106,
+  "lat": -38.9650740,
+  "lon": -68.0496845,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "993",
+    "addr:postcode": "Q8300",
+    "addr:street": "José Rosa",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -87733,13 +87795,17 @@
   ],
   "tags": {
     "addr:city": "Buenos Aires",
+    "addr:housenumber": "2676",
+    "addr:street": "Avenida Independencia",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "opening_hours": "24/7",
+    "website": "https://farmacity.com/"
   }
 },
 {
@@ -97079,7 +97145,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
-    "operator": "Farmacias Global S.H."
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -97393,6 +97459,31 @@
     "name": "Marchetti",
     "roof:levels": "1",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1118740959,
+  "nodes": [
+    9760853426,
+    9760853429,
+    10231747101,
+    10231747102,
+    9760853426
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "774",
+    "addr:postcode": "Q8300",
+    "addr:street": "Presidente Arturo Illia",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "6",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L."
   }
 },
 {
@@ -99422,6 +99513,30 @@
   "id": 9864615331,
   "lat": -38.9599270,
   "lon": -68.0394321
+},
+{
+  "type": "node",
+  "id": 9760853426,
+  "lat": -38.9466988,
+  "lon": -68.0452357
+},
+{
+  "type": "node",
+  "id": 9760853429,
+  "lat": -38.9468257,
+  "lon": -68.0452352
+},
+{
+  "type": "node",
+  "id": 10231747101,
+  "lat": -38.9468260,
+  "lon": -68.0453836
+},
+{
+  "type": "node",
+  "id": 10231747102,
+  "lat": -38.9466991,
+  "lon": -68.0453841
 },
 {
   "type": "node",

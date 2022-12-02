@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-11-28T21:41:51Z",
-    "timestamp_areas_base": "2022-11-28T21:10:25Z",
+    "timestamp_osm_base": "2022-12-02T19:51:24Z",
+    "timestamp_areas_base": "2022-12-02T18:01:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8663,7 +8663,7 @@
     "addr:city": "Villa Santa Rosa",
     "addr:housenumber": "548",
     "addr:postcode": "5133",
-    "addr:street": "Moises Quinteros",
+    "addr:street": "Moisés Quinteros",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Ramón B. Mestre",
@@ -10038,7 +10038,7 @@
   "lat": -31.2153759,
   "lon": -64.3504201,
   "tags": {
-    "addr:street": "Avenida 5 de octubre",
+    "addr:street": "Avenida 5 de Octubre",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital"
@@ -12272,19 +12272,8 @@
 {
   "type": "node",
   "id": 4476496660,
-  "lat": -33.2247610,
-  "lon": -68.3257095,
-  "tags": {
-    "addr:street": "Los Otoyanes",
-    "amenity": "hospital",
-    "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 4476514848,
-  "lat": -33.2247615,
-  "lon": -68.3257013,
+  "lat": -33.2247613,
+  "lon": -68.3257054,
   "tags": {
     "addr:street": "Los Otoyanes",
     "amenity": "hospital",
@@ -14607,12 +14596,15 @@
   "tags": {
     "addr:city": "presidente derqui",
     "addr:housenumber": "239",
+    "addr:postcode": "1635",
     "addr:street": "Iparraguirre",
     "amenity": "hospital",
     "healthcare": "hospital",
     "internet_access": "wlan",
     "name": "Hospital materno infantil Meisner",
-    "opening_hours": "24/7"
+    "opening_hours": "24/7",
+    "ref:sisa_codigo": "12066382200552",
+    "ref:sisa_tipologia": "ESCIEM"
   }
 },
 {
@@ -47960,30 +47952,6 @@
 },
 {
   "type": "way",
-  "id": 815582752,
-  "nodes": [
-    7617028246,
-    7617028247,
-    7617028248,
-    7617028249,
-    7617028250,
-    7617028246
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "450",
-    "addr:postcode": "Q8300",
-    "addr:street": "Buenos Aires",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Provincial Doctor Castro Rendón",
-    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
-    "operator:type": "public"
-  }
-},
-{
-  "type": "way",
   "id": 823939934,
   "nodes": [
     7692784211,
@@ -53084,6 +53052,63 @@
   }
 },
 {
+  "type": "way",
+  "id": 1118146003,
+  "nodes": [
+    10226328961,
+    10226328960,
+    10226328948,
+    10226328947,
+    10226328946,
+    10226328945,
+    10226328944,
+    10226328943,
+    10226328997,
+    10226328993,
+    10226328994,
+    10226328996,
+    10226328938,
+    10226306680,
+    10226306681,
+    10226306682,
+    10226306683,
+    10226306691,
+    10226306696,
+    10226306697,
+    10226306698,
+    10226306694,
+    10226328989,
+    10226328990,
+    10226328991,
+    10226328984,
+    10226328983,
+    10226328985,
+    10226328986,
+    10226328969,
+    10226328951,
+    10226328950,
+    10226328949,
+    10226328965,
+    10226328966,
+    10226328962,
+    10226328961
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "450",
+    "addr:postcode": "Q8300",
+    "addr:street": "Buenos Aires",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Provincial Neuquén \"Doctor Eduardo Castro Rendón\"",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 299 449-0800",
+    "website": "https://www.hospitalneuquen.org.ar/"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -53342,6 +53367,11 @@
   "type": "relation",
   "id": 8364389,
   "members": [
+    {
+      "type": "way",
+      "ref": 595197777,
+      "role": "inner"
+    },
     {
       "type": "way",
       "ref": 595197731,
@@ -58242,33 +58272,219 @@
 },
 {
   "type": "node",
-  "id": 7617028246,
-  "lat": -38.9507078,
-  "lon": -68.0575390
+  "id": 10226306680,
+  "lat": -38.9506667,
+  "lon": -68.0565057
 },
 {
   "type": "node",
-  "id": 7617028247,
-  "lat": -38.9507377,
-  "lon": -68.0562292
+  "id": 10226306681,
+  "lat": -38.9506670,
+  "lon": -68.0563850
 },
 {
   "type": "node",
-  "id": 7617028248,
-  "lat": -38.9497422,
-  "lon": -68.0562884
+  "id": 10226306682,
+  "lat": -38.9506412,
+  "lon": -68.0563515
 },
 {
   "type": "node",
-  "id": 7617028249,
-  "lat": -38.9497070,
+  "id": 10226306683,
+  "lat": -38.9501324,
+  "lon": -68.0563392
+},
+{
+  "type": "node",
+  "id": 10226306691,
+  "lat": -38.9499470,
+  "lon": -68.0563348
+},
+{
+  "type": "node",
+  "id": 10226306694,
+  "lat": -38.9497794,
+  "lon": -68.0569456
+},
+{
+  "type": "node",
+  "id": 10226306696,
+  "lat": -38.9498686,
+  "lon": -68.0563329
+},
+{
+  "type": "node",
+  "id": 10226306697,
+  "lat": -38.9498084,
+  "lon": -68.0563314
+},
+{
+  "type": "node",
+  "id": 10226306698,
+  "lat": -38.9497818,
+  "lon": -68.0563632
+},
+{
+  "type": "node",
+  "id": 10226328938,
+  "lat": -38.9506661,
+  "lon": -68.0567482
+},
+{
+  "type": "node",
+  "id": 10226328943,
+  "lat": -38.9506654,
+  "lon": -68.0569488
+},
+{
+  "type": "node",
+  "id": 10226328944,
+  "lat": -38.9506651,
+  "lon": -68.0571648
+},
+{
+  "type": "node",
+  "id": 10226328945,
+  "lat": -38.9506333,
+  "lon": -68.0572072
+},
+{
+  "type": "node",
+  "id": 10226328946,
+  "lat": -38.9506332,
+  "lon": -68.0572672
+},
+{
+  "type": "node",
+  "id": 10226328947,
+  "lat": -38.9506649,
+  "lon": -68.0572673
+},
+{
+  "type": "node",
+  "id": 10226328948,
+  "lat": -38.9506645,
+  "lon": -68.0574538
+},
+{
+  "type": "node",
+  "id": 10226328949,
+  "lat": -38.9503152,
+  "lon": -68.0574527
+},
+{
+  "type": "node",
+  "id": 10226328950,
+  "lat": -38.9503151,
+  "lon": -68.0574806
+},
+{
+  "type": "node",
+  "id": 10226328951,
+  "lat": -38.9502726,
+  "lon": -68.0574807
+},
+{
+  "type": "node",
+  "id": 10226328960,
+  "lat": -38.9506438,
+  "lon": -68.0574538
+},
+{
+  "type": "node",
+  "id": 10226328961,
+  "lat": -38.9506438,
+  "lon": -68.0574795
+},
+{
+  "type": "node",
+  "id": 10226328962,
+  "lat": -38.9506224,
+  "lon": -68.0574796
+},
+{
+  "type": "node",
+  "id": 10226328965,
+  "lat": -38.9505691,
+  "lon": -68.0574535
+},
+{
+  "type": "node",
+  "id": 10226328966,
+  "lat": -38.9505691,
+  "lon": -68.0574797
+},
+{
+  "type": "node",
+  "id": 10226328969,
+  "lat": -38.9500927,
+  "lon": -68.0574813
+},
+{
+  "type": "node",
+  "id": 10226328983,
+  "lat": -38.9499095,
+  "lon": -68.0574819
+},
+{
+  "type": "node",
+  "id": 10226328984,
+  "lat": -38.9498381,
   "lon": -68.0574821
 },
 {
   "type": "node",
-  "id": 7617028250,
-  "lat": -38.9497942,
-  "lon": -68.0575248
+  "id": 10226328985,
+  "lat": -38.9499570,
+  "lon": -68.0574817
+},
+{
+  "type": "node",
+  "id": 10226328986,
+  "lat": -38.9500564,
+  "lon": -68.0574814
+},
+{
+  "type": "node",
+  "id": 10226328989,
+  "lat": -38.9497791,
+  "lon": -68.0570247
+},
+{
+  "type": "node",
+  "id": 10226328990,
+  "lat": -38.9497774,
+  "lon": -68.0574280
+},
+{
+  "type": "node",
+  "id": 10226328991,
+  "lat": -38.9498172,
+  "lon": -68.0574822
+},
+{
+  "type": "node",
+  "id": 10226328993,
+  "lat": -38.9506656,
+  "lon": -68.0568840
+},
+{
+  "type": "node",
+  "id": 10226328994,
+  "lat": -38.9506658,
+  "lon": -68.0568126
+},
+{
+  "type": "node",
+  "id": 10226328996,
+  "lat": -38.9506660,
+  "lon": -68.0567798
+},
+{
+  "type": "node",
+  "id": 10226328997,
+  "lat": -38.9506655,
+  "lon": -68.0569164
 },
 {
   "type": "node",
@@ -84657,6 +84873,48 @@
   "id": 5673283698,
   "lat": -37.1591995,
   "lon": -58.4904512
+},
+{
+  "type": "node",
+  "id": 5673283865,
+  "lat": -37.1587861,
+  "lon": -58.4904667
+},
+{
+  "type": "node",
+  "id": 5673283866,
+  "lat": -37.1586963,
+  "lon": -58.4903661
+},
+{
+  "type": "node",
+  "id": 5673283867,
+  "lat": -37.1587551,
+  "lon": -58.4902829
+},
+{
+  "type": "node",
+  "id": 5673283868,
+  "lat": -37.1588737,
+  "lon": -58.4904090
+},
+{
+  "type": "node",
+  "id": 5673283869,
+  "lat": -37.1588566,
+  "lon": -58.4904372
+},
+{
+  "type": "node",
+  "id": 5673283870,
+  "lat": -37.1588416,
+  "lon": -58.4904358
+},
+{
+  "type": "node",
+  "id": 5673283871,
+  "lat": -37.1588277,
+  "lon": -58.4904680
 },
 {
   "type": "node",
@@ -116025,6 +116283,20 @@
     5673283625,
     5673283626,
     5673283301
+  ]
+},
+{
+  "type": "way",
+  "id": 595197777,
+  "nodes": [
+    5673283865,
+    5673283866,
+    5673283867,
+    5673283868,
+    5673283869,
+    5673283870,
+    5673283871,
+    5673283865
   ]
 },
 {
