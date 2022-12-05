@@ -3111,10 +3111,16 @@
   "type": "Feature",
   "id": "way/329377638",
   "properties": {
+    "addr:city": "General Roca",
+    "addr:postcode": "8332",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "San Martín",
+    "opening_hours": "Mo-Sa 08:00-22:00",
     "id": "way/329377638"
   },
   "geometry": {
@@ -95859,6 +95865,24 @@
 },
 {
   "type": "Feature",
+  "id": "node/4633278211",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nueva General Paz",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "id": "node/4633278211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.506653,
+      -34.571198
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4633278230",
   "properties": {
     "amenity": "pharmacy",
@@ -154691,6 +154715,22 @@
     "coordinates": [
       -68.0496845,
       -38.965074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10234854010",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "OpenFarma",
+    "id": "node/10234854010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4516111,
+      -34.5546391
     ]
   }
 }

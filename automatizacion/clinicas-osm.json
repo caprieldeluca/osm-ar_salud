@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-12-02T19:56:24Z",
-    "timestamp_areas_base": "2022-12-02T19:30:59Z",
+    "timestamp_osm_base": "2022-12-05T11:24:58Z",
+    "timestamp_areas_base": "2022-12-05T10:56:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -43629,6 +43629,39 @@
   }
 },
 {
+  "type": "node",
+  "id": 10234785005,
+  "lat": -32.9919944,
+  "lon": -68.8865549,
+  "tags": {
+    "addr:city": "Luján de Cuyo",
+    "addr:housenumber": "4737",
+    "addr:street": "Viamonte",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Medical Center Viamonte"
+  }
+},
+{
+  "type": "node",
+  "id": 10234820337,
+  "lat": -38.9543654,
+  "lon": -68.0519603,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "71",
+    "addr:postcode": "Q8300",
+    "addr:street": "Tucumán",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "level": "1",
+    "name": "Clínica Doctor Roberto Raña",
+    "operator": "LACHyBS S.A.",
+    "operator:type": "private",
+    "website": "https://www.lachybs.com.ar/"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -59795,37 +59828,6 @@
 },
 {
   "type": "way",
-  "id": 844882205,
-  "nodes": [
-    7882301181,
-    7882316393,
-    7882301182,
-    7882316392,
-    7882301184,
-    7885196241,
-    7882316385,
-    7882316397,
-    7882316387,
-    7882316394,
-    7882316386,
-    7882301181
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "71",
-    "addr:postcode": "Q8300",
-    "addr:street": "Tucumán",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Clínica Doctor Roberto Raña",
-    "operator": "LACHyBS S.A.",
-    "operator:type": "private"
-  }
-},
-{
-  "type": "way",
   "id": 845187959,
   "nodes": [
     7627194457,
@@ -59842,28 +59844,6 @@
     "healthcare": "clinic",
     "healthcare:speciality": "endocrinology",
     "name": "Consultorio C.E.R."
-  }
-},
-{
-  "type": "way",
-  "id": 845187972,
-  "nodes": [
-    7885196200,
-    7885196201,
-    7885196202,
-    7882574703,
-    7885196200
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "435",
-    "addr:postcode": "Q8300",
-    "addr:street": "Bernardino Rivadavia",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "ophthalmology",
-    "name": "Oftalmos Neuquén"
   }
 },
 {
@@ -63322,6 +63302,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1119075202,
+  "nodes": [
+    10234759690,
+    10234759677,
+    10234759687,
+    10234820359,
+    10234820360,
+    10234820361,
+    10234759690
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "435",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "lightyellow",
+    "healthcare": "clinic",
+    "height": "4",
+    "name": "Oftalmos Neuquén",
+    "operator:type": "private"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -66504,12 +66510,6 @@
 },
 {
   "type": "node",
-  "id": 7882574703,
-  "lat": -38.9542807,
-  "lon": -68.0530227
-},
-{
-  "type": "node",
   "id": 7885191072,
   "lat": -38.9540819,
   "lon": -68.0543783
@@ -66525,24 +66525,6 @@
   "id": 7885191077,
   "lat": -38.9542653,
   "lon": -68.0545058
-},
-{
-  "type": "node",
-  "id": 7885196200,
-  "lat": -38.9540814,
-  "lon": -68.0530215
-},
-{
-  "type": "node",
-  "id": 7885196201,
-  "lat": -38.9540813,
-  "lon": -68.0529056
-},
-{
-  "type": "node",
-  "id": 7885196202,
-  "lat": -38.9542811,
-  "lon": -68.0529061
 },
 {
   "type": "node",
@@ -66585,6 +66567,42 @@
   "id": 10233383186,
   "lat": -38.9515210,
   "lon": -68.0530175
+},
+{
+  "type": "node",
+  "id": 10234759677,
+  "lat": -38.9540900,
+  "lon": -68.0529080
+},
+{
+  "type": "node",
+  "id": 10234759687,
+  "lat": -38.9542824,
+  "lon": -68.0529078
+},
+{
+  "type": "node",
+  "id": 10234759690,
+  "lat": -38.9540901,
+  "lon": -68.0530266
+},
+{
+  "type": "node",
+  "id": 10234820359,
+  "lat": -38.9542824,
+  "lon": -68.0529687
+},
+{
+  "type": "node",
+  "id": 10234820360,
+  "lat": -38.9542086,
+  "lon": -68.0529689
+},
+{
+  "type": "node",
+  "id": 10234820361,
+  "lat": -38.9542086,
+  "lon": -68.0530277
 },
 {
   "type": "node",
@@ -67167,72 +67185,6 @@
   "id": 7283720136,
   "lat": -38.9431571,
   "lon": -68.0563449
-},
-{
-  "type": "node",
-  "id": 7882301181,
-  "lat": -38.9544531,
-  "lon": -68.0520319
-},
-{
-  "type": "node",
-  "id": 7882301182,
-  "lat": -38.9544540,
-  "lon": -68.0518919
-},
-{
-  "type": "node",
-  "id": 7882301184,
-  "lat": -38.9544563,
-  "lon": -68.0515422
-},
-{
-  "type": "node",
-  "id": 7882316385,
-  "lat": -38.9542635,
-  "lon": -68.0515406
-},
-{
-  "type": "node",
-  "id": 7882316386,
-  "lat": -38.9542604,
-  "lon": -68.0520299
-},
-{
-  "type": "node",
-  "id": 7882316387,
-  "lat": -38.9542620,
-  "lon": -68.0517740
-},
-{
-  "type": "node",
-  "id": 7882316392,
-  "lat": -38.9544548,
-  "lon": -68.0517758
-},
-{
-  "type": "node",
-  "id": 7882316393,
-  "lat": -38.9544536,
-  "lon": -68.0519536
-},
-{
-  "type": "node",
-  "id": 7882316394,
-  "lat": -38.9542609,
-  "lon": -68.0519498
-},
-{
-  "type": "node",
-  "id": 7882316397,
-  "lat": -38.9542627,
-  "lon": -68.0516597
-},
-{
-  "type": "node",
-  "id": 7885196241,
-  "lat": -38.9543573,
-  "lon": -68.0515406
 },
 {
   "type": "node",

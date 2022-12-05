@@ -35588,79 +35588,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/844882205",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "71",
-    "addr:postcode": "Q8300",
-    "addr:street": "Tucumán",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Clínica Doctor Roberto Raña",
-    "operator": "LACHyBS S.A.",
-    "operator:type": "private",
-    "id": "way/844882205"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0520319,
-          -38.9544531
-        ],
-        [
-          -68.0519536,
-          -38.9544536
-        ],
-        [
-          -68.0518919,
-          -38.954454
-        ],
-        [
-          -68.0517758,
-          -38.9544548
-        ],
-        [
-          -68.0515422,
-          -38.9544563
-        ],
-        [
-          -68.0515406,
-          -38.9543573
-        ],
-        [
-          -68.0515406,
-          -38.9542635
-        ],
-        [
-          -68.0516597,
-          -38.9542627
-        ],
-        [
-          -68.051774,
-          -38.954262
-        ],
-        [
-          -68.0519498,
-          -38.9542609
-        ],
-        [
-          -68.0520299,
-          -38.9542604
-        ],
-        [
-          -68.0520319,
-          -38.9544531
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/845187959",
   "properties": {
     "amenity": "clinic",
@@ -35701,49 +35628,6 @@
         [
           -68.0545362,
           -38.954082
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/845187972",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "435",
-    "addr:postcode": "Q8300",
-    "addr:street": "Bernardino Rivadavia",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "ophthalmology",
-    "name": "Oftalmos Neuquén",
-    "id": "way/845187972"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0530215,
-          -38.9540814
-        ],
-        [
-          -68.0530227,
-          -38.9542807
-        ],
-        [
-          -68.0529061,
-          -38.9542811
-        ],
-        [
-          -68.0529056,
-          -38.9540813
-        ],
-        [
-          -68.0530215,
-          -38.9540814
         ]
       ]
     ]
@@ -43513,6 +43397,59 @@
         [
           -68.0531328,
           -38.9515209
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1119075202",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "435",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "lightyellow",
+    "healthcare": "clinic",
+    "height": "4",
+    "name": "Oftalmos Neuquén",
+    "operator:type": "private",
+    "id": "way/1119075202"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0530266,
+          -38.9540901
+        ],
+        [
+          -68.0530277,
+          -38.9542086
+        ],
+        [
+          -68.0529689,
+          -38.9542086
+        ],
+        [
+          -68.0529687,
+          -38.9542824
+        ],
+        [
+          -68.0529078,
+          -38.9542824
+        ],
+        [
+          -68.052908,
+          -38.95409
+        ],
+        [
+          -68.0530266,
+          -38.9540901
         ]
       ]
     ]
@@ -102867,6 +102804,51 @@
     "coordinates": [
       -58.7909803,
       -27.4911264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10234785005",
+  "properties": {
+    "addr:city": "Luján de Cuyo",
+    "addr:housenumber": "4737",
+    "addr:street": "Viamonte",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Medical Center Viamonte",
+    "id": "node/10234785005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8865549,
+      -32.9919944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10234820337",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "71",
+    "addr:postcode": "Q8300",
+    "addr:street": "Tucumán",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "level": "1",
+    "name": "Clínica Doctor Roberto Raña",
+    "operator": "LACHyBS S.A.",
+    "operator:type": "private",
+    "website": "https://www.lachybs.com.ar/",
+    "id": "node/10234820337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0519603,
+      -38.9543654
     ]
   }
 }
