@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-12-10T22:31:39Z",
-    "timestamp_areas_base": "2022-12-10T22:31:39Z",
+    "timestamp_osm_base": "2022-12-13T15:43:23Z",
+    "timestamp_areas_base": "2022-12-13T10:57:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1300,12 +1300,14 @@
 {
   "type": "node",
   "id": 724304334,
-  "lat": -34.6094671,
-  "lon": -58.3977779,
+  "lat": -34.6094649,
+  "lon": -58.3978369,
   "tags": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
-    "name": "Farmacity Uruiburu",
+    "name": "Farmacity",
     "source": "Reconocimiento terrestre 2016 por Kaart."
   }
 },
@@ -37126,6 +37128,7 @@
     "amenity": "pharmacy",
     "fixme": "nombre",
     "healthcare": "pharmacy",
+    "name": "Farmacia Brucoli",
     "phone": "+54 11 4792-2421",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -68168,6 +68171,7 @@
   "lon": -58.4591185,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Ferlise"
   }
 },
@@ -79219,6 +79223,120 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Zinga"
+  }
+},
+{
+  "type": "node",
+  "id": 10253672893,
+  "lat": -34.6004319,
+  "lon": -58.4106981,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "3199",
+    "addr:street": "Tucumán",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Duran"
+  }
+},
+{
+  "type": "node",
+  "id": 10254610097,
+  "lat": -26.3397467,
+  "lon": -60.4303757,
+  "tags": {
+    "addr:city": "Tres Isletas",
+    "addr:housenumber": "269",
+    "addr:postcode": "3703",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "La Primera"
+  }
+},
+{
+  "type": "node",
+  "id": 10254610098,
+  "lat": -26.3393650,
+  "lon": -60.4292952,
+  "tags": {
+    "addr:city": "Tres Isletas",
+    "addr:housenumber": "172",
+    "addr:postcode": "3703",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Santa Maria",
+    "ref:sisa_codigo": "70220912327041"
+  }
+},
+{
+  "type": "node",
+  "id": 10254610099,
+  "lat": -26.3374045,
+  "lon": -60.4285031,
+  "tags": {
+    "addr:city": "Tres Isletas",
+    "addr:housenumber": "81",
+    "addr:postcode": "3703",
+    "addr:street": "Moreno",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Social Ammach",
+    "ref:sisa_codigo": "70220912327042"
+  }
+},
+{
+  "type": "node",
+  "id": 10254610100,
+  "lat": -26.3384533,
+  "lon": -60.4299629,
+  "tags": {
+    "addr:city": "Tres Isletas",
+    "addr:housenumber": "202",
+    "addr:postcode": "3703",
+    "addr:street": "Alberdi",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Florida",
+    "ref:sisa_codigo": "70220912327043"
+  }
+},
+{
+  "type": "node",
+  "id": 10254610101,
+  "lat": -26.3445567,
+  "lon": -60.4356170,
+  "tags": {
+    "addr:city": "Tres Isletas",
+    "addr:housenumber": "766",
+    "addr:postcode": "3703",
+    "addr:street": "Infeld",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "San Antonio",
+    "ref:sisa_codigo": "70220912327040"
+  }
+},
+{
+  "type": "node",
+  "id": 10258301528,
+  "lat": -25.6165906,
+  "lon": -63.2636708,
+  "tags": {
+    "addr:city": "Taco Pozo",
+    "addr:postcode": "3714",
+    "addr:street": "General Vedia",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmaciadel.milagrotacopozo.3",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Milagro"
   }
 },
 {
@@ -97502,6 +97620,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1121044816,
+  "nodes": [
+    10253649283,
+    10253649237,
+    10253649239,
+    10253649284,
+    10253649283
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "362",
+    "addr:postcode": "Q8300",
+    "addr:street": "Salta",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:colour": "grey",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "5",
+    "name": "Farmacia Belgrano",
+    "website": "https://www.farmaciabelgranonqn.com.ar/"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -99330,6 +99474,30 @@
   "id": 7880164477,
   "lat": -38.9578565,
   "lon": -68.0555438
+},
+{
+  "type": "node",
+  "id": 10253649237,
+  "lat": -38.9510636,
+  "lon": -68.0663599
+},
+{
+  "type": "node",
+  "id": 10253649239,
+  "lat": -38.9511502,
+  "lon": -68.0663603
+},
+{
+  "type": "node",
+  "id": 10253649283,
+  "lat": -38.9510635,
+  "lon": -68.0665593
+},
+{
+  "type": "node",
+  "id": 10253649284,
+  "lat": -38.9511500,
+  "lon": -68.0665594
 },
 {
   "type": "node",
