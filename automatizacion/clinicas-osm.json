@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-12-13T15:37:09Z",
-    "timestamp_areas_base": "2022-12-13T10:57:20Z",
+    "timestamp_osm_base": "2022-12-16T23:58:20Z",
+    "timestamp_areas_base": "2022-12-16T23:28:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -40044,6 +40044,7 @@
     "addr:housenumber": "2530",
     "addr:street": "Virrey Del Pino",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "healthcare:speciality": "plastic_surgery",
     "name": "Clínica Robles"
   }
@@ -59758,13 +59759,11 @@
   "nodes": [
     7857984236,
     7857984248,
+    10263409451,
     7857984249,
-    7857984250,
-    7861958924,
     7861958923,
-    7857984251,
     7857984252,
-    7857984237,
+    10263409447,
     7857984236
   ],
   "tags": {
@@ -59774,8 +59773,11 @@
     "addr:street": "Juan Bautista Justo",
     "amenity": "clinic",
     "building": "yes",
+    "building:levels": "3",
     "healthcare": "clinic",
-    "name": "Centro Médico Galenos"
+    "height": "9",
+    "name": "Centro Médico Galenos",
+    "operator:type": "private"
   }
 },
 {
@@ -65333,44 +65335,26 @@
 {
   "type": "node",
   "id": 7857984236,
-  "lat": -38.9540177,
-  "lon": -68.0668970
-},
-{
-  "type": "node",
-  "id": 7857984237,
-  "lat": -38.9542066,
-  "lon": -68.0668975
+  "lat": -38.9540351,
+  "lon": -68.0668637
 },
 {
   "type": "node",
   "id": 7857984248,
-  "lat": -38.9540182,
-  "lon": -68.0667921
+  "lat": -38.9540351,
+  "lon": -68.0667496
 },
 {
   "type": "node",
   "id": 7857984249,
-  "lat": -38.9541832,
-  "lon": -68.0667941
-},
-{
-  "type": "node",
-  "id": 7857984250,
-  "lat": -38.9541837,
-  "lon": -68.0667392
-},
-{
-  "type": "node",
-  "id": 7857984251,
-  "lat": -38.9543875,
-  "lon": -68.0667423
+  "lat": -38.9542866,
+  "lon": -68.0667497
 },
 {
   "type": "node",
   "id": 7857984252,
-  "lat": -38.9543868,
-  "lon": -68.0668976
+  "lat": -38.9543899,
+  "lon": -68.0668639
 },
 {
   "type": "node",
@@ -65399,14 +65383,8 @@
 {
   "type": "node",
   "id": 7861958923,
-  "lat": -38.9543874,
-  "lon": -68.0667416
-},
-{
-  "type": "node",
-  "id": 7861958924,
-  "lat": -38.9542855,
-  "lon": -68.0667404
+  "lat": -38.9543902,
+  "lon": -68.0667497
 },
 {
   "type": "node",
@@ -65935,6 +65913,18 @@
   "id": 10081038231,
   "lat": -38.9514830,
   "lon": -68.0699308
+},
+{
+  "type": "node",
+  "id": 10263409447,
+  "lat": -38.9542077,
+  "lon": -68.0668639
+},
+{
+  "type": "node",
+  "id": 10263409451,
+  "lat": -38.9541799,
+  "lon": -68.0667492
 },
 {
   "type": "node",
