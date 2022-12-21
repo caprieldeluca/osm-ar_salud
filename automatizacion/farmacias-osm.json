@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-12-17T00:03:33Z",
-    "timestamp_areas_base": "2022-12-16T23:45:02Z",
+    "timestamp_osm_base": "2022-12-21T16:25:08Z",
+    "timestamp_areas_base": "2022-12-21T15:36:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7212,9 +7212,13 @@
   "lat": -26.9077492,
   "lon": -58.5411491,
   "tags": {
+    "addr:city": "Puerto Bermejo",
+    "addr:postcode": "3524",
+    "addr:street": "Avenida Arturo Illia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Avenida"
+    "name": "Avenida",
+    "ref:sisa_codigo": "70220142327094"
   }
 },
 {
@@ -32615,10 +32619,14 @@
     "addr:postcode": "1641",
     "addr:street": "Perú",
     "amenity": "pharmacy",
+    "branch": "Acasusso",
     "healthcare": "pharmacy",
     "name": "Openfarma Acassuso",
+    "opening_hours": "08:30-21:00",
+    "phone": "+54 11 5353-0030",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.openfarma.com.ar/"
+    "website": "http://www.openfarma.com.ar/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -35361,6 +35369,7 @@
   "lon": -68.5164582,
   "tags": {
     "amenity": "pharmacy",
+    "contact:whatsapp": "+54 264 5266624",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Buenaventura",
@@ -58151,8 +58160,8 @@
 {
   "type": "node",
   "id": 6316883165,
-  "lat": -31.6586189,
-  "lon": -64.4317192,
+  "lat": -31.6585424,
+  "lon": -64.4317075,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -58185,11 +58194,16 @@
   "type": "node",
   "id": 6316883187,
   "lat": -31.6576931,
-  "lon": -64.4314094,
+  "lon": -64.4314340,
   "tags": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "199",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Olsina"
+    "name": "Olsina",
+    "phone": "03547421036",
+    "website": "https://www.instagram.com/farmacia_olsina/"
   }
 },
 {
@@ -58209,9 +58223,13 @@
   "lat": -31.6585892,
   "lon": -64.4330643,
   "tags": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "105",
+    "addr:street": "España",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Del Pueblo"
+    "name": "Del Pueblo",
+    "website": "http://www.gpsfarma.com/"
   }
 },
 {
@@ -79365,6 +79383,130 @@
     "addr:street": "Avenida Leandro N. Alem",
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10274123167,
+  "lat": -27.2877110,
+  "lon": -60.7136031,
+  "tags": {
+    "addr:city": "San Bernardo",
+    "addr:housenumber": "446",
+    "addr:postcode": "3701",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Slipansky",
+    "ref:sisa_codigo": "70221122327061"
+  }
+},
+{
+  "type": "node",
+  "id": 10274123181,
+  "lat": -27.2866982,
+  "lon": -60.7146004,
+  "tags": {
+    "addr:city": "San Bernardo",
+    "addr:housenumber": "359",
+    "addr:postcode": "3701",
+    "addr:street": "Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "ELMA",
+    "ref:sisa_codigo": "70221122327063"
+  }
+},
+{
+  "type": "node",
+  "id": 10274123182,
+  "lat": -27.2890286,
+  "lon": -60.7136467,
+  "tags": {
+    "addr:city": "San Bernardo",
+    "addr:housenumber": "570",
+    "addr:postcode": "3701",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "25 de Mayo",
+    "ref:sisa_codigo": "70221122327059"
+  }
+},
+{
+  "type": "node",
+  "id": 10274123183,
+  "lat": -27.2843131,
+  "lon": -60.7135977,
+  "tags": {
+    "addr:city": "San Bernardo",
+    "addr:housenumber": "120",
+    "addr:postcode": "3701",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farma Salud",
+    "ref:sisa_codigo": "70221122327324"
+  }
+},
+{
+  "type": "node",
+  "id": 10274123184,
+  "lat": -27.2860201,
+  "lon": -60.7118607,
+  "tags": {
+    "addr:city": "San Bernardo",
+    "addr:housenumber": "643",
+    "addr:postcode": "3701",
+    "addr:street": "San Lorenzo",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100083277074211",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Córdoba",
+    "ref:sisa_codigo": "70221122327060"
+  }
+},
+{
+  "type": "node",
+  "id": 10274123196,
+  "lat": -27.2881699,
+  "lon": -60.7143494,
+  "tags": {
+    "addr:city": "San Bernardo",
+    "addr:housenumber": "455",
+    "addr:postcode": "3701",
+    "addr:street": "Chacabuco",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Ninoff II",
+    "ref:sisa_codigo": "70221122327064"
+  }
+},
+{
+  "type": "node",
+  "id": 10276965333,
+  "lat": -34.6142899,
+  "lon": -58.4015553,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Godoy"
+  }
+},
+{
+  "type": "node",
+  "id": 10278109353,
+  "lat": -22.5172448,
+  "lon": -63.8062946,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Pueblo"
   }
 },
 {

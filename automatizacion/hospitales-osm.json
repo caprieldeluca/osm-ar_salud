@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-12-16T23:53:24Z",
-    "timestamp_areas_base": "2022-12-16T23:45:02Z",
+    "timestamp_osm_base": "2022-12-21T16:13:54Z",
+    "timestamp_areas_base": "2022-12-21T15:36:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10192,10 +10192,13 @@
     "addr:housenumber": "245",
     "addr:postcode": "3701",
     "addr:street": "Sargento Cabral",
+    "alt_name": "Hospital José Ingenieros de San Bernardo",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital José Ingenieros de San Bernardo",
-    "phone": "+54 3735 496431"
+    "name": "Hospital José Ingenieros",
+    "phone": "+54 3735 496431",
+    "ref:sisa_codigo": "10221122126047",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -23294,6 +23297,24 @@
   "tags": {
     "amenity": "hospital",
     "name": "Puesto Sanitario Colonia Amadeo"
+  }
+},
+{
+  "type": "node",
+  "id": 10269663282,
+  "lat": -27.6540776,
+  "lon": -59.8600557,
+  "tags": {
+    "addr:city": "Charadai",
+    "addr:housenumber": "205",
+    "addr:postcode": "3513",
+    "addr:street": "Presidente Perón",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Rural",
+    "phone": "+54 3721 495105",
+    "ref:sisa_codigo": "10221612126064",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -42968,6 +42989,7 @@
     5409906340,
     8489747579,
     5409906341,
+    10270103267,
     8489747578,
     5409906342,
     5409906343,
@@ -52031,32 +52053,6 @@
 },
 {
   "type": "way",
-  "id": 1047067142,
-  "nodes": [
-    9628328267,
-    9628328268,
-    9628328269,
-    9628328270,
-    9628328271,
-    9628328272,
-    9628328273,
-    9628328274,
-    9628328275,
-    9628328276,
-    9628328277,
-    9628328278,
-    9628328279,
-    9628328280,
-    9628328267
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Bouquet Roldán"
-  }
-},
-{
-  "type": "way",
   "id": 1047080706,
   "nodes": [
     1973823132,
@@ -53086,6 +53082,47 @@
     "operator:type": "public",
     "phone": "+54 299 449-0800",
     "website": "https://www.hospitalneuquen.org.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1122964281,
+  "nodes": [
+    10270184180,
+    10270184179,
+    10270184178,
+    10270184177,
+    1974006744,
+    10270211488,
+    10270211489,
+    1922148806,
+    9628261250,
+    9628261249,
+    9628261248,
+    1974006746,
+    10270211492,
+    10270203109,
+    10270203235,
+    10270211471,
+    10270211472,
+    10270211495,
+    10270203236,
+    10270211496,
+    10270184180
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1915",
+    "addr:postcode": "Q8300",
+    "addr:street": "Doctor Luis Teodoro Planas",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Neuquén \"Bouquet Roldán\"",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 299 442-5105",
+    "website": "https://www.saludneuquen.gob.ar/hospital-bouquet-roldan/"
   }
 },
 {
@@ -55979,8 +56016,8 @@
 {
   "type": "node",
   "id": 5409906339,
-  "lat": -41.1264668,
-  "lon": -71.4114498
+  "lat": -41.1265052,
+  "lon": -71.4114418
 },
 {
   "type": "node",
@@ -55991,32 +56028,38 @@
 {
   "type": "node",
   "id": 5409906341,
-  "lat": -41.1243127,
-  "lon": -71.4108110
+  "lat": -41.1243147,
+  "lon": -71.4106340
 },
 {
   "type": "node",
   "id": 5409906342,
-  "lat": -41.1251399,
-  "lon": -71.4112983
+  "lat": -41.1254995,
+  "lon": -71.4114512
 },
 {
   "type": "node",
   "id": 5409906343,
-  "lat": -41.1257095,
-  "lon": -71.4122491
+  "lat": -41.1257236,
+  "lon": -71.4122759
 },
 {
   "type": "node",
   "id": 8489747578,
-  "lat": -41.1244659,
-  "lon": -71.4112472
+  "lat": -41.1241083,
+  "lon": -71.4114001
 },
 {
   "type": "node",
   "id": 8489747579,
   "lat": -41.1243381,
   "lon": -71.4102614
+},
+{
+  "type": "node",
+  "id": 10270103267,
+  "lat": -41.1241461,
+  "lon": -71.4107680
 },
 {
   "type": "node",
@@ -58102,87 +58145,123 @@
 },
 {
   "type": "node",
-  "id": 9628328267,
-  "lat": -38.9590586,
-  "lon": -68.0863412
+  "id": 1922148806,
+  "lat": -38.9590410,
+  "lon": -68.0857126
 },
 {
   "type": "node",
-  "id": 9628328268,
-  "lat": -38.9590617,
-  "lon": -68.0855444
+  "id": 1974006744,
+  "lat": -38.9590390,
+  "lon": -68.0862779
 },
 {
   "type": "node",
-  "id": 9628328269,
-  "lat": -38.9583686,
-  "lon": -68.0855320
+  "id": 1974006746,
+  "lat": -38.9589728,
+  "lon": -68.0855738
 },
 {
   "type": "node",
-  "id": 9628328270,
-  "lat": -38.9578773,
-  "lon": -68.0855398
+  "id": 9628261248,
+  "lat": -38.9589725,
+  "lon": -68.0856512
 },
 {
   "type": "node",
-  "id": 9628328280,
-  "lat": -38.9582481,
-  "lon": -68.0863314
+  "id": 9628261249,
+  "lat": -38.9590162,
+  "lon": -68.0856515
 },
 {
   "type": "node",
-  "id": 9628328271,
-  "lat": -38.9578412,
-  "lon": -68.0855691
+  "id": 9628261250,
+  "lat": -38.9590160,
+  "lon": -68.0857124
 },
 {
   "type": "node",
-  "id": 9628328272,
-  "lat": -38.9577631,
-  "lon": -68.0855768
+  "id": 10270184177,
+  "lat": -38.9590388,
+  "lon": -68.0863237
 },
 {
   "type": "node",
-  "id": 9628328273,
-  "lat": -38.9577450,
-  "lon": -68.0855776
+  "id": 10270184178,
+  "lat": -38.9582267,
+  "lon": -68.0863191
 },
 {
   "type": "node",
-  "id": 9628328275,
-  "lat": -38.9573144,
-  "lon": -68.0853565
+  "id": 10270203109,
+  "lat": -38.9588808,
+  "lon": -68.0855280
 },
 {
   "type": "node",
-  "id": 9628328276,
-  "lat": -38.9572987,
-  "lon": -68.0861805
+  "id": 10270203235,
+  "lat": -38.9584805,
+  "lon": -68.0855256
 },
 {
   "type": "node",
-  "id": 9628328277,
-  "lat": -38.9572939,
-  "lon": -68.0864746
+  "id": 10270203236,
+  "lat": -38.9582176,
+  "lon": -68.0855241
 },
 {
   "type": "node",
-  "id": 9628328278,
-  "lat": -38.9577828,
-  "lon": -68.0864758
+  "id": 10270211471,
+  "lat": -38.9584169,
+  "lon": -68.0855253
 },
 {
   "type": "node",
-  "id": 9628328279,
-  "lat": -38.9577837,
-  "lon": -68.0863303
+  "id": 10270211472,
+  "lat": -38.9583478,
+  "lon": -68.0855249
 },
 {
   "type": "node",
-  "id": 9628328274,
-  "lat": -38.9577422,
-  "lon": -68.0853056
+  "id": 10270211488,
+  "lat": -38.9590400,
+  "lon": -68.0859890
+},
+{
+  "type": "node",
+  "id": 10270211489,
+  "lat": -38.9590407,
+  "lon": -68.0857971
+},
+{
+  "type": "node",
+  "id": 10270211492,
+  "lat": -38.9589729,
+  "lon": -68.0855285
+},
+{
+  "type": "node",
+  "id": 10270211495,
+  "lat": -38.9582826,
+  "lon": -68.0855245
+},
+{
+  "type": "node",
+  "id": 10270211496,
+  "lat": -38.9581209,
+  "lon": -68.0855235
+},
+{
+  "type": "node",
+  "id": 10270184179,
+  "lat": -38.9577548,
+  "lon": -68.0863164
+},
+{
+  "type": "node",
+  "id": 10270184180,
+  "lat": -38.9577576,
+  "lon": -68.0855214
 },
 {
   "type": "node",
