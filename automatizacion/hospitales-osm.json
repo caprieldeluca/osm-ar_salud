@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2022-12-24T20:07:49Z",
-    "timestamp_areas_base": "2022-12-24T20:06:49Z",
+    "timestamp_osm_base": "2022-12-30T15:34:25Z",
+    "timestamp_areas_base": "2022-12-30T14:58:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8941,7 +8941,7 @@
     "addr:city": "Pampa del Indio",
     "addr:full": "Corrientes Y Malvinas Arg S/n",
     "addr:postcode": "3531",
-    "addr:street": "Avenida Federico Exner",
+    "addr:street": "Avenida Cacique Mayordomo",
     "amenity": "hospital",
     "description": "Edificio  Nuevo, cuenta con consultorios, laboratorio,sala de RX, sala de Kinesilogía, Sala odontológica.Matenidad, Farmacia.",
     "emergency": "yes",
@@ -20095,7 +20095,7 @@
     "addr:full": "Bulevard Chacabuco 1089",
     "addr:housenumber": "1089",
     "addr:postcode": "5000",
-    "addr:street": "Bulevar Chacabuco",
+    "addr:street": "Boulevard Chacabuco",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro Integral De Ginecologia Obstetricia Y Reproduccion Cigor",
@@ -21202,9 +21202,12 @@
   "tags": {
     "addr:city": "Juan José Castelli",
     "addr:full": "Calle Rivadavia",
+    "addr:housenumber": "560",
     "addr:postcode": "3705",
     "addr:street": "Rivadavia",
     "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/sanatoriolazaravaldez/",
+    "contact:instagram": "https://www.instagram.com/sanatoriolazaravaldez/?hl=es",
     "healthcare": "hospital",
     "name": "Sanatorio Lazara Valdez",
     "operator": "Privado",
@@ -23954,13 +23957,35 @@
   "id": 28516832,
   "nodes": [
     313241140,
+    10295000827,
+    10295001083,
+    10295000828,
+    10295001081,
+    10295001082,
+    10295000835,
+    10295000836,
     313241141,
+    10295000834,
     313241142,
     313241143,
     313241144,
     313241145,
     313241146,
+    10295001093,
+    10295001092,
+    10295001091,
+    10295001090,
     313241147,
+    10295001003,
+    10295001017,
+    10295001089,
+    10295001009,
+    10295001011,
+    10295000840,
+    10295000841,
+    10295000897,
+    10295000896,
+    10295000895,
     313241140
   ],
   "tags": {
@@ -24976,7 +25001,7 @@
     "addr:full": "Bajada Pucará 2025",
     "addr:housenumber": "2025",
     "addr:postcode": "5000",
-    "addr:street": "Bajada Pucará",
+    "addr:street": "Bajada del Pucará",
     "amenity": "hospital",
     "building": "yes",
     "contact:fax": "434 8750",
@@ -25533,8 +25558,12 @@
   "type": "way",
   "id": 129852442,
   "nodes": [
-    1431983907,
+    10291228873,
+    10290156182,
+    10290156181,
+    10290156176,
     1431983913,
+    10290156175,
     1431983902,
     1431983887,
     1431983884,
@@ -25543,17 +25572,37 @@
     1431983880,
     1431983914,
     9728548753,
+    10287898262,
     1431983908,
     9728548754,
+    10287898263,
     9728548755,
     2583975007,
+    10287898245,
     9728548756,
+    10289954231,
     1431983891,
     4714452354,
+    10289954230,
+    10291191288,
+    10291191291,
     4714452355,
+    10291191284,
+    10291191287,
     1431983915,
     1431983916,
-    1431983907
+    10291228888,
+    10291228887,
+    10291228874,
+    10291228876,
+    2583975058,
+    10289978712,
+    10289978711,
+    2583975048,
+    10291228877,
+    10291228880,
+    10291228872,
+    10291228873
   ],
   "tags": {
     "addr:full": "Pte. A Illia Y Marconi",
@@ -28685,7 +28734,7 @@
     "addr:full": "Bajada Pucará 1900",
     "addr:housenumber": "1898",
     "addr:postcode": "5000",
-    "addr:street": "Bajada Pucará",
+    "addr:street": "Bajada del Pucará",
     "amenity": "hospital",
     "building": "yes",
     "contact:phone": "434 8918 / 8772 al 76",
@@ -28725,7 +28774,7 @@
     "addr:city": "Córdoba",
     "addr:full": "Bajada Pucará Esquina Ferroviarios",
     "addr:postcode": "5000",
-    "addr:street": "Bajada Pucará",
+    "addr:street": "Bajada del Pucará",
     "amenity": "hospital",
     "building": "yes",
     "contact:fax": "+54 (351)-4586436",
@@ -45837,13 +45886,16 @@
     3733759394
   ],
   "tags": {
+    "addr:city": "Las Garcitas",
     "addr:postcode": "3515",
     "addr:street": "Almirante Brown",
     "amenity": "hospital",
     "beds": "16",
     "healthcare": "hospital",
     "name": "Hospital José Arce",
-    "phone": "+54 03725 49-7019"
+    "phone": "+54 3725 497019",
+    "ref:sisa_codigo": "10221542126046",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -90434,21 +90486,111 @@
 },
 {
   "type": "node",
-  "id": 1431983907,
-  "lat": -34.6276698,
-  "lon": -58.5785143
-},
-{
-  "type": "node",
   "id": 1431983913,
-  "lat": -34.6270699,
-  "lon": -58.5773107
+  "lat": -34.6270622,
+  "lon": -58.5772892
 },
 {
   "type": "node",
   "id": 1431983916,
   "lat": -34.6308018,
   "lon": -58.5762556
+},
+{
+  "type": "node",
+  "id": 2583975048,
+  "lat": -34.6284139,
+  "lon": -58.5774397
+},
+{
+  "type": "node",
+  "id": 2583975058,
+  "lat": -34.6285773,
+  "lon": -58.5777841
+},
+{
+  "type": "node",
+  "id": 10289978711,
+  "lat": -34.6285042,
+  "lon": -58.5776300
+},
+{
+  "type": "node",
+  "id": 10289978712,
+  "lat": -34.6285620,
+  "lon": -58.5777518
+},
+{
+  "type": "node",
+  "id": 10290156175,
+  "lat": -34.6273423,
+  "lon": -58.5770969
+},
+{
+  "type": "node",
+  "id": 10290156176,
+  "lat": -34.6271286,
+  "lon": -58.5774231
+},
+{
+  "type": "node",
+  "id": 10290156181,
+  "lat": -34.6271502,
+  "lon": -58.5774666
+},
+{
+  "type": "node",
+  "id": 10290156182,
+  "lat": -34.6272020,
+  "lon": -58.5775711
+},
+{
+  "type": "node",
+  "id": 10291228872,
+  "lat": -34.6278725,
+  "lon": -58.5777363
+},
+{
+  "type": "node",
+  "id": 10291228873,
+  "lat": -34.6276782,
+  "lon": -58.5772844
+},
+{
+  "type": "node",
+  "id": 10291228874,
+  "lat": -34.6286140,
+  "lon": -58.5778332
+},
+{
+  "type": "node",
+  "id": 10291228876,
+  "lat": -34.6285997,
+  "lon": -58.5778275
+},
+{
+  "type": "node",
+  "id": 10291228877,
+  "lat": -34.6283889,
+  "lon": -58.5773749
+},
+{
+  "type": "node",
+  "id": 10291228880,
+  "lat": -34.6279160,
+  "lon": -58.5777095
+},
+{
+  "type": "node",
+  "id": 10291228887,
+  "lat": -34.6294585,
+  "lon": -58.5772241
+},
+{
+  "type": "node",
+  "id": 10291228888,
+  "lat": -34.6294859,
+  "lon": -58.5772049
 },
 {
   "type": "node",
@@ -90545,6 +90687,60 @@
   "id": 9728548756,
   "lat": -34.6280899,
   "lon": -58.5729405
+},
+{
+  "type": "node",
+  "id": 10287898245,
+  "lat": -34.6282091,
+  "lon": -58.5731321
+},
+{
+  "type": "node",
+  "id": 10287898262,
+  "lat": -34.6280089,
+  "lon": -58.5740590
+},
+{
+  "type": "node",
+  "id": 10287898263,
+  "lat": -34.6282066,
+  "lon": -58.5736595
+},
+{
+  "type": "node",
+  "id": 10289954230,
+  "lat": -34.6299077,
+  "lon": -58.5720673
+},
+{
+  "type": "node",
+  "id": 10289954231,
+  "lat": -34.6294882,
+  "lon": -58.5719305
+},
+{
+  "type": "node",
+  "id": 10291191284,
+  "lat": -34.6304698,
+  "lon": -58.5733590
+},
+{
+  "type": "node",
+  "id": 10291191287,
+  "lat": -34.6304813,
+  "lon": -58.5733843
+},
+{
+  "type": "node",
+  "id": 10291191288,
+  "lat": -34.6303108,
+  "lon": -58.5730016
+},
+{
+  "type": "node",
+  "id": 10291191291,
+  "lat": -34.6303510,
+  "lon": -58.5730947
 },
 {
   "type": "node",
@@ -90687,8 +90883,8 @@
 {
   "type": "node",
   "id": 313241141,
-  "lat": -34.6274189,
-  "lon": -58.5576431
+  "lat": -34.6273786,
+  "lon": -58.5576009
 },
 {
   "type": "node",
@@ -90699,26 +90895,74 @@
 {
   "type": "node",
   "id": 313241143,
-  "lat": -34.6278092,
-  "lon": -58.5574004
+  "lat": -34.6278379,
+  "lon": -58.5574084
 },
 {
   "type": "node",
   "id": 313241144,
-  "lat": -34.6278727,
-  "lon": -58.5573146
+  "lat": -34.6279566,
+  "lon": -58.5573092
 },
 {
   "type": "node",
   "id": 313241145,
-  "lat": -34.6275055,
+  "lat": -34.6287415,
   "lon": -58.5566365
 },
 {
   "type": "node",
+  "id": 10295000827,
+  "lat": -34.6270460,
+  "lon": -58.5570872
+},
+{
+  "type": "node",
+  "id": 10295000828,
+  "lat": -34.6273795,
+  "lon": -58.5569104
+},
+{
+  "type": "node",
+  "id": 10295000834,
+  "lat": -34.6274015,
+  "lon": -58.5576382
+},
+{
+  "type": "node",
+  "id": 10295000835,
+  "lat": -34.6274383,
+  "lon": -58.5576049
+},
+{
+  "type": "node",
+  "id": 10295000836,
+  "lat": -34.6274155,
+  "lon": -58.5575676
+},
+{
+  "type": "node",
+  "id": 10295001081,
+  "lat": -34.6274984,
+  "lon": -58.5567534
+},
+{
+  "type": "node",
+  "id": 10295001082,
+  "lat": -34.6277919,
+  "lon": -58.5572979
+},
+{
+  "type": "node",
+  "id": 10295001083,
+  "lat": -34.6272721,
+  "lon": -58.5567582
+},
+{
+  "type": "node",
   "id": 313241140,
-  "lat": -34.6262888,
-  "lon": -58.5558015
+  "lat": -34.6262568,
+  "lon": -58.5557975
 },
 {
   "type": "node",
@@ -90729,8 +90973,92 @@
 {
   "type": "node",
   "id": 313241147,
-  "lat": -34.6275593,
-  "lon": -58.5541801
+  "lat": -34.6283892,
+  "lon": -58.5532360
+},
+{
+  "type": "node",
+  "id": 10295000840,
+  "lat": -34.6274951,
+  "lon": -58.5542501
+},
+{
+  "type": "node",
+  "id": 10295000841,
+  "lat": -34.6273600,
+  "lon": -58.5544167
+},
+{
+  "type": "node",
+  "id": 10295000895,
+  "lat": -34.6262613,
+  "lon": -58.5557516
+},
+{
+  "type": "node",
+  "id": 10295000896,
+  "lat": -34.6267049,
+  "lon": -58.5552333
+},
+{
+  "type": "node",
+  "id": 10295000897,
+  "lat": -34.6271479,
+  "lon": -58.5546672
+},
+{
+  "type": "node",
+  "id": 10295001003,
+  "lat": -34.6281959,
+  "lon": -58.5533941
+},
+{
+  "type": "node",
+  "id": 10295001009,
+  "lat": -34.6279325,
+  "lon": -58.5536975
+},
+{
+  "type": "node",
+  "id": 10295001011,
+  "lat": -34.6275476,
+  "lon": -58.5541902
+},
+{
+  "type": "node",
+  "id": 10295001017,
+  "lat": -34.6281708,
+  "lon": -58.5534147
+},
+{
+  "type": "node",
+  "id": 10295001089,
+  "lat": -34.6281227,
+  "lon": -58.5534540
+},
+{
+  "type": "node",
+  "id": 10295001090,
+  "lat": -34.6285335,
+  "lon": -58.5532612
+},
+{
+  "type": "node",
+  "id": 10295001091,
+  "lat": -34.6289793,
+  "lon": -58.5538459
+},
+{
+  "type": "node",
+  "id": 10295001092,
+  "lat": -34.6290279,
+  "lon": -58.5540658
+},
+{
+  "type": "node",
+  "id": 10295001093,
+  "lat": -34.6289948,
+  "lon": -58.5546720
 },
 {
   "type": "node",
