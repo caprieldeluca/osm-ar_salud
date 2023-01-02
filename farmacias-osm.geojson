@@ -50657,10 +50657,12 @@
   "properties": {
     "addr:city": "Las Flores",
     "addr:housenumber": "911",
+    "addr:postcode": "B7200",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Nieto",
+    "phone": "+54 (2244) 45-0688",
     "id": "node/1965704624"
   },
   "geometry": {
@@ -52504,6 +52506,31 @@
     "coordinates": [
       -55.93204,
       -27.3707572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2165440815",
+  "properties": {
+    "addr:city": "Reconquista",
+    "addr:housenumber": "1598",
+    "addr:postcode": "S3560",
+    "addr:street": "9 de Julio",
+    "alt_name": "Farmacia Aramburú Liliana Elizabeth",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Liliana Aramburú",
+    "phone": "+54 9 3482 421480",
+    "source": "https://farmaciasargentina.com/empresa-aramburu-liliana-elizabeth-em-reconquista-508",
+    "survey:date": "2022",
+    "id": "node/2165440815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6487637,
+      -29.1536727
     ]
   }
 },
@@ -132087,10 +132114,15 @@
   "type": "Feature",
   "id": "node/7216558175",
   "properties": {
+    "addr:city": "Reconquista",
+    "addr:housenumber": "1920",
+    "addr:postcode": "S3560",
+    "addr:street": "Chapero",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "wheelchair": "no",
+    "name": "Barrio Chapero",
+    "wheelchair": "yes",
     "id": "node/7216558175"
   },
   "geometry": {
@@ -141916,43 +141948,6 @@
     "coordinates": [
       -68.5366424,
       -31.5213093
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8275855218",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Vicentin",
-    "survey:date": "2020-12-30",
-    "wheelchair": "no",
-    "id": "node/8275855218"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.6492135,
-      -29.1570182
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8275928422",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Aramburu",
-    "survey:date": "2020-12-30",
-    "id": "node/8275928422"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.6488253,
-      -29.153674
     ]
   }
 },
@@ -154457,6 +154452,7 @@
     "addr:postcode": "7600",
     "addr:street": "Avenida Libertad",
     "amenity": "pharmacy",
+    "check_date:currency:XBT": "2023-01-02",
     "currency:XBT": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -154467,6 +154463,7 @@
     "payment:onchain": "yes",
     "phone": "+542235399462",
     "survey:date": "2022-11-08",
+    "website": "https://farmaciazingale.negocio.site/",
     "id": "node/10169886906"
   },
   "geometry": {
@@ -155425,6 +155422,21 @@
     "coordinates": [
       -62.084959,
       -38.8818662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10297229109",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/10297229109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4293002,
+      -34.5990008
     ]
   }
 }
