@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-01-04T15:22:24Z",
-    "timestamp_areas_base": "2023-01-04T11:50:25Z",
+    "timestamp_osm_base": "2023-01-11T12:53:39Z",
+    "timestamp_areas_base": "2023-01-11T12:23:05Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -43840,6 +43840,36 @@
   }
 },
 {
+  "type": "node",
+  "id": 10305109233,
+  "lat": -27.3268400,
+  "lon": -61.2796712,
+  "tags": {
+    "addr:city": "General Pinedo",
+    "addr:full": "Calle 12 Entre 17 Y 19",
+    "addr:postcode": "3732",
+    "addr:street": "General José de San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policonsultorio Mantellato",
+    "ref:sisa_codigo": "50220362327302",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 10313889209,
+  "lat": -34.4884497,
+  "lon": -58.5218183,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "physiotherapy",
+    "name": "Artro",
+    "website": "www.artro.com.ar"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -52727,39 +52757,6 @@
 },
 {
   "type": "way",
-  "id": 528176632,
-  "nodes": [
-    2470156480,
-    2470156478,
-    8623019997,
-    5133463683,
-    2470156481,
-    2470156480
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "contact:phone": "+54 341 493-6011",
-    "dispensing": "yes",
-    "electricity": "grid",
-    "emergency": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "general;paediatrics;vaccination",
-    "insurance:health": "private;public",
-    "name": "Dispensario Municipal Eva Perón",
-    "opening_hours": "24/7",
-    "operational_status": "operational",
-    "operator": "Municipalidad de Funes",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842284697",
-    "ref:sisa_tipologia": "ESSIDT",
-    "source:url": "http://www.funes.gob.ar/ciudad/centros-de-salud",
-    "wheelchair": "yes",
-    "wikidata": "Q97671972",
-    "wikimedia_commons": "File:Centro de Salud Eva Perón (Funes).jpg"
-  }
-},
-{
-  "type": "way",
   "id": 528176635,
   "nodes": [
     9311123886,
@@ -52790,6 +52787,55 @@
     "source:url": "http://www.funes.gob.ar/ciudad/centros-de-salud",
     "wikidata": "Q97671910",
     "wikimedia_commons": "File:Centro_de_Salud_Dr._Esteban_Maradona_(Funes).jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 528176636,
+  "nodes": [
+    2360590375,
+    2560751699,
+    2360590401,
+    5618309973,
+    5618309990,
+    5618309991,
+    5618309992,
+    2440860810,
+    9264776230,
+    9599793950,
+    2560751703,
+    3485469935,
+    5133463695,
+    3485469934,
+    2360590375
+  ],
+  "tags": {
+    "addr:postcode": "S2132",
+    "addr:street": "Domingo Faustino Sarmiento",
+    "alt_name": "Dispensario Houssay",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 493-6842;+54 341 493-6010;+54 341 493-6005",
+    "dispensing": "yes",
+    "electricity": "grid",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "healthcare:speciality": "blood_check;cardiology;clinical_pathology;community;general;vaccination;radiology;paediatrics;gynaecology;dentistry;psychiatry;ophthalmology;laboratory",
+    "insurance:health": "private;public",
+    "name": "Centro de Salud Doctor Bernardo Houssay",
+    "name:etymology:wikidata": "Q237160",
+    "official_name": "Centro de Asistencia Primaria de Salud Doctor Bernardo Houssay",
+    "opening_hours": "Mo-Fr 07:00-19:00 \"sólo turno previo\"",
+    "operational_status": "operational",
+    "operator": "Municipalidad de Funes",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842284644",
+    "ref:sisa_tipologia": "ESSIDT",
+    "reservation": "required",
+    "short_name": "Bernardo Houssay",
+    "source:url": "https://www.funes.gob.ar/noticia/_el_centro_de_salud_dr__bernardo_houssay_reabrio_sus_puertas",
+    "start_date": "1967-12-17",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Centro de Salud Dr. Houssay.jpg"
   }
 },
 {
@@ -77513,6 +77559,90 @@
 },
 {
   "type": "node",
+  "id": 2360590375,
+  "lat": -32.9189290,
+  "lon": -60.8115405
+},
+{
+  "type": "node",
+  "id": 2360590401,
+  "lat": -32.9189654,
+  "lon": -60.8113436
+},
+{
+  "type": "node",
+  "id": 2440860810,
+  "lat": -32.9191466,
+  "lon": -60.8113892
+},
+{
+  "type": "node",
+  "id": 2560751699,
+  "lat": -32.9189495,
+  "lon": -60.8114331
+},
+{
+  "type": "node",
+  "id": 2560751703,
+  "lat": -32.9191307,
+  "lon": -60.8114788
+},
+{
+  "type": "node",
+  "id": 3485469934,
+  "lat": -32.9190993,
+  "lon": -60.8115830
+},
+{
+  "type": "node",
+  "id": 3485469935,
+  "lat": -32.9191154,
+  "lon": -60.8115666
+},
+{
+  "type": "node",
+  "id": 5133463695,
+  "lat": -32.9191120,
+  "lon": -60.8115862
+},
+{
+  "type": "node",
+  "id": 5618309973,
+  "lat": -32.9189735,
+  "lon": -60.8113456
+},
+{
+  "type": "node",
+  "id": 5618309990,
+  "lat": -32.9190168,
+  "lon": -60.8113565
+},
+{
+  "type": "node",
+  "id": 5618309991,
+  "lat": -32.9190601,
+  "lon": -60.8113674
+},
+{
+  "type": "node",
+  "id": 5618309992,
+  "lat": -32.9191033,
+  "lon": -60.8113783
+},
+{
+  "type": "node",
+  "id": 9264776230,
+  "lat": -32.9191410,
+  "lon": -60.8114206
+},
+{
+  "type": "node",
+  "id": 9599793950,
+  "lat": -32.9191371,
+  "lon": -60.8114428
+},
+{
+  "type": "node",
   "id": 2627862305,
   "lat": -32.9183285,
   "lon": -60.8082613
@@ -78638,36 +78768,6 @@
   "id": 8589620789,
   "lat": -33.0725065,
   "lon": -60.5758437
-},
-{
-  "type": "node",
-  "id": 2470156478,
-  "lat": -32.9060011,
-  "lon": -60.8094073
-},
-{
-  "type": "node",
-  "id": 2470156480,
-  "lat": -32.9059858,
-  "lon": -60.8088842
-},
-{
-  "type": "node",
-  "id": 2470156481,
-  "lat": -32.9062253,
-  "lon": -60.8088738
-},
-{
-  "type": "node",
-  "id": 5133463683,
-  "lat": -32.9062383,
-  "lon": -60.8093671
-},
-{
-  "type": "node",
-  "id": 8623019997,
-  "lat": -32.9062038,
-  "lon": -60.8093975
 },
 {
   "type": "node",

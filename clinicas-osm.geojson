@@ -19711,63 +19711,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/528176632",
-  "properties": {
-    "amenity": "clinic",
-    "contact:phone": "+54 341 493-6011",
-    "dispensing": "yes",
-    "electricity": "grid",
-    "emergency": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "general;paediatrics;vaccination",
-    "insurance:health": "private;public",
-    "name": "Dispensario Municipal Eva Perón",
-    "opening_hours": "24/7",
-    "operational_status": "operational",
-    "operator": "Municipalidad de Funes",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842284697",
-    "ref:sisa_tipologia": "ESSIDT",
-    "source:url": "http://www.funes.gob.ar/ciudad/centros-de-salud",
-    "wheelchair": "yes",
-    "wikidata": "Q97671972",
-    "wikimedia_commons": "File:Centro de Salud Eva Perón (Funes).jpg",
-    "id": "way/528176632"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.8088842,
-          -32.9059858
-        ],
-        [
-          -60.8094073,
-          -32.9060011
-        ],
-        [
-          -60.8093975,
-          -32.9062038
-        ],
-        [
-          -60.8093671,
-          -32.9062383
-        ],
-        [
-          -60.8088738,
-          -32.9062253
-        ],
-        [
-          -60.8088842,
-          -32.9059858
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/528176635",
   "properties": {
     "addr:housenumber": "2498",
@@ -19819,6 +19762,106 @@
         [
           -60.8620086,
           -32.9190434
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/528176636",
+  "properties": {
+    "addr:postcode": "S2132",
+    "addr:street": "Domingo Faustino Sarmiento",
+    "alt_name": "Dispensario Houssay",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 493-6842;+54 341 493-6010;+54 341 493-6005",
+    "dispensing": "yes",
+    "electricity": "grid",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "healthcare:speciality": "blood_check;cardiology;clinical_pathology;community;general;vaccination;radiology;paediatrics;gynaecology;dentistry;psychiatry;ophthalmology;laboratory",
+    "insurance:health": "private;public",
+    "name": "Centro de Salud Doctor Bernardo Houssay",
+    "name:etymology:wikidata": "Q237160",
+    "official_name": "Centro de Asistencia Primaria de Salud Doctor Bernardo Houssay",
+    "opening_hours": "Mo-Fr 07:00-19:00 \"sólo turno previo\"",
+    "operational_status": "operational",
+    "operator": "Municipalidad de Funes",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842284644",
+    "ref:sisa_tipologia": "ESSIDT",
+    "reservation": "required",
+    "short_name": "Bernardo Houssay",
+    "source:url": "https://www.funes.gob.ar/noticia/_el_centro_de_salud_dr__bernardo_houssay_reabrio_sus_puertas",
+    "start_date": "1967-12-17",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Centro de Salud Dr. Houssay.jpg",
+    "id": "way/528176636"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.8115405,
+          -32.918929
+        ],
+        [
+          -60.811583,
+          -32.9190993
+        ],
+        [
+          -60.8115862,
+          -32.919112
+        ],
+        [
+          -60.8115666,
+          -32.9191154
+        ],
+        [
+          -60.8114788,
+          -32.9191307
+        ],
+        [
+          -60.8114428,
+          -32.9191371
+        ],
+        [
+          -60.8114206,
+          -32.919141
+        ],
+        [
+          -60.8113892,
+          -32.9191466
+        ],
+        [
+          -60.8113783,
+          -32.9191033
+        ],
+        [
+          -60.8113674,
+          -32.9190601
+        ],
+        [
+          -60.8113565,
+          -32.9190168
+        ],
+        [
+          -60.8113456,
+          -32.9189735
+        ],
+        [
+          -60.8113436,
+          -32.9189654
+        ],
+        [
+          -60.8114331,
+          -32.9189495
+        ],
+        [
+          -60.8115405,
+          -32.918929
         ]
       ]
     ]
@@ -103157,6 +103200,48 @@
     "coordinates": [
       -58.4013564,
       -34.6160878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10305109233",
+  "properties": {
+    "addr:city": "General Pinedo",
+    "addr:full": "Calle 12 Entre 17 Y 19",
+    "addr:postcode": "3732",
+    "addr:street": "General José de San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policonsultorio Mantellato",
+    "ref:sisa_codigo": "50220362327302",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/10305109233"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2796712,
+      -27.32684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10313889209",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "physiotherapy",
+    "name": "Artro",
+    "website": "www.artro.com.ar",
+    "id": "node/10313889209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5218183,
+      -34.4884497
     ]
   }
 }
