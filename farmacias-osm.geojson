@@ -20445,11 +20445,10 @@
   "id": "way/528143239",
   "properties": {
     "addr:city": "Salta",
-    "addr:street": "O'Higgins",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Santa rosa",
+    "name": "Paracelso",
     "id": "way/528143239"
   },
   "geometry": {
@@ -39491,6 +39490,52 @@
 },
 {
   "type": "Feature",
+  "id": "way/1133570899",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8300",
+    "addr:street": "Luis G. Thomas",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Monserrat",
+    "id": "way/1133570899"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.1553161,
+          -38.9338291
+        ],
+        [
+          -68.1553171,
+          -38.9339492
+        ],
+        [
+          -68.155202,
+          -38.9339491
+        ],
+        [
+          -68.155202,
+          -38.9339297
+        ],
+        [
+          -68.1552021,
+          -38.9338342
+        ],
+        [
+          -68.1553161,
+          -38.9338291
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -46537,7 +46582,7 @@
   "properties": {
     "addr:city": "Merlo",
     "addr:housenumber": "604",
-    "addr:street": "Becerra",
+    "addr:street": "Presbítero Becerra",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Rivadavia",
@@ -47482,6 +47527,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "9 de Julio",
     "id": "node/1728971744"
   },
   "geometry": {
@@ -64984,6 +65030,7 @@
   "properties": {
     "amenity": "pharmacy",
     "cuisine": "pizza",
+    "healthcare": "pharmacy",
     "name": "La Farma",
     "id": "node/2971931843"
   },
@@ -67010,24 +67057,6 @@
     "coordinates": [
       -58.578119,
       -34.6701401
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3137134813",
-  "properties": {
-    "amenity": "pharmacy",
-    "name": "Ceballos",
-    "opening_hours": "Mo-Fr 09:00-12:30,17:00-21:00; Sa 09:00-13:00",
-    "phone": "+54 341 346-7879",
-    "id": "node/3137134813"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.6754428,
-      -32.9533931
     ]
   }
 },
@@ -76936,6 +76965,7 @@
     "amenity": "pharmacy",
     "contact:phone": "+54 341 449-8660",
     "name": "Ovidio Lagos",
+    "wheelchair": "limited",
     "id": "node/3634541938"
   },
   "geometry": {
@@ -83983,8 +84013,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -56.6960405,
-      -36.4950572
+      -56.696175,
+      -36.4949832
     ]
   }
 },
@@ -93324,32 +93354,14 @@
 },
 {
   "type": "Feature",
-  "id": "node/4592713332",
-  "properties": {
-    "addr:street": "Avenida Sir Alexander Fleming",
-    "amenity": "pharmacy",
-    "fixme": "nombre",
-    "name": "Drugstore",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "node/4592713332"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5197864,
-      -34.4981708
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4592713348",
   "properties": {
     "addr:street": "Monseñor Larumbe",
     "amenity": "pharmacy",
-    "name": "Farmacia",
+    "name": "Farmacia Irie",
     "opening_hours": "Mo-Fr 09:00-13:00,16:00-20:00; Sa 09:00-13:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited",
     "id": "node/4592713348"
   },
   "geometry": {
@@ -111359,7 +111371,7 @@
   "type": "Feature",
   "id": "node/5371733305",
   "properties": {
-    "addr:street": "Avenida Duarte Quirós",
+    "addr:street": "Duarte Quirós",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Drugstore",
@@ -137240,26 +137252,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7393927175",
-  "properties": {
-    "addr:housenumber": "1452",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Farmaceuticos Asociados de Neuquen S.R.L.",
-    "phone": "54 0299 4475777",
-    "id": "node/7393927175"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0794457,
-      -38.9550475
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7400080535",
   "properties": {
     "addr:housenumber": "758",
@@ -155502,6 +155494,105 @@
     "coordinates": [
       -60.6300375,
       -27.1762319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10568919504",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "San Mateo",
+    "id": "node/10568919504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.0205102,
+      -31.3898917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10568927992",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farma Full",
+    "id": "node/10568927992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.0228104,
+      -31.3731374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10570399578",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Giulioni",
+    "opening_hours": "Mo-Fr 08:00-12:30,16:30-20:30; Sa 08:30-13:00",
+    "id": "node/10570399578"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7022576,
+      -31.6105382
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10573116054",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Ceballos",
+    "opening_hours": "Mo-Fr 08:30-12:30, 16:30-20:30; Sa 08:30-13:00",
+    "id": "node/10573116054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6752796,
+      -32.9518527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10574323531",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Boutique de Farmacia - Virgen de Guadalupe",
+    "id": "node/10574323531"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.3214668,
+      -24.2183947
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10579288371",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Porteña",
+    "id": "node/10579288371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4047704,
+      -34.6011543
     ]
   }
 }

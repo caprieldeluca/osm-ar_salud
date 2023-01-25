@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-01-17T16:07:09Z",
-    "timestamp_areas_base": "2023-01-17T11:42:57Z",
+    "timestamp_osm_base": "2023-01-25T16:43:24Z",
+    "timestamp_areas_base": "2023-01-25T14:56:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4790,7 +4790,7 @@
   "tags": {
     "addr:city": "Merlo",
     "addr:housenumber": "604",
-    "addr:street": "Becerra",
+    "addr:street": "Presbítero Becerra",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Rivadavia"
@@ -5428,7 +5428,8 @@
   "lon": -58.9815682,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "9 de Julio"
   }
 },
 {
@@ -17429,6 +17430,7 @@
   "tags": {
     "amenity": "pharmacy",
     "cuisine": "pizza",
+    "healthcare": "pharmacy",
     "name": "La Farma"
   }
 },
@@ -18788,18 +18790,6 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 3137134813,
-  "lat": -32.9533931,
-  "lon": -60.6754428,
-  "tags": {
-    "amenity": "pharmacy",
-    "name": "Ceballos",
-    "opening_hours": "Mo-Fr 09:00-12:30,17:00-21:00; Sa 09:00-13:00",
-    "phone": "+54 341 346-7879"
   }
 },
 {
@@ -25534,7 +25524,8 @@
     "addr:street": "Avenida Ovidio Lagos",
     "amenity": "pharmacy",
     "contact:phone": "+54 341 449-8660",
-    "name": "Ovidio Lagos"
+    "name": "Ovidio Lagos",
+    "wheelchair": "limited"
   }
 },
 {
@@ -30297,8 +30288,8 @@
 {
   "type": "node",
   "id": 4096508835,
-  "lat": -36.4950572,
-  "lon": -56.6960405,
+  "lat": -36.4949832,
+  "lon": -56.6961750,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -36701,28 +36692,16 @@
 },
 {
   "type": "node",
-  "id": 4592713332,
-  "lat": -34.4981708,
-  "lon": -58.5197864,
-  "tags": {
-    "addr:street": "Avenida Sir Alexander Fleming",
-    "amenity": "pharmacy",
-    "fixme": "nombre",
-    "name": "Drugstore",
-    "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "node",
   "id": 4592713348,
   "lat": -34.4971006,
   "lon": -58.5204553,
   "tags": {
     "addr:street": "Monseñor Larumbe",
     "amenity": "pharmacy",
-    "name": "Farmacia",
+    "name": "Farmacia Irie",
     "opening_hours": "Mo-Fr 09:00-13:00,16:00-20:00; Sa 09:00-13:00; Su off",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited"
   }
 },
 {
@@ -49080,7 +49059,7 @@
   "lat": -31.4113784,
   "lon": -64.2095330,
   "tags": {
-    "addr:street": "Avenida Duarte Quirós",
+    "addr:street": "Duarte Quirós",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Drugstore"
@@ -66943,20 +66922,6 @@
 },
 {
   "type": "node",
-  "id": 7393927175,
-  "lat": -38.9550475,
-  "lon": -68.0794457,
-  "tags": {
-    "addr:housenumber": "1452",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Farmaceuticos Asociados de Neuquen S.R.L.",
-    "phone": "54 0299 4475777"
-  }
-},
-{
-  "type": "node",
   "id": 7400080535,
   "lat": -34.5618911,
   "lon": -59.1037193,
@@ -79797,6 +79762,69 @@
   }
 },
 {
+  "type": "node",
+  "id": 10568919504,
+  "lat": -31.3898917,
+  "lon": -58.0205102,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "San Mateo"
+  }
+},
+{
+  "type": "node",
+  "id": 10568927992,
+  "lat": -31.3731374,
+  "lon": -58.0228104,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farma Full"
+  }
+},
+{
+  "type": "node",
+  "id": 10570399578,
+  "lat": -31.6105382,
+  "lon": -60.7022576,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Giulioni",
+    "opening_hours": "Mo-Fr 08:00-12:30,16:30-20:30; Sa 08:30-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10573116054,
+  "lat": -32.9518527,
+  "lon": -60.6752796,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Ceballos",
+    "opening_hours": "Mo-Fr 08:30-12:30, 16:30-20:30; Sa 08:30-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10574323531,
+  "lat": -24.2183947,
+  "lon": -66.3214668,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Boutique de Farmacia - Virgen de Guadalupe"
+  }
+},
+{
+  "type": "node",
+  "id": 10579288371,
+  "lat": -34.6011543,
+  "lon": -58.4047704,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Porteña"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -89308,11 +89336,10 @@
   ],
   "tags": {
     "addr:city": "Salta",
-    "addr:street": "O'Higgins",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Santa rosa"
+    "name": "Paracelso"
   }
 },
 {
@@ -98103,6 +98130,28 @@
   }
 },
 {
+  "type": "way",
+  "id": 1133570899,
+  "nodes": [
+    10568741015,
+    10568741016,
+    10568741019,
+    10568741017,
+    10568741018,
+    10568741015
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8300",
+    "addr:street": "Luis G. Thomas",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Monserrat"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -100027,6 +100076,36 @@
   "id": 9789383029,
   "lat": -38.9412622,
   "lon": -68.0588028
+},
+{
+  "type": "node",
+  "id": 10568741015,
+  "lat": -38.9338291,
+  "lon": -68.1553161
+},
+{
+  "type": "node",
+  "id": 10568741016,
+  "lat": -38.9338342,
+  "lon": -68.1552021
+},
+{
+  "type": "node",
+  "id": 10568741017,
+  "lat": -38.9339491,
+  "lon": -68.1552020
+},
+{
+  "type": "node",
+  "id": 10568741018,
+  "lat": -38.9339492,
+  "lon": -68.1553171
+},
+{
+  "type": "node",
+  "id": 10568741019,
+  "lat": -38.9339297,
+  "lon": -68.1552020
 },
 {
   "type": "node",

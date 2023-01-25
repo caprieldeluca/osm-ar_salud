@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-01-17T15:53:17Z",
-    "timestamp_areas_base": "2023-01-17T11:42:57Z",
+    "timestamp_osm_base": "2023-01-25T16:32:22Z",
+    "timestamp_areas_base": "2023-01-25T08:21:40Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10569,8 +10569,9 @@
   "lon": -65.2645079,
   "tags": {
     "addr:city": "Tafí Viejo",
+    "addr:full": "Eva Perón y Catamarca",
     "addr:postcode": "4103",
-    "addr:street": "Eva Perón y Catamarca",
+    "addr:street": "Eva Perón",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -18858,8 +18859,8 @@
 {
   "type": "node",
   "id": 7404158668,
-  "lat": -22.7407870,
-  "lon": -62.4979060,
+  "lat": -22.7404432,
+  "lon": -62.4978598,
   "tags": {
     "addr:city": "Alto De La Sierra",
     "addr:full": "Alto La Sierra",
@@ -23595,7 +23596,6 @@
     "healthcare": "hospital",
     "name": "Hospital Alemán",
     "name:de": "Deutsches Hospital",
-    "name:en": "German Hospital",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "+54 (11) 4827-7000",
@@ -31345,7 +31345,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Italiano de Buenos Aires",
-    "name:en": "Italian Hospital of Buenos Aires",
+    "name:en": "Hospital Italiano of Buenos Aires",
     "name:es": "Hospital Italiano de Buenos Aires",
     "operator": "Sociedad Italiana de Beneficencia en Buenos Aires",
     "operator:type": "private",
@@ -33126,7 +33126,7 @@
     "addr:street": "Salta",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Luis Fleitas",
+    "name": "Hospital Luís Fleitas",
     "operator": "Provincial",
     "operator:type": "public",
     "phone": "+54 362 4765258",
@@ -39050,7 +39050,6 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Británico de Buenos Aires",
-    "name:en": "British Hospital of Buenos Aires",
     "operator": "Hospital Británico de Buenos Aires Asociación Civil",
     "operator:type": "private",
     "phone": "+541143041081;+541143096400",
@@ -52189,7 +52188,7 @@
     "addr:full": "Duarte Quirós 1948",
     "addr:housenumber": "1948",
     "addr:postcode": "5000",
-    "addr:street": "Avenida Duarte Quirós",
+    "addr:street": "Duarte Quirós",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -52779,6 +52778,26 @@
     "name": "CAPS San Cayetano",
     "operator": "Municipalidad de Chascomus",
     "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 1069104848,
+  "nodes": [
+    9813442210,
+    10578912791,
+    9813442211,
+    9813442212,
+    9813442213,
+    9813442210
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Nueva Maternidad Provincial",
+    "operator": "Gobierno de la provincia de Córdoba",
+    "operator:type": "goverment"
   }
 },
 {
@@ -73882,6 +73901,36 @@
   "id": 6100774296,
   "lat": -31.4249364,
   "lon": -64.2248821
+},
+{
+  "type": "node",
+  "id": 9813442210,
+  "lat": -31.4398320,
+  "lon": -64.1955426
+},
+{
+  "type": "node",
+  "id": 9813442211,
+  "lat": -31.4390539,
+  "lon": -64.1952959
+},
+{
+  "type": "node",
+  "id": 9813442212,
+  "lat": -31.4392627,
+  "lon": -64.1943915
+},
+{
+  "type": "node",
+  "id": 9813442213,
+  "lat": -31.4400408,
+  "lon": -64.1946383
+},
+{
+  "type": "node",
+  "id": 10578912791,
+  "lat": -31.4395458,
+  "lon": -64.1954519
 },
 {
   "type": "node",

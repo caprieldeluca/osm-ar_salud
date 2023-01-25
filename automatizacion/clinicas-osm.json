@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-01-17T16:01:09Z",
-    "timestamp_areas_base": "2023-01-17T11:42:57Z",
+    "timestamp_osm_base": "2023-01-25T16:37:24Z",
+    "timestamp_areas_base": "2023-01-25T14:56:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14588,8 +14588,8 @@
 {
   "type": "node",
   "id": 5744325924,
-  "lat": -32.9496936,
-  "lon": -60.6637045,
+  "lat": -32.9497307,
+  "lon": -60.6638675,
   "tags": {
     "addr:housenumber": "2845",
     "addr:street": "9 de Julio",
@@ -14599,7 +14599,8 @@
     "healthcare:speciality": "orthopaedics",
     "name": "Centro de Ortopedia y Traumatología",
     "opening_hours": "Su-Fr 07:00-20:00",
-    "short_name": "COT"
+    "short_name": "COT",
+    "wheelchair": "yes"
   }
 },
 {
@@ -43913,6 +43914,25 @@
   }
 },
 {
+  "type": "node",
+  "id": 10571099221,
+  "lat": -32.9493262,
+  "lon": -60.6634052,
+  "tags": {
+    "addr:housenumber": "1378",
+    "addr:street": "Avenida Ovidio Lagos",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 435-1134;+54 341 437-6610;+54 341 437-6583;+54 341 437-6245",
+    "contact:website": "https://sisosrl.com.ar/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;radiology;biochemistry;blood_check;occupational",
+    "name": "Siso SRL",
+    "official_name": "Servicio Integral de Salud Ocupacional",
+    "opening_hours": "Mo-Fr 07:00+",
+    "wheelchair": "limited"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -53809,6 +53829,7 @@
     "addr:street": "Anatole France",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "Analysis Clinicos del Sur McDonald's"
   }
 },
