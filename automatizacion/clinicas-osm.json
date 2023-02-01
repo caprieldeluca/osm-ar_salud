@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-01-25T16:37:24Z",
-    "timestamp_areas_base": "2023-01-25T14:56:52Z",
+    "timestamp_osm_base": "2023-02-01T18:24:54Z",
+    "timestamp_areas_base": "2023-02-01T08:55:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18470,6 +18470,7 @@
   "lat": -34.6123652,
   "lon": -58.5766420,
   "tags": {
+    "addr:city": "Caseros",
     "addr:housenumber": "3300",
     "addr:postcode": "1678",
     "addr:street": "673 - Joaquín Spandonari",
@@ -39950,7 +39951,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "general;paediatrics;dentist;nutrition;clinical_laboratory;child_psychiatry;dermatology;psychology;surgery;acupuncture",
     "name": "Punto Salud",
-    "phone": "0264 425-4510, Whatsapp 2644861349",
+    "phone": "2644861349",
     "website": "https://www.facebook.com/PUNTO-SALUD-Consultorios-Medicos-1612315889033835/"
   }
 },
@@ -43933,6 +43934,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 10597887173,
+  "lat": -41.9619324,
+  "lon": -71.5323849,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "La Merced"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -47655,6 +47667,24 @@
 },
 {
   "type": "way",
+  "id": 457005237,
+  "nodes": [
+    4532225563,
+    4532225564,
+    4532225565,
+    4532225566,
+    4532225563
+  ],
+  "tags": {
+    "addr:street": "La Laguna",
+    "amenity": "clinic",
+    "building": "yes",
+    "name": "Centro de Salud Bella Vista",
+    "opening_hours": "Mo-Fr 08:00-13:00"
+  }
+},
+{
+  "type": "way",
   "id": 457011933,
   "nodes": [
     4532317397,
@@ -47674,7 +47704,7 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Villa Iglesia",
     "opening_hours": "Mo-Fr 08:00-13:00",
-    "phone": "02647493057"
+    "phone": "+54 264 7493057"
   }
 },
 {
@@ -62768,25 +62798,6 @@
 },
 {
   "type": "way",
-  "id": 1098016840,
-  "nodes": [
-    10053973699,
-    10053973700,
-    10053973701,
-    10053973702,
-    10053973703,
-    10053973704,
-    10053973699
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Dispensario Municipalidad de Saldán Enfermera Blanca Veron"
-  }
-},
-{
-  "type": "way",
   "id": 1098153009,
   "nodes": [
     10055104679,
@@ -63632,6 +63643,107 @@
     "healthcare:speciality": "paediatrics",
     "name": "Centro de Estimulación y Promoción del Desarrollo Infantil",
     "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1135324863,
+  "nodes": [
+    10582996700,
+    10582996689,
+    10582996693,
+    10582996701,
+    10582996702,
+    10582996703,
+    10582996700
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1469",
+    "addr:postcode": "Q8300",
+    "addr:street": "Carlos H. Rodríguez",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Centro Médico de la Trinidad",
+    "website": "http://cmtnqn.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1136179922,
+  "nodes": [
+    10591714017,
+    10591714018,
+    10591714019,
+    10591714020,
+    10591714017
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics;depth;gynaecology;surgery;general",
+    "name": "Sala Medica Barrio Centenario",
+    "opening_hours": "Mo,We,Fr,Sa 08:00-15:00",
+    "operator": "Municipalidad de Coronel Rosales",
+    "operator:type": "public/government",
+    "phone": "2932445539"
+  }
+},
+{
+  "type": "way",
+  "id": 1136306222,
+  "nodes": [
+    10592647312,
+    10592647318,
+    10592647316,
+    10592647339,
+    10592647337,
+    10592647355,
+    10592647394,
+    10592647356,
+    10592647357,
+    10592647315,
+    10592664022,
+    10592664021,
+    10592664020,
+    10592664023,
+    10592664019,
+    10592647393,
+    10592647312
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "454",
+    "addr:postcode": "Q8300",
+    "addr:street": "Francisco Denis",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics",
+    "name": "Clínica Pediátrica San Lucas",
+    "operator": "Clínica San Agustín S.R.L.",
+    "operator:type": "private",
+    "website": "https://www.swissmedical.com.ar/clinewsite/sanlucas/"
+  }
+},
+{
+  "type": "way",
+  "id": 1137019441,
+  "nodes": [
+    10599307510,
+    10599307511,
+    10599307512,
+    10599307513,
+    10599307510
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario Municipal San Francisco"
   }
 },
 {
@@ -65131,6 +65243,42 @@
 },
 {
   "type": "node",
+  "id": 10582996689,
+  "lat": -38.9526638,
+  "lon": -68.0797169
+},
+{
+  "type": "node",
+  "id": 10582996693,
+  "lat": -38.9526640,
+  "lon": -68.0795630
+},
+{
+  "type": "node",
+  "id": 10582996700,
+  "lat": -38.9525550,
+  "lon": -68.0797168
+},
+{
+  "type": "node",
+  "id": 10582996701,
+  "lat": -38.9525741,
+  "lon": -68.0795627
+},
+{
+  "type": "node",
+  "id": 10582996702,
+  "lat": -38.9525740,
+  "lon": -68.0796084
+},
+{
+  "type": "node",
+  "id": 10582996703,
+  "lat": -38.9525552,
+  "lon": -68.0796084
+},
+{
+  "type": "node",
   "id": 7789056357,
   "lat": -38.9510455,
   "lon": -68.0905185
@@ -65254,6 +65402,102 @@
   "id": 7789060319,
   "lat": -38.9506229,
   "lon": -68.0901376
+},
+{
+  "type": "node",
+  "id": 10592647312,
+  "lat": -38.9495356,
+  "lon": -68.0892237
+},
+{
+  "type": "node",
+  "id": 10592647315,
+  "lat": -38.9499900,
+  "lon": -68.0885302
+},
+{
+  "type": "node",
+  "id": 10592647316,
+  "lat": -38.9499896,
+  "lon": -68.0892240
+},
+{
+  "type": "node",
+  "id": 10592647318,
+  "lat": -38.9498937,
+  "lon": -68.0892240
+},
+{
+  "type": "node",
+  "id": 10592647337,
+  "lat": -38.9499898,
+  "lon": -68.0890054
+},
+{
+  "type": "node",
+  "id": 10592647339,
+  "lat": -38.9499896,
+  "lon": -68.0891150
+},
+{
+  "type": "node",
+  "id": 10592647355,
+  "lat": -38.9499899,
+  "lon": -68.0888945
+},
+{
+  "type": "node",
+  "id": 10592647356,
+  "lat": -38.9499901,
+  "lon": -68.0886814
+},
+{
+  "type": "node",
+  "id": 10592647357,
+  "lat": -38.9499905,
+  "lon": -68.0885910
+},
+{
+  "type": "node",
+  "id": 10592647393,
+  "lat": -38.9495356,
+  "lon": -68.0889866
+},
+{
+  "type": "node",
+  "id": 10592647394,
+  "lat": -38.9499900,
+  "lon": -68.0888395
+},
+{
+  "type": "node",
+  "id": 10592664019,
+  "lat": -38.9495391,
+  "lon": -68.0885735
+},
+{
+  "type": "node",
+  "id": 10592664020,
+  "lat": -38.9495820,
+  "lon": -68.0885246
+},
+{
+  "type": "node",
+  "id": 10592664021,
+  "lat": -38.9496101,
+  "lon": -68.0885257
+},
+{
+  "type": "node",
+  "id": 10592664022,
+  "lat": -38.9498043,
+  "lon": -68.0885269
+},
+{
+  "type": "node",
+  "id": 10592664023,
+  "lat": -38.9495576,
+  "lon": -68.0885523
 },
 {
   "type": "node",
@@ -69088,6 +69332,30 @@
   "id": 8001113760,
   "lat": -39.2911968,
   "lon": -65.6622905
+},
+{
+  "type": "node",
+  "id": 10591714017,
+  "lat": -38.8613599,
+  "lon": -62.0812684
+},
+{
+  "type": "node",
+  "id": 10591714018,
+  "lat": -38.8614319,
+  "lon": -62.0812491
+},
+{
+  "type": "node",
+  "id": 10591714019,
+  "lat": -38.8614145,
+  "lon": -62.0811271
+},
+{
+  "type": "node",
+  "id": 10591714020,
+  "lat": -38.8613369,
+  "lon": -62.0811460
 },
 {
   "type": "node",
@@ -74263,51 +74531,75 @@
 },
 {
   "type": "node",
+  "id": 4532225563,
+  "lat": -30.4330425,
+  "lon": -69.2471825
+},
+{
+  "type": "node",
+  "id": 4532225564,
+  "lat": -30.4329827,
+  "lon": -69.2471764
+},
+{
+  "type": "node",
+  "id": 4532225565,
+  "lat": -30.4329909,
+  "lon": -69.2470684
+},
+{
+  "type": "node",
+  "id": 4532225566,
+  "lat": -30.4330508,
+  "lon": -69.2470746
+},
+{
+  "type": "node",
   "id": 4532317397,
-  "lat": -30.4155519,
+  "lat": -30.4155533,
   "lon": -69.2224764
 },
 {
   "type": "node",
   "id": 4532317398,
-  "lat": -30.4155827,
-  "lon": -69.2224687
+  "lat": -30.4155825,
+  "lon": -69.2224683
 },
 {
   "type": "node",
   "id": 4532317399,
-  "lat": -30.4155794,
-  "lon": -69.2224542
+  "lat": -30.4155796,
+  "lon": -69.2224545
 },
 {
   "type": "node",
   "id": 4532317400,
-  "lat": -30.4156168,
-  "lon": -69.2224446
+  "lat": -30.4156167,
+  "lon": -69.2224442
 },
 {
   "type": "node",
   "id": 4532317401,
-  "lat": -30.4155952,
-  "lon": -69.2223404
+  "lat": -30.4155953,
+  "lon": -69.2223406
 },
 {
   "type": "node",
   "id": 4532317402,
-  "lat": -30.4155694,
-  "lon": -69.2223481
+  "lat": -30.4155687,
+  "lon": -69.2223480
 },
 {
   "type": "node",
   "id": 4532317403,
-  "lat": -30.4155611,
-  "lon": -69.2223148
+  "lat": -30.4155620,
+  "lon": -69.2223157
 },
 {
   "type": "node",
   "id": 4532317404,
-  "lat": -30.4155240,
-  "lon": -69.2223274
+  "lat": -30.4155224,
+  "lon": -69.2223267
 },
 {
   "type": "node",
@@ -76357,39 +76649,27 @@
 },
 {
   "type": "node",
-  "id": 10053973699,
-  "lat": -31.3129195,
-  "lon": -64.2996239
+  "id": 10599307510,
+  "lat": -31.3222830,
+  "lon": -64.3007999
 },
 {
   "type": "node",
-  "id": 10053973700,
-  "lat": -31.3129253,
-  "lon": -64.2993816
+  "id": 10599307511,
+  "lat": -31.3222106,
+  "lon": -64.3007997
 },
 {
   "type": "node",
-  "id": 10053973701,
-  "lat": -31.3127229,
-  "lon": -64.2993750
+  "id": 10599307512,
+  "lat": -31.3222107,
+  "lon": -64.3007021
 },
 {
   "type": "node",
-  "id": 10053973702,
-  "lat": -31.3127137,
-  "lon": -64.2997620
-},
-{
-  "type": "node",
-  "id": 10053973703,
-  "lat": -31.3128180,
-  "lon": -64.2997654
-},
-{
-  "type": "node",
-  "id": 10053973704,
-  "lat": -31.3128215,
-  "lon": -64.2996207
+  "id": 10599307513,
+  "lat": -31.3222832,
+  "lon": -64.3007023
 },
 {
   "type": "node",

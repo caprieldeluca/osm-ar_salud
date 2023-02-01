@@ -23897,7 +23897,9 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmacia",
     "noname": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-13:00",
     "id": "way/555590279"
   },
   "geometry": {
@@ -32562,48 +32564,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/834426850",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:postcode": "Q8300",
-    "addr:street": "General Manuel Belgrano",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Braidotti",
-    "id": "way/834426850"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0882048,
-          -38.9504477
-        ],
-        [
-          -68.088204,
-          -38.9503645
-        ],
-        [
-          -68.0883196,
-          -38.9503635
-        ],
-        [
-          -68.0883212,
-          -38.9504472
-        ],
-        [
-          -68.0882048,
-          -38.9504477
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/834455544",
   "properties": {
     "addr:city": "Neuquén",
@@ -38645,6 +38605,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "way/1073254842"
   },
   "geometry": {
@@ -38779,6 +38740,7 @@
     "height": "4",
     "name": "Farmacia del Pueblo",
     "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
     "id": "way/1075604183"
   },
   "geometry": {
@@ -38978,7 +38940,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Valle II",
-    "operator": "0354715447661",
+    "phone": "0354715447661",
     "id": "way/1089918137"
   },
   "geometry": {
@@ -39367,6 +39329,7 @@
     "height": "6",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "way/1118740959"
   },
   "geometry": {
@@ -39529,6 +39492,50 @@
         [
           -68.1553161,
           -38.9338291
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1136064260",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "243",
+    "addr:postcode": "Q8300",
+    "addr:street": "Cacique Catriel",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "4",
+    "name": "Farmacia Catriel",
+    "id": "way/1136064260"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0841667,
+          -38.9522056
+        ],
+        [
+          -68.0841669,
+          -38.9522755
+        ],
+        [
+          -68.0840859,
+          -38.9522756
+        ],
+        [
+          -68.0840857,
+          -38.9522057
+        ],
+        [
+          -68.0841667,
+          -38.9522056
         ]
       ]
     ]
@@ -44730,23 +44737,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1355646034",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Roma",
-    "id": "node/1355646034"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4089232,
-      -34.5902375
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1369432528",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
@@ -44937,6 +44927,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/1374389776"
   },
   "geometry": {
@@ -51252,8 +51243,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4729532,
-      -34.5423221
+      -58.4729538,
+      -34.5422931
     ]
   }
 },
@@ -99023,7 +99014,7 @@
     "addr:street": "Avenida Pueyrredón",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Paraguay",
+    "name": "Porteña",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4675700107"
   },
@@ -102573,6 +102564,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/4713381690"
   },
   "geometry": {
@@ -109390,28 +109382,6 @@
     "coordinates": [
       -58.2436184,
       -34.7339938
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5291649935",
-  "properties": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "2618",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida Tambor de Tacuarí",
-    "amenity": "pharmacy",
-    "contact:phone": "+54 376 4421554",
-    "healthcare": "pharmacy",
-    "name": "Full Farma I",
-    "id": "node/5291649935"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.9030717,
-      -27.3702462
     ]
   }
 },
@@ -119565,14 +119535,14 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Alberdi",
+    "name": "Farmacia Nueva Alberdi",
     "id": "node/5934975403"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.8664468,
-      -24.2332155
+      -64.8662295,
+      -24.2332449
     ]
   }
 },
@@ -125458,6 +125428,8 @@
     "healthcare": "pharmacy",
     "level": "1",
     "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
     "id": "node/6343586522"
   },
   "geometry": {
@@ -126494,9 +126466,11 @@
     "addr:street": "Portal Patagonia Shopping",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
     "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
     "id": "node/6439952579"
   },
   "geometry": {
@@ -126817,6 +126791,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/6514081419"
   },
   "geometry": {
@@ -132547,6 +132522,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
     "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
     "id": "node/7283811564"
   },
   "geometry": {
@@ -139985,6 +139961,7 @@
     "healthcare": "pharmacy",
     "level": "0",
     "name": "Farmacia del Pueblo",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
     "id": "node/7792207151"
   },
   "geometry": {
@@ -146167,23 +146144,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9043703033",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "id": "node/9043703033"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -64.4299961,
-      -31.7297104
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9044412538",
   "properties": {
     "amenity": "pharmacy",
@@ -150009,7 +149969,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Otto Clever",
+    "name": "Otto Clever",
     "id": "node/9711361392"
   },
   "geometry": {
@@ -153203,6 +153163,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/9982750682"
   },
   "geometry": {
@@ -153726,6 +153687,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/10079032083"
   },
   "geometry": {
@@ -154142,6 +154104,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
     "operator": "Salvado Hnos. S.H.",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
     "id": "node/10091317523"
   },
   "geometry": {
@@ -154654,6 +154617,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/10224746905"
   },
   "geometry": {
@@ -154696,6 +154660,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacias Global",
     "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/",
     "id": "node/10231747106"
   },
   "geometry": {
@@ -155593,6 +155558,65 @@
     "coordinates": [
       -58.4047704,
       -34.6011543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10591627078",
+  "properties": {
+    "addr:city": "San Francisco Solano",
+    "addr:housenumber": "6382",
+    "addr:street": "Avenida General San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "León",
+    "id": "node/10591627078"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3252572,
+      -34.7741594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10592664095",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "2095",
+    "addr:postcode": "Q8300",
+    "addr:street": "General Manuel Belgrano",
+    "amenity": "pharmacy",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Braidotti",
+    "id": "node/10592664095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0882762,
+      -38.9504147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10592987289",
+  "properties": {
+    "addr:street": "Avenida Félix Amadeo Benítez",
+    "amenity": "pharmacy",
+    "name": "San Ramón",
+    "id": "node/10592987289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.9468969,
+      -27.3320941
     ]
   }
 }
