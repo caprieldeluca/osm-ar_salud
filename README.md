@@ -1,7 +1,7 @@
-# covid-19
+# osm-ar_salud
 Soporte de datos y visualización para el [proyecto de mapeo de OpenStreetMap Argentina: COVID-19](https://wiki.openstreetmap.org/wiki/ES:Argentina/COVID-19).
 
-[Ir al mapa "Sistema de Salud - Argentina"](https://umap.openstreetmap.fr/es/map/sistema-de-salud-argentina-covid19_437454#4/-41.84/-54.58)
+[Ir al mapa "Sistema de Salud - Argentina"](https://umap.openstreetmap.fr/es/map/sistema-de-salud-argentina_437454#4/-41.84/-54.58)
 
 ----
 
