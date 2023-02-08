@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-01T18:30:05Z",
-    "timestamp_areas_base": "2023-02-01T08:55:06Z",
+    "timestamp_osm_base": "2023-02-08T16:37:09Z",
+    "timestamp_areas_base": "2023-02-08T12:38:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4701,17 +4701,6 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 1589583254,
-  "lat": -27.4532042,
-  "lon": -58.9839089,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Centro 2"
   }
 },
 {
@@ -11166,7 +11155,8 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "RP"
+    "name": "Rp.",
+    "phone": "+54 11 64830999"
   }
 },
 {
@@ -14494,7 +14484,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del León",
-    "phone": "(02932) 421653"
+    "phone": "+54 2932 42 1653"
   }
 },
 {
@@ -49598,10 +49588,15 @@
   "lat": -27.4529060,
   "lon": -58.9882202,
   "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Arturo Umberto Illia",
     "amenity": "pharmacy",
+    "contact:facebook": "https://facebook.com/FarmaciaElIndio",
+    "contact:whatsapp": "+54 362 493-4426;+54 362 408-8230",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "El Indio",
+    "phone": "+54 362 445-1999",
     "start_date": "1907"
   }
 },
@@ -79842,6 +79837,120 @@
   }
 },
 {
+  "type": "node",
+  "id": 10600445200,
+  "lat": -34.5790535,
+  "lon": -58.5366549,
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "3810",
+    "addr:postcode": "B1650BDH",
+    "addr:street": "48 - Moreno",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Mutual",
+    "source": "local knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 10601769690,
+  "lat": -38.7546393,
+  "lon": -62.2680107,
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "2210",
+    "addr:street": "Ecuador",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "FARMACIA DEL ANGEL"
+  }
+},
+{
+  "type": "node",
+  "id": 10604712747,
+  "lat": -53.7933860,
+  "lon": -67.6998889,
+  "tags": {
+    "addr:city": "Río Grande",
+    "addr:housenumber": "1147",
+    "addr:postcode": "9420",
+    "addr:street": "Avenida Libertad",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farma Salud",
+    "opening_hours": "Mo-Su 09:00-22:00",
+    "phone": "2964425469"
+  }
+},
+{
+  "type": "node",
+  "id": 10605436094,
+  "lat": -38.7535805,
+  "lon": -62.2656631,
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "2059",
+    "addr:street": "Avenida General Arias",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Gardela"
+  }
+},
+{
+  "type": "node",
+  "id": 10605527126,
+  "lat": -38.9547639,
+  "lon": -68.0890247,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "2141",
+    "addr:postcode": "Q8300",
+    "addr:street": "General San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/tienda/"
+  }
+},
+{
+  "type": "node",
+  "id": 10609236935,
+  "lat": -27.0231620,
+  "lon": -54.6876761,
+  "tags": {
+    "addr:city": "Dos de Mayo",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia RyF"
+  }
+},
+{
+  "type": "node",
+  "id": 10614513295,
+  "lat": -30.7632569,
+  "lon": -57.9841207,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10614513296,
+  "lat": -30.7629527,
+  "lon": -57.9849790,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -80142,8 +80251,12 @@
     "amenity": "pharmacy",
     "building": "retail",
     "building:levels": "1",
+    "contact:facebook": "https://fb.com/people/Farmacia-Balducchi-Funes/100083540701910/",
+    "contact:phone": "+54 341 493-2032; +54 9 341 743-1168",
     "healthcare": "pharmacy",
-    "name": "Luchetta",
+    "name": "Balducchi",
+    "old_name": "Luchetta",
+    "opening_hours": "Mo-Fr 08:30-13:00,16:00-20:30; Sa 09:00-13:00; Su,PH off",
     "roof:levels": "1",
     "roof:shape": "flat",
     "wheelchair": "limited"
@@ -85754,29 +85867,6 @@
 },
 {
   "type": "way",
-  "id": 470792096,
-  "nodes": [
-    4649834538,
-    4649834539,
-    4649834540,
-    4649834541,
-    4649834538
-  ],
-  "tags": {
-    "addr:city": "Martínez",
-    "addr:housenumber": "2688",
-    "addr:postcode": "B1640",
-    "addr:street": "Avenida Santa Fe",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Selma",
-    "opening_hours": "24/7 closed",
-    "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "way",
   "id": 470798543,
   "nodes": [
     4649893982,
@@ -86064,6 +86154,26 @@
     "healthcare": "pharmacy",
     "name": "Castangino",
     "source": "Reconocimiento terrestre 2016 por Kaart."
+  }
+},
+{
+  "type": "way",
+  "id": 471229248,
+  "nodes": [
+    4653973207,
+    4653973208,
+    4654739317,
+    4653973209,
+    4653973210,
+    4653973211,
+    4653973207
+  ],
+  "tags": {
+    "addr:housenumber": "2102",
+    "addr:street": "Avenida General Mosconi",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "name": "Farma365"
   }
 },
 {
@@ -94906,30 +95016,6 @@
 },
 {
   "type": "way",
-  "id": 834455544,
-  "nodes": [
-    7789472133,
-    7789472134,
-    7789472139,
-    7789472136,
-    7789472143,
-    7789472135,
-    7789472133
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "2141",
-    "addr:postcode": "Q8300",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Global"
-  }
-},
-{
-  "type": "way",
   "id": 835361529,
   "nodes": [
     7797386603,
@@ -95161,6 +95247,23 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacentro"
+  }
+},
+{
+  "type": "way",
+  "id": 837281460,
+  "nodes": [
+    7814352443,
+    7814352444,
+    7814352445,
+    7814352446,
+    7814352447,
+    7814352443
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "house",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -98176,6 +98279,29 @@
   }
 },
 {
+  "type": "way",
+  "id": 1137331797,
+  "nodes": [
+    10601961225,
+    1589583254,
+    10601961219,
+    10601961218,
+    10601961224,
+    10601961215,
+    10601961223,
+    10601961222,
+    10601961221,
+    10601961220,
+    10601961225
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "retail",
+    "healthcare": "pharmacy",
+    "name": "Centro 2"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -99740,42 +99866,6 @@
   "id": 9598659564,
   "lat": -38.9537811,
   "lon": -68.2255890
-},
-{
-  "type": "node",
-  "id": 7789472133,
-  "lat": -38.9547814,
-  "lon": -68.0891263
-},
-{
-  "type": "node",
-  "id": 7789472134,
-  "lat": -38.9546005,
-  "lon": -68.0891243
-},
-{
-  "type": "node",
-  "id": 7789472135,
-  "lat": -38.9547824,
-  "lon": -68.0889853
-},
-{
-  "type": "node",
-  "id": 7789472136,
-  "lat": -38.9546014,
-  "lon": -68.0889832
-},
-{
-  "type": "node",
-  "id": 7789472139,
-  "lat": -38.9546011,
-  "lon": -68.0890989
-},
-{
-  "type": "node",
-  "id": 7789472143,
-  "lat": -38.9546590,
-  "lon": -68.0889836
 },
 {
   "type": "node",
@@ -104336,6 +104426,36 @@
   "id": 5563253482,
   "lat": -31.4663390,
   "lon": -64.1132699
+},
+{
+  "type": "node",
+  "id": 7814352443,
+  "lat": -31.3147278,
+  "lon": -64.4614253
+},
+{
+  "type": "node",
+  "id": 7814352444,
+  "lat": -31.3147489,
+  "lon": -64.4612820
+},
+{
+  "type": "node",
+  "id": 7814352445,
+  "lat": -31.3147308,
+  "lon": -64.4612660
+},
+{
+  "type": "node",
+  "id": 7814352446,
+  "lat": -31.3147081,
+  "lon": -64.4612696
+},
+{
+  "type": "node",
+  "id": 7814352447,
+  "lat": -31.3146915,
+  "lon": -64.4614147
 },
 {
   "type": "node",
@@ -120701,6 +120821,42 @@
 },
 {
   "type": "node",
+  "id": 4653973207,
+  "lat": -34.5810897,
+  "lon": -58.4935761
+},
+{
+  "type": "node",
+  "id": 4653973208,
+  "lat": -34.5811665,
+  "lon": -58.4934954
+},
+{
+  "type": "node",
+  "id": 4653973209,
+  "lat": -34.5810754,
+  "lon": -58.4933722
+},
+{
+  "type": "node",
+  "id": 4653973210,
+  "lat": -34.5810296,
+  "lon": -58.4934226
+},
+{
+  "type": "node",
+  "id": 4653973211,
+  "lat": -34.5810263,
+  "lon": -58.4934870
+},
+{
+  "type": "node",
+  "id": 4654739317,
+  "lat": -34.5811086,
+  "lon": -58.4934141
+},
+{
+  "type": "node",
   "id": 4654642563,
   "lat": -34.5865428,
   "lon": -58.4869567
@@ -121670,30 +121826,6 @@
   "id": 4605099838,
   "lat": -34.4975376,
   "lon": -58.5087823
-},
-{
-  "type": "node",
-  "id": 4649834538,
-  "lat": -34.4955724,
-  "lon": -58.4976046
-},
-{
-  "type": "node",
-  "id": 4649834539,
-  "lat": -34.4955641,
-  "lon": -58.4975410
-},
-{
-  "type": "node",
-  "id": 4649834540,
-  "lat": -34.4956818,
-  "lon": -58.4974830
-},
-{
-  "type": "node",
-  "id": 4649834541,
-  "lat": -34.4957058,
-  "lon": -58.4975433
 },
 {
   "type": "node",
@@ -124109,6 +124241,12 @@
 },
 {
   "type": "node",
+  "id": 1589583254,
+  "lat": -27.4532357,
+  "lon": -58.9839298
+},
+{
+  "type": "node",
   "id": 1589623259,
   "lat": -27.4509822,
   "lon": -58.9847449
@@ -124130,6 +124268,60 @@
   "id": 5498760249,
   "lat": -27.4507414,
   "lon": -58.9846265
+},
+{
+  "type": "node",
+  "id": 10601961215,
+  "lat": -27.4531026,
+  "lon": -58.9837882
+},
+{
+  "type": "node",
+  "id": 10601961218,
+  "lat": -27.4532879,
+  "lon": -58.9838308
+},
+{
+  "type": "node",
+  "id": 10601961219,
+  "lat": -27.4532875,
+  "lon": -58.9838710
+},
+{
+  "type": "node",
+  "id": 10601961220,
+  "lat": -27.4531850,
+  "lon": -58.9838493
+},
+{
+  "type": "node",
+  "id": 10601961221,
+  "lat": -27.4531466,
+  "lon": -58.9838063
+},
+{
+  "type": "node",
+  "id": 10601961222,
+  "lat": -27.4531095,
+  "lon": -58.9838483
+},
+{
+  "type": "node",
+  "id": 10601961223,
+  "lat": -27.4530793,
+  "lon": -58.9838145
+},
+{
+  "type": "node",
+  "id": 10601961224,
+  "lat": -27.4531755,
+  "lon": -58.9837051
+},
+{
+  "type": "node",
+  "id": 10601961225,
+  "lat": -27.4531745,
+  "lon": -58.9838613
 },
 {
   "type": "node",

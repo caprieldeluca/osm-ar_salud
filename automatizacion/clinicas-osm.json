@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-01T18:24:54Z",
-    "timestamp_areas_base": "2023-02-01T08:55:06Z",
+    "timestamp_osm_base": "2023-02-08T16:31:02Z",
+    "timestamp_areas_base": "2023-02-08T12:38:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8438,7 +8438,7 @@
     "addr:postcode": "S2000",
     "addr:street": "Santa Fe",
     "amenity": "clinic",
-    "contact:facebook": "https://fb.com/centromedicocahuape.cassaux",
+    "contact:facebook": "centromedicocahuape.cassaux",
     "healthcare": "clinic",
     "name": "Cahuapé",
     "official_name": "Centro Médico Cahuapé"
@@ -16882,7 +16882,7 @@
     "addr:housenumber": "1940",
     "addr:street": "Avenida Francia",
     "amenity": "clinic",
-    "contact:facebook": "https://www.facebook.com/SaludAnimalRosario/",
+    "contact:facebook": "SaludAnimalRosario",
     "contact:phone": "+54 341 480-5463; +54 341 431-4048",
     "contact:website": "https://www.rosario.gob.ar/web/servicios/salud-animal/esterilizacion-de-perros-y-gatos#turnos",
     "healthcare": "clinic",
@@ -20612,7 +20612,7 @@
     "addr:postcode": "8400",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro De Salud 34 Hectareas",
+    "name": "Centro de Salud 34 Hectáreas",
     "operator": "Provincial",
     "operator:type": "public",
     "ref:sisa_codigo": "50620212170214",
@@ -62168,6 +62168,25 @@
 },
 {
   "type": "way",
+  "id": 1021785191,
+  "nodes": [
+    9423991944,
+    9423991941,
+    9423991942,
+    10609057509,
+    10609057508,
+    9423991943,
+    9423991944
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Modular Sanitario 18"
+  }
+},
+{
+  "type": "way",
   "id": 1021811228,
   "nodes": [
     9424261059,
@@ -64382,6 +64401,42 @@
   "id": 10270103275,
   "lat": -41.1249660,
   "lon": -71.4111890
+},
+{
+  "type": "node",
+  "id": 9423991941,
+  "lat": -41.1225445,
+  "lon": -71.4059903
+},
+{
+  "type": "node",
+  "id": 9423991942,
+  "lat": -41.1228704,
+  "lon": -71.4059937
+},
+{
+  "type": "node",
+  "id": 9423991943,
+  "lat": -41.1228252,
+  "lon": -71.4062725
+},
+{
+  "type": "node",
+  "id": 9423991944,
+  "lat": -41.1225428,
+  "lon": -71.4062696
+},
+{
+  "type": "node",
+  "id": 10609057508,
+  "lat": -41.1228261,
+  "lon": -71.4061151
+},
+{
+  "type": "node",
+  "id": 10609057509,
+  "lat": -41.1228697,
+  "lon": -71.4061155
 },
 {
   "type": "node",
@@ -73218,14 +73273,14 @@
 {
   "type": "node",
   "id": 8280018164,
-  "lat": -31.5340314,
-  "lon": -68.5355202
+  "lat": -31.5340305,
+  "lon": -68.5355203
 },
 {
   "type": "node",
   "id": 8280018165,
-  "lat": -31.5340422,
-  "lon": -68.5356343
+  "lat": -31.5340414,
+  "lon": -68.5356344
 },
 {
   "type": "node",
