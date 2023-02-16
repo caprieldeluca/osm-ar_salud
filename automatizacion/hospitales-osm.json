@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-08T16:25:54Z",
-    "timestamp_areas_base": "2023-02-08T12:38:39Z",
+    "timestamp_osm_base": "2023-02-16T18:09:23Z",
+    "timestamp_areas_base": "2023-02-16T04:58:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1383,6 +1383,10 @@
   "lat": -27.1693773,
   "lon": -65.4993296,
   "tags": {
+    "addr:city": "Monteros",
+    "addr:housenumber": "255",
+    "addr:postcode": "4142",
+    "addr:street": "Juan Bautista Alberdi",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -13640,12 +13644,17 @@
 {
   "type": "node",
   "id": 5127539105,
-  "lat": -27.5816478,
-  "lon": -58.7399398,
+  "lat": -27.5818550,
+  "lon": -58.7399947,
   "tags": {
+    "addr:city": "Riachuelo",
+    "addr:postcode": "3416",
+    "addr:street": "Bruno Esquivel",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Presidente Raúl Alfonsín"
+    "name": "Presidente Raúl Alfonsín",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "government"
   }
 },
 {
@@ -15727,20 +15736,6 @@
 },
 {
   "type": "node",
-  "id": 6166932493,
-  "lat": -34.5831277,
-  "lon": -58.5370376,
-  "tags": {
-    "addr:housenumber": "4189",
-    "addr:street": "42 - Perdriel",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Consultorios Externos Ginecología y Obstetricia",
-    "operator": "Sanatorio Anchorena"
-  }
-},
-{
-  "type": "node",
   "id": 6177284021,
   "lat": -32.3400042,
   "lon": -65.2067220,
@@ -16554,8 +16549,8 @@
 {
   "type": "node",
   "id": 7044862313,
-  "lat": -31.3922809,
-  "lon": -64.1850631,
+  "lat": -31.3922860,
+  "lon": -64.1850765,
   "tags": {
     "addr:city": "Córdoba",
     "addr:full": "José Baigorri 749",
@@ -17907,8 +17902,8 @@
 {
   "type": "node",
   "id": 7385695221,
-  "lat": -31.5425849,
-  "lon": -68.5218130,
+  "lat": -31.5438846,
+  "lon": -68.5216887,
   "tags": {
     "addr:city": "San Juan",
     "addr:full": "Bernardo O Higgins -Este- 21",
@@ -17917,7 +17912,7 @@
     "amenity": "hospital",
     "description": "Mediano riesgo con internación con cuidados especiales",
     "healthcare": "hospital",
-    "name": "Consultorios Externos Y Hospital De Dia Instituto Modelo De Cirugia Infantil",
+    "name": "Instituto Modelo de Cirugia Infantil - Consultorios Externos Y Hospital De Dia",
     "operator:type": "public",
     "ref:sisa_codigo": "11700282377030",
     "ref:sisa_tipologia": "ESCIG",
@@ -23364,6 +23359,23 @@
   }
 },
 {
+  "type": "node",
+  "id": 10653414641,
+  "lat": -38.9020250,
+  "lon": -70.0650676,
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:postcode": "8340",
+    "addr:street": "Avenida San Martín",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Interzonal de Zapala",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
+    "operator:type": "public"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -25936,7 +25948,14 @@
   "id": 143635742,
   "nodes": [
     1571920729,
+    10654212243,
     1571920733,
+    10654212242,
+    10654212247,
+    10654212246,
+    10654212245,
+    10654212244,
+    10654212248,
     1571920732,
     1571920734,
     1571920729
@@ -37338,6 +37357,30 @@
 },
 {
   "type": "way",
+  "id": 399257381,
+  "nodes": [
+    10632845687,
+    4019949432,
+    4019949433,
+    10632845686,
+    10632845689,
+    10632845688,
+    10632845687
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "461",
+    "addr:postcode": "8000",
+    "addr:street": "9 de Julio",
+    "alt_name": "Centro de Salud Empleados de Comercio",
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Privado Dr. Raúl Matera"
+  }
+},
+{
+  "type": "way",
   "id": 401652867,
   "nodes": [
     10056335233,
@@ -41912,7 +41955,6 @@
   "id": 526026112,
   "nodes": [
     5116288724,
-    5116288725,
     5116288726,
     5116288727,
     5116288728,
@@ -44573,17 +44615,22 @@
     6463444214,
     6463444215,
     6141362221,
-    6463444216,
-    6463444217,
+    10647923254,
+    10647923253,
+    10647923252,
+    10647923251,
     6463444218,
     6463444214
   ],
   "tags": {
+    "addr:city": "General San Martín",
     "addr:full": "Liniers 1632",
     "addr:housenumber": "1632",
-    "addr:postcode": "7600",
+    "addr:postcode": "1650",
     "addr:street": "97 - Liniers",
     "amenity": "hospital",
+    "contact:phone": "+54 11 4724 1400;+54 11 4724 1900",
+    "contact:website": "https://www.sasm.com.ar/",
     "healthcare": "hospital",
     "name": "Sanatorio Anchorena San Martín",
     "operator:type": "private",
@@ -47150,28 +47197,6 @@
     "operator:type": "public",
     "phone": "+54 293 442-1211;+54 293 443-0472",
     "wikidata": "Q94704922"
-  }
-},
-{
-  "type": "way",
-  "id": 798513540,
-  "nodes": [
-    7468389759,
-    7468389760,
-    7468389761,
-    7468389762,
-    7468389759
-  ],
-  "tags": {
-    "addr:city": "Zapala",
-    "addr:postcode": "8340",
-    "addr:street": "Avenida San Martín",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Interzonal de Zapala",
-    "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
-    "operator:type": "public"
   }
 },
 {
@@ -53225,6 +53250,58 @@
   }
 },
 {
+  "type": "way",
+  "id": 1141865932,
+  "nodes": [
+    10053973700,
+    10635455682,
+    10599307563,
+    10599307562,
+    10599307561,
+    10599307560,
+    10599307559,
+    10599307558,
+    10599307557,
+    10590121574,
+    10590121578,
+    10590121579,
+    10590121580,
+    10590121581,
+    10628120342,
+    10053973701,
+    10628120339,
+    10053973700
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud Saldan \"Enfermera Blanca Veron\"",
+    "opening_hours": "24/7",
+    "phone": "03515894040"
+  }
+},
+{
+  "type": "way",
+  "id": 1142888231,
+  "nodes": [
+    10640890946,
+    10640890947,
+    10640890948,
+    10640890949,
+    10640890946
+  ],
+  "tags": {
+    "addr:city": "Riachuelo",
+    "addr:postcode": "3416",
+    "addr:street": "Bruno Esquivel",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital \"Pte. Raúl Alfonsín\"",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "government"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -57533,30 +57610,6 @@
   "id": 9338533154,
   "lat": -39.0737488,
   "lon": -67.2372279
-},
-{
-  "type": "node",
-  "id": 7468389759,
-  "lat": -38.9017747,
-  "lon": -70.0658305
-},
-{
-  "type": "node",
-  "id": 7468389760,
-  "lat": -38.9013834,
-  "lon": -70.0649910
-},
-{
-  "type": "node",
-  "id": 7468389762,
-  "lat": -38.9026665,
-  "lon": -70.0651441
-},
-{
-  "type": "node",
-  "id": 7468389761,
-  "lat": -38.9022753,
-  "lon": -70.0643047
 },
 {
   "type": "node",
@@ -62225,6 +62278,42 @@
   "id": 316803140,
   "lat": -38.7317188,
   "lon": -62.2247740
+},
+{
+  "type": "node",
+  "id": 4019949432,
+  "lat": -38.7210525,
+  "lon": -62.2797403
+},
+{
+  "type": "node",
+  "id": 4019949433,
+  "lat": -38.7211767,
+  "lon": -62.2795829
+},
+{
+  "type": "node",
+  "id": 10632845686,
+  "lat": -38.7213798,
+  "lon": -62.2798461
+},
+{
+  "type": "node",
+  "id": 10632845687,
+  "lat": -38.7212556,
+  "lon": -62.2800036
+},
+{
+  "type": "node",
+  "id": 10632845688,
+  "lat": -38.7213159,
+  "lon": -62.2799271
+},
+{
+  "type": "node",
+  "id": 10632845689,
+  "lat": -38.7213560,
+  "lon": -62.2798763
 },
 {
   "type": "node",
@@ -74876,6 +74965,108 @@
 },
 {
   "type": "node",
+  "id": 10053973700,
+  "lat": -31.3129222,
+  "lon": -64.2993769
+},
+{
+  "type": "node",
+  "id": 10053973701,
+  "lat": -31.3127201,
+  "lon": -64.2993760
+},
+{
+  "type": "node",
+  "id": 10590121574,
+  "lat": -31.3126917,
+  "lon": -64.2996847
+},
+{
+  "type": "node",
+  "id": 10590121578,
+  "lat": -31.3126779,
+  "lon": -64.2996890
+},
+{
+  "type": "node",
+  "id": 10590121579,
+  "lat": -31.3125613,
+  "lon": -64.2996877
+},
+{
+  "type": "node",
+  "id": 10590121580,
+  "lat": -31.3125641,
+  "lon": -64.2993666
+},
+{
+  "type": "node",
+  "id": 10590121581,
+  "lat": -31.3126411,
+  "lon": -64.2993675
+},
+{
+  "type": "node",
+  "id": 10599307557,
+  "lat": -31.3126903,
+  "lon": -64.2999238
+},
+{
+  "type": "node",
+  "id": 10599307558,
+  "lat": -31.3127973,
+  "lon": -64.2998213
+},
+{
+  "type": "node",
+  "id": 10599307559,
+  "lat": -31.3128903,
+  "lon": -64.2997260
+},
+{
+  "type": "node",
+  "id": 10599307560,
+  "lat": -31.3129670,
+  "lon": -64.2996308
+},
+{
+  "type": "node",
+  "id": 10599307561,
+  "lat": -31.3129887,
+  "lon": -64.2995864
+},
+{
+  "type": "node",
+  "id": 10599307562,
+  "lat": -31.3130004,
+  "lon": -64.2995328
+},
+{
+  "type": "node",
+  "id": 10599307563,
+  "lat": -31.3130104,
+  "lon": -64.2994168
+},
+{
+  "type": "node",
+  "id": 10628120339,
+  "lat": -31.3127880,
+  "lon": -64.2993763
+},
+{
+  "type": "node",
+  "id": 10628120342,
+  "lat": -31.3126870,
+  "lon": -64.2993757
+},
+{
+  "type": "node",
+  "id": 10635455682,
+  "lat": -31.3130110,
+  "lon": -64.2993808
+},
+{
+  "type": "node",
   "id": 2464830376,
   "lat": -31.2952791,
   "lon": -64.2988537
@@ -85863,26 +86054,68 @@
 {
   "type": "node",
   "id": 1571920732,
-  "lat": -34.6205059,
-  "lon": -58.9503892
+  "lat": -34.6202123,
+  "lon": -58.9501102
 },
 {
   "type": "node",
   "id": 1571920734,
-  "lat": -34.6216277,
-  "lon": -58.9515849
+  "lat": -34.6217226,
+  "lon": -58.9516707
 },
 {
   "type": "node",
   "id": 1571920729,
-  "lat": -34.6240216,
-  "lon": -58.9482684
+  "lat": -34.6245204,
+  "lon": -58.9475174
 },
 {
   "type": "node",
   "id": 1571920733,
-  "lat": -34.6228998,
-  "lon": -58.9470727
+  "lat": -34.6233324,
+  "lon": -58.9460132
+},
+{
+  "type": "node",
+  "id": 10654212242,
+  "lat": -34.6229185,
+  "lon": -58.9461350
+},
+{
+  "type": "node",
+  "id": 10654212243,
+  "lat": -34.6233114,
+  "lon": -58.9464784
+},
+{
+  "type": "node",
+  "id": 10654212244,
+  "lat": -34.6206097,
+  "lon": -58.9477176
+},
+{
+  "type": "node",
+  "id": 10654212245,
+  "lat": -34.6210578,
+  "lon": -58.9473313
+},
+{
+  "type": "node",
+  "id": 10654212246,
+  "lat": -34.6217178,
+  "lon": -58.9479321
+},
+{
+  "type": "node",
+  "id": 10654212247,
+  "lat": -34.6221063,
+  "lon": -58.9473501
+},
+{
+  "type": "node",
+  "id": 10654212248,
+  "lat": -34.6213734,
+  "lon": -58.9484310
 },
 {
   "type": "node",
@@ -96765,14 +96998,14 @@
 {
   "type": "node",
   "id": 6463444214,
-  "lat": -34.5830925,
-  "lon": -58.5374621
+  "lat": -34.5830665,
+  "lon": -58.5374589
 },
 {
   "type": "node",
   "id": 6463444218,
-  "lat": -34.5824973,
-  "lon": -58.5367803
+  "lat": -34.5825040,
+  "lon": -58.5367904
 },
 {
   "type": "node",
@@ -96825,8 +97058,8 @@
 {
   "type": "node",
   "id": 6141362221,
-  "lat": -34.5834522,
-  "lon": -58.5360014
+  "lat": -34.5836035,
+  "lon": -58.5361597
 },
 {
   "type": "node",
@@ -96836,15 +97069,27 @@
 },
 {
   "type": "node",
-  "id": 6463444216,
-  "lat": -34.5830158,
-  "lon": -58.5365635
+  "id": 10647923251,
+  "lat": -34.5831722,
+  "lon": -58.5359767
 },
 {
   "type": "node",
-  "id": 6463444217,
-  "lat": -34.5828304,
-  "lon": -58.5363512
+  "id": 10647923252,
+  "lat": -34.5831847,
+  "lon": -58.5359918
+},
+{
+  "type": "node",
+  "id": 10647923253,
+  "lat": -34.5833017,
+  "lon": -58.5360722
+},
+{
+  "type": "node",
+  "id": 10647923254,
+  "lat": -34.5835728,
+  "lon": -58.5362010
 },
 {
   "type": "node",
@@ -112544,6 +112789,30 @@
 },
 {
   "type": "node",
+  "id": 10640890946,
+  "lat": -27.5814326,
+  "lon": -58.7401410
+},
+{
+  "type": "node",
+  "id": 10640890949,
+  "lat": -27.5819875,
+  "lon": -58.7401166
+},
+{
+  "type": "node",
+  "id": 10640890947,
+  "lat": -27.5814038,
+  "lon": -58.7395089
+},
+{
+  "type": "node",
+  "id": 10640890948,
+  "lat": -27.5819551,
+  "lon": -58.7394804
+},
+{
+  "type": "node",
   "id": 7514746165,
   "lat": -27.4857910,
   "lon": -58.8468818
@@ -113573,12 +113842,6 @@
   "id": 5116288724,
   "lat": -28.3913647,
   "lon": -57.8949789
-},
-{
-  "type": "node",
-  "id": 5116288725,
-  "lat": -28.3914129,
-  "lon": -57.8949612
 },
 {
   "type": "node",

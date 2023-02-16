@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-08T16:42:09Z",
-    "timestamp_areas_base": "2023-02-08T12:38:39Z",
+    "timestamp_osm_base": "2023-02-16T18:25:38Z",
+    "timestamp_areas_base": "2023-02-16T18:21:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9616,6 +9616,7 @@
   "lon": -55.7034217,
   "tags": {
     "addr:city": "Fachinal",
+    "addr:postcode": "3304",
     "addr:street": "Ruta Provincial 204",
     "alt_name": "Centro de Atención Primaria de la Salud Fachinal",
     "amenity": "doctors",
@@ -19059,6 +19060,28 @@
   }
 },
 {
+  "type": "node",
+  "id": 10655179805,
+  "lat": -31.5336403,
+  "lon": -68.5052496,
+  "tags": {
+    "amenity": "doctors",
+    "name": "Odontología",
+    "phone": "+54 9 2644582547"
+  }
+},
+{
+  "type": "node",
+  "id": 10665836992,
+  "lat": -31.3920447,
+  "lon": -64.1841394,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Consultorios Mariano Artal Grau"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -22991,29 +23014,6 @@
 },
 {
   "type": "way",
-  "id": 1098016840,
-  "nodes": [
-    10053973699,
-    10053973700,
-    10053973701,
-    10590121583,
-    10590121576,
-    10590121575,
-    10053973702,
-    10053973703,
-    10053973704,
-    10599307565,
-    10053973699
-  ],
-  "tags": {
-    "amenity": "doctors",
-    "building": "hospital",
-    "healthcare": "doctor",
-    "name": "Dispensario Municipalidad de Saldán Enfermera Blanca Veron"
-  }
-},
-{
-  "type": "way",
   "id": 1106885851,
   "nodes": [
     10128538734,
@@ -23108,6 +23108,31 @@
     "building": "yes",
     "healthcare": "doctor",
     "name": "Servicio Medico"
+  }
+},
+{
+  "type": "way",
+  "id": 1141425569,
+  "nodes": [
+    10632983914,
+    10632983915,
+    10632983916,
+    10632983917,
+    10632983914
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "481",
+    "addr:postcode": "8000",
+    "addr:street": "Pasaje Húsares",
+    "amenity": "doctors",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100083562272950",
+    "contact:instagram": "https://www.instagram.com/consultoriomedicohusares/",
+    "contact:whatsapp": "5492915345676",
+    "healthcare": "doctor",
+    "name": "Consultorio Médico Húsares",
+    "phone": "+54 9 291 4551565"
   }
 },
 {
@@ -23756,6 +23781,30 @@
   "id": 8707642480,
   "lat": -38.7104697,
   "lon": -62.2630979
+},
+{
+  "type": "node",
+  "id": 10632983914,
+  "lat": -38.7095371,
+  "lon": -62.2647391
+},
+{
+  "type": "node",
+  "id": 10632983915,
+  "lat": -38.7096248,
+  "lon": -62.2646383
+},
+{
+  "type": "node",
+  "id": 10632983916,
+  "lat": -38.7096818,
+  "lon": -62.2647197
+},
+{
+  "type": "node",
+  "id": 10632983917,
+  "lat": -38.7095941,
+  "lon": -62.2648205
 },
 {
   "type": "node",
@@ -24596,66 +24645,6 @@
   "id": 10128538740,
   "lat": -31.4060436,
   "lon": -64.2101615
-},
-{
-  "type": "node",
-  "id": 10053973699,
-  "lat": -31.3129210,
-  "lon": -64.2996205
-},
-{
-  "type": "node",
-  "id": 10053973700,
-  "lat": -31.3129212,
-  "lon": -64.2993781
-},
-{
-  "type": "node",
-  "id": 10053973701,
-  "lat": -31.3127188,
-  "lon": -64.2993779
-},
-{
-  "type": "node",
-  "id": 10053973702,
-  "lat": -31.3127184,
-  "lon": -64.2997651
-},
-{
-  "type": "node",
-  "id": 10053973703,
-  "lat": -31.3128228,
-  "lon": -64.2997652
-},
-{
-  "type": "node",
-  "id": 10053973704,
-  "lat": -31.3128229,
-  "lon": -64.2996204
-},
-{
-  "type": "node",
-  "id": 10590121575,
-  "lat": -31.3127185,
-  "lon": -64.2996857
-},
-{
-  "type": "node",
-  "id": 10590121576,
-  "lat": -31.3127185,
-  "lon": -64.2996634
-},
-{
-  "type": "node",
-  "id": 10590121583,
-  "lat": -31.3127187,
-  "lon": -64.2994137
-},
-{
-  "type": "node",
-  "id": 10599307565,
-  "lat": -31.3128725,
-  "lon": -64.2996205
 },
 {
   "type": "node",

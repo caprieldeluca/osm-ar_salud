@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-08T16:31:02Z",
-    "timestamp_areas_base": "2023-02-08T12:38:39Z",
+    "timestamp_osm_base": "2023-02-16T18:15:24Z",
+    "timestamp_areas_base": "2023-02-16T17:19:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -359,8 +359,8 @@
 {
   "type": "node",
   "id": 1376329696,
-  "lat": -29.7123764,
-  "lon": -57.0849588,
+  "lat": -29.7126146,
+  "lon": -57.0851074,
   "tags": {
     "addr:city": "Paso de los Libres",
     "addr:housenumber": "876",
@@ -10465,13 +10465,13 @@
   "lon": -68.5152480,
   "tags": {
     "amenity": "clinic",
+    "description": "Martes, Jueves y Sábados atiende desde las 8am",
     "email": "dialisisnefro@Hotmail.com",
-    "fixme": "opening_hours",
     "healthcare": "clinic",
     "internet_access": "wlan",
-    "name": "Dialisis Nefro",
-    "opening_hours": "variable \"Varía el horario de apertura entre 8 y 9 a.m dependiendo del día\"",
-    "phone": "2644204614"
+    "name": "Nefro - Clínica de Riñón y Diálisis",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "phone": "+54 264 4204614"
   }
 },
 {
@@ -38756,9 +38756,15 @@
   "lat": -27.0545264,
   "lon": -65.4036954,
   "tags": {
+    "addr:city": "Famaillá",
+    "addr:housenumber": "346",
+    "addr:postcode": "4132",
+    "addr:street": "Bartolomé Mitre",
     "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/centromedico.famailla/",
     "healthcare": "clinic",
-    "name": "Centro Medico San Nicolas"
+    "name": "Centro Medico San Nicolas",
+    "phone": "+54 381 3030476"
   }
 },
 {
@@ -42835,8 +42841,8 @@
 {
   "type": "node",
   "id": 9807492946,
-  "lat": -31.5431435,
-  "lon": -68.5221602,
+  "lat": -31.5431506,
+  "lon": -68.5220234,
   "tags": {
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/dialisisysaludrenal",
@@ -43942,6 +43948,80 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "La Merced"
+  }
+},
+{
+  "type": "node",
+  "id": 10621484732,
+  "lat": -31.5407052,
+  "lon": -68.5344020,
+  "tags": {
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/CordobaClinicaMedicaSJ",
+    "contact:whatsapp": "+54 264 5404611",
+    "name": "Córdoba Clínica Médica",
+    "phone": "+54 264 4322332"
+  }
+},
+{
+  "type": "node",
+  "id": 10633817214,
+  "lat": -34.8572156,
+  "lon": -58.5017527,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clinica Monte Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 10651755613,
+  "lat": -31.5386761,
+  "lon": -68.5167201,
+  "tags": {
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/clinicadelaciudad",
+    "email": "contacto@clinicadelaciudad.com.ar",
+    "name": "Clínica de la Ciudad",
+    "phone": "+54 264 4272927",
+    "website": "https://clinicadelaciudad.com.ar"
+  }
+},
+{
+  "type": "node",
+  "id": 10651755614,
+  "lat": -31.5383175,
+  "lon": -68.5153563,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Cridu - Clínica de Riñón"
+  }
+},
+{
+  "type": "node",
+  "id": 10651779166,
+  "lat": -31.5210851,
+  "lon": -68.5432792,
+  "tags": {
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/urologia_imu_san_juan",
+    "contact:whatsapp": "+54 264 6728252",
+    "email": "info@imusanjuan.com.ar",
+    "name": "Instituto Médico Urológico",
+    "phone": "+54 264 6728252",
+    "website": "https://imusanjuan.com.ar"
+  }
+},
+{
+  "type": "node",
+  "id": 10665981923,
+  "lat": -31.5355074,
+  "lon": -68.5173149,
+  "tags": {
+    "amenity": "clinic",
+    "contact:whatsapp": "+54 264 5634463",
+    "name": "Consultorios Externos Hospital Privado",
+    "opening_hours": "Mo-Fr 08:00-21:00"
   }
 },
 {
@@ -47215,28 +47295,6 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Centro Mutual de Salud AMVI"
-  }
-},
-{
-  "type": "way",
-  "id": 399257381,
-  "nodes": [
-    4019949431,
-    4019949432,
-    4019949433,
-    4019949434,
-    4019949435,
-    4019949431
-  ],
-  "tags": {
-    "addr:city": "Bahía Blanca",
-    "addr:housenumber": "461",
-    "addr:postcode": "8000",
-    "addr:street": "9 de Julio",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "HOSPITAL PRIVADO DR. RAUL MATERA"
   }
 },
 {
@@ -63692,28 +63750,6 @@
 },
 {
   "type": "way",
-  "id": 1136179922,
-  "nodes": [
-    10591714017,
-    10591714018,
-    10591714019,
-    10591714020,
-    10591714017
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "paediatrics;depth;gynaecology;surgery;general",
-    "name": "Sala Medica Barrio Centenario",
-    "opening_hours": "Mo,We,Fr,Sa 08:00-15:00",
-    "operator": "Municipalidad de Coronel Rosales",
-    "operator:type": "public/government",
-    "phone": "2932445539"
-  }
-},
-{
-  "type": "way",
   "id": 1136306222,
   "nodes": [
     10592647312,
@@ -63763,6 +63799,33 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Dispensario Municipal San Francisco"
+  }
+},
+{
+  "type": "way",
+  "id": 1142337788,
+  "nodes": [
+    10638311543,
+    10638311544,
+    10638311545,
+    10638311546,
+    10638311543
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "834",
+    "addr:postcode": "8000",
+    "addr:street": "Sarmiento",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/cedicbb",
+    "contact:whatsapp": "542914702582",
+    "healthcare": "clinic",
+    "healthcare:speciality": "cardiology",
+    "name": "CEDIC",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "phone": "+54 9 291 454-7216;+54 9 291 454-7218;+54 9 291 450-0227",
+    "website": "https://cedicdiagnostico.com.ar/"
   }
 },
 {
@@ -69390,30 +69453,6 @@
 },
 {
   "type": "node",
-  "id": 10591714017,
-  "lat": -38.8613599,
-  "lon": -62.0812684
-},
-{
-  "type": "node",
-  "id": 10591714018,
-  "lat": -38.8614319,
-  "lon": -62.0812491
-},
-{
-  "type": "node",
-  "id": 10591714019,
-  "lat": -38.8614145,
-  "lon": -62.0811271
-},
-{
-  "type": "node",
-  "id": 10591714020,
-  "lat": -38.8613369,
-  "lon": -62.0811460
-},
-{
-  "type": "node",
   "id": 1361582169,
   "lat": -38.7300641,
   "lon": -62.2294540
@@ -69639,36 +69678,6 @@
   "id": 3067586123,
   "lat": -38.7306752,
   "lon": -62.2288418
-},
-{
-  "type": "node",
-  "id": 4019949431,
-  "lat": -38.7212597,
-  "lon": -62.2800079
-},
-{
-  "type": "node",
-  "id": 4019949432,
-  "lat": -38.7210900,
-  "lon": -62.2798037
-},
-{
-  "type": "node",
-  "id": 4019949433,
-  "lat": -38.7212141,
-  "lon": -62.2796403
-},
-{
-  "type": "node",
-  "id": 4019949434,
-  "lat": -38.7213809,
-  "lon": -62.2798497
-},
-{
-  "type": "node",
-  "id": 4019949435,
-  "lat": -38.7213195,
-  "lon": -62.2799299
 },
 {
   "type": "node",
@@ -69921,6 +69930,30 @@
   "id": 8762030366,
   "lat": -38.7143478,
   "lon": -62.2609603
+},
+{
+  "type": "node",
+  "id": 10638311543,
+  "lat": -38.7094021,
+  "lon": -62.2579803
+},
+{
+  "type": "node",
+  "id": 10638311544,
+  "lat": -38.7095400,
+  "lon": -62.2577997
+},
+{
+  "type": "node",
+  "id": 10638311545,
+  "lat": -38.7094722,
+  "lon": -62.2577147
+},
+{
+  "type": "node",
+  "id": 10638311546,
+  "lat": -38.7093344,
+  "lon": -62.2578953
 },
 {
   "type": "node",
@@ -72277,8 +72310,8 @@
 {
   "type": "node",
   "id": 7889579822,
-  "lat": -31.5427394,
-  "lon": -68.5571359
+  "lat": -31.5427344,
+  "lon": -68.5570956
 },
 {
   "type": "node",
@@ -72307,8 +72340,8 @@
 {
   "type": "node",
   "id": 7892190551,
-  "lat": -31.5427471,
-  "lon": -68.5571976
+  "lat": -31.5427465,
+  "lon": -68.5571982
 },
 {
   "type": "node",
