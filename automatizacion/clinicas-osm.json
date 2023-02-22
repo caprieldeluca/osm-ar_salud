@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-16T18:15:24Z",
-    "timestamp_areas_base": "2023-02-16T17:19:24Z",
+    "timestamp_osm_base": "2023-02-22T16:40:40Z",
+    "timestamp_areas_base": "2023-02-22T11:27:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -25079,7 +25079,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico Barrial - CMB 16",
-    "note": "Validar si sigue operando no lo encuentro en el sitio de la ciudad\nhttps://www.buenosaires.gob.ar/salud/establecimientos ",
+    "note": "Validar si sigue operando no lo encuentro en el sitio de la ciudad https://www.buenosaires.gob.ar/salud/establecimientos",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
     "phone": "+541149312139;+541149560542",
@@ -42155,16 +42155,6 @@
 },
 {
   "type": "node",
-  "id": 9354190017,
-  "lat": -34.6083654,
-  "lon": -58.5159595,
-  "tags": {
-    "amenity": "clinic",
-    "name:en": "Covid Test"
-  }
-},
-{
-  "type": "node",
   "id": 9357067164,
   "lat": -34.5630478,
   "lon": -58.4580303,
@@ -44025,6 +44015,68 @@
   }
 },
 {
+  "type": "node",
+  "id": 10675491432,
+  "lat": -34.5780906,
+  "lon": -58.5355995,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "physiotherapy",
+    "level": "0",
+    "name": "Corporación Médica de Gral San Martín",
+    "office": "therapist",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10676594883,
+  "lat": -27.7310237,
+  "lon": -65.5850963,
+  "tags": {
+    "addr:city": "San José De La Cocha",
+    "addr:postcode": "4163",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Huasa Pampa Norte",
+    "ref:sisa_codigo": "50900492196267",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://maproulette.org/challenge/13148/task/45763615"
+  }
+},
+{
+  "type": "node",
+  "id": 10676630233,
+  "lat": -27.6490172,
+  "lon": -65.4366727,
+  "tags": {
+    "addr:city": "Granaderos",
+    "addr:postcode": "4159",
+    "addr:street": "24 de Septiembre",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Graneros",
+    "phone": "+54 3891 491066",
+    "ref:sisa_codigo": "50900352196265",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 10677432863,
+  "lat": -34.6488823,
+  "lon": -58.7964852,
+  "tags": {
+    "addr:housenumber": "3244",
+    "addr:street": "Avenida Francisco Piovano Sur",
+    "amenity": "clinic",
+    "name": "Centro Médico ADEF Moreno",
+    "operator": "Asociación de Empleados de Farmacias",
+    "phone": "+54 237 4605957"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -45543,6 +45595,10 @@
     2941424172,
     2941424173,
     2941424174,
+    10674010126,
+    10674010124,
+    10674010125,
+    10674010127,
     2941424175,
     2941424172
   ],
@@ -48519,27 +48575,6 @@
     "website": "https://www.buenosaires.gob.ar/salud/centro-de-salud-villa-lugano-4",
     "wheelchair": "yes",
     "wikidata": "Q90206221"
-  }
-},
-{
-  "type": "way",
-  "id": 465303450,
-  "nodes": [
-    4602921105,
-    4602921107,
-    4602921108,
-    4602921109,
-    4602921110,
-    4602921105
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "physiotherapy",
-    "name": "Corporación Médica de Gral San Martín",
-    "office": "therapist",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-12:00"
   }
 },
 {
@@ -55467,11 +55502,11 @@
   "type": "way",
   "id": 690091692,
   "nodes": [
-    6474296967,
+    10672249926,
     6474296966,
     6474296970,
     6474296971,
-    6474296967
+    10672249926
   ],
   "tags": {
     "addr:city": "San Martin",
@@ -88348,26 +88383,26 @@
 {
   "type": "node",
   "id": 6474296966,
-  "lat": -34.5771798,
-  "lon": -58.5418543
-},
-{
-  "type": "node",
-  "id": 6474296967,
-  "lat": -34.5774216,
-  "lon": -58.5421479
+  "lat": -34.5771860,
+  "lon": -58.5418514
 },
 {
   "type": "node",
   "id": 6474296970,
-  "lat": -34.5771048,
-  "lon": -58.5419454
+  "lat": -34.5771067,
+  "lon": -58.5419431
 },
 {
   "type": "node",
   "id": 6474296971,
-  "lat": -34.5773466,
-  "lon": -58.5422390
+  "lat": -34.5771893,
+  "lon": -58.5420423
+},
+{
+  "type": "node",
+  "id": 10672249926,
+  "lat": -34.5772662,
+  "lon": -58.5419478
 },
 {
   "type": "node",
@@ -88440,36 +88475,6 @@
   "id": 4598821317,
   "lat": -34.5796949,
   "lon": -58.5343295
-},
-{
-  "type": "node",
-  "id": 4602921105,
-  "lat": -34.5779916,
-  "lon": -58.5355055
-},
-{
-  "type": "node",
-  "id": 4602921107,
-  "lat": -34.5781193,
-  "lon": -58.5356609
-},
-{
-  "type": "node",
-  "id": 4602921108,
-  "lat": -34.5781369,
-  "lon": -58.5356544
-},
-{
-  "type": "node",
-  "id": 4602921109,
-  "lat": -34.5782045,
-  "lon": -58.5355725
-},
-{
-  "type": "node",
-  "id": 4602921110,
-  "lat": -34.5780708,
-  "lon": -58.5354096
 },
 {
   "type": "node",
@@ -93981,6 +93986,18 @@
 },
 {
   "type": "node",
+  "id": 10674010125,
+  "lat": -24.1861181,
+  "lon": -65.3096456
+},
+{
+  "type": "node",
+  "id": 10674010127,
+  "lat": -24.1861311,
+  "lon": -65.3099361
+},
+{
+  "type": "node",
   "id": 2941424172,
   "lat": -24.1857009,
   "lon": -65.3102541
@@ -94000,8 +94017,20 @@
 {
   "type": "node",
   "id": 2941424175,
-  "lat": -24.1859693,
-  "lon": -65.3102471
+  "lat": -24.1860280,
+  "lon": -65.3102417
+},
+{
+  "type": "node",
+  "id": 10674010124,
+  "lat": -24.1860086,
+  "lon": -65.3096517
+},
+{
+  "type": "node",
+  "id": 10674010126,
+  "lat": -24.1860172,
+  "lon": -65.3098736
 },
 {
   "type": "node",

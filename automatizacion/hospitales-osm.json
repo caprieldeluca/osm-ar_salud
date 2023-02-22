@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59 e21c39fe",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-16T18:09:23Z",
-    "timestamp_areas_base": "2023-02-16T04:58:03Z",
+    "timestamp_osm_base": "2023-02-22T16:35:39Z",
+    "timestamp_areas_base": "2023-02-22T14:34:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5368,27 +5368,6 @@
     "phone": "+54 11 42125555",
     "ref:sisa_codigo": "10060582300420",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
-  "id": 3018607043,
-  "lat": -34.5775927,
-  "lon": -58.5415616,
-  "tags": {
-    "addr:city": "General San Martín",
-    "addr:housenumber": "4071",
-    "addr:street": "56 - Domingo Matheu",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Corporación Medica General San Martin",
-    "operator:type": "private",
-    "phone": "+54 11 4754-7500",
-    "ref:sisa_codigo": "10063712300005",
-    "ref:sisa_tipologia": "ESCIG",
-    "website": "http://www.webcorporacion.com.ar",
-    "wheelchair": "yes"
   }
 },
 {
@@ -14391,6 +14370,7 @@
     "name": "Hospital Mario V. Stivala",
     "nohousenumber": "yes",
     "operator:type": "public",
+    "phone": "+54 3865 496544",
     "ref:sisa_codigo": "10900492196026",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -15120,7 +15100,7 @@
     "amenity": "hospital",
     "description": "Tipología: ESCIG\n Categoría de tipología: Bajo riesgo con internación simple",
     "healthcare": "hospital",
-    "name": "Hospital Doctor José Rodolfo Pińeiro Loreto",
+    "name": "Hospital Doctor José Rodolfo Piñeiro Loreto",
     "phone": "+54 3781 497029"
   }
 },
@@ -21665,24 +21645,6 @@
 },
 {
   "type": "node",
-  "id": 7541412098,
-  "lat": -34.5803326,
-  "lon": -58.5375112,
-  "tags": {
-    "addr:full": "18 De Diciembre De 1856 N° 1848",
-    "addr:postcode": "1650",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Sanatorio San Martin - Aniva S.a.",
-    "operator": "Otros",
-    "operator:type": "private",
-    "phone": "4014-4304 / 115932-3917",
-    "ref:sisa_codigo": "10063713017272",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
   "id": 7541521082,
   "lat": -34.5497569,
   "lon": -58.5255459,
@@ -23376,6 +23338,22 @@
   }
 },
 {
+  "type": "node",
+  "id": 10674286974,
+  "lat": -40.1588330,
+  "lon": -71.3563734,
+  "tags": {
+    "addr:city": "San Martin de los Andes",
+    "addr:housenumber": "281",
+    "addr:postcode": "Q8370",
+    "addr:street": "Avenida San Martín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "administrativo",
+    "name": "Zona Sanitaria IV"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -24727,7 +24705,7 @@
     "addr:housenumber": "750",
     "addr:place": "Capital",
     "addr:postcode": "4000",
-    "addr:street": "Pasaje Hungría",
+    "addr:street": "Pasaje Albert Sabín",
     "amenity": "hospital",
     "description": "Alto riesgo con terapia intensiva",
     "healthcare": "hospital",
@@ -31901,13 +31879,13 @@
     "addr:full": "Av. San Martín 217",
     "addr:place": "Lacar",
     "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
+    "description": "Ex edificio del hospital Ramon Carrillo",
     "healthcare": "hospital",
-    "name": "Hospital Zonal San Martin De Los Andes - Dr. Ramón Carrillo",
-    "operator:type": "public",
+    "healthcare:speciality": "administrativo",
+    "name": "Subsecretaría de Salud de la Provincia de Neuquen",
+    "operator:type": "government",
     "ref:sisa_codigo": "10580562167036",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -33133,7 +33111,7 @@
     "addr:street": "Salta",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Luís Fleitas",
+    "name": "Hospital Luis Fleitas",
     "operator": "Provincial",
     "operator:type": "public",
     "phone": "+54 362 4765258",
@@ -40912,13 +40890,13 @@
     "addr:city": "Villa María",
     "addr:housenumber": "1466",
     "addr:postcode": "5900",
-    "addr:street": "C. Argentino del Valle Larrabure",
+    "addr:street": "Avenida Larrabure",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "OSCCPTAC Clínica de la Familia III Pedro M. Sciretta",
     "operator": "Obra Social de los Conductores Camioneros y Personal de Transporte Automotor de Carga",
-    "phone": "0353 461-8900",
+    "phone": "+54 353 461-8900",
     "wheelchair": "yes"
   }
 },
@@ -44483,6 +44461,34 @@
 },
 {
   "type": "way",
+  "id": 673712999,
+  "nodes": [
+    6309182974,
+    6309182973,
+    7600505216,
+    7600505217,
+    7600505218,
+    6309182972,
+    6309182971,
+    6309182968,
+    7600505222,
+    6309182970,
+    6309182969,
+    7600505221,
+    6309182974
+  ],
+  "tags": {
+    "addr:city": "San Martín de los Andes",
+    "addr:postcode": "8370",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;psychiatry;chiropractic;paediatrics;ophthalmology;orthodontics;orthopaedics;vaccination;intensive;emergency;gynaecology;dermatology;surgery;cardiology;oncology;radiology;community;internal;physiatry;abortion;allergology;pulmonology",
+    "name": "Hospital Ramón Carrillo II"
+  }
+},
+{
+  "type": "way",
   "id": 676304446,
   "nodes": [
     6333522545,
@@ -44565,6 +44571,7 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "general",
     "name": "Hospital Zonal Cipolletti \"Doctor Pedro Moguillansky\"",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
@@ -52983,30 +52990,6 @@
 },
 {
   "type": "way",
-  "id": 1093209365,
-  "nodes": [
-    10011888725,
-    10011888726,
-    10011888727,
-    10011888728,
-    10011888729,
-    10011888730,
-    10011888731,
-    10011888732,
-    10011888733,
-    10011888734,
-    10011888735,
-    10011888736,
-    10011888725
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Dr. Marcos Langan"
-  }
-},
-{
-  "type": "way",
   "id": 1098097207,
   "nodes": [
     10054630477,
@@ -53299,6 +53282,43 @@
     "name": "Hospital \"Pte. Raúl Alfonsín\"",
     "operator": "Ministerio de Salud Pública de Corrientes",
     "operator:type": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1146872999,
+  "nodes": [
+    10672249951,
+    10672249940,
+    10672249941,
+    10672249950,
+    10672249943,
+    6474296965,
+    10672249925,
+    10672249923,
+    10672249942,
+    10672249922,
+    6474296964,
+    10672249949,
+    10672249944,
+    10672249947,
+    10672249948,
+    10672249951
+  ],
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "4071",
+    "addr:street": "56 - Domingo Matheu",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Corporación Medica General San Martin",
+    "operator:type": "private",
+    "phone": "+54 11 4754-7500",
+    "ref:sisa_codigo": "10063712300005",
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "http://www.webcorporacion.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -56908,6 +56928,78 @@
   "id": 10302567768,
   "lat": -40.1569456,
   "lon": -71.3576832
+},
+{
+  "type": "node",
+  "id": 6309182968,
+  "lat": -40.1483893,
+  "lon": -71.3300228
+},
+{
+  "type": "node",
+  "id": 6309182969,
+  "lat": -40.1472084,
+  "lon": -71.3300604
+},
+{
+  "type": "node",
+  "id": 6309182970,
+  "lat": -40.1477578,
+  "lon": -71.3300926
+},
+{
+  "type": "node",
+  "id": 6309182971,
+  "lat": -40.1488444,
+  "lon": -71.3301194
+},
+{
+  "type": "node",
+  "id": 6309182974,
+  "lat": -40.1468598,
+  "lon": -71.3297921
+},
+{
+  "type": "node",
+  "id": 7600505221,
+  "lat": -40.1469863,
+  "lon": -71.3298895
+},
+{
+  "type": "node",
+  "id": 7600505222,
+  "lat": -40.1482841,
+  "lon": -71.3300344
+},
+{
+  "type": "node",
+  "id": 6309182972,
+  "lat": -40.1485328,
+  "lon": -71.3283491
+},
+{
+  "type": "node",
+  "id": 6309182973,
+  "lat": -40.1473601,
+  "lon": -71.3287515
+},
+{
+  "type": "node",
+  "id": 7600505216,
+  "lat": -40.1477389,
+  "lon": -71.3279810
+},
+{
+  "type": "node",
+  "id": 7600505217,
+  "lat": -40.1483751,
+  "lon": -71.3277675
+},
+{
+  "type": "node",
+  "id": 7600505218,
+  "lat": -40.1484255,
+  "lon": -71.3277934
 },
 {
   "type": "node",
@@ -85645,78 +85737,6 @@
 },
 {
   "type": "node",
-  "id": 10011888727,
-  "lat": -34.9342828,
-  "lon": -58.9513608
-},
-{
-  "type": "node",
-  "id": 10011888728,
-  "lat": -34.9341927,
-  "lon": -58.9515499
-},
-{
-  "type": "node",
-  "id": 10011888729,
-  "lat": -34.9340876,
-  "lon": -58.9514686
-},
-{
-  "type": "node",
-  "id": 10011888730,
-  "lat": -34.9341155,
-  "lon": -58.9514021
-},
-{
-  "type": "node",
-  "id": 10011888731,
-  "lat": -34.9341688,
-  "lon": -58.9514397
-},
-{
-  "type": "node",
-  "id": 10011888732,
-  "lat": -34.9341848,
-  "lon": -58.9514021
-},
-{
-  "type": "node",
-  "id": 10011888733,
-  "lat": -34.9340756,
-  "lon": -58.9513185
-},
-{
-  "type": "node",
-  "id": 10011888734,
-  "lat": -34.9340658,
-  "lon": -58.9513434
-},
-{
-  "type": "node",
-  "id": 10011888736,
-  "lat": -34.9339611,
-  "lon": -58.9512324
-},
-{
-  "type": "node",
-  "id": 10011888725,
-  "lat": -34.9338420,
-  "lon": -58.9511448
-},
-{
-  "type": "node",
-  "id": 10011888726,
-  "lat": -34.9338837,
-  "lon": -58.9510543
-},
-{
-  "type": "node",
-  "id": 10011888735,
-  "lat": -34.9339503,
-  "lon": -58.9512565
-},
-{
-  "type": "node",
   "id": 1806694394,
   "lat": -34.9296792,
   "lon": -58.9417216
@@ -93146,8 +93166,8 @@
 {
   "type": "node",
   "id": 2150134363,
-  "lat": -34.5874658,
-  "lon": -58.4711781
+  "lat": -34.5874625,
+  "lon": -58.4711553
 },
 {
   "type": "node",
@@ -97030,6 +97050,96 @@
   "id": 4602999790,
   "lat": -34.5750674,
   "lon": -58.5389819
+},
+{
+  "type": "node",
+  "id": 6474296964,
+  "lat": -34.5775286,
+  "lon": -58.5420289
+},
+{
+  "type": "node",
+  "id": 6474296965,
+  "lat": -34.5772524,
+  "lon": -58.5416938
+},
+{
+  "type": "node",
+  "id": 10672249922,
+  "lat": -34.5774340,
+  "lon": -58.5419142
+},
+{
+  "type": "node",
+  "id": 10672249923,
+  "lat": -34.5773802,
+  "lon": -58.5418489
+},
+{
+  "type": "node",
+  "id": 10672249925,
+  "lat": -34.5772851,
+  "lon": -58.5417337
+},
+{
+  "type": "node",
+  "id": 10672249940,
+  "lat": -34.5779155,
+  "lon": -58.5418779
+},
+{
+  "type": "node",
+  "id": 10672249941,
+  "lat": -34.5777812,
+  "lon": -58.5417170
+},
+{
+  "type": "node",
+  "id": 10672249942,
+  "lat": -34.5773912,
+  "lon": -58.5418617
+},
+{
+  "type": "node",
+  "id": 10672249943,
+  "lat": -34.5772958,
+  "lon": -58.5416401
+},
+{
+  "type": "node",
+  "id": 10672249944,
+  "lat": -34.5778466,
+  "lon": -58.5423096
+},
+{
+  "type": "node",
+  "id": 10672249947,
+  "lat": -34.5779314,
+  "lon": -58.5422057
+},
+{
+  "type": "node",
+  "id": 10672249948,
+  "lat": -34.5780423,
+  "lon": -58.5420689
+},
+{
+  "type": "node",
+  "id": 10672249949,
+  "lat": -34.5778045,
+  "lon": -58.5423616
+},
+{
+  "type": "node",
+  "id": 10672249950,
+  "lat": -34.5775031,
+  "lon": -58.5413837
+},
+{
+  "type": "node",
+  "id": 10672249951,
+  "lat": -34.5780430,
+  "lon": -58.5420307
 },
 {
   "type": "node",

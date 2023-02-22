@@ -4068,8 +4068,24 @@
           -24.1857009
         ],
         [
-          -65.3102471,
-          -24.1859693
+          -65.3102417,
+          -24.186028
+        ],
+        [
+          -65.3099361,
+          -24.1861311
+        ],
+        [
+          -65.3096456,
+          -24.1861181
+        ],
+        [
+          -65.3096517,
+          -24.1860086
+        ],
+        [
+          -65.3098736,
+          -24.1860172
         ],
         [
           -65.310051,
@@ -10473,51 +10489,6 @@
         [
           -58.468108,
           -34.6737683
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/465303450",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "physiotherapy",
-    "name": "Corporación Médica de Gral San Martín",
-    "office": "therapist",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-12:00",
-    "id": "way/465303450"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5355055,
-          -34.5779916
-        ],
-        [
-          -58.5356609,
-          -34.5781193
-        ],
-        [
-          -58.5356544,
-          -34.5781369
-        ],
-        [
-          -58.5355725,
-          -34.5782045
-        ],
-        [
-          -58.5354096,
-          -34.5780708
-        ],
-        [
-          -58.5355055,
-          -34.5779916
         ]
       ]
     ]
@@ -25320,24 +25291,24 @@
     "coordinates": [
       [
         [
-          -58.5421479,
-          -34.5774216
+          -58.5419478,
+          -34.5772662
         ],
         [
-          -58.5418543,
-          -34.5771798
+          -58.5418514,
+          -34.577186
         ],
         [
-          -58.5419454,
-          -34.5771048
+          -58.5419431,
+          -34.5771067
         ],
         [
-          -58.542239,
-          -34.5773466
+          -58.5420423,
+          -34.5771893
         ],
         [
-          -58.5421479,
-          -34.5774216
+          -58.5419478,
+          -34.5772662
         ]
       ]
     ]
@@ -78205,7 +78176,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico Barrial - CMB 16",
-    "note": "Validar si sigue operando no lo encuentro en el sitio de la ciudad\nhttps://www.buenosaires.gob.ar/salud/establecimientos ",
+    "note": "Validar si sigue operando no lo encuentro en el sitio de la ciudad https://www.buenosaires.gob.ar/salud/establecimientos",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
     "phone": "+541149312139;+541149560542",
@@ -101007,22 +100978,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9354190017",
-  "properties": {
-    "amenity": "clinic",
-    "name:en": "Covid Test",
-    "id": "node/9354190017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5159595,
-      -34.6083654
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9357067164",
   "properties": {
     "amenity": "clinic",
@@ -103689,6 +103644,92 @@
     "coordinates": [
       -68.5173149,
       -31.5355074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10675491432",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "physiotherapy",
+    "level": "0",
+    "name": "Corporación Médica de Gral San Martín",
+    "office": "therapist",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-12:00",
+    "id": "node/10675491432"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5355995,
+      -34.5780906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10676594883",
+  "properties": {
+    "addr:city": "San José De La Cocha",
+    "addr:postcode": "4163",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Huasa Pampa Norte",
+    "ref:sisa_codigo": "50900492196267",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://maproulette.org/challenge/13148/task/45763615",
+    "id": "node/10676594883"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.5850963,
+      -27.7310237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10676630233",
+  "properties": {
+    "addr:city": "Granaderos",
+    "addr:postcode": "4159",
+    "addr:street": "24 de Septiembre",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Graneros",
+    "phone": "+54 3891 491066",
+    "ref:sisa_codigo": "50900352196265",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/10676630233"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4366727,
+      -27.6490172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10677432863",
+  "properties": {
+    "addr:housenumber": "3244",
+    "addr:street": "Avenida Francisco Piovano Sur",
+    "amenity": "clinic",
+    "name": "Centro Médico ADEF Moreno",
+    "operator": "Asociación de Empleados de Farmacias",
+    "phone": "+54 237 4605957",
+    "id": "node/10677432863"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7964852,
+      -34.6488823
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-16T18:20:38Z",
-    "timestamp_areas_base": "2023-02-16T17:19:24Z",
+    "timestamp_osm_base": "2023-02-22T16:45:39Z",
+    "timestamp_areas_base": "2023-02-22T11:27:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2879,23 +2879,6 @@
     "healthcare": "pharmacy",
     "name": "Tornu",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 1178336169,
-  "lat": -34.5857408,
-  "lon": -58.5188432,
-  "tags": {
-    "addr:postcode": "1419",
-    "amenity": "pharmacy",
-    "email": "jinade16@gmail.com",
-    "isced:level": "0",
-    "name": "Portofino",
-    "phone": "+54 11 4571-8554",
-    "ref:cue": "020158700",
-    "ref:cui": "0200753",
-    "source": "Data CABA"
   }
 },
 {
@@ -54320,10 +54303,17 @@
   "lat": -34.6026724,
   "lon": -58.5407222,
   "tags": {
+    "addr:housenumber": "1598",
+    "addr:street": "417 - Manuel Estrada",
     "amenity": "pharmacy",
+    "check_date": "2023-02-18",
     "contact:phone": "+54 11 4757-2002",
     "healthcare": "pharmacy",
-    "name": "Farmacia"
+    "internet_access": "no",
+    "level": "0",
+    "name": "Farmacia",
+    "payment:debit_cards": "yes",
+    "wheelchair": "yes"
   }
 },
 {
@@ -57654,22 +57644,6 @@
     "healthcare": "pharmacy",
     "name": "Centro",
     "phone": "+54 3743 460118"
-  }
-},
-{
-  "type": "node",
-  "id": 6283134414,
-  "lat": -27.0434095,
-  "lon": -55.2279516,
-  "tags": {
-    "addr:city": "Jardín América",
-    "addr:housenumber": "736",
-    "addr:postcode": "3328",
-    "addr:street": "Belgrano",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Colón"
   }
 },
 {
@@ -74833,11 +74807,11 @@
 {
   "type": "node",
   "id": 9429349952,
-  "lat": -32.4407730,
-  "lon": -63.2372208,
+  "lat": -32.4406496,
+  "lon": -63.2371377,
   "tags": {
     "addr:housenumber": "1335",
-    "addr:street": "Los lirios",
+    "addr:street": "Avenida Los Lirios",
     "amenity": "pharmacy",
     "name": "Farmacia y Perfumeria Oñativia",
     "phone": "0353 4222245",
@@ -77083,8 +77057,8 @@
 {
   "type": "node",
   "id": 9805176982,
-  "lat": -30.3603028,
-  "lon": -60.4003480,
+  "lat": -30.3617076,
+  "lon": -60.4034059,
   "tags": {
     "addr:city": "Gobernador Crespo",
     "addr:housenumber": "784",
@@ -77093,7 +77067,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Gimenez",
+    "name": "Puigpinos",
     "phone": "+54 3498 480446",
     "ref:sisa_codigo": "70821122387203"
   }
@@ -77137,8 +77111,8 @@
 {
   "type": "node",
   "id": 9805176990,
-  "lat": -30.3596069,
-  "lon": -60.4027246,
+  "lat": -30.3589132,
+  "lon": -60.4000547,
   "tags": {
     "addr:city": "Gobernador Crespo",
     "addr:housenumber": "201",
@@ -80207,6 +80181,56 @@
     "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
     "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 10671805795,
+  "lat": -27.4548445,
+  "lon": -58.9961133,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmashop"
+  }
+},
+{
+  "type": "node",
+  "id": 10674009133,
+  "lat": -31.4000928,
+  "lon": -64.1765310,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Rex"
+  }
+},
+{
+  "type": "node",
+  "id": 10678719024,
+  "lat": -31.3927920,
+  "lon": -64.1844693,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "SVFarma"
+  }
+},
+{
+  "type": "node",
+  "id": 10679249926,
+  "lat": -26.9887345,
+  "lon": -54.4775652,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10681328405,
+  "lat": -31.3897405,
+  "lon": -64.1761461,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Alción"
   }
 },
 {
@@ -105715,26 +105739,26 @@
 {
   "type": "node",
   "id": 5360102389,
-  "lat": -31.4114858,
-  "lon": -64.1899651
+  "lat": -31.4114852,
+  "lon": -64.1899637
 },
 {
   "type": "node",
   "id": 5360102390,
-  "lat": -31.4115320,
+  "lat": -31.4115321,
   "lon": -64.1898067
 },
 {
   "type": "node",
   "id": 5360102391,
-  "lat": -31.4113993,
-  "lon": -64.1897547
+  "lat": -31.4113981,
+  "lon": -64.1897517
 },
 {
   "type": "node",
   "id": 5360102392,
-  "lat": -31.4113509,
-  "lon": -64.1899057
+  "lat": -31.4113512,
+  "lon": -64.1899088
 },
 {
   "type": "node",
