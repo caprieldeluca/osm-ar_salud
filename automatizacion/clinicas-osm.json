@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59 e21c39fe",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-22T16:40:40Z",
-    "timestamp_areas_base": "2023-02-22T11:27:38Z",
+    "timestamp_osm_base": "2023-03-02T17:13:26Z",
+    "timestamp_areas_base": "2023-03-02T16:10:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -258,7 +258,7 @@
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/Centro-De-Salud-Dr-Luis-Resio-1227281770736590",
     "healthcare": "clinic",
-    "name": "Centro De Salud Doctor Luis Resio",
+    "name": "Centro De Salud Doctor Luis Ressio",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "03488-477862",
@@ -19605,8 +19605,8 @@
 {
   "type": "node",
   "id": 7501729184,
-  "lat": -34.8753066,
-  "lon": -57.9134189,
+  "lat": -34.8752263,
+  "lon": -57.9134873,
   "tags": {
     "addr:full": "J. V. González Y Betinotti S/N - Barrio Mosconi",
     "addr:postcode": "1925",
@@ -27352,23 +27352,6 @@
     "operator:type": "public",
     "phone": "+54 11 4694-3877",
     "ref:sisa_codigo": "50064272202350",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7504552285,
-  "lat": -39.1142228,
-  "lon": -66.9431976,
-  "tags": {
-    "addr:full": "9 De Julio Y Sargento Cabral",
-    "addr:postcode": "8326",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Anexo I",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50620422171045",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -40319,6 +40302,7 @@
     "addr:postcode": "S3000",
     "addr:street": "9 de Julio",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "healthcare:speciality": "radiology;diagnostic_radiology",
     "name": "Diagnóstico San Gerónimo",
     "opening_hours": "Mo-Fr 07:00-01:00",
@@ -44074,6 +44058,40 @@
     "name": "Centro Médico ADEF Moreno",
     "operator": "Asociación de Empleados de Farmacias",
     "phone": "+54 237 4605957"
+  }
+},
+{
+  "type": "node",
+  "id": 10691495807,
+  "lat": -34.6122766,
+  "lon": -68.3419455,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policlinica San Rfaael",
+    "opening_hours": "24/7",
+    "operator": "Circulo Medico de San Rafael",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 10698165459,
+  "lat": -31.5414133,
+  "lon": -68.4993522,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro Médico Yrigoyen"
+  }
+},
+{
+  "type": "node",
+  "id": 10699693074,
+  "lat": -31.0901009,
+  "lon": -64.4814608,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Consultorios Externos Clínica La Falda"
   }
 },
 {
@@ -48427,8 +48445,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
     "name": "Clinica de Ojos Santa Lucia",
-    "shop": "optician",
-    "source": "Reconocimiento Cartográfico 2016 por KG"
+    "shop": "optician"
   }
 },
 {
@@ -54906,6 +54923,8 @@
     5905456245,
     5905456246,
     5905456247,
+    10704826950,
+    10704826949,
     5905456248,
     5905456245
   ],
@@ -63864,6 +63883,36 @@
   }
 },
 {
+  "type": "way",
+  "id": 1149303159,
+  "nodes": [
+    10692091012,
+    10692090936,
+    10692091013,
+    10692091014,
+    10692091015,
+    10692091016,
+    10692091017,
+    10692091018,
+    10692090937,
+    10692091019,
+    10692091020,
+    10692091021,
+    10692091012
+  ],
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "579",
+    "addr:postcode": "Q8340",
+    "addr:street": "Chaneton",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "3",
+    "name": "Centro Médico Plaza"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -65159,6 +65208,78 @@
   "id": 9338445513,
   "lat": -39.0220802,
   "lon": -67.5738275
+},
+{
+  "type": "node",
+  "id": 10692090936,
+  "lat": -38.9035607,
+  "lon": -70.0636747
+},
+{
+  "type": "node",
+  "id": 10692090937,
+  "lat": -38.9034376,
+  "lon": -70.0634154
+},
+{
+  "type": "node",
+  "id": 10692091012,
+  "lat": -38.9034586,
+  "lon": -70.0637583
+},
+{
+  "type": "node",
+  "id": 10692091013,
+  "lat": -38.9035203,
+  "lon": -70.0635897
+},
+{
+  "type": "node",
+  "id": 10692091014,
+  "lat": -38.9034303,
+  "lon": -70.0636603
+},
+{
+  "type": "node",
+  "id": 10692091015,
+  "lat": -38.9034142,
+  "lon": -70.0636263
+},
+{
+  "type": "node",
+  "id": 10692091016,
+  "lat": -38.9034407,
+  "lon": -70.0636056
+},
+{
+  "type": "node",
+  "id": 10692091017,
+  "lat": -38.9034154,
+  "lon": -70.0635523
+},
+{
+  "type": "node",
+  "id": 10692091018,
+  "lat": -38.9034789,
+  "lon": -70.0635024
+},
+{
+  "type": "node",
+  "id": 10692091019,
+  "lat": -38.9033077,
+  "lon": -70.0635145
+},
+{
+  "type": "node",
+  "id": 10692091020,
+  "lat": -38.9033974,
+  "lon": -70.0637065
+},
+{
+  "type": "node",
+  "id": 10692091021,
+  "lat": -38.9034240,
+  "lon": -70.0636856
 },
 {
   "type": "node",
@@ -81159,26 +81280,38 @@
 {
   "type": "node",
   "id": 5905456245,
-  "lat": -34.4218008,
-  "lon": -58.7347882
+  "lat": -34.4218663,
+  "lon": -58.7347485
 },
 {
   "type": "node",
   "id": 5905456246,
-  "lat": -34.4216179,
-  "lon": -58.7346683
+  "lat": -34.4216093,
+  "lon": -58.7346088
 },
 {
   "type": "node",
   "id": 5905456247,
-  "lat": -34.4213954,
-  "lon": -58.7351957
+  "lat": -34.4213816,
+  "lon": -58.7351894
 },
 {
   "type": "node",
   "id": 5905456248,
-  "lat": -34.4215684,
-  "lon": -58.7352976
+  "lat": -34.4215514,
+  "lon": -58.7355049
+},
+{
+  "type": "node",
+  "id": 10704826949,
+  "lat": -34.4214736,
+  "lon": -58.7354615
+},
+{
+  "type": "node",
+  "id": 10704826950,
+  "lat": -34.4215457,
+  "lon": -58.7352870
 },
 {
   "type": "node",
@@ -88455,26 +88588,26 @@
 {
   "type": "node",
   "id": 4598821314,
-  "lat": -34.5795254,
-  "lon": -58.5341277
+  "lat": -34.5795277,
+  "lon": -58.5341547
 },
 {
   "type": "node",
   "id": 4598821315,
-  "lat": -34.5795779,
-  "lon": -58.5340627
+  "lat": -34.5795836,
+  "lon": -58.5340851
 },
 {
   "type": "node",
   "id": 4598821316,
-  "lat": -34.5797473,
-  "lon": -58.5342645
+  "lat": -34.5797953,
+  "lon": -58.5343362
 },
 {
   "type": "node",
   "id": 4598821317,
-  "lat": -34.5796949,
-  "lon": -58.5343295
+  "lat": -34.5797387,
+  "lon": -58.5344043
 },
 {
   "type": "node",

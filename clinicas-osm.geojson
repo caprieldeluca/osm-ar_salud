@@ -10185,7 +10185,6 @@
     "healthcare:speciality": "ophthalmology",
     "name": "Clinica de Ojos Santa Lucia",
     "shop": "optician",
-    "source": "Reconocimiento Cartográfico 2016 por KG",
     "id": "way/464810239"
   },
   "geometry": {
@@ -10193,24 +10192,24 @@
     "coordinates": [
       [
         [
-          -58.5341277,
-          -34.5795254
+          -58.5341547,
+          -34.5795277
         ],
         [
-          -58.5343295,
-          -34.5796949
+          -58.5344043,
+          -34.5797387
         ],
         [
-          -58.5342645,
-          -34.5797473
+          -58.5343362,
+          -34.5797953
         ],
         [
-          -58.5340627,
-          -34.5795779
+          -58.5340851,
+          -34.5795836
         ],
         [
-          -58.5341277,
-          -34.5795254
+          -58.5341547,
+          -34.5795277
         ]
       ]
     ]
@@ -23990,24 +23989,32 @@
     "coordinates": [
       [
         [
-          -58.7347882,
-          -34.4218008
+          -58.7347485,
+          -34.4218663
         ],
         [
-          -58.7346683,
-          -34.4216179
+          -58.7346088,
+          -34.4216093
         ],
         [
-          -58.7351957,
-          -34.4213954
+          -58.7351894,
+          -34.4213816
         ],
         [
-          -58.7352976,
-          -34.4215684
+          -58.735287,
+          -34.4215457
         ],
         [
-          -58.7347882,
-          -34.4218008
+          -58.7354615,
+          -34.4214736
+        ],
+        [
+          -58.7355049,
+          -34.4215514
+        ],
+        [
+          -58.7347485,
+          -34.4218663
         ]
       ]
     ]
@@ -43755,6 +43762,81 @@
 },
 {
   "type": "Feature",
+  "id": "way/1149303159",
+  "properties": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "579",
+    "addr:postcode": "Q8340",
+    "addr:street": "Chaneton",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "3",
+    "name": "Centro Médico Plaza",
+    "id": "way/1149303159"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.0637583,
+          -38.9034586
+        ],
+        [
+          -70.0636747,
+          -38.9035607
+        ],
+        [
+          -70.0635897,
+          -38.9035203
+        ],
+        [
+          -70.0636603,
+          -38.9034303
+        ],
+        [
+          -70.0636263,
+          -38.9034142
+        ],
+        [
+          -70.0636056,
+          -38.9034407
+        ],
+        [
+          -70.0635523,
+          -38.9034154
+        ],
+        [
+          -70.0635024,
+          -38.9034789
+        ],
+        [
+          -70.0634154,
+          -38.9034376
+        ],
+        [
+          -70.0635145,
+          -38.9033077
+        ],
+        [
+          -70.0637065,
+          -38.9033974
+        ],
+        [
+          -70.0636856,
+          -38.903424
+        ],
+        [
+          -70.0637583,
+          -38.9034586
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -44085,7 +44167,7 @@
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/Centro-De-Salud-Dr-Luis-Resio-1227281770736590",
     "healthcare": "clinic",
-    "name": "Centro De Salud Doctor Luis Resio",
+    "name": "Centro De Salud Doctor Luis Ressio",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "03488-477862",
@@ -70986,8 +71068,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.9134189,
-      -34.8753066
+      -57.9134873,
+      -34.8752263
     ]
   }
 },
@@ -81201,29 +81283,6 @@
     "coordinates": [
       -58.5731358,
       -34.7226244
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7504552285",
-  "properties": {
-    "addr:full": "9 De Julio Y Sargento Cabral",
-    "addr:postcode": "8326",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Anexo I",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50620422171045",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7504552285"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -66.9431976,
-      -39.1142228
     ]
   }
 },
@@ -98480,6 +98539,7 @@
     "addr:postcode": "S3000",
     "addr:street": "9 de Julio",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "healthcare:speciality": "radiology;diagnostic_radiology",
     "name": "Diagnóstico San Gerónimo",
     "opening_hours": "Mo-Fr 07:00-01:00",
@@ -103730,6 +103790,58 @@
     "coordinates": [
       -58.7964852,
       -34.6488823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10691495807",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policlinica San Rfaael",
+    "opening_hours": "24/7",
+    "operator": "Circulo Medico de San Rafael",
+    "operator:type": "private",
+    "id": "node/10691495807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.3419455,
+      -34.6122766
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10698165459",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro Médico Yrigoyen",
+    "id": "node/10698165459"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.4993522,
+      -31.5414133
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10699693074",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Consultorios Externos Clínica La Falda",
+    "id": "node/10699693074"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4814608,
+      -31.0901009
     ]
   }
 }

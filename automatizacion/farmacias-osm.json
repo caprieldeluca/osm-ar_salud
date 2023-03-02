@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59 e21c39fe",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-22T16:45:39Z",
-    "timestamp_areas_base": "2023-02-22T11:27:38Z",
+    "timestamp_osm_base": "2023-03-02T17:19:31Z",
+    "timestamp_areas_base": "2023-03-02T16:10:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18661,8 +18661,8 @@
 {
   "type": "node",
   "id": 3126992411,
-  "lat": -27.3669222,
-  "lon": -55.9026325,
+  "lat": -27.3669516,
+  "lon": -55.9025415,
   "tags": {
     "addr:city": "Posadas",
     "addr:housenumber": "2602",
@@ -18670,7 +18670,8 @@
     "addr:street": "Avenida Centenario",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Juncos"
+    "name": "Juncos",
+    "survey:date": "2023-02-24"
   }
 },
 {
@@ -32589,6 +32590,17 @@
 },
 {
   "type": "node",
+  "id": 4322210293,
+  "lat": -34.6130727,
+  "lon": -68.3385329,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "La Sureña"
+  }
+},
+{
+  "type": "node",
   "id": 4327649377,
   "lat": -34.6914661,
   "lon": -58.4132104,
@@ -35040,8 +35052,8 @@
 {
   "type": "node",
   "id": 4494830562,
-  "lat": -34.5552788,
-  "lon": -58.4592304,
+  "lat": -34.5552057,
+  "lon": -58.4591688,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -36346,6 +36358,7 @@
     "addr:postcode": "S2003",
     "addr:street": "Riobamba",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Farmacia Bianchi"
   }
 },
@@ -48151,8 +48164,8 @@
 {
   "type": "node",
   "id": 5339784405,
-  "lat": -26.4690436,
-  "lon": -54.7151341,
+  "lat": -26.4690235,
+  "lon": -54.7151774,
   "tags": {
     "addr:city": "Puerto Piray",
     "addr:postcode": "3381",
@@ -63778,7 +63791,8 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Argentina"
+    "name": "Argentina",
+    "opening_hours": "Mo-Sa 08:00-12:00,16:00-20:00"
   }
 },
 {
@@ -64861,7 +64875,8 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Rodriguez"
+    "name": "Rodriguez",
+    "opening_hours": "Mo-Sa 08:00-12:00,16:00-20:00"
   }
 },
 {
@@ -80234,6 +80249,77 @@
   }
 },
 {
+  "type": "node",
+  "id": 10691125129,
+  "lat": -34.7239170,
+  "lon": -58.2521892,
+  "tags": {
+    "addr:housenumber": "801",
+    "addr:street": "Mitre",
+    "amenity": "pharmacy",
+    "name": "Maga Shop"
+  }
+},
+{
+  "type": "node",
+  "id": 10692051111,
+  "lat": -26.8577464,
+  "lon": -65.1770127,
+  "tags": {
+    "addr:postcode": "4109",
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10695423431,
+  "lat": -27.4564307,
+  "lon": -59.0223212,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmalife"
+  }
+},
+{
+  "type": "node",
+  "id": 10696131803,
+  "lat": -38.9043622,
+  "lon": -70.0624064,
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "444",
+    "addr:postcode": "Q8340",
+    "addr:street": "Luis Monti",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacoop",
+    "operator": "Cooperativa de Provisión de Energía Eléctrica, Viviendas y Servicios Públicos Ltda"
+  }
+},
+{
+  "type": "node",
+  "id": 10699688329,
+  "lat": -32.7521016,
+  "lon": -60.7352525,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Alessandrini"
+  }
+},
+{
+  "type": "node",
+  "id": 10700455172,
+  "lat": -34.6167937,
+  "lon": -58.4999293,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Nueva San Antonio"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -83771,12 +83857,10 @@
     4593301158
   ],
   "tags": {
-    "addr:street": "52 - Belgrano",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Belgrano",
-    "source": "Reconocimiento Cartográfico 2016 por KG"
+    "name": "Belgrano"
   }
 },
 {
@@ -87600,6 +87684,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name": "Nueva Bianchi",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -94414,55 +94499,6 @@
 },
 {
   "type": "way",
-  "id": 798513568,
-  "nodes": [
-    7468407105,
-    7468407107,
-    7468407108,
-    7468407109,
-    7468407106,
-    7468407105
-  ],
-  "tags": {
-    "addr:city": "Zapala",
-    "addr:postcode": "8340",
-    "addr:street": "Avenida San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Zapala"
-  }
-},
-{
-  "type": "way",
-  "id": 798513579,
-  "nodes": [
-    7468407148,
-    7468407150,
-    7468407151,
-    7468407152,
-    7468407271,
-    7468407269,
-    7468407147,
-    7468407148
-  ],
-  "tags": {
-    "addr:city": "Zapala",
-    "addr:housenumber": "373",
-    "addr:postcode": "8340",
-    "addr:street": "Avenida San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "name": "Farmacia del Pueblo",
-    "opening_hours": "Mo-Fr 08:30-13:3, 16:30-21:30"
-  }
-},
-{
-  "type": "way",
   "id": 798960596,
   "nodes": [
     7472233277,
@@ -96269,12 +96305,14 @@
     "addr:postcode": "8000",
     "addr:street": "Avenida Alem",
     "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/fciaheguilen",
+    "contact:instagram": "https://www.instagram.com/farmaciaheguilen",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "level": "0",
     "name": "Heguilen",
-    "phone": "+54 9 291 452-6666;+54 9 291 508-6734",
-    "website": "https://es-la.facebook.com/fciaheguilen"
+    "opening_hours": "Mo-Fr 08:30-13:00,16:00-20:00; Sa 09:00-12:30",
+    "phone": "+54 9 291 452-6666;+54 9 291 508-6734"
   }
 },
 {
@@ -97688,6 +97726,8 @@
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
+    "indoor": "room",
+    "level": "0",
     "name": "De la Bahía",
     "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-13:00,17:00-22:00",
     "phone": "+54 9 2914 42-8575"
@@ -98582,6 +98622,73 @@
     "building": "retail",
     "healthcare": "pharmacy",
     "name": "Centro 2"
+  }
+},
+{
+  "type": "way",
+  "id": 1149285461,
+  "nodes": [
+    10691941539,
+    10691941549,
+    10691941550,
+    10691941548,
+    10691941590,
+    10691941540,
+    10691941539
+  ],
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "373",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "6",
+    "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1149349844,
+  "nodes": [
+    10692480752,
+    10692480753,
+    10692480755,
+    10692480754,
+    10692480752
+  ],
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "627",
+    "addr:postcode": "Q8340",
+    "addr:street": "Avenida Avellaneda",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "4",
+    "name": "Farmacia Maihué"
+  }
+},
+{
+  "type": "way",
+  "id": 1149914626,
+  "nodes": [
+    10697337719,
+    10697337720,
+    10697337721,
+    10697337722,
+    10697337719
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -99780,75 +99887,63 @@
 },
 {
   "type": "node",
-  "id": 7468407151,
-  "lat": -38.9045172,
-  "lon": -70.0646214
+  "id": 10691941540,
+  "lat": -38.9044956,
+  "lon": -70.0646320
 },
 {
   "type": "node",
-  "id": 7468407105,
-  "lat": -38.9040368,
-  "lon": -70.0640572
+  "id": 10691941548,
+  "lat": -38.9046112,
+  "lon": -70.0645461
 },
 {
   "type": "node",
-  "id": 7468407106,
-  "lat": -38.9039180,
-  "lon": -70.0638020
+  "id": 10691941590,
+  "lat": -38.9045027,
+  "lon": -70.0646267
 },
 {
   "type": "node",
-  "id": 7468407107,
-  "lat": -38.9041081,
-  "lon": -70.0640043
+  "id": 10691941539,
+  "lat": -38.9043135,
+  "lon": -70.0642305
 },
 {
   "type": "node",
-  "id": 7468407108,
-  "lat": -38.9039250,
-  "lon": -70.0636041
+  "id": 10691941549,
+  "lat": -38.9044283,
+  "lon": -70.0641427
 },
 {
   "type": "node",
-  "id": 7468407109,
-  "lat": -38.9038512,
-  "lon": -70.0636586
+  "id": 10691941550,
+  "lat": -38.9045490,
+  "lon": -70.0644090
 },
 {
   "type": "node",
-  "id": 7468407147,
-  "lat": -38.9045090,
-  "lon": -70.0642697
+  "id": 10692480752,
+  "lat": -38.9049833,
+  "lon": -70.0617705
 },
 {
   "type": "node",
-  "id": 7468407148,
-  "lat": -38.9044461,
-  "lon": -70.0641343
+  "id": 10692480753,
+  "lat": -38.9050759,
+  "lon": -70.0616997
 },
 {
   "type": "node",
-  "id": 7468407150,
-  "lat": -38.9043301,
-  "lon": -70.0642233
+  "id": 10692480754,
+  "lat": -38.9049182,
+  "lon": -70.0616303
 },
 {
   "type": "node",
-  "id": 7468407152,
-  "lat": -38.9046320,
-  "lon": -70.0645335
-},
-{
-  "type": "node",
-  "id": 7468407269,
-  "lat": -38.9045385,
-  "lon": -70.0643295
-},
-{
-  "type": "node",
-  "id": 7468407271,
-  "lat": -38.9045783,
-  "lon": -70.0644162
+  "id": 10692480755,
+  "lat": -38.9050109,
+  "lon": -70.0615594
 },
 {
   "type": "node",
@@ -108248,7 +108343,7 @@
   "type": "node",
   "id": 3528811037,
   "lat": -32.9195809,
-  "lon": -60.7775607
+  "lon": -60.7775608
 },
 {
   "type": "node",
@@ -108272,7 +108367,7 @@
   "type": "node",
   "id": 4393778903,
   "lat": -32.9196068,
-  "lon": -60.7775608
+  "lon": -60.7775609
 },
 {
   "type": "node",
@@ -119629,32 +119724,32 @@
 {
   "type": "node",
   "id": 4593301158,
-  "lat": -34.5747949,
-  "lon": -58.5337999
+  "lat": -34.5747938,
+  "lon": -58.5338173
 },
 {
   "type": "node",
   "id": 4593301159,
-  "lat": -34.5747519,
-  "lon": -58.5337525
+  "lat": -34.5747508,
+  "lon": -58.5337699
 },
 {
   "type": "node",
   "id": 4593301160,
-  "lat": -34.5747530,
-  "lon": -58.5336827
+  "lat": -34.5747519,
+  "lon": -58.5337001
 },
 {
   "type": "node",
   "id": 4593301161,
-  "lat": -34.5747841,
-  "lon": -58.5336411
+  "lat": -34.5747830,
+  "lon": -58.5336585
 },
 {
   "type": "node",
   "id": 4593301162,
-  "lat": -34.5748551,
-  "lon": -58.5337193
+  "lat": -34.5748540,
+  "lon": -58.5337367
 },
 {
   "type": "node",
@@ -124761,6 +124856,30 @@
   "id": 9563122336,
   "lat": -26.1816587,
   "lon": -58.1716873
+},
+{
+  "type": "node",
+  "id": 10697337719,
+  "lat": -26.1833970,
+  "lon": -58.1670158
+},
+{
+  "type": "node",
+  "id": 10697337720,
+  "lat": -26.1831154,
+  "lon": -58.1671258
+},
+{
+  "type": "node",
+  "id": 10697337721,
+  "lat": -26.1831636,
+  "lon": -58.1672814
+},
+{
+  "type": "node",
+  "id": 10697337722,
+  "lat": -26.1834572,
+  "lon": -58.1671712
 },
 {
   "type": "node",
