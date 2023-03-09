@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59 e21c39fe",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-02T17:24:36Z",
-    "timestamp_areas_base": "2023-03-02T05:22:14Z",
+    "timestamp_osm_base": "2023-03-09T23:43:08Z",
+    "timestamp_areas_base": "2023-03-09T22:42:21Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14317,16 +14317,16 @@
 {
   "type": "node",
   "id": 7714912485,
-  "lat": -32.9761004,
-  "lon": -60.6770176,
+  "lat": -32.9761544,
+  "lon": -60.6769707,
   "tags": {
     "addr:housenumber": "3813",
     "addr:postcode": "2000",
     "addr:street": "Crespo",
     "amenity": "doctors",
-    "name": "Consultorio \"Horacio Lanfranco\"",
-    "name:en": "Office \"Horacio Lanfranco\"",
-    "phone": "4312760"
+    "contact:phone": "+54 341 431-2760",
+    "name": "Consultorio Horacio Lanfranco",
+    "name:en": "Office \"Horacio Lanfranco\""
   }
 },
 {
@@ -19098,6 +19098,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 10711472076,
+  "lat": -34.5756553,
+  "lon": -58.5346416,
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "3440",
+    "addr:postcode": "B1650CBF",
+    "addr:street": "52 - Belgrano",
+    "amenity": "doctors",
+    "contact:facebook": "https://www.facebook.com/medicosdeojos/",
+    "contact:phone": "+54 11 4752 8755;+54 11 4753 1252",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Médicos de Ojos"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -23000,37 +23018,6 @@
 },
 {
   "type": "way",
-  "id": 1089530914,
-  "nodes": [
-    10117163671,
-    10117163672,
-    9980377376,
-    10188988172,
-    10188988174,
-    9980377377,
-    10117163673,
-    10117163674,
-    10117163675,
-    9980377383,
-    10023200401,
-    10090136360,
-    10117163677,
-    10117163669,
-    10117163670,
-    9980377384,
-    10117163668,
-    10117163671
-  ],
-  "tags": {
-    "amenity": "doctors",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "doctor",
-    "name": "Dispensario Comunal De Villa La Bolsa"
-  }
-},
-{
-  "type": "way",
   "id": 1106885851,
   "nodes": [
     10128538734,
@@ -23150,6 +23137,34 @@
     "healthcare": "doctor",
     "name": "Consultorio Médico Húsares",
     "phone": "+54 9 291 4551565"
+  }
+},
+{
+  "type": "way",
+  "id": 1150790765,
+  "nodes": [
+    10705132197,
+    10705132198,
+    10705132199,
+    10705132200,
+    10705132197
+  ],
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "2067",
+    "addr:postcode": "B1650",
+    "addr:street": "Avenida 101 - Doctor Ricardo Balbín",
+    "amenity": "doctors",
+    "building": "yes",
+    "building:levels": "2",
+    "contact:mobile": "+54 11 3209 3202",
+    "contact:phone": "+54 11 4754 9442",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "height": "5",
+    "name": "Clínica de Ojos José L. Suárez",
+    "operator": "Clínica de Ojos José L. Suárez",
+    "operator:website": "https://www.clinicadeojosjoselsuarez.com/"
   }
 },
 {
@@ -24356,108 +24371,6 @@
   "id": 6704811513,
   "lat": -33.1113295,
   "lon": -64.2984451
-},
-{
-  "type": "node",
-  "id": 9980377376,
-  "lat": -31.7286297,
-  "lon": -64.4295353
-},
-{
-  "type": "node",
-  "id": 9980377377,
-  "lat": -31.7285896,
-  "lon": -64.4296153
-},
-{
-  "type": "node",
-  "id": 9980377383,
-  "lat": -31.7286615,
-  "lon": -64.4296513
-},
-{
-  "type": "node",
-  "id": 9980377384,
-  "lat": -31.7286918,
-  "lon": -64.4295864
-},
-{
-  "type": "node",
-  "id": 10023200401,
-  "lat": -31.7286759,
-  "lon": -64.4296460
-},
-{
-  "type": "node",
-  "id": 10090136360,
-  "lat": -31.7286881,
-  "lon": -64.4296354
-},
-{
-  "type": "node",
-  "id": 10117163668,
-  "lat": -31.7287176,
-  "lon": -64.4295596
-},
-{
-  "type": "node",
-  "id": 10117163669,
-  "lat": -31.7286945,
-  "lon": -64.4296213
-},
-{
-  "type": "node",
-  "id": 10117163670,
-  "lat": -31.7286956,
-  "lon": -64.4296035
-},
-{
-  "type": "node",
-  "id": 10117163671,
-  "lat": -31.7287029,
-  "lon": -64.4295185
-},
-{
-  "type": "node",
-  "id": 10117163672,
-  "lat": -31.7286467,
-  "lon": -64.4295463
-},
-{
-  "type": "node",
-  "id": 10117163673,
-  "lat": -31.7286087,
-  "lon": -64.4296277
-},
-{
-  "type": "node",
-  "id": 10117163674,
-  "lat": -31.7286185,
-  "lon": -64.4296984
-},
-{
-  "type": "node",
-  "id": 10117163675,
-  "lat": -31.7286559,
-  "lon": -64.4296912
-},
-{
-  "type": "node",
-  "id": 10117163677,
-  "lat": -31.7286920,
-  "lon": -64.4296287
-},
-{
-  "type": "node",
-  "id": 10188988172,
-  "lat": -31.7286156,
-  "lon": -64.4295261
-},
-{
-  "type": "node",
-  "id": 10188988174,
-  "lat": -31.7285774,
-  "lon": -64.4296074
 },
 {
   "type": "node",
@@ -26780,6 +26693,30 @@
   "id": 4630840918,
   "lat": -34.4948305,
   "lon": -58.6331946
+},
+{
+  "type": "node",
+  "id": 10705132197,
+  "lat": -34.5806214,
+  "lon": -58.5420292
+},
+{
+  "type": "node",
+  "id": 10705132198,
+  "lat": -34.5803441,
+  "lon": -58.5416958
+},
+{
+  "type": "node",
+  "id": 10705132199,
+  "lat": -34.5802695,
+  "lon": -58.5417792
+},
+{
+  "type": "node",
+  "id": 10705132200,
+  "lat": -34.5805496,
+  "lon": -58.5421167
 },
 {
   "type": "node",

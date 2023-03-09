@@ -7586,12 +7586,12 @@
           -34.5747938
         ],
         [
-          -58.5337367,
-          -34.574854
+          -58.5336733,
+          -34.5749232
         ],
         [
-          -58.5336585,
-          -34.574783
+          -58.5335927,
+          -34.5748549
         ],
         [
           -58.5337001,
@@ -20200,6 +20200,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name": "Del Pueblo",
     "id": "way/504898486"
   },
   "geometry": {
@@ -23504,24 +23505,24 @@
     "coordinates": [
       [
         [
-          -60.6382442,
-          -32.9439576
+          -60.638248,
+          -32.9439569
         ],
         [
-          -60.6382677,
-          -32.944029
+          -60.6382662,
+          -32.9440259
         ],
         [
-          -60.6381027,
-          -32.9440673
+          -60.6381032,
+          -32.9440654
         ],
         [
-          -60.6380792,
-          -32.9439958
+          -60.6380845,
+          -32.9439948
         ],
         [
-          -60.6382442,
-          -32.9439576
+          -60.638248,
+          -32.9439569
         ]
       ]
     ]
@@ -37729,7 +37730,7 @@
     "addr:street": "Avenida Carlos Pellegrini",
     "amenity": "pharmacy",
     "building:part": "yes",
-    "contact:phone": "0810 220 3990",
+    "contact:phone:AR": "0810 220-3990",
     "healthcare": "pharmacy",
     "level": "0",
     "name": "FarmaVip",
@@ -39631,6 +39632,50 @@
         [
           -58.1670158,
           -26.183397
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1151579412",
+  "properties": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "361",
+    "addr:postcode": "8000",
+    "addr:street": "Perú",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmacia.serier",
+    "healthcare": "pharmacy",
+    "indoor": "room",
+    "level": "0",
+    "phone": "+54 9 291 452-7612",
+    "id": "way/1151579412"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.2724648,
+          -38.7058681
+        ],
+        [
+          -62.2725068,
+          -38.7059001
+        ],
+        [
+          -62.2724216,
+          -38.7059682
+        ],
+        [
+          -62.2723795,
+          -38.705936
+        ],
+        [
+          -62.2724648,
+          -38.7058681
         ]
       ]
     ]
@@ -57702,6 +57747,7 @@
   "id": "node/2454162668",
   "properties": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Boticaria",
     "id": "node/2454162668"
@@ -58008,7 +58054,10 @@
   "type": "Feature",
   "id": "node/2461004094",
   "properties": {
+    "addr:housenumber": "286",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Santa Rita",
     "phone": "+543549570075",
@@ -58017,8 +58066,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.8012513,
-      -30.7285993
+      -64.8013157,
+      -30.7285866
     ]
   }
 },
@@ -58027,6 +58076,7 @@
   "id": "node/2461631619",
   "properties": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Arrigoni",
     "id": "node/2461631619"
@@ -67251,16 +67301,22 @@
   "type": "Feature",
   "id": "node/3140556337",
   "properties": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:housenumber": "3600",
+    "addr:postcode": "B1650CBH",
+    "addr:street": "52 - Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "level": "0",
     "name": "Nueva Pascual",
     "id": "node/3140556337"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5358984,
-      -34.5766085
+      -58.5359298,
+      -34.576599
     ]
   }
 },
@@ -72985,6 +73041,22 @@
 },
 {
   "type": "Feature",
+  "id": "node/3497469618",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Santa Ana",
+    "id": "node/3497469618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8770632,
+      -33.0319598
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3502033588",
   "properties": {
     "amenity": "pharmacy",
@@ -76551,7 +76623,7 @@
     "type": "Point",
     "coordinates": [
       -68.8775856,
-      -33.0323748
+      -33.0323523
     ]
   }
 },
@@ -80118,13 +80190,14 @@
     "healthcare": "pharmacy",
     "name": "Bienestar",
     "opening_hours": "Mo-Sa 07:00-21:00",
+    "survey:date": "2023-03-06",
     "id": "node/3822489463"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.8883081,
-      -27.4325176
+      -55.8886583,
+      -27.4321827
     ]
   }
 },
@@ -85960,7 +86033,7 @@
   "properties": {
     "addr:city": "Tucuaman",
     "addr:postcode": "4000",
-    "addr:street": "E. Echeverria",
+    "addr:street": "Esteban Echeverría",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia La Principal",
@@ -86244,8 +86317,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.538881,
-      -34.5770833
+      -58.5388475,
+      -34.5770707
     ]
   }
 },
@@ -114891,7 +114964,7 @@
     "addr:postcode": "S2000",
     "addr:street": "Avenida Doctor Rivarola",
     "amenity": "pharmacy",
-    "contact:phone": "0341-4583189",
+    "contact:phone": "+54 341 458-3189",
     "contact:website": "http://www.facebook.com/FarmaciaRivarola",
     "healthcare": "pharmacy",
     "name": "Farmacia Rivarola",
@@ -114903,7 +114976,7 @@
     "type": "Point",
     "coordinates": [
       -60.7301425,
-      -32.9664773
+      -32.9665471
     ]
   }
 },
@@ -126466,7 +126539,6 @@
     "healthcare": "pharmacy",
     "name": "Corrientes",
     "payment:coins": "yes",
-    "phone": "4214499",
     "id": "node/6435920661"
   },
   "geometry": {
@@ -134764,7 +134836,7 @@
     "addr:city": "Aguilares",
     "addr:housenumber": "891",
     "addr:postcode": "4152",
-    "addr:street": "Velez Sarsfield",
+    "addr:street": "Vélez Sarsfield",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -142915,6 +142987,8 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmacia Ridavavia",
+    "operator": "Red VigFarma",
     "id": "node/8412453824"
   },
   "geometry": {
@@ -143623,8 +143697,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4322116,
-      -34.5716109
+      -58.4322479,
+      -34.5715993
     ]
   }
 },
@@ -152463,6 +152537,21 @@
 },
 {
   "type": "Feature",
+  "id": "node/9872421717",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/9872421717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8214757,
+      -32.92677
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9883665205",
   "properties": {
     "amenity": "pharmacy",
@@ -153040,6 +153129,38 @@
     "coordinates": [
       -58.5445272,
       -34.4966874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9921290270",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Martinez",
+    "id": "node/9921290270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.382396,
+      -33.2586505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9921290271",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/9921290271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.3818934,
+      -33.2569202
     ]
   }
 },
@@ -153690,6 +153811,9 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia del Sanatorio",
+    "operator": "Red VigFarma",
+    "phone": "0354915591831",
+    "website": "https://www.vigfarma.com.ar/",
     "id": "node/10078564466"
   },
   "geometry": {
@@ -156394,6 +156518,55 @@
     "coordinates": [
       -58.4999293,
       -34.6167937
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10708195284",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Salvucci",
+    "id": "node/10708195284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.3616595,
+      -37.2814293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10710330133",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Trecu",
+    "id": "node/10710330133"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.5068857,
+      -37.4012619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10712315363",
+  "properties": {
+    "addr:housenumber": "940",
+    "addr:street": "Pueyrredón",
+    "amenity": "pharmacy",
+    "id": "node/10712315363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.9798727,
+      -27.4421308
     ]
   }
 }

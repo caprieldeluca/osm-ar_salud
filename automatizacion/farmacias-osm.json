@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.2 0994154d",
+  "generator": "Overpass API 0.7.59.4 36d058c8",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-02T17:19:31Z",
-    "timestamp_areas_base": "2023-03-02T16:10:53Z",
+    "timestamp_osm_base": "2023-03-09T23:37:53Z",
+    "timestamp_areas_base": "2023-03-09T19:46:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12292,6 +12292,7 @@
   "lon": -64.8000590,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Boticaria"
   }
@@ -12493,10 +12494,13 @@
 {
   "type": "node",
   "id": 2461004094,
-  "lat": -30.7285993,
-  "lon": -64.8012513,
+  "lat": -30.7285866,
+  "lon": -64.8013157,
   "tags": {
+    "addr:housenumber": "286",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Santa Rita",
     "phone": "+543549570075"
@@ -12509,6 +12513,7 @@
   "lon": -64.8016742,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Arrigoni"
   }
@@ -18862,11 +18867,17 @@
 {
   "type": "node",
   "id": 3140556337,
-  "lat": -34.5766085,
-  "lon": -58.5358984,
+  "lat": -34.5765990,
+  "lon": -58.5359298,
   "tags": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:housenumber": "3600",
+    "addr:postcode": "B1650CBH",
+    "addr:street": "52 - Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "level": "0",
     "name": "Nueva Pascual"
   }
 },
@@ -22725,6 +22736,16 @@
 },
 {
   "type": "node",
+  "id": 3497469618,
+  "lat": -33.0319598,
+  "lon": -68.8770632,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Santa Ana"
+  }
+},
+{
+  "type": "node",
   "id": 3502033588,
   "lat": -34.6025607,
   "lon": -58.7247617,
@@ -25164,7 +25185,7 @@
 {
   "type": "node",
   "id": 3596493853,
-  "lat": -33.0323748,
+  "lat": -33.0323523,
   "lon": -68.8775856,
   "tags": {
     "addr:street": "San Martín",
@@ -27615,8 +27636,8 @@
 {
   "type": "node",
   "id": 3822489463,
-  "lat": -27.4325176,
-  "lon": -55.8883081,
+  "lat": -27.4321827,
+  "lon": -55.8886583,
   "tags": {
     "addr:city": "Posadas",
     "addr:country": "AR",
@@ -27627,7 +27648,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Bienestar",
-    "opening_hours": "Mo-Sa 07:00-21:00"
+    "opening_hours": "Mo-Sa 07:00-21:00",
+    "survey:date": "2023-03-06"
   }
 },
 {
@@ -31574,7 +31596,7 @@
   "tags": {
     "addr:city": "Tucuaman",
     "addr:postcode": "4000",
-    "addr:street": "E. Echeverria",
+    "addr:street": "Esteban Echeverría",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia La Principal"
@@ -31761,8 +31783,8 @@
 {
   "type": "node",
   "id": 4233510289,
-  "lat": -34.5770833,
-  "lon": -58.5388810,
+  "lat": -34.5770707,
+  "lon": -58.5388475,
   "tags": {
     "addr:street": "91 - San Lorenzo",
     "amenity": "pharmacy",
@@ -51384,14 +51406,14 @@
 {
   "type": "node",
   "id": 5548279636,
-  "lat": -32.9664773,
+  "lat": -32.9665471,
   "lon": -60.7301425,
   "tags": {
     "addr:housenumber": "7969",
     "addr:postcode": "S2000",
     "addr:street": "Avenida Doctor Rivarola",
     "amenity": "pharmacy",
-    "contact:phone": "0341-4583189",
+    "contact:phone": "+54 341 458-3189",
     "contact:website": "http://www.facebook.com/FarmaciaRivarola",
     "healthcare": "pharmacy",
     "name": "Farmacia Rivarola",
@@ -59239,8 +59261,7 @@
     "description": "Con envíos a domicilio.",
     "healthcare": "pharmacy",
     "name": "Corrientes",
-    "payment:coins": "yes",
-    "phone": "4214499"
+    "payment:coins": "yes"
   }
 },
 {
@@ -65066,7 +65087,7 @@
     "addr:city": "Aguilares",
     "addr:housenumber": "891",
     "addr:postcode": "4152",
-    "addr:street": "Velez Sarsfield",
+    "addr:street": "Vélez Sarsfield",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -70792,7 +70813,9 @@
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Ridavavia",
+    "operator": "Red VigFarma"
   }
 },
 {
@@ -71264,8 +71287,8 @@
 {
   "type": "node",
   "id": 8685719913,
-  "lat": -34.5716109,
-  "lon": -58.4322116,
+  "lat": -34.5715993,
+  "lon": -58.4322479,
   "tags": {
     "amenity": "pharmacy",
     "brand": "Farmacity",
@@ -77555,6 +77578,15 @@
 },
 {
   "type": "node",
+  "id": 9872421717,
+  "lat": -32.9267700,
+  "lon": -68.8214757,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
   "id": 9883665205,
   "lat": -34.7855904,
   "lon": -58.4893039,
@@ -77971,6 +78003,26 @@
     "survey:date": "2022-07-30",
     "website": "https://www.farmaplus.com.ar/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9921290270,
+  "lat": -33.2586505,
+  "lon": -60.3823960,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Martinez"
+  }
+},
+{
+  "type": "node",
+  "id": 9921290271,
+  "lat": -33.2569202,
+  "lon": -60.3818934,
+  "tags": {
+    "amenity": "pharmacy"
   }
 },
 {
@@ -78429,7 +78481,10 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia del Sanatorio"
+    "name": "Farmacia del Sanatorio",
+    "operator": "Red VigFarma",
+    "phone": "0354915591831",
+    "website": "https://www.vigfarma.com.ar/"
   }
 },
 {
@@ -80317,6 +80372,37 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Nueva San Antonio"
+  }
+},
+{
+  "type": "node",
+  "id": 10708195284,
+  "lat": -37.2814293,
+  "lon": -59.3616595,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Salvucci"
+  }
+},
+{
+  "type": "node",
+  "id": 10710330133,
+  "lat": -37.4012619,
+  "lon": -59.5068857,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Trecu"
+  }
+},
+{
+  "type": "node",
+  "id": 10712315363,
+  "lat": -27.4421308,
+  "lon": -58.9798727,
+  "tags": {
+    "addr:housenumber": "940",
+    "addr:street": "Pueyrredón",
+    "amenity": "pharmacy"
   }
 },
 {
@@ -89710,7 +89796,8 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo"
   }
 },
 {
@@ -97799,7 +97886,7 @@
     "addr:street": "Avenida Carlos Pellegrini",
     "amenity": "pharmacy",
     "building:part": "yes",
-    "contact:phone": "0810 220 3990",
+    "contact:phone:AR": "0810 220-3990",
     "healthcare": "pharmacy",
     "level": "0",
     "name": "FarmaVip",
@@ -98689,6 +98776,29 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1151579412,
+  "nodes": [
+    10712598864,
+    10712598865,
+    10712598866,
+    10712598863,
+    10712598864
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "361",
+    "addr:postcode": "8000",
+    "addr:street": "Perú",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmacia.serier",
+    "healthcare": "pharmacy",
+    "indoor": "room",
+    "level": "0",
+    "phone": "+54 9 291 452-7612"
   }
 },
 {
@@ -102608,6 +102718,30 @@
   "id": 5983331363,
   "lat": -38.7132133,
   "lon": -62.2731666
+},
+{
+  "type": "node",
+  "id": 10712598863,
+  "lat": -38.7059001,
+  "lon": -62.2725068
+},
+{
+  "type": "node",
+  "id": 10712598864,
+  "lat": -38.7058681,
+  "lon": -62.2724648
+},
+{
+  "type": "node",
+  "id": 10712598865,
+  "lat": -38.7059360,
+  "lon": -62.2723795
+},
+{
+  "type": "node",
+  "id": 10712598866,
+  "lat": -38.7059682,
+  "lon": -62.2724216
 },
 {
   "type": "node",
@@ -108882,26 +109016,26 @@
 {
   "type": "node",
   "id": 4561722125,
-  "lat": -32.9439958,
-  "lon": -60.6380792
+  "lat": -32.9439948,
+  "lon": -60.6380845
 },
 {
   "type": "node",
   "id": 5358150460,
-  "lat": -32.9440290,
-  "lon": -60.6382677
+  "lat": -32.9440259,
+  "lon": -60.6382662
 },
 {
   "type": "node",
   "id": 5358150461,
-  "lat": -32.9440673,
-  "lon": -60.6381027
+  "lat": -32.9440654,
+  "lon": -60.6381032
 },
 {
   "type": "node",
   "id": 5358150462,
-  "lat": -32.9439576,
-  "lon": -60.6382442
+  "lat": -32.9439569,
+  "lon": -60.6382480
 },
 {
   "type": "node",
@@ -119742,14 +119876,14 @@
 {
   "type": "node",
   "id": 4593301161,
-  "lat": -34.5747830,
-  "lon": -58.5336585
+  "lat": -34.5748549,
+  "lon": -58.5335927
 },
 {
   "type": "node",
   "id": 4593301162,
-  "lat": -34.5748540,
-  "lon": -58.5337367
+  "lat": -34.5749232,
+  "lon": -58.5336733
 },
 {
   "type": "node",
