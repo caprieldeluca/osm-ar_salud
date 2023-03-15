@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.4 36d058c8",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-09T23:37:53Z",
-    "timestamp_areas_base": "2023-03-09T19:46:24Z",
+    "timestamp_osm_base": "2023-03-15T23:14:38Z",
+    "timestamp_areas_base": "2023-03-15T18:58:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -197,7 +197,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Unión",
-    "ref:sisa_codigo": "70900282397666"
+    "ref:sisa_codigo": "70900282397666",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -225,7 +226,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Juan",
-    "ref:sisa_codigo": "70900282397803"
+    "ref:sisa_codigo": "70900282397803",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -1304,7 +1306,8 @@
     "addr:street": "Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacity Palermo"
+    "name": "Farmacity Palermo",
+    "opening_hours": "24/7"
   }
 },
 {
@@ -2613,7 +2616,8 @@
     "healthcare": "pharmacy",
     "is_in:state": "Tucumán",
     "name": "San Miguel",
-    "ref:sisa_codigo": "70900772397904"
+    "ref:sisa_codigo": "70900772397904",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -2640,8 +2644,9 @@
     "is_in": "Aguilares",
     "is_in:state": "Tucumán",
     "name": "Santa Bárbara",
-    "opening_hours": "Mo-Sa 08:00-22:00+",
-    "ref:sisa_codigo": "70900772397586"
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "ref:sisa_codigo": "70900772397586",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -2676,7 +2681,8 @@
     "is_in": "Aguilares",
     "is_in:state": "Tucumán",
     "name": "Massouh",
-    "ref:sisa_codigo": "70900772397943"
+    "ref:sisa_codigo": "70900772397943",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -7214,7 +7220,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Avenida",
-    "ref:sisa_codigo": "70220142327094"
+    "ref:sisa_codigo": "70220142327094",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -8018,7 +8025,8 @@
     "healthcare": "pharmacy",
     "name": "San Carlos",
     "phone": "+54 3731 480319",
-    "ref:sisa_codigo": "70220362326956"
+    "ref:sisa_codigo": "70220362326956",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -8034,7 +8042,8 @@
     "healthcare": "pharmacy",
     "name": "San Jorge",
     "phone": "+543731480413",
-    "ref:sisa_codigo": "70220362326950"
+    "ref:sisa_codigo": "70220362326950",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -22550,7 +22559,8 @@
     "healthcare": "pharmacy",
     "name": "Avenida",
     "phone": "+54 3734 470477",
-    "ref:sisa_codigo": "70221682326972"
+    "ref:sisa_codigo": "70221682326972",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -25947,7 +25957,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Nobel",
-    "ref:sisa_codigo": "70900632397611"
+    "ref:sisa_codigo": "70900632397611",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -26463,7 +26474,8 @@
     "email": "farmaciadelnorte@clorinda-fsa.com.ar",
     "healthcare": "pharmacy",
     "name": "Del Norte",
-    "ref:sisa_codigo": "70340492347722"
+    "ref:sisa_codigo": "70340492347722",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -33505,6 +33517,7 @@
     "name": "Selecta",
     "phone": "+54 343 4364227",
     "ref:sisa_codigo": "70300842342857",
+    "ref:sisa_tipologia": "FARMACIA",
     "source": "SISA"
   }
 },
@@ -33533,7 +33546,9 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Javier",
-    "ref:sisa_codigo": "70220702326909"
+    "phone": "+543644495217",
+    "ref:sisa_codigo": "70220702326909",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -36785,7 +36800,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Brahim",
-    "ref:sisa_codigo": "70900632397764"
+    "ref:sisa_codigo": "70900632397764",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -42287,15 +42303,13 @@
 {
   "type": "node",
   "id": 4702858948,
-  "lat": -34.6208814,
-  "lon": -58.4139075,
+  "lat": -34.6208946,
+  "lon": -58.4139451,
   "tags": {
     "addr:city": "Buenos Aires",
-    "addr:street": "Avenida Independencia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Fenix",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
+    "name": "Fenix"
   }
 },
 {
@@ -45345,8 +45359,9 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Pértile",
-    "phone": "+54 03731 460044",
-    "ref:sisa_codigo": "70221052326881"
+    "phone": "+54 3731 460044",
+    "ref:sisa_codigo": "70221052326881",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -46807,7 +46822,8 @@
     "healthcare": "pharmacy",
     "name": "Fuerte Esperanza",
     "phone": "+54 3731 462743",
-    "ref:sisa_codigo": "70221052326876"
+    "ref:sisa_codigo": "70221052326876",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -48821,7 +48837,8 @@
   "tags": {
     "addr:street": "Avenida Pueyrredón",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Pueyrredón"
   }
 },
 {
@@ -50278,7 +50295,8 @@
     "healthcare": "pharmacy",
     "name": "Avenida",
     "phone": "+54 3731 462664",
-    "ref:sisa_codigo": "70221052326872"
+    "ref:sisa_codigo": "70221052326872",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -50296,7 +50314,8 @@
     "healthcare": "pharmacy",
     "name": "Calderó",
     "phone": "+54 3731 460338",
-    "ref:sisa_codigo": "70221052326870"
+    "ref:sisa_codigo": "70221052326870",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -50346,7 +50365,8 @@
     "healthcare": "pharmacy",
     "name": "Gutiérrez",
     "phone": "+54 3731 461417",
-    "ref:sisa_codigo": "70221052326875"
+    "ref:sisa_codigo": "70221052326875",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -50381,7 +50401,8 @@
     "healthcare": "pharmacy",
     "name": "Moia",
     "phone": "+54 3731 461228",
-    "ref:sisa_codigo": "70221052327382"
+    "ref:sisa_codigo": "70221052327382",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -50399,7 +50420,8 @@
     "healthcare": "pharmacy",
     "name": "San José",
     "phone": "+54 3731 460646",
-    "ref:sisa_codigo": "70221052326885"
+    "ref:sisa_codigo": "70221052326885",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -58155,12 +58177,17 @@
 {
   "type": "node",
   "id": 6316883186,
-  "lat": -31.6567673,
-  "lon": -64.4310715,
+  "lat": -31.6567632,
+  "lon": -64.4310547,
   "tags": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "102",
+    "addr:street": "Ingeniero Olmos",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Piccone"
+    "name": "Piccone",
+    "opening_hours": "Mo-Sa 8:00–13:00 16:30–21:00",
+    "phone": "03547430660"
   }
 },
 {
@@ -61263,7 +61290,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Arco Iris",
-    "ref:sisa_codigo": "70220702326908"
+    "ref:sisa_codigo": "70220702326908",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -61280,7 +61308,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Itatí",
-    "ref:sisa_codigo": "70220702326906"
+    "ref:sisa_codigo": "70220702326906",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -67760,7 +67789,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Pereyra",
-    "ref:sisa_codigo": "70900282398058"
+    "ref:sisa_codigo": "70900282398058",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -67776,7 +67806,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Antonio",
-    "ref:sisa_codigo": "70900282397811"
+    "ref:sisa_codigo": "70900282397811",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -68894,6 +68925,7 @@
     "name": "Pinto",
     "phone": "+54 3857 481453",
     "ref:sisa_codigo": "70861752393260",
+    "ref:sisa_tipologia": "FARMACIA",
     "source": "SISA"
   }
 },
@@ -68913,6 +68945,7 @@
     "name": "Centro Pinto",
     "phone": "+54 3857 481453",
     "ref:sisa_codigo": "70861752393260",
+    "ref:sisa_tipologia": "FARMACIA",
     "source": "SISA"
   }
 },
@@ -69022,6 +69055,7 @@
     "name": "Gramigna",
     "phone": "+54 3543 645731",
     "ref:sisa_codigo": "70140212333758",
+    "ref:sisa_tipologia": "FARMACIA",
     "source": "SISA"
   }
 },
@@ -72997,7 +73031,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Turi",
-    "ref:sisa_codigo": "70900632397702"
+    "ref:sisa_codigo": "70900632397702",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -73013,7 +73048,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San José",
-    "ref:sisa_codigo": "70900632397441"
+    "ref:sisa_codigo": "70900632397441",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -73039,7 +73075,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Martín",
-    "ref:sisa_codigo": "70900632397714"
+    "ref:sisa_codigo": "70900632397714",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -73054,7 +73091,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Libertad",
-    "ref:sisa_codigo": "70900632397671"
+    "ref:sisa_codigo": "70900632397671",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -73070,7 +73108,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Lules",
-    "ref:sisa_codigo": "70900632397457"
+    "ref:sisa_codigo": "70900632397457",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -73086,7 +73125,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "9 de Julio",
-    "ref:sisa_codigo": "70900632397783"
+    "ref:sisa_codigo": "70900632397783",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -73102,7 +73142,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "El Condor",
-    "ref:sisa_codigo": "70900632397419"
+    "ref:sisa_codigo": "70900632397419",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -74594,7 +74635,8 @@
     "healthcare": "pharmacy",
     "name": "Cortés",
     "phone": "+54 343 4373207",
-    "ref:sisa_codigo": "70300842342867"
+    "ref:sisa_codigo": "70300842342867",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -74629,7 +74671,8 @@
     "healthcare": "pharmacy",
     "name": "La Estrella",
     "phone": "+54 343 4311060",
-    "ref:sisa_codigo": "70300842342895"
+    "ref:sisa_codigo": "70300842342895",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -74647,7 +74690,8 @@
     "healthcare": "pharmacy",
     "name": "Patria Sucursal Centro",
     "phone": "+54 343 4327231",
-    "ref:sisa_codigo": "70300842342923"
+    "ref:sisa_codigo": "70300842342923",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -74666,7 +74710,8 @@
     "name": "Tribunales",
     "official_name": "Tribunales SRL",
     "phone": "+54 343 4236060",
-    "ref:sisa_codigo": "70300842342820"
+    "ref:sisa_codigo": "70300842342820",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76054,7 +76099,8 @@
     "healthcare": "pharmacy",
     "name": "Aldaya",
     "phone": "+54 2983 441114",
-    "ref:sisa_codigo": "70067422314027"
+    "ref:sisa_codigo": "70067422314027",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76571,7 +76617,8 @@
     "healthcare": "pharmacy",
     "name": "Maria Grande",
     "phone": "+54 343 4940883",
-    "ref:sisa_codigo": "70300842343029"
+    "ref:sisa_codigo": "70300842343029",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76589,7 +76636,8 @@
     "healthcare": "pharmacy",
     "name": "Audisio",
     "phone": "+54 343 4940095",
-    "ref:sisa_codigo": "70300842342771"
+    "ref:sisa_codigo": "70300842342771",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76607,7 +76655,8 @@
     "healthcare": "pharmacy",
     "name": "Haller Gustavo Ramón",
     "phone": "+54 343 4940487",
-    "ref:sisa_codigo": "70300842343202"
+    "ref:sisa_codigo": "70300842343202",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76625,7 +76674,8 @@
     "healthcare": "pharmacy",
     "name": "Sacks",
     "phone": "+54 343-4940120",
-    "ref:sisa_codigo": "70300842342961"
+    "ref:sisa_codigo": "70300842342961",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76643,7 +76693,8 @@
     "healthcare": "pharmacy",
     "name": "Zurutuza",
     "phone": "+54 343 4890125",
-    "ref:sisa_codigo": "70300842342920"
+    "ref:sisa_codigo": "70300842342920",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76661,7 +76712,8 @@
     "healthcare": "pharmacy",
     "name": "Rabbia",
     "phone": "+54 343 4891264",
-    "ref:sisa_codigo": "70300842342958"
+    "ref:sisa_codigo": "70300842342958",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76679,7 +76731,8 @@
     "healthcare": "pharmacy",
     "name": "Haller Gustavo Ramón",
     "phone": "+54 343-4890659",
-    "ref:sisa_codigo": "70300842343044"
+    "ref:sisa_codigo": "70300842343044",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76696,7 +76749,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Folmer",
-    "ref:sisa_codigo": "70300842342873"
+    "ref:sisa_codigo": "70300842342873",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76714,7 +76768,8 @@
     "healthcare": "pharmacy",
     "name": "Vital",
     "phone": "+54 364 4481300",
-    "ref:sisa_codigo": "70221332327017"
+    "ref:sisa_codigo": "70221332327017",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76732,7 +76787,8 @@
     "healthcare": "pharmacy",
     "name": "Nueva Belgrano",
     "phone": "+54 364 4480215",
-    "ref:sisa_codigo": "70221332327021"
+    "ref:sisa_codigo": "70221332327021",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76750,7 +76806,8 @@
     "healthcare": "pharmacy",
     "name": "Del Norte",
     "phone": "+54 362 4480111",
-    "ref:sisa_codigo": "70221332327035"
+    "ref:sisa_codigo": "70221332327035",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76767,7 +76824,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Quitilipi",
-    "ref:sisa_codigo": "70221332327008"
+    "ref:sisa_codigo": "70221332327008",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76785,7 +76843,8 @@
     "healthcare": "pharmacy",
     "name": "Nuevo Milenio",
     "phone": "+54 364 4481057",
-    "ref:sisa_codigo": "70221332327010"
+    "ref:sisa_codigo": "70221332327010",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76804,7 +76863,8 @@
     "name": "Markonich",
     "official_name": "Markonich SRL",
     "phone": "+54 364 4480146",
-    "ref:sisa_codigo": "70221332327018"
+    "ref:sisa_codigo": "70221332327018",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76822,7 +76882,8 @@
     "healthcare": "pharmacy",
     "name": "Urlich",
     "phone": "+54 364 4480189",
-    "ref:sisa_codigo": "70221332327015"
+    "ref:sisa_codigo": "70221332327015",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76839,7 +76900,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Avenida",
-    "ref:sisa_codigo": "70221332327004"
+    "ref:sisa_codigo": "70221332327004",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -76856,7 +76918,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Santa Rita",
-    "ref:sisa_codigo": "70221332327007"
+    "ref:sisa_codigo": "70221332327007",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77107,7 +77170,8 @@
     "healthcare": "pharmacy",
     "name": "Puigpinos",
     "phone": "+54 3498 480446",
-    "ref:sisa_codigo": "70821122387203"
+    "ref:sisa_codigo": "70821122387203",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77125,7 +77189,8 @@
     "healthcare": "pharmacy",
     "name": "Trombert",
     "phone": "+54 3498 481363",
-    "ref:sisa_codigo": "70821122387205"
+    "ref:sisa_codigo": "70821122387205",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77143,7 +77208,8 @@
     "healthcare": "pharmacy",
     "name": "Gonnet",
     "phone": "+54 3498 480198",
-    "ref:sisa_codigo": "70821122387204"
+    "ref:sisa_codigo": "70821122387204",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77161,7 +77227,8 @@
     "healthcare": "pharmacy",
     "name": "Botta",
     "phone": "+54 3498 480013",
-    "ref:sisa_codigo": "70821122387202"
+    "ref:sisa_codigo": "70821122387202",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77179,7 +77246,8 @@
     "healthcare": "pharmacy",
     "name": "French",
     "phone": "+54 3843 421248",
-    "ref:sisa_codigo": "70861192393169"
+    "ref:sisa_codigo": "70861192393169",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77198,7 +77266,8 @@
     "healthcare": "pharmacy",
     "name": "Gola",
     "phone": "+54 3843 421084",
-    "ref:sisa_codigo": "70861192393191"
+    "ref:sisa_codigo": "70861192393191",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77216,7 +77285,8 @@
     "healthcare": "pharmacy",
     "name": "Chaco",
     "phone": "+54 3843 421660",
-    "ref:sisa_codigo": "70861192393349"
+    "ref:sisa_codigo": "70861192393349",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77233,7 +77303,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Cura",
-    "ref:sisa_codigo": "70860982393224"
+    "ref:sisa_codigo": "70860982393224",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77251,7 +77322,8 @@
     "healthcare": "pharmacy",
     "name": "Cuesta",
     "phone": "+54 385 4911805",
-    "ref:sisa_codigo": "70861612393131"
+    "ref:sisa_codigo": "70861612393131",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77267,7 +77339,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
-    "ref:sisa_codigo": "70861612393391"
+    "ref:sisa_codigo": "70861612393391",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77285,7 +77358,8 @@
     "healthcare": "pharmacy",
     "name": "Plaza",
     "phone": "+54 385 4912012",
-    "ref:sisa_codigo": "70861612393099"
+    "ref:sisa_codigo": "70861612393099",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77303,7 +77377,8 @@
     "healthcare": "pharmacy",
     "name": "Morave",
     "official_name": "Morave SRL",
-    "ref:sisa_codigo": "70861612393100"
+    "ref:sisa_codigo": "70861612393100",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77345,7 +77420,8 @@
     "healthcare": "pharmacy",
     "name": "Antonio",
     "phone": "+54 3782 498379",
-    "ref:sisa_codigo": "70180982339978"
+    "ref:sisa_codigo": "70180982339978",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77363,7 +77439,8 @@
     "healthcare": "pharmacy",
     "name": "Victoria",
     "phone": "+54 3782 498203",
-    "ref:sisa_codigo": "70180982339878"
+    "ref:sisa_codigo": "70180982339878",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77423,7 +77500,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Dipiazza",
-    "ref:sisa_codigo": "70820912387395"
+    "ref:sisa_codigo": "70820912387395",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77440,7 +77518,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Gaitan",
-    "ref:sisa_codigo": "70820912387397"
+    "ref:sisa_codigo": "70820912387397",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77458,7 +77537,8 @@
     "healthcare": "pharmacy",
     "name": "Pierantoni",
     "phone": "+54 340 8423455",
-    "ref:sisa_codigo": "70820912387400"
+    "ref:sisa_codigo": "70820912387400",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77475,7 +77555,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Schmidt",
-    "ref:sisa_codigo": "70820912387401"
+    "ref:sisa_codigo": "70820912387401",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77492,7 +77573,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Lemos",
-    "ref:sisa_codigo": "70820912387398"
+    "ref:sisa_codigo": "70820912387398",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77509,7 +77591,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Pesquedua",
-    "ref:sisa_codigo": "70820912387399"
+    "ref:sisa_codigo": "70820912387399",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77652,7 +77735,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Fantini",
-    "ref:sisa_codigo": "70820772387532"
+    "ref:sisa_codigo": "70820772387532",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77669,7 +77753,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Silvia",
-    "ref:sisa_codigo": "70820772387535"
+    "ref:sisa_codigo": "70820772387535",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77686,7 +77771,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Tanoyra",
-    "ref:sisa_codigo": "70820772387536"
+    "ref:sisa_codigo": "70820772387536",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77703,7 +77789,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Turco",
-    "ref:sisa_codigo": "70820772387537"
+    "ref:sisa_codigo": "70820772387537",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77720,7 +77807,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Olsina",
-    "ref:sisa_codigo": "70820772387534"
+    "ref:sisa_codigo": "70820772387534",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77737,7 +77825,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Mutual De Integrantes Del Poder Judicial",
-    "ref:sisa_codigo": "70820772887609"
+    "ref:sisa_codigo": "70820772887609",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77794,7 +77883,8 @@
     "healthcare": "pharmacy",
     "name": "La Nueva Machagai",
     "phone": "+54 364 4470141",
-    "ref:sisa_codigo": "70221682326974"
+    "ref:sisa_codigo": "70221682326974",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77811,7 +77901,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Social Del Insssep",
-    "ref:sisa_codigo": "70221682727108"
+    "ref:sisa_codigo": "70221682727108",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77829,7 +77920,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Activa",
-    "ref:sisa_codigo": "70221682327323"
+    "ref:sisa_codigo": "70221682327323",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77846,7 +77938,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Integral",
-    "ref:sisa_codigo": "70221682327322"
+    "ref:sisa_codigo": "70221682327322",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77864,7 +77957,8 @@
     "healthcare": "pharmacy",
     "name": "La Paz",
     "phone": "+54 3734 470016",
-    "ref:sisa_codigo": "70221682326973"
+    "ref:sisa_codigo": "70221682326973",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77881,7 +77975,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "AMMACH",
-    "ref:sisa_codigo": "70221682827166"
+    "ref:sisa_codigo": "70221682827166",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -77898,7 +77993,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Alquimia",
-    "ref:sisa_codigo": "70221682326978"
+    "ref:sisa_codigo": "70221682326978",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78392,7 +78488,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Argentina",
-    "ref:sisa_codigo": "70067422313404"
+    "ref:sisa_codigo": "70067422313404",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78409,7 +78506,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Cosentino",
-    "ref:sisa_codigo": "70067422313857"
+    "ref:sisa_codigo": "70067422313857",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78425,8 +78523,10 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Facundo Obras Sociales",
-    "ref:sisa_codigo": "70580912367317"
+    "name": "Facundo",
+    "phone": "+542994886453",
+    "ref:sisa_codigo": "70580912367317",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78564,7 +78664,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacentro",
-    "ref:sisa_codigo": "70220842327032"
+    "ref:sisa_codigo": "70220842327032",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78581,7 +78682,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "El Shadai",
-    "ref:sisa_codigo": "70220842327031"
+    "ref:sisa_codigo": "70220842327031",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78598,7 +78700,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Luis",
-    "ref:sisa_codigo": "70220842327033"
+    "ref:sisa_codigo": "70220842327033",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78615,7 +78718,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Genesen",
-    "ref:sisa_codigo": "70220842327034"
+    "ref:sisa_codigo": "70220842327034",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78652,7 +78756,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San José",
-    "ref:sisa_codigo": "70580912367395"
+    "ref:sisa_codigo": "70580912367395",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78669,7 +78774,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Mututal De Empleados Y Obreros Petroleros Privados",
-    "ref:sisa_codigo": "70580912867366"
+    "ref:sisa_codigo": "70580912867366",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78686,7 +78792,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Rincón",
-    "ref:sisa_codigo": "70580912367407"
+    "ref:sisa_codigo": "70580912367407",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78703,7 +78810,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Romero",
-    "ref:sisa_codigo": "70580912367387"
+    "ref:sisa_codigo": "70580912367387",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78753,7 +78861,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Charytonow",
-    "ref:sisa_codigo": "70221472327028"
+    "ref:sisa_codigo": "70221472327028",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78771,7 +78880,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Cristal",
-    "ref:sisa_codigo": "70221472327027"
+    "ref:sisa_codigo": "70221472327027",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78787,7 +78897,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San José",
-    "ref:sisa_codigo": "70221472327029"
+    "ref:sisa_codigo": "70221472327029",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78865,7 +78976,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Vega",
-    "ref:sisa_codigo": "70220702326920"
+    "ref:sisa_codigo": "70220702326920",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -78882,7 +78994,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmapolo",
-    "ref:sisa_codigo": "70220702326921"
+    "ref:sisa_codigo": "70220702326921",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79009,7 +79122,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Centro",
-    "ref:sisa_codigo": "70220492326926"
+    "ref:sisa_codigo": "70220492326926",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79094,11 +79208,16 @@
 {
   "type": "node",
   "id": 10179147520,
-  "lat": -31.6564500,
-  "lon": -64.4300737,
+  "lat": -31.6563874,
+  "lon": -64.4300177,
   "tags": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "155",
+    "addr:street": "Paraguay",
     "amenity": "pharmacy",
-    "name": "Galetto"
+    "healthcare": "pharmacy",
+    "name": "Galetto",
+    "opening_hours": "Mo-Sa 9:00–12:30 17:00–21:00"
   }
 },
 {
@@ -79142,7 +79261,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Gancedo",
-    "ref:sisa_codigo": "70220362326946"
+    "ref:sisa_codigo": "70220362326946",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79289,7 +79409,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Santa Maria",
-    "ref:sisa_codigo": "70220912327041"
+    "ref:sisa_codigo": "70220912327041",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79306,7 +79427,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Social Ammach",
-    "ref:sisa_codigo": "70220912327042"
+    "ref:sisa_codigo": "70220912327042",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79323,7 +79445,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Florida",
-    "ref:sisa_codigo": "70220912327043"
+    "ref:sisa_codigo": "70220912327043",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79340,7 +79463,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Antonio",
-    "ref:sisa_codigo": "70220912327040"
+    "ref:sisa_codigo": "70220912327040",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79397,7 +79521,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Slipansky",
-    "ref:sisa_codigo": "70221122327061"
+    "ref:sisa_codigo": "70221122327061",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79414,7 +79539,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "ELMA",
-    "ref:sisa_codigo": "70221122327063"
+    "ref:sisa_codigo": "70221122327063",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79431,7 +79557,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "25 de Mayo",
-    "ref:sisa_codigo": "70221122327059"
+    "ref:sisa_codigo": "70221122327059",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79448,7 +79575,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farma Salud",
-    "ref:sisa_codigo": "70221122327324"
+    "ref:sisa_codigo": "70221122327324",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79466,7 +79594,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Córdoba",
-    "ref:sisa_codigo": "70221122327060"
+    "ref:sisa_codigo": "70221122327060",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79483,7 +79612,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Ninoff II",
-    "ref:sisa_codigo": "70221122327064"
+    "ref:sisa_codigo": "70221122327064",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79552,7 +79682,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Gaby",
-    "ref:sisa_codigo": "70220492326927"
+    "ref:sisa_codigo": "70220492326927",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79569,7 +79700,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Curti",
-    "ref:sisa_codigo": "70220492326929"
+    "ref:sisa_codigo": "70220492326929",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79586,7 +79718,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Itatí",
-    "ref:sisa_codigo": "70220492326925"
+    "ref:sisa_codigo": "70220492326925",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79603,7 +79736,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Antonio",
-    "ref:sisa_codigo": "70220072327038"
+    "ref:sisa_codigo": "70220072327038",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79620,7 +79754,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Nicolás",
-    "ref:sisa_codigo": "70220072327036"
+    "ref:sisa_codigo": "70220072327036",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79637,7 +79772,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Santa Catalina",
-    "ref:sisa_codigo": "70220072327039"
+    "ref:sisa_codigo": "70220072327039",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79654,7 +79790,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Panacea",
-    "ref:sisa_codigo": "70220072327379"
+    "ref:sisa_codigo": "70220072327379",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79671,7 +79808,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "SEIFERT",
-    "ref:sisa_codigo": "70220072327037"
+    "ref:sisa_codigo": "70220072327037",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -79688,7 +79826,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Cristal",
-    "ref:sisa_codigo": "70220072327058"
+    "ref:sisa_codigo": "70220072327058",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80133,7 +80272,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Robles",
-    "ref:sisa_codigo": "70900422397870"
+    "ref:sisa_codigo": "70900422397870",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80151,7 +80291,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Pistone",
-    "ref:sisa_codigo": "70900422397605"
+    "ref:sisa_codigo": "70900422397605",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80169,7 +80310,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Ignacio",
-    "ref:sisa_codigo": "70900422397415"
+    "ref:sisa_codigo": "70900422397415",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80186,7 +80328,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Luis Gonzaga",
-    "ref:sisa_codigo": "70900912397403"
+    "ref:sisa_codigo": "70900912397403",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80203,7 +80346,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Curia",
-    "ref:sisa_codigo": "70900912397475"
+    "ref:sisa_codigo": "70900912397475",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80220,7 +80364,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Sagrado Corazón",
-    "ref:sisa_codigo": "70900912397471"
+    "ref:sisa_codigo": "70900912397471",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80237,7 +80382,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "9 de Julio",
-    "ref:sisa_codigo": "70900912397765"
+    "ref:sisa_codigo": "70900912397765",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -80338,8 +80484,8 @@
 {
   "type": "node",
   "id": 10696131803,
-  "lat": -38.9043622,
-  "lon": -70.0624064,
+  "lat": -38.9043768,
+  "lon": -70.0623943,
   "tags": {
     "addr:city": "Zapala",
     "addr:housenumber": "444",
@@ -80402,6 +80548,59 @@
   "tags": {
     "addr:housenumber": "940",
     "addr:street": "Pueyrredón",
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10724670752,
+  "lat": -38.9025502,
+  "lon": -70.0590889,
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "425",
+    "addr:postcode": "Q8340",
+    "addr:street": "Bartolomé Mitre",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Vallejos"
+  }
+},
+{
+  "type": "node",
+  "id": 10724913237,
+  "lat": -38.9072871,
+  "lon": -70.0619581,
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "721",
+    "addr:postcode": "Q8340",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Zapala"
+  }
+},
+{
+  "type": "node",
+  "id": 10736131046,
+  "lat": -34.6199014,
+  "lon": -58.4078953,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Arquímedes"
+  }
+},
+{
+  "type": "node",
+  "id": 10738116605,
+  "lat": -34.5769438,
+  "lon": -58.4234089,
+  "tags": {
     "amenity": "pharmacy"
   }
 },
@@ -97064,7 +97263,9 @@
     "name": "Farmacia Funes City",
     "opening_hours": "Mo-Fr 08:30-22:00; Sa 09:00-13:00, 17:00-21:00",
     "payment:cash": "yes",
+    "payment:debit_cards": "yes",
     "payment:ep_billetera_santafe": "yes",
+    "payment:mercado_pago": "yes",
     "wheelchair": "yes"
   }
 },
@@ -114668,44 +114869,44 @@
 {
   "type": "node",
   "id": 4709291628,
-  "lat": -34.6565704,
-  "lon": -58.5802551
+  "lat": -34.6565715,
+  "lon": -58.5802591
 },
 {
   "type": "node",
   "id": 4709291629,
-  "lat": -34.6566090,
-  "lon": -58.5802564
+  "lat": -34.6566101,
+  "lon": -58.5802604
 },
 {
   "type": "node",
   "id": 4709291630,
-  "lat": -34.6566535,
-  "lon": -58.5801986
+  "lat": -34.6566546,
+  "lon": -58.5802026
 },
 {
   "type": "node",
   "id": 4709291631,
-  "lat": -34.6566101,
-  "lon": -58.5801492
+  "lat": -34.6566112,
+  "lon": -58.5801532
 },
 {
   "type": "node",
   "id": 4709291632,
-  "lat": -34.6565925,
-  "lon": -58.5801721
+  "lat": -34.6565936,
+  "lon": -58.5801761
 },
 {
   "type": "node",
   "id": 4709291633,
-  "lat": -34.6565793,
-  "lon": -58.5801571
+  "lat": -34.6565804,
+  "lon": -58.5801611
 },
 {
   "type": "node",
   "id": 4709291634,
-  "lat": -34.6565349,
-  "lon": -58.5802147
+  "lat": -34.6565360,
+  "lon": -58.5802187
 },
 {
   "type": "node",
@@ -118119,13 +118320,13 @@
   "type": "node",
   "id": 4704532624,
   "lat": -34.6147507,
-  "lon": -58.4092008
+  "lon": -58.4092182
 },
 {
   "type": "node",
   "id": 4704532625,
   "lat": -34.6150610,
-  "lon": -58.4091471
+  "lon": -58.4091632
 },
 {
   "type": "node",

@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.4 36d058c8",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-09T23:32:52Z",
-    "timestamp_areas_base": "2023-03-09T19:46:24Z",
+    "timestamp_osm_base": "2023-03-15T23:09:35Z",
+    "timestamp_areas_base": "2023-03-15T18:58:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -529,7 +529,8 @@
     "phone": "+54 3743 491419",
     "ref:ZonaSanitaria": "Centro Paraná",
     "ref:cuie_codigo": "N05169",
-    "ref:sisa_codigo": "50540772164128"
+    "ref:sisa_codigo": "50540772164128",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -2717,9 +2718,7 @@
   "lon": -58.4109461,
   "tags": {
     "amenity": "clinic",
-    "fixme": "verificar",
-    "healthcare": "clinic",
-    "name": "Clinica del Hospital Frances"
+    "name": "Centro de Promoción y Prevención PAMI"
   }
 },
 {
@@ -2982,7 +2981,8 @@
     "phone": "+54 376 445 6759",
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N99992",
-    "ref:sisa_codigo": "53540282165716"
+    "ref:sisa_codigo": "53540282165716",
+    "ref:sisa_tipologia": "ESCIESM"
   }
 },
 {
@@ -24109,10 +24109,11 @@
     "addr:street": "Moreno",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro de Salud Colonia Aldao",
+    "name": "Centro de Salud Mauricio J. Barberis - Colonia Aldao",
     "operator": "Provincia de Santa Fe",
     "operator:type": "public",
-    "ref:sisa_codigo": "3493 49-7325",
+    "phone": "+543493497325;+5493493449648",
+    "ref:sisa_codigo": "50820212184613",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -36070,7 +36071,7 @@
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 348 444 4467",
-    "ref:sisa_codigo": "50068052217964;50068052201335",
+    "ref:sisa_codigo": "50068052201335",
     "ref:sisa_tipologia": "ESSIDT",
     "website": "http://www.tigre.gov.ar/salud/hospitales_y_centros_de_salud"
   }
@@ -37020,24 +37021,6 @@
     "operator:type": "public",
     "phone": "02320-480546",
     "ref:sisa_codigo": "50065152202920",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7529382483,
-  "lat": -34.4911947,
-  "lon": -58.7159961,
-  "tags": {
-    "addr:full": "Pasco E/ Yatasto Y Segui",
-    "addr:postcode": "1613",
-    "alt_name": "Centro de Recepción y Contención de Menores",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Recepcion Malvinas Argentinas",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50065152106689",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -38745,7 +38728,7 @@
     "addr:street": "Ruta Provincial 38",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro De Salud Costa Ine;Puesto Sanitario",
+    "name": "Centro de Salud Costa Ine - Puesto Sanitario",
     "operator": "Provincial",
     "operator:type": "public",
     "ref:sisa_codigo": "50221262126203",
@@ -39115,6 +39098,7 @@
   "lon": -58.9088639,
   "tags": {
     "addr:full": "Quinquela Martín 124",
+    "addr:housenumber": "124",
     "addr:postcode": "2804",
     "addr:street": "Benito Quinquela Martín",
     "alt_name": "Centro De Salud 22 Hipolito Irigoyen De Campana",
@@ -39124,7 +39108,7 @@
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 3489 668317",
-    "ref:sisa_codigo": "50061262206902;50061262201293",
+    "ref:sisa_codigo": "50061262206902",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "http://www.campana.gov.ar/centro-de-atencion-primaria/"
   }
@@ -39805,6 +39789,9 @@
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "clinicapasteursrl@gmail.com",
     "healthcare": "clinic",
+    "name": "Clínica Privada Pasteur",
+    "operator": "CLINICA PRIVADA PASTEUR S.R.L",
+    "operator:type": "private",
     "phone": "+54 3572 470155",
     "ref:sisa_codigo": "10141192331089",
     "ref:sisa_tipologia": "ESCIG"
@@ -44124,6 +44111,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 10735527006,
+  "lat": -28.5912339,
+  "lon": -58.0582618,
+  "tags": {
+    "addr:housenumber": "67",
+    "addr:postcode": "5000",
+    "addr:street": "Bv. San Juan",
+    "amenity": "clinic",
+    "email": "odontologiayestetica.cba@gmail.com",
+    "internet_access": "wlan",
+    "name": "Olmedo Odontologia",
+    "opening_hours": "Mo-Fr 09:00-20:00",
+    "phone": "3518188000",
+    "website": "https://clinicaodontologiayestetica.com/?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh1EDK1VsYrcUplq1pcvc_y--qRIu6vHA-Ku4Bfmowv1hQ9ht3e1ymsaAovuEALw_wcB"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -46176,7 +46181,8 @@
     "amenity": "clinic",
     "building": "office",
     "healthcare": "clinic",
-    "name": "Kref"
+    "name": "Kref",
+    "wheelchair": "limited"
   }
 },
 {
@@ -56623,6 +56629,8 @@
   "id": 786049640,
   "nodes": [
     7348631819,
+    10737170393,
+    10737170392,
     7348631820,
     7348631821,
     7348631822,
@@ -77642,32 +77650,44 @@
 {
   "type": "node",
   "id": 7348631819,
-  "lat": -33.8988533,
-  "lon": -60.5719292
+  "lat": -33.8988639,
+  "lon": -60.5719027
 },
 {
   "type": "node",
   "id": 7348631820,
-  "lat": -33.8989326,
-  "lon": -60.5717122
+  "lat": -33.8989584,
+  "lon": -60.5716930
 },
 {
   "type": "node",
   "id": 7348631821,
-  "lat": -33.8990442,
-  "lon": -60.5717301
+  "lat": -33.8990510,
+  "lon": -60.5717063
 },
 {
   "type": "node",
   "id": 7348631822,
-  "lat": -33.8990615,
-  "lon": -60.5717560
+  "lat": -33.8990683,
+  "lon": -60.5717322
 },
 {
   "type": "node",
   "id": 7348631823,
-  "lat": -33.8989797,
-  "lon": -60.5719959
+  "lat": -33.8989896,
+  "lon": -60.5719666
+},
+{
+  "type": "node",
+  "id": 10737170392,
+  "lat": -33.8989283,
+  "lon": -60.5717745
+},
+{
+  "type": "node",
+  "id": 10737170393,
+  "lat": -33.8988995,
+  "lon": -60.5717622
 },
 {
   "type": "node",
