@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.2 0994154d",
+  "generator": "Overpass API 0.7.59.4 36d058c8",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-15T23:03:39Z",
-    "timestamp_areas_base": "2023-03-15T18:58:24Z",
+    "timestamp_osm_base": "2023-03-22T16:48:08Z",
+    "timestamp_areas_base": "2023-03-22T15:59:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6935,7 +6935,7 @@
     "addr:city": "salta capital",
     "addr:housenumber": "158",
     "addr:postcode": "4400",
-    "addr:street": "José Evaristo Uriburu",
+    "addr:street": "Doctor José Evaristo Uriburu",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro de salud Villa Soledad",
@@ -23341,6 +23341,42 @@
   }
 },
 {
+  "type": "node",
+  "id": 10738771014,
+  "lat": -38.9056796,
+  "lon": -70.0673012,
+  "tags": {
+    "addr:city": "Zapala",
+    "addr:housenumber": "345",
+    "addr:postcode": "Q8340",
+    "addr:street": "Elena de la Vega",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica de Imágenes del Sur"
+  }
+},
+{
+  "type": "node",
+  "id": 10749384231,
+  "lat": -24.7819366,
+  "lon": -65.4161267,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 10753687405,
+  "lat": -34.6072488,
+  "lon": -58.3970219,
+  "tags": {
+    "amenity": "hospital",
+    "name:en": "Instituto Otorrinolaringologico Arauz S.A"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -27243,7 +27279,8 @@
     "operator:type": "public",
     "ref:sisa_codigo": "10580352167025",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD);Organización Sectorial - Ministerio de Salud - Gobierno de la Provincia del Neuquén"
+    "source": "sedronar.gov.ar | Public Domain (PD);Organización Sectorial - Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "website": "https://www.saludneuquen.gob.ar/hospital-plottier/"
   }
 },
 {
@@ -39056,6 +39093,7 @@
   "nodes": [
     4602999687,
     4602999688,
+    10746821945,
     4602999789,
     4602999790,
     4602999687
@@ -44618,8 +44656,10 @@
     10647923253,
     10647923252,
     10647923251,
+    10738431825,
     6463444218,
     10707712629,
+    10738431835,
     6463444214
   ],
   "tags": {
@@ -50652,7 +50692,8 @@
   ],
   "tags": {
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "healthcare": "hospital",
+    "name": "Hospital del Bicentenario de Ituzaingó"
   }
 },
 {
@@ -90348,8 +90389,8 @@
 {
   "type": "node",
   "id": 9469594142,
-  "lat": -34.6387098,
-  "lon": -58.6909024
+  "lat": -34.6387208,
+  "lon": -58.6909158
 },
 {
   "type": "node",
@@ -97511,27 +97552,33 @@
 },
 {
   "type": "node",
+  "id": 10738431835,
+  "lat": -34.5826011,
+  "lon": -58.5368797
+},
+{
+  "type": "node",
   "id": 4602999687,
-  "lat": -34.5752217,
-  "lon": -58.5391638
+  "lat": -34.5752301,
+  "lon": -58.5391725
 },
 {
   "type": "node",
   "id": 4602999688,
-  "lat": -34.5752814,
-  "lon": -58.5390891
+  "lat": -34.5752849,
+  "lon": -58.5391052
 },
 {
   "type": "node",
   "id": 4602999789,
   "lat": -34.5751271,
-  "lon": -58.5389072
+  "lon": -58.5389178
 },
 {
   "type": "node",
   "id": 4602999790,
-  "lat": -34.5750674,
-  "lon": -58.5389819
+  "lat": -34.5750722,
+  "lon": -58.5389851
 },
 {
   "type": "node",
@@ -97625,6 +97672,12 @@
 },
 {
   "type": "node",
+  "id": 10746821945,
+  "lat": -34.5751624,
+  "lon": -58.5389598
+},
+{
+  "type": "node",
   "id": 3448831970,
   "lat": -34.5709243,
   "lon": -58.5543171
@@ -97688,6 +97741,12 @@
   "id": 10707712626,
   "lat": -34.5838461,
   "lon": -58.5364837
+},
+{
+  "type": "node",
+  "id": 10738431825,
+  "lat": -34.5829216,
+  "lon": -58.5362918
 },
 {
   "type": "node",
