@@ -2522,11 +2522,10 @@
   "id": "relation/13981232",
   "properties": {
     "addr:city": "Salta",
-    "addr:full": "Av Sarmiento Y Gral Arenales",
+    "addr:full": "Avenida Domingo Faustino Sarmiento y General Arenales",
     "addr:housenumber": "1301",
-    "addr:place": "Capital",
     "addr:postcode": "4400",
-    "addr:street": "Avenida Sarmiento",
+    "addr:street": "Avenida Domingo Faustino Sarmiento",
     "amenity": "hospital",
     "building": "yes",
     "description": "Bajo riesgo con internación simple",
@@ -11663,36 +11662,44 @@
     "coordinates": [
       [
         [
-          -61.2550222,
-          -37.2496812
+          -61.25487,
+          -37.2496615
         ],
         [
-          -61.2545898,
-          -37.2503894
+          -61.2548828,
+          -37.2497068
         ],
         [
-          -61.2545088,
-          -37.2504276
+          -61.2545093,
+          -37.250276
+        ],
+        [
+          -61.2544925,
+          -37.250344
+        ],
+        [
+          -61.2544086,
+          -37.2503542
+        ],
+        [
+          -61.2541176,
+          -37.2501394
         ],
         [
           -61.2533537,
           -37.2496348
         ],
         [
-          -61.2532487,
-          -37.2494389
-        ],
-        [
-          -61.2532877,
-          -37.2493195
+          -61.2531149,
+          -37.2495388
         ],
         [
           -61.2534317,
           -37.2490736
         ],
         [
-          -61.2550222,
-          -37.2496812
+          -61.25487,
+          -37.2496615
         ]
       ]
     ]
@@ -37635,11 +37642,14 @@
     "alt_name": "Hospital Materno Infantil",
     "amenity": "hospital",
     "building": "yes",
+    "email": "administracion@sanisidro.gov.ar",
     "emergency": "yes",
     "healthcare": "hospital",
     "healthcare:speciality": "paediatrics",
     "name": "Hospital Municipal Materno Infantil Doctor Carlos A. Gianantonio",
     "opening_hours": "24/7",
+    "phone": "+54 11 4512-3902",
+    "website": "www.sanisidro.gob.ar/content/hospitales-municipales",
     "wheelchair": "yes",
     "id": "way/434815659"
   },
@@ -46423,28 +46433,28 @@
     "coordinates": [
       [
         [
-          -60.8088841,
-          -32.9059855
+          -60.8093671,
+          -32.9062394
         ],
         [
-          -60.8094073,
-          -32.9060014
+          -60.8089101,
+          -32.9062257
         ],
         [
-          -60.8093975,
+          -60.8089203,
+          -32.9059867
+        ],
+        [
+          -60.809407,
+          -32.9060013
+        ],
+        [
+          -60.8093983,
           -32.9062038
         ],
         [
           -60.8093671,
-          -32.9062383
-        ],
-        [
-          -60.8088739,
-          -32.9062252
-        ],
-        [
-          -60.8088841,
-          -32.9059855
+          -32.9062394
         ]
       ]
     ]
@@ -50627,11 +50637,10 @@
   "id": "way/626017915",
   "properties": {
     "addr:city": "Salta",
-    "addr:full": "Av. Sarmiento N°555",
+    "addr:full": "Avenida Domingo Faustino Sarmiento 555",
     "addr:housenumber": "577",
-    "addr:place": "Capital",
     "addr:postcode": "4400",
-    "addr:street": "Sarmiento",
+    "addr:street": "Avenida Domingo Faustino Sarmiento",
     "amenity": "hospital",
     "description": "Mediano riesgo con internación con cuidados especiales",
     "healthcare": "hospital",
@@ -59301,54 +59310,6 @@
         [
           -61.4908567,
           -24.9388209
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/803179235",
-  "properties": {
-    "addr:city": "Córdoba",
-    "addr:full": "Rosario De Santa Fe 374",
-    "addr:housenumber": "374",
-    "addr:postcode": "5000",
-    "addr:street": "Rosario de Santa Fe",
-    "alt_name": "CAPS San Roque Viejo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital San Roque Viejo",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "+54 0351 4342437",
-    "ref:sisa_codigo": "50140142133243",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "way/803179235"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.1794719,
-          -31.4174073
-        ],
-        [
-          -64.1797763,
-          -31.418197
-        ],
-        [
-          -64.1791933,
-          -31.4183804
-        ],
-        [
-          -64.1788708,
-          -31.4175916
-        ],
-        [
-          -64.1794719,
-          -31.4174073
         ]
       ]
     ]
@@ -70211,10 +70172,10 @@
   "id": "way/1047102870",
   "properties": {
     "addr:housenumber": "2200",
-    "addr:street": "Rio Carapari",
+    "addr:street": "Río Caraparí",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro de Salud N° 9",
+    "name": "Centro de Salud 9",
     "id": "way/1047102870"
   },
   "geometry": {
@@ -73034,6 +72995,131 @@
         [
           -58.5376445,
           -34.5805527
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1156438141",
+  "properties": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:full": "18 De Diciembre De 1856 N° 1848",
+    "addr:housenumber": "1960",
+    "addr:postcode": "B1650",
+    "addr:street": "99 - General Roca",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "SEC San Martín",
+    "official_name": "Sindicato de Empleados de Comercio San Martín",
+    "operator:type": "private",
+    "phone": "+54 11 4014 4301;+54 11 4014 4325;+54 11 4014 4326",
+    "ref:sisa_codigo": "50063712307550",
+    "source:url": "https://www.secsanmartin.com/salud",
+    "start_date": "1985",
+    "id": "way/1156438141"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5402209,
+          -34.5809941
+        ],
+        [
+          -58.5403828,
+          -34.58086
+        ],
+        [
+          -58.5404888,
+          -34.5807722
+        ],
+        [
+          -58.5405347,
+          -34.5808095
+        ],
+        [
+          -58.5405928,
+          -34.5808567
+        ],
+        [
+          -58.540519,
+          -34.5809167
+        ],
+        [
+          -58.540485,
+          -34.5809443
+        ],
+        [
+          -58.5405003,
+          -34.580957
+        ],
+        [
+          -58.5405565,
+          -34.5810037
+        ],
+        [
+          -58.5407194,
+          -34.5811388
+        ],
+        [
+          -58.5405592,
+          -34.5812705
+        ],
+        [
+          -58.5403937,
+          -34.5811355
+        ],
+        [
+          -58.5402209,
+          -34.5809941
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1156441039",
+  "properties": {
+    "addr:city": "Villa Gesell",
+    "addr:postcode": "7165",
+    "addr:street": "Paseo 123",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal Dr. Arturo Illia",
+    "id": "way/1156441039"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -56.9878363,
+          -37.2703617
+        ],
+        [
+          -56.9881472,
+          -37.2707293
+        ],
+        [
+          -56.9875941,
+          -37.2711082
+        ],
+        [
+          -56.9873035,
+          -37.2706939
+        ],
+        [
+          -56.9873182,
+          -37.2706115
+        ],
+        [
+          -56.9878363,
+          -37.2703617
         ]
       ]
     ]
@@ -91070,27 +91156,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4726291943",
-  "properties": {
-    "addr:city": "Villa Gesell",
-    "addr:postcode": "7165",
-    "addr:street": "Paseo 123 entre Avenida 7 y 8",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal Dr. Arturo Illia",
-    "id": "node/4726291943"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -56.9877585,
-      -37.2707309
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4739187821",
   "properties": {
     "amenity": "hospital",
@@ -94827,22 +94892,6 @@
     "coordinates": [
       -68.8454819,
       -32.8941656
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5897238405",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "id": "node/5897238405"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.7173953,
-      -31.584617
     ]
   }
 },
@@ -105560,6 +105609,22 @@
     "coordinates": [
       -58.3970219,
       -34.6072488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10767734387",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "node/10767734387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.1066703,
+      -37.4855676
     ]
   }
 }

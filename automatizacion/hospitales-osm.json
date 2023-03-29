@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59.4 36d058c8",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-22T16:48:08Z",
-    "timestamp_areas_base": "2023-03-22T15:59:43Z",
+    "timestamp_osm_base": "2023-03-29T20:23:39Z",
+    "timestamp_areas_base": "2023-03-29T18:35:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12795,21 +12795,6 @@
 },
 {
   "type": "node",
-  "id": 4726291943,
-  "lat": -37.2707309,
-  "lon": -56.9877585,
-  "tags": {
-    "addr:city": "Villa Gesell",
-    "addr:postcode": "7165",
-    "addr:street": "Paseo 123 entre Avenida 7 y 8",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal Dr. Arturo Illia"
-  }
-},
-{
-  "type": "node",
   "id": 4739187821,
   "lat": -32.6744368,
   "lon": -64.9891468,
@@ -15479,16 +15464,6 @@
     "healthcare": "hospital",
     "name": "Instituto del Corazón",
     "phone": "54 0261 4236656"
-  }
-},
-{
-  "type": "node",
-  "id": 5897238405,
-  "lat": -31.5846170,
-  "lon": -60.7173953,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
   }
 },
 {
@@ -23377,6 +23352,16 @@
   }
 },
 {
+  "type": "node",
+  "id": 10767734387,
+  "lat": -37.4855676,
+  "lon": -62.1066703,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -26920,10 +26905,12 @@
   "id": 169260099,
   "nodes": [
     1804259764,
+    10771646374,
     1804259797,
     1804259799,
+    10771646372,
+    10771646373,
     1804259754,
-    1804259734,
     1804259729,
     1804259727,
     1804259764
@@ -38190,11 +38177,14 @@
     "alt_name": "Hospital Materno Infantil",
     "amenity": "hospital",
     "building": "yes",
+    "email": "administracion@sanisidro.gov.ar",
     "emergency": "yes",
     "healthcare": "hospital",
     "healthcare:speciality": "paediatrics",
     "name": "Hospital Municipal Materno Infantil Doctor Carlos A. Gianantonio",
     "opening_hours": "24/7",
+    "phone": "+54 11 4512-3902",
+    "website": "www.sanisidro.gob.ar/content/hospitales-municipales",
     "wheelchair": "yes"
   }
 },
@@ -42020,12 +42010,12 @@
   "type": "way",
   "id": 528176632,
   "nodes": [
+    5133463683,
+    2470156481,
     2470156480,
     2470156478,
     8623019997,
-    5133463683,
-    2470156481,
-    2470156480
+    5133463683
   ],
   "tags": {
     "alt_name": "Centro de Salud Eva Perón",
@@ -43953,11 +43943,10 @@
   ],
   "tags": {
     "addr:city": "Salta",
-    "addr:full": "Av. Sarmiento N°555",
+    "addr:full": "Avenida Domingo Faustino Sarmiento 555",
     "addr:housenumber": "577",
-    "addr:place": "Capital",
     "addr:postcode": "4400",
-    "addr:street": "Sarmiento",
+    "addr:street": "Avenida Domingo Faustino Sarmiento",
     "amenity": "hospital",
     "description": "Mediano riesgo con internación con cuidados especiales",
     "healthcare": "hospital",
@@ -47741,33 +47730,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "operator:type": "public"
-  }
-},
-{
-  "type": "way",
-  "id": 803179235,
-  "nodes": [
-    7513000241,
-    7513000242,
-    7513000243,
-    7513000244,
-    7513000241
-  ],
-  "tags": {
-    "addr:city": "Córdoba",
-    "addr:full": "Rosario De Santa Fe 374",
-    "addr:housenumber": "374",
-    "addr:postcode": "5000",
-    "addr:street": "Rosario de Santa Fe",
-    "alt_name": "CAPS San Roque Viejo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital San Roque Viejo",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "+54 0351 4342437",
-    "ref:sisa_codigo": "50140142133243",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -52347,10 +52309,10 @@
   ],
   "tags": {
     "addr:housenumber": "2200",
-    "addr:street": "Rio Carapari",
+    "addr:street": "Río Caraparí",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro de Salud N° 9"
+    "name": "Centro de Salud 9"
   }
 },
 {
@@ -53515,6 +53477,62 @@
   }
 },
 {
+  "type": "way",
+  "id": 1156438141,
+  "nodes": [
+    10754396929,
+    10754396944,
+    10754396930,
+    10754396931,
+    10754396935,
+    10754396938,
+    10754396933,
+    10754396939,
+    10754396934,
+    10754396941,
+    10754396932,
+    10754396943,
+    10754396929
+  ],
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:full": "18 De Diciembre De 1856 N° 1848",
+    "addr:housenumber": "1960",
+    "addr:postcode": "B1650",
+    "addr:street": "99 - General Roca",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "SEC San Martín",
+    "official_name": "Sindicato de Empleados de Comercio San Martín",
+    "operator:type": "private",
+    "phone": "+54 11 4014 4301;+54 11 4014 4325;+54 11 4014 4326",
+    "ref:sisa_codigo": "50063712307550",
+    "source:url": "https://www.secsanmartin.com/salud",
+    "start_date": "1985"
+  }
+},
+{
+  "type": "way",
+  "id": 1156441039,
+  "nodes": [
+    10754347597,
+    10754347598,
+    10754347599,
+    10754347600,
+    10754347601,
+    10754347597
+  ],
+  "tags": {
+    "addr:city": "Villa Gesell",
+    "addr:postcode": "7165",
+    "addr:street": "Paseo 123",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal Dr. Arturo Illia"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -54043,11 +54061,10 @@
   ],
   "tags": {
     "addr:city": "Salta",
-    "addr:full": "Av Sarmiento Y Gral Arenales",
+    "addr:full": "Avenida Domingo Faustino Sarmiento y General Arenales",
     "addr:housenumber": "1301",
-    "addr:place": "Capital",
     "addr:postcode": "4400",
-    "addr:street": "Avenida Sarmiento",
+    "addr:street": "Avenida Domingo Faustino Sarmiento",
     "amenity": "hospital",
     "building": "yes",
     "description": "Bajo riesgo con internación simple",
@@ -70577,14 +70594,8 @@
 {
   "type": "node",
   "id": 1804259729,
-  "lat": -37.2493195,
-  "lon": -61.2532877
-},
-{
-  "type": "node",
-  "id": 1804259734,
-  "lat": -37.2494389,
-  "lon": -61.2532487
+  "lat": -37.2495388,
+  "lon": -61.2531149
 },
 {
   "type": "node",
@@ -70595,20 +70606,38 @@
 {
   "type": "node",
   "id": 1804259764,
-  "lat": -37.2496812,
-  "lon": -61.2550222
+  "lat": -37.2496615,
+  "lon": -61.2548700
 },
 {
   "type": "node",
   "id": 1804259797,
-  "lat": -37.2503894,
-  "lon": -61.2545898
+  "lat": -37.2502760,
+  "lon": -61.2545093
 },
 {
   "type": "node",
   "id": 1804259799,
-  "lat": -37.2504276,
-  "lon": -61.2545088
+  "lat": -37.2503440,
+  "lon": -61.2544925
+},
+{
+  "type": "node",
+  "id": 10771646372,
+  "lat": -37.2503542,
+  "lon": -61.2544086
+},
+{
+  "type": "node",
+  "id": 10771646373,
+  "lat": -37.2501394,
+  "lon": -61.2541176
+},
+{
+  "type": "node",
+  "id": 10771646374,
+  "lat": -37.2497068,
+  "lon": -61.2548828
 },
 {
   "type": "node",
@@ -74764,18 +74793,6 @@
 },
 {
   "type": "node",
-  "id": 7513000241,
-  "lat": -31.4174073,
-  "lon": -64.1794719
-},
-{
-  "type": "node",
-  "id": 7513000244,
-  "lat": -31.4181970,
-  "lon": -64.1797763
-},
-{
-  "type": "node",
   "id": 5360102402,
   "lat": -31.4177250,
   "lon": -64.1766349
@@ -74797,18 +74814,6 @@
   "id": 5360102405,
   "lat": -31.4174135,
   "lon": -64.1766867
-},
-{
-  "type": "node",
-  "id": 7513000242,
-  "lat": -31.4175916,
-  "lon": -64.1788708
-},
-{
-  "type": "node",
-  "id": 7513000243,
-  "lat": -31.4183804,
-  "lon": -64.1791933
 },
 {
   "type": "node",
@@ -81563,32 +81568,32 @@
 {
   "type": "node",
   "id": 2470156478,
-  "lat": -32.9060014,
-  "lon": -60.8094073
+  "lat": -32.9060013,
+  "lon": -60.8094070
 },
 {
   "type": "node",
   "id": 2470156480,
-  "lat": -32.9059855,
-  "lon": -60.8088841
+  "lat": -32.9059867,
+  "lon": -60.8089203
 },
 {
   "type": "node",
   "id": 2470156481,
-  "lat": -32.9062252,
-  "lon": -60.8088739
+  "lat": -32.9062257,
+  "lon": -60.8089101
 },
 {
   "type": "node",
   "id": 5133463683,
-  "lat": -32.9062383,
+  "lat": -32.9062394,
   "lon": -60.8093671
 },
 {
   "type": "node",
   "id": 8623019997,
   "lat": -32.9062038,
-  "lon": -60.8093975
+  "lon": -60.8093983
 },
 {
   "type": "node",
@@ -97558,6 +97563,78 @@
 },
 {
   "type": "node",
+  "id": 10754396929,
+  "lat": -34.5809941,
+  "lon": -58.5402209
+},
+{
+  "type": "node",
+  "id": 10754396930,
+  "lat": -34.5812705,
+  "lon": -58.5405592
+},
+{
+  "type": "node",
+  "id": 10754396931,
+  "lat": -34.5811388,
+  "lon": -58.5407194
+},
+{
+  "type": "node",
+  "id": 10754396932,
+  "lat": -34.5807722,
+  "lon": -58.5404888
+},
+{
+  "type": "node",
+  "id": 10754396933,
+  "lat": -34.5809443,
+  "lon": -58.5404850
+},
+{
+  "type": "node",
+  "id": 10754396934,
+  "lat": -34.5808567,
+  "lon": -58.5405928
+},
+{
+  "type": "node",
+  "id": 10754396935,
+  "lat": -34.5810037,
+  "lon": -58.5405565
+},
+{
+  "type": "node",
+  "id": 10754396938,
+  "lat": -34.5809570,
+  "lon": -58.5405003
+},
+{
+  "type": "node",
+  "id": 10754396939,
+  "lat": -34.5809167,
+  "lon": -58.5405190
+},
+{
+  "type": "node",
+  "id": 10754396941,
+  "lat": -34.5808095,
+  "lon": -58.5405347
+},
+{
+  "type": "node",
+  "id": 10754396943,
+  "lat": -34.5808600,
+  "lon": -58.5403828
+},
+{
+  "type": "node",
+  "id": 10754396944,
+  "lat": -34.5811355,
+  "lon": -58.5403937
+},
+{
+  "type": "node",
   "id": 4602999687,
   "lat": -34.5752301,
   "lon": -58.5391725
@@ -101083,6 +101160,36 @@
   "id": 2901233376,
   "lat": -34.1381364,
   "lon": -58.5862341
+},
+{
+  "type": "node",
+  "id": 10754347597,
+  "lat": -37.2703617,
+  "lon": -56.9878363
+},
+{
+  "type": "node",
+  "id": 10754347598,
+  "lat": -37.2707293,
+  "lon": -56.9881472
+},
+{
+  "type": "node",
+  "id": 10754347599,
+  "lat": -37.2711082,
+  "lon": -56.9875941
+},
+{
+  "type": "node",
+  "id": 10754347600,
+  "lat": -37.2706939,
+  "lon": -56.9873035
+},
+{
+  "type": "node",
+  "id": 10754347601,
+  "lat": -37.2706115,
+  "lon": -56.9873182
 },
 {
   "type": "node",
