@@ -3879,7 +3879,7 @@
   "properties": {
     "addr:city": "San Salvador de Jujuy",
     "addr:postcode": "4600",
-    "addr:street": "Belgrano",
+    "addr:street": "General Belgrano",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -8915,7 +8915,7 @@
   "id": "way/459194692",
   "properties": {
     "addr:housenumber": "337",
-    "addr:street": "Otero",
+    "addr:street": "General Otero",
     "amenity": "clinic",
     "building": "hospital",
     "emergency": "yes",
@@ -10195,24 +10195,32 @@
     "coordinates": [
       [
         [
-          -58.5378168,
-          -34.5718309
+          -58.5378403,
+          -34.5718315
         ],
         [
-          -58.5379051,
-          -34.5719029
+          -58.5379795,
+          -34.5719483
         ],
         [
-          -58.5377337,
-          -34.5720455
+          -58.5378318,
+          -34.5720681
         ],
         [
-          -58.5376454,
-          -34.5719736
+          -58.5377814,
+          -34.572025
         ],
         [
-          -58.5378168,
-          -34.5718309
+          -58.5377471,
+          -34.5720538
+        ],
+        [
+          -58.5376568,
+          -34.571978
+        ],
+        [
+          -58.5378403,
+          -34.5718315
         ]
       ]
     ]
@@ -19321,7 +19329,7 @@
   "id": "way/528143171",
   "properties": {
     "addr:city": "Salta",
-    "addr:street": "Ameghino",
+    "addr:street": "Florentino Ameghino",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -19449,7 +19457,7 @@
   "id": "way/528167721",
   "properties": {
     "addr:city": "Salta",
-    "addr:street": "Ameghino",
+    "addr:street": "Florentino Ameghino",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -24634,6 +24642,7 @@
     "addr:street": "Bulevar Pellegrini",
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2023-04-02",
     "healthcare": "clinic",
     "healthcare:speciality": "chiropractic",
     "name": "Clinica Laureano Maradona",
@@ -41127,6 +41136,7 @@
     "name": "Dispensario Comunal De Villa La Bolsa",
     "operator": "Comuna Villa La Bolsa",
     "phone": "03547494796",
+    "start_date": "1995-05-27",
     "id": "way/1089530914"
   },
   "geometry": {
@@ -41160,6 +41170,10 @@
         [
           -64.4296277,
           -31.7286087
+        ],
+        [
+          -64.4296383,
+          -31.7286102
         ],
         [
           -64.4296984,
@@ -47036,7 +47050,7 @@
   "properties": {
     "addr:city": "San Salvador de Jujuy",
     "addr:postcode": "4600",
-    "addr:street": "Canónigo Gorriti",
+    "addr:street": "Canónigo Juan Ignacio Gorriti",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Ingreso Consultorios Externos",
@@ -57147,37 +57161,23 @@
   "type": "Feature",
   "id": "node/4654642529",
   "properties": {
+    "addr:housenumber": "3257",
     "addr:street": "Avenida Federico Lacroze",
     "amenity": "clinic",
     "healthcare": "clinic",
+    "insurance": "health",
     "name": "Cobermed",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "office": "insurance",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator:type": "private",
+    "phone:AR": "0810-888-2447",
     "id": "node/4654642529"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4497056,
-      -34.5781804
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4654642534",
-  "properties": {
-    "addr:street": "Avenida Federico Lacroze",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Cobermed",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
-    "id": "node/4654642534"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4497841,
-      -34.5783173
+      -58.4499108,
+      -34.5784697
     ]
   }
 },
@@ -59907,6 +59907,7 @@
     "addr:postcode": "7300",
     "addr:street": "Amado Diab",
     "amenity": "clinic",
+    "check_date": "2023-04-08",
     "healthcare": "clinic",
     "healthcare:speciality": "dentist;paediatrics;gynaecology;general",
     "name": "Instituto Médico Odontológico Dr. A Iturria",
@@ -64350,7 +64351,7 @@
   "properties": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Medico",
+    "name": "Centro Médico",
     "id": "node/5788204287"
   },
   "geometry": {
@@ -91009,7 +91010,7 @@
     "addr:street": "Gabriela Mistral",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro De Salud 50 - Barrio Villa Adela",
+    "name": "Centro de Salud 50 - Barrio Villa Adela",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "0351-4333304",
@@ -98080,6 +98081,7 @@
     "addr:postcode": "7300",
     "addr:street": "Roca",
     "amenity": "clinic",
+    "check_date": "2023-04-08",
     "healthcare": "clinic",
     "healthcare:speciality": "otolaryngology;nutrition;pulmonology",
     "name": "Consultorios Médicos",
@@ -98489,6 +98491,7 @@
     "addr:postcode": "S3000FNR",
     "addr:street": "9 de Julio",
     "amenity": "clinic",
+    "check_date": "2023-04-02",
     "healthcare": "clinic",
     "healthcare:speciality": "urology;cardiology;otorhinolaryngology",
     "name": "BIOTEC",
@@ -104009,6 +104012,22 @@
     "coordinates": [
       -60.2996792,
       -32.0272979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10795645363",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Clinica SAM",
+    "id": "node/10795645363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -54.5759698,
+      -25.6050602
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.4 36d058c8",
+  "generator": "Overpass API 0.7.59.5 b201bb38",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-29T20:33:51Z",
-    "timestamp_areas_base": "2023-03-29T17:04:49Z",
+    "timestamp_osm_base": "2023-04-09T16:28:54Z",
+    "timestamp_areas_base": "2023-04-09T15:36:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -73,7 +73,7 @@
   "lat": -28.4670013,
   "lon": -65.8014248,
   "tags": {
-    "addr:street": "Avenida Gobernador Galindez",
+    "addr:street": "Avenida Gobernador Francisco Galíndez",
     "amenity": "pharmacy",
     "description": "Avenida Figueroa y Avenida Galindez",
     "dispensing": "no",
@@ -1750,9 +1750,14 @@
   "lat": -31.6463720,
   "lon": -60.7184449,
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2298",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Gobernador Freyre",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Bonazola"
+    "name": "Bonazola",
+    "ref:sisa_codigo": "70820632386962"
   }
 },
 {
@@ -4598,7 +4603,7 @@
   "lon": -65.7916557,
   "tags": {
     "addr:housenumber": "385",
-    "addr:street": "Avenida Gobernador Galindez",
+    "addr:street": "Avenida Gobernador Francisco Galíndez",
     "amenity": "pharmacy",
     "dispensing": "Maria Auxiliadora",
     "healthcare": "pharmacy"
@@ -4764,20 +4769,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "FarMar Vedia III"
-  }
-},
-{
-  "type": "node",
-  "id": 1589583379,
-  "lat": -27.4526912,
-  "lon": -58.9815934,
-  "tags": {
-    "addr:housenumber": "201",
-    "addr:street": "French",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmar French",
-    "opening_hours": "Mo-Su 07:00-21:00"
   }
 },
 {
@@ -6548,8 +6539,8 @@
   "lon": -65.3069223,
   "tags": {
     "addr:city": "San Salvador de Jujuy",
+    "addr:full": "Belgrano esquina Lamadrid",
     "addr:postcode": "4600",
-    "addr:street": "Belgrano esquina Lamadrid",
     "amenity": "pharmacy",
     "dispensing": "no",
     "healthcare": "pharmacy",
@@ -11852,7 +11843,7 @@
   "lat": -24.1853530,
   "lon": -65.3015611,
   "tags": {
-    "addr:street": "Otero",
+    "addr:street": "General Otero",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Javier"
@@ -18844,7 +18835,7 @@
   "lat": -24.7908967,
   "lon": -65.4020821,
   "tags": {
-    "addr:street": "Avenida Toledo",
+    "addr:street": "Avenida del Bicentenario de la Batalla de Salta",
     "amenity": "pharmacy",
     "dispensing": "no",
     "healthcare": "pharmacy"
@@ -18856,7 +18847,7 @@
   "lat": -24.7899775,
   "lon": -65.4022434,
   "tags": {
-    "addr:street": "Avenida Toledo",
+    "addr:street": "Avenida del Bicentenario de la Batalla de Salta",
     "amenity": "pharmacy",
     "dispensing": "no",
     "healthcare": "pharmacy",
@@ -25257,7 +25248,7 @@
   "lat": -26.6969482,
   "lon": -66.0507684,
   "tags": {
-    "addr:city": "santa María",
+    "addr:city": "Santa María",
     "addr:housenumber": "180",
     "addr:postcode": "4139",
     "addr:street": "Mitre",
@@ -26068,8 +26059,14 @@
   "lat": -31.5820407,
   "lon": -60.6895712,
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "9284",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Aristóbulo del Valle",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Judith Acevedo",
+    "ref:sisa_codigo": "70820632386971"
   }
 },
 {
@@ -27565,7 +27562,8 @@
     "addr:street": "Marcial Candioti",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Arrimada"
+    "name": "Arrimada",
+    "ref:sisa_codigo": "70820632386955"
   }
 },
 {
@@ -27575,6 +27573,7 @@
   "lon": -60.6956700,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-04-02",
     "healthcare": "pharmacy",
     "name": "Pasteur",
     "wheelchair": "yes"
@@ -27660,9 +27659,9 @@
   "lat": -24.7775159,
   "lon": -65.4096866,
   "tags": {
-    "addr:city": "Salta Capital",
+    "addr:city": "Salta",
     "addr:postcode": "4400",
-    "addr:street": "Ameghino",
+    "addr:street": "Florentino Ameghino",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacity",
@@ -30235,6 +30234,7 @@
     "addr:state": "Buenos Aires",
     "addr:street": "Avenida Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2023-04-08",
     "healthcare": "pharmacy",
     "name": "Lucini"
   }
@@ -33321,7 +33321,7 @@
   "tags": {
     "addr:housenumber": "50",
     "addr:postcode": "4740",
-    "addr:street": "Rivadavia",
+    "addr:street": "Bernardino Rivadavia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Apotheka",
@@ -42372,11 +42372,9 @@
   "lat": -34.6163718,
   "lon": -58.4430808,
   "tags": {
-    "addr:street": "Avellaneda",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Pami",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "name": "First"
   }
 },
 {
@@ -44261,8 +44259,13 @@
   "lat": -31.6400976,
   "lon": -60.7040230,
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:postcode": "3000",
+    "addr:street": "Suipacha",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Acosta",
+    "ref:sisa_codigo": "70820632386948"
   }
 },
 {
@@ -53784,7 +53787,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Elia"
+    "name": "Elía"
   }
 },
 {
@@ -53806,7 +53809,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Fernandez"
+    "name": "Fernández"
   }
 },
 {
@@ -55448,9 +55451,15 @@
   "lat": -31.5974125,
   "lon": -60.7227954,
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "7001",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Blas Parera",
+    "alt_name": "Burgues Romano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Romano"
+    "name": "Romano",
+    "ref:sisa_codigo": "70820632386969"
   }
 },
 {
@@ -56448,11 +56457,18 @@
 {
   "type": "node",
   "id": 6148327483,
-  "lat": -31.6414089,
-  "lon": -60.7050340,
+  "lat": -31.6413930,
+  "lon": -60.7050919,
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2983",
+    "addr:postcode": "3000",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "contact:instagram": "https://www.instagram.com/farmacia_azanza/?hl=es",
+    "healthcare": "pharmacy",
+    "name": "Azanza",
+    "ref:sisa_codigo": "70820632386956"
   }
 },
 {
@@ -56461,8 +56477,14 @@
   "lat": -31.6494140,
   "lon": -60.7142417,
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2179",
+    "addr:postcode": "3000",
+    "addr:street": "Urquiza",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Chemes",
+    "ref:sisa_codigo": "70820632386979"
   }
 },
 {
@@ -57960,16 +57982,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Santa Lucia"
-  }
-},
-{
-  "type": "node",
-  "id": 6303668758,
-  "lat": -34.6229649,
-  "lon": -58.3971164,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -61585,6 +61597,7 @@
     "addr:postcode": "7300",
     "addr:street": "Burgos",
     "amenity": "pharmacy",
+    "check_date": "2023-04-08",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Fidalgo"
@@ -72589,7 +72602,8 @@
   "lon": -58.4494734,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Salud Global"
   }
 },
 {
@@ -81985,6 +81999,765 @@
     "ref:sisa_codigo": "70900842397553",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR30562020477"
+  }
+},
+{
+  "type": "node",
+  "id": 10780678369,
+  "lat": -31.6551789,
+  "lon": -60.7104030,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1746",
+    "addr:postcode": "3000",
+    "addr:street": "San Jerónimo",
+    "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/farmacia.argenti/?hl=es",
+    "contact:mobile": "+54 342 5772249",
+    "contact:whatsapp": "+54 342 5772249",
+    "healthcare": "pharmacy",
+    "name": "Argenti",
+    "phone": "+54 342 4592943",
+    "ref:sisa_codigo": "70820632386952"
+  }
+},
+{
+  "type": "node",
+  "id": 10780678370,
+  "lat": -31.6524302,
+  "lon": -60.7098171,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1995",
+    "addr:postcode": "3000",
+    "addr:street": "San Jerónimo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Sterkin",
+    "ref:sisa_codigo": "70820632386986"
+  }
+},
+{
+  "type": "node",
+  "id": 10780678371,
+  "lat": -31.6544230,
+  "lon": -60.7104037,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1801",
+    "addr:postcode": "3000",
+    "addr:street": "San Jerónimo",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/FarmaciaWuilloud/",
+    "healthcare": "pharmacy",
+    "name": "Wuillud",
+    "phone": "+54 342 4597895",
+    "ref:sisa_codigo": "70820632387057"
+  }
+},
+{
+  "type": "node",
+  "id": 10780678372,
+  "lat": -31.6518314,
+  "lon": -60.7070645,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2091",
+    "addr:postcode": "3000",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Amur",
+    "phone": "+54 342 4595002",
+    "ref:sisa_codigo": "70820632887595",
+    "website": "https://www.amur.com.ar/farmacias"
+  }
+},
+{
+  "type": "node",
+  "id": 10780678389,
+  "lat": -31.6364618,
+  "lon": -60.7028763,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3441",
+    "addr:postcode": "3000",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Armando",
+    "ref:sisa_codigo": "70820632386954"
+  }
+},
+{
+  "type": "node",
+  "id": 10780735098,
+  "lat": -31.6563165,
+  "lon": -60.7148252,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1594",
+    "addr:postcode": "3000",
+    "addr:street": "4 de Enero",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Camusso",
+    "ref:sisa_codigo": "70820632386973"
+  }
+},
+{
+  "type": "node",
+  "id": 10780735099,
+  "lat": -31.6441457,
+  "lon": -60.7011795,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2202",
+    "addr:street": "Irigoyen Freyre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Banchio",
+    "ref:sisa_codigo": "70820632386957"
+  }
+},
+{
+  "type": "node",
+  "id": 10780735100,
+  "lat": -31.6497993,
+  "lon": -60.7101139,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2198",
+    "addr:postcode": "3000",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Barrientos",
+    "ref:sisa_codigo": "70820632386958"
+  }
+},
+{
+  "type": "node",
+  "id": 10780735101,
+  "lat": -31.6390454,
+  "lon": -60.7021434,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3237",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Belgrano",
+    "ref:sisa_codigo": "70820632386959"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837175,
+  "lat": -31.6350481,
+  "lon": -60.7157010,
+  "tags": {
+    "addr:housenumber": "3313",
+    "addr:street": "Avenida Gobernador Freyre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Agotegaray",
+    "ref:sisa_codigo": "70820632386949"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837176,
+  "lat": -31.6445225,
+  "lon": -60.7115006,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2599",
+    "addr:postcode": "3000",
+    "addr:street": "4 de Enero",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Alejandro Senn",
+    "ref:sisa_codigo": "70820632386950"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837177,
+  "lat": -31.6446608,
+  "lon": -60.7157451,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2499",
+    "addr:postcode": "3000",
+    "addr:street": "Saavedra",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Amherdt",
+    "ref:sisa_codigo": "70820632386951"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837178,
+  "lat": -31.6234122,
+  "lon": -60.7132977,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "4542",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida López y Planes",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Arias",
+    "ref:sisa_codigo": "70820632386953"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837179,
+  "lat": -31.6616133,
+  "lon": -60.7181335,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1067",
+    "addr:postcode": "3000",
+    "addr:street": "Urquiza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bertolin",
+    "ref:sisa_codigo": "70820632386960"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837184,
+  "lat": -31.6127354,
+  "lon": -60.6958546,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "6029",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Aristóbulo del Valle",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bianchotti",
+    "ref:sisa_codigo": "70820632386961"
+  }
+},
+{
+  "type": "node",
+  "id": 10782837191,
+  "lat": -31.6207780,
+  "lon": -60.6986670,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5118",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Aristóbulo del Valle",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bonazzola Estefanía",
+    "ref:sisa_codigo": "70820632386963"
+  }
+},
+{
+  "type": "node",
+  "id": 10783305856,
+  "lat": -31.6061783,
+  "lon": -60.7031965,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "6536",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Facundo Zuviría",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Daniel Lagger"
+  }
+},
+{
+  "type": "node",
+  "id": 10783305869,
+  "lat": -31.6034216,
+  "lon": -60.6751574,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "7471",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida General Paz",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Figueroa Sobrero",
+    "ref:sisa_codigo": "70820632388630"
+  }
+},
+{
+  "type": "node",
+  "id": 10785396388,
+  "lat": -31.6516084,
+  "lon": -60.7199733,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1908",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Gobernador Freyre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Colucci",
+    "ref:sisa_codigo": "70820632388625"
+  }
+},
+{
+  "type": "node",
+  "id": 10785396393,
+  "lat": -31.6487819,
+  "lon": -60.7082557,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2676",
+    "addr:postcode": "3000",
+    "addr:street": "Mendoza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Ahorro",
+    "ref:sisa_codigo": "70820632388633"
+  }
+},
+{
+  "type": "node",
+  "id": 10785396394,
+  "lat": -31.6416186,
+  "lon": -60.7092670,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2899",
+    "addr:postcode": "3000",
+    "addr:street": "1 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fanessi",
+    "ref:sisa_codigo": "70820632388629"
+  }
+},
+{
+  "type": "node",
+  "id": 10785396399,
+  "lat": -31.6197738,
+  "lon": -60.7056171,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5079",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Facundo Zuviría",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bolognesi",
+    "ref:sisa_codigo": "70820632388623"
+  }
+},
+{
+  "type": "node",
+  "id": 10785429948,
+  "lat": -31.6157604,
+  "lon": -60.7062946,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3221",
+    "addr:postcode": "3000",
+    "addr:street": "Diagonal Goyena",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Berron",
+    "ref:sisa_codigo": "70820632388622"
+  }
+},
+{
+  "type": "node",
+  "id": 10785430064,
+  "lat": -31.6496480,
+  "lon": -60.7076507,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2255",
+    "addr:postcode": "3000",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "El Inca",
+    "ref:sisa_codigo": "70820632388627"
+  }
+},
+{
+  "type": "node",
+  "id": 10785430065,
+  "lat": -31.5989912,
+  "lon": -60.6980012,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2971",
+    "addr:postcode": "3000",
+    "addr:street": "Padre Genesio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Zimerman",
+    "ref:sisa_codigo": "70820632387059"
+  }
+},
+{
+  "type": "node",
+  "id": 10788465982,
+  "lat": -31.6406779,
+  "lon": -60.7016073,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2310",
+    "addr:postcode": "3000",
+    "addr:street": "Suipacha",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bordignon",
+    "ref:sisa_codigo": "70820632386964"
+  }
+},
+{
+  "type": "node",
+  "id": 10788465983,
+  "lat": -31.6373507,
+  "lon": -60.7056530,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2724",
+    "addr:postcode": "3000",
+    "addr:street": "Santiago del Estero",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bosch",
+    "ref:sisa_codigo": "70820632386965"
+  }
+},
+{
+  "type": "node",
+  "id": 10788465984,
+  "lat": -31.6023794,
+  "lon": -60.7092020,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3731",
+    "addr:postcode": "3000",
+    "addr:street": "Estanislao Zeballos",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Brambilla",
+    "ref:sisa_codigo": "BRAMBILLA"
+  }
+},
+{
+  "type": "node",
+  "id": 10788466001,
+  "lat": -31.6195888,
+  "lon": -60.6851560,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5550",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida General Paz",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bruno",
+    "ref:sisa_codigo": "70820632386968"
+  }
+},
+{
+  "type": "node",
+  "id": 10789052587,
+  "lat": -31.6591664,
+  "lon": -60.7159936,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "1301",
+    "addr:postcode": "3000",
+    "addr:street": "4 de Enero",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Capra",
+    "ref:sisa_codigo": "70820632386974"
+  }
+},
+{
+  "type": "node",
+  "id": 10789052588,
+  "lat": -31.6155619,
+  "lon": -60.7093700,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:postcode": "3000",
+    "addr:street": "Diagonal Goyena",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Caraballo",
+    "ref:sisa_codigo": "70820632386975"
+  }
+},
+{
+  "type": "node",
+  "id": 10789055214,
+  "lat": -31.6425336,
+  "lon": -60.7173532,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2668",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Gobernador Freyre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Cardozo",
+    "ref:sisa_codigo": "70820632386976"
+  }
+},
+{
+  "type": "node",
+  "id": 10789055221,
+  "lat": -31.6196330,
+  "lon": -60.7012434,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5198",
+    "addr:postcode": "3000",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Cattaino",
+    "ref:sisa_codigo": "70820632386977"
+  }
+},
+{
+  "type": "node",
+  "id": 10789055225,
+  "lat": -31.6236920,
+  "lon": -60.7055482,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "4679",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Facundo Zuviría",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Chelini",
+    "ref:sisa_codigo": "70820632386978"
+  }
+},
+{
+  "type": "node",
+  "id": 10789234253,
+  "lat": -34.5650572,
+  "lon": -58.4402384,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Delko"
+  }
+},
+{
+  "type": "node",
+  "id": 10789399581,
+  "lat": -31.6397318,
+  "lon": -60.7127130,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2998",
+    "addr:postcode": "3000",
+    "addr:street": "Francia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ferro",
+    "ref:sisa_codigo": "70820632386988"
+  }
+},
+{
+  "type": "node",
+  "id": 10789399582,
+  "lat": -31.6020218,
+  "lon": -60.6872883,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "7304",
+    "addr:postcode": "3000",
+    "addr:street": "General Las Heras",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Finelli",
+    "ref:sisa_codigo": "70820632386989"
+  }
+},
+{
+  "type": "node",
+  "id": 10790358518,
+  "lat": -31.6383038,
+  "lon": -60.7139068,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3081",
+    "addr:postcode": "3000",
+    "addr:street": "Saavedra",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fucksmann",
+    "ref:sisa_codigo": "70820632386990"
+  }
+},
+{
+  "type": "node",
+  "id": 10790385254,
+  "lat": -31.6063525,
+  "lon": -60.6705130,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "7254",
+    "addr:postcode": "3000",
+    "addr:street": "Canónigo Echagüe",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Gabriel Jauregui",
+    "ref:sisa_codigo": "70820632386991"
+  }
+},
+{
+  "type": "node",
+  "id": 10790528686,
+  "lat": -31.6395413,
+  "lon": -60.7022797,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3193",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Garcia",
+    "ref:sisa_codigo": "70820632386992"
+  }
+},
+{
+  "type": "node",
+  "id": 10790528687,
+  "lat": -31.6223525,
+  "lon": -60.6871891,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5201",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida General Paz",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "German López",
+    "ref:sisa_codigo": "70820632386993"
+  }
+},
+{
+  "type": "node",
+  "id": 10790555760,
+  "lat": -31.6471274,
+  "lon": -60.7133830,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2332",
+    "addr:postcode": "3000",
+    "addr:street": "Urquiza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Gimenez",
+    "ref:sisa_codigo": "70820632386994"
+  }
+},
+{
+  "type": "node",
+  "id": 10792582155,
+  "lat": -31.6294735,
+  "lon": -60.6926344,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "4369",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida General Paz",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Clave",
+    "ref:sisa_codigo": "70820632386980"
+  }
+},
+{
+  "type": "node",
+  "id": 10792582156,
+  "lat": -31.6117718,
+  "lon": -60.7045849,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5918",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Facundo Zuviría",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Coniglio",
+    "ref:sisa_codigo": "70820632386981"
+  }
+},
+{
+  "type": "node",
+  "id": 10792582170,
+  "lat": -31.6110234,
+  "lon": -60.7189531,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "5691",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Blas Parera",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Costa",
+    "ref:sisa_codigo": "70820632386982"
+  }
+},
+{
+  "type": "node",
+  "id": 10792658444,
+  "lat": -31.6097359,
+  "lon": -60.6939790,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "6378",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Aristóbulo del Valle",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Costa Samita",
+    "ref:sisa_codigo": "70820632386983"
+  }
+},
+{
+  "type": "node",
+  "id": 10792658466,
+  "lat": -31.6377385,
+  "lon": -60.7107293,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3180",
+    "addr:postcode": "3000",
+    "addr:street": "Urquiza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Damiani",
+    "ref:sisa_codigo": "70820632386984"
+  }
+},
+{
+  "type": "node",
+  "id": 10795633527,
+  "lat": -25.6049110,
+  "lon": -54.5758382,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Macrofarma Iguazu"
   }
 },
 {
@@ -91443,7 +92216,7 @@
     "addr:city": "San Salvador de Jujuy",
     "addr:housenumber": "1168",
     "addr:postcode": "4600",
-    "addr:street": "Teniente Farias",
+    "addr:street": "Avenida Teniente Jorge Ricardo Farías",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Alto Comedero",
@@ -97879,28 +98652,6 @@
 },
 {
   "type": "way",
-  "id": 852741029,
-  "nodes": [
-    7954734454,
-    7954734455,
-    7954734456,
-    7954734457,
-    7954734454
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "1907",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Augusto Celestino Mengelle",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Austral"
-  }
-},
-{
-  "type": "way",
   "id": 852793397,
   "nodes": [
     7955046724,
@@ -100355,6 +101106,28 @@
   }
 },
 {
+  "type": "way",
+  "id": 1159780932,
+  "nodes": [
+    10785691681,
+    10785691677,
+    1589583379,
+    10785691678,
+    10785691679,
+    10785691680,
+    10785691681
+  ],
+  "tags": {
+    "addr:housenumber": "201",
+    "addr:street": "French",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "healthcare": "pharmacy",
+    "name": "Farmar French",
+    "opening_hours": "Mo-Su 07:00-21:00"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -102549,30 +103322,6 @@
   "id": 7953086240,
   "lat": -38.9271416,
   "lon": -67.9908347
-},
-{
-  "type": "node",
-  "id": 7954734454,
-  "lat": -38.9207148,
-  "lon": -67.9975149
-},
-{
-  "type": "node",
-  "id": 7954734455,
-  "lat": -38.9207103,
-  "lon": -67.9973460
-},
-{
-  "type": "node",
-  "id": 7954734456,
-  "lat": -38.9206072,
-  "lon": -67.9973505
-},
-{
-  "type": "node",
-  "id": 7954734457,
-  "lat": -38.9206117,
-  "lon": -67.9975194
 },
 {
   "type": "node",
@@ -123439,32 +124188,32 @@
 {
   "type": "node",
   "id": 4654642543,
-  "lat": -34.5786619,
-  "lon": -58.4499626
+  "lat": -34.5786542,
+  "lon": -58.4499867
 },
 {
   "type": "node",
   "id": 4654642544,
-  "lat": -34.5785641,
-  "lon": -58.4501949
+  "lat": -34.5785619,
+  "lon": -58.4502003
 },
 {
   "type": "node",
   "id": 4654642546,
-  "lat": -34.5786859,
-  "lon": -58.4502706
+  "lat": -34.5786837,
+  "lon": -58.4502760
 },
 {
   "type": "node",
   "id": 4654642547,
-  "lat": -34.5787642,
-  "lon": -58.4500849
+  "lat": -34.5787565,
+  "lon": -58.4501090
 },
 {
   "type": "node",
   "id": 4654642548,
-  "lat": -34.5787433,
-  "lon": -58.4500132
+  "lat": -34.5787356,
+  "lon": -58.4500373
 },
 {
   "type": "node",
@@ -126369,6 +127118,42 @@
   "id": 9776224261,
   "lat": -27.4402101,
   "lon": -58.9889226
+},
+{
+  "type": "node",
+  "id": 1589583379,
+  "lat": -27.4527263,
+  "lon": -58.9814888
+},
+{
+  "type": "node",
+  "id": 10785691677,
+  "lat": -27.4526276,
+  "lon": -58.9815998
+},
+{
+  "type": "node",
+  "id": 10785691678,
+  "lat": -27.4526717,
+  "lon": -58.9814273
+},
+{
+  "type": "node",
+  "id": 10785691679,
+  "lat": -27.4526446,
+  "lon": -58.9814273
+},
+{
+  "type": "node",
+  "id": 10785691680,
+  "lat": -27.4525442,
+  "lon": -58.9815413
+},
+{
+  "type": "node",
+  "id": 10785691681,
+  "lat": -27.4526124,
+  "lon": -58.9816176
 },
 {
   "type": "node",

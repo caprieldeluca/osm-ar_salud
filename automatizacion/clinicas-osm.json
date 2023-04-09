@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.4 36d058c8",
+  "generator": "Overpass API 0.7.59.5 b201bb38",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-29T20:29:41Z",
-    "timestamp_areas_base": "2023-03-29T17:04:49Z",
+    "timestamp_osm_base": "2023-04-09T16:23:54Z",
+    "timestamp_areas_base": "2023-04-09T13:12:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2333,7 +2333,7 @@
   "tags": {
     "addr:city": "San Salvador de Jujuy",
     "addr:postcode": "4600",
-    "addr:street": "Canónigo Gorriti",
+    "addr:street": "Canónigo Juan Ignacio Gorriti",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Ingreso Consultorios Externos"
@@ -9543,27 +9543,19 @@
 {
   "type": "node",
   "id": 4654642529,
-  "lat": -34.5781804,
-  "lon": -58.4497056,
+  "lat": -34.5784697,
+  "lon": -58.4499108,
   "tags": {
+    "addr:housenumber": "3257",
     "addr:street": "Avenida Federico Lacroze",
     "amenity": "clinic",
     "healthcare": "clinic",
+    "insurance": "health",
     "name": "Cobermed",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
-  }
-},
-{
-  "type": "node",
-  "id": 4654642534,
-  "lat": -34.5783173,
-  "lon": -58.4497841,
-  "tags": {
-    "addr:street": "Avenida Federico Lacroze",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Cobermed",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+    "office": "insurance",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator:type": "private",
+    "phone:AR": "0810-888-2447"
   }
 },
 {
@@ -11520,6 +11512,7 @@
     "addr:postcode": "7300",
     "addr:street": "Amado Diab",
     "amenity": "clinic",
+    "check_date": "2023-04-08",
     "healthcare": "clinic",
     "healthcare:speciality": "dentist;paediatrics;gynaecology;general",
     "name": "Instituto Médico Odontológico Dr. A Iturria",
@@ -14727,7 +14720,7 @@
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Medico"
+    "name": "Centro Médico"
   }
 },
 {
@@ -34672,7 +34665,7 @@
     "addr:street": "Gabriela Mistral",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro De Salud 50 - Barrio Villa Adela",
+    "name": "Centro de Salud 50 - Barrio Villa Adela",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "0351-4333304",
@@ -39973,6 +39966,7 @@
     "addr:postcode": "7300",
     "addr:street": "Roca",
     "amenity": "clinic",
+    "check_date": "2023-04-08",
     "healthcare": "clinic",
     "healthcare:speciality": "otolaryngology;nutrition;pulmonology",
     "name": "Consultorios Médicos"
@@ -40268,6 +40262,7 @@
     "addr:postcode": "S3000FNR",
     "addr:street": "9 de Julio",
     "amenity": "clinic",
+    "check_date": "2023-04-02",
     "healthcare": "clinic",
     "healthcare:speciality": "urology;cardiology;otorhinolaryngology",
     "name": "BIOTEC",
@@ -44212,6 +44207,16 @@
   }
 },
 {
+  "type": "node",
+  "id": 10795645363,
+  "lat": -25.6050602,
+  "lon": -54.5759698,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clinica SAM"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -45690,7 +45695,7 @@
   "tags": {
     "addr:city": "San Salvador de Jujuy",
     "addr:postcode": "4600",
-    "addr:street": "Belgrano",
+    "addr:street": "General Belgrano",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -47997,26 +48002,26 @@
   "id": 459194692,
   "nodes": [
     4551046645,
-    4551046633,
-    4551046634,
-    4551046591,
-    4551046589,
-    4551046588,
-    4551046586,
-    4551046585,
-    4551046584,
-    4551046583,
-    4551046582,
-    4551046601,
-    4551046602,
-    4551046625,
-    4551046626,
     4551046639,
+    4551046626,
+    4551046625,
+    4551046602,
+    4551046601,
+    4551046582,
+    4551046583,
+    4551046584,
+    4551046585,
+    4551046586,
+    4551046588,
+    4551046589,
+    4551046591,
+    4551046634,
+    4551046633,
     4551046645
   ],
   "tags": {
     "addr:housenumber": "337",
-    "addr:street": "Otero",
+    "addr:street": "General Otero",
     "amenity": "clinic",
     "building": "hospital",
     "emergency": "yes",
@@ -48588,6 +48593,8 @@
   "nodes": [
     4600800011,
     4600800012,
+    10791378635,
+    10791378636,
     4600800013,
     4600800014,
     4600800011
@@ -52996,7 +53003,7 @@
   ],
   "tags": {
     "addr:city": "Salta",
-    "addr:street": "Ameghino",
+    "addr:street": "Florentino Ameghino",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -53019,7 +53026,7 @@
   ],
   "tags": {
     "addr:city": "Salta",
-    "addr:street": "Ameghino",
+    "addr:street": "Florentino Ameghino",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -55392,6 +55399,7 @@
     "addr:street": "Bulevar Pellegrini",
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2023-04-02",
     "healthcare": "clinic",
     "healthcare:speciality": "chiropractic",
     "name": "Clinica Laureano Maradona"
@@ -62815,6 +62823,7 @@
     10188988174,
     9980377377,
     10117163673,
+    10778959971,
     10117163674,
     10117163675,
     9980377383,
@@ -62837,7 +62846,8 @@
     "healthcare": "clinic",
     "name": "Dispensario Comunal De Villa La Bolsa",
     "operator": "Comuna Villa La Bolsa",
-    "phone": "03547494796"
+    "phone": "03547494796",
+    "start_date": "1995-05-27"
   }
 },
 {
@@ -76202,6 +76212,12 @@
 },
 {
   "type": "node",
+  "id": 10778959971,
+  "lat": -31.7286102,
+  "lon": -64.4296383
+},
+{
+  "type": "node",
   "id": 2551852954,
   "lat": -31.4836274,
   "lon": -64.2471635
@@ -88617,26 +88633,38 @@
 {
   "type": "node",
   "id": 4600800011,
-  "lat": -34.5718309,
-  "lon": -58.5378168
+  "lat": -34.5718315,
+  "lon": -58.5378403
 },
 {
   "type": "node",
   "id": 4600800012,
-  "lat": -34.5719029,
-  "lon": -58.5379051
+  "lat": -34.5719483,
+  "lon": -58.5379795
 },
 {
   "type": "node",
   "id": 4600800013,
-  "lat": -34.5720455,
-  "lon": -58.5377337
+  "lat": -34.5720538,
+  "lon": -58.5377471
 },
 {
   "type": "node",
   "id": 4600800014,
-  "lat": -34.5719736,
-  "lon": -58.5376454
+  "lat": -34.5719780,
+  "lon": -58.5376568
+},
+{
+  "type": "node",
+  "id": 10791378635,
+  "lat": -34.5720681,
+  "lon": -58.5378318
+},
+{
+  "type": "node",
+  "id": 10791378636,
+  "lat": -34.5720250,
+  "lon": -58.5377814
 },
 {
   "type": "node",

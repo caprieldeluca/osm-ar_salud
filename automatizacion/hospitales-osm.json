@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.4 36d058c8",
+  "generator": "Overpass API 0.7.59.5 b201bb38",
   "osm3s": {
-    "timestamp_osm_base": "2023-03-29T20:23:39Z",
-    "timestamp_areas_base": "2023-03-29T18:35:00Z",
+    "timestamp_osm_base": "2023-04-09T16:18:54Z",
+    "timestamp_areas_base": "2023-04-09T13:12:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2560,7 +2560,7 @@
     "addr:city": "San Salvador de Jujuy",
     "addr:housenumber": "1699",
     "addr:postcode": "4600",
-    "addr:street": "Monteagudo",
+    "addr:street": "Bernardo de Monteagudo",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -11139,10 +11139,10 @@
   "lat": -24.7714012,
   "lon": -65.4155869,
   "tags": {
-    "addr:city": "Salta Capital",
+    "addr:city": "Salta",
     "addr:housenumber": "1033",
     "addr:postcode": "4400",
-    "addr:street": "General Arenales",
+    "addr:street": "General Juan Antonio Álvarez de Arenales",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Emergencia Pediatrica"
@@ -11154,10 +11154,10 @@
   "lat": -24.7689900,
   "lon": -65.4223240,
   "tags": {
-    "addr:city": "Salta Capital",
+    "addr:city": "Salta",
     "addr:housenumber": "1500",
     "addr:postcode": "4400",
-    "addr:street": "General Arenales",
+    "addr:street": "General Juan Antonio Álvarez de Arenales",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Militar"
@@ -15161,7 +15161,7 @@
     "addr:street": "Dr. P. SanchoLuz",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal Pedro S Sancholuz",
+    "name": "Hospital Municipal Pedro S. Sancholuz",
     "phone": "+54 2285 420017"
   }
 },
@@ -17875,6 +17875,7 @@
     "addr:postcode": "5400",
     "amenity": "hospital",
     "description": "Mediano riesgo con internación con cuidados especiales",
+    "fixme": "Verificar que la numeracion de la calle sea la correcta",
     "healthcare": "hospital",
     "name": "Instituto Modelo de Cirugia Infantil - Consultorios Externos Y Hospital De Dia",
     "operator:type": "public",
@@ -20947,7 +20948,7 @@
     "addr:postcode": "1878",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Clínica Calchaquí 19 De Enero",
+    "name": "Clínica Calchaquí",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "+54 11 42420532",
@@ -23359,6 +23360,16 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 10795637482,
+  "lat": -25.5961049,
+  "lon": -54.5737491,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hospital turistico"
   }
 },
 {
@@ -26539,10 +26550,9 @@
   ],
   "tags": {
     "addr:city": "San Salvador De Jujuy",
-    "addr:full": "San Martin 330",
+    "addr:full": "General San Martín 330",
     "addr:housenumber": "330",
-    "addr:place": "Doctor Manuel Belgrano",
-    "addr:street": "San Martín",
+    "addr:street": "General San Martín",
     "amenity": "hospital",
     "building": "hospital",
     "building:levels": "1",
@@ -26552,7 +26562,7 @@
     "layer": "-1",
     "name": "Hospital San Roque",
     "operator:type": "public",
-    "phone": "0388 422-1305",
+    "phone": "+54 388 422-1305",
     "ref:sisa_codigo": "10380212150031",
     "ref:sisa_tipologia": "ESCIG",
     "roof:shape": "hipped",
@@ -29618,9 +29628,9 @@
     "description": "Alto riesgo con terapia intensiva",
     "healthcare": "hospital",
     "height": "14",
-    "name": "Hospital Materno Infantil Dr. Héctor Quintana",
+    "name": "Hospital Materno Infantil Doctor Héctor Quintana",
     "operator:type": "public",
-    "phone": "0388 424-5005",
+    "phone": "+54 388 424-5005",
     "ref:sisa_codigo": "11380212150041",
     "ref:sisa_tipologia": "ESCIEP",
     "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -30180,6 +30190,8 @@
   "nodes": [
     2495272382,
     5615356213,
+    10793689464,
+    10793689466,
     2495272378,
     5615356212,
     9125011519,
@@ -30194,7 +30206,9 @@
     9125011522,
     9125011523,
     5615356210,
+    10793590822,
     2495272423,
+    10793590809,
     2495272382
   ],
   "tags": {
@@ -31205,10 +31219,10 @@
   ],
   "tags": {
     "addr:city": "San Salvador de Jujuy",
-    "addr:housename": "Tanco y 33 Orientales - Barrio Coronel Arias",
+    "addr:full": "Tanco y 33 Orientales - Barrio Coronel Arias",
     "addr:housenumber": "590",
     "addr:postcode": "4600",
-    "addr:street": "Tanco y 33 orientales",
+    "addr:street": "Tanco",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -35639,18 +35653,17 @@
   ],
   "tags": {
     "addr:city": "Santa María",
-    "addr:full": "Av. 1° De Mayo 269",
+    "addr:full": "Avenida 1 de Mayo 269",
     "addr:housenumber": "269",
-    "addr:place": "Santa Maria",
     "addr:postcode": "4139",
-    "addr:street": "Avda 1º De Mayo",
+    "addr:street": "Avenida 1 de Mayo",
     "amenity": "hospital",
     "description": "Alto riesgo con terapia intensiva",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Sanitario Zonal De Santa Maria Dr. Luis Alberto Vargas",
     "operator:type": "public",
-    "phone": "+54 03838 4206263",
+    "phone": "+54 3838 420-6263",
     "ref:sisa_codigo": "10100912124031",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
@@ -35864,7 +35877,6 @@
     9903132485,
     9903132484,
     3635865821,
-    6917422326,
     6901566213,
     4317753432,
     5303545065,
@@ -45141,13 +45153,13 @@
   ],
   "tags": {
     "addr:city": "San Pedro de Jujuy",
-    "addr:housenumber": "Bº Fellner",
+    "addr:full": "Barrio Fellner",
     "addr:postcode": "4500",
-    "addr:street": "Prolongación 25 de Mayo",
+    "addr:street": "Alfonsín",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Sala de Primeros Auxilio"
+    "name": "Sala de Primeros Auxilios"
   }
 },
 {
@@ -53530,6 +53542,36 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Municipal Dr. Arturo Illia"
+  }
+},
+{
+  "type": "way",
+  "id": 1159561221,
+  "nodes": [
+    10783500678,
+    10783500672,
+    10783500673,
+    10783500674,
+    10783500675,
+    10783500676,
+    10783500677,
+    10783500689,
+    10783500688,
+    10783500687,
+    10783500686,
+    10783500685,
+    10783500684,
+    10783500683,
+    10783500682,
+    10783500681,
+    10783500680,
+    10783500679,
+    10783500678
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "construction": "hospital",
+    "name": "Hospital San Roque"
   }
 },
 {
@@ -67989,12 +68031,6 @@
 },
 {
   "type": "node",
-  "id": 6917422326,
-  "lat": -31.5305476,
-  "lon": -68.5956887
-},
-{
-  "type": "node",
   "id": 9903132430,
   "lat": -31.5300834,
   "lon": -68.5947092
@@ -68481,6 +68517,18 @@
 },
 {
   "type": "node",
+  "id": 10793590809,
+  "lat": -31.5395329,
+  "lon": -68.5142681
+},
+{
+  "type": "node",
+  "id": 10793590822,
+  "lat": -31.5404899,
+  "lon": -68.5141337
+},
+{
+  "type": "node",
   "id": 9001902166,
   "lat": -31.5358360,
   "lon": -68.5181310
@@ -68668,8 +68716,8 @@
 {
   "type": "node",
   "id": 2495272382,
-  "lat": -31.5384719,
-  "lon": -68.5143792
+  "lat": -31.5384735,
+  "lon": -68.5143823
 },
 {
   "type": "node",
@@ -68688,6 +68736,18 @@
   "id": 9125011519,
   "lat": -31.5387531,
   "lon": -68.5118253
+},
+{
+  "type": "node",
+  "id": 10793689464,
+  "lat": -31.5383528,
+  "lon": -68.5130324
+},
+{
+  "type": "node",
+  "id": 10793689466,
+  "lat": -31.5383368,
+  "lon": -68.5127787
 },
 {
   "type": "node",
@@ -69126,6 +69186,114 @@
   "id": 5233837126,
   "lat": -30.2344750,
   "lon": -68.7488095
+},
+{
+  "type": "node",
+  "id": 10783500672,
+  "lat": -30.2314455,
+  "lon": -68.7513163
+},
+{
+  "type": "node",
+  "id": 10783500673,
+  "lat": -30.2316619,
+  "lon": -68.7513368
+},
+{
+  "type": "node",
+  "id": 10783500674,
+  "lat": -30.2316102,
+  "lon": -68.7520676
+},
+{
+  "type": "node",
+  "id": 10783500675,
+  "lat": -30.2320801,
+  "lon": -68.7521121
+},
+{
+  "type": "node",
+  "id": 10783500676,
+  "lat": -30.2321128,
+  "lon": -68.7516495
+},
+{
+  "type": "node",
+  "id": 10783500677,
+  "lat": -30.2322670,
+  "lon": -68.7516641
+},
+{
+  "type": "node",
+  "id": 10783500678,
+  "lat": -30.2314612,
+  "lon": -68.7510944
+},
+{
+  "type": "node",
+  "id": 10783500679,
+  "lat": -30.2318443,
+  "lon": -68.7511306
+},
+{
+  "type": "node",
+  "id": 10783500680,
+  "lat": -30.2318515,
+  "lon": -68.7510287
+},
+{
+  "type": "node",
+  "id": 10783500681,
+  "lat": -30.2320127,
+  "lon": -68.7510439
+},
+{
+  "type": "node",
+  "id": 10783500682,
+  "lat": -30.2320203,
+  "lon": -68.7509363
+},
+{
+  "type": "node",
+  "id": 10783500683,
+  "lat": -30.2321662,
+  "lon": -68.7509501
+},
+{
+  "type": "node",
+  "id": 10783500684,
+  "lat": -30.2321466,
+  "lon": -68.7512269
+},
+{
+  "type": "node",
+  "id": 10783500685,
+  "lat": -30.2323044,
+  "lon": -68.7512418
+},
+{
+  "type": "node",
+  "id": 10783500686,
+  "lat": -30.2323221,
+  "lon": -68.7509916
+},
+{
+  "type": "node",
+  "id": 10783500687,
+  "lat": -30.2325189,
+  "lon": -68.7510103
+},
+{
+  "type": "node",
+  "id": 10783500688,
+  "lat": -30.2324380,
+  "lon": -68.7521551
+},
+{
+  "type": "node",
+  "id": 10783500689,
+  "lat": -30.2322337,
+  "lon": -68.7521358
 },
 {
   "type": "node",
@@ -78327,12 +78495,6 @@
 },
 {
   "type": "node",
-  "id": 5572199789,
-  "lat": -33.9135246,
-  "lon": -60.5856482
-},
-{
-  "type": "node",
   "id": 5572199791,
   "lat": -33.9128622,
   "lon": -60.5868913
@@ -78420,6 +78582,18 @@
   "id": 8520958451,
   "lat": -33.9119225,
   "lon": -60.5869394
+},
+{
+  "type": "node",
+  "id": 10787023378,
+  "lat": -33.9135705,
+  "lon": -60.5859888
+},
+{
+  "type": "node",
+  "id": 10787023379,
+  "lat": -33.9133041,
+  "lon": -60.5855454
 },
 {
   "type": "node",
@@ -94294,14 +94468,14 @@
 {
   "type": "node",
   "id": 9370620580,
-  "lat": -34.6055035,
-  "lon": -58.4434391
+  "lat": -34.6055145,
+  "lon": -58.4433989
 },
 {
   "type": "node",
   "id": 9370620581,
-  "lat": -34.6053372,
-  "lon": -58.4431929
+  "lat": -34.6053361,
+  "lon": -58.4431594
 },
 {
   "type": "node",
@@ -106210,26 +106384,26 @@
 {
   "type": "node",
   "id": 3591202781,
-  "lat": -26.6971002,
-  "lon": -66.0461569
+  "lat": -26.6970975,
+  "lon": -66.0461587
 },
 {
   "type": "node",
   "id": 3591202782,
-  "lat": -26.6969781,
-  "lon": -66.0466329
+  "lat": -26.6969813,
+  "lon": -66.0466291
 },
 {
   "type": "node",
   "id": 3591202783,
-  "lat": -26.6974094,
-  "lon": -66.0462579
+  "lat": -26.6974103,
+  "lon": -66.0462555
 },
 {
   "type": "node",
   "id": 3591202784,
-  "lat": -26.6972956,
-  "lon": -66.0467215
+  "lat": -26.6972942,
+  "lon": -66.0467259
 },
 {
   "type": "node",
@@ -117493,13 +117667,14 @@
   "nodes": [
     8510364599,
     7959196787,
-    5572199789,
+    10787023379,
     8510364603,
     8510364605,
     8510364607,
     8510364606,
     8510364604,
     3447152720,
+    10787023378,
     3447152719,
     8510364610,
     8510364609,
