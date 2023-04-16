@@ -73234,6 +73234,99 @@
 },
 {
   "type": "Feature",
+  "id": "way/1162912358",
+  "properties": {
+    "addr:city": "Tafí Viejo",
+    "addr:housenumber": "1250",
+    "addr:street": "Avenida Doctor Raúl Alfonsín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Modular Tafí Viejo",
+    "operator": "SIPROSA",
+    "operator:type": "public",
+    "phone": "+543814614319",
+    "ref:sisa_codigo": "10901052199108",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "way/1162912358"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.2324532,
+          -26.7728486
+        ],
+        [
+          -65.2324495,
+          -26.7728882
+        ],
+        [
+          -65.2322592,
+          -26.772874
+        ],
+        [
+          -65.2322544,
+          -26.7729255
+        ],
+        [
+          -65.232451,
+          -26.7729402
+        ],
+        [
+          -65.2324393,
+          -26.7730659
+        ],
+        [
+          -65.2319203,
+          -26.7730272
+        ],
+        [
+          -65.2319324,
+          -26.7728978
+        ],
+        [
+          -65.2321314,
+          -26.7729127
+        ],
+        [
+          -65.2321356,
+          -26.7728681
+        ],
+        [
+          -65.231952,
+          -26.7728544
+        ],
+        [
+          -65.2319565,
+          -26.7728055
+        ],
+        [
+          -65.2321335,
+          -26.7728187
+        ],
+        [
+          -65.2321362,
+          -26.7727897
+        ],
+        [
+          -65.2322748,
+          -26.7728
+        ],
+        [
+          -65.2322715,
+          -26.7728351
+        ],
+        [
+          -65.2324532,
+          -26.7728486
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -89591,13 +89684,12 @@
     "addr:postcode": "3350",
     "addr:street": "Tucumán",
     "amenity": "hospital",
-    "contact:phone": "+54 3758 422400",
     "description": "Categoría de tipología: Vacunatorios",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Doctor Bernardo Allassia",
     "note": "NIvel II",
-    "phone": "+54 3758 422666",
+    "phone": "+54 3758 422666;+54 3758 422400",
     "ref": "ESCL",
     "ref:ZonaSanitaria": "Sur",
     "ref:cuie_codigo": "N03155",
@@ -89647,14 +89739,13 @@
     "addr:street": "Avenida San Roque González",
     "ambulance": "1",
     "amenity": "hospital",
-    "contact:phone": "+54 3764 493014",
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "hospitaldecandelaria@hotmail.com.ar",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital de Candelaria",
     "note": "Nivel I",
-    "phone": "+54 376 4493212",
+    "phone": "+54 376 4493212;+54 3764 493014",
     "ref": "ESCIG",
     "ref:ZonaSanitaria": "Centro Paraná",
     "ref:cuie_codigo": "N03157",
@@ -89778,7 +89869,6 @@
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "hospitaldecorpus@hotmail.com",
     "emergency": "yes",
-    "fixme": "Verificar la posicion exacta",
     "healthcare": "hospital",
     "name": "Hospital de Corpus",
     "official_name": "Hospital De Corpus Nivel I⁣",
@@ -89980,7 +90070,7 @@
     "addr:street": "Avenida de Las Américas",
     "ambulance": "2",
     "amenity": "hospital",
-    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+    "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "bdoirigoyenhospital@yahoo.com.ar",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -105749,6 +105839,23 @@
     "coordinates": [
       -54.5737491,
       -25.5961049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10813939071",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Pronta Atención Cura Brochero",
+    "id": "node/10813939071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2563179,
+      -31.340261
     ]
   }
 }

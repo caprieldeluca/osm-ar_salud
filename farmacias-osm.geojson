@@ -9086,7 +9086,6 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Coronel",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "way/467475180"
   },
   "geometry": {
@@ -9094,24 +9093,24 @@
     "coordinates": [
       [
         [
-          -58.5273669,
-          -34.5880664
+          -58.5273763,
+          -34.5880863
         ],
         [
-          -58.5272981,
-          -34.5880261
+          -58.5273075,
+          -34.588046
         ],
         [
-          -58.5273962,
-          -34.5879127
+          -58.5274056,
+          -34.5879326
         ],
         [
-          -58.527465,
-          -34.587953
+          -58.5274744,
+          -34.5879729
         ],
         [
-          -58.5273669,
-          -34.5880664
+          -58.5273763,
+          -34.5880863
         ]
       ]
     ]
@@ -23858,44 +23857,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/555590280",
-  "properties": {
-    "addr:street": "Avenida Colón",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "id": "way/555590280"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.1899088,
-          -31.4113512
-        ],
-        [
-          -64.1899637,
-          -31.4114852
-        ],
-        [
-          -64.1898067,
-          -31.4115321
-        ],
-        [
-          -64.1897517,
-          -31.4113981
-        ],
-        [
-          -64.1899088,
-          -31.4113512
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/555590284",
   "properties": {
     "addr:street": "Avenida Maipú",
@@ -33402,8 +33363,8 @@
           -31.5378467
         ],
         [
-          -68.5557805,
-          -31.5378786
+          -68.5557804,
+          -31.5378785
         ],
         [
           -68.5557127,
@@ -43714,8 +43675,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4328982,
-      -34.5708501
+      -58.4329545,
+      -34.5708523
     ]
   }
 },
@@ -60899,14 +60860,15 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Barrio",
+    "opening_hours": "Mo-Fr 09:00-13:00 Mo-Fr 16:30-21:00",
     "phone": "+54 2932 435333",
     "id": "node/2631168294"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.0826837,
-      -38.862732
+      -62.0827035,
+      -38.8626211
     ]
   }
 },
@@ -76682,11 +76644,13 @@
   "id": "node/3596975051",
   "properties": {
     "addr:city": "Santa Fe",
+    "addr:housenumber": "3498",
     "addr:postcode": "S3000",
-    "addr:street": "Bulevar Gálvez",
+    "addr:street": "Avellaneda",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Gómez-Ortega",
+    "name": "Gómez Ortega",
+    "ref:sisa_codigo": "70820632386997",
     "wheelchair": "no",
     "id": "node/3596975051"
   },
@@ -84249,6 +84213,7 @@
     "addr:postcode": "1987",
     "addr:street": "Ameghino",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2023-04-09",
     "healthcare": "pharmacy",
     "name": "Duclos",
     "opening_hours": "Mo-Fr 08:00-13:00,16:30-20:00; Sa 08:00-13:00",
@@ -85713,8 +85678,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.6675476,
-      -34.6603475
+      -58.667533,
+      -34.6603323
     ]
   }
 },
@@ -124240,6 +124205,8 @@
   "id": "node/6269173445",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
     "level": "1",
     "name": "Farmacity",
@@ -152021,15 +151988,14 @@
   "id": "node/9805176982",
   "properties": {
     "addr:city": "Gobernador Crespo",
-    "addr:housenumber": "784",
-    "addr:postcode": "S3044",
-    "addr:street": "9 de Julio",
+    "addr:housenumber": "601",
+    "addr:postcode": "S3044AYM",
+    "addr:street": "Moreno",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Puigpinos",
-    "phone": "+54 3498 480446",
-    "ref:sisa_codigo": "70821122387203",
+    "phone": "+543498432584",
     "ref:sisa_tipologia": "FARMACIA",
     "id": "node/9805176982"
   },
@@ -152047,7 +152013,7 @@
   "properties": {
     "addr:city": "Gobernador Crespo",
     "addr:housenumber": "204",
-    "addr:postcode": "S3044",
+    "addr:postcode": "S3044AEP",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -152072,7 +152038,7 @@
   "properties": {
     "addr:city": "Gobernador Crespo",
     "addr:housenumber": "325",
-    "addr:postcode": "S3044",
+    "addr:postcode": "S3044AKI",
     "addr:street": "Combate de San Lorenzo",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -158107,7 +158073,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Elina",
-    "opening_hours": "Mo-Fr 09:00–13:00, 17:00–21:00; Sa 09:00-13:00",
+    "opening_hours": "Mo-Fr 09:00-13:00, 17:00-21:00; Sa 09:00-13:00",
     "operator": "ROSALES, MARIA ELINA",
     "phone": "+543814244934",
     "ref:sisa_codigo": "70900842397860",
@@ -159532,6 +159498,211 @@
     "coordinates": [
       -54.5758382,
       -25.604911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10798224360",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3038",
+    "addr:postcode": "3000",
+    "addr:street": "Gorostiaga",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Giulioni",
+    "ref:sisa_codigo": "70820632386995",
+    "id": "node/10798224360"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7020283,
+      -31.6104905
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10798224361",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "6839",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Vera Peñaloza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Gomez",
+    "ref:sisa_codigo": "70820632386996",
+    "id": "node/10798224361"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7128933,
+      -31.6011182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10798224378",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2699",
+    "addr:postcode": "3000",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Gottero",
+    "ref:sisa_codigo": "70820632386998",
+    "id": "node/10798224378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7060943,
+      -31.6445686
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10798224379",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3901",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida López y Planes",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ignacio Azanza",
+    "ref:sisa_codigo": "70820632386999",
+    "id": "node/10798224379"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7140901,
+      -31.6291717
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10798250742",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2796",
+    "addr:postcode": "3000",
+    "addr:street": "Marcial Candioti",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Imhof",
+    "ref:sisa_codigo": "70820632387000",
+    "id": "node/10798250742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6971572,
+      -31.6435209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10800150572",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2682",
+    "addr:postcode": "3000",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Sindicato Luz y Fuerza",
+    "ref:sisa_codigo": "70820632387600",
+    "id": "node/10800150572"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7084917,
+      -31.6443214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10801962077",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/10801962077"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5044042,
+      -31.6264604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10805916807",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "1907",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Augusto Celestino Mengelle",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Austral",
+    "id": "node/10805916807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9975034,
+      -38.920661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10808654205",
+  "properties": {
+    "addr:housenumber": "2042",
+    "addr:street": "Alvear",
+    "amenity": "pharmacy",
+    "name": "Farmacia",
+    "id": "node/10808654205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.9279481,
+      -30.5797538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10813258834",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Libertador",
+    "id": "node/10813258834"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5272006,
+      -34.585896
     ]
   }
 }

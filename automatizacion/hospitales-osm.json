@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59.5 b201bb38",
+  "generator": "Overpass API 0.7.60 f4c14d41",
   "osm3s": {
-    "timestamp_osm_base": "2023-04-09T16:18:54Z",
-    "timestamp_areas_base": "2023-04-09T13:12:53Z",
+    "timestamp_osm_base": "2023-04-16T22:39:24Z",
+    "timestamp_areas_base": "2023-04-15T20:08:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11569,13 +11569,12 @@
     "addr:postcode": "3350",
     "addr:street": "Tucumán",
     "amenity": "hospital",
-    "contact:phone": "+54 3758 422400",
     "description": "Categoría de tipología: Vacunatorios",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Doctor Bernardo Allassia",
     "note": "NIvel II",
-    "phone": "+54 3758 422666",
+    "phone": "+54 3758 422666;+54 3758 422400",
     "ref": "ESCL",
     "ref:ZonaSanitaria": "Sur",
     "ref:cuie_codigo": "N03155",
@@ -11613,14 +11612,13 @@
     "addr:street": "Avenida San Roque González",
     "ambulance": "1",
     "amenity": "hospital",
-    "contact:phone": "+54 3764 493014",
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "hospitaldecandelaria@hotmail.com.ar",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital de Candelaria",
     "note": "Nivel I",
-    "phone": "+54 376 4493212",
+    "phone": "+54 376 4493212;+54 3764 493014",
     "ref": "ESCIG",
     "ref:ZonaSanitaria": "Centro Paraná",
     "ref:cuie_codigo": "N03157",
@@ -11720,7 +11718,6 @@
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "hospitaldecorpus@hotmail.com",
     "emergency": "yes",
-    "fixme": "Verificar la posicion exacta",
     "healthcare": "hospital",
     "name": "Hospital de Corpus",
     "official_name": "Hospital De Corpus Nivel I⁣",
@@ -11880,7 +11877,7 @@
     "addr:street": "Avenida de Las Américas",
     "ambulance": "2",
     "amenity": "hospital",
-    "description": "Tipología: ESCIG\nCategoría de tipología: Bajo riesgo con internación simple",
+    "description": "Categoría de tipología: Bajo riesgo con internación simple",
     "email": "bdoirigoyenhospital@yahoo.com.ar",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -23370,6 +23367,17 @@
   "tags": {
     "amenity": "hospital",
     "name": "Hospital turistico"
+  }
+},
+{
+  "type": "node",
+  "id": 10813939071,
+  "lat": -31.3402610,
+  "lon": -64.2563179,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Pronta Atención Cura Brochero"
   }
 },
 {
@@ -53572,6 +53580,42 @@
     "amenity": "hospital",
     "construction": "hospital",
     "name": "Hospital San Roque"
+  }
+},
+{
+  "type": "way",
+  "id": 1162912358,
+  "nodes": [
+    10815237816,
+    10815237817,
+    10815237818,
+    10815237819,
+    10815237820,
+    10815237821,
+    10815237822,
+    10815237823,
+    10815237824,
+    10815237825,
+    10815237826,
+    10815237827,
+    10815237828,
+    10815237829,
+    10815237830,
+    10815237831,
+    10815237816
+  ],
+  "tags": {
+    "addr:city": "Tafí Viejo",
+    "addr:housenumber": "1250",
+    "addr:street": "Avenida Doctor Raúl Alfonsín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Modular Tafí Viejo",
+    "operator": "SIPROSA",
+    "operator:type": "public",
+    "phone": "+543814614319",
+    "ref:sisa_codigo": "10901052199108",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -107454,6 +107498,102 @@
   "id": 2689873538,
   "lat": -26.8005196,
   "lon": -65.2220819
+},
+{
+  "type": "node",
+  "id": 10815237816,
+  "lat": -26.7728486,
+  "lon": -65.2324532
+},
+{
+  "type": "node",
+  "id": 10815237817,
+  "lat": -26.7728351,
+  "lon": -65.2322715
+},
+{
+  "type": "node",
+  "id": 10815237818,
+  "lat": -26.7728000,
+  "lon": -65.2322748
+},
+{
+  "type": "node",
+  "id": 10815237819,
+  "lat": -26.7727897,
+  "lon": -65.2321362
+},
+{
+  "type": "node",
+  "id": 10815237820,
+  "lat": -26.7728187,
+  "lon": -65.2321335
+},
+{
+  "type": "node",
+  "id": 10815237821,
+  "lat": -26.7728055,
+  "lon": -65.2319565
+},
+{
+  "type": "node",
+  "id": 10815237822,
+  "lat": -26.7728544,
+  "lon": -65.2319520
+},
+{
+  "type": "node",
+  "id": 10815237823,
+  "lat": -26.7728681,
+  "lon": -65.2321356
+},
+{
+  "type": "node",
+  "id": 10815237824,
+  "lat": -26.7729127,
+  "lon": -65.2321314
+},
+{
+  "type": "node",
+  "id": 10815237825,
+  "lat": -26.7728978,
+  "lon": -65.2319324
+},
+{
+  "type": "node",
+  "id": 10815237826,
+  "lat": -26.7730272,
+  "lon": -65.2319203
+},
+{
+  "type": "node",
+  "id": 10815237827,
+  "lat": -26.7730659,
+  "lon": -65.2324393
+},
+{
+  "type": "node",
+  "id": 10815237828,
+  "lat": -26.7729402,
+  "lon": -65.2324510
+},
+{
+  "type": "node",
+  "id": 10815237829,
+  "lat": -26.7729255,
+  "lon": -65.2322544
+},
+{
+  "type": "node",
+  "id": 10815237830,
+  "lat": -26.7728740,
+  "lon": -65.2322592
+},
+{
+  "type": "node",
+  "id": 10815237831,
+  "lat": -26.7728882,
+  "lon": -65.2324495
 },
 {
   "type": "node",
