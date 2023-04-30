@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60 f4c14d41",
+  "generator": "Overpass API 0.7.60.2 e4cf9f7a",
   "osm3s": {
-    "timestamp_osm_base": "2023-04-23T23:13:48Z",
-    "timestamp_areas_base": "2023-04-23T19:02:54Z",
+    "timestamp_osm_base": "2023-04-30T00:29:34Z",
+    "timestamp_areas_base": "2023-04-25T08:53:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2811,6 +2811,7 @@
   "lon": -59.8655633,
   "tags": {
     "amenity": "doctors",
+    "check_date": "2023-04-25",
     "healthcare": "doctor",
     "name": "Consultorios"
   }
@@ -23297,6 +23298,30 @@
   }
 },
 {
+  "type": "way",
+  "id": 1166036820,
+  "nodes": [
+    4629450140,
+    10845360265,
+    10845360266,
+    10845360267,
+    4629450140
+  ],
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "1811",
+    "addr:postcode": "B1650",
+    "addr:street": "Avenida 101 - Doctor Ricardo Balbín",
+    "amenity": "doctors",
+    "building": "yes",
+    "building:levels": "2",
+    "contact:phone": "+54 11 5356 4447",
+    "healthcare": "doctor",
+    "height": "6",
+    "name": "Consultorios Médicos Ricardo Balbin"
+  }
+},
+{
   "type": "relation",
   "id": 8052156,
   "members": [
@@ -26825,6 +26850,12 @@
 },
 {
   "type": "node",
+  "id": 4629450140,
+  "lat": -34.5827137,
+  "lon": -58.5394507
+},
+{
+  "type": "node",
   "id": 10705132197,
   "lat": -34.5806214,
   "lon": -58.5420292
@@ -26864,6 +26895,24 @@
   "id": 10791397523,
   "lat": -34.5803747,
   "lon": -58.5419059
+},
+{
+  "type": "node",
+  "id": 10845360265,
+  "lat": -34.5826551,
+  "lon": -58.5395237
+},
+{
+  "type": "node",
+  "id": 10845360266,
+  "lat": -34.5825654,
+  "lon": -58.5394260
+},
+{
+  "type": "node",
+  "id": 10845360267,
+  "lat": -34.5826304,
+  "lon": -58.5393482
 },
 {
   "type": "node",
