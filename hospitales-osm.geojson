@@ -8513,7 +8513,6 @@
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Instituto de Ginecología y Obstetricia, Maternidad",
     "phone": "+54 3833 42-2827",
     "short_name": "IGOM",
@@ -8599,24 +8598,24 @@
     "coordinates": [
       [
         [
-          -65.7771673,
-          -28.4608577
+          -65.7771943,
+          -28.4608591
         ],
         [
-          -65.777146,
-          -28.4607469
+          -65.7771941,
+          -28.4607573
         ],
         [
-          -65.777614,
-          -28.4607543
+          -65.7776397,
+          -28.4607568
         ],
         [
-          -65.7776119,
-          -28.4608529
+          -65.7776398,
+          -28.4608586
         ],
         [
-          -65.7771673,
-          -28.4608577
+          -65.7771943,
+          -28.4608591
         ]
       ]
     ]
@@ -13401,6 +13400,7 @@
     "operator:type": "private",
     "ref:sisa_codigo": "10820842384220",
     "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q97691329",
     "id": "way/188703949"
   },
   "geometry": {
@@ -16701,51 +16701,6 @@
         [
           -66.2612648,
           -30.6256753
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/219154739",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital de Maternoinfantil Germani",
-    "id": "way/219154739"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5811151,
-          -34.7538593
-        ],
-        [
-          -58.5814656,
-          -34.7538638
-        ],
-        [
-          -58.5814656,
-          -34.7542598
-        ],
-        [
-          -58.581315,
-          -34.754262
-        ],
-        [
-          -58.5813123,
-          -34.7542868
-        ],
-        [
-          -58.5811123,
-          -34.7542868
-        ],
-        [
-          -58.5811151,
-          -34.7538593
         ]
       ]
     ]
@@ -43521,13 +43476,12 @@
   "id": "way/491693973",
   "properties": {
     "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:full": "Chacabuco y Salta",
     "addr:postcode": "4700",
-    "addr:street": "Chacabuco;Salta",
     "amenity": "hospital",
     "building": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Sanatorio Pasteur",
     "operator:type": "private",
     "wheelchair": "yes",
@@ -46028,12 +45982,12 @@
   "properties": {
     "addr:city": "San Fernando del Valle de Catamarca",
     "addr:postcode": "4700",
-    "addr:street": "Junin",
+    "addr:street": "Junín",
     "amenity": "hospital",
     "building": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Sanatorio Junin",
+    "name": "Sanatorio Junín",
     "operator:type": "private",
     "wheelchair": "yes",
     "id": "way/521673980"
@@ -68006,6 +67960,18 @@
           -26.8000717
         ],
         [
+          -65.2519047,
+          -26.8000819
+        ],
+        [
+          -65.2519302,
+          -26.8002079
+        ],
+        [
+          -65.2519551,
+          -26.8003304
+        ],
+        [
           -65.2520128,
           -26.8006153
         ],
@@ -72031,56 +71997,6 @@
         [
           -59.3069123,
           -27.5581913
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/1112546850",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:postcode": "8300",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Norpatagónico",
-    "operator": "Provincia de Neuquén",
-    "operator:type": "public",
-    "start_date": "2024-03-01",
-    "id": "way/1112546850"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.1583487,
-          -38.9182087
-        ],
-        [
-          -68.158566,
-          -38.9159218
-        ],
-        [
-          -68.1586313,
-          -38.9158759
-        ],
-        [
-          -68.1612062,
-          -38.9160406
-        ],
-        [
-          -68.164898,
-          -38.9162767
-        ],
-        [
-          -68.1621186,
-          -38.9178327
-        ],
-        [
-          -68.1583487,
-          -38.9182087
         ]
       ]
     ]
@@ -77339,26 +77255,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2061034785",
-  "properties": {
-    "addr:housename": "702",
-    "addr:street": "Pasaje Bem Malbran",
-    "amenity": "hospital",
-    "craft": "blacksmith",
-    "healthcare": "hospital",
-    "name": "Herrero Hector Villalba;Posta Sanitaria",
-    "id": "node/2061034785"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7762214,
-      -28.4818579
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2063107849",
   "properties": {
     "addr:city": "La Caldera",
@@ -79296,9 +79192,10 @@
   "type": "Feature",
   "id": "node/2539558971",
   "properties": {
+    "addr:city": "Monte Grande",
     "addr:housenumber": "687",
-    "addr:postcode": "1842",
-    "addr:street": "Avenida Nicolás Bruzzone",
+    "addr:postcode": "B1842DSG",
+    "addr:street": "Avenida Nicolás Bruzone",
     "amenity": "hospital",
     "contact:phone": "+54 11 4290-9020",
     "contact:website": "https://www.sanatoriomodeloestrella.com/",
@@ -79308,6 +79205,7 @@
     "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
+    "phone": "+541142909020",
     "ref:sisa_codigo": "10062602305259",
     "ref:sisa_tipologia": "ESCIG",
     "wheelchair": "yes",
@@ -86237,29 +86135,6 @@
     "coordinates": [
       -64.2985337,
       -35.9102901
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4100976946",
-  "properties": {
-    "addr:city": "Gral. Pirán",
-    "addr:housenumber": "53",
-    "addr:postcode": "7172",
-    "addr:street": "Falucho",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Unidad Sanitaria \"Dr. Luis Sagasta\"",
-    "phone": "+54 2265 491067",
-    "id": "node/4100976946"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -57.7780008,
-      -37.2725563
     ]
   }
 },
@@ -104226,8 +104101,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.2538048,
-      -24.2516592
+      -65.2537234,
+      -24.2516519
     ]
   }
 },
@@ -105807,6 +105682,22 @@
     "coordinates": [
       -64.2563179,
       -31.340261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10863909093",
+  "properties": {
+    "amenity": "hospital",
+    "name": "Sanatorio Privado Brandsen",
+    "id": "node/10863909093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2340086,
+      -35.1683511
     ]
   }
 }

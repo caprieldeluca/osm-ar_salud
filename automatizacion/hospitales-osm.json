@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60.2 e4cf9f7a",
+  "generator": "Overpass API 0.7.60 f4c14d41",
   "osm3s": {
-    "timestamp_osm_base": "2023-04-29T23:58:08Z",
-    "timestamp_areas_base": "2023-04-25T08:53:24Z",
+    "timestamp_osm_base": "2023-05-07T22:02:00Z",
+    "timestamp_areas_base": "2023-05-07T17:47:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2848,20 +2848,6 @@
 },
 {
   "type": "node",
-  "id": 2061034785,
-  "lat": -28.4818579,
-  "lon": -65.7762214,
-  "tags": {
-    "addr:housename": "702",
-    "addr:street": "Pasaje Bem Malbran",
-    "amenity": "hospital",
-    "craft": "blacksmith",
-    "healthcare": "hospital",
-    "name": "Herrero Hector Villalba;Posta Sanitaria"
-  }
-},
-{
-  "type": "node",
   "id": 2063107849,
   "lat": -24.6068492,
   "lon": -65.3844021,
@@ -4225,9 +4211,10 @@
   "lat": -34.8033580,
   "lon": -58.4662799,
   "tags": {
+    "addr:city": "Monte Grande",
     "addr:housenumber": "687",
-    "addr:postcode": "1842",
-    "addr:street": "Avenida Nicolás Bruzzone",
+    "addr:postcode": "B1842DSG",
+    "addr:street": "Avenida Nicolás Bruzone",
     "amenity": "hospital",
     "contact:phone": "+54 11 4290-9020",
     "contact:website": "https://www.sanatoriomodeloestrella.com/",
@@ -4237,6 +4224,7 @@
     "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
+    "phone": "+541142909020",
     "ref:sisa_codigo": "10062602305259",
     "ref:sisa_tipologia": "ESCIG",
     "wheelchair": "yes",
@@ -9143,23 +9131,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro de Salud Mabel Cerrutti"
-  }
-},
-{
-  "type": "node",
-  "id": 4100976946,
-  "lat": -37.2725563,
-  "lon": -57.7780008,
-  "tags": {
-    "addr:city": "Gral. Pirán",
-    "addr:housenumber": "53",
-    "addr:postcode": "7172",
-    "addr:street": "Falucho",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Unidad Sanitaria \"Dr. Luis Sagasta\"",
-    "phone": "+54 2265 491067"
   }
 },
 {
@@ -22260,8 +22231,8 @@
 {
   "type": "node",
   "id": 9217032661,
-  "lat": -24.2516592,
-  "lon": -65.2538048,
+  "lat": -24.2516519,
+  "lon": -65.2537234,
   "tags": {
     "addr:street": "Calle 241 - Uranio",
     "amenity": "hospital",
@@ -23379,6 +23350,16 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital de Pronta Atención Cura Brochero"
+  }
+},
+{
+  "type": "node",
+  "id": 10863909093,
+  "lat": -35.1683511,
+  "lon": -58.2340086,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Sanatorio Privado Brandsen"
   }
 },
 {
@@ -25770,7 +25751,6 @@
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Instituto de Ginecología y Obstetricia, Maternidad",
     "phone": "+54 3833 42-2827",
     "short_name": "IGOM"
@@ -25780,11 +25760,11 @@
   "type": "way",
   "id": 137976479,
   "nodes": [
-    1512874701,
+    10857090094,
     1512874691,
     1512874699,
     1512874703,
-    1512874701
+    10857090094
   ],
   "tags": {
     "addr:city": "San Fernando del Valle de Catamarca",
@@ -27696,7 +27676,8 @@
     "name": "Sanatorio Británico",
     "operator:type": "private",
     "ref:sisa_codigo": "10820842384220",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q97691329"
   }
 },
 {
@@ -29065,24 +29046,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Aldo Motta"
-  }
-},
-{
-  "type": "way",
-  "id": 219154739,
-  "nodes": [
-    2283524900,
-    2283524904,
-    2283524905,
-    2283524903,
-    2283524902,
-    2283524901,
-    2283524900
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital de Maternoinfantil Germani"
   }
 },
 {
@@ -40827,13 +40790,12 @@
   ],
   "tags": {
     "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:full": "Chacabuco y Salta",
     "addr:postcode": "4700",
-    "addr:street": "Chacabuco;Salta",
     "amenity": "hospital",
     "building": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Sanatorio Pasteur",
     "operator:type": "private",
     "wheelchair": "yes"
@@ -41891,12 +41853,12 @@
   "tags": {
     "addr:city": "San Fernando del Valle de Catamarca",
     "addr:postcode": "4700",
-    "addr:street": "Junin",
+    "addr:street": "Junín",
     "amenity": "hospital",
     "building": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Sanatorio Junin",
+    "name": "Sanatorio Junín",
     "operator:type": "private",
     "wheelchair": "yes"
   }
@@ -51334,6 +51296,9 @@
     9620062899,
     9620054953,
     9620054952,
+    10872148197,
+    10872148244,
+    10872148245,
     9620054954
   ],
   "tags": {
@@ -53120,29 +53085,6 @@
     "phone": "+54 362 4420332",
     "ref:sisa_codigo": "10221402126059",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "way",
-  "id": 1112546850,
-  "nodes": [
-    10178728758,
-    10178728759,
-    10178728760,
-    10178728763,
-    10178728761,
-    10178728762,
-    10178728758
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:postcode": "8300",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Norpatagónico",
-    "operator": "Provincia de Neuquén",
-    "operator:type": "public",
-    "start_date": "2024-03-01"
   }
 },
 {
@@ -58780,42 +58722,6 @@
   "id": 9589054676,
   "lat": -38.9502250,
   "lon": -68.2284573
-},
-{
-  "type": "node",
-  "id": 10178728761,
-  "lat": -38.9162767,
-  "lon": -68.1648980
-},
-{
-  "type": "node",
-  "id": 10178728758,
-  "lat": -38.9182087,
-  "lon": -68.1583487
-},
-{
-  "type": "node",
-  "id": 10178728759,
-  "lat": -38.9159218,
-  "lon": -68.1585660
-},
-{
-  "type": "node",
-  "id": 10178728760,
-  "lat": -38.9158759,
-  "lon": -68.1586313
-},
-{
-  "type": "node",
-  "id": 10178728762,
-  "lat": -38.9178327,
-  "lon": -68.1621186
-},
-{
-  "type": "node",
-  "id": 10178728763,
-  "lat": -38.9160406,
-  "lon": -68.1612062
 },
 {
   "type": "node",
@@ -90061,42 +89967,6 @@
 },
 {
   "type": "node",
-  "id": 2283524900,
-  "lat": -34.7538593,
-  "lon": -58.5811151
-},
-{
-  "type": "node",
-  "id": 2283524901,
-  "lat": -34.7538638,
-  "lon": -58.5814656
-},
-{
-  "type": "node",
-  "id": 2283524902,
-  "lat": -34.7542598,
-  "lon": -58.5814656
-},
-{
-  "type": "node",
-  "id": 2283524903,
-  "lat": -34.7542620,
-  "lon": -58.5813150
-},
-{
-  "type": "node",
-  "id": 2283524904,
-  "lat": -34.7542868,
-  "lon": -58.5811123
-},
-{
-  "type": "node",
-  "id": 2283524905,
-  "lat": -34.7542868,
-  "lon": -58.5813123
-},
-{
-  "type": "node",
   "id": 7504231810,
   "lat": -34.7347069,
   "lon": -58.6042339
@@ -104900,26 +104770,26 @@
 {
   "type": "node",
   "id": 1512874691,
-  "lat": -28.4607469,
-  "lon": -65.7771460
+  "lat": -28.4607573,
+  "lon": -65.7771941
 },
 {
   "type": "node",
   "id": 1512874699,
-  "lat": -28.4607543,
-  "lon": -65.7776140
-},
-{
-  "type": "node",
-  "id": 1512874701,
-  "lat": -28.4608577,
-  "lon": -65.7771673
+  "lat": -28.4607568,
+  "lon": -65.7776397
 },
 {
   "type": "node",
   "id": 1512874703,
-  "lat": -28.4608529,
-  "lon": -65.7776119
+  "lat": -28.4608586,
+  "lon": -65.7776398
+},
+{
+  "type": "node",
+  "id": 10857090094,
+  "lat": -28.4608591,
+  "lon": -65.7771943
 },
 {
   "type": "node",
@@ -107416,6 +107286,24 @@
   "id": 9620062899,
   "lat": -26.8003079,
   "lon": -65.2512987
+},
+{
+  "type": "node",
+  "id": 10872148197,
+  "lat": -26.8003304,
+  "lon": -65.2519551
+},
+{
+  "type": "node",
+  "id": 10872148244,
+  "lat": -26.8002079,
+  "lon": -65.2519302
+},
+{
+  "type": "node",
+  "id": 10872148245,
+  "lat": -26.8000819,
+  "lon": -65.2519047
 },
 {
   "type": "node",

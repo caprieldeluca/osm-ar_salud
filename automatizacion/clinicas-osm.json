@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.2 e4cf9f7a",
   "osm3s": {
-    "timestamp_osm_base": "2023-04-30T00:04:09Z",
+    "timestamp_osm_base": "2023-05-07T22:08:09Z",
     "timestamp_areas_base": "2023-04-25T08:53:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -49,6 +49,7 @@
   "lon": -65.7882475,
   "tags": {
     "addr:housenumber": "18",
+    "addr:street": "Avenida Mariano Moreno",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "chiropractic",
@@ -125,7 +126,6 @@
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Salud Pública Municipal",
     "phone": "+54 (03833) 473439"
   }
@@ -6131,6 +6131,24 @@
     "description": "Centro de consultorios médicos de diferentes especialidades y prácticas mabulatoiras.",
     "healthcare": "clinic",
     "name": "Centro Médico Hughes"
+  }
+},
+{
+  "type": "node",
+  "id": 4100976946,
+  "lat": -37.2725563,
+  "lon": -57.7780008,
+  "tags": {
+    "addr:city": "Gral. Pirán",
+    "addr:housenumber": "53",
+    "addr:postcode": "7172",
+    "addr:street": "Falucho",
+    "amenity": "clinic",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "emergency",
+    "name": "Unidad Sanitaria \"Dr. Luis Sagasta\"",
+    "phone": "+54 2265 491067"
   }
 },
 {
@@ -15815,23 +15833,6 @@
     "healthcare": "clinic",
     "name": "Clínica Moconá",
     "phone": "+54 3751 470142"
-  }
-},
-{
-  "type": "node",
-  "id": 6354349096,
-  "lat": -38.9518062,
-  "lon": -68.0606838,
-  "tags": {
-    "addr:housenumber": "109",
-    "addr:postcode": "8300",
-    "addr:street": "Julio Argentino Roca",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clínica pasteur",
-    "opening_hours": "Mo-Fr 00:00-24:00",
-    "phone": "0299 443-0264",
-    "website": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.clinicapasteur.com"
   }
 },
 {
@@ -43389,6 +43390,23 @@
 },
 {
   "type": "node",
+  "id": 10112484274,
+  "lat": -37.0831275,
+  "lon": -57.8300569,
+  "tags": {
+    "addr:city": "Las Armas",
+    "addr:housenumber": "km 300",
+    "addr:postcode": "7172",
+    "addr:street": "Autovía Juan Manuel Fangio",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "psicología;clinico;psicopedagogía;pediatría;nutrición;odontología;obstetricia;oftamología;fonoudiología",
+    "name": "Unidad Sanitaria Dr. Oscar Ferrari Walker",
+    "phone": "2268493234"
+  }
+},
+{
+  "type": "node",
   "id": 10133753703,
   "lat": -32.7505174,
   "lon": -60.7336059,
@@ -44269,6 +44287,17 @@
   "tags": {
     "amenity": "clinic",
     "name": "Centro médico Roca"
+  }
+},
+{
+  "type": "node",
+  "id": 10869282121,
+  "lat": -30.7455914,
+  "lon": -58.0135131,
+  "tags": {
+    "amenity": "clinic",
+    "door": "yes",
+    "emergency": "official"
   }
 },
 {
@@ -52719,6 +52748,7 @@
     4978535662,
     4978535661,
     4978535660,
+    4978535675,
     4978535659
   ],
   "tags": {
@@ -62532,13 +62562,13 @@
   "type": "way",
   "id": 1038831423,
   "nodes": [
-    9566640868,
+    10872534218,
     9566640869,
     9566640870,
     9566640871,
     9566640873,
-    9566640872,
-    9566640868
+    10872534219,
+    10872534218
   ],
   "tags": {
     "addr:city": "Rafael Calzada",
@@ -64135,6 +64165,31 @@
     "healthcare:speciality": "enfermería;médico_clínico;paediatrics;odontología;psicología;estimulacion_temprana;trabajadora_social",
     "name": "C.A.P.S. Luiggi – Atepam",
     "opening_hours": "Mo-Fr 08:00-11:00"
+  }
+},
+{
+  "type": "way",
+  "id": 1169530745,
+  "nodes": [
+    10875068753,
+    10875068756,
+    10875068758,
+    10875068759,
+    10875068750,
+    10875068755,
+    10875068754,
+    10875068753
+  ],
+  "tags": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "2628",
+    "addr:postcode": "B1653CUP",
+    "addr:street": "140 - Profesor Guillermo Simón y Quintana",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Centro Medico Integral HUMA"
   }
 },
 {
@@ -77689,26 +77744,32 @@
 {
   "type": "node",
   "id": 4978535659,
-  "lat": -32.4435041,
+  "lat": -32.4434758,
   "lon": -63.1905019
 },
 {
   "type": "node",
   "id": 4978535660,
-  "lat": -32.4426056,
-  "lon": -63.1898212
+  "lat": -32.4425569,
+  "lon": -63.1898132
 },
 {
   "type": "node",
   "id": 4978535661,
-  "lat": -32.4421366,
-  "lon": -63.1906904
+  "lat": -32.4421099,
+  "lon": -63.1907194
 },
 {
   "type": "node",
   "id": 4978535662,
-  "lat": -32.4430350,
-  "lon": -63.1913711
+  "lat": -32.4430078,
+  "lon": -63.1913537
+},
+{
+  "type": "node",
+  "id": 4978535675,
+  "lat": -32.4427413,
+  "lon": -63.1899472
 },
 {
   "type": "node",
@@ -84954,12 +85015,6 @@
 },
 {
   "type": "node",
-  "id": 9566640868,
-  "lat": -34.7813352,
-  "lon": -58.3381497
-},
-{
-  "type": "node",
   "id": 9566640869,
   "lat": -34.7815361,
   "lon": -58.3380187
@@ -84978,15 +85033,21 @@
 },
 {
   "type": "node",
-  "id": 9566640872,
-  "lat": -34.7812352,
-  "lon": -58.3379689
-},
-{
-  "type": "node",
   "id": 9566640873,
   "lat": -34.7814958,
   "lon": -58.3377953
+},
+{
+  "type": "node",
+  "id": 10872534218,
+  "lat": -34.7814060,
+  "lon": -58.3381036
+},
+{
+  "type": "node",
+  "id": 10872534219,
+  "lat": -34.7813206,
+  "lon": -58.3379120
 },
 {
   "type": "node",
@@ -88881,6 +88942,48 @@
   "id": 4616417716,
   "lat": -34.5529867,
   "lon": -58.5565815
+},
+{
+  "type": "node",
+  "id": 10875068750,
+  "lat": -34.5422590,
+  "lon": -58.5622863
+},
+{
+  "type": "node",
+  "id": 10875068753,
+  "lat": -34.5418938,
+  "lon": -58.5624313
+},
+{
+  "type": "node",
+  "id": 10875068754,
+  "lat": -34.5420812,
+  "lon": -58.5621990
+},
+{
+  "type": "node",
+  "id": 10875068755,
+  "lat": -34.5422097,
+  "lon": -58.5623473
+},
+{
+  "type": "node",
+  "id": 10875068756,
+  "lat": -34.5418305,
+  "lon": -58.5623566
+},
+{
+  "type": "node",
+  "id": 10875068758,
+  "lat": -34.5419292,
+  "lon": -58.5622338
+},
+{
+  "type": "node",
+  "id": 10875068759,
+  "lat": -34.5420664,
+  "lon": -58.5620629
 },
 {
   "type": "node",

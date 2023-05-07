@@ -18669,23 +18669,27 @@
       [
         [
           -63.1905019,
-          -32.4435041
+          -32.4434758
         ],
         [
-          -63.1898212,
-          -32.4426056
+          -63.1899472,
+          -32.4427413
         ],
         [
-          -63.1906904,
-          -32.4421366
+          -63.1898132,
+          -32.4425569
         ],
         [
-          -63.1913711,
-          -32.443035
+          -63.1907194,
+          -32.4421099
+        ],
+        [
+          -63.1913537,
+          -32.4430078
         ],
         [
           -63.1905019,
-          -32.4435041
+          -32.4434758
         ]
       ]
     ]
@@ -40378,8 +40382,8 @@
     "coordinates": [
       [
         [
-          -58.3381497,
-          -34.7813352
+          -58.3381036,
+          -34.781406
         ],
         [
           -58.3380187,
@@ -40398,12 +40402,12 @@
           -34.7814958
         ],
         [
-          -58.3379689,
-          -34.7812352
+          -58.337912,
+          -34.7813206
         ],
         [
-          -58.3381497,
-          -34.7813352
+          -58.3381036,
+          -34.781406
         ]
       ]
     ]
@@ -43915,6 +43919,61 @@
 },
 {
   "type": "Feature",
+  "id": "way/1169530745",
+  "properties": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "2628",
+    "addr:postcode": "B1653CUP",
+    "addr:street": "140 - Profesor Guillermo Simón y Quintana",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Centro Medico Integral HUMA",
+    "id": "way/1169530745"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5624313,
+          -34.5418938
+        ],
+        [
+          -58.562199,
+          -34.5420812
+        ],
+        [
+          -58.5623473,
+          -34.5422097
+        ],
+        [
+          -58.5622863,
+          -34.542259
+        ],
+        [
+          -58.5620629,
+          -34.5420664
+        ],
+        [
+          -58.5622338,
+          -34.5419292
+        ],
+        [
+          -58.5623566,
+          -34.5418305
+        ],
+        [
+          -58.5624313,
+          -34.5418938
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -43964,6 +44023,7 @@
   "id": "node/573061925",
   "properties": {
     "addr:housenumber": "18",
+    "addr:street": "Avenida Mariano Moreno",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "chiropractic",
@@ -44064,7 +44124,6 @@
   "properties": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Salud Pública Municipal",
     "phone": "+54 (03833) 473439",
     "id": "node/757410845"
@@ -52447,6 +52506,30 @@
     "coordinates": [
       -61.336317,
       -33.7999945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4100976946",
+  "properties": {
+    "addr:city": "Gral. Pirán",
+    "addr:housenumber": "53",
+    "addr:postcode": "7172",
+    "addr:street": "Falucho",
+    "amenity": "clinic",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "emergency",
+    "name": "Unidad Sanitaria \"Dr. Luis Sagasta\"",
+    "phone": "+54 2265 491067",
+    "id": "node/4100976946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.7780008,
+      -37.2725563
     ]
   }
 },
@@ -65989,29 +66072,6 @@
     "coordinates": [
       -54.106618,
       -26.6209962
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6354349096",
-  "properties": {
-    "addr:housenumber": "109",
-    "addr:postcode": "8300",
-    "addr:street": "Julio Argentino Roca",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clínica pasteur",
-    "opening_hours": "Mo-Fr 00:00-24:00",
-    "phone": "0299 443-0264",
-    "website": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.clinicapasteur.com",
-    "id": "node/6354349096"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0606838,
-      -38.9518062
     ]
   }
 },
@@ -102912,6 +102972,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/10112484274",
+  "properties": {
+    "addr:city": "Las Armas",
+    "addr:housenumber": "km 300",
+    "addr:postcode": "7172",
+    "addr:street": "Autovía Juan Manuel Fangio",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "psicología;clinico;psicopedagogía;pediatría;nutrición;odontología;obstetricia;oftamología;fonoudiología",
+    "name": "Unidad Sanitaria Dr. Oscar Ferrari Walker",
+    "phone": "2268493234",
+    "id": "node/10112484274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.8300569,
+      -37.0831275
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10133753703",
   "properties": {
     "amenity": "clinic",
@@ -104175,6 +104258,23 @@
     "coordinates": [
       -68.4964358,
       -31.5409065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10869282121",
+  "properties": {
+    "amenity": "clinic",
+    "door": "yes",
+    "emergency": "official",
+    "id": "node/10869282121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.0135131,
+      -30.7455914
     ]
   }
 }

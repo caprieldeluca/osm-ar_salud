@@ -8518,6 +8518,58 @@
 },
 {
   "type": "Feature",
+  "id": "way/466959748",
+  "properties": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "2640",
+    "addr:postcode": "B1653CJP",
+    "addr:street": "114 - Alvear",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Aguila",
+    "source": "Reconocimiento Cartográfico 2016 por KG",
+    "id": "way/466959748"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5535724,
+          -34.5492893
+        ],
+        [
+          -58.5533411,
+          -34.5494797
+        ],
+        [
+          -58.5532858,
+          -34.5495251
+        ],
+        [
+          -58.5532389,
+          -34.5494858
+        ],
+        [
+          -58.553349,
+          -34.5493945
+        ],
+        [
+          -58.5535251,
+          -34.5492497
+        ],
+        [
+          -58.5535724,
+          -34.5492893
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/466984681",
   "properties": {
     "addr:street": "Avenida de Mayo",
@@ -39577,6 +39629,101 @@
 },
 {
   "type": "Feature",
+  "id": "way/1169149302",
+  "properties": {
+    "addr:street": "114 - Alvear",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "2",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Alvear",
+    "id": "way/1169149302"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.554652,
+          -34.5503623
+        ],
+        [
+          -58.5546876,
+          -34.5503926
+        ],
+        [
+          -58.5547804,
+          -34.5503164
+        ],
+        [
+          -58.5548142,
+          -34.5503446
+        ],
+        [
+          -58.5548163,
+          -34.5503634
+        ],
+        [
+          -58.5546822,
+          -34.5504722
+        ],
+        [
+          -58.554602,
+          -34.5504036
+        ],
+        [
+          -58.554652,
+          -34.5503623
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1169218315",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Saffirio",
+    "id": "way/1169218315"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.3363343,
+          -34.7803691
+        ],
+        [
+          -58.336387,
+          -34.7803949
+        ],
+        [
+          -58.3363255,
+          -34.7804804
+        ],
+        [
+          -58.3362338,
+          -34.7804371
+        ],
+        [
+          -58.336279,
+          -34.7803763
+        ],
+        [
+          -58.3363343,
+          -34.7803691
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -39668,7 +39815,7 @@
   "type": "Feature",
   "id": "node/420243666",
   "properties": {
-    "addr:street": "Avenida Gobernador Francisco Galíndez",
+    "addr:street": "Avenida Galíndez",
     "amenity": "pharmacy",
     "description": "Avenida Figueroa y Avenida Galindez",
     "dispensing": "no",
@@ -39729,7 +39876,6 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Colón",
     "operator": "Red Colon",
     "id": "node/423006982"
@@ -40095,8 +40241,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.452451,
-      -34.5594114
+      -58.4524577,
+      -34.5594015
     ]
   }
 },
@@ -42580,7 +42726,6 @@
     "addr:street": "Chacabuco",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "name": "Pasteur",
     "operator": "Red Colon",
     "id": "node/1009022077"
@@ -42804,7 +42949,6 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "is_in": "San Fdo. del Valle de Catamarca",
     "id": "node/1066582541"
   },
   "geometry": {
@@ -44316,9 +44460,17 @@
   "type": "Feature",
   "id": "node/1240442614",
   "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "37",
+    "addr:postcode": "T4000NYA",
+    "addr:street": "Avenida Leandro N. Alem",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Hidalgo",
+    "name": "Hidalgo",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-13:00",
+    "operator": "Farmacia Hidalgo SRL",
+    "phone": "+543814244022",
+    "ref:sisa_tipologia": "FARMACIA",
     "id": "node/1240442614"
   },
   "geometry": {
@@ -46304,7 +46456,7 @@
   "id": "node/1535929199",
   "properties": {
     "addr:housenumber": "385",
-    "addr:street": "Avenida Gobernador Francisco Galíndez",
+    "addr:street": "Avenida Galíndez",
     "amenity": "pharmacy",
     "dispensing": "Maria Auxiliadora",
     "healthcare": "pharmacy",
@@ -46378,7 +46530,7 @@
     "addr:street": "Avenida Rivadavia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Cagliati",
+    "name": "Cogliati",
     "phone": "+54 11 4629-1049",
     "id": "node/1562277976"
   },
@@ -49665,28 +49817,6 @@
     "coordinates": [
       -60.320658,
       -36.8965862
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1886233442",
-  "properties": {
-    "addr:city": "Villa Ballester",
-    "addr:postcode": "1653",
-    "addr:street": "114 - Alvear",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Del Aguila",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
-    "id": "node/1886233442"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5535896,
-      -34.5493744
     ]
   }
 },
@@ -65686,9 +65816,19 @@
   "type": "Feature",
   "id": "node/3000687125",
   "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "250",
+    "addr:postcode": "T4000HPP",
+    "addr:street": "Avenida Brígido Teran",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmcia",
+    "name": "Faith",
+    "opening_hours": "Mo-Sa 09:00–20:00",
+    "operator": "FAITH",
+    "phone": "+543814210869",
+    "ref:sisa_codigo": "70900842397732",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27129197728",
     "id": "node/3000687125"
   },
   "geometry": {
@@ -65696,25 +65836,6 @@
     "coordinates": [
       -65.1939218,
       -26.8362994
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3000687941",
-  "properties": {
-    "addr:housenumber": "273",
-    "addr:street": "Avenida Brígido Teran",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Santa Ines",
-    "id": "node/3000687941"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.1957213,
-      -26.8366141
     ]
   }
 },
@@ -77413,7 +77534,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Krolger",
+    "name": "Kroeger",
     "id": "node/3667897266"
   },
   "geometry": {
@@ -78803,19 +78924,24 @@
   "properties": {
     "addr:city": "San Miguel de Tucumán",
     "addr:housenumber": "602",
-    "addr:postcode": "4000",
+    "addr:postcode": "T4002BAN",
     "addr:street": "Florida",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Florida",
     "opening_hours": "Mo-Fr 09:00-16:00; Mo-Fr 17:00-21:00; Sa 09:00-13:00",
+    "operator": "ELISA DE JESUS PEREZ",
+    "phone": "+543814204557",
+    "ref:sisa_codigo": "70900842399313",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23014495444",
     "id": "node/3740753227"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       -65.2103561,
-      -26.8470185
+      -26.8468307
     ]
   }
 },
@@ -79224,10 +79350,15 @@
   "type": "Feature",
   "id": "node/3763277724",
   "properties": {
+    "addr:city": "Monte Grande",
+    "addr:housenumber": "698",
+    "addr:postcode": "B1842DST",
+    "addr:street": "Avenida Nicolás Bruzone",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Nueva Bruzzone - Dominguez",
+    "name": "Dominguez",
     "phone": "+54 11 4296-7228",
+    "ref:sisa_tipologia": "FARMACIA",
     "id": "node/3763277724"
   },
   "geometry": {
@@ -83727,6 +83858,7 @@
   "id": "node/4082354780",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-04-25",
     "healthcare": "pharmacy",
     "name": "Marchissio",
     "id": "node/4082354780"
@@ -94655,7 +94787,7 @@
   "properties": {
     "addr:city": "Villa Ballester",
     "addr:housenumber": "2574",
-    "addr:postcode": "1653",
+    "addr:postcode": "B1653CJN",
     "addr:street": "114 - Alvear",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -101097,25 +101229,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4700029948",
-  "properties": {
-    "addr:street": "Avenida Acoyte",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Acoyte",
-    "source": "Reconocimiento terrestre por Kaart 2016.",
-    "id": "node/4700029948"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4378586,
-      -34.6136202
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4700067578",
   "properties": {
     "addr:street": "Avenida Acoyte",
@@ -104135,25 +104248,6 @@
     "coordinates": [
       -58.5434127,
       -34.6748887
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4826023721",
-  "properties": {
-    "addr:street": "114 - Alvear",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Alvear",
-    "id": "node/4826023721"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.554839,
-      -34.5503645
     ]
   }
 },
@@ -120637,9 +120731,19 @@
   "type": "Feature",
   "id": "node/6029938569",
   "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1099",
+    "addr:postcode": "T4000ABK",
+    "addr:street": "Avenida General Roca",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Sur",
+    "opening_hours": "Mo-Sa 09:30-22:00",
+    "operator": "SEISDEDOS GRACIELA",
+    "phone": "+543814240304",
+    "ref:sisa_codigo": "70900842397646",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27120193401",
     "id": "node/6029938569"
   },
   "geometry": {
@@ -129496,6 +129600,7 @@
   "id": "node/6997579757",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-04-27",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia SASMA",
@@ -153245,12 +153350,7 @@
   "type": "Feature",
   "id": "node/9920388596",
   "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:housenumber": "3709",
-    "addr:postcode": "C1425",
-    "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy",
     "name": "Rp.",
     "id": "node/9920388596"
   },
@@ -159789,6 +159889,671 @@
     "coordinates": [
       -59.0999248,
       -36.0191108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10838980607",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Gran Pacífico",
+    "id": "node/10838980607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4249248,
+      -34.5791903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10842139118",
+  "properties": {
+    "addr:city": "Buenos Aires",
+    "addr:housenumber": "870",
+    "addr:postcode": "1224",
+    "addr:street": "24 de Noviembre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nueva Alberti",
+    "id": "node/10842139118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4106465,
+      -34.6211304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10847737076",
+  "properties": {
+    "addr:city": "Franck",
+    "addr:housenumber": "2068",
+    "addr:postcode": "3009",
+    "addr:street": "Miguel Manfredi",
+    "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/farmaciaalbrecht/?hl=es",
+    "healthcare": "pharmacy",
+    "name": "Albrecht",
+    "id": "node/10847737076"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.9389175,
+      -31.5867178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10856186829",
+  "properties": {
+    "addr:city": "Rafaela",
+    "addr:housenumber": "54",
+    "addr:postcode": "2300",
+    "addr:street": "Colón",
+    "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/farmaciasudano/?hl=es",
+    "healthcare": "pharmacy",
+    "name": "Sudano",
+    "phone": "+54 3492 320295",
+    "id": "node/10856186829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.4931049,
+      -31.2530053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10861107056",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia",
+    "id": "node/10861107056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.775619,
+      -37.275804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10861107063",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Fleming II",
+    "id": "node/10861107063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.767905,
+      -37.2744018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10874612230",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "996",
+    "addr:street": "San Lorenzo",
+    "amenity": "pharmacy",
+    "email": "silvinadeltoso@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "La Paz",
+    "ref:sisa_codigo": "70900842397539",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27232383882",
+    "id": "node/10874612230"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2129281,
+      -26.8323262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10874971207",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "469",
+    "addr:postcode": "C1405CNE",
+    "addr:street": "Avellaneda",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "La Santé Farmacia y Perfumería",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-13:00",
+    "phone": "+541149022006",
+    "ref:sisa_codigo": "70020012318317",
+    "ref:sisa_tipologia": "FARMACIA",
+    "id": "node/10874971207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4375803,
+      -34.6138532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875900550",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "869",
+    "addr:postcode": "T4000JCI",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Orihuel",
+    "operator": "CALLEJA DE ORIHUEL, VIVIANA R.",
+    "phone": "+543814238097;+543814328473",
+    "ref:sisa_codigo": "70900842397933",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27144104183",
+    "id": "node/10875900550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.215405,
+      -26.8166582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875915139",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1114",
+    "addr:postcode": "T4000DPX",
+    "addr:street": "San Juan",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nuestra señora de la consolación",
+    "operator": "FERREYRA, JORGELINA DEL VALLE",
+    "phone": "+543814303872",
+    "ref:sisa_codigo": "70900842397651",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27178938059",
+    "id": "node/10875915139"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2129319,
+      -26.8235846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875920124",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "802",
+    "addr:postcode": "T4000JCV",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "email": "farmacialujan@tucbbs.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Lujan",
+    "operator": "CALCERANO NANCY",
+    "phone": "+543814237024",
+    "ref:sisa_codigo": "70900842397532",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27222643150",
+    "id": "node/10875920124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2158942,
+      -26.8171025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875946008",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "668",
+    "addr:postcode": "T4000JCT",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Zilman",
+    "operator": "ZILMAN, NILDA MARGARITA",
+    "phone": "+543814331431",
+    "ref:sisa_codigo": "70020012317885",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27140844115",
+    "id": "node/10875946008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.216392,
+      -26.8190685
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875949599",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "592",
+    "addr:postcode": "T4000JCS",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Rojas",
+    "operator": "ARCE, YAMILE DEL VALLE",
+    "phone": "+543814237027",
+    "ref:sisa_codigo": "70900842397445",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23217452104",
+    "id": "node/10875949599"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2166306,
+      -26.8200286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875949600",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "448",
+    "addr:postcode": "T4000JCR",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "El Nogal",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-14:00,17:00-22:00",
+    "operator": "ECONO FARM S.R.L.",
+    "phone": "+543814398752",
+    "ref:sisa_codigo": "70900842397833",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30716343959",
+    "id": "node/10875949600"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2171052,
+      -26.8217589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10875967800",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1399",
+    "addr:postcode": "T4000COA",
+    "addr:street": "24 de Setiembre de 1812",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Mate de Luna",
+    "operator": "DE LA ROSA NILDA PATRICIA",
+    "phone": "+543814302959",
+    "ref:sisa_codigo": "70900842397487",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27139816949",
+    "id": "node/10875967800"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2183725,
+      -26.8280403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876137814",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1218",
+    "addr:postcode": "T4000BRZ",
+    "addr:street": "Las Piedras",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Todofarma",
+    "operator": "ORLANDO SILVIO ALFREDO",
+    "phone": "+543812322273",
+    "ref:sisa_codigo": "70900842398052",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20184646308",
+    "id": "node/10876137814"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2170516,
+      -26.8330603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876255166",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1391",
+    "addr:postcode": "T4000BFA",
+    "addr:street": "General Lamadrid",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Lamadrid",
+    "operator": "VILLALBA, ALFREDO CAMILO",
+    "phone": "+543814202098",
+    "ref:sisa_codigo": "70900842397624",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20079641287",
+    "id": "node/10876255166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2197431,
+      -26.8346498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876256633",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1502",
+    "addr:postcode": "T4000ACP",
+    "addr:street": "Avenida Néstor Kirchner",
+    "amenity": "pharmacy",
+    "email": "litoia2012@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Juan XXIII",
+    "operator": "RUBIO ISABEL",
+    "phone": "+543814369561",
+    "ref:sisa_codigo": "70900842397680",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27014493617",
+    "id": "node/10876256633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2228627,
+      -26.8403937
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876264793",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "240",
+    "addr:postcode": "T4000NYP",
+    "addr:street": "Avenida Leandro N. Alem",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Siglo XXI",
+    "operator": "CAROL, ANDREA MABEL",
+    "phone": "+543814201044",
+    "ref:sisa_codigo": "70900842397881",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27202850184",
+    "id": "node/10876264793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2192322,
+      -26.8318654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876303789",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1021",
+    "addr:postcode": "T4002PDC",
+    "addr:street": "Avenida Leandro N. Alem",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Alem SCS",
+    "opening_hours": "Mo-Fr 09:00-13:00,17:00-21:00; Sa 09:00-13:00",
+    "operator": "RUIZ, LUIS G.",
+    "phone": "+543814362471",
+    "ref:sisa_codigo": "70900842397612",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27056439425",
+    "id": "node/10876303789"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2221039,
+      -26.8422221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876329231",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1088",
+    "addr:postcode": "T4002IMD",
+    "addr:street": "Congreso de Tucumán",
+    "amenity": "pharmacy",
+    "email": "roofajardo@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Muñecas SCS",
+    "opening_hours": "Mo-Fr 08:30-13:00,17:00-21:00; Sa 08:00-13:00",
+    "operator": "PAEZ MARTHA ROSA",
+    "phone": "+543814246795",
+    "ref:sisa_codigo": "70900842397629",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27104559366",
+    "id": "node/10876329231"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.20667,
+      -26.8461938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876411184",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1399",
+    "addr:postcode": "T4002IPI",
+    "addr:street": "9 de Julio de 1816",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Solana",
+    "operator": "SALVACION SALUD S.R.L.",
+    "ref:sisa_codigo": "70900842398006",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30708865644",
+    "id": "node/10876411184"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2094848,
+      -26.8500561
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876442952",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "402",
+    "addr:street": "Matheu",
+    "amenity": "pharmacy",
+    "email": "farmamatheu@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Matheu",
+    "opening_hours": "Mo-Fr 06:00–13:00, 16:00–21:00",
+    "operator": "ACOSTA GONZALEZ LUIS MARIA",
+    "phone": "+543814298537",
+    "ref:sisa_codigo": "70900842397425",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20223369635",
+    "id": "node/10876442952"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2082398,
+      -26.852059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876447827",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1571",
+    "addr:postcode": "T4002IEM",
+    "addr:street": "Moreno",
+    "amenity": "pharmacy",
+    "email": "marielaperello@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Moreno",
+    "operator": "CISTERNA DE PERELLO, RAFAELA",
+    "ref:sisa_codigo": "70900842397685",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR2710220360",
+    "id": "node/10876447827"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2044624,
+      -26.853964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876458828",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "152",
+    "addr:postcode": "T4002CAD",
+    "addr:street": "Matheu",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Mabel",
+    "operator": "HERRERA, MABEL DEL CARMEN",
+    "phone": "+543814292574",
+    "ref:sisa_codigo": "70900842397681",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27174587642",
+    "id": "node/10876458828"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2044182,
+      -26.8529288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876507171",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "501",
+    "addr:postcode": "T4000HWF",
+    "addr:street": "Avenida Sáenz Peña",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Saenz Peña",
+    "operator": "LETTIER DE POLIAKOF ALICIA M.",
+    "phone": "+543814248109",
+    "ref:sisa_codigo": "70900842397826",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27050005610",
+    "id": "node/10876507171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1989862,
+      -26.8394705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10876527116",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "751",
+    "addr:postcode": "T4000HPH",
+    "addr:street": "Avenida Brígido Teran",
+    "amenity": "pharmacy",
+    "email": "farmacia1bermudez@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Bermudez",
+    "opening_hours": "Mo-Fr 09:00–13:00, 17:30–22:00; Sa 09:00–13:00, 18:00–22:00",
+    "operator": "BERMUDEZ FATIMA DEL VALLE",
+    "phone": "+543814245440",
+    "ref:sisa_codigo": "70900842397492",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27146603675",
+    "id": "node/10876527116"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1973679,
+      -26.8435467
     ]
   }
 }
