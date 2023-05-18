@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60 f4c14d41",
   "osm3s": {
-    "timestamp_osm_base": "2023-05-07T22:02:00Z",
-    "timestamp_areas_base": "2023-05-07T17:47:54Z",
+    "timestamp_osm_base": "2023-05-18T10:35:08Z",
+    "timestamp_areas_base": "2023-05-18T09:15:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -22276,9 +22276,15 @@
   "lon": -59.4004417,
   "tags": {
     "addr:city": "San Gustavo",
+    "addr:full": "San Luis y Concordia",
     "addr:postcode": "3191",
+    "addr:street": "San Luis",
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "healthcare": "hospital",
+    "name": "Hospital Gregoria Perez",
+    "phone": "+54 3437 421811",
+    "ref:sisa_codigo": "10300702142047",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -23360,6 +23366,16 @@
   "tags": {
     "amenity": "hospital",
     "name": "Sanatorio Privado Brandsen"
+  }
+},
+{
+  "type": "node",
+  "id": 10883283805,
+  "lat": -35.6351793,
+  "lon": -61.3643595,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hospital JF Ramos Carlos casares"
   }
 },
 {
@@ -25360,19 +25376,18 @@
     1376764756
   ],
   "tags": {
-    "addr:full": "Corbeta Pi Y Margal 750",
     "addr:housenumber": "750",
     "addr:street": "Pi y Margall",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital General De Agudos Doctor Cosme Argerich",
-    "operator": "Municipal",
+    "name": "Hospital General de Agudos Doctor Cosme Argerich",
+    "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
     "phone": "+54 11 4121-0700",
     "ref:sisa_codigo": "10020012215217",
     "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q10966594",
-    "wikipedia": "es:Hospital Argerich"
+    "wikipedia": "es:Hospital General de Agudos Dr. Cosme Argerich"
   }
 },
 {
@@ -35268,12 +35283,14 @@
     "addr:postcode": "1650",
     "addr:street": "Avenida 101 - Doctor Ricardo Balbín",
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Hospital Interzonal General de Agudos Eva Perón",
     "old_name": "Hospital Castex",
     "operator:type": "public",
     "phone": "+54 11 4724-3000",
     "ref:sisa_codigo": "10063712100230",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "short_name": "HIGA"
   }
 },
 {
@@ -53551,6 +53568,42 @@
   }
 },
 {
+  "type": "way",
+  "id": 1169696171,
+  "nodes": [
+    10876190703,
+    10876190702,
+    10876190701,
+    10876190700,
+    10876190699,
+    10876190698,
+    10876190697,
+    10876190703
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "construction": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Tomás Perón"
+  }
+},
+{
+  "type": "way",
+  "id": 1173750821,
+  "nodes": [
+    10905737252,
+    10905737253,
+    10905737254,
+    10905737255,
+    10905737256,
+    10905737252
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -69048,6 +69101,48 @@
   "id": 8773249950,
   "lat": -30.1895174,
   "lon": -69.2726386
+},
+{
+  "type": "node",
+  "id": 10876190700,
+  "lat": -30.2164966,
+  "lon": -69.1476000
+},
+{
+  "type": "node",
+  "id": 10876190701,
+  "lat": -30.2157236,
+  "lon": -69.1475194
+},
+{
+  "type": "node",
+  "id": 10876190702,
+  "lat": -30.2154566,
+  "lon": -69.1474945
+},
+{
+  "type": "node",
+  "id": 10876190699,
+  "lat": -30.2165278,
+  "lon": -69.1462833
+},
+{
+  "type": "node",
+  "id": 10876190697,
+  "lat": -30.2150323,
+  "lon": -69.1462694
+},
+{
+  "type": "node",
+  "id": 10876190698,
+  "lat": -30.2152388,
+  "lon": -69.1462389
+},
+{
+  "type": "node",
+  "id": 10876190703,
+  "lat": -30.2152772,
+  "lon": -69.1469250
 },
 {
   "type": "node",
@@ -96375,12 +96470,6 @@
 },
 {
   "type": "node",
-  "id": 1376764802,
-  "lat": -34.6282364,
-  "lon": -58.3663683
-},
-{
-  "type": "node",
   "id": 6262958837,
   "lat": -34.6387470,
   "lon": -58.3601877
@@ -96442,8 +96531,8 @@
 {
   "type": "node",
   "id": 1376764636,
-  "lat": -34.6288118,
-  "lon": -58.3654935
+  "lat": -34.6287809,
+  "lon": -58.3655029
 },
 {
   "type": "node",
@@ -96453,9 +96542,15 @@
 },
 {
   "type": "node",
+  "id": 1376764802,
+  "lat": -34.6282154,
+  "lon": -58.3663428
+},
+{
+  "type": "node",
   "id": 1553097126,
-  "lat": -34.6285534,
-  "lon": -58.3658863
+  "lat": -34.6285335,
+  "lon": -58.3658742
 },
 {
   "type": "node",
@@ -97768,26 +97863,26 @@
 {
   "type": "node",
   "id": 3448831970,
-  "lat": -34.5709243,
-  "lon": -58.5543171
+  "lat": -34.5708988,
+  "lon": -58.5543481
 },
 {
   "type": "node",
   "id": 3448831979,
-  "lat": -34.5720209,
-  "lon": -58.5529385
+  "lat": -34.5720031,
+  "lon": -58.5529569
 },
 {
   "type": "node",
   "id": 3448831982,
-  "lat": -34.5720187,
-  "lon": -58.5556448
+  "lat": -34.5720183,
+  "lon": -58.5556602
 },
 {
   "type": "node",
   "id": 3448831984,
-  "lat": -34.5731185,
-  "lon": -58.5542715
+  "lat": -34.5731218,
+  "lon": -58.5542578
 },
 {
   "type": "node",
@@ -116712,6 +116807,36 @@
   "id": 2518068050,
   "lat": -25.2870018,
   "lon": -57.7211236
+},
+{
+  "type": "node",
+  "id": 10905737255,
+  "lat": -27.0382099,
+  "lon": -55.2185071
+},
+{
+  "type": "node",
+  "id": 10905737256,
+  "lat": -27.0382015,
+  "lon": -55.2194795
+},
+{
+  "type": "node",
+  "id": 10905737252,
+  "lat": -27.0366770,
+  "lon": -55.2194682
+},
+{
+  "type": "node",
+  "id": 10905737253,
+  "lat": -27.0366806,
+  "lon": -55.2185490
+},
+{
+  "type": "node",
+  "id": 10905737254,
+  "lat": -27.0367136,
+  "lon": -55.2184980
 },
 {
   "type": "node",

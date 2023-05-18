@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.2 e4cf9f7a",
   "osm3s": {
-    "timestamp_osm_base": "2023-05-07T22:13:22Z",
-    "timestamp_areas_base": "2023-04-25T08:53:24Z",
+    "timestamp_osm_base": "2023-05-18T10:45:24Z",
+    "timestamp_areas_base": "2023-05-18T08:24:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -153,12 +153,17 @@
 {
   "type": "node",
   "id": 441159110,
-  "lat": -27.0529534,
-  "lon": -65.4038847,
+  "lat": -27.0529729,
+  "lon": -65.4038372,
   "tags": {
+    "addr:city": "Famaillá",
+    "addr:street": "Rivadavia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "San José"
+    "name": "San José",
+    "phone": "+543863461309",
+    "ref:sisa_codigo": "70900282399362",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -167,9 +172,19 @@
   "lat": -27.0537793,
   "lon": -65.4048480,
   "tags": {
+    "addr:city": "Famaillá",
+    "addr:housenumber": "445",
+    "addr:postcode": "T4132ALI",
+    "addr:street": "Bartolomé Mitre",
     "amenity": "pharmacy",
+    "email": "farmacia_sanramon@yahoo.com.ar",
     "healthcare": "pharmacy",
-    "name": "San Ramón"
+    "name": "San Ramón",
+    "operator": "MATIAS MARIA ELVIRA",
+    "phone": "+543863461649",
+    "ref:sisa_codigo": "70900282397510",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27177524382"
   }
 },
 {
@@ -178,9 +193,19 @@
   "lat": -27.0541191,
   "lon": -65.4046203,
   "tags": {
+    "addr:city": "Famaillá",
+    "addr:housenumber": "406",
+    "addr:postcode": "T4132ALJ",
+    "addr:street": "Bartolomé Mitre",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Sagrado Corazón"
+    "name": "Sagrado Corazón",
+    "opening_hours": "Mo-Fr 08:00-12:30, 17:00-21:30; Sa 08:00-13:30",
+    "operator": "CANO STELLA MARIS",
+    "phone": "+543863461347",
+    "ref:sisa_codigo": "70900282397504",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27172111047"
   }
 },
 {
@@ -191,25 +216,36 @@
   "tags": {
     "addr:city": "Famaillá",
     "addr:housenumber": "136",
-    "addr:postcode": "4132",
+    "addr:postcode": "T4132CND",
     "addr:street": "Sarmiento",
     "amenity": "pharmacy",
+    "email": "ricardopani@hotmail.com",
     "healthcare": "pharmacy",
     "name": "Unión",
+    "operator": "FERRAIOLI MARIA CAROL",
+    "phone": "+543863461963",
     "ref:sisa_codigo": "70900282397666",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23205716874"
   }
 },
 {
   "type": "node",
   "id": 441159341,
-  "lat": -27.0562890,
-  "lon": -65.4021901,
+  "lat": -27.0563269,
+  "lon": -65.4022119,
   "tags": {
+    "addr:city": "Famaillá",
+    "addr:housenumber": "185",
+    "addr:postcode": "T4132BGC",
+    "addr:street": "Laprida",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "is_in": "Famaillá",
-    "name": "Los Alisos"
+    "name": "Los Alisos",
+    "operator": "DOHRMAN RODOLFO RICARDO",
+    "ref:sisa_codigo": "70900282397446",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23233671029"
   }
 },
 {
@@ -220,13 +256,15 @@
   "tags": {
     "addr:city": "Famaillá",
     "addr:housenumber": "340",
-    "addr:postcode": "4132",
+    "addr:postcode": "T4132CMQ",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Juan",
+    "operator": "SUC. DE SEVERINI AUGUSTO",
     "ref:sisa_codigo": "70900282397803",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20070639150"
   }
 },
 {
@@ -2586,11 +2624,20 @@
 {
   "type": "node",
   "id": 1143320237,
-  "lat": -26.8086740,
-  "lon": -65.2512251,
+  "lat": -26.8086211,
+  "lon": -65.2512720,
   "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "3901",
+    "addr:postcode": "T4000GWM",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Selecta",
+    "operator": "POR LA VIDA FARMA S.R.L.",
+    "phone": "+543814343113",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "30710483813"
   }
 },
 {
@@ -2634,24 +2681,16 @@
   "tags": {
     "addr:city": "Aguilares",
     "addr:housenumber": "755",
-    "addr:postcode": "4152",
+    "addr:postcode": "T4152ANG",
     "addr:street": "Avenida Mitre",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "is_in:state": "Tucumán",
     "name": "San Miguel",
+    "operator": "FERNANDEZ MARTA DE BORQUEZ",
+    "phone": "+543865481730",
     "ref:sisa_codigo": "70900772397904",
-    "ref:sisa_tipologia": "FARMACIA"
-  }
-},
-{
-  "type": "node",
-  "id": 1150220812,
-  "lat": -27.4331402,
-  "lon": -65.6152466,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27135136757"
   }
 },
 {
@@ -2662,15 +2701,17 @@
   "tags": {
     "addr:city": "Aguilares",
     "addr:housenumber": "774",
+    "addr:postcode": "T4152ATO",
     "addr:street": "Avenida Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "is_in": "Aguilares",
-    "is_in:state": "Tucumán",
     "name": "Santa Bárbara",
     "opening_hours": "Mo-Sa 08:00-22:00",
+    "operator": "FCIA. SANTA BARBARA S.C.S.",
+    "phone": "+543865481126",
     "ref:sisa_codigo": "70900772397586",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33640585159"
   }
 },
 {
@@ -2681,32 +2722,14 @@
   "tags": {
     "addr:city": "Aguilares",
     "addr:housenumber": "633",
-    "addr:postcode": "4152",
+    "addr:postcode": "T4152FDI",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Martín de Porres",
-    "phone": "+54 3865 481188",
+    "phone": "+543865482075",
+    "ref:sisa_tipologia": "FARMACIA",
     "source": "https://datos.gob.ar/dataset/pami-farmacias"
-  }
-},
-{
-  "type": "node",
-  "id": 1150224067,
-  "lat": -27.4312870,
-  "lon": -65.6161972,
-  "tags": {
-    "addr:city": "Aguilares",
-    "addr:housenumber": "940",
-    "addr:postcode": "4152",
-    "addr:street": "Juan Bautista Alberdi",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "is_in": "Aguilares",
-    "is_in:state": "Tucumán",
-    "name": "Massouh",
-    "ref:sisa_codigo": "70900772397943",
-    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -2731,33 +2754,6 @@
     "healthcare": "pharmacy",
     "name": "Nueva Crucci",
     "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
-  }
-},
-{
-  "type": "node",
-  "id": 1153956550,
-  "lat": -27.4288209,
-  "lon": -65.6162470,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "is_in": "Aguilares",
-    "is_in:state": "Tucumán"
-  }
-},
-{
-  "type": "node",
-  "id": 1153956553,
-  "lat": -27.4281106,
-  "lon": -65.6158676,
-  "tags": {
-    "addr:city": "Aguilares",
-    "addr:postcode": "4152",
-    "addr:street": "Aristobulo del Valle",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "is_in": "Aguilares",
-    "name": "Bravo"
   }
 },
 {
@@ -3224,16 +3220,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Martini"
-  }
-},
-{
-  "type": "node",
-  "id": 1240416093,
-  "lat": -26.8299910,
-  "lon": -65.2191881,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -4919,7 +4905,8 @@
   "lon": -58.9798969,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "San Antonio"
   }
 },
 {
@@ -5018,17 +5005,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Plazza"
-  }
-},
-{
-  "type": "node",
-  "id": 1644303184,
-  "lat": -26.9393831,
-  "lon": -65.7075418,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "shop": "chemist"
   }
 },
 {
@@ -6554,17 +6530,6 @@
 },
 {
   "type": "node",
-  "id": 1871789925,
-  "lat": -26.8083312,
-  "lon": -65.2175957,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "no",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
   "id": 1871789946,
   "lat": -26.8305369,
   "lon": -65.2074801,
@@ -6574,7 +6539,6 @@
     "addr:postcode": "T4000CNN",
     "addr:street": "24 de Setiembre de 1812",
     "amenity": "pharmacy",
-    "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "FarMar Catedral III",
     "opening_hours": "24/7",
@@ -9111,10 +9075,17 @@
   "lat": -26.7793928,
   "lon": -65.2290273,
   "tags": {
+    "addr:city": "Tafí Viejo",
+    "addr:street": "Anotnio Calpini",
     "amenity": "pharmacy",
-    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Plaza tafí"
+    "name": "Plaza Tafí",
+    "opening_hours": "Mo-Sa 09:00-13:00, 18:00-22:00",
+    "operator": "FILIPPINI IVANA BEATRIZ",
+    "phone": "+543814926055",
+    "ref:sisa_codigo": "70900842398037",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27257351152"
   }
 },
 {
@@ -13012,9 +12983,16 @@
   "lat": -26.9597635,
   "lon": -65.0429988,
   "tags": {
+    "addr:city": "Ranchillos y San Miguel",
+    "addr:street": "24 de septiembre",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Del Pueblo"
+    "name": "Nueva Farmacia Del Pueblo",
+    "operator": "MASCARO PEDRO MARTIN",
+    "phone": "+543869421208",
+    "ref:sisa_codigo": "70900142398008",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20217444072"
   }
 },
 {
@@ -13023,8 +13001,19 @@
   "lat": -26.9572604,
   "lon": -65.0434012,
   "tags": {
+    "addr:city": "Ranchillos y San Miguel",
+    "addr:housenumber": "638",
+    "addr:postcode": "T4179BQT",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "email": "pelusadelcampo@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Manuela",
+    "operator": "DEL CAMPO LUIS HORACIO",
+    "phone": "+543869421204",
+    "ref:sisa_codigo": "70900142397900",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20275940624"
   }
 },
 {
@@ -14133,7 +14122,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Centinela"
+    "name": "Farmacia Espíritu Santo"
   }
 },
 {
@@ -16855,8 +16844,20 @@
   "lat": -26.7785713,
   "lon": -65.2108854,
   "tags": {
+    "addr:city": "Villa Mariano Mareno",
+    "addr:housenumber": "123",
+    "addr:postcode": "T4101CYA",
+    "addr:street": "Calle 4",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "email": "farmaciablasce@arnetbiz.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Blasce",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "operator": "BLASCE SRL",
+    "phone": "+543814373638",
+    "ref:sisa_codigo": "70901052397567",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30707244069"
   }
 },
 {
@@ -16865,8 +16866,20 @@
   "lat": -26.7752543,
   "lon": -65.2097060,
   "tags": {
+    "addr:city": "Villa Mariano Moreno",
+    "addr:housenumber": "352",
+    "addr:postcode": "T4101CYF",
+    "addr:street": "Calle 4",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "email": "farmsantarita2004@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Santa Rita",
+    "opening_hours": "Mo-Sa 08:30-21:00",
+    "operator": "LANIERI MARTA INES",
+    "phone": "+543814372403",
+    "ref:sisa_codigo": "70901052397986",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23170416074"
   }
 },
 {
@@ -16875,8 +16888,19 @@
   "lat": -26.7708333,
   "lon": -65.2014938,
   "tags": {
+    "addr:city": "Las Talitas",
+    "addr:housenumber": "767",
+    "addr:postcode": "T4101DCO",
+    "addr:street": "Calle 12",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Santa Rita II",
+    "opening_hours": "Mo-Sa 08:30-21:00",
+    "operator": "LANIERI MARTA INES",
+    "phone": "+543814376702",
+    "ref:sisa_codigo": "70901052397907",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23170416074"
   }
 },
 {
@@ -17858,18 +17882,22 @@
   "lat": -26.8324899,
   "lon": -65.1967739,
   "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "12",
+    "addr:postcode": "T4000FUN",
+    "addr:street": "Benjamín Araoz",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 3000687124,
-  "lat": -26.8326652,
-  "lon": -65.1959526,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "building": "retail",
+    "building:levels": "1",
+    "email": "farmaciasancristobal15@gmail.com",
+    "healthcare": "pharmacy",
+    "name": "San Cristobal",
+    "operator": "MARIA GUADALUPE ACOSTA",
+    "phone": "+543814225783",
+    "ref:sisa_codigo": "70900842399400",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27352075774",
+    "website": "https://www.farmaciasancristobal.com/"
   }
 },
 {
@@ -17885,7 +17913,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Faith",
-    "opening_hours": "Mo-Sa 09:00–20:00",
+    "opening_hours": "Mo-Sa 09:00-20:00",
     "operator": "FAITH",
     "phone": "+543814210869",
     "ref:sisa_codigo": "70900842397732",
@@ -20499,11 +20527,17 @@
   "tags": {
     "addr:city": "San Miguel de Tucumán",
     "addr:housenumber": "705",
-    "addr:postcode": "4000",
+    "addr:postcode": "T4000HXH",
     "addr:street": "Avenida Avellaneda",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Central"
+    "name": "Central",
+    "opening_hours": "Mo-Fr 08:30-13:00,17:00-21:30; Sa 08:30-13:00",
+    "operator": "GUERRERO DE SAVINO, CELMINIA",
+    "phone": "+543814225354",
+    "ref:sisa_codigo": "70900842397839",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27087710942"
   }
 },
 {
@@ -21479,12 +21513,21 @@
 {
   "type": "node",
   "id": 3305954666,
-  "lat": -26.9396955,
-  "lon": -65.7084358,
+  "lat": -26.9396639,
+  "lon": -65.7083907,
   "tags": {
+    "addr:city": "El Mollar",
+    "addr:postcode": "4135",
+    "addr:street": "21 de Noviembre",
     "amenity": "pharmacy",
+    "email": "mario_luna@arnet.com.ar",
     "healthcare": "pharmacy",
-    "name": "El Mollar"
+    "name": "El Mollar",
+    "operator": "LUNA MARIO ADOLFO",
+    "phone": "+543867491292",
+    "ref:sisa_codigo": "70900562397982",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20176148552"
   }
 },
 {
@@ -21506,14 +21549,18 @@
 {
   "type": "node",
   "id": 3306152032,
-  "lat": -38.9579973,
-  "lon": -68.0595305,
+  "lat": -38.9579963,
+  "lon": -68.0595275,
   "tags": {
+    "addr:city": "Neuquén",
     "addr:housenumber": "285",
+    "addr:postcode": "Q8300",
     "addr:street": "Avenida Coronel Olascoaga",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmcia Comahue"
+    "name": "Farmacia Comahue"
   }
 },
 {
@@ -21538,11 +21585,20 @@
   "lat": -26.8214307,
   "lon": -65.1942472,
   "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "801",
+    "addr:postcode": "T4000HXI",
+    "addr:street": "Avenida Avellaneda",
     "amenity": "pharmacy",
-    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "América",
-    "source": "survey"
+    "name": "América IV",
+    "opening_hours": "Mo-Sa 09:00-14:00,17:00-22:00",
+    "operator": "MEDCON S.R.L.",
+    "phone": "+543814222141",
+    "ref:sisa_codigo": "70900842397911",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30714336718",
+    "source": "survey;SISA"
   }
 },
 {
@@ -21946,16 +22002,6 @@
   "id": 3343038081,
   "lat": -45.8354121,
   "lon": -67.4786692,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 3344425724,
-  "lat": -26.8540634,
-  "lon": -65.7095935,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -25811,9 +25857,16 @@
   "lat": -26.8527535,
   "lon": -65.7082102,
   "tags": {
+    "addr:city": "Tafí del Valle",
+    "addr:street": "Avenida Miguel Critto",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Del Milagro"
+    "name": "Del Milagro",
+    "operator": "GONZALEZ JOSE CARLOS",
+    "phone": "+543867421489",
+    "ref:sisa_codigo": "70900982398050",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20143588514"
   }
 },
 {
@@ -26023,11 +26076,18 @@
   "tags": {
     "addr:city": "Lules",
     "addr:housenumber": "229",
-    "addr:postcode": "4128",
+    "addr:postcode": "T4128CNE",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "email": "roxanacalafiore@yahoo.com",
     "healthcare": "pharmacy",
-    "name": "San Isidro"
+    "name": "San Isidro",
+    "opening_hours": "Mo-Sa 09:00-13:00,17:00-22:00",
+    "operator": "CALAFIORI ROXANA BEATRIZ",
+    "phone": "+543814811557",
+    "ref:sisa_codigo": "70900632397505",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27172393514"
   }
 },
 {
@@ -26803,7 +26863,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Florida",
-    "opening_hours": "Mo-Fr 09:00-16:00; Mo-Fr 17:00-21:00; Sa 09:00-13:00",
+    "opening_hours": "Mo-Fr 09:00-16:00, 17:00-21:00; Sa 09:00-13:00",
     "operator": "ELISA DE JESUS PEREZ",
     "phone": "+543814204557",
     "ref:sisa_codigo": "70900842399313",
@@ -29505,7 +29565,7 @@
     "dispensing": "yes",
     "email": "emjrivaskeiner@gmail.com",
     "healthcare": "pharmacy",
-    "name": "Medifarm",
+    "name": "Farmazul",
     "phone": "+54 376 4465162"
   }
 },
@@ -30148,6 +30208,7 @@
   "lon": -59.8609712,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-05-17",
     "healthcare": "pharmacy",
     "name": "Peroggi",
     "phone": "+54 (2281) 42-3256"
@@ -30164,6 +30225,7 @@
     "addr:postcode": "7300",
     "addr:street": "Avenida 25 de Mayo",
     "amenity": "pharmacy",
+    "check_date": "2023-05-16",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Burgan"
@@ -30767,9 +30829,15 @@
     "addr:postcode": "T4107CDA",
     "addr:street": "Avenida Aconquija",
     "amenity": "pharmacy",
+    "email": "farmaciapalacios@arnet.com.ar",
     "healthcare": "pharmacy",
     "name": "Farmacia Plazoleta",
-    "phone": "+543814352657"
+    "opening_hours": "Mo-Sa 09:00-13:30,17:00-22:00",
+    "operator": "FAR PLAZOLETA SRL (PETRELLI, PABLO.- ZELARAYAN, JOSE MANUEL)",
+    "phone": "+543814352657",
+    "ref:sisa_codigo": "70901192397609",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27064308942"
   }
 },
 {
@@ -31729,15 +31797,23 @@
 {
   "type": "node",
   "id": 4219624889,
-  "lat": -26.8142640,
-  "lon": -65.2595848,
+  "lat": -26.8143269,
+  "lon": -65.2595033,
   "tags": {
-    "addr:city": "Tucuaman",
-    "addr:postcode": "4000",
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "394",
+    "addr:postcode": "T4000MPH",
     "addr:street": "Esteban Echeverría",
     "amenity": "pharmacy",
+    "email": "elianachahla@hotmail.com",
     "healthcare": "pharmacy",
-    "name": "Farmacia La Principal"
+    "name": "Principal",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "operator": "CHAHLA ELIANA SILVINA",
+    "phone": "+543814315256",
+    "ref:sisa_codigo": "70900842397543",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27246418492"
   }
 },
 {
@@ -32839,17 +32915,23 @@
 {
   "type": "node",
   "id": 4333843929,
-  "lat": -26.8121342,
-  "lon": -65.2064099,
+  "lat": -26.8120948,
+  "lon": -65.2062774,
   "tags": {
+    "addr:city": "San Miguel de Tucumán",
     "addr:housenumber": "1305",
-    "addr:postcode": "4000",
+    "addr:postcode": "T4001PPL",
     "addr:street": "Avenida República de Siria",
     "amenity": "pharmacy",
+    "email": "farmaciadeljardin@argentina.com",
     "healthcare": "pharmacy",
     "name": "Del Jardín",
-    "opening_hours": "Mo-Sa",
-    "phone": "4221459"
+    "opening_hours": "Mo-Fr 08:30-13:00,16:30-20:30; Sa 09:00-13:00",
+    "operator": "MUÑOZ MIGUEL E.",
+    "phone": "+543814221459;+543814005634",
+    "ref:sisa_codigo": "70900842397613",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20213280474"
   }
 },
 {
@@ -32920,18 +33002,39 @@
   "lat": -26.8124792,
   "lon": -65.2972495,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1915",
+    "addr:postcode": "T4107CEG",
+    "addr:street": "Avenida Aconquija",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Santa María",
+    "operator": "CASTILLO MARCELA V.",
+    "phone": "+543814251587",
+    "ref:sisa_codigo": "70901192397716",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27928778547"
   }
 },
 {
   "type": "node",
   "id": 4341225261,
-  "lat": -26.8121740,
-  "lon": -65.2976469,
+  "lat": -26.8120854,
+  "lon": -65.2976523,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1931",
+    "addr:postcode": "T4107CEG",
+    "addr:street": "Avenida Aconquija",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "La Unión",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa09:00-14:00",
+    "operator": "FCIA LA UNION Y.BUENA S.A.",
+    "phone": "+543814254730",
+    "ref:sisa_codigo": "70901192397566",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30702377400"
   }
 },
 {
@@ -32940,8 +33043,19 @@
   "lat": -26.8229967,
   "lon": -65.3049274,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "950",
+    "addr:postcode": "T4107EHW",
+    "addr:street": "Avenida Solano Vera",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "email": "pastorizaveronica@arnet.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Solano Vera",
+    "operator": "PASTORIZA VERONICA",
+    "phone": "+543814250416",
+    "ref:sisa_codigo": "70901192397918",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23226111174"
   }
 },
 {
@@ -32950,21 +33064,41 @@
   "lat": -26.8147995,
   "lon": -65.2895077,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "51",
+    "addr:postcode": "T4107EWA",
+    "addr:street": "Anzorena",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Del pueblo"
+    "name": "Del Pueblo",
+    "opening_hours": "Mo-Sa 08:00-22:30; Su 09:00-22:00",
+    "operator": "SIPTAH REBOTICA S.R.L.",
+    "phone": "+543814256444",
+    "ref:sisa_codigo": "70901192399372",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR3311776279"
   }
 },
 {
   "type": "node",
   "id": 4341225265,
-  "lat": -26.8141245,
-  "lon": -65.2859403,
+  "lat": -26.8141867,
+  "lon": -65.2859752,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "27",
+    "addr:postcode": "T4107GMA",
+    "addr:street": "Acasuso",
     "amenity": "pharmacy",
+    "email": "farmaciaacassuso@arnet.com.ar",
     "healthcare": "pharmacy",
     "name": "Acassuso",
-    "name:es": "Acassuso"
+    "opening_hours": "Mo-Fr09:00-13:00,17:00-21:00",
+    "operator": "SALAZAR LUZ DE LOS ANGELES",
+    "phone": "+543814252781",
+    "ref:sisa_codigo": "70901192397603",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27206413722"
   }
 },
 {
@@ -32973,10 +33107,20 @@
   "lat": -26.8131514,
   "lon": -65.2951454,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1812",
+    "addr:postcode": "T4107CES",
+    "addr:street": "Avenida Aconquija",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
-    "name:es": "Del Pueblo"
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-14:00,17:00-22:00",
+    "operator": "SIPTAH REBOTICA SRL",
+    "phone": "+543814251040",
+    "ref:sisa_codigo": "70901192397595",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33702413309",
+    "website": "https://www.farmaciasdelpueblo.com.ar/"
   }
 },
 {
@@ -32985,19 +33129,16 @@
   "lat": -26.8068999,
   "lon": -65.2622947,
   "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 4345224076,
-  "lat": -39.9542246,
-  "lon": -71.0790946,
-  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:street": "Camino del Perú",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "De La Cruz"
+    "name": "Yerba Buena",
+    "operator": "BRESLAUER ILEANA V.",
+    "phone": "+543814354183",
+    "ref:sisa_codigo": "70901192397928",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27263851310"
   }
 },
 {
@@ -36232,13 +36373,11 @@
 {
   "type": "node",
   "id": 4575978309,
-  "lat": -34.6318767,
-  "lon": -58.3606433,
+  "lat": -34.6318359,
+  "lon": -58.3606205,
   "tags": {
-    "addr:street": "Avenida Benito Pérez Galdós",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento cartográfico 2016 por KG"
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -36297,16 +36436,22 @@
 {
   "type": "node",
   "id": 4580251093,
-  "lat": -27.1676880,
-  "lon": -65.4986407,
+  "lat": -27.1688287,
+  "lon": -65.4992751,
   "tags": {
     "addr:city": "Monteros",
-    "addr:postcode": "4142",
+    "addr:housenumber": "246",
+    "addr:postcode": "T4142AZF",
     "addr:street": "Colón",
     "amenity": "pharmacy",
+    "email": "oficina74@hotmail.com",
     "healthcare": "pharmacy",
     "name": "San Francisco",
-    "name:es": "San Francisco"
+    "operator": "CITI-FARMA S.A.",
+    "phone": "+543863428171",
+    "ref:sisa_codigo": "70900702397569",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30707614583"
   }
 },
 {
@@ -36315,26 +36460,36 @@
   "lat": -27.1654118,
   "lon": -65.4963634,
   "tags": {
-    "addr:postcode": "4142",
+    "addr:city": "Monteros",
+    "addr:housenumber": "81",
+    "addr:postcode": "T4142CJA",
     "addr:street": "Leandro Araoz",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Nuova",
-    "name:es": "Genova"
+    "ref:sisa_codigo": "70900702399287",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
   "type": "node",
   "id": 4580254496,
-  "lat": -27.1697035,
-  "lon": -65.4994449,
+  "lat": -27.1695126,
+  "lon": -65.4996327,
   "tags": {
     "addr:city": "Monteros",
-    "addr:postcode": "4142",
-    "addr:street": "Juan B. Alberdi",
+    "addr:housenumber": "288",
+    "addr:postcode": "T4142BWF",
+    "addr:street": "Juan Bautista Alberdi",
     "amenity": "pharmacy",
+    "email": "bossano@hotmail.es",
     "healthcare": "pharmacy",
-    "name": "Santa Rita"
+    "name": "Santa Rita",
+    "operator": "DE GIOVANNI ELENA B",
+    "phone": "+543863427714",
+    "ref:sisa_codigo": "70900702397472",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27112127661"
   }
 },
 {
@@ -36345,12 +36500,17 @@
   "tags": {
     "addr:city": "Monteros",
     "addr:housenumber": "352",
-    "addr:postcode": "4142",
+    "addr:postcode": "T4142DTH",
     "addr:street": "Rivadavia",
     "amenity": "pharmacy",
+    "email": "tecnosoft_cibercentro@hotmail.com",
     "healthcare": "pharmacy",
     "name": "San Pedro",
-    "name:es": "San Pedro"
+    "operator": "ROCHA SILVIA DEL V.",
+    "phone": "+543863426447",
+    "ref:sisa_codigo": "70900702397808",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27062840124"
   }
 },
 {
@@ -36360,12 +36520,18 @@
   "lon": -65.5003825,
   "tags": {
     "addr:city": "Monteros",
-    "addr:postcode": "4142",
+    "addr:housenumber": "343",
+    "addr:postcode": "T4142AZG",
     "addr:street": "Colón",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Colón",
-    "name:es": "Colón"
+    "opening_hours": "Mo-Fr 09:00-12:30, 18:30-21:30; Sa 08:30-11:45, 18:00-21:00",
+    "operator": "CINTHIA VALERIA OVEJERO",
+    "phone": "+543863426224",
+    "ref:sisa_codigo": "70900702397804",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20076282782"
   }
 },
 {
@@ -36375,11 +36541,18 @@
   "lon": -65.4966126,
   "tags": {
     "addr:city": "Monteros",
-    "addr:postcode": "4142",
+    "addr:housenumber": "41",
+    "addr:postcode": "T4142CJA",
     "addr:street": "Leandro Araoz",
     "amenity": "pharmacy",
+    "email": "farmacianuevagenova1@yahoo.com.ar",
     "healthcare": "pharmacy",
-    "name": "Nuova"
+    "name": "Nueva Genova",
+    "operator": "LEIVA LAURA MAGDALENA",
+    "phone": "+543863427685",
+    "ref:sisa_codigo": "70900702397524",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27213283869"
   }
 },
 {
@@ -36388,12 +36561,19 @@
   "lat": -27.1727999,
   "lon": -65.5030039,
   "tags": {
-    "addr:postcode": "4142",
+    "addr:city": "Monteros",
+    "addr:housenumber": "635",
+    "addr:postcode": "T4142AZM",
     "addr:street": "Colón",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Ñuñorco",
-    "name:es": "Ñuñorco"
+    "opening_hours": "Mo-Sa 08:00-13:00, 17:00-22:00",
+    "operator": "FREGENAL NORMA CRISTINA",
+    "phone": "+543863428681",
+    "ref:sisa_codigo": "70900702397899",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27066958545"
   }
 },
 {
@@ -36402,26 +36582,40 @@
   "lat": -27.1731401,
   "lon": -65.5035760,
   "tags": {
-    "addr:postcode": "4142",
+    "addr:city": "Monteros",
+    "addr:housenumber": "672",
+    "addr:postcode": "T4142EBN",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Yurina",
-    "name:es": "Yurina"
+    "opening_hours": "Mo-Fr 08:00-12:45, 17:00-21:45; Sa 08:00-12:45, 17:00-21:00",
+    "operator": "YSSE FATIMA E.",
+    "phone": "+543863428859",
+    "ref:sisa_codigo": "70900702397889",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27201785168"
   }
 },
 {
   "type": "node",
   "id": 4580279089,
-  "lat": -27.1677582,
-  "lon": -65.4950269,
+  "lat": -27.1677973,
+  "lon": -65.4950321,
   "tags": {
-    "addr:postcode": "4142",
+    "addr:city": "Monteros",
+    "addr:housenumber": "106",
+    "addr:postcode": "T4142DTD",
     "addr:street": "Rivadavia",
     "amenity": "pharmacy",
+    "email": "farmaciasierra10@hotmail.com",
     "healthcare": "pharmacy",
     "name": "Sierra",
-    "name:es": "Sierra"
+    "operator": "GIMENEZ ARAGON MARTA",
+    "phone": "+543863426706",
+    "ref:sisa_codigo": "70900702397661",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27107139538"
   }
 },
 {
@@ -36469,12 +36663,19 @@
   "lat": -27.1696088,
   "lon": -65.4984572,
   "tags": {
-    "addr:postcode": "4142",
+    "addr:city": "Monteros",
+    "addr:housenumber": "275",
+    "addr:postcode": "T4142ANE",
     "addr:street": "Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Belgrano",
-    "name:es": "Belgrano"
+    "name": "Santa María",
+    "opening_hours": "Mo-Fr 08:00-13:00, 17:30-21:00; Sa 09:00-13:00, 17:30-20:30",
+    "operator": "ALDERETE DE ROSSO MARIA GRACIELA DEL VALLE",
+    "phone": "+543863426538",
+    "ref:sisa_codigo": "70900702397513",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27178927197"
   }
 },
 {
@@ -36524,12 +36725,18 @@
   "lat": -27.1607812,
   "lon": -65.5023010,
   "tags": {
-    "addr:postcode": "4142",
+    "addr:city": "Monteros",
+    "addr:housenumber": "825",
+    "addr:postcode": "T4142ACQ",
     "addr:street": "24 de Septiembre",
     "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/althea.farmacia/",
     "healthcare": "pharmacy",
     "name": "Althea",
-    "name:es": "Althea"
+    "opening_hours": "Mo-Sa 08:30-13:00, 16:30-21:30",
+    "phone": "+543863420028",
+    "ref:sisa_codigo": "70900702399327",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -37882,7 +38089,11 @@
     "healthcare": "pharmacy",
     "name": "Plazoleta",
     "opening_hours": "Mo-Su 08:00-00:00",
-    "operator": "Farmacias Plazoleta",
+    "operator": "NET FARMA S.R.L",
+    "phone": "+543814224442",
+    "ref:sisa_codigo": "70900842397598",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33707145469",
     "website": "https://farmaciasplazoleta.com/"
   }
 },
@@ -43872,10 +44083,18 @@
   "lon": -65.5953123,
   "tags": {
     "addr:city": "Concepción",
-    "addr:postcode": "4146",
-    "addr:street": "24 de Septiembre",
+    "addr:housenumber": "103",
+    "addr:postcode": "T4146ATC",
+    "addr:street": "Belgrano",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "San José",
+    "opening_hours": "Mo-Fr 08:30-14:30, 17:00-21:00; Sa 08:30-14:30",
+    "operator": "POCH GUSTAVO ADOLFO",
+    "phone": "+543865421400;+543865429149",
+    "ref:sisa_codigo": "70900212397410",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20142606292"
   }
 },
 {
@@ -44437,10 +44656,16 @@
   "lat": -26.5921731,
   "lon": -65.9189361,
   "tags": {
+    "addr:city": "Amaicha del Valle",
+    "addr:street": "Ernesto Padilla",
     "amenity": "pharmacy",
+    "email": "farmavidalamaicha@hotmail.com",
     "healthcare": "pharmacy",
-    "level": "0",
-    "name": "Vidal"
+    "name": "Vidal",
+    "operator": "BALDERRAMA DE AVALOS M.ELENA",
+    "ref:sisa_codigo": "70900982397894",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27032103311"
   }
 },
 {
@@ -44449,10 +44674,17 @@
   "lat": -26.5930427,
   "lon": -65.9191887,
   "tags": {
+    "addr:city": "Amaicha del Valle",
+    "addr:street": "Ernesto Padilla",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "level": "0",
-    "name": "El Condor"
+    "name": "El Condor",
+    "opening_hours": "Mo-Sa 09:00-13:00, 17:00-21:00",
+    "operator": "VILLANUEVA MARCELA EDITH",
+    "phone": "+543892421210",
+    "ref:sisa_codigo": "70900982397967",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20202182748"
   }
 },
 {
@@ -44461,10 +44693,14 @@
   "lat": -26.3633976,
   "lon": -65.9576804,
   "tags": {
+    "addr:city": "Colalao del Valle",
+    "addr:street": "Ruta Nacional 40",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "level": "0",
-    "name": "Farmacia de la Esquina"
+    "name": "Farmacia de la Esquina",
+    "opening_hours": "Mo-Sa 08:30-13:00, 17:00-22:00",
+    "phone": "+543813374824",
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -44956,8 +45192,19 @@
   "lat": -26.8117863,
   "lon": -65.3011932,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "2099",
+    "addr:postcode": "T4107CEH",
+    "addr:street": "Avenida Aconquija",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Plazoleta",
+    "opening_hours": "Mo-Fr 07:30-14:00, 16:30-22:30; Sa 07:30-14:00, 17:00-22:00",
+    "operator": "Farmacia Plazoleta Sur SRL",
+    "phone": "+543814251370",
+    "ref:sisa_codigo": "70901192397578",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30709695815"
   }
 },
 {
@@ -45499,8 +45746,20 @@
   "lat": -26.7966381,
   "lon": -65.1883449,
   "tags": {
+    "addr:city": "San Miguel Tucuman",
+    "addr:housenumber": "2697",
+    "addr:postcode": "T4001JBE",
+    "addr:street": "Avenida Juan B. Justo",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "email": "tucsal@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Las Bases",
+    "opening_hours": "Mo-Fr 08:00-22:00; Su 08:00-22:00",
+    "operator": "BERTA TERESA ESTELA",
+    "phone": "+543814271516",
+    "ref:sisa_codigo": "70900842397461",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27057277284"
   }
 },
 {
@@ -45924,9 +46183,20 @@
   "lat": -26.8118662,
   "lon": -65.3024269,
   "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "2170",
+    "addr:postcode": "T4107CEI",
+    "addr:street": "Avenida Aconquija",
     "amenity": "pharmacy",
+    "email": "marinomarchesi@hotmail.com",
     "healthcare": "pharmacy",
-    "name": "Farmacia Zarzosa"
+    "name": "Zarzosa",
+    "opening_hours": "Mo-Fr 08:30-13:30, 17:00-22:00; Sa 08:30-13:30",
+    "operator": "ZARZOSA MARIA DE LOS ANGELES",
+    "phone": "+543814252859",
+    "ref:sisa_codigo": "70901192397495",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27160745970"
   }
 },
 {
@@ -46675,13 +46945,18 @@
   "lat": -27.3475870,
   "lon": -65.5837119,
   "tags": {
+    "addr:city": "Concepción",
     "addr:postcode": "4146",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia del Sur",
+    "name": "Del Sur",
     "opening_hours": "24/7",
-    "phone": "03865 421275"
+    "operator": "SUCESION DE SUCESION DE MINNITI JORGE EDUARDO",
+    "phone": "+543865421275",
+    "ref:sisa_codigo": "70900212398032",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20123528876"
   }
 },
 {
@@ -49419,12 +49694,23 @@
 {
   "type": "node",
   "id": 5379266621,
-  "lat": -26.8310099,
-  "lon": -65.2193538,
+  "lat": -26.8308902,
+  "lon": -65.2194745,
   "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "199",
+    "addr:postcode": "T4000NYB",
+    "addr:street": "Avenida Leandro N. Alem",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Del Pueblo"
+    "name": "Del Pueblo",
+    "opening_hours": "Mo-Sa 08:00-00:00",
+    "operator": "BRADEL DEL PUEBLO S.R.L.",
+    "phone": "+543814244540;+543814244504",
+    "ref:sisa_codigo": "70900842399371",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33702413309",
+    "website": "https://www.farmaciasdelpueblo.com.ar/"
   }
 },
 {
@@ -49940,7 +50226,8 @@
   "lon": -64.4776386,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Avenida"
   }
 },
 {
@@ -50846,7 +51133,8 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Colón"
+    "name": "Colón",
+    "opening_hours": "Mo-Sa 08:00-13:00,16:00-21:00"
   }
 },
 {
@@ -55353,6 +55641,8 @@
   "lon": -65.1956046,
   "tags": {
     "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "87",
+    "addr:postcode": "T4000GTA",
     "addr:street": "Avenida Sarmiento",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -57388,12 +57678,21 @@
 {
   "type": "node",
   "id": 6228361154,
-  "lat": -26.8096700,
-  "lon": -65.2475908,
+  "lat": -26.8097400,
+  "lon": -65.2475607,
   "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "3592",
+    "addr:postcode": "T4000GWV",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "San Lorenzo"
+    "name": "San Lorenzo",
+    "operator": "FCIA. Y LABORAT. TRIBUNALES S. R. L.",
+    "phone": "+543814235052;+543814235054;+543814326511",
+    "ref:sisa_codigo": "70900842399308",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "30691761939"
   }
 },
 {
@@ -59784,13 +60083,20 @@
 {
   "type": "node",
   "id": 6556386487,
-  "lat": -38.9572506,
-  "lon": -68.0580969,
+  "lat": -38.9572306,
+  "lon": -68.0580710,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "73",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bartolomé Mitre",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia del Pueblo"
+    "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/"
   }
 },
 {
@@ -60716,13 +61022,20 @@
 {
   "type": "node",
   "id": 6831864830,
-  "lat": -38.9572159,
-  "lon": -68.0643249,
+  "lat": -38.9572136,
+  "lon": -68.0642409,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "346",
+    "addr:postcode": "Q8300",
+    "addr:street": "Domingo Faustino Sarmiento",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacias Global"
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/"
   }
 },
 {
@@ -65247,8 +65560,14 @@
     "addr:postcode": "4155",
     "addr:street": "Florida",
     "amenity": "pharmacy",
+    "email": "FCIAFLORIDA@YAHOO.COM.AR",
     "healthcare": "pharmacy",
     "name": "Florida",
+    "operator": "CASTILLO DE ARGUELLO ENRIQUETA",
+    "phone": "+543865493007",
+    "ref:sisa_codigo": "70900772397847",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27105927318",
     "source": "https://datos.gob.ar/dataset/pami-farmacias"
   }
 },
@@ -65275,12 +65594,13 @@
   "tags": {
     "addr:city": "Aguilares",
     "addr:housenumber": "891",
-    "addr:postcode": "4152",
+    "addr:postcode": "T4152FHM",
     "addr:street": "Vélez Sarsfield",
     "amenity": "pharmacy",
-    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Santa Lucía",
+    "name": "Santa Lucía",
+    "phone": "+543865481152",
+    "ref:sisa_tipologia": "FARMACIA",
     "source": "https://datos.gob.ar/dataset/pami-farmacias"
   }
 },
@@ -67737,9 +68057,15 @@
   "tags": {
     "addr:city": "La Banda del Río Salí",
     "addr:postcode": "4109",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Changomas"
+    "name": "Chango Mas",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "operator": "WAL- MART ARGENTINA S. R. L.",
+    "ref:sisa_codigo": "70900142397964",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30678138300"
   }
 },
 {
@@ -67887,6 +68213,7 @@
     "addr:postcode": "7300",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "check_date": "2023-05-17",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Mirande"
@@ -67944,13 +68271,15 @@
   "tags": {
     "addr:city": "Famaillá",
     "addr:housenumber": "354",
-    "addr:postcode": "4132",
+    "addr:postcode": "T4132CMQ",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Pereyra",
+    "name": "Pereira",
+    "operator": "VEGA DE PEREIRA ESTHER",
     "ref:sisa_codigo": "70900282398058",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27066344849"
   }
 },
 {
@@ -67961,13 +68290,16 @@
   "tags": {
     "addr:city": "Famaillá",
     "addr:housenumber": "362",
-    "addr:postcode": "4132",
+    "addr:postcode": "T4132BIH",
     "addr:street": "Lavalle",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Antonio",
+    "operator": "SABRINA EVELIN MEDINA NUÑEZ",
+    "phone": "+543863461089",
     "ref:sisa_codigo": "70900282397811",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20070104939"
   }
 },
 {
@@ -69752,10 +70084,8 @@
     "addr:postcode": "7300",
     "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
-    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Taverna",
-    "phone": "+54 2281 42 2409"
+    "name": "Del Fuerte Azul"
   }
 },
 {
@@ -69824,6 +70154,7 @@
   "lon": -59.8602809,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-05-15",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia López"
@@ -71086,8 +71417,19 @@
   "lat": -26.8537244,
   "lon": -65.7086903,
   "tags": {
+    "addr:city": "Tafí del Valle",
+    "addr:housenumber": "72",
+    "addr:postcode": "T4140AAN",
+    "addr:street": "Avenida Presidente Perón",
     "amenity": "pharmacy",
-    "name": "Del Carmen"
+    "healthcare": "pharmacy",
+    "name": "Del Carmen",
+    "opening_hours": "Mo-Sa 09:00-13:00,17:00-21:00",
+    "operator": "MARINO MATTA ABRAHAM R.",
+    "phone": "+543867421080",
+    "ref:sisa_codigo": "70900982397821",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20923125605"
   }
 },
 {
@@ -71365,6 +71707,7 @@
     "addr:postcode": "7300",
     "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
+    "check_date": "2023-05-15",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Soncini",
@@ -72935,7 +73278,18 @@
   "lat": -26.8358897,
   "lon": -65.1809567,
   "tags": {
-    "amenity": "pharmacy"
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1101",
+    "addr:postcode": "T4000FUL",
+    "addr:street": "Avenida Benjamín Aráoz",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Benjamín Araoz",
+    "operator": "CONTINI ROBERTO HORACIO",
+    "phone": "+543814229888",
+    "ref:sisa_codigo": "70900842398027",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20163147026"
   }
 },
 {
@@ -73172,8 +73526,20 @@
   "lat": -26.9296412,
   "lon": -65.3386693,
   "tags": {
+    "addr:city": "San Isidro de Lules",
+    "addr:housenumber": "1101",
+    "addr:postcode": "T4128ANG",
+    "addr:street": "General Manuel Belgrano",
     "amenity": "pharmacy",
-    "name": "Geder"
+    "email": "geder-lily@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Geder",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "operator": "ALE MIRTA LILIANA",
+    "phone": "+543814811747",
+    "ref:sisa_codigo": "70900632397494",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27149479665"
   }
 },
 {
@@ -73182,8 +73548,18 @@
   "lat": -26.9255794,
   "lon": -65.3371753,
   "tags": {
+    "addr:city": "San Isidro de Lules",
+    "addr:housenumber": "258",
+    "addr:postcode": "T4128ADF",
+    "addr:street": "Avenida 9 de Julio",
     "amenity": "pharmacy",
-    "name": "Central"
+    "healthcare": "pharmacy",
+    "name": "Central",
+    "operator": "VALVERDE CARLOS ALBERTO",
+    "phone": "+543814812309",
+    "ref:sisa_codigo": "70900632397743",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20144278004"
   }
 },
 {
@@ -73209,15 +73585,20 @@
   "lat": -26.9286990,
   "lon": -65.3402726,
   "tags": {
-    "addr:city": "Lules",
+    "addr:city": "San Isidro de Lules",
     "addr:housenumber": "249",
-    "addr:postcode": "4128",
+    "addr:postcode": "T4128BEE",
     "addr:street": "Italia",
     "amenity": "pharmacy",
+    "email": "cpnmonteros@yahoo.com.ar",
     "healthcare": "pharmacy",
     "name": "San José",
+    "opening_hours": "24/7",
+    "operator": "MONTEROS ELVIRA DE LAS MERCEDES",
+    "phone": "+543814811882",
     "ref:sisa_codigo": "70900632397441",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23148829454"
   }
 },
 {
@@ -73226,8 +73607,19 @@
   "lat": -26.9247639,
   "lon": -65.3375897,
   "tags": {
+    "addr:city": "San Isidro de Lules",
+    "addr:housenumber": "89",
+    "addr:postcode": "T4128CNA",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
-    "name": "Santa Rita"
+    "healthcare": "pharmacy",
+    "name": "Santa Rita",
+    "opening_hours": "Mo-Sa 09:00-13:00, 18:00-22:00",
+    "operator": "DIAZ FALCAO JORGE",
+    "phone": "+543814811683",
+    "ref:sisa_codigo": "70900632397935",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20168420464"
   }
 },
 {
@@ -73238,13 +73630,18 @@
   "tags": {
     "addr:city": "Lules",
     "addr:housenumber": "319",
-    "addr:postcode": "4128",
+    "addr:postcode": "T4128CNG",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "email": "zalleta@hotmail.com",
     "healthcare": "pharmacy",
     "name": "San Martín",
+    "opening_hours": "Mo-Sa 09:00-01:00",
+    "operator": "DIAZ OSCAR ARTURO",
+    "phone": "+543814811126",
     "ref:sisa_codigo": "70900632397714",
-    "ref:sisa_tipologia": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20162348168"
   }
 },
 {
@@ -75107,9 +75504,19 @@
   "lat": -26.8106886,
   "lon": -65.2424907,
   "tags": {
+    "addr:city": "San Miguel de Tucuman",
+    "addr:housenumber": "3224",
+    "addr:postcode": "T4000GWS",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Daruich",
+    "opening_hours": "Mo-Sa 08:00-13:00, 17:00-21:00",
+    "operator": "DARUICH EDUARDO ALFREDO",
+    "phone": "+543814330791",
+    "ref:sisa_codigo": "70900842397404",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20133397486"
   }
 },
 {
@@ -75118,9 +75525,20 @@
   "lat": -26.8115385,
   "lon": -65.2374320,
   "tags": {
+    "addr:city": "San Miguel de Tucuman",
+    "addr:housenumber": "2847",
+    "addr:postcode": "T4000GWB",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo",
+    "opening_hours": "Mo-Sa 08:00-23:00",
+    "operator": "BRAVO CARLOS ALBERTO",
+    "phone": "+543814527784",
+    "ref:sisa_codigo": "70900842397592",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33702413309",
+    "website": "https://www.farmaciasdelpueblo.com.ar/"
   }
 },
 {
@@ -80635,11 +81053,21 @@
 {
   "type": "node",
   "id": 10692051111,
-  "lat": -26.8577464,
-  "lon": -65.1770127,
+  "lat": -26.8577602,
+  "lon": -65.1771188,
   "tags": {
-    "addr:postcode": "4109",
-    "amenity": "pharmacy"
+    "addr:city": "Banda del Río Salí",
+    "addr:housenumber": "390",
+    "addr:street": "Lavalle",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Luz",
+    "opening_hours": "Mo-Sa 08:30-13:00, 17:00-21:30; Su 09:00-13:00",
+    "operator": "WIERNA MARCIA LUZ DOLORES",
+    "phone": "+543814553016",
+    "ref:sisa_codigo": "70020012317885",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27217474847"
   }
 },
 {
@@ -81084,6 +81512,8 @@
     "name": "Orion",
     "operator": "LENCINA CLAUDIA",
     "phone": "+543814227853",
+    "ref:sisa_codigo": "70900842397886",
+    "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR22222636604"
   }
 },
@@ -81562,7 +81992,7 @@
     "name": "Siloé",
     "opening_hours": "Mo-Fr 08:30-13:00,17:00-21:00; Sa 09:00-13:00",
     "phone": "+543814228926",
-    "ref:sisa_codigo": "FARMACIA"
+    "ref:sisa_tipologia": "FARMACIA"
   }
 },
 {
@@ -82028,8 +82458,8 @@
 {
   "type": "node",
   "id": 10780678371,
-  "lat": -31.6544230,
-  "lon": -60.7104037,
+  "lat": -31.6544757,
+  "lon": -60.7103957,
   "tags": {
     "addr:city": "Santa Fe",
     "addr:housenumber": "1801",
@@ -82037,8 +82467,10 @@
     "addr:street": "San Jerónimo",
     "amenity": "pharmacy",
     "contact:facebook": "https://www.facebook.com/FarmaciaWuilloud/",
+    "contact:website": "https://www.gurugo.com.ar/fichas/farmacia-wuilloud_15104084",
     "healthcare": "pharmacy",
     "name": "Wuillud",
+    "opening_hours": "Mo-Sa 08:00-13:00,16:00-20:00",
     "phone": "+54 342 4597895",
     "ref:sisa_codigo": "70820632387057"
   }
@@ -83356,6 +83788,7 @@
   "tags": {
     "addr:city": "San Miguel de Tucumán",
     "addr:housenumber": "402",
+    "addr:postcode": "T4002CAN",
     "addr:street": "Matheu",
     "amenity": "pharmacy",
     "email": "farmamatheu@yahoo.com.ar",
@@ -83443,12 +83876,1931 @@
     "email": "farmacia1bermudez@hotmail.com",
     "healthcare": "pharmacy",
     "name": "Bermudez",
-    "opening_hours": "Mo-Fr 09:00–13:00, 17:30–22:00; Sa 09:00–13:00, 18:00–22:00",
+    "opening_hours": "Mo-Fr 09:00-13:00, 17:30-22:00; Sa 09:00-13:00, 18:00-22:00",
     "operator": "BERMUDEZ FATIMA DEL VALLE",
     "phone": "+543814245440",
     "ref:sisa_codigo": "70900842397492",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR27146603675"
+  }
+},
+{
+  "type": "node",
+  "id": 10876802074,
+  "lat": -31.5522603,
+  "lon": -68.5596232,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nueva Farmacia Jardín"
+  }
+},
+{
+  "type": "node",
+  "id": 10876862432,
+  "lat": -27.0594514,
+  "lon": -65.4041018,
+  "tags": {
+    "addr:city": "Famaillá",
+    "addr:housenumber": "655",
+    "addr:postcode": "T4132BIM",
+    "addr:street": "Lavalle",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santa Isabel",
+    "phone": "+543863462379",
+    "ref:sisa_tipologia": "FARMACIA"
+  }
+},
+{
+  "type": "node",
+  "id": 10876862433,
+  "lat": -27.0510783,
+  "lon": -65.4099647,
+  "tags": {
+    "addr:city": "Famaillá",
+    "addr:housenumber": "256",
+    "addr:postcode": "T4132AUF",
+    "addr:street": "Diego de Villarroel",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "La Botica",
+    "operator": "MARIELA DE LOS ANGELES MARTINEZ",
+    "phone": "+543863461011",
+    "ref:sisa_codigo": "70900282399994",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27276136866"
+  }
+},
+{
+  "type": "node",
+  "id": 10884436694,
+  "lat": -27.4299823,
+  "lon": -65.6154214,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "890",
+    "addr:postcode": "T4152COL",
+    "addr:street": "Diego de Villarroel",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santo Tomás",
+    "operator": "SANAGUA, MARIA M.",
+    "phone": "+543865482192",
+    "ref:sisa_codigo": "70900772397876",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27265796171"
+  }
+},
+{
+  "type": "node",
+  "id": 10884470147,
+  "lat": -27.4438823,
+  "lon": -65.6159853,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "2395",
+    "addr:postcode": "T4152DVS",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "email": "montalvan2395@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "San Martín",
+    "opening_hours": "Mo-Sa 08:30-22:00; Su 08:30-13:00",
+    "operator": "BIBIANA RAQUEL GAIDO",
+    "phone": "+543865481839",
+    "ref:sisa_codigo": "70900772397509",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23161964204"
+  }
+},
+{
+  "type": "node",
+  "id": 10884518977,
+  "lat": -27.4269904,
+  "lon": -65.6111719,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "581",
+    "addr:postcode": "T4152CKI",
+    "addr:street": "Domingo French",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Benito",
+    "opening_hours": "Mo-Sa 08:00-12:00,18:00-21:00",
+    "operator": "ARIAS SANDRA ISABEL",
+    "phone": "+543865485173",
+    "ref:sisa_codigo": "70900772398060",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27202844710"
+  }
+},
+{
+  "type": "node",
+  "id": 10884601554,
+  "lat": -27.4340237,
+  "lon": -65.6142431,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1301",
+    "addr:postcode": "T4152ATH",
+    "addr:street": "Avenida Sarmiento",
+    "amenity": "pharmacy",
+    "email": "farmanueva@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Nueva",
+    "opening_hours": "Mo-Fr 08:00-12:30, 17:00-21:00; Sa 08:00-12:30",
+    "operator": "JIMENEZ MARIA CLAUDIA",
+    "phone": "+543865483764",
+    "ref:sisa_codigo": "70900772397506",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27175143039"
+  }
+},
+{
+  "type": "node",
+  "id": 10884690300,
+  "lat": -27.4321097,
+  "lon": -65.6137236,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "576",
+    "addr:postcode": "T4152ANR",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nuestra Señora del Carmen",
+    "opening_hours": "Mo-Fr 08:00-12:30,17:00-21:30; Sa 08:00-12:30",
+    "operator": "FARMACIA DEL INTERIOR S.R.L",
+    "phone": "+543865481579",
+    "ref:sisa_codigo": "70900772397571",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30708269006"
+  }
+},
+{
+  "type": "node",
+  "id": 10884697764,
+  "lat": -27.4275576,
+  "lon": -65.6144587,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "621",
+    "addr:postcode": "T4152ATA",
+    "addr:street": "Avenida Sarmiento",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Córdoba",
+    "operator": "GRANEROS GABRIELA",
+    "phone": "+543865483909",
+    "ref:sisa_codigo": "70900772397895",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27230556100"
+  }
+},
+{
+  "type": "node",
+  "id": 10884702084,
+  "lat": -27.4306576,
+  "lon": -65.6162270,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "940",
+    "addr:postcode": "T4152DUR",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Massouh",
+    "operator": "MASSHOUH MARIA VICTORIA",
+    "phone": "+543865481781",
+    "ref:sisa_codigo": "70900772397943",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27148291468"
+  }
+},
+{
+  "type": "node",
+  "id": 10884709323,
+  "lat": -27.4295834,
+  "lon": -65.6162727,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "864",
+    "addr:postcode": "T4152DUP",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Milagro",
+    "operator": "F.A.C.U.I.S.I. SRL",
+    "phone": "+543865485167",
+    "ref:sisa_codigo": "70900772397557",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30675280262"
+  }
+},
+{
+  "type": "node",
+  "id": 10884719680,
+  "lat": -27.4254972,
+  "lon": -65.6134065,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "528",
+    "addr:postcode": "T4152AQQ",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Salud",
+    "operator": "MARIA LAURA JATIP",
+    "ref:sisa_codigo": "70900772399856",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27271410315"
+  }
+},
+{
+  "type": "node",
+  "id": 10887547089,
+  "lat": -26.7721341,
+  "lon": -65.2037057,
+  "tags": {
+    "addr:city": "Las Talitas",
+    "addr:housenumber": "1199",
+    "addr:postcode": "T4101DBW",
+    "addr:street": "Calle 10",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nuestra Señora de Fatima",
+    "operator": "QUIROGA HUGO VICTOR",
+    "phone": "+543814372253",
+    "ref:sisa_codigo": "70901052397921",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30627435653"
+  }
+},
+{
+  "type": "node",
+  "id": 10887586904,
+  "lat": -26.7720096,
+  "lon": -65.2071013,
+  "tags": {
+    "addr:city": "Villa Mariano Moreno",
+    "addr:housenumber": "205",
+    "addr:postcode": "T4101DSE",
+    "addr:street": "Calle 25",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Rosario",
+    "phone": "+543814374981",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30692138747"
+  }
+},
+{
+  "type": "node",
+  "id": 10888574176,
+  "lat": -26.8018558,
+  "lon": -65.2895910,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1491",
+    "addr:postcode": "T4107DVB",
+    "addr:street": "Avenida Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "América VII",
+    "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-14:00, 17:00-21:00",
+    "phone": "+543814856004",
+    "ref:sisa_codigo": "70901192399325",
+    "ref:sisa_tipologia": "FARMACIA"
+  }
+},
+{
+  "type": "node",
+  "id": 10888614354,
+  "lat": -27.1696831,
+  "lon": -65.4994052,
+  "tags": {
+    "addr:city": "Monteros",
+    "addr:housenumber": "260",
+    "addr:postcode": "T4142BWF",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "email": "NELDA@ARNET.COM.AR",
+    "healthcare": "pharmacy",
+    "name": "Del Milagro",
+    "operator": "ABREGU NELDA DEL VALLE",
+    "phone": "+543863427943",
+    "ref:sisa_codigo": "70900702397488",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27139818194"
+  }
+},
+{
+  "type": "node",
+  "id": 10889614870,
+  "lat": -27.3441908,
+  "lon": -65.5899426,
+  "tags": {
+    "addr:city": "Concepción",
+    "addr:housenumber": "1274",
+    "addr:postcode": "T4146DFD",
+    "addr:street": "Italia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Italia",
+    "opening_hours": "Mo-Sa 08:00-13:00",
+    "operator": "BETI JESUS RICARDO",
+    "phone": "+543865424949",
+    "ref:sisa_codigo": "70900212397400",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20126750790"
+  }
+},
+{
+  "type": "node",
+  "id": 10889614871,
+  "lat": -27.3440751,
+  "lon": -65.5893917,
+  "tags": {
+    "addr:city": "Concepción",
+    "addr:housenumber": "1211",
+    "addr:postcode": "T4146DFC",
+    "addr:street": "Italia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Virgen del Rosario",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "HERRERA NORMA BEATRIZ",
+    "phone": "+543865424064",
+    "ref:sisa_codigo": "70900212397501",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27167353458"
+  }
+},
+{
+  "type": "node",
+  "id": 10889614872,
+  "lat": -27.3439091,
+  "lon": -65.5904902,
+  "tags": {
+    "addr:city": "Concepción",
+    "addr:housenumber": "1301",
+    "addr:postcode": "T4146DFE",
+    "addr:street": "Italia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Madras",
+    "opening_hours": "Mo-Sa 08:30-13:00, 17:00-22:00",
+    "operator": "PELLE JUAN ARGENTINO",
+    "phone": "+543865617958;+543865421889",
+    "ref:sisa_codigo": "70900212397874",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20069969888"
+  }
+},
+{
+  "type": "node",
+  "id": 10891447519,
+  "lat": -26.8207358,
+  "lon": -65.1886966,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "370",
+    "addr:postcode": "T4000GRQ",
+    "addr:street": "Avenida Gobernador del Campo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Juramento",
+    "opening_hours": "Mo-Su 09:00-13:00, 17:00-21:00",
+    "operator": "ACOSTA E IBAÑEZ S.H.",
+    "phone": "+543814282021",
+    "ref:sisa_codigo": "70900842397814",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30697148031"
+  }
+},
+{
+  "type": "node",
+  "id": 10891959129,
+  "lat": -26.8346168,
+  "lon": -65.2057414,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "283",
+    "addr:postcode": "T4000IHE",
+    "addr:street": "9 de Julio de 1816",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Atlas",
+    "opening_hours": "Mo-Fr 08:00-13:00, 17:30-21:00; Sa 08:30-13:30",
+    "operator": "AGUERO CARLOS RUBEN",
+    "phone": "+543814313687",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20168113170"
+  }
+},
+{
+  "type": "node",
+  "id": 10891959204,
+  "lat": -26.8308412,
+  "lon": -65.2057122,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "546",
+    "addr:postcode": "T4000CNL",
+    "addr:street": "24 de Setiembre de 1812",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "FarMar Catedral I",
+    "opening_hours": "24/7",
+    "operator": "FACOR SRL",
+    "phone": "+543814221842",
+    "ref:sisa_codigo": "70900842397950",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30647675502"
+  }
+},
+{
+  "type": "node",
+  "id": 10891989060,
+  "lat": -26.8558839,
+  "lon": -65.2371756,
+  "tags": {
+    "addr:city": "San Miguel de Tucuman",
+    "addr:housenumber": "2201",
+    "addr:postcode": "T4002LDA",
+    "addr:street": "Amador Lucero",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Alejandro Fleming",
+    "operator": "ALEJANDRO FLEMING SH.",
+    "phone": "+543814361553",
+    "ref:sisa_codigo": "70900842397746",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30697150974"
+  }
+},
+{
+  "type": "node",
+  "id": 10891990052,
+  "lat": -26.8268049,
+  "lon": -65.2036641,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "313",
+    "addr:postcode": "T4000IIG",
+    "addr:street": "25 de Mayo de 1810",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo",
+    "opening_hours": "Mo-Sa 08:00-22:30",
+    "operator": "BRADEL DEL PUEBLO SRL",
+    "phone": "+543814216600",
+    "ref:sisa_codigo": "70900842399387",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33702413309",
+    "website": "https://www.farmaciasdelpueblo.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10892003082,
+  "lat": -26.8527256,
+  "lon": -65.2101592,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1579",
+    "addr:postcode": "T4002IPM",
+    "addr:street": "9 de Julio de 1816",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "España",
+    "operator": "VILLAR CRISTINA ROSA",
+    "phone": "+543814290327",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27112393078"
+  }
+},
+{
+  "type": "node",
+  "id": 10892087600,
+  "lat": -26.8313387,
+  "lon": -65.2369468,
+  "tags": {
+    "addr:city": "San Miguel de Tucuman",
+    "addr:housenumber": "2470",
+    "addr:postcode": "T4000BFX",
+    "addr:street": "General Lamadrid",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Rafael",
+    "opening_hours": "24/7",
+    "operator": "SANTUCHO DELIA DEL VALLE",
+    "phone": "+543814321359",
+    "ref:sisa_codigo": "70900842397730",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27171823000"
+  }
+},
+{
+  "type": "node",
+  "id": 10892095024,
+  "lat": -26.8164486,
+  "lon": -65.2200848,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "799",
+    "addr:postcode": "T4000JNO",
+    "addr:street": "Asunción",
+    "amenity": "pharmacy",
+    "email": "farmaciaasuncion@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Asunción",
+    "opening_hours": "Mo-Fr 08:00-13:00, 17:00-21:00",
+    "operator": "LORENZO DE HAWAT, MARIA N.",
+    "phone": "+543814232976",
+    "ref:sisa_codigo": "70900842397909",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27047062859"
+  }
+},
+{
+  "type": "node",
+  "id": 10892095449,
+  "lat": -26.8230773,
+  "lon": -65.2219699,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "299",
+    "addr:postcode": "T4000JNE",
+    "addr:street": "Asunción",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Joaquin",
+    "operator": "ORTIZ, CLARA AURORA",
+    "phone": "+543814330394",
+    "ref:sisa_codigo": "70900842397775",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27127344383"
+  }
+},
+{
+  "type": "node",
+  "id": 10892234535,
+  "lat": -26.8272447,
+  "lon": -65.2525232,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "356",
+    "addr:postcode": "T4000LXQ",
+    "addr:street": "Avenida Adolfo de la Vega",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Maria III",
+    "opening_hours": "24/7",
+    "operator": "CPÑIA. FARMACEUTICA NORTE S.R. L.",
+    "phone": "+543812348430",
+    "ref:sisa_codigo": "70900842399301",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30711704880"
+  }
+},
+{
+  "type": "node",
+  "id": 10892312287,
+  "lat": -26.8361346,
+  "lon": -65.1780995,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1298",
+    "addr:postcode": "T4000FUZ",
+    "addr:street": "Avenida Benjamín Aráoz",
+    "amenity": "pharmacy",
+    "email": "fciariosali@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Río Salí",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "operator": "CONTINI ROBERTO",
+    "phone": "+543814223392;+543814212842",
+    "ref:sisa_codigo": "70900842397645",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20163147026"
+  }
+},
+{
+  "type": "node",
+  "id": 10892455360,
+  "lat": -26.8274035,
+  "lon": -65.2325616,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "176",
+    "addr:postcode": "T4000KHO",
+    "addr:street": "Avenida Colón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ely",
+    "operator": "WERNER, ELIZABETH DEL VALLE",
+    "phone": "+543814324420",
+    "ref:sisa_codigo": "70900842397698",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27169458885"
+  }
+},
+{
+  "type": "node",
+  "id": 10892484357,
+  "lat": -26.8331653,
+  "lon": -65.2340641,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "596",
+    "addr:postcode": "T4000KHS",
+    "addr:street": "Avenida Colón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo",
+    "opening_hours": "Mo-Sa 08:00-22:30",
+    "operator": "DELORSO DE BRAVO ANA DEL VALLE",
+    "phone": "+543814212149;+543814527780",
+    "ref:sisa_codigo": "70900842399984",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27050835087",
+    "website": "http://www.farmaciasdelpueblo.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10893942214,
+  "lat": -26.8032977,
+  "lon": -65.2464172,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1383",
+    "addr:postcode": "T4001NHE",
+    "addr:street": "Avenida América",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Vicente",
+    "opening_hours": "Mo-Sa 14:00–21:00",
+    "operator": "GUIBERT, ANA CAROLINA",
+    "phone": "+543814850235",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27232383335"
+  }
+},
+{
+  "type": "node",
+  "id": 10893942244,
+  "lat": -26.8168919,
+  "lon": -65.2501262,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "300",
+    "addr:street": "Avenida América",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santa María",
+    "operator": "ESCALANTE, HECTOR LUIS",
+    "phone": "+543814354972;+543812315923",
+    "ref:sisa_codigo": "70900842397776",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23259222389"
+  }
+},
+{
+  "type": "node",
+  "id": 10893955058,
+  "lat": -26.8008156,
+  "lon": -65.2458986,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1555",
+    "addr:postcode": "T4001NHG",
+    "addr:street": "Avenida América",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Americana",
+    "opening_hours": "Mo-Fr 09:00-13:00, 17:00-22:00; Sa 09:00-13:00",
+    "operator": "CISNEROS FEIJOO , RICARDO M.",
+    "phone": "+543814850298",
+    "ref:sisa_codigo": "70900842397683",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20181877325"
+  }
+},
+{
+  "type": "node",
+  "id": 10894013499,
+  "lat": -26.8146984,
+  "lon": -65.2220491,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1862",
+    "addr:postcode": "T4000GVR",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "email": "la_farpiamonte@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Del Piamonte",
+    "operator": "LORENZO ALESSANDRIA",
+    "phone": "+543814322738",
+    "ref:sisa_codigo": "70900842397699",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20182031446"
+  }
+},
+{
+  "type": "node",
+  "id": 10894035043,
+  "lat": -26.8112163,
+  "lon": -65.1922383,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1558",
+    "addr:postcode": "T4001JAT",
+    "addr:street": "Avenida Juan B. Justo",
+    "amenity": "pharmacy",
+    "email": "farprimavera@arnetbiz.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Primavera",
+    "opening_hours": "Mo-Sa 08:00-01:00",
+    "operator": "BERARDUCCI DE DAVID DORA M",
+    "phone": "+543814306250",
+    "ref:sisa_codigo": "70900842397455",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27044896902"
+  }
+},
+{
+  "type": "node",
+  "id": 10894120304,
+  "lat": -26.8019130,
+  "lon": -65.1902532,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1101",
+    "addr:street": "Avenida Gaona",
+    "amenity": "pharmacy",
+    "email": "belenfarmacia@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Belén",
+    "opening_hours": "24/7",
+    "operator": "BOLANO CARMELA TRINIDAD",
+    "phone": "+543814274540",
+    "ref:sisa_codigo": "70900842397747",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23059971794"
+  }
+},
+{
+  "type": "node",
+  "id": 10894219370,
+  "lat": -26.8192998,
+  "lon": -65.1937425,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "949",
+    "addr:postcode": "T4001JAA",
+    "addr:street": "Avenida Juan B. Justo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Plazoleta",
+    "opening_hours": "Mo-Sa 07:30-22:30",
+    "operator": "FCIA. PLAZOLETA SUR-S. R. L.",
+    "phone": "+543814217135;+543814224285",
+    "ref:sisa_codigo": "70900842399394",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30709695815",
+    "website": "https://farmaciasplazoleta.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10894219371,
+  "lat": -26.8197011,
+  "lon": -65.1942196,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "924",
+    "addr:postcode": "T4001JAN",
+    "addr:street": "Avenida Juan B. Justo",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100070981219456",
+    "email": "farmaciaancla@hotmail.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Ancla",
+    "opening_hours": "Mo-Sa 07:00-13:00, 16:00-20:00",
+    "operator": "ANDJEL SILVIA INES",
+    "phone": "+543814210856",
+    "ref:sisa_codigo": "70900842397496",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27164586494"
+  }
+},
+{
+  "type": "node",
+  "id": 10894222594,
+  "lat": -26.8122541,
+  "lon": -65.2339039,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2601",
+    "addr:postcode": "T4000GVM",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "email": "farmaciaavenidatucuman@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Avenida",
+    "opening_hours": "Mo-Sa 08:00-13:00, 17:00-22:00",
+    "operator": "VIGO JUANA BEATRIZ",
+    "phone": "+543814504770;+543814381566",
+    "ref:sisa_codigo": "70900842397742",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27213293074"
+  }
+},
+{
+  "type": "node",
+  "id": 10894256380,
+  "lat": -26.8150418,
+  "lon": -65.2186574,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1625",
+    "addr:postcode": "T4000GVC",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "email": "farmaciaplazoleta@hotmail.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Plazoleta",
+    "operator": "FARMACIA PLAZOLETA SUR S.R.L.",
+    "phone": "+543814238659",
+    "ref:sisa_codigo": "70900842397577",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30709695815",
+    "website": "https://farmaciasplazoleta.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10894291690,
+  "lat": -26.8137652,
+  "lon": -65.2252726,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2071",
+    "addr:postcode": "T4000GVG",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "email": "nelidasg@hotmail.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Santa Isabel",
+    "opening_hours": "Mo-Su 08:15-21:30",
+    "operator": "GONZALEZ NELIDA SUSANA",
+    "phone": "+543814230473",
+    "ref:sisa_codigo": "70900842397469",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27107614929"
+  }
+},
+{
+  "type": "node",
+  "id": 10894395965,
+  "lat": -26.8137268,
+  "lon": -65.2272905,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2176",
+    "addr:postcode": "T4000GVU",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Valle",
+    "operator": "ALVAREZ ROSA DEL VALLE",
+    "phone": "+543814237102",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27129192297"
+  }
+},
+{
+  "type": "node",
+  "id": 10894472132,
+  "lat": -26.8130148,
+  "lon": -65.2317194,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2448",
+    "addr:postcode": "T4000GVX",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Magalí",
+    "operator": "FERNANDEZ PATRICIA MAGALI",
+    "phone": "+543814321024",
+    "ref:sisa_codigo": "70900842397757",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27249814909"
+  }
+},
+{
+  "type": "node",
+  "id": 10894527389,
+  "lat": -26.8123058,
+  "lon": -65.2351430,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2696",
+    "addr:postcode": "T4000GVZ",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "América II",
+    "opening_hours": "Mo-Sa 08:00-23:00; Su 09:00-14:00,17:00-22:00",
+    "operator": "MEDCON S.R.L.",
+    "phone": "+543814239000;+543814329000",
+    "ref:sisa_codigo": "70900842397466",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30714336718"
+  }
+},
+{
+  "type": "node",
+  "id": 10894579682,
+  "lat": -26.8079655,
+  "lon": -65.2558979,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "4302",
+    "addr:postcode": "T4000GXQ",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "América V",
+    "phone": "+543814351444",
+    "ref:sisa_codigo": "70900842399357",
+    "ref:sisa_tipologia": "FARMACIA"
+  }
+},
+{
+  "type": "node",
+  "id": 10894602434,
+  "lat": -26.8289211,
+  "lon": -65.1964829,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "268",
+    "addr:postcode": "T4000HXP",
+    "addr:street": "Avenida Avellaneda",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "retail",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "opening_hours": "Mo-Fr 08:00-22:30; Sa 08:00-14:00, 17:30-22:30",
+    "operator": "BRADEL DEL PUEBLO S R L",
+    "phone": "+5403814979160",
+    "ref:sisa_codigo": "70900842399369",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR33702413309",
+    "website": "http://www.farmaciasdelpueblo.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10894622761,
+  "lat": -26.7940070,
+  "lon": -65.2247785,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2324",
+    "addr:postcode": "T4001LZO",
+    "addr:street": "Avenida Ejército del Norte",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Chango Más",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "WALMART ARGENTINA S.R.L.",
+    "phone": "+543814853408",
+    "ref:sisa_codigo": "70900842399385",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30678138300"
+  }
+},
+{
+  "type": "node",
+  "id": 10894625113,
+  "lat": -26.8118158,
+  "lon": -65.2285190,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1001",
+    "addr:postcode": "T4001LYB",
+    "addr:street": "Avenida Ejército del Norte",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Miluno",
+    "operator": "SALAZAR SELVAR. Y MIRCOLI LETICIAK. S. H.",
+    "phone": "+543815491016;+543814321512",
+    "ref:sisa_codigo": "70900842399336",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30714082899"
+  }
+},
+{
+  "type": "node",
+  "id": 10894767370,
+  "lat": -26.7896463,
+  "lon": -65.2227393,
+  "tags": {
+    "addr:city": "San Miguel De Tucumán",
+    "addr:housenumber": "2474",
+    "addr:postcode": "T4001LZR",
+    "addr:street": "Avenida Ejército del Norte",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Ahorro",
+    "operator": "BERNEDO JUAN ERNESTO",
+    "phone": "+543814340245",
+    "ref:sisa_codigo": "70900842397738",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20187492883"
+  }
+},
+{
+  "type": "node",
+  "id": 10894800547,
+  "lat": -26.8250844,
+  "lon": -65.2312017,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2213",
+    "addr:postcode": "T4000CPJ",
+    "addr:street": "Avenida Mate de Luna",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Vital",
+    "operator": "SARA GONZALEZ LELONG",
+    "phone": "+543812311954",
+    "ref:sisa_codigo": "70900842399290",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27138487879"
+  }
+},
+{
+  "type": "node",
+  "id": 10894802814,
+  "lat": -26.8115385,
+  "lon": -65.3025321,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "2177",
+    "addr:postcode": "T4107CEI",
+    "addr:street": "Avenida Aconquija",
+    "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/farmaciagalenica/",
+    "healthcare": "pharmacy",
+    "name": "Galenica",
+    "opening_hours": "Mo-Fr 08:30-13:00,16:30-21:30; Sa 09:00-13:30",
+    "operator": "MUÑOZ MARIA NOEMI",
+    "phone": "+543814250348;+543814256487",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "27185899352"
+  }
+},
+{
+  "type": "node",
+  "id": 10894802815,
+  "lat": -26.8267000,
+  "lon": -65.2260197,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1898",
+    "addr:postcode": "T4000CPS",
+    "addr:street": "Avenida Mate de Luna",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santa Victoria",
+    "opening_hours": "Mo-Fr 08:30-13:00, 18:00-21:30; Sa 08:30-13:00",
+    "operator": "RODRIGUEZ MARIA VICTORIA",
+    "phone": "+543814320387",
+    "ref:sisa_codigo": "70900842397449",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23254981354"
+  }
+},
+{
+  "type": "node",
+  "id": 10894817791,
+  "lat": -38.9580830,
+  "lon": -68.0636796,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "315",
+    "addr:postcode": "Q8300",
+    "addr:street": "Ministro Alcorta",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Salta",
+    "website": "https://www.neuquencapital.gov.ar/comercios-historicos/farmacia-salta/"
+  }
+},
+{
+  "type": "node",
+  "id": 10894956337,
+  "lat": -26.8235232,
+  "lon": -65.2408051,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2850",
+    "addr:postcode": "T4000CQP",
+    "addr:street": "Avenida Mate de Luna",
+    "amenity": "pharmacy",
+    "email": "farmfarmacenter@yahoo.com",
+    "healthcare": "pharmacy",
+    "name": "Farmacenter",
+    "opening_hours": "Mo-Sa 08:30-13:30,17:30-21:30; Su 09:00-13:00",
+    "operator": "RIERA MARIA MARTA",
+    "phone": "+543814233115",
+    "ref:sisa_codigo": "70900842398068",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27307607803"
+  }
+},
+{
+  "type": "node",
+  "id": 10895056062,
+  "lat": -34.7803984,
+  "lon": -58.3363339,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Saffirio"
+  }
+},
+{
+  "type": "node",
+  "id": 10895086483,
+  "lat": -26.8210143,
+  "lon": -65.2529433,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "3798",
+    "addr:postcode": "T4000CQY",
+    "addr:street": "Avenida Mate de Luna",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/FarmaciaCristoReyTucuman",
+    "healthcare": "pharmacy",
+    "name": "Cristo Rey",
+    "opening_hours": "Mo-Fr 07:30-23:00; Sa 08:00-23:00; Su 09:00-22:30",
+    "operator": "SALUM ARIEL ADRIAN",
+    "phone": "+543814356198",
+    "ref:sisa_codigo": "70900842397427",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20232382377",
+    "website": "http://www.farmaciacristorey.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10895126252,
+  "lat": -26.8452097,
+  "lon": -65.2270881,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1602",
+    "addr:postcode": "T4002BLQ",
+    "addr:street": "Avenida Independencia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santa Cruz",
+    "operator": "PASTERIS, GLADYS ESTHER",
+    "phone": "+54 11 5195-1180",
+    "ref:sisa_codigo": "70900842397662",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27163146032"
+  }
+},
+{
+  "type": "node",
+  "id": 10895209136,
+  "lat": -26.7919996,
+  "lon": -65.2119644,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "1556",
+    "addr:postcode": "T4001FVP",
+    "addr:street": "Avenida Francisco de Aguirre",
+    "amenity": "pharmacy",
+    "email": "info@farmaciacalcagno.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Calcagno",
+    "opening_hours": "Mo 18:00-00:00; Tu-Th 08:00-00:00; Fr 09:00-23:00; Sa 08:00-00:00",
+    "operator": "CALCAGNO ABEL HUGO",
+    "phone": "+543814276681;+543814273044",
+    "ref:sisa_codigo": "70900842397678",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20079102386",
+    "website": "https://www.farmaciacalcagno.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10895282027,
+  "lat": -26.8196816,
+  "lon": -65.2561747,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "4089",
+    "addr:postcode": "T4000CRB",
+    "addr:street": "Avenida Mate de Luna",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Esencial",
+    "opening_hours": "Mo-Su 08:00-00:00",
+    "operator": "FARMARED SRL",
+    "phone": "+543814355090;+543813178022",
+    "ref:sisa_codigo": "70900842397842",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30715717170",
+    "website": "https://farmacia-esencial.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 10895298843,
+  "lat": -26.7906454,
+  "lon": -65.2183380,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2002",
+    "addr:postcode": "T4001FVU",
+    "addr:street": "Avenida Francisco de Aguirre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nino",
+    "opening_hours": "Mo-Fr 08:30-13:00, 17:00-21:30; Sa 08:30-13:00",
+    "operator": "VELIZ, SILVIA",
+    "phone": "+543814277204",
+    "ref:sisa_codigo": "70900842397924",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27134853773"
+  }
+},
+{
+  "type": "node",
+  "id": 10895305982,
+  "lat": -26.8661324,
+  "lon": -65.2208006,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "2775",
+    "addr:postcode": "T4002JOF",
+    "addr:street": "Avenida Jujuy",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Chango Más",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "operator": "DORINKA S.R.L.",
+    "phone": "+543814510261;+543814510262;+543814510263;+543814510266;+543814510269",
+    "ref:sisa_codigo": "70900842399991",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30678138300"
+  }
+},
+{
+  "type": "node",
+  "id": 10895306037,
+  "lat": -26.8218752,
+  "lon": -65.1823972,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "798",
+    "addr:postcode": "T4000GRU",
+    "addr:street": "Avenida Gobernador del Campo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Martín",
+    "operator": "ARREBOLA ZUNILDA ALICIA",
+    "phone": "+543814286128",
+    "ref:sisa_codigo": "70900842397522",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27202183528"
+  }
+},
+{
+  "type": "node",
+  "id": 10895306038,
+  "lat": -26.8411922,
+  "lon": -65.2498408,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "3087",
+    "addr:postcode": "T4002BME",
+    "addr:street": "Avenida Independencia",
+    "amenity": "pharmacy",
+    "email": "nlg75@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Los Lirios",
+    "opening_hours": "Mo-Fr 09:00-13:00, 18:00-22:00; Sa 09:00-13:00",
+    "operator": "GONZALEZ NILDA LORENA",
+    "phone": "+543814362284",
+    "ref:sisa_codigo": "70900842397544",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27246715063",
+    "website": "https://farmacia-los-lirios.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 10895323724,
+  "lat": -38.9572158,
+  "lon": -68.0615599,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "160",
+    "addr:postcode": "Q8300",
+    "addr:street": "Domingo Faustino Sarmiento",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Neuquén"
+  }
+},
+{
+  "type": "node",
+  "id": 10896187234,
+  "lat": -32.5344930,
+  "lon": -58.9319120,
+  "tags": {
+    "addr:city": "Gilbert",
+    "addr:street": "Bulevar San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San José"
+  }
+},
+{
+  "type": "node",
+  "id": 10896617573,
+  "lat": -26.7974791,
+  "lon": -65.2488672,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "3997",
+    "addr:postcode": "T4001CXG",
+    "addr:street": "Colombia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Anna",
+    "operator": "FONTS SANABRA MONTSERRAT",
+    "phone": "+543814853868;+543814853873",
+    "ref:sisa_codigo": "70900842397450",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23939080864"
+  }
+},
+{
+  "type": "node",
+  "id": 10896808490,
+  "lat": -26.8417461,
+  "lon": -65.1666557,
+  "tags": {
+    "addr:city": "Banda del Río Salí",
+    "addr:housenumber": "181",
+    "addr:postcode": "T4109ECC",
+    "addr:street": "Avenida Sargento Cabral",
+    "amenity": "pharmacy",
+    "email": "omarlec@arnetbiz.com.ar",
+    "healthcare": "pharmacy",
+    "name": "De la Rosa",
+    "opening_hours": "Mo-Sa 08:00-13:00, 17:00-21:00",
+    "operator": "FARMACIAS LECCESE Y ABUIN SRL",
+    "phone": "+543814263049",
+    "ref:sisa_codigo": "70900142397691",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30711298327"
+  }
+},
+{
+  "type": "node",
+  "id": 10896909259,
+  "lat": -27.2517645,
+  "lon": -65.5505695,
+  "tags": {
+    "addr:city": "Villa Quinteros",
+    "addr:housenumber": "45",
+    "addr:postcode": "T4144AGA",
+    "addr:street": "Avenida M.M. De Güemes",
+    "amenity": "pharmacy",
+    "email": "ADRI_FATIMA@YAHOO.COM.AR",
+    "healthcare": "pharmacy",
+    "name": "Divina Misericordia",
+    "operator": "RODRIGUEZ ADRIANA FATIMA",
+    "ref:sisa_codigo": "70900702397512",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27178693013"
+  }
+},
+{
+  "type": "node",
+  "id": 10896925517,
+  "lat": -27.2536877,
+  "lon": -65.5494474,
+  "tags": {
+    "addr:city": "Villa Quinteros",
+    "addr:postcode": "T4144CFB",
+    "addr:street": "San Lorenzo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San José",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "operator": "FARA AMALIA JOSEFINA MARIA",
+    "phone": "+543863471008",
+    "ref:sisa_codigo": "70900702397493",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27148645480"
+  }
+},
+{
+  "type": "node",
+  "id": 10897246820,
+  "lat": -26.8106574,
+  "lon": -65.3069910,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "2491",
+    "addr:postcode": "T4107CEL",
+    "addr:street": "Avenida Aconquija",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Los Alisos",
+    "opening_hours": "Mo-Fr 08:30-13:00, 17:00-21:00",
+    "operator": "SANTANA ARRIAZU MARIANA INES",
+    "phone": "+543814671685",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27365840178"
+  }
+},
+{
+  "type": "node",
+  "id": 10897562519,
+  "lat": -26.8159379,
+  "lon": -65.2773551,
+  "tags": {
+    "addr:city": "Yerba Buenas",
+    "addr:housenumber": "811",
+    "addr:postcode": "T4107CDI",
+    "addr:street": "Avenida Aconquija",
+    "amenity": "pharmacy",
+    "email": "fciacristorey@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Cristo Rey",
+    "operator": "FARMA SI-SAL SRL",
+    "phone": "+543814353024",
+    "ref:sisa_codigo": "70901192397583",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30710986203"
+  }
+},
+{
+  "type": "node",
+  "id": 10897615995,
+  "lat": -26.8152797,
+  "lon": -65.2812035,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "941",
+    "addr:postcode": "T4107CDJ",
+    "addr:street": "Avenida Aconquija",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Daruich II",
+    "opening_hours": "Mo-Fr 08:30-13:00, 17:00-21:00; Sa 09:00-13:00",
+    "operator": "ORIHUEL MARIA TERESA",
+    "phone": "+543814257629;+543814120534",
+    "ref:sisa_codigo": "70901192398359",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27146601125"
+  }
+},
+{
+  "type": "node",
+  "id": 10897629477,
+  "lat": -26.8011727,
+  "lon": -65.2917928,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1750",
+    "addr:postcode": "T4107IQO",
+    "addr:street": "Avenida Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Cristo Rey II",
+    "opening_hours": "Mo-Fr 07:30-23:00; Sa 08:00-23:00; Su 09:30-22:30",
+    "operator": "FARMA SI-SAL S.R.L.",
+    "phone": "+543814858034",
+    "ref:sisa_codigo": "70901192399306",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30710986203",
+    "website": "http://www.farmaciacristorey.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10897680368,
+  "lat": -26.8003970,
+  "lon": -65.2945179,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1101",
+    "addr:postcode": "T4107IQT",
+    "addr:street": "Avenida Gaona",
+    "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/sufarm_/?hl=es",
+    "healthcare": "pharmacy",
+    "name": "Sufarm",
+    "opening_hours": "Mo-Su 09:30-21:00",
+    "operator": "PEREZ MARIA SUSANA",
+    "phone": "+543814861363;+543816838347",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27143876123"
+  }
+},
+{
+  "type": "node",
+  "id": 10897700855,
+  "lat": -26.7704116,
+  "lon": -65.2720250,
+  "tags": {
+    "addr:city": "Villa Carmela",
+    "addr:street": "Camino del Perú",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villa Carmela",
+    "opening_hours": "Mo-Sa 08:00-13:00, 17:00-21:30",
+    "operator": "MIROLO ALEJANDRO PEDRO ALFO",
+    "phone": "+543814930088",
+    "ref:sisa_codigo": "70901192397973",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23171827019"
+  }
+},
+{
+  "type": "node",
+  "id": 10897729396,
+  "lat": -26.8145117,
+  "lon": -65.3023581,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "175",
+    "addr:postcode": "T4107EHB",
+    "addr:street": "Avenida Solano Vera",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Valle",
+    "operator": "GARCIA DORA ELISA DEL VALLE",
+    "phone": "+543814257529",
+    "ref:sisa_codigo": "70901192397670",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23257418464"
+  }
+},
+{
+  "type": "node",
+  "id": 10897731676,
+  "lat": -26.8179611,
+  "lon": -65.3035164,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "369",
+    "addr:postcode": "T4107EHD",
+    "addr:street": "Avenida Solano Vera",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Carolina",
+    "operator": "FAOTO MARIA CAROLINA",
+    "phone": "+543814258282",
+    "ref:sisa_codigo": "70901192399373",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27242006645"
+  }
+},
+{
+  "type": "node",
+  "id": 10897751335,
+  "lat": -26.8278050,
+  "lon": -65.3061534,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1050",
+    "addr:postcode": "T4107EHX",
+    "addr:street": "Avenida Solano Vera",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmacia.arboleda/",
+    "email": "veronica_blason@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "La Arboleda",
+    "opening_hours": "Mo-Fr 08:00-13:00, 17:30-21:00; Sa 09:00-13:30, 18:00-21:00",
+    "operator": "BLASON VERONICA BARBARA",
+    "phone": "+543814258283;+543814841049",
+    "ref:sisa_codigo": "70901192397983",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27924864714"
+  }
+},
+{
+  "type": "node",
+  "id": 10897763818,
+  "lat": -26.8155694,
+  "lon": -65.2644793,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "202",
+    "addr:postcode": "T4107HFA",
+    "addr:street": "Camino del Perú",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "De la Paz",
+    "opening_hours": "Mo-Fr 09:00-13:00, 17:00-21:00; Sa 09:00-13:00",
+    "operator": "PAZ MARIA LAURA",
+    "phone": "+543814352039",
+    "ref:sisa_codigo": "70901192399989",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27277514902"
+  }
+},
+{
+  "type": "node",
+  "id": 10897765472,
+  "lat": -26.8215646,
+  "lon": -65.2682780,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "42",
+    "addr:postcode": "T4107CRB",
+    "addr:street": "Fermín Cariola",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "La Botica",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "operator": "ALEMAI S.R.L.",
+    "phone": "+543814315065",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30710057911",
+    "website": "https://farmacialabotica-pharmacy.negocio.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 10900311281,
+  "lat": -31.3988829,
+  "lon": -64.4663853,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Costa Azul"
+  }
+},
+{
+  "type": "node",
+  "id": 10900356656,
+  "lat": -31.3468165,
+  "lon": -64.4835411,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Libélula"
+  }
+},
+{
+  "type": "node",
+  "id": 10901007824,
+  "lat": -26.8031463,
+  "lon": -65.2703839,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "100",
+    "addr:postcode": "T4107IUA",
+    "addr:street": "Juan Luis Fanzolato",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Gabriel",
+    "opening_hours": "Mo-Sa 09:00-13:30, 18:00-21:30",
+    "operator": "SARZUR CARLOS MARIA GABRIEL",
+    "phone": "+543816524380",
+    "ref:sisa_codigo": "70901192399506",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20247879634"
+  }
+},
+{
+  "type": "node",
+  "id": 10901010638,
+  "lat": -26.8338625,
+  "lon": -65.2949637,
+  "tags": {
+    "addr:city": "Manantial",
+    "addr:housenumber": "1452",
+    "addr:street": "Camino de sirga (Sur)",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Sirga",
+    "opening_hours": "Mo-Sa 09:00-13:30, 16:30-21:00",
+    "operator": "VILLAGRA JOSEFINA",
+    "phone": "+543814396719",
+    "ref:sisa_codigo": "70900632399380",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27279622257"
+  }
+},
+{
+  "type": "node",
+  "id": 10901026674,
+  "lat": -26.8030784,
+  "lon": -65.2932709,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "1090",
+    "addr:postcode": "T4107IRO",
+    "addr:street": "Lobo de la Vega",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "La Botica",
+    "opening_hours": "24/7",
+    "operator": "AJF GROUP S.R.L.",
+    "phone": "+543814316060",
+    "ref:sisa_codigo": "70020012317885",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30692138747"
+  }
+},
+{
+  "type": "node",
+  "id": 10901623016,
+  "lat": -26.8101167,
+  "lon": -65.2947542,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "213",
+    "addr:postcode": "T4107IQZ",
+    "addr:street": "Lobo de la Vega",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmás",
+    "opening_hours": "24/7",
+    "operator": "CARLOS ADRIAN DARUICH",
+    "phone": "+543814864325;+543816529467",
+    "ref:sisa_codigo": "70901192399311",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23329274829"
+  }
+},
+{
+  "type": "node",
+  "id": 10901669872,
+  "lat": -26.8228638,
+  "lon": -65.2933044,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "780",
+    "addr:postcode": "T4107ETP",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Julieta",
+    "operator": "NAON LEONOR CRISTINA",
+    "phone": "+543814258876",
+    "ref:sisa_codigo": "70901192397905",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27142267018"
+  }
+},
+{
+  "type": "node",
+  "id": 10901787320,
+  "lat": -26.8149602,
+  "lon": -65.2680462,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "243",
+    "addr:postcode": "T4107BWE",
+    "addr:street": "Salas y Valdez",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Alvez",
+    "opening_hours": "Mo-Tu 09:00-13:00, 17:00-21:00; Sa 09:00-13:00",
+    "operator": "ALVEZ RUFO EMILIO",
+    "phone": "+543814350614;+543812321495",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20133389750"
+  }
+},
+{
+  "type": "node",
+  "id": 10902022626,
+  "lat": -26.8130930,
+  "lon": -65.2715759,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "498",
+    "addr:postcode": "T4107CZJ",
+    "addr:street": "Juan Bautista Terán",
+    "amenity": "pharmacy",
+    "email": "gonzales10@arnetbiz.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Berny",
+    "operator": "GONZALEZ CARLOS GABRIEL",
+    "phone": "+543814354680",
+    "ref:sisa_codigo": "70901192397768",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23160395869"
+  }
+},
+{
+  "type": "node",
+  "id": 10902025078,
+  "lat": -26.8105839,
+  "lon": -65.2760635,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "780",
+    "addr:postcode": "T4107DGP",
+    "addr:street": "Perú",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Virgen de la Caridad",
+    "opening_hours": "Mo-Fr 09:00-13:00, 17:30-21:00; Sa 09:00-13:00",
+    "operator": "OCAMPO GRISELDA DEL VALLE",
+    "phone": "+543814353974",
+    "ref:sisa_codigo": "70901192397515",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27179144641"
+  }
+},
+{
+  "type": "node",
+  "id": 10902029553,
+  "lat": -26.8181100,
+  "lon": -65.2803661,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "180",
+    "addr:postcode": "T4107FEF",
+    "addr:street": "Rubén Dario",
+    "amenity": "pharmacy",
+    "email": "fciampaz@yahoo.com.ar",
+    "healthcare": "pharmacy",
+    "name": "Marcos Paz",
+    "opening_hours": "Mo-Sa 08:00-13:00, 17:00-22:00",
+    "operator": "PALOMEQUE MIGUEL FLORENCIO",
+    "phone": "+543814253599;+543814258672",
+    "ref:sisa_codigo": "70901192397728",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20302602167",
+    "website": "https://www.farmacity.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10902047504,
+  "lat": -26.8062989,
+  "lon": -65.2953306,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:housenumber": "583",
+    "addr:postcode": "T4107GDK",
+    "addr:street": "Mariano Moreno",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Rocio",
+    "opening_hours": "24/7",
+    "operator": "D'AMATO SYLVIA PAOLA",
+    "phone": "+543814256561",
+    "ref:sisa_codigo": "70901192399365",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27217441191"
+  }
+},
+{
+  "type": "node",
+  "id": 10902105435,
+  "lat": -26.8018121,
+  "lon": -65.3011420,
+  "tags": {
+    "addr:city": "Yerba Buena",
+    "addr:street": "Eva Duarte",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fiore",
+    "opening_hours": "Mo-Fr 10:00-14:00, 18:00-22:00; Sa 10:00-14:00",
+    "operator": "RAYA SILVIA DEL VALLE",
+    "phone": "+543815101961;+543814253807",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27217472194"
   }
 },
 {
@@ -83532,22 +85884,6 @@
     "amenity": "pharmacy",
     "building": "retail",
     "name": "Farmacia Schaffino"
-  }
-},
-{
-  "type": "way",
-  "id": 204891214,
-  "nodes": [
-    2148709558,
-    2148709559,
-    2148709560,
-    2148709561,
-    2148709558
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -83699,22 +86035,6 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Real"
-  }
-},
-{
-  "type": "way",
-  "id": 248466822,
-  "nodes": [
-    2552590973,
-    2552590977,
-    2552590979,
-    2552590981,
-    2552590973
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -84846,24 +87166,6 @@
     "name": "Welschen",
     "operator": "Yaquelina Welschen",
     "phone": "+54 (03493) 48-0402"
-  }
-},
-{
-  "type": "way",
-  "id": 328036830,
-  "nodes": [
-    3348616689,
-    3348616690,
-    3348616691,
-    3348616692,
-    3348616689
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia de La Rosa",
-    "operator": "Privado"
   }
 },
 {
@@ -98739,28 +101041,6 @@
 },
 {
   "type": "way",
-  "id": 837674288,
-  "nodes": [
-    7818204673,
-    7818204674,
-    7818204675,
-    7818204676,
-    7818204673
-  ],
-  "tags": {
-    "addr:city": "San Miguel de Tucumán",
-    "addr:housenumber": "3997",
-    "addr:street": "Colombia",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Anna",
-    "phone": "+543814853868"
-  }
-},
-{
-  "type": "way",
   "id": 837708298,
   "nodes": [
     7818498822,
@@ -99098,24 +101378,6 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia La Medalla"
-  }
-},
-{
-  "type": "way",
-  "id": 844669085,
-  "nodes": [
-    7880164427,
-    7880164428,
-    7880164429,
-    7880164430,
-    7880164427
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Salta"
   }
 },
 {
@@ -101851,20 +104113,46 @@
 },
 {
   "type": "way",
-  "id": 1169218315,
+  "id": 1171482720,
   "nodes": [
-    10872534253,
-    10872534254,
-    10872534255,
-    10872534256,
-    10872534257,
-    10872534253
+    10885736738,
+    10885736739,
+    10885736740,
+    10885736741,
+    10885736742,
+    10885736738
+  ],
+  "tags": {
+    "addr:city": "Billinghurst",
+    "addr:housenumber": "4106",
+    "addr:postcode": "B1650ODN",
+    "addr:street": "133 - Moreno",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Billinghurst"
+  }
+},
+{
+  "type": "way",
+  "id": 1173553613,
+  "nodes": [
+    10904136574,
+    10904136575,
+    10904136576,
+    10904136577,
+    10904136572,
+    10904136578,
+    10904136571,
+    10904136570,
+    10904136574
   ],
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Saffirio"
+    "name": "Farmacia \"De la Cruz\""
   }
 },
 {
@@ -102721,6 +105009,54 @@
 },
 {
   "type": "node",
+  "id": 10904136570,
+  "lat": -39.9542405,
+  "lon": -71.0791548
+},
+{
+  "type": "node",
+  "id": 10904136571,
+  "lat": -39.9542674,
+  "lon": -71.0791318
+},
+{
+  "type": "node",
+  "id": 10904136572,
+  "lat": -39.9542420,
+  "lon": -71.0790814
+},
+{
+  "type": "node",
+  "id": 10904136574,
+  "lat": -39.9542224,
+  "lon": -71.0792596
+},
+{
+  "type": "node",
+  "id": 10904136575,
+  "lat": -39.9541243,
+  "lon": -71.0792245
+},
+{
+  "type": "node",
+  "id": 10904136576,
+  "lat": -39.9541686,
+  "lon": -71.0789954
+},
+{
+  "type": "node",
+  "id": 10904136577,
+  "lat": -39.9542488,
+  "lon": -71.0790207
+},
+{
+  "type": "node",
+  "id": 10904136578,
+  "lat": -39.9542322,
+  "lon": -71.0791091
+},
+{
+  "type": "node",
   "id": 7811496788,
   "lat": -39.9515078,
   "lon": -71.0710413
@@ -103444,30 +105780,6 @@
   "id": 10590408912,
   "lat": -38.9522057,
   "lon": -68.0840857
-},
-{
-  "type": "node",
-  "id": 7880164427,
-  "lat": -38.9579899,
-  "lon": -68.0636586
-},
-{
-  "type": "node",
-  "id": 7880164428,
-  "lat": -38.9580952,
-  "lon": -68.0636603
-},
-{
-  "type": "node",
-  "id": 7880164429,
-  "lat": -38.9580945,
-  "lon": -68.0638045
-},
-{
-  "type": "node",
-  "id": 7880164430,
-  "lat": -38.9579884,
-  "lon": -68.0638025
 },
 {
   "type": "node",
@@ -119143,36 +121455,6 @@
 },
 {
   "type": "node",
-  "id": 10872534253,
-  "lat": -34.7803691,
-  "lon": -58.3363343
-},
-{
-  "type": "node",
-  "id": 10872534254,
-  "lat": -34.7803763,
-  "lon": -58.3362790
-},
-{
-  "type": "node",
-  "id": 10872534255,
-  "lat": -34.7804371,
-  "lon": -58.3362338
-},
-{
-  "type": "node",
-  "id": 10872534256,
-  "lat": -34.7804804,
-  "lon": -58.3363255
-},
-{
-  "type": "node",
-  "id": 10872534257,
-  "lat": -34.7803949,
-  "lon": -58.3363870
-},
-{
-  "type": "node",
   "id": 5299572797,
   "lat": -34.7861144,
   "lon": -58.3154297
@@ -122818,6 +125100,36 @@
   "id": 4621408985,
   "lat": -34.5823647,
   "lon": -58.5824009
+},
+{
+  "type": "node",
+  "id": 10885736738,
+  "lat": -34.5757816,
+  "lon": -58.5732062
+},
+{
+  "type": "node",
+  "id": 10885736739,
+  "lat": -34.5756924,
+  "lon": -58.5731059
+},
+{
+  "type": "node",
+  "id": 10885736740,
+  "lat": -34.5756614,
+  "lon": -58.5731051
+},
+{
+  "type": "node",
+  "id": 10885736741,
+  "lat": -34.5756243,
+  "lon": -58.5731529
+},
+{
+  "type": "node",
+  "id": 10885736742,
+  "lat": -34.5757280,
+  "lon": -58.5732720
 },
 {
   "type": "node",
@@ -127150,102 +129462,6 @@
   "id": 5874354720,
   "lat": -28.4485343,
   "lon": -65.7190682
-},
-{
-  "type": "node",
-  "id": 2148709558,
-  "lat": -27.2517347,
-  "lon": -65.5506993
-},
-{
-  "type": "node",
-  "id": 2148709559,
-  "lat": -27.2516725,
-  "lon": -65.5506478
-},
-{
-  "type": "node",
-  "id": 2148709560,
-  "lat": -27.2517321,
-  "lon": -65.5505432
-},
-{
-  "type": "node",
-  "id": 2148709561,
-  "lat": -27.2517991,
-  "lon": -65.5505840
-},
-{
-  "type": "node",
-  "id": 2552590973,
-  "lat": -26.8411520,
-  "lon": -65.2499371
-},
-{
-  "type": "node",
-  "id": 2552590977,
-  "lat": -26.8411598,
-  "lon": -65.2498643
-},
-{
-  "type": "node",
-  "id": 2552590979,
-  "lat": -26.8412209,
-  "lon": -65.2498730
-},
-{
-  "type": "node",
-  "id": 2552590981,
-  "lat": -26.8412131,
-  "lon": -65.2499444
-},
-{
-  "type": "node",
-  "id": 3348616689,
-  "lat": -26.8416106,
-  "lon": -65.1666522
-},
-{
-  "type": "node",
-  "id": 3348616690,
-  "lat": -26.8416381,
-  "lon": -65.1665516
-},
-{
-  "type": "node",
-  "id": 3348616691,
-  "lat": -26.8417159,
-  "lon": -65.1665771
-},
-{
-  "type": "node",
-  "id": 3348616692,
-  "lat": -26.8416884,
-  "lon": -65.1666817
-},
-{
-  "type": "node",
-  "id": 7818204673,
-  "lat": -26.7974072,
-  "lon": -65.2488912
-},
-{
-  "type": "node",
-  "id": 7818204674,
-  "lat": -26.7974169,
-  "lon": -65.2488386
-},
-{
-  "type": "node",
-  "id": 7818204675,
-  "lat": -26.7975233,
-  "lon": -65.2488680
-},
-{
-  "type": "node",
-  "id": 7818204676,
-  "lat": -26.7975136,
-  "lon": -65.2489129
 },
 {
   "type": "node",

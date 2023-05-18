@@ -7454,19 +7454,18 @@
   "type": "Feature",
   "id": "way/123462978",
   "properties": {
-    "addr:full": "Corbeta Pi Y Margal 750",
     "addr:housenumber": "750",
     "addr:street": "Pi y Margall",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital General De Agudos Doctor Cosme Argerich",
-    "operator": "Municipal",
+    "name": "Hospital General de Agudos Doctor Cosme Argerich",
+    "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
     "phone": "+54 11 4121-0700",
     "ref:sisa_codigo": "10020012215217",
     "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q10966594",
-    "wikipedia": "es:Hospital Argerich",
+    "wikipedia": "es:Hospital General de Agudos Dr. Cosme Argerich",
     "id": "way/123462978"
   },
   "geometry": {
@@ -7478,16 +7477,16 @@
           -34.6274614
         ],
         [
-          -58.3663683,
-          -34.6282364
+          -58.3663428,
+          -34.6282154
         ],
         [
-          -58.3658863,
-          -34.6285534
+          -58.3658742,
+          -34.6285335
         ],
         [
-          -58.3654935,
-          -34.6288118
+          -58.3655029,
+          -34.6287809
         ],
         [
           -58.3647407,
@@ -30839,12 +30838,14 @@
     "addr:postcode": "1650",
     "addr:street": "Avenida 101 - Doctor Ricardo Balbín",
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Hospital Interzonal General de Agudos Eva Perón",
     "old_name": "Hospital Castex",
     "operator:type": "public",
     "phone": "+54 11 4724-3000",
     "ref:sisa_codigo": "10063712100230",
     "ref:sisa_tipologia": "ESCIG",
+    "short_name": "HIGA",
     "id": "way/337823853"
   },
   "geometry": {
@@ -30852,24 +30853,24 @@
     "coordinates": [
       [
         [
-          -58.5543171,
-          -34.5709243
+          -58.5543481,
+          -34.5708988
         ],
         [
-          -58.5556448,
-          -34.5720187
+          -58.5556602,
+          -34.5720183
         ],
         [
-          -58.5542715,
-          -34.5731185
+          -58.5542578,
+          -34.5731218
         ],
         [
-          -58.5529385,
-          -34.5720209
+          -58.5529569,
+          -34.5720031
         ],
         [
-          -58.5543171,
-          -34.5709243
+          -58.5543481,
+          -34.5708988
         ]
       ]
     ]
@@ -73199,6 +73200,96 @@
 },
 {
   "type": "Feature",
+  "id": "way/1169696171",
+  "properties": {
+    "amenity": "hospital",
+    "construction": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Tomás Perón",
+    "id": "way/1169696171"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.146925,
+          -30.2152772
+        ],
+        [
+          -69.1474945,
+          -30.2154566
+        ],
+        [
+          -69.1475194,
+          -30.2157236
+        ],
+        [
+          -69.1476,
+          -30.2164966
+        ],
+        [
+          -69.1462833,
+          -30.2165278
+        ],
+        [
+          -69.1462389,
+          -30.2152388
+        ],
+        [
+          -69.1462694,
+          -30.2150323
+        ],
+        [
+          -69.146925,
+          -30.2152772
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1173750821",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "way/1173750821"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -55.2194682,
+          -27.036677
+        ],
+        [
+          -55.2194795,
+          -27.0382015
+        ],
+        [
+          -55.2185071,
+          -27.0382099
+        ],
+        [
+          -55.218498,
+          -27.0367136
+        ],
+        [
+          -55.218549,
+          -27.0366806
+        ],
+        [
+          -55.2194682,
+          -27.036677
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -104151,9 +104242,15 @@
   "id": "node/9287039620",
   "properties": {
     "addr:city": "San Gustavo",
+    "addr:full": "San Luis y Concordia",
     "addr:postcode": "3191",
+    "addr:street": "San Luis",
     "amenity": "hospital",
     "healthcare": "hospital",
+    "name": "Hospital Gregoria Perez",
+    "phone": "+54 3437 421811",
+    "ref:sisa_codigo": "10300702142047",
+    "ref:sisa_tipologia": "ESCIG",
     "id": "node/9287039620"
   },
   "geometry": {
@@ -105698,6 +105795,22 @@
     "coordinates": [
       -58.2340086,
       -35.1683511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10883283805",
+  "properties": {
+    "amenity": "hospital",
+    "name": "Hospital JF Ramos Carlos casares",
+    "id": "node/10883283805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.3643595,
+      -35.6351793
     ]
   }
 }

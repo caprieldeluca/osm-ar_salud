@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60.2 e4cf9f7a",
+  "generator": "Overpass API 0.7.60 f4c14d41",
   "osm3s": {
-    "timestamp_osm_base": "2023-05-07T22:08:09Z",
-    "timestamp_areas_base": "2023-04-25T08:53:24Z",
+    "timestamp_osm_base": "2023-05-18T10:40:09Z",
+    "timestamp_areas_base": "2023-05-18T09:15:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12878,17 +12878,6 @@
 },
 {
   "type": "node",
-  "id": 5506774092,
-  "lat": -39.9547148,
-  "lon": -71.0795608,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro Medico Antú"
-  }
-},
-{
-  "type": "node",
   "id": 5512805763,
   "lat": -26.8107568,
   "lon": -65.1920879,
@@ -17242,6 +17231,7 @@
     "addr:postcode": "7300",
     "addr:street": "San Martín",
     "amenity": "clinic",
+    "check_date": "2023-05-17",
     "healthcare": "clinic",
     "name": "Clínica San Martín"
   }
@@ -25050,7 +25040,7 @@
     "addr:street": "General Machado",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Cepen Consultorios Medicos",
+    "name": "Cepem Consultorios Medicos",
     "operator": "Privado",
     "operator:type": "private",
     "website": "https://www.cepem.com.ar"
@@ -34179,15 +34169,14 @@
 {
   "type": "node",
   "id": 7526820896,
-  "lat": -34.7729592,
-  "lon": -58.4052716,
+  "lat": -34.7728788,
+  "lon": -58.4052917,
   "tags": {
     "addr:housenumber": "10067",
     "addr:postcode": "1834",
     "addr:street": "Avenida Hipólito Yrigoyen",
     "alt_name": "Centro Odontológico Infantil",
     "amenity": "clinic",
-    "building": "construction",
     "healthcare": "clinic",
     "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
     "name": "Unidad Sanitaria Doctor Gregorio A. Alfaro",
@@ -38847,8 +38836,8 @@
 {
   "type": "node",
   "id": 7539442165,
-  "lat": -34.5738028,
-  "lon": -58.5740689,
+  "lat": -34.5737634,
+  "lon": -58.5740584,
   "tags": {
     "addr:city": "Billinghurst",
     "addr:full": "Primera Junta 5745",
@@ -44301,6 +44290,42 @@
   }
 },
 {
+  "type": "node",
+  "id": 10876814774,
+  "lat": -31.5538825,
+  "lon": -68.5638486,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Docentes Sanjuaninos",
+    "official_name": "Centro de Atención Primaria de Salud Docentes Sanjuaninos",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 10897693226,
+  "lat": -34.7730330,
+  "lon": -58.4053078,
+  "tags": {
+    "addr:housenumber": "10043",
+    "addr:postcode": "1834",
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "clinic",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud Doctor Gregorio Aráoz Alfaro",
+    "operator": "Municipalidad de Lomas de Zamora",
+    "operator:type": "public",
+    "phone": "+54 11 4239-9688",
+    "ref:sisa_codigo": "50064902207476",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "HDI"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -44492,32 +44517,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Nº 31 - David Busana",
     "phone": "54 0261 4980709;0261 4982400"
-  }
-},
-{
-  "type": "way",
-  "id": 184307497,
-  "nodes": [
-    1947688989,
-    1947688986,
-    1947688978,
-    1947688988,
-    1947688989
-  ],
-  "tags": {
-    "addr:housenumber": "10043",
-    "addr:postcode": "1834",
-    "addr:street": "Avenida Hipólito Yrigoyen",
-    "amenity": "clinic",
-    "emergency": "no",
-    "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de la Salud Doctor Gregorio Aráoz Alfaro",
-    "operator": "Municipalidad de Lomas de Zamora",
-    "operator:type": "public",
-    "phone": "+54 11 4239-9688",
-    "ref:sisa_codigo": "50064902207476",
-    "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "HDI"
   }
 },
 {
@@ -52745,6 +52744,7 @@
   "id": 508563778,
   "nodes": [
     4978535659,
+    10876796660,
     4978535662,
     4978535661,
     4978535660,
@@ -58668,30 +58668,6 @@
 },
 {
   "type": "way",
-  "id": 808610732,
-  "nodes": [
-    7561190723,
-    7561190722,
-    7561190721,
-    7561190740,
-    7788070134,
-    7561190739,
-    7561190723
-  ],
-  "tags": {
-    "addr:city": "Rivadavia",
-    "addr:postcode": "5400",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "general",
-    "name": "CAPS Docentes Sanjuaninos",
-    "official_name": "Centro de Atención Primaria de Salud Docentes Sanjuaninos",
-    "operator": "Ministerio de Salud Pública",
-    "operator:type": "public"
-  }
-},
-{
-  "type": "way",
   "id": 809581676,
   "nodes": [
     7569690962,
@@ -60488,6 +60464,7 @@
   ],
   "tags": {
     "amenity": "clinic",
+    "contact:whatsapp": "+54 264 5756141",
     "description": "Con atención médica diaria y con especialidades",
     "email": "clinicaparqueuniversitario@hotmail.com",
     "healthcare": "clinic",
@@ -60495,6 +60472,7 @@
     "name": "Clinica Parque Universitario",
     "opening_hours": "Mo-Fr 08:00-12:30,16:00-21:00; Sa 08:30-12:30",
     "operator": "Miguel Angel Iranzo",
+    "operator:type": "private",
     "phone": "+54 264 423 1959",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -64193,6 +64171,28 @@
   }
 },
 {
+  "type": "way",
+  "id": 1173830117,
+  "nodes": [
+    10906775793,
+    10906775794,
+    10906775795,
+    10906775796,
+    10906775797,
+    10906775798,
+    10906775799,
+    10906775800,
+    10906775793
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Médico Arrayanes - Laboratorios Arredondo",
+    "phone": "02972491925"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -65170,6 +65170,54 @@
   "id": 7618734839,
   "lat": -40.1547737,
   "lon": -71.3445753
+},
+{
+  "type": "node",
+  "id": 10906775793,
+  "lat": -39.9495821,
+  "lon": -71.0764880
+},
+{
+  "type": "node",
+  "id": 10906775794,
+  "lat": -39.9494012,
+  "lon": -71.0764132
+},
+{
+  "type": "node",
+  "id": 10906775795,
+  "lat": -39.9493408,
+  "lon": -71.0766618
+},
+{
+  "type": "node",
+  "id": 10906775796,
+  "lat": -39.9495205,
+  "lon": -71.0767360
+},
+{
+  "type": "node",
+  "id": 10906775797,
+  "lat": -39.9495333,
+  "lon": -71.0766831
+},
+{
+  "type": "node",
+  "id": 10906775798,
+  "lat": -39.9495151,
+  "lon": -71.0766756
+},
+{
+  "type": "node",
+  "id": 10906775799,
+  "lat": -39.9495399,
+  "lon": -71.0765734
+},
+{
+  "type": "node",
+  "id": 10906775800,
+  "lat": -39.9495594,
+  "lon": -71.0765815
 },
 {
   "type": "node",
@@ -71731,42 +71779,6 @@
 },
 {
   "type": "node",
-  "id": 7561190722,
-  "lat": -31.5537935,
-  "lon": -68.5639972
-},
-{
-  "type": "node",
-  "id": 7561190723,
-  "lat": -31.5539208,
-  "lon": -68.5640395
-},
-{
-  "type": "node",
-  "id": 7561190739,
-  "lat": -31.5539640,
-  "lon": -68.5638444
-},
-{
-  "type": "node",
-  "id": 7561190740,
-  "lat": -31.5539225,
-  "lon": -68.5637729
-},
-{
-  "type": "node",
-  "id": 7788070134,
-  "lat": -31.5539441,
-  "lon": -68.5638101
-},
-{
-  "type": "node",
-  "id": 7561190721,
-  "lat": -31.5538492,
-  "lon": -68.5637429
-},
-{
-  "type": "node",
   "id": 5286859918,
   "lat": -31.5513216,
   "lon": -68.5514084
@@ -77744,14 +77756,14 @@
 {
   "type": "node",
   "id": 4978535659,
-  "lat": -32.4434758,
-  "lon": -63.1905019
+  "lat": -32.4434249,
+  "lon": -63.1905743
 },
 {
   "type": "node",
   "id": 4978535660,
-  "lat": -32.4425569,
-  "lon": -63.1898132
+  "lat": -32.4425252,
+  "lon": -63.1898843
 },
 {
   "type": "node",
@@ -77762,14 +77774,20 @@
 {
   "type": "node",
   "id": 4978535662,
-  "lat": -32.4430078,
-  "lon": -63.1913537
+  "lat": -32.4429987,
+  "lon": -63.1913671
 },
 {
   "type": "node",
   "id": 4978535675,
-  "lat": -32.4427413,
-  "lon": -63.1899472
+  "lat": -32.4426428,
+  "lon": -63.1899727
+},
+{
+  "type": "node",
+  "id": 10876796660,
+  "lat": -32.4434117,
+  "lon": -63.1905991
 },
 {
   "type": "node",
@@ -84841,30 +84859,6 @@
 },
 {
   "type": "node",
-  "id": 1947688978,
-  "lat": -34.7731511,
-  "lon": -58.4052241
-},
-{
-  "type": "node",
-  "id": 1947688986,
-  "lat": -34.7728055,
-  "lon": -58.4051756
-},
-{
-  "type": "node",
-  "id": 1947688988,
-  "lat": -34.7731381,
-  "lon": -58.4053612
-},
-{
-  "type": "node",
-  "id": 1947688989,
-  "lat": -34.7727926,
-  "lon": -58.4053126
-},
-{
-  "type": "node",
   "id": 6504099636,
   "lat": -34.7655353,
   "lon": -58.4056446
@@ -88922,26 +88916,26 @@
 {
   "type": "node",
   "id": 4616417713,
-  "lat": -34.5528756,
-  "lon": -58.5567249
+  "lat": -34.5528771,
+  "lon": -58.5567226
 },
 {
   "type": "node",
   "id": 4616417714,
-  "lat": -34.5529244,
-  "lon": -58.5567827
+  "lat": -34.5529412,
+  "lon": -58.5567893
 },
 {
   "type": "node",
   "id": 4616417715,
-  "lat": -34.5530373,
-  "lon": -58.5566392
+  "lat": -34.5530496,
+  "lon": -58.5566565
 },
 {
   "type": "node",
   "id": 4616417716,
-  "lat": -34.5529867,
-  "lon": -58.5565815
+  "lat": -34.5529883,
+  "lon": -58.5565827
 },
 {
   "type": "node",
