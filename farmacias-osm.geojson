@@ -1216,6 +1216,52 @@
 },
 {
   "type": "Feature",
+  "id": "way/297437710",
+  "properties": {
+    "addr:housenumber": "1032",
+    "addr:postcode": "2143",
+    "addr:street": "José de San Martín",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "contact:facebook": "farmaciasibarlucea",
+    "contact:phone": "+54 341 696-8070",
+    "contact:whatsapp": "+54 341 696-8070",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Fedyszyn",
+    "opening_hours": "Mo-Fr 08:30-12:30,16:30-20:00; Sa 08:30-13:00",
+    "short_name": "Fedyszyn",
+    "id": "way/297437710"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.7867783,
+          -32.8524425
+        ],
+        [
+          -60.7867747,
+          -32.8525256
+        ],
+        [
+          -60.7867041,
+          -32.8525234
+        ],
+        [
+          -60.7867073,
+          -32.8524403
+        ],
+        [
+          -60.7867783,
+          -32.8524425
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/300302155",
   "properties": {
     "addr:postcode": "S2132",
@@ -14466,7 +14512,7 @@
   "type": "Feature",
   "id": "way/471965457",
   "properties": {
-    "addr:street": "Avenida Segurola",
+    "addr:street": "Segurola",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -15485,49 +15531,6 @@
         [
           -58.6063569,
           -34.7338566
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/473440972",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Thevenet",
-    "source": "Reconocimiento terrestre por Kaart 2016.",
-    "id": "way/473440972"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5216042,
-          -34.4705865
-        ],
-        [
-          -58.521558,
-          -34.4706595
-        ],
-        [
-          -58.5214342,
-          -34.4706063
-        ],
-        [
-          -58.5214639,
-          -34.4705593
-        ],
-        [
-          -58.5215001,
-          -34.4705417
-        ],
-        [
-          -58.5216042,
-          -34.4705865
         ]
       ]
     ]
@@ -29138,61 +29141,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/769132029",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "246",
-    "addr:postcode": "Q8300",
-    "addr:street": "Perito Moreno",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia del Pueblo",
-    "id": "way/769132029"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0557273,
-          -38.9581522
-        ],
-        [
-          -68.0555444,
-          -38.9581524
-        ],
-        [
-          -68.0555438,
-          -38.9578565
-        ],
-        [
-          -68.0555438,
-          -38.9578412
-        ],
-        [
-          -68.0556021,
-          -38.9578412
-        ],
-        [
-          -68.055602,
-          -38.9577545
-        ],
-        [
-          -68.0557258,
-          -38.9577549
-        ],
-        [
-          -68.0557273,
-          -38.9581522
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/772458272",
   "properties": {
     "addr:city": "Pergamino",
@@ -39588,6 +39536,43 @@
 },
 {
   "type": "Feature",
+  "id": "way/1174917794",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/1174917794"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -57.4383733,
+          -37.7381266
+        ],
+        [
+          -57.4384734,
+          -37.7382022
+        ],
+        [
+          -57.4381823,
+          -37.7383788
+        ],
+        [
+          -57.4381129,
+          -37.738296
+        ],
+        [
+          -57.4383733,
+          -37.7381266
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -43557,8 +43542,10 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Martín de Porres",
+    "operator": "FARMACIA DEL INTERIOR S.R.L.",
     "phone": "+543865482075",
     "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30708269006",
     "source": "https://datos.gob.ar/dataset/pami-farmacias",
     "id": "node/1150220817"
   },
@@ -67258,6 +67245,7 @@
     "healthcare": "pharmacy",
     "level": "0",
     "name": "Nueva Pascual",
+    "wheelchair": "yes",
     "id": "node/3140556337"
   },
   "geometry": {
@@ -72775,23 +72763,6 @@
     "coordinates": [
       -64.1648839,
       -31.4135894
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3462075868",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacias Global",
-    "id": "node/3462075868"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.053867,
-      -38.9572504
     ]
   }
 },
@@ -120853,7 +120824,7 @@
   "id": "node/6032850540",
   "properties": {
     "addr:housenumber": "1200",
-    "addr:street": "Avenida Segurola",
+    "addr:street": "Segurola",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Floresta Centro",
@@ -127303,6 +127274,7 @@
     "addr:postcode": "Q8300",
     "addr:street": "Bartolomé Mitre",
     "amenity": "pharmacy",
+    "brand": "Farmacia del Pueblo",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
@@ -132357,17 +132329,23 @@
   "type": "Feature",
   "id": "node/7179692856",
   "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "275",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Cruz",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia MEOPP",
+    "operator": "Sindicato de Petróleo y Gas Privado de Río Negro y Neuquén",
     "id": "node/7179692856"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0536801,
-      -38.9579232
+      -68.0536732,
+      -38.9579179
     ]
   }
 },
@@ -135145,8 +135123,10 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Santa Lucía",
+    "operator": "BARRIOS JOSEFA DEL VALLE",
     "phone": "+543865481152",
     "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27047580191",
     "source": "https://datos.gob.ar/dataset/pami-farmacias",
     "id": "node/7344985970"
   },
@@ -161620,7 +161600,7 @@
     "ref:sisa_codigo": "70900842399984",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR27050835087",
-    "website": "http://www.farmaciasdelpueblo.com.ar/",
+    "website": "https://www.farmaciasdelpueblo.com.ar/",
     "id": "node/10892484357"
   },
   "geometry": {
@@ -162055,7 +162035,7 @@
     "ref:sisa_codigo": "70900842399369",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR33702413309",
-    "website": "http://www.farmaciasdelpueblo.com.ar/",
+    "website": "https://www.farmaciasdelpueblo.com.ar/",
     "id": "node/10894602434"
   },
   "geometry": {
@@ -163280,6 +163260,547 @@
     "coordinates": [
       -65.301142,
       -26.8018121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10909839757",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Cordobesa",
+    "id": "node/10909839757"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.5411432,
+      -31.3602376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10914970590",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguería Sarmiento",
+    "id": "node/10914970590"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1779344,
+      -31.4164522
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10915401123",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "246",
+    "addr:postcode": "Q8300",
+    "addr:street": "Perito Moreno",
+    "amenity": "pharmacy",
+    "brand": "Farmacia del Pueblo",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/",
+    "id": "node/10915401123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0556711,
+      -38.9581161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916164290",
+  "properties": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1602",
+    "addr:postcode": "T4152DVF",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Arella",
+    "opening_hours": "Mo-Fr 09:00-12:30, 17:30-21:00",
+    "operator": "ARELLA ISABEL MARIA",
+    "phone": "+543865481302",
+    "ref:sisa_codigo": "70900772398001",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20035424386",
+    "id": "node/10916164290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.6159734,
+      -27.4369072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916296805",
+  "properties": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1471",
+    "addr:postcode": "T4152ATI",
+    "addr:street": "Avenida Sarmiento",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "9 de Julio",
+    "operator": "RIVAS, MARTA ELENA",
+    "phone": "+543865487390",
+    "ref:sisa_codigo": "70900772397628",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27274969224",
+    "id": "node/10916296805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.6141194,
+      -27.4354996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916350980",
+  "properties": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1490",
+    "addr:postcode": "T4152AIX",
+    "addr:street": "Adolfo Alsina",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Barrio",
+    "operator": "MARTINEZ ANALIA ESTHER",
+    "phone": "+543865481902",
+    "ref:sisa_codigo": "70900772399503",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27254521154",
+    "id": "node/10916350980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.6210182,
+      -27.4357894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916398208",
+  "properties": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "418",
+    "addr:postcode": "T4152DUH",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Barrio 1 de Mayo",
+    "operator": "CARELLI MONICA SANDRA",
+    "ref:sisa_codigo": "70900772399345",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23144105044",
+    "id": "node/10916398208"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.6163794,
+      -27.4257384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916410056",
+  "properties": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1575",
+    "addr:postcode": "T4152APA",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "E & A",
+    "operator": "BOVARI MARIA ALEJANDRA",
+    "ref:sisa_codigo": "70900772399553",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27178597553",
+    "id": "node/10916410056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.6239694,
+      -27.4321762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916434318",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "401",
+    "addr:postcode": "T4178EYE",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Divina Misericordia",
+    "operator": "CINTI AP S.R.L.",
+    "phone": "+543814943768",
+    "ref:sisa_codigo": "70900142399401",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30715971816",
+    "id": "node/10916434318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1448837,
+      -26.8205295
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916441918",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "500",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Las Salinas",
+    "operator": "MICE SRL",
+    "phone": "+543814940249",
+    "ref:sisa_codigo": "70020012317885",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30715975935",
+    "id": "node/10916441918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1446959,
+      -26.8193712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916442370",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "899",
+    "addr:postcode": "T4178EYI",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Benito",
+    "opening_hours": "Mo-Sa 08:00-12:30, 17:00-20:30",
+    "operator": "CAMPOS DANIEL ANIBAL",
+    "phone": "+543814942948",
+    "ref:sisa_codigo": "70900142397939",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20165262833",
+    "id": "node/10916442370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1427481,
+      -26.8152758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916445366",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "730",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Marino",
+    "operator": "LUIS ALBERTO ROMANO",
+    "phone": "+543814641558",
+    "ref:sisa_codigo": "70900142399409",
+    "ref:sisa_tipologia": "FARMACIA",
+    "id": "node/10916445366"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1435741,
+      -26.8167547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916463824",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "999",
+    "addr:postcode": "T4178EYJ",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Angar",
+    "operator": "ORTIZ FRANCISCO MANUEL",
+    "phone": "+543814940350",
+    "ref:sisa_codigo": "70900142397927",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20085799216",
+    "id": "node/10916463824"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.142335,
+      -26.8141377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916469989",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1070",
+    "addr:postcode": "T4178EYX",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Las Salinas",
+    "opening_hours": "Mo-Sa 09:00-17:00",
+    "operator": "MIRANDA CESAR LUIS",
+    "phone": "+543814942935",
+    "ref:sisa_codigo": "70900142397630",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20186464320",
+    "id": "node/10916469989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1419532,
+      -26.8120128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916473614",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1190",
+    "addr:postcode": "T4178EYY",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Andres",
+    "operator": "PORCEL RAQUEL",
+    "phone": "+543814940402",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27127341228",
+    "id": "node/10916473614"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1408713,
+      -26.8097387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916477130",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1600",
+    "addr:postcode": "T4178EZP",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "email": "farmacianoryrp@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Nory",
+    "opening_hours": "Mo-Sa 08:30-13:00, 17:00-21:00",
+    "operator": "PORCEL RAQUEL",
+    "phone": "+543814942796",
+    "ref:sisa_codigo": "70900142397962",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27127341228",
+    "id": "node/10916477130"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1404097,
+      -26.805546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916477355",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1300",
+    "addr:postcode": "T4178EYZ",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Este",
+    "operator": "MAYOL, MONICA PATRICIA",
+    "phone": "+543814940135",
+    "ref:sisa_codigo": "70900142397635",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27204966104",
+    "id": "node/10916477355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1404421,
+      -26.8083109
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916499924",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "2100",
+    "addr:postcode": "T4178EZU",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Este II",
+    "opening_hours": "Mo-Fr 08:00-23:00; Sa 08:00-14:00, 18:00-23:00; Su 09:00-14:00",
+    "operator": "GUSTAVO RICARDO DE PIERO BELMONTE",
+    "phone": "+54 11 5195-1180",
+    "ref:sisa_codigo": "70900142399975",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20256622603",
+    "id": "node/10916499924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1397083,
+      -26.8030344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916505501",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:street": "Chacabuco",
+    "amenity": "pharmacy",
+    "email": "marce.prieto@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Santa Ines",
+    "operator": "PRIETO MARIA MARCELA",
+    "phone": "+543814940828",
+    "ref:sisa_codigo": "70900142397767",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27262499206",
+    "id": "node/10916505501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1521022,
+      -26.8124964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916509297",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:street": "Avenida Eva Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Francisco",
+    "opening_hours": "Mo-Sa 09:00-14:00, 17:00-22:00; Su 09:00-14:00, 18:00-22:00",
+    "operator": "CANO MARIA ELISA",
+    "phone": "+543814940499",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27284118168",
+    "id": "node/10916509297"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1523618,
+      -26.8268223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916576331",
+  "properties": {
+    "addr:city": "Alderetes",
+    "addr:street": "Manuela Pedraza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San José",
+    "opening_hours": "Mo-Su 08:00-13:30, 17:00-00:00",
+    "operator": "SAHARA MARIA SALOMON",
+    "phone": "+543814729357",
+    "ref:sisa_codigo": "70900142399858",
+    "ref:sisa_tipologia": "FARMACIA",
+    "id": "node/10916576331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.1559389,
+      -26.8279874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10916791759",
+  "properties": {
+    "addr:housenumber": "4683",
+    "addr:street": "Alvarez Jonte",
+    "amenity": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/10916791759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5046406,
+      -34.6190595
     ]
   }
 }

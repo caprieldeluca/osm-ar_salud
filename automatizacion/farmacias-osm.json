@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.2 e4cf9f7a",
   "osm3s": {
-    "timestamp_osm_base": "2023-05-18T10:45:24Z",
-    "timestamp_areas_base": "2023-05-18T08:24:39Z",
+    "timestamp_osm_base": "2023-05-24T17:07:53Z",
+    "timestamp_areas_base": "2023-05-24T14:41:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2727,8 +2727,10 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Martín de Porres",
+    "operator": "FARMACIA DEL INTERIOR S.R.L.",
     "phone": "+543865482075",
     "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30708269006",
     "source": "https://datos.gob.ar/dataset/pami-farmacias"
   }
 },
@@ -18999,7 +19001,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "level": "0",
-    "name": "Nueva Pascual"
+    "name": "Nueva Pascual",
+    "wheelchair": "yes"
   }
 },
 {
@@ -22716,17 +22719,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Rodriguez"
-  }
-},
-{
-  "type": "node",
-  "id": 3462075868,
-  "lat": -38.9572504,
-  "lon": -68.0538670,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacias Global"
   }
 },
 {
@@ -55693,7 +55685,7 @@
   "lon": -58.4942210,
   "tags": {
     "addr:housenumber": "1200",
-    "addr:street": "Avenida Segurola",
+    "addr:street": "Segurola",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Floresta Centro",
@@ -60091,6 +60083,7 @@
     "addr:postcode": "Q8300",
     "addr:street": "Bartolomé Mitre",
     "amenity": "pharmacy",
+    "brand": "Farmacia del Pueblo",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
@@ -63594,13 +63587,19 @@
 {
   "type": "node",
   "id": 7179692856,
-  "lat": -38.9579232,
-  "lon": -68.0536801,
+  "lat": -38.9579179,
+  "lon": -68.0536732,
   "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "275",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Cruz",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia MEOPP"
+    "name": "Farmacia MEOPP",
+    "operator": "Sindicato de Petróleo y Gas Privado de Río Negro y Neuquén"
   }
 },
 {
@@ -65599,8 +65598,10 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Santa Lucía",
+    "operator": "BARRIOS JOSEFA DEL VALLE",
     "phone": "+543865481152",
     "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27047580191",
     "source": "https://datos.gob.ar/dataset/pami-farmacias"
   }
 },
@@ -84526,7 +84527,7 @@
     "ref:sisa_codigo": "70900842399984",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR27050835087",
-    "website": "http://www.farmaciasdelpueblo.com.ar/"
+    "website": "https://www.farmaciasdelpueblo.com.ar/"
   }
 },
 {
@@ -84865,7 +84866,7 @@
     "ref:sisa_codigo": "70900842399369",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR33702413309",
-    "website": "http://www.farmaciasdelpueblo.com.ar/"
+    "website": "https://www.farmaciasdelpueblo.com.ar/"
   }
 },
 {
@@ -85804,6 +85805,415 @@
   }
 },
 {
+  "type": "node",
+  "id": 10909839757,
+  "lat": -31.3602376,
+  "lon": -64.5411432,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Cordobesa"
+  }
+},
+{
+  "type": "node",
+  "id": 10914970590,
+  "lat": -31.4164522,
+  "lon": -64.1779344,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguería Sarmiento"
+  }
+},
+{
+  "type": "node",
+  "id": 10915401123,
+  "lat": -38.9581161,
+  "lon": -68.0556711,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "246",
+    "addr:postcode": "Q8300",
+    "addr:street": "Perito Moreno",
+    "amenity": "pharmacy",
+    "brand": "Farmacia del Pueblo",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Pueblo",
+    "operator": "Salvado Hnos. S.A.",
+    "website": "https://www.farmaciadelpueblo.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 10916164290,
+  "lat": -27.4369072,
+  "lon": -65.6159734,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1602",
+    "addr:postcode": "T4152DVF",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Arella",
+    "opening_hours": "Mo-Fr 09:00-12:30, 17:30-21:00",
+    "operator": "ARELLA ISABEL MARIA",
+    "phone": "+543865481302",
+    "ref:sisa_codigo": "70900772398001",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20035424386"
+  }
+},
+{
+  "type": "node",
+  "id": 10916296805,
+  "lat": -27.4354996,
+  "lon": -65.6141194,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1471",
+    "addr:postcode": "T4152ATI",
+    "addr:street": "Avenida Sarmiento",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "9 de Julio",
+    "operator": "RIVAS, MARTA ELENA",
+    "phone": "+543865487390",
+    "ref:sisa_codigo": "70900772397628",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27274969224"
+  }
+},
+{
+  "type": "node",
+  "id": 10916350980,
+  "lat": -27.4357894,
+  "lon": -65.6210182,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1490",
+    "addr:postcode": "T4152AIX",
+    "addr:street": "Adolfo Alsina",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Barrio",
+    "operator": "MARTINEZ ANALIA ESTHER",
+    "phone": "+543865481902",
+    "ref:sisa_codigo": "70900772399503",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27254521154"
+  }
+},
+{
+  "type": "node",
+  "id": 10916398208,
+  "lat": -27.4257384,
+  "lon": -65.6163794,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "418",
+    "addr:postcode": "T4152DUH",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Barrio 1 de Mayo",
+    "operator": "CARELLI MONICA SANDRA",
+    "ref:sisa_codigo": "70900772399345",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR23144105044"
+  }
+},
+{
+  "type": "node",
+  "id": 10916410056,
+  "lat": -27.4321762,
+  "lon": -65.6239694,
+  "tags": {
+    "addr:city": "Aguilares",
+    "addr:housenumber": "1575",
+    "addr:postcode": "T4152APA",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "E & A",
+    "operator": "BOVARI MARIA ALEJANDRA",
+    "ref:sisa_codigo": "70900772399553",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27178597553"
+  }
+},
+{
+  "type": "node",
+  "id": 10916434318,
+  "lat": -26.8205295,
+  "lon": -65.1448837,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "401",
+    "addr:postcode": "T4178EYE",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Divina Misericordia",
+    "operator": "CINTI AP S.R.L.",
+    "phone": "+543814943768",
+    "ref:sisa_codigo": "70900142399401",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30715971816"
+  }
+},
+{
+  "type": "node",
+  "id": 10916441918,
+  "lat": -26.8193712,
+  "lon": -65.1446959,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "500",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Las Salinas",
+    "operator": "MICE SRL",
+    "phone": "+543814940249",
+    "ref:sisa_codigo": "70020012317885",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR30715975935"
+  }
+},
+{
+  "type": "node",
+  "id": 10916442370,
+  "lat": -26.8152758,
+  "lon": -65.1427481,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "899",
+    "addr:postcode": "T4178EYI",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Benito",
+    "opening_hours": "Mo-Sa 08:00-12:30, 17:00-20:30",
+    "operator": "CAMPOS DANIEL ANIBAL",
+    "phone": "+543814942948",
+    "ref:sisa_codigo": "70900142397939",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20165262833"
+  }
+},
+{
+  "type": "node",
+  "id": 10916445366,
+  "lat": -26.8167547,
+  "lon": -65.1435741,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "730",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Marino",
+    "operator": "LUIS ALBERTO ROMANO",
+    "phone": "+543814641558",
+    "ref:sisa_codigo": "70900142399409",
+    "ref:sisa_tipologia": "FARMACIA"
+  }
+},
+{
+  "type": "node",
+  "id": 10916463824,
+  "lat": -26.8141377,
+  "lon": -65.1423350,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "999",
+    "addr:postcode": "T4178EYJ",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Angar",
+    "operator": "ORTIZ FRANCISCO MANUEL",
+    "phone": "+543814940350",
+    "ref:sisa_codigo": "70900142397927",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20085799216"
+  }
+},
+{
+  "type": "node",
+  "id": 10916469989,
+  "lat": -26.8120128,
+  "lon": -65.1419532,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1070",
+    "addr:postcode": "T4178EYX",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Las Salinas",
+    "opening_hours": "Mo-Sa 09:00-17:00",
+    "operator": "MIRANDA CESAR LUIS",
+    "phone": "+543814942935",
+    "ref:sisa_codigo": "70900142397630",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20186464320"
+  }
+},
+{
+  "type": "node",
+  "id": 10916473614,
+  "lat": -26.8097387,
+  "lon": -65.1408713,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1190",
+    "addr:postcode": "T4178EYY",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Andres",
+    "operator": "PORCEL RAQUEL",
+    "phone": "+543814940402",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27127341228"
+  }
+},
+{
+  "type": "node",
+  "id": 10916477130,
+  "lat": -26.8055460,
+  "lon": -65.1404097,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1600",
+    "addr:postcode": "T4178EZP",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "email": "farmacianoryrp@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Nory",
+    "opening_hours": "Mo-Sa 08:30-13:00, 17:00-21:00",
+    "operator": "PORCEL RAQUEL",
+    "phone": "+543814942796",
+    "ref:sisa_codigo": "70900142397962",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27127341228"
+  }
+},
+{
+  "type": "node",
+  "id": 10916477355,
+  "lat": -26.8083109,
+  "lon": -65.1404421,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "1300",
+    "addr:postcode": "T4178EYZ",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Este",
+    "operator": "MAYOL, MONICA PATRICIA",
+    "phone": "+543814940135",
+    "ref:sisa_codigo": "70900142397635",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27204966104"
+  }
+},
+{
+  "type": "node",
+  "id": 10916499924,
+  "lat": -26.8030344,
+  "lon": -65.1397083,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:housenumber": "2100",
+    "addr:postcode": "T4178EZU",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Este II",
+    "opening_hours": "Mo-Fr 08:00-23:00; Sa 08:00-14:00, 18:00-23:00; Su 09:00-14:00",
+    "operator": "GUSTAVO RICARDO DE PIERO BELMONTE",
+    "phone": "+54 11 5195-1180",
+    "ref:sisa_codigo": "70900142399975",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR20256622603"
+  }
+},
+{
+  "type": "node",
+  "id": 10916505501,
+  "lat": -26.8124964,
+  "lon": -65.1521022,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:street": "Chacabuco",
+    "amenity": "pharmacy",
+    "email": "marce.prieto@hotmail.com",
+    "healthcare": "pharmacy",
+    "name": "Santa Ines",
+    "operator": "PRIETO MARIA MARCELA",
+    "phone": "+543814940828",
+    "ref:sisa_codigo": "70900142397767",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27262499206"
+  }
+},
+{
+  "type": "node",
+  "id": 10916509297,
+  "lat": -26.8268223,
+  "lon": -65.1523618,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:street": "Avenida Eva Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Francisco",
+    "opening_hours": "Mo-Sa 09:00-14:00, 17:00-22:00; Su 09:00-14:00, 18:00-22:00",
+    "operator": "CANO MARIA ELISA",
+    "phone": "+543814940499",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27284118168"
+  }
+},
+{
+  "type": "node",
+  "id": 10916576331,
+  "lat": -26.8279874,
+  "lon": -65.1559389,
+  "tags": {
+    "addr:city": "Alderetes",
+    "addr:street": "Manuela Pedraza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San José",
+    "opening_hours": "Mo-Su 08:00-13:30, 17:00-00:00",
+    "operator": "SAHARA MARIA SALOMON",
+    "phone": "+543814729357",
+    "ref:sisa_codigo": "70900142399858",
+    "ref:sisa_tipologia": "FARMACIA"
+  }
+},
+{
+  "type": "node",
+  "id": 10916791759,
+  "lat": -34.6190595,
+  "lon": -58.5046406,
+  "tags": {
+    "addr:housenumber": "4683",
+    "addr:street": "Alvarez Jonte",
+    "amenity": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -86358,6 +86768,31 @@
     "building": "yes",
     "contact:phone": "+54 341 480-8140",
     "name": "Farmacia Ferran"
+  }
+},
+{
+  "type": "way",
+  "id": 297437710,
+  "nodes": [
+    3013316466,
+    3013316467,
+    3013316468,
+    3013316469,
+    3013316466
+  ],
+  "tags": {
+    "addr:housenumber": "1032",
+    "addr:postcode": "2143",
+    "addr:street": "José de San Martín",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "contact:facebook": "farmaciasibarlucea",
+    "contact:phone": "+54 341 696-8070",
+    "contact:whatsapp": "+54 341 696-8070",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Fedyszyn",
+    "opening_hours": "Mo-Fr 08:30-12:30,16:30-20:00; Sa 08:30-13:00",
+    "short_name": "Fedyszyn"
   }
 },
 {
@@ -92522,7 +92957,7 @@
     4661146520
   ],
   "tags": {
-    "addr:street": "Avenida Segurola",
+    "addr:street": "Segurola",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -92987,25 +93422,6 @@
     "healthcare": "pharmacy",
     "name": "Nuñez",
     "source": "Reconocimiento Cartográfico 2016 por KG"
-  }
-},
-{
-  "type": "way",
-  "id": 473440972,
-  "nodes": [
-    4675595883,
-    4675595884,
-    4675595885,
-    4675595886,
-    4675595887,
-    4675595883
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Thevenet",
-    "source": "Reconocimiento terrestre por Kaart 2016."
   }
 },
 {
@@ -99305,31 +99721,6 @@
 },
 {
   "type": "way",
-  "id": 769132029,
-  "nodes": [
-    2442021575,
-    7179726919,
-    7880164477,
-    7179726920,
-    7179726921,
-    7179726922,
-    2442021574,
-    2442021575
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "246",
-    "addr:postcode": "Q8300",
-    "addr:street": "Perito Moreno",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia del Pueblo"
-  }
-},
-{
-  "type": "way",
   "id": 772458272,
   "nodes": [
     7212017446,
@@ -104156,6 +104547,22 @@
   }
 },
 {
+  "type": "way",
+  "id": 1174917794,
+  "nodes": [
+    10917419053,
+    10917419054,
+    10917419055,
+    10917419056,
+    10917419053
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -105783,18 +106190,6 @@
 },
 {
   "type": "node",
-  "id": 2442021575,
-  "lat": -38.9581522,
-  "lon": -68.0557273
-},
-{
-  "type": "node",
-  "id": 7179726919,
-  "lat": -38.9581524,
-  "lon": -68.0555444
-},
-{
-  "type": "node",
   "id": 6655760220,
   "lat": -38.9549572,
   "lon": -68.0604225
@@ -105885,30 +106280,6 @@
 },
 {
   "type": "node",
-  "id": 2442021574,
-  "lat": -38.9577549,
-  "lon": -68.0557258
-},
-{
-  "type": "node",
-  "id": 7179726920,
-  "lat": -38.9578412,
-  "lon": -68.0555438
-},
-{
-  "type": "node",
-  "id": 7179726921,
-  "lat": -38.9578412,
-  "lon": -68.0556021
-},
-{
-  "type": "node",
-  "id": 7179726922,
-  "lat": -38.9577545,
-  "lon": -68.0556020
-},
-{
-  "type": "node",
   "id": 7626810714,
   "lat": -38.9528367,
   "lon": -68.0551625
@@ -105954,12 +106325,6 @@
   "id": 7626990101,
   "lat": -38.9537779,
   "lon": -68.0552490
-},
-{
-  "type": "node",
-  "id": 7880164477,
-  "lat": -38.9578565,
-  "lon": -68.0555438
 },
 {
   "type": "node",
@@ -108456,6 +108821,30 @@
   "id": 3501395921,
   "lat": -37.9870578,
   "lon": -57.5448688
+},
+{
+  "type": "node",
+  "id": 10917419053,
+  "lat": -37.7381266,
+  "lon": -57.4383733
+},
+{
+  "type": "node",
+  "id": 10917419054,
+  "lat": -37.7382960,
+  "lon": -57.4381129
+},
+{
+  "type": "node",
+  "id": 10917419055,
+  "lat": -37.7383788,
+  "lon": -57.4381823
+},
+{
+  "type": "node",
+  "id": 10917419056,
+  "lat": -37.7382022,
+  "lon": -57.4384734
 },
 {
   "type": "node",
@@ -114540,6 +114929,30 @@
   "id": 8420938537,
   "lat": -32.8584914,
   "lon": -60.7140181
+},
+{
+  "type": "node",
+  "id": 3013316466,
+  "lat": -32.8524425,
+  "lon": -60.7867783
+},
+{
+  "type": "node",
+  "id": 3013316467,
+  "lat": -32.8525256,
+  "lon": -60.7867747
+},
+{
+  "type": "node",
+  "id": 3013316468,
+  "lat": -32.8525234,
+  "lon": -60.7867041
+},
+{
+  "type": "node",
+  "id": 3013316469,
+  "lat": -32.8524403,
+  "lon": -60.7867073
 },
 {
   "type": "node",
@@ -126168,36 +126581,6 @@
   "id": 4702090307,
   "lat": -34.4304939,
   "lon": -58.5756251
-},
-{
-  "type": "node",
-  "id": 4675595883,
-  "lat": -34.4705865,
-  "lon": -58.5216042
-},
-{
-  "type": "node",
-  "id": 4675595884,
-  "lat": -34.4706595,
-  "lon": -58.5215580
-},
-{
-  "type": "node",
-  "id": 4675595885,
-  "lat": -34.4706063,
-  "lon": -58.5214342
-},
-{
-  "type": "node",
-  "id": 4675595886,
-  "lat": -34.4705593,
-  "lon": -58.5214639
-},
-{
-  "type": "node",
-  "id": 4675595887,
-  "lat": -34.4705417,
-  "lon": -58.5215001
 },
 {
   "type": "node",
