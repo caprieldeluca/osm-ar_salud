@@ -1101,24 +1101,24 @@
     "coordinates": [
       [
         [
-          -59.3200087,
-          -34.7004936
+          -59.3200083,
+          -34.7004915
         ],
         [
-          -59.320083,
-          -34.7005353
+          -59.3200857,
+          -34.7005349
         ],
         [
-          -59.3200431,
-          -34.700588
+          -59.3200428,
+          -34.7005866
         ],
         [
-          -59.3199617,
-          -34.7005438
+          -59.3199653,
+          -34.7005433
         ],
         [
-          -59.3200087,
-          -34.7004936
+          -59.3200083,
+          -34.7004915
         ]
       ]
     ]
@@ -2116,6 +2116,7 @@
     "health_facility:type": "laboratory",
     "healthcare": "laboratory",
     "healthcare:speciality": "biochemistry",
+    "name:signed": "no",
     "opening_hours": "Mo-Fr 08:00-11:00",
     "operator": "Mirta Dosso",
     "id": "way/421499763"
@@ -8903,7 +8904,7 @@
           -34.5806214
         ],
         [
-          -58.5416958,
+          -58.541696,
           -34.5803441
         ],
         [
@@ -10373,8 +10374,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -59.1204513,
-      -34.5524494
+      -59.1204352,
+      -34.5524682
     ]
   }
 },
@@ -16677,24 +16678,6 @@
     "coordinates": [
       -58.9568866,
       -34.1646432
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4762069600",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Izquierda Unida",
-    "office": "political_party",
-    "id": "node/4762069600"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.7885107,
-      -34.6454751
     ]
   }
 },
@@ -34526,6 +34509,7 @@
     "addr:street": "Islas Malvinas",
     "amenity": "doctors",
     "contact:phone": "+54 2942 448257",
+    "healthcare": "doctor",
     "name": "Consultorio Islas Malvinas",
     "opening_hours": "mo-fr 09:00-15:00",
     "id": "node/9453701587"
@@ -36019,6 +36003,60 @@
     "coordinates": [
       -60.7364838,
       -32.7501686
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926974557",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Doctor Elías Moppet",
+    "id": "node/10926974557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.488363,
+      -31.0952282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10932632021",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro de Ojos Rafael Calzada",
+    "id": "node/10932632021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3588783,
+      -34.7939949
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10940654105",
+  "properties": {
+    "addr:housenumber": "1535",
+    "addr:postcode": "3300",
+    "addr:street": "Félix de Azara",
+    "amenity": "doctors",
+    "name": "EIRA Instituto Misionero de Gastroenterología y Motilidad Digestiva",
+    "id": "node/10940654105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.8931826,
+      -27.3645614
     ]
   }
 }

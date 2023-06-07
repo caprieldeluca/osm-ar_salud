@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60.2 e4cf9f7a",
+  "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-05-24T16:57:54Z",
-    "timestamp_areas_base": "2023-05-24T14:41:09Z",
+    "timestamp_osm_base": "2023-06-07T16:18:04Z",
+    "timestamp_areas_base": "2023-06-07T12:55:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -521,13 +521,13 @@
   "lon": -60.7951533,
   "tags": {
     "addr:full": "Sara Pacheco Y 9 De Julio",
-    "addr:phone": "+54 3402 46-1151",
     "addr:postcode": "S2119",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro de Salud Comunal de Piñero",
     "operator": "Comuna de Piñero",
     "operator:type": "public",
+    "phone": "+54 3402 46-1151",
     "ref:sisa_codigo": "50820842284628",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -1253,6 +1253,8 @@
   "lat": -33.0102340,
   "lon": -58.5328597,
   "tags": {
+    "addr:city": "Gualeguaychú",
+    "addr:postcode": "2820",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Centenario",
@@ -8550,22 +8552,6 @@
 },
 {
   "type": "node",
-  "id": 4082354787,
-  "lat": -36.7823470,
-  "lon": -59.8530687,
-  "tags": {
-    "addr:city": "Azul",
-    "addr:housenumber": "943",
-    "addr:postcode": "7300",
-    "addr:street": "Avenida Bartolomé Mitre",
-    "amenity": "hospital",
-    "emergency": "no",
-    "healthcare": "hospital",
-    "name": "Sanatorio Azul"
-  }
-},
-{
-  "type": "node",
   "id": 4088196388,
   "lat": -33.7448792,
   "lon": -59.1486652,
@@ -10332,17 +10318,6 @@
     "healthcare": "hospital",
     "name": "Hospital Florentino Ameghino",
     "phone": "+54 (3388) 47-1055"
-  }
-},
-{
-  "type": "node",
-  "id": 4219904290,
-  "lat": -31.4398012,
-  "lon": -64.1642440,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Dipensario n° 11"
   }
 },
 {
@@ -21565,24 +21540,6 @@
 },
 {
   "type": "node",
-  "id": 7541521082,
-  "lat": -34.5497569,
-  "lon": -58.5255459,
-  "tags": {
-    "addr:full": "Avenida De Los Constituyentes 3120",
-    "addr:postcode": "1651",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Zonal General Agudos Manuel Belgrano",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "(011) 4747-7224",
-    "ref:sisa_codigo": "10063712100390",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
   "id": 7541545440,
   "lat": -34.5562455,
   "lon": -58.5477955,
@@ -23407,6 +23364,7 @@
     314674359,
     314674360,
     258150657,
+    10934535862,
     258150649,
     181175971,
     181175967
@@ -27585,24 +27543,6 @@
 },
 {
   "type": "way",
-  "id": 187579010,
-  "nodes": [
-    1982291094,
-    1982291101,
-    1982291098,
-    1982291096,
-    1982291099,
-    1982291094
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "emergency": "no",
-    "healthcare": "hospital",
-    "name": "Centro De Reabilitación Socio Laboral Cusca Ñámpi"
-  }
-},
-{
-  "type": "way",
   "id": 188221354,
   "nodes": [
     1988462109,
@@ -31027,10 +30967,10 @@
   "nodes": [
     2604795124,
     2604795118,
-    2604795015,
-    5581622940,
-    5581622939,
-    2604795034,
+    2604795018,
+    2604795016,
+    2604795032,
+    2604795044,
     2604795124
   ],
   "tags": {
@@ -31978,7 +31918,7 @@
   "tags": {
     "addr:city": "Córdoba",
     "addr:full": "Avenida 11 De Septiembre 2900",
-    "addr:housenumber": "2900",
+    "addr:housenumber": "2898",
     "addr:postcode": "5000",
     "addr:street": "Avenida 11 de Septiembre",
     "amenity": "hospital",
@@ -33006,33 +32946,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Municipal Domingo V. Girotti"
-  }
-},
-{
-  "type": "way",
-  "id": 294221958,
-  "nodes": [
-    2977883454,
-    2977883455,
-    2977883456,
-    2977883457,
-    2977883454
-  ],
-  "tags": {
-    "addr:city": "Centenario",
-    "addr:full": "Avenida Libertador 700",
-    "addr:place": "Confluencia",
-    "addr:postcode": "8309",
-    "addr:street": "Avenida del Libertador saliendo por 3° rotonda",
-    "amenity": "hospital",
-    "description": "Mediano riesgo con internación con cuidados especiales",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital De Area Centenario - Doctor Natalio Burd",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10580352167014",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
 {
@@ -50660,18 +50573,25 @@
   "type": "way",
   "id": 1029899777,
   "nodes": [
-    9494133616,
-    3216686911,
+    10926546494,
+    10926546493,
     9494156617,
     9494156618,
-    9494133616
+    10926546494
   ],
   "tags": {
+    "addr:city": "Gualeguaychú",
+    "addr:housenumber": "1848",
+    "addr:postcode": "2820",
+    "addr:street": "Urquiza",
     "amenity": "hospital",
+    "email": "info@hospitalcentenario.com.ar",
     "emergency": "yes",
     "healthcare": "hospital",
     "healthcare:speciality": "psychiatry;paediatrics;dentistry;ophthalmology;vaccination;intensive;emergency;surgery;cardiology;radiology;internal;general;orthodontics;maternity",
     "name": "Hospital Centenario",
+    "phone": "+54 3446 426025",
+    "website": "http://www.hospitalcentenario.com.ar/",
     "wheelchair": "yes"
   }
 },
@@ -50917,39 +50837,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Interdistrital Evita"
-  }
-},
-{
-  "type": "way",
-  "id": 1044654402,
-  "nodes": [
-    9612253510,
-    9612253509,
-    9612253508,
-    9612253507,
-    9612253506,
-    9612253505,
-    2107374402,
-    9612253504,
-    9612253510
-  ],
-  "tags": {
-    "addr:city": "Córdoba",
-    "addr:full": "Américo Vespucio Esq. Arenales - Barrio Juniors",
-    "addr:housenumber": "720",
-    "addr:postcode": "5000",
-    "addr:street": "Américo Vespucio",
-    "alt_name": "CRSL",
-    "amenity": "hospital",
-    "building": "yes",
-    "healthcare": "rehabilitation",
-    "healthcare:speciality": "occupational",
-    "name": "Centro de Rehabilitación Socio Laboral",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "+54 0351 4342432",
-    "ref:sisa_codigo": "50140142333141",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -51904,7 +51791,7 @@
   ],
   "tags": {
     "addr:housenumber": "464",
-    "addr:street": "Avellaneda",
+    "addr:street": "Nicolás Avellaneda",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -52558,42 +52445,6 @@
     "building": "yes",
     "healthcare": "hospital",
     "name": "Centro de Salud San Martín"
-  }
-},
-{
-  "type": "way",
-  "id": 1053224284,
-  "nodes": [
-    9679069946,
-    9679069945,
-    9679069944,
-    9679069943,
-    9679069942,
-    9679069941,
-    9679069940,
-    9679069939,
-    9679069938,
-    9679069937,
-    7516297515,
-    9679069946
-  ],
-  "tags": {
-    "addr:city": "Córdoba",
-    "addr:full": "Evangelista Torricelli 5615",
-    "addr:housenumber": "5615",
-    "addr:postcode": "5147",
-    "addr:street": "Evangelista Torricelli",
-    "amenity": "hospital",
-    "building": "yes",
-    "email": "info@centrogallia.com",
-    "healthcare": "hospital",
-    "healthcare:speciality": "dentist;plastic_surgery;fertility",
-    "name": "Clinica Privada Gallia",
-    "operator:type": "private",
-    "phone": "0810-444-2554",
-    "ref:sisa_codigo": "10140142331059",
-    "ref:sisa_tipologia": "ESCIG",
-    "website": "http://www.clinicagallia.com/"
   }
 },
 {
@@ -53614,6 +53465,87 @@
   }
 },
 {
+  "type": "way",
+  "id": 1177655083,
+  "nodes": [
+    10940388212,
+    10940388213,
+    10940388214,
+    10940388215,
+    10940388216,
+    10940388217,
+    10940388218,
+    10940388219,
+    10940388220,
+    10940388221,
+    10940388222,
+    10940388223,
+    10940388224,
+    10940388225,
+    10940388226,
+    10940388227,
+    10940388228,
+    10940388229,
+    10940388230,
+    10940388231,
+    10940388232,
+    10940388212
+  ],
+  "tags": {
+    "addr:city": "Azul",
+    "addr:housenumber": "943",
+    "addr:postcode": "7300",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "hospital",
+    "building": "yes",
+    "building:levels": "2",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "Sanatorio Azul",
+    "operator": "Sanatorio Azul S.A.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1177751521,
+  "nodes": [
+    10941227681,
+    10941227682,
+    10941227684,
+    10941227683,
+    10941227681
+  ],
+  "tags": {
+    "addr:full": "Avenida De Los Constituyentes 3120",
+    "addr:postcode": "1651",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Zonal General Agudos Manuel Belgrano",
+    "operator": "Provincial",
+    "operator:type": "public",
+    "phone": "(011) 4747-7224",
+    "ref:sisa_codigo": "10063712100390",
+    "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "way",
+  "id": 1179644319,
+  "nodes": [
+    10956445699,
+    10956445700,
+    10956445701,
+    10956445702,
+    10956445699
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Pronta Atención Cura Brochero"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -54206,6 +54138,67 @@
   "tags": {
     "amenity": "hospital",
     "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 15922264,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1177645626,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645621,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645565,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645622,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645582,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645564,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645585,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1177645584,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:city": "Centenario",
+    "addr:housenumber": "700",
+    "addr:postcode": "Q8309",
+    "addr:street": "Avenida del Libertador",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Centenario \"Doctor Natalio Burd\"",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 299 489-7890",
+    "type": "multipolygon",
+    "website": "https://www.saludneuquen.gob.ar/hospital-centenario-dr-natalio-burd/"
   }
 },
 {
@@ -59586,27 +59579,123 @@
 },
 {
   "type": "node",
-  "id": 2977883454,
-  "lat": -38.8211600,
-  "lon": -68.1380832
+  "id": 10940317433,
+  "lat": -38.8212268,
+  "lon": -68.1380898
 },
 {
   "type": "node",
-  "id": 2977883455,
-  "lat": -38.8217322,
-  "lon": -68.1373866
+  "id": 10940317435,
+  "lat": -38.8212800,
+  "lon": -68.1381014
 },
 {
   "type": "node",
-  "id": 2977883456,
-  "lat": -38.8205727,
-  "lon": -68.1358926
+  "id": 10940317430,
+  "lat": -38.8220021,
+  "lon": -68.1377047
 },
 {
   "type": "node",
-  "id": 2977883457,
-  "lat": -38.8200190,
-  "lon": -68.1366032
+  "id": 10940317431,
+  "lat": -38.8206103,
+  "lon": -68.1359153
+},
+{
+  "type": "node",
+  "id": 10940317434,
+  "lat": -38.8219916,
+  "lon": -68.1377662
+},
+{
+  "type": "node",
+  "id": 10940317436,
+  "lat": -38.8207107,
+  "lon": -68.1360443
+},
+{
+  "type": "node",
+  "id": 10940317437,
+  "lat": -38.8217529,
+  "lon": -68.1373846
+},
+{
+  "type": "node",
+  "id": 10940317511,
+  "lat": -38.8209153,
+  "lon": -68.1376895
+},
+{
+  "type": "node",
+  "id": 10940317516,
+  "lat": -38.8216106,
+  "lon": -68.1372015
+},
+{
+  "type": "node",
+  "id": 10940317533,
+  "lat": -38.8207563,
+  "lon": -68.1361032
+},
+{
+  "type": "node",
+  "id": 10940317534,
+  "lat": -38.8207872,
+  "lon": -68.1361431
+},
+{
+  "type": "node",
+  "id": 10940317535,
+  "lat": -38.8208334,
+  "lon": -68.1362025
+},
+{
+  "type": "node",
+  "id": 10940317540,
+  "lat": -38.8210916,
+  "lon": -68.1365344
+},
+{
+  "type": "node",
+  "id": 10940317541,
+  "lat": -38.8214393,
+  "lon": -68.1369813
+},
+{
+  "type": "node",
+  "id": 10940317542,
+  "lat": -38.8215021,
+  "lon": -68.1370619
+},
+{
+  "type": "node",
+  "id": 10940317543,
+  "lat": -38.8210646,
+  "lon": -68.1364997
+},
+{
+  "type": "node",
+  "id": 10940317548,
+  "lat": -38.8208443,
+  "lon": -68.1375983
+},
+{
+  "type": "node",
+  "id": 10940317581,
+  "lat": -38.8214669,
+  "lon": -68.1370167
+},
+{
+  "type": "node",
+  "id": 10940317583,
+  "lat": -38.8210781,
+  "lon": -68.1365170
+},
+{
+  "type": "node",
+  "id": 10940317432,
+  "lat": -38.8200718,
+  "lon": -68.1366055
 },
 {
   "type": "node",
@@ -74448,36 +74537,6 @@
 },
 {
   "type": "node",
-  "id": 1982291094,
-  "lat": -31.2793585,
-  "lon": -64.4608863
-},
-{
-  "type": "node",
-  "id": 1982291096,
-  "lat": -31.2828427,
-  "lon": -64.4583543
-},
-{
-  "type": "node",
-  "id": 1982291098,
-  "lat": -31.2811318,
-  "lon": -64.4605977
-},
-{
-  "type": "node",
-  "id": 1982291099,
-  "lat": -31.2805450,
-  "lon": -64.4573361
-},
-{
-  "type": "node",
-  "id": 1982291101,
-  "lat": -31.2799820,
-  "lon": -64.4609077
-},
-{
-  "type": "node",
   "id": 3818163759,
   "lat": -31.2462568,
   "lon": -64.4700286
@@ -75486,69 +75545,27 @@
 },
 {
   "type": "node",
-  "id": 7516297515,
-  "lat": -31.3585598,
-  "lon": -64.2474263
+  "id": 10956445699,
+  "lat": -31.3407853,
+  "lon": -64.2558263
 },
 {
   "type": "node",
-  "id": 9679069937,
-  "lat": -31.3586271,
-  "lon": -64.2474544
+  "id": 10956445700,
+  "lat": -31.3404761,
+  "lon": -64.2555769
 },
 {
   "type": "node",
-  "id": 9679069938,
-  "lat": -31.3586778,
-  "lon": -64.2472880
+  "id": 10956445701,
+  "lat": -31.3400477,
+  "lon": -64.2562743
 },
 {
   "type": "node",
-  "id": 9679069939,
-  "lat": -31.3586386,
-  "lon": -64.2472716
-},
-{
-  "type": "node",
-  "id": 9679069940,
-  "lat": -31.3586496,
-  "lon": -64.2472355
-},
-{
-  "type": "node",
-  "id": 9679069941,
-  "lat": -31.3585856,
-  "lon": -64.2472088
-},
-{
-  "type": "node",
-  "id": 9679069942,
-  "lat": -31.3585743,
-  "lon": -64.2472459
-},
-{
-  "type": "node",
-  "id": 9679069943,
-  "lat": -31.3584674,
-  "lon": -64.2472013
-},
-{
-  "type": "node",
-  "id": 9679069944,
-  "lat": -31.3584370,
-  "lon": -64.2473012
-},
-{
-  "type": "node",
-  "id": 9679069945,
-  "lat": -31.3585279,
-  "lon": -64.2473392
-},
-{
-  "type": "node",
-  "id": 9679069946,
-  "lat": -31.3585079,
-  "lon": -64.2474046
+  "id": 10956445702,
+  "lat": -31.3403547,
+  "lon": -64.2565586
 },
 {
   "type": "node",
@@ -76647,54 +76664,6 @@
   "id": 2107366212,
   "lat": -31.4200455,
   "lon": -64.1711638
-},
-{
-  "type": "node",
-  "id": 2107374402,
-  "lat": -31.4188650,
-  "lon": -64.1718044
-},
-{
-  "type": "node",
-  "id": 9612253504,
-  "lat": -31.4188878,
-  "lon": -64.1718906
-},
-{
-  "type": "node",
-  "id": 9612253505,
-  "lat": -31.4188160,
-  "lon": -64.1716287
-},
-{
-  "type": "node",
-  "id": 9612253506,
-  "lat": -31.4190781,
-  "lon": -64.1715281
-},
-{
-  "type": "node",
-  "id": 9612253507,
-  "lat": -31.4191330,
-  "lon": -64.1717427
-},
-{
-  "type": "node",
-  "id": 9612253508,
-  "lat": -31.4190269,
-  "lon": -64.1717820
-},
-{
-  "type": "node",
-  "id": 9612253509,
-  "lat": -31.4190435,
-  "lon": -64.1718530
-},
-{
-  "type": "node",
-  "id": 9612253510,
-  "lat": -31.4189117,
-  "lon": -64.1719026
 },
 {
   "type": "node",
@@ -85272,6 +85241,132 @@
 },
 {
   "type": "node",
+  "id": 10940388212,
+  "lat": -36.7822116,
+  "lon": -59.8532695
+},
+{
+  "type": "node",
+  "id": 10940388213,
+  "lat": -36.7823863,
+  "lon": -59.8530369
+},
+{
+  "type": "node",
+  "id": 10940388214,
+  "lat": -36.7824324,
+  "lon": -59.8530342
+},
+{
+  "type": "node",
+  "id": 10940388215,
+  "lat": -36.7826306,
+  "lon": -59.8532702
+},
+{
+  "type": "node",
+  "id": 10940388216,
+  "lat": -36.7824335,
+  "lon": -59.8535282
+},
+{
+  "type": "node",
+  "id": 10940388217,
+  "lat": -36.7823634,
+  "lon": -59.8534448
+},
+{
+  "type": "node",
+  "id": 10940388218,
+  "lat": -36.7823979,
+  "lon": -59.8533995
+},
+{
+  "type": "node",
+  "id": 10940388219,
+  "lat": -36.7824248,
+  "lon": -59.8534314
+},
+{
+  "type": "node",
+  "id": 10940388220,
+  "lat": -36.7824869,
+  "lon": -59.8533498
+},
+{
+  "type": "node",
+  "id": 10940388221,
+  "lat": -36.7824512,
+  "lon": -59.8533074
+},
+{
+  "type": "node",
+  "id": 10940388222,
+  "lat": -36.7824829,
+  "lon": -59.8532658
+},
+{
+  "type": "node",
+  "id": 10940388223,
+  "lat": -36.7824642,
+  "lon": -59.8532437
+},
+{
+  "type": "node",
+  "id": 10940388224,
+  "lat": -36.7824238,
+  "lon": -59.8532971
+},
+{
+  "type": "node",
+  "id": 10940388225,
+  "lat": -36.7824646,
+  "lon": -59.8533453
+},
+{
+  "type": "node",
+  "id": 10940388226,
+  "lat": -36.7824283,
+  "lon": -59.8533932
+},
+{
+  "type": "node",
+  "id": 10940388227,
+  "lat": -36.7823698,
+  "lon": -59.8533242
+},
+{
+  "type": "node",
+  "id": 10940388228,
+  "lat": -36.7823950,
+  "lon": -59.8532908
+},
+{
+  "type": "node",
+  "id": 10940388229,
+  "lat": -36.7823597,
+  "lon": -59.8532492
+},
+{
+  "type": "node",
+  "id": 10940388230,
+  "lat": -36.7823370,
+  "lon": -59.8532792
+},
+{
+  "type": "node",
+  "id": 10940388231,
+  "lat": -36.7823508,
+  "lon": -59.8532954
+},
+{
+  "type": "node",
+  "id": 10940388232,
+  "lat": -36.7822961,
+  "lon": -59.8533683
+},
+{
+  "type": "node",
   "id": 1437607329,
   "lat": -36.7695411,
   "lon": -59.8578175
@@ -92466,9 +92561,9 @@
 },
 {
   "type": "node",
-  "id": 2604795034,
-  "lat": -34.7841663,
-  "lon": -58.3533355
+  "id": 2604795032,
+  "lat": -34.7841193,
+  "lon": -58.3533624
 },
 {
   "type": "node",
@@ -92544,33 +92639,33 @@
 },
 {
   "type": "node",
-  "id": 2604795015,
-  "lat": -34.7835696,
-  "lon": -58.3523236
+  "id": 2604795016,
+  "lat": -34.7835254,
+  "lon": -58.3523496
+},
+{
+  "type": "node",
+  "id": 2604795018,
+  "lat": -34.7837025,
+  "lon": -58.3522028
+},
+{
+  "type": "node",
+  "id": 2604795044,
+  "lat": -34.7843246,
+  "lon": -58.3531954
 },
 {
   "type": "node",
   "id": 2604795118,
-  "lat": -34.7852316,
-  "lon": -58.3509756
+  "lat": -34.7851677,
+  "lon": -58.3509880
 },
 {
   "type": "node",
   "id": 2604795124,
-  "lat": -34.7857782,
-  "lon": -58.3519943
-},
-{
-  "type": "node",
-  "id": 5581622939,
-  "lat": -34.7836664,
-  "lon": -58.3524877
-},
-{
-  "type": "node",
-  "id": 5581622940,
-  "lat": -34.7836146,
-  "lon": -58.3523998
+  "lat": -34.7857655,
+  "lon": -58.3520236
 },
 {
   "type": "node",
@@ -93289,20 +93384,20 @@
 {
   "type": "node",
   "id": 9623067558,
-  "lat": -34.6197637,
-  "lon": -58.4731179
+  "lat": -34.6197505,
+  "lon": -58.4731313
 },
 {
   "type": "node",
   "id": 9623067559,
-  "lat": -34.6198155,
-  "lon": -58.4731311
+  "lat": -34.6197956,
+  "lon": -58.4731472
 },
 {
   "type": "node",
   "id": 9623067560,
-  "lat": -34.6200696,
-  "lon": -58.4736033
+  "lat": -34.6200442,
+  "lon": -58.4736207
 },
 {
   "type": "node",
@@ -97962,6 +98057,30 @@
 },
 {
   "type": "node",
+  "id": 10941227681,
+  "lat": -34.5509515,
+  "lon": -58.5258392
+},
+{
+  "type": "node",
+  "id": 10941227682,
+  "lat": -34.5504192,
+  "lon": -58.5247766
+},
+{
+  "type": "node",
+  "id": 10941227683,
+  "lat": -34.5499849,
+  "lon": -58.5264982
+},
+{
+  "type": "node",
+  "id": 10941227684,
+  "lat": -34.5484736,
+  "lon": -58.5255082
+},
+{
+  "type": "node",
   "id": 3791013174,
   "lat": -34.5387574,
   "lon": -58.5328081
@@ -100320,6 +100439,12 @@
 },
 {
   "type": "node",
+  "id": 10934535862,
+  "lat": -34.5812249,
+  "lon": -58.4070996
+},
+{
+  "type": "node",
   "id": 2091352415,
   "lat": -34.5546830,
   "lon": -58.4506390
@@ -102294,18 +102419,6 @@
 },
 {
   "type": "node",
-  "id": 3216686911,
-  "lat": -33.0095979,
-  "lon": -58.5322477
-},
-{
-  "type": "node",
-  "id": 9494133616,
-  "lat": -33.0096753,
-  "lon": -58.5338957
-},
-{
-  "type": "node",
   "id": 9494156617,
   "lat": -33.0109075,
   "lon": -58.5321100
@@ -102315,6 +102428,18 @@
   "id": 9494156618,
   "lat": -33.0110002,
   "lon": -58.5337968
+},
+{
+  "type": "node",
+  "id": 10926546493,
+  "lat": -33.0095979,
+  "lon": -58.5322477
+},
+{
+  "type": "node",
+  "id": 10926546494,
+  "lat": -33.0096753,
+  "lon": -58.5338957
 },
 {
   "type": "node",
@@ -117539,6 +117664,82 @@
     4548670801,
     4548670806,
     4548670794
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645565,
+  "nodes": [
+    10940317432,
+    10940317548,
+    10940317511,
+    10940317433
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645621,
+  "nodes": [
+    10940317431,
+    10940317432
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645622,
+  "nodes": [
+    10940317433,
+    10940317435,
+    10940317434,
+    10940317430,
+    10940317437
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645564,
+  "nodes": [
+    10940317516,
+    10940317542,
+    10940317581,
+    10940317541,
+    10940317540,
+    10940317583,
+    10940317543,
+    10940317535,
+    10940317534
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645582,
+  "nodes": [
+    10940317437,
+    10940317516
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645584,
+  "nodes": [
+    10940317533,
+    10940317436
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645585,
+  "nodes": [
+    10940317534,
+    10940317533
+  ]
+},
+{
+  "type": "way",
+  "id": 1177645626,
+  "nodes": [
+    10940317436,
+    10940317431
   ]
 },
 {
