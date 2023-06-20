@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-06-07T16:24:05Z",
-    "timestamp_areas_base": "2023-06-07T12:55:24Z",
+    "timestamp_osm_base": "2023-06-20T14:33:01Z",
+    "timestamp_areas_base": "2023-06-11T03:07:17Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1873,7 +1873,7 @@
   "tags": {
     "addr:city": "Godoy Cruz",
     "addr:housenumber": "915",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Resonancia Magnetica - Hospital Español",
@@ -28638,7 +28638,7 @@
     "addr:full": "Carlos Maria Ramirez 1445",
     "addr:housenumber": "1445",
     "addr:postcode": "1437",
-    "addr:street": "Carlos M. Ramirez",
+    "addr:street": "Carlos María Ramírez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 18",
@@ -44354,6 +44354,18 @@
   }
 },
 {
+  "type": "node",
+  "id": 10969668005,
+  "lat": -34.6245916,
+  "lon": -58.6962909,
+  "tags": {
+    "addr:housenumber": "3438",
+    "addr:street": "Martín Fierro",
+    "amenity": "clinic",
+    "name": "Clinica Araucarias"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -45260,7 +45272,8 @@
     2616084273,
     5729258567,
     2616084272,
-    2616084270,
+    3739552808,
+    10971671448,
     2616084271,
     2616084273
   ],
@@ -56735,6 +56748,9 @@
     7283720136,
     7283720135,
     7283720129,
+    10967397656,
+    10967397659,
+    10967397649,
     7283720125
   ],
   "tags": {
@@ -56744,8 +56760,14 @@
     "addr:street": "Santa Fe",
     "amenity": "clinic",
     "building": "yes",
+    "building:colour": "lightgrey",
     "healthcare": "clinic",
-    "name": "Centro de la Visión Neuquén"
+    "healthcare:speciality": "ophthalmology",
+    "height": "4",
+    "name": "Centro de la Visión Neuquén",
+    "operator": "Centro de la Visión S.R.L.",
+    "operator:type": "private",
+    "website": "https://www.centrodelavisionnqn.com.ar/"
   }
 },
 {
@@ -58743,27 +58765,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud N°49"
-  }
-},
-{
-  "type": "way",
-  "id": 812689602,
-  "nodes": [
-    7590722367,
-    7590722368,
-    7590722369,
-    7590722370,
-    7590722367
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "109",
-    "addr:postcode": "8300",
-    "addr:street": "Julio Argentino Roca",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Clínica Pasteur"
   }
 },
 {
@@ -62813,6 +62814,33 @@
 },
 {
   "type": "way",
+  "id": 1070687368,
+  "nodes": [
+    9825800955,
+    9825800956,
+    9825800957,
+    9825800958,
+    9825800955
+  ],
+  "tags": {
+    "addr:city": "Plottier",
+    "addr:housenumber": "354",
+    "addr:postcode": "Q8316",
+    "addr:street": "Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;odontología",
+    "internet_access": "wlan",
+    "name": "Alto Valle Odontología",
+    "operator": "Privado",
+    "operator:type": "privado",
+    "phone": "+5492995812387",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 1073254960,
   "nodes": [
     9845783184,
@@ -64369,6 +64397,35 @@
   }
 },
 {
+  "type": "way",
+  "id": 1180909246,
+  "nodes": [
+    10967271136,
+    10967271137,
+    10967271284,
+    10967271285,
+    10967271288,
+    10967271138,
+    10967238304,
+    10967271136
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "109",
+    "addr:postcode": "Q8300",
+    "addr:street": "Julio Argentino Roca",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Consultorios Externos Pasteur",
+    "operator": "Clínica Pasteur S.A.",
+    "operator:type": "private",
+    "website": "https://www.clinicapasteur.com/"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -65913,6 +65970,30 @@
 },
 {
   "type": "node",
+  "id": 9825800955,
+  "lat": -38.9530002,
+  "lon": -68.2320100
+},
+{
+  "type": "node",
+  "id": 9825800956,
+  "lat": -38.9530002,
+  "lon": -68.2318946
+},
+{
+  "type": "node",
+  "id": 9825800957,
+  "lat": -38.9531712,
+  "lon": -68.2318893
+},
+{
+  "type": "node",
+  "id": 9825800958,
+  "lat": -38.9531712,
+  "lon": -68.2320100
+},
+{
+  "type": "node",
   "id": 7790252832,
   "lat": -38.9504598,
   "lon": -68.1163566
@@ -67257,30 +67338,6 @@
 },
 {
   "type": "node",
-  "id": 7590722367,
-  "lat": -38.9517310,
-  "lon": -68.0608492
-},
-{
-  "type": "node",
-  "id": 7590722368,
-  "lat": -38.9517278,
-  "lon": -68.0610888
-},
-{
-  "type": "node",
-  "id": 7590722369,
-  "lat": -38.9516330,
-  "lon": -68.0610889
-},
-{
-  "type": "node",
-  "id": 7590722370,
-  "lat": -38.9516334,
-  "lon": -68.0608491
-},
-{
-  "type": "node",
   "id": 7590843722,
   "lat": -38.9543259,
   "lon": -68.0620345
@@ -67542,6 +67599,48 @@
   "id": 7858003101,
   "lat": -38.9543100,
   "lon": -68.0640285
+},
+{
+  "type": "node",
+  "id": 10967238304,
+  "lat": -38.9517146,
+  "lon": -68.0608260
+},
+{
+  "type": "node",
+  "id": 10967271136,
+  "lat": -38.9517136,
+  "lon": -68.0610783
+},
+{
+  "type": "node",
+  "id": 10967271137,
+  "lat": -38.9516243,
+  "lon": -68.0610779
+},
+{
+  "type": "node",
+  "id": 10967271138,
+  "lat": -38.9516250,
+  "lon": -68.0608260
+},
+{
+  "type": "node",
+  "id": 10967271284,
+  "lat": -38.9516244,
+  "lon": -68.0610312
+},
+{
+  "type": "node",
+  "id": 10967271285,
+  "lat": -38.9516247,
+  "lon": -68.0609434
+},
+{
+  "type": "node",
+  "id": 10967271288,
+  "lat": -38.9516248,
+  "lon": -68.0609072
 },
 {
   "type": "node",
@@ -68471,13 +68570,13 @@
   "type": "node",
   "id": 7283720128,
   "lat": -38.9431575,
-  "lon": -68.0562700
+  "lon": -68.0562699
 },
 {
   "type": "node",
   "id": 7283720129,
   "lat": -38.9430985,
-  "lon": -68.0564221
+  "lon": -68.0564222
 },
 {
   "type": "node",
@@ -68488,8 +68587,26 @@
 {
   "type": "node",
   "id": 7283720136,
-  "lat": -38.9431571,
+  "lat": -38.9431573,
   "lon": -68.0563449
+},
+{
+  "type": "node",
+  "id": 10967397649,
+  "lat": -38.9429924,
+  "lon": -68.0564219
+},
+{
+  "type": "node",
+  "id": 10967397656,
+  "lat": -38.9430752,
+  "lon": -68.0564221
+},
+{
+  "type": "node",
+  "id": 10967397659,
+  "lat": -38.9430327,
+  "lon": -68.0564220
 },
 {
   "type": "node",
@@ -80602,26 +80719,26 @@
 {
   "type": "node",
   "id": 6227966352,
-  "lat": -31.4200249,
-  "lon": -63.0500138
+  "lat": -31.4199895,
+  "lon": -63.0500399
 },
 {
   "type": "node",
   "id": 6227966353,
-  "lat": -31.4201380,
-  "lon": -63.0499779
+  "lat": -31.4201341,
+  "lon": -63.0499933
 },
 {
   "type": "node",
   "id": 6227966354,
-  "lat": -31.4201069,
-  "lon": -63.0498437
+  "lat": -31.4200126,
+  "lon": -63.0494645
 },
 {
   "type": "node",
   "id": 6227966355,
-  "lat": -31.4199939,
-  "lon": -63.0498796
+  "lat": -31.4198655,
+  "lon": -63.0495096
 },
 {
   "type": "node",
@@ -93753,33 +93870,39 @@
 },
 {
   "type": "node",
-  "id": 2616084270,
-  "lat": -28.4486576,
-  "lon": -65.7205315
-},
-{
-  "type": "node",
   "id": 2616084271,
-  "lat": -28.4487989,
-  "lon": -65.7206221
+  "lat": -28.4487825,
+  "lon": -65.7206151
 },
 {
   "type": "node",
   "id": 2616084272,
-  "lat": -28.4488136,
-  "lon": -65.7202169
+  "lat": -28.4487972,
+  "lon": -65.7202099
 },
 {
   "type": "node",
   "id": 2616084273,
-  "lat": -28.4489549,
-  "lon": -65.7203076
+  "lat": -28.4489385,
+  "lon": -65.7203006
+},
+{
+  "type": "node",
+  "id": 3739552808,
+  "lat": -28.4487900,
+  "lon": -65.7202243
 },
 {
   "type": "node",
   "id": 5729258567,
-  "lat": -28.4488933,
-  "lon": -65.7202681
+  "lat": -28.4488769,
+  "lon": -65.7202611
+},
+{
+  "type": "node",
+  "id": 10971671448,
+  "lat": -28.4486412,
+  "lon": -65.7205245
 },
 {
   "type": "node",

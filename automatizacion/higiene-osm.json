@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-06-07T16:39:19Z",
-    "timestamp_areas_base": "2023-06-07T12:55:24Z",
+    "timestamp_osm_base": "2023-06-20T14:48:27Z",
+    "timestamp_areas_base": "2023-06-13T15:42:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3752,6 +3752,7 @@
   "id": 465760447,
   "nodes": [
     4606830724,
+    10967210515,
     4606830725,
     4606830726,
     4606830727,
@@ -3760,7 +3761,9 @@
   "tags": {
     "addr:street": "Avenida 101 - Doctor Ricardo Balbín",
     "building": "yes",
-    "name": "Ar. de Limpieza Cloro",
+    "building:levels": "1",
+    "height": "4",
+    "name": "Articulos de Limpieza Cloro",
     "shop": "chemist",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -4735,6 +4738,25 @@
   "tags": {
     "building": "yes",
     "name": "Liberzi",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "way",
+  "id": 1181439566,
+  "nodes": [
+    10971684835,
+    10971684853,
+    10971684836,
+    10971684842,
+    10971684837,
+    10971684838,
+    10971684839,
+    10971684835
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Pura Quimica",
     "shop": "chemist"
   }
 },
@@ -6163,26 +6185,32 @@
 {
   "type": "node",
   "id": 4606830724,
-  "lat": -34.5649837,
-  "lon": -58.5701197
+  "lat": -34.5650009,
+  "lon": -58.5701250
 },
 {
   "type": "node",
   "id": 4606830725,
-  "lat": -34.5650905,
-  "lon": -58.5701501
+  "lat": -34.5651834,
+  "lon": -58.5701844
 },
 {
   "type": "node",
   "id": 4606830726,
-  "lat": -34.5650587,
-  "lon": -58.5703147
+  "lat": -34.5650830,
+  "lon": -58.5703271
 },
 {
   "type": "node",
   "id": 4606830727,
-  "lat": -34.5649519,
-  "lon": -58.5702843
+  "lat": -34.5649646,
+  "lon": -58.5702888
+},
+{
+  "type": "node",
+  "id": 10967210515,
+  "lat": -34.5651245,
+  "lon": -58.5701652
 },
 {
   "type": "node",
@@ -6567,6 +6595,48 @@
   "id": 3188884028,
   "lat": -32.1659179,
   "lon": -58.3996688
+},
+{
+  "type": "node",
+  "id": 10971684835,
+  "lat": -28.4488912,
+  "lon": -65.7230471
+},
+{
+  "type": "node",
+  "id": 10971684836,
+  "lat": -28.4490657,
+  "lon": -65.7231323
+},
+{
+  "type": "node",
+  "id": 10971684837,
+  "lat": -28.4491427,
+  "lon": -65.7229911
+},
+{
+  "type": "node",
+  "id": 10971684838,
+  "lat": -28.4491283,
+  "lon": -65.7229012
+},
+{
+  "type": "node",
+  "id": 10971684839,
+  "lat": -28.4490873,
+  "lon": -65.7227891
+},
+{
+  "type": "node",
+  "id": 10971684842,
+  "lat": -28.4491226,
+  "lon": -65.7230280
+},
+{
+  "type": "node",
+  "id": 10971684853,
+  "lat": -28.4489795,
+  "lon": -65.7230902
 }
 
   ]

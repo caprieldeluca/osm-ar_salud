@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-06-07T16:29:08Z",
-    "timestamp_areas_base": "2023-06-07T12:55:24Z",
+    "timestamp_osm_base": "2023-06-20T14:38:15Z",
+    "timestamp_areas_base": "2023-06-13T15:42:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6107,7 +6107,7 @@
     "addr:city": "Godoy Cruz",
     "addr:country": "AR",
     "addr:housenumber": "900",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "alt_name": "Sucursal Godoy Cruz - 24hs",
     "amenity": "pharmacy",
     "brand": "Del Puente",
@@ -8230,7 +8230,7 @@
   "tags": {
     "addr:city": "Godoy Cruz",
     "addr:housenumber": "835",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Santa Clara"
@@ -8608,7 +8608,7 @@
   "tags": {
     "addr:city": "Godoy Cruz",
     "addr:housenumber": "996",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Del Aguila (24hs)",
@@ -20174,8 +20174,10 @@
   "lon": -58.4599076,
   "tags": {
     "amenity": "pharmacy",
+    "branch": "Belgrano II",
     "healthcare": "pharmacy",
-    "name": "Farmaplus"
+    "name": "Farmaplus",
+    "website": "www.farmaplus.com.ar"
   }
 },
 {
@@ -30649,9 +30651,14 @@
   "lat": -34.0064995,
   "lon": -61.6086850,
   "tags": {
+    "addr:city": "Villa Cañás",
+    "addr:housenumber": "382",
+    "addr:postcode": "S2607",
+    "addr:street": "Avenida 50",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Dillon"
+    "name": "Dillon",
+    "phone": "+54 (3462) 45-0019"
   }
 },
 {
@@ -33626,9 +33633,14 @@
   "lat": -32.4096461,
   "lon": -63.2430534,
   "tags": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "86",
+    "addr:postcode": "X5900",
+    "addr:street": "José Ingenieros",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Internacional"
+    "name": "Internacional",
+    "phone": "+54 (353) 452-0061"
   }
 },
 {
@@ -35965,8 +35977,8 @@
 {
   "type": "node",
   "id": 4564039865,
-  "lat": -34.6278188,
-  "lon": -58.3829133,
+  "lat": -34.6278133,
+  "lon": -58.3829549,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -40367,13 +40379,12 @@
 {
   "type": "node",
   "id": 4660984614,
-  "lat": -34.6141172,
-  "lon": -58.4952279,
+  "lat": -34.6140995,
+  "lon": -58.4952547,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacias San Benito",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Farmacias San Benito"
   }
 },
 {
@@ -49242,8 +49253,8 @@
 {
   "type": "node",
   "id": 5362628716,
-  "lat": -31.4260780,
-  "lon": -64.1924197,
+  "lat": -31.4261080,
+  "lon": -64.1924618,
   "tags": {
     "addr:street": "Avenida Pueyrredón",
     "amenity": "pharmacy",
@@ -61048,8 +61059,8 @@
 {
   "type": "node",
   "id": 6833570357,
-  "lat": -31.4223975,
-  "lon": -63.0446845,
+  "lat": -31.4224121,
+  "lon": -63.0446674,
   "tags": {
     "addr:city": "Arroyito",
     "addr:housenumber": "662",
@@ -70862,7 +70873,12 @@
   "lat": -31.6619932,
   "lon": -60.7586163,
   "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:housenumber": "1776",
+    "addr:postcode": "3016",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Contini"
   }
 },
@@ -72880,7 +72896,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Polín"
+    "name": "Polini"
   }
 },
 {
@@ -75813,7 +75829,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Blaze",
+    "name": "Blaze",
     "opening_hours": "Mo-Fr 07:00-23:00; Fr 08:00-20:00",
     "phone": "0353 6560238",
     "website": "https://www.facebook.com/Farmacia-Blaze-107877904819638/"
@@ -86916,8 +86932,8 @@
 {
   "type": "node",
   "id": 10948087405,
-  "lat": -33.0111151,
-  "lon": -58.5348332,
+  "lat": -33.0111055,
+  "lon": -58.5335519,
   "tags": {
     "addr:city": "Gualeguaychú",
     "addr:housenumber": "1849",
@@ -87072,6 +87088,108 @@
     "healthcare": "pharmacy",
     "name": "25 de Mayo",
     "phone": "+54 3446 422522"
+  }
+},
+{
+  "type": "node",
+  "id": 10971849308,
+  "lat": -33.0201990,
+  "lon": -58.5333649,
+  "tags": {
+    "addr:city": "Gualeguaychú",
+    "addr:postcode": "2820",
+    "addr:street": "Avenida General Artigas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Artigas"
+  }
+},
+{
+  "type": "node",
+  "id": 10975249488,
+  "lat": -27.4077766,
+  "lon": -55.9891238,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Open Farma 2"
+  }
+},
+{
+  "type": "node",
+  "id": 10976021112,
+  "lat": -32.8222904,
+  "lon": -60.7158185,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Ricca"
+  }
+},
+{
+  "type": "node",
+  "id": 10982425236,
+  "lat": -27.2156056,
+  "lon": -61.1894463,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Pinto"
+  }
+},
+{
+  "type": "node",
+  "id": 10983456150,
+  "lat": -39.2610756,
+  "lon": -68.7840328,
+  "tags": {
+    "addr:city": "Villa El Chocón",
+    "addr:housenumber": "Local 1",
+    "addr:postcode": "Q8311",
+    "addr:street": "Centro Comercial El Chocón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Botiquín El Chocón"
+  }
+},
+{
+  "type": "node",
+  "id": 10989688939,
+  "lat": -34.2323882,
+  "lon": -61.1037568,
+  "tags": {
+    "addr:city": "Ascensión",
+    "addr:postcode": "B6003",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Prósperi"
+  }
+},
+{
+  "type": "node",
+  "id": 10990403911,
+  "lat": -26.9290776,
+  "lon": -55.0593025,
+  "tags": {
+    "addr:street": "Avenida Los Próceres",
+    "amenity": "pharmacy",
+    "name": "Santa Rita"
+  }
+},
+{
+  "type": "node",
+  "id": 10991370935,
+  "lat": -33.6580070,
+  "lon": -61.4571943,
+  "tags": {
+    "addr:city": "Melincué",
+    "addr:housenumber": "205",
+    "addr:postcode": "S2605",
+    "addr:street": "Moreno",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ferloni",
+    "phone": "+54 (3465) 49-9255"
   }
 },
 {
@@ -88690,6 +88808,7 @@
     3739552805,
     5729258568,
     3739552806,
+    2616084272,
     3739552808,
     3739552809,
     3739552805
@@ -88700,7 +88819,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Valle Viejo",
     "opening_hours": "24/7",
-    "operator": "Red Colon"
+    "operator": "Colón Red de Farmacias"
   }
 },
 {
@@ -112446,26 +112565,26 @@
 {
   "type": "node",
   "id": 5360102406,
-  "lat": -31.4153738,
-  "lon": -64.1789454
+  "lat": -31.4152980,
+  "lon": -64.1790505
 },
 {
   "type": "node",
   "id": 5360102407,
-  "lat": -31.4154837,
-  "lon": -64.1789964
+  "lat": -31.4153961,
+  "lon": -64.1790840
 },
 {
   "type": "node",
   "id": 5360102408,
-  "lat": -31.4154358,
-  "lon": -64.1791382
+  "lat": -31.4153811,
+  "lon": -64.1791445
 },
 {
   "type": "node",
   "id": 5360102409,
-  "lat": -31.4153259,
-  "lon": -64.1790873
+  "lat": -31.4152830,
+  "lon": -64.1791110
 },
 {
   "type": "node",
@@ -122178,26 +122297,26 @@
 {
   "type": "node",
   "id": 4654643343,
-  "lat": -34.5887166,
-  "lon": -58.5147429
+  "lat": -34.5887100,
+  "lon": -58.5147402
 },
 {
   "type": "node",
   "id": 4654643344,
-  "lat": -34.5887634,
-  "lon": -58.5148206
+  "lat": -34.5887568,
+  "lon": -58.5148179
 },
 {
   "type": "node",
   "id": 4654643345,
-  "lat": -34.5886692,
-  "lon": -58.5149022
+  "lat": -34.5886626,
+  "lon": -58.5148995
 },
 {
   "type": "node",
   "id": 4654643346,
-  "lat": -34.5886245,
-  "lon": -58.5148203
+  "lat": -34.5886179,
+  "lon": -58.5148176
 },
 {
   "type": "node",
@@ -130770,62 +130889,68 @@
 {
   "type": "node",
   "id": 9067037808,
-  "lat": -28.4965545,
-  "lon": -65.8013949
+  "lat": -28.4965537,
+  "lon": -65.8013817
 },
 {
   "type": "node",
   "id": 9067037809,
-  "lat": -28.4966426,
-  "lon": -65.8013774
+  "lat": -28.4966446,
+  "lon": -65.8013771
 },
 {
   "type": "node",
   "id": 9067037810,
-  "lat": -28.4966293,
-  "lon": -65.8012907
+  "lat": -28.4966412,
+  "lon": -65.8012891
 },
 {
   "type": "node",
   "id": 9067037811,
-  "lat": -28.4965412,
-  "lon": -65.8013082
+  "lat": -28.4965502,
+  "lon": -65.8012937
 },
 {
   "type": "node",
   "id": 9137871330,
-  "lat": -28.4966354,
-  "lon": -65.8013301
+  "lat": -28.4966427,
+  "lon": -65.8013288
+},
+{
+  "type": "node",
+  "id": 2616084272,
+  "lat": -28.4487972,
+  "lon": -65.7202099
 },
 {
   "type": "node",
   "id": 3739552805,
-  "lat": -28.4487633,
-  "lon": -65.7199240
+  "lat": -28.4487500,
+  "lon": -65.7199252
 },
 {
   "type": "node",
   "id": 3739552806,
-  "lat": -28.4488630,
-  "lon": -65.7200930
+  "lat": -28.4488558,
+  "lon": -65.7201128
 },
 {
   "type": "node",
   "id": 3739552808,
-  "lat": -28.4487456,
-  "lon": -65.7202861
+  "lat": -28.4487900,
+  "lon": -65.7202243
 },
 {
   "type": "node",
   "id": 3739552809,
-  "lat": -28.4486950,
-  "lon": -65.7202270
+  "lat": -28.4486919,
+  "lon": -65.7201605
 },
 {
   "type": "node",
   "id": 5729258568,
-  "lat": -28.4488132,
-  "lon": -65.7200104
+  "lat": -28.4487999,
+  "lon": -65.7200116
 },
 {
   "type": "node",

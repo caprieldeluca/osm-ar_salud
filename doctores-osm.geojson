@@ -13709,7 +13709,7 @@
   "properties": {
     "addr:housenumber": "220",
     "addr:postcode": "5501",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Diagnosticos Imagen & Consultorios (DICON)",
@@ -21340,6 +21340,7 @@
   "id": "node/6848974711",
   "properties": {
     "amenity": "doctors",
+    "check_date": "2023-06-11",
     "healthcare": "doctor",
     "name": "Consultorio de Rehabilitación",
     "id": "node/6848974711"
@@ -23664,6 +23665,7 @@
     "ref:ZonaSanitaria": "Sur",
     "ref:cuie_codigo": "N99993",
     "ref:sisa_codigo": "50540072265802",
+    "short_name": "CIC",
     "id": "node/7016841236"
   },
   "geometry": {
@@ -31921,9 +31923,15 @@
   "type": "Feature",
   "id": "node/8332679940",
   "properties": {
+    "addr:city": "Santo Tomé",
+    "addr:housenumber": "1967",
+    "addr:postcode": "3016",
+    "addr:street": "Belgrano",
     "amenity": "doctors",
+    "contact:facebook": "https://www.facebook.com/people/Centro-M%C3%A9dico-Familiar-Belgrano/100054171439122/",
     "healthcare": "doctor",
     "name": "Centro Médico Belgrano",
+    "phone": "+54 342 4128982",
     "id": "node/8332679940"
   },
   "geometry": {
@@ -36057,6 +36065,135 @@
     "coordinates": [
       -55.8931826,
       -27.3645614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10971497362",
+  "properties": {
+    "addr:city": "Gualeguaychú",
+    "addr:postcode": "2820",
+    "addr:street": "Miguel de Güemes",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Villa María",
+    "id": "node/10971497362"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5212528,
+      -33.0243934
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10973959633",
+  "properties": {
+    "addr:city": "Gualeguaychú",
+    "addr:street": "Arturo Jauretche",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Cuchilla",
+    "id": "node/10973959633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5109736,
+      -32.9965147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10974171900",
+  "properties": {
+    "addr:city": "Gualeguaychú",
+    "addr:postcode": "2820",
+    "addr:street": "Monseñor Chalup",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud 6 Munilla",
+    "official_name": "Centro de Salud Nº 6 Munilla",
+    "id": "node/10974171900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5111998,
+      -33.0163139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10974209911",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Juan Baggio",
+    "id": "node/10974209911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5196763,
+      -33.025025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10974990406",
+  "properties": {
+    "addr:housenumber": "2063",
+    "addr:street": "De La Tradición",
+    "amenity": "doctors",
+    "name": "Del Bosque",
+    "id": "node/10974990406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7010642,
+      -34.6198369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10977454805",
+  "properties": {
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "doctors",
+    "name": "Odontología",
+    "id": "node/10977454805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.625584,
+      -34.4553685
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10990413525",
+  "properties": {
+    "addr:street": "Avenida Los Próceres",
+    "amenity": "doctors",
+    "name": "Policonsultorio Consalud",
+    "id": "node/10990413525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.0593589,
+      -26.9290815
     ]
   }
 }

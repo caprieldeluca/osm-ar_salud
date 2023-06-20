@@ -2668,28 +2668,32 @@
     "coordinates": [
       [
         [
-          -65.7203076,
-          -28.4489549
+          -65.7203006,
+          -28.4489385
         ],
         [
-          -65.7202681,
-          -28.4488933
+          -65.7202611,
+          -28.4488769
         ],
         [
-          -65.7202169,
-          -28.4488136
+          -65.7202099,
+          -28.4487972
         ],
         [
-          -65.7205315,
-          -28.4486576
+          -65.7202243,
+          -28.44879
         ],
         [
-          -65.7206221,
-          -28.4487989
+          -65.7205245,
+          -28.4486412
         ],
         [
-          -65.7203076,
-          -28.4489549
+          -65.7206151,
+          -28.4487825
+        ],
+        [
+          -65.7203006,
+          -28.4489385
         ]
       ]
     ]
@@ -24596,24 +24600,24 @@
     "coordinates": [
       [
         [
-          -63.0500138,
-          -31.4200249
+          -63.0500399,
+          -31.4199895
         ],
         [
-          -63.0499779,
-          -31.420138
+          -63.0499933,
+          -31.4201341
         ],
         [
-          -63.0498437,
-          -31.4201069
+          -63.0494645,
+          -31.4200126
         ],
         [
-          -63.0498796,
-          -31.4199939
+          -63.0495096,
+          -31.4198655
         ],
         [
-          -63.0500138,
-          -31.4200249
+          -63.0500399,
+          -31.4199895
         ]
       ]
     ]
@@ -27443,8 +27447,14 @@
     "addr:street": "Santa Fe",
     "amenity": "clinic",
     "building": "yes",
+    "building:colour": "lightgrey",
     "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "height": "4",
     "name": "Centro de la Visión Neuquén",
+    "operator": "Centro de la Visión S.R.L.",
+    "operator:type": "private",
+    "website": "https://www.centrodelavisionnqn.com.ar/",
     "id": "way/780057045"
   },
   "geometry": {
@@ -27456,7 +27466,19 @@
           -38.9429549
         ],
         [
+          -68.0564219,
+          -38.9429924
+        ],
+        [
+          -68.056422,
+          -38.9430327
+        ],
+        [
           -68.0564221,
+          -38.9430752
+        ],
+        [
+          -68.0564222,
           -38.9430985
         ],
         [
@@ -27465,10 +27487,10 @@
         ],
         [
           -68.0563449,
-          -38.9431571
+          -38.9431573
         ],
         [
-          -68.05627,
+          -68.0562699,
           -38.9431575
         ],
         [
@@ -31630,48 +31652,6 @@
         [
           -65.4044949,
           -24.7372255
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/812689602",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "109",
-    "addr:postcode": "8300",
-    "addr:street": "Julio Argentino Roca",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Clínica Pasteur",
-    "id": "way/812689602"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0608492,
-          -38.951731
-        ],
-        [
-          -68.0608491,
-          -38.9516334
-        ],
-        [
-          -68.0610889,
-          -38.951633
-        ],
-        [
-          -68.0610888,
-          -38.9517278
-        ],
-        [
-          -68.0608492,
-          -38.951731
         ]
       ]
     ]
@@ -40824,6 +40804,54 @@
 },
 {
   "type": "Feature",
+  "id": "way/1070687368",
+  "properties": {
+    "addr:city": "Plottier",
+    "addr:housenumber": "354",
+    "addr:postcode": "Q8316",
+    "addr:street": "Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;odontología",
+    "internet_access": "wlan",
+    "name": "Alto Valle Odontología",
+    "operator": "Privado",
+    "operator:type": "privado",
+    "phone": "+5492995812387",
+    "wheelchair": "yes",
+    "id": "way/1070687368"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.23201,
+          -38.9530002
+        ],
+        [
+          -68.23201,
+          -38.9531712
+        ],
+        [
+          -68.2318893,
+          -38.9531712
+        ],
+        [
+          -68.2318946,
+          -38.9530002
+        ],
+        [
+          -68.23201,
+          -38.9530002
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1073254960",
   "properties": {
     "addr:city": "Neuquén",
@@ -44250,6 +44278,65 @@
 },
 {
   "type": "Feature",
+  "id": "way/1180909246",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "109",
+    "addr:postcode": "Q8300",
+    "addr:street": "Julio Argentino Roca",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Consultorios Externos Pasteur",
+    "operator": "Clínica Pasteur S.A.",
+    "operator:type": "private",
+    "website": "https://www.clinicapasteur.com/",
+    "id": "way/1180909246"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0610783,
+          -38.9517136
+        ],
+        [
+          -68.060826,
+          -38.9517146
+        ],
+        [
+          -68.060826,
+          -38.951625
+        ],
+        [
+          -68.0609072,
+          -38.9516248
+        ],
+        [
+          -68.0609434,
+          -38.9516247
+        ],
+        [
+          -68.0610312,
+          -38.9516244
+        ],
+        [
+          -68.0610779,
+          -38.9516243
+        ],
+        [
+          -68.0610783,
+          -38.9517136
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -46801,7 +46888,7 @@
   "properties": {
     "addr:city": "Godoy Cruz",
     "addr:housenumber": "915",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Resonancia Magnetica - Hospital Español",
@@ -83424,7 +83511,7 @@
     "addr:full": "Carlos Maria Ramirez 1445",
     "addr:housenumber": "1445",
     "addr:postcode": "1437",
-    "addr:street": "Carlos M. Ramirez",
+    "addr:street": "Carlos María Ramírez",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 18",
@@ -104634,6 +104721,24 @@
     "coordinates": [
       -57.9613041,
       -34.9064755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10969668005",
+  "properties": {
+    "addr:housenumber": "3438",
+    "addr:street": "Martín Fierro",
+    "amenity": "clinic",
+    "name": "Clinica Araucarias",
+    "id": "node/10969668005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6962909,
+      -34.6245916
     ]
   }
 }
