@@ -2637,6 +2637,9 @@
   "id": "way/312762328",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "way/312762328"
@@ -2646,24 +2649,24 @@
     "coordinates": [
       [
         [
-          -64.2256854,
-          -31.3639846
+          -64.2256978,
+          -31.3639808
         ],
         [
-          -64.225758,
-          -31.364114
+          -64.2257704,
+          -31.3641102
         ],
         [
-          -64.2254615,
-          -31.3642352
+          -64.2254739,
+          -31.3642314
         ],
         [
-          -64.225389,
-          -31.3641058
+          -64.2254014,
+          -31.364102
         ],
         [
-          -64.2256854,
-          -31.3639846
+          -64.2256978,
+          -31.3639808
         ]
       ]
     ]
@@ -2878,13 +2881,16 @@
   "id": "way/326054122",
   "properties": {
     "addr:city": "Picún Leufú",
-    "addr:postcode": "8313",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8313",
     "addr:street": "Primeros Pobladores",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
+    "height": "4",
     "name": "Farmacia Meyer",
-    "name:en": "Meyer Pharmacy",
     "id": "way/326054122"
   },
   "geometry": {
@@ -2892,24 +2898,24 @@
     "coordinates": [
       [
         [
-          -69.2904811,
-          -39.5178521
+          -69.2905019,
+          -39.5178966
         ],
         [
-          -69.2904537,
-          -39.5180023
+          -69.2904799,
+          -39.5180156
         ],
         [
-          -69.290338,
-          -39.5179897
+          -69.290344,
+          -39.5180004
         ],
         [
-          -69.2903654,
-          -39.5178395
+          -69.2903663,
+          -39.5178815
         ],
         [
-          -69.2904811,
-          -39.5178521
+          -69.2905019,
+          -39.5178966
         ]
       ]
     ]
@@ -4163,10 +4169,6 @@
         [
           -62.995637,
           -40.8127379
-        ],
-        [
-          -62.9956818,
-          -40.8126677
         ],
         [
           -62.9957007,
@@ -13338,7 +13340,10 @@
     "addr:street": "Avenida General Mosconi",
     "amenity": "pharmacy",
     "building": "yes",
+    "delivery": "yes",
     "name": "Farma365",
+    "website": "www.farma365.com.ar",
+    "wheelchair": "yes",
     "id": "way/471229248"
   },
   "geometry": {
@@ -39679,6 +39684,48 @@
 },
 {
   "type": "Feature",
+  "id": "way/1185347560",
+  "properties": {
+    "addr:city": "Alberti",
+    "addr:housenumber": "240",
+    "addr:postcode": "B6634",
+    "addr:street": "Avenida Vaccarezza",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Mosca",
+    "id": "way/1185347560"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.2807804,
+          -35.0297723
+        ],
+        [
+          -60.2808891,
+          -35.0296076
+        ],
+        [
+          -60.2810942,
+          -35.0296867
+        ],
+        [
+          -60.2809843,
+          -35.0298602
+        ],
+        [
+          -60.2807804,
+          -35.0297723
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -49720,6 +49767,10 @@
   "type": "Feature",
   "id": "node/1892914032",
   "properties": {
+    "addr:city": "Labordeboy",
+    "addr:housenumber": "301",
+    "addr:postcode": "S2726",
+    "addr:street": "Eugenia de Piccolo",
     "amenity": "pharmacy",
     "dispensing": "no",
     "healthcare": "pharmacy",
@@ -67154,8 +67205,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.4133236,
-      -24.7833773
+      -65.4130326,
+      -24.7834345
     ]
   }
 },
@@ -78928,28 +78979,6 @@
     "coordinates": [
       -65.2103561,
       -26.8468307
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3742074044",
-  "properties": {
-    "addr:city": "Labordeboy",
-    "addr:postcode": "2726",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Labordeboy",
-    "phone": "+54 (3465) 49-5419",
-    "id": "node/3742074044"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -61.3139736,
-      -33.7169065
     ]
   }
 },
@@ -96171,6 +96200,7 @@
     "healthcare": "pharmacy",
     "name": "Poisson Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "no",
     "id": "node/4632527292"
   },
   "geometry": {
@@ -100364,11 +100394,9 @@
   "type": "Feature",
   "id": "node/4689892792",
   "properties": {
-    "addr:street": "Avenida Díaz Vélez",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Vantage",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "Díaz Vélez",
     "id": "node/4689892792"
   },
   "geometry": {
@@ -116150,8 +116178,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -61.335184,
-      -33.8004936
+      -61.3350846,
+      -33.8005199
     ]
   }
 },
@@ -118094,10 +118122,8 @@
     "addr:postcode": "6620",
     "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
-    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Granero",
-    "phone": "+54 2346 421781",
+    "name": "Pereyra",
     "id": "node/5769436474"
   },
   "geometry": {
@@ -142909,6 +142935,10 @@
   "type": "Feature",
   "id": "node/8332452161",
   "properties": {
+    "addr:city": "Santo Tomé",
+    "addr:housenumber": "2278",
+    "addr:postcode": "3016",
+    "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Martinez",
@@ -165198,6 +165228,110 @@
     "coordinates": [
       -61.4571943,
       -33.658007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10993271949",
+  "properties": {
+    "addr:city": "Wheelwright",
+    "addr:housenumber": "501",
+    "addr:postcode": "S2722",
+    "addr:street": "Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Begatti",
+    "phone": "+54 2473 480139",
+    "id": "node/10993271949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2082082,
+      -33.7921027
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10993663448",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Fleming",
+    "id": "node/10993663448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.5086557,
+      -31.4533996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10996280469",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/10996280469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4550317,
+      -34.6055297
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10998052159",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Santa Rosa de Lima",
+    "id": "node/10998052159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.8362961,
+      -26.8012173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10998272805",
+  "properties": {
+    "addr:street": "Boulevard Brigadier General Juan Manuel de Rosas",
+    "amenity": "pharmacy",
+    "name": "Portofino",
+    "id": "node/10998272805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6285885,
+      -34.6340444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11005769967",
+  "properties": {
+    "addr:street": "Avenida Güemes",
+    "amenity": "pharmacy",
+    "name": "Farmar",
+    "id": "node/11005769967"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.1912818,
+      -27.2174382
     ]
   }
 }

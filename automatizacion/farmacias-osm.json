@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-06-20T14:38:15Z",
-    "timestamp_areas_base": "2023-06-13T15:42:54Z",
+    "timestamp_osm_base": "2023-06-28T13:41:01Z",
+    "timestamp_areas_base": "2023-06-28T12:32:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6915,6 +6915,10 @@
   "lat": -33.7170056,
   "lon": -61.3157545,
   "tags": {
+    "addr:city": "Labordeboy",
+    "addr:housenumber": "301",
+    "addr:postcode": "S2726",
+    "addr:street": "Eugenia de Piccolo",
     "amenity": "pharmacy",
     "dispensing": "no",
     "healthcare": "pharmacy",
@@ -18864,8 +18868,8 @@
 {
   "type": "node",
   "id": 3128631861,
-  "lat": -24.7833773,
-  "lon": -65.4133236,
+  "lat": -24.7834345,
+  "lon": -65.4130326,
   "tags": {
     "addr:street": "20 de Febrero 502",
     "amenity": "pharmacy",
@@ -26900,22 +26904,6 @@
     "ref:sisa_codigo": "70900842399313",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR23014495444"
-  }
-},
-{
-  "type": "node",
-  "id": 3742074044,
-  "lat": -33.7169065,
-  "lon": -61.3139736,
-  "tags": {
-    "addr:city": "Labordeboy",
-    "addr:postcode": "2726",
-    "addr:street": "José de San Martín",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Labordeboy",
-    "phone": "+54 (3465) 49-5419"
   }
 },
 {
@@ -38743,7 +38731,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Poisson Farmacia",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "no"
   }
 },
 {
@@ -41653,11 +41642,9 @@
   "lat": -34.6084080,
   "lon": -58.4213822,
   "tags": {
-    "addr:street": "Avenida Díaz Vélez",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Vantage",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Díaz Vélez"
   }
 },
 {
@@ -52436,8 +52423,8 @@
 {
   "type": "node",
   "id": 5600586424,
-  "lat": -33.8004936,
-  "lon": -61.3351840,
+  "lat": -33.8005199,
+  "lon": -61.3350846,
   "tags": {
     "addr:city": "Hughes",
     "addr:housenumber": "798",
@@ -53791,10 +53778,8 @@
     "addr:postcode": "6620",
     "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
-    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Granero",
-    "phone": "+54 2346 421781"
+    "name": "Pereyra"
   }
 },
 {
@@ -71046,6 +71031,10 @@
   "lat": -31.6683043,
   "lon": -60.7640505,
   "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:housenumber": "2278",
+    "addr:postcode": "3016",
+    "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Martinez"
@@ -87193,6 +87182,74 @@
   }
 },
 {
+  "type": "node",
+  "id": 10993271949,
+  "lat": -33.7921027,
+  "lon": -61.2082082,
+  "tags": {
+    "addr:city": "Wheelwright",
+    "addr:housenumber": "501",
+    "addr:postcode": "S2722",
+    "addr:street": "Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Begatti",
+    "phone": "+54 2473 480139"
+  }
+},
+{
+  "type": "node",
+  "id": 10993663448,
+  "lat": -31.4533996,
+  "lon": -64.5086557,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Fleming"
+  }
+},
+{
+  "type": "node",
+  "id": 10996280469,
+  "lat": -34.6055297,
+  "lon": -58.4550317,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 10998052159,
+  "lat": -26.8012173,
+  "lon": -60.8362961,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Santa Rosa de Lima"
+  }
+},
+{
+  "type": "node",
+  "id": 10998272805,
+  "lat": -34.6340444,
+  "lon": -58.6285885,
+  "tags": {
+    "addr:street": "Boulevard Brigadier General Juan Manuel de Rosas",
+    "amenity": "pharmacy",
+    "name": "Portofino"
+  }
+},
+{
+  "type": "node",
+  "id": 11005769967,
+  "lat": -27.2174382,
+  "lon": -61.1912818,
+  "tags": {
+    "addr:street": "Avenida Güemes",
+    "amenity": "pharmacy",
+    "name": "Farmar"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -88441,6 +88498,9 @@
   ],
   "tags": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity"
   }
@@ -88553,13 +88613,16 @@
   ],
   "tags": {
     "addr:city": "Picún Leufú",
-    "addr:postcode": "8313",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8313",
     "addr:street": "Primeros Pobladores",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Meyer",
-    "name:en": "Meyer Pharmacy"
+    "height": "4",
+    "name": "Farmacia Meyer"
   }
 },
 {
@@ -89131,7 +89194,6 @@
     6751402504,
     3965271632,
     3965271633,
-    6751402499,
     3965271631
   ],
   "tags": {
@@ -93384,7 +93446,10 @@
     "addr:street": "Avenida General Mosconi",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farma365"
+    "delivery": "yes",
+    "name": "Farma365",
+    "website": "www.farma365.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -105579,6 +105644,27 @@
   }
 },
 {
+  "type": "way",
+  "id": 1185347560,
+  "nodes": [
+    11010811054,
+    11010811055,
+    11010811056,
+    11010811057,
+    11010811054
+  ],
+  "tags": {
+    "addr:city": "Alberti",
+    "addr:housenumber": "240",
+    "addr:postcode": "B6634",
+    "addr:street": "Avenida Vaccarezza",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Mosca"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -106559,26 +106645,26 @@
 {
   "type": "node",
   "id": 3326711371,
-  "lat": -39.5178521,
-  "lon": -69.2904811
+  "lat": -39.5178966,
+  "lon": -69.2905019
 },
 {
   "type": "node",
   "id": 3326711372,
-  "lat": -39.5178395,
-  "lon": -69.2903654
+  "lat": -39.5178815,
+  "lon": -69.2903663
 },
 {
   "type": "node",
   "id": 3326711373,
-  "lat": -39.5179897,
-  "lon": -69.2903380
+  "lat": -39.5180004,
+  "lon": -69.2903440
 },
 {
   "type": "node",
   "id": 3326711374,
-  "lat": -39.5180023,
-  "lon": -69.2904537
+  "lat": -39.5180156,
+  "lon": -69.2904799
 },
 {
   "type": "node",
@@ -108445,12 +108531,6 @@
   "id": 6751402498,
   "lat": -40.8127259,
   "lon": -62.9958588
-},
-{
-  "type": "node",
-  "id": 6751402499,
-  "lat": -40.8126677,
-  "lon": -62.9956818
 },
 {
   "type": "node",
@@ -112853,26 +112933,26 @@
 {
   "type": "node",
   "id": 3186530261,
-  "lat": -31.3641058,
-  "lon": -64.2253890
+  "lat": -31.3641020,
+  "lon": -64.2254014
 },
 {
   "type": "node",
   "id": 3186530266,
-  "lat": -31.3639846,
-  "lon": -64.2256854
+  "lat": -31.3639808,
+  "lon": -64.2256978
 },
 {
   "type": "node",
   "id": 3186530281,
-  "lat": -31.3641140,
-  "lon": -64.2257580
+  "lat": -31.3641102,
+  "lon": -64.2257704
 },
 {
   "type": "node",
   "id": 3186530285,
-  "lat": -31.3642352,
-  "lon": -64.2254615
+  "lat": -31.3642314,
+  "lon": -64.2254739
 },
 {
   "type": "node",
@@ -117223,6 +117303,30 @@
   "id": 5663939726,
   "lat": -37.1524588,
   "lon": -58.4839092
+},
+{
+  "type": "node",
+  "id": 11010811054,
+  "lat": -35.0297723,
+  "lon": -60.2807804
+},
+{
+  "type": "node",
+  "id": 11010811055,
+  "lat": -35.0296076,
+  "lon": -60.2808891
+},
+{
+  "type": "node",
+  "id": 11010811056,
+  "lat": -35.0296867,
+  "lon": -60.2810942
+},
+{
+  "type": "node",
+  "id": 11010811057,
+  "lat": -35.0298602,
+  "lon": -60.2809843
 },
 {
   "type": "node",
