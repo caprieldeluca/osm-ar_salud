@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-06-28T13:47:03Z",
-    "timestamp_areas_base": "2023-06-28T12:32:59Z",
+    "timestamp_osm_base": "2023-07-05T15:53:02Z",
+    "timestamp_areas_base": "2023-07-05T13:09:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6405,7 +6405,7 @@
   "tags": {
     "addr:city": "Germania",
     "addr:housenumber": "144",
-    "addr:postcode": "6053",
+    "addr:postcode": "B6053",
     "addr:street": "Nahuel Huapi",
     "amenity": "doctors",
     "description": "http://www.noroestebonaerense.com.ar/PARTIDOPINTO/Germania/ServiciosGermania/ServiciosGermania.htm#telefonosutilesydirecciones",
@@ -19444,6 +19444,44 @@
   }
 },
 {
+  "type": "node",
+  "id": 11013102367,
+  "lat": -32.8732838,
+  "lon": -68.8350173,
+  "tags": {
+    "addr:housenumber": "2520",
+    "addr:street": "Avenida San Martín",
+    "amenity": "doctors",
+    "name": "Centro Médico Alameda"
+  }
+},
+{
+  "type": "node",
+  "id": 11023376161,
+  "lat": -34.5657801,
+  "lon": -59.1193556,
+  "tags": {
+    "addr:housenumber": "227",
+    "addr:street": "17 - Bartolomé Mitre",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Espacios de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11024133305,
+  "lat": -34.5248943,
+  "lon": -58.5014133,
+  "tags": {
+    "addr:housenumber": "2838",
+    "addr:street": "Buenos Aires",
+    "amenity": "doctors",
+    "name:en": "Pedro Lucin",
+    "phone": "+5491144117468"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -20510,28 +20548,6 @@
     "healthcare": "doctor",
     "name": "Consultorios Médicos Del Sol",
     "phone": "+54 9 11 62504168"
-  }
-},
-{
-  "type": "way",
-  "id": 457618945,
-  "nodes": [
-    4537312170,
-    4537311805,
-    4537311914,
-    4537312112,
-    4537312120,
-    4537312170
-  ],
-  "tags": {
-    "addr:city": "San Salvador de Jujuy",
-    "addr:housenumber": "218",
-    "addr:postcode": "4600",
-    "addr:street": "Coronel Iturbe",
-    "amenity": "doctors",
-    "building": "yes",
-    "healthcare": "doctor",
-    "name": "Centro de Salud San Martín"
   }
 },
 {
@@ -23552,6 +23568,146 @@
   }
 },
 {
+  "type": "way",
+  "id": 1185792319,
+  "nodes": [
+    11014580322,
+    11014580323,
+    11014580324,
+    11014580325,
+    11014580322
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "1148",
+    "addr:postcode": "8000",
+    "addr:street": "Zapiola",
+    "alt_name": "Centro Especializado en Traumatología y Dolor",
+    "amenity": "doctors",
+    "building": "yes",
+    "building:levels": "1",
+    "contact:whatsapp": "+5492915263078",
+    "healthcare": "doctor",
+    "healthcare:speciality": "trauma",
+    "name": "CETYD",
+    "phone": "+54 9 291 451-3395",
+    "website": "https://cetyd.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1185799615,
+  "nodes": [
+    11014604039,
+    11014604038,
+    11014604041,
+    11014604042,
+    4537312170,
+    4537312120,
+    11014604039
+  ],
+  "tags": {
+    "addr:city": "San Salvador de Jujuy",
+    "addr:postcode": "4600",
+    "addr:street": "Coronel Iturbe",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general"
+  }
+},
+{
+  "type": "way",
+  "id": 1186005670,
+  "nodes": [
+    11016131226,
+    11016131231,
+    11016131227,
+    11016131228,
+    11016131229,
+    11016131230,
+    11016131226
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "702",
+    "addr:postcode": "8000",
+    "addr:street": "Alsina",
+    "amenity": "doctors",
+    "building": "yes",
+    "building:levels": "1",
+    "contact:facebook": "https://www.facebook.com/people/Resonancia-Bah%C3%ADa/100041892925519/",
+    "contact:instagram": "https://www.instagram.com/resonanciabahia/",
+    "contact:whatsapp": "+5492914466311",
+    "email": "info@resonanciabahia.com.ar",
+    "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
+    "name": "Resonancia Bahía",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "phone": "+54 9 291 517-8181"
+  }
+},
+{
+  "type": "way",
+  "id": 1186349093,
+  "nodes": [
+    11018911895,
+    11018911894,
+    11018911893,
+    11018911892,
+    11018911891,
+    11018911890,
+    11018911895
+  ],
+  "tags": {
+    "amenity": "doctors",
+    "building": "hospital",
+    "name": "Unidad Sanitaria Las Catonas"
+  }
+},
+{
+  "type": "way",
+  "id": 1186525581,
+  "nodes": [
+    11020188025,
+    11020188026,
+    11020188027,
+    11020188028,
+    11020188025
+  ],
+  "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "791",
+    "addr:postcode": "8500",
+    "addr:street": "Boulevard Ituzaingó",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "applied_kinesiology"
+  }
+},
+{
+  "type": "way",
+  "id": 1186525588,
+  "nodes": [
+    11020188055,
+    11020188056,
+    11020188057,
+    11020188058,
+    11020188055
+  ],
+  "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "386",
+    "addr:postcode": "8500",
+    "addr:street": "Boulevard Ayacucho",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "podiatry"
+  }
+},
+{
   "type": "relation",
   "id": 8052156,
   "members": [
@@ -23714,6 +23870,30 @@
 },
 {
   "type": "node",
+  "id": 11020188055,
+  "lat": -40.8012515,
+  "lon": -62.9974686
+},
+{
+  "type": "node",
+  "id": 11020188056,
+  "lat": -40.8010672,
+  "lon": -62.9973238
+},
+{
+  "type": "node",
+  "id": 11020188057,
+  "lat": -40.8013378,
+  "lon": -62.9971143
+},
+{
+  "type": "node",
+  "id": 11020188058,
+  "lat": -40.8013774,
+  "lon": -62.9971867
+},
+{
+  "type": "node",
   "id": 3830231493,
   "lat": -40.8209669,
   "lon": -62.9892484
@@ -23741,6 +23921,30 @@
   "id": 6739247987,
   "lat": -40.8210562,
   "lon": -62.9894381
+},
+{
+  "type": "node",
+  "id": 11020188025,
+  "lat": -40.8193712,
+  "lon": -62.9888268
+},
+{
+  "type": "node",
+  "id": 11020188026,
+  "lat": -40.8194705,
+  "lon": -62.9887457
+},
+{
+  "type": "node",
+  "id": 11020188027,
+  "lat": -40.8195106,
+  "lon": -62.9888316
+},
+{
+  "type": "node",
+  "id": 11020188028,
+  "lat": -40.8194112,
+  "lon": -62.9889126
 },
 {
   "type": "node",
@@ -24026,6 +24230,30 @@
 },
 {
   "type": "node",
+  "id": 11014580322,
+  "lat": -38.7035755,
+  "lon": -62.2737933
+},
+{
+  "type": "node",
+  "id": 11014580323,
+  "lat": -38.7036423,
+  "lon": -62.2737349
+},
+{
+  "type": "node",
+  "id": 11014580324,
+  "lat": -38.7037658,
+  "lon": -62.2738935
+},
+{
+  "type": "node",
+  "id": 11014580325,
+  "lat": -38.7037116,
+  "lon": -62.2739618
+},
+{
+  "type": "node",
   "id": 8783933432,
   "lat": -38.7139197,
   "lon": -62.2690438
@@ -24245,6 +24473,42 @@
   "id": 9214623787,
   "lat": -38.7080220,
   "lon": -62.2639328
+},
+{
+  "type": "node",
+  "id": 11016131226,
+  "lat": -38.7117417,
+  "lon": -62.2567758
+},
+{
+  "type": "node",
+  "id": 11016131227,
+  "lat": -38.7118156,
+  "lon": -62.2566793
+},
+{
+  "type": "node",
+  "id": 11016131228,
+  "lat": -38.7118728,
+  "lon": -62.2567512
+},
+{
+  "type": "node",
+  "id": 11016131229,
+  "lat": -38.7118743,
+  "lon": -62.2568197
+},
+{
+  "type": "node",
+  "id": 11016131230,
+  "lat": -38.7118263,
+  "lon": -62.2568823
+},
+{
+  "type": "node",
+  "id": 11016131231,
+  "lat": -38.7117599,
+  "lon": -62.2567521
 },
 {
   "type": "node",
@@ -26381,6 +26645,42 @@
   "id": 4630680021,
   "lat": -34.6833965,
   "lon": -58.7282594
+},
+{
+  "type": "node",
+  "id": 11018911890,
+  "lat": -34.6106311,
+  "lon": -58.7635101
+},
+{
+  "type": "node",
+  "id": 11018911891,
+  "lat": -34.6106587,
+  "lon": -58.7635396
+},
+{
+  "type": "node",
+  "id": 11018911892,
+  "lat": -34.6106874,
+  "lon": -58.7634967
+},
+{
+  "type": "node",
+  "id": 11018911893,
+  "lat": -34.6105870,
+  "lon": -58.7633720
+},
+{
+  "type": "node",
+  "id": 11018911894,
+  "lat": -34.6104888,
+  "lon": -58.7634967
+},
+{
+  "type": "node",
+  "id": 11018911895,
+  "lat": -34.6105682,
+  "lon": -58.7635826
 },
 {
   "type": "node",
@@ -28844,33 +29144,39 @@
 },
 {
   "type": "node",
-  "id": 4537311914,
-  "lat": -24.1779158,
-  "lon": -65.3132311
-},
-{
-  "type": "node",
-  "id": 4537312112,
-  "lat": -24.1780409,
-  "lon": -65.3132122
+  "id": 11014604039,
+  "lat": -24.1780712,
+  "lon": -65.3131793
 },
 {
   "type": "node",
   "id": 4537312120,
-  "lat": -24.1780460,
-  "lon": -65.3131861
-},
-{
-  "type": "node",
-  "id": 4537311805,
-  "lat": -24.1778482,
-  "lon": -65.3130448
+  "lat": -24.1781368,
+  "lon": -65.3131710
 },
 {
   "type": "node",
   "id": 4537312170,
-  "lat": -24.1780716,
-  "lon": -65.3130495
+  "lat": -24.1781588,
+  "lon": -65.3130555
+},
+{
+  "type": "node",
+  "id": 11014604038,
+  "lat": -24.1780785,
+  "lon": -65.3130620
+},
+{
+  "type": "node",
+  "id": 11014604041,
+  "lat": -24.1780848,
+  "lon": -65.3130317
+},
+{
+  "type": "node",
+  "id": 11014604042,
+  "lat": -24.1781609,
+  "lon": -65.3130445
 },
 {
   "type": "node",
