@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DORMIR=300
+DORMIR=60
 
 echo "  Consultar overpass API  y convertir a geojson..."
 

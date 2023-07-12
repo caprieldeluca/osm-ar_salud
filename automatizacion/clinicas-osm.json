@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-05T15:43:01Z",
-    "timestamp_areas_base": "2023-07-05T10:34:00Z",
+    "timestamp_osm_base": "2023-07-12T20:44:56Z",
+    "timestamp_areas_base": "2023-07-12T19:01:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15302,7 +15302,7 @@
   "tags": {
     "addr:city": "Comodoro Rivadavia",
     "addr:housenumber": "300",
-    "addr:street": "Avenida 8 Diciembre",
+    "addr:street": "Avenida 8 de Diciembre",
     "alt_name": "CAPS Centro de Atención Primaria de Salud \"Barrio Standart Norte\"",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -43623,7 +43623,13 @@
     "addr:housenumber": "763",
     "addr:street": "Córdoba",
     "amenity": "clinic",
-    "name": "Protea"
+    "email": "consultas.protealab@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "gynaecology",
+    "name": "Protea",
+    "opening_hours": "Mo-Su 08:00-13:00",
+    "phone": "+5493624431892",
+    "website": "https://protea.ar/"
   }
 },
 {
@@ -44408,6 +44414,111 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud N° 2 - Los Sauces"
+  }
+},
+{
+  "type": "node",
+  "id": 11031645914,
+  "lat": -31.5426615,
+  "lon": -68.5574193,
+  "tags": {
+    "amenity": "clinic",
+    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
+    "email": "centromedicosagradocorazonsj@hotmail.com",
+    "healthcare": "clinic",
+    "name": "Centro Médico Sagrado Corazón",
+    "operator": "Veronica Estela Segovia",
+    "phone": "+54 264 423 7600",
+    "ref:sisa_tipologia": "ESSIDT",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11031645918,
+  "lat": -31.5435761,
+  "lon": -68.5596521,
+  "tags": {
+    "amenity": "clinic",
+    "description": "Centro de rehabilitación motora",
+    "email": "vico_sanchez19@hotmail.com",
+    "healthcare": "rehabilitation",
+    "name": "Consultorio de Kinesiologia Sanchez",
+    "operator": "Victoria Sanchez",
+    "phone": "+54 264 423 7258",
+    "ref:sisa_tipologia": "ESSIT"
+  }
+},
+{
+  "type": "node",
+  "id": 11031709218,
+  "lat": -31.5428590,
+  "lon": -68.5571461,
+  "tags": {
+    "amenity": "clinic",
+    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
+    "email": "luis.minin@hotmail.com",
+    "healthcare": "clinic",
+    "name": "Consultorios Los Olivos",
+    "opening_hours": "Mo-Th 17:00-21:00",
+    "operator": "Luis Mario Minin",
+    "phone": "+54 264 426 3070",
+    "ref:sisa_tipologia": "ESSIDT",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11031709228,
+  "lat": -31.5432611,
+  "lon": -68.5573514,
+  "tags": {
+    "amenity": "clinic",
+    "contact:whatsapp": "+54 264 5756141",
+    "description": "Con atención médica diaria y con especialidades",
+    "email": "clinicaparqueuniversitario@hotmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Clinica Parque Universitario",
+    "opening_hours": "Mo-Fr 08:00-12:30,16:00-21:00; Sa 08:30-12:30",
+    "operator": "Miguel Angel Iranzo",
+    "operator:type": "private",
+    "phone": "+54 264 423 1959",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11031709230,
+  "lat": -31.5394549,
+  "lon": -68.5633741,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "862 (S)",
+    "addr:postcode": "5400",
+    "addr:street": "Adán Quiroga",
+    "amenity": "clinic",
+    "email": "docanasanchez@hotmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "chiropractic",
+    "name": "Centro Médico San Carlos",
+    "operator": "Doctora Ana Celina Sanchez",
+    "phone": "+54 264 423 0611",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11033469320,
+  "lat": -38.9345303,
+  "lon": -69.2326077,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:postcode": "Q8322",
+    "addr:street": "Roque Sáenz Peña",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios Médicos y Laboratorio de Análisis Clínicos"
   }
 },
 {
@@ -59101,35 +59212,6 @@
 },
 {
   "type": "way",
-  "id": 818154260,
-  "nodes": [
-    7641049661,
-    7641049664,
-    7641049665,
-    7641049666,
-    7641049667,
-    7641049668,
-    7641049669,
-    7641049670,
-    7641049671,
-    7641049672,
-    7641049673,
-    7641049674,
-    7641049662,
-    7641049661
-  ],
-  "tags": {
-    "addr:city": "Cutral Có",
-    "addr:postcode": "Q8322",
-    "addr:street": "Roque Sáenz Peña",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Consultorios Médicos y Laboratorio de Análisis Clínicos"
-  }
-},
-{
-  "type": "way",
   "id": 819650380,
   "nodes": [
     7654050532,
@@ -60167,37 +60249,6 @@
 },
 {
   "type": "way",
-  "id": 842243969,
-  "nodes": [
-    7857517607,
-    7857517606,
-    7857517605,
-    7857517604,
-    7857517603,
-    7857517602,
-    7857517601,
-    7857517600,
-    7857517607
-  ],
-  "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "862 (S)",
-    "addr:postcode": "5400",
-    "addr:street": "Adán Quiroga",
-    "amenity": "clinic",
-    "building": "house",
-    "building:levels": "1",
-    "email": "docanasanchez@hotmail.com",
-    "healthcare": "clinic",
-    "healthcare:speciality": "chiropractic",
-    "name": "Consultorios médicos, Kinesiologia y Fisioterapia Sanchez",
-    "operator": "Doctora Ana Celina Sanchez",
-    "phone": "+54 264 423 0611",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
   "id": 842291624,
   "nodes": [
     7857842150,
@@ -60293,41 +60344,6 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Clínica Santa Mónica"
-  }
-},
-{
-  "type": "way",
-  "id": 844715488,
-  "nodes": [
-    7880627908,
-    7880626989,
-    7880626988,
-    7880626987,
-    7880626986,
-    7880626985,
-    7880628924,
-    7880628923,
-    7880628978,
-    7880628979,
-    7880627907,
-    7880627908
-  ],
-  "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "2391 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "9 de Julio",
-    "amenity": "clinic",
-    "building": "house",
-    "building:levels": "1",
-    "description": "Centro de rehabilitación motora",
-    "email": "vico_sanchez19@hotmail.com",
-    "healthcare": "rehabilitation",
-    "name": "Consultorio de Kinesiologia Sanchez",
-    "operator": "Victoria Sanchez",
-    "phone": "+54 264 423 7258",
-    "ref:sisa_tipologia": "ESSIT",
-    "roof:shape": "flat"
   }
 },
 {
@@ -60469,100 +60485,6 @@
     "height": "6",
     "name": "Centro de Enfermedades del Tórax",
     "operator:type": "private"
-  }
-},
-{
-  "type": "way",
-  "id": 845281900,
-  "nodes": [
-    7880627259,
-    7880626045,
-    7880626046,
-    7880627265,
-    7880627266,
-    7880627267,
-    7880627272,
-    7880627273,
-    7880627826,
-    7880627825,
-    7880627613,
-    7880627258,
-    7880627259
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
-    "email": "centromedicosagradocorazonsj@hotmail.com",
-    "healthcare": "clinic",
-    "name": "Centro Médico Sagrado Corazón",
-    "operator": "Veronica Estela Segovia",
-    "phone": "+54 264 423 7600",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
-  "id": 845281901,
-  "nodes": [
-    7880627294,
-    7880627293,
-    7880627292,
-    7880626074,
-    7880628333,
-    7880628332,
-    7880628331,
-    7880628587,
-    7880628588,
-    7880627621,
-    7880627622,
-    7880626075,
-    7880627294
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "contact:whatsapp": "+54 264 5756141",
-    "description": "Con atención médica diaria y con especialidades",
-    "email": "clinicaparqueuniversitario@hotmail.com",
-    "healthcare": "clinic",
-    "healthcare:speciality": "general",
-    "name": "Clinica Parque Universitario",
-    "opening_hours": "Mo-Fr 08:00-12:30,16:00-21:00; Sa 08:30-12:30",
-    "operator": "Miguel Angel Iranzo",
-    "operator:type": "private",
-    "phone": "+54 264 423 1959",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
-  "id": 845934762,
-  "nodes": [
-    7892190551,
-    7889579822,
-    7889580769,
-    7889580373,
-    7889581332,
-    7889580931,
-    7892190551
-  ],
-  "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "1100 (S)",
-    "addr:postcode": "5400",
-    "addr:street": "Hermógenes Ruiz",
-    "amenity": "clinic",
-    "building": "commercial",
-    "building:levels": "1",
-    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
-    "email": "luis.minin@hotmail.com",
-    "healthcare": "clinic",
-    "name": "Consultorios Odontologicos Los Olivos",
-    "opening_hours": "Mo-Th 17:00-21:00",
-    "operator": "Luis Mario Minin",
-    "phone": "+54 264 426 3070",
-    "ref:sisa_tipologia": "ESSIDT",
-    "roof:shape": "flat",
-    "wheelchair": "yes"
   }
 },
 {
@@ -62892,8 +62814,10 @@
     "addr:postcode": "Q8300",
     "addr:street": "José Rosa",
     "amenity": "clinic",
+    "building": "commercial",
     "healthcare": "clinic",
     "name": "Centro Médico Ernesto Behm",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Centro de Empleados de Comercio del Neuquén",
     "operator:type": "association"
   }
@@ -66014,84 +65938,6 @@
 },
 {
   "type": "node",
-  "id": 7641049661,
-  "lat": -38.9344347,
-  "lon": -69.2327035
-},
-{
-  "type": "node",
-  "id": 7641049662,
-  "lat": -38.9345385,
-  "lon": -69.2326812
-},
-{
-  "type": "node",
-  "id": 7641049664,
-  "lat": -38.9344189,
-  "lon": -69.2325847
-},
-{
-  "type": "node",
-  "id": 7641049665,
-  "lat": -38.9344477,
-  "lon": -69.2325785
-},
-{
-  "type": "node",
-  "id": 7641049666,
-  "lat": -38.9344450,
-  "lon": -69.2325555
-},
-{
-  "type": "node",
-  "id": 7641049667,
-  "lat": -38.9344780,
-  "lon": -69.2325484
-},
-{
-  "type": "node",
-  "id": 7641049668,
-  "lat": -38.9344918,
-  "lon": -69.2325272
-},
-{
-  "type": "node",
-  "id": 7641049669,
-  "lat": -38.9345124,
-  "lon": -69.2325131
-},
-{
-  "type": "node",
-  "id": 7641049670,
-  "lat": -38.9345427,
-  "lon": -69.2325113
-},
-{
-  "type": "node",
-  "id": 7641049671,
-  "lat": -38.9345647,
-  "lon": -69.2325219
-},
-{
-  "type": "node",
-  "id": 7641049672,
-  "lat": -38.9345799,
-  "lon": -69.2325361
-},
-{
-  "type": "node",
-  "id": 7641049673,
-  "lat": -38.9346267,
-  "lon": -69.2325290
-},
-{
-  "type": "node",
-  "id": 7641049674,
-  "lat": -38.9346446,
-  "lon": -69.2326564
-},
-{
-  "type": "node",
   "id": 11017215346,
   "lat": -38.9287918,
   "lon": -69.2011412
@@ -66431,6 +66277,42 @@
   "id": 11018711659,
   "lat": -38.9284617,
   "lon": -69.1999360
+},
+{
+  "type": "node",
+  "id": 11028386657,
+  "lat": -38.9266138,
+  "lon": -69.2004802
+},
+{
+  "type": "node",
+  "id": 11028386658,
+  "lat": -38.9266401,
+  "lon": -69.2004305
+},
+{
+  "type": "node",
+  "id": 11028386659,
+  "lat": -38.9266627,
+  "lon": -69.2005238
+},
+{
+  "type": "node",
+  "id": 11028386660,
+  "lat": -38.9266894,
+  "lon": -69.2004744
+},
+{
+  "type": "node",
+  "id": 11028386661,
+  "lat": -38.9266700,
+  "lon": -69.2005103
+},
+{
+  "type": "node",
+  "id": 11028386662,
+  "lat": -38.9266817,
+  "lon": -69.2004887
 },
 {
   "type": "node",
@@ -72730,13 +72612,13 @@
   "type": "node",
   "id": 7779892335,
   "lat": -31.5515118,
-  "lon": -68.5514779
+  "lon": -68.5514783
 },
 {
   "type": "node",
   "id": 7779892342,
   "lat": -31.5515134,
-  "lon": -68.5516404
+  "lon": -68.5516411
 },
 {
   "type": "node",
@@ -73217,300 +73099,6 @@
   "id": 7828007234,
   "lat": -31.5335863,
   "lon": -68.5679354
-},
-{
-  "type": "node",
-  "id": 7857517600,
-  "lat": -31.5393557,
-  "lon": -68.5632249
-},
-{
-  "type": "node",
-  "id": 7857517601,
-  "lat": -31.5393863,
-  "lon": -68.5632227
-},
-{
-  "type": "node",
-  "id": 7857517602,
-  "lat": -31.5393850,
-  "lon": -68.5631977
-},
-{
-  "type": "node",
-  "id": 7857517603,
-  "lat": -31.5394718,
-  "lon": -68.5631915
-},
-{
-  "type": "node",
-  "id": 7857517604,
-  "lat": -31.5394766,
-  "lon": -68.5632852
-},
-{
-  "type": "node",
-  "id": 7857517605,
-  "lat": -31.5393907,
-  "lon": -68.5632913
-},
-{
-  "type": "node",
-  "id": 7857517606,
-  "lat": -31.5393901,
-  "lon": -68.5632792
-},
-{
-  "type": "node",
-  "id": 7857517607,
-  "lat": -31.5393599,
-  "lon": -68.5632813
-},
-{
-  "type": "node",
-  "id": 7880626045,
-  "lat": -31.5426954,
-  "lon": -68.5575944
-},
-{
-  "type": "node",
-  "id": 7880626046,
-  "lat": -31.5427617,
-  "lon": -68.5575905
-},
-{
-  "type": "node",
-  "id": 7880626074,
-  "lat": -31.5433002,
-  "lon": -68.5575078
-},
-{
-  "type": "node",
-  "id": 7880626075,
-  "lat": -31.5431624,
-  "lon": -68.5573304
-},
-{
-  "type": "node",
-  "id": 7880626985,
-  "lat": -31.5435833,
-  "lon": -68.5596873
-},
-{
-  "type": "node",
-  "id": 7880626986,
-  "lat": -31.5435888,
-  "lon": -68.5596135
-},
-{
-  "type": "node",
-  "id": 7880626987,
-  "lat": -31.5435694,
-  "lon": -68.5596115
-},
-{
-  "type": "node",
-  "id": 7880626988,
-  "lat": -31.5435715,
-  "lon": -68.5595847
-},
-{
-  "type": "node",
-  "id": 7880626989,
-  "lat": -31.5435032,
-  "lon": -68.5595777
-},
-{
-  "type": "node",
-  "id": 7880627258,
-  "lat": -31.5426520,
-  "lon": -68.5575970
-},
-{
-  "type": "node",
-  "id": 7880627259,
-  "lat": -31.5426850,
-  "lon": -68.5575950
-},
-{
-  "type": "node",
-  "id": 7880627265,
-  "lat": -31.5427577,
-  "lon": -68.5574530
-},
-{
-  "type": "node",
-  "id": 7880627266,
-  "lat": -31.5427561,
-  "lon": -68.5573981
-},
-{
-  "type": "node",
-  "id": 7880627267,
-  "lat": -31.5426901,
-  "lon": -68.5574088
-},
-{
-  "type": "node",
-  "id": 7880627272,
-  "lat": -31.5426441,
-  "lon": -68.5574162
-},
-{
-  "type": "node",
-  "id": 7880627273,
-  "lat": -31.5426152,
-  "lon": -68.5574208
-},
-{
-  "type": "node",
-  "id": 7880627292,
-  "lat": -31.5432941,
-  "lon": -68.5574171
-},
-{
-  "type": "node",
-  "id": 7880627293,
-  "lat": -31.5432869,
-  "lon": -68.5573094
-},
-{
-  "type": "node",
-  "id": 7880627294,
-  "lat": -31.5432240,
-  "lon": -68.5573200
-},
-{
-  "type": "node",
-  "id": 7880627613,
-  "lat": -31.5426230,
-  "lon": -68.5575987
-},
-{
-  "type": "node",
-  "id": 7880627621,
-  "lat": -31.5431723,
-  "lon": -68.5574651
-},
-{
-  "type": "node",
-  "id": 7880627622,
-  "lat": -31.5431653,
-  "lon": -68.5573694
-},
-{
-  "type": "node",
-  "id": 7880627825,
-  "lat": -31.5426209,
-  "lon": -68.5575520
-},
-{
-  "type": "node",
-  "id": 7880627826,
-  "lat": -31.5426170,
-  "lon": -68.5574610
-},
-{
-  "type": "node",
-  "id": 7880627907,
-  "lat": -31.5434892,
-  "lon": -68.5597062
-},
-{
-  "type": "node",
-  "id": 7880627908,
-  "lat": -31.5434989,
-  "lon": -68.5595772
-},
-{
-  "type": "node",
-  "id": 7880628331,
-  "lat": -31.5432120,
-  "lon": -68.5575154
-},
-{
-  "type": "node",
-  "id": 7880628332,
-  "lat": -31.5432690,
-  "lon": -68.5575105
-},
-{
-  "type": "node",
-  "id": 7880628333,
-  "lat": -31.5432955,
-  "lon": -68.5575082
-},
-{
-  "type": "node",
-  "id": 7880628587,
-  "lat": -31.5431862,
-  "lon": -68.5575177
-},
-{
-  "type": "node",
-  "id": 7880628588,
-  "lat": -31.5431762,
-  "lon": -68.5575185
-},
-{
-  "type": "node",
-  "id": 7880628923,
-  "lat": -31.5435486,
-  "lon": -68.5596837
-},
-{
-  "type": "node",
-  "id": 7880628924,
-  "lat": -31.5435612,
-  "lon": -68.5596850
-},
-{
-  "type": "node",
-  "id": 7880628978,
-  "lat": -31.5435465,
-  "lon": -68.5597122
-},
-{
-  "type": "node",
-  "id": 7880628979,
-  "lat": -31.5435137,
-  "lon": -68.5597088
-},
-{
-  "type": "node",
-  "id": 7889579822,
-  "lat": -31.5427344,
-  "lon": -68.5570956
-},
-{
-  "type": "node",
-  "id": 7889580373,
-  "lat": -31.5428878,
-  "lon": -68.5570587
-},
-{
-  "type": "node",
-  "id": 7889580769,
-  "lat": -31.5427330,
-  "lon": -68.5570840
-},
-{
-  "type": "node",
-  "id": 7889580931,
-  "lat": -31.5428550,
-  "lon": -68.5571800
-},
-{
-  "type": "node",
-  "id": 7889581332,
-  "lat": -31.5428900,
-  "lon": -68.5571320
-},
-{
-  "type": "node",
-  "id": 7892190551,
-  "lat": -31.5427465,
-  "lon": -68.5571982
 },
 {
   "type": "node",
@@ -98351,6 +97939,12 @@
   "nodes": [
     11018711546,
     11018711547,
+    11028386658,
+    11028386660,
+    11028386662,
+    11028386661,
+    11028386659,
+    11028386657,
     11018711548,
     11018711549,
     11018711562,
