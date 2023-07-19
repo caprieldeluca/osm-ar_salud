@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-12T20:43:53Z",
-    "timestamp_areas_base": "2023-07-12T19:01:45Z",
+    "timestamp_osm_base": "2023-07-19T15:41:16Z",
+    "timestamp_areas_base": "2023-07-19T10:52:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5680,14 +5680,14 @@
   "lat": -34.6656888,
   "lon": -58.5852692,
   "tags": {
-    "addr:full": "Bermúdez 2895",
+    "addr:housenumber": "2895",
     "addr:postcode": "1754",
+    "addr:street": "Bermúdez",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clinica Cruz Celeste",
-    "operator": "Privado",
     "operator:type": "private",
-    "phone": "(011) 4659-9462",
+    "phone": "+54 11 4659-9462",
     "ref:sisa_codigo": "10064272306569",
     "ref:sisa_tipologia": "ESCIG"
   }
@@ -36034,8 +36034,12 @@
   "id": 366113838,
   "nodes": [
     3701017313,
+    11043196312,
+    11043196311,
     3701017314,
-    3701017315,
+    11043196314,
+    11043196313,
+    11043196315,
     3701017319,
     3701017316,
     3701017313
@@ -36048,7 +36052,7 @@
     "amenity": "hospital",
     "description": "Municipalidad de Chascomùs",
     "healthcare": "hospital",
-    "name": "Hospital Municipal de Chascomús- San Vicente de Paul"
+    "name": "Hospital Municipal San Vicente de Paul"
   }
 },
 {
@@ -88445,33 +88449,57 @@
 },
 {
   "type": "node",
-  "id": 3701017315,
-  "lat": -35.5766215,
-  "lon": -58.0071703
-},
-{
-  "type": "node",
   "id": 3701017316,
-  "lat": -35.5767178,
-  "lon": -58.0082138
+  "lat": -35.5766428,
+  "lon": -58.0082245
 },
 {
   "type": "node",
   "id": 3701017319,
-  "lat": -35.5766644,
-  "lon": -58.0077593
+  "lat": -35.5765954,
+  "lon": -58.0078756
+},
+{
+  "type": "node",
+  "id": 11043196313,
+  "lat": -35.5763970,
+  "lon": -58.0073853
+},
+{
+  "type": "node",
+  "id": 11043196314,
+  "lat": -35.5763811,
+  "lon": -58.0072684
+},
+{
+  "type": "node",
+  "id": 11043196315,
+  "lat": -35.5765253,
+  "lon": -58.0073590
 },
 {
   "type": "node",
   "id": 3701017313,
-  "lat": -35.5760001,
-  "lon": -58.0083480
+  "lat": -35.5760057,
+  "lon": -58.0083554
 },
 {
   "type": "node",
   "id": 3701017314,
-  "lat": -35.5758844,
-  "lon": -58.0073368
+  "lat": -35.5759892,
+  "lon": -58.0073488
+},
+{
+  "type": "node",
+  "id": 11043196311,
+  "lat": -35.5760306,
+  "lon": -58.0076536
+},
+{
+  "type": "node",
+  "id": 11043196312,
+  "lat": -35.5759275,
+  "lon": -58.0077797
 },
 {
   "type": "node",

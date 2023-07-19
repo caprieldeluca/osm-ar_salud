@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.60.6 e2dc3e5b",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-12T20:44:56Z",
-    "timestamp_areas_base": "2023-07-12T19:01:45Z",
+    "timestamp_osm_base": "2023-07-19T15:42:21Z",
+    "timestamp_areas_base": "2023-07-19T10:52:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -44480,7 +44480,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "general",
     "name": "Clinica Parque Universitario",
-    "opening_hours": "Mo-Fr 08:00-12:30,16:00-21:00; Sa 08:30-12:30",
+    "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-12:30",
     "operator": "Miguel Angel Iranzo",
     "operator:type": "private",
     "phone": "+54 264 423 1959",
@@ -44519,6 +44519,44 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Consultorios Médicos y Laboratorio de Análisis Clínicos"
+  }
+},
+{
+  "type": "node",
+  "id": 11047467573,
+  "lat": -38.9328289,
+  "lon": -69.2234268,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "355",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida Olascoaga",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CardioSur"
+  }
+},
+{
+  "type": "node",
+  "id": 11047513538,
+  "lat": -34.6491710,
+  "lon": -58.6162945,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Consultorios Médicos Boatti"
+  }
+},
+{
+  "type": "node",
+  "id": 11050262503,
+  "lat": -31.5389742,
+  "lon": -68.5679805,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Médico Éticos",
+    "phone": "+54 264 423 2802",
+    "wheelchair": "yes"
   }
 },
 {
@@ -56760,36 +56798,6 @@
 },
 {
   "type": "way",
-  "id": 771810205,
-  "nodes": [
-    7205256579,
-    7205255869,
-    7205255868,
-    7205256578,
-    7205255867,
-    7205255866,
-    7205255865,
-    7205255864,
-    7205255883,
-    7205255884,
-    7205256579
-  ],
-  "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "36 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida José Ignacio de la Roza",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Centro Médico Éticos",
-    "phone": "+54 264 423 2802",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
   "id": 772036577,
   "nodes": [
     7207311202,
@@ -64436,6 +64444,57 @@
   }
 },
 {
+  "type": "way",
+  "id": 1189740932,
+  "nodes": [
+    11047224750,
+    11047224751,
+    11047224752,
+    11047224753,
+    11047224754,
+    11047224755,
+    11047224756,
+    11047224757,
+    11047224758,
+    11047224748,
+    11047224750
+  ],
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "187",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida Miguel Eguinoa",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "3",
+    "name": "Centro de Asistencia Renal Cutral Có",
+    "operator": "Centro de Asistencia Renal Cutral Có S.R.L.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1190128092,
+  "nodes": [
+    11050679131,
+    11050679137,
+    11050679136,
+    11050679132,
+    11050679133,
+    11050679134,
+    11050679135,
+    11050679131
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "dialysis",
+    "healthcare:speciality": "nephrology",
+    "name": "CEPER"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -65935,6 +65994,66 @@
   "id": 10692091021,
   "lat": -38.9034240,
   "lon": -70.0636856
+},
+{
+  "type": "node",
+  "id": 11047224748,
+  "lat": -38.9306125,
+  "lon": -69.2251295
+},
+{
+  "type": "node",
+  "id": 11047224750,
+  "lat": -38.9306411,
+  "lon": -69.2253405
+},
+{
+  "type": "node",
+  "id": 11047224751,
+  "lat": -38.9308053,
+  "lon": -69.2253117
+},
+{
+  "type": "node",
+  "id": 11047224752,
+  "lat": -38.9308024,
+  "lon": -69.2252837
+},
+{
+  "type": "node",
+  "id": 11047224753,
+  "lat": -38.9308512,
+  "lon": -69.2252751
+},
+{
+  "type": "node",
+  "id": 11047224754,
+  "lat": -38.9308487,
+  "lon": -69.2252517
+},
+{
+  "type": "node",
+  "id": 11047224755,
+  "lat": -38.9308737,
+  "lon": -69.2252473
+},
+{
+  "type": "node",
+  "id": 11047224756,
+  "lat": -38.9308711,
+  "lon": -69.2252229
+},
+{
+  "type": "node",
+  "id": 11047224757,
+  "lat": -38.9308958,
+  "lon": -69.2252186
+},
+{
+  "type": "node",
+  "id": 11047224758,
+  "lat": -38.9308799,
+  "lon": -69.2250697
 },
 {
   "type": "node",
@@ -72889,66 +73008,6 @@
   "id": 9477314841,
   "lat": -31.5526539,
   "lon": -68.5303878
-},
-{
-  "type": "node",
-  "id": 7205255864,
-  "lat": -31.5390471,
-  "lon": -68.5680402
-},
-{
-  "type": "node",
-  "id": 7205255865,
-  "lat": -31.5390476,
-  "lon": -68.5680064
-},
-{
-  "type": "node",
-  "id": 7205255866,
-  "lat": -31.5390115,
-  "lon": -68.5680057
-},
-{
-  "type": "node",
-  "id": 7205255867,
-  "lat": -31.5390110,
-  "lon": -68.5680395
-},
-{
-  "type": "node",
-  "id": 7205255868,
-  "lat": -31.5389374,
-  "lon": -68.5679685
-},
-{
-  "type": "node",
-  "id": 7205255869,
-  "lat": -31.5391249,
-  "lon": -68.5679721
-},
-{
-  "type": "node",
-  "id": 7205255883,
-  "lat": -31.5390510,
-  "lon": -68.5680402
-},
-{
-  "type": "node",
-  "id": 7205255884,
-  "lat": -31.5390839,
-  "lon": -68.5680401
-},
-{
-  "type": "node",
-  "id": 7205256578,
-  "lat": -31.5389365,
-  "lon": -68.5680381
-},
-{
-  "type": "node",
-  "id": 7205256579,
-  "lat": -31.5391240,
-  "lon": -68.5680411
 },
 {
   "type": "node",
@@ -81097,6 +81156,48 @@
   "id": 11006352624,
   "lat": -31.4201467,
   "lon": -63.0506135
+},
+{
+  "type": "node",
+  "id": 11050679131,
+  "lat": -31.4199905,
+  "lon": -63.0474979
+},
+{
+  "type": "node",
+  "id": 11050679132,
+  "lat": -31.4201252,
+  "lon": -63.0474706
+},
+{
+  "type": "node",
+  "id": 11050679133,
+  "lat": -31.4200845,
+  "lon": -63.0473026
+},
+{
+  "type": "node",
+  "id": 11050679134,
+  "lat": -31.4199422,
+  "lon": -63.0473499
+},
+{
+  "type": "node",
+  "id": 11050679135,
+  "lat": -31.4199787,
+  "lon": -63.0475011
+},
+{
+  "type": "node",
+  "id": 11050679136,
+  "lat": -31.4200051,
+  "lon": -63.0475129
+},
+{
+  "type": "node",
+  "id": 11050679137,
+  "lat": -31.4199943,
+  "lon": -63.0475095
 },
 {
   "type": "node",
