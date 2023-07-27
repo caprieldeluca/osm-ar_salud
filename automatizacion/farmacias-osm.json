@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60.6 e2dc3e5b",
+  "generator": "Overpass API 0.7.61.4 df4c946a",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-19T15:43:25Z",
-    "timestamp_areas_base": "2023-07-19T10:52:11Z",
+    "timestamp_osm_base": "2023-07-27T21:44:23Z",
+    "timestamp_areas_base": "2023-07-27T20:55:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13508,9 +13508,12 @@
   "lat": -34.5517869,
   "lon": -58.4656416,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:housenumber": "3307",
+    "addr:postcode": "C1429",
     "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Plastani",
     "survey:date": "2022-07-23"
   }
@@ -20049,6 +20052,7 @@
   "lon": -58.6123223,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-07-21",
     "dispensing": "no",
     "name": "FARMACIA"
   }
@@ -26377,7 +26381,7 @@
 {
   "type": "node",
   "id": 3701017309,
-  "lat": -35.5779100,
+  "lat": -35.5779449,
   "lon": -58.0148925,
   "tags": {
     "amenity": "pharmacy",
@@ -31455,7 +31459,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Su Farmacia"
+    "name": "Farmily"
   }
 },
 {
@@ -31587,12 +31591,21 @@
 {
   "type": "node",
   "id": 4195381069,
-  "lat": -38.9364501,
-  "lon": -69.2302799,
+  "lat": -38.9364067,
+  "lon": -69.2302569,
   "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "601",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida Julio Argentino Roca",
     "amenity": "pharmacy",
+    "description": "Sucursal N° 3",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Lincoln"
+    "name": "Farmacia Lincoln",
+    "operator": "Grupo Farmacias Lincoln",
+    "website": "https://www.farmacialincoln.com.ar/"
   }
 },
 {
@@ -60677,7 +60690,7 @@
     "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Santa Lucía",
-    "opening_hours": "Mo-Sa 09:00-01:00",
+    "opening_hours": "Mo-Sa 08:00-12:30",
     "wheelchair": "yes"
   }
 },
@@ -60957,6 +60970,7 @@
   "lon": -60.6886816,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-07-22",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Junges"
@@ -62410,6 +62424,7 @@
   "lon": -71.3559804,
   "tags": {
     "addr:housenumber": "405",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia del Río",
@@ -69477,6 +69492,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Colón",
+    "opening_hours": "Mo-Fr 08:30-13:30, 17:00-22:00; Sa 09:00-13:30, 17:30-21:30",
     "phone": "0264 425-2850"
   }
 },
@@ -79683,6 +79699,7 @@
   "lon": -58.4707322,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "San Blas"
   }
 },
@@ -79892,6 +79909,7 @@
   "lon": -58.4516111,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "OpenFarma"
   }
 },
@@ -82925,6 +82943,7 @@
   "lon": -58.4402384,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Delko"
   }
 },
@@ -87350,36 +87369,17 @@
 },
 {
   "type": "node",
-  "id": 11033469339,
-  "lat": -38.9353341,
-  "lon": -69.2305226,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia San Pablo"
-  }
-},
-{
-  "type": "node",
-  "id": 11033469349,
-  "lat": -38.9367082,
-  "lon": -69.2287372,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Cutral Có"
-  }
-},
-{
-  "type": "node",
   "id": 11033469352,
-  "lat": -38.9375677,
-  "lon": -69.2284808,
+  "lat": -38.9375709,
+  "lon": -69.2285416,
   "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "727",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida del Trabajo",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Vital"
   }
@@ -87532,6 +87532,162 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11061026276,
+  "lat": -38.9354303,
+  "lon": -69.2304701,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "521",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida Julio Argentino Roca",
+    "amenity": "pharmacy",
+    "description": "Sucursal N° 2",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Silvia"
+  }
+},
+{
+  "type": "node",
+  "id": 11062243043,
+  "lat": -31.6043378,
+  "lon": -60.6681808,
+  "tags": {
+    "addr:housenumber": "322",
+    "addr:street": "Javier de la Rosa",
+    "amenity": "pharmacy",
+    "name": "Donadío"
+  }
+},
+{
+  "type": "node",
+  "id": 11062722092,
+  "lat": -37.9936461,
+  "lon": -57.5510119,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Rocha"
+  }
+},
+{
+  "type": "node",
+  "id": 11064018108,
+  "lat": -38.9377085,
+  "lon": -69.2314226,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "299",
+    "addr:postcode": "Q8322",
+    "addr:street": "Gobernador Elordi",
+    "amenity": "pharmacy",
+    "description": "Sucursal N° 1",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Silvia"
+  }
+},
+{
+  "type": "node",
+  "id": 11064028121,
+  "lat": -31.7711225,
+  "lon": -60.8381143,
+  "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:housenumber": "1082",
+    "addr:postcode": "3017",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Colombo"
+  }
+},
+{
+  "type": "node",
+  "id": 11064028127,
+  "lat": -31.7745220,
+  "lon": -60.8386082,
+  "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:housenumber": "2708",
+    "addr:postcode": "3017",
+    "addr:street": "Chile",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Berardo"
+  }
+},
+{
+  "type": "node",
+  "id": 11064028199,
+  "lat": -31.7684209,
+  "lon": -60.8364425,
+  "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:housenumber": "2123",
+    "addr:postcode": "3017",
+    "addr:street": "Avenida General López",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Raviolo",
+    "phone": "+54 342 4950111"
+  }
+},
+{
+  "type": "node",
+  "id": 11065975716,
+  "lat": -38.9366911,
+  "lon": -69.2287350,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "673",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida del Trabajo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Nueva Cutral Có"
+  }
+},
+{
+  "type": "node",
+  "id": 11067337884,
+  "lat": -38.9328455,
+  "lon": -69.2328457,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "276",
+    "addr:postcode": "Q8322",
+    "addr:street": "Roque Sáenz Peña",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Cruz del Sur"
+  }
+},
+{
+  "type": "node",
+  "id": 11067432148,
+  "lat": -38.9313089,
+  "lon": -69.2313720,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "147",
+    "addr:postcode": "Q8322",
+    "addr:street": "Avenida Julio Argentino Roca",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Lácar"
   }
 },
 {
@@ -105822,6 +105978,22 @@
   }
 },
 {
+  "type": "way",
+  "id": 1192521181,
+  "nodes": [
+    11070156262,
+    11070156263,
+    11070156264,
+    11070156265,
+    11070156262
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -109996,6 +110168,30 @@
   "id": 3221518612,
   "lat": -37.9839532,
   "lon": -57.5610107
+},
+{
+  "type": "node",
+  "id": 11070156262,
+  "lat": -37.9930650,
+  "lon": -57.5458051
+},
+{
+  "type": "node",
+  "id": 11070156263,
+  "lat": -37.9929768,
+  "lon": -57.5457344
+},
+{
+  "type": "node",
+  "id": 11070156264,
+  "lat": -37.9930201,
+  "lon": -57.5456475
+},
+{
+  "type": "node",
+  "id": 11070156265,
+  "lat": -37.9931083,
+  "lon": -57.5457183
 },
 {
   "type": "node",
@@ -129026,20 +129222,20 @@
 {
   "type": "node",
   "id": 5051704862,
-  "lat": -34.5626198,
-  "lon": -58.4434676
+  "lat": -34.5626182,
+  "lon": -58.4434842
 },
 {
   "type": "node",
   "id": 5051704863,
-  "lat": -34.5625022,
-  "lon": -58.4435762
+  "lat": -34.5625265,
+  "lon": -58.4435786
 },
 {
   "type": "node",
   "id": 5051704864,
-  "lat": -34.5626024,
-  "lon": -58.4437050
+  "lat": -34.5626030,
+  "lon": -58.4436882
 },
 {
   "type": "node",

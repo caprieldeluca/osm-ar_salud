@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60.6 e2dc3e5b",
+  "generator": "Overpass API 0.7.61.4 df4c946a",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-19T15:41:16Z",
-    "timestamp_areas_base": "2023-07-19T10:52:11Z",
+    "timestamp_osm_base": "2023-07-27T21:42:16Z",
+    "timestamp_areas_base": "2023-07-27T20:55:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4486,8 +4486,11 @@
   "lon": -58.5608733,
   "tags": {
     "addr:full": "Almafuerte 3016",
+    "addr:housenumber": "3002",
     "addr:postcode": "1754",
+    "addr:street": "Almafuerte",
     "amenity": "hospital",
+    "check_date": "2023-07-21",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Policlinico Central San Justo",
@@ -6593,7 +6596,7 @@
     "addr:city": "San Juan",
     "addr:housenumber": "735",
     "addr:postcode": "5400",
-    "addr:street": "Lavalle Sur",
+    "addr:street": "Lavalle",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -8387,13 +8390,13 @@
   "tags": {
     "addr:city": "Cañada Rosquín",
     "addr:housenumber": "150",
-    "addr:postcode": "2454",
+    "addr:postcode": "S2454",
     "addr:street": "Avenida Sarmiento",
     "amenity": "hospital",
     "contact:email": "samcocdarosquin@yahoo.com.ar",
     "healthcare": "hospital",
     "name": "SAMCo Cañada Rosquín",
-    "phone": "+54 9 3401 47-0215;+54 9 3401 47-0275 "
+    "phone": "+54 9 3401 47-0215;+54 9 3401 47-0275"
   }
 },
 {
@@ -8628,13 +8631,13 @@
   "tags": {
     "addr:city": "Justiniano Posse",
     "addr:housenumber": "767",
-    "addr:postcode": "2553",
+    "addr:postcode": "X2553",
     "addr:street": "Avenida de Mayo",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital San Roque",
-    "operator": "431382"
+    "phone": "+54 (3537) 43-1382"
   }
 },
 {
@@ -10693,17 +10696,6 @@
     "operator:type": "private",
     "ref:sisa_codigo": "10065682305587",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
-  "id": 4345239992,
-  "lat": -39.9527004,
-  "lon": -71.0711351,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal"
   }
 },
 {
@@ -24292,8 +24284,6 @@
     692939152,
     1622604625,
     692939153,
-    692939144,
-    692939145,
     692939142,
     692939147,
     692939149,
@@ -24302,7 +24292,10 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital de Geriatría General Rodríguez"
+    "name": "Hogar Martin Rodríguez",
+    "official_name": "Complejo Hogar General Martin Rodríguez Viamonte",
+    "old_name": "Hospital de Geriatría General Rodríguez",
+    "operator": "Gobierno de la Ciudad de Buenos Aires"
   }
 },
 {
@@ -37342,8 +37335,10 @@
   "nodes": [
     4097566433,
     4097566434,
-    4097566445,
-    4097566441,
+    11057516178,
+    11057516173,
+    11063734062,
+    11057516172,
     4097566447,
     4097566446,
     4097566433
@@ -37358,7 +37353,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital de Area Junín delos Andes",
+    "name": "Hospital de Área Junín delos Andes",
     "operator:type": "public",
     "ref:sisa_codigo": "10580492167018",
     "ref:sisa_tipologia": "ESCIESM",
@@ -57346,38 +57341,50 @@
 {
   "type": "node",
   "id": 4097566433,
-  "lat": -39.9478051,
-  "lon": -71.0774365
+  "lat": -39.9478383,
+  "lon": -71.0774058
 },
 {
   "type": "node",
   "id": 4097566434,
-  "lat": -39.9482308,
-  "lon": -71.0753953
-},
-{
-  "type": "node",
-  "id": 4097566441,
-  "lat": -39.9485186,
-  "lon": -71.0758915
-},
-{
-  "type": "node",
-  "id": 4097566445,
-  "lat": -39.9485927,
-  "lon": -71.0755268
+  "lat": -39.9482039,
+  "lon": -71.0757379
 },
 {
   "type": "node",
   "id": 4097566446,
-  "lat": -39.9486914,
-  "lon": -71.0777771
+  "lat": -39.9487080,
+  "lon": -71.0777482
 },
 {
   "type": "node",
   "id": 4097566447,
-  "lat": -39.9490759,
-  "lon": -71.0760981
+  "lat": -39.9490928,
+  "lon": -71.0760552
+},
+{
+  "type": "node",
+  "id": 11057516172,
+  "lat": -39.9490280,
+  "lon": -71.0760327
+},
+{
+  "type": "node",
+  "id": 11057516173,
+  "lat": -39.9488970,
+  "lon": -71.0759873
+},
+{
+  "type": "node",
+  "id": 11057516178,
+  "lat": -39.9485498,
+  "lon": -71.0758623
+},
+{
+  "type": "node",
+  "id": 11063734062,
+  "lat": -39.9490041,
+  "lon": -71.0760244
 },
 {
   "type": "node",
@@ -64048,14 +64055,14 @@
 {
   "type": "node",
   "id": 1280523822,
-  "lat": -38.9793323,
-  "lon": -61.3025753
+  "lat": -38.9793250,
+  "lon": -61.3025217
 },
 {
   "type": "node",
   "id": 1280523901,
-  "lat": -38.9784806,
-  "lon": -61.3025337
+  "lat": -38.9784816,
+  "lon": -61.3024787
 },
 {
   "type": "node",
@@ -90699,6 +90706,12 @@
 },
 {
   "type": "node",
+  "id": 692939142,
+  "lat": -34.6736390,
+  "lon": -58.6691421
+},
+{
+  "type": "node",
   "id": 692939147,
   "lat": -34.6711487,
   "lon": -58.6721403
@@ -90741,21 +90754,9 @@
 },
 {
   "type": "node",
-  "id": 692939142,
-  "lat": -34.6759992,
-  "lon": -58.6663151
-},
-{
-  "type": "node",
-  "id": 692939144,
-  "lat": -34.6730329,
-  "lon": -58.6643329
-},
-{
-  "type": "node",
-  "id": 692939145,
-  "lat": -34.6747856,
-  "lon": -58.6647702
+  "id": 692939153,
+  "lat": -34.6720165,
+  "lon": -58.6668353
 },
 {
   "type": "node",
@@ -90768,12 +90769,6 @@
   "id": 692939152,
   "lat": -34.6700560,
   "lon": -58.6656994
-},
-{
-  "type": "node",
-  "id": 692939153,
-  "lat": -34.6714209,
-  "lon": -58.6640243
 },
 {
   "type": "node",

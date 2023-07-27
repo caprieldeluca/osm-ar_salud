@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.60.6 e2dc3e5b",
+  "generator": "Overpass API 0.7.61.4 df4c946a",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-19T15:42:21Z",
-    "timestamp_areas_base": "2023-07-19T10:52:11Z",
+    "timestamp_osm_base": "2023-07-27T21:43:21Z",
+    "timestamp_areas_base": "2023-07-27T20:55:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6439,6 +6439,7 @@
     "addr:housenumber": "5868",
     "addr:street": "Avenida Del Libertador",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Stamboulián"
   }
 },
@@ -7225,8 +7226,9 @@
   "lat": -32.0538199,
   "lon": -61.6007659,
   "tags": {
+    "addr:city": "Cañada Rosquín",
     "addr:postcode": "S2454",
-    "addr:street": "Sa Martín",
+    "addr:street": "San Martín",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica San Martín"
@@ -10842,21 +10844,6 @@
     "healthcare": "clinic",
     "name": "Crivag",
     "name:es": "Crivag"
-  }
-},
-{
-  "type": "node",
-  "id": 4812658421,
-  "lat": -38.9325036,
-  "lon": -69.2326761,
-  "tags": {
-    "addr:housenumber": "253",
-    "addr:postcode": "8323",
-    "addr:street": "Roque Sanez Peña",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clínica Cutral Co",
-    "name:es": "Clínica Cutral Co"
   }
 },
 {
@@ -40382,9 +40369,16 @@
   "lat": -31.6669734,
   "lon": -60.7619624,
   "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:housenumber": "1995",
+    "addr:postcode": "3016",
+    "addr:street": "Avenida 7 de Marzo",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Consultorios 7 de Marzo"
+    "name": "Consultorios 7 de Marzo",
+    "phone": "+54 342 4742439",
+    "ref:sisa_codigo": "50820632384410",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -40393,9 +40387,17 @@
   "lat": -31.6670522,
   "lon": -60.7611939,
   "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:housenumber": "1905",
+    "addr:postcode": "3016",
+    "addr:street": "Avenida 7 de Marzo",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Servicios Médicos"
+    "name": "Servicios Médicos",
+    "official_name": "Sanatorio Servicios Medicos Sm",
+    "phone": "+54 342 4754646",
+    "ref:sisa_codigo": "10820632386283",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -40404,9 +40406,16 @@
   "lat": -31.7184503,
   "lon": -60.7995763,
   "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:housenumber": "1497",
+    "addr:postcode": "3017",
+    "addr:street": "Sauces",
+    "alt_name": "Dispensario",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Dispensario"
+    "name": "Centro De Salud Jorge Newbery",
+    "ref:sisa_codigo": "50820632284739",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -41979,6 +41988,7 @@
     "addr:street": "Núñez",
     "amenity": "clinic",
     "health_specialty:physiatry": "yes",
+    "healthcare": "clinic",
     "name": "ULME",
     "official_name": "Clínica ULME de Rehabilitación",
     "operator:type": "private",
@@ -44509,20 +44519,6 @@
 },
 {
   "type": "node",
-  "id": 11033469320,
-  "lat": -38.9345303,
-  "lon": -69.2326077,
-  "tags": {
-    "addr:city": "Cutral Có",
-    "addr:postcode": "Q8322",
-    "addr:street": "Roque Sáenz Peña",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Consultorios Médicos y Laboratorio de Análisis Clínicos"
-  }
-},
-{
-  "type": "node",
   "id": 11047467573,
   "lat": -38.9328289,
   "lon": -69.2234268,
@@ -44557,6 +44553,161 @@
     "name": "Centro Médico Éticos",
     "phone": "+54 264 423 2802",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11064040911,
+  "lat": -31.7716670,
+  "lon": -60.8373025,
+  "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:housenumber": "1190",
+    "addr:postcode": "3017",
+    "addr:street": "Rivadavia",
+    "amenity": "clinic",
+    "email": "centrodesaludcentenario@hotmail.com",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Centenario",
+    "phone": "+54 342 4950212",
+    "ref:sisa_codigo": "50820632284602",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064040930,
+  "lat": -31.6947502,
+  "lon": -60.7882845,
+  "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:full": "Corrientes y Los Paraísos",
+    "addr:postcode": "3017",
+    "addr:street": "Corrientes",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Adelina Oeste Dra Debora Ferrandini",
+    "phone": "+54 342 4996210",
+    "ref:sisa_codigo": "50820632184996",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064040932,
+  "lat": -31.7436199,
+  "lon": -60.8191344,
+  "tags": {
+    "addr:housenumber": "1055",
+    "addr:street": "Pasaje Bouchard",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Dońa Margarita Barrio Areneras",
+    "ref:sisa_codigo": "50820632284801",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064040941,
+  "lat": -31.7035560,
+  "lon": -60.7862353,
+  "tags": {
+    "addr:city": "Sauce Viejo",
+    "addr:full": "Pasaje 16 Entre 27 Y 29",
+    "addr:postcode": "3017",
+    "addr:street": "Pasaje 16",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud San Cayetano",
+    "ref:sisa_codigo": "50820632184934",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064040944,
+  "lat": -31.6764297,
+  "lon": -60.7973751,
+  "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:postcode": "3017",
+    "addr:street": "Agustin Delgado",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Lisandro De La Torre",
+    "phone": "+54 342 475346",
+    "ref:sisa_codigo": "50820632184780",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064040945,
+  "lat": -31.6681038,
+  "lon": -60.8037327,
+  "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:postcode": "3017",
+    "addr:street": "Avenida Ejército Argentino",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100046893410786",
+    "healthcare": "clinic",
+    "name": "Comunidad Terapéutica Nuestra Señora Del Pilar",
+    "phone": "+54 342 4751833",
+    "ref:sisa_codigo": "13820632384299",
+    "ref:sisa_tipologia": "ESCIESM"
+  }
+},
+{
+  "type": "node",
+  "id": 11064041139,
+  "lat": -31.6662983,
+  "lon": -60.7673503,
+  "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:postcode": "3016",
+    "addr:street": "7 de Marzo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Juan Domingo Peron",
+    "ref:sisa_codigo": "50820632184744",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064041140,
+  "lat": -31.6934321,
+  "lon": -60.7751974,
+  "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:full": "Roverano Y Batalla De San Lorenzo",
+    "addr:postcode": "3016",
+    "addr:street": "Roverano",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Presidente Raul Ricardo Alfonsín",
+    "ref:sisa_codigo": "50820632186012",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11064041143,
+  "lat": -31.6589600,
+  "lon": -60.7666899,
+  "tags": {
+    "addr:city": "Santo Tomé",
+    "addr:full": "Cordoba Y Necochea - Barrio El Chaparral",
+    "addr:postcode": "3016",
+    "addr:street": "Córdoba",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Eva Duarte De Perón",
+    "phone": "+54 342 4753464",
+    "ref:sisa_codigo": "50820632184695",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -64495,6 +64646,111 @@
   }
 },
 {
+  "type": "way",
+  "id": 1191517745,
+  "nodes": [
+    11062596202,
+    11062596203,
+    11062596204,
+    11062608505,
+    11062596202
+  ],
+  "tags": {
+    "addr:housenumber": "944",
+    "addr:street": "Las Rosas",
+    "amenity": "clinic",
+    "fixme": "check lcoation",
+    "full_name": "Omnia Centro Médico",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics;psychiatry;applied_kinesiology;trauma;general;family_medicine;cardiology;homeopathy;oncology;surgery;aesthetic;nutrition",
+    "name": "Omnia",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 1191524166,
+  "nodes": [
+    11062574566,
+    11062574565,
+    11062574564,
+    11062574563,
+    11062574562,
+    11062574566
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud Doctor René Favaloro",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Municipalidad de Morón",
+    "phone": "+541131843925"
+  }
+},
+{
+  "type": "way",
+  "id": 1192140119,
+  "nodes": [
+    11067358713,
+    11067358751,
+    11067358743,
+    11067358712,
+    11067358742,
+    11067358721,
+    11067358720,
+    11067358717,
+    11067358711,
+    11067358716,
+    11067358715,
+    11067358714,
+    11067358710,
+    11067358722,
+    11067358709,
+    11067358708,
+    11067358746,
+    11067358707,
+    11067358752,
+    11067358713
+  ],
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:housenumber": "259",
+    "addr:postcode": "Q8322",
+    "addr:street": "Roque Sáenz Peña",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica Cutral Có",
+    "operator": "Cooperativa de Trabajo Creer Salud Ltda.",
+    "operator:type": "cooperative"
+  }
+},
+{
+  "type": "way",
+  "id": 1192430205,
+  "nodes": [
+    11069358822,
+    11069358823,
+    11069358824,
+    11069358825,
+    11069358826,
+    11069358827,
+    11069358828,
+    11069358829,
+    11069358822
+  ],
+  "tags": {
+    "addr:city": "Junín de los Andes",
+    "addr:housenumber": "567",
+    "addr:postcode": "Q8371",
+    "addr:street": "Patagonia",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Centro de Salud Comunitario 15 de Febrero",
+    "operator": "Hospital de Área Junín de los Andes"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -65560,50 +65816,98 @@
 {
   "type": "node",
   "id": 10906775793,
-  "lat": -39.9495821,
-  "lon": -71.0764880
+  "lat": -39.9496637,
+  "lon": -71.0764772
 },
 {
   "type": "node",
   "id": 10906775794,
-  "lat": -39.9494012,
-  "lon": -71.0764132
+  "lat": -39.9494828,
+  "lon": -71.0764024
 },
 {
   "type": "node",
   "id": 10906775795,
-  "lat": -39.9493408,
-  "lon": -71.0766618
+  "lat": -39.9494224,
+  "lon": -71.0766510
 },
 {
   "type": "node",
   "id": 10906775796,
-  "lat": -39.9495205,
-  "lon": -71.0767360
+  "lat": -39.9496021,
+  "lon": -71.0767252
 },
 {
   "type": "node",
   "id": 10906775797,
-  "lat": -39.9495333,
-  "lon": -71.0766831
+  "lat": -39.9496149,
+  "lon": -71.0766723
 },
 {
   "type": "node",
   "id": 10906775798,
-  "lat": -39.9495151,
-  "lon": -71.0766756
+  "lat": -39.9495967,
+  "lon": -71.0766648
 },
 {
   "type": "node",
   "id": 10906775799,
-  "lat": -39.9495399,
-  "lon": -71.0765734
+  "lat": -39.9496215,
+  "lon": -71.0765626
 },
 {
   "type": "node",
   "id": 10906775800,
-  "lat": -39.9495594,
-  "lon": -71.0765815
+  "lat": -39.9496410,
+  "lon": -71.0765707
+},
+{
+  "type": "node",
+  "id": 11069358822,
+  "lat": -39.9481343,
+  "lon": -71.0667582
+},
+{
+  "type": "node",
+  "id": 11069358823,
+  "lat": -39.9479824,
+  "lon": -71.0667071
+},
+{
+  "type": "node",
+  "id": 11069358824,
+  "lat": -39.9480019,
+  "lon": -71.0666088
+},
+{
+  "type": "node",
+  "id": 11069358825,
+  "lat": -39.9480628,
+  "lon": -71.0666294
+},
+{
+  "type": "node",
+  "id": 11069358826,
+  "lat": -39.9480561,
+  "lon": -71.0666634
+},
+{
+  "type": "node",
+  "id": 11069358827,
+  "lat": -39.9481025,
+  "lon": -71.0666791
+},
+{
+  "type": "node",
+  "id": 11069358828,
+  "lat": -39.9481098,
+  "lon": -71.0666423
+},
+{
+  "type": "node",
+  "id": 11069358829,
+  "lat": -39.9481542,
+  "lon": -71.0666573
 },
 {
   "type": "node",
@@ -65994,6 +66298,120 @@
   "id": 10692091021,
   "lat": -38.9034240,
   "lon": -70.0636856
+},
+{
+  "type": "node",
+  "id": 11067358709,
+  "lat": -38.9326093,
+  "lon": -69.2322897
+},
+{
+  "type": "node",
+  "id": 11067358711,
+  "lat": -38.9325303,
+  "lon": -69.2326166
+},
+{
+  "type": "node",
+  "id": 11067358714,
+  "lat": -38.9329631,
+  "lon": -69.2323730
+},
+{
+  "type": "node",
+  "id": 11067358715,
+  "lat": -38.9329773,
+  "lon": -69.2324780
+},
+{
+  "type": "node",
+  "id": 11067358716,
+  "lat": -38.9329543,
+  "lon": -69.2325239
+},
+{
+  "type": "node",
+  "id": 11067358717,
+  "lat": -38.9325136,
+  "lon": -69.2324901
+},
+{
+  "type": "node",
+  "id": 11067358720,
+  "lat": -38.9325094,
+  "lon": -69.2324578
+},
+{
+  "type": "node",
+  "id": 11067358721,
+  "lat": -38.9324907,
+  "lon": -69.2323154
+},
+{
+  "type": "node",
+  "id": 11067358722,
+  "lat": -38.9327841,
+  "lon": -69.2322510
+},
+{
+  "type": "node",
+  "id": 11067358707,
+  "lat": -38.9329296,
+  "lon": -69.2321252
+},
+{
+  "type": "node",
+  "id": 11067358708,
+  "lat": -38.9325971,
+  "lon": -69.2321990
+},
+{
+  "type": "node",
+  "id": 11067358710,
+  "lat": -38.9329419,
+  "lon": -69.2322160
+},
+{
+  "type": "node",
+  "id": 11067358712,
+  "lat": -38.9324524,
+  "lon": -69.2320242
+},
+{
+  "type": "node",
+  "id": 11067358713,
+  "lat": -38.9329027,
+  "lon": -69.2319264
+},
+{
+  "type": "node",
+  "id": 11067358742,
+  "lat": -38.9324765,
+  "lon": -69.2322077
+},
+{
+  "type": "node",
+  "id": 11067358743,
+  "lat": -38.9325026,
+  "lon": -69.2320133
+},
+{
+  "type": "node",
+  "id": 11067358746,
+  "lat": -38.9326769,
+  "lon": -69.2321813
+},
+{
+  "type": "node",
+  "id": 11067358751,
+  "lat": -38.9326505,
+  "lon": -69.2319812
+},
+{
+  "type": "node",
+  "id": 11067358752,
+  "lat": -38.9329167,
+  "lon": -69.2320296
 },
 {
   "type": "node",
@@ -79455,6 +79873,30 @@
 },
 {
   "type": "node",
+  "id": 11062596202,
+  "lat": -32.9111196,
+  "lon": -60.7953244
+},
+{
+  "type": "node",
+  "id": 11062596203,
+  "lat": -32.9110371,
+  "lon": -60.7958047
+},
+{
+  "type": "node",
+  "id": 11062596204,
+  "lat": -32.9109451,
+  "lon": -60.7957823
+},
+{
+  "type": "node",
+  "id": 11062608505,
+  "lat": -32.9110276,
+  "lon": -60.7953020
+},
+{
+  "type": "node",
   "id": 5178716821,
   "lat": -32.9279218,
   "lon": -60.7824477
@@ -84372,6 +84814,36 @@
   "id": 5923063506,
   "lat": -34.6864893,
   "lon": -58.6526675
+},
+{
+  "type": "node",
+  "id": 11062574562,
+  "lat": -34.6674735,
+  "lon": -58.6531372
+},
+{
+  "type": "node",
+  "id": 11062574563,
+  "lat": -34.6674272,
+  "lon": -58.6531426
+},
+{
+  "type": "node",
+  "id": 11062574564,
+  "lat": -34.6670930,
+  "lon": -58.6526638
+},
+{
+  "type": "node",
+  "id": 11062574565,
+  "lat": -34.6672695,
+  "lon": -58.6524788
+},
+{
+  "type": "node",
+  "id": 11062574566,
+  "lat": -34.6675254,
+  "lon": -58.6528328
 },
 {
   "type": "node",
