@@ -1563,7 +1563,6 @@
   "id": "way/315535912",
   "properties": {
     "addr:housenumber": "1220",
-    "addr:postcode": "S2132",
     "addr:street": "Presidente Perón",
     "amenity": "doctors",
     "building": "commercial",
@@ -1616,7 +1615,6 @@
   "id": "way/339582263",
   "properties": {
     "addr:housenumber": "1532",
-    "addr:postcode": "S2132",
     "addr:street": "Juan Elorza",
     "amenity": "doctors",
     "building": "commercial",
@@ -1809,7 +1807,6 @@
   "id": "way/379218508",
   "properties": {
     "addr:housenumber": "2077",
-    "addr:postcode": "S2132",
     "addr:street": "Presidente Perón",
     "alt_name": "Jacarandá Espacio de Salud",
     "amenity": "doctors",
@@ -2107,7 +2104,6 @@
   "id": "way/421499763",
   "properties": {
     "addr:housenumber": "1707",
-    "addr:postcode": "S2132",
     "addr:street": "General Paz",
     "amenity": "doctors",
     "building": "house",
@@ -2154,7 +2150,6 @@
   "id": "way/436608043",
   "properties": {
     "addr:housenumber": "997",
-    "addr:postcode": "S2132",
     "addr:street": "Buenos Aires",
     "amenity": "doctors",
     "contact:facebook": "@solazcentrokinesico; @solazbienestarysalud1",
@@ -5537,7 +5532,6 @@
   "id": "way/563882622",
   "properties": {
     "addr2:street": "Miguel Galindo",
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Córdoba",
     "amenity": "doctors",
     "contact:website": "http://www.cibic.com.ar/",
@@ -5754,7 +5748,6 @@
   "id": "way/572488180",
   "properties": {
     "addr:housenumber": "1941",
-    "addr:postcode": "S2132",
     "addr:street": "Hipólito Yrigoyen",
     "amenity": "doctors",
     "building": "retail",
@@ -9268,6 +9261,57 @@
 },
 {
   "type": "Feature",
+  "id": "way/1196079119",
+  "properties": {
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "diabetology;general",
+    "name": "Consultorio Marcó",
+    "id": "way/1196079119"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.0805953,
+          -39.9480688
+        ],
+        [
+          -71.0805484,
+          -39.9480775
+        ],
+        [
+          -71.0805353,
+          -39.9480706
+        ],
+        [
+          -71.080515,
+          -39.948009
+        ],
+        [
+          -71.0805533,
+          -39.9480014
+        ],
+        [
+          -71.080547,
+          -39.94798
+        ],
+        [
+          -71.0805646,
+          -39.9479755
+        ],
+        [
+          -71.0805953,
+          -39.9480688
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/427988926",
   "properties": {
     "amenity": "doctors",
@@ -12480,7 +12524,7 @@
   "properties": {
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Consultorios Medicos Privados SA",
+    "name": "Consultorios Médicos Privados SA",
     "id": "node/3526558780"
   },
   "geometry": {
@@ -16570,7 +16614,7 @@
     "addr:street": "Avenida Rivadavia",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Dim",
+    "name": "DIM",
     "id": "node/4695952729"
   },
   "geometry": {
@@ -21166,8 +21210,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.8115539,
-      -32.9262454
+      -60.8115646,
+      -32.9262533
     ]
   }
 },
@@ -34961,6 +35005,7 @@
     "addr:state": "Buenos Aires",
     "addr:street": "Necochea",
     "amenity": "doctors",
+    "check_date": "2023-08-04",
     "healthcare": "doctor",
     "healthcare:speciality": "dermatology;cardiology;general;gynaecology;multi speciality",
     "name": "Consultorios Santa Rosa",
@@ -35625,23 +35670,6 @@
     "coordinates": [
       -62.636027,
       -24.9928869
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10315846640",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Consultorio Marco",
-    "id": "node/10315846640"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -71.0806305,
-      -39.9480124
     ]
   }
 },
@@ -36354,6 +36382,87 @@
     "coordinates": [
       -58.6123164,
       -34.647535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11073793194",
+  "properties": {
+    "addr:housenumber": "791",
+    "addr:street": "Calle 16",
+    "amenity": "doctors",
+    "contact:mobile": "+54 2324 344634",
+    "healthcare": "doctor",
+    "healthcare:speciality": "neurology",
+    "name": "Nexos",
+    "wheelchair": "limited",
+    "id": "node/11073793194"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.4347218,
+      -34.6536231
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11077984001",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "oncology",
+    "name": "Centro Oncologico Spes",
+    "id": "node/11077984001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4897538,
+      -31.4181886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11094398344",
+  "properties": {
+    "addr:city": "Río Piedras",
+    "addr:housenumber": "105",
+    "addr:street": "San Martín",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro De Salud Joaquin Diaz De Bedoya",
+    "phone": "+54 3876 494026",
+    "ref:sisa_codigo": "50661122173127",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://maproulette.org/challenge/13148/task/45763659",
+    "id": "node/11094398344"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.9114385,
+      -25.3122938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11094398353",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Puesto Sanitario Lumbreras",
+    "id": "node/11094398353"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.9268401,
+      -25.2087756
     ]
   }
 }

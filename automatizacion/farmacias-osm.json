@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.61.4 df4c946a",
+  "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-27T21:44:23Z",
-    "timestamp_areas_base": "2023-07-27T20:55:44Z",
+    "timestamp_osm_base": "2023-08-09T22:33:57Z",
+    "timestamp_areas_base": "2023-08-09T18:31:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6951,7 +6951,9 @@
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "no",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Cervetto",
+    "phone": "+54 (3471) 49-9034"
   }
 },
 {
@@ -7620,8 +7622,8 @@
 {
   "type": "node",
   "id": 1965704626,
-  "lat": -36.0171359,
-  "lon": -59.0855208,
+  "lat": -36.0219341,
+  "lon": -59.1004321,
   "tags": {
     "addr:city": "Las Flores",
     "addr:housenumber": "749",
@@ -8657,8 +8659,8 @@
 {
   "type": "node",
   "id": 2151939026,
-  "lat": -34.5559580,
-  "lon": -58.4631681,
+  "lat": -34.5559271,
+  "lon": -58.4631741,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -8975,8 +8977,8 @@
 {
   "type": "node",
   "id": 2183578269,
-  "lat": -31.9798655,
-  "lon": -64.5599623,
+  "lat": -31.9798949,
+  "lon": -64.5598999,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -15887,8 +15889,8 @@
 {
   "type": "node",
   "id": 2704874913,
-  "lat": -34.5952723,
-  "lon": -58.3786155,
+  "lat": -34.5952414,
+  "lon": -58.3786182,
   "tags": {
     "addr:housenumber": "802",
     "addr:postcode": "C1059ABP",
@@ -19969,8 +19971,8 @@
 {
   "type": "node",
   "id": 3226571833,
-  "lat": -31.4043450,
-  "lon": -62.3039496,
+  "lat": -31.4043542,
+  "lon": -62.3038638,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -19991,8 +19993,8 @@
 {
   "type": "node",
   "id": 3226571835,
-  "lat": -31.4049551,
-  "lon": -62.3061496,
+  "lat": -31.4049580,
+  "lon": -62.3060634,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -35021,8 +35023,8 @@
 {
   "type": "node",
   "id": 4441800751,
-  "lat": -34.6571980,
-  "lon": -58.6461225,
+  "lat": -34.6570976,
+  "lon": -58.6466200,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -42532,6 +42534,17 @@
 },
 {
   "type": "node",
+  "id": 4702072057,
+  "lat": -34.5975671,
+  "lon": -58.3781389,
+  "tags": {
+    "addr:street": "Paraguay",
+    "amenity": "pharmacy",
+    "name": "Bandy"
+  }
+},
+{
+  "type": "node",
   "id": 4702275176,
   "lat": -34.6013046,
   "lon": -58.3780951,
@@ -48105,21 +48118,6 @@
 },
 {
   "type": "node",
-  "id": 5291965274,
-  "lat": -34.5564526,
-  "lon": -58.4613322,
-  "tags": {
-    "addr:housenumber": "2779",
-    "addr:street": "Avenida Cabildo",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Vassallo",
-    "opening_hours": "Mo-Sa 09:00-21:00",
-    "phone": "+54 11 4784-3599"
-  }
-},
-{
-  "type": "node",
   "id": 5296175505,
   "lat": -34.7968155,
   "lon": -58.3562114,
@@ -52815,12 +52813,16 @@
 {
   "type": "node",
   "id": 5700184221,
-  "lat": -38.5241079,
-  "lon": -70.3647075,
+  "lat": -38.5242010,
+  "lon": -70.3648729,
   "tags": {
-    "addr:postcode": "8347",
+    "addr:city": "Las Lajas",
+    "addr:housenumber": "455",
+    "addr:postcode": "Q8347",
     "addr:street": "Avenida Julio Argentino Roca",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Hueney",
     "opening_hours": "Mo-Sa 09:00-13:00"
@@ -60200,13 +60202,15 @@
 {
   "type": "node",
   "id": 6596842588,
-  "lat": -30.7626320,
-  "lon": -57.9949180,
+  "lat": -30.7608872,
+  "lon": -58.0045994,
   "tags": {
-    "addr:street": "Avenida Alem",
+    "addr:housenumber": "640",
+    "addr:street": "Avenida Doctor Casillas",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "David"
+    "name": "David",
+    "phone": "422981"
   }
 },
 {
@@ -61713,6 +61717,7 @@
     "addr:postcode": "B8000",
     "addr:street": "Mitre",
     "amenity": "pharmacy",
+    "check_date": "2023-08-06",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Carabelli"
@@ -80677,8 +80682,13 @@
   "lat": -30.7632569,
   "lon": -57.9841207,
   "tags": {
+    "addr:housenumber": "1050",
+    "addr:street": "Siburu",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "De la Unión",
+    "phone": "424252"
   }
 },
 {
@@ -80687,8 +80697,13 @@
   "lat": -30.7629527,
   "lon": -57.9849790,
   "tags": {
+    "addr:housenumber": "1125",
+    "addr:street": "Siburu",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Zordan",
+    "phone": "423295"
   }
 },
 {
@@ -87691,6 +87706,278 @@
   }
 },
 {
+  "type": "node",
+  "id": 11072160751,
+  "lat": -27.2170208,
+  "lon": -61.1906195,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Pinto"
+  }
+},
+{
+  "type": "node",
+  "id": 11072180152,
+  "lat": -27.2177596,
+  "lon": -61.1906718,
+  "tags": {
+    "addr:street": "Avenida Güemes",
+    "amenity": "pharmacy",
+    "name": "Ameb"
+  }
+},
+{
+  "type": "node",
+  "id": 11077983999,
+  "lat": -31.4201670,
+  "lon": -64.4909447,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Argentina"
+  }
+},
+{
+  "type": "node",
+  "id": 11086056958,
+  "lat": -30.7589972,
+  "lon": -57.9887353,
+  "tags": {
+    "addr:housenumber": "3275",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Barbieri",
+    "phone": "424644"
+  }
+},
+{
+  "type": "node",
+  "id": 11086112591,
+  "lat": -30.7611568,
+  "lon": -57.9810233,
+  "tags": {
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "name": "Berta",
+    "phone": "426115"
+  }
+},
+{
+  "type": "node",
+  "id": 11086116569,
+  "lat": -30.7575935,
+  "lon": -57.9800221,
+  "tags": {
+    "addr:housenumber": "2646",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo",
+    "phone": "421050"
+  }
+},
+{
+  "type": "node",
+  "id": 11086121355,
+  "lat": -30.7499731,
+  "lon": -57.9791290,
+  "tags": {
+    "addr:street": "Avenida 9 de Julio",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Científica",
+    "phone": "422344"
+  }
+},
+{
+  "type": "node",
+  "id": 11086121356,
+  "lat": -30.7596909,
+  "lon": -57.9834487,
+  "tags": {
+    "addr:housenumber": "2985",
+    "addr:street": "Entre Ríos",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Chajarí",
+    "phone": "421957"
+  }
+},
+{
+  "type": "node",
+  "id": 11086163759,
+  "lat": -30.7600355,
+  "lon": -57.9832958,
+  "tags": {
+    "addr:housenumber": "1270",
+    "addr:street": "Urquiza",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Italiana",
+    "phone": "423781"
+  }
+},
+{
+  "type": "node",
+  "id": 11086163760,
+  "lat": -30.7590686,
+  "lon": -57.9843432,
+  "tags": {
+    "addr:street": "Urquiza",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Urquiza",
+    "name_old": "Fenix",
+    "phone": "421423"
+  }
+},
+{
+  "type": "node",
+  "id": 11086688010,
+  "lat": -30.7612744,
+  "lon": -57.9913598,
+  "tags": {
+    "addr:street": "Avenida 9 de Julio",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Restivo",
+    "phone": "424276"
+  }
+},
+{
+  "type": "node",
+  "id": 11086688012,
+  "lat": -30.7506231,
+  "lon": -57.9789439,
+  "tags": {
+    "addr:housenumber": "2191",
+    "addr:street": "Avenida 9 de Julio",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Nuñez",
+    "phone": "421306"
+  }
+},
+{
+  "type": "node",
+  "id": 11086714644,
+  "lat": -30.7450677,
+  "lon": -57.9840320,
+  "tags": {
+    "addr:housenumber": "2098",
+    "addr:street": "Avenida 1 de Mayo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Zordan III",
+    "phone": "422489"
+  }
+},
+{
+  "type": "node",
+  "id": 11086714645,
+  "lat": -30.7506658,
+  "lon": -57.9888734,
+  "tags": {
+    "addr:housenumber": "2210",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Zordan II",
+    "phone": "424214"
+  }
+},
+{
+  "type": "node",
+  "id": 11086714646,
+  "lat": -30.7542167,
+  "lon": -57.9852283,
+  "tags": {
+    "addr:housenumber": "1787",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Santa Clara",
+    "phone": "420456"
+  }
+},
+{
+  "type": "node",
+  "id": 11087491089,
+  "lat": -38.5244839,
+  "lon": -70.3654984,
+  "tags": {
+    "addr:city": "Las Lajas",
+    "addr:housenumber": "347",
+    "addr:postcode": "Q8347",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Santa Bárbara"
+  }
+},
+{
+  "type": "node",
+  "id": 11087784804,
+  "lat": -25.3383702,
+  "lon": -64.0207686,
+  "tags": {
+    "addr:city": "El Quebrachal",
+    "addr:postcode": "4452",
+    "addr:street": "Ruta Nacional 16",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Las Palmas"
+  }
+},
+{
+  "type": "node",
+  "id": 11091491598,
+  "lat": -25.2393579,
+  "lon": -64.0402039,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11094466209,
+  "lat": -34.6757687,
+  "lon": -58.6107841,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Don Bosco"
+  }
+},
+{
+  "type": "node",
+  "id": 11098377562,
+  "lat": -31.5154578,
+  "lon": -68.5609160,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Aramburu",
+    "phone": "+54 264 423 9692"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -87813,7 +88100,6 @@
   ],
   "tags": {
     "addr:housenumber": "1721",
-    "addr:postcode": "S2132",
     "addr:street": "Presidente Perón",
     "amenity": "pharmacy",
     "building": "retail",
@@ -87838,7 +88124,6 @@
   ],
   "tags": {
     "addr:housenumber": "1441",
-    "addr:postcode": "S2132",
     "addr:street": "General Paz",
     "amenity": "pharmacy",
     "building": "retail",
@@ -87863,7 +88148,6 @@
     2464816745
   ],
   "tags": {
-    "addr:postcode": "S2132",
     "addr:street": "Juan Elorza",
     "amenity": "pharmacy",
     "building": "retail",
@@ -87889,7 +88173,6 @@
   ],
   "tags": {
     "addr:housenumber": "1551",
-    "addr:postcode": "S2132",
     "addr:street": "Juan Elorza",
     "amenity": "pharmacy",
     "building": "retail",
@@ -87983,7 +88266,6 @@
     2923566935
   ],
   "tags": {
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "building": "retail",
@@ -88011,7 +88293,6 @@
   ],
   "tags": {
     "addr:housenumber": "1519",
-    "addr:postcode": "S2132",
     "addr:street": "San José",
     "amenity": "pharmacy",
     "building": "retail",
@@ -88213,7 +88494,6 @@
   ],
   "tags": {
     "addr:housenumber": "646",
-    "addr:postcode": "S2132",
     "addr:street": "Buenos Aires",
     "amenity": "pharmacy",
     "building": "yes",
@@ -88285,7 +88565,6 @@
     4044971648
   ],
   "tags": {
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Fuerza Aérea",
     "amenity": "pharmacy",
     "building": "retail",
@@ -89495,7 +89774,7 @@
   "tags": {
     "addr:city": "Chilecito",
     "addr:postcode": "F5360DEA",
-    "addr:street": "Julian Amatte",
+    "addr:street": "Julián Amatte",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy"
@@ -100994,36 +101273,6 @@
 },
 {
   "type": "way",
-  "id": 741161951,
-  "nodes": [
-    6938703975,
-    6938703974,
-    6938542076,
-    6938703973,
-    6938703972,
-    6938703971,
-    6938703970,
-    6938703969,
-    6938703968,
-    6938703967,
-    6938703975
-  ],
-  "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "1251 (N)",
-    "addr:postcode": "5400",
-    "addr:street": "Manuel Dorrego",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "building:levels": "1",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Aramburu",
-    "phone": "+54 264 423 9692"
-  }
-},
-{
-  "type": "way",
   "id": 751984921,
   "nodes": [
     7029552941,
@@ -104255,7 +104504,6 @@
   ],
   "tags": {
     "addr:housenumber": "716",
-    "addr:postcode": "S2132",
     "addr:street": "José de San Martín",
     "amenity": "pharmacy",
     "building": "retail",
@@ -105991,6 +106239,41 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1193333909,
+  "nodes": [
+    11076998223,
+    11076998224,
+    11076998230,
+    11076998225,
+    11076998234,
+    11076998226,
+    11076998223
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1193460792,
+  "nodes": [
+    11077987345,
+    11077987350,
+    11077987351,
+    11077987346,
+    11077987345
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Terbonati"
   }
 },
 {
@@ -110669,66 +110952,6 @@
 },
 {
   "type": "node",
-  "id": 6938542076,
-  "lat": -31.5154939,
-  "lon": -68.5608995
-},
-{
-  "type": "node",
-  "id": 6938703967,
-  "lat": -31.5154038,
-  "lon": -68.5609213
-},
-{
-  "type": "node",
-  "id": 6938703968,
-  "lat": -31.5154340,
-  "lon": -68.5609197
-},
-{
-  "type": "node",
-  "id": 6938703969,
-  "lat": -31.5154345,
-  "lon": -68.5609342
-},
-{
-  "type": "node",
-  "id": 6938703970,
-  "lat": -31.5154700,
-  "lon": -68.5609324
-},
-{
-  "type": "node",
-  "id": 6938703971,
-  "lat": -31.5154693,
-  "lon": -68.5609134
-},
-{
-  "type": "node",
-  "id": 6938703972,
-  "lat": -31.5154808,
-  "lon": -68.5609129
-},
-{
-  "type": "node",
-  "id": 6938703973,
-  "lat": -31.5154803,
-  "lon": -68.5609002
-},
-{
-  "type": "node",
-  "id": 6938703974,
-  "lat": -31.5154897,
-  "lon": -68.5607859
-},
-{
-  "type": "node",
-  "id": 6938703975,
-  "lat": -31.5153982,
-  "lon": -68.5607905
-},
-{
-  "type": "node",
   "id": 5894960725,
   "lat": -30.2121134,
   "lon": -69.1389393
@@ -111608,6 +111831,30 @@
   "id": 10558578900,
   "lat": -31.9866016,
   "lon": -64.5540971
+},
+{
+  "type": "node",
+  "id": 11077987345,
+  "lat": -31.9799098,
+  "lon": -64.5599826
+},
+{
+  "type": "node",
+  "id": 11077987346,
+  "lat": -31.9799352,
+  "lon": -64.5598308
+},
+{
+  "type": "node",
+  "id": 11077987350,
+  "lat": -31.9798371,
+  "lon": -64.5599641
+},
+{
+  "type": "node",
+  "id": 11077987351,
+  "lat": -31.9798666,
+  "lon": -64.5598147
 },
 {
   "type": "node",
@@ -113270,6 +113517,42 @@
   "id": 5544085953,
   "lat": -31.2906454,
   "lon": -64.2932276
+},
+{
+  "type": "node",
+  "id": 11076998223,
+  "lat": -31.1185221,
+  "lon": -64.4841201
+},
+{
+  "type": "node",
+  "id": 11076998224,
+  "lat": -31.1184235,
+  "lon": -64.4841763
+},
+{
+  "type": "node",
+  "id": 11076998225,
+  "lat": -31.1183682,
+  "lon": -64.4840443
+},
+{
+  "type": "node",
+  "id": 11076998226,
+  "lat": -31.1184644,
+  "lon": -64.4839867
+},
+{
+  "type": "node",
+  "id": 11076998230,
+  "lat": -31.1183775,
+  "lon": -64.4840663
+},
+{
+  "type": "node",
+  "id": 11076998234,
+  "lat": -31.1184070,
+  "lon": -64.4840210
 },
 {
   "type": "node",

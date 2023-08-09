@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.61.4 df4c946a",
+  "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-27T21:42:16Z",
-    "timestamp_areas_base": "2023-07-27T20:55:44Z",
+    "timestamp_osm_base": "2023-08-09T22:31:57Z",
+    "timestamp_areas_base": "2023-08-09T18:31:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2342,12 +2342,17 @@
 {
   "type": "node",
   "id": 1894530589,
-  "lat": -32.4607749,
-  "lon": -61.2915040,
+  "lat": -32.4607142,
+  "lon": -61.2911514,
   "tags": {
+    "addr:city": "Classon",
+    "addr:housenumber": "997",
+    "addr:postcode": "S2146",
+    "addr:street": "1 de Mayo",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Samco"
+    "name": "Samco",
+    "phone": "+54 (3471) 49-9036"
   }
 },
 {
@@ -6901,7 +6906,9 @@
   "lat": -26.2321945,
   "lon": -54.6043156,
   "tags": {
+    "addr:city": "Colonia Delicia",
     "addr:housenumber": "12",
+    "addr:postcode": "3381",
     "addr:street": "Avenida José Invernizzi",
     "amenity": "hospital",
     "emergency": "yes",
@@ -19439,7 +19446,7 @@
     "addr:full": "25 De Mayo 541",
     "addr:housenumber": "541",
     "addr:postcode": "3730",
-    "addr:street": "Veinticinco de Mayo",
+    "addr:street": "25 de Mayo",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/pages/Cl%C3%ADnica-Giuliani/202516906607008",
     "healthcare": "hospital",
@@ -20514,6 +20521,26 @@
     "operator:type": "private",
     "ref:sisa_codigo": "10064272305625",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 7504290710,
+  "lat": -34.6434649,
+  "lon": -58.5861025,
+  "tags": {
+    "addr:housenumber": "15577",
+    "addr:postcode": "1706",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinica Quirúrgica Oeste",
+    "old_name": "Clinica Privada Dres. Marcelo S. Tachella",
+    "operator:type": "private",
+    "phone": "0800-345-1407",
+    "ref:sisa_codigo": "10065682300104",
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "https://clinicaquirurgicaoeste.com.ar"
   }
 },
 {
@@ -23348,6 +23375,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 11097766948,
+  "lat": -34.6936895,
+  "lon": -58.6931466,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "San Juan Bautista"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -23422,6 +23460,7 @@
     "ref:sisa_tipologia": "ESCIG",
     "wheelchair": "yes",
     "wikidata": "Q5902873",
+    "wikimedia_commons": "Category:Hospital Rivadavia",
     "wikipedia": "es:Hospital General de Agudos Bernardino Rivadavia"
   }
 },
@@ -23456,6 +23495,7 @@
     "phone": "+54 11 4962-9247",
     "website": "http://guti.gob.ar/",
     "wikidata": "Q19776692",
+    "wikimedia_commons": "Category:Hospital de Niños Dr. Ricardo Gutiérrez",
     "wikipedia": "es:Hospital de Niños Dr. Ricardo Gutiérrez"
   }
 },
@@ -23502,6 +23542,7 @@
     "healthcare": "hospital",
     "name": "Hospital Borda",
     "wikidata": "Q1276170",
+    "wikimedia_commons": "Category:Hospital Borda",
     "wikipedia": "en:Hospital Borda"
   }
 },
@@ -23522,7 +23563,9 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Muñiz",
-    "wikidata": "Q5908503"
+    "wikidata": "Q5908503",
+    "wikimedia_commons": "Category:Hospital Muñiz",
+    "wikipedia": "en:Hospital Muñiz"
   }
 },
 {
@@ -23692,6 +23735,7 @@
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.buenosaires.gob.ar/hospitaldurand",
     "wikidata": "Q5908419",
+    "wikimedia_commons": "Category:Hospital Durand",
     "wikipedia": "es:Hospital Durand"
   }
 },
@@ -23750,6 +23794,7 @@
     "short_name": "Hospital Garrahan",
     "start_date": "1987",
     "wikidata": "Q10986820",
+    "wikimedia_commons": "Category:Hospital Garrahan",
     "wikipedia": "es:Hospital Garrahan"
   }
 },
@@ -23802,6 +23847,7 @@
     "ref:sisa_tipologia": "ESCIG",
     "start_date": "1881",
     "wikidata": "Q5908685",
+    "wikimedia_commons": "Category:Hospital de Clínicas José de San Martín",
     "wikipedia": "es:Hospital de Clínicas José de San Martín"
   }
 },
@@ -25360,6 +25406,7 @@
     "ref:sisa_codigo": "10020012215217",
     "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q10966594",
+    "wikimedia_commons": "Category:Hospital Cosme Argerich",
     "wikipedia": "es:Hospital General de Agudos Dr. Cosme Argerich"
   }
 },
@@ -26814,6 +26861,7 @@
     1754442511,
     1754442485,
     1754442501,
+    11100577249,
     1754442493,
     1754442496,
     1754442510
@@ -27069,16 +27117,15 @@
   ],
   "tags": {
     "addr:city": "Caucete",
-    "addr:full": "J. J. Bustos Y Fermin Rodriguez S/N°",
+    "addr:full": "Juan José Bustos y Fermín Rodríguez",
     "addr:housenumber": "1550",
-    "addr:place": "Caucete",
     "addr:postcode": "5442",
-    "addr:street": "Juan Jose Bústos",
+    "addr:street": "Juan José Bustos",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Dr. César Aguilar",
+    "name": "Hospital Doctor César Aguilar",
     "operator:type": "public",
     "ref:sisa_codigo": "10700352177014",
     "ref:sisa_tipologia": "ESCIG",
@@ -31365,7 +31412,7 @@
     "alt_name": "Hospital Dr. Miguel Luis Capredoni",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal de Bolivar"
+    "name": "Hospital Municipal de Bolívar"
   }
 },
 {
@@ -36106,11 +36153,13 @@
     "healthcare": "hospital",
     "name": "Hospital Profesor Doctor Güemes",
     "official_name": "Hospital Interzonal General de Agudos Profesor Doctor Luis A. Güemes",
+    "old_name": "Instituto de Cirugía de Haedo",
     "operator": "Gobierno de la Provincia de Buenos Aires",
     "operator:type": "public",
     "phone": "+54 11 4659-1535",
     "ref:sisa_codigo": "10065682100228",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "start_date": "1942-06-29"
   }
 },
 {
@@ -36649,6 +36698,7 @@
     "start_date": "1946-04-19",
     "website": "http://www.hnpm.mil.ar/",
     "wikidata": "Q9004899",
+    "wikimedia_commons": "Category:Hospital Naval Central",
     "wikipedia": "es:Hospital Naval Central"
   }
 },
@@ -37250,7 +37300,6 @@
   ],
   "tags": {
     "addr:housenumber": "2415",
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Córdoba",
     "air_conditioning": "yes",
     "alt_name": "Diagnóstico Médico Oroño",
@@ -37712,9 +37761,9 @@
   ],
   "tags": {
     "addr:city": "La Rioja",
-    "addr:housenumber": "Catamarca",
+    "addr:housenumber": "781",
     "addr:postcode": "5300",
-    "addr:street": "Juan B. Alberdi Nº 781",
+    "addr:street": "Juan Bautista Alberdi",
     "alt_name": "Instituto Médico Quirúrgico",
     "amenity": "hospital",
     "description": "El Instituto Medico Quirúrgico Mercado Luna tiene una trayectoria de mas de 40 años en la ciudad de La Rioja. El Instituto Medico Quirúrgico Mercado Luna tiene una trayectoria de mas de 40 años en la ciudad de La Rioja.",
@@ -37860,22 +37909,6 @@
     "operator": "Privado",
     "operator:type": "private",
     "phone": "0351-4142121"
-  }
-},
-{
-  "type": "way",
-  "id": 426619366,
-  "nodes": [
-    4258961147,
-    4258961148,
-    4258961149,
-    4258961150,
-    4258961147
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro de Salud - Barrio Pampa"
   }
 },
 {
@@ -43289,7 +43322,7 @@
   "id": 587354359,
   "nodes": [
     5610558115,
-    5610558114,
+    8440659923,
     10181738629,
     5610558113,
     5610558111,
@@ -48015,38 +48048,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "way",
-  "id": 839954026,
-  "nodes": [
-    7838082555,
-    7838082556,
-    7838082560,
-    7838082570,
-    7838082557,
-    7838082558,
-    7838082568,
-    7838082567,
-    7838082564,
-    7838082559,
-    7838082563,
-    7838082555
-  ],
-  "tags": {
-    "addr:city": "Las Lajas",
-    "addr:housenumber": "269",
-    "addr:postcode": "Q8347",
-    "addr:street": "Avenida Julio Argentino Roca",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital de Área Las Lajas \"Doctor José Venier\"",
-    "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
-    "operator:type": "public",
-    "phone": "02942-499044"
   }
 },
 {
@@ -53506,6 +53507,44 @@
   }
 },
 {
+  "type": "way",
+  "id": 1194822892,
+  "nodes": [
+    11090060489,
+    11090062211,
+    11090060493,
+    11090062208,
+    11090062210,
+    11090060494,
+    11090062212,
+    11090062213,
+    11090060496,
+    11090060497,
+    11090060500,
+    11090060501,
+    11090062239,
+    11090062237,
+    11090060492,
+    11090060491,
+    11090060490,
+    11090060489
+  ],
+  "tags": {
+    "addr:city": "Las Lajas",
+    "addr:housenumber": "269",
+    "addr:postcode": "Q8347",
+    "addr:street": "Avenida Julio Argentino Roca",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Las Lajas \"Doctor José Venier\"",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 294 249-9427",
+    "website": "https://www.saludneuquen.gob.ar/hospital-las-lajas-dr-jose-vernier/"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -58264,69 +58303,105 @@
 },
 {
   "type": "node",
-  "id": 7838082555,
-  "lat": -38.5223968,
-  "lon": -70.3621803
+  "id": 11090060489,
+  "lat": -38.5223899,
+  "lon": -70.3621933
 },
 {
   "type": "node",
-  "id": 7838082556,
-  "lat": -38.5227651,
-  "lon": -70.3629301
+  "id": 11090060490,
+  "lat": -38.5225261,
+  "lon": -70.3620849
 },
 {
   "type": "node",
-  "id": 7838082557,
-  "lat": -38.5230483,
-  "lon": -70.3627028
+  "id": 11090060491,
+  "lat": -38.5225012,
+  "lon": -70.3620338
 },
 {
   "type": "node",
-  "id": 7838082558,
-  "lat": -38.5230821,
-  "lon": -70.3625703
+  "id": 11090060492,
+  "lat": -38.5227316,
+  "lon": -70.3618507
 },
 {
   "type": "node",
-  "id": 7838082559,
-  "lat": -38.5227510,
-  "lon": -70.3618961
+  "id": 11090060493,
+  "lat": -38.5228614,
+  "lon": -70.3628390
 },
 {
   "type": "node",
-  "id": 7838082560,
-  "lat": -38.5228753,
-  "lon": -70.3628417
+  "id": 11090060494,
+  "lat": -38.5229991,
+  "lon": -70.3627295
 },
 {
   "type": "node",
-  "id": 7838082563,
-  "lat": -38.5225518,
-  "lon": -70.3620559
+  "id": 11090060496,
+  "lat": -38.5229973,
+  "lon": -70.3623931
 },
 {
   "type": "node",
-  "id": 7838082564,
-  "lat": -38.5228183,
-  "lon": -70.3620331
+  "id": 11090060497,
+  "lat": -38.5229779,
+  "lon": -70.3623534
 },
 {
   "type": "node",
-  "id": 7838082567,
-  "lat": -38.5229210,
-  "lon": -70.3622421
+  "id": 11090060500,
+  "lat": -38.5229504,
+  "lon": -70.3622974
 },
 {
   "type": "node",
-  "id": 7838082568,
-  "lat": -38.5229903,
-  "lon": -70.3623835
+  "id": 11090060501,
+  "lat": -38.5229153,
+  "lon": -70.3622257
 },
 {
   "type": "node",
-  "id": 7838082570,
-  "lat": -38.5230221,
-  "lon": -70.3627238
+  "id": 11090062208,
+  "lat": -38.5229008,
+  "lon": -70.3628077
+},
+{
+  "type": "node",
+  "id": 11090062210,
+  "lat": -38.5229501,
+  "lon": -70.3627685
+},
+{
+  "type": "node",
+  "id": 11090062211,
+  "lat": -38.5227482,
+  "lon": -70.3629291
+},
+{
+  "type": "node",
+  "id": 11090062212,
+  "lat": -38.5230825,
+  "lon": -70.3626632
+},
+{
+  "type": "node",
+  "id": 11090062213,
+  "lat": -38.5230946,
+  "lon": -70.3625916
+},
+{
+  "type": "node",
+  "id": 11090062237,
+  "lat": -38.5227499,
+  "lon": -70.3618880
+},
+{
+  "type": "node",
+  "id": 11090062239,
+  "lat": -38.5228819,
+  "lon": -70.3621574
 },
 {
   "type": "node",
@@ -58351,30 +58426,6 @@
   "id": 11015059426,
   "lat": -38.9384261,
   "lon": -69.2117455
-},
-{
-  "type": "node",
-  "id": 4258961147,
-  "lat": -38.9365690,
-  "lon": -69.2404677
-},
-{
-  "type": "node",
-  "id": 4258961148,
-  "lat": -38.9365530,
-  "lon": -69.2403436
-},
-{
-  "type": "node",
-  "id": 4258961149,
-  "lat": -38.9367247,
-  "lon": -69.2403072
-},
-{
-  "type": "node",
-  "id": 4258961150,
-  "lat": -38.9367406,
-  "lon": -69.2404313
 },
 {
   "type": "node",
@@ -66677,8 +66728,8 @@
 {
   "type": "node",
   "id": 1754442475,
-  "lat": -32.9047459,
-  "lon": -68.8696826
+  "lat": -32.9047298,
+  "lon": -68.8699134
 },
 {
   "type": "node",
@@ -66689,26 +66740,32 @@
 {
   "type": "node",
   "id": 1754442493,
-  "lat": -32.9038979,
-  "lon": -68.8680553
+  "lat": -32.9031620,
+  "lon": -68.8699884
 },
 {
   "type": "node",
   "id": 1754442496,
-  "lat": -32.9041598,
-  "lon": -68.8683358
+  "lat": -32.9040069,
+  "lon": -68.8702218
 },
 {
   "type": "node",
   "id": 1754442501,
-  "lat": -32.9032110,
-  "lon": -68.8676262
+  "lat": -32.9033174,
+  "lon": -68.8682534
 },
 {
   "type": "node",
   "id": 1754442510,
-  "lat": -32.9040168,
-  "lon": -68.8686545
+  "lat": -32.9041460,
+  "lon": -68.8698045
+},
+{
+  "type": "node",
+  "id": 11100577249,
+  "lat": -32.9033870,
+  "lon": -68.8688526
 },
 {
   "type": "node",
@@ -91108,9 +91165,9 @@
 },
 {
   "type": "node",
-  "id": 5610558114,
-  "lat": -34.6584096,
-  "lon": -58.6099899
+  "id": 8440659923,
+  "lat": -34.6584150,
+  "lon": -58.6100046
 },
 {
   "type": "node",

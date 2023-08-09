@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.61.4 df4c946a",
+  "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-07-27T21:46:26Z",
-    "timestamp_areas_base": "2023-07-27T20:55:44Z",
+    "timestamp_osm_base": "2023-08-09T22:35:59Z",
+    "timestamp_areas_base": "2023-08-09T18:31:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3575,7 +3575,6 @@
     2470197286
   ],
   "tags": {
-    "addr:postcode": "S2132",
     "addr:street": "Presidente Perón",
     "building": "retail",
     "building:colour": "red",
@@ -3606,7 +3605,6 @@
   ],
   "tags": {
     "addr:housenumber": "1519",
-    "addr:postcode": "S2132",
     "addr:street": "San José",
     "amenity": "pharmacy",
     "building": "retail",
@@ -3633,7 +3631,6 @@
     2973638845
   ],
   "tags": {
-    "addr:postcode": "S2132",
     "addr:street": "Suipacha",
     "building": "retail",
     "description": "Forraje",
@@ -3653,7 +3650,6 @@
   ],
   "tags": {
     "addr:housenumber": "646",
-    "addr:postcode": "S2132",
     "addr:street": "Buenos Aires",
     "amenity": "pharmacy",
     "building": "yes",
@@ -3680,7 +3676,6 @@
     4044971648
   ],
   "tags": {
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Fuerza Aérea",
     "amenity": "pharmacy",
     "building": "retail",
@@ -3722,7 +3717,6 @@
   ],
   "tags": {
     "addr:housenumber": "1743",
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Córdoba",
     "building": "retail",
     "building:levels": "2",
@@ -3772,7 +3766,6 @@
   ],
   "tags": {
     "addr:housenumber": "1865",
-    "addr:postcode": "S2132",
     "addr:street": "Buenos Aires",
     "building": "retail",
     "building:levels": "1",
@@ -4415,6 +4408,27 @@
 },
 {
   "type": "way",
+  "id": 560635357,
+  "nodes": [
+    5406613830,
+    5406613831,
+    5406613832,
+    5406613833,
+    5406613830
+  ],
+  "tags": {
+    "addr:city": "Arroyito",
+    "addr:housenumber": "Km. 226",
+    "addr:postcode": "2434",
+    "addr:street": "Ruta Nacional 19",
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Dukal",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "way",
   "id": 580637946,
   "nodes": [
     5557877552,
@@ -4427,7 +4441,6 @@
   "tags": {
     "addr:housename": "Tierra Chica",
     "addr:housenumber": "972",
-    "addr:postcode": "S2132",
     "addr:street": "Avenida Córdoba",
     "building:part": "retail",
     "description": "Local 27",
@@ -4856,6 +4869,26 @@
     "contact:website": "http://www.quimicacromax.com.ar/",
     "height": "7",
     "name": "Cromax",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "way",
+  "id": 1193672150,
+  "nodes": [
+    11079825501,
+    11079956879,
+    11079825497,
+    11079825496,
+    11079956877,
+    11079956881,
+    11079825495,
+    11079825500,
+    11079956880,
+    11079825501
+  ],
+  "tags": {
+    "name": "RAME Productos Quimicos S.R.L.",
     "shop": "chemist"
   }
 },
@@ -5773,6 +5806,30 @@
 },
 {
   "type": "node",
+  "id": 5406613830,
+  "lat": -31.4293063,
+  "lon": -63.0769297
+},
+{
+  "type": "node",
+  "id": 5406613831,
+  "lat": -31.4295471,
+  "lon": -63.0769888
+},
+{
+  "type": "node",
+  "id": 5406613832,
+  "lat": -31.4295736,
+  "lon": -63.0768399
+},
+{
+  "type": "node",
+  "id": 5406613833,
+  "lat": -31.4293328,
+  "lon": -63.0767809
+},
+{
+  "type": "node",
   "id": 4632346950,
   "lat": -34.6757657,
   "lon": -58.7535769
@@ -6046,6 +6103,60 @@
   "id": 4627181728,
   "lat": -34.6287995,
   "lon": -58.7088561
+},
+{
+  "type": "node",
+  "id": 11079825495,
+  "lat": -34.6737627,
+  "lon": -58.5928734
+},
+{
+  "type": "node",
+  "id": 11079825496,
+  "lat": -34.6733965,
+  "lon": -58.5924134
+},
+{
+  "type": "node",
+  "id": 11079825497,
+  "lat": -34.6733149,
+  "lon": -58.5924120
+},
+{
+  "type": "node",
+  "id": 11079825500,
+  "lat": -34.6735432,
+  "lon": -58.5931242
+},
+{
+  "type": "node",
+  "id": 11079825501,
+  "lat": -34.6731329,
+  "lon": -58.5926212
+},
+{
+  "type": "node",
+  "id": 11079956877,
+  "lat": -34.6734329,
+  "lon": -58.5924591
+},
+{
+  "type": "node",
+  "id": 11079956879,
+  "lat": -34.6732831,
+  "lon": -58.5924486
+},
+{
+  "type": "node",
+  "id": 11079956880,
+  "lat": -34.6733581,
+  "lon": -58.5928973
+},
+{
+  "type": "node",
+  "id": 11079956881,
+  "lat": -34.6735701,
+  "lon": -58.5926315
 },
 {
   "type": "node",
