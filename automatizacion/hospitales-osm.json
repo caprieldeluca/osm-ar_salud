@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-16T22:42:59Z",
-    "timestamp_areas_base": "2023-08-16T17:58:45Z",
+    "timestamp_osm_base": "2023-08-23T16:05:32Z",
+    "timestamp_areas_base": "2023-08-23T15:07:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3029,23 +3029,6 @@
     "name": "Hospital Doctor Miguel Sussini",
     "operator": "Hospital Doctor Miguel Sussini",
     "phone": "+54 3772 470005;+54 3772 470011"
-  }
-},
-{
-  "type": "node",
-  "id": 2127383835,
-  "lat": -35.6380198,
-  "lon": -59.7711751,
-  "tags": {
-    "addr:city": "Saladillo",
-    "addr:housenumber": "2800",
-    "addr:postcode": "7260",
-    "addr:street": "Doctor Francisco Emparanza",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Dr. Alejandro Posadas",
-    "phone": "+54 (2344) 43-2894"
   }
 },
 {
@@ -8431,6 +8414,7 @@
     "addr:city": "San Francisco Del Chañar",
     "addr:full": "Belgrano 323",
     "addr:place": "Sobremonte",
+    "addr:postcode": "X5209",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "hospital",
@@ -9358,7 +9342,7 @@
     "addr:city": "San Gregorio",
     "addr:housenumber": "251",
     "addr:postcode": "S2613",
-    "addr:street": "San Lorenzo",
+    "addr:street": "Lisandro de la Torre",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -10244,9 +10228,15 @@
   "lat": -32.3036511,
   "lon": -64.4846818,
   "tags": {
+    "addr:city": "La Cruz",
+    "addr:housenumber": "496",
+    "addr:postcode": "X5859",
+    "addr:street": "José María Paz",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Zonal"
+    "name": "Hospital Zonal",
+    "phone": "+54 (3546) 49-4046"
   }
 },
 {
@@ -23362,6 +23352,27 @@
   }
 },
 {
+  "type": "node",
+  "id": 11126689138,
+  "lat": -34.4718237,
+  "lon": -63.5388138,
+  "tags": {
+    "addr:city": "Serrano",
+    "addr:housenumber": "342",
+    "addr:postcode": "X6125",
+    "addr:street": "Italia",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;radiology;neonatology",
+    "internet_access": "wlan",
+    "name": "Hospital Municipal Int. Antonio Buzo",
+    "operator": "Cooperativa de Serrano",
+    "operator:type": "community",
+    "phone": "03385 495966"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -25686,6 +25697,7 @@
     "ref:sisa_codigo": "10065682000343",
     "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q5902814",
+    "wikimedia_commons": "Category:Alejandro Posadas Hospital",
     "wikipedia": "es:Hospital Posadas"
   }
 },
@@ -28518,7 +28530,8 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Militar de Campo de Mayo",
-    "wikidata": "Q48785326"
+    "wikidata": "Q48785326",
+    "wikipedia": "es:Hospital Militar Campo de Mayo"
   }
 },
 {
@@ -33192,7 +33205,8 @@
     "ref:sisa_codigo": "10020012215221",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.hospitalalvarez.org/",
-    "wikidata": "Q89822525"
+    "wikidata": "Q89822525",
+    "wikipedia": "es:Hospital General de Agudos Dr. Teodoro Álvarez"
   }
 },
 {
@@ -37903,6 +37917,28 @@
     "operator": "Privado",
     "operator:type": "private",
     "phone": "0351-4142121"
+  }
+},
+{
+  "type": "way",
+  "id": 425616582,
+  "nodes": [
+    2127383835,
+    4248990231,
+    4248990149,
+    4248990206,
+    2127383835
+  ],
+  "tags": {
+    "addr:city": "Saladillo",
+    "addr:housenumber": "2800",
+    "addr:postcode": "7260",
+    "addr:street": "Doctor Francisco Emparanza",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Alejandro Posadas",
+    "phone": "+54 (2344) 43-2894"
   }
 },
 {
@@ -53556,6 +53592,104 @@
   }
 },
 {
+  "type": "way",
+  "id": 1200690658,
+  "nodes": [
+    11132866666,
+    11132866667,
+    11132866668,
+    11132866669,
+    11132866666
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "description": "Centro de urgencias",
+    "healthcare": "hospital",
+    "name": "EmMe",
+    "official_name": "Emergencias Metropolitanas"
+  }
+},
+{
+  "type": "way",
+  "id": 1200690659,
+  "nodes": [
+    11132866668,
+    11132866667,
+    11132866670,
+    11132866671,
+    11132866672,
+    11132866668
+  ],
+  "tags": {
+    "addr:housenumber": "2493",
+    "addr:street": "San Luis",
+    "amenity": "hospital",
+    "branch": "Sede Centro",
+    "building": "hospital",
+    "building:levels": "8",
+    "contact:facebook": "SanatorioDeLaMujerRosario",
+    "contact:instagram": "sanatorio_de_la_mujer",
+    "contact:phone": "+54 0341 568-3400",
+    "contact:website": "https://www.sanatoriodelamujer.com.ar/",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "psychiatry;chiropractic;dentistry;general;paediatrics;ophthalmology;orthodontics;orthopaedics;gynaecology;biology;emergency;intensive;vaccination;dermatology;radiology;cardiology;surgery;oncology;maternity;internal;physiatry;osteopathy;blood_check;nephrol",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Sanatorio de la Mujer",
+    "opening_hours": "24/7",
+    "reservation": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1201458962,
+  "nodes": [
+    9466087210,
+    11139096354,
+    11139096355,
+    11139096353,
+    11139096352,
+    11139096351,
+    11139096350,
+    11139096348,
+    11139096349,
+    9466087207,
+    9466087208,
+    9466087209,
+    9466087210
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hospital SAMCO"
+  }
+},
+{
+  "type": "way",
+  "id": 1201477622,
+  "nodes": [
+    11139173059,
+    11139173070,
+    11139173060,
+    11139173061,
+    11139173062,
+    11139173063,
+    11139173064,
+    11139173065,
+    11139173066,
+    11139173067,
+    11139173068,
+    11139173069,
+    11139173059
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -54021,49 +54155,6 @@
     "operator:type": "public",
     "phone": "4890-3033",
     "source": "Actualizaciones en Argentina. cartográfico 2016 por KG.;local knowledge",
-    "type": "multipolygon"
-  }
-},
-{
-  "type": "relation",
-  "id": 13747334,
-  "members": [
-    {
-      "type": "way",
-      "ref": 1026710156,
-      "role": "inner"
-    },
-    {
-      "type": "way",
-      "ref": 1026710155,
-      "role": "inner"
-    },
-    {
-      "type": "way",
-      "ref": 1026710154,
-      "role": "inner"
-    },
-    {
-      "type": "way",
-      "ref": 187115937,
-      "role": "outer"
-    }
-  ],
-  "tags": {
-    "addr:city": "Rufino",
-    "addr:housenumber": "1261",
-    "addr:street": "Celestino Alem Vieyra",
-    "amenity": "hospital",
-    "building": "hospital",
-    "building:colour": "#E27E73",
-    "building:levels": "1",
-    "building:material": "brick",
-    "healthcare": "hospital",
-    "height": "3.7",
-    "name": "Hospital SAMCO",
-    "operator": "public",
-    "phone": "03382 42-2487",
-    "roof:colour": "#C54537",
     "type": "multipolygon"
   }
 },
@@ -71616,333 +71707,75 @@
 },
 {
   "type": "node",
-  "id": 1978653582,
-  "lat": -34.2743531,
-  "lon": -62.7152620
+  "id": 9466087207,
+  "lat": -34.2742617,
+  "lon": -62.7157720
 },
 {
   "type": "node",
-  "id": 1978653584,
-  "lat": -34.2745361,
-  "lon": -62.7153078
+  "id": 9466087208,
+  "lat": -34.2741931,
+  "lon": -62.7157538
 },
 {
   "type": "node",
-  "id": 1978653585,
-  "lat": -34.2738697,
-  "lon": -62.7153787
+  "id": 9466087209,
+  "lat": -34.2739847,
+  "lon": -62.7156988
 },
 {
   "type": "node",
-  "id": 1978653586,
-  "lat": -34.2739931,
-  "lon": -62.7152521
+  "id": 9466087210,
+  "lat": -34.2739132,
+  "lon": -62.7156800
 },
 {
   "type": "node",
-  "id": 1978653587,
-  "lat": -34.2739291,
-  "lon": -62.7149999
+  "id": 11139096348,
+  "lat": -34.2745133,
+  "lon": -62.7157982
 },
 {
   "type": "node",
-  "id": 1978653588,
-  "lat": -34.2740067,
-  "lon": -62.7151727
+  "id": 11139096349,
+  "lat": -34.2744733,
+  "lon": -62.7158278
 },
 {
   "type": "node",
-  "id": 1978653589,
-  "lat": -34.2738370,
-  "lon": -62.7152130
+  "id": 11139096350,
+  "lat": -34.2746948,
+  "lon": -62.7147913
 },
 {
   "type": "node",
-  "id": 1978653590,
-  "lat": -34.2739220,
-  "lon": -62.7156260
+  "id": 11139096351,
+  "lat": -34.2746624,
+  "lon": -62.7147278
 },
 {
   "type": "node",
-  "id": 1978653591,
-  "lat": -34.2743390,
-  "lon": -62.7148755
+  "id": 11139096352,
+  "lat": -34.2739380,
+  "lon": -62.7145365
 },
 {
   "type": "node",
-  "id": 1978653592,
-  "lat": -34.2740353,
-  "lon": -62.7150265
+  "id": 11139096353,
+  "lat": -34.2738742,
+  "lon": -62.7145916
 },
 {
   "type": "node",
-  "id": 1978653593,
-  "lat": -34.2740462,
-  "lon": -62.7149628
+  "id": 11139096354,
+  "lat": -34.2737272,
+  "lon": -62.7156308
 },
 {
   "type": "node",
-  "id": 1978653594,
-  "lat": -34.2738594,
-  "lon": -62.7154385
-},
-{
-  "type": "node",
-  "id": 1978653596,
-  "lat": -34.2744950,
-  "lon": -62.7155359
-},
-{
-  "type": "node",
-  "id": 1978653598,
-  "lat": -34.2745239,
-  "lon": -62.7153791
-},
-{
-  "type": "node",
-  "id": 1978653599,
-  "lat": -34.2743409,
-  "lon": -62.7153333
-},
-{
-  "type": "node",
-  "id": 1978653600,
-  "lat": -34.2737964,
-  "lon": -62.7154227
-},
-{
-  "type": "node",
-  "id": 1978653601,
-  "lat": -34.2743134,
-  "lon": -62.7154896
-},
-{
-  "type": "node",
-  "id": 1978653602,
-  "lat": -34.2739168,
-  "lon": -62.7150720
-},
-{
-  "type": "node",
-  "id": 1978653603,
-  "lat": -34.2738112,
-  "lon": -62.7153641
-},
-{
-  "type": "node",
-  "id": 1978653604,
-  "lat": -34.2737678,
-  "lon": -62.7155898
-},
-{
-  "type": "node",
-  "id": 1978653606,
-  "lat": -34.2743760,
-  "lon": -62.7151136
-},
-{
-  "type": "node",
-  "id": 1978653608,
-  "lat": -34.2738857,
-  "lon": -62.7149227
-},
-{
-  "type": "node",
-  "id": 1978653609,
-  "lat": -34.2745614,
-  "lon": -62.7151600
-},
-{
-  "type": "node",
-  "id": 1978653610,
-  "lat": -34.2739125,
-  "lon": -62.7147658
-},
-{
-  "type": "node",
-  "id": 2432949361,
-  "lat": -34.2738722,
-  "lon": -62.7151390
-},
-{
-  "type": "node",
-  "id": 2432949362,
-  "lat": -34.2738850,
-  "lon": -62.7150641
-},
-{
-  "type": "node",
-  "id": 9466087211,
-  "lat": -34.2739570,
-  "lon": -62.7156337
-},
-{
-  "type": "node",
-  "id": 9466087212,
-  "lat": -34.2742353,
-  "lon": -62.7156984
-},
-{
-  "type": "node",
-  "id": 9466087214,
-  "lat": -34.2743079,
-  "lon": -62.7155145
-},
-{
-  "type": "node",
-  "id": 9466138317,
-  "lat": -34.2742727,
-  "lon": -62.7157089
-},
-{
-  "type": "node",
-  "id": 9466138319,
-  "lat": -34.2743317,
-  "lon": -62.7154933
-},
-{
-  "type": "node",
-  "id": 9466138321,
-  "lat": -34.2743134,
-  "lon": -62.7150973
-},
-{
-  "type": "node",
-  "id": 9466138322,
-  "lat": -34.2743244,
-  "lon": -62.7150338
-},
-{
-  "type": "node",
-  "id": 9466138323,
-  "lat": -34.2741091,
-  "lon": -62.7149792
-},
-{
-  "type": "node",
-  "id": 9466138324,
-  "lat": -34.2740981,
-  "lon": -62.7150427
-},
-{
-  "type": "node",
-  "id": 9466138325,
-  "lat": -34.2742732,
-  "lon": -62.7153191
-},
-{
-  "type": "node",
-  "id": 9466138326,
-  "lat": -34.2742861,
-  "lon": -62.7152436
-},
-{
-  "type": "node",
-  "id": 9466138327,
-  "lat": -34.2740747,
-  "lon": -62.7151911
-},
-{
-  "type": "node",
-  "id": 9466138328,
-  "lat": -34.2740619,
-  "lon": -62.7152666
-},
-{
-  "type": "node",
-  "id": 9466138329,
-  "lat": -34.2742344,
-  "lon": -62.7155335
-},
-{
-  "type": "node",
-  "id": 9466138330,
-  "lat": -34.2742454,
-  "lon": -62.7154678
-},
-{
-  "type": "node",
-  "id": 9466138331,
-  "lat": -34.2740380,
-  "lon": -62.7154166
-},
-{
-  "type": "node",
-  "id": 9466138332,
-  "lat": -34.2740269,
-  "lon": -62.7154823
-},
-{
-  "type": "node",
-  "id": 9466138333,
-  "lat": -34.2740894,
-  "lon": -62.7148100
-},
-{
-  "type": "node",
-  "id": 9466138334,
-  "lat": -34.2740952,
-  "lon": -62.7147759
-},
-{
-  "type": "node",
-  "id": 9466138335,
-  "lat": -34.2741644,
-  "lon": -62.7147933
-},
-{
-  "type": "node",
-  "id": 9466138336,
-  "lat": -34.2741581,
-  "lon": -62.7148302
-},
-{
-  "type": "node",
-  "id": 9466138337,
-  "lat": -34.2743937,
-  "lon": -62.7148914
-},
-{
-  "type": "node",
-  "id": 9466138338,
-  "lat": -34.2743999,
-  "lon": -62.7148553
-},
-{
-  "type": "node",
-  "id": 9466138339,
-  "lat": -34.2743448,
-  "lon": -62.7148415
-},
-{
-  "type": "node",
-  "id": 9466138340,
-  "lat": -34.2744815,
-  "lon": -62.7149134
-},
-{
-  "type": "node",
-  "id": 9466138341,
-  "lat": -34.2744533,
-  "lon": -62.7150781
-},
-{
-  "type": "node",
-  "id": 9466138342,
-  "lat": -34.2743850,
-  "lon": -62.7150610
-},
-{
-  "type": "node",
-  "id": 9466138343,
-  "lat": -34.2742040,
-  "lon": -62.7156917
-},
-{
-  "type": "node",
-  "id": 9466138344,
-  "lat": -34.2739938,
-  "lon": -62.7156429
+  "id": 11139096355,
+  "lat": -34.2736963,
+  "lon": -62.7155781
 },
 {
   "type": "node",
@@ -81426,6 +81259,48 @@
 },
 {
   "type": "node",
+  "id": 11132866666,
+  "lat": -32.9462186,
+  "lon": -60.6578861
+},
+{
+  "type": "node",
+  "id": 11132866667,
+  "lat": -32.9460650,
+  "lon": -60.6578471
+},
+{
+  "type": "node",
+  "id": 11132866668,
+  "lat": -32.9460282,
+  "lon": -60.6580545
+},
+{
+  "type": "node",
+  "id": 11132866669,
+  "lat": -32.9461815,
+  "lon": -60.6580934
+},
+{
+  "type": "node",
+  "id": 11132866670,
+  "lat": -32.9460811,
+  "lon": -60.6577563
+},
+{
+  "type": "node",
+  "id": 11132866671,
+  "lat": -32.9457803,
+  "lon": -60.6576806
+},
+{
+  "type": "node",
+  "id": 11132866672,
+  "lat": -32.9457274,
+  "lon": -60.6579788
+},
+{
+  "type": "node",
   "id": 2050714136,
   "lat": -32.9461629,
   "lon": -60.6518538
@@ -85902,6 +85777,30 @@
 },
 {
   "type": "node",
+  "id": 2127383835,
+  "lat": -35.6383442,
+  "lon": -59.7715773
+},
+{
+  "type": "node",
+  "id": 4248990149,
+  "lat": -35.6380570,
+  "lon": -59.7700625
+},
+{
+  "type": "node",
+  "id": 4248990206,
+  "lat": -35.6388267,
+  "lon": -59.7709270
+},
+{
+  "type": "node",
+  "id": 4248990231,
+  "lat": -35.6375746,
+  "lon": -59.7707126
+},
+{
+  "type": "node",
   "id": 1423536704,
   "lat": -36.3802366,
   "lon": -59.5006170
@@ -87087,6 +86986,78 @@
   "id": 7528885555,
   "lat": -34.7832935,
   "lon": -58.8384985
+},
+{
+  "type": "node",
+  "id": 11139173059,
+  "lat": -34.7836547,
+  "lon": -58.8342650
+},
+{
+  "type": "node",
+  "id": 11139173060,
+  "lat": -34.7838432,
+  "lon": -58.8338354
+},
+{
+  "type": "node",
+  "id": 11139173061,
+  "lat": -34.7840896,
+  "lon": -58.8339943
+},
+{
+  "type": "node",
+  "id": 11139173062,
+  "lat": -34.7842563,
+  "lon": -58.8340826
+},
+{
+  "type": "node",
+  "id": 11139173063,
+  "lat": -34.7843312,
+  "lon": -58.8339384
+},
+{
+  "type": "node",
+  "id": 11139173064,
+  "lat": -34.7844786,
+  "lon": -58.8340443
+},
+{
+  "type": "node",
+  "id": 11139173065,
+  "lat": -34.7843916,
+  "lon": -58.8342326
+},
+{
+  "type": "node",
+  "id": 11139173066,
+  "lat": -34.7846236,
+  "lon": -58.8344209
+},
+{
+  "type": "node",
+  "id": 11139173067,
+  "lat": -34.7844424,
+  "lon": -58.8347357
+},
+{
+  "type": "node",
+  "id": 11139173068,
+  "lat": -34.7841283,
+  "lon": -58.8344856
+},
+{
+  "type": "node",
+  "id": 11139173069,
+  "lat": -34.7841017,
+  "lon": -58.8345503
+},
+{
+  "type": "node",
+  "id": 11139173070,
+  "lat": -34.7836730,
+  "lon": -58.8342231
 },
 {
   "type": "node",
@@ -118193,89 +118164,6 @@
     2944187295,
     2944187298,
     2944187311
-  ]
-},
-{
-  "type": "way",
-  "id": 187115937,
-  "nodes": [
-    1978653604,
-    1978653600,
-    1978653594,
-    1978653585,
-    1978653603,
-    1978653589,
-    1978653586,
-    1978653588,
-    2432949361,
-    2432949362,
-    1978653602,
-    1978653587,
-    1978653592,
-    1978653593,
-    1978653608,
-    1978653610,
-    9466138333,
-    9466138334,
-    9466138335,
-    9466138336,
-    1978653591,
-    9466138339,
-    9466138338,
-    9466138337,
-    9466138340,
-    9466138341,
-    9466138342,
-    1978653606,
-    1978653609,
-    1978653584,
-    1978653582,
-    1978653599,
-    1978653598,
-    1978653596,
-    9466138319,
-    1978653601,
-    9466087214,
-    9466138317,
-    9466087212,
-    9466138343,
-    9466138344,
-    9466087211,
-    1978653590,
-    1978653604
-  ]
-},
-{
-  "type": "way",
-  "id": 1026710154,
-  "nodes": [
-    9466138324,
-    9466138323,
-    9466138322,
-    9466138321,
-    9466138324
-  ]
-},
-{
-  "type": "way",
-  "id": 1026710155,
-  "nodes": [
-    9466138328,
-    9466138327,
-    9466138326,
-    9466138325,
-    9466138328
-  ]
-},
-{
-  "type": "way",
-  "id": 1026710156,
-  "nodes": [
-    9466138332,
-    9466138331,
-    9466138330,
-    9466138329,
-    9466138332
   ]
 },
 {
