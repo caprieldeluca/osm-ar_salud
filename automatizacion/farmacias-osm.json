@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-23T16:08:36Z",
-    "timestamp_areas_base": "2023-08-23T15:07:45Z",
+    "timestamp_osm_base": "2023-08-30T21:07:22Z",
+    "timestamp_areas_base": "2023-08-30T17:01:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2153,6 +2153,7 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-08-29",
     "healthcare": "pharmacy",
     "name": "Farmacity"
   }
@@ -6215,8 +6216,6 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "is_in:city": "Tunuyán",
-    "is_in:state": "Mendoza",
     "name": "Tunuyán"
   }
 },
@@ -18102,17 +18101,6 @@
 },
 {
   "type": "node",
-  "id": 3013496084,
-  "lat": -34.5672859,
-  "lon": -58.4565184,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Lamaité"
-  }
-},
-{
-  "type": "node",
   "id": 3016170268,
   "lat": -27.3683079,
   "lon": -55.8947304,
@@ -26831,8 +26819,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Driusi",
-    "opening_hours": "08:00-12:00; 15:00-20:00",
-    "operator": "DRIUSI"
+    "opening_hours": "08:00-12:00; 15:00-20:00"
   }
 },
 {
@@ -26901,7 +26888,8 @@
   "lon": -58.4553585,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "San José"
   }
 },
 {
@@ -30559,24 +30547,6 @@
 },
 {
   "type": "node",
-  "id": 4100033532,
-  "lat": -34.5648281,
-  "lon": -58.4407673,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "1267",
-    "addr:postcode": "1426",
-    "addr:street": "Avenida Luis María Campos",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Delko Belgrano",
-    "phone": "+54 11 4773-5062"
-  }
-},
-{
-  "type": "node",
   "id": 4102562417,
   "lat": -35.1879591,
   "lon": -59.0971616,
@@ -32326,8 +32296,13 @@
   "lat": -37.1606866,
   "lon": -63.2467850,
   "tags": {
+    "addr:city": "Rivera",
+    "addr:postcode": "6441",
+    "addr:street": "Colonizadores",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "San Martín de Rivera",
+    "ref:sisa_codigo": "70060072312781"
   }
 },
 {
@@ -43216,15 +43191,14 @@
 {
   "type": "node",
   "id": 4710030298,
-  "lat": -34.5870264,
-  "lon": -58.4191467,
+  "lat": -34.5869933,
+  "lon": -58.4191708,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia San Francisco",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "San Francisco"
   }
 },
 {
@@ -51565,8 +51539,8 @@
 {
   "type": "node",
   "id": 5523755616,
-  "lat": -32.2160439,
-  "lon": -65.0460872,
+  "lat": -32.2165861,
+  "lon": -65.0458715,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -52937,7 +52911,8 @@
   "lon": -58.4527239,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Aconcagua"
   }
 },
 {
@@ -70349,10 +70324,14 @@
   "lat": -36.7756351,
   "lon": -59.8613076,
   "tags": {
+    "addr:city": "Azul",
+    "addr:housenumber": "428",
+    "addr:postcode": "7300",
+    "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia García"
+    "name": "Farmacia Orianda"
   }
 },
 {
@@ -88070,6 +88049,83 @@
   }
 },
 {
+  "type": "node",
+  "id": 11145348550,
+  "lat": -37.1586291,
+  "lon": -63.2437756,
+  "tags": {
+    "addr:city": "Rivera",
+    "addr:housenumber": "146",
+    "addr:postcode": "6441",
+    "addr:street": "Córdoba",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apud Jorge Leonardo",
+    "ref:sisa_codigo": "70060072310885"
+  }
+},
+{
+  "type": "node",
+  "id": 11146311992,
+  "lat": -32.9455506,
+  "lon": -60.6578095,
+  "tags": {
+    "addr:street": "San Luis",
+    "amenity": "pharmacy",
+    "level": "0",
+    "name": "Perdomo",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11146959983,
+  "lat": -38.1466148,
+  "lon": -58.2233629,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Mechongué"
+  }
+},
+{
+  "type": "node",
+  "id": 11147219842,
+  "lat": -36.9476796,
+  "lon": -58.1011641,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia"
+  }
+},
+{
+  "type": "node",
+  "id": 11155061939,
+  "lat": -33.1472516,
+  "lon": -61.4765357,
+  "tags": {
+    "addr:city": "Arequito",
+    "addr:housenumber": "1935",
+    "addr:postcode": "S2181",
+    "addr:street": "Brigadier Estanislao López",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Delpíccolo"
+  }
+},
+{
+  "type": "node",
+  "id": 11157770082,
+  "lat": -24.2264812,
+  "lon": -65.2709512,
+  "tags": {
+    "addr:city": "Alto Comedero",
+    "addr:street": "Calle 291",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Santisima Trinidad"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -101387,31 +101443,6 @@
 },
 {
   "type": "way",
-  "id": 752022363,
-  "nodes": [
-    7029844382,
-    7029844381,
-    7029844383,
-    7029846886,
-    7029846924,
-    7029846887,
-    7029844382
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "57",
-    "addr:postcode": "Q8300",
-    "addr:street": "Maestro Thames Alderete",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "name": "Farmacias Global"
-  }
-},
-{
-  "type": "way",
   "id": 755888770,
   "nodes": [
     6331768480,
@@ -106394,6 +106425,33 @@
   }
 },
 {
+  "type": "way",
+  "id": 1202427470,
+  "nodes": [
+    11147258554,
+    11147258529,
+    11147258555,
+    11147258556,
+    11147258558,
+    11147258554
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "57",
+    "addr:postcode": "Q8300",
+    "addr:street": "Maestro Thames Alderete",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -108153,39 +108211,33 @@
 },
 {
   "type": "node",
-  "id": 7029844381,
-  "lat": -38.9509027,
-  "lon": -68.0582990
+  "id": 11147258529,
+  "lat": -38.9508351,
+  "lon": -68.0581812
 },
 {
   "type": "node",
-  "id": 7029844382,
-  "lat": -38.9508463,
-  "lon": -68.0582989
+  "id": 11147258554,
+  "lat": -38.9508350,
+  "lon": -68.0582631
 },
 {
   "type": "node",
-  "id": 7029844383,
-  "lat": -38.9510297,
-  "lon": -68.0582994
+  "id": 11147258555,
+  "lat": -38.9509762,
+  "lon": -68.0581812
 },
 {
   "type": "node",
-  "id": 7029846886,
-  "lat": -38.9510298,
-  "lon": -68.0581961
+  "id": 11147258556,
+  "lat": -38.9509764,
+  "lon": -68.0582631
 },
 {
   "type": "node",
-  "id": 7029846887,
-  "lat": -38.9508466,
-  "lon": -68.0581955
-},
-{
-  "type": "node",
-  "id": 7029846924,
-  "lat": -38.9508986,
-  "lon": -68.0581957
+  "id": 11147258558,
+  "lat": -38.9508830,
+  "lon": -68.0582631
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-23T16:07:36Z",
-    "timestamp_areas_base": "2023-08-23T11:55:45Z",
+    "timestamp_osm_base": "2023-08-30T21:05:23Z",
+    "timestamp_areas_base": "2023-08-30T17:01:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -311,7 +311,7 @@
     "official_name": "Centro Asistencial Juramento",
     "operator": "Municipalidad de Moreno",
     "operator:type": "public",
-    "phone": "+54 237-4629951",
+    "phone": "+54 237-4669240",
     "ref:sisa_codigo": "50065602201092",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -2569,8 +2569,8 @@
 {
   "type": "node",
   "id": 3012264372,
-  "lat": -33.8977725,
-  "lon": -60.5691370,
+  "lat": -33.8977436,
+  "lon": -60.5691275,
   "tags": {
     "addr:housenumber": "151",
     "addr:postcode": "2700",
@@ -13968,6 +13968,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "orthopaedics",
     "name": "Instituto Doctor Jaime Slullitel",
+    "wheelchair": "yes",
     "wikidata": "Q50035360"
   }
 },
@@ -18306,26 +18307,6 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842184837",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7501332151,
-  "lat": -32.8515429,
-  "lon": -60.7875735,
-  "tags": {
-    "addr:housenumber": "127",
-    "addr:street": "Corrientes",
-    "amenity": "clinic",
-    "contact:phone": "+54 341 490-4082",
-    "fixme": "Corroborar ubicación",
-    "healthcare": "clinic",
-    "name": "Samco Ibarlucea",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842184729",
-    "ref:sisa_tipologia": "ESSIDT",
-    "wikidata": "Q97691207"
   }
 },
 {
@@ -31048,21 +31029,24 @@
 {
   "type": "node",
   "id": 7509124189,
-  "lat": -34.5581247,
-  "lon": -58.5349014,
+  "lat": -34.5581456,
+  "lon": -58.5349457,
   "tags": {
+    "addr:city": "San Andrés",
     "addr:full": "J. M. Campos Y Catamarca 2152",
-    "addr:postcode": "1651",
+    "addr:postcode": "B1651",
     "addr:street": "49 - Catamarca",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 8 Heroes De Malvinas",
+    "level": "0",
+    "name": "Centro de Atención Primaria de la Salud n°8 Heroes de Malvinas",
     "nohousenumber": "yes",
-    "operator": "Municipal",
-    "operator:type": "public",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
     "phone": "+54 11 4830-0708",
     "ref:sisa_codigo": "50063712202667",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°8"
   }
 },
 {
@@ -39041,23 +39025,6 @@
 },
 {
   "type": "node",
-  "id": 7541477317,
-  "lat": -34.5647535,
-  "lon": -58.5340250,
-  "tags": {
-    "addr:full": "3 De Febrero 2590",
-    "addr:postcode": "1651",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "CAPS 11 Santa Ana",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50063712217786",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7541529441,
   "lat": -34.5549235,
   "lon": -58.5261393,
@@ -39954,7 +39921,7 @@
   "tags": {
     "addr:city": "Los Quirquinchos",
     "addr:housenumber": "539",
-    "addr:postcode": "2637",
+    "addr:postcode": "S2637",
     "addr:street": "Mitre",
     "amenity": "clinic",
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
@@ -43538,11 +43505,11 @@
 {
   "type": "node",
   "id": 10179225927,
-  "lat": -31.0115899,
-  "lon": -60.9108378,
+  "lat": -31.0115664,
+  "lon": -60.9108331,
   "tags": {
     "addr:city": "María Luisa",
-    "addr:postcode": "3025",
+    "addr:postcode": "S3025",
     "addr:street": "Malvinas Argentinas",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -44842,6 +44809,26 @@
     "healthcare": "clinic",
     "name": "Sagrada Familia",
     "phone": "54 (3408) 42-3596"
+  }
+},
+{
+  "type": "node",
+  "id": 11147219843,
+  "lat": -36.9472842,
+  "lon": -58.1024851,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Sala de Primeros Auxilios"
+  }
+},
+{
+  "type": "node",
+  "id": 11155023678,
+  "lat": -36.7126694,
+  "lon": -57.5860217,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Sala de Primeros Auxilios"
   }
 },
 {
@@ -59151,6 +59138,36 @@
 },
 {
   "type": "way",
+  "id": 806440480,
+  "nodes": [
+    7541477321,
+    7541477319,
+    11154494664,
+    11154494665,
+    7541477318,
+    7541477320,
+    11154494668,
+    11154494661,
+    7541477321
+  ],
+  "tags": {
+    "addr:city": "San Andrés",
+    "addr:full": "3 De Febrero 2590",
+    "addr:housenumber": "2590",
+    "addr:postcode": "B1651",
+    "addr:street": "64 - 3 de Febrero",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°11 Santa Ana",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50063712217786",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°11"
+  }
+},
+{
+  "type": "way",
   "id": 809581676,
   "nodes": [
     7569690962,
@@ -62588,6 +62605,22 @@
     "name": "Oncología Unidad Integral",
     "operator": "Clínica Roca S.A.",
     "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1016015252,
+  "nodes": [
+    9371532697,
+    9371532698,
+    9371532699,
+    9371532700,
+    9371532697
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "name": "CAPS Centro de Salud"
   }
 },
 {
@@ -71786,6 +71819,30 @@
   "id": 9309713459,
   "lat": -38.2109612,
   "lon": -57.7007295
+},
+{
+  "type": "node",
+  "id": 9371532697,
+  "lat": -38.0101172,
+  "lon": -58.3541878
+},
+{
+  "type": "node",
+  "id": 9371532698,
+  "lat": -38.0100906,
+  "lon": -58.3542835
+},
+{
+  "type": "node",
+  "id": 9371532699,
+  "lat": -38.0102184,
+  "lon": -58.3543477
+},
+{
+  "type": "node",
+  "id": 9371532700,
+  "lat": -38.0102442,
+  "lon": -58.3542567
 },
 {
   "type": "node",
@@ -90464,6 +90521,54 @@
   "id": 4598821317,
   "lat": -34.5797387,
   "lon": -58.5344043
+},
+{
+  "type": "node",
+  "id": 7541477318,
+  "lat": -34.5647701,
+  "lon": -58.5337400
+},
+{
+  "type": "node",
+  "id": 7541477319,
+  "lat": -34.5647108,
+  "lon": -58.5340444
+},
+{
+  "type": "node",
+  "id": 7541477320,
+  "lat": -34.5648308,
+  "lon": -58.5338198
+},
+{
+  "type": "node",
+  "id": 7541477321,
+  "lat": -34.5647822,
+  "lon": -58.5340652
+},
+{
+  "type": "node",
+  "id": 11154494661,
+  "lat": -34.5647927,
+  "lon": -58.5340124
+},
+{
+  "type": "node",
+  "id": 11154494664,
+  "lat": -34.5647282,
+  "lon": -58.5339551
+},
+{
+  "type": "node",
+  "id": 11154494665,
+  "lat": -34.5647416,
+  "lon": -58.5338864
+},
+{
+  "type": "node",
+  "id": 11154494668,
+  "lat": -34.5648238,
+  "lon": -58.5338551
 },
 {
   "type": "node",

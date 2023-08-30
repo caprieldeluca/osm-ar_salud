@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-23T16:09:41Z",
-    "timestamp_areas_base": "2023-08-23T15:07:45Z",
+    "timestamp_osm_base": "2023-08-30T21:08:21Z",
+    "timestamp_areas_base": "2023-08-30T17:01:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2217,6 +2217,9 @@
   "lat": -26.8635891,
   "lon": -55.0434217,
   "tags": {
+    "addr:city": "Mbopicúa",
+    "addr:postcode": "3334",
+    "addr:street": "Pionera Catalina Schlindwein",
     "alt_name": "Centro de Atención Primaria de la Salud Mbopicuá",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -19449,6 +19452,16 @@
   }
 },
 {
+  "type": "node",
+  "id": 11146207926,
+  "lat": -32.1851289,
+  "lon": -64.5704995,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -21571,6 +21584,26 @@
     "building": "yes",
     "healthcare": "doctor",
     "name": "Puesto de salud"
+  }
+},
+{
+  "type": "way",
+  "id": 524268530,
+  "nodes": [
+    5102216602,
+    5102217132,
+    5102216493,
+    5102217696,
+    5102216602
+  ],
+  "tags": {
+    "addr:city": "San Salvador de Jujuy",
+    "addr:postcode": "4600",
+    "amenity": "doctors",
+    "building": "hospital",
+    "healthcare": "doctor",
+    "name": "Caps Che Guevara",
+    "official_name": "Centro de Atención Primaria de la Salud Che Guevara"
   }
 },
 {
@@ -28439,6 +28472,12 @@
 },
 {
   "type": "node",
+  "id": 5102216602,
+  "lat": -24.2581634,
+  "lon": -65.2399199
+},
+{
+  "type": "node",
   "id": 5087701685,
   "lat": -24.2263992,
   "lon": -65.2796471
@@ -28568,6 +28607,24 @@
   "id": 5087819336,
   "lat": -24.2351325,
   "lon": -65.2589917
+},
+{
+  "type": "node",
+  "id": 5102216493,
+  "lat": -24.2580530,
+  "lon": -65.2398552
+},
+{
+  "type": "node",
+  "id": 5102217132,
+  "lat": -24.2581173,
+  "lon": -65.2399586
+},
+{
+  "type": "node",
+  "id": 5102217696,
+  "lat": -24.2580991,
+  "lon": -65.2398165
 },
 {
   "type": "node",

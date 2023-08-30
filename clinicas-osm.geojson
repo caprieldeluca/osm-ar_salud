@@ -31695,6 +31695,69 @@
 },
 {
   "type": "Feature",
+  "id": "way/806440480",
+  "properties": {
+    "addr:city": "San Andrés",
+    "addr:full": "3 De Febrero 2590",
+    "addr:housenumber": "2590",
+    "addr:postcode": "B1651",
+    "addr:street": "64 - 3 de Febrero",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°11 Santa Ana",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50063712217786",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°11",
+    "id": "way/806440480"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5340652,
+          -34.5647822
+        ],
+        [
+          -58.5340124,
+          -34.5647927
+        ],
+        [
+          -58.5338551,
+          -34.5648238
+        ],
+        [
+          -58.5338198,
+          -34.5648308
+        ],
+        [
+          -58.53374,
+          -34.5647701
+        ],
+        [
+          -58.5338864,
+          -34.5647416
+        ],
+        [
+          -58.5339551,
+          -34.5647282
+        ],
+        [
+          -58.5340444,
+          -34.5647108
+        ],
+        [
+          -58.5340652,
+          -34.5647822
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/809581676",
   "properties": {
     "amenity": "clinic",
@@ -39408,6 +39471,43 @@
 },
 {
   "type": "Feature",
+  "id": "way/1016015252",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "name": "CAPS Centro de Salud",
+    "id": "way/1016015252"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.3541878,
+          -38.0101172
+        ],
+        [
+          -58.3542835,
+          -38.0100906
+        ],
+        [
+          -58.3543477,
+          -38.0102184
+        ],
+        [
+          -58.3542567,
+          -38.0102442
+        ],
+        [
+          -58.3541878,
+          -38.0101172
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1017912256",
   "properties": {
     "amenity": "clinic",
@@ -45067,7 +45167,7 @@
     "official_name": "Centro Asistencial Juramento",
     "operator": "Municipalidad de Moreno",
     "operator:type": "public",
-    "phone": "+54 237-4629951",
+    "phone": "+54 237-4669240",
     "ref:sisa_codigo": "50065602201092",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/1105781544"
@@ -48227,8 +48327,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.569137,
-      -33.8977725
+      -60.5691275,
+      -33.8977436
     ]
   }
 },
@@ -64118,6 +64218,7 @@
     "healthcare": "clinic",
     "healthcare:speciality": "orthopaedics",
     "name": "Instituto Doctor Jaime Slullitel",
+    "wheelchair": "yes",
     "wikidata": "Q50035360",
     "id": "node/5549193672"
   },
@@ -70155,32 +70256,6 @@
     "coordinates": [
       -60.7143599,
       -32.858289
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7501332151",
-  "properties": {
-    "addr:housenumber": "127",
-    "addr:street": "Corrientes",
-    "amenity": "clinic",
-    "contact:phone": "+54 341 490-4082",
-    "fixme": "Corroborar ubicación",
-    "healthcare": "clinic",
-    "name": "Samco Ibarlucea",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842184729",
-    "ref:sisa_tipologia": "ESSIDT",
-    "wikidata": "Q97691207",
-    "id": "node/7501332151"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.7875735,
-      -32.8515429
     ]
   }
 },
@@ -87051,25 +87126,28 @@
   "type": "Feature",
   "id": "node/7509124189",
   "properties": {
+    "addr:city": "San Andrés",
     "addr:full": "J. M. Campos Y Catamarca 2152",
-    "addr:postcode": "1651",
+    "addr:postcode": "B1651",
     "addr:street": "49 - Catamarca",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 8 Heroes De Malvinas",
+    "level": "0",
+    "name": "Centro de Atención Primaria de la Salud n°8 Heroes de Malvinas",
     "nohousenumber": "yes",
-    "operator": "Municipal",
-    "operator:type": "public",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
     "phone": "+54 11 4830-0708",
     "ref:sisa_codigo": "50063712202667",
     "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°8",
     "id": "node/7509124189"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5349014,
-      -34.5581247
+      -58.5349457,
+      -34.5581456
     ]
   }
 },
@@ -97629,29 +97707,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7541477317",
-  "properties": {
-    "addr:full": "3 De Febrero 2590",
-    "addr:postcode": "1651",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "CAPS 11 Santa Ana",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50063712217786",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7541477317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.534025,
-      -34.5647535
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7541529441",
   "properties": {
     "addr:full": "Pasaje A Entre 66 Y 68 (Almirante Brown 2850)",
@@ -98876,7 +98931,7 @@
   "properties": {
     "addr:city": "Los Quirquinchos",
     "addr:housenumber": "539",
-    "addr:postcode": "2637",
+    "addr:postcode": "S2637",
     "addr:street": "Mitre",
     "amenity": "clinic",
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
@@ -103862,7 +103917,7 @@
   "id": "node/10179225927",
   "properties": {
     "addr:city": "María Luisa",
-    "addr:postcode": "3025",
+    "addr:postcode": "S3025",
     "addr:street": "Malvinas Argentinas",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -103875,8 +103930,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.9108378,
-      -31.0115899
+      -60.9108331,
+      -31.0115664
     ]
   }
 },
@@ -105703,6 +105758,38 @@
     "coordinates": [
       -61.2337106,
       -30.3073752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11147219843",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Sala de Primeros Auxilios",
+    "id": "node/11147219843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.1024851,
+      -36.9472842
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11155023678",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Sala de Primeros Auxilios",
+    "id": "node/11155023678"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5860217,
+      -36.7126694
     ]
   }
 }

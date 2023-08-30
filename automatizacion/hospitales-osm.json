@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-23T16:05:32Z",
-    "timestamp_areas_base": "2023-08-23T15:07:45Z",
+    "timestamp_osm_base": "2023-08-30T21:04:15Z",
+    "timestamp_areas_base": "2023-08-30T17:01:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6704,6 +6704,7 @@
   "tags": {
     "addr:city": "La Chispa",
     "addr:postcode": "S2601",
+    "addr:street": "Calle 1",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sala de Primeros Auxilios"
@@ -7275,11 +7276,13 @@
   "tags": {
     "addr:city": "Villa Saralegui",
     "addr:postcode": "S3046",
+    "addr:street": "Avenida San Antonio",
     "amenity": "hospital",
     "building": "yes",
     "building:levels": "1",
     "healthcare": "hospital",
-    "name": "Centro Asistencial"
+    "name": "Centro Asistencial",
+    "phone": "+54 (3498) 43-6423"
   }
 },
 {
@@ -14599,8 +14602,8 @@
 {
   "type": "node",
   "id": 5523755617,
-  "lat": -32.2157534,
-  "lon": -65.0455749,
+  "lat": -32.2158739,
+  "lon": -65.0456520,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -15332,7 +15335,7 @@
     "addr:city": "Mendoza",
     "addr:housenumber": "621",
     "addr:postcode": "5500",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -21711,17 +21714,6 @@
 },
 {
   "type": "node",
-  "id": 7827910860,
-  "lat": -33.1239575,
-  "lon": -66.0541123,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Regional Doctor René Favaloro"
-  }
-},
-{
-  "type": "node",
   "id": 7876252600,
   "lat": -31.9102707,
   "lon": -63.6888847,
@@ -21771,7 +21763,7 @@
   "tags": {
     "addr:city": "Los Quirquinchos",
     "addr:housenumber": "675",
-    "addr:postcode": "2637",
+    "addr:postcode": "S2637",
     "addr:street": "Belgrano",
     "amenity": "hospital",
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
@@ -23370,6 +23362,24 @@
     "operator": "Cooperativa de Serrano",
     "operator:type": "community",
     "phone": "03385 495966"
+  }
+},
+{
+  "type": "node",
+  "id": 11148607769,
+  "lat": -25.3598624,
+  "lon": -58.2863287,
+  "tags": {
+    "addr:city": "Riacho He-Hé",
+    "addr:full": "Avenida San Martín y Bobadilla",
+    "addr:postcode": "3611",
+    "addr:street": "Avenida San Martín",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Provincial Riacho He He",
+    "phone": "+54 3718 679654",
+    "ref:sisa_codigo": "10340492147053",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -25957,9 +25967,13 @@
     1559527168
   ],
   "tags": {
+    "addr:city": "Tornquist",
+    "addr:housenumber": "346",
+    "addr:postcode": "8160",
+    "addr:street": "Avenida General Juan Lavalle",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal de Tornquist"
+    "name": "Hospital Doctor Alberto T. Castro"
   }
 },
 {
@@ -29690,15 +29704,18 @@
   "id": 235361500,
   "nodes": [
     2434289564,
+    11157780896,
     2434289576,
     2434289569,
     2434289575,
     2434289562,
+    11157780895,
     2434289563,
     2434289564
   ],
   "tags": {
     "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/ClinicaSantaFeRufino",
     "healthcare": "hospital",
     "name": "Clínica Santa Fe"
   }
@@ -53607,7 +53624,8 @@
     "description": "Centro de urgencias",
     "healthcare": "hospital",
     "name": "EmMe",
-    "official_name": "Emergencias Metropolitanas"
+    "official_name": "Emergencias Metropolitanas",
+    "wheelchair": "yes"
   }
 },
 {
@@ -53634,7 +53652,7 @@
     "contact:website": "https://www.sanatoriodelamujer.com.ar/",
     "emergency": "yes",
     "healthcare": "hospital",
-    "healthcare:speciality": "psychiatry;chiropractic;dentistry;general;paediatrics;ophthalmology;orthodontics;orthopaedics;gynaecology;biology;emergency;intensive;vaccination;dermatology;radiology;cardiology;surgery;oncology;maternity;internal;physiatry;osteopathy;blood_check;nephrol",
+    "healthcare:speciality": "biology;blood_check;cardiology;chiropractic;dentistry;dermatology;emergency;general;gynaecology;intensive;internal;maternity;nephrol;oncology;ophthalmology;orthodontics;orthopaedics;osteopathy;paediatrics;physiatry;psychiatry;radiology;surgery;vaccination",
     "internet_access": "wlan",
     "internet_access:fee": "customers",
     "name": "Sanatorio de la Mujer",
@@ -53663,6 +53681,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Hospital SAMCO"
   }
 },
@@ -53687,6 +53706,55 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1201799440,
+  "nodes": [
+    11142381011,
+    11142381012,
+    11142381013,
+    11142381014,
+    11142381011
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1202638094,
+  "nodes": [
+    2640278082,
+    11149040952,
+    11149040944,
+    11149040941,
+    11149040942,
+    11149040949,
+    11149040943,
+    2640278082
+  ],
+  "tags": {
+    "addr:housenumber": "127",
+    "addr:street": "Corrientes",
+    "alt_name": "Samco Ibarlucea",
+    "amenity": "hospital",
+    "contact:phone": "+54 341 490-4082",
+    "description:healthcare": "Medicina general, enfermería, cardiología, pediatría, clínica médica, ginecología, infectología, nutrición, ecografía, psicología, psiquiatría, equipo de salud mental para jovenes, terapia ocupacional, fonoaudiología, odontología y laboratorio.",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;paediatrics;nurcery;cardiology;gynaecology;infectious_diseases;child_psychiatry;psychiatry;blood_check;dentistry;radiology;dental_oral_maxillo_facial_surgery",
+    "name": "Samco Ybarlucea",
+    "opening_hours": "24/7",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842184729",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source:url": "https://www.santafe.gob.ar/noticias/noticia/278840/",
+    "wheelchair": "yes",
+    "wikidata": "Q97691207"
   }
 },
 {
@@ -54381,6 +54449,55 @@
     "phone": "+54 299 496-2662;+54 299 486-3598;+54 299 496-5028",
     "type": "multipolygon",
     "website": "https://hospitalcutralcoplazahuincul.neuquen.gob.ar/hospital/"
+  }
+},
+{
+  "type": "relation",
+  "id": 16246167,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1202373960,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1202373960,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1202373961,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1202373961,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1202373963,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1202373962,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1202373964,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes;roof",
+    "healthcare": "hospital",
+    "layer": "1",
+    "name": "Hospital Regional Doctor René Favaloro",
+    "type": "multipolygon"
   }
 },
 {
@@ -71804,38 +71921,50 @@
 {
   "type": "node",
   "id": 2434289562,
-  "lat": -34.2655955,
-  "lon": -62.7085489
+  "lat": -34.2655700,
+  "lon": -62.7086820
 },
 {
   "type": "node",
   "id": 2434289569,
-  "lat": -34.2657809,
-  "lon": -62.7083549
+  "lat": -34.2657674,
+  "lon": -62.7083494
 },
 {
   "type": "node",
   "id": 2434289575,
-  "lat": -34.2656422,
-  "lon": -62.7083147
+  "lat": -34.2656382,
+  "lon": -62.7083143
 },
 {
   "type": "node",
   "id": 2434289576,
-  "lat": -34.2656697,
-  "lon": -62.7089116
+  "lat": -34.2656695,
+  "lon": -62.7088765
 },
 {
   "type": "node",
   "id": 2434289563,
-  "lat": -34.2652679,
-  "lon": -62.7084538
+  "lat": -34.2652820,
+  "lon": -62.7086038
 },
 {
   "type": "node",
   "id": 2434289564,
-  "lat": -34.2652035,
-  "lon": -62.7087763
+  "lat": -34.2652524,
+  "lon": -62.7087632
+},
+{
+  "type": "node",
+  "id": 11157780895,
+  "lat": -34.2653590,
+  "lon": -62.7086247
+},
+{
+  "type": "node",
+  "id": 11157780896,
+  "lat": -34.2653294,
+  "lon": -62.7087841
 },
 {
   "type": "node",
@@ -72883,6 +73012,336 @@
 },
 {
   "type": "node",
+  "id": 11146815370,
+  "lat": -33.1239534,
+  "lon": -66.0538171
+},
+{
+  "type": "node",
+  "id": 11146815371,
+  "lat": -33.1239741,
+  "lon": -66.0539664
+},
+{
+  "type": "node",
+  "id": 11146815372,
+  "lat": -33.1239364,
+  "lon": -66.0539739
+},
+{
+  "type": "node",
+  "id": 11146815373,
+  "lat": -33.1239681,
+  "lon": -66.0542024
+},
+{
+  "type": "node",
+  "id": 11146815374,
+  "lat": -33.1239970,
+  "lon": -66.0541967
+},
+{
+  "type": "node",
+  "id": 11146815375,
+  "lat": -33.1240077,
+  "lon": -66.0542739
+},
+{
+  "type": "node",
+  "id": 11146815376,
+  "lat": -33.1240535,
+  "lon": -66.0542648
+},
+{
+  "type": "node",
+  "id": 11146815377,
+  "lat": -33.1240607,
+  "lon": -66.0543161
+},
+{
+  "type": "node",
+  "id": 11146815378,
+  "lat": -33.1240252,
+  "lon": -66.0543232
+},
+{
+  "type": "node",
+  "id": 11146815379,
+  "lat": -33.1240477,
+  "lon": -66.0544846
+},
+{
+  "type": "node",
+  "id": 11146815380,
+  "lat": -33.1241056,
+  "lon": -66.0544731
+},
+{
+  "type": "node",
+  "id": 11146815381,
+  "lat": -33.1241125,
+  "lon": -66.0545223
+},
+{
+  "type": "node",
+  "id": 11146815382,
+  "lat": -33.1241666,
+  "lon": -66.0545116
+},
+{
+  "type": "node",
+  "id": 11146815383,
+  "lat": -33.1241371,
+  "lon": -66.0543005
+},
+{
+  "type": "node",
+  "id": 11146815384,
+  "lat": -33.1241649,
+  "lon": -66.0542950
+},
+{
+  "type": "node",
+  "id": 11146815385,
+  "lat": -33.1241853,
+  "lon": -66.0544419
+},
+{
+  "type": "node",
+  "id": 11146815386,
+  "lat": -33.1242568,
+  "lon": -66.0544277
+},
+{
+  "type": "node",
+  "id": 11146815387,
+  "lat": -33.1242440,
+  "lon": -66.0543359
+},
+{
+  "type": "node",
+  "id": 11146815388,
+  "lat": -33.1244196,
+  "lon": -66.0543010
+},
+{
+  "type": "node",
+  "id": 11146815389,
+  "lat": -33.1243821,
+  "lon": -66.0540314
+},
+{
+  "type": "node",
+  "id": 11146815390,
+  "lat": -33.1241607,
+  "lon": -66.0540753
+},
+{
+  "type": "node",
+  "id": 11146815391,
+  "lat": -33.1241533,
+  "lon": -66.0540221
+},
+{
+  "type": "node",
+  "id": 11146815392,
+  "lat": -33.1241053,
+  "lon": -66.0540316
+},
+{
+  "type": "node",
+  "id": 11146815393,
+  "lat": -33.1240723,
+  "lon": -66.0537936
+},
+{
+  "type": "node",
+  "id": 11146815394,
+  "lat": -33.1240994,
+  "lon": -66.0550101
+},
+{
+  "type": "node",
+  "id": 11146815395,
+  "lat": -33.1241168,
+  "lon": -66.0551402
+},
+{
+  "type": "node",
+  "id": 11146815396,
+  "lat": -33.1241469,
+  "lon": -66.0551344
+},
+{
+  "type": "node",
+  "id": 11146815397,
+  "lat": -33.1241599,
+  "lon": -66.0552314
+},
+{
+  "type": "node",
+  "id": 11146815398,
+  "lat": -33.1241310,
+  "lon": -66.0552369
+},
+{
+  "type": "node",
+  "id": 11146815399,
+  "lat": -33.1241451,
+  "lon": -66.0553424
+},
+{
+  "type": "node",
+  "id": 11146815400,
+  "lat": -33.1244075,
+  "lon": -66.0552923
+},
+{
+  "type": "node",
+  "id": 11146815401,
+  "lat": -33.1243941,
+  "lon": -66.0551919
+},
+{
+  "type": "node",
+  "id": 11146815402,
+  "lat": -33.1242662,
+  "lon": -66.0552164
+},
+{
+  "type": "node",
+  "id": 11146815403,
+  "lat": -33.1242561,
+  "lon": -66.0551406
+},
+{
+  "type": "node",
+  "id": 11146815404,
+  "lat": -33.1243847,
+  "lon": -66.0551160
+},
+{
+  "type": "node",
+  "id": 11146815405,
+  "lat": -33.1243719,
+  "lon": -66.0550204
+},
+{
+  "type": "node",
+  "id": 11146815406,
+  "lat": -33.1242244,
+  "lon": -66.0550486
+},
+{
+  "type": "node",
+  "id": 11146815407,
+  "lat": -33.1242162,
+  "lon": -66.0549877
+},
+{
+  "type": "node",
+  "id": 11146815408,
+  "lat": -33.1241878,
+  "lon": -66.0545011
+},
+{
+  "type": "node",
+  "id": 11146815409,
+  "lat": -33.1241988,
+  "lon": -66.0544423
+},
+{
+  "type": "node",
+  "id": 11146815410,
+  "lat": -33.1243786,
+  "lon": -66.0544901
+},
+{
+  "type": "node",
+  "id": 11146815411,
+  "lat": -33.1243676,
+  "lon": -66.0545490
+},
+{
+  "type": "node",
+  "id": 11146815412,
+  "lat": -33.1241686,
+  "lon": -66.0546285
+},
+{
+  "type": "node",
+  "id": 11146815413,
+  "lat": -33.1241790,
+  "lon": -66.0545799
+},
+{
+  "type": "node",
+  "id": 11146815414,
+  "lat": -33.1243163,
+  "lon": -66.0546214
+},
+{
+  "type": "node",
+  "id": 11146815415,
+  "lat": -33.1243060,
+  "lon": -66.0546701
+},
+{
+  "type": "node",
+  "id": 11146815416,
+  "lat": -33.1241937,
+  "lon": -66.0538967
+},
+{
+  "type": "node",
+  "id": 11146815417,
+  "lat": -33.1242474,
+  "lon": -66.0538850
+},
+{
+  "type": "node",
+  "id": 11146815426,
+  "lat": -33.1241534,
+  "lon": -66.0551830
+},
+{
+  "type": "node",
+  "id": 11146815443,
+  "lat": -33.1239746,
+  "lon": -66.0542012
+},
+{
+  "type": "node",
+  "id": 11146815447,
+  "lat": -33.1240880,
+  "lon": -66.0544766
+},
+{
+  "type": "node",
+  "id": 11146815449,
+  "lat": -33.1242002,
+  "lon": -66.0549908
+},
+{
+  "type": "node",
+  "id": 11146815452,
+  "lat": -33.1239809,
+  "lon": -66.0538117
+},
+{
+  "type": "node",
+  "id": 11146815418,
+  "lat": -33.1242156,
+  "lon": -66.0536768
+},
+{
+  "type": "node",
+  "id": 11146815419,
+  "lat": -33.1241619,
+  "lon": -66.0536886
+},
+{
+  "type": "node",
   "id": 3657825492,
   "lat": -33.8577384,
   "lon": -65.1837147
@@ -73534,6 +73993,30 @@
   "id": 2283518597,
   "lat": -30.6263077,
   "lon": -66.2602040
+},
+{
+  "type": "node",
+  "id": 11142381011,
+  "lat": -32.2156684,
+  "lon": -65.0459537
+},
+{
+  "type": "node",
+  "id": 11142381012,
+  "lat": -32.2156822,
+  "lon": -65.0453490
+},
+{
+  "type": "node",
+  "id": 11142381013,
+  "lat": -32.2160833,
+  "lon": -65.0453560
+},
+{
+  "type": "node",
+  "id": 11142381014,
+  "lat": -32.2160734,
+  "lon": -65.0459607
 },
 {
   "type": "node",
@@ -81778,6 +82261,48 @@
   "id": 8623019997,
   "lat": -32.9062038,
   "lon": -60.8093983
+},
+{
+  "type": "node",
+  "id": 2640278082,
+  "lat": -32.8519741,
+  "lon": -60.7871162
+},
+{
+  "type": "node",
+  "id": 11149040941,
+  "lat": -32.8516061,
+  "lon": -60.7871382
+},
+{
+  "type": "node",
+  "id": 11149040942,
+  "lat": -32.8516130,
+  "lon": -60.7873007
+},
+{
+  "type": "node",
+  "id": 11149040943,
+  "lat": -32.8519810,
+  "lon": -60.7872787
+},
+{
+  "type": "node",
+  "id": 11149040944,
+  "lat": -32.8516980,
+  "lon": -60.7871327
+},
+{
+  "type": "node",
+  "id": 11149040949,
+  "lat": -32.8517089,
+  "lon": -60.7872949
+},
+{
+  "type": "node",
+  "id": 11149040952,
+  "lat": -32.8519115,
+  "lon": -60.7871199
 },
 {
   "type": "node",
@@ -118164,6 +118689,96 @@
     2944187295,
     2944187298,
     2944187311
+  ]
+},
+{
+  "type": "way",
+  "id": 1202373964,
+  "nodes": [
+    11146815416,
+    11146815417,
+    11146815418,
+    11146815419,
+    11146815416
+  ]
+},
+{
+  "type": "way",
+  "id": 1202373960,
+  "nodes": [
+    11146815370,
+    11146815371,
+    11146815372,
+    11146815373,
+    11146815443,
+    11146815374,
+    11146815375,
+    11146815376,
+    11146815377,
+    11146815378,
+    11146815379,
+    11146815447,
+    11146815380,
+    11146815381,
+    11146815382,
+    11146815383,
+    11146815384,
+    11146815385,
+    11146815386,
+    11146815387,
+    11146815388,
+    11146815389,
+    11146815390,
+    11146815391,
+    11146815392,
+    11146815393,
+    11146815452,
+    11146815370
+  ]
+},
+{
+  "type": "way",
+  "id": 1202373961,
+  "nodes": [
+    11146815394,
+    11146815395,
+    11146815396,
+    11146815426,
+    11146815397,
+    11146815398,
+    11146815399,
+    11146815400,
+    11146815401,
+    11146815402,
+    11146815403,
+    11146815404,
+    11146815405,
+    11146815406,
+    11146815407,
+    11146815449,
+    11146815394
+  ]
+},
+{
+  "type": "way",
+  "id": 1202373962,
+  "nodes": [
+    11146815408,
+    11146815409,
+    11146815410,
+    11146815411,
+    11146815408
+  ]
+},
+{
+  "type": "way",
+  "id": 1202373963,
+  "nodes": [
+    11146815412,
+    11146815413,
+    11146815414,
+    11146815415,
+    11146815412
   ]
 },
 {

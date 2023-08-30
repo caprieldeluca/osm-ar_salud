@@ -28735,58 +28735,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/752022363",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "57",
-    "addr:postcode": "Q8300",
-    "addr:street": "Maestro Thames Alderete",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "name": "Farmacias Global",
-    "id": "way/752022363"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0582989,
-          -38.9508463
-        ],
-        [
-          -68.058299,
-          -38.9509027
-        ],
-        [
-          -68.0582994,
-          -38.9510297
-        ],
-        [
-          -68.0581961,
-          -38.9510298
-        ],
-        [
-          -68.0581957,
-          -38.9508986
-        ],
-        [
-          -68.0581955,
-          -38.9508466
-        ],
-        [
-          -68.0582989,
-          -38.9508463
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/755888770",
   "properties": {
     "amenity": "pharmacy",
@@ -39539,6 +39487,57 @@
 },
 {
   "type": "Feature",
+  "id": "way/1202427470",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "57",
+    "addr:postcode": "Q8300",
+    "addr:street": "Maestro Thames Alderete",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacias Global",
+    "operator": "Apteek S.R.L.",
+    "website": "https://farmaciasglobal.com.ar/",
+    "id": "way/1202427470"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0582631,
+          -38.950835
+        ],
+        [
+          -68.0582631,
+          -38.950883
+        ],
+        [
+          -68.0582631,
+          -38.9509764
+        ],
+        [
+          -68.0581812,
+          -38.9509762
+        ],
+        [
+          -68.0581812,
+          -38.9508351
+        ],
+        [
+          -68.0582631,
+          -38.950835
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -42658,6 +42657,7 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-08-29",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/1050234840"
@@ -48562,8 +48562,6 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "is_in:city": "Tunuyán",
-    "is_in:state": "Mendoza",
     "name": "Tunuyán",
     "id": "node/1814874075"
   },
@@ -65881,23 +65879,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3013496084",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Lamaité",
-    "id": "node/3013496084"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4565184,
-      -34.5672859
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3016170268",
   "properties": {
     "addr:city": "Posadas",
@@ -78683,7 +78664,6 @@
     "healthcare": "pharmacy",
     "name": "Driusi",
     "opening_hours": "08:00-12:00; 15:00-20:00",
-    "operator": "DRIUSI",
     "id": "node/3736609249"
   },
   "geometry": {
@@ -78783,6 +78763,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "San José",
     "id": "node/3743594926"
   },
   "geometry": {
@@ -84176,30 +84157,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4100033532",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "1267",
-    "addr:postcode": "1426",
-    "addr:street": "Avenida Luis María Campos",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Delko Belgrano",
-    "phone": "+54 11 4773-5062",
-    "id": "node/4100033532"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4407673,
-      -34.5648281
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4102562417",
   "properties": {
     "addr:country": "AR",
@@ -86721,8 +86678,13 @@
   "type": "Feature",
   "id": "node/4271955289",
   "properties": {
+    "addr:city": "Rivera",
+    "addr:postcode": "6441",
+    "addr:street": "Colonizadores",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "San Martín de Rivera",
+    "ref:sisa_codigo": "70060072312781",
     "id": "node/4271955289"
   },
   "geometry": {
@@ -102484,15 +102446,14 @@
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia San Francisco",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "San Francisco",
     "id": "node/4710030298"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4191467,
-      -34.5870264
+      -58.4191708,
+      -34.5869933
     ]
   }
 },
@@ -114688,8 +114649,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.0460872,
-      -32.2160439
+      -65.0458715,
+      -32.2165861
     ]
   }
 },
@@ -116699,6 +116660,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Aconcagua",
     "id": "node/5709809615"
   },
   "geometry": {
@@ -141694,10 +141656,14 @@
   "type": "Feature",
   "id": "node/7963707915",
   "properties": {
+    "addr:city": "Azul",
+    "addr:housenumber": "428",
+    "addr:postcode": "7300",
+    "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia García",
+    "name": "Farmacia Orianda",
     "id": "node/7963707915"
   },
   "geometry": {
@@ -166289,6 +166255,119 @@
     "coordinates": [
       -61.2306038,
       -30.3079501
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11145348550",
+  "properties": {
+    "addr:city": "Rivera",
+    "addr:housenumber": "146",
+    "addr:postcode": "6441",
+    "addr:street": "Córdoba",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apud Jorge Leonardo",
+    "ref:sisa_codigo": "70060072310885",
+    "id": "node/11145348550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2437756,
+      -37.1586291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11146311992",
+  "properties": {
+    "addr:street": "San Luis",
+    "amenity": "pharmacy",
+    "level": "0",
+    "name": "Perdomo",
+    "wheelchair": "limited",
+    "id": "node/11146311992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6578095,
+      -32.9455506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11146959983",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Mechongué",
+    "id": "node/11146959983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2233629,
+      -38.1466148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11147219842",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia",
+    "id": "node/11147219842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.1011641,
+      -36.9476796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11155061939",
+  "properties": {
+    "addr:city": "Arequito",
+    "addr:housenumber": "1935",
+    "addr:postcode": "S2181",
+    "addr:street": "Brigadier Estanislao López",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Delpíccolo",
+    "id": "node/11155061939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.4765357,
+      -33.1472516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11157770082",
+  "properties": {
+    "addr:city": "Alto Comedero",
+    "addr:street": "Calle 291",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Santisima Trinidad",
+    "id": "node/11157770082"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2709512,
+      -24.2264812
     ]
   }
 }
