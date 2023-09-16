@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-30T21:09:25Z",
-    "timestamp_areas_base": "2023-08-30T17:01:12Z",
+    "timestamp_osm_base": "2023-09-16T02:02:45Z",
+    "timestamp_areas_base": "2023-09-16T00:59:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -222,16 +222,6 @@
   "lon": -57.9559765,
   "tags": {
     "name": "Perfume y cosmeticos",
-    "shop": "chemist"
-  }
-},
-{
-  "type": "node",
-  "id": 1870334993,
-  "lat": -38.9514267,
-  "lon": -68.0588555,
-  "tags": {
-    "name": "Productos belleza",
     "shop": "chemist"
   }
 },
@@ -480,27 +470,6 @@
     "opening_hours": "Mo-Sa 08:00-20:00",
     "phone": "02204802761",
     "shop": "chemist"
-  }
-},
-{
-  "type": "node",
-  "id": 2741054561,
-  "lat": -32.9219050,
-  "lon": -60.8081390,
-  "tags": {
-    "addr:housenumber": "1392",
-    "addr:postcode": "S2132",
-    "addr:street": "Avenida Córdoba",
-    "amenity": "pharmacy",
-    "contact:phone": "+54 341 493-3500",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Renz",
-    "payment:cash": "yes",
-    "payment:credit_cards": "yes",
-    "payment:debit_cards": "yes",
-    "shop": "chemist",
-    "wheelchair": "yes"
   }
 },
 {
@@ -3569,6 +3538,31 @@
   }
 },
 {
+  "type": "node",
+  "id": 11171019230,
+  "lat": -34.6022182,
+  "lon": -58.5425279,
+  "tags": {
+    "addr:city": "Santos Lugares",
+    "addr:housenumber": "3421",
+    "addr:postcode": "B1676",
+    "addr:street": "436 - Avenida La Plata",
+    "level": "0",
+    "name": "Caracoles 2",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 11179605193,
+  "lat": -31.6453526,
+  "lon": -60.7182020,
+  "tags": {
+    "name": "Limpi-Shop",
+    "shop": "chemist"
+  }
+},
+{
   "type": "way",
   "id": 237613111,
   "nodes": [
@@ -4159,7 +4153,6 @@
     "addr:street": "Avenida Doctor Chiesa",
     "building": "yes",
     "name": "Rocco",
-    "opening_hours:covid19": "open",
     "shop": "chemist",
     "source": "Reconocimiento terrestre 2016 por Kaart."
   }
@@ -4757,7 +4750,9 @@
   ],
   "tags": {
     "addr:city": "Rufino",
+    "addr:country": "AR",
     "addr:housenumber": "721",
+    "addr:postcode": "6100",
     "addr:street": "Bulevar España",
     "building:part": "yes",
     "contact:instagram": "https://www.instagram.com/limpiezatotalrufino/?hl=es-la",
@@ -4916,6 +4911,34 @@
   "tags": {
     "name": "RAME Productos Quimicos S.R.L.",
     "shop": "chemist"
+  }
+},
+{
+  "type": "way",
+  "id": 1204462677,
+  "nodes": [
+    11163232777,
+    11163232776,
+    2741054536,
+    2741054568,
+    11163232779,
+    11163232777
+  ],
+  "tags": {
+    "addr:housenumber": "1392",
+    "addr:postcode": "S2132",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "pharmacy",
+    "building:part": "retail",
+    "contact:phone": "+54 341 493-3500",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Renz",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "chemist",
+    "wheelchair": "yes"
   }
 },
 {
@@ -5658,6 +5681,18 @@
 },
 {
   "type": "node",
+  "id": 2741054536,
+  "lat": -32.9218182,
+  "lon": -60.8081922
+},
+{
+  "type": "node",
+  "id": 2741054568,
+  "lat": -32.9219090,
+  "lon": -60.8082145
+},
+{
+  "type": "node",
   "id": 3493408909,
   "lat": -32.9207482,
   "lon": -60.8098303
@@ -5685,6 +5720,24 @@
   "id": 8948797604,
   "lat": -32.9207529,
   "lon": -60.8098033
+},
+{
+  "type": "node",
+  "id": 11163232776,
+  "lat": -32.9217961,
+  "lon": -60.8081868
+},
+{
+  "type": "node",
+  "id": 11163232777,
+  "lat": -32.9218057,
+  "lon": -60.8081312
+},
+{
+  "type": "node",
+  "id": 11163232779,
+  "lat": -32.9219186,
+  "lon": -60.8081589
 },
 {
   "type": "node",

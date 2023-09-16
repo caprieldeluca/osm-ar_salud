@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-08-30T21:05:23Z",
-    "timestamp_areas_base": "2023-08-30T17:01:12Z",
+    "timestamp_osm_base": "2023-09-16T01:59:37Z",
+    "timestamp_areas_base": "2023-09-16T00:06:17Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4291,10 +4291,15 @@
 {
   "type": "node",
   "id": 3648161633,
-  "lat": -32.9762671,
-  "lon": -68.7880884,
+  "lat": -32.9762378,
+  "lon": -68.7880938,
   "tags": {
+    "addr:city": "Maipu",
+    "addr:housenumber": "737",
+    "addr:postcode": "5515",
+    "addr:street": "Ozamis",
     "amenity": "clinic",
+    "contact:website": "http://www.maipumed.com",
     "healthcare": "clinic",
     "name": "MaipuMed"
   }
@@ -5732,6 +5737,9 @@
   "lat": -35.3213024,
   "lon": -60.5210712,
   "tags": {
+    "addr:city": "Comodoro Py",
+    "addr:postcode": "6641",
+    "addr:street": "Hermanos Niell",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Sala de Primeros Auxilios"
@@ -7024,6 +7032,16 @@
     "healthcare": "clinic",
     "name": "Clinica La Merced",
     "phone": "+54 371 5432473"
+  }
+},
+{
+  "type": "node",
+  "id": 4243042612,
+  "lat": -27.3765147,
+  "lon": -65.6091663,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
   }
 },
 {
@@ -9248,19 +9266,6 @@
 },
 {
   "type": "node",
-  "id": 4625633583,
-  "lat": -34.5981590,
-  "lon": -58.5435343,
-  "tags": {
-    "addr:street": "425 - Rodríguez Peña",
-    "amenity": "clinic",
-    "fixme": "name",
-    "healthcare": "clinic",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
-  }
-},
-{
-  "type": "node",
   "id": 4626214676,
   "lat": -34.7595053,
   "lon": -58.4053948,
@@ -9554,6 +9559,17 @@
     "healthcare": "clinic",
     "name": "Stamboulian",
     "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
+  }
+},
+{
+  "type": "node",
+  "id": 4654337635,
+  "lat": -34.5825049,
+  "lon": -58.4328456,
+  "tags": {
+    "addr:street": "Humboldt",
+    "amenity": "clinic",
+    "name": "Diagnóstico Científico Integral"
   }
 },
 {
@@ -14340,7 +14356,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 53 - Barrio Inaudi",
     "opening_hours": "Mo-Fr 07:00-14:00",
-    "opening_hours:covid19": "Mo-Fr 07:00-14:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 0351 4333314",
@@ -26600,13 +26615,16 @@
     "addr:postcode": "1644",
     "addr:street": "Martín Rodríguez",
     "amenity": "clinic",
+    "check_date": "2023-09-10",
     "healthcare": "clinic",
     "name": "Centro De Salud Crisol",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 11 4746-4126",
     "ref:sisa_codigo": "50067492201217",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "website": "https://www.sanfernando.gob.ar"
   }
 },
 {
@@ -32659,7 +32677,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 89 - Villa Rivadavia",
     "opening_hours": "Mo-Fr 07:00-15:00",
-    "opening_hours:covid19": "Mo-Fr 07:00-15:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 0351 4333228",
@@ -35204,7 +35221,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 15 - Barrio Remedios de Escalada",
     "opening_hours": "Mo-Fr 07:00-14:00",
-    "opening_hours:covid19": "Mo-Fr 07:00-14:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 0351 4332860/61",
@@ -36109,7 +36125,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 56 - Barrio Empalme",
     "opening_hours": "Mo-Fr 07:00-17:00",
-    "opening_hours:covid19": "Mo-Fr 07:00-17:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 0351 4338561",
@@ -36132,7 +36147,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 13 -  Hipolito Yrigoyen",
     "opening_hours": "Mo-Fr  07:00-14:00",
-    "opening_hours:covid19": "Mo-Fr  07:00-14:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 0351 4335435",
@@ -44832,6 +44846,139 @@
   }
 },
 {
+  "type": "node",
+  "id": 11158242435,
+  "lat": -36.6399612,
+  "lon": -57.7924928,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Unidad Sanitaria"
+  }
+},
+{
+  "type": "node",
+  "id": 11159772745,
+  "lat": -34.2089275,
+  "lon": -59.6359053,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Sala de Primeros Auxilios"
+  }
+},
+{
+  "type": "node",
+  "id": 11159912983,
+  "lat": -34.1225855,
+  "lon": -59.4367084,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Sala de Primeros Auxilios"
+  }
+},
+{
+  "type": "node",
+  "id": 11168788360,
+  "lat": -34.6014181,
+  "lon": -58.5619973,
+  "tags": {
+    "addr:housenumber": "2119",
+    "addr:street": "643 - Avenida del Libertador General José de San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "level": "0",
+    "name": "Casa de Salud ASI",
+    "operator": "ASI Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11170857425,
+  "lat": -32.7411891,
+  "lon": -60.7344817,
+  "tags": {
+    "amenity": "clinic",
+    "contact:website": "https://www.previnca.com.ar/",
+    "healthcare": "clinic",
+    "name": "Previnca Centro Medico",
+    "operator": "Previnca"
+  }
+},
+{
+  "type": "node",
+  "id": 11187174178,
+  "lat": -38.9320537,
+  "lon": -67.9998968,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Augusto Celestino Mengelle",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neurology",
+    "name": "Centro de Neurología Infantil del Valle"
+  }
+},
+{
+  "type": "node",
+  "id": 11192328285,
+  "lat": -31.5129453,
+  "lon": -68.5806699,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CAPS Rivadavia Norte",
+    "official_name": "Centro de Atención Primaria de Salud Rivadavia Norte",
+    "operator": "Ministerio de Salud Pública"
+  }
+},
+{
+  "type": "node",
+  "id": 11192328304,
+  "lat": -31.5193325,
+  "lon": -68.5736496,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Zona Sanitaria IV Oeste",
+    "operator": "Ministerio de Salud Pública"
+  }
+},
+{
+  "type": "node",
+  "id": 11192366926,
+  "lat": -31.4029190,
+  "lon": -64.2621539,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:street": "Docentes Argentinos",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 99 - Los Robles"
+  }
+},
+{
+  "type": "node",
+  "id": 11192559785,
+  "lat": -31.3670321,
+  "lon": -64.1354013,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 85 - Patricios Este"
+  }
+},
+{
+  "type": "node",
+  "id": 11195008272,
+  "lat": -31.9171400,
+  "lon": -63.5028053,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "C.A.P.S. \"Dr. René Favaloro\"- Colonia Videla"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -49654,25 +49801,6 @@
 },
 {
   "type": "way",
-  "id": 468054841,
-  "nodes": [
-    4626083430,
-    4626083433,
-    4626083434,
-    4626083435,
-    4626083429,
-    4626083430
-  ],
-  "tags": {
-    "addr:street": "643 - Avenida del Libertador General José de San Martín",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Asi"
-  }
-},
-{
-  "type": "way",
   "id": 468082879,
   "nodes": [
     4626349571,
@@ -52329,8 +52457,9 @@
   ],
   "tags": {
     "addr:city": "Firmat",
+    "addr:country": "AR",
     "addr:housenumber": "1260",
-    "addr:postcode": "S2630",
+    "addr:postcode": "2630",
     "addr:street": "Sarmiento",
     "amenity": "clinic",
     "building": "yes",
@@ -54736,23 +54865,6 @@
 },
 {
   "type": "way",
-  "id": 551542082,
-  "nodes": [
-    5438971829,
-    5326489192,
-    5326489193,
-    5438971830,
-    5438971829
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "MaipuMed"
-  }
-},
-{
-  "type": "way",
   "id": 554952955,
   "nodes": [
     5355136436,
@@ -57112,52 +57224,6 @@
 },
 {
   "type": "way",
-  "id": 777627724,
-  "nodes": [
-    7257095788,
-    7257095789,
-    7257093059,
-    7257093058,
-    7257093049,
-    7257093060,
-    7257093061,
-    7257093044,
-    7257093062,
-    7257093063,
-    7257095788
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "CAPS Rivadavia Norte",
-    "official_name": "Centro de Atención Primaria de Salud Rivadavia Norte",
-    "operator": "Ministerio de Salud Pública"
-  }
-},
-{
-  "type": "way",
-  "id": 779288298,
-  "nodes": [
-    7266128752,
-    7807774115,
-    7276557213,
-    7276556554,
-    7276556550,
-    7276556553,
-    7276554257,
-    7276554232,
-    7276557214,
-    7266128752
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Zona Sanitaria IV Oeste",
-    "operator": "Ministerio de Salud Pública"
-  }
-},
-{
-  "type": "way",
   "id": 780057045,
   "nodes": [
     7283720125,
@@ -57687,34 +57753,6 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842188634",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
-  "id": 802066798,
-  "nodes": [
-    7502305909,
-    7502305910,
-    7502305911,
-    7502305912,
-    7502305913,
-    7502305909
-  ],
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:housenumber": "1604",
-    "addr:postcode": "C1431EGH",
-    "addr:street": "Burela",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro Médico Barrial - CMB 36",
-    "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public",
-    "phone": "+541145247685",
-    "ref:sisa_codigo": "50020012115415",
-    "ref:sisa_tipologia": "ESSIDT",
-    "website": "https://www.buenosaires.gob.ar/salud/cmb-no-36",
-    "wikidata": "Q93791836"
   }
 },
 {
@@ -58913,7 +58951,6 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 51 - Barrio Guiñazú",
     "opening_hours": "24/7",
-    "opening_hours:covid19": "24/7",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 0351 4995883",
@@ -59717,27 +59754,6 @@
     "healthcare": "clinic",
     "healthcare:speciality": "traumatology",
     "name": "Centro de Especialidades en Traumatología y Ortpedia de Cipolletti"
-  }
-},
-{
-  "type": "way",
-  "id": 821670346,
-  "nodes": [
-    7672097588,
-    7672097589,
-    7672097590,
-    7672097591,
-    7672097588
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Augusto Celestino Mengelle",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "neurology",
-    "name": "Centro de Neurología Infantil del Valle"
   }
 },
 {
@@ -61551,8 +61567,9 @@
   ],
   "tags": {
     "addr:city": "General Pico",
+    "addr:country": "AR",
     "addr:housenumber": "400",
-    "addr:postcode": "L6360",
+    "addr:postcode": "6360",
     "addr:street": "Avenida San Martín",
     "amenity": "clinic",
     "building": "yes",
@@ -62017,7 +62034,6 @@
     "healthcare": "clinic",
     "healthcare:speciality": "community;general;paediatrics",
     "name": "Unidad Sanitaria 3 Barrio Lindo",
-    "opening_hours:covid19": "same",
     "operator": "Municipal",
     "operator:type": "public",
     "website": "https://www.almirantebrown.gov.ar/centros-de-salud/malvinasargentinas"
@@ -64945,6 +64961,98 @@
     "healthcare:speciality": "general",
     "name": "Centro de Salud Comunitario 15 de Febrero",
     "operator": "Hospital de Área Junín de los Andes"
+  }
+},
+{
+  "type": "way",
+  "id": 1204046963,
+  "nodes": [
+    11159922676,
+    11159922677,
+    11159922678,
+    10007194627,
+    10007194628,
+    10007194629,
+    11159922679,
+    11159922680,
+    11159922676
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Eduardo Gerbaix",
+    "source:note": "3864385"
+  }
+},
+{
+  "type": "way",
+  "id": 1204318231,
+  "nodes": [
+    11162091014,
+    11162091015,
+    11162091016,
+    11162091017,
+    11162091018,
+    11162091019,
+    11162091020,
+    11162091021,
+    11162091022,
+    11162091023,
+    11162091014
+  ],
+  "tags": {
+    "addr:city": "Villa Los Aromos",
+    "addr:street": "Espinillos",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Dispensario Los Aromos",
+    "phone": "03547494392",
+    "website": "https://villalosaromos.gob.ar/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1207350167,
+  "nodes": [
+    11187208918,
+    11187208919,
+    11187208920,
+    11187208921,
+    11187208918
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 42 - Comercial"
+  }
+},
+{
+  "type": "way",
+  "id": 1207652919,
+  "nodes": [
+    3257422564,
+    11189654499,
+    11189654497,
+    11189654496,
+    3257422564
+  ],
+  "tags": {
+    "addr:city": "Palermo",
+    "addr:country": "AR",
+    "addr:housenumber": "2267",
+    "addr:postcode": "C1425FUC",
+    "addr:street": "Humboldt",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:website": "https://cermed.com/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "fertility",
+    "height": "10",
+    "name": "Centro Especializado en Reproducción",
+    "short_name": "CER"
   }
 },
 {
@@ -70676,30 +70784,6 @@
 },
 {
   "type": "node",
-  "id": 7672097588,
-  "lat": -38.9321227,
-  "lon": -67.9998090
-},
-{
-  "type": "node",
-  "id": 7672097589,
-  "lat": -38.9320290,
-  "lon": -67.9997758
-},
-{
-  "type": "node",
-  "id": 7672097590,
-  "lat": -38.9319843,
-  "lon": -67.9999842
-},
-{
-  "type": "node",
-  "id": 7672097591,
-  "lat": -38.9320789,
-  "lon": -68.0000177
-},
-{
-  "type": "node",
   "id": 8942949976,
   "lat": -38.9379730,
   "lon": -68.0000860
@@ -71972,30 +72056,6 @@
 },
 {
   "type": "node",
-  "id": 5326489192,
-  "lat": -32.9762963,
-  "lon": -68.7873505
-},
-{
-  "type": "node",
-  "id": 5326489193,
-  "lat": -32.9764902,
-  "lon": -68.7873972
-},
-{
-  "type": "node",
-  "id": 5438971829,
-  "lat": -32.9761313,
-  "lon": -68.7881261
-},
-{
-  "type": "node",
-  "id": 5438971830,
-  "lat": -32.9763273,
-  "lon": -68.7881721
-},
-{
-  "type": "node",
   "id": 5528666170,
   "lat": -32.9303756,
   "lon": -68.8464052
@@ -73073,66 +73133,6 @@
   "id": 9038169157,
   "lat": -31.5194817,
   "lon": -68.6167598
-},
-{
-  "type": "node",
-  "id": 7257093044,
-  "lat": -31.5129900,
-  "lon": -68.5805740
-},
-{
-  "type": "node",
-  "id": 7257093049,
-  "lat": -31.5130124,
-  "lon": -68.5806737
-},
-{
-  "type": "node",
-  "id": 7257093058,
-  "lat": -31.5130116,
-  "lon": -68.5807524
-},
-{
-  "type": "node",
-  "id": 7257093059,
-  "lat": -31.5130106,
-  "lon": -68.5808445
-},
-{
-  "type": "node",
-  "id": 7257093060,
-  "lat": -31.5130133,
-  "lon": -68.5805872
-},
-{
-  "type": "node",
-  "id": 7257093061,
-  "lat": -31.5129898,
-  "lon": -68.5805869
-},
-{
-  "type": "node",
-  "id": 7257093062,
-  "lat": -31.5129909,
-  "lon": -68.5804862
-},
-{
-  "type": "node",
-  "id": 7257093063,
-  "lat": -31.5128560,
-  "lon": -68.5804826
-},
-{
-  "type": "node",
-  "id": 7257095788,
-  "lat": -31.5128527,
-  "lon": -68.5807970
-},
-{
-  "type": "node",
-  "id": 7257095789,
-  "lat": -31.5128913,
-  "lon": -68.5808434
 },
 {
   "type": "node",
@@ -75464,60 +75464,6 @@
 },
 {
   "type": "node",
-  "id": 7266128752,
-  "lat": -31.5193559,
-  "lon": -68.5737130
-},
-{
-  "type": "node",
-  "id": 7276554232,
-  "lat": -31.5192363,
-  "lon": -68.5734977
-},
-{
-  "type": "node",
-  "id": 7276554257,
-  "lat": -31.5191604,
-  "lon": -68.5734769
-},
-{
-  "type": "node",
-  "id": 7276556550,
-  "lat": -31.5190751,
-  "lon": -68.5736212
-},
-{
-  "type": "node",
-  "id": 7276556553,
-  "lat": -31.5191070,
-  "lon": -68.5734622
-},
-{
-  "type": "node",
-  "id": 7276556554,
-  "lat": -31.5190513,
-  "lon": -68.5737392
-},
-{
-  "type": "node",
-  "id": 7276557213,
-  "lat": -31.5193124,
-  "lon": -68.5737472
-},
-{
-  "type": "node",
-  "id": 7276557214,
-  "lat": -31.5193974,
-  "lon": -68.5735420
-},
-{
-  "type": "node",
-  "id": 7807774115,
-  "lat": -31.5193317,
-  "lon": -68.5737321
-},
-{
-  "type": "node",
   "id": 7907214470,
   "lat": -31.5180331,
   "lon": -68.5564634
@@ -77402,6 +77348,66 @@
 },
 {
   "type": "node",
+  "id": 11162091014,
+  "lat": -31.7211042,
+  "lon": -64.4356437
+},
+{
+  "type": "node",
+  "id": 11162091015,
+  "lat": -31.7211039,
+  "lon": -64.4355401
+},
+{
+  "type": "node",
+  "id": 11162091016,
+  "lat": -31.7210073,
+  "lon": -64.4355405
+},
+{
+  "type": "node",
+  "id": 11162091017,
+  "lat": -31.7210073,
+  "lon": -64.4355420
+},
+{
+  "type": "node",
+  "id": 11162091018,
+  "lat": -31.7209442,
+  "lon": -64.4355422
+},
+{
+  "type": "node",
+  "id": 11162091019,
+  "lat": -31.7209444,
+  "lon": -64.4356259
+},
+{
+  "type": "node",
+  "id": 11162091020,
+  "lat": -31.7209978,
+  "lon": -64.4356258
+},
+{
+  "type": "node",
+  "id": 11162091021,
+  "lat": -31.7209978,
+  "lon": -64.4356341
+},
+{
+  "type": "node",
+  "id": 11162091022,
+  "lat": -31.7210076,
+  "lon": -64.4356341
+},
+{
+  "type": "node",
+  "id": 11162091023,
+  "lat": -31.7210076,
+  "lon": -64.4356440
+},
+{
+  "type": "node",
   "id": 9980377376,
   "lat": -31.7286297,
   "lon": -64.4295353
@@ -77609,6 +77615,30 @@
   "id": 5007565871,
   "lat": -31.4474846,
   "lon": -64.2410551
+},
+{
+  "type": "node",
+  "id": 11187208918,
+  "lat": -31.4844910,
+  "lon": -64.2107276
+},
+{
+  "type": "node",
+  "id": 11187208919,
+  "lat": -31.4843444,
+  "lon": -64.2107313
+},
+{
+  "type": "node",
+  "id": 11187208920,
+  "lat": -31.4843377,
+  "lon": -64.2103711
+},
+{
+  "type": "node",
+  "id": 11187208921,
+  "lat": -31.4844844,
+  "lon": -64.2103673
 },
 {
   "type": "node",
@@ -81395,6 +81425,54 @@
   "id": 10915198944,
   "lat": -32.7488514,
   "lon": -60.7360566
+},
+{
+  "type": "node",
+  "id": 10007194627,
+  "lat": -32.6652256,
+  "lon": -60.7953212
+},
+{
+  "type": "node",
+  "id": 10007194628,
+  "lat": -32.6652992,
+  "lon": -60.7954451
+},
+{
+  "type": "node",
+  "id": 10007194629,
+  "lat": -32.6653560,
+  "lon": -60.7954599
+},
+{
+  "type": "node",
+  "id": 11159922676,
+  "lat": -32.6659244,
+  "lon": -60.7953525
+},
+{
+  "type": "node",
+  "id": 11159922677,
+  "lat": -32.6654455,
+  "lon": -60.7952500
+},
+{
+  "type": "node",
+  "id": 11159922678,
+  "lat": -32.6653977,
+  "lon": -60.7952043
+},
+{
+  "type": "node",
+  "id": 11159922679,
+  "lat": -32.6653378,
+  "lon": -60.7955807
+},
+{
+  "type": "node",
+  "id": 11159922680,
+  "lat": -32.6658659,
+  "lon": -60.7957129
 },
 {
   "type": "node",
@@ -85778,57 +85856,27 @@
 },
 {
   "type": "node",
-  "id": 4626083429,
-  "lat": -34.6013831,
-  "lon": -58.5620577
-},
-{
-  "type": "node",
-  "id": 4626083430,
-  "lat": -34.6013899,
-  "lon": -58.5618830
-},
-{
-  "type": "node",
-  "id": 4626083433,
-  "lat": -34.6014725,
-  "lon": -58.5618878
-},
-{
-  "type": "node",
-  "id": 4626083434,
-  "lat": -34.6014615,
-  "lon": -58.5621678
-},
-{
-  "type": "node",
-  "id": 4626083435,
-  "lat": -34.6013789,
-  "lon": -58.5621630
-},
-{
-  "type": "node",
   "id": 4626532296,
-  "lat": -34.6012856,
-  "lon": -58.5624758
+  "lat": -34.6012764,
+  "lon": -58.5625017
 },
 {
   "type": "node",
   "id": 4626532297,
-  "lat": -34.6012930,
-  "lon": -58.5623015
+  "lat": -34.6012847,
+  "lon": -58.5623085
 },
 {
   "type": "node",
   "id": 4626532298,
-  "lat": -34.6017416,
-  "lon": -58.5623360
+  "lat": -34.6017457,
+  "lon": -58.5623373
 },
 {
   "type": "node",
   "id": 4626532299,
-  "lat": -34.6017356,
-  "lon": -58.5625085
+  "lat": -34.6017370,
+  "lon": -58.5625306
 },
 {
   "type": "node",
@@ -92042,36 +92090,6 @@
 },
 {
   "type": "node",
-  "id": 7502305909,
-  "lat": -34.5852183,
-  "lon": -58.4861463
-},
-{
-  "type": "node",
-  "id": 7502305910,
-  "lat": -34.5851732,
-  "lon": -58.4860752
-},
-{
-  "type": "node",
-  "id": 7502305911,
-  "lat": -34.5851946,
-  "lon": -58.4860533
-},
-{
-  "type": "node",
-  "id": 7502305912,
-  "lat": -34.5852599,
-  "lon": -58.4860547
-},
-{
-  "type": "node",
-  "id": 7502305913,
-  "lat": -34.5852768,
-  "lon": -58.4860806
-},
-{
-  "type": "node",
   "id": 4635820804,
   "lat": -34.5834619,
   "lon": -58.4779456
@@ -92615,6 +92633,30 @@
   "id": 4944505481,
   "lat": -34.5777117,
   "lon": -58.4359219
+},
+{
+  "type": "node",
+  "id": 3257422564,
+  "lat": -34.5805279,
+  "lon": -58.4302853
+},
+{
+  "type": "node",
+  "id": 11189654496,
+  "lat": -34.5806300,
+  "lon": -58.4304011
+},
+{
+  "type": "node",
+  "id": 11189654497,
+  "lat": -34.5807778,
+  "lon": -58.4301935
+},
+{
+  "type": "node",
+  "id": 11189654499,
+  "lat": -34.5806123,
+  "lon": -58.4301579
 },
 {
   "type": "node",
