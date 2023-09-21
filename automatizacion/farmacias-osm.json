@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-09-16T02:00:41Z",
-    "timestamp_areas_base": "2023-09-16T00:06:17Z",
+    "timestamp_osm_base": "2023-09-21T00:30:49Z",
+    "timestamp_areas_base": "2023-09-20T22:32:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14117,25 +14117,6 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 2612217510,
-  "lat": -33.1503968,
-  "lon": -59.3096279,
-  "tags": {
-    "addr:city": "Gualeguay",
-    "addr:housename": "Monte Caseros 261",
-    "addr:housenumber": "261",
-    "addr:postcode": "2840",
-    "addr:street": "Monte Caseros",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "La Estación II",
-    "operator": "Farmacias La Estación",
-    "phone": "03444 - 423144",
-    "website": "http://www.farmaciaslaestacion.com.ar"
   }
 },
 {
@@ -46868,18 +46849,6 @@
 },
 {
   "type": "node",
-  "id": 5227510880,
-  "lat": -34.7223833,
-  "lon": -58.2455700,
-  "tags": {
-    "addr:street": "Brandsen",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Soy Tu"
-  }
-},
-{
-  "type": "node",
   "id": 5228551662,
   "lat": -32.9351650,
   "lon": -60.7017924,
@@ -47400,12 +47369,18 @@
 {
   "type": "node",
   "id": 5262149923,
-  "lat": -38.9332899,
-  "lon": -68.0022103,
+  "lat": -38.9332361,
+  "lon": -68.0022194,
   "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "151",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Mariano Moreno",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Martinez"
+    "name": "Farmacia Martínez"
   }
 },
 {
@@ -59817,7 +59792,12 @@
   "lat": -32.9833134,
   "lon": -68.7910059,
   "tags": {
+    "addr:city": "Maipú",
+    "addr:housenumber": "74",
+    "addr:postcode": "5515",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "contact:whatsapp": "+54 261 618-0072",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Ozamis"
@@ -64637,20 +64617,6 @@
     "healthcare": "pharmacy",
     "name": "Villa Svea",
     "phone": "+54 3755 405637"
-  }
-},
-{
-  "type": "node",
-  "id": 7314785254,
-  "lat": -27.1277483,
-  "lon": -55.5123333,
-  "tags": {
-    "addr:city": "Corpus Christi",
-    "addr:street": "Avenida Gobernador Héctor Barreyro",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Corpus Christi"
   }
 },
 {
@@ -88001,7 +87967,7 @@
   "lon": -58.1011641,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Farmacia"
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -88054,6 +88020,7 @@
   "lon": -57.7926832,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Mini"
   }
 },
@@ -88064,6 +88031,7 @@
   "lon": -57.8826258,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Landin"
   }
 },
@@ -97960,6 +97928,32 @@
 },
 {
   "type": "way",
+  "id": 540329207,
+  "nodes": [
+    5227510875,
+    5227510876,
+    5227510877,
+    5227510878,
+    5227510879,
+    5227510875
+  ],
+  "tags": {
+    "addr:city": "Quilmes",
+    "addr:housenumber": "650",
+    "addr:postcode": "1878",
+    "addr:street": "Brandsen",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "pharmacy",
+    "name": "Soy Tu",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "phone": "01152773457",
+    "website": "http://www.soytufarmacia.net/"
+  }
+},
+{
+  "type": "way",
   "id": 540492805,
   "nodes": [
     5228868786,
@@ -105372,12 +105366,12 @@
     "addr:street": "Presidente Perón",
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "1",
     "contact:email": "farma.bollero@gmail.com",
     "contact:facebook": "https://www.facebook.com/farmacia.bollero/",
     "contact:phone": "+54 3382 429384",
     "contact:whatsapp": "+5493382446800",
     "healthcare": "pharmacy",
+    "height": "5",
     "name": "Farmacia Bollero",
     "website": "https://farmaciabollero.mitiendanube.com/"
   }
@@ -106822,9 +106816,9 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "0",
     "description": "Turnos de Farmacias: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
+    "height": "5",
     "name": "Farmacia Luhaces"
   }
 },
@@ -106841,10 +106835,37 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "0",
     "description": "Turnos de Farmacias Rufino: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
+    "height": "5",
     "name": "Farmacia Guaragna"
+  }
+},
+{
+  "type": "way",
+  "id": 1209069090,
+  "nodes": [
+    7314785254,
+    11202372264,
+    11202372287,
+    11202372269,
+    11202372332,
+    11202372330,
+    11202372327,
+    11202372300,
+    11202372357,
+    11202372250,
+    7314785254
+  ],
+  "tags": {
+    "addr:city": "Corpus Christi",
+    "addr:street": "Avenida Gobernador Héctor Barreyro",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Corpus Christi",
+    "source": "microsoft/BuildingFootprints"
   }
 },
 {
@@ -131197,6 +131218,36 @@
 },
 {
   "type": "node",
+  "id": 5227510875,
+  "lat": -34.7222759,
+  "lon": -58.2456023
+},
+{
+  "type": "node",
+  "id": 5227510876,
+  "lat": -34.7223376,
+  "lon": -58.2457246
+},
+{
+  "type": "node",
+  "id": 5227510877,
+  "lat": -34.7224465,
+  "lon": -58.2456433
+},
+{
+  "type": "node",
+  "id": 5227510878,
+  "lat": -34.7223974,
+  "lon": -58.2455458
+},
+{
+  "type": "node",
+  "id": 5227510879,
+  "lat": -34.7223611,
+  "lon": -58.2455387
+},
+{
+  "type": "node",
   "id": 5227131028,
   "lat": -34.7161066,
   "lon": -58.2459233
@@ -133018,6 +133069,66 @@
   "id": 10697337722,
   "lat": -26.1834572,
   "lon": -58.1671712
+},
+{
+  "type": "node",
+  "id": 7314785254,
+  "lat": -27.1277876,
+  "lon": -55.5123614
+},
+{
+  "type": "node",
+  "id": 11202372250,
+  "lat": -27.1277576,
+  "lon": -55.5123935
+},
+{
+  "type": "node",
+  "id": 11202372264,
+  "lat": -27.1278019,
+  "lon": -55.5123783
+},
+{
+  "type": "node",
+  "id": 11202372269,
+  "lat": -27.1278080,
+  "lon": -55.5122644
+},
+{
+  "type": "node",
+  "id": 11202372287,
+  "lat": -27.1278557,
+  "lon": -55.5123206
+},
+{
+  "type": "node",
+  "id": 11202372300,
+  "lat": -27.1277154,
+  "lon": -55.5121947
+},
+{
+  "type": "node",
+  "id": 11202372327,
+  "lat": -27.1277368,
+  "lon": -55.5122200
+},
+{
+  "type": "node",
+  "id": 11202372330,
+  "lat": -27.1277844,
+  "lon": -55.5121691
+},
+{
+  "type": "node",
+  "id": 11202372332,
+  "lat": -27.1278380,
+  "lon": -55.5122323
+},
+{
+  "type": "node",
+  "id": 11202372357,
+  "lat": -27.1276491,
+  "lon": -55.5122657
 },
 {
   "type": "node",

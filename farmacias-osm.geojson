@@ -20368,6 +20368,56 @@
 },
 {
   "type": "Feature",
+  "id": "way/540329207",
+  "properties": {
+    "addr:city": "Quilmes",
+    "addr:housenumber": "650",
+    "addr:postcode": "1878",
+    "addr:street": "Brandsen",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "pharmacy",
+    "name": "Soy Tu",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "phone": "01152773457",
+    "website": "http://www.soytufarmacia.net/",
+    "id": "way/540329207"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.2456023,
+          -34.7222759
+        ],
+        [
+          -58.2457246,
+          -34.7223376
+        ],
+        [
+          -58.2456433,
+          -34.7224465
+        ],
+        [
+          -58.2455458,
+          -34.7223974
+        ],
+        [
+          -58.2455387,
+          -34.7223611
+        ],
+        [
+          -58.2456023,
+          -34.7222759
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/540492805",
   "properties": {
     "addr:street": "Felipe Amoedo",
@@ -36433,12 +36483,12 @@
     "addr:street": "Presidente Perón",
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "1",
     "contact:email": "farma.bollero@gmail.com",
     "contact:facebook": "https://www.facebook.com/farmacia.bollero/",
     "contact:phone": "+54 3382 429384",
     "contact:whatsapp": "+5493382446800",
     "healthcare": "pharmacy",
+    "height": "5",
     "name": "Farmacia Bollero",
     "website": "https://farmaciabollero.mitiendanube.com/",
     "id": "way/1016592696"
@@ -39518,9 +39568,9 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "0",
     "description": "Turnos de Farmacias: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
+    "height": "5",
     "name": "Farmacia Luhaces",
     "id": "way/1206847865"
   },
@@ -39562,9 +39612,9 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "0",
     "description": "Turnos de Farmacias Rufino: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
+    "height": "5",
     "name": "Farmacia Guaragna",
     "id": "way/1206849426"
   },
@@ -39591,6 +39641,72 @@
         [
           -62.7132623,
           -34.2728214
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1209069090",
+  "properties": {
+    "addr:city": "Corpus Christi",
+    "addr:street": "Avenida Gobernador Héctor Barreyro",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Corpus Christi",
+    "source": "microsoft/BuildingFootprints",
+    "id": "way/1209069090"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -55.5123614,
+          -27.1277876
+        ],
+        [
+          -55.5123783,
+          -27.1278019
+        ],
+        [
+          -55.5123206,
+          -27.1278557
+        ],
+        [
+          -55.5122644,
+          -27.127808
+        ],
+        [
+          -55.5122323,
+          -27.127838
+        ],
+        [
+          -55.5121691,
+          -27.1277844
+        ],
+        [
+          -55.51222,
+          -27.1277368
+        ],
+        [
+          -55.5121947,
+          -27.1277154
+        ],
+        [
+          -55.5122657,
+          -27.1276491
+        ],
+        [
+          -55.5123935,
+          -27.1277576
+        ],
+        [
+          -55.5123614,
+          -27.1277876
         ]
       ]
     ]
@@ -60244,31 +60360,6 @@
     "coordinates": [
       -68.4533401,
       -33.2663793
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2612217510",
-  "properties": {
-    "addr:city": "Gualeguay",
-    "addr:housename": "Monte Caseros 261",
-    "addr:housenumber": "261",
-    "addr:postcode": "2840",
-    "addr:street": "Monte Caseros",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "La Estación II",
-    "operator": "Farmacias La Estación",
-    "phone": "03444 - 423144",
-    "website": "http://www.farmaciaslaestacion.com.ar",
-    "id": "node/2612217510"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.3096279,
-      -33.1503968
     ]
   }
 },
@@ -107882,24 +107973,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5227510880",
-  "properties": {
-    "addr:street": "Brandsen",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Soy Tu",
-    "id": "node/5227510880"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.24557,
-      -34.7223833
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5228551662",
   "properties": {
     "amenity": "pharmacy",
@@ -108655,16 +108728,22 @@
   "type": "Feature",
   "id": "node/5262149923",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "151",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Mariano Moreno",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Martinez",
+    "name": "Farmacia Martínez",
     "id": "node/5262149923"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0022103,
-      -38.9332899
+      -68.0022194,
+      -38.9332361
     ]
   }
 },
@@ -126871,7 +126950,12 @@
   "type": "Feature",
   "id": "node/6489521698",
   "properties": {
+    "addr:city": "Maipú",
+    "addr:housenumber": "74",
+    "addr:postcode": "5515",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "contact:whatsapp": "+54 261 618-0072",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Ozamis",
@@ -133774,26 +133858,6 @@
     "coordinates": [
       -55.145655,
       -27.4908272
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7314785254",
-  "properties": {
-    "addr:city": "Corpus Christi",
-    "addr:street": "Avenida Gobernador Héctor Barreyro",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Corpus Christi",
-    "id": "node/7314785254"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.5123333,
-      -27.1277483
     ]
   }
 },
@@ -166239,7 +166303,7 @@
   "id": "node/11147219842",
   "properties": {
     "amenity": "pharmacy",
-    "name": "Farmacia",
+    "healthcare": "pharmacy",
     "id": "node/11147219842"
   },
   "geometry": {
@@ -166316,6 +166380,7 @@
   "id": "node/11158242447",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Mini",
     "id": "node/11158242447"
   },
@@ -166332,6 +166397,7 @@
   "id": "node/11159571825",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Landin",
     "id": "node/11159571825"
   },

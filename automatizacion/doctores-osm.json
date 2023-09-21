@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-09-16T02:01:41Z",
-    "timestamp_areas_base": "2023-09-16T00:59:08Z",
+    "timestamp_osm_base": "2023-09-21T00:32:53Z",
+    "timestamp_areas_base": "2023-09-20T22:32:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3113,8 +3113,8 @@
 {
   "type": "node",
   "id": 4178121796,
-  "lat": -31.7156181,
-  "lon": -64.4368840,
+  "lat": -31.7155831,
+  "lon": -64.4368375,
   "tags": {
     "addr:housenumber": "354",
     "addr:street": "Almendros",
@@ -15297,23 +15297,6 @@
 },
 {
   "type": "node",
-  "id": 8010014993,
-  "lat": -27.1287551,
-  "lon": -55.5033681,
-  "tags": {
-    "addr:city": "Corpus Christi",
-    "addr:postcode": "3327",
-    "addr:street": "Avenida Los Jesuitas",
-    "alt_name": "Centro de Integración Comunitario San Antonio",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Puesto de Salud CIC San Antonio",
-    "ref:ZonaSanitaria": "Centro Paraná",
-    "ref:sisa_codigo": "50540982265665"
-  }
-},
-{
-  "type": "node",
   "id": 8010047952,
   "lat": -27.4774875,
   "lon": -55.1399750,
@@ -19568,6 +19551,18 @@
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Centro Médico Marcos Paz"
+  }
+},
+{
+  "type": "node",
+  "id": 11206413132,
+  "lat": -27.3607568,
+  "lon": -55.8918175,
+  "tags": {
+    "amenity": "doctors",
+    "description": "Instagram @osteopatia.org",
+    "name": "Kindy Centro Pediátrico",
+    "phone": "+543764917408"
   }
 },
 {
@@ -23882,6 +23877,32 @@
     "amenity": "doctors",
     "building": "yes",
     "healthcare": "doctor"
+  }
+},
+{
+  "type": "way",
+  "id": 1209076549,
+  "nodes": [
+    11202406348,
+    11202406426,
+    11202423638,
+    11202423542,
+    11202423784,
+    8010014993,
+    11202406348
+  ],
+  "tags": {
+    "addr:city": "Corpus Christi",
+    "addr:postcode": "3327",
+    "addr:street": "Avenida Los Jesuitas",
+    "alt_name": "Centro de Integración Comunitario San Antonio",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Puesto de Salud CIC San Antonio",
+    "ref:ZonaSanitaria": "Centro Paraná",
+    "ref:sisa_codigo": "50540982265665",
+    "source": "microsoft/BuildingFootprints"
   }
 },
 {
@@ -30470,6 +30491,42 @@
   "id": 2019050476,
   "lat": -27.1437023,
   "lon": -55.4057740
+},
+{
+  "type": "node",
+  "id": 8010014993,
+  "lat": -27.1287516,
+  "lon": -55.5034147
+},
+{
+  "type": "node",
+  "id": 11202406348,
+  "lat": -27.1287754,
+  "lon": -55.5034436
+},
+{
+  "type": "node",
+  "id": 11202406426,
+  "lat": -27.1288611,
+  "lon": -55.5033545
+},
+{
+  "type": "node",
+  "id": 11202423542,
+  "lat": -27.1286777,
+  "lon": -55.5033520
+},
+{
+  "type": "node",
+  "id": 11202423638,
+  "lat": -27.1287754,
+  "lon": -55.5032504
+},
+{
+  "type": "node",
+  "id": 11202423784,
+  "lat": -27.1287395,
+  "lon": -55.5034272
 },
 {
   "type": "node",

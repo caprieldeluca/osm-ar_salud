@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-09-16T01:59:37Z",
-    "timestamp_areas_base": "2023-09-16T00:06:17Z",
+    "timestamp_osm_base": "2023-09-21T00:29:42Z",
+    "timestamp_areas_base": "2023-09-20T22:32:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8349,6 +8349,24 @@
 },
 {
   "type": "node",
+  "id": 4483166871,
+  "lat": -27.3608184,
+  "lon": -55.8918211,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:country": "AR",
+    "addr:housenumber": "1136",
+    "addr:postcode": "3300",
+    "addr:street": "Arrechea",
+    "amenity": "clinic",
+    "contact:phone": "+54 376 442 9305",
+    "contact:website": "http://www.dentaladvance.com.ar",
+    "description": "Clínica estética odontológica",
+    "name": "B&A Clínica de Salud"
+  }
+},
+{
+  "type": "node",
   "id": 4487769592,
   "lat": -40.1533105,
   "lon": -71.3443785,
@@ -10744,8 +10762,8 @@
 {
   "type": "node",
   "id": 4777006903,
-  "lat": -31.3720611,
-  "lon": -64.1905987,
+  "lat": -31.3720664,
+  "lon": -64.1907158,
   "tags": {
     "addr:city": "Córdoba",
     "addr:full": "Del Molino Esq. Del Precursor",
@@ -39039,25 +39057,6 @@
 },
 {
   "type": "node",
-  "id": 7541529441,
-  "lat": -34.5549235,
-  "lon": -58.5261393,
-  "tags": {
-    "addr:full": "Pasaje A Entre 66 Y 68 (Almirante Brown 2850)",
-    "addr:postcode": "1651",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Sanitaria 16 Salvador Mazza De Villa Zagala",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "(011) 4754-5640",
-    "ref:sisa_codigo": "50063712202522",
-    "ref:sisa_tipologia": "ESSIDT",
-    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
-  }
-},
-{
-  "type": "node",
   "id": 7541551387,
   "lat": -34.5844047,
   "lon": -58.5241780,
@@ -44832,6 +44831,7 @@
   "lon": -58.1024851,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Sala de Primeros Auxilios"
   }
 },
@@ -44852,6 +44852,7 @@
   "lon": -57.7924928,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Unidad Sanitaria"
   }
 },
@@ -44901,21 +44902,6 @@
     "healthcare": "clinic",
     "name": "Previnca Centro Medico",
     "operator": "Previnca"
-  }
-},
-{
-  "type": "node",
-  "id": 11187174178,
-  "lat": -38.9320537,
-  "lon": -67.9998968,
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Augusto Celestino Mengelle",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "neurology",
-    "name": "Centro de Neurología Infantil del Valle"
   }
 },
 {
@@ -44976,6 +44962,17 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "C.A.P.S. \"Dr. René Favaloro\"- Colonia Videla"
+  }
+},
+{
+  "type": "node",
+  "id": 11196746837,
+  "lat": -34.6264747,
+  "lon": -58.6721491,
+  "tags": {
+    "addr:street": "La Rastra",
+    "amenity": "clinic",
+    "name": "Unidad Sanitaria Villa Angela"
   }
 },
 {
@@ -53895,13 +53892,17 @@
     5227510900
   ],
   "tags": {
+    "addr:city": "Quilmes",
+    "addr:housenumber": "434",
+    "addr:postcode": "1878",
     "addr:street": "Brandsen",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "2",
     "healthcare": "clinic",
     "healthcare:speciality": "gastroenterology",
-    "name": "Centro de Gastroenterología Sagrado Corazón de Jesús"
+    "name": "Centro de Gastroenterología Sagrado Corazón de Jesús",
+    "phone": "01120800912"
   }
 },
 {
@@ -53916,12 +53917,17 @@
     5227510917
   ],
   "tags": {
+    "addr:city": "Quilmes",
+    "addr:housenumber": "302",
+    "addr:postcode": "1878",
     "addr:street": "Brandsen",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "2",
     "healthcare": "clinic",
-    "name": "Círculo Médico Quilmes"
+    "name": "Círculo Médico Quilmes",
+    "phone": "01142241880",
+    "website": "http://www.cmq.org.ar/"
   }
 },
 {
@@ -65053,6 +65059,83 @@
     "height": "10",
     "name": "Centro Especializado en Reproducción",
     "short_name": "CER"
+  }
+},
+{
+  "type": "way",
+  "id": 1208417921,
+  "nodes": [
+    11197097558,
+    11197097559,
+    7541529441,
+    11197097560,
+    11197097558
+  ],
+  "tags": {
+    "addr:city": "San Andrés",
+    "addr:full": "Pasaje A Entre 66 Y 68 (Almirante Brown 2850)",
+    "addr:postcode": "1651",
+    "addr:street": "Pasaje A",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n° 16 Villa Zagala",
+    "old_name": "Unidad Sanitaria 16 Salvador Mazza De Villa Zagala",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4754 5640",
+    "ref:sisa_codigo": "50063712202522",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°16",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1208609669,
+  "nodes": [
+    11198466762,
+    11198466763,
+    11198466764,
+    11198466765,
+    11198466762
+  ],
+  "tags": {
+    "addr:city": "Quilmes",
+    "addr:housenumber": "930",
+    "addr:postcode": "1878",
+    "addr:street": "General Paz",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "cardiology;surgery;plastic_surgery;dermatology;gastroenterology;gynaecology;neurology;pulmonology;paediatrics;orthodontics;psychiatry",
+    "name": "Centro Médico MF",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-13:00",
+    "phone": "01175034514",
+    "website": "http://centromedicomf.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1208916488,
+  "nodes": [
+    11200996700,
+    11200996701,
+    11200996702,
+    11200996703,
+    11200996700
+  ],
+  "tags": {
+    "addr:city": "Quilmes",
+    "addr:housenumber": "901",
+    "addr:postcode": "1878",
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Instituto Barrancas",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "phone": "01175302000",
+    "website": "https://institutobarrancas.com.ar/el-instituto/"
   }
 },
 {
@@ -85677,8 +85760,8 @@
 {
   "type": "node",
   "id": 5540739756,
-  "lat": -34.6368963,
-  "lon": -58.5654755
+  "lat": -34.6369007,
+  "lon": -58.5654728
 },
 {
   "type": "node",
@@ -90686,6 +90769,30 @@
 },
 {
   "type": "node",
+  "id": 7541529441,
+  "lat": -34.5549138,
+  "lon": -58.5260467
+},
+{
+  "type": "node",
+  "id": 11197097558,
+  "lat": -34.5549064,
+  "lon": -58.5262442
+},
+{
+  "type": "node",
+  "id": 11197097559,
+  "lat": -34.5549910,
+  "lon": -58.5261813
+},
+{
+  "type": "node",
+  "id": 11197097560,
+  "lat": -34.5548362,
+  "lon": -58.5261070
+},
+{
+  "type": "node",
   "id": 7539482480,
   "lat": -34.5461737,
   "lon": -58.5299824
@@ -93872,6 +93979,30 @@
 },
 {
   "type": "node",
+  "id": 11200996700,
+  "lat": -34.7283093,
+  "lon": -58.2564098
+},
+{
+  "type": "node",
+  "id": 11200996701,
+  "lat": -34.7282589,
+  "lon": -58.2563039
+},
+{
+  "type": "node",
+  "id": 11200996702,
+  "lat": -34.7284261,
+  "lon": -58.2561860
+},
+{
+  "type": "node",
+  "id": 11200996703,
+  "lat": -34.7284765,
+  "lon": -58.2562918
+},
+{
+  "type": "node",
   "id": 5227510900,
   "lat": -34.7242984,
   "lon": -58.2496893
@@ -93971,6 +94102,30 @@
   "id": 5229000772,
   "lat": -34.7270380,
   "lon": -58.2539354
+},
+{
+  "type": "node",
+  "id": 11198466762,
+  "lat": -34.7246856,
+  "lon": -58.2489116
+},
+{
+  "type": "node",
+  "id": 11198466763,
+  "lat": -34.7245836,
+  "lon": -58.2486924
+},
+{
+  "type": "node",
+  "id": 11198466764,
+  "lat": -34.7246660,
+  "lon": -58.2486357
+},
+{
+  "type": "node",
+  "id": 11198466765,
+  "lat": -34.7247679,
+  "lon": -58.2488549
 },
 {
   "type": "node",
