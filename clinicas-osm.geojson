@@ -22331,6 +22331,9 @@
   "type": "Feature",
   "id": "way/557190551",
   "properties": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Boulevard 9 de Julio",
     "amenity": "clinic",
     "building": "yes",
@@ -36896,7 +36899,7 @@
     "addr:country": "AR",
     "addr:housenumber": "400",
     "addr:postcode": "6360",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General José de San Martín",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "3",
@@ -38932,6 +38935,49 @@
         [
           -60.7981167,
           -32.9139491
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/982030717",
+  "properties": {
+    "addr:city": "Sargento Vidal",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8310",
+    "addr:street": "Leopoldo Lugones",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "centre",
+    "name": "Centro de Salud Sargento Vidal",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "id": "way/982030717"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.1588488,
+          -38.6898212
+        ],
+        [
+          -68.1586984,
+          -38.6898204
+        ],
+        [
+          -68.1586994,
+          -38.6897046
+        ],
+        [
+          -68.1588498,
+          -38.6897054
+        ],
+        [
+          -68.1588488,
+          -38.6898212
         ]
       ]
     ]
@@ -44825,6 +44871,48 @@
 },
 {
   "type": "Feature",
+  "id": "way/1210156208",
+  "properties": {
+    "addr:city": "José León Suárez",
+    "addr:full": "Av. San Martin 1655",
+    "addr:postcode": "B1655",
+    "addr:street": "Diagonal 55 - J. V. González",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°4 Doctor Luis Agote",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50063712201231",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°4",
+    "id": "way/1210156208"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5755941,
+          -34.5300666
+        ],
+        [
+          -58.5752604,
+          -34.5303354
+        ],
+        [
+          -58.57533,
+          -34.5299434
+        ],
+        [
+          -58.5755941,
+          -34.5300666
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -45236,31 +45324,6 @@
     "coordinates": [
       -58.7950237,
       -34.6649734
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1122552587",
-  "properties": {
-    "addr:city": "José León Suárez",
-    "addr:full": "Av. San Martin 1655",
-    "addr:postcode": "1655",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Doctor Luis Agote",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4580 1056;+54 11 4580 1057",
-    "ref:sisa_codigo": "50063712201231",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/1122552587"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5753213,
-      -34.5302086
     ]
   }
 },
@@ -92475,8 +92538,11 @@
   "type": "Feature",
   "id": "node/7527783674",
   "properties": {
+    "addr:city": "José C. Paz",
     "addr:full": "Piñero 755",
+    "addr:housenumber": "925",
     "addr:postcode": "1665",
+    "addr:street": "Piñero",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud Santa Paula",
@@ -92773,8 +92839,11 @@
   "type": "Feature",
   "id": "node/7527819040",
   "properties": {
+    "addr:city": "José C. Paz",
     "addr:full": "General Arenales 362",
+    "addr:housenumber": "362",
     "addr:postcode": "1665",
+    "addr:street": "General Arenales",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria El Ombú",
@@ -106065,6 +106134,66 @@
     "coordinates": [
       -58.6721491,
       -34.6264747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11214154367",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2156",
+    "addr:postcode": "S3000",
+    "addr:street": "Saavedra",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "oncology",
+    "name": "Unidad de Terapia Oncológica",
+    "id": "node/11214154367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7167066,
+      -31.6490014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11217562337",
+  "properties": {
+    "amenity": "clinic",
+    "id": "node/11217562337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4111286,
+      -34.6427847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11219124171",
+  "properties": {
+    "addr:city": "José C. Paz",
+    "addr:housenumber": "1836",
+    "addr:postcode": "1665",
+    "addr:street": "Coronel Ramón L. Falcón",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/cmfrino/about/?ref=page_internal",
+    "healthcare": "clinic",
+    "name": "Consultorios Médicos Frinos",
+    "phone": "+54 11 6529 9068",
+    "id": "node/11219124171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7747534,
+      -34.509487
     ]
   }
 }

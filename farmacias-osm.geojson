@@ -9606,6 +9606,10 @@
   "type": "Feature",
   "id": "way/467542170",
   "properties": {
+    "addr:city": "Ituzaingó",
+    "addr:housenumber": "1502",
+    "addr:postcode": "1714",
+    "addr:street": "Defilippi",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -12853,6 +12857,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
     "wheelchair": "yes",
     "id": "way/470844165"
   },
@@ -16768,12 +16773,17 @@
     "amenity": "pharmacy",
     "building": "commercial",
     "building:levels": "2",
+    "check_date": "2023-09-26",
     "healthcare": "pharmacy",
     "name": "Punta Chica",
     "opening_hours": "Mo-Sa 08:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "phone": "+54 11 4743-1280",
     "roof:levels": "0",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
+    "wheelchair": "no",
     "id": "way/475344727"
   },
   "geometry": {
@@ -24288,12 +24298,15 @@
   "id": "way/555887681",
   "properties": {
     "addr:city": "Esperanza",
+    "addr:housenumber": "742",
     "addr:state": "Santa Fe",
     "addr:street": "Mariano Moreno",
     "amenity": "pharmacy",
     "building": "yes",
+    "contact:facebook": "https://www.facebook.com/FuentesFarmacia/",
     "healthcare": "pharmacy",
     "name": "Farmacia Fuentes",
+    "phone": "+54 3496 561229",
     "id": "way/555887681"
   },
   "geometry": {
@@ -29051,7 +29064,7 @@
     "addr:country": "AR",
     "addr:housenumber": "642",
     "addr:postcode": "6360",
-    "addr:street": "18 - Martín Miguel de Güemes",
+    "addr:street": "Calle 18",
     "amenity": "pharmacy",
     "building": "yes",
     "building:colour": "lightgrey",
@@ -29096,7 +29109,7 @@
     "addr:country": "AR",
     "addr:housenumber": "843",
     "addr:postcode": "6360",
-    "addr:street": "20 - Manuel Belgrano",
+    "addr:street": "Calle 20",
     "amenity": "pharmacy",
     "building": "yes",
     "dispensing": "yes",
@@ -34269,7 +34282,7 @@
     "addr:country": "AR",
     "addr:housenumber": "823",
     "addr:postcode": "6360",
-    "addr:street": "18 - Martín Miguel de Güemes",
+    "addr:street": "Calle 18",
     "amenity": "pharmacy",
     "building": "yes",
     "dispensing": "yes",
@@ -36480,7 +36493,7 @@
     "addr:country": "AR",
     "addr:housenumber": "31",
     "addr:postcode": "6100",
-    "addr:street": "Presidente Perón",
+    "addr:street": "Presidente Juan D. Perón",
     "amenity": "pharmacy",
     "building": "retail",
     "contact:email": "farma.bollero@gmail.com",
@@ -36695,8 +36708,8 @@
           -34.2635117
         ],
         [
-          -62.7105591,
-          -34.2635857
+          -62.7105594,
+          -34.2635861
         ],
         [
           -62.7104282,
@@ -39579,8 +39592,8 @@
     "coordinates": [
       [
         [
-          -62.7091981,
-          -34.2648599
+          -62.7091973,
+          -34.2648467
         ],
         [
           -62.7092217,
@@ -39595,12 +39608,12 @@
           -34.2649896
         ],
         [
-          -62.7090981,
-          -34.264883
+          -62.7090964,
+          -34.2648674
         ],
         [
-          -62.7091981,
-          -34.2648599
+          -62.7091973,
+          -34.2648467
         ]
       ]
     ]
@@ -39707,6 +39720,91 @@
         [
           -55.5123614,
           -27.1277876
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1209739298",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "retail",
+    "healthcare": "pharmacy",
+    "height": "3.5",
+    "name": "Bengua",
+    "id": "way/1209739298"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.7143251,
+          -34.2649435
+        ],
+        [
+          -62.7143564,
+          -34.2650434
+        ],
+        [
+          -62.7142908,
+          -34.2650574
+        ],
+        [
+          -62.7142595,
+          -34.2649575
+        ],
+        [
+          -62.7143251,
+          -34.2649435
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1210202679",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "id": "way/1210202679"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5093311,
+          -31.6207947
+        ],
+        [
+          -58.5094377,
+          -31.6208927
+        ],
+        [
+          -58.5093332,
+          -31.6209751
+        ],
+        [
+          -58.50929,
+          -31.6209354
+        ],
+        [
+          -58.5093362,
+          -31.6208989
+        ],
+        [
+          -58.5092728,
+          -31.6208406
+        ],
+        [
+          -58.5093311,
+          -31.6207947
         ]
       ]
     ]
@@ -57323,23 +57421,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2431657675",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Bengua",
-    "id": "node/2431657675"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -62.714235,
-      -34.2649023
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2432403242",
   "properties": {
     "amenity": "pharmacy",
@@ -58749,10 +58830,12 @@
     "addr:postcode": "1646",
     "addr:street": "Madero",
     "amenity": "pharmacy",
+    "check_date": "2023-09-22",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Traynor",
     "phone": "+54 11 4744-6818",
+    "wheelchair": "no",
     "id": "node/2501739142"
   },
   "geometry": {
@@ -90259,13 +90342,15 @@
   "type": "Feature",
   "id": "node/4424509892",
   "properties": {
-    "addr:housenumber": "255",
+    "addr:city": "Libertador San Martín",
+    "addr:housenumber": "339",
     "addr:postcode": "3103",
     "addr:street": "25 de Mayo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Püiggari",
     "name:es": "Farmacia Püiggari",
+    "ref:sisa_codigo": "70300212342997",
     "id": "node/4424509892"
   },
   "geometry": {
@@ -90280,11 +90365,16 @@
   "type": "Feature",
   "id": "node/4424509992",
   "properties": {
+    "addr:city": "Libertador San Martín",
+    "addr:housenumber": "30",
+    "addr:postcode": "3103",
+    "addr:street": "25 de Mayo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Marrone",
     "name:es": "Farmacia Marrone",
     "opening_hours": "Su-Th 08:00-13:30,15:00-21:00, Fr 08:00-19:00",
+    "ref:sisa_codigo": "70300212342975",
     "id": "node/4424509992"
   },
   "geometry": {
@@ -90299,11 +90389,16 @@
   "type": "Feature",
   "id": "node/4424519689",
   "properties": {
+    "addr:city": "Libertador San Martín",
+    "addr:housenumber": "302",
+    "addr:postcode": "3103",
+    "addr:street": "25 de Mayo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Libertador",
     "name:es": "Farmacia Libertador",
     "opening_hours": "Fr 08:00-18:00, Su-Th 08:00-13:00,15:00-19:00, Sa 20:00-21:30",
+    "ref:sisa_codigo": "70300212342980",
     "id": "node/4424519689"
   },
   "geometry": {
@@ -111648,6 +111743,9 @@
   "type": "Feature",
   "id": "node/5374070068",
   "properties": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Bulevar Sáenz Peña",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -111665,6 +111763,9 @@
   "type": "Feature",
   "id": "node/5374070078",
   "properties": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Bulevar Sáenz Peña",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -111682,6 +111783,9 @@
   "type": "Feature",
   "id": "node/5374070092",
   "properties": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Avenida Brigadier Bustos",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -111699,6 +111803,9 @@
   "type": "Feature",
   "id": "node/5374070097",
   "properties": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Boulevard 9 de Julio",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -111716,6 +111823,9 @@
   "type": "Feature",
   "id": "node/5374070115",
   "properties": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Boulevard 9 de Julio",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -125873,6 +125983,10 @@
   "type": "Feature",
   "id": "node/6358991350",
   "properties": {
+    "addr:city": "Marcos Paz",
+    "addr:housenumber": "2087",
+    "addr:postcode": "1727",
+    "addr:street": "Ramón Melgar",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Ishikawa",

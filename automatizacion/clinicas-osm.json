@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-09-21T00:29:42Z",
-    "timestamp_areas_base": "2023-09-20T22:32:18Z",
+    "timestamp_osm_base": "2023-09-28T01:45:05Z",
+    "timestamp_areas_base": "2023-09-28T00:17:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -313,25 +313,6 @@
     "operator:type": "public",
     "phone": "+54 237-4669240",
     "ref:sisa_codigo": "50065602201092",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 1122552587,
-  "lat": -34.5302086,
-  "lon": -58.5753213,
-  "tags": {
-    "addr:city": "José León Suárez",
-    "addr:full": "Av. San Martin 1655",
-    "addr:postcode": "1655",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Doctor Luis Agote",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4580 1056;+54 11 4580 1057",
-    "ref:sisa_codigo": "50063712201231",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -35044,8 +35025,11 @@
   "lat": -34.5058590,
   "lon": -58.7474230,
   "tags": {
+    "addr:city": "José C. Paz",
     "addr:full": "Piñero 755",
+    "addr:housenumber": "925",
     "addr:postcode": "1665",
+    "addr:street": "Piñero",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud Santa Paula",
@@ -35270,8 +35254,11 @@
   "lat": -34.5086050,
   "lon": -58.7374858,
   "tags": {
+    "addr:city": "José C. Paz",
     "addr:full": "General Arenales 362",
+    "addr:housenumber": "362",
     "addr:postcode": "1665",
+    "addr:street": "General Arenales",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria El Ombú",
@@ -44973,6 +44960,48 @@
     "addr:street": "La Rastra",
     "amenity": "clinic",
     "name": "Unidad Sanitaria Villa Angela"
+  }
+},
+{
+  "type": "node",
+  "id": 11214154367,
+  "lat": -31.6490014,
+  "lon": -60.7167066,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "2156",
+    "addr:postcode": "S3000",
+    "addr:street": "Saavedra",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "oncology",
+    "name": "Unidad de Terapia Oncológica"
+  }
+},
+{
+  "type": "node",
+  "id": 11217562337,
+  "lat": -34.6427847,
+  "lon": -58.4111286,
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 11219124171,
+  "lat": -34.5094870,
+  "lon": -58.7747534,
+  "tags": {
+    "addr:city": "José C. Paz",
+    "addr:housenumber": "1836",
+    "addr:postcode": "1665",
+    "addr:street": "Coronel Ramón L. Falcón",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/cmfrino/about/?ref=page_internal",
+    "healthcare": "clinic",
+    "name": "Consultorios Médicos Frinos",
+    "phone": "+54 11 6529 9068"
   }
 },
 {
@@ -54980,6 +55009,9 @@
     5374070119
   ],
   "tags": {
+    "addr:city": "San Francisco",
+    "addr:country": "AR",
+    "addr:postcode": "2400",
     "addr:street": "Boulevard 9 de Julio",
     "amenity": "clinic",
     "building": "yes",
@@ -61576,7 +61608,7 @@
     "addr:country": "AR",
     "addr:housenumber": "400",
     "addr:postcode": "6360",
-    "addr:street": "Avenida San Martín",
+    "addr:street": "Avenida General José de San Martín",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "3",
@@ -62502,6 +62534,28 @@
     "wheelchair": "yes",
     "wikidata": "Q97671903",
     "wikimedia_commons": "File:Centro_de_Salud_Dr._Abel_Faust_(Funes).jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 982030717,
+  "nodes": [
+    9082342601,
+    9082342602,
+    9082342603,
+    9082342604,
+    9082342601
+  ],
+  "tags": {
+    "addr:city": "Sargento Vidal",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8310",
+    "addr:street": "Leopoldo Lugones",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "centre",
+    "name": "Centro de Salud Sargento Vidal",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro"
   }
 },
 {
@@ -65136,6 +65190,30 @@
     "opening_hours": "Mo-Fr 08:00-20:00",
     "phone": "01175302000",
     "website": "https://institutobarrancas.com.ar/el-instituto/"
+  }
+},
+{
+  "type": "way",
+  "id": 1210156208,
+  "nodes": [
+    11211058407,
+    1122552587,
+    11211058408,
+    11211058407
+  ],
+  "tags": {
+    "addr:city": "José León Suárez",
+    "addr:full": "Av. San Martin 1655",
+    "addr:postcode": "B1655",
+    "addr:street": "Diagonal 55 - J. V. González",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°4 Doctor Luis Agote",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50063712201231",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°4"
   }
 },
 {
@@ -71068,6 +71146,30 @@
   "id": 7504303662,
   "lat": -38.8150757,
   "lon": -68.0655206
+},
+{
+  "type": "node",
+  "id": 9082342601,
+  "lat": -38.6898212,
+  "lon": -68.1588488
+},
+{
+  "type": "node",
+  "id": 9082342602,
+  "lat": -38.6897054,
+  "lon": -68.1588498
+},
+{
+  "type": "node",
+  "id": 9082342603,
+  "lat": -38.6897046,
+  "lon": -68.1586994
+},
+{
+  "type": "node",
+  "id": 9082342604,
+  "lat": -38.6898204,
+  "lon": -68.1586984
 },
 {
   "type": "node",
@@ -90850,6 +90952,24 @@
   "id": 4589987147,
   "lat": -34.5393233,
   "lon": -58.5229353
+},
+{
+  "type": "node",
+  "id": 1122552587,
+  "lat": -34.5303354,
+  "lon": -58.5752604
+},
+{
+  "type": "node",
+  "id": 11211058407,
+  "lat": -34.5300666,
+  "lon": -58.5755941
+},
+{
+  "type": "node",
+  "id": 11211058408,
+  "lat": -34.5299434,
+  "lon": -58.5753300
 },
 {
   "type": "node",
