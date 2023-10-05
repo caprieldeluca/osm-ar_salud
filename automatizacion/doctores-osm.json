@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-09-28T01:47:15Z",
-    "timestamp_areas_base": "2023-09-27T20:47:26Z",
+    "timestamp_osm_base": "2023-10-05T01:05:00Z",
+    "timestamp_areas_base": "2023-10-04T23:49:36Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13366,26 +13366,6 @@
 },
 {
   "type": "node",
-  "id": 7503275593,
-  "lat": -32.9163457,
-  "lon": -60.7202017,
-  "tags": {
-    "addr:full": "Avenida Genova 7237",
-    "addr:housenumber": "7237",
-    "addr:postcode": "2000",
-    "addr:street": "Avenida Génova",
-    "amenity": "doctors",
-    "contact:phone": "+54 341 480-7542",
-    "healthcare": "doctor",
-    "name": "Centro de Salud 16 Pablo VI",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842184835",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7504170866,
   "lat": -34.2240274,
   "lon": -59.2328578,
@@ -18553,10 +18533,13 @@
   "lon": -58.5597580,
   "tags": {
     "addr:housenumber": "598",
+    "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "doctors",
+    "check_date": "2023-09-28",
     "healthcare": "doctor",
     "name": "Centro de ojos San Fernando",
-    "survey:date": "2022-09-13"
+    "survey:date": "2022-09-13",
+    "wheelchair": "limited"
   }
 },
 {
@@ -19573,6 +19556,16 @@
     "description": "Instagram @osteopatia.org",
     "name": "Kindy Centro Pediátrico",
     "phone": "+543764917408"
+  }
+},
+{
+  "type": "node",
+  "id": 11228210978,
+  "lat": -32.9173702,
+  "lon": -60.7007785,
+  "tags": {
+    "amenity": "doctors",
+    "name": "Consultorios Virgen del Rosario"
   }
 },
 {
@@ -23916,6 +23909,68 @@
   }
 },
 {
+  "type": "way",
+  "id": 1211655410,
+  "nodes": [
+    11225583599,
+    11225583600,
+    11225583601,
+    11225583602,
+    11225583599
+  ],
+  "tags": {
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Sala de primeros auxilios"
+  }
+},
+{
+  "type": "way",
+  "id": 1211931525,
+  "nodes": [
+    11227954194,
+    11227954192,
+    11227954191,
+    11227954190,
+    11227954194
+  ],
+  "tags": {
+    "amenity": "doctors",
+    "building": "yes",
+    "name": "CAPS San Isidro",
+    "official_name": "Centro de Atención Primaria de Salud San Isidro",
+    "operator": "Gobierno de Catamarca"
+  }
+},
+{
+  "type": "way",
+  "id": 1211960610,
+  "nodes": [
+    11228210977,
+    11228210974,
+    11228210975,
+    7503275596,
+    7503275597,
+    11228210976,
+    11228210977
+  ],
+  "tags": {
+    "addr:full": "Avenida Genova 7237",
+    "addr:housenumber": "7237",
+    "addr:postcode": "2000",
+    "addr:street": "Avenida Génova",
+    "amenity": "doctors",
+    "contact:phone": "+54 341 480-7542",
+    "healthcare": "doctor",
+    "name": "Centro de Salud 16 Pablo VI",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842184835",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "relation",
   "id": 8052156,
   "members": [
@@ -26490,6 +26545,42 @@
 },
 {
   "type": "node",
+  "id": 7503275596,
+  "lat": -32.9164587,
+  "lon": -60.7202527
+},
+{
+  "type": "node",
+  "id": 7503275597,
+  "lat": -32.9163124,
+  "lon": -60.7202566
+},
+{
+  "type": "node",
+  "id": 11228210974,
+  "lat": -32.9164916,
+  "lon": -60.7200856
+},
+{
+  "type": "node",
+  "id": 11228210975,
+  "lat": -32.9164948,
+  "lon": -60.7202517
+},
+{
+  "type": "node",
+  "id": 11228210976,
+  "lat": -32.9162811,
+  "lon": -60.7202574
+},
+{
+  "type": "node",
+  "id": 11228210977,
+  "lat": -32.9162780,
+  "lon": -60.7200913
+},
+{
+  "type": "node",
   "id": 5358150274,
   "lat": -32.9392485,
   "lon": -60.6517974
@@ -26691,6 +26782,30 @@
   "id": 5364254889,
   "lat": -31.6073818,
   "lon": -60.6927989
+},
+{
+  "type": "node",
+  "id": 11225583599,
+  "lat": -35.0570885,
+  "lon": -59.0396434
+},
+{
+  "type": "node",
+  "id": 11225583600,
+  "lat": -35.0570153,
+  "lon": -59.0395923
+},
+{
+  "type": "node",
+  "id": 11225583601,
+  "lat": -35.0569491,
+  "lon": -59.0397349
+},
+{
+  "type": "node",
+  "id": 11225583602,
+  "lat": -35.0570223,
+  "lon": -59.0397882
 },
 {
   "type": "node",
@@ -28405,38 +28520,62 @@
 {
   "type": "node",
   "id": 5879087106,
-  "lat": -28.4958542,
-  "lon": -65.8011123
+  "lat": -28.4958837,
+  "lon": -65.8011083
 },
 {
   "type": "node",
   "id": 5879087107,
-  "lat": -28.4958220,
-  "lon": -65.8010834
+  "lat": -28.4958515,
+  "lon": -65.8010794
 },
 {
   "type": "node",
   "id": 5879087108,
-  "lat": -28.4957908,
-  "lon": -65.8011285
+  "lat": -28.4958203,
+  "lon": -65.8011245
 },
 {
   "type": "node",
   "id": 5879087109,
-  "lat": -28.4956812,
-  "lon": -65.8010301
+  "lat": -28.4957107,
+  "lon": -65.8010261
 },
 {
   "type": "node",
   "id": 5879087110,
-  "lat": -28.4957942,
-  "lon": -65.8008673
+  "lat": -28.4958237,
+  "lon": -65.8008633
 },
 {
   "type": "node",
   "id": 5879087111,
-  "lat": -28.4959359,
-  "lon": -65.8009946
+  "lat": -28.4959654,
+  "lon": -65.8009906
+},
+{
+  "type": "node",
+  "id": 11227954190,
+  "lat": -28.4582675,
+  "lon": -65.7244947
+},
+{
+  "type": "node",
+  "id": 11227954191,
+  "lat": -28.4582189,
+  "lon": -65.7244849
+},
+{
+  "type": "node",
+  "id": 11227954192,
+  "lat": -28.4581971,
+  "lon": -65.7246284
+},
+{
+  "type": "node",
+  "id": 11227954194,
+  "lat": -28.4582525,
+  "lon": -65.7246378
 },
 {
   "type": "node",

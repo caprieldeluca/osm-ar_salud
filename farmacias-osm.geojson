@@ -8040,9 +8040,17 @@
     "addr:street": "Estados Unidos",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2023-09-28",
     "healthcare": "pharmacy",
     "name": "Roma Farmacia",
+    "opening_hours": "Mo-Sa 08:00-20:30",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+54 11 4709-1531",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited",
     "id": "way/466470446"
   },
   "geometry": {
@@ -17313,6 +17321,50 @@
         [
           -58.5550022,
           -34.44222
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/475966653",
+  "properties": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1599",
+    "addr:postcode": "1646",
+    "addr:street": "Constitución",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Gioia",
+    "ref:sisa_codigo": "70067492313502",
+    "source": "Reconocimiento terrestre 2016 por Kaart.",
+    "id": "way/475966653"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5528727,
+          -34.4441546
+        ],
+        [
+          -58.5527721,
+          -34.4442369
+        ],
+        [
+          -58.552733,
+          -34.4442044
+        ],
+        [
+          -58.5528337,
+          -34.4441221
+        ],
+        [
+          -58.5528727,
+          -34.4441546
         ]
       ]
     ]
@@ -32339,6 +32391,10 @@
           -31.5282433
         ],
         [
+          -68.5671135,
+          -31.5282435
+        ],
+        [
           -68.5671781,
           -31.5282442
         ]
@@ -37948,46 +38004,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1103756399",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "building:levels": "3",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "roof:shape": "flat",
-    "id": "way/1103756399"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5050254,
-          -31.6258688
-        ],
-        [
-          -58.5051241,
-          -31.6257938
-        ],
-        [
-          -58.5052156,
-          -31.625881
-        ],
-        [
-          -58.5051169,
-          -31.625956
-        ],
-        [
-          -58.5050254,
-          -31.6258688
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1108377133",
   "properties": {
     "addr:housenumber": "1631",
@@ -39011,8 +39027,9 @@
   "id": "way/1189732296",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "1",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Lago Trafúl",
     "amenity": "pharmacy",
     "building": "yes",
@@ -39177,8 +39194,9 @@
   "id": "way/1190295751",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "394",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Avenida del Trabajo",
     "amenity": "pharmacy",
     "building": "yes",
@@ -39805,6 +39823,43 @@
         [
           -58.5093311,
           -31.6207947
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1212231697",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/1212231697"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.3392337,
+          -33.3018142
+        ],
+        [
+          -66.3391465,
+          -33.3017955
+        ],
+        [
+          -66.3391953,
+          -33.3016363
+        ],
+        [
+          -66.3392824,
+          -33.301655
+        ],
+        [
+          -66.3392337,
+          -33.3018142
         ]
       ]
     ]
@@ -42192,7 +42247,6 @@
     "delivery": "yes",
     "healthcare": "pharmacy",
     "name": "FarmaVital",
-    "note": "Realizan envíos a domicilio",
     "phone": "+54 11 4635-5777",
     "id": "node/825410021"
   },
@@ -45937,6 +45991,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/1446652613",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Los Angeles",
+    "id": "node/1446652613"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5676493,
+      -28.0655656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1446710619",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Santa Rita",
+    "id": "node/1446710619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5647376,
+      -28.0624215
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1446731579",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Central 2",
+    "id": "node/1446731579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5626585,
+      -28.0643977
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1446731583",
   "properties": {
     "amenity": "pharmacy",
@@ -45947,8 +46049,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.5632771,
-      -28.0646449
+      -67.5633012,
+      -28.0645526
     ]
   }
 },
@@ -63800,15 +63902,19 @@
   "type": "Feature",
   "id": "node/2810793816",
   "properties": {
+    "addr:housenumber": "2102",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
+    "contact:phone": "54 0261 4521237",
     "healthcare": "pharmacy",
+    "name": "Farmacia Horizonte",
     "id": "node/2810793816"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8210048,
-      -32.94256
+      -68.8209726,
+      -32.942596
     ]
   }
 },
@@ -66383,13 +66489,14 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Virgen Del Valle",
     "id": "node/3054405639"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.6195085,
-      -27.6909345
+      -67.6190673,
+      -27.6916363
     ]
   }
 },
@@ -81609,8 +81716,10 @@
     "addr:city": "Cipolletti",
     "addr:housenumber": "224",
     "addr:postcode": "R8324",
-    "addr:street": "Avenida Augusto Celestino Mengelle",
+    "addr:street": "Avenida Mengelle",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia del Sol",
     "id": "node/3893917971"
@@ -81618,8 +81727,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.0018791,
-      -38.9381916
+      -68.0018476,
+      -38.9381497
     ]
   }
 },
@@ -94480,8 +94589,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.6184077,
-      -27.6911022
+      -67.6185311,
+      -27.6910286
     ]
   }
 },
@@ -98625,18 +98734,22 @@
   "type": "Feature",
   "id": "node/4669021490",
   "properties": {
+    "addr:city": "Virreyes",
+    "addr:housenumber": "4810",
+    "addr:postcode": "1646",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Panama",
+    "ref:sisa_codigo": "70067492314875",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
     "id": "node/4669021490"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5838837,
-      -34.4661789
+      -58.5846086,
+      -34.4665303
     ]
   }
 },
@@ -98912,6 +99025,7 @@
     "healthcare": "pharmacy",
     "name": "Bustelo",
     "phone": "+54 11 4746-6669",
+    "ref:sisa_codigo": "70067492313644",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/4673478203"
   },
@@ -102139,18 +102253,16 @@
   "type": "Feature",
   "id": "node/4708489650",
   "properties": {
-    "addr:street": "Avenida Olivera",
     "amenity": "pharmacy",
     "fixme": "name",
     "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016.",
     "id": "node/4708489650"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4862518,
-      -34.6403977
+      -58.4862853,
+      -34.6404032
     ]
   }
 },
@@ -107992,24 +108104,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5221455722",
-  "properties": {
-    "addr:street": "Rivadavia",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Rivadavia",
-    "id": "node/5221455722"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -66.3365313,
-      -33.3011828
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5223390921",
   "properties": {
     "amenity": "pharmacy",
@@ -108168,7 +108262,7 @@
     "name": "Farmacia Ubino",
     "name:en": "Pharmacy Ubino",
     "phone": "03584888446",
-    "website": "http://www.facebook.com/farmaciaubinoalpa",
+    "website": "https://www.facebook.com/farmaciaubinoalpa",
     "id": "node/5236538222"
   },
   "geometry": {
@@ -113836,6 +113930,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Santa Teresita",
     "id": "node/5487184098"
   },
   "geometry": {
@@ -113871,7 +113966,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Lourdes 1",
+    "name": "Lourdes I",
     "id": "node/5487203040"
   },
   "geometry": {
@@ -113889,6 +113984,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Del Centro",
     "id": "node/5487224793"
   },
   "geometry": {
@@ -113906,6 +114002,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Lourdes II",
     "id": "node/5487224797"
   },
   "geometry": {
@@ -125248,7 +125345,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
-    "website": "http://www.gpsfarma.com/",
+    "website": "https://gpsfarma.com/",
     "id": "node/6316883273"
   },
   "geometry": {
@@ -139460,8 +139557,9 @@
   "id": "node/7641308030",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "699",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Avenida Olascoaga",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -150472,8 +150570,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.569387,
-      -28.0677503
+      -67.5692743,
+      -28.0677858
     ]
   }
 },
@@ -150631,6 +150729,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Zinga",
+    "ref:sisa_codigo": "70067492311034",
     "id": "node/9733688693"
   },
   "geometry": {
@@ -150653,6 +150752,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Rubinich",
+    "ref:sisa_codigo": "70067492313626",
     "id": "node/9733688695"
   },
   "geometry": {
@@ -153867,9 +153967,17 @@
   "id": "node/10005157817",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-09-30",
     "healthcare": "pharmacy",
     "name": "Bruno",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "survey:date": "2022-09-06",
+    "wheelchair": "limited",
     "id": "node/10005157817"
   },
   "geometry": {
@@ -165383,8 +165491,9 @@
   "id": "node/11033469310",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "199",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Avenida Olascoaga",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -165406,8 +165515,9 @@
   "id": "node/11033469352",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "727",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Avenida del Trabajo",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -165700,8 +165810,9 @@
   "id": "node/11064018108",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "299",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Gobernador Elordi",
     "amenity": "pharmacy",
     "description": "Sucursal N° 1",
@@ -165811,8 +165922,9 @@
   "id": "node/11067337884",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "276",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Roque Sáenz Peña",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -165834,8 +165946,9 @@
   "id": "node/11067432148",
   "properties": {
     "addr:city": "Cutral Có",
+    "addr:country": "AR",
     "addr:housenumber": "147",
-    "addr:postcode": "Q8322",
+    "addr:postcode": "8322",
     "addr:street": "Avenida Julio Argentino Roca",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -167118,6 +167231,332 @@
     "coordinates": [
       -68.7855533,
       -32.9671063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11225751995",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2023-09-28",
+    "healthcare": "pharmacy",
+    "name": "Lässig",
+    "phone": "+54 9 11 4184-6780",
+    "wheelchair": "yes",
+    "id": "node/11225751995"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5611181,
+      -34.4362082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11225765455",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "San Roque",
+    "id": "node/11225765455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4689804,
+      -30.208727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11225765462",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Quilino",
+    "id": "node/11225765462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.5000739,
+      -30.2162369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11225765463",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Chavez",
+    "id": "node/11225765463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.500825,
+      -30.2153828
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11226275806",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "San Antonio",
+    "id": "node/11226275806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.8124962,
+      -28.551413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11226275807",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "San Nicolas",
+    "id": "node/11226275807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.8140626,
+      -28.5545253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11227496210",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Mercedes",
+    "id": "node/11227496210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5577265,
+      -28.0686669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11227496211",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Mayo",
+    "id": "node/11227496211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5656739,
+      -28.0636185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11228196875",
+  "properties": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "2036",
+    "addr:postcode": "1646",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fernandez Casal Oscar Antonio",
+    "ref:sisa_codigo": "70067492310619",
+    "id": "node/11228196875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5650423,
+      -34.444913
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11228198833",
+  "properties": {
+    "addr:street": "Pedro José Agrelo",
+    "amenity": "pharmacy",
+    "name": "Farmacia Agrelo",
+    "id": "node/11228198833"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6919339,
+      -32.8907625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11228201269",
+  "properties": {
+    "addr:city": "San Fernando",
+    "addr:housenumber": "1099",
+    "addr:postcode": "1646",
+    "addr:street": "Coronel Brandsen",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Don Torcuato",
+    "official_name": "202 Don Torcuato Sociedad En C",
+    "ref:sisa_codigo": "70067492312510",
+    "id": "node/11228201269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5597591,
+      -34.4438575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11228274834",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Atenas",
+    "id": "node/11228274834"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4503872,
+      -34.562456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11228325310",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Desamparados III",
+    "id": "node/11228325310"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5763504,
+      -31.524685
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11228881776",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/11228881776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9315686,
+      -27.4216003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11232265667",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/11232265667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5051228,
+      -31.6258447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11234734201",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11234734201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5605589,
+      -45.9234439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11234755521",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11234755521"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5579143,
+      -45.9333411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11236475237",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia dela Plaza",
+    "id": "node/11236475237"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4067427,
+      -34.5844985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11240128351",
+  "properties": {
+    "addr:city": "San Lorenzo",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Francisco",
+    "id": "node/11240128351"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4871346,
+      -24.7355492
     ]
   }
 }

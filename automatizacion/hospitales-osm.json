@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-09-28T01:43:09Z",
-    "timestamp_areas_base": "2023-09-28T00:17:38Z",
+    "timestamp_osm_base": "2023-10-05T01:00:55Z",
+    "timestamp_areas_base": "2023-10-05T00:10:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1326,8 +1326,8 @@
 {
   "type": "node",
   "id": 1446668271,
-  "lat": -28.0666401,
-  "lon": -67.5689618,
+  "lat": -28.0666212,
+  "lon": -67.5689725,
   "tags": {
     "addr:city": "Tinogasta",
     "addr:full": "Moreno 950",
@@ -1345,20 +1345,9 @@
 },
 {
   "type": "node",
-  "id": 1446713900,
-  "lat": -28.0672559,
-  "lon": -67.5662647,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Zonal (Emergencias)"
-  }
-},
-{
-  "type": "node",
   "id": 1446731578,
-  "lat": -28.0643727,
-  "lon": -67.5622617,
+  "lat": -28.0642757,
+  "lon": -67.5622697,
   "tags": {
     "amenity": "hospital",
     "description": "Clínica Privada",
@@ -1942,8 +1931,8 @@
 {
   "type": "node",
   "id": 1796556342,
-  "lat": -27.6921236,
-  "lon": -67.6233977,
+  "lat": -27.6983601,
+  "lon": -67.6223436,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
@@ -7306,17 +7295,6 @@
     "ref:sisa_codigo": "10700212177010",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
-  "id": 3736117375,
-  "lat": -32.9562598,
-  "lon": -60.6320546,
-  "tags": {
-    "amenity": "hospital",
-    "fixme": "name",
-    "healthcare": "hospital"
   }
 },
 {
@@ -17855,8 +17833,8 @@
 {
   "type": "node",
   "id": 7387098570,
-  "lat": -28.6570696,
-  "lon": -66.5469108,
+  "lat": -28.6571143,
+  "lon": -66.5469081,
   "tags": {
     "addr:city": "Villa Mazan",
     "addr:full": "Publica S/N",
@@ -17994,8 +17972,8 @@
 {
   "type": "node",
   "id": 7387098577,
-  "lat": -28.5582826,
-  "lon": -66.7927442,
+  "lat": -28.5580258,
+  "lon": -66.7927335,
   "tags": {
     "addr:city": "Arauco",
     "addr:full": "Casimiro Godoy S/N",
@@ -19611,25 +19589,6 @@
     "operator:type": "private",
     "phone": "0351-5705000",
     "ref:sisa_codigo": "10140142331096",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
-  "id": 7501416570,
-  "lat": -34.5837533,
-  "lon": -58.5874218,
-  "tags": {
-    "addr:housenumber": "6969",
-    "addr:postcode": "1682",
-    "addr:street": "820 - Julio Besada",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Sanatorio Modelo Nuestra Señora de La Merced",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "+54 11 4842-5445",
-    "ref:sisa_codigo": "10068402300458",
     "ref:sisa_tipologia": "ESCIG"
   }
 },
@@ -21514,6 +21473,7 @@
     "addr:full": "Avenida Eva Perón 3619",
     "addr:postcode": "7600",
     "amenity": "hospital",
+    "fixme": "verificar ubicación",
     "healthcare": "hospital",
     "name": "Sanatorio Modelo La Torre San Martin",
     "operator": "Privado",
@@ -23401,6 +23361,16 @@
   }
 },
 {
+  "type": "node",
+  "id": 11225765460,
+  "lat": -30.2140165,
+  "lon": -64.5006412,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hospital Municipal Quilino"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -24210,8 +24180,12 @@
   "id": 29030071,
   "nodes": [
     319255293,
+    11228091237,
+    11228055436,
     319255294,
     319255295,
+    11228055435,
+    11228055434,
     319255296,
     319255293
   ],
@@ -53696,7 +53670,8 @@
     "name": "Sanatorio de la Mujer",
     "opening_hours": "24/7",
     "reservation": "yes",
-    "wheelchair": "yes"
+    "wheelchair": "yes",
+    "wikidata": "Q97691342"
   }
 },
 {
@@ -53822,6 +53797,59 @@
     "operator:type": "public",
     "ref:sisa_codigo": "10820842184161",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "way",
+  "id": 1212903639,
+  "nodes": [
+    11237243653,
+    11237243654,
+    11237243658,
+    11237243660,
+    11237243659,
+    11237243655,
+    11237243689,
+    11237243688,
+    11237243687,
+    11237243686,
+    11237243656,
+    11237243678,
+    11237243685,
+    11237243657,
+    7501416570,
+    11237243684,
+    11237243664,
+    11237243679,
+    11237243680,
+    11237243666,
+    11237243696,
+    11237243695,
+    11237243667,
+    11237243704,
+    11237243665,
+    11237243662,
+    11237243663,
+    11237243661,
+    11237243653
+  ],
+  "tags": {
+    "addr:city": "Martín Coronado",
+    "addr:housenumber": "6969",
+    "addr:postcode": "B1683AEW",
+    "addr:street": "820 - Julio Besada",
+    "alt_name": "Sanatorio Modelo Nuestra Señora de La Merced",
+    "amenity": "hospital",
+    "contact:phone": "+54 11 4842-5445",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Privado Nuestra Señora de La Merced",
+    "operator": "Hospital Privado",
+    "operator:type": "private",
+    "ref:sisa_codigo": "10068402300458",
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "https://www.hospitallamerced.com.ar/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -71917,26 +71945,26 @@
 {
   "type": "node",
   "id": 1979663199,
-  "lat": -34.2657756,
-  "lon": -62.7123597
+  "lat": -34.2657724,
+  "lon": -62.7123667
 },
 {
   "type": "node",
   "id": 1979663207,
-  "lat": -34.2656479,
-  "lon": -62.7123198
+  "lat": -34.2656458,
+  "lon": -62.7123294
 },
 {
   "type": "node",
   "id": 1979663211,
-  "lat": -34.2656996,
-  "lon": -62.7127287
+  "lat": -34.2656998,
+  "lon": -62.7127283
 },
 {
   "type": "node",
   "id": 1979663213,
-  "lat": -34.2655747,
-  "lon": -62.7126910
+  "lat": -34.2655732,
+  "lon": -62.7126911
 },
 {
   "type": "node",
@@ -90337,14 +90365,14 @@
 {
   "type": "node",
   "id": 7407572087,
-  "lat": -34.8663953,
-  "lon": -57.8892942
+  "lat": -34.8664093,
+  "lon": -57.8893045
 },
 {
   "type": "node",
   "id": 7407572088,
-  "lat": -34.8665163,
-  "lon": -57.8888972
+  "lat": -34.8665486,
+  "lon": -57.8889177
 },
 {
   "type": "node",
@@ -98125,26 +98153,218 @@
 {
   "type": "node",
   "id": 319255293,
-  "lat": -34.5629140,
-  "lon": -58.6032838
+  "lat": -34.5629706,
+  "lon": -58.6032986
 },
 {
   "type": "node",
   "id": 319255296,
-  "lat": -34.5637696,
-  "lon": -58.6032689
+  "lat": -34.5637402,
+  "lon": -58.6032844
+},
+{
+  "type": "node",
+  "id": 11228055434,
+  "lat": -34.5637684,
+  "lon": -58.6032475
+},
+{
+  "type": "node",
+  "id": 11228091237,
+  "lat": -34.5629430,
+  "lon": -58.6032653
 },
 {
   "type": "node",
   "id": 319255294,
-  "lat": -34.5629194,
-  "lon": -58.6020966
+  "lat": -34.5629638,
+  "lon": -58.6020727
 },
 {
   "type": "node",
   "id": 319255295,
-  "lat": -34.5637473,
-  "lon": -58.6021013
+  "lat": -34.5637435,
+  "lon": -58.6020631
+},
+{
+  "type": "node",
+  "id": 11228055435,
+  "lat": -34.5637638,
+  "lon": -58.6020869
+},
+{
+  "type": "node",
+  "id": 11228055436,
+  "lat": -34.5629348,
+  "lon": -58.6021079
+},
+{
+  "type": "node",
+  "id": 7501416570,
+  "lat": -34.5837319,
+  "lon": -58.5875874
+},
+{
+  "type": "node",
+  "id": 11237243653,
+  "lat": -34.5832372,
+  "lon": -58.5870347
+},
+{
+  "type": "node",
+  "id": 11237243654,
+  "lat": -34.5834306,
+  "lon": -58.5867799
+},
+{
+  "type": "node",
+  "id": 11237243655,
+  "lat": -34.5836252,
+  "lon": -58.5870068
+},
+{
+  "type": "node",
+  "id": 11237243656,
+  "lat": -34.5839447,
+  "lon": -58.5873551
+},
+{
+  "type": "node",
+  "id": 11237243657,
+  "lat": -34.5837698,
+  "lon": -58.5875854
+},
+{
+  "type": "node",
+  "id": 11237243658,
+  "lat": -34.5834972,
+  "lon": -58.5868540
+},
+{
+  "type": "node",
+  "id": 11237243659,
+  "lat": -34.5837205,
+  "lon": -58.5868828
+},
+{
+  "type": "node",
+  "id": 11237243660,
+  "lat": -34.5835865,
+  "lon": -58.5867371
+},
+{
+  "type": "node",
+  "id": 11237243661,
+  "lat": -34.5833027,
+  "lon": -58.5871083
+},
+{
+  "type": "node",
+  "id": 11237243662,
+  "lat": -34.5834342,
+  "lon": -58.5872551
+},
+{
+  "type": "node",
+  "id": 11237243663,
+  "lat": -34.5833399,
+  "lon": -58.5871496
+},
+{
+  "type": "node",
+  "id": 11237243664,
+  "lat": -34.5836329,
+  "lon": -58.5874772
+},
+{
+  "type": "node",
+  "id": 11237243665,
+  "lat": -34.5835667,
+  "lon": -58.5874030
+},
+{
+  "type": "node",
+  "id": 11237243666,
+  "lat": -34.5837647,
+  "lon": -58.5873056
+},
+{
+  "type": "node",
+  "id": 11237243667,
+  "lat": -34.5836977,
+  "lon": -58.5872326
+},
+{
+  "type": "node",
+  "id": 11237243678,
+  "lat": -34.5838831,
+  "lon": -58.5874362
+},
+{
+  "type": "node",
+  "id": 11237243679,
+  "lat": -34.5837027,
+  "lon": -58.5873873
+},
+{
+  "type": "node",
+  "id": 11237243680,
+  "lat": -34.5837284,
+  "lon": -58.5873532
+},
+{
+  "type": "node",
+  "id": 11237243684,
+  "lat": -34.5837020,
+  "lon": -58.5875541
+},
+{
+  "type": "node",
+  "id": 11237243685,
+  "lat": -34.5838192,
+  "lon": -58.5875204
+},
+{
+  "type": "node",
+  "id": 11237243686,
+  "lat": -34.5838604,
+  "lon": -58.5872632
+},
+{
+  "type": "node",
+  "id": 11237243687,
+  "lat": -34.5838384,
+  "lon": -58.5872393
+},
+{
+  "type": "node",
+  "id": 11237243688,
+  "lat": -34.5837879,
+  "lon": -58.5871841
+},
+{
+  "type": "node",
+  "id": 11237243689,
+  "lat": -34.5837718,
+  "lon": -58.5871666
+},
+{
+  "type": "node",
+  "id": 11237243695,
+  "lat": -34.5837248,
+  "lon": -58.5872621
+},
+{
+  "type": "node",
+  "id": 11237243696,
+  "lat": -34.5837432,
+  "lon": -58.5872822
+},
+{
+  "type": "node",
+  "id": 11237243704,
+  "lat": -34.5836632,
+  "lon": -58.5872776
 },
 {
   "type": "node",
@@ -104917,26 +105137,26 @@
 {
   "type": "node",
   "id": 10001184719,
-  "lat": -29.2228221,
-  "lon": -65.7740850
+  "lat": -29.2228128,
+  "lon": -65.7740542
 },
 {
   "type": "node",
   "id": 10001184720,
-  "lat": -29.2231850,
-  "lon": -65.7739257
+  "lat": -29.2231712,
+  "lon": -65.7739116
 },
 {
   "type": "node",
   "id": 10001184721,
-  "lat": -29.2230692,
-  "lon": -65.7735143
+  "lat": -29.2230917,
+  "lon": -65.7736494
 },
 {
   "type": "node",
   "id": 10001184722,
-  "lat": -29.2227140,
-  "lon": -65.7736514
+  "lat": -29.2227333,
+  "lon": -65.7737919
 },
 {
   "type": "node",
