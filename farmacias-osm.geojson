@@ -5215,7 +5215,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "ER",
+    "name": "Roncarolo",
     "note": "ubicacion aproximada (44 196 y 197)",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/459449771"
@@ -13044,7 +13044,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
+    "name": "Farmacia Lope de Vega",
     "source": "Actualizaciones en Argentina. cartográfico 2016 por KG.",
     "id": "way/471143800"
   },
@@ -15742,9 +15742,13 @@
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
     "building": "yes",
+    "building:levels": "3",
+    "check_date": "2023-10-09",
     "healthcare": "pharmacy",
     "name": "Pami",
+    "roof:levels": "1",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.;local knowledge",
+    "wheelchair": "limited",
     "id": "way/473633053"
   },
   "geometry": {
@@ -17019,50 +17023,6 @@
         [
           -58.5823655,
           -34.4285392
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/475552742",
-  "properties": {
-    "addr:city": "Buenos Aires",
-    "addr:street": "Avenida Directorio",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre 2016 por Kaart.",
-    "id": "way/475552742"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.4335385,
-          -34.6280928
-        ],
-        [
-          -58.4335669,
-          -34.6280954
-        ],
-        [
-          -58.4336155,
-          -34.6281442
-        ],
-        [
-          -58.433608,
-          -34.6281998
-        ],
-        [
-          -58.4335251,
-          -34.6281922
-        ],
-        [
-          -58.4335385,
-          -34.6280928
         ]
       ]
     ]
@@ -28008,6 +27968,7 @@
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2023-10-18",
     "healthcare": "pharmacy",
     "name": "Farmacia Maroni",
     "operator:type": "private",
@@ -36747,7 +36708,7 @@
     "amenity": "pharmacy",
     "building:part": "yes",
     "healthcare": "pharmacy",
-    "height": "5",
+    "height": "6",
     "name": "ADOS",
     "id": "way/1032608373"
   },
@@ -36764,8 +36725,8 @@
           -34.2635117
         ],
         [
-          -62.7105594,
-          -34.2635861
+          -62.710559,
+          -34.2635848
         ],
         [
           -62.7104282,
@@ -39790,6 +39751,7 @@
     "building": "retail",
     "building:levels": "1",
     "healthcare": "pharmacy",
+    "name": "Las Avenidas",
     "id": "way/1210202679"
   },
   "geometry": {
@@ -39860,6 +39822,44 @@
         [
           -66.3392337,
           -33.3018142
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1213298793",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Elevora",
+    "id": "way/1213298793"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.1214469,
+          -38.8337309
+        ],
+        [
+          -68.1214027,
+          -38.8338354
+        ],
+        [
+          -68.1212002,
+          -38.8338009
+        ],
+        [
+          -68.1212444,
+          -38.8336839
+        ],
+        [
+          -68.1214469,
+          -38.8337309
         ]
       ]
     ]
@@ -39990,8 +39990,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7796839,
-      -28.4682703
+      -65.7796962,
+      -28.4682791
     ]
   }
 },
@@ -52359,10 +52359,17 @@
     "addr:postcode": "1640",
     "addr:street": "Arenales",
     "amenity": "pharmacy",
+    "check_date": "2023-10-12",
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
     "opening_hours": "Mo-Su 08:30-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "phone": "+54 11 4792 1202",
+    "wheelchair": "no",
     "id": "node/2136234467"
   },
   "geometry": {
@@ -52914,8 +52921,14 @@
     "addr:postcode": "B1641",
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
+    "check_date": "2023-10-13",
     "healthcare": "pharmacy",
     "name": "Zona Vital",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "http://www.vitalacassuso.com.ar/",
     "wheelchair": "yes",
@@ -54384,8 +54397,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.0529395,
-      -34.9994209
+      -58.0527397,
+      -34.999099
     ]
   }
 },
@@ -55565,9 +55578,11 @@
     "addr:housenumber": "2502",
     "addr:street": "Beruti",
     "amenity": "pharmacy",
+    "check_date": "2023-10-16",
     "healthcare": "pharmacy",
-    "name": "Soy Tu",
+    "name": "Soy Tu farmacia",
     "opening_hours": "24/7",
+    "wheelchair": "no",
     "id": "node/2330170841"
   },
   "geometry": {
@@ -66506,7 +66521,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "General Mosconi",
+    "name": "Farmacias Patagonicas",
     "id": "node/3068755196"
   },
   "geometry": {
@@ -67990,17 +68005,15 @@
   "properties": {
     "addr:street": "Paraguay",
     "amenity": "pharmacy",
-    "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Big Pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/3184669862"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3757265,
-      -34.597502
+      -58.3757238,
+      -34.5974534
     ]
   }
 },
@@ -69130,9 +69143,13 @@
   "properties": {
     "amenity": "pharmacy",
     "branch": "Belgrano II",
+    "check_date": "2023-10-09",
     "healthcare": "pharmacy",
     "name": "Farmaplus",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "phone": "08105557777",
     "website": "www.farmaplus.com.ar",
+    "wheelchair": "limited",
     "id": "node/3232806264"
   },
   "geometry": {
@@ -69674,9 +69691,18 @@
   "id": "node/3271176361",
   "properties": {
     "amenity": "pharmacy",
+    "branch": "Barrio Norte III",
+    "check_date": "2023-10-16",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Azul",
+    "name": "Farmaplus",
+    "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "wheelchair": "no",
     "id": "node/3271176361"
   },
   "geometry": {
@@ -84005,6 +84031,7 @@
   "id": "node/4082392257",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-10-16",
     "healthcare": "pharmacy",
     "name": "Vinciguerra",
     "id": "node/4082392257"
@@ -86396,9 +86423,17 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+54 11 4567-6986",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "http://www.havanna.com.ar/",
+    "wheelchair": "yes",
     "id": "node/4224013291"
   },
   "geometry": {
@@ -96724,6 +96759,9 @@
   "type": "Feature",
   "id": "node/4636186593",
   "properties": {
+    "addr:city": "9 de Abril",
+    "addr:housenumber": "6039",
+    "addr:street": "Ruta de la Tradición",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Victoria",
@@ -98413,10 +98451,18 @@
     "addr:postcode": "B1640",
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
+    "check_date": "2023-10-11",
     "healthcare": "pharmacy",
     "name": "Openfarma",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "http://www.openfarma.com.ar/",
+    "wheelchair": "yes",
     "id": "node/4660470253"
   },
   "geometry": {
@@ -99022,11 +99068,13 @@
     "addr:postcode": "1646",
     "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2023-10-09",
     "healthcare": "pharmacy",
     "name": "Bustelo",
     "phone": "+54 11 4746-6669",
     "ref:sisa_codigo": "70067492313644",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "wheelchair": "no",
     "id": "node/4673478203"
   },
   "geometry": {
@@ -119049,6 +119097,10 @@
   "type": "Feature",
   "id": "node/5817731053",
   "properties": {
+    "addr:city": "Ituzaingó",
+    "addr:housenumber": "14747",
+    "addr:postcode": "3302",
+    "addr:street": "Centenario",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Antonio",
@@ -123237,6 +123289,22 @@
 },
 {
   "type": "Feature",
+  "id": "node/6196622819",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Arienti",
+    "id": "node/6196622819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.462562,
+      -43.0770816
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6196622853",
   "properties": {
     "amenity": "pharmacy",
@@ -126822,11 +126890,18 @@
   "id": "node/6432893723",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-10-13",
     "healthcare": "pharmacy",
     "name": "Del Águila",
     "opening_hours": "Mo-Sa 08:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "survey:date": "2022-07-21",
     "website": "www.farmaciasdelaguila.com.ar",
+    "wheelchair": "yes",
     "id": "node/6432893723"
   },
   "geometry": {
@@ -128550,8 +128625,8 @@
     "addr:street": "19 - General Las Heras",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Mugica",
-    "phone": "02323 423007",
+    "name": "Wolter",
+    "phone": "+54 2323 42-3007",
     "id": "node/6813173354"
   },
   "geometry": {
@@ -140018,7 +140093,10 @@
   "id": "node/7725925633",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-10-05",
     "healthcare": "pharmacy",
+    "phone": "+54 11 4639-7169",
+    "wheelchair": "no",
     "id": "node/7725925633"
   },
   "geometry": {
@@ -140626,8 +140704,15 @@
   "id": "node/7813580368",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacias Dr Ahorro",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 10:00-20:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "https://www.farmaciasdrahorro.com.ar/",
+    "wheelchair": "limited",
     "id": "node/7813580368"
   },
   "geometry": {
@@ -156377,6 +156462,21 @@
 },
 {
   "type": "Feature",
+  "id": "node/10597912564",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/10597912564"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.6000624,
+      -42.0657403
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10600445200",
   "properties": {
     "addr:city": "General San Martín",
@@ -157731,8 +157831,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.2016034,
-      -26.82393
+      -65.2016513,
+      -26.8241145
     ]
   }
 },
@@ -167485,6 +167585,8 @@
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
+    "name": "Engler",
+    "start_date": "1993",
     "id": "node/11232265667"
   },
   "geometry": {
@@ -167557,6 +167659,370 @@
     "coordinates": [
       -65.4871346,
       -24.7355492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11242242494",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11242242494"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -70.2574503,
+      -45.6886388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11244824474",
+  "properties": {
+    "addr:city": "Taco Pozo",
+    "addr:street": "Almirante Brown",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "De Milagro",
+    "id": "node/11244824474"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2676801,
+      -25.6144694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11245063827",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "505",
+    "addr:postcode": "R8324",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Arévalo",
+    "id": "node/11245063827"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0077032,
+      -38.9330012
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11246022377",
+  "properties": {
+    "amenity": "pharmacy",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Mario Martinez",
+    "id": "node/11246022377"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7003957,
+      -31.6265172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11249781629",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:door": "10-11",
+    "addr:street": "Eulalia Ares de Vildoza",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia La Esperanza",
+    "id": "node/11249781629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7223965,
+      -28.457067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11253646732",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Chilecito",
+    "id": "node/11253646732"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.4940133,
+      -29.1719882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11256207377",
+  "properties": {
+    "addr:city": "Felicia",
+    "addr:housenumber": "584",
+    "addr:postcode": "3087",
+    "addr:street": "Pedro Palacios",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "FELICIA",
+    "ref:sisa_codigo": "70820702387182",
+    "id": "node/11256207377"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2142442,
+      -31.2451674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11256207378",
+  "properties": {
+    "addr:city": "Felicia",
+    "addr:housenumber": "374",
+    "addr:postcode": "3087",
+    "addr:street": "Enrique Senn",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Correnti",
+    "ref:sisa_codigo": "70820702387181",
+    "id": "node/11256207378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2114785,
+      -31.2435643
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11256326637",
+  "properties": {
+    "addr:street": "Avenida Libertador General San Martín",
+    "amenity": "pharmacy",
+    "name": "Farmacia Difunta Correa",
+    "opening_hours": "Mo-Su 09:00-13:00, 17:00-22:00",
+    "id": "node/11256326637"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.4993766,
+      -31.5335565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11259963442",
+  "properties": {
+    "addr:city": "Tapalqué",
+    "addr:housenumber": "699",
+    "addr:postcode": "7303",
+    "addr:street": "Avenida 9 de Julio",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100024269917362",
+    "healthcare": "pharmacy",
+    "name": "Palle",
+    "phone": "+54 2283 420598",
+    "id": "node/11259963442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.0229706,
+      -36.3591207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11263138106",
+  "properties": {
+    "addr:city": "San Martín",
+    "addr:housenumber": "4459",
+    "addr:postcode": "B1650CSY",
+    "addr:street": "56 - Domingo Matheu",
+    "amenity": "pharmacy",
+    "contact:email": "recetasdelprogreso@gmail.com",
+    "contact:mobile": "+54 11 2581 0831",
+    "contact:phone": "+54 11 4755 0831",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Farmacia del Progreso",
+    "wheelchair": "yes",
+    "id": "node/11263138106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5449597,
+      -34.5804552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268087772",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "890",
+    "addr:postcode": "3100",
+    "addr:street": "Almafuerte",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Abril",
+    "ref:sisa_codigo": "70300842343102",
+    "id": "node/11268087772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5062809,
+      -31.7493619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268365020",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2023-10-16",
+    "healthcare": "pharmacy",
+    "name": "Farmaplus",
+    "website": "https://www.farmaplus.com.ar",
+    "id": "node/11268365020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4023635,
+      -34.5940666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268436395",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Hollmann",
+    "id": "node/11268436395"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5213523,
+      -35.0787261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268436402",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "D'alessandro",
+    "id": "node/11268436402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5157183,
+      -35.079693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268436437",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Garcia",
+    "id": "node/11268436437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.517614,
+      -35.0773383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268457255",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Viñas",
+    "id": "node/11268457255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5163433,
+      -35.0812866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268475014",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Cerone",
+    "id": "node/11268475014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.744323,
+      -35.0838085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11270018351",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "1505",
+    "addr:street": "Don Bosco",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas",
+    "ref:sisa_codigo": "70300842342758",
+    "id": "node/11270018351"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.49512,
+      -31.7361035
     ]
   }
 }

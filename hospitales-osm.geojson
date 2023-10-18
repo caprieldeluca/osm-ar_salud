@@ -3152,10 +3152,17 @@
   "type": "Feature",
   "id": "way/21064930",
   "properties": {
+    "addr:housenumber": "1330",
+    "addr:street": "Gallo",
     "amenity": "hospital",
+    "check_date": "2023-10-16",
     "email": "info@guti.gob.ar",
+    "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics;paediatric_surgery",
     "name": "Hospital de Niños Ricardo Gutiérrez",
+    "opening_hours": "24/7",
+    "operator:type": "public",
     "phone": "+54 11 4962-9247",
     "website": "http://guti.gob.ar/",
     "wikidata": "Q19776692",
@@ -3507,9 +3514,11 @@
     "addr:postcode": "1118",
     "addr:street": "Avenida Pueyrredón",
     "amenity": "hospital",
+    "check_date": "2023-10-16",
     "healthcare": "hospital",
     "name": "Hospital Alemán",
     "name:de": "Deutsches Hospital",
+    "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "+54 (11) 4827-7000",
@@ -7399,7 +7408,7 @@
     "healthcare": "hospital",
     "name": "Italiano Regional del Sur",
     "phone": "(0291) 550-6700",
-    "website": "http://www.hospitalitalianobb.com.ar",
+    "website": "https://www.hospitalitalianobb.com.ar/",
     "id": "way/121747670"
   },
   "geometry": {
@@ -17223,32 +17232,76 @@
     "coordinates": [
       [
         [
-          -58.8394449,
-          -27.4792556
+          -58.8394637,
+          -27.4792996
         ],
         [
-          -58.8397177,
-          -27.4811132
+          -58.8394748,
+          -27.4793819
         ],
         [
-          -58.8387189,
-          -27.4812288
+          -58.8395891,
+          -27.4802269
         ],
         [
-          -58.8384915,
-          -27.4796828
+          -58.839662,
+          -27.4807654
         ],
         [
-          -58.8387423,
-          -27.4796537
+          -58.8397064,
+          -27.4810935
         ],
         [
-          -58.8386966,
-          -27.4793421
+          -58.8397146,
+          -27.4811542
         ],
         [
-          -58.8394449,
-          -27.4792556
+          -58.8391767,
+          -27.4812177
+        ],
+        [
+          -58.839071,
+          -27.4812302
+        ],
+        [
+          -58.838759,
+          -27.4812671
+        ],
+        [
+          -58.8385913,
+          -27.4802742
+        ],
+        [
+          -58.83856,
+          -27.4800887
+        ],
+        [
+          -58.8385308,
+          -27.4798527
+        ],
+        [
+          -58.8385106,
+          -27.4796893
+        ],
+        [
+          -58.8387551,
+          -27.4796599
+        ],
+        [
+          -58.8387209,
+          -27.4794452
+        ],
+        [
+          -58.8387103,
+          -27.4793673
+        ],
+        [
+          -58.8393715,
+          -27.4793079
+        ],
+        [
+          -58.8394637,
+          -27.4792996
         ]
       ]
     ]
@@ -23255,16 +23308,8 @@
           -34.4133311
         ],
         [
-          -58.5880075,
-          -34.4142526
-        ],
-        [
           -58.5878218,
           -34.4146492
-        ],
-        [
-          -58.5874624,
-          -34.4145812
         ],
         [
           -58.5870702,
@@ -25993,16 +26038,12 @@
     "coordinates": [
       [
         [
-          -60.5787957,
-          -33.0761086
+          -60.5788534,
+          -33.076203
         ],
         [
-          -60.5787845,
-          -33.0762973
-        ],
-        [
-          -60.5786329,
-          -33.076291
+          -60.5787818,
+          -33.0762906
         ],
         [
           -60.5782597,
@@ -26017,12 +26058,28 @@
           -33.076116
         ],
         [
-          -60.5782363,
-          -33.0760854
+          -60.5782336,
+          -33.0760978
         ],
         [
-          -60.5787957,
-          -33.0761086
+          -60.5787128,
+          -33.0761104
+        ],
+        [
+          -60.5788399,
+          -33.0761135
+        ],
+        [
+          -60.578856,
+          -33.0761292
+        ],
+        [
+          -60.5788627,
+          -33.0761562
+        ],
+        [
+          -60.5788534,
+          -33.076203
         ]
       ]
     ]
@@ -30824,6 +30881,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Interzonal General de Agudos Eva Perón",
+    "name:etymology:wikidata": "Q40933",
     "old_name": "Hospital Castex",
     "operator:type": "public",
     "phone": "+54 11 4724-3000",
@@ -42139,8 +42197,10 @@
     "addr:street": "Avenida Pedro Goyena",
     "amenity": "hospital",
     "building": "hospital",
+    "check_date": "2023-10-17",
     "healthcare": "hospital",
     "name": "Hospital de Quemados",
+    "opening_hours": "24/7",
     "source": "Reconocimiento terrestre por Kaart 2016.",
     "id": "way/477544991"
   },
@@ -51726,8 +51786,8 @@
           -36.3625602
         ],
         [
-          -60.0195542,
-          -36.3633354
+          -60.0195159,
+          -36.3633164
         ],
         [
           -60.0188493,
@@ -51912,12 +51972,19 @@
   "id": "way/673712999",
   "properties": {
     "addr:city": "San Martín de los Andes",
+    "addr:housenumber": "247",
     "addr:postcode": "8370",
+    "addr:street": "Pasaje del Pueblo",
+    "alt_name": "Hospital Doctor Ramón Carrillo II",
     "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/hospital.smandes/",
     "emergency": "yes",
     "healthcare": "hospital",
     "healthcare:speciality": "general;psychiatry;chiropractic;paediatrics;ophthalmology;orthodontics;orthopaedics;vaccination;intensive;emergency;gynaecology;dermatology;surgery;cardiology;oncology;radiology;community;internal;physiatry;abortion;allergology;pulmonology",
     "name": "Hospital Ramón Carrillo II",
+    "official_name": "Hospital Doctor Ramón Carrillo II",
+    "phone": "+54 2972 424405",
+    "source": "https://www.saludneuquen.gob.ar/hospital-san-martin-de-los-andes-dr-ramon-carrillo/",
     "id": "way/673712999"
   },
   "geometry": {
@@ -52883,76 +52950,96 @@
     "coordinates": [
       [
         [
-          -58.402655,
-          -34.5853353
+          -58.402622,
+          -34.5853206
         ],
         [
-          -58.4025823,
-          -34.5853738
+          -58.4025466,
+          -34.5853584
         ],
         [
-          -58.4025689,
-          -34.585358
+          -58.4025347,
+          -34.5853424
         ],
         [
-          -58.4024351,
-          -34.5854268
+          -58.4024056,
+          -34.5854072
         ],
         [
-          -58.4025006,
-          -34.5855164
+          -58.4024801,
+          -34.5855078
         ],
         [
-          -58.4023703,
-          -34.5855797
+          -58.4024702,
+          -34.585553
         ],
         [
-          -58.402306,
-          -34.5854898
+          -58.4024123,
+          -34.5855788
         ],
         [
-          -58.4021833,
-          -34.5855531
+          -58.4023524,
+          -34.5855718
         ],
         [
-          -58.4021909,
-          -34.5855673
+          -58.402279,
+          -34.5854727
         ],
         [
-          -58.4021224,
-          -34.5856033
+          -58.4021561,
+          -34.5855344
         ],
         [
-          -58.4020525,
-          -34.5855186
+          -58.4021659,
+          -34.5855477
         ],
         [
-          -58.4020877,
-          -34.585499
+          -58.4020967,
+          -34.5855824
         ],
         [
-          -58.4022463,
-          -34.585411
+          -58.4020231,
+          -34.5854831
         ],
         [
-          -58.4022205,
-          -34.5853794
+          -58.4020925,
+          -34.5854483
         ],
         [
-          -58.4023168,
-          -34.5853239
+          -58.4020974,
+          -34.5854549
         ],
         [
-          -58.402343,
-          -34.5853575
+          -58.402222,
+          -34.5853924
         ],
         [
-          -58.4025714,
-          -34.585242
+          -58.4022045,
+          -34.5853688
         ],
         [
-          -58.402655,
-          -34.5853353
+          -58.4023249,
+          -34.5853084
+        ],
+        [
+          -58.4023428,
+          -34.5853326
+        ],
+        [
+          -58.402479,
+          -34.5852643
+        ],
+        [
+          -58.4024756,
+          -34.5852596
+        ],
+        [
+          -58.4025495,
+          -34.5852225
+        ],
+        [
+          -58.402622,
+          -34.5853206
         ]
       ]
     ]
@@ -56048,48 +56135,6 @@
         [
           -62.1140011,
           -28.4656611
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/786400616",
-  "properties": {
-    "amenity": "hospital",
-    "disused:amenity": "helipad",
-    "fixme": "covid19",
-    "healthcare": "hospital",
-    "name": "Hospital Militar Reubicable",
-    "operator": "Fuerza Aérea Argentina",
-    "operator:type": "military",
-    "surface": "concrete",
-    "id": "way/786400616"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.4128386,
-          -34.6528178
-        ],
-        [
-          -58.4127819,
-          -34.6529934
-        ],
-        [
-          -58.4125666,
-          -34.6529464
-        ],
-        [
-          -58.4126232,
-          -34.6527707
-        ],
-        [
-          -58.4128386,
-          -34.6528178
         ]
       ]
     ]
@@ -73245,6 +73290,43 @@
 },
 {
   "type": "Feature",
+  "id": "way/1185363086",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital",
+    "id": "way/1185363086"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2585958,
+          -31.3126721
+        ],
+        [
+          -64.2579089,
+          -31.3136982
+        ],
+        [
+          -64.2570735,
+          -31.3132901
+        ],
+        [
+          -64.2577602,
+          -31.3122639
+        ],
+        [
+          -64.2585958,
+          -31.3126721
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1194822892",
   "properties": {
     "addr:city": "Las Lajas",
@@ -73883,6 +73965,234 @@
         [
           -58.5870347,
           -34.5832372
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1214950500",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "way/1214950500"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.1640084,
+          -31.394499
+        ],
+        [
+          -64.1634613,
+          -31.3941785
+        ],
+        [
+          -64.1640031,
+          -31.393574
+        ],
+        [
+          -64.1646173,
+          -31.3939816
+        ],
+        [
+          -64.164282,
+          -31.394167
+        ],
+        [
+          -64.1641318,
+          -31.3943181
+        ],
+        [
+          -64.1640084,
+          -31.394499
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1215897338",
+  "properties": {
+    "addr:city": "San Andrés",
+    "addr:full": "Avenida Presidente Perón 3619",
+    "addr:housenumber": "3619",
+    "addr:postcode": "B1650",
+    "addr:street": "Avenida 64 - Presidente Juan Domingo Perón",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sanatorio Modelo La Torre San Martin",
+    "operator": "Privado",
+    "operator:type": "private",
+    "ref:sisa_codigo": "10063712318397",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "way/1215897338"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.542824,
+          -34.5711504
+        ],
+        [
+          -58.5430309,
+          -34.5713335
+        ],
+        [
+          -58.542754,
+          -34.5715465
+        ],
+        [
+          -58.5425663,
+          -34.57139
+        ],
+        [
+          -58.5425667,
+          -34.5713483
+        ],
+        [
+          -58.542824,
+          -34.5711504
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1216232996",
+  "properties": {
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/sanatoriomodelotuc/",
+    "contact:instagram": "https://www.instagram.com/sanatoriomodelo/",
+    "email": "gerencia@sanatoriomodelosa.com.ar",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Sanatorio Modelo",
+    "operator": "Sanatorio Modelo S.A.",
+    "operator:type": "private",
+    "phone": "+543814979500",
+    "ref:sisa_codigo": "10900842396046",
+    "ref:sisa_tipologia": "ESCIG",
+    "ref:vatin": "AR:30546002949",
+    "website": "https://www.sanatoriomodelosa.com.ar/",
+    "id": "way/1216232996"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.2028937,
+          -26.8235519
+        ],
+        [
+          -65.2022046,
+          -26.8236997
+        ],
+        [
+          -65.2022543,
+          -26.8238373
+        ],
+        [
+          -65.2015672,
+          -26.8239892
+        ],
+        [
+          -65.201543,
+          -26.8238977
+        ],
+        [
+          -65.201521,
+          -26.8238027
+        ],
+        [
+          -65.20195,
+          -26.8237136
+        ],
+        [
+          -65.2019153,
+          -26.8235922
+        ],
+        [
+          -65.2021641,
+          -26.8235391
+        ],
+        [
+          -65.2021519,
+          -26.8234972
+        ],
+        [
+          -65.2028535,
+          -26.823366
+        ],
+        [
+          -65.2028708,
+          -26.823446
+        ],
+        [
+          -65.2028937,
+          -26.8235519
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1216615809",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "550",
+    "addr:postcode": "T4000NIL",
+    "addr:street": "Virgen de la Merced",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/cpcsalud",
+    "contact:instagram": "https://www.instagram.com/cpcsalud/?hl=es-la",
+    "contact:twitter": "https://twitter.com/cpcsalud",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "cardiac_surgery",
+    "level": "6",
+    "mobile": "+5493813319495",
+    "name": "Centro Privado de Cardiología - CPC",
+    "operator": "Centro Privado de Cardiología S.R.L.",
+    "operator:type": "private",
+    "phone": "+543814305330;+543814225556",
+    "ref:sisa_codigo": "14900842396073",
+    "ref:sisa_tipologia": "ESCIE",
+    "ref:vatin": "AR:30632985211",
+    "id": "way/1216615809"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.200497,
+          -26.8240722
+        ],
+        [
+          -65.2005228,
+          -26.8241821
+        ],
+        [
+          -65.2001281,
+          -26.8242557
+        ],
+        [
+          -65.2001024,
+          -26.8241459
+        ],
+        [
+          -65.200497,
+          -26.8240722
         ]
       ]
     ]
@@ -76143,22 +76453,6 @@
     "coordinates": [
       -61.6039232,
       -32.787831
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1653724220",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "id": "node/1653724220"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -70.7782408,
-      -51.0290564
     ]
   }
 },
@@ -80855,7 +81149,7 @@
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "hospital",
-    "name": "Hospital Rural Lago Puelo",
+    "name": "Hospital Rural de Lago Puelo",
     "operator:type": "public",
     "ref:sisa_codigo": "10260142129027",
     "ref:sisa_tipologia": "ESCIG",
@@ -80865,8 +81159,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -71.5973642,
-      -42.058796
+      -71.5975533,
+      -42.058797
     ]
   }
 },
@@ -87143,8 +87437,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -70.4699778,
-      -44.0529581
+      -70.4698222,
+      -44.0528714
     ]
   }
 },
@@ -94782,7 +95076,7 @@
     "phone": "0236-4441414",
     "ref:sisa_codigo": "10064132300051",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://grupolpf.com.ar",
+    "website": "https://grupolpf.com.ar/",
     "id": "node/5619996479"
   },
   "geometry": {
@@ -102879,14 +103173,15 @@
     "addr:street": "Las Heras",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Materno Neonatal Eloisa Torrent De Vidal",
+    "healthcare:speciality": "gynaecology",
+    "name": "Hospital Materno-Neonatal \"Eloisa Torrent de Vidal\"",
     "id": "node/7509087025"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.8388841,
-      -27.4805806
+      -58.8396418,
+      -27.4808371
     ]
   }
 },
@@ -103693,30 +103988,6 @@
     "coordinates": [
       -58.7932756,
       -34.3480345
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7541393698",
-  "properties": {
-    "addr:full": "Avenida Eva Perón 3619",
-    "addr:postcode": "7600",
-    "amenity": "hospital",
-    "fixme": "verificar ubicación",
-    "healthcare": "hospital",
-    "name": "Sanatorio Modelo La Torre San Martin",
-    "operator": "Privado",
-    "operator:type": "private",
-    "ref:sisa_codigo": "10063712318397",
-    "ref:sisa_tipologia": "ESCIG",
-    "id": "node/7541393698"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5655269,
-      -34.5758799
     ]
   }
 },
@@ -106014,23 +106285,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10597904118",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Rural de Lago Puelo",
-    "id": "node/10597904118"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -71.5974712,
-      -42.0587935
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10597930933",
   "properties": {
     "amenity": "hospital",
@@ -106385,6 +106639,30 @@
     "coordinates": [
       -64.5006412,
       -30.2140165
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11256207376",
+  "properties": {
+    "addr:city": "Felicia",
+    "addr:housenumber": "759",
+    "addr:postcode": "3087",
+    "addr:street": "Rivadavia",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Samco Felicia",
+    "phone": "+54 3496 491147",
+    "ref:sisa_codigo": "10820702184156",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "node/11256207376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.2109888,
+      -31.2474282
     ]
   }
 }

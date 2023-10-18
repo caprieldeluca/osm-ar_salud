@@ -22044,6 +22044,7 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Colón",
     "amenity": "doctors",
+    "check_date": "2023-10-17",
     "healthcare": "doctor",
     "name": "Consultorios Innova",
     "phone": "+54 2281 43 5758",
@@ -27747,8 +27748,10 @@
   "type": "Feature",
   "id": "node/7501174304",
   "properties": {
+    "addr:city": "Pavón",
     "addr:full": "Ruta 39 Km 1",
     "addr:postcode": "2812",
+    "addr:street": "Ruta Provincial 39",
     "amenity": "doctors",
     "fixme": "covid19, revisar ubicación",
     "healthcare": "general",
@@ -37009,6 +37012,137 @@
     "coordinates": [
       -60.7007785,
       -32.9173702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11251293680",
+  "properties": {
+    "amenity": "doctors",
+    "contact:phone": "+54 2323 42-2236",
+    "healthcare": "doctor",
+    "healthcare:speciality": "urology",
+    "name": "Sedu",
+    "id": "node/11251293680"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.1128547,
+      -34.5688117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11254201515",
+  "properties": {
+    "amenity": "doctors",
+    "name": "Enfermería",
+    "id": "node/11254201515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.8572041,
+      -34.6654217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11265579233",
+  "properties": {
+    "addr:city": "El Piquete",
+    "addr:street": "Avenida Chaco",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Atenciòn Primaria de la Salud C. Villafañe",
+    "short_name": "CAPS",
+    "source": "http://www.nodosjujuy.rf.gd/?i=2#18/-24.17779/-64.67983",
+    "id": "node/11265579233"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.6787246,
+      -24.1778914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11265602627",
+  "properties": {
+    "addr:Full": "Ruta N° 1 Entre Esq Esquiu Y Municio Rodeitos",
+    "addr:city": "Rodeito",
+    "addr:street": "Ruta Provincial 1",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Atención Primaria de la Salud",
+    "ref:sisa_codigo": "50380632150226",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://maproulette.org/browse/challenges/13148;http://www.nodosjujuy.rf.gd/?i=2#16/-24.2740/-64.7699",
+    "id": "node/11265602627"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.7649038,
+      -24.2722275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11269235478",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "546",
+    "addr:postcode": "T4000IFL",
+    "addr:street": "Laprida",
+    "amenity": "doctors",
+    "email": "cim.modelo@gmail.com",
+    "healthcare": "doctor",
+    "name": "Cardiología Intervencionista Modelo - CIM",
+    "operator": "Cardiología Intervencionista Modelo S.R.L.",
+    "phone": "+543814229883;+543814301305",
+    "ref:sisa_codigo": "50900842396238",
+    "ref:sisa_tipologia": "ESSIDT",
+    "ref:vatin": "AR:30707779108",
+    "id": "node/11269235478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2016048,
+      -26.8238688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11269894159",
+  "properties": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "554",
+    "addr:postcode": "T4000IFL",
+    "addr:street": "Laprida",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro Modelo de Cardiología",
+    "operator": "Centro Modelo de Cardiología S.R.L.",
+    "phone": "+543812560074",
+    "ref:sisa_codigo": "14900842396071",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11269894159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2015617,
+      -26.8237313
     ]
   }
 }

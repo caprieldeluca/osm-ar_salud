@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-10-05T01:02:59Z",
-    "timestamp_areas_base": "2023-10-04T23:49:36Z",
+    "timestamp_osm_base": "2023-10-18T22:59:28Z",
+    "timestamp_areas_base": "2023-10-18T17:16:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -536,6 +536,17 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria"
+  }
+},
+{
+  "type": "node",
+  "id": 1653724220,
+  "lat": -51.0290615,
+  "lon": -70.7782676,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "hospital",
+    "name": "Puesto Sanitario"
   }
 },
 {
@@ -1141,8 +1152,8 @@
 {
   "type": "node",
   "id": 2342829246,
-  "lat": -27.4805087,
-  "lon": -58.8392621,
+  "lat": -27.4801441,
+  "lon": -58.8387391,
   "tags": {
     "addr:city": "Corrientes",
     "addr:country": "AR",
@@ -11533,6 +11544,18 @@
 },
 {
   "type": "node",
+  "id": 5074678522,
+  "lat": -47.4422690,
+  "lon": -70.9255496,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Enfermería",
+    "name:en": "Nursery",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
   "id": 5079801358,
   "lat": -36.7708873,
   "lon": -59.8589407,
@@ -14252,7 +14275,7 @@
     "name": "La pequeña familia",
     "opening_hours": "24/7",
     "phone": "0236-4441414",
-    "website": "http://grupolpf.com.ar"
+    "website": "https://grupolpf.com.ar/"
   }
 },
 {
@@ -15513,18 +15536,6 @@
     "opening_hours": "Mo-Sa 00:00-24:00; Su 07:30-23:30",
     "phone": "+54 11 4582-2555",
     "website": "http://www.centromoreau.com.ar"
-  }
-},
-{
-  "type": "node",
-  "id": 6186673385,
-  "lat": -34.5343965,
-  "lon": -58.5944068,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Salud Nº 22 “Juan Naab”",
-    "opening_hours": "Mo-Fr 08:00-17:00"
   }
 },
 {
@@ -30691,24 +30702,6 @@
 },
 {
   "type": "node",
-  "id": 7508951236,
-  "lat": -31.6213426,
-  "lon": -64.3942219,
-  "tags": {
-    "addr:full": "Ruta Provincial 5 Km 28",
-    "addr:postcode": "5187",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Dispensario Villa Del Prado",
-    "operator": "municipal",
-    "operator:type": "public",
-    "phone": "03547 422543",
-    "ref:sisa_codigo": "50141472231559",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7509016159,
   "lat": -34.7608748,
   "lon": -58.3290511,
@@ -30913,26 +30906,6 @@
     "operator": "Provincial",
     "operator:type": "public",
     "ref:sisa_codigo": "50220632126211",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7509119257,
-  "lat": -34.5444326,
-  "lon": -58.5900798,
-  "tags": {
-    "addr:full": "Iberá 7456 - Barrio 9 De Julio",
-    "addr:housenumber": "7456",
-    "addr:postcode": "1655",
-    "addr:street": "105 - Laguna Iberá",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Sanitaria Villa Lanzone",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4513-5121",
-    "ref:sisa_codigo": "50063712202892",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -38683,22 +38656,23 @@
 {
   "type": "node",
   "id": 7539442165,
-  "lat": -34.5737634,
-  "lon": -58.5740584,
+  "lat": -34.5747346,
+  "lon": -58.5755803,
   "tags": {
     "addr:city": "Billinghurst",
-    "addr:full": "Primera Junta 5745",
-    "addr:housenumber": "5745",
+    "addr:full": "Primera Junta 5865",
+    "addr:housenumber": "5865",
     "addr:postcode": "1650",
     "addr:street": "104 - Primera Junta",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 9 De Villa Billinghurst",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "(011) 4512-7040/ 35",
+    "name": "Centro de Atención Primaria de la Salud n°9 Billinghurst",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 2282 5263",
     "ref:sisa_codigo": "50063712202680",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°9"
   }
 },
 {
@@ -38919,19 +38893,24 @@
 {
   "type": "node",
   "id": 7541551387,
-  "lat": -34.5844047,
-  "lon": -58.5241780,
+  "lat": -34.5843740,
+  "lon": -58.5241523,
   "tags": {
+    "addr:city": "Villa Lynch",
     "addr:full": "Calle 81 Parravicini 965 (Entre 24 Y 26)",
-    "addr:postcode": "1650",
+    "addr:housenumber": "965",
+    "addr:postcode": "B1650",
+    "addr:street": "81 - Parravicini",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 12 De Villa Piaggio",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "(011) 4830-0710",
+    "level": "0",
+    "name": "Centro de Atención Primaria de la Salud n°12 Villa Piaggio",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4830-0710",
     "ref:sisa_codigo": "50063712202493",
     "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°12",
     "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
@@ -44998,6 +44977,71 @@
   }
 },
 {
+  "type": "node",
+  "id": 11244822239,
+  "lat": -32.7090031,
+  "lon": -60.7641162,
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 11246022371,
+  "lat": -31.6257715,
+  "lon": -60.7018029,
+  "tags": {
+    "addr:housenumber": "4528",
+    "addr:street": "San Jerónimo",
+    "amenity": "clinic",
+    "check_date": "2023-10-12",
+    "healthcare": "clinic",
+    "healthcare:speciality": "applied_kinesiology",
+    "name": "Kinerv"
+  }
+},
+{
+  "type": "node",
+  "id": 11260363042,
+  "lat": -32.9312277,
+  "lon": -60.7392240,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Go Centro Médico",
+    "operator": "Grupo Oroño"
+  }
+},
+{
+  "type": "node",
+  "id": 11265865178,
+  "lat": -42.0665824,
+  "lon": -71.2138805,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
+  }
+},
+{
+  "type": "node",
+  "id": 11268436446,
+  "lat": -35.0297394,
+  "lon": -57.5060691,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Enfermeria"
+  }
+},
+{
+  "type": "node",
+  "id": 11268475053,
+  "lat": -35.0115643,
+  "lon": -57.6893102,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto Sanitario"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -49363,9 +49407,11 @@
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "3",
+    "check_date": "2023-10-13",
     "email": "sinb250@uocra.org",
     "healthcare": "clinic",
     "name": "Construír Salud",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "phone": "+54 11 4798-1884",
     "source": "Reconocimiento terrestre por Kaart 2016;local knowledge",
     "website": "https://www.uocra.org/"
@@ -51213,42 +51259,6 @@
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",
     "website": "https://www.buenosaires.gob.ar/salud/centro-de-salud-parque-patricios-1",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 471857971,
-  "nodes": [
-    4660102588,
-    4660104889,
-    4660104890,
-    4660102586,
-    4660102588
-  ],
-  "tags": {
-    "addr:street": "Avenida Berlín",
-    "amenity": "clinic",
-    "building": "yes",
-    "name": "Cosultorios Medicos",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
-  }
-},
-{
-  "type": "way",
-  "id": 471896148,
-  "nodes": [
-    4660488170,
-    4660488171,
-    4660488172,
-    4660488173,
-    4660488170
-  ],
-  "tags": {
-    "addr:street": "Avenida Berlín",
-    "amenity": "clinic",
-    "building": "yes",
-    "name": "Centro Integral de Atención Psicologica",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
   }
 },
 {
@@ -57762,7 +57772,7 @@
     "addr:street": "Olavarría",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro de Salud Empalme Graneros",
+    "name": "Centro de Salud 94 Empalme Graneros",
     "operator": "Provincia de Santa Fe",
     "operator:type": "public",
     "ref:sisa_codigo": "50820842188634",
@@ -64416,7 +64426,7 @@
     "healthcare": "clinic",
     "height": "6",
     "name": "Centro Médico de la Trinidad",
-    "website": "http://cmtnqn.com.ar/"
+    "website": "https://cmtnqn.com.ar/"
   }
 },
 {
@@ -65335,6 +65345,113 @@
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS n°10",
     "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1213495837,
+  "nodes": [
+    11242750338,
+    11242750339,
+    11242750340,
+    11242750341,
+    11242750342,
+    11242750343,
+    11242750344,
+    11242750345,
+    11242750338
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario Villa Del Prado"
+  }
+},
+{
+  "type": "way",
+  "id": 1213731322,
+  "nodes": [
+    11244821673,
+    11244821672,
+    11244821671,
+    11244821670,
+    11244821669,
+    11244821668,
+    11244821673
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1216163899,
+  "nodes": [
+    11268504347,
+    11268504346,
+    11268504345,
+    11268504344,
+    11268504347
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clinica Olmos"
+  }
+},
+{
+  "type": "way",
+  "id": 1216388821,
+  "nodes": [
+    11270874463,
+    11270874464,
+    11270874465,
+    11270874473,
+    7509119257,
+    11270874463
+  ],
+  "tags": {
+    "addr:city": "José León Suárez",
+    "addr:full": "Iberá 7456 - Barrio 9 De Julio",
+    "addr:housenumber": "7456",
+    "addr:postcode": "B1655",
+    "addr:street": "105 - Laguna Iberá",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°15 Atamdos",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4513-5121",
+    "ref:sisa_codigo": "50063712202892",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°15"
+  }
+},
+{
+  "type": "way",
+  "id": 1216388826,
+  "nodes": [
+    11270874508,
+    6186673385,
+    11270874509,
+    11270874510,
+    11270874508
+  ],
+  "tags": {
+    "addr:city": "José León Suárez",
+    "addr:full": "Debenedetti 8555, Barrio Lanzone",
+    "addr:housenumber": "8555",
+    "addr:postcode": "B1655",
+    "addr:street": "93 - Salvador Debenedetti",
+    "amenity": "clinic",
+    "fixme": "falta codigo sisa",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°22 Dr. Juan Naab",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4512-7036",
+    "short_name": "CAPS n°22"
   }
 },
 {
@@ -77774,6 +77891,54 @@
 },
 {
   "type": "node",
+  "id": 11242750338,
+  "lat": -31.6214736,
+  "lon": -64.3942387
+},
+{
+  "type": "node",
+  "id": 11242750339,
+  "lat": -31.6214717,
+  "lon": -64.3942842
+},
+{
+  "type": "node",
+  "id": 11242750340,
+  "lat": -31.6213484,
+  "lon": -64.3942771
+},
+{
+  "type": "node",
+  "id": 11242750341,
+  "lat": -31.6213495,
+  "lon": -64.3942497
+},
+{
+  "type": "node",
+  "id": 11242750342,
+  "lat": -31.6212850,
+  "lon": -64.3942459
+},
+{
+  "type": "node",
+  "id": 11242750343,
+  "lat": -31.6212887,
+  "lon": -64.3941584
+},
+{
+  "type": "node",
+  "id": 11242750344,
+  "lat": -31.6213965,
+  "lon": -64.3941646
+},
+{
+  "type": "node",
+  "id": 11242750345,
+  "lat": -31.6213936,
+  "lon": -64.3942341
+},
+{
+  "type": "node",
   "id": 2551852954,
   "lat": -31.4836274,
   "lon": -64.2471635
@@ -81854,6 +82019,42 @@
 },
 {
   "type": "node",
+  "id": 11244821673,
+  "lat": -32.7069041,
+  "lon": -60.7453273
+},
+{
+  "type": "node",
+  "id": 11244821668,
+  "lat": -32.7069752,
+  "lon": -60.7452884
+},
+{
+  "type": "node",
+  "id": 11244821669,
+  "lat": -32.7070982,
+  "lon": -60.7453166
+},
+{
+  "type": "node",
+  "id": 11244821670,
+  "lat": -32.7071456,
+  "lon": -60.7450739
+},
+{
+  "type": "node",
+  "id": 11244821671,
+  "lat": -32.7068737,
+  "lon": -60.7450055
+},
+{
+  "type": "node",
+  "id": 11244821672,
+  "lat": -32.7068409,
+  "lon": -60.7451865
+},
+{
+  "type": "node",
   "id": 10007194627,
   "lat": -32.6652256,
   "lon": -60.7953212
@@ -84608,54 +84809,6 @@
 },
 {
   "type": "node",
-  "id": 4660102586,
-  "lat": -34.8511580,
-  "lon": -58.3839135
-},
-{
-  "type": "node",
-  "id": 4660102588,
-  "lat": -34.8510421,
-  "lon": -58.3839961
-},
-{
-  "type": "node",
-  "id": 4660104889,
-  "lat": -34.8510086,
-  "lon": -58.3839263
-},
-{
-  "type": "node",
-  "id": 4660104890,
-  "lat": -34.8511245,
-  "lon": -58.3838438
-},
-{
-  "type": "node",
-  "id": 4660488170,
-  "lat": -34.8501879,
-  "lon": -58.3829458
-},
-{
-  "type": "node",
-  "id": 4660488171,
-  "lat": -34.8502258,
-  "lon": -58.3830289
-},
-{
-  "type": "node",
-  "id": 4660488172,
-  "lat": -34.8503108,
-  "lon": -58.3829713
-},
-{
-  "type": "node",
-  "id": 4660488173,
-  "lat": -34.8502730,
-  "lon": -58.3828882
-},
-{
-  "type": "node",
   "id": 8491623427,
   "lat": -34.8412661,
   "lon": -58.3700168
@@ -85073,6 +85226,30 @@
   "id": 7527594797,
   "lat": -34.8068091,
   "lon": -58.1909457
+},
+{
+  "type": "node",
+  "id": 11268504344,
+  "lat": -34.9947393,
+  "lon": -58.0478691
+},
+{
+  "type": "node",
+  "id": 11268504345,
+  "lat": -34.9946327,
+  "lon": -58.0480168
+},
+{
+  "type": "node",
+  "id": 11268504346,
+  "lat": -34.9946877,
+  "lon": -58.0480832
+},
+{
+  "type": "node",
+  "id": 11268504347,
+  "lat": -34.9947997,
+  "lon": -58.0479383
 },
 {
   "type": "node",
@@ -90219,32 +90396,32 @@
 {
   "type": "node",
   "id": 4658082987,
-  "lat": -34.6336411,
-  "lon": -58.3834648
+  "lat": -34.6336098,
+  "lon": -58.3833955
 },
 {
   "type": "node",
   "id": 4658082988,
-  "lat": -34.6335784,
-  "lon": -58.3833441
+  "lat": -34.6335471,
+  "lon": -58.3832748
 },
 {
   "type": "node",
   "id": 4658083289,
-  "lat": -34.6340437,
-  "lon": -58.3829864
+  "lat": -34.6340124,
+  "lon": -58.3829171
 },
 {
   "type": "node",
   "id": 4658083290,
-  "lat": -34.6341065,
-  "lon": -58.3831072
+  "lat": -34.6340752,
+  "lon": -58.3830379
 },
 {
   "type": "node",
   "id": 4658083297,
-  "lat": -34.6338600,
-  "lon": -58.3832966
+  "lat": -34.6338287,
+  "lon": -58.3832273
 },
 {
   "type": "node",
@@ -91007,6 +91184,60 @@
   "id": 4621208770,
   "lat": -34.5845226,
   "lon": -58.5711118
+},
+{
+  "type": "node",
+  "id": 7509119257,
+  "lat": -34.5444376,
+  "lon": -58.5899370
+},
+{
+  "type": "node",
+  "id": 11270874463,
+  "lat": -34.5443113,
+  "lon": -58.5900946
+},
+{
+  "type": "node",
+  "id": 11270874464,
+  "lat": -34.5446256,
+  "lon": -58.5904629
+},
+{
+  "type": "node",
+  "id": 11270874465,
+  "lat": -34.5447102,
+  "lon": -58.5903619
+},
+{
+  "type": "node",
+  "id": 11270874473,
+  "lat": -34.5447531,
+  "lon": -58.5903104
+},
+{
+  "type": "node",
+  "id": 6186673385,
+  "lat": -34.5344580,
+  "lon": -58.5942742
+},
+{
+  "type": "node",
+  "id": 11270874508,
+  "lat": -34.5342599,
+  "lon": -58.5940500
+},
+{
+  "type": "node",
+  "id": 11270874509,
+  "lat": -34.5343965,
+  "lon": -58.5943538
+},
+{
+  "type": "node",
+  "id": 11270874510,
+  "lat": -34.5341979,
+  "lon": -58.5941286
 },
 {
   "type": "node",
@@ -93765,26 +93996,26 @@
 {
   "type": "node",
   "id": 6671035114,
-  "lat": -34.5838174,
-  "lon": -58.4018936
+  "lat": -34.5838160,
+  "lon": -58.4018922
 },
 {
   "type": "node",
   "id": 6671035115,
-  "lat": -34.5840751,
-  "lon": -58.4014992
+  "lat": -34.5840670,
+  "lon": -58.4015160
 },
 {
   "type": "node",
   "id": 6671035116,
-  "lat": -34.5840391,
-  "lon": -58.4014561
+  "lat": -34.5840269,
+  "lon": -58.4014767
 },
 {
   "type": "node",
   "id": 6671035117,
-  "lat": -34.5839985,
-  "lon": -58.4015197
+  "lat": -34.5839980,
+  "lon": -58.4015192
 },
 {
   "type": "node",
