@@ -3673,7 +3673,7 @@
     "name": "Centro Médico Santa Paula",
     "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-13:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.santapaulamedicina.com.ar/",
+    "website": "https://www.santapaulamedicina.com.ar/",
     "id": "way/475161086"
   },
   "geometry": {
@@ -9633,20 +9633,12 @@
     "coordinates": [
       [
         [
-          -60.7200913,
-          -32.916278
+          -60.7200908,
+          -32.9162669
         ],
         [
           -60.7202574,
-          -32.9162811
-        ],
-        [
-          -60.7202566,
-          -32.9163124
-        ],
-        [
-          -60.7202527,
-          -32.9164587
+          -32.9162732
         ],
         [
           -60.7202517,
@@ -9657,8 +9649,12 @@
           -32.9164916
         ],
         [
-          -60.7200913,
-          -32.916278
+          -60.7200847,
+          -32.9164744
+        ],
+        [
+          -60.7200908,
+          -32.9162669
         ]
       ]
     ]
@@ -9696,7 +9692,7 @@
     "healthcare": "doctor",
     "name": "Sam",
     "phone": "+54 3757 420030 / 423192 / 421011 / 423000",
-    "website": "http://clinicasam.com.ar/",
+    "website": "https://clinicasam.com.ar/",
     "id": "node/534125484"
   },
   "geometry": {
@@ -10976,7 +10972,7 @@
     "healthcare": "doctor",
     "name": "IPC Instituto Médico",
     "phone": "+54 11 4627-2800",
-    "website": "http://www.ipcinstitutomedico.com.ar",
+    "website": "https://www.ipcinstitutomedico.com.ar/",
     "wheelchair": "yes",
     "id": "node/2338215285"
   },
@@ -15951,24 +15947,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4555784664",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Enfermería",
-    "opening_hours": "Mo-Fr 07:00-14:00",
-    "id": "node/4555784664"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4392557,
-      -34.5717958
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4562583934",
   "properties": {
     "amenity": "doctors",
@@ -17288,7 +17266,7 @@
     "name": "Centro de Atención Primaria de Salud (CAPS) Nro. 2",
     "name:es": "Centro de Atención Primaria de Salud (CAPS) Nro. 2",
     "phone": "2901 441027",
-    "website": "http://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-2",
+    "website": "https://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-2",
     "id": "node/4773731324"
   },
   "geometry": {
@@ -17764,7 +17742,7 @@
     "healthcare": "doctor",
     "name": "Instituto de Diagnóstico Cardiovascular La Plata",
     "phone": "54 0221 4222664",
-    "website": "http://www.idclp.com.ar",
+    "website": "https://www.idclp.com.ar/",
     "id": "node/4985950224"
   },
   "geometry": {
@@ -21303,6 +21281,7 @@
   "id": "node/6441634211",
   "properties": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Espacio Terapéutico",
     "id": "node/6441634211"
   },
@@ -21311,22 +21290,6 @@
     "coordinates": [
       -60.8557874,
       -32.9192503
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6441653520",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "id": "node/6441653520"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -66.366984,
-      -23.01385
     ]
   }
 },
@@ -37075,8 +37038,8 @@
   "type": "Feature",
   "id": "node/11265602627",
   "properties": {
-    "addr:Full": "Ruta N° 1 Entre Esq Esquiu Y Municio Rodeitos",
     "addr:city": "Rodeito",
+    "addr:full": "Ruta N° 1 Entre Esq Esquiu Y Municio Rodeitos",
     "addr:street": "Ruta Provincial 1",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -37143,6 +37106,146 @@
     "coordinates": [
       -65.2015617,
       -26.8237313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11276005983",
+  "properties": {
+    "addr:city": "Solís",
+    "addr:full": "San Martín e/ Belgrano y Pueyrredón",
+    "addr:housenumber": "628",
+    "addr:postcode": "2764",
+    "addr:street": "San Martín",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Atención Primaria de la Salud",
+    "official_name": "Sala De Primeros Auxilios Solis",
+    "phone": "+54 2326 492002",
+    "ref:sisa_codigo": "50067282201891",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS",
+    "id": "node/11276005983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.3235722,
+      -34.2968512
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11276005993",
+  "properties": {
+    "addr:city": "Azcuénaga",
+    "addr:full": "Avda. Pedro Terrén y Julia Vildósola",
+    "addr:postcode": "6721",
+    "addr:street": "Avenida Pedro A. Terrén",
+    "alt_name": "Sala De Primeros Auxilios Azcuenaga",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Atención Primaria de la Salud",
+    "short_name": "CAPS",
+    "id": "node/11276005993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.3740757,
+      -34.366401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11281710872",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psycology",
+    "name": "Senderos",
+    "id": "node/11281710872"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.1096271,
+      -34.567471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11303507269",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:full": "Cocrane Y Artigas Paraná 5",
+    "addr:postcode": "3100",
+    "addr:street": "Almirante Cochrane",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Doctor Arturo U. Illia",
+    "phone": "+54 343 4201823",
+    "ref:sisa_codigo": "10300842242031",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11303507269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5097444,
+      -31.7562029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11303507270",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:full": "Crochrane y Tira 25 Barrio Paraná V.",
+    "addr:postcode": "3100",
+    "addr:street": "Almirante Cochrane",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro De Atencion Primaria En Salud Mental Mercedes De Giusto",
+    "phone": "+54 343 4340799",
+    "ref:sisa_codigo": "52300842142702",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11303507270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5101935,
+      -31.7567683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11303507272",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "589",
+    "addr:postcode": "3100",
+    "addr:street": "Federación",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Consultorio Medico Federacion",
+    "phone": "+54 343 4071446",
+    "ref:sisa_codigo": "50300842343282",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11303507272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5062609,
+      -31.7518028
     ]
   }
 }

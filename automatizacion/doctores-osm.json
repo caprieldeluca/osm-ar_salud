@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-10-18T23:01:30Z",
-    "timestamp_areas_base": "2023-10-18T17:16:41Z",
+    "timestamp_osm_base": "2023-10-31T23:40:30Z",
+    "timestamp_areas_base": "2023-10-31T22:15:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -36,7 +36,7 @@
     "healthcare": "doctor",
     "name": "Sam",
     "phone": "+54 3757 420030 / 423192 / 421011 / 423000",
-    "website": "http://clinicasam.com.ar/"
+    "website": "https://clinicasam.com.ar/"
   }
 },
 {
@@ -914,7 +914,7 @@
     "healthcare": "doctor",
     "name": "IPC Instituto Médico",
     "phone": "+54 11 4627-2800",
-    "website": "http://www.ipcinstitutomedico.com.ar",
+    "website": "https://www.ipcinstitutomedico.com.ar/",
     "wheelchair": "yes"
   }
 },
@@ -4465,18 +4465,6 @@
 },
 {
   "type": "node",
-  "id": 4555784664,
-  "lat": -34.5717958,
-  "lon": -58.4392557,
-  "tags": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Enfermería",
-    "opening_hours": "Mo-Fr 07:00-14:00"
-  }
-},
-{
-  "type": "node",
   "id": 4562583934,
   "lat": -34.9368122,
   "lon": -57.9723762,
@@ -5384,7 +5372,7 @@
     "name": "Centro de Atención Primaria de Salud (CAPS) Nro. 2",
     "name:es": "Centro de Atención Primaria de Salud (CAPS) Nro. 2",
     "phone": "2901 441027",
-    "website": "http://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-2"
+    "website": "https://ministeriosalud.tierradelfuego.gov.ar/index.php/ushuaia-caps-n-2"
   }
 },
 {
@@ -5716,7 +5704,7 @@
     "healthcare": "doctor",
     "name": "Instituto de Diagnóstico Cardiovascular La Plata",
     "phone": "54 0221 4222664",
-    "website": "http://www.idclp.com.ar"
+    "website": "https://www.idclp.com.ar/"
   }
 },
 {
@@ -8193,17 +8181,8 @@
   "lon": -60.8557874,
   "tags": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Espacio Terapéutico"
-  }
-},
-{
-  "type": "node",
-  "id": 6441653520,
-  "lat": -23.0138500,
-  "lon": -66.3669840,
-  "tags": {
-    "amenity": "doctors",
-    "healthcare": "doctor"
   }
 },
 {
@@ -19615,8 +19594,8 @@
   "lat": -24.2722275,
   "lon": -64.7649038,
   "tags": {
-    "addr:Full": "Ruta N° 1 Entre Esq Esquiu Y Municio Rodeitos",
     "addr:city": "Rodeito",
+    "addr:full": "Ruta N° 1 Entre Esq Esquiu Y Municio Rodeitos",
     "addr:street": "Ruta Provincial 1",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -19663,6 +19642,110 @@
     "operator": "Centro Modelo de Cardiología S.R.L.",
     "phone": "+543812560074",
     "ref:sisa_codigo": "14900842396071",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11276005983,
+  "lat": -34.2968512,
+  "lon": -59.3235722,
+  "tags": {
+    "addr:city": "Solís",
+    "addr:full": "San Martín e/ Belgrano y Pueyrredón",
+    "addr:housenumber": "628",
+    "addr:postcode": "2764",
+    "addr:street": "San Martín",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Atención Primaria de la Salud",
+    "official_name": "Sala De Primeros Auxilios Solis",
+    "phone": "+54 2326 492002",
+    "ref:sisa_codigo": "50067282201891",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS"
+  }
+},
+{
+  "type": "node",
+  "id": 11276005993,
+  "lat": -34.3664010,
+  "lon": -59.3740757,
+  "tags": {
+    "addr:city": "Azcuénaga",
+    "addr:full": "Avda. Pedro Terrén y Julia Vildósola",
+    "addr:postcode": "6721",
+    "addr:street": "Avenida Pedro A. Terrén",
+    "alt_name": "Sala De Primeros Auxilios Azcuenaga",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Atención Primaria de la Salud",
+    "short_name": "CAPS"
+  }
+},
+{
+  "type": "node",
+  "id": 11281710872,
+  "lat": -34.5674710,
+  "lon": -59.1096271,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psycology",
+    "name": "Senderos"
+  }
+},
+{
+  "type": "node",
+  "id": 11303507269,
+  "lat": -31.7562029,
+  "lon": -60.5097444,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:full": "Cocrane Y Artigas Paraná 5",
+    "addr:postcode": "3100",
+    "addr:street": "Almirante Cochrane",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Doctor Arturo U. Illia",
+    "phone": "+54 343 4201823",
+    "ref:sisa_codigo": "10300842242031",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11303507270,
+  "lat": -31.7567683,
+  "lon": -60.5101935,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:full": "Crochrane y Tira 25 Barrio Paraná V.",
+    "addr:postcode": "3100",
+    "addr:street": "Almirante Cochrane",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro De Atencion Primaria En Salud Mental Mercedes De Giusto",
+    "phone": "+54 343 4340799",
+    "ref:sisa_codigo": "52300842142702",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11303507272,
+  "lat": -31.7518028,
+  "lon": -60.5062609,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "589",
+    "addr:postcode": "3100",
+    "addr:street": "Federación",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Consultorio Medico Federacion",
+    "phone": "+54 343 4071446",
+    "ref:sisa_codigo": "50300842343282",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -21341,7 +21424,7 @@
     "name": "Centro Médico Santa Paula",
     "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-13:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.santapaulamedicina.com.ar/"
+    "website": "https://www.santapaulamedicina.com.ar/"
   }
 },
 {
@@ -24045,13 +24128,12 @@
   "type": "way",
   "id": 1211960610,
   "nodes": [
-    11228210977,
+    11228210924,
+    11228210922,
     11228210974,
     11228210975,
-    7503275596,
-    7503275597,
     11228210976,
-    11228210977
+    11228210924
   ],
   "tags": {
     "addr:full": "Avenida Genova 7237",
@@ -26643,15 +26725,15 @@
 },
 {
   "type": "node",
-  "id": 7503275596,
-  "lat": -32.9164587,
-  "lon": -60.7202527
+  "id": 11228210922,
+  "lat": -32.9164744,
+  "lon": -60.7200847
 },
 {
   "type": "node",
-  "id": 7503275597,
-  "lat": -32.9163124,
-  "lon": -60.7202566
+  "id": 11228210924,
+  "lat": -32.9162669,
+  "lon": -60.7200908
 },
 {
   "type": "node",
@@ -26668,14 +26750,8 @@
 {
   "type": "node",
   "id": 11228210976,
-  "lat": -32.9162811,
+  "lat": -32.9162732,
   "lon": -60.7202574
-},
-{
-  "type": "node",
-  "id": 11228210977,
-  "lat": -32.9162780,
-  "lon": -60.7200913
 },
 {
   "type": "node",
