@@ -1489,6 +1489,8 @@
   "id": "way/187354053",
   "properties": {
     "addr2:street": "Avenida San José de Calasanz",
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "980",
     "addr:postcode": "S2008",
     "addr:street": "Suinda",
@@ -12348,7 +12350,7 @@
     "phone": "+54 11 4543-2494",
     "ref:sisa_codigo": "50020012115346",
     "ref:sisa_tipologia": "ESSIDT",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-12",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-12",
     "wheelchair": "no",
     "wikidata": "Q90206239",
     "id": "way/468926145"
@@ -12634,7 +12636,7 @@
     "ref:sisa_codigo": "50020012115353",
     "ref:sisa_tipologia": "ESSIDT",
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-2",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-2",
     "wheelchair": "yes",
     "wikidata": "Q90206241",
     "id": "way/469265143"
@@ -14181,7 +14183,7 @@
     "name": "Centro de Diagnóstico TCba",
     "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-15:00",
     "phone": "+54 11 4860-1000",
-    "website": "http://www.tcba.com.ar/",
+    "website": "https://www.tcba.com.ar/",
     "id": "way/471645267"
   },
   "geometry": {
@@ -14834,7 +14836,7 @@
     "ref:sisa_codigo": "50020012115345",
     "ref:sisa_tipologia": "ESSIDT",
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-11",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-11",
     "wheelchair": "yes",
     "wikidata": "Q90206236",
     "id": "way/473234769"
@@ -14897,7 +14899,7 @@
     "ref:sisa_tipologia": "ESSIDT",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-15",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-15",
     "wheelchair": "yes",
     "wikidata": "Q90206212",
     "id": "way/473242458"
@@ -15385,7 +15387,7 @@
     "operator": "Subsecretaría de Atención Primaria, Ambulatoria y Comunitaria",
     "phone": "+54 11 4855-6268",
     "url": "http://www.buenosaires.gob.ar/salud/cobertura-portena-de-salud",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-22",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-22",
     "wheelchair": "yes",
     "id": "way/473473408"
   },
@@ -15619,7 +15621,7 @@
     "phone": "+54 11 4897-2156",
     "ref:sisa_codigo": "50020012115359",
     "ref:sisa_tipologia": "ESSIDT",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-26",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-26",
     "wheelchair": "yes",
     "wikidata": "Q90206204",
     "id": "way/473680879"
@@ -15671,6 +15673,7 @@
     "alt_name": "Centro de Salud Comunitario Nº 27",
     "amenity": "clinic",
     "building": "public",
+    "check_date": "2023-11-01",
     "description": "Especialidades: Clínica médica, Enfermería, Farmacéutico, Fonoaudiología, Psiquiatría, Nutrición, Obstetricia, Odontología, Pediatría, Psicología, Psicopedagogía, Tocoginecología, Trabajo social.",
     "health_facility:type": "clinic",
     "health_service": "yes",
@@ -15679,15 +15682,16 @@
     "health_service:examination": "yes",
     "health_service:prevention": "yes",
     "healthcare": "clinic",
-    "healthcare:speciality": "community",
+    "healthcare:speciality": "community;paediatrics;dentist;gynaecology;psychiatry",
     "medical_system:western": "yes",
     "name": "CeSAC Nº 27",
+    "opening_hours": "Mo-Fr 08:30-13:00,14:00-16:00",
     "operator": "Subsecretaría de Atención Primaria, Ambulatoria y Comunitaria",
     "operator:type": "public",
     "phone": "+54 11 4543-2998",
     "ref:sisa_codigo": "50020012115360",
     "ref:sisa_tipologia": "ESSIDT",
-    "website": "http://www.buenosaires.gob.ar/salud/cesac-27",
+    "website": "https://www.buenosaires.gob.ar/salud/cesac-27",
     "wheelchair": "yes",
     "wikidata": "Q90206202",
     "id": "way/473685416"
@@ -15821,7 +15825,7 @@
     "opening_hours": "Mo-Fr 08:30-20:00; Su off; Sa 08:30-20:00",
     "phone": "+54 11 4765-1902",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
-    "website": "http://www.santaritamedicina.com.ar",
+    "website": "https://www.santaritamedicina.com.ar/",
     "id": "way/473836461"
   },
   "geometry": {
@@ -23665,6 +23669,44 @@
 },
 {
   "type": "Feature",
+  "id": "way/616311421",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario Santo Tomás",
+    "id": "way/616311421"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -63.6489723,
+          -32.2485227
+        ],
+        [
+          -63.6487493,
+          -32.2487075
+        ],
+        [
+          -63.648489,
+          -32.2484829
+        ],
+        [
+          -63.648712,
+          -32.2482981
+        ],
+        [
+          -63.6489723,
+          -32.2485227
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/620376336",
   "properties": {
     "addr:city": "Arroyito",
@@ -27845,7 +27887,7 @@
     "healthcare": "clinic",
     "name": "Instituto Oncológico Henry Moore",
     "phone": "+541149634040",
-    "website": "http://www.hmoore.com.ar/",
+    "website": "https://www.hmoore.com.ar/",
     "id": "way/789349497"
   },
   "geometry": {
@@ -30807,6 +30849,52 @@
 },
 {
   "type": "Feature",
+  "id": "way/804770699",
+  "properties": {
+    "addr:city": "Libertad",
+    "addr:housenumber": "21",
+    "addr:postcode": "1716",
+    "addr:street": "Colombia",
+    "amenity": "clinic",
+    "building": "hospital",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology;dentist",
+    "name": "Hospital Odonto-Oftalmológico Padre Juan Carlos Martínez",
+    "operator": "Municipalidad de Merlo",
+    "operator:type": "public",
+    "id": "way/804770699"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.6910176,
+          -34.694619
+        ],
+        [
+          -58.6907408,
+          -34.695124
+        ],
+        [
+          -58.6906121,
+          -34.6950792
+        ],
+        [
+          -58.6908768,
+          -34.6945653
+        ],
+        [
+          -58.6910176,
+          -34.694619
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/804819421",
   "properties": {
     "addr:full": "De La Caja Esq. Del Erquencho - Cno. A Jesús María",
@@ -31920,298 +32008,6 @@
         [
           -71.3447243,
           -40.1548204
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/816565090",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "232",
-    "addr:postcode": "Q8300",
-    "addr:street": "Ministro Joaquín González",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Centro Integral de la Mujer",
-    "id": "way/816565090"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0557813,
-          -38.9513917
-        ],
-        [
-          -68.0557813,
-          -38.9515829
-        ],
-        [
-          -68.0557813,
-          -38.9516945
-        ],
-        [
-          -68.0557813,
-          -38.9517165
-        ],
-        [
-          -68.0557782,
-          -38.9517313
-        ],
-        [
-          -68.0557735,
-          -38.9517394
-        ],
-        [
-          -68.0557643,
-          -38.9517459
-        ],
-        [
-          -68.0557512,
-          -38.9517484
-        ],
-        [
-          -68.055735,
-          -38.9517502
-        ],
-        [
-          -68.0557119,
-          -38.9517496
-        ],
-        [
-          -68.0556888,
-          -38.9517463
-        ],
-        [
-          -68.0556788,
-          -38.95174
-        ],
-        [
-          -68.0556694,
-          -38.9517316
-        ],
-        [
-          -68.0556649,
-          -38.9513914
-        ],
-        [
-          -68.0557122,
-          -38.9513908
-        ],
-        [
-          -68.0557813,
-          -38.9513917
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/816615835",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "385",
-    "addr:postcode": "Q8300",
-    "addr:street": "Juan Bautista Alberdi",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Centro de Traumatólogos Neuquinos",
-    "operator": "Clínica Pedro Moguillansky S.A",
-    "operator:type": "private",
-    "id": "way/816615835"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0538325,
-          -38.9530038
-        ],
-        [
-          -68.0538333,
-          -38.9531889
-        ],
-        [
-          -68.0537121,
-          -38.9531889
-        ],
-        [
-          -68.0537124,
-          -38.9530578
-        ],
-        [
-          -68.0537126,
-          -38.9530036
-        ],
-        [
-          -68.0538325,
-          -38.9530038
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/816615839",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "273",
-    "addr:postcode": "Q8300",
-    "addr:street": "Santa Fe",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Leben Salud - Clínica de Imágenes",
-    "operator": "Leben Group S.A",
-    "operator:type": "private",
-    "id": "way/816615839"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0561333,
-          -38.9521496
-        ],
-        [
-          -68.0561344,
-          -38.9523887
-        ],
-        [
-          -68.0555566,
-          -38.9523903
-        ],
-        [
-          -68.0555556,
-          -38.9521948
-        ],
-        [
-          -68.0555554,
-          -38.9521513
-        ],
-        [
-          -68.0556516,
-          -38.952151
-        ],
-        [
-          -68.0557921,
-          -38.9521506
-        ],
-        [
-          -68.0561333,
-          -38.9521496
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/816615851",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:postcode": "Q8300",
-    "addr:street": "Córdoba",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "paediatrics",
-    "name": "La Natividad Pediatría",
-    "operator": "Centro Pediátrico La Natividad",
-    "operator:type": "private",
-    "id": "way/816615851"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0549661,
-          -38.9532284
-        ],
-        [
-          -68.0553549,
-          -38.9532307
-        ],
-        [
-          -68.0553548,
-          -38.953367
-        ],
-        [
-          -68.0549648,
-          -38.9533657
-        ],
-        [
-          -68.0549661,
-          -38.9532284
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/816615853",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "250",
-    "addr:postcode": "Q8300",
-    "addr:street": "Bernardino Rivadavia",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Policlínico de Neuquén",
-    "id": "way/816615853"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0553562,
-          -38.953462
-        ],
-        [
-          -68.0555182,
-          -38.9534616
-        ],
-        [
-          -68.0555662,
-          -38.9534615
-        ],
-        [
-          -68.0555669,
-          -38.9536755
-        ],
-        [
-          -68.0555677,
-          -38.953915
-        ],
-        [
-          -68.0553573,
-          -38.953915
-        ],
-        [
-          -68.0553556,
-          -38.9536889
-        ],
-        [
-          -68.0553554,
-          -38.9535788
-        ],
-        [
-          -68.0553562,
-          -38.953462
         ]
       ]
     ]
@@ -34878,53 +34674,6 @@
         [
           -68.0526584,
           -38.9508649
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/845187959",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "endocrinology",
-    "name": "Consultorio C.E.R.",
-    "id": "way/845187959"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.0545362,
-          -38.954082
-        ],
-        [
-          -68.0545365,
-          -38.9541714
-        ],
-        [
-          -68.0545368,
-          -38.9542652
-        ],
-        [
-          -68.0545058,
-          -38.9542653
-        ],
-        [
-          -68.0543789,
-          -38.9542655
-        ],
-        [
-          -68.0543783,
-          -38.9540819
-        ],
-        [
-          -68.0545362,
-          -38.954082
         ]
       ]
     ]
@@ -43988,12 +43737,12 @@
     "coordinates": [
       [
         [
-          -64.1709782,
-          -31.4161635
+          -64.1709775,
+          -31.4161623
         ],
         [
-          -64.170762,
-          -31.4161098
+          -64.1707682,
+          -31.4161072
         ],
         [
           -64.1707797,
@@ -44024,16 +43773,16 @@
           -31.4159053
         ],
         [
-          -64.1710572,
-          -31.4159405
+          -64.1710585,
+          -31.4159382
         ],
         [
-          -64.1710514,
-          -31.4159567
+          -64.1710506,
+          -31.4159599
         ],
         [
-          -64.1709782,
-          -31.4161635
+          -64.1709775,
+          -31.4161623
         ]
       ]
     ]
@@ -45542,6 +45291,925 @@
 },
 {
   "type": "Feature",
+  "id": "way/1219911279",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Centro de salud municipal Villa Rivera Indarte",
+    "opening_hours": "Mo-Fr 7:30-14:30",
+    "phone": "03543449420",
+    "website": "http://www.hospitales.argentina.crigu.com/centro-de-salud-6-villa-rivera-indarte-cordoba-capital/",
+    "id": "way/1219911279"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2975603,
+          -31.3282736
+        ],
+        [
+          -64.2974307,
+          -31.3282748
+        ],
+        [
+          -64.2974295,
+          -31.3281788
+        ],
+        [
+          -64.2975591,
+          -31.3281776
+        ],
+        [
+          -64.2975603,
+          -31.3282736
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1220431528",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "350",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Fe",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "6",
+    "name": "Consultorios Huemul HPN",
+    "operator": "Hospital Provincial Neuquén",
+    "operator:type": "public",
+    "website": "https://www.hospitalneuquen.org.ar/departamentos-y-servicios/organigrama-superior/direccion-asociada-de-diagnostico-y-tratamiento/servicio-de-kinesiologia/turnos/",
+    "id": "way/1220431528"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0569377,
+          -38.9513084
+        ],
+        [
+          -68.0568156,
+          -38.9513083
+        ],
+        [
+          -68.0567609,
+          -38.9513078
+        ],
+        [
+          -68.0567608,
+          -38.9513242
+        ],
+        [
+          -68.0567081,
+          -38.951324
+        ],
+        [
+          -68.0564344,
+          -38.9513231
+        ],
+        [
+          -68.0563772,
+          -38.9513229
+        ],
+        [
+          -68.0563777,
+          -38.9512069
+        ],
+        [
+          -68.0563778,
+          -38.9511889
+        ],
+        [
+          -68.0563649,
+          -38.9511888
+        ],
+        [
+          -68.0563651,
+          -38.9511278
+        ],
+        [
+          -68.0565188,
+          -38.9511281
+        ],
+        [
+          -68.0566364,
+          -38.9511283
+        ],
+        [
+          -68.0567616,
+          -38.9511286
+        ],
+        [
+          -68.0569276,
+          -38.9511289
+        ],
+        [
+          -68.0569277,
+          -38.9511147
+        ],
+        [
+          -68.0570388,
+          -38.951115
+        ],
+        [
+          -68.057039,
+          -38.9512173
+        ],
+        [
+          -68.0569383,
+          -38.9512171
+        ],
+        [
+          -68.0569375,
+          -38.9512624
+        ],
+        [
+          -68.0569377,
+          -38.9513084
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1221422065",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "269",
+    "addr:postcode": "Q8300",
+    "addr:street": "Maestro Thames Alderete",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "psychiatry",
+    "height": "3",
+    "name": "Centro de Salud Mental del Comahue",
+    "operator:type": "private",
+    "id": "way/1221422065"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0553062,
+          -38.9508527
+        ],
+        [
+          -68.0554233,
+          -38.9508519
+        ],
+        [
+          -68.0554242,
+          -38.9509652
+        ],
+        [
+          -68.0553886,
+          -38.9509653
+        ],
+        [
+          -68.0553889,
+          -38.9510044
+        ],
+        [
+          -68.0554245,
+          -38.9510043
+        ],
+        [
+          -68.0554257,
+          -38.9511479
+        ],
+        [
+          -68.0553806,
+          -38.951148
+        ],
+        [
+          -68.0553807,
+          -38.9511678
+        ],
+        [
+          -68.0554259,
+          -38.9511677
+        ],
+        [
+          -68.0554262,
+          -38.9512095
+        ],
+        [
+          -68.0553075,
+          -38.95121
+        ],
+        [
+          -68.0553072,
+          -38.9511169
+        ],
+        [
+          -68.055307,
+          -38.9510704
+        ],
+        [
+          -68.0553362,
+          -38.9510703
+        ],
+        [
+          -68.0553354,
+          -38.9509304
+        ],
+        [
+          -68.0553065,
+          -38.9509305
+        ],
+        [
+          -68.0553062,
+          -38.9508527
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1221422092",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "232",
+    "addr:postcode": "Q8300",
+    "addr:street": "Ministro Joaquín González",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;humanistic;gynaecology;urology;fertility;gastroenterology",
+    "height": "6",
+    "name": "Centro Integral de la Mujer",
+    "operator": "Centro Integral de la Mujer S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 442-2319",
+    "website": "http://www.cidem.com.ar/",
+    "id": "way/1221422092"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0556602,
+          -38.9514155
+        ],
+        [
+          -68.0557744,
+          -38.9514152
+        ],
+        [
+          -68.0557748,
+          -38.9515379
+        ],
+        [
+          -68.0557465,
+          -38.951538
+        ],
+        [
+          -68.0557468,
+          -38.9515788
+        ],
+        [
+          -68.055775,
+          -38.9515787
+        ],
+        [
+          -68.0557757,
+          -38.9517554
+        ],
+        [
+          -68.0556623,
+          -38.9517561
+        ],
+        [
+          -68.0556613,
+          -38.9516044
+        ],
+        [
+          -68.0556605,
+          -38.9514764
+        ],
+        [
+          -68.0556602,
+          -38.9514155
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1221422093",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "242",
+    "addr:postcode": "Q8300",
+    "addr:street": "Ministro Joaquín González",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "height": "9",
+    "name": "Centro de Medicina Ambulatoria Neuquén Leben Salud",
+    "operator": "Grupo Leben Salud",
+    "operator:type": "private",
+    "phone": "0810-666-4624;+54 299 428-6396",
+    "website": "https://lebensalud.com.ar/",
+    "id": "way/1221422093"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0555679,
+          -38.9513379
+        ],
+        [
+          -68.0556597,
+          -38.9513376
+        ],
+        [
+          -68.05566,
+          -38.9513895
+        ],
+        [
+          -68.0556602,
+          -38.9514155
+        ],
+        [
+          -68.0556605,
+          -38.9514764
+        ],
+        [
+          -68.0556613,
+          -38.9516044
+        ],
+        [
+          -68.0556623,
+          -38.9517561
+        ],
+        [
+          -68.055571,
+          -38.9517566
+        ],
+        [
+          -68.0555699,
+          -38.9516047
+        ],
+        [
+          -68.0555689,
+          -38.9514761
+        ],
+        [
+          -68.0555679,
+          -38.9513379
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1221872468",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "385",
+    "addr:postcode": "Q8300",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "traumatology",
+    "height": "6",
+    "name": "Centro de Traumatólogos Neuquinos Moguillansky",
+    "operator": "Medicina XXI S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 443-2966;+54 299 443-2306",
+    "website": "https://clinicamoguillansky.com.ar/centro-de-traumatologos-neuquinos",
+    "id": "way/1221872468"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0537072,
+          -38.9530123
+        ],
+        [
+          -68.0538362,
+          -38.9530123
+        ],
+        [
+          -68.0538362,
+          -38.9530374
+        ],
+        [
+          -68.0538361,
+          -38.9531381
+        ],
+        [
+          -68.0538361,
+          -38.9531892
+        ],
+        [
+          -68.0537088,
+          -38.9531895
+        ],
+        [
+          -68.0537085,
+          -38.9531512
+        ],
+        [
+          -68.0537583,
+          -38.9531512
+        ],
+        [
+          -68.0537584,
+          -38.9531131
+        ],
+        [
+          -68.0537081,
+          -38.953113
+        ],
+        [
+          -68.0537072,
+          -38.9530123
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1222163934",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "345",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "nephrology;dialysis",
+    "height": "6",
+    "name": "NephroCare Neuquén",
+    "operator": "Fresenius Medical Care Argentina S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 443-0181",
+    "website": "https://www.nephrocare.com.ar/",
+    "id": "way/1222163934"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0542969,
+          -38.9541424
+        ],
+        [
+          -68.0542969,
+          -38.9541519
+        ],
+        [
+          -68.0542969,
+          -38.9541716
+        ],
+        [
+          -68.0542969,
+          -38.9542781
+        ],
+        [
+          -68.0542968,
+          -38.9544457
+        ],
+        [
+          -68.0542968,
+          -38.9544557
+        ],
+        [
+          -68.0540719,
+          -38.9544552
+        ],
+        [
+          -68.0540725,
+          -38.9542864
+        ],
+        [
+          -68.0541185,
+          -38.9542865
+        ],
+        [
+          -68.0541188,
+          -38.9542159
+        ],
+        [
+          -68.0540994,
+          -38.9542158
+        ],
+        [
+          -68.0540994,
+          -38.9541996
+        ],
+        [
+          -68.054072,
+          -38.9541995
+        ],
+        [
+          -68.0540724,
+          -38.9541142
+        ],
+        [
+          -68.054186,
+          -38.9541145
+        ],
+        [
+          -68.0541859,
+          -38.9541421
+        ],
+        [
+          -68.0542969,
+          -38.9541424
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1222163935",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "333",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "3",
+    "name": "Instituto del Riñón",
+    "operator:type": "private",
+    "id": "way/1222163935"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0542969,
+          -38.9540916
+        ],
+        [
+          -68.0543412,
+          -38.9540917
+        ],
+        [
+          -68.0543412,
+          -38.954106
+        ],
+        [
+          -68.0543827,
+          -38.954106
+        ],
+        [
+          -68.0544058,
+          -38.9541061
+        ],
+        [
+          -68.0544055,
+          -38.9541717
+        ],
+        [
+          -68.0544052,
+          -38.9542591
+        ],
+        [
+          -68.0543576,
+          -38.954259
+        ],
+        [
+          -68.0543576,
+          -38.9542308
+        ],
+        [
+          -68.0543282,
+          -38.9542307
+        ],
+        [
+          -68.0543284,
+          -38.9541716
+        ],
+        [
+          -68.0542969,
+          -38.9541716
+        ],
+        [
+          -68.0542969,
+          -38.9541519
+        ],
+        [
+          -68.0542969,
+          -38.9541424
+        ],
+        [
+          -68.0542969,
+          -38.9540916
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1222163937",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "327",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "beige",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "endocrinology",
+    "height": "6",
+    "name": "CER Endocrinología & Diabetes",
+    "operator": "Centro de Endocrinología S.R.L.",
+    "operator:type": "private",
+    "website": "https://cerendocrinologia.com.ar/",
+    "id": "way/1222163937"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0545139,
+          -38.954092
+        ],
+        [
+          -68.0545136,
+          -38.954185
+        ],
+        [
+          -68.0545135,
+          -38.9542093
+        ],
+        [
+          -68.0545133,
+          -38.9542533
+        ],
+        [
+          -68.0545132,
+          -38.9542782
+        ],
+        [
+          -68.0544781,
+          -38.9542782
+        ],
+        [
+          -68.0544782,
+          -38.9542497
+        ],
+        [
+          -68.0544422,
+          -38.9542496
+        ],
+        [
+          -68.0544421,
+          -38.9542782
+        ],
+        [
+          -68.0544051,
+          -38.9542782
+        ],
+        [
+          -68.0544052,
+          -38.9542591
+        ],
+        [
+          -68.0544055,
+          -38.9541717
+        ],
+        [
+          -68.0544058,
+          -38.9541061
+        ],
+        [
+          -68.0544058,
+          -38.9540918
+        ],
+        [
+          -68.0545139,
+          -38.954092
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1222588233",
+  "properties": {
+    "addr:city": "San Andres",
+    "addr:country": "AR",
+    "addr:housenumber": "2847",
+    "addr:postcode": "B1651",
+    "addr:province": "Buenos Aires",
+    "addr:street": "77 - Riobamba",
+    "amenity": "clinic",
+    "branch": "Filial San Andrés",
+    "contact:email": "s-andres@cruzroja.org.ar",
+    "contact:facebook": "https://www.facebook.com/FilialSanAndres/",
+    "contact:instagram": "https://www.instagram.com/crasanandres/",
+    "contact:twitter": "https://twitter.com/CRASanAndres",
+    "healthcare": "clinic",
+    "healthcare:speciality": "vaccination",
+    "name": "Cruz Roja Argentina - Filial San Andrés",
+    "operator": "Cruz Roja Argentina",
+    "operator:type": "ngo",
+    "operator:wikidata": "Q47070765",
+    "operator:wikipedia": "es:Cruz Roja Argentina",
+    "start_date": "1941-06-05",
+    "id": "way/1222588233"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5416373,
+          -34.5663576
+        ],
+        [
+          -58.5418872,
+          -34.5665679
+        ],
+        [
+          -58.5418241,
+          -34.5666187
+        ],
+        [
+          -58.5415736,
+          -34.56641
+        ],
+        [
+          -58.5416373,
+          -34.5663576
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1222614911",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "273",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Fe",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica de Imágenes Leben Salud",
+    "operator": "Grupo Leben Salud",
+    "operator:type": "private",
+    "phone": "0810-666-4624;+54 299 428-6396",
+    "website": "https://lebensalud.com.ar/",
+    "id": "way/1222614911"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0561265,
+          -38.9524137
+        ],
+        [
+          -68.0559595,
+          -38.9524145
+        ],
+        [
+          -68.0558632,
+          -38.952415
+        ],
+        [
+          -68.0558637,
+          -38.9524796
+        ],
+        [
+          -68.0558639,
+          -38.9525109
+        ],
+        [
+          -68.0558643,
+          -38.9525539
+        ],
+        [
+          -68.05579,
+          -38.9525544
+        ],
+        [
+          -68.0557428,
+          -38.9525547
+        ],
+        [
+          -68.0556674,
+          -38.9525552
+        ],
+        [
+          -68.0555475,
+          -38.952556
+        ],
+        [
+          -68.0555338,
+          -38.9525561
+        ],
+        [
+          -68.05546,
+          -38.9525566
+        ],
+        [
+          -68.0554593,
+          -38.9524868
+        ],
+        [
+          -68.0554583,
+          -38.9523784
+        ],
+        [
+          -68.0555457,
+          -38.9523779
+        ],
+        [
+          -68.0555444,
+          -38.9522024
+        ],
+        [
+          -68.0556509,
+          -38.952202
+        ],
+        [
+          -68.0556645,
+          -38.9522019
+        ],
+        [
+          -68.0558033,
+          -38.9522014
+        ],
+        [
+          -68.0559231,
+          -38.9522009
+        ],
+        [
+          -68.0559563,
+          -38.9522008
+        ],
+        [
+          -68.0561248,
+          -38.9522002
+        ],
+        [
+          -68.0561261,
+          -38.9523709
+        ],
+        [
+          -68.0561263,
+          -38.9523923
+        ],
+        [
+          -68.0561265,
+          -38.9524137
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -45782,7 +46450,7 @@
     "phone": "+54 (11) 4821-1600",
     "ref:sisa_codigo": "10020012315191",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://www.cdelsol.com.ar/",
+    "website": "https://www.cdelsol.com.ar/",
     "wikidata": "Q93139853",
     "id": "node/873073560"
   },
@@ -48374,7 +49042,7 @@
   "properties": {
     "addr:housenumber": "571",
     "addr:postcode": "M5500GLK",
-    "addr:street": "Necochea",
+    "addr:street": "Mariano Necochea",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Imagen Diagnostica",
@@ -48396,7 +49064,7 @@
   "id": "node/2775858518",
   "properties": {
     "addr:housenumber": "569",
-    "addr:street": "Necochea",
+    "addr:street": "Mariano Necochea",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Genera Salud",
@@ -51577,8 +52245,8 @@
     "addr:street": "Italia",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro de Salud N° 38 – Chacras de Coria",
-    "phone": "54 0261 4960104",
+    "name": "Centro de Salud 38 – Chacras de Coria",
+    "phone": "+54 261 496-0104",
     "wikidata": "Q100998127",
     "id": "node/3655761054"
   },
@@ -51595,11 +52263,11 @@
   "id": "node/3655761055",
   "properties": {
     "addr:housenumber": "8801",
-    "addr:street": "Saenz Peña",
+    "addr:street": "Sáenz Peña",
     "amenity": "clinic",
     "fixme": "Confirmar ubicacion (Direccion confirmada)",
     "healthcare": "clinic",
-    "name": "Centro de Salud Nº 32 – Las Compuertas",
+    "name": "Centro de Salud 32 – Las Compuertas",
     "phone": "54 0261 4984001",
     "id": "node/3655761055"
   },
@@ -52506,11 +53174,11 @@
     "addr:city": "San Martin",
     "addr:housenumber": "235",
     "addr:postcode": "M5570JVE",
-    "addr:street": "Espejo;Espejo Oeste",
+    "addr:street": "Espejo",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "IMAGEN DIAGNOSTICA SAN MARTIN",
-    "operator": "IMAGEN DIAGNOSTICA SAN MARTIN",
+    "name": "Imagen Diagóstica San Martín",
+    "operator": "Imagen Diagóstica San Martín",
     "id": "node/3761813655"
   },
   "geometry": {
@@ -58130,7 +58798,7 @@
     "healthcare": "clinic",
     "name": "Diagnóstico Médico",
     "phone": "+54 11 4821-6900",
-    "website": "http://www.diagnosticomedico.com",
+    "website": "https://diagnosticomedico.com/",
     "id": "node/4611852270"
   },
   "geometry": {
@@ -60635,7 +61303,7 @@
   "id": "node/4788854189",
   "properties": {
     "addr:housenumber": "742",
-    "addr:street": "Las Heras",
+    "addr:street": "Gregorio De Las Heras",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Santa Rosa",
@@ -61375,7 +62043,7 @@
     "healthcare": "clinic",
     "name": "VZ Laboratorios",
     "phone": "+54 11 4523-4948",
-    "website": "http://www.vzlaboratorios.com/",
+    "website": "https://www.vzlaboratorios.com/",
     "id": "node/4985350197"
   },
   "geometry": {
@@ -63141,7 +63809,7 @@
     "healthcare": "clinic",
     "name": "Investigaciones Médicas Centros de Diagnósticos",
     "phone": "+54 11 4127-2800",
-    "website": "http://www.investigacionesmedicas.com",
+    "website": "https://www.investigacionesmedicas.com/",
     "id": "node/5422663093"
   },
   "geometry": {
@@ -63162,7 +63830,7 @@
     "healthcare": "clinic",
     "name": "Investigaciones Médicas - Centro de Diagnóstico",
     "phone": "+54 11 4127-2800",
-    "website": "http://www.investigacionesmedicas.com",
+    "website": "https://www.investigacionesmedicas.com/",
     "id": "node/5432694941"
   },
   "geometry": {
@@ -64091,6 +64759,7 @@
     "ref:sisa_codigo": "50820842284562",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
+    "wikidata": "Q92662813",
     "id": "node/5540925654"
   },
   "geometry": {
@@ -67226,7 +67895,7 @@
     "name": "Centro Moreau",
     "opening_hours": "Mo-Sa 00:00-24:00; Su 07:30-23:30",
     "phone": "+54 11 4582-2555",
-    "website": "http://www.centromoreau.com.ar",
+    "website": "https://centromoreau.com.ar/",
     "id": "node/6174312491"
   },
   "geometry": {
@@ -68989,31 +69658,6 @@
     "coordinates": [
       -58.2020366,
       -35.2751463
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7209722373",
-  "properties": {
-    "addr:city": "Libertad",
-    "addr:housenumber": "21",
-    "addr:postcode": "1716",
-    "addr:street": "Colombia",
-    "amenity": "clinic",
-    "emergency": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "ophthalmology;dentist",
-    "name": "Hospital Municipal Odonto-Oftalmológico de Libertad",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "id": "node/7209722373"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.6908199,
-      -34.6948666
     ]
   }
 },
@@ -72134,7 +72778,7 @@
     "phone": "+54 11 47969644",
     "ref:sisa_codigo": "50068612202004",
     "ref:sisa_tipologia": "ESSIDT",
-    "website": "http://www.vicentelopez.gov.ar/secretaria-de-salud",
+    "website": "https://www.vicentelopez.gov.ar/secretaria-de-salud",
     "id": "node/7501610242"
   },
   "geometry": {
@@ -81258,31 +81902,6 @@
     "coordinates": [
       -59.0231547,
       -34.1085844
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7504125544",
-  "properties": {
-    "addr:full": "Rumania 170",
-    "addr:housenumber": "170",
-    "addr:postcode": "8307",
-    "addr:street": "Rumania",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Santa Cruz",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50620422170195",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7504125544"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.5395384,
-      -39.0291315
     ]
   }
 },
@@ -91101,8 +91720,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.6995515,
-      -34.6664995
+      -58.6992457,
+      -34.6667488
     ]
   }
 },
@@ -99080,53 +99699,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7626810725",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "250",
-    "addr:postcode": "Q8300",
-    "addr:street": "Juan Bautista Alberdi",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "level": "9",
-    "name": "Kranex",
-    "operator": "Kranex S.R.L.",
-    "id": "node/7626810725"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0556,
-      -38.9527839
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7626990079",
-  "properties": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "350",
-    "addr:postcode": "Q8300",
-    "addr:street": "Bernardino Rivadavia",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "level": "1",
-    "name": "Instituto Cardiovascular del Sur",
-    "operator": "Leben Group",
-    "operator:type": "private",
-    "id": "node/7626990079"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.0542728,
-      -38.9538222
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7644566785",
   "properties": {
     "amenity": "clinic",
@@ -103902,7 +104474,7 @@
     "healthcare": "clinic",
     "name": "Centro Médico Pueyrredón",
     "phone": "+54 11 4743 4783",
-    "website": "http://www.cm-pueyrredon.com.ar/",
+    "website": "https://www.cm-pueyrredon.com.ar/",
     "id": "node/9889988005"
   },
   "geometry": {
@@ -104045,7 +104617,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Fimedical",
-    "website": "http://www.fimedical.com.ar/",
+    "website": "https://fimedical.com.ar/",
     "id": "node/9930183771"
   },
   "geometry": {
@@ -104710,7 +105282,7 @@
     "healthcare": "clinic",
     "name": "Centro Odontológico Charcas",
     "operator:type": "private",
-    "website": "www.swissmedical.com.ar",
+    "website": "https://www.swissmedical.com.ar/",
     "id": "node/10197624317"
   },
   "geometry": {
@@ -105923,7 +106495,7 @@
     "addr:street": "Moreno",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Giuliani",
+    "name": "Charata",
     "id": "node/11005895924"
   },
   "geometry": {
@@ -107243,6 +107815,227 @@
     "coordinates": [
       -66.3562793,
       -22.5569287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11305598969",
+  "properties": {
+    "addr:housenumber": "2452",
+    "addr:street": "Paraguay",
+    "amenity": "clinic",
+    "name": "Centro Larrea Salud Mental",
+    "id": "node/11305598969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4028686,
+      -34.5979225
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11306448100",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Posta Sanitaria",
+    "id": "node/11306448100"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.26657,
+      -26.479238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307558549",
+  "properties": {
+    "amenity": "clinic",
+    "denomination": "catholic",
+    "historic": "wayside_cross",
+    "name": "Cruz Papa Francisco",
+    "religion": "christian",
+    "id": "node/11307558549"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2900261,
+      -26.7255843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11322981427",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios",
+    "id": "node/11322981427"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -70.5877563,
+      -44.0495751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11328322654",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:postcode": "Q8300",
+    "addr:street": "Córdoba",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics",
+    "name": "La Natividad Pediatría",
+    "operator": "Centro Pediátrico La Natividad",
+    "operator:type": "private",
+    "id": "node/11328322654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0551599,
+      -38.953298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11328322655",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "250",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policlínico de Neuquén",
+    "id": "node/11328322655"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0554615,
+      -38.9536884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11330133648",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Puesto de Salud",
+    "id": "node/11330133648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.4884304,
+      -23.9462566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11331530160",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Hospital Británico",
+    "id": "node/11331530160"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3797679,
+      -34.5997503
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11332030291",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "340",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "cardiology",
+    "level": "1",
+    "name": "Instituto Cardiovascular",
+    "operator": "Instituto Cardiovascular S.R.L.",
+    "operator:type": "private",
+    "phone": "+54 299 655-3080;+54 299 621-2300",
+    "website": "https://www.icardiovascular.com.ar/",
+    "id": "node/11332030291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0542914,
+      -38.9539027
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11332050746",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios",
+    "id": "node/11332050746"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.1950825,
+      -24.5922012
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11338848254",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Slim Center",
+    "id": "node/11338848254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1862225,
+      -31.4136119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11340474827",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Puesto de Salud",
+    "id": "node/11340474827"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.8299599,
+      -36.659873
     ]
   }
 }
