@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-11-11T11:12:14Z",
-    "timestamp_areas_base": "2023-11-11T09:27:35Z",
+    "timestamp_osm_base": "2023-11-25T19:00:28Z",
+    "timestamp_areas_base": "2023-11-25T15:59:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -623,20 +623,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Sanatorios Integrados (Consultorios)"
-  }
-},
-{
-  "type": "node",
-  "id": 1877886381,
-  "lat": -38.9535115,
-  "lon": -68.0549594,
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "126",
-    "addr:street": "Córdoba",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Consultorios Externos - Policlínico Neuquén"
   }
 },
 {
@@ -1819,7 +1805,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica del Niño",
-    "phone": "54 0261 4259733"
+    "phone": "+54 261 425-9733"
   }
 },
 {
@@ -2004,7 +1990,7 @@
   "lon": -68.8506641,
   "tags": {
     "addr:housenumber": "854",
-    "addr:street": "Belgrano",
+    "addr:street": "Manuel Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Instituto Medicina Reproductiva"
@@ -2116,7 +2102,7 @@
   "lon": -68.8433095,
   "tags": {
     "addr:housenumber": "1930",
-    "addr:street": "San Martín",
+    "addr:street": "Avenida General San Martín",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "SEMA Consultorios Medicos y Rehabilitación"
@@ -2503,11 +2489,15 @@
     "addr:city": "Paraná",
     "addr:country": "AR",
     "addr:housenumber": "1462",
+    "addr:postcode": "3100",
     "addr:street": "Avenida Zanni",
     "amenity": "clinic",
-    "contact:phone": "(0343) 4260426",
+    "contact:phone": "+54 343 4260426",
     "healthcare": "clinic",
-    "name": "Doctor Arturo Oñativia"
+    "name": "Doctor Arturo Oñativia",
+    "phone": "+54 343 4260426",
+    "ref:sisa_codigo": "50300842142416",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -3704,7 +3694,7 @@
   "lon": -68.8304674,
   "tags": {
     "addr:housenumber": "1260",
-    "addr:street": "Palacios",
+    "addr:street": "Pedro B. Palacios",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica Sananes",
@@ -5890,7 +5880,7 @@
   "tags": {
     "addr:housenumber": "836",
     "addr:postcode": "M5500CJK",
-    "addr:street": "Belgrano",
+    "addr:street": "Manuel Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica Yoma",
@@ -6576,6 +6566,10 @@
   "lat": -33.2043918,
   "lon": -64.4364897,
   "tags": {
+    "addr:city": "Santa Catalina",
+    "addr:housenumber": "145",
+    "addr:postcode": "5825",
+    "addr:street": "Libertad",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Unidad Sanitaria"
@@ -7092,11 +7086,12 @@
   "lat": -31.7674184,
   "lon": -60.5218853,
   "tags": {
-    "addr:postcode": "3",
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
     "addr:street": "Francisco de Bueno",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "santa lucía",
+    "name": "Consultorios Santa lucía",
     "phone": "3100"
   }
 },
@@ -7716,8 +7711,8 @@
 {
   "type": "node",
   "id": 4424223089,
-  "lat": -39.2379387,
-  "lon": -70.9261370,
+  "lat": -39.2378868,
+  "lon": -70.9257561,
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -22475,27 +22470,6 @@
 },
 {
   "type": "node",
-  "id": 7502248326,
-  "lat": -34.4619031,
-  "lon": -58.5637593,
-  "tags": {
-    "addr:city": "Victoria",
-    "addr:full": "Guido Spano 3134",
-    "addr:housenumber": "3134",
-    "addr:postcode": "1646",
-    "addr:street": "Guido y Spano",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Posta Sanitaria Barrio Mejoral",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 47449156",
-    "ref:sisa_codigo": "50067492201559",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7502248330,
   "lat": -34.8418613,
   "lon": -58.4997444,
@@ -25724,11 +25698,14 @@
 {
   "type": "node",
   "id": 7503863398,
-  "lat": -34.6791724,
-  "lon": -58.5313676,
+  "lat": -34.6792687,
+  "lon": -58.5315170,
   "tags": {
+    "addr:city": "La Tablada",
     "addr:full": "Necochea 4226",
+    "addr:housenumber": "4229",
     "addr:postcode": "1766",
+    "addr:street": "Necochea",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CAPS Unidad Sanitaria Saturnino Segurola",
@@ -39140,24 +39117,6 @@
 },
 {
   "type": "node",
-  "id": 7541849682,
-  "lat": -34.1632130,
-  "lon": -58.9576243,
-  "tags": {
-    "addr:city": "Campana",
-    "addr:housenumber": "731",
-    "addr:postcode": "2804",
-    "addr:street": "Avenida General Bartolomé Mitre",
-    "amenity": "clinic",
-    "disused:amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clinica Privada Campana",
-    "ref:sisa_codigo": "10061262300078",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
   "id": 7541873299,
   "lat": -34.1949319,
   "lon": -58.9434153,
@@ -42051,7 +42010,9 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud Cecilia Grierson",
-    "phone": "+54 343 4344322"
+    "phone": "+54 343 4344322",
+    "ref:sisa_codigo": "50300842142203",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -44650,8 +44611,8 @@
 {
   "type": "node",
   "id": 11097011099,
-  "lat": -32.9561686,
-  "lon": -60.6433809,
+  "lat": -32.9561510,
+  "lon": -60.6433435,
   "tags": {
     "addr:housenumber": "1647",
     "addr:street": "Entre Ríos",
@@ -45279,38 +45240,6 @@
 },
 {
   "type": "node",
-  "id": 11328322654,
-  "lat": -38.9532980,
-  "lon": -68.0551599,
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:postcode": "Q8300",
-    "addr:street": "Córdoba",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "paediatrics",
-    "name": "La Natividad Pediatría",
-    "operator": "Centro Pediátrico La Natividad",
-    "operator:type": "private"
-  }
-},
-{
-  "type": "node",
-  "id": 11328322655,
-  "lat": -38.9536884,
-  "lon": -68.0554615,
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "250",
-    "addr:postcode": "Q8300",
-    "addr:street": "Bernardino Rivadavia",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Policlínico de Neuquén"
-  }
-},
-{
-  "type": "node",
   "id": 11330133648,
   "lat": -23.9462566,
   "lon": -66.4884304,
@@ -45379,6 +45308,222 @@
   "tags": {
     "amenity": "clinic",
     "name": "Puesto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11347625730,
+  "lat": -35.0805238,
+  "lon": -69.5676801,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11347742982,
+  "lat": -33.9433644,
+  "lon": -69.0786557,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11350089953,
+  "lat": -31.7469810,
+  "lon": -60.5042780,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "627",
+    "addr:postcode": "3100",
+    "addr:street": "Gervasio Méndez",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Medico Doctor Retamar",
+    "phone": "+54 343 4240720",
+    "ref:sisa_codigo": "50300842342663",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11350121909,
+  "lat": -31.7262407,
+  "lon": -60.4986023,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "1101",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida de Circunvalación José Hernández",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/Resonancia-Magn%C3%A9tica-Entre-R%C3%ADos-257378137954787/",
+    "contact:whatsapp": "+54 343 4556715",
+    "healthcare": "clinic",
+    "name": "Sala De Diagnostico Por Imagenes Sociedad Medica De Resonancia Magnetica",
+    "ref:sisa_codigo": "51300842342590",
+    "ref:sisa_tipologia": "ESSID",
+    "website": "https://www.resonanciamagneticaer.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 11350122108,
+  "lat": -31.7619653,
+  "lon": -60.4985948,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "1330",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida Zanni",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Servicio De Rehabilitacion Multidisciplinario El Cedro",
+    "phone": "+54 343 4301199",
+    "ref:sisa_codigo": "52300842343478",
+    "ref:sisa_tipologia": "ESSIT"
+  }
+},
+{
+  "type": "node",
+  "id": 11351402769,
+  "lat": -34.5924695,
+  "lon": -58.4165738,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Dra.Katz"
+  }
+},
+{
+  "type": "node",
+  "id": 11352884891,
+  "lat": -34.6644792,
+  "lon": -58.7300973,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Hospital Escuela Universidad Nacional del Oeste"
+  }
+},
+{
+  "type": "node",
+  "id": 11353220842,
+  "lat": -29.4185153,
+  "lon": -67.8094451,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11353392847,
+  "lat": -27.6518756,
+  "lon": -67.0289022,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Belen Dialisis"
+  }
+},
+{
+  "type": "node",
+  "id": 11353392856,
+  "lat": -27.6494819,
+  "lon": -67.0297866,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11353392858,
+  "lat": -27.6524446,
+  "lon": -67.0306456,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Sanatorio"
+  }
+},
+{
+  "type": "node",
+  "id": 11356030708,
+  "lat": -31.3035446,
+  "lon": -60.6592177,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clinica"
+  }
+},
+{
+  "type": "node",
+  "id": 11356646988,
+  "lat": -33.5961358,
+  "lon": -60.3575966,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
+  }
+},
+{
+  "type": "node",
+  "id": 11357399590,
+  "lat": -38.9522330,
+  "lon": -68.0560407,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "273",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Fe",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "orthopaedics;trauma",
+    "level": "1",
+    "name": "Consultorios Externos PN",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 442-4336;+54 299 442-4761"
+  }
+},
+{
+  "type": "node",
+  "id": 11360700692,
+  "lat": -30.4992638,
+  "lon": -58.5880682,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11369435524,
+  "lat": -34.5744729,
+  "lon": -58.5399231,
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "3685",
+    "addr:postcode": "B1650",
+    "addr:street": "58 - General Juan Martín de Pueyrredón",
+    "amenity": "clinic",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "healthcare:speciality": "cardiology;plastic_surgery;dermatology;endocrinology;gynaecology;nutrition;ophthalmology;traumatology;urology",
+    "name": "Vitae",
+    "website": "https://cmvitae.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 11371079745,
+  "lat": -27.2255476,
+  "lon": -61.1874191,
+  "tags": {
+    "addr:street": "Coronel Pringles",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Qualitas"
   }
 },
 {
@@ -46323,7 +46468,7 @@
   "tags": {
     "addr:city": "Mendoza",
     "addr:housenumber": "313",
-    "addr:street": "Vicente Zapata",
+    "addr:street": "José Vicente Zapata",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -49509,8 +49654,7 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "UAI Salud",
-    "source": "Reconocimiento cartográfico 2016 por KG"
+    "name": "UAI Salud"
   }
 },
 {
@@ -49520,15 +49664,14 @@
     4581911368,
     4581911369,
     4581911370,
-    7504431819,
+    4581911364,
     4581911368
   ],
   "tags": {
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Hospital Universitario",
-    "source": "Reconocimiento cartográfico 2016 por KG"
+    "name": "Hospital Universitario"
   }
 },
 {
@@ -53670,7 +53813,7 @@
   ],
   "tags": {
     "addr:housenumber": "361",
-    "addr:street": "Leandro Alem",
+    "addr:street": "Leandro N. Alem",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica Esperanza",
@@ -60996,46 +61139,6 @@
 },
 {
   "type": "way",
-  "id": 844785200,
-  "nodes": [
-    7881391779,
-    10233383131,
-    7881391781,
-    10233383152,
-    10233383153,
-    10233383129,
-    7881391786,
-    7882553465,
-    7882553466,
-    7882553467,
-    10233383141,
-    7881391782,
-    10233383180,
-    7881391783,
-    10233383148,
-    10233383105,
-    7881391780,
-    10233383138,
-    10233383137,
-    7881391779
-  ],
-  "tags": {
-    "addr:city": "Neuquén",
-    "addr:housenumber": "445",
-    "addr:postcode": "Q8300",
-    "addr:street": "Maestro Thames Alderete",
-    "amenity": "clinic",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Centro de Resonancia Magnética - Clínica Moguillansky",
-    "operator": "Medicina XXI S.A.",
-    "operator:type": "private",
-    "phone": "+54 299 430-7800",
-    "website": "https://clinicamoguillansky.com.ar/centro-de-resonancia-magnetica"
-  }
-},
-{
-  "type": "way",
   "id": 845214755,
   "nodes": [
     7885469779,
@@ -65429,7 +65532,7 @@
     "name": "Centro Médico MF",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-13:00",
     "phone": "01175034514",
-    "website": "http://centromedicomf.com/"
+    "website": "https://centromedicomf.com/"
   }
 },
 {
@@ -66114,6 +66217,8 @@
     11339619423,
     11339619445,
     11339619427,
+    11357399535,
+    11357399536,
     11339596490,
     11339596541,
     11339619444,
@@ -66150,6 +66255,355 @@
     "operator:type": "private",
     "phone": "0810-666-4624;+54 299 428-6396",
     "website": "https://lebensalud.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1224598152,
+  "nodes": [
+    11356832972,
+    11356832973,
+    11356832974,
+    11356832975,
+    11356832976,
+    11356832972
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CECq"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670512,
+  "nodes": [
+    11357364214,
+    11357364247,
+    11357364248,
+    11357364259,
+    11357364262,
+    11357364263,
+    11357364264,
+    11357364252,
+    11357364213,
+    11357364216,
+    11357364265,
+    11357364266,
+    11357364267,
+    11357364268,
+    11357399469,
+    11357399470,
+    11357399471,
+    11357364237,
+    11357399472,
+    11357364211,
+    11357364214
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "250",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "email": "contacto@policliniconeuquen.com.ar",
+    "healthcare": "clinic",
+    "healthcare:speciality": "emergency",
+    "height": "3",
+    "name": "Guardia Policlínico Neuquén",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 442-2331;+54 299 442-2332",
+    "website": "https://www.policliniconeuquen.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670513,
+  "nodes": [
+    11357399472,
+    11357364211,
+    11357364241,
+    11357364242,
+    11357399473,
+    11357399474,
+    11357399475,
+    11357399472
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "262",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "rheumatology;dermatology;infectious_diseases;neurology;humanistic",
+    "height": "3",
+    "name": "Medicina Clínica Meditim",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 447-3737",
+    "website": "http://www.meditim.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670529,
+  "nodes": [
+    11357364210,
+    11357399550,
+    11357399551,
+    11357364233,
+    11357399554,
+    11357364228,
+    11357399556,
+    11357364230,
+    11357399549,
+    11357399582,
+    11357364212,
+    11357399547,
+    11357364265,
+    11357364216,
+    11357399539,
+    11357399557,
+    11357399537,
+    11357399555,
+    11357399558,
+    11357364215,
+    11357364210
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "269",
+    "addr:postcode": "Q8300",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "email": "contacto@policliniconeuquen.com.ar",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "height": "6",
+    "name": "Policlínico Neuquén",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 442-2331;+54 299 442-2332",
+    "website": "https://www.policliniconeuquen.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670536,
+  "nodes": [
+    11357364230,
+    11357399556,
+    11357364228,
+    11357364229,
+    11357364231,
+    11357364230
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "164",
+    "addr:postcode": "Q8300",
+    "addr:street": "Córdoba",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics",
+    "height": "3",
+    "name": "Centro Pediátrico La Natividad",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 530-3239",
+    "website": "https://lanatividadneuquen.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670537,
+  "nodes": [
+    11357399582,
+    11357399549,
+    11357364230,
+    11357364231,
+    11357364209,
+    11357399627,
+    11357399583,
+    11357399584,
+    11357399582
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "160",
+    "addr:postcode": "Q8300",
+    "addr:street": "Córdoba",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "gastroenterology",
+    "name": "Consultorios Externos Neuquén",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 633-7724",
+    "website": "https://gastroneuquen.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670538,
+  "nodes": [
+    10233712294,
+    11357399585,
+    11357399586,
+    11357399587,
+    11357399588,
+    11357399589,
+    10233712347,
+    10233712294
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "155",
+    "addr:postcode": "Q8300",
+    "addr:street": "Mendoza",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neurosurgery;neurology",
+    "height": "3",
+    "name": "Neurocirugía del Sur",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 447-2478;+54 299 442-9868"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670539,
+  "nodes": [
+    10234759694,
+    10234759695,
+    11357399591,
+    11357399592,
+    11357399593,
+    11357399594,
+    11357399595,
+    11357399596,
+    10234759694
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "27",
+    "addr:postcode": "Q8300",
+    "addr:street": "Mendoza",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "clinical_pathology",
+    "height": "3",
+    "name": "Centro Privado de Patología General",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 442-4497"
+  }
+},
+{
+  "type": "way",
+  "id": 1224670544,
+  "nodes": [
+    11357399610,
+    11357364236,
+    11357399611,
+    11357399612,
+    11357399613,
+    11357399614,
+    11357399615,
+    11357399616,
+    11357399610
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "126",
+    "addr:postcode": "Q8300",
+    "addr:street": "Córdoba",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "applied_kinesiology",
+    "height": "6",
+    "name": "Consultorios Externos Kinesiología PN",
+    "operator": "Policlínico Neuquén S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 442-2331;+54 299 442-2332"
+  }
+},
+{
+  "type": "way",
+  "id": 1225035029,
+  "nodes": [
+    11360481136,
+    11360481125,
+    11360481126,
+    11360481127,
+    11360481128,
+    11360481129,
+    11360481130,
+    11360481131,
+    11360481132,
+    11360481133,
+    11360481134,
+    11360481135,
+    11360481136
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "2219",
+    "addr:postcode": "8000",
+    "addr:street": "Rondeau",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Unidad Sanitaria San Dionisio",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "+54 9 291 455-0211"
+  }
+},
+{
+  "type": "way",
+  "id": 1225075950,
+  "nodes": [
+    11360841796,
+    11360841797,
+    11360841798,
+    11360841799,
+    11360841796
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1226598992,
+  "nodes": [
+    11374297942,
+    11374297943,
+    11374297944,
+    11374297945,
+    11374297942
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "house",
+    "healthcare": "clinic",
+    "name": "CREMED"
   }
 },
 {
@@ -70087,18 +70541,6 @@
 },
 {
   "type": "node",
-  "id": 7881391782,
-  "lat": -38.9513206,
-  "lon": -68.0529022
-},
-{
-  "type": "node",
-  "id": 7881391783,
-  "lat": -38.9513210,
-  "lon": -68.0526585
-},
-{
-  "type": "node",
   "id": 7882553480,
   "lat": -38.9516479,
   "lon": -68.0531337
@@ -70129,12 +70571,6 @@
 },
 {
   "type": "node",
-  "id": 10233383180,
-  "lat": -38.9513208,
-  "lon": -68.0527576
-},
-{
-  "type": "node",
   "id": 10233383185,
   "lat": -38.9515209,
   "lon": -68.0531328
@@ -70144,6 +70580,18 @@
   "id": 10233383186,
   "lat": -38.9515210,
   "lon": -68.0530175
+},
+{
+  "type": "node",
+  "id": 10233712294,
+  "lat": -38.9534695,
+  "lon": -68.0533782
+},
+{
+  "type": "node",
+  "id": 10233712347,
+  "lat": -38.9534694,
+  "lon": -68.0532432
 },
 {
   "type": "node",
@@ -70162,6 +70610,18 @@
   "id": 10234759690,
   "lat": -38.9540901,
   "lon": -68.0530266
+},
+{
+  "type": "node",
+  "id": 10234759694,
+  "lat": -38.9547415,
+  "lon": -68.0533834
+},
+{
+  "type": "node",
+  "id": 10234759695,
+  "lat": -38.9547421,
+  "lon": -68.0531460
 },
 {
   "type": "node",
@@ -70735,6 +71195,426 @@
 },
 {
   "type": "node",
+  "id": 11357364209,
+  "lat": -38.9534610,
+  "lon": -68.0549719
+},
+{
+  "type": "node",
+  "id": 11357364210,
+  "lat": -38.9530007,
+  "lon": -68.0553570
+},
+{
+  "type": "node",
+  "id": 11357364211,
+  "lat": -38.9539189,
+  "lon": -68.0553602
+},
+{
+  "type": "node",
+  "id": 11357364212,
+  "lat": -38.9534600,
+  "lon": -68.0553586
+},
+{
+  "type": "node",
+  "id": 11357364213,
+  "lat": -38.9534595,
+  "lon": -68.0555628
+},
+{
+  "type": "node",
+  "id": 11357364214,
+  "lat": -38.9539184,
+  "lon": -68.0555628
+},
+{
+  "type": "node",
+  "id": 11357364215,
+  "lat": -38.9530003,
+  "lon": -68.0555144
+},
+{
+  "type": "node",
+  "id": 11357364216,
+  "lat": -38.9534596,
+  "lon": -68.0555158
+},
+{
+  "type": "node",
+  "id": 11357364228,
+  "lat": -38.9532481,
+  "lon": -68.0553579
+},
+{
+  "type": "node",
+  "id": 11357364229,
+  "lat": -38.9532490,
+  "lon": -68.0549712
+},
+{
+  "type": "node",
+  "id": 11357364230,
+  "lat": -38.9533548,
+  "lon": -68.0553582
+},
+{
+  "type": "node",
+  "id": 11357364231,
+  "lat": -38.9533549,
+  "lon": -68.0549716
+},
+{
+  "type": "node",
+  "id": 11357364233,
+  "lat": -38.9531245,
+  "lon": -68.0553575
+},
+{
+  "type": "node",
+  "id": 11357364236,
+  "lat": -38.9536897,
+  "lon": -68.0549726
+},
+{
+  "type": "node",
+  "id": 11357364237,
+  "lat": -38.9536893,
+  "lon": -68.0553594
+},
+{
+  "type": "node",
+  "id": 11357364241,
+  "lat": -38.9539193,
+  "lon": -68.0552318
+},
+{
+  "type": "node",
+  "id": 11357364242,
+  "lat": -38.9537839,
+  "lon": -68.0552320
+},
+{
+  "type": "node",
+  "id": 11357364247,
+  "lat": -38.9538130,
+  "lon": -68.0555628
+},
+{
+  "type": "node",
+  "id": 11357364248,
+  "lat": -38.9536695,
+  "lon": -68.0555628
+},
+{
+  "type": "node",
+  "id": 11357364252,
+  "lat": -38.9535375,
+  "lon": -68.0555628
+},
+{
+  "type": "node",
+  "id": 11357364259,
+  "lat": -38.9535930,
+  "lon": -68.0555628
+},
+{
+  "type": "node",
+  "id": 11357364262,
+  "lat": -38.9535930,
+  "lon": -68.0554966
+},
+{
+  "type": "node",
+  "id": 11357364263,
+  "lat": -38.9535712,
+  "lon": -68.0554966
+},
+{
+  "type": "node",
+  "id": 11357364264,
+  "lat": -38.9535713,
+  "lon": -68.0555627
+},
+{
+  "type": "node",
+  "id": 11357364265,
+  "lat": -38.9534597,
+  "lon": -68.0554639
+},
+{
+  "type": "node",
+  "id": 11357364266,
+  "lat": -38.9534843,
+  "lon": -68.0554639
+},
+{
+  "type": "node",
+  "id": 11357364267,
+  "lat": -38.9534843,
+  "lon": -68.0553587
+},
+{
+  "type": "node",
+  "id": 11357364268,
+  "lat": -38.9535657,
+  "lon": -68.0553590
+},
+{
+  "type": "node",
+  "id": 11357399469,
+  "lat": -38.9535657,
+  "lon": -68.0554226
+},
+{
+  "type": "node",
+  "id": 11357399470,
+  "lat": -38.9535858,
+  "lon": -68.0554226
+},
+{
+  "type": "node",
+  "id": 11357399471,
+  "lat": -38.9535858,
+  "lon": -68.0553588
+},
+{
+  "type": "node",
+  "id": 11357399472,
+  "lat": -38.9538094,
+  "lon": -68.0553598
+},
+{
+  "type": "node",
+  "id": 11357399473,
+  "lat": -38.9537159,
+  "lon": -68.0552321
+},
+{
+  "type": "node",
+  "id": 11357399474,
+  "lat": -38.9537160,
+  "lon": -68.0553177
+},
+{
+  "type": "node",
+  "id": 11357399475,
+  "lat": -38.9538093,
+  "lon": -68.0553176
+},
+{
+  "type": "node",
+  "id": 11357399535,
+  "lat": -38.9522856,
+  "lon": -68.0561255
+},
+{
+  "type": "node",
+  "id": 11357399536,
+  "lat": -38.9522307,
+  "lon": -68.0561250
+},
+{
+  "type": "node",
+  "id": 11357399537,
+  "lat": -38.9532287,
+  "lon": -68.0555151
+},
+{
+  "type": "node",
+  "id": 11357399539,
+  "lat": -38.9533815,
+  "lon": -68.0555156
+},
+{
+  "type": "node",
+  "id": 11357399547,
+  "lat": -38.9534598,
+  "lon": -68.0554307
+},
+{
+  "type": "node",
+  "id": 11357399549,
+  "lat": -38.9534101,
+  "lon": -68.0553584
+},
+{
+  "type": "node",
+  "id": 11357399550,
+  "lat": -38.9530647,
+  "lon": -68.0553573
+},
+{
+  "type": "node",
+  "id": 11357399551,
+  "lat": -38.9531031,
+  "lon": -68.0553574
+},
+{
+  "type": "node",
+  "id": 11357399554,
+  "lat": -38.9532125,
+  "lon": -68.0553578
+},
+{
+  "type": "node",
+  "id": 11357399555,
+  "lat": -38.9532130,
+  "lon": -68.0555151
+},
+{
+  "type": "node",
+  "id": 11357399556,
+  "lat": -38.9532901,
+  "lon": -68.0553580
+},
+{
+  "type": "node",
+  "id": 11357399557,
+  "lat": -38.9532898,
+  "lon": -68.0555153
+},
+{
+  "type": "node",
+  "id": 11357399558,
+  "lat": -38.9531033,
+  "lon": -68.0555148
+},
+{
+  "type": "node",
+  "id": 11357399582,
+  "lat": -38.9534377,
+  "lon": -68.0553585
+},
+{
+  "type": "node",
+  "id": 11357399583,
+  "lat": -38.9534607,
+  "lon": -68.0551143
+},
+{
+  "type": "node",
+  "id": 11357399584,
+  "lat": -38.9534377,
+  "lon": -68.0551143
+},
+{
+  "type": "node",
+  "id": 11357399585,
+  "lat": -38.9534313,
+  "lon": -68.0533783
+},
+{
+  "type": "node",
+  "id": 11357399586,
+  "lat": -38.9534313,
+  "lon": -68.0533598
+},
+{
+  "type": "node",
+  "id": 11357399587,
+  "lat": -38.9533785,
+  "lon": -68.0533599
+},
+{
+  "type": "node",
+  "id": 11357399588,
+  "lat": -38.9533785,
+  "lon": -68.0531874
+},
+{
+  "type": "node",
+  "id": 11357399589,
+  "lat": -38.9534693,
+  "lon": -68.0531872
+},
+{
+  "type": "node",
+  "id": 11357399591,
+  "lat": -38.9547718,
+  "lon": -68.0531459
+},
+{
+  "type": "node",
+  "id": 11357399592,
+  "lat": -38.9547717,
+  "lon": -68.0532128
+},
+{
+  "type": "node",
+  "id": 11357399593,
+  "lat": -38.9547889,
+  "lon": -68.0532129
+},
+{
+  "type": "node",
+  "id": 11357399594,
+  "lat": -38.9547886,
+  "lon": -68.0533160
+},
+{
+  "type": "node",
+  "id": 11357399595,
+  "lat": -38.9548030,
+  "lon": -68.0533161
+},
+{
+  "type": "node",
+  "id": 11357399596,
+  "lat": -38.9548031,
+  "lon": -68.0533836
+},
+{
+  "type": "node",
+  "id": 11357399610,
+  "lat": -38.9536248,
+  "lon": -68.0549724
+},
+{
+  "type": "node",
+  "id": 11357399611,
+  "lat": -38.9536896,
+  "lon": -68.0551448
+},
+{
+  "type": "node",
+  "id": 11357399612,
+  "lat": -38.9536710,
+  "lon": -68.0551449
+},
+{
+  "type": "node",
+  "id": 11357399613,
+  "lat": -38.9536711,
+  "lon": -68.0551778
+},
+{
+  "type": "node",
+  "id": 11357399614,
+  "lat": -38.9535752,
+  "lon": -68.0551773
+},
+{
+  "type": "node",
+  "id": 11357399615,
+  "lat": -38.9535755,
+  "lon": -68.0550219
+},
+{
+  "type": "node",
+  "id": 11357399616,
+  "lat": -38.9536250,
+  "lon": -68.0550216
+},
+{
+  "type": "node",
+  "id": 11357399627,
+  "lat": -38.9534609,
+  "lon": -68.0550958
+},
+{
+  "type": "node",
   "id": 10085768486,
   "lat": -38.9506980,
   "lon": -68.0782713
@@ -71176,102 +72056,6 @@
   "id": 10158833019,
   "lat": -38.9490196,
   "lon": -68.0603767
-},
-{
-  "type": "node",
-  "id": 7881391779,
-  "lat": -38.9508649,
-  "lon": -68.0526584
-},
-{
-  "type": "node",
-  "id": 7881391780,
-  "lat": -38.9511380,
-  "lon": -68.0526584
-},
-{
-  "type": "node",
-  "id": 7881391781,
-  "lat": -38.9508642,
-  "lon": -68.0529017
-},
-{
-  "type": "node",
-  "id": 7881391786,
-  "lat": -38.9510525,
-  "lon": -68.0529018
-},
-{
-  "type": "node",
-  "id": 7882553465,
-  "lat": -38.9511405,
-  "lon": -68.0529020
-},
-{
-  "type": "node",
-  "id": 7882553466,
-  "lat": -38.9511725,
-  "lon": -68.0529020
-},
-{
-  "type": "node",
-  "id": 7882553467,
-  "lat": -38.9512282,
-  "lon": -68.0529021
-},
-{
-  "type": "node",
-  "id": 10233383105,
-  "lat": -38.9512272,
-  "lon": -68.0526585
-},
-{
-  "type": "node",
-  "id": 10233383129,
-  "lat": -38.9510041,
-  "lon": -68.0529018
-},
-{
-  "type": "node",
-  "id": 10233383131,
-  "lat": -38.9508645,
-  "lon": -68.0528106
-},
-{
-  "type": "node",
-  "id": 10233383137,
-  "lat": -38.9509161,
-  "lon": -68.0526584
-},
-{
-  "type": "node",
-  "id": 10233383138,
-  "lat": -38.9510183,
-  "lon": -68.0526584
-},
-{
-  "type": "node",
-  "id": 10233383141,
-  "lat": -38.9512526,
-  "lon": -68.0529018
-},
-{
-  "type": "node",
-  "id": 10233383148,
-  "lat": -38.9512527,
-  "lon": -68.0526585
-},
-{
-  "type": "node",
-  "id": 10233383152,
-  "lat": -38.9508761,
-  "lon": -68.0529017
-},
-{
-  "type": "node",
-  "id": 10233383153,
-  "lat": -38.9509681,
-  "lon": -68.0529018
 },
 {
   "type": "node",
@@ -73150,6 +73934,78 @@
   "id": 8001113760,
   "lat": -39.2911968,
   "lon": -65.6622905
+},
+{
+  "type": "node",
+  "id": 11360481125,
+  "lat": -38.7361940,
+  "lon": -62.2924918
+},
+{
+  "type": "node",
+  "id": 11360481126,
+  "lat": -38.7361045,
+  "lon": -62.2926050
+},
+{
+  "type": "node",
+  "id": 11360481127,
+  "lat": -38.7362367,
+  "lon": -62.2927768
+},
+{
+  "type": "node",
+  "id": 11360481128,
+  "lat": -38.7361649,
+  "lon": -62.2928676
+},
+{
+  "type": "node",
+  "id": 11360481129,
+  "lat": -38.7361431,
+  "lon": -62.2928392
+},
+{
+  "type": "node",
+  "id": 11360481130,
+  "lat": -38.7361639,
+  "lon": -62.2928129
+},
+{
+  "type": "node",
+  "id": 11360481131,
+  "lat": -38.7360514,
+  "lon": -62.2926668
+},
+{
+  "type": "node",
+  "id": 11360481132,
+  "lat": -38.7360680,
+  "lon": -62.2926457
+},
+{
+  "type": "node",
+  "id": 11360481133,
+  "lat": -38.7360287,
+  "lon": -62.2925947
+},
+{
+  "type": "node",
+  "id": 11360481134,
+  "lat": -38.7360044,
+  "lon": -62.2926255
+},
+{
+  "type": "node",
+  "id": 11360481135,
+  "lat": -38.7359925,
+  "lon": -62.2925665
+},
+{
+  "type": "node",
+  "id": 11360481136,
+  "lat": -38.7361237,
+  "lon": -62.2924005
 },
 {
   "type": "node",
@@ -79369,6 +80225,60 @@
 },
 {
   "type": "node",
+  "id": 11356832972,
+  "lat": -31.4162019,
+  "lon": -64.5016976
+},
+{
+  "type": "node",
+  "id": 11356832973,
+  "lat": -31.4161665,
+  "lon": -64.5017514
+},
+{
+  "type": "node",
+  "id": 11356832974,
+  "lat": -31.4160517,
+  "lon": -64.5017514
+},
+{
+  "type": "node",
+  "id": 11356832975,
+  "lat": -31.4159578,
+  "lon": -64.5016830
+},
+{
+  "type": "node",
+  "id": 11356832976,
+  "lat": -31.4160266,
+  "lon": -64.5015485
+},
+{
+  "type": "node",
+  "id": 11360841796,
+  "lat": -31.4151907,
+  "lon": -64.5013589
+},
+{
+  "type": "node",
+  "id": 11360841797,
+  "lat": -31.4151004,
+  "lon": -64.5015541
+},
+{
+  "type": "node",
+  "id": 11360841798,
+  "lat": -31.4149790,
+  "lon": -64.5015216
+},
+{
+  "type": "node",
+  "id": 11360841799,
+  "lat": -31.4151004,
+  "lon": -64.5012939
+},
+{
+  "type": "node",
   "id": 7814378129,
   "lat": -31.4201957,
   "lon": -64.4932146
@@ -79504,6 +80414,30 @@
   "id": 9388980402,
   "lat": -31.3154246,
   "lon": -64.4604735
+},
+{
+  "type": "node",
+  "id": 11374297942,
+  "lat": -31.2378189,
+  "lon": -64.4669982
+},
+{
+  "type": "node",
+  "id": 11374297943,
+  "lat": -31.2377887,
+  "lon": -64.4671869
+},
+{
+  "type": "node",
+  "id": 11374297944,
+  "lat": -31.2376826,
+  "lon": -64.4671637
+},
+{
+  "type": "node",
+  "id": 11374297945,
+  "lat": -31.2377128,
+  "lon": -64.4669750
 },
 {
   "type": "node",
@@ -89912,20 +90846,20 @@
 {
   "type": "node",
   "id": 4581911368,
-  "lat": -34.6609218,
-  "lon": -58.4451589
+  "lat": -34.6609130,
+  "lon": -58.4451629
 },
 {
   "type": "node",
   "id": 4581911369,
-  "lat": -34.6609912,
-  "lon": -58.4452490
+  "lat": -34.6609824,
+  "lon": -58.4452369
 },
 {
   "type": "node",
   "id": 4581911370,
-  "lat": -34.6611626,
-  "lon": -58.4450286
+  "lat": -34.6611483,
+  "lon": -58.4450273
 },
 {
   "type": "node",
@@ -89960,32 +90894,32 @@
 {
   "type": "node",
   "id": 4581911360,
-  "lat": -34.6605701,
-  "lon": -58.4443978
+  "lat": -34.6605800,
+  "lon": -58.4444260
 },
 {
   "type": "node",
   "id": 4581911361,
-  "lat": -34.6606402,
-  "lon": -58.4443171
+  "lat": -34.6606501,
+  "lon": -58.4443453
 },
 {
   "type": "node",
   "id": 4581911362,
-  "lat": -34.6605862,
-  "lon": -58.4442477
+  "lat": -34.6605961,
+  "lon": -58.4442759
 },
 {
   "type": "node",
   "id": 4581911363,
-  "lat": -34.6605160,
-  "lon": -58.4443284
+  "lat": -34.6605259,
+  "lon": -58.4443566
 },
 {
   "type": "node",
-  "id": 7504431819,
-  "lat": -34.6610941,
-  "lon": -58.4449444
+  "id": 4581911364,
+  "lat": -34.6610884,
+  "lon": -58.4449499
 },
 {
   "type": "node",
