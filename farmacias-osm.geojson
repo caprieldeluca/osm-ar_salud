@@ -15545,15 +15545,26 @@
   "type": "Feature",
   "id": "way/473611885",
   "properties": {
-    "addr:street": "Avenida Raúl Scalabrini Ortiz",
+    "addr:housenumber": "4601",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2023-11-27",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+54 11 4770-9506",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "https://www.farmacity.com.ar",
+    "wheelchair": "yes",
     "id": "way/473611885"
   },
   "geometry": {
@@ -16808,13 +16819,15 @@
   "properties": {
     "abandoned": "yes",
     "addr:city": "Victoria",
+    "addr:housenumber": "609",
     "addr:postcode": "1644",
     "addr:street": "Simón de Iriondo",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2023-11-07",
+    "check_date": "2023-11-25",
     "healthcare": "pharmacy",
     "name": "Openfarma",
+    "opening_hours": "Mo-Sa 08:00-21:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -19475,8 +19488,14 @@
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Farmacia San Antonio",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/477608896"
   },
@@ -19609,6 +19628,7 @@
   "id": "way/477628887",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1878",
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "brand": "Farmacity",
@@ -19616,6 +19636,7 @@
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
     "building:levels": "2",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "way/477628887"
@@ -22836,10 +22857,14 @@
   "type": "Feature",
   "id": "way/551188954",
   "properties": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida Zanni",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Villegas",
+    "website": "https://www.farmaciasvillegas.com.ar",
     "id": "way/551188954"
   },
   "geometry": {
@@ -23264,12 +23289,20 @@
           -32.9433622
         ],
         [
+          -60.6478804,
+          -32.9433964
+        ],
+        [
           -60.6478911,
           -32.9434602
         ],
         [
           -60.6477677,
           -32.9434748
+        ],
+        [
+          -60.6477573,
+          -32.9434129
         ],
         [
           -60.6477512,
@@ -24891,7 +24924,7 @@
   "type": "Feature",
   "id": "way/556902741",
   "properties": {
-    "addr:street": "Avenida Cordoba",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -24942,7 +24975,7 @@
   "type": "Feature",
   "id": "way/556902742",
   "properties": {
-    "addr:street": "Avenida Cordoba",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -28335,16 +28368,16 @@
     "coordinates": [
       [
         [
-          -58.3647354,
-          -34.666588
+          -58.3647219,
+          -34.66659
         ],
         [
-          -58.3647876,
-          -34.6665221
+          -58.364784,
+          -34.6665093
         ],
         [
-          -58.3648617,
-          -34.6665549
+          -58.3648688,
+          -34.6665535
         ],
         [
           -58.3648161,
@@ -28355,8 +28388,8 @@
           -34.6666266
         ],
         [
-          -58.3647354,
-          -34.666588
+          -58.3647219,
+          -34.66659
         ]
       ]
     ]
@@ -40448,8 +40481,8 @@
           -31.2467243
         ],
         [
-          -64.4666353,
-          -31.2466988
+          -64.466637,
+          -31.2466999
         ],
         [
           -64.4666575,
@@ -40562,6 +40595,118 @@
         [
           -64.4641695,
           -31.2371344
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1227008285",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/1227008285"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4844875,
+          -31.1173832
+        ],
+        [
+          -64.4843758,
+          -31.1173819
+        ],
+        [
+          -64.484378,
+          -31.1172475
+        ],
+        [
+          -64.4844896,
+          -31.1172488
+        ],
+        [
+          -64.4844875,
+          -31.1173832
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1227478219",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/1227478219"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4834855,
+          -31.0999233
+        ],
+        [
+          -64.4833911,
+          -31.0998662
+        ],
+        [
+          -64.483448,
+          -31.0997972
+        ],
+        [
+          -64.4835424,
+          -31.0998544
+        ],
+        [
+          -64.4834855,
+          -31.0999233
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1227478391",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Americana",
+    "id": "way/1227478391"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4860409,
+          -31.0916477
+        ],
+        [
+          -64.4859598,
+          -31.0916382
+        ],
+        [
+          -64.4859699,
+          -31.0915496
+        ],
+        [
+          -64.4860522,
+          -31.0915607
+        ],
+        [
+          -64.4860409,
+          -31.0916477
         ]
       ]
     ]
@@ -44655,11 +44800,19 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2023-11-25",
     "healthcare": "pharmacy",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
     "name": "Pelman",
     "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-21:00",
     "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "website": "https://www.farmaciapelman.com.ar",
+    "wheelchair": "yes",
     "id": "node/1168560383"
   },
   "geometry": {
@@ -63490,6 +63643,7 @@
   "id": "node/2699884680",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Comatto",
     "id": "node/2699884680"
   },
@@ -63854,9 +64008,12 @@
     "addr:postcode": "C1188AAS",
     "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Alfa",
     "opening_hours": "24/7",
+    "website": "https://www.farmaciaalfa.com.ar",
+    "wheelchair": "yes",
     "id": "node/2711424212"
   },
   "geometry": {
@@ -64247,10 +64404,17 @@
     "addr:postcode": "1644",
     "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2023-11-25",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Negri",
     "opening_hours": "Mo-Fr 09:00-13:00,15:30-20:00; Sa 09:00-13:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "wheelchair": "no",
     "id": "node/2747760992"
   },
   "geometry": {
@@ -70960,6 +71124,7 @@
   "id": "node/3277045582",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Di Virgilio",
     "id": "node/3277045582"
   },
@@ -71012,6 +71177,7 @@
   "id": "node/3277091968",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Del Negro",
     "id": "node/3277091968"
   },
@@ -72094,6 +72260,7 @@
   "id": "node/3327873689",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Soy Maga. Tu farmacia",
     "id": "node/3327873689"
   },
@@ -72110,6 +72277,7 @@
   "id": "node/3327873690",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/3327873690"
   },
   "geometry": {
@@ -103254,9 +103422,20 @@
   "type": "Feature",
   "id": "node/4709105343",
   "properties": {
+    "addr:housenumber": "2199",
+    "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Central 24",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+54 11 4832-5059",
+    "website": "https://www.farmaciacentral24.com/",
     "id": "node/4709105343"
   },
   "geometry": {
@@ -103432,8 +103611,15 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "amenity": "pharmacy",
+    "check_date": "2023-11-29",
     "healthcare": "pharmacy",
     "name": "Paris",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "id": "node/4709414300"
   },
   "geometry": {
@@ -139921,7 +140107,7 @@
   "properties": {
     "addr:city": "Morteros",
     "addr:housenumber": "262",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Avenidad del Libertador",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -139944,7 +140130,7 @@
   "properties": {
     "addr:city": "Morteros",
     "addr:housenumber": "676",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Avenidad del Libertador",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -139967,7 +140153,7 @@
   "properties": {
     "addr:city": "Morteros",
     "addr:housenumber": "244",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Avenidad del Libertador",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -140037,7 +140223,7 @@
   "properties": {
     "addr:city": "Morteros",
     "addr:housenumber": "980",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Boulevard Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -140059,8 +140245,8 @@
   "id": "node/7576376407",
   "properties": {
     "addr:city": "Morteros",
-    "addr:postcode": "2421",
-    "addr:street": "J. B. Cabral",
+    "addr:postcode": "X2421",
+    "addr:street": "Juan Bautista Cabral",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -140151,7 +140337,7 @@
   "properties": {
     "addr:city": "Morteros",
     "addr:housenumber": "840",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Italia",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -144739,6 +144925,7 @@
   "id": "node/8633813349",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/8633813349"
   },
   "geometry": {
@@ -153971,7 +154158,9 @@
   "type": "Feature",
   "id": "node/9886151017",
   "properties": {
+    "addr:city": "San Juan",
     "addr:housenumber": "1291 (S)",
+    "addr:postcode": "5400",
     "addr:street": "Justo José de Urquiza",
     "amenity": "pharmacy",
     "name": "Farmacia Nueva Valdivia",
@@ -153980,8 +154169,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5439891,
-      -31.5491381
+      -68.5439529,
+      -31.5492271
     ]
   }
 },
@@ -158732,8 +158921,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.5430901,
-      -32.0643773
+      -64.543078,
+      -32.0644637
     ]
   }
 },
@@ -161599,7 +161788,7 @@
     "email": "farmamatheu@yahoo.com.ar",
     "healthcare": "pharmacy",
     "name": "Matheu",
-    "opening_hours": "Mo-Fr 06:00–13:00, 16:00–21:00",
+    "opening_hours": "Mo-Fr 06:00-13:00, 16:00-21:00",
     "operator": "ACOSTA GONZALEZ LUIS MARIA",
     "phone": "+543814298537",
     "ref:sisa_codigo": "70900842397425",
@@ -162569,7 +162758,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Vicente",
-    "opening_hours": "Mo-Sa 14:00–21:00",
+    "opening_hours": "Mo-Sa 14:00-21:00",
     "operator": "GUIBERT, ANA CAROLINA",
     "phone": "+543814850235",
     "ref:sisa_tipologia": "FARMACIA",
@@ -168826,11 +169015,13 @@
   "properties": {
     "addr:city": "Paraná",
     "addr:housenumber": "1505",
+    "addr:postcode": "3100",
     "addr:street": "Don Bosco",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Villegas",
     "ref:sisa_codigo": "70300842342758",
+    "website": "https://www.farmaciasvillegas.com.ar/",
     "id": "node/11270018351"
   },
   "geometry": {
@@ -169398,6 +169589,109 @@
     "coordinates": [
       -64.4366499,
       -33.2038252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11382068421",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/11382068421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5000147,
+      -31.740347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11382842987",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "3739",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida de las Américas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Paracao",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11382842987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5214227,
+      -31.7726033
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11382843087",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "Juan Baez",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fleming",
+    "id": "node/11382843087"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5264292,
+      -31.7710542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11384741656",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11384741656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.0538468,
+      -26.6977528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11384741657",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11384741657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.0479808,
+      -26.7043675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11384741658",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11384741658"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.0512772,
+      -26.7023284
     ]
   }
 }

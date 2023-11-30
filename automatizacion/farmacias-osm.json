@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-11-25T19:01:29Z",
-    "timestamp_areas_base": "2023-11-25T15:59:30Z",
+    "timestamp_osm_base": "2023-11-30T21:41:07Z",
+    "timestamp_areas_base": "2023-11-30T18:14:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2814,11 +2814,19 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2023-11-25",
     "healthcare": "pharmacy",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
     "name": "Pelman",
     "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-21:00",
     "payment:cash": "yes",
-    "website": "https://www.farmaciapelman.com.ar"
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "website": "https://www.farmaciapelman.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -15757,6 +15765,7 @@
   "lon": -58.2609396,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Comatto"
   }
 },
@@ -16007,9 +16016,12 @@
     "addr:postcode": "C1188AAS",
     "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Alfa",
-    "opening_hours": "24/7"
+    "opening_hours": "24/7",
+    "website": "https://www.farmaciaalfa.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -16280,10 +16292,17 @@
     "addr:postcode": "1644",
     "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2023-11-25",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Negri",
-    "opening_hours": "Mo-Fr 09:00-13:00,15:30-20:00; Sa 09:00-13:00; Su off"
+    "opening_hours": "Mo-Fr 09:00-13:00,15:30-20:00; Sa 09:00-13:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "wheelchair": "no"
   }
 },
 {
@@ -20857,6 +20876,7 @@
   "lon": -58.2659443,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Di Virgilio"
   }
 },
@@ -20891,6 +20911,7 @@
   "lon": -58.2694043,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Del Negro"
   }
 },
@@ -21625,6 +21646,7 @@
   "lon": -58.2707297,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Soy Maga. Tu farmacia"
   }
 },
@@ -21634,7 +21656,8 @@
   "lat": -34.7678590,
   "lon": -58.2719953,
   "tags": {
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -43077,9 +43100,20 @@
   "lat": -34.5875076,
   "lon": -58.4194204,
   "tags": {
+    "addr:housenumber": "2199",
+    "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
-    "name": "Central 24"
+    "name": "Central 24",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+54 11 4832-5059",
+    "website": "https://www.farmaciacentral24.com/"
   }
 },
 {
@@ -43201,8 +43235,15 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "amenity": "pharmacy",
+    "check_date": "2023-11-29",
     "healthcare": "pharmacy",
-    "name": "Paris"
+    "name": "Paris",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes"
   }
 },
 {
@@ -68440,7 +68481,7 @@
   "tags": {
     "addr:city": "Morteros",
     "addr:housenumber": "262",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Avenidad del Libertador",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -68457,7 +68498,7 @@
   "tags": {
     "addr:city": "Morteros",
     "addr:housenumber": "676",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Avenidad del Libertador",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -68474,7 +68515,7 @@
   "tags": {
     "addr:city": "Morteros",
     "addr:housenumber": "244",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Avenidad del Libertador",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -68526,7 +68567,7 @@
   "tags": {
     "addr:city": "Morteros",
     "addr:housenumber": "980",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Boulevard Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -68542,8 +68583,8 @@
   "lon": -62.0084855,
   "tags": {
     "addr:city": "Morteros",
-    "addr:postcode": "2421",
-    "addr:street": "J. B. Cabral",
+    "addr:postcode": "X2421",
+    "addr:street": "Juan Bautista Cabral",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -68610,7 +68651,7 @@
   "tags": {
     "addr:city": "Morteros",
     "addr:housenumber": "840",
-    "addr:postcode": "2421",
+    "addr:postcode": "X2421",
     "addr:street": "Italia",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -71757,7 +71798,8 @@
   "lat": -34.7112884,
   "lon": -58.3260171,
   "tags": {
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -78341,10 +78383,12 @@
 {
   "type": "node",
   "id": 9886151017,
-  "lat": -31.5491381,
-  "lon": -68.5439891,
+  "lat": -31.5492271,
+  "lon": -68.5439529,
   "tags": {
+    "addr:city": "San Juan",
     "addr:housenumber": "1291 (S)",
+    "addr:postcode": "5400",
     "addr:street": "Justo José de Urquiza",
     "amenity": "pharmacy",
     "name": "Farmacia Nueva Valdivia"
@@ -81732,8 +81776,8 @@
 {
   "type": "node",
   "id": 10763717302,
-  "lat": -32.0643773,
-  "lon": -64.5430901,
+  "lat": -32.0644637,
+  "lon": -64.5430780,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -83872,7 +83916,7 @@
     "email": "farmamatheu@yahoo.com.ar",
     "healthcare": "pharmacy",
     "name": "Matheu",
-    "opening_hours": "Mo-Fr 06:00–13:00, 16:00–21:00",
+    "opening_hours": "Mo-Fr 06:00-13:00, 16:00-21:00",
     "operator": "ACOSTA GONZALEZ LUIS MARIA",
     "phone": "+543814298537",
     "ref:sisa_codigo": "70900842397425",
@@ -84620,7 +84664,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "San Vicente",
-    "opening_hours": "Mo-Sa 14:00–21:00",
+    "opening_hours": "Mo-Sa 14:00-21:00",
     "operator": "GUIBERT, ANA CAROLINA",
     "phone": "+543814850235",
     "ref:sisa_tipologia": "FARMACIA",
@@ -89179,11 +89223,13 @@
   "tags": {
     "addr:city": "Paraná",
     "addr:housenumber": "1505",
+    "addr:postcode": "3100",
     "addr:street": "Don Bosco",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Villegas",
-    "ref:sisa_codigo": "70300842342758"
+    "ref:sisa_codigo": "70300842342758",
+    "website": "https://www.farmaciasvillegas.com.ar/"
   }
 },
 {
@@ -89546,6 +89592,73 @@
     "healthcare": "pharmacy",
     "name": "Garcia Cocco",
     "phone": "+54 358 4990394"
+  }
+},
+{
+  "type": "node",
+  "id": 11382068421,
+  "lat": -31.7403470,
+  "lon": -60.5000147,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11382842987,
+  "lat": -31.7726033,
+  "lon": -60.5214227,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "3739",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida de las Américas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Paracao",
+    "website": "https://www.farmaciasvillegas.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 11382843087,
+  "lat": -31.7710542,
+  "lon": -60.5264292,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "Juan Baez",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Fleming"
+  }
+},
+{
+  "type": "node",
+  "id": 11384741656,
+  "lat": -26.6977528,
+  "lon": -66.0538468,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11384741657,
+  "lat": -26.7043675,
+  "lon": -66.0479808,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11384741658,
+  "lat": -26.7023284,
+  "lon": -66.0512772,
+  "tags": {
+    "amenity": "pharmacy"
   }
 },
 {
@@ -96798,15 +96911,26 @@
     2295047783
   ],
   "tags": {
-    "addr:street": "Avenida Raúl Scalabrini Ortiz",
+    "addr:housenumber": "4601",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2023-11-27",
     "healthcare": "pharmacy",
     "name": "Farmacity",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+54 11 4770-9506",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "https://www.farmacity.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -97396,13 +97520,15 @@
   "tags": {
     "abandoned": "yes",
     "addr:city": "Victoria",
+    "addr:housenumber": "609",
     "addr:postcode": "1644",
     "addr:street": "Simón de Iriondo",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2023-11-07",
+    "check_date": "2023-11-25",
     "healthcare": "pharmacy",
     "name": "Openfarma",
+    "opening_hours": "Mo-Sa 08:00-21:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -98650,8 +98776,14 @@
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Farmacia San Antonio",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -98709,6 +98841,7 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1878",
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
     "amenity": "pharmacy",
     "brand": "Farmacity",
@@ -98716,6 +98849,7 @@
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
     "building:levels": "2",
+    "check_date": "2023-11-30",
     "healthcare": "pharmacy",
     "name": "Farmacity"
   }
@@ -100205,10 +100339,14 @@
     5323214274
   ],
   "tags": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida Zanni",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Villegas"
+    "name": "Villegas",
+    "website": "https://www.farmaciasvillegas.com.ar"
   }
 },
 {
@@ -100402,8 +100540,10 @@
   "nodes": [
     5358150435,
     4531092998,
+    11378092629,
     5358150434,
     5358150433,
+    11378092622,
     5358150435
   ],
   "tags": {
@@ -101168,7 +101308,7 @@
     5371644399
   ],
   "tags": {
-    "addr:street": "Avenida Cordoba",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -101186,7 +101326,7 @@
     5371644403
   ],
   "tags": {
-    "addr:street": "Avenida Cordoba",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -108387,6 +108527,55 @@
   }
 },
 {
+  "type": "way",
+  "id": 1227008285,
+  "nodes": [
+    11378292071,
+    11378292073,
+    11378292074,
+    11378292072,
+    11378292071
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1227478219,
+  "nodes": [
+    11382670628,
+    11382670629,
+    11382670630,
+    11382670631,
+    11382670628
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1227478391,
+  "nodes": [
+    11382671424,
+    11382671435,
+    11382671436,
+    11382671437,
+    11382671424
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Americana"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -114647,8 +114836,8 @@
 {
   "type": "node",
   "id": 11373922688,
-  "lat": -31.2466988,
-  "lon": -64.4666353
+  "lat": -31.2466999,
+  "lon": -64.4666370
 },
 {
   "type": "node",
@@ -116182,6 +116371,30 @@
 },
 {
   "type": "node",
+  "id": 11378292071,
+  "lat": -31.1173832,
+  "lon": -64.4844875
+},
+{
+  "type": "node",
+  "id": 11378292072,
+  "lat": -31.1173819,
+  "lon": -64.4843758
+},
+{
+  "type": "node",
+  "id": 11378292073,
+  "lat": -31.1172488,
+  "lon": -64.4844896
+},
+{
+  "type": "node",
+  "id": 11378292074,
+  "lat": -31.1172475,
+  "lon": -64.4843780
+},
+{
+  "type": "node",
   "id": 11027854461,
   "lat": -31.0989920,
   "lon": -64.4851213
@@ -116227,6 +116440,54 @@
   "id": 11027854471,
   "lat": -31.0989278,
   "lon": -64.4851237
+},
+{
+  "type": "node",
+  "id": 11382670628,
+  "lat": -31.0999233,
+  "lon": -64.4834855
+},
+{
+  "type": "node",
+  "id": 11382670629,
+  "lat": -31.0998544,
+  "lon": -64.4835424
+},
+{
+  "type": "node",
+  "id": 11382670630,
+  "lat": -31.0997972,
+  "lon": -64.4834480
+},
+{
+  "type": "node",
+  "id": 11382670631,
+  "lat": -31.0998662,
+  "lon": -64.4833911
+},
+{
+  "type": "node",
+  "id": 11382671424,
+  "lat": -31.0916477,
+  "lon": -64.4860409
+},
+{
+  "type": "node",
+  "id": 11382671435,
+  "lat": -31.0915607,
+  "lon": -64.4860522
+},
+{
+  "type": "node",
+  "id": 11382671436,
+  "lat": -31.0915496,
+  "lon": -64.4859699
+},
+{
+  "type": "node",
+  "id": 11382671437,
+  "lat": -31.0916382,
+  "lon": -64.4859598
 },
 {
   "type": "node",
@@ -118993,6 +119254,18 @@
   "id": 5358150435,
   "lat": -32.9433622,
   "lon": -60.6478746
+},
+{
+  "type": "node",
+  "id": 11378092622,
+  "lat": -32.9433964,
+  "lon": -60.6478804
+},
+{
+  "type": "node",
+  "id": 11378092629,
+  "lat": -32.9434129,
+  "lon": -60.6477573
 },
 {
   "type": "node",
@@ -128789,20 +129062,20 @@
 {
   "type": "node",
   "id": 6708567647,
-  "lat": -34.6665880,
-  "lon": -58.3647354
+  "lat": -34.6665900,
+  "lon": -58.3647219
 },
 {
   "type": "node",
   "id": 6708567648,
-  "lat": -34.6665221,
-  "lon": -58.3647876
+  "lat": -34.6665093,
+  "lon": -58.3647840
 },
 {
   "type": "node",
   "id": 6708567649,
-  "lat": -34.6665549,
-  "lon": -58.3648617
+  "lat": -34.6665535,
+  "lon": -58.3648688
 },
 {
   "type": "node",
