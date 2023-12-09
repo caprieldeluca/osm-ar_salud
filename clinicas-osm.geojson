@@ -10548,54 +10548,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/465057734",
-  "properties": {
-    "addr:street": "79 - Ayacucho",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Osmecon Salud",
-    "source": "Reconocimiento Cartográfico 2016 por KG",
-    "id": "way/465057734"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5378403,
-          -34.5718315
-        ],
-        [
-          -58.5379795,
-          -34.5719483
-        ],
-        [
-          -58.5378318,
-          -34.5720681
-        ],
-        [
-          -58.5377814,
-          -34.572025
-        ],
-        [
-          -58.5377471,
-          -34.5720538
-        ],
-        [
-          -58.5376568,
-          -34.571978
-        ],
-        [
-          -58.5378403,
-          -34.5718315
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/465250909",
   "properties": {
     "addr:street": "Lanín",
@@ -16977,11 +16929,18 @@
   "type": "Feature",
   "id": "way/476350800",
   "properties": {
+    "addr:housenumber": "2273",
     "addr:street": "Avenida Santa María de las Conchas",
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2023-12-06",
+    "email": "info@consultoriosmarcos.com",
+    "healthcare:speciality": "gynaecology;urology;psychiatry",
     "name": "Consultorios Medicos",
+    "operator:type": "privado",
+    "phone": "+54 11 4749-4773",
     "source": "Reconocimiento terrestre por Kaart 2016.",
+    "website": "https://www.consultoriosmarcos.com/",
     "id": "way/476350800"
   },
   "geometry": {
@@ -46837,6 +46796,66 @@
 },
 {
   "type": "Feature",
+  "id": "way/1229587948",
+  "properties": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:housenumber": "2350",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
+    "addr:street": "79 - Ayacucho",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Osmecon Salud",
+    "operator": "OSMECON",
+    "id": "way/1229587948"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5379795,
+          -34.5719483
+        ],
+        [
+          -58.5378321,
+          -34.5720684
+        ],
+        [
+          -58.5377981,
+          -34.5720961
+        ],
+        [
+          -58.5377473,
+          -34.5720537
+        ],
+        [
+          -58.5376567,
+          -34.5719781
+        ],
+        [
+          -58.5373924,
+          -34.5717577
+        ],
+        [
+          -58.5375757,
+          -34.5716093
+        ],
+        [
+          -58.5378403,
+          -34.5718315
+        ],
+        [
+          -58.5379795,
+          -34.5719483
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -50426,8 +50445,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5249746,
-      -34.592646
+      -58.5248147,
+      -34.5925658
     ]
   }
 },
@@ -108969,6 +108988,119 @@
     "coordinates": [
       -65.9866601,
       -26.4564422
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11396494901",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:full": "España y 9 de Julio",
+    "addr:postcode": "3190",
+    "addr:street": "España",
+    "alt_name": "Clínica Mayo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Mayo",
+    "phone": "+54 3437 422237",
+    "ref:sisa_codigo": "10300702342105",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "node/11396494901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6433919,
+      -30.7430942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11396494915",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1155",
+    "addr:postcode": "3190",
+    "addr:street": "Echagüe",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Dialisis Instituto De Nefrologia De Entre Rios Siglo XXI",
+    "official_name": "Centro De Dialisis Instituto De Nefrologia De Entre Rios Siglo XXI S.A.",
+    "ref:sisa_codigo": "52300702343237",
+    "ref:sisa_tipologia": "ESSIT",
+    "id": "node/11396494915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6455565,
+      -30.7431538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11396494916",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1055",
+    "addr:postcode": "3190",
+    "addr:street": "9 de Julio",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorio Medico Centro Medico Lawrie",
+    "phone": "+54 3437 421582",
+    "ref:sisa_codigo": "50300702343490",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11396494916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6438729,
+      -30.7430184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11396494918",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1071",
+    "addr:postcode": "3190",
+    "addr:street": "9 de Julio",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorio Medico Dm Diagnostico Medico",
+    "phone": "+54 3437 423337",
+    "ref:sisa_codigo": "50300702343612",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11396494918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6435773,
+      -30.7430462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11396551860",
+  "properties": {
+    "amenity": "clinic",
+    "name": "In Vitro Buenos Aires",
+    "id": "node/11396551860"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3795749,
+      -34.5965599
     ]
   }
 }

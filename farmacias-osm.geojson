@@ -7747,6 +7747,11 @@
   "type": "Feature",
   "id": "way/465057735",
   "properties": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:housenumber": "2302",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
     "addr:street": "79 - Ayacucho",
     "amenity": "pharmacy",
     "building": "yes",
@@ -7760,28 +7765,28 @@
     "coordinates": [
       [
         [
-          -58.5370712,
-          -34.5720047
+          -58.5370735,
+          -34.5720174
         ],
         [
-          -58.5371789,
-          -34.5720959
+          -58.5371587,
+          -34.5720884
         ],
         [
-          -58.5370984,
-          -34.5721604
+          -58.5370838,
+          -34.5721506
         ],
         [
-          -58.5370068,
-          -34.5720828
+          -58.5370149,
+          -34.5720925
         ],
         [
-          -58.5370095,
-          -34.5720541
+          -58.5370157,
+          -34.572064
         ],
         [
-          -58.5370712,
-          -34.5720047
+          -58.5370735,
+          -34.5720174
         ]
       ]
     ]
@@ -8480,7 +8485,9 @@
     "addr:street": "Avenida de Mayo",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2023-12-05",
     "name": "Farmacia Rosendi",
+    "phone": "+54 11 4763-6877",
     "wheelchair": "no",
     "id": "way/466984681"
   },
@@ -15821,49 +15828,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/473644407",
-  "properties": {
-    "addr:city": "Buenos Aires",
-    "addr:housenumber": "5391",
-    "addr:postcode": "1416",
-    "addr:street": "Avenida Juan Bautista Justo",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Zilburgas",
-    "phone": "+54 11 4581-3650",
-    "id": "way/473644407"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.4730552,
-          -34.6147929
-        ],
-        [
-          -58.4730006,
-          -34.6147091
-        ],
-        [
-          -58.4731033,
-          -34.6146625
-        ],
-        [
-          -58.4732024,
-          -34.614726
-        ],
-        [
-          -58.4730552,
-          -34.6147929
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/473664762",
   "properties": {
     "addr:city": "Virreyes",
@@ -18353,12 +18317,12 @@
     "coordinates": [
       [
         [
-          -58.5699815,
-          -34.4368332
+          -58.5699587,
+          -34.4368722
         ],
         [
-          -58.569912,
-          -34.4367964
+          -58.5698892,
+          -34.4368354
         ],
         [
           -58.5700791,
@@ -18369,12 +18333,12 @@
           -34.4367024
         ],
         [
-          -58.570103,
-          -34.436737
+          -58.5700963,
+          -34.4367312
         ],
         [
-          -58.5699815,
-          -34.4368332
+          -58.5699587,
+          -34.4368722
         ]
       ]
     ]
@@ -22863,7 +22827,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Villegas",
+    "name": "Villegas 6",
     "website": "https://www.farmaciasvillegas.com.ar",
     "id": "way/551188954"
   },
@@ -24354,6 +24318,8 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name": "Me. Dicarlo\nRed de farmacias",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "way/555877090"
   },
   "geometry": {
@@ -39813,24 +39779,24 @@
     "coordinates": [
       [
         [
-          -66.3392337,
-          -33.3018142
+          -66.3392374,
+          -33.3018175
         ],
         [
-          -66.3391465,
-          -33.3017955
+          -66.3391471,
+          -33.3018019
         ],
         [
-          -66.3391953,
-          -33.3016363
+          -66.3391893,
+          -33.301637
         ],
         [
-          -66.3392824,
-          -33.301655
+          -66.3392796,
+          -33.3016532
         ],
         [
-          -66.3392337,
-          -33.3018142
+          -66.3392374,
+          -33.3018175
         ]
       ]
     ]
@@ -40707,6 +40673,51 @@
         [
           -64.4860409,
           -31.0916477
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1229209238",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "420",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Luis Toschi",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "La Botica",
+    "id": "way/1229209238"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9917008,
+          -38.9477761
+        ],
+        [
+          -67.9917327,
+          -38.9478723
+        ],
+        [
+          -67.9914197,
+          -38.9479357
+        ],
+        [
+          -67.9913878,
+          -38.9478395
+        ],
+        [
+          -67.9917008,
+          -38.9477761
         ]
       ]
     ]
@@ -42530,17 +42541,25 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-12-08",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "10:00-22:00",
     "operator": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "shop": "chemist",
+    "wheelchair": "yes",
     "id": "node/724294239"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3910946,
-      -34.5879919
+      -58.3910714,
+      -34.5880693
     ]
   }
 },
@@ -45039,14 +45058,15 @@
   "id": "node/1221004700",
   "properties": {
     "amenity": "pharmacy",
-    "name": "a",
+    "healthcare": "pharmacy",
+    "name": "Wapner",
     "id": "node/1221004700"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5740101,
-      -34.5410965
+      -58.5741219,
+      -34.5410834
     ]
   }
 },
@@ -69153,12 +69173,13 @@
   "type": "Feature",
   "id": "node/3210834447",
   "properties": {
+    "alt_name": "Farmacia Badía",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "level": "0",
-    "name": "Romeo",
-    "shop": "yes",
+    "name": "Badía",
+    "old_name": "Romeo",
     "wheelchair": "no",
     "id": "node/3210834447"
   },
@@ -93104,8 +93125,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Doctor Ahorra",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "name": "Doctor Ahorro",
     "id": "node/4557873557"
   },
   "geometry": {
@@ -95470,10 +95490,17 @@
   "id": "node/4605169149",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-12-05",
     "healthcare": "pharmacy",
     "name": "Farmacia",
     "opening_hours": "Mo-Sa 08:30-24:00; Su 09:30-13:00,16:00-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "phone": "+54 11 4717-2181",
+    "wheelchair": "no",
     "id": "node/4605169149"
   },
   "geometry": {
@@ -96877,10 +96904,17 @@
     "addr:postcode": "B1643",
     "addr:street": "Avenida Centenario",
     "amenity": "pharmacy",
+    "check_date": "2023-12-05",
     "healthcare": "pharmacy",
     "name": "Farmacia del Pueblo",
     "opening_hours": "Mo-Fr 09:30-20:30; Sa 09:00-19:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "no",
     "id": "node/4627798806"
   },
   "geometry": {
@@ -102655,8 +102689,7 @@
     "addr:street": "Esmeralda",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Perfumeras RP",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "RP Scannapieco",
     "id": "node/4702275176"
   },
   "geometry": {
@@ -105111,8 +105144,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7748851,
-      -28.47575
+      -65.7748711,
+      -28.4757192
     ]
   }
 },
@@ -107419,6 +107452,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Del Pueblo I",
+    "ref:sisa_codigo": "70300702342796",
     "id": "node/5060850665"
   },
   "geometry": {
@@ -149820,11 +149854,13 @@
     "addr:housenumber": "116",
     "addr:postcode": "3100",
     "addr:street": "Avenida Laurencena",
+    "alt_name": "Ministerio",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Ministerio",
-    "official_name": "Ministerio SRL",
+    "name": "Villegas Del Puerto",
+    "old_name": "Ministerio SRL",
+    "website": "https://www.farmaciasvillegas.com.ar/",
     "id": "node/9408739116"
   },
   "geometry": {
@@ -151666,7 +151702,9 @@
   "id": "node/9731383158",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-12-05",
     "name": "Modarelli",
+    "wheelchair": "no",
     "id": "node/9731383158"
   },
   "geometry": {
@@ -166788,10 +166826,14 @@
   "type": "Feature",
   "id": "node/11048025509",
   "properties": {
-    "addr:housenumber": "592",
+    "addr:city": "La Paz",
+    "addr:housenumber": "952",
+    "addr:postcode": "3190",
     "addr:street": "San Martin",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Libertador",
+    "ref:sisa_codigo": "70300702343554",
     "id": "node/11048025509"
   },
   "geometry": {
@@ -169187,28 +169229,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11305585566",
-  "properties": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "421",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Luis Toschi",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia La Botica",
-    "id": "node/11305585566"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.9915769,
-      -38.947856
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11307509000",
   "properties": {
     "addr:city": "Posadas",
@@ -169692,6 +169712,517 @@
     "coordinates": [
       -66.0512772,
       -26.7023284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386648718",
+  "properties": {
+    "addr:housenumber": "226",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0263 4492115",
+    "name": "Farmacia del Rosario",
+    "id": "node/11386648718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.4862107,
+      -33.1455577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386648719",
+  "properties": {
+    "addr:housenumber": "95",
+    "addr:street": "Avenida Mitre",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0263 4492115",
+    "name": "Farmacia del Pueblo",
+    "id": "node/11386648719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.4866613,
+      -33.143294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663542",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "996",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida Francisco Ramírez",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Ramírez",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5145076,
+      -31.7250964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663543",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "543",
+    "addr:postcode": "3100",
+    "addr:street": "Salta",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Salta",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5230802,
+      -31.7281737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663544",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "166",
+    "addr:postcode": "3100",
+    "addr:street": "Alameda de la Federación",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Alameda",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663544"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5302416,
+      -31.7262868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663545",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "399",
+    "addr:postcode": "3100",
+    "addr:street": "Alameda de la Federación",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Rivadavia",
+    "id": "node/11386663545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5325653,
+      -31.724114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663546",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "677",
+    "addr:postcode": "3100",
+    "addr:street": "Montiel",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas San Agustín",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663546"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.545593,
+      -31.7337761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663547",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "454",
+    "addr:postcode": "3100",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas 25 de Mayo",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663547"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5246635,
+      -31.7357266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663548",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas Ramírez",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663548"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5317432,
+      -31.7355733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663549",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "2295",
+    "addr:postcode": "3100",
+    "addr:street": "General Alvarado",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas La Baxada",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663549"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5324264,
+      -31.7526811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663550",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "1693",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida de las Américas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas América",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5248263,
+      -31.7477286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663551",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "1516",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida Zanni",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas 3",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.4992166,
+      -31.7648958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663552",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "785",
+    "addr:postcode": "3100",
+    "addr:street": "Blas Parera",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas 2",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.4952809,
+      -31.7465253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11386663553",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "552",
+    "addr:postcode": "3100",
+    "addr:street": "Almirante Brown",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Villegas 5",
+    "website": "https://www.farmaciasvillegas.com.ar/",
+    "id": "node/11386663553"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5090615,
+      -31.7390308
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11390823873",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11390823873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7748891,
+      -34.6220864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138513",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "999",
+    "addr:postcode": "3190",
+    "addr:street": "Echagüe",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Artigas",
+    "ref:sisa_codigo": "70300702343112",
+    "id": "node/11395138513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6452509,
+      -30.7416393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138514",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1181",
+    "addr:postcode": "3190",
+    "addr:street": "Moreno",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmaton",
+    "ref:sisa_codigo": "70300702342887",
+    "id": "node/11395138514"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.641821,
+      -30.7405061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138515",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1101",
+    "addr:postcode": "3190",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Tedesco",
+    "id": "node/11395138515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6444123,
+      -30.7429279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138516",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1037",
+    "addr:postcode": "3190",
+    "addr:street": "Almirante Brown",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Mutual del Sol",
+    "ref:sisa_codigo": "70300702342889",
+    "id": "node/11395138516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6411601,
+      -30.742626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138517",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "974",
+    "addr:postcode": "3190",
+    "addr:street": "Moreno",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Colonial",
+    "ref:sisa_codigo": "70300702342774",
+    "id": "node/11395138517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6440578,
+      -30.739973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138518",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "862",
+    "addr:postcode": "3190",
+    "addr:street": "España",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "García",
+    "ref:sisa_codigo": "70300702342777",
+    "id": "node/11395138518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6427142,
+      -30.7408899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138519",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1410",
+    "addr:postcode": "3190",
+    "addr:street": "Echagüe",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Sagrada Familia",
+    "ref:sisa_codigo": "70300702342792",
+    "id": "node/11395138519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6458023,
+      -30.7455457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138520",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1096",
+    "addr:postcode": "3190",
+    "addr:street": "España",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "San Martín",
+    "ref:sisa_codigo": "70300702342753",
+    "id": "node/11395138520"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6431363,
+      -30.7428894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395138535",
+  "properties": {
+    "addr:city": "La Paz",
+    "addr:postcode": "3190",
+    "addr:street": "Avenida Artigas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Avenida",
+    "ref:sisa_codigo": "70300702342779",
+    "id": "node/11395138535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6302354,
+      -30.7378077
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-11-30T21:40:03Z",
-    "timestamp_areas_base": "2023-11-30T18:14:02Z",
+    "timestamp_osm_base": "2023-12-09T00:21:33Z",
+    "timestamp_areas_base": "2023-12-08T22:57:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2590,8 +2590,8 @@
 {
   "type": "node",
   "id": 3018471850,
-  "lat": -34.5926460,
-  "lon": -58.5249746,
+  "lat": -34.5925658,
+  "lon": -58.5248147,
   "tags": {
     "addr:city": "Villa Lynch",
     "addr:full": "Calle 8 (Azcuenaga) 226 Entre 95 Y 97",
@@ -45604,6 +45604,89 @@
   }
 },
 {
+  "type": "node",
+  "id": 11396494901,
+  "lat": -30.7430942,
+  "lon": -59.6433919,
+  "tags": {
+    "addr:city": "La Paz",
+    "addr:full": "España y 9 de Julio",
+    "addr:postcode": "3190",
+    "addr:street": "España",
+    "alt_name": "Clínica Mayo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Mayo",
+    "phone": "+54 3437 422237",
+    "ref:sisa_codigo": "10300702342105",
+    "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 11396494915,
+  "lat": -30.7431538,
+  "lon": -59.6455565,
+  "tags": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1155",
+    "addr:postcode": "3190",
+    "addr:street": "Echagüe",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro De Dialisis Instituto De Nefrologia De Entre Rios Siglo XXI",
+    "official_name": "Centro De Dialisis Instituto De Nefrologia De Entre Rios Siglo XXI S.A.",
+    "ref:sisa_codigo": "52300702343237",
+    "ref:sisa_tipologia": "ESSIT"
+  }
+},
+{
+  "type": "node",
+  "id": 11396494916,
+  "lat": -30.7430184,
+  "lon": -59.6438729,
+  "tags": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1055",
+    "addr:postcode": "3190",
+    "addr:street": "9 de Julio",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorio Medico Centro Medico Lawrie",
+    "phone": "+54 3437 421582",
+    "ref:sisa_codigo": "50300702343490",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11396494918,
+  "lat": -30.7430462,
+  "lon": -59.6435773,
+  "tags": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "1071",
+    "addr:postcode": "3190",
+    "addr:street": "9 de Julio",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorio Medico Dm Diagnostico Medico",
+    "phone": "+54 3437 423337",
+    "ref:sisa_codigo": "50300702343612",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11396551860,
+  "lat": -34.5965599,
+  "lon": -58.3795749,
+  "tags": {
+    "amenity": "clinic",
+    "name": "In Vitro Buenos Aires"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -50012,27 +50095,6 @@
 },
 {
   "type": "way",
-  "id": 465057734,
-  "nodes": [
-    4600800011,
-    4600800012,
-    10791378635,
-    10791378636,
-    4600800013,
-    4600800014,
-    4600800011
-  ],
-  "tags": {
-    "addr:street": "79 - Ayacucho",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Osmecon Salud",
-    "source": "Reconocimiento Cartográfico 2016 por KG"
-  }
-},
-{
-  "type": "way",
   "id": 465250909,
   "nodes": [
     4602414837,
@@ -53169,11 +53231,18 @@
     4699529860
   ],
   "tags": {
+    "addr:housenumber": "2273",
     "addr:street": "Avenida Santa María de las Conchas",
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2023-12-06",
+    "email": "info@consultoriosmarcos.com",
+    "healthcare:speciality": "gynaecology;urology;psychiatry",
     "name": "Consultorios Medicos",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "operator:type": "privado",
+    "phone": "+54 11 4749-4773",
+    "source": "Reconocimiento terrestre por Kaart 2016.",
+    "website": "https://www.consultoriosmarcos.com/"
   }
 },
 {
@@ -66683,6 +66752,33 @@
     "building": "house",
     "healthcare": "clinic",
     "name": "CREMED"
+  }
+},
+{
+  "type": "way",
+  "id": 1229587948,
+  "nodes": [
+    4600800012,
+    10791378635,
+    11402453341,
+    4600800013,
+    4600800014,
+    11402453340,
+    11402453339,
+    4600800011,
+    4600800012
+  ],
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:country": "AR",
+    "addr:housenumber": "2350",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
+    "addr:street": "79 - Ayacucho",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Osmecon Salud",
+    "operator": "OSMECON"
   }
 },
 {
@@ -93614,26 +93710,38 @@
 {
   "type": "node",
   "id": 4600800013,
-  "lat": -34.5720538,
-  "lon": -58.5377471
+  "lat": -34.5720537,
+  "lon": -58.5377473
 },
 {
   "type": "node",
   "id": 4600800014,
-  "lat": -34.5719780,
-  "lon": -58.5376568
+  "lat": -34.5719781,
+  "lon": -58.5376567
 },
 {
   "type": "node",
   "id": 10791378635,
-  "lat": -34.5720681,
-  "lon": -58.5378318
+  "lat": -34.5720684,
+  "lon": -58.5378321
 },
 {
   "type": "node",
-  "id": 10791378636,
-  "lat": -34.5720250,
-  "lon": -58.5377814
+  "id": 11402453339,
+  "lat": -34.5716093,
+  "lon": -58.5375757
+},
+{
+  "type": "node",
+  "id": 11402453340,
+  "lat": -34.5717577,
+  "lon": -58.5373924
+},
+{
+  "type": "node",
+  "id": 11402453341,
+  "lat": -34.5720961,
+  "lon": -58.5377981
 },
 {
   "type": "node",
