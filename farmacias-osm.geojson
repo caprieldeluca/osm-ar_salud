@@ -15463,6 +15463,61 @@
 },
 {
   "type": "Feature",
+  "id": "way/473435239",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "700",
+    "addr:postcode": "1642",
+    "addr:street": "Avenida Centenario",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "FarmaPlus",
+    "id": "way/473435239"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5180404,
+          -34.4688527
+        ],
+        [
+          -58.5180009,
+          -34.4689068
+        ],
+        [
+          -58.5179139,
+          -34.4688636
+        ],
+        [
+          -58.5179018,
+          -34.4688801
+        ],
+        [
+          -58.5178379,
+          -34.4688484
+        ],
+        [
+          -58.5178783,
+          -34.468793
+        ],
+        [
+          -58.5179119,
+          -34.4687889
+        ],
+        [
+          -58.5180404,
+          -34.4688527
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/473435745",
   "properties": {
     "amenity": "pharmacy",
@@ -33739,6 +33794,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "landuse": "commercial",
     "name": "Laboratorios Pharmaforce",
     "id": "way/884204329"
   },
@@ -33747,12 +33803,12 @@
     "coordinates": [
       [
         [
-          -60.7910981,
-          -32.8471802
+          -60.7904222,
+          -32.847256
         ],
         [
-          -60.7899901,
-          -32.8473045
+          -60.7898986,
+          -32.8473006
         ],
         [
           -60.7891372,
@@ -33767,12 +33823,12 @@
           -32.8466304
         ],
         [
-          -60.7911088,
-          -32.8466755
+          -60.7904513,
+          -32.8466635
         ],
         [
-          -60.7910981,
-          -32.8471802
+          -60.7904222,
+          -32.847256
         ]
       ]
     ]
@@ -40725,6 +40781,50 @@
 },
 {
   "type": "Feature",
+  "id": "way/1232611602",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia \"Davio\"",
+    "id": "way/1232611602"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.985029,
+          -34.3298292
+        ],
+        [
+          -58.9849232,
+          -34.3299496
+        ],
+        [
+          -58.9848826,
+          -34.3299602
+        ],
+        [
+          -58.9847747,
+          -34.3298955
+        ],
+        [
+          -58.9849006,
+          -34.3297523
+        ],
+        [
+          -58.985029,
+          -34.3298292
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -44846,7 +44946,7 @@
   "type": "Feature",
   "id": "node/1175382611",
   "properties": {
-    "addr:street": "Jorge Newbery",
+    "addr:street": "Avenida Jorge Newbery",
     "amenity": "pharmacy",
     "description": "Homeopatia",
     "healthcare": "pharmacy",
@@ -45967,7 +46067,14 @@
   "id": "node/1372282758",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2023-12-09",
     "healthcare": "pharmacy",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-02:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "id": "node/1372282758"
   },
   "geometry": {
@@ -54018,9 +54125,17 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-12-13",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "https://farmacity.com/",
+    "wheelchair": "yes",
     "id": "node/2208155323"
   },
   "geometry": {
@@ -54605,7 +54720,7 @@
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Nueva Dickens",
+    "name": "Farmamía",
     "ref:vatin": "AR30661550097",
     "id": "node/2276921878"
   },
@@ -55567,6 +55682,7 @@
   "id": "node/2289785692",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Marconi",
     "id": "node/2289785692"
   },
@@ -55590,6 +55706,7 @@
     "dispensing": "yes",
     "drive_through": "no",
     "email": "farmaciaminiello@gmail.com",
+    "healthcare": "pharmacy",
     "name": "Miniello",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -59986,23 +60103,6 @@
     "coordinates": [
       -58.5908689,
       -34.644112
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2511119722",
-  "properties": {
-    "addr:street": "Arcos",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/2511119722"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4507954,
-      -34.5637397
     ]
   }
 },
@@ -89771,13 +89871,14 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Farmacia Perez de Pedernera",
     "id": "node/4366331194"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -63.248824,
-      -32.4101435
+      -63.2488099,
+      -32.4101276
     ]
   }
 },
@@ -92415,6 +92516,7 @@
   "id": "node/4498993599",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Meoli",
     "id": "node/4498993599"
   },
@@ -100397,8 +100499,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -63.2431961,
-      -32.4113577
+      -63.2432196,
+      -32.4113611
     ]
   }
 },
@@ -102312,14 +102414,13 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Rp",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4699847770"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       -58.3796955,
-      -34.6034699
+      -34.6034412
     ]
   }
 },
@@ -107308,7 +107409,7 @@
     "addr:street": "General Jones",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Pértile",
+    "name": "Pértile",
     "phone": "+54 3731 460044",
     "ref:sisa_codigo": "70221052326881",
     "ref:sisa_tipologia": "FARMACIA",
@@ -120055,14 +120156,15 @@
   "id": "node/5820560506",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Romano",
     "id": "node/5820560506"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.7070379,
-      -32.8472892
+      -60.7071385,
+      -32.8473583
     ]
   }
 },
@@ -130282,7 +130384,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Botánica",
+    "name": "Farmacia Dr. Pasteur",
     "id": "node/6880115091"
   },
   "geometry": {
@@ -165784,17 +165886,21 @@
   "type": "Feature",
   "id": "node/10931595569",
   "properties": {
+    "addr:city": "Tres Arroyos",
+    "addr:housenumber": "81",
+    "addr:postcode": "7500",
+    "addr:street": "43 - Vicente López",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Pascual",
-    "phone": "02983425264",
+    "phone": "+542983425264",
     "id": "node/10931595569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.2738588,
-      -38.3771537
+      -60.2738819,
+      -38.3771863
     ]
   }
 },
@@ -170223,6 +170329,174 @@
     "coordinates": [
       -59.6302354,
       -30.7378077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11407473997",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmar",
+    "id": "node/11407473997"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.072302,
+      -27.0945544
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11410548083",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Martinenco",
+    "id": "node/11410548083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.2182077,
+      -34.8049899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11415632786",
+  "properties": {
+    "addr:housenumber": "435",
+    "addr:street": "La Colonia",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0263 4723077",
+    "name": "Farmacia Virgen de San Nicolás",
+    "id": "node/11415632786"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.4820882,
+      -33.0953167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11415632815",
+  "properties": {
+    "addr:housenumber": "699",
+    "addr:street": "Isidoro Busquets",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0263 4423995",
+    "name": "Farmacia Busquets",
+    "id": "node/11415632815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.4789795,
+      -33.1001612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11415752273",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/11415752273"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4096631,
+      -34.5891894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11427770799",
+  "properties": {
+    "addr:city": "Ugarteche",
+    "addr:postcode": "5509",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ugarteche",
+    "id": "node/11427770799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8898128,
+      -33.2034813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11432304925",
+  "properties": {
+    "addr:housenumber": "5444",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "check_date": "2023-12-19",
+    "healthcare": "pharmacy",
+    "name": "Opendarma Contemporánea",
+    "id": "node/11432304925"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4419257,
+      -34.6211422
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11432304929",
+  "properties": {
+    "addr:housenumber": "1311",
+    "addr:street": "Avenida Pedro Goyena",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "check_date": "2023-12-19",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/11432304929"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4458885,
+      -34.6271088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11434321749",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia \"Lizarraga\"",
+    "id": "node/11434321749"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.9882938,
+      -34.3324305
     ]
   }
 }

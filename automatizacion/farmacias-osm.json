@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-09T00:22:40Z",
-    "timestamp_areas_base": "2023-12-08T22:57:23Z",
+    "timestamp_osm_base": "2023-12-21T22:03:00Z",
+    "timestamp_areas_base": "2023-12-21T20:43:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2843,7 +2843,7 @@
   "lat": -34.5815867,
   "lon": -58.4486424,
   "tags": {
-    "addr:street": "Jorge Newbery",
+    "addr:street": "Avenida Jorge Newbery",
     "amenity": "pharmacy",
     "description": "Homeopatia",
     "healthcare": "pharmacy",
@@ -3622,7 +3622,14 @@
   "lon": -58.4055687,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "check_date": "2023-12-09",
+    "healthcare": "pharmacy",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-02:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes"
   }
 },
 {
@@ -9141,9 +9148,17 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-12-13",
     "healthcare": "pharmacy",
     "name": "Farmacity",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "https://farmacity.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -9536,7 +9551,7 @@
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Nueva Dickens",
+    "name": "Farmamía",
     "ref:vatin": "AR30661550097"
   }
 },
@@ -10198,6 +10213,7 @@
   "lon": -60.7011543,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Marconi"
   }
 },
@@ -10215,6 +10231,7 @@
     "dispensing": "yes",
     "drive_through": "no",
     "email": "farmaciaminiello@gmail.com",
+    "healthcare": "pharmacy",
     "name": "Miniello",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -13170,17 +13187,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Central Oeste"
-  }
-},
-{
-  "type": "node",
-  "id": 2511119722,
-  "lat": -34.5637397,
-  "lon": -58.4507954,
-  "tags": {
-    "addr:street": "Arcos",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -33639,11 +33645,12 @@
 {
   "type": "node",
   "id": 4366331194,
-  "lat": -32.4101435,
-  "lon": -63.2488240,
+  "lat": -32.4101276,
+  "lon": -63.2488099,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Perez de Pedernera"
   }
 },
 {
@@ -35454,6 +35461,7 @@
   "lon": -60.7027687,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Meoli"
   }
 },
@@ -40989,8 +40997,8 @@
 {
   "type": "node",
   "id": 4675663092,
-  "lat": -32.4113577,
-  "lon": -63.2431961,
+  "lat": -32.4113611,
+  "lon": -63.2432196,
   "tags": {
     "addr:city": "Villa María",
     "addr:housenumber": "13",
@@ -42333,13 +42341,12 @@
 {
   "type": "node",
   "id": 4699847770,
-  "lat": -34.6034699,
+  "lat": -34.6034412,
   "lon": -58.3796955,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Rp",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Rp"
   }
 },
 {
@@ -45793,7 +45800,7 @@
     "addr:street": "General Jones",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Pértile",
+    "name": "Pértile",
     "phone": "+54 3731 460044",
     "ref:sisa_codigo": "70221052326881",
     "ref:sisa_tipologia": "FARMACIA"
@@ -54480,10 +54487,11 @@
 {
   "type": "node",
   "id": 5820560506,
-  "lat": -32.8472892,
-  "lon": -60.7070379,
+  "lat": -32.8473583,
+  "lon": -60.7071385,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Romano"
   }
 },
@@ -61435,7 +61443,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Botánica"
+    "name": "Farmacia Dr. Pasteur"
   }
 },
 {
@@ -86980,13 +86988,17 @@
 {
   "type": "node",
   "id": 10931595569,
-  "lat": -38.3771537,
-  "lon": -60.2738588,
+  "lat": -38.3771863,
+  "lon": -60.2738819,
   "tags": {
+    "addr:city": "Tres Arroyos",
+    "addr:housenumber": "81",
+    "addr:postcode": "7500",
+    "addr:street": "43 - Vicente López",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Pascual",
-    "phone": "02983425264"
+    "phone": "+542983425264"
   }
 },
 {
@@ -90041,6 +90053,120 @@
     "healthcare": "pharmacy",
     "name": "Avenida",
     "ref:sisa_codigo": "70300702342779"
+  }
+},
+{
+  "type": "node",
+  "id": 11407473997,
+  "lat": -27.0945544,
+  "lon": -61.0723020,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmar"
+  }
+},
+{
+  "type": "node",
+  "id": 11410548083,
+  "lat": -34.8049899,
+  "lon": -58.2182077,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Martinenco"
+  }
+},
+{
+  "type": "node",
+  "id": 11415632786,
+  "lat": -33.0953167,
+  "lon": -68.4820882,
+  "tags": {
+    "addr:housenumber": "435",
+    "addr:street": "La Colonia",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0263 4723077",
+    "name": "Farmacia Virgen de San Nicolás"
+  }
+},
+{
+  "type": "node",
+  "id": 11415632815,
+  "lat": -33.1001612,
+  "lon": -68.4789795,
+  "tags": {
+    "addr:housenumber": "699",
+    "addr:street": "Isidoro Busquets",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0263 4423995",
+    "name": "Farmacia Busquets"
+  }
+},
+{
+  "type": "node",
+  "id": 11415752273,
+  "lat": -34.5891894,
+  "lon": -58.4096631,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 11427770799,
+  "lat": -33.2034813,
+  "lon": -68.8898128,
+  "tags": {
+    "addr:city": "Ugarteche",
+    "addr:postcode": "5509",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ugarteche"
+  }
+},
+{
+  "type": "node",
+  "id": 11432304925,
+  "lat": -34.6211422,
+  "lon": -58.4419257,
+  "tags": {
+    "addr:housenumber": "5444",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "pharmacy",
+    "check_date": "2023-12-19",
+    "healthcare": "pharmacy",
+    "name": "Opendarma Contemporánea"
+  }
+},
+{
+  "type": "node",
+  "id": 11432304929,
+  "lat": -34.6271088,
+  "lon": -58.4458885,
+  "tags": {
+    "addr:housenumber": "1311",
+    "addr:street": "Avenida Pedro Goyena",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "check_date": "2023-12-19",
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 11434321749,
+  "lat": -34.3324305,
+  "lon": -58.9882938,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia \"Lizarraga\""
   }
 },
 {
@@ -97246,6 +97372,31 @@
     "phone": "+54 11 6051-7712",
     "website": "https://selmadigital.com/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 473435239,
+  "nodes": [
+    4675539954,
+    4675539955,
+    4675539956,
+    4675539957,
+    4675539958,
+    4675539959,
+    4675539960,
+    4675539954
+  ],
+  "tags": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "700",
+    "addr:postcode": "1642",
+    "addr:street": "Avenida Centenario",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "FarmaPlus"
   }
 },
 {
@@ -105728,18 +105879,19 @@
   "type": "way",
   "id": 884204329,
   "nodes": [
-    1987915570,
-    1987915567,
+    11433086080,
+    11433086081,
     1987915558,
     8223005644,
     4152383313,
-    4152383312,
-    1987915570
+    2510384672,
+    11433086080
   ],
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "landuse": "commercial",
     "name": "Laboratorios Pharmaforce"
   }
 },
@@ -108966,6 +109118,26 @@
     "healthcare": "pharmacy",
     "height": "3",
     "name": "La Botica"
+  }
+},
+{
+  "type": "way",
+  "id": 1232611602,
+  "nodes": [
+    11434324917,
+    11434324918,
+    11434324919,
+    11434324920,
+    11434324921,
+    11434324917
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia \"Davio\""
   }
 },
 {
@@ -120040,21 +120212,9 @@
 },
 {
   "type": "node",
-  "id": 1987915567,
-  "lat": -32.8466755,
-  "lon": -60.7911088
-},
-{
-  "type": "node",
-  "id": 1987915570,
-  "lat": -32.8471802,
-  "lon": -60.7910981
-},
-{
-  "type": "node",
-  "id": 4152383312,
-  "lat": -32.8473045,
-  "lon": -60.7899901
+  "id": 2510384672,
+  "lat": -32.8473006,
+  "lon": -60.7898986
 },
 {
   "type": "node",
@@ -120067,6 +120227,18 @@
   "id": 8223005644,
   "lat": -32.8474745,
   "lon": -60.7886262
+},
+{
+  "type": "node",
+  "id": 11433086080,
+  "lat": -32.8472560,
+  "lon": -60.7904222
+},
+{
+  "type": "node",
+  "id": 11433086081,
+  "lat": -32.8466635,
+  "lon": -60.7904513
 },
 {
   "type": "node",
@@ -122305,6 +122477,36 @@
   "id": 7333554416,
   "lat": -34.4289357,
   "lon": -58.7258619
+},
+{
+  "type": "node",
+  "id": 11434324917,
+  "lat": -34.3298292,
+  "lon": -58.9850290
+},
+{
+  "type": "node",
+  "id": 11434324918,
+  "lat": -34.3297523,
+  "lon": -58.9849006
+},
+{
+  "type": "node",
+  "id": 11434324919,
+  "lat": -34.3298955,
+  "lon": -58.9847747
+},
+{
+  "type": "node",
+  "id": 11434324920,
+  "lat": -34.3299602,
+  "lon": -58.9848826
+},
+{
+  "type": "node",
+  "id": 11434324921,
+  "lat": -34.3299496,
+  "lon": -58.9849232
 },
 {
   "type": "node",
@@ -131599,6 +131801,48 @@
   "id": 4702090307,
   "lat": -34.4304939,
   "lon": -58.5756251
+},
+{
+  "type": "node",
+  "id": 4675539954,
+  "lat": -34.4688527,
+  "lon": -58.5180404
+},
+{
+  "type": "node",
+  "id": 4675539955,
+  "lat": -34.4689068,
+  "lon": -58.5180009
+},
+{
+  "type": "node",
+  "id": 4675539956,
+  "lat": -34.4688636,
+  "lon": -58.5179139
+},
+{
+  "type": "node",
+  "id": 4675539957,
+  "lat": -34.4688801,
+  "lon": -58.5179018
+},
+{
+  "type": "node",
+  "id": 4675539958,
+  "lat": -34.4688484,
+  "lon": -58.5178379
+},
+{
+  "type": "node",
+  "id": 4675539959,
+  "lat": -34.4687930,
+  "lon": -58.5178783
+},
+{
+  "type": "node",
+  "id": 4675539960,
+  "lat": -34.4687889,
+  "lon": -58.5179119
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-09T00:24:43Z",
-    "timestamp_areas_base": "2023-12-08T22:57:23Z",
+    "timestamp_osm_base": "2023-12-21T22:04:01Z",
+    "timestamp_areas_base": "2023-12-21T20:43:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4360,9 +4360,13 @@
     "addr:housenumber": "398",
     "addr:street": "Leguizamón",
     "amenity": "doctors",
-    "contact:phone": "+54 0261 4227276; 4224888",
+    "check_date:currency:XBT": "2023-12-10",
+    "contact:phone": "+54 0261 4227276;4224888",
+    "currency:XBT": "yes",
     "healthcare": "doctor",
     "name": "NeuroMed",
+    "payment:lightning": "yes",
+    "payment:onchain": "yes",
     "website": "http://www.neuromed.com.ar/"
   }
 },
@@ -20026,6 +20030,27 @@
     "name": "Orue Nutrición",
     "operator": "Doctor Hernán Orue",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11410548082,
+  "lat": -34.8050417,
+  "lon": -58.2181272,
+  "tags": {
+    "amenity": "doctors",
+    "name": "Clinica Privada Ranelagh"
+  }
+},
+{
+  "type": "node",
+  "id": 11433047047,
+  "lat": -41.1358547,
+  "lon": -71.3070648,
+  "tags": {
+    "amenity": "doctors",
+    "name": "Centro Pediátrico IMI",
+    "website": "https://imibariloche.ar"
   }
 },
 {

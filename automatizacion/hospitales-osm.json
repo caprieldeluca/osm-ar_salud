@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-09T00:20:32Z",
-    "timestamp_areas_base": "2023-12-08T22:57:23Z",
+    "timestamp_osm_base": "2023-12-21T22:01:00Z",
+    "timestamp_areas_base": "2023-12-21T20:43:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10794,26 +10794,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro de Salud Santa Lucía"
-  }
-},
-{
-  "type": "node",
-  "id": 4349341405,
-  "lat": -37.0453875,
-  "lon": -70.3252466,
-  "tags": {
-    "addr:city": "Tricao Malal",
-    "addr:full": "Volcan Tromen S/N",
-    "addr:place": "Chos Malal",
-    "addr:postcode": "8353",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "healthcare": "hospital",
-    "name": "Hospital De Area Tricao Malal",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10580422167029",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
 {
@@ -23295,17 +23275,6 @@
 },
 {
   "type": "node",
-  "id": 10813939071,
-  "lat": -31.3402610,
-  "lon": -64.2563179,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital de Pronta Atención Cura Brochero"
-  }
-},
-{
-  "type": "node",
   "id": 10863909093,
   "lat": -35.1683511,
   "lon": -58.2340086,
@@ -23565,6 +23534,29 @@
     "healthcare": "hospital",
     "name": "Complejo Integral Salud Comunitaria",
     "phone": "+54 343 4366464"
+  }
+},
+{
+  "type": "node",
+  "id": 11412741329,
+  "lat": -43.0915614,
+  "lon": -71.4635185,
+  "tags": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "955",
+    "addr:postcode": "U9203APJ",
+    "addr:street": "Avenida San Martín",
+    "amenity": "hospital",
+    "email": "hospital.trevelin@hotmail.com",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Rural Trevelin",
+    "operator:type": "public",
+    "phone": "+542945480132;+542945481083",
+    "ref:sisa_codigo": "10260352129037",
+    "ref:sisa_tipologia": "ESCIG",
+    "ref:vatin": "AR30999221463",
+    "start_date": "2007"
   }
 },
 {
@@ -27065,6 +27057,17 @@
   "nodes": [
     1730836063,
     1730836060,
+    11420769084,
+    11420769117,
+    11420769096,
+    11420769095,
+    11420769116,
+    11420769115,
+    11420769114,
+    11420769108,
+    11420769107,
+    11420769110,
+    11420769109,
     1730836062,
     1730836061,
     1730836063
@@ -27817,6 +27820,22 @@
 },
 {
   "type": "way",
+  "id": 187241164,
+  "nodes": [
+    1979738566,
+    1979738557,
+    1979738564,
+    1979738570,
+    1979738566
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Salud Mental"
+  }
+},
+{
+  "type": "way",
   "id": 187405894,
   "nodes": [
     1981085295,
@@ -27854,6 +27873,7 @@
     "healthcare": "hospital",
     "name": "Hospital Regional Domingo Funes",
     "wikidata": "Q5902617",
+    "wikimedia_commons": "Category:Hospital Domingo Funes",
     "wikipedia": "en:Hospital Domingo Funes"
   }
 },
@@ -29157,7 +29177,9 @@
     "phone": "0351-4586400",
     "ref:sisa_codigo": "11140142131336",
     "ref:sisa_tipologia": "ESCIEP",
-    "wikidata": "Q30280086"
+    "wikidata": "Q30280086",
+    "wikimedia_commons": "Category:Hospital de Niños de la Santísima Trinidad",
+    "wikipedia": "es:Hospital de Niños de la Santísima Trinidad"
   }
 },
 {
@@ -30356,7 +30378,8 @@
     "ref:sisa_codigo": "10140142431169",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://hmcba.com.ar/",
-    "wikidata": "Q88566752"
+    "wikidata": "Q88566752",
+    "wikipedia": "es:Hospital Militar Regional Córdoba"
   }
 },
 {
@@ -35244,10 +35267,20 @@
   "id": 331297900,
   "nodes": [
     3383564543,
+    11421644299,
+    11421644298,
+    11421644297,
+    11421644296,
+    11421644295,
+    11421644294,
+    11421644293,
     3383564544,
+    11421628060,
     3817121725,
     3383564545,
     3383564546,
+    11421628064,
+    11421628065,
     3383564543
   ],
   "tags": {
@@ -36265,7 +36298,8 @@
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)",
     "website": "http://hospitalmarcialquiroga.sanjuan.gob.ar/",
-    "wikidata": "Q5902735"
+    "wikidata": "Q5902735",
+    "wikipedia": "es:Hospital Marcial Quiroga"
   }
 },
 {
@@ -38100,7 +38134,9 @@
   "nodes": [
     4166621690,
     4166621691,
+    11421790682,
     4166621692,
+    11421790681,
     4166621693,
     4166621690
   ],
@@ -45119,6 +45155,7 @@
     1978024134,
     1978024226,
     1978024208,
+    11423324570,
     1978024178,
     1978024187,
     1978024197,
@@ -45132,9 +45169,8 @@
     "addr:street": "Avenida José de San Martín",
     "alt_name": "Policlínico Eva Perón",
     "amenity": "hospital",
-    "contact:phone": "+54 341 471-0940 \"Int 263\"; +54 341 471-4510",
+    "contact:phone": "+54 341 471-0940 \"Int 263\";+54 341 471-4510",
     "emergency": "yes",
-    "fixme": "Corroborar ref",
     "healthcare": "hospital",
     "name": "Hospital Escuela Eva Perón",
     "operator": "Provincia de Santa Fe",
@@ -45267,9 +45303,11 @@
     "addr:street": "San Martín de Tours",
     "amenity": "hospital",
     "building": "hospital",
+    "check_date": "2023-12-09",
     "contact:phone": "+54 11 4809-5555",
     "healthcare": "hospital",
     "name": "Sanatorio Mater Dei",
+    "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "+54 (11) 4809-5555",
@@ -45473,6 +45511,7 @@
   "id": 739618836,
   "nodes": [
     6925199385,
+    11438963024,
     6925199386,
     6925199387,
     6925199388,
@@ -54503,6 +54542,36 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1231209476,
+  "nodes": [
+    11418338341,
+    11418338342,
+    11418338331,
+    11418338330,
+    11418338338,
+    11418338329,
+    11418338339,
+    11418338340,
+    11418338362,
+    11418338341
+  ],
+  "tags": {
+    "addr:city": "Tricao Malal",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8353",
+    "addr:street": "Tromen",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa Tricao Malal",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 294 849-7900",
+    "website": "https://www.saludneuquen.gob.ar/hospital-tricao-malal/"
   }
 },
 {
@@ -66910,6 +66979,60 @@
 },
 {
   "type": "node",
+  "id": 11418338329,
+  "lat": -37.0456191,
+  "lon": -70.3255963
+},
+{
+  "type": "node",
+  "id": 11418338330,
+  "lat": -37.0456390,
+  "lon": -70.3253333
+},
+{
+  "type": "node",
+  "id": 11418338331,
+  "lat": -37.0457688,
+  "lon": -70.3253495
+},
+{
+  "type": "node",
+  "id": 11418338338,
+  "lat": -37.0456285,
+  "lon": -70.3254739
+},
+{
+  "type": "node",
+  "id": 11418338339,
+  "lat": -37.0454134,
+  "lon": -70.3255274
+},
+{
+  "type": "node",
+  "id": 11418338340,
+  "lat": -37.0453888,
+  "lon": -70.3254926
+},
+{
+  "type": "node",
+  "id": 11418338341,
+  "lat": -37.0453271,
+  "lon": -70.3248806
+},
+{
+  "type": "node",
+  "id": 11418338342,
+  "lat": -37.0457343,
+  "lon": -70.3247993
+},
+{
+  "type": "node",
+  "id": 11418338362,
+  "lat": -37.0453485,
+  "lon": -70.3250928
+},
+{
+  "type": "node",
   "id": 4117859942,
   "lat": -37.0510890,
   "lon": -69.8778914
@@ -70792,6 +70915,24 @@
 },
 {
   "type": "node",
+  "id": 1979738557,
+  "lat": -36.5970480,
+  "lon": -64.2908782
+},
+{
+  "type": "node",
+  "id": 1979738566,
+  "lat": -36.5973458,
+  "lon": -64.2912223
+},
+{
+  "type": "node",
+  "id": 1979738570,
+  "lat": -36.5975375,
+  "lon": -64.2909650
+},
+{
+  "type": "node",
   "id": 5203388436,
   "lat": -36.5950897,
   "lon": -64.2921102
@@ -70897,6 +71038,12 @@
   "id": 5203390030,
   "lat": -36.5995130,
   "lon": -64.2901638
+},
+{
+  "type": "node",
+  "id": 1979738564,
+  "lat": -36.5972397,
+  "lon": -64.2906209
 },
 {
   "type": "node",
@@ -76433,26 +76580,26 @@
 {
   "type": "node",
   "id": 10956445699,
-  "lat": -31.3407853,
-  "lon": -64.2558263
+  "lat": -31.3407884,
+  "lon": -64.2558329
 },
 {
   "type": "node",
   "id": 10956445700,
-  "lat": -31.3404761,
-  "lon": -64.2555769
+  "lat": -31.3404756,
+  "lon": -64.2555724
 },
 {
   "type": "node",
   "id": 10956445701,
-  "lat": -31.3400477,
-  "lon": -64.2562743
+  "lat": -31.3400406,
+  "lon": -64.2562885
 },
 {
   "type": "node",
   "id": 10956445702,
-  "lat": -31.3403547,
-  "lon": -64.2565586
+  "lat": -31.3403534,
+  "lon": -64.2565490
 },
 {
   "type": "node",
@@ -83110,6 +83257,12 @@
 },
 {
   "type": "node",
+  "id": 11423324570,
+  "lat": -32.8571518,
+  "lon": -60.7043764
+},
+{
+  "type": "node",
   "id": 1978024158,
   "lat": -32.8560193,
   "lon": -60.7056175
@@ -84383,32 +84536,32 @@
 {
   "type": "node",
   "id": 3917171164,
-  "lat": -32.0738237,
-  "lon": -60.4667879
+  "lat": -32.0738180,
+  "lon": -60.4669019
 },
 {
   "type": "node",
   "id": 3917171165,
-  "lat": -32.0738609,
-  "lon": -60.4667255
+  "lat": -32.0738132,
+  "lon": -60.4666812
 },
 {
   "type": "node",
   "id": 3917171166,
-  "lat": -32.0739149,
-  "lon": -60.4667704
+  "lat": -32.0739092,
+  "lon": -60.4668133
 },
 {
   "type": "node",
   "id": 3917171167,
-  "lat": -32.0738777,
-  "lon": -60.4668328
+  "lat": -32.0738754,
+  "lon": -60.4668435
 },
 {
   "type": "node",
   "id": 3928616746,
-  "lat": -32.0738359,
-  "lon": -60.4667675
+  "lat": -32.0737268,
+  "lon": -60.4667688
 },
 {
   "type": "node",
@@ -91709,32 +91862,92 @@
 {
   "type": "node",
   "id": 3383564543,
-  "lat": -34.8964117,
-  "lon": -57.9548638
+  "lat": -34.8959194,
+  "lon": -57.9554888
 },
 {
   "type": "node",
   "id": 3383564544,
-  "lat": -34.8969243,
-  "lon": -57.9553975
+  "lat": -34.8969029,
+  "lon": -57.9553917
 },
 {
   "type": "node",
   "id": 3383564545,
-  "lat": -34.8971509,
-  "lon": -57.9550837
+  "lat": -34.8971510,
+  "lon": -57.9550567
 },
 {
   "type": "node",
   "id": 3383564546,
-  "lat": -34.8966493,
-  "lon": -57.9545353
+  "lat": -34.8966438,
+  "lon": -57.9545081
 },
 {
   "type": "node",
   "id": 3817121725,
-  "lat": -34.8970335,
-  "lon": -57.9552403
+  "lat": -34.8970232,
+  "lon": -57.9552293
+},
+{
+  "type": "node",
+  "id": 11421628060,
+  "lat": -34.8969213,
+  "lon": -57.9553669
+},
+{
+  "type": "node",
+  "id": 11421628064,
+  "lat": -34.8964479,
+  "lon": -57.9547650
+},
+{
+  "type": "node",
+  "id": 11421628065,
+  "lat": -34.8963977,
+  "lon": -57.9548330
+},
+{
+  "type": "node",
+  "id": 11421644293,
+  "lat": -34.8966458,
+  "lon": -57.9551052
+},
+{
+  "type": "node",
+  "id": 11421644294,
+  "lat": -34.8965760,
+  "lon": -57.9550274
+},
+{
+  "type": "node",
+  "id": 11421644295,
+  "lat": -34.8964570,
+  "lon": -57.9551884
+},
+{
+  "type": "node",
+  "id": 11421644296,
+  "lat": -34.8964640,
+  "lon": -57.9551961
+},
+{
+  "type": "node",
+  "id": 11421644297,
+  "lat": -34.8963737,
+  "lon": -57.9553182
+},
+{
+  "type": "node",
+  "id": 11421644298,
+  "lat": -34.8963650,
+  "lon": -57.9553086
+},
+{
+  "type": "node",
+  "id": 11421644299,
+  "lat": -34.8960918,
+  "lon": -57.9556783
 },
 {
   "type": "node",
@@ -91937,26 +92150,92 @@
 {
   "type": "node",
   "id": 1730836060,
-  "lat": -34.8609879,
-  "lon": -57.9072242
+  "lat": -34.8610169,
+  "lon": -57.9072339
 },
 {
   "type": "node",
   "id": 1730836061,
-  "lat": -34.8601868,
-  "lon": -57.9068675
+  "lat": -34.8601896,
+  "lon": -57.9069013
 },
 {
   "type": "node",
   "id": 1730836062,
-  "lat": -34.8604311,
-  "lon": -57.9065617
+  "lat": -34.8604228,
+  "lon": -57.9066124
 },
 {
   "type": "node",
   "id": 1730836063,
-  "lat": -34.8607326,
-  "lon": -57.9075380
+  "lat": -34.8607447,
+  "lon": -57.9075716
+},
+{
+  "type": "node",
+  "id": 11420769084,
+  "lat": -34.8609904,
+  "lon": -57.9071998
+},
+{
+  "type": "node",
+  "id": 11420769095,
+  "lat": -34.8609330,
+  "lon": -57.9070783
+},
+{
+  "type": "node",
+  "id": 11420769096,
+  "lat": -34.8609219,
+  "lon": -57.9070918
+},
+{
+  "type": "node",
+  "id": 11420769107,
+  "lat": -34.8606746,
+  "lon": -57.9069161
+},
+{
+  "type": "node",
+  "id": 11420769108,
+  "lat": -34.8606918,
+  "lon": -57.9069370
+},
+{
+  "type": "node",
+  "id": 11420769109,
+  "lat": -34.8604502,
+  "lon": -57.9066450
+},
+{
+  "type": "node",
+  "id": 11420769110,
+  "lat": -34.8605144,
+  "lon": -57.9067234
+},
+{
+  "type": "node",
+  "id": 11420769114,
+  "lat": -34.8607444,
+  "lon": -57.9068730
+},
+{
+  "type": "node",
+  "id": 11420769115,
+  "lat": -34.8607739,
+  "lon": -57.9069090
+},
+{
+  "type": "node",
+  "id": 11420769116,
+  "lat": -34.8607843,
+  "lon": -57.9068964
+},
+{
+  "type": "node",
+  "id": 11420769117,
+  "lat": -34.8610003,
+  "lon": -57.9071878
 },
 {
   "type": "node",
@@ -106235,26 +106514,38 @@
 {
   "type": "node",
   "id": 4166621690,
-  "lat": -29.4181405,
-  "lon": -66.8496060
+  "lat": -29.4181365,
+  "lon": -66.8496366
 },
 {
   "type": "node",
   "id": 4166621691,
-  "lat": -29.4190720,
-  "lon": -66.8504466
+  "lat": -29.4190304,
+  "lon": -66.8504209
 },
 {
   "type": "node",
   "id": 4166621692,
-  "lat": -29.4193324,
-  "lon": -66.8494239
+  "lat": -29.4193192,
+  "lon": -66.8494841
 },
 {
   "type": "node",
   "id": 4166621693,
-  "lat": -29.4182869,
-  "lon": -66.8485086
+  "lat": -29.4183044,
+  "lon": -66.8485663
+},
+{
+  "type": "node",
+  "id": 11421790681,
+  "lat": -29.4193077,
+  "lon": -66.8494471
+},
+{
+  "type": "node",
+  "id": 11421790682,
+  "lat": -29.4190617,
+  "lon": -66.8504071
 },
 {
   "type": "node",
@@ -115079,26 +115370,32 @@
 {
   "type": "node",
   "id": 6925199385,
-  "lat": -23.9447464,
-  "lon": -64.8034644
+  "lat": -23.9448898,
+  "lon": -64.8034077
 },
 {
   "type": "node",
   "id": 6925199386,
-  "lat": -23.9445990,
-  "lon": -64.8024897
+  "lat": -23.9447365,
+  "lon": -64.8024348
 },
 {
   "type": "node",
   "id": 6925199387,
-  "lat": -23.9457014,
-  "lon": -64.8022933
+  "lat": -23.9456982,
+  "lon": -64.8022614
 },
 {
   "type": "node",
   "id": 6925199388,
-  "lat": -23.9458513,
-  "lon": -64.8032589
+  "lat": -23.9458529,
+  "lon": -64.8032217
+},
+{
+  "type": "node",
+  "id": 11438963024,
+  "lat": -23.9447850,
+  "lon": -64.8027653
 },
 {
   "type": "node",

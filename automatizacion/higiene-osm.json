@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-09T00:25:44Z",
-    "timestamp_areas_base": "2023-12-08T22:57:23Z",
+    "timestamp_osm_base": "2023-12-21T22:05:01Z",
+    "timestamp_areas_base": "2023-12-21T20:43:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1671,15 +1671,6 @@
 },
 {
   "type": "node",
-  "id": 5197156041,
-  "lat": -32.9091431,
-  "lon": -60.8090150,
-  "tags": {
-    "shop": "chemist"
-  }
-},
-{
-  "type": "node",
   "id": 5208337296,
   "lat": -42.7761066,
   "lon": -65.0520920,
@@ -2105,7 +2096,7 @@
   "lat": -34.6587151,
   "lon": -58.7835807,
   "tags": {
-    "name": "Química Martina",
+    "name": "Limp Fresh",
     "shop": "chemist"
   }
 },
@@ -3645,6 +3636,38 @@
   }
 },
 {
+  "type": "node",
+  "id": 11418084147,
+  "lat": -34.6059988,
+  "lon": -58.3894028,
+  "tags": {
+    "addr:housenumber": "254",
+    "addr:street": "Montevideo",
+    "name": "Mopa Mágica",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 11419299577,
+  "lat": -34.6478929,
+  "lon": -58.7936796,
+  "tags": {
+    "name": "Química Mimar",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 11434321750,
+  "lat": -34.3312714,
+  "lon": -58.9879693,
+  "tags": {
+    "name": "Super Limp",
+    "shop": "chemist"
+  }
+},
+{
   "type": "way",
   "id": 237613111,
   "nodes": [
@@ -3736,8 +3759,10 @@
     "addr:street": "Suipacha",
     "building": "retail",
     "description": "Forraje",
+    "name:signed": "no",
     "opening_hours": "Mo-Fr 09:00-13:00,17:00-20:00",
-    "shop": "chemist"
+    "shop": "chemist",
+    "wheelchair": "yes"
   }
 },
 {
@@ -4825,9 +4850,12 @@
     "addr:street": "Undiano",
     "building": "yes",
     "contact:facebook": "https://www.facebook.com/alprosbb/",
+    "contact:instagram": "https://www.instagram.com/alprosbb/",
+    "contact:whatsapp": "+5492916454774",
     "email": "alprosbb@gmail.com",
     "name": "Alpros",
-    "phone": "+54 9 291 436-8282;+54 9 291 453-1355",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "phone": "+54 9 291 453-1355;+54 9 291 645-4774",
     "shop": "chemist"
   }
 },
