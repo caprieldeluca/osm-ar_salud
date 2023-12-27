@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-21T22:01:00Z",
-    "timestamp_areas_base": "2023-12-21T20:43:44Z",
+    "timestamp_osm_base": "2023-12-27T23:41:41Z",
+    "timestamp_areas_base": "2023-12-27T19:33:34Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15952,16 +15952,6 @@
 },
 {
   "type": "node",
-  "id": 6297403984,
-  "lat": -34.7577441,
-  "lon": -65.2564890,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
   "id": 6312744861,
   "lat": -34.7782582,
   "lon": -65.6888036,
@@ -23462,14 +23452,14 @@
 {
   "type": "node",
   "id": 11345482951,
-  "lat": -27.6960868,
-  "lon": -54.9783851,
+  "lat": -27.6961533,
+  "lon": -54.9781866,
   "tags": {
     "addr:city": "Panambí",
     "addr:street": "Ruta Provincial 5",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Nivel II de Panambí",
+    "name": "Hospital Nivel I de Panambí",
     "source": "trabajo de campo;https://canal12misiones.com/noticias-de-misiones/salud/inaugurar-hospital-panambi"
   }
 },
@@ -29058,10 +29048,14 @@
     "addr:street": "Avenida Manuel A. Montes de Oca",
     "alt_name": "Casa Cuna",
     "amenity": "hospital",
+    "check_date": "2023-12-25",
     "designation": "Hospital General de Niños Dr. Pedro de Elizalde",
     "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics",
     "name": "Hospital Pedro de Elizalde",
+    "opening_hours": "24/7",
+    "operator:type": "public",
     "website": "http://www.elizalde.gov.ar/",
     "wikidata": "Q9004904",
     "wikipedia": "es:Hospital Pedro de Elizalde"
@@ -34385,34 +34379,40 @@
   "type": "way",
   "id": 317687409,
   "nodes": [
-    1100747924,
-    8259873290,
-    8259873292,
+    11453340736,
+    11453340753,
     3239752174,
+    11453340743,
     8259873291,
-    8259873289,
-    8259873288,
-    8259873294,
+    11453340739,
+    11453483963,
+    11453483964,
+    3239752178,
+    11453483965,
+    11453483981,
+    11453340738,
     3239752175,
-    8259873293,
-    8259873287,
-    1100747907,
-    1100747924
+    11453483970,
+    11453340737,
+    11453340736
   ],
   "tags": {
     "addr:city": "El Cholar",
     "addr:full": "Avenida Güemes S/N",
+    "addr:housenumber": "S/N",
     "addr:place": "Ñorquin",
     "addr:postcode": "Q8353",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Provincial El Cholar",
+    "name": "Hospital de Área Programa El Cholar",
     "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
     "operator:type": "public",
+    "phone": "+54 294 849-2900",
     "ref:sisa_codigo": "10580842167016",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
+    "website": "https://www.saludneuquen.gob.ar/hospital-el-cholar/"
   }
 },
 {
@@ -46964,8 +46964,12 @@
     "addr:postcode": "C1272AAA",
     "addr:street": "Doctor Enrique Finochietto",
     "amenity": "hospital",
+    "check_date": "2023-12-25",
+    "healthcare:speciality": "surgery",
     "name": "Hospital De Rehabilitacion Respiratoria Maria Ferrer",
+    "opening_hours": "24/7",
     "operator": "Ministerio de Salud Ciudad de Buenos Aires",
+    "operator:type": "public",
     "phone": "+54 11 4307-1445",
     "wikidata": "Q89822123"
   }
@@ -54575,6 +54579,58 @@
   }
 },
 {
+  "type": "way",
+  "id": 1233187375,
+  "nodes": [
+    11442007241,
+    11442007256,
+    11442007255,
+    11442007252,
+    11442007251,
+    11442007254,
+    11442007253,
+    11442007242,
+    11442007241
+  ],
+  "tags": {
+    "addr:city": "El Huecú",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8349",
+    "addr:street": "Lonco Mañke Cayucal",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa El Huecú",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 294 849-1011",
+    "website": "https://www.saludneuquen.gob.ar/hospital-el-huecu/"
+  }
+},
+{
+  "type": "way",
+  "id": 1234084670,
+  "nodes": [
+    11453093249,
+    11453093248,
+    11453093247,
+    11453093246,
+    11453093197,
+    11453093245,
+    11453093244,
+    11455312538,
+    11453093243,
+    11453093242,
+    11453093249
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Zonal Doctor Carlos Anderberg Sand",
+    "phone": "+54 2658 420057"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -58465,75 +58521,141 @@
 },
 {
   "type": "node",
-  "id": 1100747907,
-  "lat": -37.4412740,
-  "lon": -70.6460640
+  "id": 11442007241,
+  "lat": -37.6465906,
+  "lon": -70.5793682
 },
 {
   "type": "node",
-  "id": 1100747924,
-  "lat": -37.4411159,
-  "lon": -70.6453683
+  "id": 11442007242,
+  "lat": -37.6464132,
+  "lon": -70.5798570
+},
+{
+  "type": "node",
+  "id": 11442007251,
+  "lat": -37.6462525,
+  "lon": -70.5796446
+},
+{
+  "type": "node",
+  "id": 11442007252,
+  "lat": -37.6462821,
+  "lon": -70.5795641
+},
+{
+  "type": "node",
+  "id": 11442007253,
+  "lat": -37.6462355,
+  "lon": -70.5797541
+},
+{
+  "type": "node",
+  "id": 11442007254,
+  "lat": -37.6462244,
+  "lon": -70.5797210
+},
+{
+  "type": "node",
+  "id": 11442007255,
+  "lat": -37.6463863,
+  "lon": -70.5792813
+},
+{
+  "type": "node",
+  "id": 11442007256,
+  "lat": -37.6464128,
+  "lon": -70.5792653
 },
 {
   "type": "node",
   "id": 3239752174,
-  "lat": -37.4407659,
-  "lon": -70.6456532
+  "lat": -37.4407964,
+  "lon": -70.6456262
 },
 {
   "type": "node",
   "id": 3239752175,
-  "lat": -37.4409180,
-  "lon": -70.6462350
+  "lat": -37.4409516,
+  "lon": -70.6461765
 },
 {
   "type": "node",
-  "id": 8259873287,
-  "lat": -37.4409476,
-  "lon": -70.6462343
-},
-{
-  "type": "node",
-  "id": 8259873288,
-  "lat": -37.4408994,
-  "lon": -70.6462100
-},
-{
-  "type": "node",
-  "id": 8259873289,
-  "lat": -37.4407674,
-  "lon": -70.6456933
-},
-{
-  "type": "node",
-  "id": 8259873290,
-  "lat": -37.4407823,
-  "lon": -70.6456253
+  "id": 3239752178,
+  "lat": -37.4408548,
+  "lon": -70.6459693
 },
 {
   "type": "node",
   "id": 8259873291,
-  "lat": -37.4407647,
-  "lon": -70.6456722
+  "lat": -37.4407862,
+  "lon": -70.6456647
 },
 {
   "type": "node",
-  "id": 8259873292,
-  "lat": -37.4407725,
-  "lon": -70.6456368
+  "id": 11453340736,
+  "lat": -37.4411232,
+  "lon": -70.6453688
 },
 {
   "type": "node",
-  "id": 8259873293,
-  "lat": -37.4409316,
-  "lon": -70.6462376
+  "id": 11453340737,
+  "lat": -37.4412725,
+  "lon": -70.6460035
 },
 {
   "type": "node",
-  "id": 8259873294,
-  "lat": -37.4409071,
-  "lon": -70.6462262
+  "id": 11453340738,
+  "lat": -37.4409142,
+  "lon": -70.6461596
+},
+{
+  "type": "node",
+  "id": 11453340739,
+  "lat": -37.4408333,
+  "lon": -70.6458510
+},
+{
+  "type": "node",
+  "id": 11453340743,
+  "lat": -37.4407913,
+  "lon": -70.6456455
+},
+{
+  "type": "node",
+  "id": 11453340753,
+  "lat": -37.4410691,
+  "lon": -70.6454117
+},
+{
+  "type": "node",
+  "id": 11453483963,
+  "lat": -37.4408368,
+  "lon": -70.6458860
+},
+{
+  "type": "node",
+  "id": 11453483964,
+  "lat": -37.4408466,
+  "lon": -70.6458845
+},
+{
+  "type": "node",
+  "id": 11453483965,
+  "lat": -37.4408632,
+  "lon": -70.6459680
+},
+{
+  "type": "node",
+  "id": 11453483970,
+  "lat": -37.4411229,
+  "lon": -70.6460842
+},
+{
+  "type": "node",
+  "id": 11453483981,
+  "lat": -37.4408790,
+  "lon": -70.6460270
 },
 {
   "type": "node",
@@ -71512,6 +71634,66 @@
   "id": 5402637750,
   "lat": -35.3841848,
   "lon": -64.4634119
+},
+{
+  "type": "node",
+  "id": 11453093197,
+  "lat": -34.7574604,
+  "lon": -65.2562195
+},
+{
+  "type": "node",
+  "id": 11453093242,
+  "lat": -34.7583625,
+  "lon": -65.2557500
+},
+{
+  "type": "node",
+  "id": 11453093243,
+  "lat": -34.7583236,
+  "lon": -65.2557032
+},
+{
+  "type": "node",
+  "id": 11453093244,
+  "lat": -34.7574895,
+  "lon": -65.2557179
+},
+{
+  "type": "node",
+  "id": 11453093245,
+  "lat": -34.7574592,
+  "lon": -65.2557448
+},
+{
+  "type": "node",
+  "id": 11453093246,
+  "lat": -34.7574625,
+  "lon": -65.2570986
+},
+{
+  "type": "node",
+  "id": 11453093247,
+  "lat": -34.7574818,
+  "lon": -65.2571254
+},
+{
+  "type": "node",
+  "id": 11453093248,
+  "lat": -34.7583377,
+  "lon": -65.2571105
+},
+{
+  "type": "node",
+  "id": 11453093249,
+  "lat": -34.7583721,
+  "lon": -65.2570811
+},
+{
+  "type": "node",
+  "id": 11455312538,
+  "lat": -34.7575170,
+  "lon": -65.2557174
 },
 {
   "type": "node",

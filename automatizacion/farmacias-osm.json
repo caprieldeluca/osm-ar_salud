@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-21T22:03:00Z",
-    "timestamp_areas_base": "2023-12-21T20:43:44Z",
+    "timestamp_osm_base": "2023-12-27T23:43:37Z",
+    "timestamp_areas_base": "2023-12-27T19:33:34Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2865,10 +2865,18 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-12-23",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "phone": "+54 11 4551-4872",
-    "website": "https://www.farmacity.com/"
+    "website": "https://www.farmacity.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -13785,8 +13793,15 @@
   "lon": -58.4464086,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-12-26",
     "healthcare": "pharmacy",
-    "name": "Nueva Lacroze"
+    "name": "Nueva Lacroze",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes"
   }
 },
 {
@@ -16240,8 +16255,8 @@
 {
   "type": "node",
   "id": 2740168100,
-  "lat": -32.4131006,
-  "lon": -63.2534006,
+  "lat": -32.4131482,
+  "lon": -63.2534408,
   "tags": {
     "addr2:street": "Avenida Naciones Unidas",
     "addr:city": "Villa María",
@@ -17115,8 +17130,10 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2023-12-26",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "website": "https://www.farmacity.com.ar"
   }
 },
 {
@@ -36051,16 +36068,6 @@
 },
 {
   "type": "node",
-  "id": 4565393279,
-  "lat": -34.6284960,
-  "lon": -58.4008886,
-  "tags": {
-    "amenity": "pharmacy",
-    "name": "Farmacia"
-  }
-},
-{
-  "type": "node",
   "id": 4565393520,
   "lat": -34.8883484,
   "lon": -58.5659972,
@@ -36079,8 +36086,11 @@
   "lon": -58.3778912,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-12-25",
     "healthcare": "pharmacy",
-    "name": "Soy Tu"
+    "name": "Soy Tu",
+    "opening_hours": "09:00-21:00",
+    "website": "https://www.soytufarmacia.net"
   }
 },
 {
@@ -77635,10 +77645,19 @@
   "lon": -58.4458592,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2023-12-26",
     "healthcare": "pharmacy",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
     "name": "Zottola",
     "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
-    "survey:date": "2022-09-10"
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "survey:date": "2022-09-10",
+    "wheelchair": "limited"
   }
 },
 {
@@ -90170,6 +90189,132 @@
   }
 },
 {
+  "type": "node",
+  "id": 11445035356,
+  "lat": -31.7439781,
+  "lon": -60.5210066,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "961",
+    "addr:street": "Villaguay",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Motura"
+  }
+},
+{
+  "type": "node",
+  "id": 11445043439,
+  "lat": -31.7638883,
+  "lon": -60.5279958,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "3001",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida de las Américas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Paracao",
+    "ref:sisa_codigo": "70300842342977"
+  }
+},
+{
+  "type": "node",
+  "id": 11445043445,
+  "lat": -31.7347965,
+  "lon": -60.5269350,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "347",
+    "addr:postcode": "3100",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Circulo Retirados Y Pensionados Policía Entre Ríos",
+    "ref:sisa_codigo": "70300842343205"
+  }
+},
+{
+  "type": "node",
+  "id": 11445043450,
+  "lat": -31.7385948,
+  "lon": -60.5469624,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "2001",
+    "addr:postcode": "3100",
+    "addr:street": "1 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Roliria Del Tiro Federal",
+    "ref:sisa_codigo": "70300842342881"
+  }
+},
+{
+  "type": "node",
+  "id": 11445043468,
+  "lat": -31.8240138,
+  "lon": -60.5165471,
+  "tags": {
+    "addr:city": "Oro Verde",
+    "addr:postcode": "3101",
+    "addr:street": "Avenida Intendendente del Castillo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Oro Verde"
+  }
+},
+{
+  "type": "node",
+  "id": 11454178587,
+  "lat": -31.7442956,
+  "lon": -60.5361981,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "1450",
+    "addr:postcode": "3100",
+    "addr:street": "Avenida Ejército",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Pueblo",
+    "ref:sisa_codigo": "+54 343 4341159"
+  }
+},
+{
+  "type": "node",
+  "id": 11456202146,
+  "lat": -34.5672383,
+  "lon": -58.4633343,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2023-12-26",
+    "healthcare": "pharmacy",
+    "name": "FarmaPlus",
+    "opening_hours": "Mo-Fr 07:30-21:00; Sa-Su 09:30-20:00",
+    "website": "https://www.farmaplus.com.ar"
+  }
+},
+{
+  "type": "node",
+  "id": 11459607189,
+  "lat": -34.6059837,
+  "lon": -58.5285467,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2023-12-27",
+    "healthcare": "pharmacy",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Gesavi",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -90512,11 +90657,16 @@
   ],
   "tags": {
     "addr:city": "Salta",
+    "addr:housenumber": "310",
     "addr:postcode": "4400",
     "addr:street": "Avenida Batalla de Salta",
     "amenity": "pharmacy",
     "building": "yes",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "LA FLOR",
+    "phone": "387 4255161"
   }
 },
 {
@@ -91912,7 +92062,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Cévoli"
+    "name": "Ochoa"
   }
 },
 {
@@ -92046,7 +92196,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Don Zatti"
+    "name": "Ochoa"
   }
 },
 {
@@ -109138,6 +109288,29 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia \"Davio\""
+  }
+},
+{
+  "type": "way",
+  "id": 1233820779,
+  "nodes": [
+    11449488713,
+    11449488714,
+    11449488715,
+    11449488716,
+    11449488713
+  ],
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "475",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida Batalla de Salta",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "RAMÓN"
   }
 },
 {
@@ -135425,6 +135598,30 @@
   "id": 2624350752,
   "lat": -24.7205566,
   "lon": -65.4056366
+},
+{
+  "type": "node",
+  "id": 11449488713,
+  "lat": -24.7184816,
+  "lon": -65.4053525
+},
+{
+  "type": "node",
+  "id": 11449488714,
+  "lat": -24.7184517,
+  "lon": -65.4055164
+},
+{
+  "type": "node",
+  "id": 11449488715,
+  "lat": -24.7183580,
+  "lon": -65.4054936
+},
+{
+  "type": "node",
+  "id": 11449488716,
+  "lat": -24.7183827,
+  "lon": -65.4053272
 },
 {
   "type": "node",

@@ -16275,10 +16275,14 @@
     "addr:street": "Avenida Manuel A. Montes de Oca",
     "alt_name": "Casa Cuna",
     "amenity": "hospital",
+    "check_date": "2023-12-25",
     "designation": "Hospital General de Niños Dr. Pedro de Elizalde",
     "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics",
     "name": "Hospital Pedro de Elizalde",
+    "opening_hours": "24/7",
+    "operator:type": "public",
     "website": "http://www.elizalde.gov.ar/",
     "wikidata": "Q9004904",
     "wikipedia": "es:Hospital Pedro de Elizalde",
@@ -28570,17 +28574,20 @@
   "properties": {
     "addr:city": "El Cholar",
     "addr:full": "Avenida Güemes S/N",
+    "addr:housenumber": "S/N",
     "addr:place": "Ñorquin",
     "addr:postcode": "Q8353",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Provincial El Cholar",
+    "name": "Hospital de Área Programa El Cholar",
     "operator": "Ministerio de Salud - Gobierno de la Provincia de Neuquén",
     "operator:type": "public",
+    "phone": "+54 294 849-2900",
     "ref:sisa_codigo": "10580842167016",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)",
+    "website": "https://www.saludneuquen.gob.ar/hospital-el-cholar/",
     "id": "way/317687409"
   },
   "geometry": {
@@ -28588,56 +28595,68 @@
     "coordinates": [
       [
         [
-          -70.6453683,
-          -37.4411159
+          -70.6453688,
+          -37.4411232
         ],
         [
-          -70.6456253,
-          -37.4407823
+          -70.6454117,
+          -37.4410691
         ],
         [
-          -70.6456368,
-          -37.4407725
+          -70.6456262,
+          -37.4407964
         ],
         [
-          -70.6456532,
-          -37.4407659
+          -70.6456455,
+          -37.4407913
         ],
         [
-          -70.6456722,
-          -37.4407647
+          -70.6456647,
+          -37.4407862
         ],
         [
-          -70.6456933,
-          -37.4407674
+          -70.645851,
+          -37.4408333
         ],
         [
-          -70.64621,
-          -37.4408994
+          -70.645886,
+          -37.4408368
         ],
         [
-          -70.6462262,
-          -37.4409071
+          -70.6458845,
+          -37.4408466
         ],
         [
-          -70.646235,
-          -37.440918
+          -70.6459693,
+          -37.4408548
         ],
         [
-          -70.6462376,
-          -37.4409316
+          -70.645968,
+          -37.4408632
         ],
         [
-          -70.6462343,
-          -37.4409476
+          -70.646027,
+          -37.440879
         ],
         [
-          -70.646064,
-          -37.441274
+          -70.6461596,
+          -37.4409142
         ],
         [
-          -70.6453683,
-          -37.4411159
+          -70.6461765,
+          -37.4409516
+        ],
+        [
+          -70.6460842,
+          -37.4411229
+        ],
+        [
+          -70.6460035,
+          -37.4412725
+        ],
+        [
+          -70.6453688,
+          -37.4411232
         ]
       ]
     ]
@@ -57251,8 +57270,12 @@
     "addr:postcode": "C1272AAA",
     "addr:street": "Doctor Enrique Finochietto",
     "amenity": "hospital",
+    "check_date": "2023-12-25",
+    "healthcare:speciality": "surgery",
     "name": "Hospital De Rehabilitacion Respiratoria Maria Ferrer",
+    "opening_hours": "24/7",
     "operator": "Ministerio de Salud Ciudad de Buenos Aires",
+    "operator:type": "public",
     "phone": "+54 11 4307-1445",
     "wikidata": "Q89822123",
     "id": "way/789303450"
@@ -75203,6 +75226,130 @@
         [
           -70.3248806,
           -37.0453271
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1233187375",
+  "properties": {
+    "addr:city": "El Huecú",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "Q8349",
+    "addr:street": "Lonco Mañke Cayucal",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital de Área Programa El Huecú",
+    "operator": "Ministerio de Salud - Gobierno de la Provincia del Neuquén",
+    "operator:type": "public",
+    "phone": "+54 294 849-1011",
+    "website": "https://www.saludneuquen.gob.ar/hospital-el-huecu/",
+    "id": "way/1233187375"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.5793682,
+          -37.6465906
+        ],
+        [
+          -70.5792653,
+          -37.6464128
+        ],
+        [
+          -70.5792813,
+          -37.6463863
+        ],
+        [
+          -70.5795641,
+          -37.6462821
+        ],
+        [
+          -70.5796446,
+          -37.6462525
+        ],
+        [
+          -70.579721,
+          -37.6462244
+        ],
+        [
+          -70.5797541,
+          -37.6462355
+        ],
+        [
+          -70.579857,
+          -37.6464132
+        ],
+        [
+          -70.5793682,
+          -37.6465906
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1234084670",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Zonal Doctor Carlos Anderberg Sand",
+    "phone": "+54 2658 420057",
+    "id": "way/1234084670"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.2570811,
+          -34.7583721
+        ],
+        [
+          -65.25575,
+          -34.7583625
+        ],
+        [
+          -65.2557032,
+          -34.7583236
+        ],
+        [
+          -65.2557174,
+          -34.757517
+        ],
+        [
+          -65.2557179,
+          -34.7574895
+        ],
+        [
+          -65.2557448,
+          -34.7574592
+        ],
+        [
+          -65.2562195,
+          -34.7574604
+        ],
+        [
+          -65.2570986,
+          -34.7574625
+        ],
+        [
+          -65.2571254,
+          -34.7574818
+        ],
+        [
+          -65.2571105,
+          -34.7583377
+        ],
+        [
+          -65.2570811,
+          -34.7583721
         ]
       ]
     ]
@@ -97578,22 +97725,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6297403984",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "id": "node/6297403984"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.256489,
-      -34.7577441
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6312744861",
   "properties": {
     "amenity": "hospital",
@@ -107745,15 +107876,15 @@
     "addr:street": "Ruta Provincial 5",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Nivel II de Panambí",
+    "name": "Hospital Nivel I de Panambí",
     "source": "trabajo de campo;https://canal12misiones.com/noticias-de-misiones/salud/inaugurar-hospital-panambi",
     "id": "node/11345482951"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -54.9783851,
-      -27.6960868
+      -54.9781866,
+      -27.6961533
     ]
   }
 },
