@@ -22935,7 +22935,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital De Area Villa La Angostura Dr. Oscar Arraiz",
+    "name": "Hospital De Área Villa La Angostura Doctor Oscar Arraiz",
     "operator:type": "public",
     "phone": "54 0299 4494170",
     "ref:sisa_codigo": "10580702167030",
@@ -53076,7 +53076,7 @@
     "addr:full": "Liniers 1632",
     "addr:housenumber": "1632",
     "addr:postcode": "1650",
-    "addr:street": "97 - Liniers",
+    "addr:street": "97 - Santiago de Liniers",
     "amenity": "hospital",
     "barrier": "fence",
     "contact:phone": "+54 11 4724 1400;+54 11 4724 1900",
@@ -72796,11 +72796,17 @@
   "id": "way/1146872999",
   "properties": {
     "addr:city": "General San Martín",
+    "addr:country": "AR",
     "addr:housenumber": "4071",
+    "addr:postcode": "B1650CSQ",
+    "addr:province": "Buenos Aires",
     "addr:street": "56 - Domingo Matheu",
     "amenity": "hospital",
+    "check_date": "2024-01-02",
     "emergency": "yes",
     "healthcare": "hospital",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
     "name": "Corporación Medica General San Martin",
     "operator:type": "private",
     "phone": "+54 11 4754-7500",
@@ -73211,7 +73217,7 @@
     "addr:full": "18 De Diciembre De 1856 N° 1848",
     "addr:housenumber": "1848",
     "addr:postcode": "B1650BCF",
-    "addr:street": "95 - 18 De Deciembre 1886",
+    "addr:street": "95 - 18 de Diciembre de 1856",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio UOM San Martin",
@@ -75320,10 +75326,6 @@
           -34.7583236
         ],
         [
-          -65.2557174,
-          -34.757517
-        ],
-        [
           -65.2557179,
           -34.7574895
         ],
@@ -75350,6 +75352,55 @@
         [
           -65.2570811,
           -34.7583721
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1234785355",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud",
+    "id": "way/1234785355"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.0556226,
+          -37.8654786
+        ],
+        [
+          -71.0551023,
+          -37.8656988
+        ],
+        [
+          -71.0548448,
+          -37.8657538
+        ],
+        [
+          -71.0544585,
+          -37.8649619
+        ],
+        [
+          -71.054083,
+          -37.8650805
+        ],
+        [
+          -71.054083,
+          -37.8645977
+        ],
+        [
+          -71.0550057,
+          -37.8643097
+        ],
+        [
+          -71.0556226,
+          -37.8654786
         ]
       ]
     ]
@@ -85296,8 +85347,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.2254681,
-      -35.1808102
+      -58.2254252,
+      -35.1809637
     ]
   }
 },
@@ -105850,23 +105901,6 @@
     "coordinates": [
       -64.3911092,
       -32.449295
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9064702878",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "C.A.M - Centro de Adopcion Municipal- Municipalidad de Villa Maria",
-    "id": "node/9064702878"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -63.1920664,
-      -32.464105
     ]
   }
 },

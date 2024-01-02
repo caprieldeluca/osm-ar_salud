@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-27T23:41:41Z",
-    "timestamp_areas_base": "2023-12-27T19:33:34Z",
+    "timestamp_osm_base": "2024-01-02T22:08:45Z",
+    "timestamp_areas_base": "2024-01-02T16:41:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7016,8 +7016,8 @@
 {
   "type": "node",
   "id": 3667897299,
-  "lat": -35.1808102,
-  "lon": -58.2254681,
+  "lat": -35.1809637,
+  "lon": -58.2254252,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -22024,17 +22024,6 @@
 },
 {
   "type": "node",
-  "id": 9064702878,
-  "lat": -32.4641050,
-  "lon": -63.1920664,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "C.A.M - Centro de Adopcion Municipal- Municipalidad de Villa Maria"
-  }
-},
-{
-  "type": "node",
   "id": 9067704274,
   "lat": -31.2015245,
   "lon": -60.1638198,
@@ -31858,7 +31847,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital De Area Villa La Angostura Dr. Oscar Arraiz",
+    "name": "Hospital De Área Villa La Angostura Doctor Oscar Arraiz",
     "operator:type": "public",
     "phone": "54 0299 4494170",
     "ref:sisa_codigo": "10580702167030",
@@ -45048,7 +45037,7 @@
     "addr:full": "Liniers 1632",
     "addr:housenumber": "1632",
     "addr:postcode": "1650",
-    "addr:street": "97 - Liniers",
+    "addr:street": "97 - Santiago de Liniers",
     "amenity": "hospital",
     "barrier": "fence",
     "contact:phone": "+54 11 4724 1400;+54 11 4724 1900",
@@ -53571,11 +53560,17 @@
   ],
   "tags": {
     "addr:city": "General San Martín",
+    "addr:country": "AR",
     "addr:housenumber": "4071",
+    "addr:postcode": "B1650CSQ",
+    "addr:province": "Buenos Aires",
     "addr:street": "56 - Domingo Matheu",
     "amenity": "hospital",
+    "check_date": "2024-01-02",
     "emergency": "yes",
     "healthcare": "hospital",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
     "name": "Corporación Medica General San Martin",
     "operator:type": "private",
     "phone": "+54 11 4754-7500",
@@ -53730,7 +53725,7 @@
     "addr:full": "18 De Diciembre De 1856 N° 1848",
     "addr:housenumber": "1848",
     "addr:postcode": "B1650BCF",
-    "addr:street": "95 - 18 De Deciembre 1886",
+    "addr:street": "95 - 18 de Diciembre de 1856",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio UOM San Martin",
@@ -54618,7 +54613,6 @@
     11453093197,
     11453093245,
     11453093244,
-    11455312538,
     11453093243,
     11453093242,
     11453093249
@@ -54628,6 +54622,25 @@
     "healthcare": "hospital",
     "name": "Hospital Zonal Doctor Carlos Anderberg Sand",
     "phone": "+54 2658 420057"
+  }
+},
+{
+  "type": "way",
+  "id": 1234785355,
+  "nodes": [
+    11461509987,
+    11461509988,
+    11461509989,
+    11461509990,
+    11461509991,
+    11461509992,
+    11461509993,
+    11461509987
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud"
   }
 },
 {
@@ -58518,6 +58531,48 @@
   "id": 6776095945,
   "lat": -38.8784493,
   "lon": -71.1865069
+},
+{
+  "type": "node",
+  "id": 11461509987,
+  "lat": -37.8654786,
+  "lon": -71.0556226
+},
+{
+  "type": "node",
+  "id": 11461509988,
+  "lat": -37.8643097,
+  "lon": -71.0550057
+},
+{
+  "type": "node",
+  "id": 11461509991,
+  "lat": -37.8649619,
+  "lon": -71.0544585
+},
+{
+  "type": "node",
+  "id": 11461509992,
+  "lat": -37.8657538,
+  "lon": -71.0548448
+},
+{
+  "type": "node",
+  "id": 11461509993,
+  "lat": -37.8656988,
+  "lon": -71.0551023
+},
+{
+  "type": "node",
+  "id": 11461509989,
+  "lat": -37.8645977,
+  "lon": -71.0540830
+},
+{
+  "type": "node",
+  "id": 11461509990,
+  "lat": -37.8650805,
+  "lon": -71.0540830
 },
 {
   "type": "node",
@@ -71688,12 +71743,6 @@
   "id": 11453093249,
   "lat": -34.7583721,
   "lon": -65.2570811
-},
-{
-  "type": "node",
-  "id": 11455312538,
-  "lat": -34.7575170,
-  "lon": -65.2557174
 },
 {
   "type": "node",

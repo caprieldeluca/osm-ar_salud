@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2023-12-27T23:43:37Z",
-    "timestamp_areas_base": "2023-12-27T19:33:34Z",
+    "timestamp_osm_base": "2024-01-02T22:11:44Z",
+    "timestamp_areas_base": "2024-01-02T16:41:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9668,7 +9668,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Sufarmasalud"
+    "name": "Delko"
   }
 },
 {
@@ -15912,7 +15912,7 @@
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Simila",
+    "name": "Simila",
     "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-13:00; Su off"
   }
 },
@@ -26846,12 +26846,14 @@
   "lon": -61.0481054,
   "tags": {
     "addr:city": "Elisa",
+    "addr:housenumber": "412",
     "addr:postcode": "S3029",
     "addr:street": "General López",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Driusi",
-    "opening_hours": "08:00-12:00; 15:00-20:00"
+    "opening_hours": "08:00-12:00; 15:00-20:00",
+    "phone": "+54 (3498) 49-9088"
   }
 },
 {
@@ -37774,9 +37776,12 @@
   "lat": -34.5375366,
   "lon": -58.5043040,
   "tags": {
-    "addr:street": "General Julio Argentino Roca",
+    "addr:housenumber": "3374",
+    "addr:street": "Bernardo de Irigoyen",
     "amenity": "pharmacy",
-    "name": "Pami"
+    "check_date": "2023-12-28",
+    "name": "Pami",
+    "wheelchair": "no"
   }
 },
 {
@@ -39803,8 +39808,8 @@
 {
   "type": "node",
   "id": 4654364298,
-  "lat": -34.6063333,
-  "lon": -58.5122299,
+  "lat": -34.6063193,
+  "lon": -58.5122573,
   "tags": {
     "addr:street": "Avenida Francisco Beiró",
     "amenity": "pharmacy",
@@ -40988,6 +40993,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Fabris",
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa 08:00-15:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016."
   }
 },
@@ -87776,8 +87782,11 @@
   "lat": -31.0656819,
   "lon": -64.3003884,
   "tags": {
+    "addr:street": "Avenida General Belgrano",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Pinto Raviolo"
   }
 },
 {
@@ -87787,7 +87796,8 @@
   "lon": -64.2999494,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Alvear"
   }
 },
 {
@@ -90312,6 +90322,52 @@
     "payment:mastercard": "yes",
     "payment:visa": "yes",
     "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11473195550,
+  "lat": -31.6486466,
+  "lon": -64.4292046,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "De La Estancia",
+    "phone": "3547642525"
+  }
+},
+{
+  "type": "node",
+  "id": 11473228673,
+  "lat": -31.4331730,
+  "lon": -64.1485651,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "El Fenix"
+  }
+},
+{
+  "type": "node",
+  "id": 11479291288,
+  "lat": -34.5824861,
+  "lon": -58.5385097,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0"
+  }
+},
+{
+  "type": "node",
+  "id": 11480617074,
+  "lat": -26.9920965,
+  "lon": -54.4860817,
+  "tags": {
+    "addr:city": "San Vicente",
+    "addr:postcode": "3364",
+    "addr:street": "Ricardo Balbín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Virgen de Cerro"
   }
 },
 {
@@ -95050,7 +95106,7 @@
     4627147432
   ],
   "tags": {
-    "addr:street": "44 - Presidente Arturo U. Illia",
+    "addr:street": "Avenida 44 - Presidente Arturo Umberto Illia",
     "amenity": "pharmacy",
     "building": "yes",
     "name": "Farmacia",
