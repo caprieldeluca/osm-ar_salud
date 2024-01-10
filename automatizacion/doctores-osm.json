@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-01-02T22:12:40Z",
-    "timestamp_areas_base": "2024-01-02T16:41:00Z",
+    "timestamp_osm_base": "2024-01-10T23:52:56Z",
+    "timestamp_areas_base": "2024-01-10T21:29:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -20274,6 +20274,7 @@
     "health_facility:type": "office",
     "health_specialty:ophthalmology": "yes",
     "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
     "medical_system:western": "yes",
     "name": "Oftalmo Funes",
     "office": "physician",
@@ -23671,6 +23672,26 @@
 },
 {
   "type": "way",
+  "id": 905243955,
+  "nodes": [
+    8408270666,
+    8406671512,
+    8406671513,
+    8408270667,
+    8408270666
+  ],
+  "tags": {
+    "addr:housenumber": "1934",
+    "addr:street": "Catamarca",
+    "amenity": "doctors",
+    "building:part": "commercial",
+    "healthcare": "doctor",
+    "name": "Aruna Consultorios",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
   "id": 906864159,
   "nodes": [
     8420928479,
@@ -26689,13 +26710,13 @@
   "type": "node",
   "id": 4040661673,
   "lat": -32.9207523,
-  "lon": -60.8210020
+  "lon": -60.8210019
 },
 {
   "type": "node",
   "id": 4040661676,
   "lat": -32.9208491,
-  "lon": -60.8209989
+  "lon": -60.8209988
 },
 {
   "type": "node",
@@ -26839,7 +26860,7 @@
   "type": "node",
   "id": 10067547063,
   "lat": -32.9207678,
-  "lon": -60.8210015
+  "lon": -60.8210014
 },
 {
   "type": "node",
@@ -27098,6 +27119,30 @@
   "id": 5499982407,
   "lat": -32.9199187,
   "lon": -60.8104983
+},
+{
+  "type": "node",
+  "id": 8406671512,
+  "lat": -32.9208929,
+  "lon": -60.8045703
+},
+{
+  "type": "node",
+  "id": 8406671513,
+  "lat": -32.9208464,
+  "lon": -60.8045593
+},
+{
+  "type": "node",
+  "id": 8408270666,
+  "lat": -32.9209019,
+  "lon": -60.8045166
+},
+{
+  "type": "node",
+  "id": 8408270667,
+  "lat": -32.9208553,
+  "lon": -60.8045056
 },
 {
   "type": "node",

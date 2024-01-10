@@ -14694,9 +14694,18 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-01-10",
     "healthcare": "pharmacy",
     "name": "Santa Ana Farmacias",
+    "opening_hours": "Mo-Sa 08:30-20:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "https://www.santaanafarma.com",
+    "wheelchair": "yes",
     "id": "way/472721281"
   },
   "geometry": {
@@ -37721,31 +37730,31 @@
     "coordinates": [
       [
         [
-          -64.4300485,
+          -64.4300491,
           -31.7296839
         ],
         [
-          -64.430033,
-          -31.7297006
+          -64.4300316,
+          -31.729702
         ],
         [
-          -64.4299754,
-          -31.7297564
+          -64.4299753,
+          -31.7297604
         ],
         [
-          -64.4299442,
-          -31.7297335
+          -64.429945,
+          -31.7297393
         ],
         [
-          -64.4300103,
-          -31.7296671
+          -64.4300153,
+          -31.7296664
         ],
         [
-          -64.4300154,
-          -31.7296604
+          -64.4300188,
+          -31.7296627
         ],
         [
-          -64.4300485,
+          -64.4300491,
           -31.7296839
         ]
       ]
@@ -43674,23 +43683,6 @@
     "coordinates": [
       -58.3629121,
       -34.6620194
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/917426456",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "FarMar",
-    "id": "node/917426456"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.3767683,
-      -34.6035797
     ]
   }
 },
@@ -65303,8 +65295,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.8938799,
-      -27.3599321
+      -55.8938083,
+      -27.359951
     ]
   }
 },
@@ -89027,11 +89019,19 @@
     "addr:postcode": "B1642",
     "addr:street": "Martín y Omar",
     "amenity": "pharmacy",
+    "check_date": "2024-01-08",
     "healthcare": "pharmacy",
     "name": "Sandra Selma",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "phone": "+54 11 4513-0290",
     "source": "Actualizaciones en Argentina. Reconocimiento cartográfico 2016 por KG.",
     "website": "https://sandraselmafarmacias.com/",
+    "wheelchair": "limited",
     "id": "node/4340572690"
   },
   "geometry": {
@@ -155399,24 +155399,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10046242578",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia el Faro",
-    "id": "node/10046242578"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -57.5435467,
-      -38.0878173
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10052461478",
   "properties": {
     "addr:city": "Neuquén",
@@ -170813,6 +170795,101 @@
     "coordinates": [
       -54.4860817,
       -26.9920965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11484298961",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmaplus",
+    "id": "node/11484298961"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4497497,
+      -34.5539939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11490215455",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/11490215455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4504092,
+      -34.557983
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11493123592",
+  "properties": {
+    "addr:housenumber": "2366",
+    "amenity": "pharmacy",
+    "name": "La Farmacita",
+    "id": "node/11493123592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.0929513,
+      -31.429464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11506410762",
+  "properties": {
+    "addr:city": "Río Tercero",
+    "addr:housenumber": "1143",
+    "addr:postcode": "5850",
+    "addr:street": "Avenida General Savio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Somale",
+    "official_name": "M.A. Somale",
+    "ref:sisa_codigo": "70141612333888",
+    "id": "node/11506410762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1304608,
+      -32.1701963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11506438066",
+  "properties": {
+    "addr:city": "Río Tercero",
+    "addr:postcode": "5850",
+    "addr:street": "Avenida General Savio",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmacred/",
+    "contact:instagram": "https://www.instagram.com/farmaciaponte/",
+    "healthcare": "pharmacy",
+    "name": "Ponte",
+    "website": "https://www.farmaciasponte.com/",
+    "id": "node/11506438066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.123603,
+      -32.1699073
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-01-02T22:11:44Z",
-    "timestamp_areas_base": "2024-01-02T16:41:00Z",
+    "timestamp_osm_base": "2024-01-10T23:51:51Z",
+    "timestamp_areas_base": "2024-01-10T21:53:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1935,17 +1935,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Mutrama"
-  }
-},
-{
-  "type": "node",
-  "id": 917426456,
-  "lat": -34.6035797,
-  "lon": -58.3767683,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "FarMar"
   }
 },
 {
@@ -16796,8 +16785,8 @@
 {
   "type": "node",
   "id": 2859493558,
-  "lat": -27.3599321,
-  "lon": -55.8938799,
+  "lat": -27.3599510,
+  "lon": -55.8938083,
   "tags": {
     "addr:city": "Posadas",
     "addr:country": "AR",
@@ -33039,11 +33028,19 @@
     "addr:postcode": "B1642",
     "addr:street": "Martín y Omar",
     "amenity": "pharmacy",
+    "check_date": "2024-01-08",
     "healthcare": "pharmacy",
     "name": "Sandra Selma",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "phone": "+54 11 4513-0290",
     "source": "Actualizaciones en Argentina. Reconocimiento cartográfico 2016 por KG.",
-    "website": "https://sandraselmafarmacias.com/"
+    "website": "https://sandraselmafarmacias.com/",
+    "wheelchair": "limited"
   }
 },
 {
@@ -79183,18 +79180,6 @@
 },
 {
   "type": "node",
-  "id": 10046242578,
-  "lat": -38.0878173,
-  "lon": -57.5435467,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia el Faro"
-  }
-},
-{
-  "type": "node",
   "id": 10052461478,
   "lat": -38.9551470,
   "lon": -68.0678426,
@@ -90371,6 +90356,71 @@
   }
 },
 {
+  "type": "node",
+  "id": 11484298961,
+  "lat": -34.5539939,
+  "lon": -58.4497497,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmaplus"
+  }
+},
+{
+  "type": "node",
+  "id": 11490215455,
+  "lat": -34.5579830,
+  "lon": -58.4504092,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 11493123592,
+  "lat": -31.4294640,
+  "lon": -62.0929513,
+  "tags": {
+    "addr:housenumber": "2366",
+    "amenity": "pharmacy",
+    "name": "La Farmacita"
+  }
+},
+{
+  "type": "node",
+  "id": 11506410762,
+  "lat": -32.1701963,
+  "lon": -64.1304608,
+  "tags": {
+    "addr:city": "Río Tercero",
+    "addr:housenumber": "1143",
+    "addr:postcode": "5850",
+    "addr:street": "Avenida General Savio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Somale",
+    "official_name": "M.A. Somale",
+    "ref:sisa_codigo": "70141612333888"
+  }
+},
+{
+  "type": "node",
+  "id": 11506438066,
+  "lat": -32.1699073,
+  "lon": -64.1236030,
+  "tags": {
+    "addr:city": "Río Tercero",
+    "addr:postcode": "5850",
+    "addr:street": "Avenida General Savio",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmacred/",
+    "contact:instagram": "https://www.instagram.com/farmaciaponte/",
+    "healthcare": "pharmacy",
+    "name": "Ponte",
+    "website": "https://www.farmaciasponte.com/"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -97224,9 +97274,18 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-01-10",
     "healthcare": "pharmacy",
     "name": "Santa Ana Farmacias",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "opening_hours": "Mo-Sa 08:30-20:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "https://www.santaanafarma.com",
+    "wheelchair": "yes"
   }
 },
 {
@@ -115091,37 +115150,37 @@
   "type": "node",
   "id": 9983869433,
   "lat": -31.7296839,
-  "lon": -64.4300485
+  "lon": -64.4300491
 },
 {
   "type": "node",
   "id": 9983869434,
-  "lat": -31.7296604,
-  "lon": -64.4300154
+  "lat": -31.7296627,
+  "lon": -64.4300188
 },
 {
   "type": "node",
   "id": 9983869435,
-  "lat": -31.7297335,
-  "lon": -64.4299442
+  "lat": -31.7297393,
+  "lon": -64.4299450
 },
 {
   "type": "node",
   "id": 9983869436,
-  "lat": -31.7297564,
-  "lon": -64.4299754
+  "lat": -31.7297604,
+  "lon": -64.4299753
 },
 {
   "type": "node",
   "id": 9983869439,
-  "lat": -31.7297006,
-  "lon": -64.4300330
+  "lat": -31.7297020,
+  "lon": -64.4300316
 },
 {
   "type": "node",
   "id": 9983869442,
-  "lat": -31.7296671,
-  "lon": -64.4300103
+  "lat": -31.7296664,
+  "lon": -64.4300153
 },
 {
   "type": "node",

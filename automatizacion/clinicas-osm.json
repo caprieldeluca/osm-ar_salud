@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-01-02T22:10:43Z",
-    "timestamp_areas_base": "2024-01-02T16:41:00Z",
+    "timestamp_osm_base": "2024-01-10T23:50:48Z",
+    "timestamp_areas_base": "2024-01-10T21:53:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2594,18 +2594,24 @@
   "lon": -58.5248147,
   "tags": {
     "addr:city": "Villa Lynch",
+    "addr:country": "AR",
     "addr:full": "Calle 8 (Azcuenaga) 226 Entre 95 Y 97",
-    "addr:housenumber": "226",
-    "addr:postcode": "1672",
+    "addr:housenumber": "4061",
+    "addr:postcode": "B1672",
+    "addr:province": "Buenos Aires",
     "addr:street": "8 - Miguel de Azcuénaga",
     "amenity": "clinic",
+    "branch": "Villa Lynch",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria 13 De Villa Lynch",
-    "operator": "Municipal",
-    "operator:type": "public",
+    "name": "Centro de Atención Primaria de la Salud n°13 Villa Lynch",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
     "phone": "+54 11 4830 0709",
     "ref:sisa_codigo": "50063712202500",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°13",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -30990,10 +30996,13 @@
   "lon": -58.5349457,
   "tags": {
     "addr:city": "San Andrés",
+    "addr:country": "AR",
     "addr:full": "J. M. Campos Y Catamarca 2152",
     "addr:postcode": "B1651",
+    "addr:province": "Buenos Aires",
     "addr:street": "49 - Catamarca",
     "amenity": "clinic",
+    "branch": "Heroes de Malvinas",
     "healthcare": "clinic",
     "level": "0",
     "name": "Centro de Atención Primaria de la Salud n°8 Heroes de Malvinas",
@@ -31003,7 +31012,9 @@
     "phone": "+54 11 4830-0708",
     "ref:sisa_codigo": "50063712202667",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "CAPS n°8"
+    "short_name": "CAPS n°8",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -31023,26 +31034,6 @@
     "ref:sisa_codigo": "50220632126491",
     "ref:sisa_tipologia": "ESSIDT",
     "wikidata": "Q94580739"
-  }
-},
-{
-  "type": "node",
-  "id": 7509130527,
-  "lat": -34.5319336,
-  "lon": -58.5872101,
-  "tags": {
-    "addr:full": "Malvinas Argentinas 3699",
-    "addr:postcode": "1655",
-    "addr:street": "Diagonal 69 Malvinas Argentinas",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Sanitaria 7 José Pereyra de José León Suárez",
-    "nohousenumber": "yes",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4580-1043",
-    "ref:sisa_codigo": "50063712202660",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -38762,11 +38753,14 @@
   "lon": -58.5755803,
   "tags": {
     "addr:city": "Billinghurst",
+    "addr:country": "AR",
     "addr:full": "Primera Junta 5865",
     "addr:housenumber": "5865",
-    "addr:postcode": "1650",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
     "addr:street": "104 - Primera Junta",
     "amenity": "clinic",
+    "branch": "Billinghurst",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud n°9 Billinghurst",
     "operator": "Municipalidad de San Martín",
@@ -38774,48 +38768,9 @@
     "phone": "+54 11 2282 5263",
     "ref:sisa_codigo": "50063712202680",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "CAPS n°9"
-  }
-},
-{
-  "type": "node",
-  "id": 7539455710,
-  "lat": -34.5650634,
-  "lon": -58.5750897,
-  "tags": {
-    "addr:city": "Billinghurst",
-    "addr:full": "Ocampos Esquina Maipu 5023",
-    "addr:housenumber": "5023",
-    "addr:postcode": "1650",
-    "addr:street": "118 - Maipú",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Ramon Carrillo De General San Martin",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "011-48300690",
-    "ref:sisa_codigo": "50063712201344",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7539547244,
-  "lat": -34.5549405,
-  "lon": -58.6062147,
-  "tags": {
-    "addr:city": "Loma Hermosa",
-    "addr:full": "Calle 139 (Martolome Mitre) 1253",
-    "addr:postcode": "1657",
-    "addr:street": "General Mitre",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Sanitaria 14 Barrio Uta De Loma Hermosa",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4830 0711",
-    "ref:sisa_codigo": "50063712202504",
-    "ref:sisa_tipologia": "ESSIDT"
+    "short_name": "CAPS n°9",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -38859,25 +38814,6 @@
 },
 {
   "type": "node",
-  "id": 7541310970,
-  "lat": -34.5108677,
-  "lon": -58.5835218,
-  "tags": {
-    "addr:full": "Obligado 1610",
-    "addr:postcode": "1655",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Sanitaria 17 Barrio Necochea De Jose Leon Suarez",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "(011) 4508-4090",
-    "ref:sisa_codigo": "50063712202527",
-    "ref:sisa_tipologia": "ESSIDT",
-    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
-  }
-},
-{
-  "type": "node",
   "id": 7541363508,
   "lat": -34.5693332,
   "lon": -58.5670008,
@@ -38891,23 +38827,6 @@
     "operator:type": "public",
     "phone": "011-4764-3260",
     "ref:sisa_codigo": "50063712201347",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7541390119,
-  "lat": -34.5836970,
-  "lon": -58.5635555,
-  "tags": {
-    "addr:full": "La Crujia 5815",
-    "addr:postcode": "1778",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "CAPS 19 Villa Libertad",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50063712215026",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -38981,11 +38900,14 @@
   "lon": -58.5241523,
   "tags": {
     "addr:city": "Villa Lynch",
+    "addr:country": "AR",
     "addr:full": "Calle 81 Parravicini 965 (Entre 24 Y 26)",
     "addr:housenumber": "965",
     "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
     "addr:street": "81 - Parravicini",
     "amenity": "clinic",
+    "branch": "Villa Piaggio",
     "healthcare": "clinic",
     "level": "0",
     "name": "Centro de Atención Primaria de la Salud n°12 Villa Piaggio",
@@ -38995,6 +38917,7 @@
     "ref:sisa_codigo": "50063712202493",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS n°12",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
     "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
@@ -41523,6 +41446,7 @@
     "addr:city": "Victoria",
     "addr:street": "Entre Ríos y Carlos Casares",
     "amenity": "clinic",
+    "check_date": "2024-01-07",
     "description": "Nuevo centro de salud 31, en reemplazo del anterior, ubicado a unas cuadras.\nReemplaza a la estación de bombeo de agua que antes estaba en este lugar.",
     "healthcare": "clinic",
     "healthcare:speciality": "general;specialist_pediatrician;obstetrics",
@@ -45729,6 +45653,66 @@
   "tags": {
     "amenity": "clinic",
     "name": "Hospital Italiano"
+  }
+},
+{
+  "type": "node",
+  "id": 11483225469,
+  "lat": -32.9154266,
+  "lon": -60.8471291,
+  "tags": {
+    "addr:housenumber": "4584",
+    "addr:street": "Avenida Córdoba",
+    "alt_name": "Alma Viva Funes",
+    "amenity": "clinic",
+    "contact:email": "almasana.funes@gmail.com",
+    "contact:facebook": "almasana.funes",
+    "contact:instagram": "almasanafunes",
+    "contact:phone": "+54 9 341 326-1185; +54 341 493-5121",
+    "contact:website": "https://www.almavivafunes.com/",
+    "description": "Medicina integrativa y Vida saludable",
+    "healthcare": "alternative",
+    "healthcare:speciality": "acupuncture;aromatherapy;ayurveda;homeopathy;anaesthetics;oncology;psycology;physiotherapist;body",
+    "internet_access": "wlan",
+    "name": "Alma Sana Funes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "shop": "beauty",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11493126100,
+  "lat": -31.4192199,
+  "lon": -64.5036726,
+  "tags": {
+    "addr:street": "Pellegrini",
+    "amenity": "clinic",
+    "name": "Sanatorio San Roque Privado"
+  }
+},
+{
+  "type": "node",
+  "id": 11497405454,
+  "lat": -38.0867581,
+  "lon": -57.5435911,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neuropsychiatry",
+    "name": "Clínica Clara del Mar"
+  }
+},
+{
+  "type": "node",
+  "id": 11500869556,
+  "lat": -38.0879227,
+  "lon": -57.5453803,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neuropsychiatry",
+    "name": "Clínica de Psicopatología del Mar"
   }
 },
 {
@@ -59926,32 +59910,37 @@
 },
 {
   "type": "way",
-  "id": 806440480,
+  "id": 806422957,
   "nodes": [
-    7541477321,
-    7541477319,
-    11154494664,
-    11154494665,
-    7541477318,
-    7541477320,
-    11154494668,
-    11154494661,
-    7541477321
+    7541310968,
+    7541310965,
+    7541310967,
+    7541310966,
+    7541310959,
+    7541310968
   ],
   "tags": {
-    "addr:city": "San Andrés",
-    "addr:full": "3 De Febrero 2590",
-    "addr:housenumber": "2590",
-    "addr:postcode": "B1651",
-    "addr:street": "64 - 3 de Febrero",
+    "addr:city": "Eugenio Necochea",
+    "addr:country": "AR",
+    "addr:full": "Obligado 1610",
+    "addr:housenumber": "1610",
+    "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
+    "addr:street": "224 - Rafael Obligado",
     "amenity": "clinic",
+    "branch": "Villa Maipú",
+    "building": "yes",
+    "building:levels": "4",
     "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de la Salud n°11 Santa Ana",
+    "name": "Centro de Atención Primaria de la Salud n°17 Barrio Eugenio Necochea",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
-    "ref:sisa_codigo": "50063712217786",
+    "phone": "+54 11 4508 4090",
+    "ref:sisa_codigo": "50063712202527",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "CAPS n°11"
+    "short_name": "CAPS n°17",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -65307,19 +65296,25 @@
     10943496394
   ],
   "tags": {
-    "addr:city": "San Andrés",
-    "addr:full": "Calle 88 Independencia 866",
-    "addr:housenumber": "866",
-    "addr:postcode": "1650",
+    "addr:city": "Villa Concepción",
+    "addr:country": "AR",
+    "addr:full": "Independencia 876",
+    "addr:housenumber": "876",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
     "addr:street": "88 - Independencia",
     "amenity": "clinic",
+    "branch": "Eva Perón",
     "healthcare": "clinic",
-    "name": "Centro De Salud Villa Concepcion",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4830 0711",
+    "name": "Centro de Atención Primaria de la Salud n°3 Eva Perón",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4830 0711;+54 11 4830 0723;+54 11 4512 6259",
     "ref:sisa_codigo": "50063712201367",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°3",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -65688,19 +65683,23 @@
   ],
   "tags": {
     "addr:city": "San Andrés",
+    "addr:country": "AR",
     "addr:full": "Pasaje A Entre 66 Y 68 (Almirante Brown 2850)",
     "addr:postcode": "1651",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pasaje A",
     "amenity": "clinic",
+    "branch": "Villa Zagala",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud n° 16 Villa Zagala",
-    "old_name": "Unidad Sanitaria 16 Salvador Mazza De Villa Zagala",
+    "old_name": "Centro de Atención Primaria de la Salud n°16 Salvador Mazza De Villa Zagala",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
     "phone": "+54 11 4754 5640",
     "ref:sisa_codigo": "50063712202522",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS n°16",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
     "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
@@ -65764,17 +65763,22 @@
   ],
   "tags": {
     "addr:city": "José León Suárez",
+    "addr:country": "AR",
     "addr:full": "Av. San Martin 1655",
     "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
     "addr:street": "Diagonal 55 - J. V. González",
     "amenity": "clinic",
+    "branch": "Doctor Luis Agote",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud n°4 Doctor Luis Agote",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
     "ref:sisa_codigo": "50063712201231",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "CAPS n°4"
+    "short_name": "CAPS n°4",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -65903,11 +65907,14 @@
   ],
   "tags": {
     "addr:city": "José León Suárez",
+    "addr:country": "AR",
     "addr:full": "Garibaldi 1897",
     "addr:housenumber": "1897",
     "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
     "addr:street": "170 - José Garibaldi",
     "amenity": "clinic",
+    "branch": "Villa Esperanza",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud n°10 Villa Esperanza",
     "operator": "Municipalidad de San Martín",
@@ -65916,6 +65923,7 @@
     "ref:sisa_codigo": "50063712202472",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS n°10",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
     "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
@@ -65984,11 +65992,14 @@
   ],
   "tags": {
     "addr:city": "José León Suárez",
+    "addr:country": "AR",
     "addr:full": "Iberá 7456 - Barrio 9 De Julio",
     "addr:housenumber": "7456",
     "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
     "addr:street": "105 - Laguna Iberá",
     "amenity": "clinic",
+    "branch": "Atamdos",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud n°15 Atamdos",
     "operator": "Municipalidad de San Martín",
@@ -65996,7 +66007,9 @@
     "phone": "+54 11 4513-5121",
     "ref:sisa_codigo": "50063712202892",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "CAPS n°15"
+    "short_name": "CAPS n°15",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -66011,19 +66024,25 @@
   ],
   "tags": {
     "addr:city": "José León Suárez",
+    "addr:country": "AR",
     "addr:full": "Debenedetti 8555, Barrio Lanzone",
     "addr:housenumber": "8555",
     "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
     "addr:street": "93 - Salvador Debenedetti",
     "amenity": "clinic",
-    "fixme": "falta codigo sisa",
+    "branch": "Doctor Juan Naab",
     "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de la Salud n°22 Dr. Juan Naab",
+    "name": "Centro de Atención Primaria de la Salud n°22 Doctor Juan Naab",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
     "phone": "+54 11 4512-7036",
-    "short_name": "CAPS n°22"
+    "ref:sisa_codigo": "50063712220026",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°22",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -66042,11 +66061,14 @@
   ],
   "tags": {
     "addr:city": "Loma Hermosa",
+    "addr:country": "AR",
     "addr:full": "Pensamiento 5321 Entre Hortensias Y Eva Perón",
     "addr:housenumber": "5321",
     "addr:postcode": "B1657",
+    "addr:province": "Buenos Aires",
     "addr:street": "166 - El Pensamiento",
     "amenity": "clinic",
+    "branch": "Barrio Libertador",
     "healthcare": "clinic",
     "name": "Centro de Atención Primaria de la Salud n°6 Barrio Libertador",
     "operator": "Municipalidad de San Martín",
@@ -66055,6 +66077,7 @@
     "ref:sisa_codigo": "50063712201328",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS n°6",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
     "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
@@ -66825,6 +66848,355 @@
     "healthcare": "clinic",
     "name": "Osmecon Salud",
     "operator": "OSMECON"
+  }
+},
+{
+  "type": "way",
+  "id": 1237035881,
+  "nodes": [
+    11488291236,
+    11488291237,
+    11488291238,
+    11488291239,
+    11488291240,
+    11488291241,
+    11488291242,
+    11488291243,
+    11488291244,
+    11488291245,
+    11488291246,
+    11488291247,
+    11488291248,
+    11488291249,
+    11488291250,
+    11488291251,
+    11488291252,
+    11488291253,
+    11488291254,
+    11488291255,
+    11488291236
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Posta Sanitaria Los Molinos"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676847,
+  "nodes": [
+    11496067685,
+    11496067684,
+    11496067683,
+    11496067682,
+    11496067685
+  ],
+  "tags": {
+    "addr:city": "José León Suarez",
+    "addr:country": "AR",
+    "addr:full": "Gascón 2151, Barrio Nuevo",
+    "addr:housenumber": "2151",
+    "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
+    "addr:street": "210 - Esteban Agustín Gascón",
+    "amenity": "clinic",
+    "building": "yes",
+    "fixme": "falta codigo sisa",
+    "healthcare": "clinic",
+    "name": "Posta de Salud Barrio Nuevo",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 3211 2146",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676848,
+  "nodes": [
+    11496067689,
+    11496067688,
+    11496067687,
+    11496067686,
+    11496067689
+  ],
+  "tags": {
+    "addr:city": "José León Suarez",
+    "addr:country": "AR",
+    "addr:full": "Paso de la Patria y Av Central",
+    "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Paso de la Patria",
+    "amenity": "clinic",
+    "branch": "Barrio Carcova Moisés Modad",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n° 20 Barrio Carcova Moisés Modad",
+    "nohousenumber": "yes",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 3913 7876;+54 11 4580 1113",
+    "ref:sisa_codigo": "50063712201338",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°20",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676849,
+  "nodes": [
+    11496067698,
+    11496067697,
+    7509130527,
+    11496067696,
+    11496067695,
+    11496067694,
+    11496067693,
+    11496067698
+  ],
+  "tags": {
+    "addr:city": "José León Suarez",
+    "addr:country": "AR",
+    "addr:full": "Malvinas Argentinas 8499",
+    "addr:housenumber": "8499",
+    "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Diagonal 69 - Malvinas Argentinas",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°7 José Pereyra",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 9 11 6939 6498",
+    "ref:sisa_codigo": "50063712202660",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°7",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676850,
+  "nodes": [
+    11496067702,
+    11496067701,
+    11496067700,
+    11496067699,
+    11496067702
+  ],
+  "tags": {
+    "addr:city": "José León Suarez",
+    "addr:country": "AR",
+    "addr:full": "Eva Duarte s/n Barrio 13 de Julio, José León Suárez",
+    "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Eva Duarte",
+    "amenity": "clinic",
+    "building": "yes",
+    "fixme": "falta codigo sisa",
+    "healthcare": "clinic",
+    "name": "Posta de Salud Barrio 13 de Julio",
+    "nohousenumber": "yes",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 6491 8236",
+    "ref:sisa_codigo": "50063712220022",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676851,
+  "nodes": [
+    7539547244,
+    11496067705,
+    11496067704,
+    11496067703,
+    7539547244
+  ],
+  "tags": {
+    "addr:city": "Loma Hermosa",
+    "addr:country": "AR",
+    "addr:full": "Calle 139 (Bartolome Mitre) 1253",
+    "addr:housenumber": "7737",
+    "addr:postcode": "B1657",
+    "addr:province": "Buenos Aires",
+    "addr:street": "139 - General Mitre",
+    "amenity": "clinic",
+    "branch": "Barrio UTA",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°14 Barrio UTA",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4830 0711",
+    "ref:sisa_codigo": "50063712202504",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°14",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676852,
+  "nodes": [
+    11496067709,
+    11496067708,
+    11496067707,
+    11496067706,
+    11496067709
+  ],
+  "tags": {
+    "addr:city": "Billinghurst",
+    "addr:country": "AR",
+    "addr:full": "Av. Colón 5988",
+    "addr:housenumber": "5988",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Avenida 117 - Colón",
+    "amenity": "clinic",
+    "fixme": "falta codigo sisa",
+    "healthcare": "clinic",
+    "name": "Posta de Salud Barrio Sarmiento",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676853,
+  "nodes": [
+    10967210327,
+    10967210328,
+    7539455710,
+    11496067710,
+    10774543378,
+    10967210327
+  ],
+  "tags": {
+    "addr:city": "Billinghurst",
+    "addr:country": "AR",
+    "addr:full": "Ocampos Esquina Maipu 5023",
+    "addr:housenumber": "5023",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
+    "addr:street": "119 - Martín Ocampo",
+    "amenity": "clinic",
+    "branch": "Doctor Ramón Carrillo",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°5 Doctor Ramón Carrillo",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4830 0690",
+    "ref:sisa_codigo": "50063712201344",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°5",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676854,
+  "nodes": [
+    11496067713,
+    11496067712,
+    7541390119,
+    11496067711,
+    11496067713
+  ],
+  "tags": {
+    "addr:city": "Villa Libertad",
+    "addr:country": "AR",
+    "addr:full": "La Crujia 5815",
+    "addr:housenumber": "5815",
+    "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
+    "addr:street": "72 - La Crujía",
+    "amenity": "clinic",
+    "branch": "Villa Libertad",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°19 Villa Libertad",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 9 11 2286 6632",
+    "ref:sisa_codigo": "50063712215026",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°19",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676855,
+  "nodes": [
+    11496067719,
+    11496067718,
+    11496067717,
+    11496067716,
+    11496067715,
+    11496067714,
+    11496067719
+  ],
+  "tags": {
+    "addr:city": "Villa Maipú",
+    "addr:country": "AR",
+    "addr:full": "Beruti 1924, Villa Maipú",
+    "addr:housenumber": "1924",
+    "addr:postcode": "B1509KYN",
+    "addr:province": "Buenos Aires",
+    "addr:street": "57 - Beruti",
+    "amenity": "clinic",
+    "branch": "Villa Maipú",
+    "fixme": "falta codigo sisa",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°11 Villa Mapú",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "short_name": "CAPS n°11",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
+  }
+},
+{
+  "type": "way",
+  "id": 1237676856,
+  "nodes": [
+    11496067723,
+    11496067722,
+    11496067721,
+    11496067720,
+    11496067723
+  ],
+  "tags": {
+    "addr:city": "Villa Lynch",
+    "addr:country": "AR",
+    "addr:full": "Güemes 2018",
+    "addr:housenumber": "2018",
+    "addr:postcode": "B1504FMH",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Diagonal 135 - Güemes",
+    "amenity": "clinic",
+    "branch": "Villa Tropezón",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de la Salud n°21 Villa Tropezón",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50063712216740",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS n°21",
+    "source": "https://mapa.sanmartin.gov.ar/#caps",
+    "website": "http://www.sanmartin.gov.ar/servicios/salud/"
   }
 },
 {
@@ -80057,6 +80429,126 @@
 },
 {
   "type": "node",
+  "id": 11488291236,
+  "lat": -31.8556253,
+  "lon": -64.3792176
+},
+{
+  "type": "node",
+  "id": 11488291237,
+  "lat": -31.8556167,
+  "lon": -64.3793073
+},
+{
+  "type": "node",
+  "id": 11488291238,
+  "lat": -31.8556301,
+  "lon": -64.3793090
+},
+{
+  "type": "node",
+  "id": 11488291239,
+  "lat": -31.8556207,
+  "lon": -64.3794075
+},
+{
+  "type": "node",
+  "id": 11488291240,
+  "lat": -31.8555482,
+  "lon": -64.3793979
+},
+{
+  "type": "node",
+  "id": 11488291241,
+  "lat": -31.8555521,
+  "lon": -64.3793574
+},
+{
+  "type": "node",
+  "id": 11488291242,
+  "lat": -31.8555048,
+  "lon": -64.3793511
+},
+{
+  "type": "node",
+  "id": 11488291243,
+  "lat": -31.8555072,
+  "lon": -64.3793254
+},
+{
+  "type": "node",
+  "id": 11488291244,
+  "lat": -31.8555016,
+  "lon": -64.3793247
+},
+{
+  "type": "node",
+  "id": 11488291245,
+  "lat": -31.8555007,
+  "lon": -64.3793347
+},
+{
+  "type": "node",
+  "id": 11488291246,
+  "lat": -31.8554837,
+  "lon": -64.3793324
+},
+{
+  "type": "node",
+  "id": 11488291247,
+  "lat": -31.8554816,
+  "lon": -64.3793547
+},
+{
+  "type": "node",
+  "id": 11488291248,
+  "lat": -31.8554158,
+  "lon": -64.3793460
+},
+{
+  "type": "node",
+  "id": 11488291249,
+  "lat": -31.8554244,
+  "lon": -64.3792558
+},
+{
+  "type": "node",
+  "id": 11488291250,
+  "lat": -31.8554345,
+  "lon": -64.3792571
+},
+{
+  "type": "node",
+  "id": 11488291251,
+  "lat": -31.8554380,
+  "lon": -64.3792212
+},
+{
+  "type": "node",
+  "id": 11488291252,
+  "lat": -31.8554629,
+  "lon": -64.3792245
+},
+{
+  "type": "node",
+  "id": 11488291253,
+  "lat": -31.8554643,
+  "lon": -64.3792101
+},
+{
+  "type": "node",
+  "id": 11488291254,
+  "lat": -31.8555906,
+  "lon": -64.3792268
+},
+{
+  "type": "node",
+  "id": 11488291255,
+  "lat": -31.8555919,
+  "lon": -64.3792132
+},
+{
+  "type": "node",
   "id": 11242750338,
   "lat": -31.6214736,
   "lon": -64.3942387
@@ -89105,6 +89597,30 @@
 },
 {
   "type": "node",
+  "id": 11496067720,
+  "lat": -34.5916852,
+  "lon": -58.5559759
+},
+{
+  "type": "node",
+  "id": 11496067721,
+  "lat": -34.5917026,
+  "lon": -58.5558599
+},
+{
+  "type": "node",
+  "id": 11496067722,
+  "lat": -34.5913924,
+  "lon": -58.5557865
+},
+{
+  "type": "node",
+  "id": 11496067723,
+  "lat": -34.5913747,
+  "lon": -58.5559055
+},
+{
+  "type": "node",
   "id": 4627400921,
   "lat": -34.6002552,
   "lon": -58.5305559
@@ -93557,6 +94073,84 @@
 },
 {
   "type": "node",
+  "id": 7541390119,
+  "lat": -34.5836984,
+  "lon": -58.5635225
+},
+{
+  "type": "node",
+  "id": 11496067711,
+  "lat": -34.5836202,
+  "lon": -58.5636195
+},
+{
+  "type": "node",
+  "id": 11496067712,
+  "lat": -34.5837915,
+  "lon": -58.5636290
+},
+{
+  "type": "node",
+  "id": 11496067713,
+  "lat": -34.5837118,
+  "lon": -58.5637280
+},
+{
+  "type": "node",
+  "id": 7539455710,
+  "lat": -34.5650970,
+  "lon": -58.5751051
+},
+{
+  "type": "node",
+  "id": 10774543378,
+  "lat": -34.5649680,
+  "lon": -58.5749120
+},
+{
+  "type": "node",
+  "id": 10967210327,
+  "lat": -34.5647611,
+  "lon": -58.5751675
+},
+{
+  "type": "node",
+  "id": 10967210328,
+  "lat": -34.5649169,
+  "lon": -58.5753251
+},
+{
+  "type": "node",
+  "id": 11496067710,
+  "lat": -34.5650959,
+  "lon": -58.5750608
+},
+{
+  "type": "node",
+  "id": 7539547244,
+  "lat": -34.5549602,
+  "lon": -58.6063000
+},
+{
+  "type": "node",
+  "id": 11496067703,
+  "lat": -34.5548989,
+  "lon": -58.6063827
+},
+{
+  "type": "node",
+  "id": 11496067704,
+  "lat": -34.5545897,
+  "lon": -58.6060411
+},
+{
+  "type": "node",
+  "id": 11496067705,
+  "lat": -34.5546523,
+  "lon": -58.6059616
+},
+{
+  "type": "node",
   "id": 11276186212,
   "lat": -34.5530897,
   "lon": -58.5927569
@@ -93656,6 +94250,30 @@
   "id": 11270874510,
   "lat": -34.5341979,
   "lon": -58.5941286
+},
+{
+  "type": "node",
+  "id": 11496067706,
+  "lat": -34.5570346,
+  "lon": -58.5842305
+},
+{
+  "type": "node",
+  "id": 11496067707,
+  "lat": -34.5569996,
+  "lon": -58.5842742
+},
+{
+  "type": "node",
+  "id": 11496067708,
+  "lat": -34.5568660,
+  "lon": -58.5841164
+},
+{
+  "type": "node",
+  "id": 11496067709,
+  "lat": -34.5569010,
+  "lon": -58.5840727
 },
 {
   "type": "node",
@@ -93863,51 +94481,39 @@
 },
 {
   "type": "node",
-  "id": 7541477318,
-  "lat": -34.5647701,
-  "lon": -58.5337400
+  "id": 11496067714,
+  "lat": -34.5696522,
+  "lon": -58.5264780
 },
 {
   "type": "node",
-  "id": 7541477319,
-  "lat": -34.5647108,
-  "lon": -58.5340444
+  "id": 11496067715,
+  "lat": -34.5697793,
+  "lon": -58.5263684
 },
 {
   "type": "node",
-  "id": 7541477320,
-  "lat": -34.5648308,
-  "lon": -58.5338198
+  "id": 11496067716,
+  "lat": -34.5700050,
+  "lon": -58.5267605
 },
 {
   "type": "node",
-  "id": 7541477321,
-  "lat": -34.5647822,
-  "lon": -58.5340652
+  "id": 11496067717,
+  "lat": -34.5699410,
+  "lon": -58.5268146
 },
 {
   "type": "node",
-  "id": 11154494661,
-  "lat": -34.5647927,
-  "lon": -58.5340124
+  "id": 11496067718,
+  "lat": -34.5699827,
+  "lon": -58.5268873
 },
 {
   "type": "node",
-  "id": 11154494664,
-  "lat": -34.5647282,
-  "lon": -58.5339551
-},
-{
-  "type": "node",
-  "id": 11154494665,
-  "lat": -34.5647416,
-  "lon": -58.5338864
-},
-{
-  "type": "node",
-  "id": 11154494668,
-  "lat": -34.5648238,
-  "lon": -58.5338551
+  "id": 11496067719,
+  "lat": -34.5699260,
+  "lon": -58.5269371
 },
 {
   "type": "node",
@@ -94061,6 +94667,96 @@
 },
 {
   "type": "node",
+  "id": 7509130527,
+  "lat": -34.5319543,
+  "lon": -58.5870792
+},
+{
+  "type": "node",
+  "id": 11496067693,
+  "lat": -34.5319737,
+  "lon": -58.5873375
+},
+{
+  "type": "node",
+  "id": 11496067694,
+  "lat": -34.5319396,
+  "lon": -58.5873403
+},
+{
+  "type": "node",
+  "id": 11496067695,
+  "lat": -34.5317790,
+  "lon": -58.5871535
+},
+{
+  "type": "node",
+  "id": 11496067696,
+  "lat": -34.5318937,
+  "lon": -58.5870046
+},
+{
+  "type": "node",
+  "id": 11496067697,
+  "lat": -34.5320358,
+  "lon": -58.5869530
+},
+{
+  "type": "node",
+  "id": 11496067698,
+  "lat": -34.5321453,
+  "lon": -58.5870671
+},
+{
+  "type": "node",
+  "id": 11496067699,
+  "lat": -34.5284540,
+  "lon": -58.5830417
+},
+{
+  "type": "node",
+  "id": 11496067700,
+  "lat": -34.5284873,
+  "lon": -58.5830928
+},
+{
+  "type": "node",
+  "id": 11496067701,
+  "lat": -34.5283645,
+  "lon": -58.5832104
+},
+{
+  "type": "node",
+  "id": 11496067702,
+  "lat": -34.5283312,
+  "lon": -58.5831593
+},
+{
+  "type": "node",
+  "id": 11496067686,
+  "lat": -34.5219520,
+  "lon": -58.5820866
+},
+{
+  "type": "node",
+  "id": 11496067687,
+  "lat": -34.5220462,
+  "lon": -58.5821305
+},
+{
+  "type": "node",
+  "id": 11496067688,
+  "lat": -34.5219532,
+  "lon": -58.5824249
+},
+{
+  "type": "node",
+  "id": 11496067689,
+  "lat": -34.5218590,
+  "lon": -58.5823811
+},
+{
+  "type": "node",
   "id": 1122552587,
   "lat": -34.5303354,
   "lon": -58.5752604
@@ -94106,6 +94802,60 @@
   "id": 11234924278,
   "lat": -34.5279754,
   "lon": -58.5667124
+},
+{
+  "type": "node",
+  "id": 11496067682,
+  "lat": -34.5186007,
+  "lon": -58.5827975
+},
+{
+  "type": "node",
+  "id": 11496067683,
+  "lat": -34.5187545,
+  "lon": -58.5827183
+},
+{
+  "type": "node",
+  "id": 11496067684,
+  "lat": -34.5187788,
+  "lon": -58.5827879
+},
+{
+  "type": "node",
+  "id": 11496067685,
+  "lat": -34.5186250,
+  "lon": -58.5828670
+},
+{
+  "type": "node",
+  "id": 7541310959,
+  "lat": -34.5109932,
+  "lon": -58.5835738
+},
+{
+  "type": "node",
+  "id": 7541310965,
+  "lat": -34.5108428,
+  "lon": -58.5835359
+},
+{
+  "type": "node",
+  "id": 7541310966,
+  "lat": -34.5108810,
+  "lon": -58.5834406
+},
+{
+  "type": "node",
+  "id": 7541310967,
+  "lat": -34.5108430,
+  "lon": -58.5834862
+},
+{
+  "type": "node",
+  "id": 7541310968,
+  "lat": -34.5109336,
+  "lon": -58.5836496
 },
 {
   "type": "node",
