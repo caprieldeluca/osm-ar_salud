@@ -3787,6 +3787,7 @@
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "5",
+    "healthcare": "laboratory",
     "name": "Laboratorios IPS",
     "id": "way/278131991"
   },
@@ -3799,12 +3800,12 @@
           -27.3661591
         ],
         [
-          -55.896989,
-          -27.3661791
+          -55.8969818,
+          -27.3661804
         ],
         [
-          -55.8967488,
-          -27.3662036
+          -55.8967483,
+          -27.3662033
         ],
         [
           -55.8967328,
@@ -23290,6 +23291,10 @@
         [
           -64.1762053,
           -31.4121245
+        ],
+        [
+          -64.1762143,
+          -31.4121479
         ],
         [
           -64.1762209,
@@ -43994,7 +43999,7 @@
   "properties": {
     "addr:city": "Junín de los Andes",
     "addr:housenumber": "567",
-    "addr:postcode": "Q8371",
+    "addr:postcode": "8371",
     "addr:street": "Patagonia",
     "amenity": "clinic",
     "building": "yes",
@@ -56294,6 +56299,23 @@
     "coordinates": [
       -58.4324494,
       -34.699272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4108697411",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud",
+    "id": "node/4108697411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.6642145,
+      -30.9832099
     ]
   }
 },
@@ -83831,8 +83853,8 @@
     "addr:postcode": "1646",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro De Salud Doctor Finochietto",
-    "operator": "Municipal",
+    "name": "Centro de Salud Doctor Finochietto",
+    "operator": "Municipalidad de San Fernando",
     "operator:type": "public",
     "phone": "+54 11 4714-6492",
     "ref:sisa_codigo": "50067492201226",
@@ -109825,6 +109847,48 @@
     "coordinates": [
       -57.5453803,
       -38.0879227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11516750274",
+  "properties": {
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/clinicaalemanasanjuan",
+    "contact:instagram": "https://www.instagram.com/clinica.alemana",
+    "contact:whatsapp": "+54 9 264 4933892",
+    "email": "recepcion@clinicaalemana.com.ar",
+    "name": "Clínica Alemana",
+    "phone": "+54 9 264 493389",
+    "id": "node/11516750274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5177904,
+      -31.5400861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11516750284",
+  "properties": {
+    "amenity": "clinic",
+    "description": "Centro para la salud Integral de la Mujer",
+    "email": "delegacion.sanjuan@ossacra.org.ar",
+    "name": "Amasalud",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "OSSACRA",
+    "phone": "+54 264 4216051; +54 11 21613903",
+    "id": "node/11516750284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5162038,
+      -31.5323554
     ]
   }
 }

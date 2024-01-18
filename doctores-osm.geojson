@@ -2117,6 +2117,7 @@
     "name:signed": "no",
     "opening_hours": "Mo-Fr 08:00-11:00",
     "operator": "Mirta Dosso",
+    "wheelchair": "limited",
     "id": "way/421499763"
   },
   "geometry": {
@@ -7888,47 +7889,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/905243955",
-  "properties": {
-    "addr:housenumber": "1934",
-    "addr:street": "Catamarca",
-    "amenity": "doctors",
-    "building:part": "commercial",
-    "healthcare": "doctor",
-    "name": "Aruna Consultorios",
-    "wheelchair": "no",
-    "id": "way/905243955"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.8045166,
-          -32.9209019
-        ],
-        [
-          -60.8045056,
-          -32.9208553
-        ],
-        [
-          -60.8045593,
-          -32.9208464
-        ],
-        [
-          -60.8045703,
-          -32.9208929
-        ],
-        [
-          -60.8045166,
-          -32.9209019
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/906864159",
   "properties": {
     "amenity": "doctors",
@@ -13406,6 +13366,33 @@
 },
 {
   "type": "Feature",
+  "id": "node/3798707721",
+  "properties": {
+    "addr:housenumber": "1807",
+    "addr:street": "Suipacha",
+    "alt_name": "PsiFunes",
+    "amenity": "doctors",
+    "check_date": "2024-01-10",
+    "healthcare": "psychotherapist",
+    "healthcare:speciality": "psychiatry",
+    "level": "0",
+    "name": "Psi Funes",
+    "name:signed": "no",
+    "office": "company",
+    "ref": "5",
+    "wheelchair": "limited",
+    "id": "node/3798707721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.8150855,
+      -32.917767
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3799864122",
   "properties": {
     "addr:city": "Eldorado",
@@ -13988,23 +13975,6 @@
     "coordinates": [
       -54.828867,
       -27.0367064
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4108697411",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Centro de Salud",
-    "id": "node/4108697411"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.6642145,
-      -30.9832099
     ]
   }
 },
@@ -37979,6 +37949,28 @@
     "coordinates": [
       -71.6422516,
       -40.7635574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11507261512",
+  "properties": {
+    "addr:housenumber": "1934",
+    "addr:street": "Catamarca",
+    "amenity": "doctors",
+    "contact:instagram": "aruna.espacioterapeutico",
+    "healthcare": "doctor",
+    "healthcare:speciality": "applied_kinesiology;occupational;psychiatry;speech_therapist",
+    "name": "Aruna Espacio Terapéutico",
+    "wheelchair": "no",
+    "id": "node/11507261512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.8045297,
+      -32.9208275
     ]
   }
 }
