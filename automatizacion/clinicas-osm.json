@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-01-18T03:05:06Z",
-    "timestamp_areas_base": "2024-01-18T02:12:48Z",
+    "timestamp_osm_base": "2024-01-24T23:36:30Z",
+    "timestamp_areas_base": "2024-01-24T21:25:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8920,6 +8920,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CAPS Diagonal Salta",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 11 45803127",
@@ -19308,24 +19309,6 @@
     "phone": "+54 11 42140500 INT.621-INT 2",
     "ref:sisa_codigo": "50060282202202",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7501637395,
-  "lat": -34.7005498,
-  "lon": -58.5426097,
-  "tags": {
-    "addr:full": "Camino De Cintura Y Ruta 21",
-    "addr:postcode": "1778",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Hospital Zonal General De Agudos Doctor Alberto Edgardo Balestrini",
-    "operator": "provincial",
-    "phone": "011 46202682",
-    "ref:sisa_codigo": "12064272116387",
-    "ref:sisa_tipologia": "ESCIEM",
-    "wikidata": "Q87729502"
   }
 },
 {
@@ -67243,6 +67226,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1240892572,
+  "nodes": [
+    11529433861,
+    11529433862,
+    11529433863,
+    11529433864,
+    11529433865,
+    11529433866,
+    11529433867,
+    11529433871,
+    11529433868,
+    11529433872,
+    11529433869,
+    11529433870,
+    11529433861
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sala Socio Sanitaria",
+    "phone": "0354715582825"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -80469,6 +80478,78 @@
   "id": 10778959971,
   "lat": -31.7286102,
   "lon": -64.4296383
+},
+{
+  "type": "node",
+  "id": 11529433861,
+  "lat": -31.7132219,
+  "lon": -64.4231339
+},
+{
+  "type": "node",
+  "id": 11529433862,
+  "lat": -31.7130609,
+  "lon": -64.4231505
+},
+{
+  "type": "node",
+  "id": 11529433863,
+  "lat": -31.7130677,
+  "lon": -64.4232424
+},
+{
+  "type": "node",
+  "id": 11529433864,
+  "lat": -31.7131821,
+  "lon": -64.4232306
+},
+{
+  "type": "node",
+  "id": 11529433865,
+  "lat": -31.7131825,
+  "lon": -64.4232362
+},
+{
+  "type": "node",
+  "id": 11529433866,
+  "lat": -31.7132008,
+  "lon": -64.4232343
+},
+{
+  "type": "node",
+  "id": 11529433867,
+  "lat": -31.7132004,
+  "lon": -64.4232287
+},
+{
+  "type": "node",
+  "id": 11529433868,
+  "lat": -31.7132106,
+  "lon": -64.4232132
+},
+{
+  "type": "node",
+  "id": 11529433869,
+  "lat": -31.7132195,
+  "lon": -64.4231860
+},
+{
+  "type": "node",
+  "id": 11529433870,
+  "lat": -31.7132257,
+  "lon": -64.4231854
+},
+{
+  "type": "node",
+  "id": 11529433871,
+  "lat": -31.7132117,
+  "lon": -64.4232276
+},
+{
+  "type": "node",
+  "id": 11529433872,
+  "lat": -31.7132214,
+  "lon": -64.4232121
 },
 {
   "type": "node",
