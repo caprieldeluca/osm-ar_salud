@@ -1995,11 +1995,11 @@
     "addr:country": "AR",
     "addr:province": "Entre Rios",
     "amenity": "pharmacy",
-    "building": "farm",
+    "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Sol",
-    "phone": "+54 03455 423782",
+    "phone": "+54 (3455) 42-3782",
     "id": "way/307521975"
   },
   "geometry": {
@@ -2007,20 +2007,20 @@
     "coordinates": [
       [
         [
-          -59.031603,
-          -31.869775
+          -59.0316603,
+          -31.8697742
         ],
         [
-          -59.0315894,
-          -31.8697759
+          -59.0315896,
+          -31.8697758
         ],
         [
-          -59.0315845,
-          -31.8695959
+          -59.0315841,
+          -31.8695956
         ],
         [
-          -59.0316759,
-          -31.8695926
+          -59.0316748,
+          -31.8695936
         ],
         [
           -59.0316798,
@@ -2029,10 +2029,6 @@
         [
           -59.0316603,
           -31.8697742
-        ],
-        [
-          -59.031603,
-          -31.869775
         ]
       ]
     ]
@@ -20157,10 +20153,14 @@
   "type": "Feature",
   "id": "way/504898486",
   "properties": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "498",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
+    "ref:sisa_codigo": "70260352329494",
     "id": "way/504898486"
   },
   "geometry": {
@@ -46177,8 +46177,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4055687,
-      -34.5771402
+      -58.4054229,
+      -34.5770166
     ]
   }
 },
@@ -53989,17 +53989,10 @@
     "addr:postcode": "B1641",
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
-    "check_date": "2023-10-13",
     "healthcare": "pharmacy",
-    "name": "Zona Vital",
-    "payment:cash": "yes",
-    "payment:credit_cards": "yes",
-    "payment:debit_cards": "yes",
-    "payment:mastercard": "yes",
-    "payment:visa": "yes",
+    "name": "Vital",
+    "opening_hours": "Mo-Sa 08:30-21:30; Su 09:00-14:00",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.vitalacassuso.com.ar/",
-    "wheelchair": "yes",
     "id": "node/2174223026"
   },
   "geometry": {
@@ -62739,8 +62732,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.8903958,
-      -27.368202
+      -55.8904379,
+      -27.3681911
     ]
   }
 },
@@ -64628,7 +64621,7 @@
     "addr:postcode": "1644",
     "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
-    "check_date": "2023-11-25",
+    "check_date": "2024-01-29",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Negri",
@@ -74488,6 +74481,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Salazar",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-19:00",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/3513762340"
   },
@@ -95283,7 +95277,7 @@
     "healthcare": "pharmacy",
     "healthcare:speciality": "homeopathy",
     "name": "Sudamericana",
-    "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-20:00; Su off",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-13:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4598901615"
   },
@@ -122297,23 +122291,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6067567367",
-  "properties": {
-    "addr:street": "Corrientes",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/6067567367"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.6426502,
-      -32.9465415
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6069076377",
   "properties": {
     "amenity": "pharmacy",
@@ -124423,26 +124400,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/6196622819",
-  "properties": {
-    "amenity": "pharmacy",
-    "name": "Arienti",
-    "id": "node/6196622819"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -71.462562,
-      -43.0770816
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6196622853",
   "properties": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "656",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Farmavital",
+    "ref:sisa_codigo": "70260352329495",
     "id": "node/6196622853"
   },
   "geometry": {
@@ -139705,16 +139671,17 @@
     "addr:housenumber": "936",
     "addr:street": "Calle 2",
     "amenity": "pharmacy",
+    "check_date": "2024-01-26",
     "healthcare": "pharmacy",
-    "name:es": "Farmacia Farmar",
-    "phone": "02246 422 103",
+    "name": "Farmacia Farmar",
+    "phone": "+54 2246 42-2103",
     "id": "node/7435693900"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -56.6897146,
-      -36.5400125
+      -56.6896548,
+      -36.5399691
     ]
   }
 },
@@ -157515,6 +157482,7 @@
   "id": "node/10568927992",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Farma Full",
     "id": "node/10568927992"
   },
@@ -167386,6 +167354,7 @@
     "addr:street": "Avenida Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "healthcare": "pharmacy",
     "name": "Berta",
     "phone": "426115",
     "id": "node/11086112591"
@@ -171280,6 +171249,146 @@
     "coordinates": [
       -62.1098783,
       -28.4623562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11557167426",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/11557167426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6426794,
+      -32.9466531
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11561479462",
+  "properties": {
+    "addr:city": "Rosario",
+    "addr:housenumber": "2394",
+    "addr:postcode": "2000",
+    "addr:street": "Córdoba",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmavip",
+    "id": "node/11561479462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6558338,
+      -32.9431478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11561509209",
+  "properties": {
+    "addr:city": "Rosario",
+    "addr:housenumber": "918",
+    "addr:postcode": "2000",
+    "addr:street": "Bulevar Nicasio Oroño",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Cappone",
+    "phone": "03414400954",
+    "id": "node/11561509209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6539832,
+      -32.9452059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11561515194",
+  "properties": {
+    "addr:city": "Rosario",
+    "addr:housenumber": "1902",
+    "addr:postcode": "2000",
+    "addr:street": "Tucumán",
+    "amenity": "pharmacy",
+    "contact:phone": "+54 341 425-9090",
+    "healthcare": "pharmacy",
+    "name": "Embon",
+    "id": "node/11561515194"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6481353,
+      -32.939677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11571480079",
+  "properties": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "165",
+    "addr:postcode": "9203",
+    "addr:street": "Avenida Patagonia",
+    "amenity": "pharmacy",
+    "name": "Arienti",
+    "id": "node/11571480079"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.4624984,
+      -43.0771026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11573184969",
+  "properties": {
+    "addr:housenumber": "77",
+    "addr:street": "Combate de los Pozos",
+    "amenity": "pharmacy",
+    "name": "Farmacia del Senado",
+    "id": "node/11573184969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3934523,
+      -34.6102082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11573920202",
+  "properties": {
+    "addr:housenumber": "2963",
+    "addr:street": "Jerónimo Salguero",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/11573920202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4062101,
+      -34.5782868
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-01-24T23:36:30Z",
-    "timestamp_areas_base": "2024-01-24T21:25:52Z",
+    "timestamp_osm_base": "2024-02-01T02:40:44Z",
+    "timestamp_areas_base": "2024-01-31T21:23:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4109,7 +4109,8 @@
     "addr:street": "Juncal",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Asociacion Medica Homeopatica Argentina"
+    "healthcare:specialty": "homeopathy",
+    "name": "Asociación Médica Homeopática Argentina"
   }
 },
 {
@@ -25859,26 +25860,6 @@
 },
 {
   "type": "node",
-  "id": 7504006048,
-  "lat": -33.1481440,
-  "lon": -60.7173023,
-  "tags": {
-    "addr:city": "El Caramelo",
-    "addr:full": "Ruta 18 Km 10.5",
-    "addr:postcode": "2101",
-    "addr:street": "Ruta Provincial 18",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Salud Los Pinos",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "phone": "+54 3402 49-2961",
-    "ref:sisa_codigo": "50820842186542",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7504021140,
   "lat": -39.4314137,
   "lon": -65.6984957,
@@ -25931,28 +25912,6 @@
     "operator": "Municipal",
     "operator:type": "public",
     "ref:sisa_codigo": "50061262201297",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7504069822,
-  "lat": -33.1844098,
-  "lon": -60.7214799,
-  "tags": {
-    "addr:city": "Coronel Rodolfo S. Domínguez",
-    "addr:full": "Dominguez 370",
-    "addr:housenumber": "370",
-    "addr:postcode": "S2128",
-    "addr:street": "Dominguez",
-    "amenity": "clinic",
-    "contact:facebook": "https://fb.com/centro-de-salud-coronel-dominguez-203933017063995/",
-    "healthcare": "clinic",
-    "name": "Centro de Salud Coronel Dominguez",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "phone": "+54 3402 49-3138",
-    "ref:sisa_codigo": "50820842184633",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -45740,6 +45699,21 @@
   }
 },
 {
+  "type": "node",
+  "id": 11561142767,
+  "lat": -32.8859382,
+  "lon": -68.8299812,
+  "tags": {
+    "addr:housenumber": "1512",
+    "addr:street": "Ituzaingó",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica Santa María - PAMI",
+    "phone": "54 0261 4255830",
+    "wikidata": "Q100998388"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -48096,28 +48070,6 @@
 },
 {
   "type": "way",
-  "id": 335277066,
-  "nodes": [
-    3423919285,
-    3423919282,
-    3423919279,
-    3423919283,
-    3423919288,
-    3423919285
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "hospital",
-    "building:levels": "11",
-    "contact:website": "http://www.centromedipam.com.ar/",
-    "healthcare": "clinic",
-    "name": "Unidad de Servicios Centro",
-    "operator": "IPAM",
-    "short_name": "IPAM"
-  }
-},
-{
-  "type": "way",
   "id": 337032416,
   "nodes": [
     3448411406,
@@ -48820,6 +48772,7 @@
   "id": 383545724,
   "nodes": [
     3868286011,
+    11556842210,
     3868286010,
     3868286030,
     3868286029,
@@ -48827,6 +48780,7 @@
   ],
   "tags": {
     "amenity": "clinic",
+    "barrier": "fence",
     "contact:website": "http://www.ecco.com.ar/",
     "dispensing": "no",
     "electricity": "grid",
@@ -48835,6 +48789,7 @@
     "insurance:health": "private",
     "name": "ECCO",
     "operational_status": "yes",
+    "place": "plot",
     "wheelchair": "yes"
   }
 },
@@ -61837,18 +61792,24 @@
   "type": "way",
   "id": 881998283,
   "nodes": [
-    8202383064,
+    11565442649,
+    11565442654,
+    11565442644,
+    11565442650,
+    11565442651,
     8202383065,
     8202383066,
-    8202383067,
-    1877489528,
-    8202383068,
-    8202383064
+    11565442615,
+    11565442618,
+    11565442634,
+    11565442602,
+    11565442649
   ],
   "tags": {
     "amenity": "clinic",
     "building": "yes",
-    "healthcare": "clinic"
+    "healthcare": "clinic",
+    "name": "Clinica Regional Del Sud"
   }
 },
 {
@@ -67249,6 +67210,82 @@
     "healthcare": "clinic",
     "name": "Sala Socio Sanitaria",
     "phone": "0354715582825"
+  }
+},
+{
+  "type": "way",
+  "id": 1243703172,
+  "nodes": [
+    11559791473,
+    11559791503,
+    11559791500,
+    11559791474,
+    11559791498,
+    11559791472,
+    11559791502,
+    11559791475,
+    11559791476,
+    11559791501,
+    11559791473
+  ],
+  "tags": {
+    "addr:city": "Coronel Rodolfo S. Domínguez",
+    "addr:full": "Dominguez 370",
+    "addr:housenumber": "370",
+    "addr:postcode": "S2128",
+    "addr:street": "Dominguez",
+    "alt_name": "Centro de Salud Coronel Domínguez",
+    "amenity": "clinic",
+    "contact:facebook": "100032095100846",
+    "healthcare": "clinic",
+    "name": "Centro de Salud María Tiravassi",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "phone": "+54 3402 49-3138",
+    "ref:sisa_codigo": "50820842184633",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "way",
+  "id": 1244233969,
+  "nodes": [
+    11565710719,
+    11565710720,
+    11565710721,
+    11565710722,
+    11565710723,
+    11565710719
+  ],
+  "tags": {
+    "addr:street": "Colectora Ruta Provincial 18",
+    "amenity": "clinic",
+    "contact:facebook": "centrodesalud.lospinosvillaamelia",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Los Pinos",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "public",
+    "phone": "+54 3402 49-2961",
+    "ref:sisa_codigo": "50820842186542",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "way",
+  "id": 1245121171,
+  "nodes": [
+    11575234521,
+    11575234522,
+    11575234523,
+    11575234524,
+    11575234525,
+    11575234521
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sanatório Privado Punilla"
   }
 },
 {
@@ -79971,39 +80008,69 @@
 },
 {
   "type": "node",
-  "id": 1877489528,
-  "lat": -33.1286503,
-  "lon": -64.3520982
-},
-{
-  "type": "node",
-  "id": 8202383064,
-  "lat": -33.1285536,
-  "lon": -64.3520666
-},
-{
-  "type": "node",
   "id": 8202383065,
-  "lat": -33.1286440,
-  "lon": -64.3516674
+  "lat": -33.1286399,
+  "lon": -64.3516196
 },
 {
   "type": "node",
   "id": 8202383066,
-  "lat": -33.1288079,
-  "lon": -64.3517130
+  "lat": -33.1287892,
+  "lon": -64.3516680
 },
 {
   "type": "node",
-  "id": 8202383067,
-  "lat": -33.1287208,
-  "lon": -64.3521213
+  "id": 11565442602,
+  "lat": -33.1286279,
+  "lon": -64.3520479
 },
 {
   "type": "node",
-  "id": 8202383068,
-  "lat": -33.1286171,
-  "lon": -64.3520873
+  "id": 11565442615,
+  "lat": -33.1287719,
+  "lon": -64.3517440
+},
+{
+  "type": "node",
+  "id": 11565442618,
+  "lat": -33.1287021,
+  "lon": -64.3520512
+},
+{
+  "type": "node",
+  "id": 11565442634,
+  "lat": -33.1286978,
+  "lon": -64.3520705
+},
+{
+  "type": "node",
+  "id": 11565442644,
+  "lat": -33.1286050,
+  "lon": -64.3517732
+},
+{
+  "type": "node",
+  "id": 11565442649,
+  "lat": -33.1285484,
+  "lon": -64.3520221
+},
+{
+  "type": "node",
+  "id": 11565442650,
+  "lat": -33.1286077,
+  "lon": -64.3517611
+},
+{
+  "type": "node",
+  "id": 11565442651,
+  "lat": -33.1286353,
+  "lon": -64.3516399
+},
+{
+  "type": "node",
+  "id": 11565442654,
+  "lat": -33.1285510,
+  "lon": -64.3520107
 },
 {
   "type": "node",
@@ -81090,6 +81157,36 @@
   "id": 10908716183,
   "lat": -31.4162781,
   "lon": -64.4880966
+},
+{
+  "type": "node",
+  "id": 11575234521,
+  "lat": -31.4151911,
+  "lon": -64.4902362
+},
+{
+  "type": "node",
+  "id": 11575234522,
+  "lat": -31.4151781,
+  "lon": -64.4902160
+},
+{
+  "type": "node",
+  "id": 11575234523,
+  "lat": -31.4152920,
+  "lon": -64.4901551
+},
+{
+  "type": "node",
+  "id": 11575234524,
+  "lat": -31.4153511,
+  "lon": -64.4902954
+},
+{
+  "type": "node",
+  "id": 11575234525,
+  "lat": -31.4152444,
+  "lon": -64.4903545
 },
 {
   "type": "node",
@@ -82689,6 +82786,96 @@
 },
 {
   "type": "node",
+  "id": 11559791472,
+  "lat": -33.1843788,
+  "lon": -60.7217303
+},
+{
+  "type": "node",
+  "id": 11559791473,
+  "lat": -33.1844482,
+  "lon": -60.7214045
+},
+{
+  "type": "node",
+  "id": 11559791474,
+  "lat": -33.1844814,
+  "lon": -60.7217151
+},
+{
+  "type": "node",
+  "id": 11559791475,
+  "lat": -33.1843516,
+  "lon": -60.7214929
+},
+{
+  "type": "node",
+  "id": 11559791476,
+  "lat": -33.1843918,
+  "lon": -60.7214124
+},
+{
+  "type": "node",
+  "id": 11559791498,
+  "lat": -33.1844564,
+  "lon": -60.7217188
+},
+{
+  "type": "node",
+  "id": 11559791500,
+  "lat": -33.1844679,
+  "lon": -60.7215887
+},
+{
+  "type": "node",
+  "id": 11559791501,
+  "lat": -33.1844097,
+  "lon": -60.7214099
+},
+{
+  "type": "node",
+  "id": 11559791502,
+  "lat": -33.1843532,
+  "lon": -60.7215071
+},
+{
+  "type": "node",
+  "id": 11559791503,
+  "lat": -33.1844642,
+  "lon": -60.7215541
+},
+{
+  "type": "node",
+  "id": 11565710719,
+  "lat": -33.1254571,
+  "lon": -60.7097638
+},
+{
+  "type": "node",
+  "id": 11565710720,
+  "lat": -33.1253485,
+  "lon": -60.7102920
+},
+{
+  "type": "node",
+  "id": 11565710723,
+  "lat": -33.1252879,
+  "lon": -60.7097144
+},
+{
+  "type": "node",
+  "id": 11565710721,
+  "lat": -33.1249032,
+  "lon": -60.7101427
+},
+{
+  "type": "node",
+  "id": 11565710722,
+  "lat": -33.1249369,
+  "lon": -60.7099900
+},
+{
+  "type": "node",
   "id": 2942472915,
   "lat": -32.7390307,
   "lon": -61.2925057
@@ -82792,26 +82979,32 @@
 {
   "type": "node",
   "id": 3868286010,
-  "lat": -32.9188765,
-  "lon": -60.8274615
+  "lat": -32.9188643,
+  "lon": -60.8274591
 },
 {
   "type": "node",
   "id": 3868286011,
-  "lat": -32.9189201,
-  "lon": -60.8271323
+  "lat": -32.9189104,
+  "lon": -60.8271304
 },
 {
   "type": "node",
   "id": 3868286029,
-  "lat": -32.9192707,
-  "lon": -60.8271163
+  "lat": -32.9192681,
+  "lon": -60.8271164
 },
 {
   "type": "node",
   "id": 3868286030,
-  "lat": -32.9192777,
+  "lat": -32.9192768,
   "lon": -60.8274496
+},
+{
+  "type": "node",
+  "id": 11556842210,
+  "lat": -32.9189013,
+  "lon": -60.8271951
 },
 {
   "type": "node",
@@ -84162,36 +84355,6 @@
   "id": 5362228461,
   "lat": -32.9434646,
   "lon": -60.6530714
-},
-{
-  "type": "node",
-  "id": 3423919279,
-  "lat": -32.9473013,
-  "lon": -60.6426637
-},
-{
-  "type": "node",
-  "id": 3423919282,
-  "lat": -32.9473420,
-  "lon": -60.6426740
-},
-{
-  "type": "node",
-  "id": 3423919283,
-  "lat": -32.9473477,
-  "lon": -60.6424014
-},
-{
-  "type": "node",
-  "id": 3423919285,
-  "lat": -32.9474006,
-  "lon": -60.6426299
-},
-{
-  "type": "node",
-  "id": 3423919288,
-  "lat": -32.9474370,
-  "lon": -60.6424238
 },
 {
   "type": "node",
