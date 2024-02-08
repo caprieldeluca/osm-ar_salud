@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-02-01T02:42:46Z",
-    "timestamp_areas_base": "2024-01-31T22:14:30Z",
+    "timestamp_osm_base": "2024-02-08T02:05:15Z",
+    "timestamp_areas_base": "2024-02-08T01:13:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1215,8 +1215,8 @@
 {
   "type": "node",
   "id": 724294212,
-  "lat": -34.5919730,
-  "lon": -58.3901818,
+  "lat": -34.5919536,
+  "lon": -58.3902419,
   "tags": {
     "amenity": "pharmacy",
     "branch": "Lopez",
@@ -7299,6 +7299,7 @@
     "is_in:country_code": "AR",
     "is_in:state": "Chaco",
     "name": "Saltzer",
+    "opening_hours": "Su 09:00-12:30",
     "phone": "+543624497325"
   }
 },
@@ -7996,8 +7997,8 @@
 {
   "type": "node",
   "id": 2048015835,
-  "lat": -32.8938860,
-  "lon": -68.8288220,
+  "lat": -32.8938984,
+  "lon": -68.8288005,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -14096,15 +14097,6 @@
 },
 {
   "type": "node",
-  "id": 2604855693,
-  "lat": -34.5032611,
-  "lon": -58.5278712,
-  "tags": {
-    "amenity": "pharmacy"
-  }
-},
-{
-  "type": "node",
   "id": 2607407346,
   "lat": -32.8773215,
   "lon": -68.8542766,
@@ -17447,8 +17439,8 @@
 {
   "type": "node",
   "id": 2964994783,
-  "lat": -32.8945851,
-  "lon": -68.8309048,
+  "lat": -32.8945716,
+  "lon": -68.8309638,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -37175,7 +37167,8 @@
   "lon": -58.4225283,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Silfab"
   }
 },
 {
@@ -39901,8 +39894,10 @@
     "addr:street": "Avenida San Martin",
     "addr:suburb": "Villa Devoto",
     "amenity": "pharmacy",
+    "check_date": "2024-02-03",
     "healthcare": "pharmacy",
-    "name": "Italiana"
+    "name": "Italiana",
+    "wheelchair": "limited"
   }
 },
 {
@@ -57308,11 +57303,12 @@
 {
   "type": "node",
   "id": 6196622853,
-  "lat": -43.0878156,
-  "lon": -71.4643041,
+  "lat": -43.0877281,
+  "lon": -71.4642584,
   "tags": {
     "addr:city": "Trevelin",
-    "addr:housenumber": "656",
+    "addr:housenumber": "650",
+    "addr:postcode": "9203",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -90734,6 +90730,70 @@
   }
 },
 {
+  "type": "node",
+  "id": 11577646909,
+  "lat": -34.5809997,
+  "lon": -58.4223179,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Openfarma"
+  }
+},
+{
+  "type": "node",
+  "id": 11579551448,
+  "lat": -37.9967417,
+  "lon": -57.5591460,
+  "tags": {
+    "amenity": "pharmacy",
+    "currency:XBT": "yes",
+    "payment:lightning": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11581905450,
+  "lat": -34.5922000,
+  "lon": -58.5261025,
+  "tags": {
+    "addr:housenumber": "4113",
+    "addr:street": "10 - República del Líbano",
+    "amenity": "pharmacy",
+    "check_date": "2024-02-03",
+    "healthcare": "pharmacy",
+    "name": "Nueva Libano",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-13:00; Su off",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11585746275,
+  "lat": -43.0856184,
+  "lon": -71.4642763,
+  "tags": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "494",
+    "addr:postcode": "9203",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Pueblo",
+    "ref:sisa_codigo": "70260352329494"
+  }
+},
+{
+  "type": "node",
+  "id": 11592404678,
+  "lat": -34.6057703,
+  "lon": -58.4148308,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmathenea"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -90838,7 +90898,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Margarita",
-    "opening_hours": "Mo-Fr 08:30-20:00",
+    "opening_hours": "Mo-Fr 08:30-20:00; Su 09:00-12:30",
     "phone": "+543624497095"
   }
 },
@@ -93796,11 +93856,14 @@
     4578235995
   ],
   "tags": {
+    "addr:housenumber": "620",
     "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farmacia",
-    "source": "Reconocimiento Cartográfico 2016 por KG"
+    "check_date": "2024-02-02",
+    "name": "Farmacia Mitre",
+    "source": "Reconocimiento Cartográfico 2016 por KG",
+    "wheelchair": "limited"
   }
 },
 {
@@ -96826,6 +96889,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Porteña",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-13:00",
     "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
   }
 },
@@ -96842,6 +96906,7 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "3466",
     "addr:street": "Avenida Francisco Beiró",
     "amenity": "pharmacy",
     "area": "yes",
@@ -96849,8 +96914,17 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2024-02-03",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -100158,27 +100232,6 @@
     "building:levels": "2",
     "healthcare": "pharmacy",
     "name": "Goiburu"
-  }
-},
-{
-  "type": "way",
-  "id": 504898486,
-  "nodes": [
-    4949927919,
-    4949927920,
-    4949928021,
-    4949928022,
-    4949927919
-  ],
-  "tags": {
-    "addr:city": "Trevelin",
-    "addr:housenumber": "498",
-    "addr:street": "Avenida San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Del Pueblo",
-    "ref:sisa_codigo": "70260352329494"
   }
 },
 {
@@ -110262,30 +110315,6 @@
   "id": 8514398979,
   "lat": -46.5946349,
   "lon": -70.9251847
-},
-{
-  "type": "node",
-  "id": 4949927919,
-  "lat": -43.0855797,
-  "lon": -71.4644015
-},
-{
-  "type": "node",
-  "id": 4949927920,
-  "lat": -43.0855794,
-  "lon": -71.4642109
-},
-{
-  "type": "node",
-  "id": 4949928021,
-  "lat": -43.0856707,
-  "lon": -71.4642106
-},
-{
-  "type": "node",
-  "id": 4949928022,
-  "lat": -43.0856709,
-  "lon": -71.4644013
 },
 {
   "type": "node",

@@ -263,7 +263,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Margarita",
-    "opening_hours": "Mo-Fr 08:30-20:00",
+    "opening_hours": "Mo-Fr 08:30-20:00; Su 09:00-12:30",
     "phone": "+543624497095",
     "id": "way/232287928"
   },
@@ -6539,11 +6539,14 @@
   "type": "Feature",
   "id": "way/462423009",
   "properties": {
+    "addr:housenumber": "620",
     "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farmacia",
+    "check_date": "2024-02-02",
+    "name": "Farmacia Mitre",
     "source": "Reconocimiento Cartográfico 2016 por KG",
+    "wheelchair": "limited",
     "id": "way/462423009"
   },
   "geometry": {
@@ -13098,6 +13101,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Porteña",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-13:00",
     "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016.",
     "id": "way/471183111"
   },
@@ -13143,6 +13147,7 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "3466",
     "addr:street": "Avenida Francisco Beiró",
     "amenity": "pharmacy",
     "area": "yes",
@@ -13150,8 +13155,17 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2024-02-03",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/471183207"
   },
@@ -20144,48 +20158,6 @@
         [
           -61.1008546,
           -33.8977383
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/504898486",
-  "properties": {
-    "addr:city": "Trevelin",
-    "addr:housenumber": "498",
-    "addr:street": "Avenida San Martín",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Del Pueblo",
-    "ref:sisa_codigo": "70260352329494",
-    "id": "way/504898486"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -71.4644015,
-          -43.0855797
-        ],
-        [
-          -71.4644013,
-          -43.0856709
-        ],
-        [
-          -71.4642106,
-          -43.0856707
-        ],
-        [
-          -71.4642109,
-          -43.0855794
-        ],
-        [
-          -71.4644015,
-          -43.0855797
         ]
       ]
     ]
@@ -42691,8 +42663,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3901818,
-      -34.591973
+      -58.3902419,
+      -34.5919536
     ]
   }
 },
@@ -51518,6 +51490,7 @@
     "is_in:country_code": "AR",
     "is_in:state": "Chaco",
     "name": "Saltzer",
+    "opening_hours": "Su 09:00-12:30",
     "phone": "+543624497325",
     "id": "node/1939649477"
   },
@@ -52550,8 +52523,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.828822,
-      -32.893886
+      -68.8288005,
+      -32.8938984
     ]
   }
 },
@@ -61515,21 +61488,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2604855693",
-  "properties": {
-    "amenity": "pharmacy",
-    "id": "node/2604855693"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5278712,
-      -34.5032611
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2607407346",
   "properties": {
     "addr:street": "Suipacha",
@@ -66303,8 +66261,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8309048,
-      -32.8945851
+      -68.8309638,
+      -32.8945716
     ]
   }
 },
@@ -95057,6 +95015,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Silfab",
     "id": "node/4593297691"
   },
   "geometry": {
@@ -98994,8 +98953,10 @@
     "addr:street": "Avenida San Martin",
     "addr:suburb": "Villa Devoto",
     "amenity": "pharmacy",
+    "check_date": "2024-02-03",
     "healthcare": "pharmacy",
     "name": "Italiana",
+    "wheelchair": "limited",
     "id": "node/4656639363"
   },
   "geometry": {
@@ -124403,7 +124364,8 @@
   "id": "node/6196622853",
   "properties": {
     "addr:city": "Trevelin",
-    "addr:housenumber": "656",
+    "addr:housenumber": "650",
+    "addr:postcode": "9203",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -124414,8 +124376,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -71.4643041,
-      -43.0878156
+      -71.4642584,
+      -43.0877281
     ]
   }
 },
@@ -171389,6 +171351,100 @@
     "coordinates": [
       -58.4062101,
       -34.5782868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11577646909",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Openfarma",
+    "id": "node/11577646909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4223179,
+      -34.5809997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11579551448",
+  "properties": {
+    "amenity": "pharmacy",
+    "currency:XBT": "yes",
+    "payment:lightning": "yes",
+    "id": "node/11579551448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.559146,
+      -37.9967417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11581905450",
+  "properties": {
+    "addr:housenumber": "4113",
+    "addr:street": "10 - República del Líbano",
+    "amenity": "pharmacy",
+    "check_date": "2024-02-03",
+    "healthcare": "pharmacy",
+    "name": "Nueva Libano",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-13:00; Su off",
+    "wheelchair": "yes",
+    "id": "node/11581905450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5261025,
+      -34.5922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11585746275",
+  "properties": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "494",
+    "addr:postcode": "9203",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Pueblo",
+    "ref:sisa_codigo": "70260352329494",
+    "id": "node/11585746275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.4642763,
+      -43.0856184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11592404678",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmathenea",
+    "id": "node/11592404678"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4148308,
+      -34.6057703
     ]
   }
 }
