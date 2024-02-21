@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-02-08T02:05:15Z",
-    "timestamp_areas_base": "2024-02-08T01:13:15Z",
+    "timestamp_osm_base": "2024-02-21T19:19:51Z",
+    "timestamp_areas_base": "2024-02-21T17:09:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2745,9 +2745,13 @@
 {
   "type": "node",
   "id": 1158412272,
-  "lat": -34.5961055,
-  "lon": -58.5484306,
+  "lat": -34.5961011,
+  "lon": -58.5484219,
   "tags": {
+    "addr:city": "Santos Lugares",
+    "addr:housenumber": "3943",
+    "addr:postcode": "B1676",
+    "addr:street": "436 - Avenida La Plata",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
@@ -5115,8 +5119,11 @@
   "lon": -58.4138354,
   "tags": {
     "amenity": "pharmacy",
+    "branch": "Aeroparque",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
-    "name": "Farmacity Aeroparque"
+    "name": "Farmacity"
   }
 },
 {
@@ -7286,25 +7293,6 @@
 },
 {
   "type": "node",
-  "id": 1939649477,
-  "lat": -27.2641356,
-  "lon": -58.9716670,
-  "tags": {
-    "addr:country": "AR",
-    "addr:postcode": "3505",
-    "addr:state": "Chaco",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "is_in:country": "Argentina",
-    "is_in:country_code": "AR",
-    "is_in:state": "Chaco",
-    "name": "Saltzer",
-    "opening_hours": "Su 09:00-12:30",
-    "phone": "+543624497325"
-  }
-},
-{
-  "type": "node",
   "id": 1941488060,
   "lat": -32.8849724,
   "lon": -68.8485583,
@@ -8910,8 +8898,8 @@
 {
   "type": "node",
   "id": 2165440815,
-  "lat": -29.1536727,
-  "lon": -59.6487637,
+  "lat": -29.1536746,
+  "lon": -59.6487914,
   "tags": {
     "addr:city": "Reconquista",
     "addr:housenumber": "1598",
@@ -12372,12 +12360,15 @@
 {
   "type": "node",
   "id": 2455675377,
-  "lat": -32.8537238,
-  "lon": -68.8342934,
+  "lat": -32.8537153,
+  "lon": -68.8343183,
   "tags": {
+    "addr:housenumber": "1201",
     "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "contact:phone": "54 0261 4303344",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Teruya"
   }
 },
 {
@@ -12393,13 +12384,16 @@
 {
   "type": "node",
   "id": 2455675379,
-  "lat": -32.8603032,
-  "lon": -68.8332488,
+  "lat": -32.8602933,
+  "lon": -68.8332111,
   "tags": {
+    "addr:housenumber": "602",
+    "addr:postcode": "5539",
     "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
+    "contact:phone": "54 0261 4301616",
     "healthcare": "pharmacy",
-    "name": "Farmcia Del Plata Uno - 24hs"
+    "name": "Farmacia Paz"
   }
 },
 {
@@ -14075,12 +14069,22 @@
   "lon": -58.5549970,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-02-13",
     "delivery": "yes",
     "healthcare": "pharmacy",
     "name": "Selma",
     "opening_hours": "Mo-Sa 08:30-22:00; Su 10:00-22:00",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
     "phone": "+54 11 6798-0540",
-    "website": "https://www.selmadigital.com/"
+    "website": "https://www.selmadigital.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -14089,9 +14093,20 @@
   "lat": -34.4783733,
   "lon": -58.5553572,
   "tags": {
+    "addr:housenumber": "2116",
+    "addr:street": "Avenida Sucre",
     "amenity": "pharmacy",
+    "check_date": "2024-02-14",
     "name": "Azul",
     "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-21:00",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -38173,17 +38188,18 @@
 {
   "type": "node",
   "id": 4621081170,
-  "lat": -34.5916496,
-  "lon": -58.5431245,
+  "lat": -34.5916292,
+  "lon": -58.5430772,
   "tags": {
     "addr:city": "Villa Lynch",
-    "addr:housenumber": "5198",
+    "addr:housenumber": "5200",
     "addr:postcode": "B1650",
-    "addr:street": "121 - Viacava",
+    "addr:street": "38 - Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "level": "0",
     "name": "Casakin",
-    "phone": "+54 (11) 4712-4775",
+    "phone": "+54 11 4712-4775",
     "source": "Reconocimiento Cartográfico 2016 por KG"
   }
 },
@@ -39317,11 +39333,14 @@
   "lon": -58.5553850,
   "tags": {
     "addr:city": "Beccar",
+    "addr:housenumber": "2601",
     "addr:postcode": "B1643",
+    "addr:street": "Avenida Sucre",
     "amenity": "pharmacy",
+    "check_date": "2024-02-14",
     "healthcare": "pharmacy",
     "name": "Farmacia del Ángel",
-    "opening_hours": "Mo-Fr 09:30-20:00; Sa 09:30-19:00",
+    "opening_hours": "Mo-Fr 09:30-20:00; Sa 09:30-19:00; Su off",
     "phone": "+54 11 4742-5089"
   }
 },
@@ -41073,19 +41092,6 @@
 },
 {
   "type": "node",
-  "id": 4676940670,
-  "lat": -34.5989591,
-  "lon": -58.4661211,
-  "tags": {
-    "addr:street": "Avenida Manuel Ricardo Trelles",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacia",
-    "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "node",
   "id": 4676940687,
   "lat": -34.6029167,
   "lon": -58.4639470,
@@ -41566,7 +41572,8 @@
     "addr:postcode": "1682",
     "addr:street": "954 - Avenida Presidente Juan Domingo Perón",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
   }
 },
 {
@@ -50615,22 +50622,6 @@
 },
 {
   "type": "node",
-  "id": 5464256368,
-  "lat": -27.3602979,
-  "lon": -55.9006182,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "1192",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida General Roca",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "San Pablo"
-  }
-},
-{
-  "type": "node",
   "id": 5464784749,
   "lat": -27.4841366,
   "lon": -55.1218186,
@@ -54305,8 +54296,8 @@
 {
   "type": "node",
   "id": 5793965486,
-  "lat": -36.5446413,
-  "lon": -56.6909954,
+  "lat": -36.5447249,
+  "lon": -56.6909603,
   "tags": {
     "addr:city": "Santa Teresita",
     "addr:housenumber": "1453",
@@ -54373,11 +54364,13 @@
   "lon": -58.7327196,
   "tags": {
     "addr:city": "Merlo",
+    "addr:housenumber": "538",
     "addr:postcode": "1722",
     "addr:street": "Constitución",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmacia Sasso",
     "phone": "0220 486-0001"
   }
 },
@@ -76117,11 +76110,22 @@
     "addr:postcode": "B1640",
     "addr:street": "Avenida Sir Alexander Fleming",
     "amenity": "pharmacy",
+    "check_date": "2024-02-16",
+    "delivery": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "El Fenix",
     "opening_hours": "Mo-Sa 08:30-21:00; Su off",
-    "phone": "+54 11 4717-6601"
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+54 11 4717-6601",
+    "wheelchair": "no"
   }
 },
 {
@@ -79751,8 +79755,23 @@
   "lat": -34.4778665,
   "lon": -58.5550270,
   "tags": {
+    "addr:housenumber": "2143",
+    "addr:street": "Avenida Sucre",
     "amenity": "pharmacy",
-    "name": "FarmaPlus"
+    "branch": "Beccar",
+    "check_date": "2024-02-14",
+    "name": "FarmaPlus",
+    "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-21:00",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "website": "https://www.farmaplus.com.ar",
+    "wheelchair": "limited"
   }
 },
 {
@@ -90794,6 +90813,69 @@
   }
 },
 {
+  "type": "node",
+  "id": 11612173406,
+  "lat": -34.9975160,
+  "lon": -67.5095253,
+  "tags": {
+    "addr:city": "Bowen",
+    "addr:postcode": "5634",
+    "addr:street": "Avenida D.F. Sarmiento",
+    "alt_name": "Farmacia Sur",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Sur",
+    "ref:sisa_codigo": "70500142361746"
+  }
+},
+{
+  "type": "node",
+  "id": 11617183053,
+  "lat": -31.6113548,
+  "lon": -60.6891355,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "6303",
+    "addr:postcode": "S3004",
+    "addr:street": "General Carlos de Alvear",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Rojas Sotelo",
+    "opening_hours": "Mo-Sa 08:00-12:00,17:00-20:00",
+    "phone": "+54 0342 460-7603"
+  }
+},
+{
+  "type": "node",
+  "id": 11623895696,
+  "lat": -34.9989051,
+  "lon": -67.5099844,
+  "tags": {
+    "addr:city": "Bowen",
+    "addr:housenumber": "298",
+    "addr:postcode": "5634",
+    "addr:street": "Avenida D.F. Sarmiento",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Antequera",
+    "ref:sisa_codigo": "https://www.ambito.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11630850653,
+  "lat": -32.8525604,
+  "lon": -68.8342875,
+  "tags": {
+    "addr:housenumber": "1303",
+    "addr:street": "Avenida General San Martín",
+    "amenity": "pharmacy",
+    "contact:phone": "54 0261 4371607",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Centro"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -90898,8 +90980,8 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Margarita",
-    "opening_hours": "Mo-Fr 08:30-20:00; Su 09:00-12:30",
-    "phone": "+543624497095"
+    "opening_hours": "Mo-Fr 08:30-20:00; Su 09:00-12:30; Sa 08:00-13:00",
+    "phone": "+543624043269"
   }
 },
 {
@@ -92022,8 +92104,10 @@
     "addr:street": "Avenida del Libertador",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-02-09",
     "healthcare": "pharmacy",
-    "name": "FarmaOlivos"
+    "name": "FarmaOlivos",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su off"
   }
 },
 {
@@ -94660,13 +94744,25 @@
     8604554376
   ],
   "tags": {
+    "addr:housenumber": "4398",
     "addr:street": "Mariano Pelliza",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-02-19",
     "contact:phone": "+54 11 4756-5489",
     "drive_through": "no",
     "name": "Farmacia",
-    "source": "Reconocimiento cartográfico 2016 por KG"
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-21:00; Su off",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "source": "Reconocimiento cartográfico 2016 por KG",
+    "wheelchair": "limited"
   }
 },
 {
@@ -109819,6 +109915,70 @@
   }
 },
 {
+  "type": "way",
+  "id": 1248222677,
+  "nodes": [
+    11602613553,
+    11602613554,
+    11602613555,
+    11602613556,
+    11602613553
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1249664524,
+  "nodes": [
+    11616219092,
+    11616219154,
+    11616219180,
+    11616180536,
+    11616219092
+  ],
+  "tags": {
+    "addr:city": "Margarita Belen",
+    "addr:housenumber": "111",
+    "addr:postcode": "3505",
+    "addr:state": "Chaco",
+    "addr:street": "9 de Mayo",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "healthcare": "pharmacy",
+    "name": "Farmavida",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 1250966735,
+  "nodes": [
+    11628513763,
+    11628513884,
+    11628513888,
+    11628513878,
+    11628513906,
+    11628513763
+  ],
+  "tags": {
+    "addr:city": "Margarita Belen",
+    "addr:housenumber": "330",
+    "addr:postcode": "3505",
+    "addr:state": "Chaco",
+    "addr:street": "Inocencio Moro",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Saltzer",
+    "opening_hours": "Su 09:00-12:30",
+    "phone": "+54 362 449-7325"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -110645,6 +110805,30 @@
   "id": 7810146890,
   "lat": -40.1556300,
   "lon": -71.3490106
+},
+{
+  "type": "node",
+  "id": 11602613553,
+  "lat": -40.1513186,
+  "lon": -71.3192419
+},
+{
+  "type": "node",
+  "id": 11602613554,
+  "lat": -40.1512899,
+  "lon": -71.3192071
+},
+{
+  "type": "node",
+  "id": 11602613555,
+  "lat": -40.1513730,
+  "lon": -71.3190984
+},
+{
+  "type": "node",
+  "id": 11602613556,
+  "lat": -40.1514017,
+  "lon": -71.3191360
 },
 {
   "type": "node",
@@ -136655,6 +136839,60 @@
   "id": 2406487276,
   "lat": -27.2617614,
   "lon": -58.9727407
+},
+{
+  "type": "node",
+  "id": 11616180536,
+  "lat": -27.2609796,
+  "lon": -58.9713432
+},
+{
+  "type": "node",
+  "id": 11616219092,
+  "lat": -27.2609220,
+  "lon": -58.9712744
+},
+{
+  "type": "node",
+  "id": 11616219154,
+  "lat": -27.2609852,
+  "lon": -58.9712038
+},
+{
+  "type": "node",
+  "id": 11616219180,
+  "lat": -27.2610444,
+  "lon": -58.9712719
+},
+{
+  "type": "node",
+  "id": 11628513763,
+  "lat": -27.2641452,
+  "lon": -58.9717234
+},
+{
+  "type": "node",
+  "id": 11628513878,
+  "lat": -27.2642879,
+  "lon": -58.9718941
+},
+{
+  "type": "node",
+  "id": 11628513884,
+  "lat": -27.2641460,
+  "lon": -58.9717015
+},
+{
+  "type": "node",
+  "id": 11628513888,
+  "lat": -27.2642857,
+  "lon": -58.9717050
+},
+{
+  "type": "node",
+  "id": 11628513906,
+  "lat": -27.2641453,
+  "lon": -58.9717390
 },
 {
   "type": "node",

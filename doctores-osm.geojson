@@ -5888,9 +5888,14 @@
   "type": "Feature",
   "id": "way/609202871",
   "properties": {
+    "addr:city": "Árbol de la esperanza",
+    "addr:postcode": "6323",
     "amenity": "doctors",
-    "name": "Arbol de la esperanza",
+    "healthcare": "doctor",
+    "name": "Árbol de la esperanza",
     "opening_hours": "24/7",
+    "ref:sisa_codigo": "50420492153059",
+    "ref:sisa_tipologia": "ESSIDT",
     "wheelchair": "yes",
     "id": "way/609202871"
   },
@@ -6817,7 +6822,6 @@
     "healthcare": "doctor",
     "name": "Sol de Funes Health & Care",
     "opening_hours": "off",
-    "place": "plot",
     "source:url": "https://infofunes.com.ar/noticias/como-sera-la-clinica-de-vanguardia-que-construyen-en-sol-de-funes",
     "id": "way/775981436"
   },
@@ -7566,6 +7570,50 @@
         [
           -58.4051833,
           -31.5265164
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/862907751",
+  "properties": {
+    "addr:city": "Algarrobo del Águila",
+    "addr:postcode": "6323",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Algarrobo del Águila",
+    "operator": "Ministerio de Salud - Gobierno de La Pampa",
+    "phone": "+54 2338 499120",
+    "ref:sisa_codigo": "50420632153057",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "way/862907751"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.1452453,
+          -36.3985486
+        ],
+        [
+          -67.1452271,
+          -36.3986263
+        ],
+        [
+          -67.1451031,
+          -36.3986075
+        ],
+        [
+          -67.1451213,
+          -36.3985297
+        ],
+        [
+          -67.1452453,
+          -36.3985486
         ]
       ]
     ]
@@ -33107,7 +33155,9 @@
     "addr:housenumber": "32 (E)",
     "addr:street": "General José María Paz",
     "amenity": "doctors",
-    "name": "MEDICAL Consultorios Médicos",
+    "description": "Consultorios Médicos",
+    "healthcare": "doctor",
+    "name": "Medical",
     "phone": "+54 264 4220440",
     "website": "https://medicalconsultoriosmedicos.negocio.site/",
     "id": "node/8793801817"
@@ -38019,6 +38069,71 @@
     "coordinates": [
       -65.7195024,
       -28.4320752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11608829454",
+  "properties": {
+    "addr:city": "Fortín El Patria",
+    "addr:postcode": "6279",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Caps Fortin El Patria",
+    "phone": "+54 2664 452000",
+    "ref:sisa_codigo": "50740422180090",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11608829454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.5234663,
+      -34.7717326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11630850650",
+  "properties": {
+    "addr:housenumber": "1299",
+    "addr:postcode": "5539",
+    "addr:street": "Avenida General San Martín",
+    "amenity": "doctors",
+    "contact:phone": "54 0261 4597105",
+    "name": "Consultorio Especialidades Medicas",
+    "id": "node/11630850650"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8342695,
+      -32.8527478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11638369319",
+  "properties": {
+    "addr:city": "Agua Escondida",
+    "addr:full": "Ruta Provincial 190 Km 130",
+    "addr:postcode": "5621",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CAPAS 126 Agua Escondida",
+    "phone": "+54 260 4489100",
+    "ref:sisa_codigo": "50500772157189",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/11638369319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.3010572,
+      -36.1556877
     ]
   }
 }

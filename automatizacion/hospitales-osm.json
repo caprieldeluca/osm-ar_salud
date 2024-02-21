@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-02-08T02:03:15Z",
-    "timestamp_areas_base": "2024-02-08T01:13:15Z",
+    "timestamp_osm_base": "2024-02-21T19:17:44Z",
+    "timestamp_areas_base": "2024-02-21T17:09:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6183,6 +6183,8 @@
   "lat": -34.5808640,
   "lon": -68.5395081,
   "tags": {
+    "addr:city": "Veinticinco de Mayo",
+    "addr:postcode": "5615",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro de Salud"
@@ -16391,23 +16393,6 @@
 },
 {
   "type": "node",
-  "id": 7160773485,
-  "lat": -27.4777400,
-  "lon": -58.8224950,
-  "tags": {
-    "addr:housenumber": "2310",
-    "addr:postcode": "3400",
-    "addr:street": "Avenida Pedro Ferré",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Familia Bercomat",
-    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-12:30",
-    "phone:AR": "0800-555-2372",
-    "website": "https://www.familiabercomat.com"
-  }
-},
-{
-  "type": "node",
   "id": 7204020155,
   "lat": -32.8922020,
   "lon": -68.8320018,
@@ -17263,9 +17248,17 @@
   "lat": -36.2306444,
   "lon": -66.9401667,
   "tags": {
+    "addr:city": "Santa Isabel",
+    "addr:housenumber": "380",
+    "addr:postcode": "6323",
+    "addr:street": "Emilio Fernández",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Ctro. de Salud Dr. Manuel Perez"
+    "name": "Centro de Salud Doctor Manuel Perez",
+    "official_name": "Establecimiento Asistencial Dr. Manuel Perez",
+    "phone": "+54 2338 493117",
+    "ref:sisa_codigo": "10420492153029",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -23215,8 +23208,8 @@
 {
   "type": "node",
   "id": 11412741329,
-  "lat": -43.0915614,
-  "lon": -71.4635185,
+  "lat": -43.0915399,
+  "lon": -71.4636191,
   "tags": {
     "addr:city": "Trevelin",
     "addr:housenumber": "955",
@@ -23227,6 +23220,7 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Rural Trevelin",
+    "operator": "Ministerio de Salud - Gobierno de Chubut",
     "operator:type": "public",
     "phone": "+542945480132;+542945481083",
     "ref:sisa_codigo": "10260352129037",
@@ -29660,7 +29654,7 @@
     "addr:state": "Chaco",
     "addr:street": "Juan Pellizardi",
     "amenity": "hospital",
-    "building": "yes",
+    "building": "hospital",
     "healthcare": "hospital",
     "healthcare:speciality": "general;dentistry",
     "name": "Dr Tusso",
@@ -36139,7 +36133,7 @@
     "emergency": "yes",
     "full_name": "Centro Español para el Manejo de Enfermedades Crónicas",
     "healthcare": "hospital",
-    "name": "CEMEC",
+    "name": "Cemec",
     "old_name": "Hospital Español",
     "phone": "+54 264 4228087"
   }
@@ -40244,12 +40238,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:street": "Sarmiento",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
-    "name": "Swiss Medical",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Swiss Medical"
   }
 },
 {
@@ -43930,9 +43922,11 @@
     5902477147,
     5902477145,
     5902477144,
-    5902477143,
-    5902477146,
     5902477148,
+    11647047667,
+    11647047666,
+    11647047665,
+    11647047664,
     5902477149,
     5902477141,
     5902477142,
@@ -43940,6 +43934,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "building": "hospital",
     "healthcare": "hospital",
     "name": "Sayago"
   }
@@ -43956,6 +43951,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "building": "hospital",
     "healthcare": "hospital",
     "name": "Sayago"
   }
@@ -43967,11 +43963,14 @@
     5902477158,
     5902477157,
     5902477156,
+    11647047662,
+    11647047663,
     5902477155,
     5902477158
   ],
   "tags": {
     "amenity": "hospital",
+    "building": "hospital",
     "healthcare": "hospital",
     "name": "Sayago"
   }
@@ -43988,6 +43987,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "building": "hospital",
     "healthcare": "hospital",
     "name": "Sayago"
   }
@@ -44004,6 +44004,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "building": "hospital",
     "healthcare": "hospital",
     "name": "Sayago"
   }
@@ -47102,36 +47103,6 @@
 },
 {
   "type": "way",
-  "id": 791132008,
-  "nodes": [
-    7395851169,
-    7533856143,
-    7395851166,
-    7395851163,
-    7395851162,
-    7395851160,
-    7395851159,
-    7395851158,
-    7395851157,
-    7395851156,
-    7395851169
-  ],
-  "tags": {
-    "alt_name": "Centro de Integracion e Identidad Ciudadana",
-    "amenity": "hospital",
-    "description": "Usado solamente para posibles casos de Coronavirus (COVID-19)",
-    "fixme": "covid19",
-    "healthcare": "hospital",
-    "healthcare:speciality": "pulmonology;infectious_diseases",
-    "name": "Hospital Monovalente Carlos Malbrán",
-    "official_name": "Hospital Monovalente Respiratorio Doctor Carlos Gregorio Malbrán",
-    "old_name": "Hotel Sussex",
-    "operator": "Gobierno de Catamarca",
-    "operator:type": "public"
-  }
-},
-{
-  "type": "way",
   "id": 791217316,
   "nodes": [
     7396734044,
@@ -48441,37 +48412,21 @@
   "id": 851295267,
   "nodes": [
     7940033741,
+    11599199823,
+    11599199819,
     7940033740,
     7940033762,
     7940033739,
-    7940033738,
-    7940033737,
-    7940033736,
-    7940033735,
     7940033734,
-    7940033733,
-    7940033732,
-    7940033731,
     7940033730,
     7940033729,
     7940033728,
-    7940033727,
-    7940033726,
-    7940033725,
-    7940033724,
     7940033741
   ],
   "tags": {
-    "addr:city": "Trevelin",
-    "addr:housenumber": "995",
-    "addr:postcode": "U9203",
-    "addr:street": "Avenida San Martín",
     "amenity": "hospital",
-    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Rural de Trevelin",
-    "operator": "Ministerio de Salud - Gobierno del Chubut",
-    "operator:type": "public"
+    "name": "Hospital Rural de Trevelin"
   }
 },
 {
@@ -54219,6 +54174,28 @@
 },
 {
   "type": "way",
+  "id": 1218054915,
+  "nodes": [
+    11286453185,
+    11623840483,
+    11286453186,
+    11286453187,
+    11286453188,
+    11623840482,
+    11286453185
+  ],
+  "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:postcode": "4700",
+    "addr:street": "Calle 23",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Sanitario Valle Chico",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 1219407854,
   "nodes": [
     11298837638,
@@ -54570,6 +54547,27 @@
     "ref:sisa_codigo": "10221402127103",
     "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q94580870"
+  }
+},
+{
+  "type": "way",
+  "id": 1249655636,
+  "nodes": [
+    1934476833,
+    11616148809,
+    11616148810,
+    11616148811,
+    1934476833
+  ],
+  "tags": {
+    "addr:city": "Gutemberg",
+    "addr:postcode": "5249",
+    "addr:street": "Avenida San Martín",
+    "amenity": "hospital",
+    "email": "comunagutemberg@gmail.com",
+    "healthcare": "hospital",
+    "name": "Hospital Comunal De Gutenberg",
+    "phone": "352 2422 1164"
   }
 },
 {
@@ -57097,117 +57095,63 @@
 },
 {
   "type": "node",
-  "id": 7940033724,
-  "lat": -43.0910694,
-  "lon": -71.4633981
-},
-{
-  "type": "node",
-  "id": 7940033725,
-  "lat": -43.0910703,
-  "lon": -71.4637709
-},
-{
-  "type": "node",
-  "id": 7940033726,
-  "lat": -43.0910747,
-  "lon": -71.4638014
-},
-{
-  "type": "node",
-  "id": 7940033727,
-  "lat": -43.0910836,
-  "lon": -71.4638217
-},
-{
-  "type": "node",
   "id": 7940033728,
-  "lat": -43.0911029,
-  "lon": -71.4638359
+  "lat": -43.0910766,
+  "lon": -71.4637875
 },
 {
   "type": "node",
   "id": 7940033729,
-  "lat": -43.0911267,
-  "lon": -71.4638380
+  "lat": -43.0911138,
+  "lon": -71.4638376
 },
 {
   "type": "node",
   "id": 7940033730,
-  "lat": -43.0922192,
-  "lon": -71.4638237
-},
-{
-  "type": "node",
-  "id": 7940033731,
-  "lat": -43.0922385,
-  "lon": -71.4638217
-},
-{
-  "type": "node",
-  "id": 7940033732,
-  "lat": -43.0922593,
-  "lon": -71.4638095
-},
-{
-  "type": "node",
-  "id": 7940033733,
-  "lat": -43.0922697,
-  "lon": -71.4637851
+  "lat": -43.0921660,
+  "lon": -71.4638285
 },
 {
   "type": "node",
   "id": 7940033734,
-  "lat": -43.0922712,
-  "lon": -71.4637465
-},
-{
-  "type": "node",
-  "id": 7940033735,
-  "lat": -43.0922651,
-  "lon": -71.4625492
-},
-{
-  "type": "node",
-  "id": 7940033736,
-  "lat": -43.0922583,
-  "lon": -71.4625259
-},
-{
-  "type": "node",
-  "id": 7940033737,
-  "lat": -43.0922446,
-  "lon": -71.4625072
-},
-{
-  "type": "node",
-  "id": 7940033738,
-  "lat": -43.0922259,
-  "lon": -71.4625025
+  "lat": -43.0922018,
+  "lon": -71.4637790
 },
 {
   "type": "node",
   "id": 7940033739,
-  "lat": -43.0921099,
-  "lon": -71.4625025
+  "lat": -43.0921965,
+  "lon": -71.4626491
 },
 {
   "type": "node",
   "id": 7940033740,
-  "lat": -43.0914562,
-  "lon": -71.4628805
+  "lat": -43.0912961,
+  "lon": -71.4626078
 },
 {
   "type": "node",
   "id": 7940033741,
-  "lat": -43.0910674,
-  "lon": -71.4628834
+  "lat": -43.0910724,
+  "lon": -71.4628849
 },
 {
   "type": "node",
   "id": 7940033762,
-  "lat": -43.0921119,
-  "lon": -71.4628653
+  "lat": -43.0921602,
+  "lon": -71.4626003
+},
+{
+  "type": "node",
+  "id": 11599199819,
+  "lat": -43.0912974,
+  "lon": -71.4628829
+},
+{
+  "type": "node",
+  "id": 11599199823,
+  "lat": -43.0911849,
+  "lon": -71.4628839
 },
 {
   "type": "node",
@@ -86732,158 +86676,182 @@
 {
   "type": "node",
   "id": 5902477141,
-  "lat": -31.5855978,
-  "lon": -60.7232931
+  "lat": -31.5855828,
+  "lon": -60.7233002
 },
 {
   "type": "node",
   "id": 5902477142,
-  "lat": -31.5855837,
-  "lon": -60.7233741
-},
-{
-  "type": "node",
-  "id": 5902477143,
-  "lat": -31.5856645,
-  "lon": -60.7235638
+  "lat": -31.5855676,
+  "lon": -60.7233908
 },
 {
   "type": "node",
   "id": 5902477144,
-  "lat": -31.5857815,
-  "lon": -60.7235918
+  "lat": -31.5857738,
+  "lon": -60.7235998
 },
 {
   "type": "node",
   "id": 5902477145,
-  "lat": -31.5857682,
-  "lon": -60.7236684
-},
-{
-  "type": "node",
-  "id": 5902477146,
-  "lat": -31.5856622,
-  "lon": -60.7235773
+  "lat": -31.5857605,
+  "lon": -60.7236787
 },
 {
   "type": "node",
   "id": 5902477147,
-  "lat": -31.5858752,
-  "lon": -60.7236941
+  "lat": -31.5858610,
+  "lon": -60.7237021
 },
 {
   "type": "node",
   "id": 5902477148,
-  "lat": -31.5854383,
-  "lon": -60.7235237
+  "lat": -31.5854371,
+  "lon": -60.7235217
 },
 {
   "type": "node",
   "id": 5902477149,
-  "lat": -31.5854832,
-  "lon": -60.7232657
+  "lat": -31.5854780,
+  "lon": -60.7232759
 },
 {
   "type": "node",
   "id": 5902477150,
-  "lat": -31.5859169,
-  "lon": -60.7234539
+  "lat": -31.5859004,
+  "lon": -60.7234680
 },
 {
   "type": "node",
   "id": 5902477151,
-  "lat": -31.5854860,
-  "lon": -60.7232374
+  "lat": -31.5854786,
+  "lon": -60.7232429
 },
 {
   "type": "node",
   "id": 5902477152,
-  "lat": -31.5858508,
-  "lon": -60.7233266
+  "lat": -31.5858393,
+  "lon": -60.7233296
 },
 {
   "type": "node",
   "id": 5902477153,
-  "lat": -31.5858808,
-  "lon": -60.7231575
+  "lat": -31.5858687,
+  "lon": -60.7231611
 },
 {
   "type": "node",
   "id": 5902477154,
-  "lat": -31.5855160,
-  "lon": -60.7230684
+  "lat": -31.5855080,
+  "lon": -60.7230744
 },
 {
   "type": "node",
   "id": 5902477155,
-  "lat": -31.5855366,
-  "lon": -60.7229596
+  "lat": -31.5854793,
+  "lon": -60.7230361
 },
 {
   "type": "node",
   "id": 5902477156,
-  "lat": -31.5859033,
-  "lon": -60.7230504
+  "lat": -31.5858949,
+  "lon": -60.7230593
 },
 {
   "type": "node",
   "id": 5902477157,
-  "lat": -31.5859345,
-  "lon": -60.7228770
+  "lat": -31.5859253,
+  "lon": -60.7228924
 },
 {
   "type": "node",
   "id": 5902477158,
-  "lat": -31.5855677,
-  "lon": -60.7227862
+  "lat": -31.5855239,
+  "lon": -60.7227915
 },
 {
   "type": "node",
   "id": 5902477159,
-  "lat": -31.5855873,
-  "lon": -60.7226831
+  "lat": -31.5855791,
+  "lon": -60.7226884
 },
 {
   "type": "node",
   "id": 5902477160,
-  "lat": -31.5859564,
-  "lon": -60.7227735
+  "lat": -31.5859403,
+  "lon": -60.7227791
 },
 {
   "type": "node",
   "id": 5902477161,
-  "lat": -31.5859881,
-  "lon": -60.7225952
+  "lat": -31.5859704,
+  "lon": -60.7226144
 },
 {
   "type": "node",
   "id": 5902477162,
-  "lat": -31.5856189,
-  "lon": -60.7225048
+  "lat": -31.5856092,
+  "lon": -60.7225237
 },
 {
   "type": "node",
   "id": 5902477163,
-  "lat": -31.5856709,
-  "lon": -60.7222245
+  "lat": -31.5856473,
+  "lon": -60.7222316
 },
 {
   "type": "node",
   "id": 5902477164,
-  "lat": -31.5860415,
-  "lon": -60.7223196
+  "lat": -31.5860142,
+  "lon": -60.7223263
 },
 {
   "type": "node",
   "id": 5902477165,
-  "lat": -31.5860091,
-  "lon": -60.7224936
+  "lat": -31.5859819,
+  "lon": -60.7224987
 },
 {
   "type": "node",
   "id": 5902477166,
-  "lat": -31.5856385,
-  "lon": -60.7223985
+  "lat": -31.5856150,
+  "lon": -60.7224040
+},
+{
+  "type": "node",
+  "id": 11647047662,
+  "lat": -31.5855796,
+  "lon": -60.7229801
+},
+{
+  "type": "node",
+  "id": 11647047663,
+  "lat": -31.5855654,
+  "lon": -60.7230577
+},
+{
+  "type": "node",
+  "id": 11647047664,
+  "lat": -31.5854629,
+  "lon": -60.7233657
+},
+{
+  "type": "node",
+  "id": 11647047665,
+  "lat": -31.5854427,
+  "lon": -60.7233610
+},
+{
+  "type": "node",
+  "id": 11647047666,
+  "lat": -31.5854259,
+  "lon": -60.7234609
+},
+{
+  "type": "node",
+  "id": 11647047667,
+  "lat": -31.5854465,
+  "lon": -60.7234657
 },
 {
   "type": "node",
@@ -101402,26 +101370,26 @@
 {
   "type": "node",
   "id": 4699592485,
-  "lat": -34.6043819,
-  "lon": -58.3733983
+  "lat": -34.6043642,
+  "lon": -58.3733701
 },
 {
   "type": "node",
   "id": 4699592486,
-  "lat": -34.6044004,
-  "lon": -58.3737480
+  "lat": -34.6043827,
+  "lon": -58.3737198
 },
 {
   "type": "node",
   "id": 4699592487,
-  "lat": -34.6042308,
-  "lon": -58.3737612
+  "lat": -34.6042131,
+  "lon": -58.3737330
 },
 {
   "type": "node",
   "id": 4699592488,
-  "lat": -34.6042124,
-  "lon": -58.3734115
+  "lat": -34.6041947,
+  "lon": -58.3733833
 },
 {
   "type": "node",
@@ -109207,9 +109175,39 @@
 },
 {
   "type": "node",
-  "id": 7395851169,
-  "lat": -28.5048808,
-  "lon": -65.7822409
+  "id": 11286453185,
+  "lat": -28.5069424,
+  "lon": -65.8167468
+},
+{
+  "type": "node",
+  "id": 11286453186,
+  "lat": -28.5073764,
+  "lon": -65.8160669
+},
+{
+  "type": "node",
+  "id": 11286453187,
+  "lat": -28.5081141,
+  "lon": -65.8165487
+},
+{
+  "type": "node",
+  "id": 11286453188,
+  "lat": -28.5076115,
+  "lon": -65.8173101
+},
+{
+  "type": "node",
+  "id": 11623840482,
+  "lat": -28.5069565,
+  "lon": -65.8167791
+},
+{
+  "type": "node",
+  "id": 11623840483,
+  "lat": -28.5069447,
+  "lon": -65.8167119
 },
 {
   "type": "node",
@@ -109234,60 +109232,6 @@
   "id": 5396664089,
   "lat": -28.3971257,
   "lon": -66.2182744
-},
-{
-  "type": "node",
-  "id": 7395851156,
-  "lat": -28.5033628,
-  "lon": -65.7816455
-},
-{
-  "type": "node",
-  "id": 7395851157,
-  "lat": -28.5029550,
-  "lon": -65.7814067
-},
-{
-  "type": "node",
-  "id": 7395851158,
-  "lat": -28.5027146,
-  "lon": -65.7811519
-},
-{
-  "type": "node",
-  "id": 7395851159,
-  "lat": -28.5022691,
-  "lon": -65.7806825
-},
-{
-  "type": "node",
-  "id": 7395851160,
-  "lat": -28.5024694,
-  "lon": -65.7805404
-},
-{
-  "type": "node",
-  "id": 7395851162,
-  "lat": -28.5030823,
-  "lon": -65.7803553
-},
-{
-  "type": "node",
-  "id": 7395851163,
-  "lat": -28.5035726,
-  "lon": -65.7805431
-},
-{
-  "type": "node",
-  "id": 7395851166,
-  "lat": -28.5044730,
-  "lon": -65.7809213
-},
-{
-  "type": "node",
-  "id": 7533856143,
-  "lat": -28.5048030,
-  "lon": -65.7817903
 },
 {
   "type": "node",
@@ -110452,6 +110396,30 @@
   "id": 10686740355,
   "lat": -29.9004742,
   "lon": -63.7200282
+},
+{
+  "type": "node",
+  "id": 1934476833,
+  "lat": -29.7206842,
+  "lon": -63.5131229
+},
+{
+  "type": "node",
+  "id": 11616148809,
+  "lat": -29.7203059,
+  "lon": -63.5128403
+},
+{
+  "type": "node",
+  "id": 11616148810,
+  "lat": -29.7200518,
+  "lon": -63.5132967
+},
+{
+  "type": "node",
+  "id": 11616148811,
+  "lat": -29.7204322,
+  "lon": -63.5135740
 },
 {
   "type": "node",
