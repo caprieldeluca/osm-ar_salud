@@ -41047,6 +41047,52 @@
 },
 {
   "type": "Feature",
+  "id": "way/1254168829",
+  "properties": {
+    "addr:city": "Santos Lugares",
+    "addr:housenumber": "1301",
+    "addr:postcode": "B1676",
+    "addr:street": "425 - Rodríguez Peña",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Lopéz",
+    "id": "way/1254168829"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5420466,
+          -34.5971353
+        ],
+        [
+          -58.5420923,
+          -34.5971661
+        ],
+        [
+          -58.5420312,
+          -34.5972273
+        ],
+        [
+          -58.5420032,
+          -34.5972086
+        ],
+        [
+          -58.5419996,
+          -34.5971853
+        ],
+        [
+          -58.5420466,
+          -34.5971353
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -52622,23 +52668,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2048015831",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Americana",
-    "id": "node/2048015831"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.8483725,
-      -32.9242587
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2048015835",
   "properties": {
     "amenity": "pharmacy",
@@ -58079,16 +58108,21 @@
   "type": "Feature",
   "id": "node/2393875591",
   "properties": {
+    "addr:city": "Mendoza",
+    "addr:housenumber": "398",
+    "addr:postcode": "5501",
+    "addr:street": "Entre Ríos",
     "amenity": "pharmacy",
+    "contact:phone": "54 0261 0261 4256370",
     "healthcare": "pharmacy",
-    "name": "Mesura",
+    "name": "Farmacia Alto Arenales",
     "id": "node/2393875591"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8327757,
-      -32.8859698
+      -68.8328048,
+      -32.8859768
     ]
   }
 },
@@ -81655,10 +81689,13 @@
   "id": "node/3825498667",
   "properties": {
     "addr:city": "Posadas",
+    "addr:housenumber": "4888",
     "addr:postcode": "3300",
     "addr:street": "Avenida Blas Parera",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmacia de la Ciudad | Sucursal Blas Parera",
     "id": "node/3825498667"
   },
   "geometry": {
@@ -84043,24 +84080,6 @@
     "coordinates": [
       -54.5753039,
       -25.5991559
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3953670144",
-  "properties": {
-    "addr:housenumber": "141",
-    "addr:street": "Corrientes",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/3953670144"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.8346532,
-      -32.8824907
     ]
   }
 },
@@ -105394,8 +105413,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8340342,
-      -32.8834075
+      -68.8340591,
+      -32.8833796
     ]
   }
 },
@@ -114017,6 +114036,8 @@
     "addr:postcode": "R8324",
     "addr:street": "Avenida Leandro N. Alem",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Cruz del Sur",
     "id": "node/5436251022"
@@ -114024,8 +114045,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9730844,
-      -38.9395348
+      -67.9730744,
+      -38.9394923
     ]
   }
 },
@@ -141157,6 +141178,7 @@
   "id": "node/7698197057",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "San Carlos",
     "id": "node/7698197057"
   },
@@ -148855,8 +148877,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -63.2609915,
-      -32.3933702
+      -63.2608158,
+      -32.3934472
     ]
   }
 },
@@ -168414,7 +168436,7 @@
   "properties": {
     "addr:street": "Constitución",
     "amenity": "pharmacy",
-    "name": "Farmacia",
+    "healthcare": "pharmacy",
     "id": "node/11178959837"
   },
   "geometry": {
@@ -171449,6 +171471,7 @@
     "addr:postcode": "9203",
     "addr:street": "Avenida Patagonia",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Arienti",
     "id": "node/11571480079"
   },
@@ -171521,7 +171544,9 @@
   "id": "node/11579551448",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2024-02-02",
     "currency:XBT": "yes",
+    "healthcare": "pharmacy",
     "payment:lightning": "yes",
     "id": "node/11579551448"
   },
@@ -171677,6 +171702,55 @@
     "coordinates": [
       -68.8342875,
       -32.8525604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11658437772",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11658437772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -54.5836981,
+      -25.5967255
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11669735547",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Masterfarma",
+    "id": "node/11669735547"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -53.6462712,
+      -26.2502967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11669735549",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmácia Zapaia",
+    "id": "node/11669735549"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -53.6454204,
+      -26.2546541
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-02-21T19:18:46Z",
-    "timestamp_areas_base": "2024-02-21T17:09:59Z",
+    "timestamp_osm_base": "2024-02-29T09:52:15Z",
+    "timestamp_areas_base": "2024-02-29T07:13:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1290,8 +1290,8 @@
 {
   "type": "node",
   "id": 2393875585,
-  "lat": -32.8855586,
-  "lon": -68.8325294,
+  "lat": -32.8857786,
+  "lon": -68.8325211,
   "tags": {
     "addr:housenumber": "1519",
     "addr:street": "José Federico Moreno",
@@ -43523,6 +43523,7 @@
   "lon": -58.6127475,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "DIM"
   }
 },
@@ -44206,6 +44207,7 @@
   "lon": -58.6168289,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Tesla"
   }
 },
@@ -51605,6 +51607,7 @@
     "addr:street": "Avenida Francisco Beiró",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "Clinica Altergarten",
     "wikidata": "Q93139751"
   }
@@ -67287,6 +67290,44 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Sanatório Privado Punilla"
+  }
+},
+{
+  "type": "way",
+  "id": 1254132098,
+  "nodes": [
+    11657456909,
+    11657456910,
+    11657456912,
+    11657456913,
+    11657456909
+  ],
+  "tags": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "3438",
+    "addr:postcode": "B1650",
+    "addr:street": "54 - Bartolomé Mitre",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Policlinica Mitre"
+  }
+},
+{
+  "type": "way",
+  "id": 1255734754,
+  "nodes": [
+    11673403491,
+    11673403492,
+    11673403493,
+    11673403494,
+    11673403491
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Chautemps"
   }
 },
 {
@@ -86285,6 +86326,30 @@
 },
 {
   "type": "node",
+  "id": 11673403491,
+  "lat": -34.7815849,
+  "lon": -58.8407693
+},
+{
+  "type": "node",
+  "id": 11673403492,
+  "lat": -34.7815100,
+  "lon": -58.8407134
+},
+{
+  "type": "node",
+  "id": 11673403493,
+  "lat": -34.7814109,
+  "lon": -58.8409281
+},
+{
+  "type": "node",
+  "id": 11673403494,
+  "lat": -34.7814834,
+  "lon": -58.8409870
+},
+{
+  "type": "node",
   "id": 7528916403,
   "lat": -34.7854995,
   "lon": -58.8186678
@@ -94772,6 +94837,30 @@
   "id": 4598821317,
   "lat": -34.5797387,
   "lon": -58.5344043
+},
+{
+  "type": "node",
+  "id": 11657456909,
+  "lat": -34.5747544,
+  "lon": -58.5358432
+},
+{
+  "type": "node",
+  "id": 11657456910,
+  "lat": -34.5748257,
+  "lon": -58.5357540
+},
+{
+  "type": "node",
+  "id": 11657456912,
+  "lat": -34.5747806,
+  "lon": -58.5356997
+},
+{
+  "type": "node",
+  "id": 11657456913,
+  "lat": -34.5747061,
+  "lon": -58.5357864
 },
 {
   "type": "node",

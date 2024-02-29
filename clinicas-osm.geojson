@@ -13533,6 +13533,7 @@
     "addr:street": "Avenida Francisco Beiró",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "Clinica Altergarten",
     "wikidata": "Q93139751",
     "id": "way/471152820"
@@ -47753,6 +47754,86 @@
 },
 {
   "type": "Feature",
+  "id": "way/1254132098",
+  "properties": {
+    "addr:city": "General San Martín",
+    "addr:housenumber": "3438",
+    "addr:postcode": "B1650",
+    "addr:street": "54 - Bartolomé Mitre",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Policlinica Mitre",
+    "id": "way/1254132098"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5358432,
+          -34.5747544
+        ],
+        [
+          -58.535754,
+          -34.5748257
+        ],
+        [
+          -58.5356997,
+          -34.5747806
+        ],
+        [
+          -58.5357864,
+          -34.5747061
+        ],
+        [
+          -58.5358432,
+          -34.5747544
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1255734754",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Chautemps",
+    "id": "way/1255734754"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.8407693,
+          -34.7815849
+        ],
+        [
+          -58.8407134,
+          -34.78151
+        ],
+        [
+          -58.8409281,
+          -34.7814109
+        ],
+        [
+          -58.840987,
+          -34.7814834
+        ],
+        [
+          -58.8407693,
+          -34.7815849
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -49515,8 +49596,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8325294,
-      -32.8855586
+      -68.8325211,
+      -32.8857786
     ]
   }
 },
@@ -106870,6 +106951,7 @@
   "id": "node/10258543698",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "DIM",
     "id": "node/10258543698"
   },
@@ -107859,6 +107941,7 @@
   "id": "node/11002568446",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Tesla",
     "id": "node/11002568446"
   },
