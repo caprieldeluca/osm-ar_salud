@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-02-29T09:53:15Z",
-    "timestamp_areas_base": "2024-02-29T07:13:42Z",
+    "timestamp_osm_base": "2024-03-07T21:22:08Z",
+    "timestamp_areas_base": "2024-03-07T18:05:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -94,18 +94,6 @@
     "is_in": "Catamarca",
     "name": "Minerva",
     "operator": "Farmacias Minerva"
-  }
-},
-{
-  "type": "node",
-  "id": 422916860,
-  "lat": -28.4686207,
-  "lon": -65.7781977,
-  "tags": {
-    "addr:street": "Rivadavia",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Catedral"
   }
 },
 {
@@ -1644,6 +1632,7 @@
   "lon": -60.6443261,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Solari"
   }
 },
@@ -2228,11 +2217,19 @@
 {
   "type": "node",
   "id": 1066582541,
-  "lat": -28.4695448,
-  "lon": -65.7771908,
+  "lat": -28.4695259,
+  "lon": -65.7771781,
   "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "675",
+    "addr:postcode": "K4700BOM",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "brand": "FARMAR",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmar Virgen del Carmen",
+    "opening_hours": "24/7"
   }
 },
 {
@@ -2897,6 +2894,7 @@
   "lon": -58.4740353,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-01-31",
     "healthcare": "pharmacy",
     "name": "FarmaPlus"
   }
@@ -4560,12 +4558,19 @@
 {
   "type": "node",
   "id": 1526255778,
-  "lat": -28.4689567,
-  "lon": -65.7782421,
+  "lat": -28.4689611,
+  "lon": -65.7781822,
   "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "652",
+    "addr:postcode": "K4700EJN",
+    "addr:street": "Rivadavia",
     "amenity": "pharmacy",
-    "dispensing": "no",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Central",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:00-21:00; Sa 08:30-13:00,17:30-21:00",
+    "operator": "Minerva Farmacias"
   }
 },
 {
@@ -6584,17 +6589,6 @@
     "phone": "+543814219754",
     "ref:sisa_codigo": "70900842399340",
     "ref:sisa_tipologia": "FARMACIA"
-  }
-},
-{
-  "type": "node",
-  "id": 1871793981,
-  "lat": -28.4694857,
-  "lon": -65.7773114,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "no",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -25571,14 +25565,15 @@
 {
   "type": "node",
   "id": 3627426268,
-  "lat": -32.9745764,
-  "lon": -60.6453428,
+  "lat": -32.9746079,
+  "lon": -60.6453884,
   "tags": {
     "addr:housenumber": "3207",
     "addr:postcode": "S2001",
     "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "contact:phone": "+54 341 482-4482",
+    "healthcare": "pharmacy",
     "name": "Pieristei"
   }
 },
@@ -28249,8 +28244,8 @@
 {
   "type": "node",
   "id": 3835195205,
-  "lat": -37.3313558,
-  "lon": -59.1265979,
+  "lat": -37.3313333,
+  "lon": -59.1266338,
   "tags": {
     "addr:housenumber": "998",
     "addr:street": "Avenida Avellaneda",
@@ -28263,8 +28258,8 @@
 {
   "type": "node",
   "id": 3835195208,
-  "lat": -37.3351101,
-  "lon": -59.1243704,
+  "lat": -37.3351258,
+  "lon": -59.1244246,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -28782,7 +28777,10 @@
   "lon": -58.5392842,
   "tags": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "drive_through": "no",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "opening_hours": "24/7"
   }
@@ -33554,7 +33552,8 @@
     "opening_hours": "24/7",
     "operator": "silvia",
     "phone": "4438592",
-    "website": "http://www.farmaciabello.com.ar"
+    "website": "http://www.farmaciabello.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -42213,19 +42212,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Dalton"
-  }
-},
-{
-  "type": "node",
-  "id": 4698243466,
-  "lat": -34.5950632,
-  "lon": -58.3795673,
-  "tags": {
-    "addr:street": "Avenida Santa Fe",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Club Med",
-    "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
 {
@@ -60467,6 +60453,7 @@
   "lon": -60.6478241,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Solari"
   }
 },
@@ -61027,8 +61014,8 @@
 {
   "type": "node",
   "id": 6828142601,
-  "lat": -34.5751205,
-  "lon": -58.4600230,
+  "lat": -34.5750940,
+  "lon": -58.4600686,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:housenumber": "3371",
@@ -90898,6 +90885,94 @@
   }
 },
 {
+  "type": "node",
+  "id": 11680019644,
+  "lat": -32.8643271,
+  "lon": -68.8439718,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:street": "Italia",
+    "amenity": "pharmacy",
+    "contact:phone": "549 0261 4470712",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Amistad"
+  }
+},
+{
+  "type": "node",
+  "id": 11680019649,
+  "lat": -32.8450893,
+  "lon": -68.8468123,
+  "tags": {
+    "addr:housenumber": "2190",
+    "addr:street": "Perú",
+    "amenity": "pharmacy",
+    "contact:phone": "549 0261 4470712",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Milagro"
+  }
+},
+{
+  "type": "node",
+  "id": 11687860659,
+  "lat": -32.9731800,
+  "lon": -60.6450596,
+  "tags": {
+    "addr:housenumber": "3098",
+    "addr:postcode": "S2001",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "contact:phone": "+54 341 480-8140",
+    "healthcare": "pharmacy",
+    "level": "0;1",
+    "name": "Farmacía Airaldi",
+    "old_name": "Farmacia Ferraín"
+  }
+},
+{
+  "type": "node",
+  "id": 11688908255,
+  "lat": -38.1076703,
+  "lon": -57.5764886,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11690370469,
+  "lat": -27.4164192,
+  "lon": -55.9128990,
+  "tags": {
+    "addr:housenumber": "7476",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Cocomarola",
+    "amenity": "pharmacy",
+    "name": "Farmacenter",
+    "name:es": "FarmaCenter",
+    "phone": "+54 376 4371248"
+  }
+},
+{
+  "type": "node",
+  "id": 11692035411,
+  "lat": -28.4699328,
+  "lon": -65.7781752,
+  "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "740",
+    "addr:postcode": "K4700EJP",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Rivadavia - Colón",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+    "operator": "Red Colón"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -91430,26 +91505,6 @@
     "payment:cash": "yes",
     "shop": "chemist",
     "wheelchair": "limited"
-  }
-},
-{
-  "type": "way",
-  "id": 297350710,
-  "nodes": [
-    3012255178,
-    3012255179,
-    3012255180,
-    3012255181,
-    3012255178
-  ],
-  "tags": {
-    "addr:housenumber": "3098",
-    "addr:postcode": "S2001",
-    "addr:street": "Sarmiento",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "contact:phone": "+54 341 480-8140",
-    "name": "Farmacia Ferran"
   }
 },
 {
@@ -110023,6 +110078,29 @@
   }
 },
 {
+  "type": "way",
+  "id": 1257630803,
+  "nodes": [
+    422916860,
+    11692120911,
+    11692137925,
+    11692137929,
+    11692137930,
+    422916860
+  ],
+  "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:postcode": "K4700EJN",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Catedral",
+    "operator": "Red Colón"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -120479,30 +120557,6 @@
   "id": 3741816277,
   "lat": -32.9651559,
   "lon": -60.6581976
-},
-{
-  "type": "node",
-  "id": 3012255178,
-  "lat": -32.9730980,
-  "lon": -60.6451111
-},
-{
-  "type": "node",
-  "id": 3012255179,
-  "lat": -32.9731340,
-  "lon": -60.6449099
-},
-{
-  "type": "node",
-  "id": 3012255180,
-  "lat": -32.9733073,
-  "lon": -60.6449475
-},
-{
-  "type": "node",
-  "id": 3012255181,
-  "lat": -32.9732736,
-  "lon": -60.6451459
 },
 {
   "type": "node",
@@ -133647,20 +133701,20 @@
 {
   "type": "node",
   "id": 4635820823,
-  "lat": -34.5813156,
-  "lon": -58.4746449
+  "lat": -34.5813091,
+  "lon": -58.4746379
 },
 {
   "type": "node",
   "id": 4635820824,
-  "lat": -34.5811528,
-  "lon": -58.4747978
+  "lat": -34.5812025,
+  "lon": -58.4747381
 },
 {
   "type": "node",
   "id": 4635820825,
-  "lat": -34.5810713,
-  "lon": -58.4746676
+  "lat": -34.5811254,
+  "lon": -58.4746116
 },
 {
   "type": "node",
@@ -136067,6 +136121,36 @@
   "id": 9137871330,
   "lat": -28.4966427,
   "lon": -65.8013288
+},
+{
+  "type": "node",
+  "id": 422916860,
+  "lat": -28.4685472,
+  "lon": -65.7782658
+},
+{
+  "type": "node",
+  "id": 11692120911,
+  "lat": -28.4686504,
+  "lon": -65.7782597
+},
+{
+  "type": "node",
+  "id": 11692137925,
+  "lat": -28.4686304,
+  "lon": -65.7779150
+},
+{
+  "type": "node",
+  "id": 11692137929,
+  "lat": -28.4686249,
+  "lon": -65.7778268
+},
+{
+  "type": "node",
+  "id": 11692137930,
+  "lat": -28.4685256,
+  "lon": -65.7778338
 },
 {
   "type": "node",

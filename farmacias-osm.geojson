@@ -1173,47 +1173,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/297350710",
-  "properties": {
-    "addr:housenumber": "3098",
-    "addr:postcode": "S2001",
-    "addr:street": "Sarmiento",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "contact:phone": "+54 341 480-8140",
-    "name": "Farmacia Ferran",
-    "id": "way/297350710"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.6451111,
-          -32.973098
-        ],
-        [
-          -60.6451459,
-          -32.9732736
-        ],
-        [
-          -60.6449475,
-          -32.9733073
-        ],
-        [
-          -60.6449099,
-          -32.973134
-        ],
-        [
-          -60.6451111,
-          -32.973098
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/297437710",
   "properties": {
     "addr:housenumber": "1032",
@@ -11599,8 +11558,8 @@
     "coordinates": [
       [
         [
-          -58.4746449,
-          -34.5813156
+          -58.4746379,
+          -34.5813091
         ],
         [
           -58.4745386,
@@ -11611,16 +11570,16 @@
           -34.5812085
         ],
         [
-          -58.4746676,
-          -34.5810713
+          -58.4746116,
+          -34.5811254
         ],
         [
-          -58.4747978,
-          -34.5811528
+          -58.4747381,
+          -34.5812025
         ],
         [
-          -58.4746449,
-          -34.5813156
+          -58.4746379,
+          -34.5813091
         ]
       ]
     ]
@@ -41093,6 +41052,53 @@
 },
 {
   "type": "Feature",
+  "id": "way/1257630803",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:postcode": "K4700EJN",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Catedral",
+    "operator": "Red Colón",
+    "id": "way/1257630803"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.7782658,
+          -28.4685472
+        ],
+        [
+          -65.7782597,
+          -28.4686504
+        ],
+        [
+          -65.777915,
+          -28.4686304
+        ],
+        [
+          -65.7778268,
+          -28.4686249
+        ],
+        [
+          -65.7778338,
+          -28.4685256
+        ],
+        [
+          -65.7782658,
+          -28.4685472
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -41218,24 +41224,6 @@
     "coordinates": [
       -65.7796962,
       -28.4682791
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/422916860",
-  "properties": {
-    "addr:street": "Rivadavia",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Catedral",
-    "id": "node/422916860"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7781977,
-      -28.4686207
     ]
   }
 },
@@ -43457,6 +43445,7 @@
   "id": "node/807586861",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Solari",
     "id": "node/807586861"
   },
@@ -44320,15 +44309,23 @@
   "type": "Feature",
   "id": "node/1066582541",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "675",
+    "addr:postcode": "K4700BOM",
+    "addr:street": "San Martín",
     "amenity": "pharmacy",
+    "brand": "FARMAR",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmar Virgen del Carmen",
+    "opening_hours": "24/7",
     "id": "node/1066582541"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7771908,
-      -28.4695448
+      -65.7771781,
+      -28.4695259
     ]
   }
 },
@@ -45280,6 +45277,7 @@
   "id": "node/1177972555",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2024-01-31",
     "healthcare": "pharmacy",
     "name": "FarmaPlus",
     "id": "node/1177972555"
@@ -47708,16 +47706,23 @@
   "type": "Feature",
   "id": "node/1526255778",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "652",
+    "addr:postcode": "K4700EJN",
+    "addr:street": "Rivadavia",
     "amenity": "pharmacy",
-    "dispensing": "no",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmacia Central",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:00-21:00; Sa 08:30-13:00,17:30-21:00",
+    "operator": "Minerva Farmacias",
     "id": "node/1526255778"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7782421,
-      -28.4689567
+      -65.7781822,
+      -28.4689611
     ]
   }
 },
@@ -50642,23 +50647,6 @@
     "coordinates": [
       -65.2074801,
       -26.8305369
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1871793981",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "no",
-    "healthcare": "pharmacy",
-    "id": "node/1871793981"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7773114,
-      -28.4694857
     ]
   }
 },
@@ -78348,14 +78336,15 @@
     "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "contact:phone": "+54 341 482-4482",
+    "healthcare": "pharmacy",
     "name": "Pieristei",
     "id": "node/3627426268"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.6453428,
-      -32.9745764
+      -60.6453884,
+      -32.9746079
     ]
   }
 },
@@ -82262,8 +82251,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -59.1265979,
-      -37.3313558
+      -59.1266338,
+      -37.3313333
     ]
   }
 },
@@ -82279,8 +82268,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -59.1243704,
-      -37.3351101
+      -59.1244246,
+      -37.3351258
     ]
   }
 },
@@ -83039,7 +83028,10 @@
   "id": "node/3899132762",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "drive_through": "no",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "opening_hours": "24/7",
     "id": "node/3899132762"
@@ -89960,6 +89952,7 @@
     "operator": "silvia",
     "phone": "4438592",
     "website": "http://www.farmaciabello.com.ar",
+    "wheelchair": "yes",
     "id": "node/4362527989"
   },
   "geometry": {
@@ -102453,25 +102446,6 @@
     "coordinates": [
       -58.4392047,
       -34.6158365
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4698243466",
-  "properties": {
-    "addr:street": "Avenida Santa Fe",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Club Med",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "node/4698243466"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.3795673,
-      -34.5950632
     ]
   }
 },
@@ -129148,6 +129122,7 @@
   "id": "node/6680529086",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Solari",
     "id": "node/6680529086"
   },
@@ -130000,8 +129975,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.460023,
-      -34.5751205
+      -58.4600686,
+      -34.575094
     ]
   }
 },
@@ -171751,6 +171726,130 @@
     "coordinates": [
       -53.6454204,
       -26.2546541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11680019644",
+  "properties": {
+    "addr:housenumber": "20",
+    "addr:street": "Italia",
+    "amenity": "pharmacy",
+    "contact:phone": "549 0261 4470712",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Amistad",
+    "id": "node/11680019644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8439718,
+      -32.8643271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11680019649",
+  "properties": {
+    "addr:housenumber": "2190",
+    "addr:street": "Perú",
+    "amenity": "pharmacy",
+    "contact:phone": "549 0261 4470712",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Milagro",
+    "id": "node/11680019649"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8468123,
+      -32.8450893
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11687860659",
+  "properties": {
+    "addr:housenumber": "3098",
+    "addr:postcode": "S2001",
+    "addr:street": "Sarmiento",
+    "amenity": "pharmacy",
+    "contact:phone": "+54 341 480-8140",
+    "healthcare": "pharmacy",
+    "level": "0;1",
+    "name": "Farmacía Airaldi",
+    "old_name": "Farmacia Ferraín",
+    "id": "node/11687860659"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6450596,
+      -32.97318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11688908255",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/11688908255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5764886,
+      -38.1076703
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690370469",
+  "properties": {
+    "addr:housenumber": "7476",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Cocomarola",
+    "amenity": "pharmacy",
+    "name": "Farmacenter",
+    "name:es": "FarmaCenter",
+    "phone": "+54 376 4371248",
+    "id": "node/11690370469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.912899,
+      -27.4164192
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11692035411",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "740",
+    "addr:postcode": "K4700EJP",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Rivadavia - Colón",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+    "operator": "Red Colón",
+    "id": "node/11692035411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7781752,
+      -28.4699328
     ]
   }
 }

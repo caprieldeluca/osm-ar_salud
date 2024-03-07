@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-02-29T09:52:15Z",
-    "timestamp_areas_base": "2024-02-29T07:13:42Z",
+    "timestamp_osm_base": "2024-03-07T21:21:07Z",
+    "timestamp_areas_base": "2024-03-07T18:05:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4213,8 +4213,8 @@
 {
   "type": "node",
   "id": 3613679656,
-  "lat": -27.3672896,
-  "lon": -55.9003699,
+  "lat": -27.3673159,
+  "lon": -55.9003422,
   "tags": {
     "addr:housenumber": "2431",
     "addr:street": "Córdoba",
@@ -5676,7 +5676,8 @@
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Clinica de OjosTandil"
+    "healthcare:speciality": "ophthalmology",
+    "name": "Clinica de Ojos Tandil"
   }
 },
 {
@@ -45717,6 +45718,84 @@
   }
 },
 {
+  "type": "node",
+  "id": 11677366470,
+  "lat": -38.9421712,
+  "lon": -67.9884354,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "85",
+    "addr:postcode": "R8324",
+    "addr:street": "Libertad",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios de Pediatría",
+    "operator": "Policlínico Modelo de Cipolletti S.A.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 11677366472,
+  "lat": -38.9420593,
+  "lon": -67.9888890,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "98",
+    "addr:postcode": "R8324",
+    "addr:street": "Libertad",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policlínico Modelo de Cipolletti",
+    "operator": "Policlínico Modelo de Cipolletti S.A.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 11677366476,
+  "lat": -38.9414925,
+  "lon": -67.9889440,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "970",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro del Niño",
+    "operator": "Swiss Medical Group S.A.",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 11677366477,
+  "lat": -38.9416710,
+  "lon": -67.9886411,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios Montelpare"
+  }
+},
+{
+  "type": "node",
+  "id": 11689072396,
+  "lat": -33.2973998,
+  "lon": -68.0469116,
+  "tags": {
+    "addr:city": "Las Catitas",
+    "addr:postcode": "5594",
+    "addr:street": "Eulalia Calderón",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Medico Obra Social Del Personal De Alimentos Delegacion Santa Rosa",
+    "ref:sisa_codigo": "50501122757356",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -61433,99 +61512,6 @@
 },
 {
   "type": "way",
-  "id": 847820814,
-  "nodes": [
-    7911408530,
-    7911408529,
-    7911408525,
-    7911408526,
-    7911408523,
-    7911408527,
-    7911408533,
-    7911408534,
-    7911408531,
-    7911408530
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "98",
-    "addr:postcode": "R8324",
-    "addr:street": "Libertad",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Policlínico Modelo de Cipolletti",
-    "operator": "Policlínico Modelo de Cipolletti S.A.",
-    "operator:type": "private"
-  }
-},
-{
-  "type": "way",
-  "id": 847820815,
-  "nodes": [
-    7911408535,
-    7911408536,
-    7911408537,
-    7911408538,
-    7911408535
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "85",
-    "addr:postcode": "R8324",
-    "addr:street": "Libertad",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Consultorios de Pediatría",
-    "operator": "Policlínico Modelo de Cipolletti S.A.",
-    "operator:type": "private"
-  }
-},
-{
-  "type": "way",
-  "id": 847820820,
-  "nodes": [
-    7911408548,
-    7911408549,
-    7911408550,
-    7911408551,
-    7911408552,
-    7911408548
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Consultorios Montelpare"
-  }
-},
-{
-  "type": "way",
-  "id": 847820821,
-  "nodes": [
-    7911408553,
-    7911408554,
-    7911408555,
-    7911408560,
-    7911408556,
-    7911408557,
-    7911408553
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "970",
-    "addr:postcode": "R8324",
-    "addr:street": "General San Martín",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Centro del Niño",
-    "operator": "Swiss Medical Group S.A.",
-    "operator:type": "private"
-  }
-},
-{
-  "type": "way",
   "id": 852575307,
   "nodes": [
     7953102205,
@@ -73561,150 +73547,6 @@
   "id": 7207311205,
   "lat": -38.9401948,
   "lon": -67.9915451
-},
-{
-  "type": "node",
-  "id": 7911408523,
-  "lat": -38.9418693,
-  "lon": -67.9888589
-},
-{
-  "type": "node",
-  "id": 7911408525,
-  "lat": -38.9421035,
-  "lon": -67.9887278
-},
-{
-  "type": "node",
-  "id": 7911408526,
-  "lat": -38.9419100,
-  "lon": -67.9886608
-},
-{
-  "type": "node",
-  "id": 7911408527,
-  "lat": -38.9418422,
-  "lon": -67.9889905
-},
-{
-  "type": "node",
-  "id": 7911408529,
-  "lat": -38.9421928,
-  "lon": -67.9887587
-},
-{
-  "type": "node",
-  "id": 7911408530,
-  "lat": -38.9422770,
-  "lon": -67.9887879
-},
-{
-  "type": "node",
-  "id": 7911408531,
-  "lat": -38.9422436,
-  "lon": -67.9889471
-},
-{
-  "type": "node",
-  "id": 7911408533,
-  "lat": -38.9421237,
-  "lon": -67.9890879
-},
-{
-  "type": "node",
-  "id": 7911408534,
-  "lat": -38.9422080,
-  "lon": -67.9891171
-},
-{
-  "type": "node",
-  "id": 7911408535,
-  "lat": -38.9422308,
-  "lon": -67.9885398
-},
-{
-  "type": "node",
-  "id": 7911408536,
-  "lat": -38.9420787,
-  "lon": -67.9884868
-},
-{
-  "type": "node",
-  "id": 7911408537,
-  "lat": -38.9421115,
-  "lon": -67.9883311
-},
-{
-  "type": "node",
-  "id": 7911408538,
-  "lat": -38.9422637,
-  "lon": -67.9883841
-},
-{
-  "type": "node",
-  "id": 7911408548,
-  "lat": -38.9417292,
-  "lon": -67.9887206
-},
-{
-  "type": "node",
-  "id": 7911408549,
-  "lat": -38.9415948,
-  "lon": -67.9886745
-},
-{
-  "type": "node",
-  "id": 7911408550,
-  "lat": -38.9416195,
-  "lon": -67.9885590
-},
-{
-  "type": "node",
-  "id": 7911408551,
-  "lat": -38.9417179,
-  "lon": -67.9885937
-},
-{
-  "type": "node",
-  "id": 7911408552,
-  "lat": -38.9417446,
-  "lon": -67.9886423
-},
-{
-  "type": "node",
-  "id": 7911408553,
-  "lat": -38.9416159,
-  "lon": -67.9890515
-},
-{
-  "type": "node",
-  "id": 7911408554,
-  "lat": -38.9413438,
-  "lon": -67.9889562
-},
-{
-  "type": "node",
-  "id": 7911408555,
-  "lat": -38.9413692,
-  "lon": -67.9888364
-},
-{
-  "type": "node",
-  "id": 7911408556,
-  "lat": -38.9416412,
-  "lon": -67.9889318
-},
-{
-  "type": "node",
-  "id": 7911408557,
-  "lat": -38.9416328,
-  "lon": -67.9889716
-},
-{
-  "type": "node",
-  "id": 7911408560,
-  "lat": -38.9414933,
-  "lon": -67.9888800
 },
 {
   "type": "node",
