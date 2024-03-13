@@ -3101,6 +3101,9 @@
   "type": "Feature",
   "id": "way/336103884",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:postcode": "1425",
+    "addr:street": "Avenida Honduras",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
@@ -15051,28 +15054,28 @@
     "coordinates": [
       [
         [
-          -58.3920228,
-          -34.6124845
+          -58.3920215,
+          -34.6124988
         ],
         [
           -58.3920176,
-          -34.6125847
+          -34.612599
         ],
         [
-          -58.3919396,
-          -34.6125819
+          -58.3919409,
+          -34.6125962
         ],
         [
           -58.3919064,
           -34.6125528
         ],
         [
-          -58.3919105,
-          -34.6124803
+          -58.3919092,
+          -34.6124946
         ],
         [
-          -58.3920228,
-          -34.6124845
+          -58.3920215,
+          -34.6124988
         ]
       ]
     ]
@@ -28933,6 +28936,7 @@
     "addr:country": "AR",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Taboada",
     "id": "way/759903067"
   },
@@ -28941,24 +28945,24 @@
     "coordinates": [
       [
         [
-          -58.2207826,
-          -34.7445262
+          -58.2207819,
+          -34.7445263
         ],
         [
-          -58.2207558,
-          -34.7445604
+          -58.220756,
+          -34.7445612
         ],
         [
-          -58.2207075,
-          -34.7445367
+          -58.2207072,
+          -34.7445368
         ],
         [
-          -58.220733,
-          -34.7445014
+          -58.2207331,
+          -34.7445019
         ],
         [
-          -58.2207826,
-          -34.7445262
+          -58.2207819,
+          -34.7445263
         ]
       ]
     ]
@@ -39860,6 +39864,72 @@
 },
 {
   "type": "Feature",
+  "id": "way/1214119068",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "description": "República y Sarmiento",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "is_in": "Catamarca",
+    "name": "Minerva",
+    "operator": "Farmacias Minerva",
+    "id": "way/1214119068"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.7794476,
+          -28.4681048
+        ],
+        [
+          -65.7797237,
+          -28.4681353
+        ],
+        [
+          -65.7797206,
+          -28.468172
+        ],
+        [
+          -65.7797299,
+          -28.4681725
+        ],
+        [
+          -65.7797226,
+          -28.4682732
+        ],
+        [
+          -65.7797008,
+          -28.4682892
+        ],
+        [
+          -65.7796223,
+          -28.4682813
+        ],
+        [
+          -65.779631,
+          -28.4681702
+        ],
+        [
+          -65.779543,
+          -28.4681639
+        ],
+        [
+          -65.779445,
+          -28.4681569
+        ],
+        [
+          -65.7794476,
+          -28.4681048
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1221797828",
   "properties": {
     "amenity": "pharmacy",
@@ -41052,46 +41122,42 @@
 },
 {
   "type": "Feature",
-  "id": "way/1257630803",
+  "id": "way/1259598094",
   "properties": {
     "addr:city": "San Fernando del Valle de Catamarca",
     "addr:postcode": "K4700EJN",
     "addr:street": "Rivadavia",
     "amenity": "pharmacy",
-    "building": "yes",
+    "building": "retail",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Catedral",
     "operator": "Red Colón",
-    "id": "way/1257630803"
+    "id": "way/1259598094"
   },
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -65.7782658,
-          -28.4685472
+          -65.778264,
+          -28.4685444
         ],
         [
-          -65.7782597,
-          -28.4686504
+          -65.7780473,
+          -28.4685337
         ],
         [
-          -65.777915,
-          -28.4686304
+          -65.7780567,
+          -28.4684116
         ],
         [
-          -65.7778268,
-          -28.4686249
+          -65.7782677,
+          -28.4684245
         ],
         [
-          -65.7778338,
-          -28.4685256
-        ],
-        [
-          -65.7782658,
-          -28.4685472
+          -65.778264,
+          -28.4685444
         ]
       ]
     ]
@@ -41204,26 +41270,6 @@
     "coordinates": [
       -65.8014248,
       -28.4670013
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/422916857",
-  "properties": {
-    "amenity": "pharmacy",
-    "description": "República y Sarmiento",
-    "healthcare": "pharmacy",
-    "is_in": "Catamarca",
-    "name": "Minerva",
-    "operator": "Farmacias Minerva",
-    "id": "node/422916857"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7796962,
-      -28.4682791
     ]
   }
 },
@@ -42121,15 +42167,18 @@
   "id": "node/589309651",
   "properties": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Ocampo",
+    "name": "Farmacia Ocampo",
+    "opening_hours": "24/7",
+    "operator": "Minerva Farmacias",
     "id": "node/589309651"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7977502,
-      -28.47052
+      -65.797765,
+      -28.4705259
     ]
   }
 },
@@ -45296,7 +45345,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Tornu",
+    "name": "Leguizamón",
     "wheelchair": "yes",
     "id": "node/1177972570"
   },
@@ -46228,23 +46277,6 @@
     "coordinates": [
       -60.4509936,
       -38.7241266
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1312750657",
-  "properties": {
-    "addr:street": "Avenida Salvador María del Carril",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/1312750657"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4984225,
-      -34.5910478
     ]
   }
 },
@@ -55071,6 +55103,7 @@
   "id": "node/2279648815",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2024-03-13",
     "healthcare": "pharmacy",
     "name": "Rex",
     "id": "node/2279648815"
@@ -57854,9 +57887,12 @@
   "type": "Feature",
   "id": "node/2387637520",
   "properties": {
+    "addr:city": "Quilmes",
+    "addr:postcode": "1878",
     "addr:street": "Avenida Lamadrid",
     "amenity": "pharmacy",
-    "name": "Soy tu Farmacía",
+    "healthcare": "pharmacy",
+    "name": "Soy Tu Farmacia",
     "id": "node/2387637520"
   },
   "geometry": {
@@ -57872,6 +57908,7 @@
   "id": "node/2387637521",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Soy Tu Farmacia",
     "id": "node/2387637521"
   },
@@ -58968,14 +59005,14 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "San Andrés",
+    "name": "Farmacia San Andrés",
     "id": "node/2443028615"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8626161,
-      -32.9466472
+      -68.8626027,
+      -32.9465707
     ]
   }
 },
@@ -61552,6 +61589,7 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2024-03-13",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity",
@@ -61571,6 +61609,7 @@
   "id": "node/2603088548",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2024-03-13",
     "healthcare": "pharmacy",
     "name": "Nueva Monroe",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
@@ -66651,22 +66690,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2975678708",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/2975678708"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.3751263,
-      -34.5916311
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2983992087",
   "properties": {
     "addr:city": "Río Grande",
@@ -69028,6 +69051,7 @@
   "id": "node/3177062320",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Jonas Salk",
     "id": "node/3177062320"
   },
@@ -74589,22 +74613,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3503918104",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/3503918104"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.781021,
-      -28.4695709
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3513762340",
   "properties": {
     "addr:city": "Acassuso",
@@ -75926,6 +75934,7 @@
     "addr:housenumber": "1753",
     "addr:street": "Calle 15",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Pérez Martirena",
     "id": "node/3531722198"
   },
@@ -81684,7 +81693,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia de la Ciudad | Sucursal Blas Parera",
+    "name": "Farmacia de la Ciudad Sucursal Blas Parera",
     "id": "node/3825498667"
   },
   "geometry": {
@@ -84477,25 +84486,6 @@
     "coordinates": [
       -58.423271,
       -34.5979348
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3986521221",
-  "properties": {
-    "addr:street": "Estado de Palestina",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Ramil",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "node/3986521221"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4249608,
-      -34.5972141
     ]
   }
 },
@@ -99611,26 +99601,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4660308078",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:street": "Avenida Salvador María del Carril",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Sol Farmacia",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "node/4660308078"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4983696,
-      -34.5909499
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4660373377",
   "properties": {
     "addr:city": "Martínez",
@@ -101415,6 +101385,7 @@
     "addr:city": "Buenos Aires",
     "addr:street": "Avenida Rivadavia",
     "amenity": "pharmacy",
+    "check_date": "2024-03-09",
     "healthcare": "pharmacy",
     "name": "Latina",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -101434,6 +101405,7 @@
   "properties": {
     "addr:city": "Buenos Aires",
     "amenity": "pharmacy",
+    "check_date": "2024-03-09",
     "healthcare": "pharmacy",
     "name": "Farmacia Pringles",
     "id": "node/4687900027"
@@ -107944,16 +107916,20 @@
   "type": "Feature",
   "id": "node/5092644734",
   "properties": {
+    "addr:city": "Tupungato",
+    "addr:housenumber": "1140",
+    "addr:postcode": "5561",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Mazzeo",
+    "name": "Fazzio",
     "id": "node/5092644734"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -69.1441941,
-      -33.3644239
+      -69.1440949,
+      -33.3641573
     ]
   }
 },
@@ -119688,6 +119664,7 @@
   "id": "node/5785440474",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/5785440474"
   },
   "geometry": {
@@ -122312,9 +122289,13 @@
   "type": "Feature",
   "id": "node/6062354244",
   "properties": {
+    "addr:housenumber": "2178",
+    "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
+    "check_date": "2024-03-11",
     "healthcare": "pharmacy",
     "name": "FarmaPlus",
+    "website": "https://www.farmaplus.com.ar",
     "wheelchair": "yes",
     "id": "node/6062354244"
   },
@@ -139810,6 +139791,7 @@
     "addr:postcode": "1884",
     "addr:street": "Calle 7 A",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Rubbo",
     "id": "node/7468455285"
   },
@@ -148581,8 +148563,13 @@
   "type": "Feature",
   "id": "node/9149905841",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "252",
+    "addr:postcode": "R8324",
+    "addr:street": "John Kennedy",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Apothekaria",
     "id": "node/9149905841"
@@ -148591,7 +148578,7 @@
     "type": "Point",
     "coordinates": [
       -67.9794514,
-      -38.9419983
+      -38.9420125
     ]
   }
 },
@@ -151923,7 +151910,8 @@
   "id": "node/9723957847",
   "properties": {
     "amenity": "pharmacy",
-    "name": "Farmacia Perregrini",
+    "healthcare": "pharmacy",
+    "name": "Perregrini",
     "phone": "+54 11 4265-0021",
     "id": "node/9723957847"
   },
@@ -158367,6 +158355,7 @@
     "addr:housenumber": "801",
     "addr:street": "Mitre",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Maga Shop",
     "id": "node/10691125129"
   },
@@ -171850,6 +171839,66 @@
     "coordinates": [
       -65.7781752,
       -28.4699328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11702607013",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Calapraba",
+    "id": "node/11702607013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6130284,
+      -34.5624993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11708506616",
+  "properties": {
+    "addr:city": "San José de la Dormida",
+    "addr:housenumber": "361",
+    "addr:postcode": "5244",
+    "addr:street": "Avenida Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Centro",
+    "ref:cue": "70141752334343",
+    "id": "node/11708506616"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.9485606,
+      -30.3563661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11708506617",
+  "properties": {
+    "addr:city": "San José de la Dormida",
+    "addr:housenumber": "472",
+    "addr:postcode": "5244",
+    "addr:street": "Avenida Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Robledo",
+    "ref:cue": "70141752336706",
+    "id": "node/11708506617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.9479627,
+      -30.3551009
     ]
   }
 }

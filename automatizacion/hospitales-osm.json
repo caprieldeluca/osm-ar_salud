@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-07T21:20:07Z",
-    "timestamp_areas_base": "2024-03-07T18:05:12Z",
+    "timestamp_osm_base": "2024-03-13T22:41:40Z",
+    "timestamp_areas_base": "2024-03-13T20:44:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5699,6 +5699,7 @@
   "lon": -58.2645494,
   "tags": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Consultorio de Radiología"
   }
 },
@@ -23276,6 +23277,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 11708414577,
+  "lat": -30.3546282,
+  "lon": -63.9470514,
+  "tags": {
+    "addr:city": "San José de la Dormida",
+    "addr:housenumber": "466",
+    "addr:postcode": "5244",
+    "addr:street": "Hipólito Yrigoyen",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Vecinal San Jose De La Dormida",
+    "phone": "+54 3521 497921",
+    "ref:sisa_codigo": "10141752131263",
+    "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -36763,17 +36782,21 @@
     3791013174
   ],
   "tags": {
+    "addr:city": "Munro",
     "addr:full": "Luis María Drago 5691",
-    "addr:housenumber": "5691",
-    "addr:postcode": "7521",
-    "addr:street": "Luis María Drago",
+    "addr:housenumber": "5681",
+    "addr:postcode": "B1605",
+    "addr:street": "100 - Entre Ríos (GSM) / Luis María Drago (VL)",
     "amenity": "hospital",
+    "contact:email": "institucion@cpisalud.com.ar",
+    "contact:phone": "+54 11 4721-2300",
     "healthcare": "hospital",
     "name": "Clínica Independencia",
     "operator": "Clinica Privada Independencia SA",
     "operator:type": "private",
     "ref:sisa_codigo": "10068612317209",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "https://cpisalud.com.ar/"
   }
 },
 {
@@ -48426,6 +48449,8 @@
     7940033741,
     11599199823,
     11599199819,
+    11728697448,
+    11728697449,
     7940033740,
     7940033762,
     7940033739,
@@ -57182,6 +57207,18 @@
   "id": 11599199823,
   "lat": -43.0911849,
   "lon": -71.4628839
+},
+{
+  "type": "node",
+  "id": 11728697448,
+  "lat": -43.0912971,
+  "lon": -71.4628184
+},
+{
+  "type": "node",
+  "id": 11728697449,
+  "lat": -43.0912965,
+  "lon": -71.4626983
 },
 {
   "type": "node",
@@ -101916,8 +101953,8 @@
 {
   "type": "node",
   "id": 319255293,
-  "lat": -34.5629706,
-  "lon": -58.6032986
+  "lat": -34.5629651,
+  "lon": -58.6032906
 },
 {
   "type": "node",
@@ -101941,7 +101978,7 @@
   "type": "node",
   "id": 319255294,
   "lat": -34.5629638,
-  "lon": -58.6020727
+  "lon": -58.6020740
 },
 {
   "type": "node",
@@ -102612,44 +102649,44 @@
 {
   "type": "node",
   "id": 3791013174,
-  "lat": -34.5387574,
-  "lon": -58.5328081
+  "lat": -34.5387659,
+  "lon": -58.5328610
 },
 {
   "type": "node",
   "id": 3791013175,
-  "lat": -34.5388868,
-  "lon": -58.5331616
+  "lat": -34.5389006,
+  "lon": -58.5332216
 },
 {
   "type": "node",
   "id": 3791013176,
-  "lat": -34.5389692,
-  "lon": -58.5331216
+  "lat": -34.5389761,
+  "lon": -58.5331793
 },
 {
   "type": "node",
   "id": 3791013177,
-  "lat": -34.5390462,
-  "lon": -58.5326512
+  "lat": -34.5390563,
+  "lon": -58.5327033
 },
 {
   "type": "node",
   "id": 3791013178,
-  "lat": -34.5391643,
-  "lon": -58.5336353
+  "lat": -34.5391665,
+  "lon": -58.5336807
 },
 {
   "type": "node",
   "id": 3791013180,
-  "lat": -34.5394144,
-  "lon": -58.5332417
+  "lat": -34.5395308,
+  "lon": -58.5334388
 },
 {
   "type": "node",
   "id": 3791013181,
-  "lat": -34.5394895,
-  "lon": -58.5334540
+  "lat": -34.5395231,
+  "lon": -58.5334813
 },
 {
   "type": "node",

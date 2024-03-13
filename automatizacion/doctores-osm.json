@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-07T21:23:09Z",
-    "timestamp_areas_base": "2024-03-07T18:05:12Z",
+    "timestamp_osm_base": "2024-03-13T22:45:43Z",
+    "timestamp_areas_base": "2024-03-13T20:44:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2397,6 +2397,7 @@
     "addr:housenumber": "560",
     "addr:street": "Jerónimo Salguero",
     "amenity": "doctors",
+    "check_date": "2024-03-10",
     "contact:phone": "+54 11 4860-1000",
     "contact:website": "http://www.tcba.com.ar",
     "description": "Centro de Diagnóstico",
@@ -20342,6 +20343,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 11704990708,
+  "lat": -26.8327682,
+  "lon": -65.2114528,
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "208",
+    "addr:postcode": "T4000IQF",
+    "addr:street": "Jujuy",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "dermatology",
+    "name": "Dermatología y Estética Bollea Garlatti",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "phone": "+54 381 431-0602"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -24516,6 +24535,28 @@
 },
 {
   "type": "way",
+  "id": 1178763222,
+  "nodes": [
+    10951562267,
+    10951562264,
+    10951562266,
+    10951562269,
+    10951562262,
+    10951562268,
+    10951562267
+  ],
+  "tags": {
+    "amenity": "doctors",
+    "building:levels": "1",
+    "building:part": "commercial",
+    "healthcare": "doctor",
+    "level": "0",
+    "name": "Consultorios Vélez",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 1185792319,
   "nodes": [
     11014580322,
@@ -24711,22 +24752,6 @@
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Centro Médico Salta"
-  }
-},
-{
-  "type": "way",
-  "id": 1207862751,
-  "nodes": [
-    11191545702,
-    11191545703,
-    11191545704,
-    11191545705,
-    11191545702
-  ],
-  "tags": {
-    "amenity": "doctors",
-    "building": "yes",
-    "healthcare": "doctor"
   }
 },
 {
@@ -27431,6 +27456,42 @@
 },
 {
   "type": "node",
+  "id": 10951562262,
+  "lat": -32.9109675,
+  "lon": -60.8131412
+},
+{
+  "type": "node",
+  "id": 10951562264,
+  "lat": -32.9110134,
+  "lon": -60.8131912
+},
+{
+  "type": "node",
+  "id": 10951562266,
+  "lat": -32.9110223,
+  "lon": -60.8131373
+},
+{
+  "type": "node",
+  "id": 10951562267,
+  "lat": -32.9109716,
+  "lon": -60.8131813
+},
+{
+  "type": "node",
+  "id": 10951562268,
+  "lat": -32.9109613,
+  "lon": -60.8131789
+},
+{
+  "type": "node",
+  "id": 10951562269,
+  "lat": -32.9109702,
+  "lon": -60.8131251
+},
+{
+  "type": "node",
   "id": 3216564724,
   "lat": -32.9121258,
   "lon": -60.8062550
@@ -28004,30 +28065,6 @@
   "id": 9662018441,
   "lat": -34.5720063,
   "lon": -59.1803477
-},
-{
-  "type": "node",
-  "id": 11191545702,
-  "lat": -34.7846384,
-  "lon": -58.8423088
-},
-{
-  "type": "node",
-  "id": 11191545703,
-  "lat": -34.7843708,
-  "lon": -58.8421206
-},
-{
-  "type": "node",
-  "id": 11191545704,
-  "lat": -34.7843316,
-  "lon": -58.8421964
-},
-{
-  "type": "node",
-  "id": 11191545705,
-  "lat": -34.7846061,
-  "lon": -58.8423874
 },
 {
   "type": "node",

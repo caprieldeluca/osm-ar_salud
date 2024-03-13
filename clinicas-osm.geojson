@@ -44042,6 +44042,43 @@
 },
 {
   "type": "Feature",
+  "id": "way/1207862751",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "id": "way/1207862751"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.8423077,
+          -34.7846416
+        ],
+        [
+          -58.8421186,
+          -34.7843704
+        ],
+        [
+          -58.8421956,
+          -34.7843342
+        ],
+        [
+          -58.8423846,
+          -34.7846054
+        ],
+        [
+          -58.8423077,
+          -34.7846416
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1208417921",
   "properties": {
     "addr:city": "San Andrés",
@@ -47608,24 +47645,126 @@
     "coordinates": [
       [
         [
-          -58.8407693,
-          -34.7815849
+          -58.840769,
+          -34.7815858
         ],
         [
-          -58.8407134,
-          -34.78151
+          -58.8407151,
+          -34.7815104
         ],
         [
-          -58.8409281,
-          -34.7814109
+          -58.8409292,
+          -34.7814072
         ],
         [
-          -58.840987,
-          -34.7814834
+          -58.8409831,
+          -34.7814826
         ],
         [
-          -58.8407693,
-          -34.7815849
+          -58.840769,
+          -34.7815858
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1259130307",
+  "properties": {
+    "addr:city": "Villa Ballester",
+    "addr:full": "Calle 51 (Republica) 10 Esquina Calle 110 (Pueyrredon)",
+    "addr:housenumber": "4612",
+    "addr:postcode": "B1653",
+    "addr:street": "51 - República",
+    "alt_name": "Unidad Sanitaria Marengo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics;odontology;cardiology;traumatology;psicology;dermatology;gynaecology;vaccination",
+    "name": "Hospital Local Doctor Enrique Marengo",
+    "operator": "Municipalidad de San Martín",
+    "operator:type": "government",
+    "phone": "+54 11 4847-5033",
+    "ref:sisa_codigo": "50063712202441",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://mapa.sanmartin.gov.ar/l/hospital-local-dr-enrique-marengo/",
+    "id": "way/1259130307"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5496928,
+          -34.5479483
+        ],
+        [
+          -58.549383,
+          -34.5476854
+        ],
+        [
+          -58.5496287,
+          -34.547499
+        ],
+        [
+          -58.5499334,
+          -34.5477564
+        ],
+        [
+          -58.5496928,
+          -34.5479483
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1260458183",
+  "properties": {
+    "addr:city": "Munro",
+    "addr:full": "Rivera 6001",
+    "addr:housenumber": "6001",
+    "addr:postcode": "B1606CGC",
+    "addr:street": "Pedro Ignacio Rivera",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "UAP Doctor Rodolfo Negrete",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Municipalidad de Vicente López",
+    "operator:type": "public",
+    "phone": "+54 11 4580-6233",
+    "ref:sisa_codigo": "50068612202002",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "way/1260458183"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5366835,
+          -34.5410395
+        ],
+        [
+          -58.5364612,
+          -34.5409572
+        ],
+        [
+          -58.5365425,
+          -34.540813
+        ],
+        [
+          -58.5365831,
+          -34.5407975
+        ],
+        [
+          -58.536778,
+          -34.5408689
+        ],
+        [
+          -58.5366835,
+          -34.5410395
         ]
       ]
     ]
@@ -48399,33 +48538,6 @@
     "coordinates": [
       -67.7362058,
       -53.7908912
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1758960444",
-  "properties": {
-    "addr:city": "Villa Ballester",
-    "addr:full": "Calle 51 (Republica) 10 Esquina Calle 110 (Pueyrredon)",
-    "addr:postcode": "1653",
-    "addr:street": "110 - General Juan Martín de Pueyrredón",
-    "alt_name": "Unidad Sanitaria Marengo",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Hospital Local Doctor Enrique Marengo",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 48475033",
-    "ref:sisa_codigo": "50063712202441",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/1758960444"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5497097,
-      -34.5477301
     ]
   }
 },
@@ -57421,6 +57533,7 @@
     "addr:street": "Aristóbulo del Valle",
     "amenity": "clinic",
     "email": "fund_plural@yahoo.com.ar",
+    "healthcare": "clinic",
     "name": "Fundación de Recuperación Plural - Comunidad Terapéutica",
     "phone": "+54 11 4224-8850",
     "id": "node/4231853835"
@@ -73633,32 +73746,6 @@
     "coordinates": [
       -64.1871594,
       -31.4127461
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7501465820",
-  "properties": {
-    "addr:full": "Rivera 6001",
-    "addr:housenumber": "6001",
-    "addr:postcode": "1605",
-    "addr:street": "Pedro Ignacio Rivera",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "CAPS UAP Doctor Negrete",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 45806233",
-    "ref:sisa_codigo": "50068612202002",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7501465820"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5366892,
-      -34.5408694
     ]
   }
 },
@@ -110041,6 +110128,56 @@
     "coordinates": [
       -68.0469116,
       -33.2973998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11721535307",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro de Salud Accord",
+    "id": "node/11721535307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3792606,
+      -34.60006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11721647063",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro de Salud Accord",
+    "id": "node/11721647063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3792606,
+      -34.60006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11727981752",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Centro Médico Cabildo",
+    "operator": "PAMI",
+    "operator:type": "public",
+    "id": "node/11727981752"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4717931,
+      -34.5438782
     ]
   }
 }

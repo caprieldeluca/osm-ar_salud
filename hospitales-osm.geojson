@@ -5531,8 +5531,8 @@
     "coordinates": [
       [
         [
-          -58.6032986,
-          -34.5629706
+          -58.6032906,
+          -34.5629651
         ],
         [
           -58.6032844,
@@ -5551,7 +5551,7 @@
           -34.5637435
         ],
         [
-          -58.6020727,
+          -58.602074,
           -34.5629638
         ],
         [
@@ -5563,8 +5563,8 @@
           -34.562943
         ],
         [
-          -58.6032986,
-          -34.5629706
+          -58.6032906,
+          -34.5629651
         ]
       ]
     ]
@@ -35736,17 +35736,21 @@
   "type": "Feature",
   "id": "way/375753828",
   "properties": {
+    "addr:city": "Munro",
     "addr:full": "Luis María Drago 5691",
-    "addr:housenumber": "5691",
-    "addr:postcode": "7521",
-    "addr:street": "Luis María Drago",
+    "addr:housenumber": "5681",
+    "addr:postcode": "B1605",
+    "addr:street": "100 - Entre Ríos (GSM) / Luis María Drago (VL)",
     "amenity": "hospital",
+    "contact:email": "institucion@cpisalud.com.ar",
+    "contact:phone": "+54 11 4721-2300",
     "healthcare": "hospital",
     "name": "Clínica Independencia",
     "operator": "Clinica Privada Independencia SA",
     "operator:type": "private",
     "ref:sisa_codigo": "10068612317209",
     "ref:sisa_tipologia": "ESCIG",
+    "website": "https://cpisalud.com.ar/",
     "id": "way/375753828"
   },
   "geometry": {
@@ -35754,36 +35758,36 @@
     "coordinates": [
       [
         [
-          -58.5328081,
-          -34.5387574
+          -58.532861,
+          -34.5387659
         ],
         [
-          -58.5331616,
-          -34.5388868
+          -58.5332216,
+          -34.5389006
         ],
         [
-          -58.5331216,
-          -34.5389692
+          -58.5331793,
+          -34.5389761
         ],
         [
-          -58.5336353,
-          -34.5391643
+          -58.5336807,
+          -34.5391665
         ],
         [
-          -58.533454,
-          -34.5394895
+          -58.5334813,
+          -34.5395231
         ],
         [
-          -58.5332417,
-          -34.5394144
+          -58.5334388,
+          -34.5395308
         ],
         [
-          -58.5326512,
-          -34.5390462
+          -58.5327033,
+          -34.5390563
         ],
         [
-          -58.5328081,
-          -34.5387574
+          -58.532861,
+          -34.5387659
         ]
       ]
     ]
@@ -62091,6 +62095,14 @@
           -43.0912961
         ],
         [
+          -71.4626983,
+          -43.0912965
+        ],
+        [
+          -71.4628184,
+          -43.0912971
+        ],
+        [
           -71.4628829,
           -43.0912974
         ],
@@ -84862,6 +84874,7 @@
   "id": "node/3177062325",
   "properties": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Consultorio de Radiología",
     "id": "node/3177062325"
   },
@@ -109085,6 +109098,30 @@
     "coordinates": [
       -64.3935875,
       -32.5679259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11708414577",
+  "properties": {
+    "addr:city": "San José de la Dormida",
+    "addr:housenumber": "466",
+    "addr:postcode": "5244",
+    "addr:street": "Hipólito Yrigoyen",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Vecinal San Jose De La Dormida",
+    "phone": "+54 3521 497921",
+    "ref:sisa_codigo": "10141752131263",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "node/11708414577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.9470514,
+      -30.3546282
     ]
   }
 }
