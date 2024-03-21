@@ -420,19 +420,9 @@
   "properties": {
     "addr:housenumber": "1498",
     "addr:street": "Avenida Santa Fe",
-    "alt_name": "Oftalmofunes",
     "amenity": "doctors",
     "building:levels": "1",
-    "building:part": "retail",
-    "contact:facebook": "oftalmofunes",
-    "contact:phone": "+54 9 341 613-5139;+54 9 341 272-0902",
-    "health_facility:type": "office",
-    "health_specialty:ophthalmology": "yes",
-    "healthcare": "doctor",
-    "healthcare:speciality": "ophthalmology",
-    "medical_system:western": "yes",
-    "name": "Oftalmo Funes",
-    "office": "physician",
+    "building:part": "commercial",
     "wheelchair": "limited",
     "id": "way/236136842"
   },
@@ -16046,6 +16036,7 @@
     "contact:website": "http://www.predigma.com",
     "healthcare": "doctor",
     "name": "Predigma",
+    "opening_hours": "Mo-Fr 07:30-20:00",
     "id": "node/4511485029"
   },
   "geometry": {
@@ -20023,7 +20014,7 @@
     "addr:city": "Guaymallen",
     "addr:housenumber": "606",
     "addr:postcode": "5521",
-    "addr:street": "Araujo",
+    "addr:street": "Santiago Araujo",
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Centro Medico Villa Nueva",
@@ -20212,6 +20203,7 @@
   "id": "node/5820556724",
   "properties": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Centro Médico Rondeau",
     "id": "node/5820556724"
   },
@@ -26735,7 +26727,7 @@
   "properties": {
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Labiratorio de análisis clínicos",
+    "name": "Laboratorio de análisis clínicos",
     "id": "node/7093311387"
   },
   "geometry": {
@@ -28239,6 +28231,31 @@
     "coordinates": [
       -58.8062377,
       -34.6508936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7502052577",
+  "properties": {
+    "addr:full": "Del Carril 4051 Villa Zapiola",
+    "addr:housenumber": "4051",
+    "addr:postcode": "1742",
+    "addr:street": "Salvador María del Carril",
+    "amenity": "doctors",
+    "name": "Salita Cortez",
+    "operator": "Municipal",
+    "operator:type": "public",
+    "phone": "+54 237 4629467",
+    "ref:sisa_codigo": "50065602201780",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/7502052577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7404517,
+      -34.6379766
     ]
   }
 },
@@ -36390,6 +36407,7 @@
     "addr:housenumber": "83",
     "addr:street": "Carhué",
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "P&M",
     "id": "node/10604506932"
   },
@@ -36921,6 +36939,7 @@
     "addr:housenumber": "244",
     "addr:street": "Presidente Sarmiento",
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Cipsol",
     "id": "node/11030710805"
   },
@@ -38361,6 +38380,60 @@
     "coordinates": [
       -65.2114528,
       -26.8327682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745877990",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
+    "name": "De Martino",
+    "id": "node/11745877990"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.1461236,
+      -37.3253892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745877991",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
+    "name": "De Martino (alta complejidad)",
+    "id": "node/11745877991"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.1460887,
+      -37.3256196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745969375",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Unidad Sanitaria \"Intendente Alberto Gutt\"",
+    "id": "node/11745969375"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2554277,
+      -37.1682997
     ]
   }
 }

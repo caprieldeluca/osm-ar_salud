@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-13T22:45:43Z",
-    "timestamp_areas_base": "2024-03-13T20:44:43Z",
+    "timestamp_osm_base": "2024-03-21T02:57:59Z",
+    "timestamp_areas_base": "2024-03-21T00:11:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4343,7 +4343,8 @@
     "amenity": "doctors",
     "contact:website": "http://www.predigma.com",
     "healthcare": "doctor",
-    "name": "Predigma"
+    "name": "Predigma",
+    "opening_hours": "Mo-Fr 07:30-20:00"
   }
 },
 {
@@ -7139,7 +7140,7 @@
     "addr:city": "Guaymallen",
     "addr:housenumber": "606",
     "addr:postcode": "5521",
-    "addr:street": "Araujo",
+    "addr:street": "Santiago Araujo",
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Centro Medico Villa Nueva",
@@ -7268,6 +7269,7 @@
   "lon": -60.6916462,
   "tags": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Centro Médico Rondeau"
   }
 },
@@ -11967,7 +11969,7 @@
   "tags": {
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Labiratorio de análisis clínicos"
+    "name": "Laboratorio de análisis clínicos"
   }
 },
 {
@@ -13067,6 +13069,25 @@
     "phone": "+54 237 466-2153",
     "ref": "5",
     "ref:sisa_codigo": "50065602202637",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 7502052577,
+  "lat": -34.6379766,
+  "lon": -58.7404517,
+  "tags": {
+    "addr:full": "Del Carril 4051 Villa Zapiola",
+    "addr:housenumber": "4051",
+    "addr:postcode": "1742",
+    "addr:street": "Salvador María del Carril",
+    "amenity": "doctors",
+    "name": "Salita Cortez",
+    "operator": "Municipal",
+    "operator:type": "public",
+    "phone": "+54 237 4629467",
+    "ref:sisa_codigo": "50065602201780",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -18970,6 +18991,7 @@
     "addr:housenumber": "83",
     "addr:street": "Carhué",
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "P&M"
   }
 },
@@ -19333,6 +19355,7 @@
     "addr:housenumber": "244",
     "addr:street": "Presidente Sarmiento",
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Cipsol"
   }
 },
@@ -20361,6 +20384,42 @@
   }
 },
 {
+  "type": "node",
+  "id": 11745877990,
+  "lat": -37.3253892,
+  "lon": -59.1461236,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
+    "name": "De Martino"
+  }
+},
+{
+  "type": "node",
+  "id": 11745877991,
+  "lat": -37.3256196,
+  "lon": -59.1460887,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
+    "name": "De Martino (alta complejidad)"
+  }
+},
+{
+  "type": "node",
+  "id": 11745969375,
+  "lat": -37.1682997,
+  "lon": -63.2554277,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Unidad Sanitaria \"Intendente Alberto Gutt\""
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -20521,19 +20580,9 @@
   "tags": {
     "addr:housenumber": "1498",
     "addr:street": "Avenida Santa Fe",
-    "alt_name": "Oftalmofunes",
     "amenity": "doctors",
     "building:levels": "1",
-    "building:part": "retail",
-    "contact:facebook": "oftalmofunes",
-    "contact:phone": "+54 9 341 613-5139;+54 9 341 272-0902",
-    "health_facility:type": "office",
-    "health_specialty:ophthalmology": "yes",
-    "healthcare": "doctor",
-    "healthcare:speciality": "ophthalmology",
-    "medical_system:western": "yes",
-    "name": "Oftalmo Funes",
-    "office": "physician",
+    "building:part": "commercial",
     "wheelchair": "limited"
   }
 },

@@ -10135,45 +10135,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/468150806",
-  "properties": {
-    "addr:street": "Avenida 44 - Presidente Arturo Umberto Illia",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "name": "Farmacia",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
-    "id": "way/468150806"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.518338,
-          -34.5690507
-        ],
-        [
-          -58.5184123,
-          -34.5690937
-        ],
-        [
-          -58.5182839,
-          -34.5692449
-        ],
-        [
-          -58.5182084,
-          -34.5692008
-        ],
-        [
-          -58.518338,
-          -34.5690507
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/468206671",
   "properties": {
     "addr:city": "San Isidro",
@@ -26364,6 +26325,7 @@
   "properties": {
     "amenity": "pharmacy",
     "building:part": "retail",
+    "healthcare": "pharmacy",
     "indoor": "shop",
     "level": "0",
     "id": "way/585995715"
@@ -38684,6 +38646,44 @@
 },
 {
   "type": "Feature",
+  "id": "way/1174808698",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "hangar",
+    "healthcare": "pharmacy",
+    "name": "Farmacia La Merced",
+    "id": "way/1174808698"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4914476,
+          -31.0853201
+        ],
+        [
+          -64.4914631,
+          -31.0852004
+        ],
+        [
+          -64.4916009,
+          -31.0852071
+        ],
+        [
+          -64.4916028,
+          -31.0852917
+        ],
+        [
+          -64.4914476,
+          -31.0853201
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1174917794",
   "properties": {
     "amenity": "pharmacy",
@@ -39555,8 +39555,14 @@
   "type": "Feature",
   "id": "way/1206847865",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "289",
+    "addr:state": "Santa Fe",
+    "addr:street": "Dr. Emilio A. Carballeira",
     "amenity": "pharmacy",
     "building": "retail",
+    "contact:phone": "+54 (03382) 426066",
     "description": "Turnos de Farmacias: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
     "height": "5",
@@ -59705,6 +59711,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "La Danesa",
     "id": "node/2470336550"
   },
   "geometry": {
@@ -61082,7 +61089,13 @@
   "type": "Feature",
   "id": "node/2569527229",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "576",
+    "addr:state": "Santa Fe",
+    "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
+    "contact:phone": "+54 (03382) 15455522",
     "healthcare": "pharmacy",
     "name": "Miguel",
     "id": "node/2569527229"
@@ -65518,7 +65531,7 @@
   "id": "node/2859984045",
   "properties": {
     "addr:housenumber": "504",
-    "addr:street": "Roque Sáenz Peña",
+    "addr:street": "Avenida Roque Sáenz Peña",
     "amenity": "pharmacy",
     "description:es": "Lunes a Viernes 8 a 24. Sábados 9 a 24. Domingos y Feriados 10 a 14:00 y 18:00 a 22. Horario Pago Fácil: lunes a viernes 9 a 13 y 17 a 20. Sábados 9 a 13.",
     "healthcare": "pharmacy",
@@ -74813,8 +74826,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3870558,
-      -34.5874275
+      -58.3871161,
+      -34.5873999
     ]
   }
 },
@@ -102543,6 +102556,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/4699705565",
+  "properties": {
+    "addr:street": "Avenida José María Moreno",
+    "amenity": "pharmacy",
+    "name": "Farmacias Dr Ahorro",
+    "id": "node/4699705565"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4362079,
+      -34.6190497
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4699705579",
   "properties": {
     "addr:street": "Avenida José María Moreno",
@@ -106636,6 +106666,7 @@
     "addr:street": "Víctor Mercante",
     "amenity": "pharmacy",
     "contact:phone": "+54 341 454-8686",
+    "healthcare": "pharmacy",
     "name": "Farmacia Cruz del Portal",
     "id": "node/4921153384"
   },
@@ -118349,7 +118380,7 @@
   "id": "node/5734766203",
   "properties": {
     "addr:housenumber": "1650",
-    "addr:street": "Nicolas Avellaneda",
+    "addr:street": "Nicolás Avellaneda",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Nihuil",
@@ -121033,7 +121064,7 @@
   "id": "node/5929590734",
   "properties": {
     "addr:housenumber": "1640",
-    "addr:street": "Miguel de Saavedra Cervantes",
+    "addr:street": "Miguel de Cervantes Saavedra",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Don Bosco",
@@ -127225,6 +127256,7 @@
   "id": "node/6358070107",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Tantera",
     "id": "node/6358070107"
   },
@@ -130054,6 +130086,7 @@
   "properties": {
     "amenity": "pharmacy",
     "covered": "yes",
+    "healthcare": "pharmacy",
     "level": "0",
     "name": "Farmacia del Bosque",
     "opening_hours": "Mo-Su 10:00-21:00",
@@ -148415,8 +148448,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -63.2480245,
-      -32.9411904
+      -63.2480433,
+      -32.9412197
     ]
   }
 },
@@ -158007,6 +158040,7 @@
   "id": "node/10647879490",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Belgrano",
     "id": "node/10647879490"
   },
@@ -166640,6 +166674,7 @@
   "properties": {
     "addr:street": "Boulevard Brigadier General Juan Manuel de Rosas",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Portofino",
     "id": "node/10998272805"
   },
@@ -168817,6 +168852,7 @@
   "properties": {
     "addr:street": "Pedro José Agrelo",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Farmacia Agrelo",
     "id": "node/11228198833"
   },
@@ -171899,6 +171935,224 @@
     "coordinates": [
       -63.9479627,
       -30.3551009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11732439038",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Minetti",
+    "id": "node/11732439038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.737434,
+      -34.6392932
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11732758849",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Raffo",
+    "id": "node/11732758849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7370023,
+      -34.6339275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11735705340",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Villa",
+    "id": "node/11735705340"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -56.7188483,
+      -36.3565403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11736892510",
+  "properties": {
+    "addr:city": "Concepción",
+    "addr:housenumber": "1523",
+    "addr:postcode": "4146",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia San Lucas",
+    "website": "https://www.farmacia-sanlucas.com/",
+    "id": "node/11736892510"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.5934179,
+      -27.3452793
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11736892512",
+  "properties": {
+    "addr:city": "Concepción",
+    "addr:housenumber": "1538",
+    "addr:postcode": "4146",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia San Pablo",
+    "id": "node/11736892512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.5935702,
+      -27.3454048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11736985317",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Salguero",
+    "id": "node/11736985317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.3507834,
+      -37.7621437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11739748383",
+  "properties": {
+    "addr:city": "Almafuerte",
+    "addr:housenumber": "681",
+    "addr:postcode": "5854",
+    "addr:street": "Catamarca",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmaciapentat/?locale=es_LA",
+    "contact:instagram": "https://www.instagram.com/pentatfarma/?hl=es",
+    "healthcare": "pharmacy",
+    "name": "Penta T farma",
+    "phone": "+54 3571 471249",
+    "id": "node/11739748383"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2619376,
+      -32.1921946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11739748384",
+  "properties": {
+    "addr:city": "Almafuerte",
+    "addr:housenumber": "305",
+    "addr:postcode": "5854",
+    "addr:street": "Avenida Buenos Aires",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Victoria",
+    "phone": "+54 357 1471385",
+    "id": "node/11739748384"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2552501,
+      -32.1962295
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11739748385",
+  "properties": {
+    "addr:city": "Almafuerte",
+    "addr:housenumber": "313",
+    "addr:postcode": "5854",
+    "addr:street": "Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Albrerdi",
+    "phone": "+54 357 1472988",
+    "id": "node/11739748385"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2508074,
+      -32.1950994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11747156358",
+  "properties": {
+    "addr:city": "Villa Maipú",
+    "addr:housenumber": "1772",
+    "addr:postcode": "B1650",
+    "addr:street": "Avenida 44 - Presidente Arturo Umberto Illia",
+    "amenity": "pharmacy",
+    "level": "0",
+    "name": "Farmacia",
+    "id": "node/11747156358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5183472,
+      -34.5691052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11749263369",
+  "properties": {
+    "addr:housenumber": "2149",
+    "addr:postcode": "7600",
+    "addr:street": "Peatonal San Martín",
+    "amenity": "pharmacy",
+    "email": "info@siemprefarmacias.com.ar",
+    "name": "SIEMPRE FARMACIAS - BADANEZ",
+    "website": "https://www.siemprefarmacias.com.ar/",
+    "id": "node/11749263369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5421947,
+      -38.0016146
     ]
   }
 }

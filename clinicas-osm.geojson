@@ -27365,6 +27365,96 @@
 },
 {
   "type": "Feature",
+  "id": "way/780363615",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Privada La Cumbre",
+    "id": "way/780363615"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4903905,
+          -30.9846278
+        ],
+        [
+          -64.4903448,
+          -30.9847033
+        ],
+        [
+          -64.4903261,
+          -30.9846963
+        ],
+        [
+          -64.4903078,
+          -30.9846869
+        ],
+        [
+          -64.4902743,
+          -30.9847394
+        ],
+        [
+          -64.4903124,
+          -30.9847573
+        ],
+        [
+          -64.490226,
+          -30.9848931
+        ],
+        [
+          -64.4900696,
+          -30.9848236
+        ],
+        [
+          -64.4901036,
+          -30.9847694
+        ],
+        [
+          -64.4901153,
+          -30.9847507
+        ],
+        [
+          -64.4901205,
+          -30.9847424
+        ],
+        [
+          -64.490105,
+          -30.9847353
+        ],
+        [
+          -64.490042,
+          -30.9847062
+        ],
+        [
+          -64.4900882,
+          -30.9846326
+        ],
+        [
+          -64.4901446,
+          -30.9845427
+        ],
+        [
+          -64.4901589,
+          -30.9845199
+        ],
+        [
+          -64.4903259,
+          -30.9845991
+        ],
+        [
+          -64.4903905,
+          -30.9846278
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/783289558",
   "properties": {
     "amenity": "clinic",
@@ -43632,6 +43722,7 @@
   "id": "way/1191524166",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro de Salud Doctor René Favaloro",
     "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Municipalidad de Morón",
@@ -47573,11 +47664,11 @@
           -31.4153511
         ],
         [
-          -64.4901551,
-          -31.415292
+          -64.4901436,
+          -31.4152898
         ],
         [
-          -64.490216,
+          -64.490207,
           -31.4151781
         ],
         [
@@ -49237,14 +49328,14 @@
   "properties": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Clínica Bermudez",
+    "name": "Clínica Privada La Cumbre",
     "id": "node/2328629923"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4901457,
-      -30.9848245
+      -64.4901122,
+      -30.9848153
     ]
   }
 },
@@ -60024,8 +60115,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4389492,
-      -34.6627631
+      -58.4389828,
+      -34.6627442
     ]
   }
 },
@@ -70268,7 +70359,7 @@
     "description": "Centro de Salud perteneciente al Primer Nivel de complejidad de la Red Provincial de Salud. Prestaciones: Clínica Médica Ginecología Enfermeria Obstetricia Inmunizaciones Medicina General/de Familia Odontología Pediatría Sin internaciones",
     "fixme": "position estimated",
     "healthcare": "clinic",
-    "name": "CS BARRIO BARRANQUITAS OESTE",
+    "name": "CS Barrio Barranquitas Oeste",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Provincia Santa Fe",
     "operator:type": "public",
@@ -76636,30 +76727,6 @@
     "coordinates": [
       -58.8310227,
       -27.4712615
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7502052577",
-  "properties": {
-    "addr:full": "Del Carril 4051 Villa Zapiola",
-    "addr:postcode": "1742",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Sala Cortez",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "0237-4629467",
-    "ref:sisa_codigo": "50065602201780",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7502052577"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.7405402,
-      -34.6379347
     ]
   }
 },
@@ -101568,10 +101635,20 @@
   "type": "Feature",
   "id": "node/7943302305",
   "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "192",
+    "addr:postcode": "5400",
+    "addr:street": "Bartolomé Mitre",
     "amenity": "clinic",
-    "name": "Sanatorio Mayo",
+    "healthcare": "clinic",
+    "healthcare:speciality": "icu;cardiology;surgery;neurosurgery;trauma",
+    "name": "Sanatorio Mayo y Centro de Cuidados Intesivos",
+    "opening_hours": "24/7",
+    "operator": "Grupo Mitre Salud",
+    "operator:type": "private",
     "phone": "+54264 4228300",
     "website": "https://gmitresalud.com.ar/sanatorio-mayo/",
+    "wheelchair": "limited",
     "id": "node/7943302305"
   },
   "geometry": {
@@ -101851,7 +101928,7 @@
     "check_date": "2023-04-02",
     "healthcare": "clinic",
     "healthcare:speciality": "urology;cardiology;otorhinolaryngology",
-    "name": "BIOTEC",
+    "name": "BioTec",
     "phone": "+54 0342 456-2486",
     "id": "node/8138402135"
   },
@@ -105038,6 +105115,7 @@
   "id": "node/9529886985",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro Médico Morón",
     "operator": "OSPEDYC",
     "id": "node/9529886985"
@@ -105677,6 +105755,7 @@
     "addr:housenumber": "1173",
     "addr:street": "Almirante Guillermo Brown",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Consultorios Externos 20 de Octubre - ATSA",
     "operator": "Asociación de Trabajadores de la Sanidad Argentina",
     "id": "node/9859331005"
@@ -108024,6 +108103,7 @@
   "id": "node/11047513538",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Consultorios Médicos Boatti",
     "id": "node/11047513538"
   },

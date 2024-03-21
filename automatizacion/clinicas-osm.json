@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.61.5 4133829e",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-13T22:42:40Z",
-    "timestamp_areas_base": "2024-03-13T20:44:43Z",
+    "timestamp_osm_base": "2024-03-21T02:55:10Z",
+    "timestamp_areas_base": "2024-03-21T00:11:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1082,12 +1082,12 @@
 {
   "type": "node",
   "id": 2328629923,
-  "lat": -30.9848245,
-  "lon": -64.4901457,
+  "lat": -30.9848153,
+  "lon": -64.4901122,
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Clínica Bermudez"
+    "name": "Clínica Privada La Cumbre"
   }
 },
 {
@@ -8801,8 +8801,8 @@
 {
   "type": "node",
   "id": 4585638735,
-  "lat": -34.6627631,
-  "lon": -58.4389492,
+  "lat": -34.6627442,
+  "lon": -58.4389828,
   "tags": {
     "addr:street": "Avenida Lafuente",
     "amenity": "clinic",
@@ -16154,7 +16154,7 @@
     "description": "Centro de Salud perteneciente al Primer Nivel de complejidad de la Red Provincial de Salud. Prestaciones: Clínica Médica Ginecología Enfermeria Obstetricia Inmunizaciones Medicina General/de Familia Odontología Pediatría Sin internaciones",
     "fixme": "position estimated",
     "healthcare": "clinic",
-    "name": "CS BARRIO BARRANQUITAS OESTE",
+    "name": "CS Barrio Barranquitas Oeste",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Provincia Santa Fe",
     "operator:type": "public",
@@ -20889,24 +20889,6 @@
     "healthcare:speciality": "general",
     "name": "Centro Integral De Terapia Auditiva Y Cognitiva Sonidos Que Hablan",
     "phone": "3794-4230910"
-  }
-},
-{
-  "type": "node",
-  "id": 7502052577,
-  "lat": -34.6379347,
-  "lon": -58.7405402,
-  "tags": {
-    "addr:full": "Del Carril 4051 Villa Zapiola",
-    "addr:postcode": "1742",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Sala Cortez",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "0237-4629467",
-    "ref:sisa_codigo": "50065602201780",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -39690,10 +39672,20 @@
   "lat": -31.5381537,
   "lon": -68.5283058,
   "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "192",
+    "addr:postcode": "5400",
+    "addr:street": "Bartolomé Mitre",
     "amenity": "clinic",
-    "name": "Sanatorio Mayo",
+    "healthcare": "clinic",
+    "healthcare:speciality": "icu;cardiology;surgery;neurosurgery;trauma",
+    "name": "Sanatorio Mayo y Centro de Cuidados Intesivos",
+    "opening_hours": "24/7",
+    "operator": "Grupo Mitre Salud",
+    "operator:type": "private",
     "phone": "+54264 4228300",
-    "website": "https://gmitresalud.com.ar/sanatorio-mayo/"
+    "website": "https://gmitresalud.com.ar/sanatorio-mayo/",
+    "wheelchair": "limited"
   }
 },
 {
@@ -39895,7 +39887,7 @@
     "check_date": "2023-04-02",
     "healthcare": "clinic",
     "healthcare:speciality": "urology;cardiology;otorhinolaryngology",
-    "name": "BIOTEC",
+    "name": "BioTec",
     "phone": "+54 0342 456-2486"
   }
 },
@@ -42224,6 +42216,7 @@
   "lon": -58.6187796,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro Médico Morón",
     "operator": "OSPEDYC"
   }
@@ -42659,6 +42652,7 @@
     "addr:housenumber": "1173",
     "addr:street": "Almirante Guillermo Brown",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Consultorios Externos 20 de Octubre - ATSA",
     "operator": "Asociación de Trabajadores de la Sanidad Argentina"
   }
@@ -44310,6 +44304,7 @@
   "lon": -58.6162945,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Consultorios Médicos Boatti"
   }
 },
@@ -58043,6 +58038,36 @@
 },
 {
   "type": "way",
+  "id": 780363615,
+  "nodes": [
+    7286562536,
+    7917924234,
+    7286562537,
+    9521849276,
+    9521849264,
+    7286562539,
+    9521849261,
+    7286562540,
+    9044370652,
+    9521849284,
+    7286562541,
+    7286562542,
+    11749192015,
+    11749192018,
+    11749192017,
+    11749192019,
+    11749192016,
+    7286562536
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Privada La Cumbre"
+  }
+},
+{
+  "type": "way",
   "id": 783289558,
   "nodes": [
     7315078487,
@@ -65477,6 +65502,7 @@
   ],
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro de Salud Doctor René Favaloro",
     "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Municipalidad de Morón",
@@ -81117,13 +81143,13 @@
   "type": "node",
   "id": 11575234522,
   "lat": -31.4151781,
-  "lon": -64.4902160
+  "lon": -64.4902070
 },
 {
   "type": "node",
   "id": 11575234523,
-  "lat": -31.4152920,
-  "lon": -64.4901551
+  "lat": -31.4152898,
+  "lon": -64.4901436
 },
 {
   "type": "node",
@@ -82270,6 +82296,108 @@
   "id": 4373626120,
   "lat": -31.3692118,
   "lon": -64.0604160
+},
+{
+  "type": "node",
+  "id": 7286562536,
+  "lat": -30.9846278,
+  "lon": -64.4903905
+},
+{
+  "type": "node",
+  "id": 7286562537,
+  "lat": -30.9845199,
+  "lon": -64.4901589
+},
+{
+  "type": "node",
+  "id": 7286562539,
+  "lat": -30.9847062,
+  "lon": -64.4900420
+},
+{
+  "type": "node",
+  "id": 7286562540,
+  "lat": -30.9847424,
+  "lon": -64.4901205
+},
+{
+  "type": "node",
+  "id": 7286562541,
+  "lat": -30.9848236,
+  "lon": -64.4900696
+},
+{
+  "type": "node",
+  "id": 7286562542,
+  "lat": -30.9848931,
+  "lon": -64.4902260
+},
+{
+  "type": "node",
+  "id": 7917924234,
+  "lat": -30.9845991,
+  "lon": -64.4903259
+},
+{
+  "type": "node",
+  "id": 9044370652,
+  "lat": -30.9847507,
+  "lon": -64.4901153
+},
+{
+  "type": "node",
+  "id": 9521849261,
+  "lat": -30.9847353,
+  "lon": -64.4901050
+},
+{
+  "type": "node",
+  "id": 9521849264,
+  "lat": -30.9846326,
+  "lon": -64.4900882
+},
+{
+  "type": "node",
+  "id": 9521849276,
+  "lat": -30.9845427,
+  "lon": -64.4901446
+},
+{
+  "type": "node",
+  "id": 9521849284,
+  "lat": -30.9847694,
+  "lon": -64.4901036
+},
+{
+  "type": "node",
+  "id": 11749192015,
+  "lat": -30.9847573,
+  "lon": -64.4903124
+},
+{
+  "type": "node",
+  "id": 11749192016,
+  "lat": -30.9847033,
+  "lon": -64.4903448
+},
+{
+  "type": "node",
+  "id": 11749192017,
+  "lat": -30.9846869,
+  "lon": -64.4903078
+},
+{
+  "type": "node",
+  "id": 11749192018,
+  "lat": -30.9847394,
+  "lon": -64.4902743
+},
+{
+  "type": "node",
+  "id": 11749192019,
+  "lat": -30.9846963,
+  "lon": -64.4903261
 },
 {
   "type": "node",
