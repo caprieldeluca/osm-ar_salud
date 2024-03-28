@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.61.5 4133829e",
+  "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-21T02:57:59Z",
-    "timestamp_areas_base": "2024-03-21T00:11:00Z",
+    "timestamp_osm_base": "2024-03-28T12:38:56Z",
+    "timestamp_areas_base": "2024-03-28T08:05:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -215,8 +215,8 @@
 {
   "type": "node",
   "id": 1009021135,
-  "lat": -28.4706574,
-  "lon": -65.7772737,
+  "lat": -28.4708569,
+  "lon": -65.7774702,
   "tags": {
     "addr:housenumber": "685",
     "addr:street": "Chacabuco",
@@ -2744,7 +2744,7 @@
   "tags": {
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Sala de Primeros Auxilios"
+    "name": "Unidad Sanitaria \"Doctor Alfredo Picallo\""
   }
 },
 {
@@ -4652,7 +4652,7 @@
   "lon": -58.5515482,
   "tags": {
     "addr:city": "Villa Ballester",
-    "addr:street": "114 - Alvear",
+    "addr:street": "114 - Carlos María de Alvear",
     "amenity": "doctors",
     "name": "Consultórios Médicos",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
@@ -7164,7 +7164,7 @@
   "lon": -68.8342259,
   "tags": {
     "addr:housenumber": "292",
-    "addr:street": "Cordoba",
+    "addr:street": "Córdoba",
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Instituto de Reumatología",
@@ -20246,6 +20246,21 @@
 },
 {
   "type": "node",
+  "id": 11677366477,
+  "lat": -38.9416981,
+  "lon": -67.9887511,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "990",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Consultorios Montelpare"
+  }
+},
+{
+  "type": "node",
   "id": 11683205530,
   "lat": -32.8928157,
   "lon": -68.8480934,
@@ -20420,6 +20435,39 @@
   }
 },
 {
+  "type": "node",
+  "id": 11754245245,
+  "lat": -51.6351776,
+  "lon": -69.2118187,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro Médico"
+  }
+},
+{
+  "type": "node",
+  "id": 11754245246,
+  "lat": -51.6349867,
+  "lon": -69.2122188,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Praevida Medicina Laboral"
+  }
+},
+{
+  "type": "node",
+  "id": 11754245249,
+  "lat": -51.6299376,
+  "lon": -69.2126907,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Servicio de Intervención en Crisis"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -20583,6 +20631,7 @@
     "amenity": "doctors",
     "building:levels": "1",
     "building:part": "commercial",
+    "healthcare": "doctor",
     "wheelchair": "limited"
   }
 },
@@ -24949,6 +24998,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1266680372,
+  "nodes": [
+    11765327540,
+    11765327457,
+    11765327525,
+    11765327541,
+    11765327542,
+    11765327540
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "944",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "height": "3",
+    "name": "Centro de Oftalmología PMC",
+    "operator": "Policlínico Modelo de Cipolletti S.A.",
+    "website": "https://www.policlinicomodelo.com.ar/"
+  }
+},
+{
   "type": "relation",
   "id": 8052156,
   "members": [
@@ -25048,6 +25123,36 @@
   "id": 6417128390,
   "lat": -39.5557032,
   "lon": -70.5942924
+},
+{
+  "type": "node",
+  "id": 11765327457,
+  "lat": -38.9416073,
+  "lon": -67.9892983
+},
+{
+  "type": "node",
+  "id": 11765327525,
+  "lat": -38.9415255,
+  "lon": -67.9892707
+},
+{
+  "type": "node",
+  "id": 11765327540,
+  "lat": -38.9416278,
+  "lon": -67.9891976
+},
+{
+  "type": "node",
+  "id": 11765327541,
+  "lat": -38.9414813,
+  "lon": -67.9892557
+},
+{
+  "type": "node",
+  "id": 11765327542,
+  "lat": -38.9415019,
+  "lon": -67.9891550
 },
 {
   "type": "node",

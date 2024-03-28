@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.61.5 4133829e",
+  "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-21T02:53:39Z",
-    "timestamp_areas_base": "2024-03-21T00:11:00Z",
+    "timestamp_osm_base": "2024-03-28T12:35:56Z",
+    "timestamp_areas_base": "2024-03-28T08:05:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -784,17 +784,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sala de Primeros Auxilios"
-  }
-},
-{
-  "type": "node",
-  "id": 1320243428,
-  "lat": -37.6040300,
-  "lon": -62.3974427,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal"
   }
 },
 {
@@ -9792,8 +9781,7 @@
   "lon": -68.7149821,
   "tags": {
     "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "sin numero"
+    "healthcare": "hospital"
   }
 },
 {
@@ -23307,6 +23295,19 @@
   }
 },
 {
+  "type": "node",
+  "id": 11756471457,
+  "lat": -27.5834738,
+  "lon": -56.6771425,
+  "tags": {
+    "addr:city": "Ituzaingó",
+    "addr:street": "Avenida 9 de Julio",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Genaro Leiva"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -25480,12 +25481,13 @@
   "type": "way",
   "id": 129602037,
   "nodes": [
-    1429605007,
+    2974476344,
+    2974476361,
     1429605077,
     1020005398,
     1429605024,
     1429605055,
-    1429605007
+    2974476344
   ],
   "tags": {
     "amenity": "hospital",
@@ -27621,12 +27623,12 @@
     "building": "hospital",
     "building:levels": "2",
     "contact:email": "sanatoriomodelosrl@gmail.com",
-    "contact:facebook": "https://es-la.facebook.com/SanatorioModelo/",
     "contact:phone": "(03382) 429277 / 427680 / 426510",
     "contact:whatsapp": "+54 3382410592",
     "healthcare": "hospital",
     "height": "13",
     "name": "Sanatorio Modelo",
+    "operator:type": "private",
     "start_date": "1934",
     "website": "https://www.sanatorio-modelo.com.ar/"
   }
@@ -29799,22 +29801,6 @@
 },
 {
   "type": "way",
-  "id": 234890114,
-  "nodes": [
-    2430129681,
-    2430129703,
-    2430129697,
-    2430129645,
-    2430129681
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Dispensario Ángel Bulgheroni"
-  }
-},
-{
-  "type": "way",
   "id": 235164530,
   "nodes": [
     2432474348,
@@ -29856,28 +29842,6 @@
     "name": "Hospital SAMCo 'Doctor Juan Basilio Bianco'",
     "phone": "+54 (3465) 49-4015",
     "source": "http://www.berabevu.gov.ar/"
-  }
-},
-{
-  "type": "way",
-  "id": 235361500,
-  "nodes": [
-    2434289564,
-    11157780896,
-    2434289576,
-    2434289569,
-    2434289575,
-    2434289562,
-    11157780895,
-    2434289563,
-    2434289564
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "contact:facebook": "https://www.facebook.com/ClinicaSantaFeRufino",
-    "healthcare": "hospital",
-    "name": "Clínica Santa Fe",
-    "wikidata": "Q97672811"
   }
 },
 {
@@ -35439,7 +35403,7 @@
     "healthcare": "hospital",
     "name": "Hospital Interzonal General de Agudos Eva Perón",
     "name:etymology:wikidata": "Q40933",
-    "old_name": "Hospital Castex",
+    "old_name": "Hospital Mariano Rafael Castex",
     "operator:type": "public",
     "phone": "+54 11 4724-3000",
     "ref:sisa_codigo": "10063712100230",
@@ -40926,13 +40890,15 @@
   "nodes": [
     573607867,
     4837692446,
+    11767605592,
     4837692447,
     4837692448,
     4837692449,
+    11767605591,
     4837692450,
     4837692451,
     4837692452,
-    4808753852,
+    11767605596,
     4837692453,
     4837692454,
     4837692455,
@@ -40944,6 +40910,11 @@
     4837692461,
     4837692459,
     4837692460,
+    11767605597,
+    11767605590,
+    11767605594,
+    11767605593,
+    11767605589,
     573607867
   ],
   "tags": {
@@ -54034,6 +54005,42 @@
 },
 {
   "type": "way",
+  "id": 1203782085,
+  "nodes": [
+    2434289564,
+    11157780896,
+    2434289576,
+    2434289569,
+    2434289575,
+    11750447586,
+    11750447585,
+    2434289562,
+    11157780895,
+    2434289563,
+    2434289564
+  ],
+  "tags": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "253",
+    "addr:postcode": "6100",
+    "addr:state": "Santa Fe",
+    "addr:street": "Presidente Juan Domingo Perón",
+    "alt_name": "Clinica Santa Fe Sociedad Anonima",
+    "amenity": "hospital",
+    "building": "hospital",
+    "contact:facebook": "https://www.facebook.com/ClinicaSantaFeRufino",
+    "contact:phone": "+54 03382 42-7605",
+    "healthcare": "hospital",
+    "height": "5",
+    "name": "Clinica Santa Fe",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "start_date": "1974-10-22"
+  }
+},
+{
+  "type": "way",
   "id": 1206468951,
   "nodes": [
     11179442257,
@@ -54661,6 +54668,26 @@
     "healthcare": "hospital",
     "name": "Hospital Demetrio Loyarte",
     "phone": "+54 2935 498094"
+  }
+},
+{
+  "type": "way",
+  "id": 1265824467,
+  "nodes": [
+    1320243428,
+    11758415385,
+    11758415386,
+    11758415387,
+    1320243428
+  ],
+  "tags": {
+    "addr:city": "Pigüé",
+    "addr:housenumber": "46",
+    "addr:postcode": "8170",
+    "addr:street": "Liniers",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital y Maternidad Municipal \"Octavio F. Ducos\""
   }
 },
 {
@@ -65295,6 +65322,30 @@
 },
 {
   "type": "node",
+  "id": 1320243428,
+  "lat": -37.6044897,
+  "lon": -62.3976814
+},
+{
+  "type": "node",
+  "id": 11758415385,
+  "lat": -37.6035256,
+  "lon": -62.3972886
+},
+{
+  "type": "node",
+  "id": 11758415386,
+  "lat": -37.6038383,
+  "lon": -62.3960662
+},
+{
+  "type": "node",
+  "id": 11758415387,
+  "lat": -37.6048023,
+  "lon": -62.3964591
+},
+{
+  "type": "node",
   "id": 1550941118,
   "lat": -38.8772665,
   "lon": -62.0674679
@@ -74482,74 +74533,62 @@
 {
   "type": "node",
   "id": 2434289562,
-  "lat": -34.2655700,
-  "lon": -62.7086820
+  "lat": -34.2655380,
+  "lon": -62.7086957
 },
 {
   "type": "node",
   "id": 2434289569,
-  "lat": -34.2657674,
-  "lon": -62.7083494
+  "lat": -34.2657107,
+  "lon": -62.7083503
 },
 {
   "type": "node",
   "id": 2434289575,
-  "lat": -34.2656382,
-  "lon": -62.7083143
+  "lat": -34.2656494,
+  "lon": -62.7083325
 },
 {
   "type": "node",
   "id": 2434289576,
-  "lat": -34.2656695,
-  "lon": -62.7088765
+  "lat": -34.2656061,
+  "lon": -62.7088779
+},
+{
+  "type": "node",
+  "id": 11750447585,
+  "lat": -34.2655975,
+  "lon": -62.7083952
+},
+{
+  "type": "node",
+  "id": 11750447586,
+  "lat": -34.2656348,
+  "lon": -62.7084061
 },
 {
   "type": "node",
   "id": 2434289563,
-  "lat": -34.2652820,
-  "lon": -62.7086038
+  "lat": -34.2652223,
+  "lon": -62.7086041
 },
 {
   "type": "node",
   "id": 2434289564,
-  "lat": -34.2652524,
-  "lon": -62.7087632
+  "lat": -34.2651918,
+  "lon": -62.7087577
 },
 {
   "type": "node",
   "id": 11157780895,
-  "lat": -34.2653590,
-  "lon": -62.7086247
+  "lat": -34.2653072,
+  "lon": -62.7086287
 },
 {
   "type": "node",
   "id": 11157780896,
-  "lat": -34.2653294,
-  "lon": -62.7087841
-},
-{
-  "type": "node",
-  "id": 2430129645,
-  "lat": -34.2573278,
-  "lon": -62.7091528
-},
-{
-  "type": "node",
-  "id": 2430129681,
-  "lat": -34.2573041,
-  "lon": -62.7092768
-},
-{
-  "type": "node",
-  "id": 2430129697,
-  "lat": -34.2574681,
-  "lon": -62.7091936
-},
-{
-  "type": "node",
-  "id": 2430129703,
-  "lat": -34.2574415,
-  "lon": -62.7093143
+  "lat": -34.2652750,
+  "lon": -62.7087818
 },
 {
   "type": "node",
@@ -88419,12 +88458,6 @@
 },
 {
   "type": "node",
-  "id": 1429605007,
-  "lat": -36.8844277,
-  "lon": -60.3137044
-},
-{
-  "type": "node",
   "id": 1429605010,
   "lat": -36.8842081,
   "lon": -60.3128347
@@ -88488,6 +88521,18 @@
   "id": 1429605149,
   "lat": -36.8852078,
   "lon": -60.3128025
+},
+{
+  "type": "node",
+  "id": 2974476344,
+  "lat": -36.8844277,
+  "lon": -60.3137044
+},
+{
+  "type": "node",
+  "id": 2974476361,
+  "lat": -36.8838645,
+  "lon": -60.3129905
 },
 {
   "type": "node",
@@ -110380,122 +110425,164 @@
 {
   "type": "node",
   "id": 573607867,
-  "lat": -28.4709057,
-  "lon": -65.7774318
-},
-{
-  "type": "node",
-  "id": 4808753852,
-  "lat": -28.4714700,
-  "lon": -65.7769705
+  "lat": -28.4708728,
+  "lon": -65.7774149
 },
 {
   "type": "node",
   "id": 4837692446,
-  "lat": -28.4714850,
-  "lon": -65.7773693
+  "lat": -28.4714391,
+  "lon": -65.7773618
 },
 {
   "type": "node",
   "id": 4837692447,
-  "lat": -28.4715355,
-  "lon": -65.7773270
+  "lat": -28.4714872,
+  "lon": -65.7773128
 },
 {
   "type": "node",
   "id": 4837692448,
-  "lat": -28.4715504,
-  "lon": -65.7772949
+  "lat": -28.4715127,
+  "lon": -65.7772807
 },
 {
   "type": "node",
   "id": 4837692449,
-  "lat": -28.4715504,
-  "lon": -65.7772307
+  "lat": -28.4715186,
+  "lon": -65.7772339
 },
 {
   "type": "node",
   "id": 4837692450,
-  "lat": -28.4715281,
-  "lon": -65.7771851
+  "lat": -28.4714869,
+  "lon": -65.7771669
 },
 {
   "type": "node",
   "id": 4837692451,
-  "lat": -28.4715103,
-  "lon": -65.7771699
+  "lat": -28.4714809,
+  "lon": -65.7771356
 },
 {
   "type": "node",
   "id": 4837692452,
-  "lat": -28.4714895,
-  "lon": -65.7769705
+  "lat": -28.4714507,
+  "lon": -65.7769643
 },
 {
   "type": "node",
   "id": 4837692453,
-  "lat": -28.4714449,
-  "lon": -65.7769705
+  "lat": -28.4714143,
+  "lon": -65.7769684
 },
 {
   "type": "node",
   "id": 4837692454,
-  "lat": -28.4714464,
-  "lon": -65.7770330
+  "lat": -28.4714161,
+  "lon": -65.7770350
 },
 {
   "type": "node",
   "id": 4837692455,
-  "lat": -28.4712399,
-  "lon": -65.7770415
+  "lat": -28.4712093,
+  "lon": -65.7770420
 },
 {
   "type": "node",
   "id": 4837692456,
-  "lat": -28.4712429,
-  "lon": -65.7770989
+  "lat": -28.4712111,
+  "lon": -65.7770901
 },
 {
   "type": "node",
   "id": 4837692457,
-  "lat": -28.4710914,
-  "lon": -65.7771040
+  "lat": -28.4710903,
+  "lon": -65.7770978
 },
 {
   "type": "node",
   "id": 4837692458,
-  "lat": -28.4710884,
-  "lon": -65.7770432
+  "lat": -28.4710555,
+  "lon": -65.7770451
 },
 {
   "type": "node",
   "id": 4837692459,
-  "lat": -28.4708567,
-  "lon": -65.7771238
+  "lat": -28.4708124,
+  "lon": -65.7771368
 },
 {
   "type": "node",
   "id": 4837692460,
-  "lat": -28.4708824,
-  "lon": -65.7771207
+  "lat": -28.4708526,
+  "lon": -65.7771331
 },
 {
   "type": "node",
   "id": 4837692461,
-  "lat": -28.4708445,
-  "lon": -65.7769709
+  "lat": -28.4708009,
+  "lon": -65.7769728
 },
 {
   "type": "node",
   "id": 4837692462,
-  "lat": -28.4710224,
-  "lon": -65.7770471
+  "lat": -28.4709989,
+  "lon": -65.7770503
 },
 {
   "type": "node",
   "id": 4837692463,
-  "lat": -28.4710196,
-  "lon": -65.7769549
+  "lat": -28.4709949,
+  "lon": -65.7769595
+},
+{
+  "type": "node",
+  "id": 11767605589,
+  "lat": -28.4708700,
+  "lon": -65.7773720
+},
+{
+  "type": "node",
+  "id": 11767605590,
+  "lat": -28.4708631,
+  "lon": -65.7772490
+},
+{
+  "type": "node",
+  "id": 11767605591,
+  "lat": -28.4715069,
+  "lon": -65.7771897
+},
+{
+  "type": "node",
+  "id": 11767605592,
+  "lat": -28.4714372,
+  "lon": -65.7773319
+},
+{
+  "type": "node",
+  "id": 11767605593,
+  "lat": -28.4708373,
+  "lon": -65.7773744
+},
+{
+  "type": "node",
+  "id": 11767605594,
+  "lat": -28.4708302,
+  "lon": -65.7772519
+},
+{
+  "type": "node",
+  "id": 11767605596,
+  "lat": -28.4714325,
+  "lon": -65.7769663
+},
+{
+  "type": "node",
+  "id": 11767605597,
+  "lat": -28.4708553,
+  "lon": -65.7771624
 },
 {
   "type": "node",

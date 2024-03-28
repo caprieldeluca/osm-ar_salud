@@ -8413,7 +8413,7 @@
     "addr:city": "Villa Ballester",
     "addr:housenumber": "2640",
     "addr:postcode": "B1653CJP",
-    "addr:street": "114 - Alvear",
+    "addr:street": "114 - Carlos María de Alvear",
     "amenity": "pharmacy",
     "building": "yes",
     "dispensing": "yes",
@@ -18502,11 +18502,15 @@
   "type": "Feature",
   "id": "way/476971651",
   "properties": {
+    "addr:city": "Lomas del Mirador",
+    "addr:housenumber": "313",
+    "addr:postcode": "1752",
     "addr:street": "Avenida Eva Perón",
     "amenity": "pharmacy",
     "building": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
+    "name": "Farmacia Faig",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/476971651"
   },
@@ -38494,7 +38498,7 @@
   "type": "Feature",
   "id": "way/1169149302",
   "properties": {
-    "addr:street": "114 - Alvear",
+    "addr:street": "114 - Carlos María de Alvear",
     "amenity": "pharmacy",
     "building": "retail",
     "building:levels": "2",
@@ -39512,9 +39516,15 @@
   "type": "Feature",
   "id": "way/1206847864",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "250",
+    "addr:state": "Santa Fe",
+    "addr:street": "Presidente Juan Domingo Perón",
     "amenity": "pharmacy",
     "building": "retail",
     "building:levels": "0",
+    "contact:phone": "+54 (03382) 15675581",
     "description": "Turnos de Farmacias: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
     "height": "5.5",
@@ -41171,6 +41181,131 @@
 },
 {
   "type": "Feature",
+  "id": "way/1266349222",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "634",
+    "addr:postcode": "K4700BMN",
+    "addr:street": "República",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Raiden",
+    "phone": "+54 383 443-1992",
+    "id": "way/1266349222"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.7778607,
+          -28.4679187
+        ],
+        [
+          -65.7778558,
+          -28.4680133
+        ],
+        [
+          -65.777853,
+          -28.4680675
+        ],
+        [
+          -65.7778503,
+          -28.4681202
+        ],
+        [
+          -65.7777965,
+          -28.4681154
+        ],
+        [
+          -65.7778052,
+          -28.4679157
+        ],
+        [
+          -65.7778607,
+          -28.4679187
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1266961690",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "740",
+    "addr:postcode": "K4700EJP",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Rivadavia - Colón",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+    "operator": "Red Colón",
+    "id": "way/1266961690"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.7782149,
+          -28.4699742
+        ],
+        [
+          -65.7780955,
+          -28.4699682
+        ],
+        [
+          -65.778096,
+          -28.4699405
+        ],
+        [
+          -65.7780168,
+          -28.4699394
+        ],
+        [
+          -65.7780159,
+          -28.4699642
+        ],
+        [
+          -65.7778904,
+          -28.4699579
+        ],
+        [
+          -65.7778988,
+          -28.4698822
+        ],
+        [
+          -65.7779233,
+          -28.4698833
+        ],
+        [
+          -65.7780191,
+          -28.4698873
+        ],
+        [
+          -65.7780184,
+          -28.4698983
+        ],
+        [
+          -65.7782178,
+          -28.4699011
+        ],
+        [
+          -65.7782149,
+          -28.4699742
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -42087,26 +42222,6 @@
     "coordinates": [
       -64.5055664,
       -31.4189078
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/577201291",
-  "properties": {
-    "addr:housenumber": "634",
-    "addr:street": "República",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Raiden",
-    "phone": "+54 (03833) 43-1992",
-    "id": "node/577201291"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7779598,
-      -28.4680899
     ]
   }
 },
@@ -44149,8 +44264,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7772063,
-      -28.4708632
+      -65.7770708,
+      -28.4708502
     ]
   }
 },
@@ -44379,8 +44494,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7771781,
-      -28.4695259
+      -65.7771771,
+      -28.4695152
     ]
   }
 },
@@ -50495,8 +50610,7 @@
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Selma",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "Sandra Selma",
     "id": "node/1861710862"
   },
   "geometry": {
@@ -50692,16 +50806,23 @@
   "type": "Feature",
   "id": "node/1871793982",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "647",
+    "addr:postcode": "4700",
+    "addr:street": "Chacabuco",
     "amenity": "pharmacy",
-    "dispensing": "no",
+    "brand": "FARMAR",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmar Chacabuco",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 07:00-22:00; Su 09:00-13:00,18:00-22:00",
     "id": "node/1871793982"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7776873,
-      -28.4707687
+      -65.7775779,
+      -28.4708621
     ]
   }
 },
@@ -59286,7 +59407,7 @@
   "id": "node/2455970730",
   "properties": {
     "addr:city": "Guaminí",
-    "addr:housenumber": "599",
+    "addr:housenumber": "199",
     "addr:postcode": "6435",
     "addr:street": "Coronel Freyre",
     "amenity": "pharmacy",
@@ -95904,12 +96025,9 @@
   "type": "Feature",
   "id": "node/4608396355",
   "properties": {
-    "addr:street": "Capitán Justo Germán de Bermúdez",
     "amenity": "pharmacy",
-    "fixme": "nombre",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "Galli",
     "id": "node/4608396355"
   },
   "geometry": {
@@ -96217,7 +96335,7 @@
     "addr:city": "Villa Ballester",
     "addr:housenumber": "2574",
     "addr:postcode": "B1653CJN",
-    "addr:street": "114 - Alvear",
+    "addr:street": "114 - Carlos María de Alvear",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -117006,6 +117124,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Priotti",
+    "wheelchair": "yes",
     "id": "node/5569960387"
   },
   "geometry": {
@@ -152263,7 +152382,7 @@
     "addr:full": "Bandera De Los Andes 6001 Es - Villa Nueva De Guaymallen",
     "addr:housenumber": "6001",
     "addr:postcode": "5523",
-    "addr:street": "Bandera de Los Andes",
+    "addr:street": "Bandera de los Andes",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -153507,6 +153626,7 @@
     "contact:whatsapp": "+54 264 4143880",
     "healthcare": "pharmacy",
     "name": "Farmacia Uno II",
+    "opening_hours": "Mo-Fr 09:00-13:30,17:30-22:00; Sa 09:30-13:30",
     "phone": "+54 264 4233985",
     "id": "node/9804225112"
   },
@@ -171526,6 +171646,8 @@
   "type": "Feature",
   "id": "node/11577646909",
   "properties": {
+    "addr:housenumber": "4228",
+    "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Openfarma",
@@ -171856,30 +171978,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11692035411",
-  "properties": {
-    "addr:city": "San Fernando del Valle de Catamarca",
-    "addr:housenumber": "740",
-    "addr:postcode": "K4700EJP",
-    "addr:street": "Rivadavia",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Rivadavia - Colón",
-    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
-    "operator": "Red Colón",
-    "id": "node/11692035411"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7781752,
-      -28.4699328
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11702607013",
   "properties": {
     "amenity": "pharmacy",
@@ -172153,6 +172251,112 @@
     "coordinates": [
       -57.5421947,
       -38.0016146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754245243",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia La Franco",
+    "id": "node/11754245243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.2125747,
+      -51.6359973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754245248",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/11754245248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.2081734,
+      -51.6330093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754245251",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Santa Cruz",
+    "id": "node/11754245251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.217907,
+      -51.627969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11757076389",
+  "properties": {
+    "addr:place": "Dot Baires Shopping",
+    "addr:unit": "L0011",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Farmacity",
+    "id": "node/11757076389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4878045,
+      -34.5460211
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11761464489",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Punilla",
+    "id": "node/11761464489"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4650586,
+      -31.2396749
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11761464490",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia General Paz",
+    "id": "node/11761464490"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4665207,
+      -31.2416771
     ]
   }
 }

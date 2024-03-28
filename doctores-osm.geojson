@@ -423,6 +423,7 @@
     "amenity": "doctors",
     "building:levels": "1",
     "building:part": "commercial",
+    "healthcare": "doctor",
     "wheelchair": "limited",
     "id": "way/236136842"
   },
@@ -9928,6 +9929,56 @@
 },
 {
   "type": "Feature",
+  "id": "way/1266680372",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "944",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "height": "3",
+    "name": "Centro de Oftalmología PMC",
+    "operator": "Policlínico Modelo de Cipolletti S.A.",
+    "website": "https://www.policlinicomodelo.com.ar/",
+    "id": "way/1266680372"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9891976,
+          -38.9416278
+        ],
+        [
+          -67.989155,
+          -38.9415019
+        ],
+        [
+          -67.9892557,
+          -38.9414813
+        ],
+        [
+          -67.9892707,
+          -38.9415255
+        ],
+        [
+          -67.9892983,
+          -38.9416073
+        ],
+        [
+          -67.9891976,
+          -38.9416278
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/427988926",
   "properties": {
     "amenity": "doctors",
@@ -10229,8 +10280,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7772737,
-      -28.4706574
+      -65.7774702,
+      -28.4708569
     ]
   }
 },
@@ -13782,7 +13833,7 @@
   "properties": {
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Sala de Primeros Auxilios",
+    "name": "Unidad Sanitaria \"Doctor Alfredo Picallo\"",
     "id": "node/4030547510"
   },
   "geometry": {
@@ -16476,7 +16527,7 @@
   "id": "node/4616703437",
   "properties": {
     "addr:city": "Villa Ballester",
-    "addr:street": "114 - Alvear",
+    "addr:street": "114 - Carlos María de Alvear",
     "amenity": "doctors",
     "name": "Consultórios Médicos",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
@@ -20050,7 +20101,7 @@
   "id": "node/5734820267",
   "properties": {
     "addr:housenumber": "292",
-    "addr:street": "Cordoba",
+    "addr:street": "Córdoba",
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Instituto de Reumatología",
@@ -38192,6 +38243,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/11677366477",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "990",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Consultorios Montelpare",
+    "id": "node/11677366477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9887511,
+      -38.9416981
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11683205530",
   "properties": {
     "addr:city": "Mendoza",
@@ -38434,6 +38506,57 @@
     "coordinates": [
       -63.2554277,
       -37.1682997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754245245",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro Médico",
+    "id": "node/11754245245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.2118187,
+      -51.6351776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754245246",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Praevida Medicina Laboral",
+    "id": "node/11754245246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.2122188,
+      -51.6349867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754245249",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Servicio de Intervención en Crisis",
+    "id": "node/11754245249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.2126907,
+      -51.6299376
     ]
   }
 }
