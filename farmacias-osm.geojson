@@ -467,28 +467,32 @@
     "coordinates": [
       [
         [
-          -60.8130764,
-          -32.9147223
+          -60.8130708,
+          -32.9147396
         ],
         [
-          -60.8130851,
-          -32.9147566
+          -60.8130797,
+          -32.914774
         ],
         [
-          -60.8130931,
-          -32.9147881
+          -60.8130878,
+          -32.9148053
         ],
         [
-          -60.8129449,
-          -32.9148146
+          -60.8129622,
+          -32.9148282
         ],
         [
-          -60.8129282,
-          -32.9147488
+          -60.8129451,
+          -32.9147625
         ],
         [
-          -60.8130764,
-          -32.9147223
+          -60.8130108,
+          -32.9147505
+        ],
+        [
+          -60.8130708,
+          -32.9147396
         ]
       ]
     ]
@@ -8180,11 +8184,23 @@
   "type": "Feature",
   "id": "way/466720044",
   "properties": {
+    "addr:housenumber": "4164",
     "addr:street": "Avenida Vélez Sarsfield",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-04-02",
     "healthcare": "pharmacy",
     "name": "Central Munro Farmacias",
+    "opening_hours": "24/7",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+54 11 4756-2837",
     "id": "way/466720044"
   },
   "geometry": {
@@ -35269,6 +35285,99 @@
 },
 {
   "type": "Feature",
+  "id": "way/940632645",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/940632645"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.9572259,
+          -32.6041196
+        ],
+        [
+          -60.95633,
+          -32.6052855
+        ],
+        [
+          -60.957309,
+          -32.6060582
+        ],
+        [
+          -60.9557775,
+          -32.6079517
+        ],
+        [
+          -60.9564561,
+          -32.6084081
+        ],
+        [
+          -60.956161,
+          -32.608747
+        ],
+        [
+          -60.9553456,
+          -32.6091221
+        ],
+        [
+          -60.9547421,
+          -32.6093231
+        ],
+        [
+          -60.9539455,
+          -32.609409
+        ],
+        [
+          -60.9499222,
+          -32.6086815
+        ],
+        [
+          -60.9498766,
+          -32.6086476
+        ],
+        [
+          -60.9532723,
+          -32.605995
+        ],
+        [
+          -60.9524649,
+          -32.6052222
+        ],
+        [
+          -60.9538972,
+          -32.6041128
+        ],
+        [
+          -60.9541655,
+          -32.6043749
+        ],
+        [
+          -60.9536451,
+          -32.6048223
+        ],
+        [
+          -60.9550023,
+          -32.6060989
+        ],
+        [
+          -60.9568396,
+          -32.6037874
+        ],
+        [
+          -60.9572259,
+          -32.6041196
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/946908355",
   "properties": {
     "addr:housenumber": "2231",
@@ -36459,13 +36568,11 @@
     "amenity": "pharmacy",
     "building": "retail",
     "contact:email": "farma.bollero@gmail.com",
-    "contact:facebook": "https://www.facebook.com/farmacia.bollero/",
     "contact:phone": "+54 3382 429384",
     "contact:whatsapp": "+5493382446800",
     "healthcare": "pharmacy",
     "height": "5",
     "name": "Farmacia Bollero",
-    "website": "https://farmaciabollero.mitiendanube.com/",
     "id": "way/1016592696"
   },
   "geometry": {
@@ -36641,49 +36748,6 @@
         [
           -58.6261213,
           -34.7002894
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/1032608373",
-  "properties": {
-    "amenity": "pharmacy",
-    "building:part": "yes",
-    "healthcare": "pharmacy",
-    "height": "6",
-    "name": "ADOS",
-    "id": "way/1032608373"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -62.7103686,
-          -34.2635447
-        ],
-        [
-          -62.7105389,
-          -34.2635117
-        ],
-        [
-          -62.710559,
-          -34.2635848
-        ],
-        [
-          -62.7104282,
-          -34.2636107
-        ],
-        [
-          -62.7103813,
-          -34.2635899
-        ],
-        [
-          -62.7103686,
-          -34.2635447
         ]
       ]
     ]
@@ -39283,44 +39347,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1193460792",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Terbonati",
-    "id": "way/1193460792"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.5599826,
-          -31.9799098
-        ],
-        [
-          -64.5598308,
-          -31.9799352
-        ],
-        [
-          -64.5598147,
-          -31.9798666
-        ],
-        [
-          -64.5599641,
-          -31.9798371
-        ],
-        [
-          -64.5599826,
-          -31.9799098
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1198323693",
   "properties": {
     "addr:city": "Bahía Blanca",
@@ -39523,9 +39549,7 @@
     "addr:street": "Presidente Juan Domingo Perón",
     "amenity": "pharmacy",
     "building": "retail",
-    "building:levels": "0",
     "contact:phone": "+54 (03382) 15675581",
-    "description": "Turnos de Farmacias: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
     "height": "5.5",
     "name": "Farmacia Manciola",
@@ -39573,7 +39597,6 @@
     "amenity": "pharmacy",
     "building": "retail",
     "contact:phone": "+54 (03382) 426066",
-    "description": "Turnos de Farmacias: http://www.farmaciasrufino.com/turnosmes.php",
     "healthcare": "pharmacy",
     "height": "5",
     "name": "Farmacia Luhaces",
@@ -39615,9 +39638,14 @@
   "type": "Feature",
   "id": "way/1206849426",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "90",
+    "addr:state": "Santa Fe",
+    "addr:street": "Ángel Rosel Meunier",
     "amenity": "pharmacy",
     "building": "retail",
-    "description": "Turnos de Farmacias Rufino: http://www.farmaciasrufino.com/turnosmes.php",
+    "contact:phone": "+54 03382 428791",
     "healthcare": "pharmacy",
     "height": "5",
     "name": "Farmacia Guaragna",
@@ -39721,8 +39749,14 @@
   "type": "Feature",
   "id": "way/1209739298",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "172",
+    "addr:state": "Santa Fe",
+    "addr:street": "Bernabé Ferreyra",
     "amenity": "pharmacy",
     "building": "retail",
+    "contact:phone": "+54 03382 440097",
     "healthcare": "pharmacy",
     "height": "3.5",
     "name": "Bengua",
@@ -41299,6 +41333,92 @@
         [
           -65.7782149,
           -28.4699742
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1267498551",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Godoy Cruz",
+    "id": "way/1267498551"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.843364,
+          -32.9247387
+        ],
+        [
+          -68.8431945,
+          -32.924772
+        ],
+        [
+          -68.843166,
+          -32.9246919
+        ],
+        [
+          -68.8433639,
+          -32.9246456
+        ],
+        [
+          -68.843387,
+          -32.9247071
+        ],
+        [
+          -68.843364,
+          -32.9247387
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1267717629",
+  "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "359",
+    "addr:state": "Santa Fe",
+    "addr:street": "Ayacucho",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "contact:phone": "+54 (03382) 421208",
+    "healthcare": "pharmacy",
+    "name": "Santo",
+    "id": "way/1267717629"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.7043545,
+          -34.2666403
+        ],
+        [
+          -62.704376,
+          -34.2667288
+        ],
+        [
+          -62.704292,
+          -34.2667427
+        ],
+        [
+          -62.7042706,
+          -34.2666541
+        ],
+        [
+          -62.7043545,
+          -34.2666403
         ]
       ]
     ]
@@ -44418,8 +44538,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7817292,
-      -28.4659596
+      -65.7815747,
+      -28.4659525
     ]
   }
 },
@@ -57926,6 +58046,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Farmacia",
     "id": "node/2387483545"
   },
   "geometry": {
@@ -58812,7 +58933,13 @@
   "type": "Feature",
   "id": "node/2429677767",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "120",
+    "addr:state": "Santa Fe",
+    "addr:street": "Eva Perón",
     "amenity": "pharmacy",
+    "contact:phone": "+54 (03382) 429385",
     "healthcare": "pharmacy",
     "name": "Santa Fe",
     "id": "node/2429677767"
@@ -58915,7 +59042,13 @@
   "type": "Feature",
   "id": "node/2432927465",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "2",
+    "addr:state": "Santa Fe",
+    "addr:street": "Rivadavia",
     "amenity": "pharmacy",
+    "contact:phone": "+54 03382 15457712",
     "healthcare": "pharmacy",
     "name": "Belén",
     "id": "node/2432927465"
@@ -58930,26 +59063,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/2434289566",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Santo",
-    "id": "node/2434289566"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -62.7042744,
-      -34.2665627
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2434289568",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "58",
+    "addr:state": "Santa Fe",
+    "addr:street": "Manuel Roca",
     "amenity": "pharmacy",
+    "contact:phone": "+54 03382 427912",
     "healthcare": "pharmacy",
     "name": "Siola",
     "id": "node/2434289568"
@@ -58966,7 +59088,13 @@
   "type": "Feature",
   "id": "node/2434289571",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "115",
+    "addr:state": "Santa Fe",
+    "addr:street": "San Juan",
     "amenity": "pharmacy",
+    "contact:phone": "+54 03382 421182",
     "healthcare": "pharmacy",
     "name": "Casali",
     "id": "node/2434289571"
@@ -108867,16 +108995,23 @@
   "type": "Feature",
   "id": "node/5173822521",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "1064",
+    "addr:postcode": "R8324",
+    "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia San Pablo",
+    "operator": "Farmacia San Pablo S.C.S.",
     "id": "node/5173822521"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9871082,
-      -38.9397747
+      -67.9869961,
+      -38.9398183
     ]
   }
 },
@@ -121844,7 +121979,13 @@
   "type": "Feature",
   "id": "node/5977251042",
   "properties": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "340",
+    "addr:state": "Santa Fe",
+    "addr:street": "Manuel Roca",
     "amenity": "pharmacy",
+    "contact:phone": "+54 (03382) 429652",
     "healthcare": "pharmacy",
     "name": "Lucconi",
     "id": "node/5977251042"
@@ -127356,17 +127497,22 @@
   "type": "Feature",
   "id": "node/6357009815",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "449",
+    "addr:place": "Brentana",
+    "addr:postcode": "R8324",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Antu",
+    "name": "Farmacia Aguilera",
     "id": "node/6357009815"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9884887,
-      -38.9379334
+      -67.9885219,
+      -38.9379552
     ]
   }
 },
@@ -134431,13 +134577,14 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Farmacia Flor",
     "id": "node/7292818383"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8310633,
-      -32.8795913
+      -68.8310799,
+      -32.8797799
     ]
   }
 },
@@ -171704,28 +171851,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11585746275",
-  "properties": {
-    "addr:city": "Trevelin",
-    "addr:housenumber": "494",
-    "addr:postcode": "9203",
-    "addr:street": "Avenida San Martín",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Del Pueblo",
-    "ref:sisa_codigo": "70260352329494",
-    "id": "node/11585746275"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -71.4642763,
-      -43.0856184
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11592404678",
   "properties": {
     "amenity": "pharmacy",
@@ -172357,6 +172482,106 @@
     "coordinates": [
       -64.4665207,
       -31.2416771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11770015245",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia",
+    "id": "node/11770015245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8439269,
+      -32.8597982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11772305508",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Sagrada Familia",
+    "phone": "+542644251140",
+    "id": "node/11772305508"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5066916,
+      -31.5413959
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11775132140",
+  "properties": {
+    "addr:city": "Trevelin",
+    "addr:housenumber": "494",
+    "addr:postcode": "9203",
+    "addr:street": "Avenida San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Del Pueblo",
+    "ref:sisa_codigo": "70260352329494",
+    "id": "node/11775132140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.4642763,
+      -43.0856184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11777310881",
+  "properties": {
+    "addr:city": "Villa Ballester",
+    "addr:housenumber": "3773",
+    "addr:postcode": "B1650",
+    "addr:street": "95 - San Lorenzo",
+    "addr:unit": "1014",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Portofino",
+    "id": "node/11777310881"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5577898,
+      -34.5627536
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11780434264",
+  "properties": {
+    "addr:city": "Serodino",
+    "addr:housenumber": "563",
+    "addr:postcode": "2216",
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Bressan",
+    "id": "node/11780434264"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.9515043,
+      -32.6074188
     ]
   }
 }

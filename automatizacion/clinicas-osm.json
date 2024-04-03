@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-03-28T12:36:56Z",
-    "timestamp_areas_base": "2024-03-28T08:05:57Z",
+    "timestamp_osm_base": "2024-04-03T23:42:26Z",
+    "timestamp_areas_base": "2024-04-03T19:22:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -27,8 +27,8 @@
 {
   "type": "node",
   "id": 567776738,
-  "lat": -28.4685703,
-  "lon": -65.7919595,
+  "lat": -28.4685417,
+  "lon": -65.7919758,
   "tags": {
     "addr:alt_street": "General Conessa Norte",
     "addr:housenumber": "151",
@@ -40,21 +40,6 @@
     "note": "La numeracion es vieja",
     "operator:type": "private",
     "phone": "+54 383 442 7485"
-  }
-},
-{
-  "type": "node",
-  "id": 573061925,
-  "lat": -28.4610544,
-  "lon": -65.7882475,
-  "tags": {
-    "addr:housenumber": "18",
-    "addr:street": "Avenida Mariano Moreno",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "chiropractic",
-    "name": "I C I Instituto De Cardiologia Intervencionista",
-    "phone": "54-(3833) 43-3454"
   }
 },
 {
@@ -13470,6 +13455,7 @@
     "operator": "Municipalidad de Rosario",
     "operator:type": "public",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
+    "wheelchair": "yes",
     "wikidata": "Q97672651"
   }
 },
@@ -17981,7 +17967,8 @@
     "operator:type": "public",
     "phone": "+54 341 495-6306",
     "ref:sisa_codigo": "50820842184843",
-    "ref:sisa_tipologia": "ESSIDT"
+    "ref:sisa_tipologia": "ESSIDT",
+    "wheelchair": "yes"
   }
 },
 {
@@ -27696,8 +27683,8 @@
 {
   "type": "node",
   "id": 7504623432,
-  "lat": -34.7043801,
-  "lon": -58.5426817,
+  "lat": -34.7044595,
+  "lon": -58.5423920,
   "tags": {
     "addr:full": "La Quila Y El Zorro Edificio 2 Acc. 2 Nh 19",
     "addr:postcode": "1778",
@@ -43640,9 +43627,12 @@
   "lon": -68.5344020,
   "tags": {
     "amenity": "clinic",
+    "check_date": "2024-03-28",
     "contact:facebook": "https://www.facebook.com/CordobaClinicaMedicaSJ",
     "contact:whatsapp": "+54 264 5404611",
+    "email": "cordobaclinicamedica@gmail.com",
     "name": "Córdoba Clínica Médica",
+    "opening_hours": "Mo-Th 08:00-21:00",
     "phone": "+54 264 4322332"
   }
 },
@@ -46489,7 +46479,15 @@
   "id": 234890114,
   "nodes": [
     2430129681,
-    2430129703,
+    11768965024,
+    11768965023,
+    11768965022,
+    11768965021,
+    11768965020,
+    11768965019,
+    11768965018,
+    11768965017,
+    11768965025,
     2430129697,
     2430129645,
     2430129681
@@ -46506,7 +46504,33 @@
     "healthcare": "clinic",
     "name": "Centro de salud Ángel Bulgheroni",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator:type": "public"
+    "operator:type": "public",
+    "start_date": "1972"
+  }
+},
+{
+  "type": "way",
+  "id": 235202557,
+  "nodes": [
+    2432770663,
+    2432770671,
+    2432770662,
+    2432770665,
+    2432770663
+  ],
+  "tags": {
+    "addr:city": "Rufino",
+    "addr:country": "AR",
+    "addr:housenumber": "440",
+    "addr:postcode": "S6100",
+    "addr:state": "Santa Fe",
+    "addr:street": "Dr. Emilio A. Carballeira",
+    "amenity": "clinic",
+    "building": "clinic",
+    "healthcare": "complementary clinical analyzes",
+    "healthcare:speciality": "general_practitioner",
+    "name": "Centro de Trabajo Médico",
+    "website": "http://www.centrodetrabajomedicoderufino.com/"
   }
 },
 {
@@ -46713,27 +46737,6 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "OSEP"
-  }
-},
-{
-  "type": "way",
-  "id": 255896137,
-  "nodes": [
-    2616084273,
-    5729258567,
-    2616084272,
-    3739552808,
-    10971671448,
-    2616084271,
-    2616084273
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Clinica San Javier",
-    "operator": "Sanatorio Pasteur",
-    "operator:type": "private"
   }
 },
 {
@@ -48316,25 +48319,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Dispensario B°Ferreyra"
-  }
-},
-{
-  "type": "way",
-  "id": 346568292,
-  "nodes": [
-    3530748430,
-    3530748431,
-    3530748432,
-    4727668026,
-    3530748433,
-    3530748434,
-    3530748430
-  ],
-  "tags": {
-    "addr:street": "Prado",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Instituto Médico Privado"
   }
 },
 {
@@ -55681,6 +55665,7 @@
     5359958278,
     4531092429,
     5359958277,
+    11780619875,
     5359958276,
     5359958278
   ],
@@ -59155,33 +59140,6 @@
     "operator:type": "public",
     "phone": "011-4694-9286",
     "ref:sisa_codigo": "50064272201912",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
-  "id": 802273798,
-  "nodes": [
-    7504438102,
-    7504438109,
-    7504438108,
-    7504438107,
-    7504438106,
-    7504438105,
-    7504438104,
-    7504438103,
-    7504438102
-  ],
-  "tags": {
-    "addr:full": "Monseñor Bufano 4500",
-    "addr:postcode": "1754",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Cic Almafuerte (Ex Unidad Sanitaria Barrio Almafuerte)",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "011-4691-3053",
-    "ref:sisa_codigo": "50064272201510",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -62975,7 +62933,8 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842184649",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "Centro Guevara"
+    "short_name": "Centro Guevara",
+    "wheelchair": "yes"
   }
 },
 {
@@ -67656,6 +67615,34 @@
     "operator:type": "private",
     "short_name": "CENI",
     "website": "https://www.cenipediatria.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1267307720,
+  "nodes": [
+    427988926,
+    11770607292,
+    11770607299,
+    11770607293,
+    11770607294,
+    11770607295,
+    1511617848,
+    1511617851,
+    1511617855,
+    1511617858,
+    427988926
+  ],
+  "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "167",
+    "addr:postcode": "4700",
+    "addr:street": "Camilo Melet",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "ECA",
+    "phone": "+54 383 442-5000",
+    "website": "https://ecaonline.com.ar/"
   }
 },
 {
@@ -80396,27 +80383,99 @@
 },
 {
   "type": "node",
+  "id": 2432770662,
+  "lat": -34.2664728,
+  "lon": -62.7102724
+},
+{
+  "type": "node",
+  "id": 2432770663,
+  "lat": -34.2664331,
+  "lon": -62.7099276
+},
+{
+  "type": "node",
+  "id": 2432770665,
+  "lat": -34.2665412,
+  "lon": -62.7099625
+},
+{
+  "type": "node",
+  "id": 2432770671,
+  "lat": -34.2663647,
+  "lon": -62.7102375
+},
+{
+  "type": "node",
   "id": 2430129645,
-  "lat": -34.2573278,
-  "lon": -62.7091528
+  "lat": -34.2573927,
+  "lon": -62.7089653
 },
 {
   "type": "node",
   "id": 2430129681,
-  "lat": -34.2573041,
-  "lon": -62.7092768
+  "lat": -34.2573619,
+  "lon": -62.7091171
 },
 {
   "type": "node",
   "id": 2430129697,
-  "lat": -34.2574681,
-  "lon": -62.7091936
+  "lat": -34.2575409,
+  "lon": -62.7090082
 },
 {
   "type": "node",
-  "id": 2430129703,
-  "lat": -34.2574415,
-  "lon": -62.7093143
+  "id": 11768965017,
+  "lat": -34.2575723,
+  "lon": -62.7090977
+},
+{
+  "type": "node",
+  "id": 11768965018,
+  "lat": -34.2575877,
+  "lon": -62.7090218
+},
+{
+  "type": "node",
+  "id": 11768965019,
+  "lat": -34.2576487,
+  "lon": -62.7090395
+},
+{
+  "type": "node",
+  "id": 11768965020,
+  "lat": -34.2576223,
+  "lon": -62.7091691
+},
+{
+  "type": "node",
+  "id": 11768965021,
+  "lat": -34.2576467,
+  "lon": -62.7091764
+},
+{
+  "type": "node",
+  "id": 11768965022,
+  "lat": -34.2576731,
+  "lon": -62.7090466
+},
+{
+  "type": "node",
+  "id": 11768965023,
+  "lat": -34.2577677,
+  "lon": -62.7090740
+},
+{
+  "type": "node",
+  "id": 11768965024,
+  "lat": -34.2577363,
+  "lon": -62.7092286
+},
+{
+  "type": "node",
+  "id": 11768965025,
+  "lat": -34.2575255,
+  "lon": -62.7090837
 },
 {
   "type": "node",
@@ -84225,20 +84284,20 @@
 {
   "type": "node",
   "id": 2627862305,
-  "lat": -32.9183285,
-  "lon": -60.8082613
+  "lat": -32.9183291,
+  "lon": -60.8082617
 },
 {
   "type": "node",
   "id": 2627862307,
-  "lat": -32.9183429,
-  "lon": -60.8081789
+  "lat": -32.9183434,
+  "lon": -60.8081791
 },
 {
   "type": "node",
   "id": 2627862314,
-  "lat": -32.9185590,
-  "lon": -60.8083185
+  "lat": -32.9185591,
+  "lon": -60.8083184
 },
 {
   "type": "node",
@@ -84267,32 +84326,32 @@
 {
   "type": "node",
   "id": 3463580363,
-  "lat": -32.9183726,
-  "lon": -60.8080091
+  "lat": -32.9183724,
+  "lon": -60.8080119
 },
 {
   "type": "node",
   "id": 3463580378,
-  "lat": -32.9185876,
-  "lon": -60.8083256
+  "lat": -32.9185886,
+  "lon": -60.8083257
 },
 {
   "type": "node",
   "id": 3463580380,
-  "lat": -32.9186092,
-  "lon": -60.8082022
+  "lat": -32.9186100,
+  "lon": -60.8082024
 },
 {
   "type": "node",
   "id": 3463580381,
-  "lat": -32.9186155,
-  "lon": -60.8081660
+  "lat": -32.9186163,
+  "lon": -60.8081662
 },
 {
   "type": "node",
   "id": 3463580382,
-  "lat": -32.9186317,
-  "lon": -60.8080734
+  "lat": -32.9186319,
+  "lon": -60.8080759
 },
 {
   "type": "node",
@@ -84345,8 +84404,20 @@
 {
   "type": "node",
   "id": 8413517992,
-  "lat": -32.9183698,
-  "lon": -60.8080252
+  "lat": -32.9183701,
+  "lon": -60.8080253
+},
+{
+  "type": "node",
+  "id": 11775547128,
+  "lat": -32.9184552,
+  "lon": -60.8080323
+},
+{
+  "type": "node",
+  "id": 11775547136,
+  "lat": -32.9184978,
+  "lon": -60.8080428
 },
 {
   "type": "node",
@@ -85361,6 +85432,12 @@
   "id": 8384956350,
   "lat": -32.9478302,
   "lon": -60.6438613
+},
+{
+  "type": "node",
+  "id": 11780619875,
+  "lat": -32.9468764,
+  "lon": -60.6447666
 },
 {
   "type": "node",
@@ -89873,54 +89950,6 @@
   "id": 7504299956,
   "lat": -34.7022239,
   "lon": -58.5588625
-},
-{
-  "type": "node",
-  "id": 7504438102,
-  "lat": -34.6921205,
-  "lon": -58.5513765
-},
-{
-  "type": "node",
-  "id": 7504438103,
-  "lat": -34.6920613,
-  "lon": -58.5513089
-},
-{
-  "type": "node",
-  "id": 7504438104,
-  "lat": -34.6921298,
-  "lon": -58.5512202
-},
-{
-  "type": "node",
-  "id": 7504438105,
-  "lat": -34.6920860,
-  "lon": -58.5511702
-},
-{
-  "type": "node",
-  "id": 7504438106,
-  "lat": -34.6919185,
-  "lon": -58.5513873
-},
-{
-  "type": "node",
-  "id": 7504438107,
-  "lat": -34.6919558,
-  "lon": -58.5514300
-},
-{
-  "type": "node",
-  "id": 7504438108,
-  "lat": -34.6919156,
-  "lon": -58.5514821
-},
-{
-  "type": "node",
-  "id": 7504438109,
-  "lat": -34.6919812,
-  "lon": -58.5515570
 },
 {
   "type": "node",
@@ -100538,75 +100567,63 @@
 },
 {
   "type": "node",
-  "id": 3530748430,
-  "lat": -28.4656520,
-  "lon": -65.7803511
+  "id": 427988926,
+  "lat": -28.4689799,
+  "lon": -65.7891011
 },
 {
   "type": "node",
-  "id": 3530748433,
-  "lat": -28.4655549,
-  "lon": -65.7800880
+  "id": 1511617848,
+  "lat": -28.4684797,
+  "lon": -65.7891278
 },
 {
   "type": "node",
-  "id": 3530748434,
-  "lat": -28.4656449,
-  "lon": -65.7800849
+  "id": 1511617851,
+  "lat": -28.4685411,
+  "lon": -65.7891246
 },
 {
   "type": "node",
-  "id": 4727668026,
-  "lat": -28.4655523,
-  "lon": -65.7799877
+  "id": 1511617855,
+  "lat": -28.4686730,
+  "lon": -65.7891175
 },
 {
   "type": "node",
-  "id": 3530748431,
-  "lat": -28.4653634,
-  "lon": -65.7803610
+  "id": 1511617858,
+  "lat": -28.4687709,
+  "lon": -65.7891123
 },
 {
   "type": "node",
-  "id": 3530748432,
-  "lat": -28.4653537,
-  "lon": -65.7799944
+  "id": 11770607292,
+  "lat": -28.4689439,
+  "lon": -65.7885981
 },
 {
   "type": "node",
-  "id": 2616084271,
-  "lat": -28.4487825,
-  "lon": -65.7206151
+  "id": 11770607293,
+  "lat": -28.4681569,
+  "lon": -65.7886367
 },
 {
   "type": "node",
-  "id": 2616084272,
-  "lat": -28.4487972,
-  "lon": -65.7202099
+  "id": 11770607294,
+  "lat": -28.4681693,
+  "lon": -65.7888925
 },
 {
   "type": "node",
-  "id": 2616084273,
-  "lat": -28.4489385,
-  "lon": -65.7203006
+  "id": 11770607295,
+  "lat": -28.4681693,
+  "lon": -65.7891445
 },
 {
   "type": "node",
-  "id": 3739552808,
-  "lat": -28.4487900,
-  "lon": -65.7202243
-},
-{
-  "type": "node",
-  "id": 5729258567,
-  "lat": -28.4488769,
-  "lon": -65.7202611
-},
-{
-  "type": "node",
-  "id": 10971671448,
-  "lat": -28.4486412,
-  "lon": -65.7205245
+  "id": 11770607299,
+  "lat": -28.4685890,
+  "lon": -65.7886156
 },
 {
   "type": "node",
@@ -104469,6 +104486,8 @@
     2627862307,
     8413517992,
     3463580363,
+    11775547128,
+    11775547136,
     3463580382,
     3463580381
   ]

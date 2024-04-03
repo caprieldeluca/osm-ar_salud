@@ -416,51 +416,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/236136842",
-  "properties": {
-    "addr:housenumber": "1498",
-    "addr:street": "Avenida Santa Fe",
-    "amenity": "doctors",
-    "building:levels": "1",
-    "building:part": "commercial",
-    "healthcare": "doctor",
-    "wheelchair": "limited",
-    "id": "way/236136842"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.8087053,
-          -32.9184559
-        ],
-        [
-          -60.8087524,
-          -32.9184469
-        ],
-        [
-          -60.8087704,
-          -32.9185133
-        ],
-        [
-          -60.8087233,
-          -32.9185223
-        ],
-        [
-          -60.8087138,
-          -32.9184875
-        ],
-        [
-          -60.8087053,
-          -32.9184559
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/254696147",
   "properties": {
     "addr:city": "Posadas",
@@ -2015,19 +1970,19 @@
         ],
         [
           -60.8081233,
-          -32.9184339
+          -32.918434
         ],
         [
-          -60.8080658,
+          -60.8080657,
           -32.918444
         ],
         [
           -60.8080543,
-          -32.9183978
+          -32.9183977
         ],
         [
-          -60.8081118,
-          -32.9183878
+          -60.8081119,
+          -32.9183877
         ],
         [
           -60.8081198,
@@ -4019,12 +3974,12 @@
           -34.6456311
         ],
         [
-          -58.565041,
-          -34.6456617
+          -58.5650155,
+          -34.6456584
         ],
         [
-          -58.565024,
-          -34.6457407
+          -58.5649945,
+          -34.6457374
         ],
         [
           -58.5648368,
@@ -9979,19 +9934,64 @@
 },
 {
   "type": "Feature",
-  "id": "node/427988926",
+  "id": "way/1267321375",
   "properties": {
+    "addr:city": "Villa Dolores",
+    "addr:postcode": "4707",
+    "addr:street": "Marie Curie",
+    "alt_name": "Centro de Radioterapia y Oncología Valle Viejo",
     "amenity": "doctors",
+    "building": "yes",
     "healthcare": "doctor",
-    "name": "ECA",
-    "phone": "+54-3833-425000",
-    "id": "node/427988926"
+    "healthcare:speciality": "oncology",
+    "loc_name": "Bomba de Cobalto",
+    "name": "Fundación Jose Guido Jalil",
+    "operator": "Fundación Doctor Jose Guido Jalil",
+    "phone": "+54 383 444-1911",
+    "website": "https://fundacionjoseguidojalil.com.ar/",
+    "id": "way/1267321375"
   },
   "geometry": {
-    "type": "Point",
+    "type": "Polygon",
     "coordinates": [
-      -65.7889703,
-      -28.4687668
+      [
+        [
+          -65.7211408,
+          -28.4480624
+        ],
+        [
+          -65.7212294,
+          -28.448387
+        ],
+        [
+          -65.7210631,
+          -28.4484221
+        ],
+        [
+          -65.7210075,
+          -28.4482186
+        ],
+        [
+          -65.7209781,
+          -28.4482248
+        ],
+        [
+          -65.7209691,
+          -28.4481918
+        ],
+        [
+          -65.721015,
+          -28.4481821
+        ],
+        [
+          -65.7209909,
+          -28.448094
+        ],
+        [
+          -65.7211408,
+          -28.4480624
+        ]
+      ]
     ]
   }
 },
@@ -20282,24 +20282,6 @@
     "coordinates": [
       -60.7367385,
       -32.749778
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5836821019",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "healthcare:speciality": "ophthalmology",
-    "name": "Instituto Oftalmológico de Rosario",
-    "id": "node/5836821019"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.6526127,
-      -32.9474273
     ]
   }
 },
@@ -38557,6 +38539,26 @@
     "coordinates": [
       -69.2126907,
       -51.6299376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11775838866",
+  "properties": {
+    "addr:city": "Villa General Belgrano",
+    "addr:country": "AR",
+    "addr:street": "Avenida Las Magnolias",
+    "alt_name": "Dispensario Villa General Belgrano",
+    "amenity": "doctors",
+    "name": "Centro de Salud Municipal",
+    "id": "node/11775838866"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.5506752,
+      -31.970912
     ]
   }
 }
