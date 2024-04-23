@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-04-03T23:45:30Z",
-    "timestamp_areas_base": "2024-04-03T19:22:49Z",
+    "timestamp_osm_base": "2024-04-23T01:21:30Z",
+    "timestamp_areas_base": "2024-04-22T23:01:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -447,12 +447,18 @@
 {
   "type": "node",
   "id": 1674827003,
-  "lat": -24.8294378,
-  "lon": -65.4235716,
+  "lat": -24.8294586,
+  "lon": -65.4235360,
   "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "238",
+    "addr:postcode": "4400",
+    "addr:street": "Mar Mediterráneo",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Centro de Salud Nº17"
+    "name": "Centro de Salud 17 Barrio San Remo",
+    "official_name": "Centro de Salud Nº 17 Bº San Remo",
+    "phone": "+54 387 4270747"
   }
 },
 {
@@ -4614,6 +4620,9 @@
   "lat": -34.5675757,
   "lon": -58.5383801,
   "tags": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "73 - Islas Malvinas",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -5198,7 +5207,10 @@
   "lat": -33.0446428,
   "lon": -61.1737333,
   "tags": {
+    "addr:city": "Casilda",
+    "addr:country": "AR",
     "addr:postcode": "S2170",
+    "addr:province": "Santa Fe",
     "addr:street": "Remedios de Escalada",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -5862,7 +5874,9 @@
   "lon": -61.1625112,
   "tags": {
     "addr:city": "Casilda",
+    "addr:country": "AR",
     "addr:housenumber": "1200",
+    "addr:province": "Santa Fe",
     "addr:street": "Bartolomé Mitre",
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -14240,8 +14254,11 @@
   "lat": -32.9761544,
   "lon": -60.6769707,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "3813",
     "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Crespo",
     "amenity": "doctors",
     "contact:phone": "+54 341 431-2760",
@@ -16236,7 +16253,10 @@
   "lat": -32.9520447,
   "lon": -60.6444535,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1421",
+    "addr:state": "Santa Fe",
     "addr:street": "3 de Febrero",
     "amenity": "doctors",
     "healthcare": "doctor"
@@ -17769,7 +17789,10 @@
   "lat": -32.9449489,
   "lon": -60.6481150,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1803",
+    "addr:state": "Santa Fe",
     "addr:street": "Córdoba",
     "amenity": "doctors",
     "contact:website": "https://www.clinicadeojosrosario.com",
@@ -19487,9 +19510,11 @@
   "lon": -60.7044378,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:full": "San Martín 3191, Santa Fe de la Vera Cruz, Santa Fe",
     "addr:housenumber": "3191",
     "addr:postcode": "3000",
+    "addr:state": "Santa Fe",
     "addr:street": "San Martín",
     "amenity": "doctors",
     "description": "Medicina Estética",
@@ -20458,6 +20483,109 @@
   }
 },
 {
+  "type": "node",
+  "id": 11795574975,
+  "lat": -24.8513171,
+  "lon": -65.4598566,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Calle 13 y Calle 5",
+    "addr:postcode": "4400",
+    "addr:street": "Basílica San Francisco",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro De Salud 57 Santa Ana II",
+    "official_name": "Centro De Salud Nº 57 Santa Ana II",
+    "phone": "+54 387 4291189",
+    "ref:sisa_codigo": "50660282173187",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11796221917,
+  "lat": -24.8625715,
+  "lon": -65.4624203,
+  "tags": {
+    "addr:city": "Cerrillos",
+    "addr:full": "Los Cardenales Esquina Las Calandrias",
+    "addr:postcode": "4401",
+    "addr:street": "Los Cardenales",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro De Salud Los Alamos",
+    "phone": "+54 387 4555806",
+    "ref:sisa_codigo": "50660352173132",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11796253441,
+  "lat": -24.8583231,
+  "lon": -65.4655525,
+  "tags": {
+    "addr:full": "Avenida 2 Casa 518",
+    "addr:postcode": "4400",
+    "addr:street": "Rubén Eduardo Márquez",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Centro de Salud 16 Islas Malvinas",
+    "phone": "+54 387 429 1171",
+    "ref:sisa_codigo": "50660282173144",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11802483746,
+  "lat": -32.8697657,
+  "lon": -68.8274922,
+  "tags": {
+    "addr:housenumber": "2944",
+    "addr:street": "Videla Castillo",
+    "amenity": "doctors",
+    "contact:phone": "54 0261 7600407",
+    "name": "Centro de Salud 2 - San Antonio"
+  }
+},
+{
+  "type": "node",
+  "id": 11803428885,
+  "lat": -32.9147640,
+  "lon": -60.8133253,
+  "tags": {
+    "addr:housenumber": "1556",
+    "addr:street": "Juan Elorza",
+    "amenity": "doctors",
+    "contact:phone": "+54 341 493-2323",
+    "description": "Medicina general y familiar.",
+    "healthcare": "doctor",
+    "healthcare:speciality": "child_psychiatry;general;psychiatry",
+    "name": "Especialidades Médicas",
+    "operator": "María de los Ángeles Marino",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11810381368,
+  "lat": -32.8089585,
+  "lon": -63.8715879,
+  "tags": {
+    "addr:city": "General Cabrera",
+    "addr:housenumber": "1132",
+    "addr:postcode": "5809",
+    "addr:street": "Avenida San Martin",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro De Ojos Privado General Cabrera",
+    "ref:sisa_codigo": "50140562333300",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -21111,28 +21239,6 @@
 },
 {
   "type": "way",
-  "id": 339582263,
-  "nodes": [
-    3468002797,
-    3468002799,
-    3468000192,
-    3468002796,
-    3468002808,
-    3468002805,
-    3468002797
-  ],
-  "tags": {
-    "addr:housenumber": "1532",
-    "addr:street": "Juan Elorza",
-    "amenity": "doctors",
-    "building": "commercial",
-    "building:levels": "1",
-    "healthcare": "doctor",
-    "healthcare:speciality": "psychiatry"
-  }
-},
-{
-  "type": "way",
   "id": 345629277,
   "nodes": [
     3522701033,
@@ -21325,7 +21431,10 @@
     4196331485
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "7101",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Mendoza",
     "amenity": "doctors",
     "contact:phone": "+54 341 456-1550",
@@ -22945,6 +23054,9 @@
     5358150279
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar Nicasio Oroño",
     "amenity": "doctors",
     "building": "yes",
@@ -22983,7 +23095,10 @@
     5364254889
   ],
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "6634",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Aristóbulo del Valle",
     "amenity": "doctors",
     "building": "yes",
@@ -23202,32 +23317,15 @@
     5950368012
   ],
   "tags": {
+    "addr:city": "San Lorenzo",
+    "addr:full": "San Martín 2102 esq. J. C. Dávalos",
+    "addr:housenumber": "2102",
+    "addr:postcode": "4401",
+    "addr:street": "Avenida San Martín",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Centro de Salud N° 15"
-  }
-},
-{
-  "type": "way",
-  "id": 630406501,
-  "nodes": [
-    5952842970,
-    5952842969,
-    5952842968,
-    5952842967,
-    5952842966,
-    5952842965,
-    5952842964,
-    5952842963,
-    5952842962,
-    5952842961,
-    5952842960,
-    5952842959,
-    5952842970
-  ],
-  "tags": {
-    "amenity": "doctors",
-    "healthcare": "doctor"
+    "name": "Centro de Salud 24 San Lorenzo",
+    "official_name": "Centro de Salud N° 24 San Lorenzo"
   }
 },
 {
@@ -23575,10 +23673,11 @@
     "addr:city": "Tres Porteñas",
     "addr:postcode": "5570",
     "addr:street": "Bayo",
+    "alt_name": "Centro de Salud Nº 86- Tres Porteñas",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Centro de Salud Nº 86- Tres Porteñas",
-    "phone": "(0263) 4496015"
+    "name": "Centro de Salud 86 Tres Porteñas",
+    "phone": "+54 263 4496015"
   }
 },
 {
@@ -24894,9 +24993,12 @@
     11228210924
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:full": "Avenida Genova 7237",
     "addr:housenumber": "7237",
     "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Génova",
     "amenity": "doctors",
     "contact:phone": "+54 341 480-7542",
@@ -25048,44 +25150,44 @@
 {
   "type": "node",
   "id": 11099554738,
-  "lat": -39.9481231,
-  "lon": -71.0805736
+  "lat": -39.9480660,
+  "lon": -71.0805897
 },
 {
   "type": "node",
   "id": 11099554739,
-  "lat": -39.9480298,
-  "lon": -71.0805429
+  "lat": -39.9479727,
+  "lon": -71.0805590
 },
 {
   "type": "node",
   "id": 11099554740,
-  "lat": -39.9480343,
-  "lon": -71.0805253
+  "lat": -39.9479772,
+  "lon": -71.0805414
 },
 {
   "type": "node",
   "id": 11099554741,
-  "lat": -39.9480557,
-  "lon": -71.0805316
+  "lat": -39.9479986,
+  "lon": -71.0805477
 },
 {
   "type": "node",
   "id": 11099554742,
-  "lat": -39.9480633,
-  "lon": -71.0804933
+  "lat": -39.9480062,
+  "lon": -71.0805094
 },
 {
   "type": "node",
   "id": 11099554743,
-  "lat": -39.9481249,
-  "lon": -71.0805136
+  "lat": -39.9480678,
+  "lon": -71.0805297
 },
 {
   "type": "node",
   "id": 11099554744,
-  "lat": -39.9481318,
-  "lon": -71.0805267
+  "lat": -39.9480747,
+  "lon": -71.0805428
 },
 {
   "type": "node",
@@ -27540,42 +27642,6 @@
   "id": 5499982407,
   "lat": -32.9199187,
   "lon": -60.8104983
-},
-{
-  "type": "node",
-  "id": 3468000192,
-  "lat": -32.9146507,
-  "lon": -60.8133578
-},
-{
-  "type": "node",
-  "id": 3468002796,
-  "lat": -32.9146638,
-  "lon": -60.8132857
-},
-{
-  "type": "node",
-  "id": 3468002797,
-  "lat": -32.9146640,
-  "lon": -60.8134141
-},
-{
-  "type": "node",
-  "id": 3468002799,
-  "lat": -32.9146732,
-  "lon": -60.8133635
-},
-{
-  "type": "node",
-  "id": 3468002805,
-  "lat": -32.9147201,
-  "lon": -60.8134286
-},
-{
-  "type": "node",
-  "id": 3468002808,
-  "lat": -32.9147424,
-  "lon": -60.8133060
 },
 {
   "type": "node",
@@ -30048,78 +30114,6 @@
   "id": 3445093607,
   "lat": -24.7273438,
   "lon": -65.4097407
-},
-{
-  "type": "node",
-  "id": 5952842959,
-  "lat": -24.7187503,
-  "lon": -65.3975546
-},
-{
-  "type": "node",
-  "id": 5952842960,
-  "lat": -24.7187591,
-  "lon": -65.3974762
-},
-{
-  "type": "node",
-  "id": 5952842961,
-  "lat": -24.7186444,
-  "lon": -65.3974607
-},
-{
-  "type": "node",
-  "id": 5952842962,
-  "lat": -24.7186523,
-  "lon": -65.3973905
-},
-{
-  "type": "node",
-  "id": 5952842963,
-  "lat": -24.7187684,
-  "lon": -65.3974062
-},
-{
-  "type": "node",
-  "id": 5952842964,
-  "lat": -24.7187744,
-  "lon": -65.3973529
-},
-{
-  "type": "node",
-  "id": 5952842965,
-  "lat": -24.7188174,
-  "lon": -65.3973587
-},
-{
-  "type": "node",
-  "id": 5952842966,
-  "lat": -24.7188116,
-  "lon": -65.3974107
-},
-{
-  "type": "node",
-  "id": 5952842967,
-  "lat": -24.7189408,
-  "lon": -65.3974282
-},
-{
-  "type": "node",
-  "id": 5952842968,
-  "lat": -24.7189331,
-  "lon": -65.3974973
-},
-{
-  "type": "node",
-  "id": 5952842969,
-  "lat": -24.7188087,
-  "lon": -65.3974804
-},
-{
-  "type": "node",
-  "id": 5952842970,
-  "lat": -24.7187996,
-  "lon": -65.3975613
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-04-03T23:46:25Z",
-    "timestamp_areas_base": "2024-04-03T19:22:49Z",
+    "timestamp_osm_base": "2024-04-23T01:22:30Z",
+    "timestamp_areas_base": "2024-04-22T23:01:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1024,8 +1024,10 @@
   "lat": -34.5206515,
   "lon": -58.5699197,
   "tags": {
-    "addr:city": "José Léon Suárez",
+    "addr:city": "José León Suarez",
+    "addr:country": "AR",
     "addr:postcode": "B1655",
+    "addr:province": "Buenos Aires",
     "addr:street": "Diagonal 190 - Brigadier General Juan Manuel de Rosas",
     "name": "Candela",
     "shop": "chemist",
@@ -3323,6 +3325,16 @@
 },
 {
   "type": "node",
+  "id": 10571948009,
+  "lat": -34.5902272,
+  "lon": -58.4084794,
+  "tags": {
+    "name": "TJ",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
   "id": 10609034546,
   "lat": -30.9815444,
   "lon": -64.4905498,
@@ -3352,6 +3364,17 @@
     "shop": "chemist",
     "survey:date": "2023-02-24",
     "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10698415711,
+  "lat": -28.4369902,
+  "lon": -65.7124647,
+  "tags": {
+    "butcher": "poultry",
+    "name": "Maxi Desinfecciones",
+    "shop": "chemist"
   }
 },
 {
@@ -3387,9 +3410,12 @@
 {
   "type": "node",
   "id": 10846702768,
-  "lat": -31.7321339,
-  "lon": -64.4205378,
+  "lat": -31.7321305,
+  "lon": -64.4205130,
   "tags": {
+    "addr:city": "Valle de Anisacate",
+    "addr:housenumber": "180",
+    "addr:street": "Benteveo",
     "name": "Naty",
     "opening_hours": "Mo-Sa 09:00–21:00",
     "phone": "03513086818",
@@ -5033,6 +5059,7 @@
     "addr:country": "AR",
     "addr:housenumber": "721",
     "addr:postcode": "6100",
+    "addr:province": "Santa Fe",
     "addr:street": "Bulevar España",
     "building:part": "yes",
     "contact:instagram": "https://www.instagram.com/limpiezatotalrufino/?hl=es-la",
@@ -5291,6 +5318,21 @@
   "tags": {
     "building": "house",
     "name": "ICM Higiene Institucional La Falda",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "way",
+  "id": 1271725456,
+  "nodes": [
+    11809537031,
+    11809537030,
+    11809537029,
+    11809537028,
+    11809537031
+  ],
+  "tags": {
+    "sells": "pool_cleaning_supplies",
     "shop": "chemist"
   }
 },
@@ -5647,6 +5689,30 @@
   "id": 9400298871,
   "lat": -34.2686592,
   "lon": -62.7143090
+},
+{
+  "type": "node",
+  "id": 11809537028,
+  "lat": -34.2695993,
+  "lon": -62.7131919
+},
+{
+  "type": "node",
+  "id": 11809537029,
+  "lat": -34.2695994,
+  "lon": -62.7131913
+},
+{
+  "type": "node",
+  "id": 11809537030,
+  "lat": -34.2695989,
+  "lon": -62.7131912
+},
+{
+  "type": "node",
+  "id": 11809537031,
+  "lat": -34.2695988,
+  "lon": -62.7131918
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-04-03T23:41:24Z",
-    "timestamp_areas_base": "2024-04-03T22:35:50Z",
+    "timestamp_osm_base": "2024-04-23T01:17:30Z",
+    "timestamp_areas_base": "2024-04-22T23:01:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -607,8 +607,10 @@
   "lon": -58.7613517,
   "tags": {
     "addr:city": "Necochea",
+    "addr:country": "AR",
     "addr:housenumber": "4801",
     "addr:postcode": "7630",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida 59",
     "amenity": "hospital",
     "description": "Urgencias marque 107 desde celular *107",
@@ -2020,7 +2022,6 @@
   "lon": -61.1631712,
   "tags": {
     "amenity": "hospital",
-    "fixme": "Actualizar datos.",
     "healthcare": "hospital",
     "name": "Centro Medicos"
   }
@@ -2043,8 +2044,10 @@
   "lon": -61.1577585,
   "tags": {
     "addr:city": "Casilda",
+    "addr:country": "AR",
     "addr:housenumber": "2351",
     "addr:postcode": "S2170",
+    "addr:province": "Santa Fe",
     "addr:street": "Bulevar 9 de Julio",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -2061,7 +2064,6 @@
   "lon": -61.1690640,
   "tags": {
     "amenity": "hospital",
-    "fixme": "Actualizar datos.",
     "healthcare": "hospital",
     "name": "Sanatorio Regional"
   }
@@ -2073,7 +2075,6 @@
   "lon": -61.1735674,
   "tags": {
     "amenity": "hospital",
-    "fixme": "Actualizar datos.",
     "healthcare": "hospital",
     "name": "Sanatorio Uom"
   }
@@ -2238,7 +2239,9 @@
   "lon": -61.3346978,
   "tags": {
     "addr:city": "Hughes",
+    "addr:country": "AR",
     "addr:postcode": "S2725",
+    "addr:state": "Santa Fe",
     "addr:street": "Francisco Laprida",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -2301,6 +2304,7 @@
     "addr:country": "AR",
     "addr:housenumber": "1296",
     "addr:postcode": "S2173",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar Roque Sáenz Peña",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -2524,7 +2528,9 @@
   "lon": -61.6118020,
   "tags": {
     "addr:city": "Villa Cañás",
+    "addr:country": "AR",
     "addr:postcode": "S2607",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida 59",
     "amenity": "hospital",
     "emergency": "yes",
@@ -3487,17 +3493,6 @@
     "healthcare": "hospital",
     "name": "S.A.M.Co. San Jorge",
     "wikidata": "Q97691271"
-  }
-},
-{
-  "type": "node",
-  "id": 2252363210,
-  "lat": -23.5651080,
-  "lon": -65.1595854,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "puesto de salud"
   }
 },
 {
@@ -7080,7 +7075,9 @@
   "lon": -60.7029448,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Suipacha",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -7478,11 +7475,14 @@
   "lat": -24.8474827,
   "lon": -65.5125729,
   "tags": {
+    "addr:city": "San Luis",
+    "addr:full": "Camino a Campo Quijano Km. 9",
     "addr:postcode": "4400",
     "addr:street": "Ruta Nacional 51",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro de Salud San Luis"
+    "name": "Centro de Salud 25 San Luis",
+    "phone": "+54 387 499 8096"
   }
 },
 {
@@ -7495,6 +7495,7 @@
     "addr:country": "AR",
     "addr:housenumber": "1349",
     "addr:postcode": "2605",
+    "addr:state": "Santa Fe",
     "addr:street": "Misiones",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -7513,6 +7514,7 @@
     "addr:city": "Santa Isabel",
     "addr:country": "AR",
     "addr:postcode": "2605",
+    "addr:state": "Santa Fe",
     "addr:street": "San Martin",
     "amenity": "hospital",
     "emergency": "no",
@@ -7735,8 +7737,10 @@
   "lon": -60.6998051,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "3106",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Belgrano",
     "amenity": "hospital",
     "emergency": "yes",
@@ -7753,8 +7757,10 @@
   "lon": -60.6998592,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "3108",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Belgrano",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -8093,6 +8099,7 @@
     "addr:country": "AR",
     "addr:housenumber": "675",
     "addr:postcode": "2174",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar Las Heras",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -8209,7 +8216,9 @@
   "lon": -60.7003407,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Belgrano",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -8393,7 +8402,10 @@
   "lat": -32.9442244,
   "lon": -60.6546688,
   "tags": {
-    "addr:postcode": "S2000",
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Alvear",
     "amenity": "hospital",
     "emergency": "yes",
@@ -8409,8 +8421,11 @@
   "lat": -32.9442627,
   "lon": -60.6537455,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "860",
-    "addr:postcode": "S2000",
+    "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar Nicasio Oroño",
     "amenity": "hospital",
     "contact:phone": "+54 341 527-8463",
@@ -9118,12 +9133,14 @@
   "lon": -61.1171817,
   "tags": {
     "addr:city": "Alcorta",
+    "addr:country": "AR",
     "addr:housenumber": "1078",
-    "addr:postcode": "S2117",
+    "addr:postcode": "2117",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar 9 de Julio",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "SAMCO",
+    "name": "Samco",
     "operator": "LSales"
   }
 },
@@ -9293,12 +9310,13 @@
     "addr:country": "AR",
     "addr:housenumber": "251",
     "addr:postcode": "2613",
+    "addr:state": "Santa Fe",
     "addr:street": "Lisandro de la Torre",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital SAMCO",
-    "phone": "+54 (3382) 47-0041"
+    "name": "Hospital Samco",
+    "phone": "+54 3382470041"
   }
 },
 {
@@ -9638,7 +9656,9 @@
   "lon": -61.5474749,
   "tags": {
     "addr:city": "Villa Eloísa",
+    "addr:country": "AR",
     "addr:postcode": "S2503",
+    "addr:state": "Santa Fe",
     "addr:street": "Libertad",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -10818,7 +10838,8 @@
     "addr:street": "Felipe Varela",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro de Salud N° 52 Santa Cecilia"
+    "name": "Centro de Salud 52 Santa Cecilia",
+    "official_name": "Centro de Salud N° 52 Santa Cecilia"
   }
 },
 {
@@ -12346,7 +12367,10 @@
   "lat": -32.9517380,
   "lon": -60.6556471,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1458",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar Nicasio Oroño",
     "amenity": "hospital",
     "contact:phone": "+54 341 522-8888; +54 341 477-2222",
@@ -12988,12 +13012,15 @@
   "lat": -33.4028167,
   "lon": -61.8457084,
   "tags": {
-    "addr:postcode": "S2640",
+    "addr:city": "Gödeken",
+    "addr:country": "AR",
+    "addr:postcode": "2640",
+    "addr:state": "Santa Fe",
     "addr:street": "Calle 20",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "SAMCO Islas Malvinas",
-    "name:es": "SAMCO Islas Malvinas"
+    "name": "Samco Islas Malvinas",
+    "name:es": "Samco Islas Malvinas"
   }
 },
 {
@@ -13815,8 +13842,9 @@
     "healthcare": "hospital",
     "healthcare:speciality": "general",
     "name": "Salita - Centro de Salud Campo Caseros",
+    "official_name": "Centro de Salud Nº 02 - Campo Caseros",
     "opening_hours": "Mo-Fr 07:00-20:00",
-    "phone": "3874311245"
+    "phone": "+54 3874311245"
   }
 },
 {
@@ -14603,7 +14631,10 @@
   "lat": -32.9323390,
   "lon": -60.7005050,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "5627",
+    "addr:state": "Santa Fe",
     "addr:street": "Tucumán",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-7543",
@@ -15017,6 +15048,10 @@
   "lat": -34.4160662,
   "lon": -62.9601869,
   "tags": {
+    "addr:city": "Cañada Seca",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Domingo Faustino Sarmiento",
     "amenity": "hospital",
     "healthcare": "hospital"
   }
@@ -15573,24 +15608,6 @@
 },
 {
   "type": "node",
-  "id": 6222248534,
-  "lat": -38.3525140,
-  "lon": -59.6191282,
-  "tags": {
-    "addr:city": "San Cayetano",
-    "addr:housenumber": "1170",
-    "addr:postcode": "7521",
-    "addr:street": "9 de Julio",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal San Cayetano",
-    "phone": "+54 2983 470106",
-    "ref:sisa_codigo": "10067422200337",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
   "id": 6228482128,
   "lat": -35.2742689,
   "lon": -63.2150576,
@@ -15702,11 +15719,12 @@
 {
   "type": "node",
   "id": 6267130596,
-  "lat": -43.5357880,
-  "lon": -71.4724964,
+  "lat": -43.5355002,
+  "lon": -71.4726466,
   "tags": {
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "healthcare": "hospital",
+    "name": "Hospital Rural Corcovado"
   }
 },
 {
@@ -16415,7 +16433,10 @@
   "lat": -32.9694350,
   "lon": -60.6406870,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "867",
+    "addr:state": "Santa Fe",
     "addr:street": "José Gálvez",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-8797",
@@ -18709,8 +18730,10 @@
   "lon": -60.7249312,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "3738",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Monseñor Zaspe",
     "amenity": "hospital",
     "fixme": "Verify ubication",
@@ -19321,7 +19344,10 @@
   "lat": -32.9004344,
   "lon": -60.6912714,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1365",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar General José Rondeau",
     "amenity": "hospital",
     "contact:phone": "+54 341 454-9116",
@@ -19767,7 +19793,10 @@
   "lat": -32.9649426,
   "lon": -60.6502444,
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "2450",
+    "addr:state": "Santa Fe",
     "addr:street": "Presidente Roca",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -20661,9 +20690,12 @@
   "lat": -34.5613608,
   "lon": -58.5400701,
   "tags": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
     "addr:full": "J. M. Campos 2759",
     "addr:housenumber": "2759",
     "addr:postcode": "1651",
+    "addr:province": "Buenos Aires",
     "addr:street": "Diagonal 76 - Juan Martín Campos",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -21267,8 +21299,11 @@
   "lat": -34.5562455,
   "lon": -58.5477955,
   "tags": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
     "addr:full": "E. Marengo 3908",
     "addr:postcode": "1653",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clinica Privada Santa Maria",
@@ -21496,8 +21531,10 @@
   "lon": -61.7143681,
   "tags": {
     "addr:city": "Los Quirquinchos",
+    "addr:country": "AR",
     "addr:housenumber": "675",
     "addr:postcode": "S2637",
+    "addr:state": "Santa Fe",
     "addr:street": "Belgrano",
     "amenity": "hospital",
     "description": "Categoría de tipología: Bajo riesgo con internación simple",
@@ -21567,12 +21604,16 @@
 {
   "type": "node",
   "id": 8238445561,
-  "lat": -24.7991146,
-  "lon": -65.3752018,
+  "lat": -24.7991291,
+  "lon": -65.3752736,
   "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Ezequiel Martínez Estrada",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "centro de salud 18"
+    "name": "centro de salud 18 Portezuelo",
+    "phone": "+54 387 4282532"
   }
 },
 {
@@ -22940,8 +22981,10 @@
   "lon": -60.7082549,
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "3010",
     "addr:postcode": "3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Cándido Pujato",
     "amenity": "hospital",
     "email": "info@sanatorioamericano.com.ar",
@@ -23310,6 +23353,503 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Guardia del Hospital Municipal"
+  }
+},
+{
+  "type": "node",
+  "id": 11794386013,
+  "lat": -31.5637272,
+  "lon": -60.5319104,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Terreno"
+  }
+},
+{
+  "type": "node",
+  "id": 11796268162,
+  "lat": -24.8454214,
+  "lon": -65.4491803,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Radio Splendid Y Radio Romero",
+    "addr:postcode": "4400",
+    "addr:street": "Radio Splendid",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro De Salud 27 Barrio Intersindical",
+    "phone": "+54 387 4240899",
+    "ref:sisa_codigo": "50660282173153",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11808105620,
+  "lat": -24.8030932,
+  "lon": -65.4066755,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Bruno Mauricio de Zabala",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 03 Barrio Hernando de Lerma",
+    "official_name": "Centro de Salud Nº 03 Barrio Hernando de Lerma",
+    "phone": "+54 387 4375060"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143175,
+  "lat": -24.7661372,
+  "lon": -65.4101643,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "1899",
+    "addr:postcode": "4400",
+    "addr:street": "Antonio Balcarce",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 05 Barrio Castañares Viejo",
+    "official_name": "Centro de Salud Nº 05 -  Bº Castañares Viejo",
+    "phone": "+54 387 4394115"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143208,
+  "lat": -24.8096457,
+  "lon": -65.3820068,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Av. Artigas 900 esq. Italia",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida José Gervasio Artigas",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 06 Barrio El Manjón",
+    "official_name": "Centro de Salud Nº 06 - Barrio El Manjón",
+    "phone": "+54 387 4281393"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143258,
+  "lat": -24.8447877,
+  "lon": -65.4425647,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Diario La Razón y Diario Los Andes",
+    "addr:postcode": "4400",
+    "addr:street": "Diario La Razón",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro De Salud 08 Barrio El Tribuno",
+    "official_name": "Centro De Salud Nº 08 Barrio El Tribuno",
+    "operator:type": "public",
+    "phone": "+54 387 4241412"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143267,
+  "lat": -24.7751457,
+  "lon": -65.4222591,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "1505",
+    "addr:postcode": "4400",
+    "addr:street": "Bernardo O'Higgins",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 10 Barrio 20 de Febrero",
+    "official_name": "Centro de Salud Nº 10 - Barrio 20 de Febrero",
+    "phone": "+54 387 4210189"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143279,
+  "lat": -24.7236381,
+  "lon": -65.4084648,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "General de División Juan Carlos Sánchez",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro De Salud 11 Barrio Ciudad Del Milagro",
+    "official_name": "Centro De Salud Nº 11 Barrio Ciudad Del Milagro",
+    "phone": "+54 387 4254370"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143325,
+  "lat": -24.8027950,
+  "lon": -65.4283289,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Cnel. Vidt 910 y Ayacucho",
+    "addr:postcode": "4400",
+    "addr:street": "Manuel Alberti",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro De Salud 13 Villa Chartas",
+    "official_name": "Centro De Salud Nº 13 -  Vº Chartas"
+  }
+},
+{
+  "type": "node",
+  "id": 11808143332,
+  "lat": -24.7549045,
+  "lon": -65.4046590,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "2800",
+    "addr:postcode": "4400",
+    "addr:street": "Juramento",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 14 Miguel Ortiz",
+    "official_name": "Centro de Salud Nº 14 Miguel Ortiz"
+  }
+},
+{
+  "type": "node",
+  "id": 11808335506,
+  "lat": -24.8173034,
+  "lon": -65.4791533,
+  "tags": {
+    "addr:city": "Atocha",
+    "addr:postcode": "4400",
+    "addr:street": "Estanislao Del Campo",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 26 Atocha",
+    "official_name": "Centro de Salud Nº 26 - Atocha",
+    "phone": "+54 387 6 059 779"
+  }
+},
+{
+  "type": "node",
+  "id": 11810413077,
+  "lat": -32.8124863,
+  "lon": -63.8712879,
+  "tags": {
+    "addr:city": "General Cabrera",
+    "addr:housenumber": "1090",
+    "addr:postcode": "5809",
+    "addr:street": "Las Heras",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal Amaro E. Sastre",
+    "phone": "+54 358 4930001",
+    "ref:sisa_codigo": "10140562231154",
+    "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 11819709775,
+  "lat": -24.8350466,
+  "lon": -65.3869388,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Manzana 38",
+    "addr:street": "Mario Ibáñez",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 54 Barrio San Ignacio",
+    "official_name": "Centro de Salud Nº 54 Barrio San Ignacio",
+    "phone": "+54 387 435 3500"
+  }
+},
+{
+  "type": "node",
+  "id": 11819769592,
+  "lat": -24.7988602,
+  "lon": -65.4180311,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Pje. Chicoana 1053",
+    "addr:housenumber": "1053",
+    "addr:postcode": "4400",
+    "addr:street": "Chicoana",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "isced:level": "0;1",
+    "name": "Centro de Salud 53 Villa Cristina",
+    "official_name": "Centro de Salud Nº 53 - Vº Cristina",
+    "phone": "+54 387 4230139",
+    "ref:cue": "660095800"
+  }
+},
+{
+  "type": "node",
+  "id": 11823030480,
+  "lat": -24.8284914,
+  "lon": -65.3897739,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Av. Felipe Varela y César Perdiguero",
+    "addr:postcode": "4400",
+    "alt_name": "Centro de Salud 45 San Francisco Solano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 45 Barrio Provipo",
+    "official_name": "Centro de Salud Nº 45 Barrio Provipo"
+  }
+},
+{
+  "type": "node",
+  "id": 11831367280,
+  "lat": -24.8526364,
+  "lon": -65.4312457,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Cabo Primero Jorge Cisterna y Abraham Rallé",
+    "addr:postcode": "4400",
+    "addr:street": "Cabo Primero Jorge Cisterna",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centor de Salud 51 Barrio Limache",
+    "official_name": "Centor de Salud Nº 51 Barrio Limache",
+    "phone": "+54 387 4242749"
+  }
+},
+{
+  "type": "node",
+  "id": 11831367281,
+  "lat": -24.8241072,
+  "lon": -65.4268161,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida Paraguay",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 50 CoFrutHoS",
+    "official_name": "Centro de Salud Nº 50 - CoFrutHoS"
+  }
+},
+{
+  "type": "node",
+  "id": 11831606778,
+  "lat": -24.8111062,
+  "lon": -65.4126815,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Padre Agustin de Castañarez y Florida",
+    "addr:postcode": "4400",
+    "addr:street": "Padre Agustin de Castañarez",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 48 Barrio Ceferino",
+    "official_name": "Centro de Salud Nº 48 - Barrio Ceferino"
+  }
+},
+{
+  "type": "node",
+  "id": 11831606813,
+  "lat": -24.8182805,
+  "lon": -65.4121235,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Av. El Líbano y Suiza",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida República del Líbano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 46 Barrio Morosini",
+    "official_name": "Centro de Salud Nº 46 - Barrio Morosini"
+  }
+},
+{
+  "type": "node",
+  "id": 11832960471,
+  "lat": -24.8145284,
+  "lon": -65.3734391,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Mariano Saravia",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 44 Barrio Floresta",
+    "official_name": "Centro de Salud Nº 44 Vº Floresta",
+    "phone": "+54 387 4281927"
+  }
+},
+{
+  "type": "node",
+  "id": 11832960477,
+  "lat": -24.7963320,
+  "lon": -65.3702841,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Av. Ciudad de Asunción s/n, Ruta 9",
+    "addr:postcode": "4400",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 42 Barrio Autódromo"
+  }
+},
+{
+  "type": "node",
+  "id": 11832960502,
+  "lat": -24.8130539,
+  "lon": -65.3940801,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Reconquista",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 40 Barrio 9 de Julio",
+    "official_name": "Centro de Salud Nº 40 - Barrio 9 de Julio"
+  }
+},
+{
+  "type": "node",
+  "id": 11832960512,
+  "lat": -24.7739297,
+  "lon": -65.4319861,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "12 de Octubre 2100 esq. Diego Diez Gómez",
+    "addr:postcode": "4400",
+    "addr:street": "Diego Gómez",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 39 Villa Luján",
+    "official_name": "Centro de Salud Nº 39  Vº Luján"
+  }
+},
+{
+  "type": "node",
+  "id": 11833863416,
+  "lat": -24.8407677,
+  "lon": -65.4868305,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Camino a Campo Quijano Ruta 51 Km 6",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida Ingeniero Mario Saúl Banchik",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 38 Villa Esmeralda",
+    "official_name": "Centro de Salud Nº 38 Villa Esmeralda",
+    "phone": "+54 387 499 8111"
+  }
+},
+{
+  "type": "node",
+  "id": 11833863417,
+  "lat": -24.8766111,
+  "lon": -65.4004649,
+  "tags": {
+    "addr:place": "Los Paraísos",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 37 La Isla",
+    "official_name": "Centro de Salud Nº 37 La Isla"
+  }
+},
+{
+  "type": "node",
+  "id": 11833863418,
+  "lat": -24.7923155,
+  "lon": -65.4135530,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "750",
+    "addr:postcode": "4400",
+    "addr:street": "Justo José de Urquiza",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 36 Mercado Municipal",
+    "official_name": "Centro de Salud Nº 36 Mercado Municipal"
+  }
+},
+{
+  "type": "node",
+  "id": 11833863445,
+  "lat": -24.8051385,
+  "lon": -65.4482708,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Padre Alberto Villarreal",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 35 Barrio El Progreso",
+    "official_name": "Centro de Salud Nº 35 Barrio El Progreso"
+  }
+},
+{
+  "type": "node",
+  "id": 11833863458,
+  "lat": -24.8026539,
+  "lon": -65.4583599,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Río Paraná",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 34 Villa La Ciénaga",
+    "official_name": "Centro de Salud Nº 34 - Villa La Ciénaga",
+    "official_status": "Río Paraná y Río San Lorenzo"
+  }
+},
+{
+  "type": "node",
+  "id": 11833863463,
+  "lat": -24.8045451,
+  "lon": -65.3928107,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "358",
+    "addr:postcode": "4400",
+    "addr:street": "Los Gladiolos",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 33 Villa Las Rosas",
+    "official_name": "Centro de Salud Nº 33 - Villa Las Rosas"
+  }
+},
+{
+  "type": "node",
+  "id": 11833930278,
+  "lat": -24.8064230,
+  "lon": -65.4280353,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Calle D y Calle B",
+    "addr:postcode": "4400",
+    "addr:street": "Coronel José de Moldes",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 31 Villa Costanera",
+    "official_name": "Centro de Salud Nº 31 -  Villa Costanera"
+  }
+},
+{
+  "type": "node",
+  "id": 11834916091,
+  "lat": -24.8293046,
+  "lon": -65.4007076,
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Felipe Varela",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 29 Barrio Finca Independencia",
+    "official_name": "Centro de Salud Nº 29 Barrio Finca Independencia"
   }
 },
 {
@@ -27605,12 +28145,16 @@
     "addr:country": "AR",
     "addr:housenumber": "17",
     "addr:postcode": "6100",
+    "addr:province": "Santa Fe",
     "addr:street": "Bernabé Ferreyra",
     "amenity": "hospital",
     "building": "hospital",
+    "building:colour": "#E0F7F7",
     "building:levels": "2",
     "contact:email": "sanatoriomodelosrl@gmail.com",
-    "contact:phone": "(03382) 429277 / 427680 / 426510",
+    "contact:phone": "+54 3382 429277",
+    "contact:phone:1": "+54 3382 427680",
+    "contact:phone:2": "+54 3382 426510",
     "contact:whatsapp": "+54 3382410592",
     "healthcare": "hospital",
     "height": "13",
@@ -27729,7 +28273,10 @@
     1992208770
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1353",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Carlos Pellegrini",
     "amenity": "hospital",
     "contact:phone": "+54 341 481-6062;+54 341 481-0711",
@@ -27746,44 +28293,6 @@
     "ref:sisa_tipologia": "ESCIG",
     "short_name": "Physical",
     "wikidata": "Q97691343"
-  }
-},
-{
-  "type": "way",
-  "id": 188703949,
-  "nodes": [
-    1993252450,
-    1993252327,
-    1993252374,
-    1993252438,
-    1993252362,
-    1993252380,
-    1993252335,
-    1993252427,
-    1993252409,
-    1993252419,
-    1993252363,
-    1993252325,
-    1993252318,
-    1993252348,
-    1993252339,
-    1993252396,
-    1993252377,
-    1993252451,
-    1993252450
-  ],
-  "tags": {
-    "addr:housenumber": "40",
-    "addr:street": "Paraguay",
-    "amenity": "hospital",
-    "building": "yes",
-    "contact:phone": "+54 341 420-5500",
-    "healthcare": "hospital",
-    "name": "Sanatorio Británico",
-    "operator:type": "private",
-    "ref:sisa_codigo": "10820842384220",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q97691329"
   }
 },
 {
@@ -27921,7 +28430,10 @@
     2006452456
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "3101",
+    "addr:state": "Santa Fe",
     "addr:street": "Justo José de Urquiza",
     "amenity": "hospital",
     "building": "hospital",
@@ -28425,13 +28937,16 @@
     "addr:postcode": "1431",
     "addr:street": "Galván",
     "amenity": "hospital",
+    "check_date": "2024-04-08",
     "healthcare": "hospital",
     "name": "CEMIC - Hospital Universitario Sede Saavedra",
+    "opening_hours": "24/7",
     "operator:type": "private",
     "phone": "+54 11 5299 0100",
     "ref:sisa_codigo": "10020012315173",
     "ref:sisa_tipologia": "ESCIG",
     "short_name": "CEMIC Saavedra",
+    "website": "https://www.cemic.edu.ar",
     "wikidata": "Q11682610",
     "wikipedia": "es:Hospital Universitario sede Saavedra"
   }
@@ -30958,7 +31473,10 @@
     2050714136
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "2020",
+    "addr:state": "Santa Fe",
     "addr:street": "San Luis",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-2555",
@@ -31006,8 +31524,11 @@
     2570308746
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "3125",
-    "addr:postcode": "S2001",
+    "addr:postcode": "2001",
+    "addr:state": "Santa Fe",
     "addr:street": "Sarmiento",
     "amenity": "hospital",
     "contact:phone": "+54 341 485-8585",
@@ -33082,8 +33603,11 @@
     2965205517
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1855",
-    "addr:postcode": "S2001",
+    "addr:postcode": "2001",
+    "addr:state": "Santa Fe",
     "addr:street": "Benjamín Virasoro",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-8125; +54 341 480-8133",
@@ -33459,7 +33983,10 @@
     4852796215
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "3205",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Carlos Pellegrini",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-8111; +54 341 481-8689",
@@ -33696,9 +34223,13 @@
     3113180754
   ],
   "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "alt_name": "Salita de Asuncion",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Salita de Asuncion"
+    "name": "Centro de Salud 28 Villa Asunción",
+    "official_name": "Centro de Salud Nº 28 - Villa Asunción"
   }
 },
 {
@@ -33939,7 +34470,10 @@
     3178271573
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "575",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida José Nicolás Puccio",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-6177",
@@ -34565,9 +35099,9 @@
     "amenity": "hospital",
     "fixme": "En el SISA esta entidad tiene dos registros, confirmar cuál debería quedar.",
     "healthcare": "hospital",
-    "name": "Policlínico Municipal Sofía Terrero de Santa Marina",
-    "operator": "Municipal",
-    "operator:type": "public",
+    "name": "Clínica Municipal Santamarina",
+    "operator": "Municipalidad de Esteban Echeverría",
+    "operator:type": "público",
     "phone": "+54 (11) 4290-0266",
     "ref:sisa_codigo": "10062602200434;10062602218201",
     "ref:sisa_tipologia": "ESCIG",
@@ -35226,7 +35760,9 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida 27 de Febrero",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -36195,7 +36731,10 @@
     3836364286
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1159",
+    "addr:state": "Santa Fe",
     "addr:street": "Augusto Olivé",
     "amenity": "hospital",
     "barrier": "fence",
@@ -36647,6 +37186,9 @@
     3754778105
   ],
   "tags": {
+    "addr:city": "Santa Fe",
+    "addr:country": "AR",
+    "addr:state": "Santa Fe",
     "addr:street": "Doctor Zavalla",
     "amenity": "hospital",
     "building": "yes",
@@ -37051,8 +37593,11 @@
     3872227534
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1450",
-    "addr:postcode": "S2000",
+    "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Leandro N. Alem",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-1402",
@@ -37799,8 +38344,11 @@
     2963668761
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1249",
-    "addr:postcode": "S2001",
+    "addr:postcode": "2001",
+    "addr:state": "Santa Fe",
     "addr:street": "Benjamín Virasoro",
     "amenity": "hospital",
     "contact:website": "http://www.iunir.edu.ar/",
@@ -37827,8 +38375,11 @@
     2963668757
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "2883",
-    "addr:postcode": "S2001",
+    "addr:postcode": "2001",
+    "addr:state": "Santa Fe",
     "addr:street": "Entre Ríos",
     "amenity": "hospital",
     "contact:website": "http://www.iunir.edu.ar/",
@@ -38021,7 +38572,10 @@
     4212616782
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "600",
+    "addr:state": "Santa Fe",
     "addr:street": "Suipacha",
     "amenity": "hospital",
     "contact:phone": "+54 341 472-4640; +54 341 472-4655; +54 341 472-4690",
@@ -38491,8 +39045,11 @@
     4359410701
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1331",
     "addr:postcode": "S2013",
+    "addr:state": "Santa Fe",
     "addr:street": "De Los Trabajadores",
     "alt_name": "Hospital Doctor Roberto M. Carra",
     "amenity": "hospital",
@@ -39284,17 +39841,23 @@
     4616685020
   ],
   "tags": {
+    "addr:city": "Villa Adelina",
     "addr:full": "Los Ceibos 1792",
-    "addr:housenumber": "1792",
+    "addr:housenumber": "6599",
     "addr:postcode": "1607",
-    "addr:street": "Los Ceibos",
+    "addr:street": "Paraná",
     "amenity": "hospital",
+    "email": "info@sanatoriosantasofia.com.ar",
+    "emergency": "no",
     "healthcare": "hospital",
+    "healthcare:speciality": "intensive;neonatology",
     "name": "Sanatorio Santa Sofia",
     "operator": "Privado",
     "operator:type": "private",
+    "phone": "0800 888-6789",
     "ref:sisa_codigo": "10067562316690",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "www.sanatoriosantasofia.com.ar"
   }
 },
 {
@@ -40125,8 +40688,11 @@
     4692942933
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "950",
-    "addr:postcode": "S2000",
+    "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Mariano Moreno",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-2303",
@@ -40159,7 +40725,10 @@
     2963668818
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "3150",
+    "addr:state": "Santa Fe",
     "addr:street": "Sarmiento",
     "amenity": "hospital",
     "contact:phone": "+54 341 485-8700",
@@ -40199,7 +40768,10 @@
     4692942947
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1402",
+    "addr:state": "Santa Fe",
     "addr:street": "Bulevar Nicolás Avellaneda",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-4155",
@@ -40859,8 +41431,11 @@
     4816975092
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "2440",
     "addr:postcode": "S2000GAP",
+    "addr:state": "Santa Fe",
     "addr:street": "Presidente Roca",
     "amenity": "hospital",
     "brand": "Grupo Gamma",
@@ -40993,8 +41568,10 @@
   ],
   "tags": {
     "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "141",
-    "addr:postcode": "S2001",
+    "addr:postcode": "2001",
+    "addr:state": "Santa Fe",
     "addr:street": "Ayolas",
     "amenity": "hospital",
     "contact:phone": "+54 341 472-9183",
@@ -44402,6 +44979,33 @@
 },
 {
   "type": "way",
+  "id": 630406501,
+  "nodes": [
+    5952842970,
+    5952842969,
+    5952842968,
+    5952842967,
+    5952842966,
+    5952842965,
+    5952842964,
+    5952842963,
+    5952842962,
+    5952842961,
+    5952842960,
+    5952842959,
+    5952842970
+  ],
+  "tags": {
+    "addr:city": "Salta",
+    "addr:street": "Jaime Durán",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de salud 55 barrio 17 de Octubre",
+    "official_name": "Centro de salud Nº 55 barrio 17 de Octubre"
+  }
+},
+{
+  "type": "way",
   "id": 645347149,
   "nodes": [
     6066702961,
@@ -44865,7 +45469,8 @@
     "name": "Sanatorio Anchorena San Martín",
     "operator:type": "private",
     "ref:sisa_codigo": "10063712318092",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "wheelchair": "yes"
   }
 },
 {
@@ -45237,8 +45842,10 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "8430",
     "addr:postcode": "3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Blas Parera",
     "amenity": "hospital",
     "building": "yes",
@@ -45264,8 +45871,10 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "8430",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Blas Parera",
     "alt_name": "Hospital Mira y López",
     "amenity": "hospital",
@@ -45986,7 +46595,10 @@
     7340842110
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "7145",
+    "addr:state": "Santa Fe",
     "addr:street": "Chubut",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-7800",
@@ -46016,7 +46628,10 @@
     7340842179
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "373",
+    "addr:state": "Santa Fe",
     "addr:street": "Sarmiento",
     "amenity": "hospital",
     "contact:phone": "+54 341 480-3520; +54 341 480-3530",
@@ -46074,8 +46689,11 @@
     3634545807
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "3034",
     "addr:postcode": "S2002",
+    "addr:state": "Santa Fe",
     "addr:street": "San Juan",
     "alt_name": "Sanatorio Italiano Centro",
     "amenity": "hospital",
@@ -47575,7 +48193,10 @@
     7502045605
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1550",
+    "addr:state": "Santa Fe",
     "addr:street": "Manuel Dorrego",
     "amenity": "hospital",
     "building": "hospital",
@@ -48184,6 +48805,27 @@
     "healthcare": "hospital",
     "operator": "Sala de Primeros Auxilios Paraje Cafarreño",
     "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 809584943,
+  "nodes": [
+    7569892400,
+    7569892401,
+    7569739975,
+    7569877463,
+    7569892400
+  ],
+  "tags": {
+    "addr:city": "Salta",
+    "addr:postcode": "4400",
+    "addr:street": "Jaime Durán",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud 49 Barrio General Belgrano",
+    "official_name": "Centro de Salud N° 49 Barrio General Belgrano",
+    "phone": "+54 387 4250300"
   }
 },
 {
@@ -49540,7 +50182,10 @@
     8615080219
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "1070",
+    "addr:state": "Santa Fe",
     "addr:street": "Francisco Narciso Laprida",
     "amenity": "hospital",
     "building": "yes",
@@ -51431,7 +52076,8 @@
     "alt_name": "Centro de Salud Dr. Gabriel Puló",
     "amenity": "hospital",
     "healthcare": "centre",
-    "name": "Centro de Salud N°4",
+    "name": "Centro de Salud 4",
+    "official_name": "Centro de Salud N°4",
     "phone": "+54 3874375063",
     "wikidata": "Q95446883"
   }
@@ -51604,8 +52250,11 @@
     7502045593
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "2369",
     "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
     "addr:street": "Güemes",
     "alt_name": "Sanatorio Guemes",
     "amenity": "hospital",
@@ -52162,32 +52811,6 @@
 },
 {
   "type": "way",
-  "id": 1047009129,
-  "nodes": [
-    9627908953,
-    9627908952,
-    9627908951,
-    9627908950,
-    7503865989,
-    9627908953
-  ],
-  "tags": {
-    "addr:full": "Av. Pueyrredón 845",
-    "addr:postcode": "1405",
-    "amenity": "hospital",
-    "building": "yes",
-    "healthcare": "hospital",
-    "name": "Sanatorio Privado Del Centro",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "+54 (11) 4962-2828",
-    "ref:sisa_codigo": "10020012315482",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93141629"
-  }
-},
-{
-  "type": "way",
   "id": 1047013197,
   "nodes": [
     9627912502,
@@ -52447,11 +53070,15 @@
     9628657193
   ],
   "tags": {
+    "addr:city": "Salta",
+    "addr:full": "Río Caraparí 2200 esq. Río Lorohuasi",
     "addr:housenumber": "2200",
+    "addr:postcode": "4400",
     "addr:street": "Río Caraparí",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro de Salud 9"
+    "name": "Centro de Salud 9 Villa Lavalle",
+    "phone": "+54 387 4350191"
   }
 },
 {
@@ -52665,8 +53292,10 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "2150",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Gobernador Freyre",
     "alt_name": "Hospital Cullen",
     "amenity": "hospital",
@@ -52694,8 +53323,10 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "4401",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Alberti",
     "amenity": "hospital",
     "building": "yes",
@@ -52798,8 +53429,10 @@
   ],
   "tags": {
     "addr:city": "Santa Fe",
+    "addr:country": "AR",
     "addr:housenumber": "4151",
     "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
     "addr:street": "Mendoza",
     "amenity": "hospital",
     "description": "El Hospital de Niños \"Dr. Orlando Alassia\" fue creado el 29 de Abril de 1999 en la ciudad de Santa Fe.",
@@ -53741,8 +54374,11 @@
     10941227681
   ],
   "tags": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
     "addr:full": "Avenida De Los Constituyentes 3120",
     "addr:postcode": "1651",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Zonal General Agudos Manuel Belgrano",
@@ -53916,7 +54552,10 @@
     11132866668
   ],
   "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
     "addr:housenumber": "2493",
+    "addr:state": "Santa Fe",
     "addr:street": "San Luis",
     "amenity": "hospital",
     "branch": "Sede Centro",
@@ -53960,14 +54599,15 @@
     "addr:city": "Rufino",
     "addr:country": "AR",
     "addr:housenumber": "1261",
-    "addr:state": "Santa Fe",
+    "addr:province": "Santa Fe",
     "addr:street": "Celestino Alem Vieyra",
+    "alt_name": "Hospital SAMCo (Sistema de Atención Médica de la Comunidad)",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital SAMCO",
+    "name": "Hospital Samco",
     "opening_hours": "24/7",
     "operator:type": "public",
-    "phone": "+54 03382 42-2487"
+    "phone": "+54 3382 422487"
   }
 },
 {
@@ -53975,7 +54615,6 @@
   "id": 1201477622,
   "nodes": [
     11139173059,
-    11139173070,
     11139173060,
     11139173061,
     11139173062,
@@ -54063,13 +54702,13 @@
     "addr:country": "AR",
     "addr:housenumber": "253",
     "addr:postcode": "6100",
-    "addr:state": "Santa Fe",
+    "addr:province": "Santa Fe",
     "addr:street": "Presidente Juan Domingo Perón",
     "alt_name": "Clinica Santa Fe Sociedad Anonima",
     "amenity": "hospital",
     "building": "hospital",
     "contact:facebook": "https://www.facebook.com/ClinicaSantaFeRufino",
-    "contact:phone": "+54 03382 42-7605",
+    "contact:phone": "+54 3382 427605",
     "healthcare": "hospital",
     "height": "5",
     "name": "Clinica Santa Fe",
@@ -54190,9 +54829,11 @@
   ],
   "tags": {
     "addr:city": "San Andrés",
+    "addr:country": "AR",
     "addr:full": "Avenida Presidente Perón 3619",
     "addr:housenumber": "3619",
     "addr:postcode": "B1650",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida 64 - Presidente Juan Domingo Perón",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -54337,8 +54978,11 @@
     11330050663
   ],
   "tags": {
+    "addr:city": "Pérez",
+    "addr:country": "AR",
     "addr:housenumber": "1602",
     "addr:postcode": "2121",
+    "addr:state": "Santa Fe",
     "addr:street": "Avenida Manuel Belgrano",
     "amenity": "hospital",
     "building": "hospital",
@@ -54888,6 +55532,96 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Instituto Oftalmológico de Rosario"
+  }
+},
+{
+  "type": "way",
+  "id": 1270142997,
+  "nodes": [
+    11793338184,
+    11793338185,
+    11793338190,
+    11793338186,
+    11793338194,
+    11793338187,
+    11793338191,
+    11793338188,
+    11793338189,
+    11793338184
+  ],
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:housenumber": "40",
+    "addr:state": "Santa Fe",
+    "addr:street": "Paraguay",
+    "amenity": "hospital",
+    "contact:phone": "+54 341 420-5500",
+    "healthcare": "hospital",
+    "name": "Sanatorio Británico",
+    "operator:type": "private",
+    "ref:sisa_codigo": "10820842384220",
+    "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q97691329"
+  }
+},
+{
+  "type": "way",
+  "id": 1270646218,
+  "nodes": [
+    11799857613,
+    11799857614,
+    11799857615,
+    11799857616,
+    2252476081,
+    11799857613
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "puesto de salud"
+  }
+},
+{
+  "type": "way",
+  "id": 1271341911,
+  "nodes": [
+    11806216126,
+    11806216131,
+    11806216132,
+    11806216127,
+    11806216126
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Secretaria de Salud",
+    "operator": "Ministerio de Salud",
+    "operator:short": "MSAL",
+    "operator:wikidata": "Q5420596"
+  }
+},
+{
+  "type": "way",
+  "id": 1271583474,
+  "nodes": [
+    7648177638,
+    6222248534,
+    11808349604,
+    7648177639,
+    7648177638
+  ],
+  "tags": {
+    "addr:city": "San Cayetano",
+    "addr:housenumber": "1170",
+    "addr:postcode": "7521",
+    "addr:street": "9 de Julio",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal San Cayetano",
+    "phone": "+54 2983 470106",
+    "ref:sisa_codigo": "10067422200337",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -65840,6 +66574,30 @@
 },
 {
   "type": "node",
+  "id": 6222248534,
+  "lat": -38.3521875,
+  "lon": -59.6184101
+},
+{
+  "type": "node",
+  "id": 7648177638,
+  "lat": -38.3528514,
+  "lon": -59.6192235
+},
+{
+  "type": "node",
+  "id": 7648177639,
+  "lat": -38.3521046,
+  "lon": -59.6202192
+},
+{
+  "type": "node",
+  "id": 11808349604,
+  "lat": -38.3514369,
+  "lon": -59.6194042
+},
+{
+  "type": "node",
   "id": 5869825372,
   "lat": -38.2863761,
   "lon": -59.2014683
@@ -66425,6 +67183,30 @@
   "id": 6152314435,
   "lat": -38.5449213,
   "lon": -58.7172079
+},
+{
+  "type": "node",
+  "id": 11806216126,
+  "lat": -38.0491105,
+  "lon": -57.5401214
+},
+{
+  "type": "node",
+  "id": 11806216127,
+  "lat": -38.0491752,
+  "lon": -57.5401170
+},
+{
+  "type": "node",
+  "id": 11806216131,
+  "lat": -38.0491054,
+  "lon": -57.5400212
+},
+{
+  "type": "node",
+  "id": 11806216132,
+  "lat": -38.0491712,
+  "lon": -57.5400165
 },
 {
   "type": "node",
@@ -68841,38 +69623,38 @@
 {
   "type": "node",
   "id": 2393875609,
-  "lat": -32.8701551,
-  "lon": -68.8290456
+  "lat": -32.8701608,
+  "lon": -68.8290491
 },
 {
   "type": "node",
   "id": 2393875610,
-  "lat": -32.8701726,
-  "lon": -68.8287589
+  "lat": -32.8701669,
+  "lon": -68.8287569
 },
 {
   "type": "node",
   "id": 2393875611,
-  "lat": -32.8702930,
-  "lon": -68.8287589
+  "lat": -32.8702927,
+  "lon": -68.8287607
 },
 {
   "type": "node",
   "id": 2393875612,
-  "lat": -32.8702955,
-  "lon": -68.8284603
+  "lat": -32.8702996,
+  "lon": -68.8284309
 },
 {
   "type": "node",
   "id": 2393875618,
-  "lat": -32.8706442,
-  "lon": -68.8290755
+  "lat": -32.8707094,
+  "lon": -68.8290654
 },
 {
   "type": "node",
   "id": 2393875620,
-  "lat": -32.8706517,
-  "lon": -68.8284454
+  "lat": -32.8707224,
+  "lon": -68.8284435
 },
 {
   "type": "node",
@@ -85220,111 +86002,57 @@
 },
 {
   "type": "node",
-  "id": 1993252318,
-  "lat": -32.9370198,
-  "lon": -60.6420478
+  "id": 11793338184,
+  "lat": -32.9365102,
+  "lon": -60.6419794
 },
 {
   "type": "node",
-  "id": 1993252325,
-  "lat": -32.9370012,
-  "lon": -60.6421616
+  "id": 11793338185,
+  "lat": -32.9366893,
+  "lon": -60.6420262
 },
 {
   "type": "node",
-  "id": 1993252327,
-  "lat": -32.9368036,
-  "lon": -60.6419065
+  "id": 11793338186,
+  "lat": -32.9366536,
+  "lon": -60.6422171
 },
 {
   "type": "node",
-  "id": 1993252335,
-  "lat": -32.9367601,
-  "lon": -60.6420971
+  "id": 11793338187,
+  "lat": -32.9370743,
+  "lon": -60.6423232
 },
 {
   "type": "node",
-  "id": 1993252339,
-  "lat": -32.9369891,
-  "lon": -60.6419020
+  "id": 11793338188,
+  "lat": -32.9371806,
+  "lon": -60.6417745
 },
 {
   "type": "node",
-  "id": 1993252348,
-  "lat": -32.9369673,
-  "lon": -60.6420356
+  "id": 11793338189,
+  "lat": -32.9366705,
+  "lon": -60.6416485
 },
 {
   "type": "node",
-  "id": 1993252362,
-  "lat": -32.9368220,
-  "lon": -60.6419925
+  "id": 11793338190,
+  "lat": -32.9366777,
+  "lon": -60.6420813
 },
 {
   "type": "node",
-  "id": 1993252363,
-  "lat": -32.9369091,
-  "lon": -60.6421403
+  "id": 11793338191,
+  "lat": -32.9370986,
+  "lon": -60.6421872
 },
 {
   "type": "node",
-  "id": 1993252374,
-  "lat": -32.9368101,
-  "lon": -60.6418668
-},
-{
-  "type": "node",
-  "id": 1993252377,
-  "lat": -32.9371949,
-  "lon": -60.6418312
-},
-{
-  "type": "node",
-  "id": 1993252380,
-  "lat": -32.9367788,
-  "lon": -60.6419825
-},
-{
-  "type": "node",
-  "id": 1993252396,
-  "lat": -32.9371762,
-  "lon": -60.6419454
-},
-{
-  "type": "node",
-  "id": 1993252409,
-  "lat": -32.9368476,
-  "lon": -60.6420951
-},
-{
-  "type": "node",
-  "id": 1993252419,
-  "lat": -32.9369140,
-  "lon": -60.6421105
-},
-{
-  "type": "node",
-  "id": 1993252427,
-  "lat": -32.9368441,
-  "lon": -60.6421166
-},
-{
-  "type": "node",
-  "id": 1993252438,
-  "lat": -32.9368414,
-  "lon": -60.6418741
-},
-{
-  "type": "node",
-  "id": 1993252450,
-  "lat": -32.9366427,
-  "lon": -60.6418692
-},
-{
-  "type": "node",
-  "id": 1993252451,
-  "lat": -32.9366689,
-  "lon": -60.6417091
+  "id": 11793338194,
+  "lat": -32.9368305,
+  "lon": -60.6422615
 },
 {
   "type": "node",
@@ -91347,14 +92075,14 @@
 {
   "type": "node",
   "id": 11139173059,
-  "lat": -34.7836547,
-  "lon": -58.8342650
+  "lat": -34.7836679,
+  "lon": -58.8342354
 },
 {
   "type": "node",
   "id": 11139173060,
-  "lat": -34.7838432,
-  "lon": -58.8338354
+  "lat": -34.7838505,
+  "lon": -58.8338220
 },
 {
   "type": "node",
@@ -91365,8 +92093,8 @@
 {
   "type": "node",
   "id": 11139173062,
-  "lat": -34.7842563,
-  "lon": -58.8340826
+  "lat": -34.7842552,
+  "lon": -58.8341035
 },
 {
   "type": "node",
@@ -91383,8 +92111,8 @@
 {
   "type": "node",
   "id": 11139173065,
-  "lat": -34.7843916,
-  "lon": -58.8342326
+  "lat": -34.7843789,
+  "lon": -58.8342449
 },
 {
   "type": "node",
@@ -91395,26 +92123,20 @@
 {
   "type": "node",
   "id": 11139173067,
-  "lat": -34.7844424,
-  "lon": -58.8347357
+  "lat": -34.7844677,
+  "lon": -58.8347234
 },
 {
   "type": "node",
   "id": 11139173068,
-  "lat": -34.7841283,
-  "lon": -58.8344856
+  "lat": -34.7841384,
+  "lon": -58.8344764
 },
 {
   "type": "node",
   "id": 11139173069,
   "lat": -34.7841017,
-  "lon": -58.8345503
-},
-{
-  "type": "node",
-  "id": 11139173070,
-  "lat": -34.7836730,
-  "lon": -58.8342231
+  "lon": -58.8345595
 },
 {
   "type": "node",
@@ -102302,36 +103024,6 @@
 },
 {
   "type": "node",
-  "id": 7503865989,
-  "lat": -34.6005154,
-  "lon": -58.4041498
-},
-{
-  "type": "node",
-  "id": 9627908950,
-  "lat": -34.6005226,
-  "lon": -58.4040617
-},
-{
-  "type": "node",
-  "id": 9627908951,
-  "lat": -34.6005909,
-  "lon": -58.4040699
-},
-{
-  "type": "node",
-  "id": 9627908952,
-  "lat": -34.6005756,
-  "lon": -58.4042569
-},
-{
-  "type": "node",
-  "id": 9627908953,
-  "lat": -34.6005074,
-  "lon": -58.4042487
-},
-{
-  "type": "node",
   "id": 7503904780,
   "lat": -34.6032880,
   "lon": -58.3950660
@@ -103911,26 +104603,26 @@
 {
   "type": "node",
   "id": 4616685020,
-  "lat": -34.5260274,
-  "lon": -58.5494496
+  "lat": -34.5260324,
+  "lon": -58.5494819
 },
 {
   "type": "node",
   "id": 4616685021,
-  "lat": -34.5261868,
-  "lon": -58.5492427
+  "lat": -34.5261818,
+  "lon": -58.5492841
 },
 {
   "type": "node",
   "id": 4616685022,
-  "lat": -34.5261187,
-  "lon": -58.5491656
+  "lat": -34.5261054,
+  "lon": -58.5491959
 },
 {
   "type": "node",
   "id": 4616685023,
-  "lat": -34.5259594,
-  "lon": -58.5493725
+  "lat": -34.5259520,
+  "lon": -58.5493937
 },
 {
   "type": "node",
@@ -111392,153 +112084,153 @@
 },
 {
   "type": "node",
-  "id": 5695084549,
-  "lat": -28.4655740,
-  "lon": -65.7620232
-},
-{
-  "type": "node",
-  "id": 5695084550,
-  "lat": -28.4655905,
-  "lon": -65.7620772
-},
-{
-  "type": "node",
-  "id": 5695084551,
-  "lat": -28.4655912,
-  "lon": -65.7621344
-},
-{
-  "type": "node",
-  "id": 5695084552,
-  "lat": -28.4655761,
-  "lon": -65.7621889
-},
-{
-  "type": "node",
-  "id": 1196679075,
-  "lat": -28.4649546,
-  "lon": -65.7627337
-},
-{
-  "type": "node",
-  "id": 1196679076,
-  "lat": -28.4652787,
-  "lon": -65.7629037
-},
-{
-  "type": "node",
-  "id": 1448543748,
-  "lat": -28.4651046,
-  "lon": -65.7621882
-},
-{
-  "type": "node",
-  "id": 1448543754,
-  "lat": -28.4654499,
-  "lon": -65.7622871
-},
-{
-  "type": "node",
-  "id": 5695084536,
-  "lat": -28.4651904,
-  "lon": -65.7628156
-},
-{
-  "type": "node",
-  "id": 5695084537,
-  "lat": -28.4651793,
-  "lon": -65.7628674
-},
-{
-  "type": "node",
-  "id": 5695084538,
-  "lat": -28.4652902,
-  "lon": -65.7620366
-},
-{
-  "type": "node",
-  "id": 5695084539,
-  "lat": -28.4653174,
-  "lon": -65.7619885
-},
-{
-  "type": "node",
-  "id": 5695084540,
-  "lat": -28.4653564,
-  "lon": -65.7619526
-},
-{
-  "type": "node",
-  "id": 5695084541,
-  "lat": -28.4654034,
-  "lon": -65.7619324
-},
-{
-  "type": "node",
-  "id": 5695084542,
-  "lat": -28.4654536,
-  "lon": -65.7619300
-},
-{
-  "type": "node",
-  "id": 5695084543,
-  "lat": -28.4655020,
-  "lon": -65.7619457
-},
-{
-  "type": "node",
   "id": 5695084544,
-  "lat": -28.4655435,
-  "lon": -65.7619778
+  "lat": -28.4655702,
+  "lon": -65.7619988
 },
 {
   "type": "node",
   "id": 5695084545,
-  "lat": -28.4655467,
-  "lon": -65.7622352
+  "lat": -28.4655734,
+  "lon": -65.7622562
+},
+{
+  "type": "node",
+  "id": 5695084549,
+  "lat": -28.4656007,
+  "lon": -65.7620442
+},
+{
+  "type": "node",
+  "id": 5695084550,
+  "lat": -28.4656172,
+  "lon": -65.7620982
+},
+{
+  "type": "node",
+  "id": 5695084551,
+  "lat": -28.4656179,
+  "lon": -65.7621554
+},
+{
+  "type": "node",
+  "id": 5695084552,
+  "lat": -28.4656028,
+  "lon": -65.7622099
+},
+{
+  "type": "node",
+  "id": 1196679075,
+  "lat": -28.4649813,
+  "lon": -65.7627547
+},
+{
+  "type": "node",
+  "id": 1196679076,
+  "lat": -28.4653054,
+  "lon": -65.7629247
+},
+{
+  "type": "node",
+  "id": 1448543748,
+  "lat": -28.4651313,
+  "lon": -65.7622092
+},
+{
+  "type": "node",
+  "id": 1448543754,
+  "lat": -28.4654766,
+  "lon": -65.7623081
+},
+{
+  "type": "node",
+  "id": 5695084536,
+  "lat": -28.4652171,
+  "lon": -65.7628366
+},
+{
+  "type": "node",
+  "id": 5695084537,
+  "lat": -28.4652060,
+  "lon": -65.7628884
+},
+{
+  "type": "node",
+  "id": 5695084538,
+  "lat": -28.4653169,
+  "lon": -65.7620576
+},
+{
+  "type": "node",
+  "id": 5695084539,
+  "lat": -28.4653441,
+  "lon": -65.7620095
+},
+{
+  "type": "node",
+  "id": 5695084540,
+  "lat": -28.4653831,
+  "lon": -65.7619736
+},
+{
+  "type": "node",
+  "id": 5695084541,
+  "lat": -28.4654301,
+  "lon": -65.7619534
+},
+{
+  "type": "node",
+  "id": 5695084542,
+  "lat": -28.4654803,
+  "lon": -65.7619510
+},
+{
+  "type": "node",
+  "id": 5695084543,
+  "lat": -28.4655287,
+  "lon": -65.7619667
 },
 {
   "type": "node",
   "id": 5695084546,
-  "lat": -28.4655023,
-  "lon": -65.7622708
+  "lat": -28.4655290,
+  "lon": -65.7622918
 },
 {
   "type": "node",
   "id": 5695084547,
-  "lat": -28.4653072,
-  "lon": -65.7622137
+  "lat": -28.4653339,
+  "lon": -65.7622347
 },
 {
   "type": "node",
   "id": 5695084548,
-  "lat": -28.4652833,
-  "lon": -65.7621582
+  "lat": -28.4653100,
+  "lon": -65.7621792
 },
 {
   "type": "node",
   "id": 5695084553,
-  "lat": -28.4652775,
-  "lon": -65.7620967
+  "lat": -28.4653042,
+  "lon": -65.7621177
 },
 {
   "type": "node",
   "id": 5695084554,
-  "lat": -28.4653396,
-  "lon": -65.7622728
+  "lat": -28.4653663,
+  "lon": -65.7622938
 },
 {
   "type": "node",
   "id": 5695084555,
-  "lat": -28.4653462,
-  "lon": -65.7622568
+  "lat": -28.4653729,
+  "lon": -65.7622778
 },
 {
   "type": "node",
   "id": 7493502328,
-  "lat": -28.4654231,
-  "lon": -65.7623837
+  "lat": -28.4654498,
+  "lon": -65.7624047
 },
 {
   "type": "node",
@@ -116228,6 +116920,30 @@
 },
 {
   "type": "node",
+  "id": 7569739975,
+  "lat": -24.7376922,
+  "lon": -65.4040173
+},
+{
+  "type": "node",
+  "id": 7569877463,
+  "lat": -24.7376295,
+  "lon": -65.4045368
+},
+{
+  "type": "node",
+  "id": 7569892400,
+  "lat": -24.7372255,
+  "lon": -65.4044949
+},
+{
+  "type": "node",
+  "id": 7569892401,
+  "lat": -24.7372997,
+  "lon": -65.4037666
+},
+{
+  "type": "node",
   "id": 5262918340,
   "lat": -25.1127549,
   "lon": -64.1240250
@@ -116273,6 +116989,78 @@
   "id": 5262918347,
   "lat": -25.1134075,
   "lon": -64.1233123
+},
+{
+  "type": "node",
+  "id": 5952842959,
+  "lat": -24.7187503,
+  "lon": -65.3975546
+},
+{
+  "type": "node",
+  "id": 5952842960,
+  "lat": -24.7187591,
+  "lon": -65.3974762
+},
+{
+  "type": "node",
+  "id": 5952842961,
+  "lat": -24.7186444,
+  "lon": -65.3974607
+},
+{
+  "type": "node",
+  "id": 5952842962,
+  "lat": -24.7186523,
+  "lon": -65.3973905
+},
+{
+  "type": "node",
+  "id": 5952842963,
+  "lat": -24.7187684,
+  "lon": -65.3974062
+},
+{
+  "type": "node",
+  "id": 5952842964,
+  "lat": -24.7187744,
+  "lon": -65.3973529
+},
+{
+  "type": "node",
+  "id": 5952842965,
+  "lat": -24.7188174,
+  "lon": -65.3973587
+},
+{
+  "type": "node",
+  "id": 5952842966,
+  "lat": -24.7188116,
+  "lon": -65.3974107
+},
+{
+  "type": "node",
+  "id": 5952842967,
+  "lat": -24.7189408,
+  "lon": -65.3974282
+},
+{
+  "type": "node",
+  "id": 5952842968,
+  "lat": -24.7189331,
+  "lon": -65.3974973
+},
+{
+  "type": "node",
+  "id": 5952842969,
+  "lat": -24.7188087,
+  "lon": -65.3974804
+},
+{
+  "type": "node",
+  "id": 5952842970,
+  "lat": -24.7187996,
+  "lon": -65.3975613
 },
 {
   "type": "node",
@@ -123713,6 +124501,36 @@
   "id": 9425370196,
   "lat": -26.8084065,
   "lon": -55.0101248
+},
+{
+  "type": "node",
+  "id": 2252476081,
+  "lat": -23.5657223,
+  "lon": -65.1595531
+},
+{
+  "type": "node",
+  "id": 11799857613,
+  "lat": -23.5657907,
+  "lon": -65.1594802
+},
+{
+  "type": "node",
+  "id": 11799857614,
+  "lat": -23.5657319,
+  "lon": -65.1594147
+},
+{
+  "type": "node",
+  "id": 11799857615,
+  "lat": -23.5656471,
+  "lon": -65.1595051
+},
+{
+  "type": "node",
+  "id": 11799857616,
+  "lat": -23.5657059,
+  "lon": -65.1595707
 },
 {
   "type": "node",
