@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-04-23T01:17:30Z",
-    "timestamp_areas_base": "2024-04-22T23:01:29Z",
+    "timestamp_osm_base": "2024-05-15T09:11:45Z",
+    "timestamp_areas_base": "2024-05-15T06:21:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -149,7 +149,7 @@
     "addr:place": "Magallanes",
     "addr:postcode": "9310",
     "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
+    "description": "Bajo riesgo con internación simple.",
     "healthcare": "hospital",
     "name": "Hospital Distrital Dr. Miguel A. Lombardich",
     "operator:type": "public",
@@ -512,9 +512,11 @@
   "lon": -58.3936574,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Tucumán 1863",
     "addr:housenumber": "1863",
     "addr:postcode": "1050",
+    "addr:province": "Buenos Aires",
     "addr:street": "Tucumán",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/sanatoriodelaprovidencia",
@@ -675,9 +677,12 @@
   "lat": -34.5892187,
   "lon": -58.4003014,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Anchorena 1872",
     "addr:housenumber": "1872",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Tomás Manuel de Anchorena",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -1278,8 +1283,10 @@
   "lon": -58.4166919,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3545",
     "addr:postcode": "C1201AAO",
+    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "brand": "Obra Social del Personal de la Construcción",
@@ -3306,6 +3313,9 @@
   "lat": -46.4570399,
   "lon": -67.5475833,
   "tags": {
+    "addr:city": "Caleta Olivia",
+    "addr:postcode": "9011",
+    "addr:street": "Ombú",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "CIC Centenario"
@@ -4189,7 +4199,7 @@
     "contact:website": "https://www.sanatoriomodeloestrella.com/",
     "healthcare": "hospital",
     "name": "Sanatorio Modelo Estrella",
-    "old_name": "Clínica Bruzzone",
+    "old_name": "Clínica Bruzone",
     "opening_hours": "24/7",
     "operator": "Privado",
     "operator:type": "private",
@@ -4225,6 +4235,7 @@
     "addr:postcode": "1842",
     "addr:street": "General Rodríguez",
     "amenity": "hospital",
+    "check_date": "2024-05-03",
     "healthcare": "hospital",
     "name": "Clínica Monte Grande",
     "operator": "Privado",
@@ -4568,9 +4579,15 @@
   "lat": -33.1453891,
   "lon": -68.4850417,
   "tags": {
+    "addr:city": "Junín",
+    "addr:housenumber": "192",
+    "addr:postcode": "5573",
+    "addr:street": "Salvador González",
+    "alt_name": "Centro de Salud Junín",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro de Salud Junín"
+    "name": "Centro de Salud 62 Oscar A. de Lellis",
+    "phone": "+54 263 449 2244"
   }
 },
 {
@@ -4724,8 +4741,11 @@
   "lat": -34.5912778,
   "lon": -58.4107409,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1677",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Billinghurst",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -4782,9 +4802,12 @@
   "lon": -58.4460249,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1642",
     "addr:postcode": "1426",
+    "addr:province": "Buenos Aires",
     "addr:street": "José Hernández",
+    "addr:suburb": "Belgrano",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clínica La Sagrada Familia",
@@ -5124,9 +5147,12 @@
   "lon": -58.4487357,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1295",
     "addr:postcode": "1426",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Cabildo",
+    "addr:suburb": "Palermo",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clínica Zabala",
@@ -5506,8 +5532,10 @@
   "lon": -58.4009460,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "870",
     "addr:postcode": "1115",
+    "addr:province": "Buenos Aires",
     "addr:street": "Azcuénaga",
     "amenity": "hospital",
     "email": "rrpp@otamendi.com.ar",
@@ -5746,6 +5774,7 @@
   "lon": -58.3879976,
   "tags": {
     "amenity": "hospital",
+    "check_date": "2024-05-08",
     "healthcare": "hospital",
     "name": "Diagnóstico por Imágenes"
   }
@@ -7012,6 +7041,7 @@
     "addr:street": "Vicente López y Planes",
     "alt_name": "Clinica Nueva Ezeiza",
     "amenity": "hospital",
+    "check_date": "2024-05-03",
     "healthcare": "hospital",
     "name": "C.E.M.",
     "operator": "Privado",
@@ -10314,12 +10344,17 @@
 {
   "type": "node",
   "id": 4221619601,
-  "lat": -26.0639790,
-  "lon": -65.9828586,
+  "lat": -26.0639762,
+  "lon": -65.9829235,
   "tags": {
+    "addr:city": "Cafayate",
+    "addr:full": "12 De Octubre Esq. General Paz",
+    "addr:street": "12 de Octubre",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Nuestra Señora Señora del Rosario",
+    "ref:sisa_codigo": "10660212173031",
+    "ref:sisa_tipologia": "ESCIG",
     "wikidata": "Q95447551"
   }
 },
@@ -12865,8 +12900,10 @@
   "lon": -61.5312937,
   "tags": {
     "addr:city": "Teodelina",
+    "addr:country": "AR",
     "addr:housenumber": "449",
     "addr:postcode": "6009",
+    "addr:province": "Santa Fe",
     "addr:street": "Samiento",
     "amenity": "hospital",
     "emergency": "no",
@@ -16330,9 +16367,11 @@
   "lon": -58.3945058,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Dr. Luis Agote 2477",
     "addr:housenumber": "2477",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Luis Agote",
     "amenity": "hospital",
     "emergency": "yes",
@@ -19046,9 +19085,8 @@
   "lat": -29.1398354,
   "lon": -62.6511989,
   "tags": {
-    "addr:city": "Villa General Mitre (Estación Pinto)",
+    "addr:city": "Pinto",
     "addr:full": "Sarmiento 553",
-    "addr:place": "Aguirre",
     "addr:postcode": "2356",
     "addr:street": "Avenida Sarmiento",
     "amenity": "hospital",
@@ -19396,25 +19434,6 @@
 },
 {
   "type": "node",
-  "id": 7501379339,
-  "lat": -34.6029872,
-  "lon": -58.5638961,
-  "tags": {
-    "addr:housenumber": "2285",
-    "addr:postcode": "1678",
-    "addr:street": "Lisandro Medina",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Sanatorio Modelo de Caseros",
-    "operator": "Privado",
-    "operator:type": "private",
-    "phone": "+54 11 4759-1590",
-    "ref:sisa_codigo": "10068402300457",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
   "id": 7501390595,
   "lat": -34.8103506,
   "lon": -58.3467451,
@@ -19688,8 +19707,11 @@
   "lat": -34.5900168,
   "lon": -58.3876146,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Av. Presidente Quintana 281",
     "addr:postcode": "1014",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio Quintana",
@@ -19814,8 +19836,10 @@
   "lon": -58.4706641,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Terrada 550",
     "addr:housenumber": "550",
+    "addr:province": "Buenos Aires",
     "addr:street": "Terrada",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -20020,10 +20044,14 @@
   "lat": -34.5693454,
   "lon": -58.4495777,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Ciudad De La Paz 1157",
     "addr:housenumber": "1157",
     "addr:postcode": "1428",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ciudad de la Paz",
+    "addr:suburb": "Colegiales",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clinica De Los Virreyes",
@@ -20120,6 +20148,7 @@
     "addr:street": "Boulevard Buenos Aires",
     "alt_name": "Mito Laboral S.r.l.",
     "amenity": "hospital",
+    "check_date": "2024-05-12",
     "healthcare": "hospital",
     "name": "Medicina Integral",
     "operator": "Privado",
@@ -20231,8 +20260,11 @@
   "lat": -34.6083155,
   "lon": -58.3955657,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2040",
     "addr:postcode": "1039",
+    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -20251,8 +20283,11 @@
   "lat": -34.6140393,
   "lon": -58.3926514,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Avenida Belgrano 1844",
     "addr:postcode": "1094",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro Medico Integral Clinica Lopez",
@@ -23853,6 +23888,121 @@
   }
 },
 {
+  "type": "node",
+  "id": 11867543773,
+  "lat": -46.4507067,
+  "lon": -67.5109133,
+  "tags": {
+    "addr:city": "Caleta Olivia",
+    "addr:postcode": "9011",
+    "addr:street": "Progreso López",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CAPS Virgen del Valle (provincial)"
+  }
+},
+{
+  "type": "node",
+  "id": 11871746375,
+  "lat": -33.5584657,
+  "lon": -65.0033437,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CENTRO DE PRIMEROS AUXILIOS"
+  }
+},
+{
+  "type": "node",
+  "id": 11889931465,
+  "lat": -34.2106579,
+  "lon": -61.3542351,
+  "tags": {
+    "addr:city": "Arribeños",
+    "addr:housenumber": "28",
+    "addr:postcode": "6007",
+    "addr:street": "9 de Julio",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad Sanitaria Arribeños"
+  }
+},
+{
+  "type": "node",
+  "id": 11897199654,
+  "lat": -34.7451839,
+  "lon": -58.6975136,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad sanitaria Pontevedra"
+  }
+},
+{
+  "type": "node",
+  "id": 11904149057,
+  "lat": -36.8837723,
+  "lon": -60.2908721,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Veterinario Olavarria"
+  }
+},
+{
+  "type": "node",
+  "id": 11905566479,
+  "lat": -31.7279333,
+  "lon": -60.5433981,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "867",
+    "addr:postcode": "3100",
+    "addr:street": "Sarmiento",
+    "amenity": "hospital",
+    "email": "capsbalbi@gmail.com",
+    "healthcare": "hospital",
+    "name": "CAPS Pablo Balbi",
+    "ref:sisa_codigo": "50300842142330",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS"
+  }
+},
+{
+  "type": "node",
+  "id": 11905577373,
+  "lat": -32.0411481,
+  "lon": -60.3101827,
+  "tags": {
+    "addr:city": "Crespo",
+    "addr:postcode": "3116",
+    "addr:street": "España",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro De Salud Doctor Salustiano Minguillon",
+    "phone": "+54 343 4951160",
+    "ref:sisa_codigo": "50300842142252",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 11905583182,
+  "lat": -31.7274796,
+  "lon": -60.5377907,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "174",
+    "addr:postcode": "3100",
+    "addr:street": "Catamarca",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Medico Cervantes",
+    "ref:sisa_codigo": "50300842343601",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -23880,9 +24030,13 @@
     181175967
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Cerviño 3356",
     "addr:housenumber": "3356",
+    "addr:province": "Buenos Aires",
     "addr:street": "Cerviño",
+    "addr:suburb": "Palermo",
     "amenity": "hospital",
     "building": "yes",
     "building:use": "hospital",
@@ -23920,7 +24074,10 @@
     217921776
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2670",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Las Heras",
     "amenity": "hospital",
     "check_date": "2024-01-19",
@@ -23966,7 +24123,10 @@
     226488611
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1330",
+    "addr:province": "Buenos Aires",
     "addr:street": "Gallo",
     "amenity": "hospital",
     "check_date": "2023-10-16",
@@ -23997,7 +24157,10 @@
     235317271
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:postcode": "C1287ABI",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "contact:website": "http://www.hospitalmoyano.org.ar/",
     "healthcare": "hospital",
@@ -24020,7 +24183,10 @@
     235319148
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "375",
+    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Ramón Carrillo",
     "alt_name": "Hospital Interdisciplinario Psicoasistencial José Tiburcio Borda",
     "amenity": "hospital",
@@ -24112,6 +24278,7 @@
     "addr:country": "AR",
     "addr:housenumber": "1640",
     "addr:postcode": "1118",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Pueyrredón",
     "amenity": "hospital",
     "check_date": "2023-10-16",
@@ -24166,9 +24333,11 @@
     256030568
   ],
   "tags": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Avenida Varela 1301",
     "addr:housenumber": "480",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Varela",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -24206,9 +24375,11 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housename": "743",
     "addr:housenumber": "743",
     "addr:postcode": "C1405BIK",
+    "addr:province": "Buenos Aires",
     "addr:street": "Juan Bautista Ambrosetti",
     "amenity": "hospital",
     "emergency": "yes",
@@ -24239,9 +24410,11 @@
     256237022
   ],
   "tags": {
-    "addr:city": "Ciudad Autonoma de Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2151",
     "addr:postcode": "1246",
+    "addr:province": "Buenos Aires",
     "addr:street": "Esteban de Luca",
     "amenity": "hospital",
     "emergency": "yes",
@@ -24270,7 +24443,9 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1890",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pichincha",
     "alt_name": "Hospital de Pediatría Garrahan",
     "amenity": "hospital",
@@ -24320,8 +24495,11 @@
     2249213845
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2351",
     "addr:postcode": "C1120AAR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "hospital",
     "building": "hospital",
@@ -24368,8 +24546,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3400",
     "addr:postcode": "C1437JCP",
+    "addr:province": "Buenos Aires",
     "addr:street": "Uspallata",
     "alt_name": "Hospital Churruca",
     "amenity": "hospital",
@@ -24396,7 +24576,10 @@
     283262391
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3380",
+    "addr:province": "Buenos Aires",
     "addr:street": "Profesor Doctor Pedro Chutro",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -24456,8 +24639,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2197",
     "addr:postcode": "C1416DRJ",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Gaona",
     "amenity": "hospital",
     "contact:phone": "+54 8104446777",
@@ -24595,9 +24780,12 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4720",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Cerviño",
+    "addr:suburb": "Palermo",
     "amenity": "hospital",
     "building": "hospital",
     "building:levels": "6",
@@ -24736,8 +24924,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5481",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida San Martín",
     "amenity": "hospital",
     "barrier": "fence",
@@ -25231,8 +25421,11 @@
     1108412422
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Callao 483/486 /499 / Lavalle 1790",
     "addr:postcode": "1048",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Instituto Quirurgico Del Callao",
@@ -25903,7 +26096,10 @@
     1376764756
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "750",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pi y Margall",
     "amenity": "hospital",
     "emergency": "yes",
@@ -26774,9 +26970,11 @@
     1616152067
   ],
   "tags": {
-    "addr:city": "Ciudad Autonoma de Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "551",
     "addr:postcode": "C1405CNF",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avellaneda",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -27814,6 +28012,7 @@
     "addr:full": "Avenida Tomás Espora 645",
     "addr:postcode": "1846",
     "amenity": "hospital",
+    "check_date": "2024-05-08",
     "healthcare": "hospital",
     "name": "Clinica Espora",
     "operator": "Privado",
@@ -28932,10 +29131,14 @@
     2554715352
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Galván 4102",
     "addr:housenumber": "4102",
     "addr:postcode": "1431",
+    "addr:province": "Buenos Aires",
     "addr:street": "Galván",
+    "addr:suburb": "Saavedra",
     "amenity": "hospital",
     "check_date": "2024-04-08",
     "healthcare": "hospital",
@@ -29030,8 +29233,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3002",
     "addr:postcode": "C1427ARN",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Combatientes de Malvinas",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -29083,10 +29288,13 @@
     3257577003
   ],
   "tags": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "909",
     "addr:postcode": "C1425FSD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Justo",
+    "addr:suburb": "Palermo",
     "amenity": "hospital",
     "contact:website": "http://www.sanatoriodelosarcos.com.ar/",
     "healthcare": "hospital",
@@ -29301,7 +29509,10 @@
     2205036745
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1746",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "building": "yes",
@@ -29378,8 +29589,11 @@
     2210787209
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "40",
     "addr:postcode": "C1270AAN",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Manuel A. Montes de Oca",
     "alt_name": "Casa Cuna",
     "amenity": "hospital",
@@ -29837,8 +30051,11 @@
     2333959742
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2553",
     "addr:postcode": "1039",
+    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "building": "yes",
@@ -29872,8 +30089,11 @@
     2340093051
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Pedro Calderon De La Barca 1550",
     "addr:housenumber": "1550",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pedro Calderón de la Barca",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -31589,9 +31809,12 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "851",
     "addr:postcode": "1426",
+    "addr:province": "Buenos Aires",
     "addr:street": "Conde",
+    "addr:suburb": "Colegiales",
     "amenity": "hospital",
     "building": "yes",
     "email": "info@sanatoriocolegiales.com.ar",
@@ -31980,8 +32203,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4190",
     "addr:postcode": "C1199ABD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Teniente General Juan Domingo Perón",
     "alt_name": "Hospital Italiano",
     "amenity": "hospital",
@@ -32709,9 +32934,11 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Nueva York 3952",
     "addr:housenumber": "3952",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Nueva York",
     "alt_name": "Hospital General De Agudos Doctor Abel Zubizarreta",
     "amenity": "hospital",
@@ -33538,8 +33765,11 @@
     2957307752
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2975",
     "addr:postcode": "1209",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -33575,8 +33805,11 @@
     2957307756
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2189",
     "addr:postcode": "1094",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "contact:phone": "+54 11 412 71000",
@@ -33856,7 +34089,10 @@
     3012896126
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2701",
+    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Juan Felipe Aranguren",
     "alt_name": "Hospital Álvarez",
     "amenity": "hospital",
@@ -34502,9 +34738,13 @@
     3182200878
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3555",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Monroe",
+    "addr:suburb": "Coghlan",
     "amenity": "hospital",
     "check_date": "2023-10-20",
     "email": "contacto@hospitalpirovano.org",
@@ -35320,7 +35560,10 @@
     3350976789
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3485",
+    "addr:province": "Buenos Aires",
     "addr:street": "Soler",
     "amenity": "hospital",
     "emergency": "yes",
@@ -35861,6 +36104,7 @@
   "nodes": [
     3447152725,
     3447152736,
+    11874214258,
     3447152737,
     3447152728,
     3447152725
@@ -36808,7 +37052,10 @@
     3699271529
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "950",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pilar",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -37394,6 +37641,7 @@
     "addr:country": "AR",
     "addr:housenumber": "351",
     "addr:postcode": "C1405BWD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Patricias Argentinas",
     "amenity": "hospital",
     "email": "contacto@hnpm.mil.ar",
@@ -37768,8 +38016,10 @@
     3984553706
   ],
   "tags": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "609",
+    "addr:province": "Buenos Aires",
     "addr:street": "General Urquiza",
     "amenity": "hospital",
     "emergency": "yes",
@@ -37852,10 +38102,14 @@
     4003074705
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Francisco Acuńa De Figueroa 1240",
     "addr:housenumber": "1340",
     "addr:postcode": "1180",
+    "addr:province": "Buenos Aires",
     "addr:street": "Francisco Acuña de Figueroa",
+    "addr:suburb": "Palermo",
     "amenity": "hospital",
     "building": "yes",
     "check_date": "2023-11-30",
@@ -38112,15 +38366,39 @@
   "id": 407723201,
   "nodes": [
     4097566433,
+    11841847932,
+    11841847914,
+    11841847942,
+    11841847925,
     4097566434,
     11057516178,
+    11841847934,
+    11841847924,
     11057516173,
-    11063734062,
-    11057516172,
+    11841847918,
     4097566447,
-    11515258951,
-    11515258946,
+    11841852778,
+    11841852616,
+    11841852770,
+    11841852773,
+    11841852617,
+    11841852618,
+    11841852619,
+    11841852620,
+    11841852622,
+    11841852621,
+    11841852645,
+    11841852581,
+    11841852623,
+    11841852624,
+    11841852575,
+    11841852625,
+    11841852607,
+    11841852609,
+    11841852606,
     4097566446,
+    11841847936,
+    11841847935,
     4097566433
   ],
   "tags": {
@@ -38744,8 +39022,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1710",
     "addr:postcode": "C1430EGF",
+    "addr:province": "Buenos Aires",
     "addr:street": "Estomba",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/clinicaadvbelgrano",
@@ -39411,8 +39691,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3002",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Juncal",
     "amenity": "hospital",
     "building": "yes",
@@ -39659,8 +39941,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3200",
     "addr:postcode": "C1437BZK",
+    "addr:province": "Buenos Aires",
     "addr:street": "Portela",
     "amenity": "hospital",
     "building": "yes",
@@ -39688,7 +39972,10 @@
     4602338881
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2171",
+    "addr:province": "Buenos Aires",
     "addr:street": "Solís",
     "amenity": "hospital",
     "building": "yes",
@@ -39711,6 +39998,9 @@
     4602555986
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Caseros",
     "amenity": "hospital",
     "building": "yes",
@@ -39733,8 +40023,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "74",
     "addr:postcode": "C1280AEB",
+    "addr:province": "Buenos Aires",
     "addr:street": "Perdriel",
     "amenity": "hospital",
     "emergency": "yes",
@@ -39857,7 +40149,7 @@
     "phone": "0800 888-6789",
     "ref:sisa_codigo": "10067562316690",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "www.sanatoriosantasofia.com.ar"
+    "website": "https://www.sanatoriosantasofia.com.ar/"
   }
 },
 {
@@ -39946,8 +40238,26 @@
   "nodes": [
     4625875235,
     4625875239,
+    11845358714,
+    11845358712,
+    11845358711,
+    11845358713,
     4625875240,
     4625875241,
+    11845358721,
+    11845358715,
+    11845358716,
+    11845358722,
+    11843044001,
+    11845358723,
+    11845358717,
+    11845358718,
+    11845358724,
+    4625875236,
+    11845358725,
+    11845358719,
+    11845358720,
+    11845358726,
     4625875235
   ],
   "tags": {
@@ -40224,8 +40534,11 @@
     4656881721
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4658",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Campana",
     "amenity": "hospital",
     "emergency": "yes",
@@ -40252,9 +40565,11 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Tres Arroyos 2060",
     "addr:housenumber": "2060",
     "addr:postcode": "1416",
+    "addr:province": "Buenos Aires",
     "addr:street": "Tres Arroyos",
     "amenity": "hospital",
     "building": "yes",
@@ -40280,6 +40595,9 @@
     4658058608
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Monroe",
     "amenity": "hospital",
     "building": "yes",
@@ -40447,7 +40765,10 @@
     4475368625
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:postcode": "1122",
+    "addr:province": "Buenos Aires",
     "addr:street": "Marcelo T. de Alvear",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -40802,6 +41123,8 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "hospital",
     "building": "yes",
@@ -40848,6 +41171,8 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -40874,7 +41199,9 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2678",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -40923,6 +41250,9 @@
     4708762388
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Pedro Goyena",
     "amenity": "hospital",
     "building": "hospital",
@@ -41072,8 +41402,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3460",
     "addr:postcode": "C1210AAP",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "building": "yes",
@@ -41100,8 +41432,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3402",
     "addr:postcode": "C1210AAP",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "building": "yes",
@@ -41499,7 +41833,11 @@
   "id": 491693973,
   "nodes": [
     573607867,
-    4837692446,
+    11884758741,
+    2282167975,
+    11884765777,
+    11884765776,
+    11884765775,
     11767605592,
     4837692447,
     4837692448,
@@ -41511,6 +41849,7 @@
     11767605596,
     4837692453,
     4837692454,
+    11884765787,
     4837692455,
     4837692456,
     4837692457,
@@ -41530,9 +41869,12 @@
   "tags": {
     "addr:city": "San Fernando del Valle de Catamarca",
     "addr:full": "Chacabuco y Salta",
+    "addr:housenumber": "675",
     "addr:postcode": "4700",
+    "addr:street": "Chacabuco",
     "amenity": "hospital",
     "building": "hospital",
+    "building:levels": "4",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Sanatorio Pasteur",
@@ -42387,8 +42729,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "899",
     "addr:postcode": "C1405DJI",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Ángel Gallardo",
     "amenity": "hospital",
     "building": "hospital",
@@ -42605,33 +42949,6 @@
     "ref:sisa_codigo": "10260282129013",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "way",
-  "id": 521673980,
-  "nodes": [
-    5082701875,
-    5082701876,
-    5082701878,
-    7398868227,
-    7398868229,
-    7398868228,
-    7398868226,
-    5082701877,
-    5082701875
-  ],
-  "tags": {
-    "addr:city": "San Fernando del Valle de Catamarca",
-    "addr:postcode": "4700",
-    "addr:street": "Junín",
-    "amenity": "hospital",
-    "building": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Sanatorio Junín",
-    "operator:type": "private",
-    "wheelchair": "yes"
   }
 },
 {
@@ -42945,9 +43262,12 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1543",
     "addr:postcode": "1428",
+    "addr:province": "Buenos Aires",
     "addr:street": "Blanco Encalada",
+    "addr:suburb": "Belgrano",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -45713,10 +46033,14 @@
     6758288009
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housename": "Mater Dei",
     "addr:housenumber": "2952",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "San Martín de Tours",
+    "addr:suburb": "Palermo",
     "amenity": "hospital",
     "building": "hospital",
     "check_date": "2023-12-09",
@@ -45746,7 +46070,9 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2423",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Coronel Díaz",
     "amenity": "hospital",
     "building": "hospital",
@@ -46512,10 +46838,13 @@
     3108330623
   ],
   "tags": {
-    "addr:city": "Ciudad Autonoma de Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4601",
     "addr:postcode": "C1429AKK",
+    "addr:province": "Buenos Aires",
     "addr:street": "Crámer",
+    "addr:suburb": "Saavedra",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -47390,8 +47719,11 @@
     6315301189
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "849",
     "addr:postcode": "C1272AAA",
+    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Enrique Finochietto",
     "amenity": "hospital",
     "check_date": "2023-12-25",
@@ -47420,9 +47752,12 @@
     6262958838
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Don Pedro De Mendoza 1795",
     "addr:housenumber": "1795",
     "addr:postcode": "1167",
+    "addr:province": "Buenos Aires",
     "addr:street": "Don Pedro de Mendoza",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -47452,8 +47787,11 @@
     7380410295
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "951",
     "addr:postcode": "1221",
+    "addr:province": "Buenos Aires",
     "addr:street": "La Rioja",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -47482,8 +47820,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "66",
     "addr:postcode": "C1405DHB",
+    "addr:province": "Buenos Aires",
     "addr:street": "Antonio Machado",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -48257,8 +48597,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3352",
     "addr:postcode": "C1208ABN",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Hipólito Yrigoyen",
     "amenity": "hospital",
     "building": "yes",
@@ -48283,8 +48625,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "548",
     "addr:postcode": "C1172ABL",
+    "addr:province": "Buenos Aires",
     "addr:street": "Gallo",
     "amenity": "hospital",
     "building": "yes",
@@ -48782,6 +49126,7 @@
     7569684062,
     7569684066,
     7569684063,
+    11889694057,
     7569684058,
     7569684059
   ],
@@ -50263,8 +50608,11 @@
     3189921056
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Av. Directorio 4743",
     "addr:postcode": "1407",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio San Cayetano - Osmata",
@@ -50479,7 +50827,10 @@
     8837477424
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2061",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Caseros",
     "amenity": "hospital",
     "building": "yes",
@@ -52008,7 +52359,9 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:postcode": "C1416DJI",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Justo 4151",
     "amenity": "hospital",
     "description": "Hospital Oftalmológico Doctor Pedro Lagleyze - Servicios: oftalmología, atención ambulatoria, internación, diagnóstico, tratamiento, medicina preventiva, cuenta con 36 camas -",
@@ -52219,10 +52572,11 @@
     9620384291
   ],
   "tags": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "1461",
     "addr:postcode": "1118",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Pueyrredón",
     "amenity": "hospital",
     "building": "hospital",
@@ -52303,8 +52657,11 @@
     7503904780
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Lavalle 1974",
     "addr:postcode": "1051",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -52349,9 +52706,11 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Bartolomé Mitre 1955",
     "addr:housenumber": "1955",
     "addr:postcode": "1039",
+    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "building": "yes",
@@ -52427,8 +52786,11 @@
     9622838934
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Paraguay 3144",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -52515,8 +52877,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Av. Directorio 2037",
     "addr:housenumber": "2037",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Directorio",
     "amenity": "hospital",
     "building": "yes",
@@ -52551,8 +52915,10 @@
   ],
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1164",
     "addr:postcode": "1416",
+    "addr:province": "Buenos Aires",
     "addr:street": "Terrada",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -52823,9 +53189,11 @@
     9627912502
   ],
   "tags": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1039",
     "addr:postcode": "1229",
+    "addr:province": "Buenos Aires",
     "addr:street": "Saavedra",
     "amenity": "hospital",
     "building": "yes",
@@ -53352,9 +53720,12 @@
     9679536536
   ],
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Ventura De La Vega 3697",
     "addr:housenumber": "3697",
     "addr:postcode": "1437",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ventura de La Vega",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -55625,6 +55996,135 @@
   }
 },
 {
+  "type": "way",
+  "id": 1275481986,
+  "nodes": [
+    7501379339,
+    11843028535,
+    11843028536,
+    11843028537,
+    11843028538,
+    11843028539,
+    7501379339
+  ],
+  "tags": {
+    "addr:city": "Caseros",
+    "addr:housenumber": "2285",
+    "addr:postcode": "1678",
+    "addr:street": "Lisandro Medina",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sanatorio Modelo de Caseros",
+    "operator": "Sanatorio Modelo de Caseros",
+    "operator:type": "private",
+    "phone": "+54 11 4759-1590",
+    "ref:sisa_codigo": "10068402300457",
+    "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "way",
+  "id": 1281306479,
+  "nodes": [
+    11892436575,
+    11892436576,
+    11892436581,
+    11892436580,
+    11892436577,
+    11892434359,
+    11892434358,
+    7398868228,
+    7398868226,
+    5082701877,
+    5082701875,
+    11892436575
+  ],
+  "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "369",
+    "addr:postcode": "4700",
+    "addr:street": "Junín",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Sanatorio Junín",
+    "operator:type": "private",
+    "website": "https://sanatoriojunin.com.ar/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1282000021,
+  "nodes": [
+    11897199648,
+    11897199649,
+    11897199650,
+    11897199651,
+    11897199652,
+    11897199653,
+    11897199648
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1282497879,
+  "nodes": [
+    11901403719,
+    11901403739,
+    11901403720,
+    11901403721,
+    11901403751,
+    11901403749,
+    11901403750,
+    11901403733,
+    11901403722,
+    11901403735,
+    11901403723,
+    11901403745,
+    11901403748,
+    11901403740,
+    11901403719
+  ],
+  "tags": {
+    "addr:city": "Las Heras",
+    "addr:housenumber": "195",
+    "addr:postcode": "5539",
+    "addr:street": "Juan Cornelio Moyano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "endocrinology;radiology;applied_kinesiology;ophthalmology;gynaecology;paediatrics;nephrology;vaccination;child_psychiatry",
+    "name": "Centro de Salud N° 17 \"Dr. Carlos Evans\"",
+    "phone": "+54 2614487662"
+  }
+},
+{
+  "type": "way",
+  "id": 1283062459,
+  "nodes": [
+    11905569283,
+    11905569284,
+    11905569285,
+    11905569299,
+    11905569298,
+    11905569286,
+    11905569287,
+    11905569295,
+    11905569294,
+    11905569291,
+    11905569290,
+    11905569283
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -55899,17 +56399,20 @@
     "healthcare": "hospital",
     "landuse": "military",
     "name": "Hospital Militar Central Cirujano Mayor Doctor Cosme Argerich",
-    "operator": "FFAA/Seguridad",
+    "official_name": "Hospital Militar Central Cirujano Mayor Doctor Cosme Argerich - Hospital General 601",
+    "operator": "Ejército Argentino",
     "operator:type": "public",
     "phone": "+54 11 4576-5657",
+    "ref": "H Grl 601-HMC",
     "ref:sisa_codigo": "10020012415224",
     "ref:sisa_tipologia": "ESCIG",
-    "short_name": "Hospital Militar Central",
+    "short_name": "Hospital Militar Central 601",
     "start_date": "1939-05-27",
     "type": "multipolygon",
     "website": "https://www.hmc.mil.ar/",
     "wheelchair": "yes",
-    "wikipedia": "es:ES:Hospital Militar Central"
+    "wikidata": "Q2836718",
+    "wikipedia": "es:Hospital Militar Central (Argentina)"
   }
 },
 {
@@ -59411,62 +59914,206 @@
 {
   "type": "node",
   "id": 4097566433,
-  "lat": -39.9478383,
-  "lon": -71.0774058
+  "lat": -39.9478548,
+  "lon": -71.0774326
 },
 {
   "type": "node",
   "id": 4097566434,
-  "lat": -39.9482039,
-  "lon": -71.0757379
+  "lat": -39.9482234,
+  "lon": -71.0757392
 },
 {
   "type": "node",
   "id": 4097566446,
-  "lat": -39.9487080,
-  "lon": -71.0777482
+  "lat": -39.9487173,
+  "lon": -71.0777509
 },
 {
   "type": "node",
   "id": 4097566447,
-  "lat": -39.9490928,
-  "lon": -71.0760552
-},
-{
-  "type": "node",
-  "id": 11057516172,
-  "lat": -39.9490280,
-  "lon": -71.0760327
+  "lat": -39.9490856,
+  "lon": -71.0760706
 },
 {
   "type": "node",
   "id": 11057516173,
-  "lat": -39.9488970,
-  "lon": -71.0759873
+  "lat": -39.9488965,
+  "lon": -71.0759967
 },
 {
   "type": "node",
   "id": 11057516178,
-  "lat": -39.9485498,
-  "lon": -71.0758623
+  "lat": -39.9485477,
+  "lon": -71.0758710
 },
 {
   "type": "node",
-  "id": 11063734062,
-  "lat": -39.9490041,
-  "lon": -71.0760244
+  "id": 11841847914,
+  "lat": -39.9479334,
+  "lon": -71.0770874
 },
 {
   "type": "node",
-  "id": 11515258946,
-  "lat": -39.9490168,
-  "lon": -71.0763898
+  "id": 11841847918,
+  "lat": -39.9489336,
+  "lon": -71.0760112
 },
 {
   "type": "node",
-  "id": 11515258951,
-  "lat": -39.9490852,
-  "lon": -71.0760887
+  "id": 11841847924,
+  "lat": -39.9488874,
+  "lon": -71.0759934
+},
+{
+  "type": "node",
+  "id": 11841847925,
+  "lat": -39.9479453,
+  "lon": -71.0770334
+},
+{
+  "type": "node",
+  "id": 11841847932,
+  "lat": -39.9479034,
+  "lon": -71.0772191
+},
+{
+  "type": "node",
+  "id": 11841847934,
+  "lat": -39.9487931,
+  "lon": -71.0759594
+},
+{
+  "type": "node",
+  "id": 11841847935,
+  "lat": -39.9479546,
+  "lon": -71.0774695
+},
+{
+  "type": "node",
+  "id": 11841847936,
+  "lat": -39.9487094,
+  "lon": -71.0777480
+},
+{
+  "type": "node",
+  "id": 11841847942,
+  "lat": -39.9479391,
+  "lon": -71.0770626
+},
+{
+  "type": "node",
+  "id": 11841852575,
+  "lat": -39.9487842,
+  "lon": -71.0774475
+},
+{
+  "type": "node",
+  "id": 11841852581,
+  "lat": -39.9487997,
+  "lon": -71.0773771
+},
+{
+  "type": "node",
+  "id": 11841852606,
+  "lat": -39.9487601,
+  "lon": -71.0775568
+},
+{
+  "type": "node",
+  "id": 11841852607,
+  "lat": -39.9487641,
+  "lon": -71.0775395
+},
+{
+  "type": "node",
+  "id": 11841852609,
+  "lat": -39.9487621,
+  "lon": -71.0775488
+},
+{
+  "type": "node",
+  "id": 11841852616,
+  "lat": -39.9490754,
+  "lon": -71.0761188
+},
+{
+  "type": "node",
+  "id": 11841852617,
+  "lat": -39.9490090,
+  "lon": -71.0764328
+},
+{
+  "type": "node",
+  "id": 11841852618,
+  "lat": -39.9490040,
+  "lon": -71.0764547
+},
+{
+  "type": "node",
+  "id": 11841852619,
+  "lat": -39.9489924,
+  "lon": -71.0765084
+},
+{
+  "type": "node",
+  "id": 11841852620,
+  "lat": -39.9488963,
+  "lon": -71.0769467
+},
+{
+  "type": "node",
+  "id": 11841852621,
+  "lat": -39.9488914,
+  "lon": -71.0769685
+},
+{
+  "type": "node",
+  "id": 11841852622,
+  "lat": -39.9488940,
+  "lon": -71.0769571
+},
+{
+  "type": "node",
+  "id": 11841852623,
+  "lat": -39.9487967,
+  "lon": -71.0773909
+},
+{
+  "type": "node",
+  "id": 11841852624,
+  "lat": -39.9487877,
+  "lon": -71.0774314
+},
+{
+  "type": "node",
+  "id": 11841852625,
+  "lat": -39.9487804,
+  "lon": -71.0774644
+},
+{
+  "type": "node",
+  "id": 11841852645,
+  "lat": -39.9488034,
+  "lon": -71.0773605
+},
+{
+  "type": "node",
+  "id": 11841852770,
+  "lat": -39.9490169,
+  "lon": -71.0763969
+},
+{
+  "type": "node",
+  "id": 11841852773,
+  "lat": -39.9490140,
+  "lon": -71.0764099
+},
+{
+  "type": "node",
+  "id": 11841852778,
+  "lat": -39.9490805,
+  "lon": -71.0760947
 },
 {
   "type": "node",
@@ -69682,6 +70329,36 @@
 },
 {
   "type": "node",
+  "id": 11901403720,
+  "lat": -32.8435587,
+  "lon": -68.8325075
+},
+{
+  "type": "node",
+  "id": 11901403719,
+  "lat": -32.8435718,
+  "lon": -68.8319799
+},
+{
+  "type": "node",
+  "id": 11901403739,
+  "lat": -32.8435669,
+  "lon": -68.8321995
+},
+{
+  "type": "node",
+  "id": 11901403740,
+  "lat": -32.8435128,
+  "lon": -68.8319785
+},
+{
+  "type": "node",
+  "id": 11901403748,
+  "lat": -32.8433886,
+  "lon": -68.8319755
+},
+{
+  "type": "node",
   "id": 2439455880,
   "lat": -32.8500989,
   "lon": -68.8135931
@@ -70561,6 +71238,60 @@
   "id": 11565237346,
   "lat": -32.8520521,
   "lon": -68.8140381
+},
+{
+  "type": "node",
+  "id": 11901403721,
+  "lat": -32.8433207,
+  "lon": -68.8325015
+},
+{
+  "type": "node",
+  "id": 11901403722,
+  "lat": -32.8432670,
+  "lon": -68.8321987
+},
+{
+  "type": "node",
+  "id": 11901403723,
+  "lat": -32.8432743,
+  "lon": -68.8319727
+},
+{
+  "type": "node",
+  "id": 11901403733,
+  "lat": -32.8432829,
+  "lon": -68.8322768
+},
+{
+  "type": "node",
+  "id": 11901403735,
+  "lat": -32.8432691,
+  "lon": -68.8321408
+},
+{
+  "type": "node",
+  "id": 11901403745,
+  "lat": -32.8433373,
+  "lon": -68.8319742
+},
+{
+  "type": "node",
+  "id": 11901403749,
+  "lat": -32.8432973,
+  "lon": -68.8323539
+},
+{
+  "type": "node",
+  "id": 11901403750,
+  "lat": -32.8432921,
+  "lon": -68.8323264
+},
+{
+  "type": "node",
+  "id": 11901403751,
+  "lat": -32.8433091,
+  "lon": -68.8324282
 },
 {
   "type": "node",
@@ -90958,6 +91689,72 @@
 },
 {
   "type": "node",
+  "id": 11905569283,
+  "lat": -37.0830541,
+  "lon": -57.8299455
+},
+{
+  "type": "node",
+  "id": 11905569284,
+  "lat": -37.0830788,
+  "lon": -57.8299154
+},
+{
+  "type": "node",
+  "id": 11905569285,
+  "lat": -37.0831462,
+  "lon": -57.8298970
+},
+{
+  "type": "node",
+  "id": 11905569286,
+  "lat": -37.0832599,
+  "lon": -57.8305520
+},
+{
+  "type": "node",
+  "id": 11905569287,
+  "lat": -37.0831640,
+  "lon": -57.8305781
+},
+{
+  "type": "node",
+  "id": 11905569290,
+  "lat": -37.0830717,
+  "lon": -57.8300467
+},
+{
+  "type": "node",
+  "id": 11905569291,
+  "lat": -37.0830762,
+  "lon": -57.8300726
+},
+{
+  "type": "node",
+  "id": 11905569294,
+  "lat": -37.0830815,
+  "lon": -57.8301035
+},
+{
+  "type": "node",
+  "id": 11905569295,
+  "lat": -37.0830990,
+  "lon": -57.8302041
+},
+{
+  "type": "node",
+  "id": 11905569298,
+  "lat": -37.0832047,
+  "lon": -57.8302338
+},
+{
+  "type": "node",
+  "id": 11905569299,
+  "lat": -37.0831556,
+  "lon": -57.8299512
+},
+{
+  "type": "node",
   "id": 2703536267,
   "lat": -37.0051892,
   "lon": -57.1299664
@@ -91687,6 +92484,12 @@
   "id": 3447152737,
   "lat": -34.3898654,
   "lon": -59.8231873
+},
+{
+  "type": "node",
+  "id": 11874214258,
+  "lat": -34.3896930,
+  "lon": -59.8243986
 },
 {
   "type": "node",
@@ -96184,6 +96987,42 @@
 },
 {
   "type": "node",
+  "id": 11897199648,
+  "lat": -34.7453874,
+  "lon": -58.6976846
+},
+{
+  "type": "node",
+  "id": 11897199649,
+  "lat": -34.7451850,
+  "lon": -58.6974395
+},
+{
+  "type": "node",
+  "id": 11897199650,
+  "lat": -34.7450172,
+  "lon": -58.6976563
+},
+{
+  "type": "node",
+  "id": 11897199651,
+  "lat": -34.7450832,
+  "lon": -58.6977332
+},
+{
+  "type": "node",
+  "id": 11897199652,
+  "lat": -34.7451996,
+  "lon": -58.6975952
+},
+{
+  "type": "node",
+  "id": 11897199653,
+  "lat": -34.7453251,
+  "lon": -58.6977621
+},
+{
+  "type": "node",
   "id": 2226863858,
   "lat": -34.7879550,
   "lon": -58.6248064
@@ -97241,14 +98080,14 @@
 {
   "type": "node",
   "id": 3425134244,
-  "lat": -34.6499419,
-  "lon": -58.5637062
+  "lat": -34.6499496,
+  "lon": -58.5636982
 },
 {
   "type": "node",
   "id": 4710253210,
-  "lat": -34.6497626,
-  "lon": -58.5637358
+  "lat": -34.6497615,
+  "lon": -58.5637304
 },
 {
   "type": "node",
@@ -97259,8 +98098,8 @@
 {
   "type": "node",
   "id": 4710253214,
-  "lat": -34.6499138,
-  "lon": -58.5634683
+  "lat": -34.6499303,
+  "lon": -58.5634670
 },
 {
   "type": "node",
@@ -97990,6 +98829,42 @@
 },
 {
   "type": "node",
+  "id": 7501379339,
+  "lat": -34.6030772,
+  "lon": -58.5637844
+},
+{
+  "type": "node",
+  "id": 11843028535,
+  "lat": -34.6030706,
+  "lon": -58.5639446
+},
+{
+  "type": "node",
+  "id": 11843028536,
+  "lat": -34.6031682,
+  "lon": -58.5639504
+},
+{
+  "type": "node",
+  "id": 11843028537,
+  "lat": -34.6031607,
+  "lon": -58.5641215
+},
+{
+  "type": "node",
+  "id": 11843028538,
+  "lat": -34.6027904,
+  "lon": -58.5640969
+},
+{
+  "type": "node",
+  "id": 11843028539,
+  "lat": -34.6028039,
+  "lon": -58.5637679
+},
+{
+  "type": "node",
   "id": 2310625597,
   "lat": -34.6383015,
   "lon": -58.5560068
@@ -98321,50 +99196,158 @@
 {
   "type": "node",
   "id": 314266083,
-  "lat": -34.6046007,
-  "lon": -58.5596115
+  "lat": -34.6047440,
+  "lon": -58.5596280
 },
 {
   "type": "node",
   "id": 314266084,
-  "lat": -34.6046144,
-  "lon": -58.5591045
+  "lat": -34.6047636,
+  "lon": -58.5590864
 },
 {
   "type": "node",
   "id": 314266086,
-  "lat": -34.6050981,
-  "lon": -58.5591091
+  "lat": -34.6050782,
+  "lon": -58.5591050
 },
 {
   "type": "node",
   "id": 314286158,
-  "lat": -34.6050922,
-  "lon": -58.5596156
+  "lat": -34.6050550,
+  "lon": -58.5596495
 },
 {
   "type": "node",
   "id": 4625875235,
-  "lat": -34.6004585,
-  "lon": -58.5615810
+  "lat": -34.6004625,
+  "lon": -58.5615978
+},
+{
+  "type": "node",
+  "id": 4625875236,
+  "lat": -34.6004697,
+  "lon": -58.5614419
 },
 {
   "type": "node",
   "id": 4625875239,
-  "lat": -34.6005367,
-  "lon": -58.5615840
+  "lat": -34.6005395,
+  "lon": -58.5616032
 },
 {
   "type": "node",
   "id": 4625875240,
-  "lat": -34.6005401,
-  "lon": -58.5614479
+  "lat": -34.6005617,
+  "lon": -58.5611303
 },
 {
   "type": "node",
   "id": 4625875241,
-  "lat": -34.6004619,
-  "lon": -58.5614449
+  "lat": -34.6004842,
+  "lon": -58.5611253
+},
+{
+  "type": "node",
+  "id": 11843044001,
+  "lat": -34.6004755,
+  "lon": -58.5613138
+},
+{
+  "type": "node",
+  "id": 11845358711,
+  "lat": -34.6005252,
+  "lon": -58.5612896
+},
+{
+  "type": "node",
+  "id": 11845358712,
+  "lat": -34.6005232,
+  "lon": -58.5613325
+},
+{
+  "type": "node",
+  "id": 11845358713,
+  "lat": -34.6005542,
+  "lon": -58.5612915
+},
+{
+  "type": "node",
+  "id": 11845358714,
+  "lat": -34.6005522,
+  "lon": -58.5613344
+},
+{
+  "type": "node",
+  "id": 11845358715,
+  "lat": -34.6005210,
+  "lon": -58.5611708
+},
+{
+  "type": "node",
+  "id": 11845358716,
+  "lat": -34.6005190,
+  "lon": -58.5612137
+},
+{
+  "type": "node",
+  "id": 11845358717,
+  "lat": -34.6005130,
+  "lon": -58.5613426
+},
+{
+  "type": "node",
+  "id": 11845358718,
+  "lat": -34.6005110,
+  "lon": -58.5613856
+},
+{
+  "type": "node",
+  "id": 11845358719,
+  "lat": -34.6005070,
+  "lon": -58.5614715
+},
+{
+  "type": "node",
+  "id": 11845358720,
+  "lat": -34.6005051,
+  "lon": -58.5615145
+},
+{
+  "type": "node",
+  "id": 11845358721,
+  "lat": -34.6004822,
+  "lon": -58.5611683
+},
+{
+  "type": "node",
+  "id": 11845358722,
+  "lat": -34.6004802,
+  "lon": -58.5612112
+},
+{
+  "type": "node",
+  "id": 11845358723,
+  "lat": -34.6004743,
+  "lon": -58.5613401
+},
+{
+  "type": "node",
+  "id": 11845358724,
+  "lat": -34.6004724,
+  "lon": -58.5613830
+},
+{
+  "type": "node",
+  "id": 11845358725,
+  "lat": -34.6004684,
+  "lon": -58.5614689
+},
+{
+  "type": "node",
+  "id": 11845358726,
+  "lat": -34.6004664,
+  "lon": -58.5615119
 },
 {
   "type": "node",
@@ -103349,8 +104332,8 @@
 {
   "type": "node",
   "id": 9620384288,
-  "lat": -34.5936527,
-  "lon": -58.4015671
+  "lat": -34.5936902,
+  "lon": -58.4015872
 },
 {
   "type": "node",
@@ -103367,8 +104350,8 @@
 {
   "type": "node",
   "id": 9620384291,
-  "lat": -34.5935789,
-  "lon": -58.4018271
+  "lat": -34.5936131,
+  "lon": -58.4018392
 },
 {
   "type": "node",
@@ -107483,32 +108466,32 @@
 {
   "type": "node",
   "id": 217921819,
-  "lat": -34.5850579,
-  "lon": -58.4001289
+  "lat": -34.5850104,
+  "lon": -58.4001463
 },
 {
   "type": "node",
   "id": 217921855,
-  "lat": -34.5836658,
-  "lon": -58.4020501
+  "lat": -34.5836029,
+  "lon": -58.4020702
 },
 {
   "type": "node",
   "id": 255870596,
-  "lat": -34.5836413,
-  "lon": -58.4019347
+  "lat": -34.5835938,
+  "lon": -58.4019575
 },
 {
   "type": "node",
   "id": 3005783538,
-  "lat": -34.5840436,
-  "lon": -58.4012958
+  "lat": -34.5840127,
+  "lon": -58.4013186
 },
 {
   "type": "node",
   "id": 3882750966,
-  "lat": -34.5851045,
-  "lon": -58.4001396
+  "lat": -34.5850625,
+  "lon": -58.4001450
 },
 {
   "type": "node",
@@ -107525,7 +108508,7 @@
 {
   "type": "node",
   "id": 6671035243,
-  "lat": -34.5844060,
+  "lat": -34.5843729,
   "lon": -58.4008773
 },
 {
@@ -111408,37 +112391,25 @@
   "type": "node",
   "id": 3530748430,
   "lat": -28.4657004,
-  "lon": -65.7801934
+  "lon": -65.7801957
 },
 {
   "type": "node",
   "id": 3530748434,
   "lat": -28.4656889,
-  "lon": -65.7800485
-},
-{
-  "type": "node",
-  "id": 5082701876,
-  "lat": -28.4656086,
-  "lon": -65.7835693
-},
-{
-  "type": "node",
-  "id": 5082701878,
-  "lat": -28.4655953,
-  "lon": -65.7831778
+  "lon": -65.7800508
 },
 {
   "type": "node",
   "id": 11770597689,
   "lat": -28.4655517,
-  "lon": -65.7802692
+  "lon": -65.7802715
 },
 {
   "type": "node",
   "id": 11770597691,
   "lat": -28.4656927,
-  "lon": -65.7800959
+  "lon": -65.7800982
 },
 {
   "type": "node",
@@ -111562,14 +112533,38 @@
 },
 {
   "type": "node",
+  "id": 11892436576,
+  "lat": -28.4656725,
+  "lon": -65.7835683
+},
+{
+  "type": "node",
+  "id": 11892436577,
+  "lat": -28.4656671,
+  "lon": -65.7829442
+},
+{
+  "type": "node",
+  "id": 11892436580,
+  "lat": -28.4656625,
+  "lon": -65.7832539
+},
+{
+  "type": "node",
+  "id": 11892436581,
+  "lat": -28.4656623,
+  "lon": -65.7833107
+},
+{
+  "type": "node",
   "id": 573607867,
   "lat": -28.4708728,
   "lon": -65.7774149
 },
 {
   "type": "node",
-  "id": 4837692446,
-  "lat": -28.4714391,
+  "id": 2282167975,
+  "lat": -28.4714387,
   "lon": -65.7773618
 },
 {
@@ -111635,8 +112630,8 @@
 {
   "type": "node",
   "id": 4837692457,
-  "lat": -28.4710903,
-  "lon": -65.7770978
+  "lat": -28.4710965,
+  "lon": -65.7770955
 },
 {
   "type": "node",
@@ -111696,7 +112691,7 @@
   "type": "node",
   "id": 11767605592,
   "lat": -28.4714372,
-  "lon": -65.7773319
+  "lon": -65.7773345
 },
 {
   "type": "node",
@@ -111721,6 +112716,36 @@
   "id": 11767605597,
   "lat": -28.4708553,
   "lon": -65.7771624
+},
+{
+  "type": "node",
+  "id": 11884758741,
+  "lat": -28.4713080,
+  "lon": -65.7773741
+},
+{
+  "type": "node",
+  "id": 11884765775,
+  "lat": -28.4716773,
+  "lon": -65.7773278
+},
+{
+  "type": "node",
+  "id": 11884765776,
+  "lat": -28.4716836,
+  "lon": -65.7774824
+},
+{
+  "type": "node",
+  "id": 11884765777,
+  "lat": -28.4714432,
+  "lon": -65.7774883
+},
+{
+  "type": "node",
+  "id": 11884765787,
+  "lat": -28.4712829,
+  "lon": -65.7770395
 },
 {
   "type": "node",
@@ -111900,73 +112925,61 @@
   "type": "node",
   "id": 3530748431,
   "lat": -28.4654728,
-  "lon": -65.7802768
+  "lon": -65.7802791
 },
 {
   "type": "node",
   "id": 3530748432,
   "lat": -28.4654480,
-  "lon": -65.7799230
+  "lon": -65.7799253
 },
 {
   "type": "node",
   "id": 3530748433,
   "lat": -28.4655376,
-  "lon": -65.7800601
+  "lon": -65.7800624
 },
 {
   "type": "node",
   "id": 4727668026,
   "lat": -28.4655281,
-  "lon": -65.7799180
+  "lon": -65.7799203
 },
 {
   "type": "node",
   "id": 5082701875,
-  "lat": -28.4652403,
-  "lon": -65.7835855
+  "lat": -28.4652766,
+  "lon": -65.7834219
 },
 {
   "type": "node",
   "id": 5082701877,
-  "lat": -28.4652271,
-  "lon": -65.7831969
+  "lat": -28.4652700,
+  "lon": -65.7832239
 },
 {
   "type": "node",
   "id": 7398868226,
-  "lat": -28.4653723,
-  "lon": -65.7831905
-},
-{
-  "type": "node",
-  "id": 7398868227,
-  "lat": -28.4654837,
-  "lon": -65.7831827
+  "lat": -28.4654199,
+  "lon": -65.7832190
 },
 {
   "type": "node",
   "id": 7398868228,
-  "lat": -28.4653672,
-  "lon": -65.7830381
-},
-{
-  "type": "node",
-  "id": 7398868229,
-  "lat": -28.4654787,
-  "lon": -65.7830332
+  "lat": -28.4654139,
+  "lon": -65.7830466
 },
 {
   "type": "node",
   "id": 11770597688,
   "lat": -28.4655457,
-  "lon": -65.7801796
+  "lon": -65.7801819
 },
 {
   "type": "node",
   "id": 11770597690,
   "lat": -28.4654880,
-  "lon": -65.7799205
+  "lon": -65.7799228
 },
 {
   "type": "node",
@@ -111991,6 +113004,24 @@
   "id": 11770696379,
   "lat": -28.4654811,
   "lon": -65.7812636
+},
+{
+  "type": "node",
+  "id": 11892434358,
+  "lat": -28.4654107,
+  "lon": -65.7829556
+},
+{
+  "type": "node",
+  "id": 11892434359,
+  "lat": -28.4655062,
+  "lon": -65.7829514
+},
+{
+  "type": "node",
+  "id": 11892436575,
+  "lat": -28.4652821,
+  "lon": -65.7835875
 },
 {
   "type": "node",
@@ -114497,8 +115528,8 @@
 {
   "type": "node",
   "id": 3448770501,
-  "lat": -26.8154433,
-  "lon": -65.3004767
+  "lat": -26.8154808,
+  "lon": -65.3004977
 },
 {
   "type": "node",
@@ -120907,6 +121938,12 @@
   "id": 7569684069,
   "lat": -29.0189517,
   "lon": -58.9199120
+},
+{
+  "type": "node",
+  "id": 11889694057,
+  "lat": -29.0186593,
+  "lon": -58.9200096
 },
 {
   "type": "node",

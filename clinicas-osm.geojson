@@ -1086,8 +1086,11 @@
   "type": "Feature",
   "id": "way/100379709",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2270",
     "addr:postcode": "1122",
+    "addr:province": "Buenos Aires",
     "addr:street": "Marcelo T. de Alvear",
     "amenity": "clinic",
     "building": "yes",
@@ -1201,7 +1204,10 @@
   "type": "Feature",
   "id": "way/122590837",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3449",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Nazca",
     "amenity": "clinic",
     "contact:email": "info@fcdn.org.ar",
@@ -1246,8 +1252,10 @@
   "id": "way/149693260",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3673",
     "addr:postcode": "C1437CEE",
+    "addr:province": "Buenos Aires",
     "addr:street": "Mariano Acosta",
     "alt_name": "Centro de Salud Comunitario Nº 6",
     "amenity": "clinic",
@@ -1344,8 +1352,10 @@
   "id": "way/151056774",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "843",
     "addr:postcode": "C1158AAI",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ministro Brin",
     "amenity": "clinic",
     "building": "yes",
@@ -1947,8 +1957,10 @@
   "id": "way/205038206",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3150",
     "addr:postcode": "C1427ARO",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Combatientes de Malvinas",
     "amenity": "clinic",
     "building": "yes",
@@ -2029,7 +2041,9 @@
   "id": "way/205341339",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Calle L S/N° entre Martínez Castro y Laguna",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pasaje L",
     "alt_name": "Centro de Salud Comunitario Nº 24",
     "amenity": "clinic",
@@ -2092,9 +2106,11 @@
   "id": "way/205463047",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Ana Maria Janer 2330",
     "addr:housenumber": "2330",
     "addr:postcode": "1437",
+    "addr:province": "Buenos Aires",
     "addr:street": "Charrúa",
     "alt_name": "Centro de Salud Comunitario Nº 20",
     "amenity": "clinic",
@@ -2173,9 +2189,11 @@
   "id": "way/205514757",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Directorio 4210",
     "addr:housenumber": "4210",
     "addr:postcode": "1407",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Directorio",
     "alt_name": "Centro de Salud Comunitario Nº 13",
     "amenity": "clinic",
@@ -2392,8 +2410,10 @@
   "id": "way/230967842",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4821",
     "addr:postcode": "C1405DCD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -2464,10 +2484,12 @@
   "type": "Feature",
   "id": "way/233582380",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "955",
+    "addr:province": "Buenos Aires",
     "addr:street": "Echeverría",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Instituto de Rehabilitación Psicofísica",
@@ -2528,10 +2550,12 @@
   "type": "Feature",
   "id": "way/233582381",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2250",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ramsay",
+    "addr:suburb": "Belgrano",
     "alt_name": "Centro de Rehabilitación del Lisiado",
     "amenity": "clinic",
     "email": "info@snr.gov.ar",
@@ -3756,6 +3780,55 @@
 },
 {
   "type": "Feature",
+  "id": "way/273336017",
+  "properties": {
+    "abandoned:building": "train_station",
+    "abandoned:operator": "Ferrocarril Central Argentino",
+    "addr:housenumber": "80",
+    "addr:street": "Echeverría",
+    "amenity": "clinic",
+    "brand": "Alto Rosario",
+    "building": "hospital",
+    "contact:phone": "+54 341 523-2323",
+    "contact:website": "https://www.grupoorono.com.ar/",
+    "description": "22 consultorios variados.",
+    "healthcare": "clinic",
+    "healthcare:speciality": "paediatrics;gynaecology;ophthalmology;general;cardiology;gastroenterology;urology;neurology;otolaryngology;radiology",
+    "name": "GO Centro Médico",
+    "operator": "Grupo Oroño",
+    "operator:type": "private",
+    "id": "way/273336017"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.6703511,
+          -32.9286153
+        ],
+        [
+          -60.6703562,
+          -32.9285006
+        ],
+        [
+          -60.6709745,
+          -32.9285199
+        ],
+        [
+          -60.6709694,
+          -32.9286346
+        ],
+        [
+          -60.6703511,
+          -32.9286153
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/274314038",
   "properties": {
     "amenity": "clinic",
@@ -4269,8 +4342,10 @@
   "id": "way/290091138",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4402",
     "addr:postcode": "C1439CNU",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Francisco Fernández de La Cruz",
     "amenity": "clinic",
     "email": "grierson_dieccion@buenosaires.gob.ar",
@@ -4547,8 +4622,10 @@
   "id": "way/293774291",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4377",
     "addr:postcode": "C1439EMK",
+    "addr:province": "Buenos Aires",
     "addr:street": "Fonrouge",
     "alt_name": "Centro de Salud Comunitario Nº 43",
     "amenity": "clinic",
@@ -4744,8 +4821,10 @@
   "id": "way/301960001",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3100",
     "addr:postcode": "C1437HUN",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Amancio Alcorta",
     "alt_name": "Centro de Salud Comunitario Nº 30",
     "amenity": "clinic",
@@ -4805,8 +4884,10 @@
   "id": "way/302422096",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3601",
     "addr:postcode": "C1437IFC",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Osvaldo Cruz",
     "alt_name": "Centro de Salud Comunitario Nº 35",
     "amenity": "clinic",
@@ -4867,8 +4948,10 @@
   "id": "way/302422098",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3485",
     "addr:postcode": "C1437IFA",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Osvaldo Cruz",
     "alt_name": "Centro de Salud Comunitario Nº 8",
     "amenity": "clinic",
@@ -6491,8 +6574,10 @@
   "id": "way/340031509",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3140",
     "addr:postcode": "C1439GVN",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Piedra Buena",
     "amenity": "clinic",
     "description": "Anatomía Patológica, Antropóloga, Clínica médica, Ecografista, Farmacéutica, Medicina general y/o familiar, Nutricionista, Obstétrica, Odontología, Pediatría, Psicóloga, Psicopedagoga, Tocoginecología, Trabajo social, etc.",
@@ -8962,9 +9047,11 @@
   "id": "way/453779154",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Alberdi Y Pilar - Plaza Zalaberry",
     "addr:housenumber": "6400",
     "addr:postcode": "1440",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Alberdi",
     "alt_name": "Centro de Salud Comunitario N° 4",
     "amenity": "clinic",
@@ -9700,7 +9787,11 @@
   "type": "Feature",
   "id": "way/461376344",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Doctor Ricardo Balbín",
+    "addr:suburb": "Coghlan",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "1",
@@ -9998,6 +10089,9 @@
   "type": "Feature",
   "id": "way/462861860",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Francisco Fernández de La Cruz",
     "amenity": "clinic",
     "building": "yes",
@@ -10332,6 +10426,9 @@
   "type": "Feature",
   "id": "way/464786730",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida La Plata",
     "amenity": "clinic",
     "building": "yes",
@@ -10455,6 +10552,9 @@
   "type": "Feature",
   "id": "way/464818050",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Carabobo",
     "amenity": "clinic",
     "building": "yes",
@@ -10633,8 +10733,10 @@
   "id": "way/465295496",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5080",
     "addr:postcode": "C1439CDL",
+    "addr:province": "Buenos Aires",
     "addr:street": "José Pablo Torcuato Batlle y Ordóñez",
     "alt_name": "Centro de Salud Comunitario Nº 18",
     "amenity": "clinic",
@@ -11674,12 +11776,17 @@
   "type": "Feature",
   "id": "way/468100298",
   "properties": {
+    "addr:city": "Caseros",
+    "addr:housenumber": "4726",
+    "addr:postcode": "B1678",
     "addr:street": "538 - Wenceslao de Tata",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Centro de Neurología y Analisis",
+    "name": "Paseo de la Salud",
+    "operator": "Sanatorio Modelo de Caseros",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "website": "https://sanatoriomodelo.com.ar/project/centros-medicos-paseo-de-la-salud/",
     "id": "way/468100298"
   },
   "geometry": {
@@ -12109,9 +12216,11 @@
   "id": "way/468641029",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Horacio Casco 4446",
     "addr:housenumber": "4446",
     "addr:postcode": "1439",
+    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Horacio Casco",
     "alt_name": "Centro de Salud Comunitario Nº 14",
     "amenity": "clinic",
@@ -12329,9 +12438,11 @@
   "id": "way/468926145",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Olazabal 3960",
     "addr:housenumber": "3960",
     "addr:postcode": "1430",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Olazábal",
     "alt_name": "Centro de Salud Comunitario Nº 12",
     "amenity": "clinic",
@@ -12390,7 +12501,9 @@
   "id": "way/468964004",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1271",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Vélez Sársfield",
     "alt_name": "Centro de Salud Comunitario Nº 1",
     "amenity": "clinic",
@@ -12454,7 +12567,9 @@
   "type": "Feature",
   "id": "way/469185452",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida de los Incas",
     "amenity": "clinic",
     "building": "yes",
@@ -12495,7 +12610,11 @@
   "type": "Feature",
   "id": "way/469232847",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Monroe",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "building": "yes",
     "emergency": "yes",
@@ -12616,8 +12735,10 @@
   "id": "way/469265143",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5850",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Terrada",
     "alt_name": "Centro de Salud Comunitario Nº 2",
     "amenity": "clinic",
@@ -12676,8 +12797,10 @@
   "id": "way/469269341",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5144",
     "addr:postcode": "C1439FPF",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Soldado de la Frontera",
     "alt_name": "Centro de Salud Comunitario Nº 3",
     "amenity": "clinic",
@@ -12709,48 +12832,48 @@
     "coordinates": [
       [
         [
-          -58.4642859,
-          -34.6845351
+          -58.4642844,
+          -34.6845161
         ],
         [
-          -58.4643392,
-          -34.6845668
+          -58.4643377,
+          -34.6845478
         ],
         [
-          -58.4643541,
-          -34.6845497
+          -58.4643526,
+          -34.6845307
         ],
         [
-          -58.4643936,
-          -34.6845749
+          -58.4643921,
+          -34.6845559
         ],
         [
-          -58.4640397,
-          -34.6849635
+          -58.4640382,
+          -34.6849445
         ],
         [
-          -58.4639458,
-          -34.6849057
+          -58.4639443,
+          -34.6848867
         ],
         [
-          -58.4641702,
-          -34.6846676
+          -58.4641687,
+          -34.6846486
         ],
         [
-          -58.4641989,
-          -34.6846838
+          -58.4641974,
+          -34.6846648
         ],
         [
-          -58.4642513,
-          -34.6846229
+          -58.4642498,
+          -34.6846039
         ],
         [
-          -58.4642236,
-          -34.6846066
+          -58.4642221,
+          -34.6845876
         ],
         [
-          -58.4642859,
-          -34.6845351
+          -58.4642844,
+          -34.6845161
         ]
       ]
     ]
@@ -12761,7 +12884,9 @@
   "id": "way/469285633",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "6850",
+    "addr:province": "Buenos Aires",
     "addr:street": "2 de Abril de 1982",
     "alt_name": "Centro de Salud Comunitario Nº 7",
     "amenity": "clinic",
@@ -12789,16 +12914,16 @@
     "coordinates": [
       [
         [
-          -58.4911355,
-          -34.6780902
+          -58.4911338,
+          -34.678091
         ],
         [
-          -58.4911379,
-          -34.6781228
+          -58.4911359,
+          -34.6781222
         ],
         [
-          -58.4909746,
-          -34.6782649
+          -58.4909693,
+          -34.6782609
         ],
         [
           -58.490947,
@@ -12813,8 +12938,8 @@
           -34.6779313
         ],
         [
-          -58.4911355,
-          -34.6780902
+          -58.4911338,
+          -34.678091
         ]
       ]
     ]
@@ -12934,8 +13059,10 @@
   "id": "way/469515753",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1254",
     "addr:postcode": "C1164ACD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Irala",
     "alt_name": "Centro de Salud Comunitario Nº 9",
     "amenity": "clinic",
@@ -13605,8 +13732,10 @@
   "type": "Feature",
   "id": "way/471152820",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3735",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Francisco Beiró",
     "amenity": "clinic",
     "building": "yes",
@@ -13680,6 +13809,8 @@
   "id": "way/471175603",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Chivilcoy",
     "amenity": "clinic",
     "building": "yes",
@@ -13811,6 +13942,8 @@
   "id": "way/471280115",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Llavallol",
     "amenity": "clinic",
     "building": "yes",
@@ -13856,6 +13989,8 @@
   "id": "way/471280118",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Mercedes",
     "amenity": "clinic",
     "building": "yes",
@@ -13906,6 +14041,8 @@
   "id": "way/471297506",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Fernández de Enciso",
     "amenity": "clinic",
     "building": "yes",
@@ -13945,6 +14082,9 @@
   "type": "Feature",
   "id": "way/471512604",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Santos Dumont",
     "amenity": "clinic",
     "building": "yes",
@@ -14001,6 +14141,9 @@
   "type": "Feature",
   "id": "way/471529399",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Córdoba",
     "amenity": "clinic",
     "building": "yes",
@@ -14041,6 +14184,9 @@
   "type": "Feature",
   "id": "way/471549836",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "clinic",
     "building": "yes",
@@ -14179,6 +14325,7 @@
     "addr:country": "AR",
     "addr:housenumber": "2681",
     "addr:postcode": "1431",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Álvarez Thomas",
     "amenity": "clinic",
     "building": "yes",
@@ -14231,8 +14378,10 @@
   "id": "way/471647431",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1402",
     "addr:postcode": "C1283AAN",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Amancio Alcorta",
     "alt_name": "Centro de Salud Comunitario Nº 10",
     "amenity": "clinic",
@@ -14294,7 +14443,10 @@
   "id": "way/471904754",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Mariscal Antonio José de Sucre",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -14333,6 +14485,9 @@
   "type": "Feature",
   "id": "way/471907120",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Helguera",
     "amenity": "clinic",
     "building": "yes",
@@ -14561,6 +14716,9 @@
   "type": "Feature",
   "id": "way/472743059",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Forest",
     "amenity": "clinic",
     "building": "yes",
@@ -14601,7 +14759,11 @@
   "type": "Feature",
   "id": "way/472796667",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "José Antonio Cabrera",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -14767,6 +14929,9 @@
   "type": "Feature",
   "id": "way/473155019",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Entre Ríos",
     "amenity": "clinic",
     "building": "yes",
@@ -14816,9 +14981,11 @@
   "id": "way/473234769",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Agüero 940",
     "addr:housenumber": "940",
     "addr:postcode": "1186",
+    "addr:province": "Buenos Aires",
     "addr:street": "Agüero",
     "alt_name": "Centro de Salud Comunitario Nº 11",
     "amenity": "clinic",
@@ -14878,9 +15045,11 @@
   "id": "way/473242458",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Humberto Primo 470",
     "addr:housenumber": "470",
     "addr:postcode": "1103",
+    "addr:province": "Buenos Aires",
     "addr:street": "Humberto I",
     "alt_name": "Centro de Salud Comunitario Nº 15",
     "amenity": "clinic",
@@ -15190,8 +15359,12 @@
   "type": "Feature",
   "id": "way/473417524",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3826",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Las Heras",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -15232,8 +15405,10 @@
   "id": "way/473431355",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2055",
     "addr:postcode": "C1293ACE",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Osvaldo Cruz",
     "alt_name": "Centro de Salud Comunitario Nº 16",
     "amenity": "clinic",
@@ -15297,7 +15472,9 @@
   "id": "way/473443857",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1905",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Curapaligüe",
     "alt_name": "Centro de Salud Comunitario Nº 19",
     "amenity": "clinic",
@@ -15372,7 +15549,9 @@
   "id": "way/473473408",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "90",
+    "addr:province": "Buenos Aires",
     "addr:street": "Guzmán",
     "alt_name": "Centro de Salud Comunitario Nº 22",
     "amenity": "clinic",
@@ -15439,6 +15618,9 @@
   "type": "Feature",
   "id": "way/473627540",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "clinic",
     "building": "yes",
@@ -15602,10 +15784,13 @@
   "id": "way/473680879",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Gurruchaga 1939",
     "addr:housenumber": "1939",
     "addr:postcode": "1414",
+    "addr:province": "Buenos Aires",
     "addr:street": "Gurruchaga",
+    "addr:suburb": "Palermo",
     "alt_name": "Centro de Salud Comunitario Nº 26",
     "amenity": "clinic",
     "building": "public",
@@ -15671,9 +15856,12 @@
   "id": "way/473685416",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3783",
     "addr:postcode": "1430",
+    "addr:province": "Buenos Aires",
     "addr:street": "Arias",
+    "addr:suburb": "Saavedra",
     "alt_name": "Centro de Salud Comunitario Nº 27",
     "amenity": "clinic",
     "building": "public",
@@ -15864,6 +16052,9 @@
   "type": "Feature",
   "id": "way/473855208",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Camarones",
     "amenity": "clinic",
     "building": "yes",
@@ -15908,6 +16099,9 @@
   "type": "Feature",
   "id": "way/473856841",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Irigoyen",
     "amenity": "clinic",
     "building": "yes",
@@ -16005,6 +16199,9 @@
   "type": "Feature",
   "id": "way/473894655",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Rivadavia",
     "amenity": "clinic",
     "building": "yes",
@@ -16144,6 +16341,9 @@
   "type": "Feature",
   "id": "way/474449825",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Alberdi",
     "amenity": "clinic",
     "building": "yes",
@@ -16283,6 +16483,9 @@
   "type": "Feature",
   "id": "way/474492923",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Alberdi",
     "amenity": "clinic",
     "building": "yes",
@@ -16393,8 +16596,10 @@
   "id": "way/475322573",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "984",
     "addr:postcode": "C1405DJW",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Ángel Gallardo",
     "amenity": "clinic",
     "building": "yes",
@@ -16538,8 +16743,10 @@
   "type": "Feature",
   "id": "way/475663440",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4160",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "clinic",
     "building": "yes",
@@ -16806,6 +17013,9 @@
   "type": "Feature",
   "id": "way/476129988",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida de los Corrales",
     "amenity": "clinic",
     "building": "yes",
@@ -16893,6 +17103,9 @@
   "type": "Feature",
   "id": "way/476155758",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Directorio",
     "amenity": "clinic",
     "building": "yes",
@@ -17022,6 +17235,9 @@
   "type": "Feature",
   "id": "way/476365266",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Acoyte",
     "amenity": "clinic",
     "building": "yes",
@@ -17150,6 +17366,10 @@
   "type": "Feature",
   "id": "way/476428296",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "3200",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "clinic",
     "building": "residential",
@@ -17240,8 +17460,10 @@
   "id": "way/476442871",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1169",
     "addr:postcode": "1416",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Nazca",
     "amenity": "clinic",
     "building": "yes",
@@ -17372,7 +17594,10 @@
   "type": "Feature",
   "id": "way/477029454",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "264",
+    "addr:province": "Buenos Aires",
     "addr:street": "25 de Mayo",
     "amenity": "clinic",
     "building": "yes",
@@ -17689,8 +17914,11 @@
   "id": "way/477588201",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2033",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Raúl Scalabrini Ortiz",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "4",
@@ -17742,6 +17970,9 @@
   "type": "Feature",
   "id": "way/477599247",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Alberdi",
     "amenity": "clinic",
     "building": "yes",
@@ -18611,11 +18842,13 @@
   "type": "Feature",
   "id": "way/504276755",
   "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:city": "Ciudad Aurónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "5961",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Soler",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "2",
@@ -26170,8 +26403,11 @@
   "type": "Feature",
   "id": "way/709739784",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2900",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Las Heras",
     "amenity": "clinic",
     "building": "yes",
@@ -26192,48 +26428,48 @@
     "coordinates": [
       [
         [
-          -58.4022897,
-          -34.5839983
+          -58.4023125,
+          -34.5839508
         ],
         [
-          -58.4021416,
-          -34.5840768
+          -58.4021644,
+          -34.5840293
         ],
         [
-          -58.4019525,
-          -34.5838258
+          -58.4019753,
+          -34.5837783
         ],
         [
-          -58.4018922,
-          -34.583816
+          -58.401915,
+          -34.5837685
         ],
         [
-          -58.401516,
-          -34.584067
+          -58.4015388,
+          -34.5840195
         ],
         [
-          -58.4014767,
-          -34.5840269
+          -58.4014995,
+          -34.5839794
         ],
         [
-          -58.4015192,
-          -34.583998
+          -58.401542,
+          -34.5839505
         ],
         [
-          -58.4014667,
-          -34.5839446
+          -58.4014895,
+          -34.5838971
         ],
         [
-          -58.4019347,
-          -34.5836413
+          -58.4019575,
+          -34.5835938
         ],
         [
-          -58.4020501,
-          -34.5836658
+          -58.4020702,
+          -34.5836029
         ],
         [
-          -58.4022897,
-          -34.5839983
+          -58.4023125,
+          -34.5839508
         ]
       ]
     ]
@@ -27001,9 +27237,12 @@
   "id": "way/730421099",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2981",
     "addr:postcode": "1426",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Elcano",
+    "addr:suburb": "Colegiales",
     "air_conditioning": "yes",
     "amenity": "clinic",
     "check_date": "2023-12-23",
@@ -27178,8 +27417,10 @@
   "id": "way/758647809",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "6850",
     "addr:postcode": "C1439HWJ",
+    "addr:province": "Buenos Aires",
     "addr:street": "2 de Abril de 1982",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -28053,7 +28294,9 @@
   "id": "way/789349497",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1248",
+    "addr:province": "Buenos Aires",
     "addr:street": "Agüero",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -28100,8 +28343,10 @@
   "id": "way/789623293",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1025",
     "addr:postcode": "C1078AAU",
+    "addr:province": "Buenos Aires",
     "addr:street": "Solís",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -28162,8 +28407,11 @@
   "type": "Feature",
   "id": "way/789625007",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "447",
     "addr:postcode": "1096",
+    "addr:province": "Buenos Aires",
     "addr:street": "Alberti",
     "amenity": "clinic",
     "name": "Clínica Ciudad de La Vida",
@@ -28814,9 +29062,11 @@
   "type": "Feature",
   "id": "way/802192876",
   "properties": {
-    "addr:city": "Ciudad Autonoma de Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3512",
     "addr:postcode": "C1439ETV",
+    "addr:province": "Buenos Aires",
     "addr:street": "Albariño",
     "amenity": "clinic",
     "building": "yes",
@@ -28910,8 +29160,10 @@
   "id": "way/802204073",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "6999",
     "addr:postcode": "C1440BBF",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida de los Corrales",
     "amenity": "clinic",
     "building": "yes",
@@ -28963,8 +29215,10 @@
   "id": "way/802216250",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2479",
     "addr:postcode": "C1437DAA",
+    "addr:province": "Buenos Aires",
     "addr:street": "Las Palmas",
     "amenity": "clinic",
     "building": "yes",
@@ -29156,9 +29410,11 @@
   "type": "Feature",
   "id": "way/802248615",
   "properties": {
-    "addr:city": "Ciudad Atónoma de Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "6999",
     "addr:postcode": "C1439EBA",
+    "addr:province": "Buenos Aires",
     "addr:street": "Teniente General Luís Dellepiane",
     "amenity": "clinic",
     "building": "yes",
@@ -29871,8 +30127,10 @@
   "id": "way/802289413",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1800",
     "addr:postcode": "1406",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ana María Janer",
     "amenity": "clinic",
     "building": "yes",
@@ -29920,8 +30178,10 @@
   "id": "way/802300603",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2900",
     "addr:postcode": "C1437AYD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Charrúa",
     "amenity": "clinic",
     "building": "yes",
@@ -30029,8 +30289,10 @@
   "id": "way/802306047",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1679",
     "addr:postcode": "C1242AAI",
+    "addr:province": "Buenos Aires",
     "addr:street": "24 de Noviembre",
     "amenity": "clinic",
     "building": "yes",
@@ -30078,8 +30340,10 @@
   "id": "way/802321955",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2867",
     "addr:postcode": "C1260AAK",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Brasil",
     "amenity": "clinic",
     "building": "yes",
@@ -33341,52 +33605,14 @@
 },
 {
   "type": "Feature",
-  "id": "way/837284448",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Instituto Médico Privado",
-    "id": "way/837284448"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.4932146,
-          -31.4201957
-        ],
-        [
-          -64.4933044,
-          -31.4202596
-        ],
-        [
-          -64.4933376,
-          -31.4202832
-        ],
-        [
-          -64.4932412,
-          -31.4203818
-        ],
-        [
-          -64.4931183,
-          -31.4202944
-        ],
-        [
-          -64.4932146,
-          -31.4201957
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/837484223",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4343",
+    "addr:province": "Buenos Aires",
     "addr:street": "Capitán General Ramón Freire",
+    "addr:suburb": "Saavedra",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -33425,9 +33651,13 @@
   "type": "Feature",
   "id": "way/837679398",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2606",
     "addr:postcode": "C1429DUT",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ramallo",
+    "addr:suburb": "Saavedra",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/fundacionsanrafael/",
     "healthcare": "clinic",
@@ -42927,6 +43157,63 @@
 },
 {
   "type": "Feature",
+  "id": "way/1162885229",
+  "properties": {
+    "addr:city": "Valle de Anisacate",
+    "addr:street": "Siete Colores",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Centro De Salud Rene Favaloro",
+    "id": "way/1162885229"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4150788,
+          -31.7283859
+        ],
+        [
+          -64.4152464,
+          -31.728543
+        ],
+        [
+          -64.4151405,
+          -31.7286247
+        ],
+        [
+          -64.4151049,
+          -31.7285913
+        ],
+        [
+          -64.415086,
+          -31.7286059
+        ],
+        [
+          -64.4150066,
+          -31.7285313
+        ],
+        [
+          -64.4150254,
+          -31.7285167
+        ],
+        [
+          -64.414973,
+          -31.7284676
+        ],
+        [
+          -64.4150788,
+          -31.7283859
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1166259119",
   "properties": {
     "addr:city": "Punta Alta",
@@ -43028,6 +43315,7 @@
   "type": "Feature",
   "id": "way/1173830117",
   "properties": {
+    "addr:city": "Junín de los Andes",
     "addr:postcode": "8371",
     "addr:street": "2 de Abril",
     "amenity": "clinic",
@@ -44070,11 +44358,13 @@
   "type": "Feature",
   "id": "way/1207652919",
   "properties": {
-    "addr:city": "Palermo",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2267",
     "addr:postcode": "C1425FUC",
+    "addr:province": "Buenos Aires",
     "addr:street": "Humboldt",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "building": "yes",
     "contact:website": "https://cermed.com/",
@@ -46650,43 +46940,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1225075950",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "id": "way/1225075950"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.5013589,
-          -31.4151907
-        ],
-        [
-          -64.5012939,
-          -31.4151004
-        ],
-        [
-          -64.5015216,
-          -31.414979
-        ],
-        [
-          -64.5015541,
-          -31.4151004
-        ],
-        [
-          -64.5013589,
-          -31.4151907
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1226598992",
   "properties": {
     "amenity": "clinic",
@@ -48525,9 +48778,11 @@
   "type": "Feature",
   "id": "way/1272100990",
   "properties": {
-    "addr:city": "Capital Federal",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "383",
     "addr:postcode": "1155",
+    "addr:province": "Buenos Aires",
     "addr:street": "Juan Manuel Blanes",
     "amenity": "clinic",
     "building": "yes",
@@ -48575,6 +48830,7 @@
   "type": "Feature",
   "id": "way/1274699830",
   "properties": {
+    "addr:city": "Junín de los Andes",
     "addr:street": "Mendoza",
     "amenity": "clinic",
     "building": "yes",
@@ -48647,6 +48903,444 @@
         [
           -68.617194,
           -31.507428
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1275458546",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "136",
+    "addr:postcode": "Q8300",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "gynaecology",
+    "height": "6",
+    "mobile": "+54 9 299 429-3017;+54 9 299 456-3986",
+    "name": "Gestar",
+    "operator": "Gestar S.R.L.",
+    "operator:type": "private",
+    "website": "http://gestarneuquen.com.ar/",
+    "id": "way/1275458546"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0571561,
+          -38.9527881
+        ],
+        [
+          -68.0571337,
+          -38.9527882
+        ],
+        [
+          -68.0570817,
+          -38.9527883
+        ],
+        [
+          -68.0570816,
+          -38.9527778
+        ],
+        [
+          -68.0570579,
+          -38.9527779
+        ],
+        [
+          -68.0570578,
+          -38.9527004
+        ],
+        [
+          -68.0570366,
+          -38.9527004
+        ],
+        [
+          -68.0570362,
+          -38.9526482
+        ],
+        [
+          -68.0571082,
+          -38.9526481
+        ],
+        [
+          -68.0571081,
+          -38.9526089
+        ],
+        [
+          -68.0571245,
+          -38.9526088
+        ],
+        [
+          -68.0571244,
+          -38.9525691
+        ],
+        [
+          -68.0571544,
+          -38.9525691
+        ],
+        [
+          -68.0571554,
+          -38.9526996
+        ],
+        [
+          -68.0571314,
+          -38.9526997
+        ],
+        [
+          -68.0571315,
+          -38.9527284
+        ],
+        [
+          -68.0571556,
+          -38.9527284
+        ],
+        [
+          -68.0571561,
+          -38.9527881
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1275482020",
+  "properties": {
+    "addr:housenumber": "5030",
+    "addr:postcode": "1678",
+    "addr:street": "546 - Juan Bautista Alberdi",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria 10 Caseros",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Municipal",
+    "operator:type": "public",
+    "phone": "+54 11 4716-4000",
+    "ref:sisa_codigo": "50068402201443",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "way/1275482020"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5674871,
+          -34.6040501
+        ],
+        [
+          -58.5674358,
+          -34.6031811
+        ],
+        [
+          -58.5674638,
+          -34.6031503
+        ],
+        [
+          -58.5683179,
+          -34.6031132
+        ],
+        [
+          -58.5683323,
+          -34.6039794
+        ],
+        [
+          -58.5674871,
+          -34.6040501
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1276513150",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "125",
+    "addr:postcode": "Q8300",
+    "addr:street": "Ministro Joaquín González",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry",
+    "height": "4",
+    "name": "BRB Odontología",
+    "phone": "+54 299 442-8368",
+    "id": "way/1276513150"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0572708,
+          -38.9520596
+        ],
+        [
+          -68.0571755,
+          -38.95206
+        ],
+        [
+          -68.0571746,
+          -38.9519145
+        ],
+        [
+          -68.0572695,
+          -38.9519139
+        ],
+        [
+          -68.0572708,
+          -38.9520596
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1278678188",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "188",
+    "addr:postcode": "Q8300",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "grey",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "occupational",
+    "height": "8",
+    "name": "Medro Salud",
+    "operator:type": "private",
+    "phone": "+54 299 566-7337",
+    "website": "http://medrosalud.com.ar/",
+    "id": "way/1278678188"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0566021,
+          -38.9529975
+        ],
+        [
+          -68.0566025,
+          -38.9531075
+        ],
+        [
+          -68.0565166,
+          -38.9531077
+        ],
+        [
+          -68.056517,
+          -38.9531993
+        ],
+        [
+          -68.056357,
+          -38.9531995
+        ],
+        [
+          -68.0563565,
+          -38.9531516
+        ],
+        [
+          -68.056356,
+          -38.9531065
+        ],
+        [
+          -68.0563551,
+          -38.9530163
+        ],
+        [
+          -68.0563758,
+          -38.9529981
+        ],
+        [
+          -68.0563986,
+          -38.952998
+        ],
+        [
+          -68.0565003,
+          -38.9529977
+        ],
+        [
+          -68.0566021,
+          -38.9529975
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1278943873",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "12",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Fe",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "grey",
+    "building:levels": "2",
+    "email": "c.r.o.i@hotmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry",
+    "height": "6",
+    "mobile": "+54 9 299 548-5144",
+    "name": "CROI Odontología Digital",
+    "operator": "Centro de Rehabilitación Odontológica Integral de Neuquén",
+    "operator:type": "private",
+    "phone": "+54 299 443-0505",
+    "website": "https://www.croiodontologiadigital.com/",
+    "id": "way/1278943873"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0563707,
+          -38.9547925
+        ],
+        [
+          -68.0564901,
+          -38.9547925
+        ],
+        [
+          -68.0564899,
+          -38.9548725
+        ],
+        [
+          -68.0563707,
+          -38.9548725
+        ],
+        [
+          -68.0563707,
+          -38.9547925
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1278943875",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "40",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Fe",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "height": "4",
+    "mobile": "+54 9 299 577-1130",
+    "name": "Centro de Ojos Comahue",
+    "operator:type": "private",
+    "phone": "+54 299 442-4484",
+    "website": "http://cocnqn.com.ar/",
+    "id": "way/1278943875"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.0563707,
+          -38.9547048
+        ],
+        [
+          -68.0563707,
+          -38.954617
+        ],
+        [
+          -68.0564751,
+          -38.9546168
+        ],
+        [
+          -68.0564752,
+          -38.9546432
+        ],
+        [
+          -68.0565121,
+          -38.9546432
+        ],
+        [
+          -68.0565121,
+          -38.9546168
+        ],
+        [
+          -68.0565458,
+          -38.9546167
+        ],
+        [
+          -68.0568427,
+          -38.9546163
+        ],
+        [
+          -68.0568427,
+          -38.9546621
+        ],
+        [
+          -68.056733,
+          -38.9546622
+        ],
+        [
+          -68.056733,
+          -38.9547049
+        ],
+        [
+          -68.0563707,
+          -38.9547048
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1279221899",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "id": "way/1279221899"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4113493,
+          -34.6211365
+        ],
+        [
+          -58.4113676,
+          -34.6215897
+        ],
+        [
+          -58.4108931,
+          -34.6214771
+        ],
+        [
+          -58.4108844,
+          -34.6211341
+        ],
+        [
+          -58.4113493,
+          -34.6211365
         ]
       ]
     ]
@@ -48865,8 +49559,11 @@
   "type": "Feature",
   "id": "node/873073560",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2211",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Coronel Díaz",
     "amenity": "clinic",
     "healthcare": "hospital",
@@ -49127,9 +49824,11 @@
   "id": "node/1402317339",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Avenida Carabobo 801",
     "addr:housenumber": "801",
     "addr:postcode": "1406",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Carabobo",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -49171,10 +49870,12 @@
   "type": "Feature",
   "id": "node/1402320005",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Paez 2283",
     "addr:housenumber": "2283",
     "addr:postcode": "1406",
+    "addr:province": "Buenos Aires",
     "addr:street": "Páez",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -50471,10 +51172,12 @@
   "type": "Feature",
   "id": "node/2419467842",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2250",
+    "addr:province": "Buenos Aires",
     "addr:street": "Ramsay",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Incucai",
@@ -50495,8 +51198,12 @@
   "type": "Feature",
   "id": "node/2432403188",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "6647",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Del Libertador",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "check_date": "2024-04-15",
     "email": "info@lylyk.com.ar",
@@ -51653,8 +52360,10 @@
   "id": "node/2873898916",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "15",
     "addr:postcode": "C1212AAA",
+    "addr:province": "Buenos Aires",
     "addr:street": "Muñiz",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -52136,7 +52845,9 @@
   "id": "node/3011135887",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4509",
+    "addr:province": "Buenos Aires",
     "addr:street": "Nogoyá",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -52724,7 +53435,10 @@
   "type": "Feature",
   "id": "node/3192181322",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1234",
+    "addr:province": "Buenos Aires",
     "addr:street": "Talcahuano",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -54276,7 +54990,10 @@
   "type": "Feature",
   "id": "node/3575791288",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2884",
+    "addr:province": "Buenos Aires",
     "addr:street": "Juncal",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -55443,7 +56160,10 @@
   "type": "Feature",
   "id": "node/3755251268",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "314",
+    "addr:province": "Buenos Aires",
     "addr:street": "Fragueiro",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -56090,7 +56810,10 @@
   "type": "Feature",
   "id": "node/3839754484",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1834",
+    "addr:province": "Buenos Aires",
     "addr:street": "Teniente General Juan Domingo Perón",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -57606,8 +58329,12 @@
   "type": "Feature",
   "id": "node/4119204954",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5868",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Del Libertador",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Stamboulián",
@@ -58666,7 +59393,7 @@
   "properties": {
     "addr:city": "Casilda",
     "addr:country": "AR",
-    "addr:housenumber": "2323",
+    "addr:housenumber": "2335",
     "addr:postcode": "2170",
     "addr:province": "Santa Fe",
     "addr:street": "Remedios de Escalada",
@@ -58674,7 +59401,7 @@
     "contact:email": "labfueyo_clinica@hotmail.com",
     "contact:phone": "+54 346 4423177",
     "healthcare": "clinic",
-    "name": "Laboratorio Fueyo",
+    "name": "Laboratorio Bioquímico Dres. Fueyo - División Aguas y Alimentos",
     "opening_hours": "Mo-Fr 07:30-18:00",
     "id": "node/4315645697"
   },
@@ -59159,7 +59886,9 @@
   "id": "node/4385408542",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2127",
+    "addr:province": "Buenos Aires",
     "addr:street": "Segurola",
     "amenity": "clinic",
     "email": "cap_devoto@labdl.com.ar",
@@ -59559,7 +60288,10 @@
   "type": "Feature",
   "id": "node/4436138291",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1830",
+    "addr:province": "Buenos Aires",
     "addr:street": "Teniente General Juan Domingo Perón",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -59579,7 +60311,10 @@
   "type": "Feature",
   "id": "node/4436780890",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4135",
+    "addr:province": "Buenos Aires",
     "addr:street": "Potosí",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -59631,7 +60366,10 @@
   "type": "Feature",
   "id": "node/4436891089",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2712",
+    "addr:province": "Buenos Aires",
     "addr:street": "Juncal",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -60141,7 +60879,7 @@
     "addr:street": "Mario Sesarego",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro de Salud 61 - El Cerrito Autódromo",
+    "name": "Centro de Salud 61 - El Cerrito",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 3543 449421",
@@ -60356,8 +61094,10 @@
   "id": "node/4502977593",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2584",
     "addr:postcode": "C1431DOD",
+    "addr:province": "Buenos Aires",
     "addr:street": "Bauness",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -60471,7 +61211,10 @@
   "type": "Feature",
   "id": "node/4515771590",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1719 3 piso",
+    "addr:province": "Buenos Aires",
     "addr:street": "Marcelo T. de Alvear",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -60492,9 +61235,13 @@
   "type": "Feature",
   "id": "node/4518246392",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3765",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Juan María Gutiérrez",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica Braverman",
@@ -60792,7 +61539,10 @@
   "type": "Feature",
   "id": "node/4565737940",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2681",
+    "addr:province": "Buenos Aires",
     "addr:street": "Monroe",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -60916,6 +61666,9 @@
   "type": "Feature",
   "id": "node/4585638735",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Lafuente",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -60935,7 +61688,10 @@
   "type": "Feature",
   "id": "node/4586420090",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "566",
+    "addr:province": "Buenos Aires",
     "addr:street": "Boulogne Sur Mer",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -61240,8 +61996,12 @@
   "type": "Feature",
   "id": "node/4611852270",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "488",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Cabildo",
+    "addr:suburb": "Colegiales",
     "amenity": "clinic",
     "branch": "Belgrano",
     "healthcare": "clinic",
@@ -61281,9 +62041,11 @@
   "type": "Feature",
   "id": "node/4612421989",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1450",
     "addr:postcode": "1114",
+    "addr:province": "Buenos Aires",
     "addr:street": "Presidente José Evaristo Uriburu",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -61942,8 +62704,11 @@
   "type": "Feature",
   "id": "node/4652839089",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2259",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Marcelo T. de Alvear",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -61982,6 +62747,9 @@
   "type": "Feature",
   "id": "node/4653448600",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Olazábal",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -62001,6 +62769,9 @@
   "type": "Feature",
   "id": "node/4653972276",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Mosconi",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -62020,6 +62791,9 @@
   "type": "Feature",
   "id": "node/4653973218",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Olazábal",
     "amenity": "clinic",
     "check_date": "2023-10-24",
@@ -62043,7 +62817,11 @@
   "type": "Feature",
   "id": "node/4654337635",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Humboldt",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "name": "Diagnóstico Científico Integral",
     "id": "node/4654337635"
@@ -62096,8 +62874,12 @@
   "type": "Feature",
   "id": "node/4654642529",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3257",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Federico Lacroze",
+    "addr:suburb": "Colegiales",
     "amenity": "clinic",
     "healthcare": "clinic",
     "insurance": "health",
@@ -62323,6 +63105,9 @@
   "type": "Feature",
   "id": "node/4675551205",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Marcelo T. de Alvear",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -62576,7 +63361,9 @@
   "type": "Feature",
   "id": "node/4692824763",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Directorio",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -62877,6 +63664,8 @@
   "id": "node/4699630359",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -62931,7 +63720,9 @@
   "type": "Feature",
   "id": "node/4702530778",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida San Juan",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -62968,6 +63759,8 @@
   "id": "node/4704502161",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -63031,6 +63824,9 @@
   "type": "Feature",
   "id": "node/4708483393",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Olivera",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -63150,6 +63946,9 @@
   "id": "node/4708860184",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Swiss Medical",
@@ -63204,6 +64003,8 @@
   "id": "node/4710799713",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -63388,7 +64189,10 @@
   "type": "Feature",
   "id": "node/4740113323",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2040",
+    "addr:province": "Buenos Aires",
     "addr:street": "Sarmiento",
     "amenity": "clinic",
     "internet_access": "wlan",
@@ -63554,7 +64358,9 @@
   "id": "node/4764657137",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1104",
+    "addr:province": "Buenos Aires",
     "addr:street": "Bulnes",
     "amenity": "clinic",
     "description": "Centro de medicina reproductiva",
@@ -64166,8 +64972,11 @@
   "type": "Feature",
   "id": "node/4896199022",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2547",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "Arenales",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -64257,6 +65066,7 @@
     "addr:country": "AR",
     "addr:housenumber": "2753",
     "addr:postcode": "1431",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Álvarez Thomas",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -64476,6 +65286,7 @@
     "addr:country": "AR",
     "addr:housenumber": "4381",
     "addr:postcode": "1431",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Triunvirato",
     "amenity": "clinic",
     "email": "vzvillaurquiza@vzlaboratorios.com.ar",
@@ -65840,6 +66651,7 @@
     "addr:housenumber": "300",
     "addr:street": "Avelino Díaz",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro de Salud Villa Recondo",
     "opening_hours": "24/7",
     "id": "node/5318421523"
@@ -66240,7 +67052,10 @@
   "type": "Feature",
   "id": "node/5409144737",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2359",
+    "addr:province": "Buenos Aires",
     "addr:street": "República Bolivariana de Venezuela",
     "alt_name": "Policonsultorios Venezuela",
     "amenity": "clinic",
@@ -66261,7 +67076,10 @@
   "type": "Feature",
   "id": "node/5422663093",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "69",
+    "addr:province": "Buenos Aires",
     "addr:street": "Pichincha",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -69335,6 +70153,9 @@
   "type": "Feature",
   "id": "node/5805643753",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Don Pedro de Mendoza",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -70471,8 +71292,11 @@
   "type": "Feature",
   "id": "node/6174312491",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1089",
     "addr:postcode": "1406",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Nazca",
     "amenity": "clinic",
     "description": "centro de diagnóstico por imágenes y laboratorio de análisis clínicos",
@@ -70777,7 +71601,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico Modelo",
-    "opening_hours": "Mo-Fr 8:00–12:30 15:30–20:30",
+    "opening_hours": "Mo-Fr 8:00-12:30 15:30-20:30",
     "phone": "03547430235",
     "id": "node/6316883180"
   },
@@ -73680,8 +74504,11 @@
   "type": "Feature",
   "id": "node/7500884245",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Calderon De La Barca 1198",
     "addr:postcode": "1407",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 32",
@@ -73704,8 +74531,11 @@
   "type": "Feature",
   "id": "node/7500886823",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Mercedes 1371/79",
     "addr:postcode": "1407",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CESAC 36",
@@ -73729,9 +74559,12 @@
   "type": "Feature",
   "id": "node/7500892448",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Coligue 2977",
     "addr:housenumber": "2977",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Coligue",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -73755,8 +74588,11 @@
   "type": "Feature",
   "id": "node/7500893731",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Avenida Juan B. Justo 9668",
     "addr:postcode": "1408",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 3",
@@ -73779,8 +74615,11 @@
   "type": "Feature",
   "id": "node/7500902743",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Nogoya 4302",
     "addr:postcode": "1417",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 5",
@@ -74339,7 +75178,7 @@
     "addr:city": "Villa Ángela",
     "addr:housenumber": "624",
     "addr:postcode": "3540",
-    "addr:street": "25 de Mayo",
+    "addr:street": "José Ricardo Binaghi",
     "air_conditioning": "yes",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -75027,32 +75866,6 @@
     "coordinates": [
       -58.5129355,
       -34.5158137
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7501527481",
-  "properties": {
-    "addr:housenumber": "5030",
-    "addr:postcode": "1678",
-    "addr:street": "546 - Juan Bautista Alberdi",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Atención Primaria 10 Caseros",
-    "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4716-4000",
-    "ref:sisa_codigo": "50068402201443",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7501527481"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5678121,
-      -34.6034133
     ]
   }
 },
@@ -76131,8 +76944,11 @@
   "type": "Feature",
   "id": "node/7501805129",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Manzana 33 Barrio 31",
     "addr:postcode": "1104",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "fixme": "Ajustar ubicacion dentro de la manzana",
     "healthcare": "clinic",
@@ -76352,8 +77168,11 @@
   "type": "Feature",
   "id": "node/7501831827",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Santiago Del Estero 1678",
     "addr:postcode": "1136",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 14",
@@ -76594,9 +77413,11 @@
   "id": "node/7501878044",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Camarones 2834",
     "addr:housenumber": "2834",
     "addr:postcode": "1416",
+    "addr:province": "Buenos Aires",
     "addr:street": "Camarones",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -76816,8 +77637,11 @@
   "type": "Feature",
   "id": "node/7501910537",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Córdoba 3120",
     "addr:postcode": "1010",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro De Salud Mental 3 Doctor Arturo Ameghino",
@@ -77782,9 +78606,11 @@
   "id": "node/7502055903",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "General Jose G. Artigas 2262",
     "addr:housenumber": "2262",
     "addr:postcode": "1416",
+    "addr:province": "Buenos Aires",
     "addr:street": "General José Gervasio Artigas",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -77929,10 +78755,12 @@
   "type": "Feature",
   "id": "node/7502065303",
   "properties": {
-    "addr:city": "Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Emilio Lamarca 1022",
     "addr:housenumber": "1022",
     "addr:postcode": "1416",
+    "addr:province": "Buenos Aires",
     "addr:street": "Emilio Lamarca",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -77983,8 +78811,11 @@
   "type": "Feature",
   "id": "node/7502066442",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Saraza 4202 - Barrio Nagera",
     "addr:postcode": "1439",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CESAC 44",
@@ -78155,8 +78986,11 @@
   "type": "Feature",
   "id": "node/7502093197",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Tejedor 251",
     "addr:postcode": "1424",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 23",
@@ -78208,9 +79042,11 @@
   "id": "node/7502101257",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Antezana 340",
     "addr:housenumber": "340",
     "addr:postcode": "1414",
+    "addr:province": "Buenos Aires",
     "addr:street": "Antezana",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -78234,8 +79070,11 @@
   "type": "Feature",
   "id": "node/7502104764",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "La Capital 1131",
     "addr:postcode": "1424",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 8",
@@ -78258,8 +79097,11 @@
   "type": "Feature",
   "id": "node/7502106129",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Esteban Bonorino 1729",
     "addr:postcode": "1406",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CESAC 40",
@@ -78333,8 +79175,11 @@
   "type": "Feature",
   "id": "node/7502112979",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Avelino Diaz 1971",
     "addr:postcode": "1406",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 31",
@@ -78599,9 +79444,11 @@
   "id": "node/7502122286",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Salvador Maria Del Carril 2956",
     "addr:housenumber": "2956",
     "addr:postcode": "1419",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Salvador María del Carril",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -80366,10 +81213,13 @@
   "id": "node/7502338555",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "El Salvador 4037",
     "addr:housenumber": "4087",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
     "addr:street": "El Salvador",
+    "addr:suburb": "Palermo",
     "alt_name": "CeSAC 17",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -80477,8 +81327,10 @@
   "id": "node/7502359778",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5126",
     "addr:postcode": "C1424CET",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Rivadavia",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -80555,8 +81407,12 @@
   "type": "Feature",
   "id": "node/7502360134",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Araoz 2637",
     "addr:postcode": "1425",
+    "addr:province": "Buenos Aires",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 22",
@@ -80579,8 +81435,12 @@
   "type": "Feature",
   "id": "node/7502365470",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Cordoba 5741",
     "addr:postcode": "1414",
+    "addr:province": "Buenos Aires",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CESAC 33",
@@ -80780,8 +81640,10 @@
   "id": "node/7502414724",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "350",
     "addr:postcode": "C1179AAF",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Medrano",
     "amenity": "clinic",
     "check_date": "2024-04-21",
@@ -81057,10 +81919,13 @@
   "id": "node/7502431614",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Gregoria Perez 3434",
     "addr:housenumber": "3434",
     "addr:postcode": "1426",
+    "addr:province": "Buenos Aires",
     "addr:street": "Gregoria Pérez",
+    "addr:suburb": "Colegiales",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 11",
@@ -81329,8 +82194,11 @@
   "type": "Feature",
   "id": "node/7502453942",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Nuñez 5019",
     "addr:postcode": "1431",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 17",
@@ -81453,11 +82321,14 @@
   "type": "Feature",
   "id": "node/7502464486",
   "properties": {
-    "addr:city": "Ciudad Autonoma de Buenos Aires",
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Cramer 4354",
     "addr:housenumber": "4354",
     "addr:postcode": "1429",
+    "addr:province": "Buenos Aires",
     "addr:street": "Crámer",
+    "addr:suburb": "Saavedra",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 33",
@@ -81528,8 +82399,11 @@
   "type": "Feature",
   "id": "node/7502474886",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Avenida De Los Corrales Y Carhue",
     "addr:postcode": "1440",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "COI 1",
@@ -81554,8 +82428,11 @@
   "type": "Feature",
   "id": "node/7502493405",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Martiniano Leguizamón 230",
     "addr:postcode": "1408",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 7",
@@ -81680,8 +82557,11 @@
   "type": "Feature",
   "id": "node/7502508244",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Echeandia 3417",
     "addr:postcode": "1407",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 25",
@@ -81704,8 +82584,11 @@
   "type": "Feature",
   "id": "node/7502511726",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Araujo 1246",
     "addr:postcode": "1440",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 20",
@@ -83066,8 +83949,10 @@
   "id": "node/7503432193",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4040",
     "addr:postcode": "C1223ACF",
+    "addr:province": "Buenos Aires",
     "addr:street": "México",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -83640,8 +84525,10 @@
   "id": "node/7503737270",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "209",
     "addr:postcode": "1083",
+    "addr:province": "Buenos Aires",
     "addr:street": "Saavedra",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -83757,9 +84644,11 @@
   "id": "node/7503785563",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Estados Unidos 1936",
     "addr:housenumber": "1936",
     "addr:postcode": "1227",
+    "addr:province": "Buenos Aires",
     "addr:street": "Estados Unidos",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -83965,8 +84854,11 @@
   "type": "Feature",
   "id": "node/7503858381",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Anchorena 656",
     "addr:postcode": "1170",
+    "addr:province": "Buenos Aires",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CMB 21",
@@ -84038,9 +84930,11 @@
   "id": "node/7503921227",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Cochabamba 2622",
     "addr:housenumber": "2622",
     "addr:postcode": "C1252AAR",
+    "addr:province": "Buenos Aires",
     "addr:street": "Cochabamba",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -85359,8 +86253,10 @@
   "id": "node/7504372817",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5955",
     "addr:postcode": "C1439ATC",
+    "addr:province": "Buenos Aires",
     "addr:street": "Santander",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -87367,8 +88263,10 @@
   "id": "node/7504695351",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1492",
     "addr:postcode": "C1269ABF",
+    "addr:province": "Buenos Aires",
     "addr:street": "Isabel la Católica",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -87714,9 +88612,12 @@
   "type": "Feature",
   "id": "node/7504721247",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Carlos Maria Ramirez 1445",
     "addr:housenumber": "1445",
     "addr:postcode": "1437",
+    "addr:province": "Buenos Aires",
     "addr:street": "Carlos María Ramírez",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -87765,9 +88666,12 @@
   "type": "Feature",
   "id": "node/7504722355",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Masantonio 2984",
     "addr:housenumber": "2984",
     "addr:postcode": "1437",
+    "addr:province": "Buenos Aires",
     "addr:street": "Herminio Masantonio",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -88168,9 +89072,12 @@
   "type": "Feature",
   "id": "node/7504765208",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:full": "Arzobispo Espinosa 1211",
     "addr:housenumber": "1211",
     "addr:postcode": "1268",
+    "addr:province": "Buenos Aires",
     "addr:street": "Arzobispo Espinosa",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -88195,8 +89102,10 @@
   "id": "node/7504766388",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "612",
     "addr:postcode": "C1268ABP",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Martín García",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -90127,30 +91036,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7508747261",
-  "properties": {
-    "addr:full": "Ruta 5 Esq El Hornero",
-    "addr:postcode": "5189",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Dr Rene Favaloro",
-    "operator": "municipal",
-    "operator:type": "public",
-    "phone": "03547- 494891",
-    "ref:sisa_codigo": "50141472231696",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7508747261"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -64.4149981,
-      -31.7282117
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7508748989",
   "properties": {
     "addr:full": "Bartolome Mitre S / Nº",
@@ -91176,34 +92061,6 @@
     "coordinates": [
       -64.1695351,
       -33.0116206
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7509538333",
-  "properties": {
-    "addr:city": "Chaján",
-    "addr:full": "Bolivar y Mendoza",
-    "addr:housenumber": "114",
-    "addr:postcode": "5837",
-    "addr:street": "Bolívar",
-    "amenity": "clinic",
-    "fixme": "confirmar ubicacion exacta",
-    "healthcare": "clinic",
-    "name": "Dispensario Municipal Chaján",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 03582 492024",
-    "ref:sisa_codigo": "50140982231521",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7509538333"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.0025821,
-      -33.5547583
     ]
   }
 },
@@ -102190,8 +103047,12 @@
   "type": "Feature",
   "id": "node/7722058685",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2680",
+    "addr:province": "Buenos Aires",
     "addr:street": "Palpa",
+    "addr:suburb": "Colegiales",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Delegación Belgrano de traumatología del Hospital Italiano",
@@ -102536,8 +103397,12 @@
   "type": "Feature",
   "id": "node/7918800187",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2530",
+    "addr:province": "Buenos Aires",
     "addr:street": "Virrey Del Pino",
+    "addr:suburb": "Colegiales",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "plastic_surgery",
@@ -104264,8 +105129,10 @@
   "id": "node/8826001586",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "322",
     "addr:postcode": "C1022AAQ",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Callao",
     "amenity": "clinic",
     "email": "info@coira.com.ar",
@@ -104289,7 +105156,9 @@
   "id": "node/8826036865",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5170",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Rivadavia",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/ecografiacanetti/?ref=ts",
@@ -104903,8 +105772,11 @@
   "id": "node/8994361360",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "5962",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Del Libertador",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "healthcare": "centre",
     "healthcare:speciality": "fertility",
@@ -105355,8 +106227,12 @@
   "type": "Feature",
   "id": "node/9258779000",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2683",
+    "addr:province": "Buenos Aires",
     "addr:street": "Núñez",
+    "addr:suburb": "Núñez",
     "amenity": "clinic",
     "health_specialty:physiatry": "yes",
     "healthcare": "clinic",
@@ -105520,7 +106396,10 @@
   "type": "Feature",
   "id": "node/9357067164",
   "properties": {
+    "addr:housenumber": "2550",
+    "addr:street": "Juramento",
     "amenity": "clinic",
+    "check_date": "2024-05-08",
     "healthcare": "clinic",
     "name": "Centro Médico Juramento",
     "id": "node/9357067164"
@@ -105564,8 +106443,10 @@
   "id": "node/9370619985",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "572",
     "addr:postcode": "C1414EFH",
+    "addr:province": "Buenos Aires",
     "addr:street": "Mahatma Gandhi",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -106193,7 +107074,10 @@
   "type": "Feature",
   "id": "node/9565040087",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "4283",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Rivadavia",
     "amenity": "clinic",
     "name": "Centro Médico Policlínica Actis",
@@ -107204,8 +108088,12 @@
   "type": "Feature",
   "id": "node/10002293633",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "6249",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Del Libertador",
+    "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
@@ -107391,8 +108279,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.8300569,
-      -37.0831275
+      -57.8301129,
+      -37.083135
     ]
   }
 },
@@ -107818,7 +108706,9 @@
   "id": "node/10254140063",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "29",
+    "addr:province": "Buenos Aires",
     "addr:street": "Presidente José Evaristo Uriburu",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -107839,7 +108729,9 @@
   "id": "node/10254140064",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1902",
+    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Rivadavia",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -108101,8 +108993,12 @@
   "type": "Feature",
   "id": "node/10562003245",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "3168",
+    "addr:province": "Buenos Aires",
     "addr:street": "Sinclair",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Baby Art",
@@ -110089,6 +110985,7 @@
   "id": "node/11268475053",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Puesto Sanitario",
     "id": "node/11268475053"
   },
@@ -110120,8 +111017,12 @@
   "type": "Feature",
   "id": "node/11293618469",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "1924",
+    "addr:province": "Buenos Aires",
     "addr:street": "Vidt",
+    "addr:suburb": "Palermo",
     "amenity": "clinic",
     "name": "Oncologia Radiante",
     "id": "node/11293618469"
@@ -110266,7 +111167,10 @@
   "type": "Feature",
   "id": "node/11305598969",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:housenumber": "2452",
+    "addr:province": "Buenos Aires",
     "addr:street": "Paraguay",
     "amenity": "clinic",
     "name": "Centro Larrea Salud Mental",
@@ -111148,24 +112052,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3792606,
-      -34.60006
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11721647063",
-  "properties": {
-    "amenity": "clinic",
-    "name": "Centro de Salud Accord",
-    "id": "node/11721647063"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.3792606,
-      -34.60006
+      -58.3792609,
+      -34.6000601
     ]
   }
 },
@@ -111191,7 +112079,11 @@
   "type": "Feature",
   "id": "node/11757076392",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
     "addr:place": "Dot Baires Shopping",
+    "addr:province": "Buenos Aires",
+    "addr:suburb": "Saavedra",
     "addr:unit": "L0024",
     "amenity": "clinic",
     "branch": "Dot Baires Shopping",
@@ -111357,6 +112249,124 @@
     "coordinates": [
       -68.617081,
       -31.5073843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11846297175",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1443",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Avenida Pueyrredón",
+    "amenity": "clinic",
+    "branch": "Barrio Norte",
+    "emergency": "yes",
+    "name": "Swiss Medical Center",
+    "operator": "Swiss Medical Group",
+    "website": "https://www.swissmedical.com.ar/clinewsite/cma/barrio_norte.php",
+    "id": "node/11846297175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4020905,
+      -34.5934602
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11873075515",
+  "properties": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "153",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bernardino Rivadavia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "diabetology",
+    "level": "1",
+    "name": "Sinergia Salud",
+    "phone": "+54 9 299 611-0080",
+    "id": "node/11873075515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.0569354,
+      -38.9541117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11873737484",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorio Medico Dr. Mitolo",
+    "id": "node/11873737484"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.41776,
+      -34.6234294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11875204890",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios Externos Osecac",
+    "id": "node/11875204890"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4199634,
+      -34.5957743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11884619455",
+  "properties": {
+    "addr:housenumber": "1443",
+    "addr:street": "Avenida Pueyrredón",
+    "amenity": "clinic",
+    "branch": "Barrio Norte",
+    "name": "Swiss Medical Center",
+    "id": "node/11884619455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4019726,
+      -34.5940377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11884672272",
+  "properties": {
+    "amenity": "clinic",
+    "name": "La Sagrada Familia Imágenes",
+    "id": "node/11884672272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4423148,
+      -34.5635764
     ]
   }
 }
