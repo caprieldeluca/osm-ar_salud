@@ -15505,24 +15505,24 @@
     "coordinates": [
       [
         [
-          -58.3976612,
-          -34.5872366
+          -58.3976827,
+          -34.5872256
         ],
         [
-          -58.3976997,
-          -34.5872011
+          -58.3977386,
+          -34.5871735
         ],
         [
-          -58.3977898,
-          -34.587268
+          -58.3978274,
+          -34.5872426
         ],
         [
-          -58.3977502,
-          -34.5873036
+          -58.3977676,
+          -34.5872904
         ],
         [
-          -58.3976612,
-          -34.5872366
+          -58.3976827,
+          -34.5872256
         ]
       ]
     ]
@@ -36827,28 +36827,32 @@
     "coordinates": [
       [
         [
-          -62.7115999,
-          -34.2646739
+          -62.7115998,
+          -34.2646766
         ],
         [
-          -62.7116164,
-          -34.2647317
+          -62.7116161,
+          -34.2647318
         ],
         [
-          -62.7116494,
-          -34.2648488
+          -62.7116504,
+          -34.264848
         ],
         [
-          -62.711498,
-          -34.2648781
+          -62.7114989,
+          -34.2648785
         ],
         [
-          -62.7114484,
-          -34.2647026
+          -62.7114934,
+          -34.2648599
         ],
         [
-          -62.7115999,
-          -34.2646739
+          -62.7114483,
+          -34.2647069
+        ],
+        [
+          -62.7115998,
+          -34.2646766
         ]
       ]
     ]
@@ -39850,24 +39854,32 @@
     "coordinates": [
       [
         [
-          -62.7087297,
-          -34.265062
+          -62.7087302,
+          -34.2650616
         ],
         [
-          -62.7086376,
-          -34.2650785
+          -62.7086383,
+          -34.2650787
         ],
         [
-          -62.7086063,
-          -34.2649591
+          -62.7086223,
+          -34.26502
         ],
         [
-          -62.7086984,
-          -34.2649426
+          -62.7086058,
+          -34.2649595
         ],
         [
-          -62.7087297,
-          -34.265062
+          -62.7086274,
+          -34.2649554
+        ],
+        [
+          -62.7086977,
+          -34.2649423
+        ],
+        [
+          -62.7087302,
+          -34.2650616
         ]
       ]
     ]
@@ -39899,12 +39911,12 @@
           -34.2648467
         ],
         [
-          -62.7092217,
-          -34.2649296
+          -62.7092251,
+          -34.2649385
         ],
         [
-          -62.7091878,
-          -34.2649791
+          -62.7091992,
+          -34.2649763
         ],
         [
           -62.7091342,
@@ -41765,6 +41777,55 @@
 },
 {
   "type": "Feature",
+  "id": "way/1285043828",
+  "properties": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "495",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Cipolletti",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacia Integral",
+    "id": "way/1285043828"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9221232,
+          -38.9556863
+        ],
+        [
+          -67.9221366,
+          -38.955724
+        ],
+        [
+          -67.9221693,
+          -38.9558166
+        ],
+        [
+          -67.9221165,
+          -38.9558278
+        ],
+        [
+          -67.9220707,
+          -38.9556977
+        ],
+        [
+          -67.9221232,
+          -38.9556863
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101967",
   "properties": {
     "addr:housenumber": "405",
@@ -42285,9 +42346,16 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2024-05-18",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "opening_hours": "Mo-Fr 07:30-23:30; Sa 08:00-00:00; Su 10:00-22:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "website": "https://www.farmacity.com.ar",
     "id": "node/479744084"
   },
   "geometry": {
@@ -43402,8 +43470,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4051865,
-      -34.6041067
+      -58.4051731,
+      -34.6040725
     ]
   }
 },
@@ -43651,8 +43719,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4016847,
-      -34.5945253
+      -58.4016753,
+      -34.5944966
     ]
   }
 },
@@ -48475,23 +48543,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1529016944",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Osep",
-    "id": "node/1529016944"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7766128,
-      -28.4745664
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1534405545",
   "properties": {
     "amenity": "pharmacy",
@@ -49848,6 +49899,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Lencinas",
     "wheelchair": "yes",
     "id": "node/1739372941"
   },
@@ -59411,6 +59463,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Central",
     "phone": "+54 (3382) 42-9322",
+    "wheelchair": "yes",
     "id": "node/2429670783"
   },
   "geometry": {
@@ -59594,8 +59647,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.710708,
-      -34.2659244
+      -62.7107228,
+      -34.2659842
     ]
   }
 },
@@ -61322,23 +61375,6 @@
     "coordinates": [
       -58.5667994,
       -34.6411604
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2522809046",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Pereira",
-    "id": "node/2522809046"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.178299,
-      -36.8774864
     ]
   }
 },
@@ -68534,9 +68570,15 @@
     "addr:street": "Avenida Juramento",
     "addr:suburb": "Belgrano",
     "amenity": "pharmacy",
+    "check_date": "2024-05-18",
     "delivery": "yes",
     "healthcare": "pharmacy",
     "name": "Barrancas Center",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "phone": "+54 11 4784-1781",
     "id": "node/3052953780"
   },
@@ -98871,8 +98913,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4345912,
-      -34.5712668
+      -58.434606,
+      -34.5712547
     ]
   }
 },
@@ -101559,8 +101601,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4204599,
-      -34.5822337
+      -58.420461,
+      -34.5822522
     ]
   }
 },
@@ -105625,15 +105667,9 @@
   "type": "Feature",
   "id": "node/4710788513",
   "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:province": "Buenos Aires",
-    "addr:street": "Avenida Santa Fe",
-    "addr:suburb": "Palermo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Nuevo Palermo",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "Nuevo Palermo",
     "id": "node/4710788513"
   },
   "geometry": {
@@ -128080,8 +128116,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4267611,
-      -31.6586155
+      -64.4267875,
+      -31.6586761
     ]
   }
 },
@@ -144998,14 +145034,15 @@
   "properties": {
     "addr:street": "Avenida Cabred",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Droguería Guaraní",
     "id": "node/8039720482"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.9008151,
-      -27.3843214
+      -55.9009778,
+      -27.3843308
     ]
   }
 },
@@ -148624,23 +148661,6 @@
     "coordinates": [
       -68.5254443,
       -31.5416476
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8813202920",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Salud Global",
-    "id": "node/8813202920"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4494734,
-      -34.5542832
     ]
   }
 },
@@ -171741,6 +171761,7 @@
   "id": "node/11356646989",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/11356646989"
   },
   "geometry": {
@@ -175121,6 +175142,81 @@
     "coordinates": [
       -67.9170818,
       -38.9489288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11910077174",
+  "properties": {
+    "addr:city": "Maza",
+    "addr:postcode": "6343",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Italo Argentina",
+    "id": "node/11910077174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.3380875,
+      -36.799472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11922528826",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "La Santé",
+    "id": "node/11922528826"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4035214,
+      -34.5832627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11922932331",
+  "properties": {
+    "addr:city": "Maza",
+    "addr:postcode": "6343",
+    "addr:street": "Italia",
+    "alt_name": "Farmacia Pereda",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Pereda",
+    "id": "node/11922932331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.3369857,
+      -36.8010946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11925708469",
+  "properties": {
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Corrientes",
+    "amenity": "pharmacy",
+    "name": "Meld Salud",
+    "id": "node/11925708469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9010929,
+      -27.3632808
     ]
   }
 }
