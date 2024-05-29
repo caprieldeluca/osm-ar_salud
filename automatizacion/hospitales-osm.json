@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-05-22T21:21:28Z",
-    "timestamp_areas_base": "2024-05-22T16:30:45Z",
+    "timestamp_osm_base": "2024-05-29T23:51:11Z",
+    "timestamp_areas_base": "2024-05-29T22:50:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5535,7 +5535,7 @@
     "ref:sisa_codigo": "10020012315249",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.otamendi.com.ar",
-    "wikidata": "Q90410275"
+    "wikidata": "Q30270338"
   }
 },
 {
@@ -17664,22 +17664,26 @@
 {
   "type": "node",
   "id": 7385478211,
-  "lat": -33.2533132,
-  "lon": -68.1499287,
+  "lat": -33.2542573,
+  "lon": -68.1451070,
   "tags": {
     "addr:city": "Santa Rosa",
     "addr:full": "Julio A. Roca 239, Santa Rosa",
     "addr:place": "Santa Rosa",
     "addr:postcode": "5596",
+    "addr:street": "Enrique González",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
-    "healthcare": "hospital",
-    "name": "Hospital Fernando Arenas Raffo - Santa Rosa",
+    "healthcare": "hospital;yes",
+    "name": "Hospital Fernando Arenas Raffo Santa Rosa",
     "operator:type": "public",
+    "population": "1969",
     "ref:sisa_codigo": "10501122157035",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)",
-    "wikidata": "Q100998418"
+    "source_ref": "http://earth-info.nga.mil/gns/html/cntyfile/ar.zip",
+    "wikidata": "Q100998418;Q3472738",
+    "wikipedia": "es:Santa Rosa (Mendoza)"
   }
 },
 {
@@ -24814,6 +24818,7 @@
     "phone": "+54 11 4127-5500",
     "ref:sisa_codigo": "10020012315239",
     "ref:sisa_tipologia": "ESCIG",
+    "roof:shape": "flat",
     "short_name": "Trinidad Palermo",
     "website": "http://www.trinidadpalermo.com.ar/",
     "wikidata": "Q93141487"
@@ -31844,7 +31849,7 @@
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.sanatoriocolegiales.com.ar/",
     "wheelchair": "yes",
-    "wikidata": "Q93141476"
+    "wikidata": "Q90410244"
   }
 },
 {
@@ -32971,7 +32976,7 @@
     "ref:sisa_codigo": "10020012215216",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://buenosaires.gob.ar/hospitalzubizarreta",
-    "wikidata": "Q93140622",
+    "wikidata": "Q89819913",
     "wikimedia_commons": "Category:Hospital Zubizarreta"
   }
 },
@@ -38141,7 +38146,7 @@
     "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "https://www.sg.com.ar/",
     "wheelchair": "yes",
-    "wikidata": "Q90410257"
+    "wikidata": "Q89350325"
   }
 },
 {
@@ -40910,19 +40915,16 @@
   "type": "way",
   "id": 474902081,
   "nodes": [
-    726901167,
     4687612286,
-    4687612287,
-    4687612288,
-    4687612389,
-    4687612390,
+    11938582056,
     4687612391,
-    4687612392,
+    11191146294,
+    11191146293,
     4687612393,
     4687612394,
     4687612395,
     4687612396,
-    726901167
+    4687612286
   ],
   "tags": {
     "addr:full": "Brigadier General Juan Manuel De Rosas 5975",
@@ -43612,23 +43614,6 @@
     "building": "hospital",
     "healthcare": "hospital",
     "name": "Clínica del Niño Quilmes"
-  }
-},
-{
-  "type": "way",
-  "id": 545891404,
-  "nodes": [
-    4967173171,
-    4967173173,
-    4967173174,
-    4967173145,
-    4967173155,
-    4967173151,
-    4967173171
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
   }
 },
 {
@@ -48359,6 +48344,25 @@
     "operator:type": "public",
     "phone": "+54 293 442-1211;+54 293 443-0472",
     "wikidata": "Q94704922"
+  }
+},
+{
+  "type": "way",
+  "id": 797774883,
+  "nodes": [
+    7461479844,
+    7461479845,
+    7461479846,
+    7461479847,
+    7461479844
+  ],
+  "tags": {
+    "addr:city": "Brandsen",
+    "addr:postcode": "1980",
+    "addr:street": "Intendente Fernando Daguerre",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "C.AP.S. Los Pinos"
   }
 },
 {
@@ -71784,42 +71788,6 @@
   "id": 5716442747,
   "lat": -31.5522526,
   "lon": -68.6535795
-},
-{
-  "type": "node",
-  "id": 4967173145,
-  "lat": -31.5246745,
-  "lon": -68.6269843
-},
-{
-  "type": "node",
-  "id": 4967173151,
-  "lat": -31.5246563,
-  "lon": -68.6270443
-},
-{
-  "type": "node",
-  "id": 4967173155,
-  "lat": -31.5246654,
-  "lon": -68.6270228
-},
-{
-  "type": "node",
-  "id": 4967173171,
-  "lat": -31.5244748,
-  "lon": -68.6271193
-},
-{
-  "type": "node",
-  "id": 4967173173,
-  "lat": -31.5244025,
-  "lon": -68.6268868
-},
-{
-  "type": "node",
-  "id": 4967173174,
-  "lat": -31.5246219,
-  "lon": -68.6267942
 },
 {
   "type": "node",
@@ -95265,6 +95233,30 @@
 },
 {
   "type": "node",
+  "id": 7461479844,
+  "lat": -35.1753053,
+  "lon": -58.2222766
+},
+{
+  "type": "node",
+  "id": 7461479846,
+  "lat": -35.1757871,
+  "lon": -58.2227597
+},
+{
+  "type": "node",
+  "id": 7461479847,
+  "lat": -35.1755556,
+  "lon": -58.2228991
+},
+{
+  "type": "node",
+  "id": 7461479845,
+  "lat": -35.1755367,
+  "lon": -58.2221373
+},
+{
+  "type": "node",
   "id": 2686143866,
   "lat": -34.8193204,
   "lon": -58.2720685
@@ -97221,75 +97213,57 @@
 },
 {
   "type": "node",
-  "id": 726901167,
-  "lat": -34.6953410,
-  "lon": -58.5786173
-},
-{
-  "type": "node",
   "id": 4687612286,
-  "lat": -34.6963636,
-  "lon": -58.5797505
-},
-{
-  "type": "node",
-  "id": 4687612287,
-  "lat": -34.6952831,
-  "lon": -58.5811928
-},
-{
-  "type": "node",
-  "id": 4687612288,
-  "lat": -34.6952108,
-  "lon": -58.5813486
-},
-{
-  "type": "node",
-  "id": 4687612389,
-  "lat": -34.6951075,
-  "lon": -58.5815170
-},
-{
-  "type": "node",
-  "id": 4687612390,
-  "lat": -34.6949712,
-  "lon": -58.5816929
+  "lat": -34.6963811,
+  "lon": -58.5797647
 },
 {
   "type": "node",
   "id": 4687612391,
-  "lat": -34.6948637,
-  "lon": -58.5817255
-},
-{
-  "type": "node",
-  "id": 4687612392,
-  "lat": -34.6946964,
-  "lon": -58.5816778
+  "lat": -34.6948503,
+  "lon": -58.5818563
 },
 {
   "type": "node",
   "id": 4687612393,
-  "lat": -34.6938142,
-  "lon": -58.5807029
+  "lat": -34.6937585,
+  "lon": -58.5807260
 },
 {
   "type": "node",
   "id": 4687612394,
-  "lat": -34.6937791,
-  "lon": -58.5805973
+  "lat": -34.6937487,
+  "lon": -58.5806219
 },
 {
   "type": "node",
   "id": 4687612395,
-  "lat": -34.6937812,
-  "lon": -58.5804717
+  "lat": -34.6937508,
+  "lon": -58.5804671
 },
 {
   "type": "node",
   "id": 4687612396,
-  "lat": -34.6951840,
-  "lon": -58.5785846
+  "lat": -34.6952309,
+  "lon": -58.5784798
+},
+{
+  "type": "node",
+  "id": 11191146293,
+  "lat": -34.6943078,
+  "lon": -58.5812947
+},
+{
+  "type": "node",
+  "id": 11191146294,
+  "lat": -34.6945946,
+  "lon": -58.5815916
+},
+{
+  "type": "node",
+  "id": 11938582056,
+  "lat": -34.6959382,
+  "lon": -58.5803698
 },
 {
   "type": "node",

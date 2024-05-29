@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-05-22T21:24:41Z",
-    "timestamp_areas_base": "2024-05-22T16:26:30Z",
+    "timestamp_osm_base": "2024-05-29T23:53:18Z",
+    "timestamp_areas_base": "2024-05-29T22:50:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2797,17 +2797,6 @@
 },
 {
   "type": "node",
-  "id": 1164396116,
-  "lat": -34.5708523,
-  "lon": -58.4329545,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Arce"
-  }
-},
-{
-  "type": "node",
   "id": 1168560028,
   "lat": -34.4487364,
   "lon": -58.5448835,
@@ -3810,8 +3799,8 @@
 {
   "type": "node",
   "id": 1388904953,
-  "lat": -34.5987726,
-  "lon": -58.4036193,
+  "lat": -34.5986942,
+  "lon": -58.4036273,
   "tags": {
     "amenity": "pharmacy",
     "brand": "Farmacity",
@@ -12214,8 +12203,8 @@
 {
   "type": "node",
   "id": 2432927465,
-  "lat": -34.2684895,
-  "lon": -62.7131915,
+  "lat": -34.2685471,
+  "lon": -62.7131955,
   "tags": {
     "addr:city": "Rufino",
     "addr:country": "AR",
@@ -28829,8 +28818,8 @@
 {
   "type": "node",
   "id": 3855861968,
-  "lat": -33.1794713,
-  "lon": -64.9951713,
+  "lat": -33.1794556,
+  "lon": -64.9950975,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -43243,8 +43232,10 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Avellaneda",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2024-05-24",
     "healthcare": "pharmacy",
     "name": "Alberdi",
+    "opening_hours:signed": "no",
     "phone": "+54 (11) 4637-5088",
     "website": "https://www.farmaciaalberdi.com/"
   }
@@ -51238,8 +51229,8 @@
 {
   "type": "node",
   "id": 5455169123,
-  "lat": -31.4130094,
-  "lon": -64.4850898,
+  "lat": -31.4130930,
+  "lon": -64.4850630,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -75988,11 +75979,16 @@
 {
   "type": "node",
   "id": 9220173178,
-  "lat": -38.9536097,
-  "lon": -67.9170152,
+  "lat": -38.9535907,
+  "lon": -67.9170243,
   "tags": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "310",
+    "addr:postcode": "R8324",
+    "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Sánchez"
   }
@@ -78830,7 +78826,7 @@
     "contact:whatsapp": "+54 264 4143880",
     "healthcare": "pharmacy",
     "name": "Farmacia Uno II",
-    "opening_hours": "Mo-Fr 09:00-13:30,17:30-22:00; Sa 09:30-13:30",
+    "opening_hours": "Mo-Fr 09:00-13:30, 17:00-21:00; Sa 09:30-13:30",
     "phone": "+54 264 4233985"
   }
 },
@@ -84825,8 +84821,8 @@
 {
   "type": "node",
   "id": 10861107056,
-  "lat": -37.2758040,
-  "lon": -57.7756190,
+  "lat": -37.2758261,
+  "lon": -57.7756883,
   "tags": {
     "amenity": "pharmacy",
     "name": "Farmacia"
@@ -91731,7 +91727,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Génesis",
-    "opening_hours": "mo"
+    "opening_hours": "mo",
+    "wheelchair": "yes"
   }
 },
 {
@@ -93244,6 +93241,65 @@
     "addr:street": "Avenida Corrientes",
     "amenity": "pharmacy",
     "name": "Meld Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11933786819,
+  "lat": -38.9536259,
+  "lon": -67.9261868,
+  "tags": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "Local 4-5",
+    "addr:postcode": "R8324",
+    "addr:street": "General Roca",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Cruz del Sur",
+    "operator": "Farmacia Cruz del Sur"
+  }
+},
+{
+  "type": "node",
+  "id": 11933971647,
+  "lat": -38.9530532,
+  "lon": -67.9204489,
+  "tags": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "376",
+    "addr:postcode": "R8324",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "branch": "Fernández Oro",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia AMBAR Bancaria",
+    "operator": "Asociación Mutual de Bancarios de Río Negro"
+  }
+},
+{
+  "type": "node",
+  "id": 11934017168,
+  "lat": -32.9248902,
+  "lon": -60.8534217,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2024-05-25",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Cretton",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11935135561,
+  "lat": -31.6485118,
+  "lon": -64.4337060,
+  "tags": {
+    "amenity": "pharmacy"
   }
 },
 {
@@ -97071,6 +97127,7 @@
     "addr:street": "Avenida Vélez Sarsfield",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacias TKL",
     "source": "Reconocimiento cartográfico 2016 por KG"
   }
@@ -101076,9 +101133,14 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Larrazábal",
     "amenity": "pharmacy",
-    "building": "yes",
+    "branch": "Mataderos",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "commercial",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacity Mataderos",
+    "name": "Farmacity",
     "opening_hours": "Mo-Sa 09:00-20:00",
     "operator": "Farmacity",
     "source": "Reconocimiento terrestre por Kaart 2016"
@@ -123601,26 +123663,26 @@
 {
   "type": "node",
   "id": 1981779118,
-  "lat": -32.9572377,
-  "lon": -60.6422274
+  "lat": -32.9572096,
+  "lon": -60.6422079
 },
 {
   "type": "node",
   "id": 9389008633,
-  "lat": -32.9573037,
-  "lon": -60.6422455
+  "lat": -32.9573164,
+  "lon": -60.6422343
 },
 {
   "type": "node",
   "id": 9389008634,
-  "lat": -32.9573217,
-  "lon": -60.6421553
+  "lat": -32.9573242,
+  "lon": -60.6421860
 },
 {
   "type": "node",
   "id": 9389008635,
-  "lat": -32.9572553,
-  "lon": -60.6421363
+  "lat": -32.9572175,
+  "lon": -60.6421629
 },
 {
   "type": "node",

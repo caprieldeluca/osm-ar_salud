@@ -8114,6 +8114,7 @@
     "addr:street": "Avenida Vélez Sarsfield",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacias TKL",
     "source": "Reconocimiento cartográfico 2016 por KG",
     "id": "way/466694416"
@@ -16520,9 +16521,14 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Larrazábal",
     "amenity": "pharmacy",
-    "building": "yes",
+    "branch": "Mataderos",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "commercial",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacity Mataderos",
+    "name": "Farmacity",
     "opening_hours": "Mo-Sa 09:00-20:00",
     "operator": "Farmacity",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -36880,24 +36886,24 @@
     "coordinates": [
       [
         [
-          -60.6421363,
-          -32.9572553
+          -60.6421629,
+          -32.9572175
         ],
         [
-          -60.6422274,
-          -32.9572377
+          -60.6422079,
+          -32.9572096
         ],
         [
-          -60.6422455,
-          -32.9573037
+          -60.6422343,
+          -32.9573164
         ],
         [
-          -60.6421553,
-          -32.9573217
+          -60.642186,
+          -32.9573242
         ],
         [
-          -60.6421363,
-          -32.9572553
+          -60.6421629,
+          -32.9572175
         ]
       ]
     ]
@@ -45861,23 +45867,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1164396116",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Arce",
-    "id": "node/1164396116"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4329545,
-      -34.5708523
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1168560028",
   "properties": {
     "addr:city": "Victoria",
@@ -47306,8 +47295,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4036193,
-      -34.5987726
+      -58.4036273,
+      -34.5986942
     ]
   }
 },
@@ -59601,8 +59590,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.7131915,
-      -34.2684895
+      -62.7131955,
+      -34.2685471
     ]
   }
 },
@@ -83613,8 +83602,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.9951713,
-      -33.1794713
+      -64.9950975,
+      -33.1794556
     ]
   }
 },
@@ -104239,8 +104228,10 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Avellaneda",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2024-05-24",
     "healthcare": "pharmacy",
     "name": "Alberdi",
+    "opening_hours:signed": "no",
     "phone": "+54 (11) 4637-5088",
     "website": "https://www.farmaciaalberdi.com/",
     "id": "node/4701797412"
@@ -115809,8 +115800,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.4850898,
-      -31.4130094
+      -64.485063,
+      -31.413093
     ]
   }
 },
@@ -151273,8 +151264,13 @@
   "type": "Feature",
   "id": "node/9220173178",
   "properties": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "310",
+    "addr:postcode": "R8324",
+    "addr:street": "Hipólito Yrigoyen",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Sánchez",
     "id": "node/9220173178"
@@ -151282,8 +151278,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9170152,
-      -38.9536097
+      -67.9170243,
+      -38.9535907
     ]
   }
 },
@@ -155264,7 +155260,7 @@
     "contact:whatsapp": "+54 264 4143880",
     "healthcare": "pharmacy",
     "name": "Farmacia Uno II",
-    "opening_hours": "Mo-Fr 09:00-13:30,17:30-22:00; Sa 09:30-13:30",
+    "opening_hours": "Mo-Fr 09:00-13:30, 17:00-21:00; Sa 09:30-13:30",
     "phone": "+54 264 4233985",
     "id": "node/9804225112"
   },
@@ -163531,8 +163527,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.775619,
-      -37.275804
+      -57.7756883,
+      -37.2758261
     ]
   }
 },
@@ -173014,6 +173010,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Génesis",
     "opening_hours": "mo",
+    "wheelchair": "yes",
     "id": "node/11516013271"
   },
   "geometry": {
@@ -175217,6 +175214,89 @@
     "coordinates": [
       -55.9010929,
       -27.3632808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11933786819",
+  "properties": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "Local 4-5",
+    "addr:postcode": "R8324",
+    "addr:street": "General Roca",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Cruz del Sur",
+    "operator": "Farmacia Cruz del Sur",
+    "id": "node/11933786819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9261868,
+      -38.9536259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11933971647",
+  "properties": {
+    "addr:city": "General Fernández Oro",
+    "addr:housenumber": "376",
+    "addr:postcode": "R8324",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "branch": "Fernández Oro",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia AMBAR Bancaria",
+    "operator": "Asociación Mutual de Bancarios de Río Negro",
+    "id": "node/11933971647"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9204489,
+      -38.9530532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11934017168",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2024-05-25",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Cretton",
+    "wheelchair": "yes",
+    "id": "node/11934017168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.8534217,
+      -32.9248902
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11935135561",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11935135561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.433706,
+      -31.6485118
     ]
   }
 }
