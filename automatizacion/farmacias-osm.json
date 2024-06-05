@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-05-29T23:53:18Z",
-    "timestamp_areas_base": "2024-05-29T22:50:02Z",
+    "timestamp_osm_base": "2024-06-05T22:31:39Z",
+    "timestamp_areas_base": "2024-06-05T17:48:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -47913,6 +47913,7 @@
   "tags": {
     "addr:street": "Brandsen",
     "amenity": "pharmacy",
+    "check_date": "2024-06-02",
     "healthcare": "pharmacy",
     "name": "Fabbro"
   }
@@ -49049,6 +49050,7 @@
   "tags": {
     "addr:street": "Avenida Mitre",
     "amenity": "pharmacy",
+    "check_date": "2024-06-02",
     "healthcare": "pharmacy",
     "name": "De La Merced"
   }
@@ -63546,8 +63548,8 @@
 {
   "type": "node",
   "id": 7149293351,
-  "lat": -34.6037746,
-  "lon": -58.4050897,
+  "lat": -34.6036499,
+  "lon": -58.4050629,
   "tags": {
     "amenity": "pharmacy",
     "name": "Farmacias Dr. Ahorro"
@@ -72263,6 +72265,7 @@
   "lon": -60.7685284,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Macagno"
   }
 },
@@ -93303,6 +93306,68 @@
   }
 },
 {
+  "type": "node",
+  "id": 11948895818,
+  "lat": -28.4712832,
+  "lon": -65.7839079,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Elena - Minerva",
+    "operator": "Minerva Farmacias"
+  }
+},
+{
+  "type": "node",
+  "id": 11949183370,
+  "lat": -34.7900693,
+  "lon": -58.4101137,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11953932898,
+  "lat": -31.2642993,
+  "lon": -64.3042866,
+  "tags": {
+    "addr:city": "Mendiolaza",
+    "addr:postcode": "5107",
+    "addr:street": "Av. San Jose de Calasanz.",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11954008771,
+  "lat": -34.7360427,
+  "lon": -58.3630448,
+  "tags": {
+    "addr:city": "Monte Chingolo",
+    "addr:housenumber": "2600",
+    "addr:postcode": "B1826FCL",
+    "addr:street": "José Álvarez Condarco 2602",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Condarco 2600"
+  }
+},
+{
+  "type": "node",
+  "id": 11958871579,
+  "lat": -37.7867351,
+  "lon": -58.8474843,
+  "tags": {
+    "addr:city": "San Manuel",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "D`Auro"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -97346,6 +97411,7 @@
     4617056882,
     4617056883,
     4617056884,
+    11954747730,
     4617056885,
     4617056886,
     4617056887,
@@ -99251,10 +99317,14 @@
     4649893982
   ],
   "tags": {
+    "addr:housenumber": "90",
     "addr:street": "Avenida Doctor Ricardo Balbín",
     "amenity": "pharmacy",
     "building": "yes",
-    "healthcare": "pharmacy"
+    "check_date": "2024-05-31",
+    "healthcare": "pharmacy",
+    "name": "Mitre90",
+    "opening_hours": "Mo-Sa 09:00-19:00; Su off"
   }
 },
 {
@@ -135177,44 +135247,50 @@
 {
   "type": "node",
   "id": 4617056881,
-  "lat": -34.5289558,
-  "lon": -58.5522632
+  "lat": -34.5289573,
+  "lon": -58.5522725
 },
 {
   "type": "node",
   "id": 4617056882,
-  "lat": -34.5290171,
-  "lon": -58.5521949
+  "lat": -34.5290284,
+  "lon": -58.5521921
 },
 {
   "type": "node",
   "id": 4617056883,
-  "lat": -34.5290436,
-  "lon": -58.5522300
+  "lat": -34.5290591,
+  "lon": -58.5522319
 },
 {
   "type": "node",
   "id": 4617056884,
-  "lat": -34.5291129,
-  "lon": -58.5521529
+  "lat": -34.5291176,
+  "lon": -58.5521624
 },
 {
   "type": "node",
   "id": 4617056885,
-  "lat": -34.5291652,
-  "lon": -58.5522220
+  "lat": -34.5291744,
+  "lon": -58.5522291
 },
 {
   "type": "node",
   "id": 4617056886,
-  "lat": -34.5290626,
-  "lon": -58.5523361
+  "lat": -34.5290713,
+  "lon": -58.5523485
 },
 {
   "type": "node",
   "id": 4617056887,
-  "lat": -34.5290051,
-  "lon": -58.5523285
+  "lat": -34.5290138,
+  "lon": -58.5523409
+},
+{
+  "type": "node",
+  "id": 11954747730,
+  "lat": -34.5291589,
+  "lon": -58.5522155
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-05-29T23:51:11Z",
-    "timestamp_areas_base": "2024-05-29T22:50:02Z",
+    "timestamp_osm_base": "2024-06-05T22:29:33Z",
+    "timestamp_areas_base": "2024-06-05T18:08:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4137,8 +4137,11 @@
   "lat": -36.8612874,
   "lon": -60.1614234,
   "tags": {
+    "addr:city": "-36.86123/-60.16149",
+    "addr:street": "Antonio Colella",
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "healthcare": "hospital",
+    "name": "Hospital de Hinojo"
   }
 },
 {
@@ -9510,8 +9513,8 @@
 {
   "type": "node",
   "id": 4110515977,
-  "lat": -31.3419921,
-  "lon": -64.3378302,
+  "lat": -31.3419754,
+  "lon": -64.3379367,
   "tags": {
     "addr:city": "La Calera",
     "addr:postcode": "5151",
@@ -9519,8 +9522,10 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Doctor Umberto Illia",
-    "operator": "Francisca Méndez"
+    "name": "Hospital Materno Infantil Dr. Arturo Illia",
+    "operator": "Francisca Méndez",
+    "operator:type": "public",
+    "phone": "03543 46-9593"
   }
 },
 {
@@ -21325,26 +21330,6 @@
 },
 {
   "type": "node",
-  "id": 7541545440,
-  "lat": -34.5562455,
-  "lon": -58.5477955,
-  "tags": {
-    "addr:city": "San Andrés",
-    "addr:country": "AR",
-    "addr:full": "E. Marengo 3908",
-    "addr:postcode": "1653",
-    "addr:province": "Buenos Aires",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clinica Privada Santa Maria",
-    "operator": "Privado",
-    "operator:type": "private",
-    "ref:sisa_codigo": "10063712305068",
-    "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
   "id": 7576376351,
   "lat": -30.7039178,
   "lon": -62.0051719,
@@ -31480,11 +31465,30 @@
   "type": "way",
   "id": 245118111,
   "nodes": [
-    2523654529,
+    11957112293,
+    11957112288,
+    11957112287,
     2523654549,
+    11957903153,
+    11957903152,
+    11957903151,
     2523654538,
+    11957112297,
+    11957903142,
+    11957903141,
+    11957903115,
+    11957903132,
+    11957903131,
+    11957903120,
+    11957903121,
+    11957112286,
     2523654527,
-    2523654529
+    11957903126,
+    11957112289,
+    11957112290,
+    11957112291,
+    11957112292,
+    11957112293
   ],
   "tags": {
     "amenity": "hospital",
@@ -56129,6 +56133,61 @@
   }
 },
 {
+  "type": "way",
+  "id": 1287928077,
+  "nodes": [
+    7541545440,
+    11944002573,
+    11944002574,
+    11944002575,
+    11944002576,
+    7541545440
+  ],
+  "tags": {
+    "addr:city": "Villa Ballester",
+    "addr:country": "AR",
+    "addr:full": "E. Marengo 3908",
+    "addr:housenumber": "3908",
+    "addr:postcode": "B1653",
+    "addr:province": "Buenos Aires",
+    "addr:street": "65 - Enrique Marengo",
+    "amenity": "hospital",
+    "contact:instagram": "https://www.instagram.com/clinicasantamariavb/",
+    "contact:phone": "+54 11 6339-4600",
+    "healthcare": "hospital",
+    "name": "Clinica Santa Maria",
+    "operator": "Privado",
+    "operator:type": "private",
+    "ref:sisa_codigo": "10063712305068",
+    "ref:sisa_tipologia": "ESCIG",
+    "short_name": "CSM",
+    "website": "http://clinicasantamariavb.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1289300770,
+  "nodes": [
+    11955346361,
+    11955346362,
+    11955346363,
+    11955346364,
+    11955346365,
+    11955346366,
+    11955346367,
+    11955346368,
+    11955358769,
+    11955358770,
+    11955358771,
+    11955358772,
+    11955346361
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -68636,26 +68695,140 @@
 {
   "type": "node",
   "id": 2523654527,
-  "lat": -37.4487127,
-  "lon": -57.7307343
-},
-{
-  "type": "node",
-  "id": 2523654529,
-  "lat": -37.4489494,
-  "lon": -57.7320449
+  "lat": -37.4487370,
+  "lon": -57.7307473
 },
 {
   "type": "node",
   "id": 2523654549,
-  "lat": -37.4500057,
-  "lon": -57.7318238
+  "lat": -37.4500281,
+  "lon": -57.7317374
+},
+{
+  "type": "node",
+  "id": 11957112286,
+  "lat": -37.4487585,
+  "lon": -57.7307022
+},
+{
+  "type": "node",
+  "id": 11957112287,
+  "lat": -37.4493626,
+  "lon": -57.7319327
+},
+{
+  "type": "node",
+  "id": 11957112288,
+  "lat": -37.4493555,
+  "lon": -57.7318880
+},
+{
+  "type": "node",
+  "id": 11957112289,
+  "lat": -37.4488619,
+  "lon": -57.7314404
+},
+{
+  "type": "node",
+  "id": 11957112290,
+  "lat": -37.4491493,
+  "lon": -57.7315880
+},
+{
+  "type": "node",
+  "id": 11957112291,
+  "lat": -37.4491815,
+  "lon": -57.7317457
+},
+{
+  "type": "node",
+  "id": 11957112292,
+  "lat": -37.4491537,
+  "lon": -57.7317552
+},
+{
+  "type": "node",
+  "id": 11957112293,
+  "lat": -37.4491924,
+  "lon": -57.7319375
+},
+{
+  "type": "node",
+  "id": 11957903120,
+  "lat": -37.4488590,
+  "lon": -57.7306738
+},
+{
+  "type": "node",
+  "id": 11957903121,
+  "lat": -37.4488067,
+  "lon": -57.7306886
+},
+{
+  "type": "node",
+  "id": 11957903126,
+  "lat": -37.4488235,
+  "lon": -57.7312274
+},
+{
+  "type": "node",
+  "id": 11957903151,
+  "lat": -37.4498682,
+  "lon": -57.7308526
+},
+{
+  "type": "node",
+  "id": 11957903152,
+  "lat": -37.4498782,
+  "lon": -57.7309077
+},
+{
+  "type": "node",
+  "id": 11957903153,
+  "lat": -37.4498865,
+  "lon": -57.7309535
 },
 {
   "type": "node",
   "id": 2523654538,
-  "lat": -37.4497623,
-  "lon": -57.7304918
+  "lat": -37.4497953,
+  "lon": -57.7304489
+},
+{
+  "type": "node",
+  "id": 11957112297,
+  "lat": -37.4497484,
+  "lon": -57.7304227
+},
+{
+  "type": "node",
+  "id": 11957903115,
+  "lat": -37.4492545,
+  "lon": -57.7305622
+},
+{
+  "type": "node",
+  "id": 11957903131,
+  "lat": -37.4492295,
+  "lon": -57.7305692
+},
+{
+  "type": "node",
+  "id": 11957903132,
+  "lat": -37.4492357,
+  "lon": -57.7305674
+},
+{
+  "type": "node",
+  "id": 11957903141,
+  "lat": -37.4492723,
+  "lon": -57.7305571
+},
+{
+  "type": "node",
+  "id": 11957903142,
+  "lat": -37.4492786,
+  "lon": -57.7305553
 },
 {
   "type": "node",
@@ -78770,26 +78943,26 @@
 {
   "type": "node",
   "id": 3901454507,
-  "lat": -30.8578997,
-  "lon": -64.9930129
+  "lat": -30.8578981,
+  "lon": -64.9930009
 },
 {
   "type": "node",
   "id": 3901454508,
-  "lat": -30.8582218,
-  "lon": -64.9939338
+  "lat": -30.8582222,
+  "lon": -64.9939422
 },
 {
   "type": "node",
   "id": 3901454505,
-  "lat": -30.8573654,
-  "lon": -64.9943512
+  "lat": -30.8573619,
+  "lon": -64.9943442
 },
 {
   "type": "node",
   "id": 3901454506,
-  "lat": -30.8570331,
-  "lon": -64.9933923
+  "lat": -30.8570378,
+  "lon": -64.9934029
 },
 {
   "type": "node",
@@ -79234,6 +79407,78 @@
   "id": 3818163762,
   "lat": -31.2455154,
   "lon": -64.4701185
+},
+{
+  "type": "node",
+  "id": 11955358770,
+  "lat": -31.3427820,
+  "lon": -64.3381503
+},
+{
+  "type": "node",
+  "id": 11955358771,
+  "lat": -31.3426851,
+  "lon": -64.3385167
+},
+{
+  "type": "node",
+  "id": 11955346361,
+  "lat": -31.3418378,
+  "lon": -64.3382489
+},
+{
+  "type": "node",
+  "id": 11955346362,
+  "lat": -31.3418259,
+  "lon": -64.3382285
+},
+{
+  "type": "node",
+  "id": 11955346363,
+  "lat": -31.3418213,
+  "lon": -64.3382017
+},
+{
+  "type": "node",
+  "id": 11955346364,
+  "lat": -31.3420080,
+  "lon": -64.3374261
+},
+{
+  "type": "node",
+  "id": 11955346365,
+  "lat": -31.3420857,
+  "lon": -64.3374282
+},
+{
+  "type": "node",
+  "id": 11955346366,
+  "lat": -31.3421461,
+  "lon": -64.3374968
+},
+{
+  "type": "node",
+  "id": 11955346367,
+  "lat": -31.3422321,
+  "lon": -64.3375750
+},
+{
+  "type": "node",
+  "id": 11955346368,
+  "lat": -31.3423511,
+  "lon": -64.3376800
+},
+{
+  "type": "node",
+  "id": 11955358769,
+  "lat": -31.3425021,
+  "lon": -64.3378407
+},
+{
+  "type": "node",
+  "id": 11955358772,
+  "lat": -31.3422541,
+  "lon": -64.3383935
 },
 {
   "type": "node",
@@ -105460,6 +105705,36 @@
   "id": 10738431825,
   "lat": -34.5829216,
   "lon": -58.5362918
+},
+{
+  "type": "node",
+  "id": 7541545440,
+  "lat": -34.5562659,
+  "lon": -58.5477434
+},
+{
+  "type": "node",
+  "id": 11944002573,
+  "lat": -34.5563041,
+  "lon": -58.5477429
+},
+{
+  "type": "node",
+  "id": 11944002574,
+  "lat": -34.5563457,
+  "lon": -58.5477916
+},
+{
+  "type": "node",
+  "id": 11944002575,
+  "lat": -34.5562164,
+  "lon": -58.5479577
+},
+{
+  "type": "node",
+  "id": 11944002576,
+  "lat": -34.5561536,
+  "lon": -58.5478824
 },
 {
   "type": "node",

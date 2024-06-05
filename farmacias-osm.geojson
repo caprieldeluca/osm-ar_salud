@@ -8580,36 +8580,40 @@
     "coordinates": [
       [
         [
-          -58.5522632,
-          -34.5289558
+          -58.5522725,
+          -34.5289573
         ],
         [
-          -58.5523285,
-          -34.5290051
+          -58.5523409,
+          -34.5290138
         ],
         [
-          -58.5523361,
-          -34.5290626
+          -58.5523485,
+          -34.5290713
         ],
         [
-          -58.552222,
-          -34.5291652
+          -58.5522291,
+          -34.5291744
         ],
         [
-          -58.5521529,
-          -34.5291129
+          -58.5522155,
+          -34.5291589
         ],
         [
-          -58.55223,
-          -34.5290436
+          -58.5521624,
+          -34.5291176
         ],
         [
-          -58.5521949,
-          -34.5290171
+          -58.5522319,
+          -34.5290591
         ],
         [
-          -58.5522632,
-          -34.5289558
+          -58.5521921,
+          -34.5290284
+        ],
+        [
+          -58.5522725,
+          -34.5289573
         ]
       ]
     ]
@@ -12692,10 +12696,14 @@
   "type": "Feature",
   "id": "way/470798543",
   "properties": {
+    "addr:housenumber": "90",
     "addr:street": "Avenida Doctor Ricardo Balbín",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-05-31",
     "healthcare": "pharmacy",
+    "name": "Mitre90",
+    "opening_hours": "Mo-Sa 09:00-19:00; Su off",
     "id": "way/470798543"
   },
   "geometry": {
@@ -110997,6 +111005,7 @@
   "properties": {
     "addr:street": "Brandsen",
     "amenity": "pharmacy",
+    "check_date": "2024-06-02",
     "healthcare": "pharmacy",
     "name": "Fabbro",
     "id": "node/5229000736"
@@ -112655,6 +112664,7 @@
   "properties": {
     "addr:street": "Avenida Mitre",
     "amenity": "pharmacy",
+    "check_date": "2024-06-02",
     "healthcare": "pharmacy",
     "name": "De La Merced",
     "id": "node/5286800886"
@@ -133822,8 +133832,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4050897,
-      -34.6037746
+      -58.4050629,
+      -34.6036499
     ]
   }
 },
@@ -146039,6 +146049,7 @@
   "id": "node/8332679944",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Macagno",
     "id": "node/8332679944"
   },
@@ -175297,6 +175308,98 @@
     "coordinates": [
       -64.433706,
       -31.6485118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11948895818",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Elena - Minerva",
+    "operator": "Minerva Farmacias",
+    "id": "node/11948895818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7839079,
+      -28.4712832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11949183370",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/11949183370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4101137,
+      -34.7900693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11953932898",
+  "properties": {
+    "addr:city": "Mendiolaza",
+    "addr:postcode": "5107",
+    "addr:street": "Av. San Jose de Calasanz.",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/11953932898"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.3042866,
+      -31.2642993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11954008771",
+  "properties": {
+    "addr:city": "Monte Chingolo",
+    "addr:housenumber": "2600",
+    "addr:postcode": "B1826FCL",
+    "addr:street": "José Álvarez Condarco 2602",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Condarco 2600",
+    "id": "node/11954008771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3630448,
+      -34.7360427
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11958871579",
+  "properties": {
+    "addr:city": "San Manuel",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "D`Auro",
+    "id": "node/11958871579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.8474843,
+      -37.7867351
     ]
   }
 }
