@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-05T22:30:30Z",
-    "timestamp_areas_base": "2024-06-05T17:48:44Z",
+    "timestamp_osm_base": "2024-06-12T20:33:54Z",
+    "timestamp_areas_base": "2024-06-12T18:51:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3615,8 +3615,8 @@
 {
   "type": "node",
   "id": 3380165212,
-  "lat": -31.2454518,
-  "lon": -64.4652252,
+  "lat": -31.2454478,
+  "lon": -64.4652500,
   "tags": {
     "addr:street": "Pedro Ortíz y Tucumán",
     "amenity": "clinic",
@@ -46468,6 +46468,34 @@
   }
 },
 {
+  "type": "node",
+  "id": 11959473061,
+  "lat": -31.5682988,
+  "lon": -68.5806266,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Barrio Río Blanco",
+    "operator": "Ministerio de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11971013350,
+  "lat": -27.7829280,
+  "lon": -64.2611650,
+  "tags": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "333",
+    "addr:postcode": "4200",
+    "addr:street": "Jujuy",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Salud Jujuy",
+    "website": "https://centrosaludjujuy.com/"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -57090,35 +57118,6 @@
 },
 {
   "type": "way",
-  "id": 582380409,
-  "nodes": [
-    5567542789,
-    11767637094,
-    11767637095,
-    5569960344,
-    11767637093,
-    11767637092,
-    11767637091,
-    11767637090,
-    5569960343,
-    5569960342,
-    5567542789
-  ],
-  "tags": {
-    "addr:housenumber": "2765",
-    "addr:street": "Bulevar Tierra de Sueños",
-    "alt_name": "Consultorios del Tres",
-    "amenity": "clinic",
-    "building": "commercial",
-    "building:levels": "1",
-    "contact:website": "http://www.consultoriosdel3.com/",
-    "healthcare": "clinic",
-    "name": "Consultorios del 3",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
   "id": 586881132,
   "nodes": [
     5606794878,
@@ -57528,8 +57527,9 @@
     "amenity": "clinic",
     "contact:phone": "+54 (336) 448-9130",
     "healthcare": "clinic",
-    "name": "Centro de Medicina Preventiva (CEMPRE)",
-    "operator:type": "public"
+    "name": "Centro de Medicina Preventiva",
+    "operator:type": "public",
+    "short_name": "CEMPRE"
   }
 },
 {
@@ -60673,7 +60673,7 @@
     "building": "hospital",
     "emergency": "yes",
     "healthcare": "clinic",
-    "healthcare:speciality": "ophthalmology;dentist",
+    "healthcare:speciality": "ophthalmology;stomatology",
     "name": "Hospital Odonto-Oftalmológico Padre Juan Carlos Martínez",
     "operator": "Municipalidad de Merlo",
     "operator:type": "public"
@@ -67764,23 +67764,6 @@
 },
 {
   "type": "way",
-  "id": 1226598992,
-  "nodes": [
-    11374297942,
-    11374297943,
-    11374297944,
-    11374297945,
-    11374297942
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "house",
-    "healthcare": "clinic",
-    "name": "CREMED"
-  }
-},
-{
-  "type": "way",
   "id": 1229587948,
   "nodes": [
     4600800012,
@@ -68990,7 +68973,90 @@
     11937039652
   ],
   "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud \"Dominga Raimundo\" - Zona Sanitaria IV",
+    "operator": "Ministerio de Salud"
+  }
+},
+{
+  "type": "way",
+  "id": 1289781961,
+  "nodes": [
+    11959473066,
+    11959473058,
+    11959473060,
+    11959473059,
+    11959480445,
+    11959485378,
+    11959484118,
+    11959487103,
+    11959473063,
+    11959473064,
+    11959473067,
+    11959473066
+  ],
+  "tags": {
     "amenity": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1290090676,
+  "nodes": [
+    11961486370,
+    11961486436,
+    11961486403,
+    11961486446,
+    11961486404,
+    11961486371,
+    11961486450,
+    11961486372,
+    11961486392,
+    11961486415,
+    11961486390,
+    11961486416,
+    11961486391,
+    11961486373,
+    11961486393,
+    11961486447,
+    11961486370
+  ],
+  "tags": {
+    "addr:housenumber": "5185",
+    "addr:street": "Avenida Mario Cisneros",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics;vaccination;community;psychiatry;dentistry;applied_kinesiology",
+    "name": "Centro de Salud Hermes Binner",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 1290642017,
+  "nodes": [
+    11767637091,
+    11966425627,
+    11767637094,
+    5567542789,
+    5569960342,
+    5569960343,
+    11767637090,
+    11767637091
+  ],
+  "tags": {
+    "addr:housenumber": "2765",
+    "addr:street": "Bulevar Tierra de Sueños",
+    "alt_name": "Consultorios del Tres",
+    "amenity": "clinic",
+    "building:levels": "1",
+    "building:part": "commercial",
+    "contact:website": "http://www.consultoriosdel3.com/",
+    "healthcare": "clinic",
+    "name": "Consultorios del 3",
+    "wheelchair": "yes"
   }
 },
 {
@@ -78197,6 +78263,72 @@
 },
 {
   "type": "node",
+  "id": 11959473058,
+  "lat": -31.5682046,
+  "lon": -68.5805985
+},
+{
+  "type": "node",
+  "id": 11959473059,
+  "lat": -31.5682245,
+  "lon": -68.5805384
+},
+{
+  "type": "node",
+  "id": 11959473060,
+  "lat": -31.5682129,
+  "lon": -68.5805733
+},
+{
+  "type": "node",
+  "id": 11959473063,
+  "lat": -31.5686128,
+  "lon": -68.5804258
+},
+{
+  "type": "node",
+  "id": 11959473064,
+  "lat": -31.5684690,
+  "lon": -68.5808968
+},
+{
+  "type": "node",
+  "id": 11959473066,
+  "lat": -31.5680725,
+  "lon": -68.5809967
+},
+{
+  "type": "node",
+  "id": 11959473067,
+  "lat": -31.5683956,
+  "lon": -68.5811342
+},
+{
+  "type": "node",
+  "id": 11959480445,
+  "lat": -31.5683450,
+  "lon": -68.5801750
+},
+{
+  "type": "node",
+  "id": 11959484118,
+  "lat": -31.5686300,
+  "lon": -68.5802360
+},
+{
+  "type": "node",
+  "id": 11959485378,
+  "lat": -31.5683940,
+  "lon": -68.5801480
+},
+{
+  "type": "node",
+  "id": 11959487103,
+  "lat": -31.5686540,
+  "lon": -68.5802930
+},
+{
+  "type": "node",
   "id": 4556532533,
   "lat": -31.4714561,
   "lon": -68.7458498
@@ -83849,30 +83981,6 @@
 },
 {
   "type": "node",
-  "id": 11374297942,
-  "lat": -31.2378189,
-  "lon": -64.4669982
-},
-{
-  "type": "node",
-  "id": 11374297943,
-  "lat": -31.2377887,
-  "lon": -64.4671869
-},
-{
-  "type": "node",
-  "id": 11374297944,
-  "lat": -31.2376826,
-  "lon": -64.4671637
-},
-{
-  "type": "node",
-  "id": 11374297945,
-  "lat": -31.2377128,
-  "lon": -64.4669750
-},
-{
-  "type": "node",
   "id": 6923716496,
   "lat": -31.4399813,
   "lon": -64.3191423
@@ -85637,12 +85745,6 @@
 },
 {
   "type": "node",
-  "id": 5569960344,
-  "lat": -32.9363616,
-  "lon": -60.8776931
-},
-{
-  "type": "node",
   "id": 11767637090,
   "lat": -32.9364503,
   "lon": -60.8777482
@@ -85655,27 +85757,15 @@
 },
 {
   "type": "node",
-  "id": 11767637092,
-  "lat": -32.9364550,
-  "lon": -60.8777357
-},
-{
-  "type": "node",
-  "id": 11767637093,
-  "lat": -32.9364613,
-  "lon": -60.8777205
-},
-{
-  "type": "node",
   "id": 11767637094,
   "lat": -32.9364403,
   "lon": -60.8778300
 },
 {
   "type": "node",
-  "id": 11767637095,
-  "lat": -32.9363952,
-  "lon": -60.8777515
+  "id": 11966425627,
+  "lat": -32.9364060,
+  "lon": -60.8777703
 },
 {
   "type": "node",
@@ -86696,6 +86786,102 @@
   "id": 2885401470,
   "lat": -32.9282956,
   "lon": -60.7382650
+},
+{
+  "type": "node",
+  "id": 11961486370,
+  "lat": -32.9790790,
+  "lon": -60.6931857
+},
+{
+  "type": "node",
+  "id": 11961486373,
+  "lat": -32.9785631,
+  "lon": -60.6931938
+},
+{
+  "type": "node",
+  "id": 11961486390,
+  "lat": -32.9784931,
+  "lon": -60.6931420
+},
+{
+  "type": "node",
+  "id": 11961486391,
+  "lat": -32.9785110,
+  "lon": -60.6931813
+},
+{
+  "type": "node",
+  "id": 11961486393,
+  "lat": -32.9786322,
+  "lon": -60.6932073
+},
+{
+  "type": "node",
+  "id": 11961486403,
+  "lat": -32.9790775,
+  "lon": -60.6931306
+},
+{
+  "type": "node",
+  "id": 11961486416,
+  "lat": -32.9784984,
+  "lon": -60.6931536
+},
+{
+  "type": "node",
+  "id": 11961486436,
+  "lat": -32.9790781,
+  "lon": -60.6931514
+},
+{
+  "type": "node",
+  "id": 11961486446,
+  "lat": -32.9790734,
+  "lon": -60.6929869
+},
+{
+  "type": "node",
+  "id": 11961486447,
+  "lat": -32.9790331,
+  "lon": -60.6931879
+},
+{
+  "type": "node",
+  "id": 11961486371,
+  "lat": -32.9790681,
+  "lon": -60.6927984
+},
+{
+  "type": "node",
+  "id": 11961486372,
+  "lat": -32.9785002,
+  "lon": -60.6928001
+},
+{
+  "type": "node",
+  "id": 11961486392,
+  "lat": -32.9784849,
+  "lon": -60.6928184
+},
+{
+  "type": "node",
+  "id": 11961486404,
+  "lat": -32.9790692,
+  "lon": -60.6928346
+},
+{
+  "type": "node",
+  "id": 11961486415,
+  "lat": -32.9784858,
+  "lon": -60.6928542
+},
+{
+  "type": "node",
+  "id": 11961486450,
+  "lat": -32.9786248,
+  "lon": -60.6927956
 },
 {
   "type": "node",

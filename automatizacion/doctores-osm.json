@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-05T22:32:37Z",
-    "timestamp_areas_base": "2024-06-05T18:08:04Z",
+    "timestamp_osm_base": "2024-06-12T20:35:54Z",
+    "timestamp_areas_base": "2024-06-12T15:35:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1015,17 +1015,6 @@
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Kine Medic"
-  }
-},
-{
-  "type": "node",
-  "id": 2398915687,
-  "lat": -28.4666396,
-  "lon": -65.7635677,
-  "tags": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Posta Sanitaria"
   }
 },
 {
@@ -4585,7 +4574,7 @@
     "addr:street": "Perú",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "healthcare:speciality": "ophthalmology;dentist",
+    "healthcare:speciality": "ophthalmology;stomatology",
     "name": "Consultorio Acassuso",
     "phone": "+54 11 4707 0915",
     "source": "Reconocimiento terrestre por Kaart 2016"
@@ -16478,7 +16467,6 @@
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
-    "payment:onchain": "yes",
     "wheelchair": "yes"
   }
 },
@@ -17919,11 +17907,13 @@
     "addr:postcode": "1642",
     "addr:street": "Avenida Centenario",
     "amenity": "doctors",
+    "check_date": "2024-06-11",
     "healthcare": "doctor",
     "healthcare:speciality": "cardiology;ophthalmology;gastroenterology;clinic",
     "name": "OSECAC San Isidro",
     "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00; Su off",
-    "website": "https://www.osecac.org.ar/"
+    "website": "https://www.osecac.org.ar/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -20762,6 +20752,18 @@
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Sonnenberg"
+  }
+},
+{
+  "type": "node",
+  "id": 11969903766,
+  "lat": -34.8145646,
+  "lon": -58.4662291,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "orthopaedics",
+    "name": "Manoukian"
   }
 },
 {
@@ -24345,7 +24347,8 @@
     "healthcare:speciality": "general;vaccination;nurse;cardiology;paediatrics",
     "name": "Tierra de Sueños 3",
     "official_name": "Centro de Salud Tierra de Sueños 3",
-    "opening_hours": "Mo-Su 08:00-20:00"
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "wheelchair": "yes"
   }
 },
 {

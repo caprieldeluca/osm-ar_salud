@@ -7840,6 +7840,7 @@
     "name": "Tierra de Sueños 3",
     "official_name": "Centro de Salud Tierra de Sueños 3",
     "opening_hours": "Mo-Su 08:00-20:00",
+    "wheelchair": "yes",
     "id": "way/921700146"
   },
   "geometry": {
@@ -11474,23 +11475,6 @@
     "coordinates": [
       -55.136145,
       -27.873113
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2398915687",
-  "properties": {
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "Posta Sanitaria",
-    "id": "node/2398915687"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.7635677,
-      -28.4666396
     ]
   }
 },
@@ -16447,7 +16431,7 @@
     "addr:street": "Perú",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "healthcare:speciality": "ophthalmology;dentist",
+    "healthcare:speciality": "ophthalmology;stomatology",
     "name": "Consultorio Acassuso",
     "phone": "+54 11 4707 0915",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -32906,7 +32890,6 @@
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
-    "payment:onchain": "yes",
     "wheelchair": "yes",
     "id": "node/8332679952"
   },
@@ -34911,11 +34894,13 @@
     "addr:postcode": "1642",
     "addr:street": "Avenida Centenario",
     "amenity": "doctors",
+    "check_date": "2024-06-11",
     "healthcare": "doctor",
     "healthcare:speciality": "cardiology;ophthalmology;gastroenterology;clinic",
     "name": "OSECAC San Isidro",
     "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00; Su off",
     "website": "https://www.osecac.org.ar/",
+    "wheelchair": "yes",
     "id": "node/9025448563"
   },
   "geometry": {
@@ -38955,6 +38940,24 @@
     "coordinates": [
       -59.118614,
       -34.5624551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11969903766",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "orthopaedics",
+    "name": "Manoukian",
+    "id": "node/11969903766"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4662291,
+      -34.8145646
     ]
   }
 }
