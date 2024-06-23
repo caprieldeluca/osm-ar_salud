@@ -19711,14 +19711,14 @@
   "properties": {
     "addr:city": "Margarita Belen",
     "addr:country": "AR",
-    "addr:housenumber": "Dr Tusso",
+    "addr:housename": "Dr Tusso",
     "addr:postcode": "3505",
     "addr:state": "Chaco",
     "addr:street": "Juan Pellizardi",
     "amenity": "hospital",
     "building": "hospital",
     "healthcare": "hospital",
-    "healthcare:speciality": "general;dentistry",
+    "healthcare:speciality": "general;stomatology",
     "name": "Dr Tusso",
     "opening_hours": "24/7",
     "id": "way/232287911"
@@ -38225,6 +38225,10 @@
         [
           -71.0765084,
           -39.9489924
+        ],
+        [
+          -71.0764822,
+          -39.9489981
         ],
         [
           -71.0764547,
@@ -67214,84 +67218,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/988986877",
-  "properties": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "770",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida General Fernández Oro",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "loc_name": "Hospital Viejo",
-    "name": "Hospital de Área Programa Cipolletti",
-    "old_name": "Hospital de Área Programa Cipolletti \"Doctor Pedro Moguillansky\"",
-    "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public",
-    "id": "way/988986877"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -67.9921996,
-          -38.9421109
-        ],
-        [
-          -67.9921749,
-          -38.9421165
-        ],
-        [
-          -67.9918871,
-          -38.9421776
-        ],
-        [
-          -67.991859,
-          -38.9421836
-        ],
-        [
-          -67.9916695,
-          -38.9422239
-        ],
-        [
-          -67.9916501,
-          -38.9421681
-        ],
-        [
-          -67.9916273,
-          -38.9421728
-        ],
-        [
-          -67.9914934,
-          -38.9417916
-        ],
-        [
-          -67.9918962,
-          -38.9417059
-        ],
-        [
-          -67.9920457,
-          -38.9416741
-        ],
-        [
-          -67.9921006,
-          -38.9418306
-        ],
-        [
-          -67.9921396,
-          -38.9419441
-        ],
-        [
-          -67.9921996,
-          -38.9421109
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/998142031",
   "properties": {
     "amenity": "hospital",
@@ -76223,70 +76149,6 @@
         [
           -62.71568,
           -34.2739132
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/1201477622",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "id": "way/1201477622"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.8342354,
-          -34.7836679
-        ],
-        [
-          -58.8345595,
-          -34.7841017
-        ],
-        [
-          -58.8344764,
-          -34.7841384
-        ],
-        [
-          -58.8347234,
-          -34.7844677
-        ],
-        [
-          -58.8344209,
-          -34.7846236
-        ],
-        [
-          -58.8342449,
-          -34.7843789
-        ],
-        [
-          -58.8340443,
-          -34.7844786
-        ],
-        [
-          -58.8339384,
-          -34.7843312
-        ],
-        [
-          -58.8341035,
-          -34.7842552
-        ],
-        [
-          -58.8339943,
-          -34.7840896
-        ],
-        [
-          -58.833822,
-          -34.7838505
-        ],
-        [
-          -58.8342354,
-          -34.7836679
         ]
       ]
     ]
@@ -94662,8 +94524,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.8373091,
-      -34.7818314
+      -58.8373198,
+      -34.7817345
     ]
   }
 },
@@ -100684,6 +100546,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/6083737098",
+  "properties": {
+    "addr:city": "Comodoro Rivadavia",
+    "addr:housenumber": "130",
+    "addr:postcode": "9003",
+    "addr:street": "Doctor Orestes Riccardi",
+    "amenity": "hospital",
+    "healthcare": "yes",
+    "name": "CAPS Centro de Atención Primaria de Salud Barrio Astra",
+    "operator": "Provincia del Chubut",
+    "operator:type": "public",
+    "phone": "+54 297 4863105",
+    "ref:sisa_codigo": "50260212129088",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/6083737098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.4856064,
+      -45.7277196
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6091440746",
   "properties": {
     "addr:city": "Ulapes",
@@ -103787,12 +103675,11 @@
   "id": "node/7385695221",
   "properties": {
     "addr:city": "San Juan",
-    "addr:full": "Bernardo O Higgins -Este- 21",
-    "addr:place": "Capital",
+    "addr:housenumber": "21 (E)",
     "addr:postcode": "5400",
+    "addr:street": "Bernardo O'Higgins",
     "amenity": "hospital",
     "description": "Mediano riesgo con internación con cuidados especiales",
-    "fixme": "Verificar que la numeracion de la calle sea la correcta",
     "healthcare": "hospital",
     "name": "Instituto Modelo de Cirugia Infantil - Consultorios Externos Y Hospital De Dia",
     "operator:type": "public",
@@ -103804,8 +103691,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5216887,
-      -31.5438846
+      -68.5216484,
+      -31.543882
     ]
   }
 },
@@ -112272,6 +112159,32 @@
     "coordinates": [
       -67.9235742,
       -38.9553864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12001754258",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "770",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida General Fernández Oro",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "loc_name": "Hospital Viejo",
+    "name": "Hospital de Área Programa Cipolletti",
+    "old_name": "Hospital de Área Programa Cipolletti \"Doctor Pedro Moguillansky\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "id": "node/12001754258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9918473,
+      -38.9419501
     ]
   }
 }

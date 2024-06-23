@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-12T20:34:56Z",
-    "timestamp_areas_base": "2024-06-12T15:35:29Z",
+    "timestamp_osm_base": "2024-06-23T16:00:01Z",
+    "timestamp_areas_base": "2024-06-23T12:02:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -85,13 +85,15 @@
 {
   "type": "node",
   "id": 423006982,
-  "lat": -28.4705386,
-  "lon": -65.7884637,
+  "lat": -28.4705645,
+  "lon": -65.7884489,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Colón",
-    "operator": "Red Colon"
+    "opening_hours": "24/7",
+    "operator": "Red Colón"
   }
 },
 {
@@ -1285,8 +1287,8 @@
 {
   "type": "node",
   "id": 724302928,
-  "lat": -34.5924319,
-  "lon": -58.4064244,
+  "lat": -34.5924131,
+  "lon": -58.4064620,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -1473,6 +1475,7 @@
   "tags": {
     "addr:street": "Boulevard Buenos Aires",
     "amenity": "pharmacy",
+    "check_date": "2024-06-17",
     "healthcare": "pharmacy",
     "name": "Matayoshi",
     "phone": "+54 11 4290-1174"
@@ -3503,8 +3506,8 @@
 {
   "type": "node",
   "id": 1285498070,
-  "lat": -34.9258578,
-  "lon": -58.9455277,
+  "lat": -34.9258853,
+  "lon": -58.9455183,
   "tags": {
     "addr:state": "Buenos Aires",
     "amenity": "pharmacy",
@@ -4851,6 +4854,8 @@
   "lat": -27.4484092,
   "lon": -58.9858422,
   "tags": {
+    "addr:housenumber": "124",
+    "addr:street": "Santa Fe",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "General Paz"
@@ -5194,10 +5199,15 @@
     "addr:postcode": "B1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-06-18",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Selma",
     "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:nfc": "yes",
     "phone": "+54 911 4073-1597",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "https://selmadigital.com/",
@@ -9474,8 +9484,8 @@
 {
   "type": "node",
   "id": 2264082375,
-  "lat": -34.5898814,
-  "lon": -58.4000032,
+  "lat": -34.5898936,
+  "lon": -58.4000190,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -16265,10 +16275,11 @@
 {
   "type": "node",
   "id": 2713116747,
-  "lat": -32.6827933,
-  "lon": -61.5181028,
+  "lat": -32.6823868,
+  "lon": -61.5179601,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Reinaldi"
   }
@@ -16280,6 +16291,7 @@
   "lon": -61.5182499,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Astegiano"
   }
@@ -18032,8 +18044,8 @@
 {
   "type": "node",
   "id": 2998346742,
-  "lat": -31.2960844,
-  "lon": -64.4626204,
+  "lat": -31.2961205,
+  "lon": -64.4625963,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
@@ -20015,6 +20027,7 @@
   "lon": -58.4664040,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-06-18",
     "healthcare": "pharmacy",
     "name": "Punto de Salud",
     "phone": "+54 11 4281-7271"
@@ -20052,6 +20065,7 @@
   "lon": -58.4531166,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-06-17",
     "healthcare": "pharmacy",
     "name": "Punto de Salud",
     "phone": "+54 11 4281-9300"
@@ -21533,8 +21547,8 @@
 {
   "type": "node",
   "id": 3290146258,
-  "lat": -34.7844494,
-  "lon": -58.2848283,
+  "lat": -34.7847314,
+  "lon": -58.2855954,
   "tags": {
     "amenity": "pharmacy",
     "name": "Nuevo Hospital"
@@ -25401,8 +25415,8 @@
 {
   "type": "node",
   "id": 3575739104,
-  "lat": -34.5939637,
-  "lon": -58.4043034,
+  "lat": -34.5939372,
+  "lon": -58.4042685,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -27804,8 +27818,8 @@
 {
   "type": "node",
   "id": 3785186975,
-  "lat": -53.7731637,
-  "lon": -67.7234355,
+  "lat": -53.7731906,
+  "lon": -67.7235079,
   "tags": {
     "addr:city": "Río Grande",
     "addr:housenumber": "104",
@@ -39223,11 +39237,18 @@
   "lon": -58.6411564,
   "tags": {
     "addr:city": "Don Torcuato",
+    "addr:housenumber": "602",
     "addr:street": "Avenida Ángel Torcuato de Alvear",
     "amenity": "pharmacy",
+    "check_date": "2024-06-21",
     "healthcare": "pharmacy",
     "name": "Farmacia JKS",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "opening_hours": "Mo-Sa 08:00-20:30; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "http://www.farmaciajks.com.ar/"
   }
 },
 {
@@ -41593,10 +41614,26 @@
     "addr:postcode": "1642",
     "addr:street": "Avenida Centenario",
     "amenity": "pharmacy",
+    "check_date": "2024-06-18",
     "healthcare": "pharmacy",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
     "name": "Farmacia Fabris",
     "opening_hours": "Mo-Fr 07:30-20:00; Sa 08:00-15:00; Su off",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:diners_club": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:mastercard_debit": "yes",
+    "payment:nfc": "yes",
+    "payment:nfc_mobile_payments": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016.",
+    "wheelchair": "yes"
   }
 },
 {
@@ -41747,6 +41784,7 @@
   "lon": -58.4596520,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-06-22",
     "healthcare": "pharmacy",
     "name": "Picasso"
   }
@@ -42779,7 +42817,6 @@
     "addr:street": "Avenida de los Corrales",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -42811,7 +42848,6 @@
     "addr:street": "Andalgalá",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -42858,6 +42894,7 @@
     "addr:street": "Avenida Directorio",
     "amenity": "pharmacy",
     "fixme": "name",
+    "healthcare": "pharmacy",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -43737,8 +43774,8 @@
 {
   "type": "node",
   "id": 4708556761,
-  "lat": -34.5924442,
-  "lon": -58.4064101,
+  "lat": -34.5924486,
+  "lon": -58.4064396,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -46384,19 +46421,26 @@
 {
   "type": "node",
   "id": 5003244296,
-  "lat": -32.9297632,
-  "lon": -60.7318586,
+  "lat": -32.9297238,
+  "lon": -60.7322663,
   "tags": {
     "addr:city": "Rosario",
     "addr:country": "AR",
-    "addr:housenumber": "7887",
+    "addr:housenumber": "7907",
     "addr:postcode": "S2008",
     "addr:state": "Santa Fe",
     "addr:street": "Avenida Eva Perón",
     "amenity": "pharmacy",
+    "contact:facebook": "farmaciaceschin",
+    "contact:instagram": "farmaciaceschin",
+    "contact:phone": "+54 0341 840-4781; +54 341 690-4420",
+    "contact:website": "https://farmaciaceschin.com.ar/",
+    "contact:whatsapp": "+54 341 690-4420",
+    "delivery": "yes",
     "healthcare": "pharmacy",
     "level": "0",
-    "name": "Ceschin"
+    "name": "Ceschin",
+    "opening_hours": "Mo-Fr 07:30-22:00; Sa 08:00-22:00; Su 09:00-13:00,17:00-21:00"
   }
 },
 {
@@ -54161,8 +54205,8 @@
 {
   "type": "node",
   "id": 5742593478,
-  "lat": -35.0018411,
-  "lon": -61.0416591,
+  "lat": -35.0018899,
+  "lon": -61.0415906,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -55104,18 +55148,6 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Mutual Savio"
-  }
-},
-{
-  "type": "node",
-  "id": 5791021028,
-  "lat": -33.3815452,
-  "lon": -60.1768840,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Palau"
   }
 },
 {
@@ -69998,6 +70030,7 @@
   "lon": -58.4625454,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-06-19",
     "name": "Vitanova"
   }
 },
@@ -70170,6 +70203,7 @@
   "lon": -68.3068181,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-06-19",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Andina"
@@ -71625,6 +71659,7 @@
     "addr:postcode": "V9410",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
+    "check_date": "2024-06-20",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
@@ -76739,8 +76774,8 @@
 {
   "type": "node",
   "id": 9432459694,
-  "lat": -32.6796109,
-  "lon": -61.5187077,
+  "lat": -32.6797072,
+  "lon": -61.5182127,
   "tags": {
     "addr:city": "Las Parejas",
     "addr:country": "AR",
@@ -81170,6 +81205,7 @@
   "lon": -58.5622121,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Cuadra"
   }
 },
@@ -91356,8 +91392,8 @@
 {
   "type": "node",
   "id": 11415752273,
-  "lat": -34.5891894,
-  "lon": -58.4096631,
+  "lat": -34.5892071,
+  "lon": -58.4096698,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -93377,6 +93413,77 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Arenales"
+  }
+},
+{
+  "type": "node",
+  "id": 11978369443,
+  "lat": -31.6085156,
+  "lon": -60.7041580,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "6253",
+    "addr:postcode": "3000",
+    "addr:street": "Avenida Facundo Zuviría",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Peiró",
+    "opening_hours": "Mo-Fr 08:30-12:30 14:30-18 Sa 8:30-12:30"
+  }
+},
+{
+  "type": "node",
+  "id": 11983631251,
+  "lat": -31.6382582,
+  "lon": -60.7165674,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Abregu"
+  }
+},
+{
+  "type": "node",
+  "id": 11992492121,
+  "lat": -32.9761780,
+  "lon": -60.6351878,
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:housenumber": "3199",
+    "addr:postcode": "2000",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "pharmacy",
+    "contact:phone": "+54 341 297-4931",
+    "healthcare": "pharmacy",
+    "name": "Poussif"
+  }
+},
+{
+  "type": "node",
+  "id": 11999951270,
+  "lat": -31.8101446,
+  "lon": -68.3276868,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Barrado II"
+  }
+},
+{
+  "type": "node",
+  "id": 12001754250,
+  "lat": -38.9398830,
+  "lon": -67.9934038,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "607",
+    "addr:postcode": "R8324",
+    "addr:street": "General Roca",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Centro"
   }
 },
 {
@@ -98066,6 +98173,7 @@
     "addr:street": "Boulevard Buenos Aires",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-06-18",
     "healthcare": "pharmacy",
     "name": "Farma 24",
     "phone": "+54 11 4290-9955"
@@ -98877,7 +98985,6 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
-    "fixme": "name",
     "healthcare": "pharmacy",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -101920,7 +102027,10 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Escalada",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -101943,6 +102053,7 @@
     "addr:street": "Avenida Directorio",
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -102498,8 +102609,7 @@
     "building": "yes",
     "building:levels": "2",
     "healthcare": "pharmacy",
-    "name": "Farmacity",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Farmacity"
   }
 },
 {
@@ -106839,32 +106949,6 @@
 },
 {
   "type": "way",
-  "id": 711551382,
-  "nodes": [
-    6250342328,
-    6689910383,
-    6689910384,
-    6250342326,
-    6250342327,
-    6250342328
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "607",
-    "addr:postcode": "R8324",
-    "addr:street": "General Roca",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "building:colour": "lightgrey",
-    "dispensing": "yes",
-    "drive_through": "no",
-    "healthcare": "pharmacy",
-    "height": "6",
-    "name": "Farmacia del Centro"
-  }
-},
-{
-  "type": "way",
   "id": 712297787,
   "nodes": [
     6697235754,
@@ -108135,25 +108219,6 @@
 },
 {
   "type": "way",
-  "id": 827754250,
-  "nodes": [
-    7727661969,
-    7727661970,
-    7727661971,
-    7727661968,
-    7727661965,
-    7727661969
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Seratti"
-  }
-},
-{
-  "type": "way",
   "id": 829442063,
   "nodes": [
     7741863284,
@@ -108169,7 +108234,8 @@
     "addr:postcode": "V9410",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "building": "yes",
+    "building": "retail",
+    "check_date": "2024-06-20",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Salk"
@@ -109310,7 +109376,8 @@
     "addr:postcode": "V9410",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "building": "yes",
+    "building": "retail",
+    "check_date": "2024-06-20",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Autofarma"
@@ -109334,7 +109401,8 @@
     "addr:postcode": "V9410",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "building": "yes",
+    "building": "apartments",
+    "check_date": "2024-06-20",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Bahía"
@@ -112259,41 +112327,6 @@
 },
 {
   "type": "way",
-  "id": 1221797828,
-  "nodes": [
-    11331420845,
-    11331420846,
-    11331420847,
-    11331420848,
-    11331420845
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "way",
-  "id": 1221797841,
-  "nodes": [
-    11331420900,
-    11331420903,
-    11331420926,
-    11331420904,
-    11331420905,
-    11331420906,
-    11331420907,
-    11331420900
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "way",
   "id": 1222075253,
   "nodes": [
     11333715426,
@@ -112357,24 +112390,6 @@
     "operator": "Salvado Hnos. S.A.",
     "phone": "+54 299 442-2912",
     "website": "https://www.farmaciadelpueblo.com.ar/"
-  }
-},
-{
-  "type": "way",
-  "id": 1223953013,
-  "nodes": [
-    11352607880,
-    11352607976,
-    11352607977,
-    11352607986,
-    11352607881,
-    11352607880
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "La Cuesta"
   }
 },
 {
@@ -112466,22 +112481,6 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Perlotti",
     "phone": "+54 9 291 453-3238"
-  }
-},
-{
-  "type": "way",
-  "id": 1225705669,
-  "nodes": [
-    11366848058,
-    11366848059,
-    11366848060,
-    11366848061,
-    11366848058
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy"
   }
 },
 {
@@ -112928,6 +112927,40 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Brasesco"
+  }
+},
+{
+  "type": "way",
+  "id": 1292541960,
+  "nodes": [
+    11982291981,
+    11982291959,
+    11982291958,
+    11982291980,
+    11982291981
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "retail",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Palau"
+  }
+},
+{
+  "type": "way",
+  "id": 1294868550,
+  "nodes": [
+    11999950721,
+    11999950704,
+    11999950701,
+    11999950706,
+    11999950719,
+    11999950721
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes"
   }
 },
 {
@@ -115041,66 +115074,6 @@
   "id": 11399484031,
   "lat": -38.9478723,
   "lon": -67.9917327
-},
-{
-  "type": "node",
-  "id": 6250342326,
-  "lat": -38.9398336,
-  "lon": -67.9933100
-},
-{
-  "type": "node",
-  "id": 6250342327,
-  "lat": -38.9399568,
-  "lon": -67.9933509
-},
-{
-  "type": "node",
-  "id": 6250342328,
-  "lat": -38.9399269,
-  "lon": -67.9935014
-},
-{
-  "type": "node",
-  "id": 6689910383,
-  "lat": -38.9398381,
-  "lon": -67.9934720
-},
-{
-  "type": "node",
-  "id": 6689910384,
-  "lat": -38.9398127,
-  "lon": -67.9934160
-},
-{
-  "type": "node",
-  "id": 7727661965,
-  "lat": -38.9377553,
-  "lon": -67.9917111
-},
-{
-  "type": "node",
-  "id": 7727661968,
-  "lat": -38.9377793,
-  "lon": -67.9915934
-},
-{
-  "type": "node",
-  "id": 7727661969,
-  "lat": -38.9377049,
-  "lon": -67.9916945
-},
-{
-  "type": "node",
-  "id": 7727661970,
-  "lat": -38.9377342,
-  "lon": -67.9915524
-},
-{
-  "type": "node",
-  "id": 7727661971,
-  "lat": -38.9377569,
-  "lon": -67.9915610
 },
 {
   "type": "node",
@@ -119094,102 +119067,6 @@
 },
 {
   "type": "node",
-  "id": 11352607880,
-  "lat": -31.4096969,
-  "lon": -64.4799364
-},
-{
-  "type": "node",
-  "id": 11352607881,
-  "lat": -31.4096725,
-  "lon": -64.4798194
-},
-{
-  "type": "node",
-  "id": 11352607976,
-  "lat": -31.4095175,
-  "lon": -64.4799913
-},
-{
-  "type": "node",
-  "id": 11352607977,
-  "lat": -31.4094795,
-  "lon": -64.4798689
-},
-{
-  "type": "node",
-  "id": 11352607986,
-  "lat": -31.4095725,
-  "lon": -64.4798451
-},
-{
-  "type": "node",
-  "id": 11331420845,
-  "lat": -31.4072585,
-  "lon": -64.4777150
-},
-{
-  "type": "node",
-  "id": 11331420846,
-  "lat": -31.4071291,
-  "lon": -64.4777295
-},
-{
-  "type": "node",
-  "id": 11331420847,
-  "lat": -31.4071319,
-  "lon": -64.4776715
-},
-{
-  "type": "node",
-  "id": 11331420848,
-  "lat": -31.4071980,
-  "lon": -64.4776053
-},
-{
-  "type": "node",
-  "id": 11331420900,
-  "lat": -31.4078383,
-  "lon": -64.4785330
-},
-{
-  "type": "node",
-  "id": 11331420903,
-  "lat": -31.4078975,
-  "lon": -64.4785927
-},
-{
-  "type": "node",
-  "id": 11331420904,
-  "lat": -31.4078080,
-  "lon": -64.4787056
-},
-{
-  "type": "node",
-  "id": 11331420905,
-  "lat": -31.4077488,
-  "lon": -64.4787637
-},
-{
-  "type": "node",
-  "id": 11331420906,
-  "lat": -31.4077116,
-  "lon": -64.4787137
-},
-{
-  "type": "node",
-  "id": 11331420907,
-  "lat": -31.4077453,
-  "lon": -64.4786285
-},
-{
-  "type": "node",
-  "id": 11331420926,
-  "lat": -31.4078880,
-  "lon": -64.4786046
-},
-{
-  "type": "node",
   "id": 7814352443,
   "lat": -31.3147278,
   "lon": -64.4614253
@@ -119217,30 +119094,6 @@
   "id": 7814352447,
   "lat": -31.3146915,
   "lon": -64.4614147
-},
-{
-  "type": "node",
-  "id": 11366848058,
-  "lat": -31.2961358,
-  "lon": -64.4626578
-},
-{
-  "type": "node",
-  "id": 11366848059,
-  "lat": -31.2960762,
-  "lon": -64.4625881
-},
-{
-  "type": "node",
-  "id": 11366848060,
-  "lat": -31.2961701,
-  "lon": -64.4625049
-},
-{
-  "type": "node",
-  "id": 11366848061,
-  "lat": -31.2961541,
-  "lon": -64.4626551
 },
 {
   "type": "node",
@@ -129403,26 +129256,26 @@
 {
   "type": "node",
   "id": 4617359226,
-  "lat": -34.6334959,
-  "lon": -58.6537408
+  "lat": -34.6334968,
+  "lon": -58.6537431
 },
 {
   "type": "node",
   "id": 4617359227,
-  "lat": -34.6335474,
-  "lon": -58.6535784
+  "lat": -34.6335441,
+  "lon": -58.6535804
 },
 {
   "type": "node",
   "id": 4617359228,
-  "lat": -34.6334575,
-  "lon": -58.6535476
+  "lat": -34.6334554,
+  "lon": -58.6535423
 },
 {
   "type": "node",
   "id": 4617359229,
-  "lat": -34.6334051,
-  "lon": -58.6537068
+  "lat": -34.6334081,
+  "lon": -58.6537051
 },
 {
   "type": "node",
@@ -129553,14 +129406,14 @@
 {
   "type": "node",
   "id": 4708921582,
-  "lat": -34.6487617,
-  "lon": -58.5641482
+  "lat": -34.6487644,
+  "lon": -58.5641504
 },
 {
   "type": "node",
   "id": 4708921585,
-  "lat": -34.6488045,
-  "lon": -58.5643925
+  "lat": -34.6488017,
+  "lon": -58.5643975
 },
 {
   "type": "node",
@@ -129571,8 +129424,8 @@
 {
   "type": "node",
   "id": 4708921588,
-  "lat": -34.6489292,
-  "lon": -58.5643598
+  "lat": -34.6489379,
+  "lon": -58.5643672
 },
 {
   "type": "node",
@@ -133321,26 +133174,26 @@
 {
   "type": "node",
   "id": 4708701464,
-  "lat": -34.5874200,
-  "lon": -58.4127279
+  "lat": -34.5874134,
+  "lon": -58.4127668
 },
 {
   "type": "node",
   "id": 4708701465,
-  "lat": -34.5875339,
-  "lon": -58.4128600
+  "lat": -34.5875880,
+  "lon": -58.4129673
 },
 {
   "type": "node",
   "id": 4708701466,
-  "lat": -34.5874901,
-  "lon": -58.4129291
+  "lat": -34.5875475,
+  "lon": -58.4130364
 },
 {
   "type": "node",
   "id": 4708701467,
-  "lat": -34.5873710,
-  "lon": -58.4128037
+  "lat": -34.5873655,
+  "lon": -58.4128332
 },
 {
   "type": "node",
@@ -136933,32 +136786,32 @@
 {
   "type": "node",
   "id": 5051704860,
-  "lat": -34.5626781,
-  "lon": -58.4436108
+  "lat": -34.5626838,
+  "lon": -58.4436334
 },
 {
   "type": "node",
   "id": 5051704861,
-  "lat": -34.5626778,
-  "lon": -58.4435695
+  "lat": -34.5626835,
+  "lon": -58.4435824
 },
 {
   "type": "node",
   "id": 5051704862,
-  "lat": -34.5626182,
-  "lon": -58.4434842
+  "lat": -34.5626300,
+  "lon": -58.4434865
 },
 {
   "type": "node",
   "id": 5051704863,
-  "lat": -34.5625265,
-  "lon": -58.4435786
+  "lat": -34.5624915,
+  "lon": -58.4436054
 },
 {
   "type": "node",
   "id": 5051704864,
-  "lat": -34.5626030,
-  "lon": -58.4436882
+  "lat": -34.5625996,
+  "lon": -58.4437335
 },
 {
   "type": "node",
@@ -138141,6 +137994,60 @@
   "id": 11973591796,
   "lat": -33.3560420,
   "lon": -60.1935228
+},
+{
+  "type": "node",
+  "id": 11999950701,
+  "lat": -33.3873708,
+  "lon": -60.1758444
+},
+{
+  "type": "node",
+  "id": 11999950706,
+  "lat": -33.3873750,
+  "lon": -60.1758435
+},
+{
+  "type": "node",
+  "id": 11999950719,
+  "lat": -33.3873464,
+  "lon": -60.1756516
+},
+{
+  "type": "node",
+  "id": 11982291958,
+  "lat": -33.3815221,
+  "lon": -60.1770481
+},
+{
+  "type": "node",
+  "id": 11982291959,
+  "lat": -33.3815027,
+  "lon": -60.1769312
+},
+{
+  "type": "node",
+  "id": 11982291980,
+  "lat": -33.3814347,
+  "lon": -60.1770690
+},
+{
+  "type": "node",
+  "id": 11982291981,
+  "lat": -33.3814152,
+  "lon": -60.1769522
+},
+{
+  "type": "node",
+  "id": 11999950704,
+  "lat": -33.3872934,
+  "lon": -60.1758609
+},
+{
+  "type": "node",
+  "id": 11999950721,
+  "lat": -33.3872648,
+  "lon": -60.1756690
 },
 {
   "type": "node",

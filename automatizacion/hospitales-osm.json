@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-12T20:31:51Z",
-    "timestamp_areas_base": "2024-06-12T15:35:29Z",
+    "timestamp_osm_base": "2024-06-23T15:58:01Z",
+    "timestamp_areas_base": "2024-06-13T01:59:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11078,8 +11078,8 @@
 {
   "type": "node",
   "id": 4379980108,
-  "lat": -34.7818314,
-  "lon": -58.8373091,
+  "lat": -34.7817345,
+  "lon": -58.8373198,
   "tags": {
     "addr:city": "marcos paz",
     "addr:postcode": "1727",
@@ -15452,6 +15452,26 @@
 },
 {
   "type": "node",
+  "id": 6083737098,
+  "lat": -45.7277196,
+  "lon": -67.4856064,
+  "tags": {
+    "addr:city": "Comodoro Rivadavia",
+    "addr:housenumber": "130",
+    "addr:postcode": "9003",
+    "addr:street": "Doctor Orestes Riccardi",
+    "amenity": "hospital",
+    "healthcare": "yes",
+    "name": "CAPS Centro de Atención Primaria de Salud Barrio Astra",
+    "operator": "Provincia del Chubut",
+    "operator:type": "public",
+    "phone": "+54 297 4863105",
+    "ref:sisa_codigo": "50260212129088",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
   "id": 6091440746,
   "lat": -31.5713291,
   "lon": -66.2334121,
@@ -17695,16 +17715,15 @@
 {
   "type": "node",
   "id": 7385695221,
-  "lat": -31.5438846,
-  "lon": -68.5216887,
+  "lat": -31.5438820,
+  "lon": -68.5216484,
   "tags": {
     "addr:city": "San Juan",
-    "addr:full": "Bernardo O Higgins -Este- 21",
-    "addr:place": "Capital",
+    "addr:housenumber": "21 (E)",
     "addr:postcode": "5400",
+    "addr:street": "Bernardo O'Higgins",
     "amenity": "hospital",
     "description": "Mediano riesgo con internación con cuidados especiales",
-    "fixme": "Verificar que la numeracion de la calle sea la correcta",
     "healthcare": "hospital",
     "name": "Instituto Modelo de Cirugia Infantil - Consultorios Externos Y Hospital De Dia",
     "operator:type": "public",
@@ -24005,6 +24024,26 @@
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)",
     "wikidata": "Q94704897"
+  }
+},
+{
+  "type": "node",
+  "id": 12001754258,
+  "lat": -38.9419501,
+  "lon": -67.9918473,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "770",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida General Fernández Oro",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "loc_name": "Hospital Viejo",
+    "name": "Hospital de Área Programa Cipolletti",
+    "old_name": "Hospital de Área Programa Cipolletti \"Doctor Pedro Moguillansky\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public"
   }
 },
 {
@@ -30413,14 +30452,14 @@
   "tags": {
     "addr:city": "Margarita Belen",
     "addr:country": "AR",
-    "addr:housenumber": "Dr Tusso",
+    "addr:housename": "Dr Tusso",
     "addr:postcode": "3505",
     "addr:state": "Chaco",
     "addr:street": "Juan Pellizardi",
     "amenity": "hospital",
     "building": "hospital",
     "healthcare": "hospital",
-    "healthcare:speciality": "general;dentistry",
+    "healthcare:speciality": "general;stomatology",
     "name": "Dr Tusso",
     "opening_hours": "24/7"
   }
@@ -38410,6 +38449,7 @@
     11841852773,
     11841852617,
     11841852618,
+    11981088724,
     11841852619,
     11841852620,
     11841852622,
@@ -51111,39 +51151,6 @@
 },
 {
   "type": "way",
-  "id": 988986877,
-  "nodes": [
-    9140942948,
-    9140942965,
-    9140942963,
-    9140942949,
-    9140942959,
-    9140942950,
-    9140942958,
-    9140942951,
-    9140942957,
-    9140942956,
-    9140942953,
-    9140942952,
-    9140942948
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "770",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida General Fernández Oro",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "loc_name": "Hospital Viejo",
-    "name": "Hospital de Área Programa Cipolletti",
-    "old_name": "Hospital de Área Programa Cipolletti \"Doctor Pedro Moguillansky\"",
-    "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public"
-  }
-},
-{
-  "type": "way",
   "id": 998142031,
   "nodes": [
     9216168809,
@@ -54972,28 +54979,6 @@
     "opening_hours": "24/7",
     "operator:type": "public",
     "phone": "+54 3382 422487"
-  }
-},
-{
-  "type": "way",
-  "id": 1201477622,
-  "nodes": [
-    11139173059,
-    11139173060,
-    11139173061,
-    11139173062,
-    11139173063,
-    11139173064,
-    11139173065,
-    11139173066,
-    11139173067,
-    11139173068,
-    11139173069,
-    11139173059
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital"
   }
 },
 {
@@ -60182,6 +60167,12 @@
 },
 {
   "type": "node",
+  "id": 11981088724,
+  "lat": -39.9489981,
+  "lon": -71.0764822
+},
+{
+  "type": "node",
   "id": 6776095938,
   "lat": -38.8784451,
   "lon": -71.1870147
@@ -62399,78 +62390,6 @@
   "id": 9797103558,
   "lat": -38.9480595,
   "lon": -68.0407646
-},
-{
-  "type": "node",
-  "id": 9140942948,
-  "lat": -38.9421109,
-  "lon": -67.9921996
-},
-{
-  "type": "node",
-  "id": 9140942949,
-  "lat": -38.9416741,
-  "lon": -67.9920457
-},
-{
-  "type": "node",
-  "id": 9140942950,
-  "lat": -38.9417916,
-  "lon": -67.9914934
-},
-{
-  "type": "node",
-  "id": 9140942951,
-  "lat": -38.9421681,
-  "lon": -67.9916501
-},
-{
-  "type": "node",
-  "id": 9140942952,
-  "lat": -38.9421165,
-  "lon": -67.9921749
-},
-{
-  "type": "node",
-  "id": 9140942953,
-  "lat": -38.9421776,
-  "lon": -67.9918871
-},
-{
-  "type": "node",
-  "id": 9140942956,
-  "lat": -38.9421836,
-  "lon": -67.9918590
-},
-{
-  "type": "node",
-  "id": 9140942957,
-  "lat": -38.9422239,
-  "lon": -67.9916695
-},
-{
-  "type": "node",
-  "id": 9140942958,
-  "lat": -38.9421728,
-  "lon": -67.9916273
-},
-{
-  "type": "node",
-  "id": 9140942959,
-  "lat": -38.9417059,
-  "lon": -67.9918962
-},
-{
-  "type": "node",
-  "id": 9140942963,
-  "lat": -38.9418306,
-  "lon": -67.9921006
-},
-{
-  "type": "node",
-  "id": 9140942965,
-  "lat": -38.9419441,
-  "lon": -67.9921396
 },
 {
   "type": "node",
@@ -93065,72 +92984,6 @@
   "id": 7528885555,
   "lat": -34.7832935,
   "lon": -58.8384985
-},
-{
-  "type": "node",
-  "id": 11139173059,
-  "lat": -34.7836679,
-  "lon": -58.8342354
-},
-{
-  "type": "node",
-  "id": 11139173060,
-  "lat": -34.7838505,
-  "lon": -58.8338220
-},
-{
-  "type": "node",
-  "id": 11139173061,
-  "lat": -34.7840896,
-  "lon": -58.8339943
-},
-{
-  "type": "node",
-  "id": 11139173062,
-  "lat": -34.7842552,
-  "lon": -58.8341035
-},
-{
-  "type": "node",
-  "id": 11139173063,
-  "lat": -34.7843312,
-  "lon": -58.8339384
-},
-{
-  "type": "node",
-  "id": 11139173064,
-  "lat": -34.7844786,
-  "lon": -58.8340443
-},
-{
-  "type": "node",
-  "id": 11139173065,
-  "lat": -34.7843789,
-  "lon": -58.8342449
-},
-{
-  "type": "node",
-  "id": 11139173066,
-  "lat": -34.7846236,
-  "lon": -58.8344209
-},
-{
-  "type": "node",
-  "id": 11139173067,
-  "lat": -34.7844677,
-  "lon": -58.8347234
-},
-{
-  "type": "node",
-  "id": 11139173068,
-  "lat": -34.7841384,
-  "lon": -58.8344764
-},
-{
-  "type": "node",
-  "id": 11139173069,
-  "lat": -34.7841017,
-  "lon": -58.8345595
 },
 {
   "type": "node",
