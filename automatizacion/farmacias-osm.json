@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-23T16:00:01Z",
-    "timestamp_areas_base": "2024-06-23T12:02:53Z",
+    "timestamp_osm_base": "2024-06-28T22:22:41Z",
+    "timestamp_areas_base": "2024-06-28T16:25:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21494,8 +21494,8 @@
 {
   "type": "node",
   "id": 3285923801,
-  "lat": -30.6341903,
-  "lon": -67.4667286,
+  "lat": -30.6341615,
+  "lon": -67.4666629,
   "tags": {
     "addr:city": "SAn Agustín del Valle Fértil",
     "addr:housenumber": "11",
@@ -41360,11 +41360,11 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "4024",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Santa Fe 4024",
     "phone": "+54 11 4831-0334"
   }
 },
@@ -45178,6 +45178,15 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4805973821,
+  "lat": -27.7125685,
+  "lon": -67.1371379,
+  "tags": {
+    "amenity": "pharmacy"
   }
 },
 {
@@ -54058,8 +54067,8 @@
 {
   "type": "node",
   "id": 5715627305,
-  "lat": -34.6122568,
-  "lon": -58.4014158,
+  "lat": -34.6122590,
+  "lon": -58.4014306,
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -93487,6 +93496,82 @@
   }
 },
 {
+  "type": "node",
+  "id": 12004994171,
+  "lat": -34.7665699,
+  "lon": -58.3715234,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12004994172,
+  "lat": -34.7689239,
+  "lon": -58.3767544,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12004994173,
+  "lat": -34.7751442,
+  "lon": -58.3876234,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12004994174,
+  "lat": -34.7763345,
+  "lon": -58.3903726,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12007165107,
+  "lat": -28.9191685,
+  "lon": -65.3280544,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12008728825,
+  "lat": -27.9293492,
+  "lon": -65.8707190,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12011662188,
+  "lat": -34.5786651,
+  "lon": -58.5396121,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Farmacia Gremial SUTIAGA"
+  }
+},
+{
+  "type": "node",
+  "id": 12012858812,
+  "lat": -34.6180429,
+  "lon": -58.3867781,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Del Barrio"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -111578,8 +111663,10 @@
   "tags": {
     "addr:city": "Zapala",
     "addr:housenumber": "373",
+    "addr:postcode": "Q8340",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
+    "branch": "Zapala",
     "building": "yes",
     "dispensing": "yes",
     "drive_through": "no",
@@ -111587,6 +111674,7 @@
     "height": "6",
     "name": "Farmacia del Pueblo",
     "operator": "Salvado Hnos. S.A.",
+    "phone": "+54 294 243-0883",
     "website": "https://www.farmaciadelpueblo.com.ar/"
   }
 },
@@ -112012,6 +112100,25 @@
     11070156262
   ],
   "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1198263872,
+  "nodes": [
+    11116220217,
+    11116220229,
+    11116220230,
+    11116234385,
+    11116220217
+  ],
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida Eva Perón",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy"
@@ -139680,6 +139787,30 @@
   "id": 9860355917,
   "lat": -27.5199666,
   "lon": -58.8014005
+},
+{
+  "type": "node",
+  "id": 11116220217,
+  "lat": -27.4609984,
+  "lon": -58.7794648
+},
+{
+  "type": "node",
+  "id": 11116220229,
+  "lat": -27.4609940,
+  "lon": -58.7794045
+},
+{
+  "type": "node",
+  "id": 11116220230,
+  "lat": -27.4611654,
+  "lon": -58.7793656
+},
+{
+  "type": "node",
+  "id": 11116234385,
+  "lat": -27.4611691,
+  "lon": -58.7794246
 },
 {
   "type": "node",

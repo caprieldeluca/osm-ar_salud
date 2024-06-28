@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-23T15:59:01Z",
+    "timestamp_osm_base": "2024-06-28T22:21:28Z",
     "timestamp_areas_base": "2024-06-13T01:59:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -17341,8 +17341,8 @@
 {
   "type": "node",
   "id": 7387171235,
-  "lat": -28.8129963,
-  "lon": -65.5011401,
+  "lat": -28.8130386,
+  "lon": -65.5011696,
   "tags": {
     "addr:city": "Ancasti",
     "addr:full": "Villa Ancasti",
@@ -25085,8 +25085,8 @@
 {
   "type": "node",
   "id": 7503008886,
-  "lat": -34.7607216,
-  "lon": -58.3676845,
+  "lat": -34.7607255,
+  "lon": -58.3677060,
   "tags": {
     "addr:housenumber": "850",
     "addr:postcode": "1834",
@@ -40049,7 +40049,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "icu;cardiology;surgery;neurosurgery;trauma",
-    "name": "Sanatorio Mayo y Centro de Cuidados Intesivos",
+    "name": "Sanatorio Mayo",
     "opening_hours": "24/7",
     "operator": "Grupo Mitre Salud",
     "operator:type": "private",
@@ -42746,6 +42746,17 @@
   "lon": -70.6238615,
   "tags": {
     "amenity": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 9624101930,
+  "lat": -27.5647453,
+  "lon": -67.6210156,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Posta Sanitaria",
+    "operator": "Maria Ines"
   }
 },
 {
@@ -46552,6 +46563,60 @@
     "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
     "name": "Clínica de Ojos Santa Lucía"
+  }
+},
+{
+  "type": "node",
+  "id": 12008622020,
+  "lat": -28.6940464,
+  "lon": -65.6067359,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto Sanitario"
+  }
+},
+{
+  "type": "node",
+  "id": 12008696381,
+  "lat": -28.4681561,
+  "lon": -65.6344539,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto Sanitario"
+  }
+},
+{
+  "type": "node",
+  "id": 12010066411,
+  "lat": -34.5944196,
+  "lon": -58.4019089,
+  "tags": {
+    "amenity": "clinic",
+    "branch": "Barrio Norte",
+    "name": "Swiss Medical Center"
+  }
+},
+{
+  "type": "node",
+  "id": 12014244655,
+  "lat": -34.6141400,
+  "lon": -58.3904792,
+  "tags": {
+    "amenity": "clinic",
+    "branch": "Anexo Solís",
+    "name": "Fundación Favaloro",
+    "website": "https://www.fundacionfavaloro.org/anexo-solis/"
+  }
+},
+{
+  "type": "node",
+  "id": 12014244656,
+  "lat": -34.6154241,
+  "lon": -58.3858149,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Consultorios Médicos OSTV",
+    "operator": "Obra Social de Trabajadores Viales & Afines de la República Argentina"
   }
 },
 {
@@ -53973,8 +54038,7 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Obra Social de los Trabajadores Municipales de la Ciudad de Bs.As.",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Obra Social de los Trabajadores Municipales de la Ciudad de Bs.As."
   }
 },
 {
@@ -56982,6 +57046,25 @@
     "healthcare": "clinic",
     "height": "3",
     "name": "Integral"
+  }
+},
+{
+  "type": "way",
+  "id": 571483973,
+  "nodes": [
+    5492322506,
+    5492322507,
+    5492322508,
+    5492322509,
+    9020330637,
+    9020330636,
+    5492322506
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "yes",
+    "name": "Centro de Salud"
   }
 },
 {
@@ -66748,6 +66831,35 @@
 },
 {
   "type": "way",
+  "id": 1212129123,
+  "nodes": [
+    11229948153,
+    11229948154,
+    11229948155,
+    11229948156,
+    12013092156,
+    12013092154,
+    11229948153
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "52",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Mengelle",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "lightgrey",
+    "contact:instagram": "https://www.instagram.com/senzaodontologia/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery;orthodontics",
+    "height": "4",
+    "name": "Senza Odontología",
+    "old_name": "ANSES",
+    "phone": "+54 299 577-4381"
+  }
+},
+{
+  "type": "way",
   "id": 1212370482,
   "nodes": [
     11232437555,
@@ -68586,6 +68698,7 @@
     "healthcare:speciality": "paediatrics",
     "height": "4",
     "name": "Centro del Niño",
+    "operator": "Ceni S.A.S.",
     "operator:type": "private",
     "short_name": "CENI",
     "website": "https://www.cenipediatria.com.ar/"
@@ -75549,6 +75662,42 @@
 },
 {
   "type": "node",
+  "id": 11229948153,
+  "lat": -38.9396493,
+  "lon": -68.0023331
+},
+{
+  "type": "node",
+  "id": 11229948154,
+  "lat": -38.9396696,
+  "lon": -68.0023796
+},
+{
+  "type": "node",
+  "id": 11229948155,
+  "lat": -38.9396177,
+  "lon": -68.0026322
+},
+{
+  "type": "node",
+  "id": 11229948156,
+  "lat": -38.9395553,
+  "lon": -68.0026110
+},
+{
+  "type": "node",
+  "id": 12013092154,
+  "lat": -38.9396149,
+  "lon": -68.0023214
+},
+{
+  "type": "node",
+  "id": 12013092156,
+  "lat": -38.9395918,
+  "lon": -68.0024336
+},
+{
+  "type": "node",
   "id": 7662356961,
   "lat": -38.9403339,
   "lon": -67.9996730
@@ -81657,6 +81806,42 @@
 },
 {
   "type": "node",
+  "id": 5492322506,
+  "lat": -28.4843916,
+  "lon": -67.6935765
+},
+{
+  "type": "node",
+  "id": 5492322507,
+  "lat": -28.4842475,
+  "lon": -67.6935594
+},
+{
+  "type": "node",
+  "id": 5492322508,
+  "lat": -28.4842324,
+  "lon": -67.6937239
+},
+{
+  "type": "node",
+  "id": 5492322509,
+  "lat": -28.4843631,
+  "lon": -67.6937394
+},
+{
+  "type": "node",
+  "id": 9020330636,
+  "lat": -28.4843832,
+  "lon": -67.6936679
+},
+{
+  "type": "node",
+  "id": 9020330637,
+  "lat": -28.4843698,
+  "lon": -67.6936663
+},
+{
+  "type": "node",
   "id": 7786144149,
   "lat": -36.6227894,
   "lon": -64.2918537
@@ -83722,8 +83907,8 @@
 {
   "type": "node",
   "id": 3498088978,
-  "lat": -31.4614018,
-  "lon": -64.1085849
+  "lat": -31.4613900,
+  "lon": -64.1085763
 },
 {
   "type": "node",
@@ -83740,8 +83925,8 @@
 {
   "type": "node",
   "id": 3498088981,
-  "lat": -31.4611503,
-  "lon": -64.1090654
+  "lat": -31.4611371,
+  "lon": -64.1090378
 },
 {
   "type": "node",
@@ -94468,32 +94653,32 @@
 {
   "type": "node",
   "id": 4684412964,
-  "lat": -34.6529428,
-  "lon": -58.5045468
+  "lat": -34.6529527,
+  "lon": -58.5045750
 },
 {
   "type": "node",
   "id": 4684412965,
-  "lat": -34.6531264,
-  "lon": -58.5043178
+  "lat": -34.6531363,
+  "lon": -58.5043460
 },
 {
   "type": "node",
   "id": 4684412967,
-  "lat": -34.6529185,
-  "lon": -58.5045772
+  "lat": -34.6529284,
+  "lon": -58.5046054
 },
 {
   "type": "node",
   "id": 4684412968,
-  "lat": -34.6529690,
-  "lon": -58.5046370
+  "lat": -34.6529789,
+  "lon": -58.5046652
 },
 {
   "type": "node",
   "id": 4684412969,
-  "lat": -34.6531769,
-  "lon": -58.5043776
+  "lat": -34.6531868,
+  "lon": -58.5044058
 },
 {
   "type": "node",

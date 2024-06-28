@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-23T15:58:01Z",
-    "timestamp_areas_base": "2024-06-13T01:59:49Z",
+    "timestamp_osm_base": "2024-06-28T22:20:33Z",
+    "timestamp_areas_base": "2024-06-28T16:25:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1851,8 +1851,8 @@
 {
   "type": "node",
   "id": 1763215892,
-  "lat": -28.9190944,
-  "lon": -65.3255279,
+  "lat": -28.9192681,
+  "lon": -65.3254756,
   "tags": {
     "addr:city": "Icaño",
     "addr:full": "Ruta Provincial 2",
@@ -5633,10 +5633,6 @@
   "lat": -30.6292719,
   "lon": -67.4654711,
   "tags": {
-    "addr:city": "Villa San Agustin",
-    "addr:full": "Gral Acha Y 25 De Mayo S/N°",
-    "addr:place": "Valle Fertil",
-    "addr:postcode": "5449",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "hospital",
@@ -22564,7 +22560,9 @@
   "lon": -64.1745900,
   "tags": {
     "addr:city": "Córdoba",
+    "addr:housenumber": "7100",
     "addr:postcode": "5000",
+    "addr:street": "Avenida Juan B. Justo",
     "amenity": "hospital",
     "healthcare": "hospital",
     "healthcare:speciality": "general",
@@ -24028,22 +24026,12 @@
 },
 {
   "type": "node",
-  "id": 12001754258,
-  "lat": -38.9419501,
-  "lon": -67.9918473,
+  "id": 12008678342,
+  "lat": -28.2376254,
+  "lon": -65.8755255,
   "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "770",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida General Fernández Oro",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "loc_name": "Hospital Viejo",
-    "name": "Hospital de Área Programa Cipolletti",
-    "old_name": "Hospital de Área Programa Cipolletti \"Doctor Pedro Moguillansky\"",
-    "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public"
+    "name": "Hospital"
   }
 },
 {
@@ -41764,7 +41752,7 @@
     4806667208
   ],
   "tags": {
-    "addr:city": "San Fernando Del Valle De Catamarca",
+    "addr:city": "San Fernando del Valle de Catamarca",
     "addr:full": "Avda. Arturo Ilia 200 Y Mariano Moreno",
     "addr:place": "Capital",
     "addr:postcode": "4700",
@@ -56175,6 +56163,75 @@
   }
 },
 {
+  "type": "way",
+  "id": 1296418414,
+  "nodes": [
+    12001803597,
+    12012824294,
+    12012824283,
+    12012824296,
+    12012824284,
+    12012824298,
+    12012824287,
+    12012824288,
+    12012824289,
+    12012824290,
+    12001803600,
+    12012824270,
+    12012799667,
+    12001803599,
+    12001803614,
+    12012799668,
+    12012824300,
+    12001803597
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "770",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida General Fernández Oro",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "loc_name": "Hospital Viejo",
+    "name": "Hospital de Área Programa Cipolletti",
+    "old_name": "Hospital de Área Programa Cipolletti \"Doctor Pedro Moguillansky\"",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "operator:type": "public",
+    "phone": "+54 298 477-2947",
+    "start_date": "1982-07-31"
+  }
+},
+{
+  "type": "way",
+  "id": 1296971081,
+  "nodes": [
+    12017387727,
+    12017385646,
+    12017385645,
+    12017385644,
+    12017389391,
+    12017391986,
+    12017390421,
+    12017387848,
+    12017391484,
+    12017387869,
+    12017390292,
+    12017388217,
+    12017379420,
+    12017387863,
+    12017388049,
+    12017391947,
+    12017389684,
+    12017384784,
+    12017388019,
+    12017387727
+  ],
+  "tags": {
+    "amenity": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -62390,6 +62447,108 @@
   "id": 9797103558,
   "lat": -38.9480595,
   "lon": -68.0407646
+},
+{
+  "type": "node",
+  "id": 12001803597,
+  "lat": -38.9421165,
+  "lon": -67.9922107
+},
+{
+  "type": "node",
+  "id": 12001803599,
+  "lat": -38.9416786,
+  "lon": -67.9920549
+},
+{
+  "type": "node",
+  "id": 12001803600,
+  "lat": -38.9417910,
+  "lon": -67.9915028
+},
+{
+  "type": "node",
+  "id": 12001803614,
+  "lat": -38.9418094,
+  "lon": -67.9921014
+},
+{
+  "type": "node",
+  "id": 12012799667,
+  "lat": -38.9417106,
+  "lon": -67.9918975
+},
+{
+  "type": "node",
+  "id": 12012799668,
+  "lat": -38.9418318,
+  "lon": -67.9921094
+},
+{
+  "type": "node",
+  "id": 12012824270,
+  "lat": -38.9417482,
+  "lon": -67.9917131
+},
+{
+  "type": "node",
+  "id": 12012824283,
+  "lat": -38.9421243,
+  "lon": -67.9921722
+},
+{
+  "type": "node",
+  "id": 12012824284,
+  "lat": -38.9421804,
+  "lon": -67.9918961
+},
+{
+  "type": "node",
+  "id": 12012824287,
+  "lat": -38.9421876,
+  "lon": -67.9918606
+},
+{
+  "type": "node",
+  "id": 12012824288,
+  "lat": -38.9422247,
+  "lon": -67.9916777
+},
+{
+  "type": "node",
+  "id": 12012824289,
+  "lat": -38.9421978,
+  "lon": -67.9916687
+},
+{
+  "type": "node",
+  "id": 12012824290,
+  "lat": -38.9422035,
+  "lon": -67.9916407
+},
+{
+  "type": "node",
+  "id": 12012824294,
+  "lat": -38.9421203,
+  "lon": -67.9921921
+},
+{
+  "type": "node",
+  "id": 12012824296,
+  "lat": -38.9421561,
+  "lon": -67.9920154
+},
+{
+  "type": "node",
+  "id": 12012824298,
+  "lat": -38.9421840,
+  "lon": -67.9918784
+},
+{
+  "type": "node",
+  "id": 12012824300,
+  "lat": -38.9420435,
+  "lon": -67.9921848
 },
 {
   "type": "node",
@@ -73796,6 +73955,120 @@
   "id": 11580382918,
   "lat": -31.4395594,
   "lon": -68.5132730
+},
+{
+  "type": "node",
+  "id": 12017379420,
+  "lat": -30.6285001,
+  "lon": -67.4651242
+},
+{
+  "type": "node",
+  "id": 12017384784,
+  "lat": -30.6286221,
+  "lon": -67.4646876
+},
+{
+  "type": "node",
+  "id": 12017385644,
+  "lat": -30.6294158,
+  "lon": -67.4657673
+},
+{
+  "type": "node",
+  "id": 12017385645,
+  "lat": -30.6294847,
+  "lon": -67.4657225
+},
+{
+  "type": "node",
+  "id": 12017385646,
+  "lat": -30.6296629,
+  "lon": -67.4647691
+},
+{
+  "type": "node",
+  "id": 12017387727,
+  "lat": -30.6286747,
+  "lon": -67.4644993
+},
+{
+  "type": "node",
+  "id": 12017387848,
+  "lat": -30.6286996,
+  "lon": -67.4655770
+},
+{
+  "type": "node",
+  "id": 12017387863,
+  "lat": -30.6285117,
+  "lon": -67.4650829
+},
+{
+  "type": "node",
+  "id": 12017387869,
+  "lat": -30.6284729,
+  "lon": -67.4652216
+},
+{
+  "type": "node",
+  "id": 12017388019,
+  "lat": -30.6286390,
+  "lon": -67.4646271
+},
+{
+  "type": "node",
+  "id": 12017388049,
+  "lat": -30.6285323,
+  "lon": -67.4650089
+},
+{
+  "type": "node",
+  "id": 12017388217,
+  "lat": -30.6284895,
+  "lon": -67.4651621
+},
+{
+  "type": "node",
+  "id": 12017389391,
+  "lat": -30.6289945,
+  "lon": -67.4656554
+},
+{
+  "type": "node",
+  "id": 12017389684,
+  "lat": -30.6285846,
+  "lon": -67.4648218
+},
+{
+  "type": "node",
+  "id": 12017390292,
+  "lat": -30.6284864,
+  "lon": -67.4651733
+},
+{
+  "type": "node",
+  "id": 12017390421,
+  "lat": -30.6288046,
+  "lon": -67.4656049
+},
+{
+  "type": "node",
+  "id": 12017391484,
+  "lat": -30.6283961,
+  "lon": -67.4654963
+},
+{
+  "type": "node",
+  "id": 12017391947,
+  "lat": -30.6285689,
+  "lon": -67.4648779
+},
+{
+  "type": "node",
+  "id": 12017391986,
+  "lat": -30.6289005,
+  "lon": -67.4656304
 },
 {
   "type": "node",
