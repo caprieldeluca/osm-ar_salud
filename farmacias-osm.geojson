@@ -2566,24 +2566,24 @@
     "coordinates": [
       [
         [
-          -58.5118351,
-          -33.0092105
+          -58.5118271,
+          -33.0092185
         ],
         [
-          -58.5119518,
-          -33.0092313
+          -58.5119462,
+          -33.0092222
         ],
         [
-          -58.5119271,
-          -33.0093114
+          -58.5119422,
+          -33.0093118
         ],
         [
-          -58.5118067,
-          -33.0093055
+          -58.5118232,
+          -33.0093081
         ],
         [
-          -58.5118351,
-          -33.0092105
+          -58.5118271,
+          -33.0092185
         ]
       ]
     ]
@@ -2687,24 +2687,24 @@
     "coordinates": [
       [
         [
-          -58.5226345,
-          -33.0097017
+          -58.5226332,
+          -33.0097026
         ],
         [
-          -58.5226462,
-          -33.009453
+          -58.5226473,
+          -33.009454
         ],
         [
-          -58.5227256,
-          -33.009453
+          -58.5227205,
+          -33.0094569
         ],
         [
-          -58.5227022,
-          -33.0097017
+          -58.5227064,
+          -33.0097055
         ],
         [
-          -58.5226345,
-          -33.0097017
+          -58.5226332,
+          -33.0097026
         ]
       ]
     ]
@@ -11806,7 +11806,10 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "yes",
+    "contact:phone": "+54 11 7079-4343",
+    "contact:website": "https://www.farmaciasgc.com.ar",
     "healthcare": "pharmacy",
+    "name": "Fijtman",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/469547001"
   },
@@ -31184,6 +31187,49 @@
 },
 {
   "type": "Feature",
+  "id": "way/822924728",
+  "properties": {
+    "addr:street": "Vélez Sarsfield",
+    "amenity": "pharmacy",
+    "building:part": "retail",
+    "healthcare": "pharmacy",
+    "wheelchair": "yes",
+    "id": "way/822924728"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.7958027,
+          -32.9101395
+        ],
+        [
+          -60.7958051,
+          -32.9100455
+        ],
+        [
+          -60.7958449,
+          -32.9100462
+        ],
+        [
+          -60.7958426,
+          -32.9101402
+        ],
+        [
+          -60.795831,
+          -32.91014
+        ],
+        [
+          -60.7958027,
+          -32.9101395
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/823628706",
   "properties": {
     "amenity": "pharmacy",
@@ -40723,6 +40769,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name:signed": "no",
     "id": "way/1248222677"
   },
   "geometry": {
@@ -41487,6 +41534,55 @@
         [
           -60.175669,
           -33.3872648
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1299399289",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "690",
+    "addr:postcode": "R8324",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacia Seratti",
+    "id": "way/1299399289"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9917058,
+          -38.937696
+        ],
+        [
+          -67.991724,
+          -38.937751
+        ],
+        [
+          -67.9916072,
+          -38.9377749
+        ],
+        [
+          -67.9915731,
+          -38.9377585
+        ],
+        [
+          -67.9915621,
+          -38.9377252
+        ],
+        [
+          -67.9917058,
+          -38.937696
         ]
       ]
     ]
@@ -49916,8 +50012,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8403993,
-      -32.8949661
+      -68.8404288,
+      -32.8949481
     ]
   }
 },
@@ -55408,6 +55504,7 @@
   "id": "node/2276925006",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2024-07-05",
     "healthcare": "pharmacy",
     "name": "Salud Global",
     "id": "node/2276925006"
@@ -62107,8 +62204,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.406322,
-      -34.607677
+      -58.4063303,
+      -34.6076651
     ]
   }
 },
@@ -68296,6 +68393,8 @@
     "addr:postcode": "2820",
     "addr:street": "25 de Mayo",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "phone": "+54 3446 424460",
@@ -69477,27 +69576,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3154322549",
-  "properties": {
-    "addr:city": "Mendoza",
-    "addr:housenumber": "605",
-    "addr:street": "Avenida Las Heras",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "La Estacion",
-    "phone": "54 0261 4232467",
-    "id": "node/3154322549"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.8460531,
-      -32.8848033
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3154983542",
   "properties": {
     "addr:city": "San Salvador de Jujuy",
@@ -70355,8 +70433,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4698668,
-      -34.8050155
+      -58.4698816,
+      -34.8050067
     ]
   }
 },
@@ -84734,8 +84812,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.8348999,
-      -38.2728499
+      -57.8349666,
+      -38.2728833
     ]
   }
 },
@@ -99103,6 +99181,7 @@
   "type": "Feature",
   "id": "node/4641315486",
   "properties": {
+    "addr:city": "Tupungato",
     "addr:housenumber": "399",
     "addr:postcode": "5561",
     "addr:street": "Liniers",
@@ -101426,12 +101505,10 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Las Heras",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia Azul",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "FarmaPlud",
     "id": "node/4675219013"
   },
   "geometry": {
@@ -127288,17 +127365,22 @@
   "type": "Feature",
   "id": "node/6294175776",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "702",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Rio Limay",
+    "name": "Farmacia Limay",
     "id": "node/6294175776"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9923846,
-      -38.9409573
+      -67.99239,
+      -38.9409622
     ]
   }
 },
@@ -135212,17 +135294,25 @@
   "type": "Feature",
   "id": "node/7207311254",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "865",
+    "addr:postcode": "R8324",
+    "addr:street": "General Roca",
     "amenity": "pharmacy",
+    "branch": "Cipolletti",
+    "contact:instagram": "https://www.instagram.com/farmaciasbancariasderionegro/",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Bancaria",
+    "name": "Farmacia AMBAR Bancaria",
+    "operator": "Asociación Mutual de Bancarios de Río Negro",
     "id": "node/7207311254"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9900638,
-      -38.9405267
+      -67.9900488,
+      -38.9405278
     ]
   }
 },
@@ -153658,7 +153748,7 @@
     "addr:city": "San Cayetano",
     "addr:housenumber": "470",
     "addr:postcode": "7521",
-    "addr:street": "25 de Mayo",
+    "addr:street": "34 - 25 de Mayo",
     "amenity": "pharmacy",
     "contact:facebook": "https://www.facebook.com/farmaciaaldaya/",
     "dispensing": "yes",
@@ -156986,7 +157076,7 @@
     "addr:city": "San Cayetano",
     "addr:housenumber": "173",
     "addr:postcode": "7521",
-    "addr:street": "Rivadavia",
+    "addr:street": "27 - Rivadavia",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -157010,7 +157100,7 @@
     "addr:city": "San Cayetano",
     "addr:housenumber": "302",
     "addr:postcode": "7521",
-    "addr:street": "25 de Mayo",
+    "addr:street": "34 - 25 de Mayo",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -163113,8 +163203,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4249248,
-      -34.5791903
+      -58.4249097,
+      -34.5791942
     ]
   }
 },
@@ -175207,17 +175297,20 @@
     "addr:postcode": "R8324",
     "addr:street": "General Roca",
     "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/fciadelcentrocipo/",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia del Centro",
+    "old_name": "Limbo Resto Bar",
+    "operator": "Farmacia del Centro S.C.S.",
     "id": "node/12001754250"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9934038,
-      -38.939883
+      -67.9934271,
+      -38.9398676
     ]
   }
 },
@@ -175342,6 +175435,212 @@
     "coordinates": [
       -58.3867781,
       -34.6180429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12018711765",
+  "properties": {
+    "addr:city": "Hasenkamp",
+    "addr:postcode": "E3134",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Castellani",
+    "phone": "+54 (343) 493-0076",
+    "id": "node/12018711765"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.8371848,
+      -31.5111848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12018711766",
+  "properties": {
+    "addr:city": "Hasenkamp",
+    "addr:postcode": "E3134",
+    "addr:street": "3 de Febrero",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmashop",
+    "phone": "+54 (343) 493-0076",
+    "id": "node/12018711766"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.8350306,
+      -31.511374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12018711767",
+  "properties": {
+    "addr:city": "Hasenkamp",
+    "addr:housenumber": "270",
+    "addr:postcode": "3138",
+    "addr:street": "Libertad",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 (343) 493-0353",
+    "name": "Hasenkamp",
+    "id": "node/12018711767"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.835991,
+      -31.5099178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031801559",
+  "properties": {
+    "addr:city": "Alicia",
+    "addr:housenumber": "634",
+    "addr:postcode": "5949",
+    "addr:street": "Boulevard Buenos Aires",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Macagno",
+    "id": "node/12031801559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.4653489,
+      -31.9402314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031801560",
+  "properties": {
+    "addr:city": "Alicia",
+    "addr:housenumber": "440",
+    "addr:postcode": "5949",
+    "addr:street": "Boulevard Buenos Aires",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Altina",
+    "phone": "+54 3533 49-6156",
+    "id": "node/12031801560"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.46253,
+      -31.9406822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031801561",
+  "properties": {
+    "addr:city": "Alicia",
+    "addr:postcode": "5949",
+    "addr:street": "Boulevard Malvinas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Arrietti",
+    "id": "node/12031801561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.4646297,
+      -31.939505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031813208",
+  "properties": {
+    "addr:city": "Alicia",
+    "addr:postcode": "5949",
+    "addr:street": "Boulevard Santa Fe",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Filippi",
+    "id": "node/12031813208"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.4662367,
+      -31.9420658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12033958110",
+  "properties": {
+    "addr:city": "Mendoza",
+    "addr:housenumber": "605",
+    "addr:street": "Avenida Las Heras",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "La Estacion",
+    "phone": "54 0261 4232467",
+    "id": "node/12033958110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8460545,
+      -32.884822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12038011956",
+  "properties": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3306",
+    "addr:postcode": "S3000",
+    "addr:street": "Mendoza",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Sobrero",
+    "id": "node/12038011956"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7162742,
+      -31.6466625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12038558084",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Yerfino",
+    "id": "node/12038558084"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.387218,
+      -34.6200606
     ]
   }
 }

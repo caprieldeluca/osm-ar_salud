@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-06-28T22:21:28Z",
-    "timestamp_areas_base": "2024-06-13T01:59:49Z",
+    "timestamp_osm_base": "2024-07-07T16:54:01Z",
+    "timestamp_areas_base": "2024-07-07T13:03:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8715,18 +8715,6 @@
 },
 {
   "type": "node",
-  "id": 4552784589,
-  "lat": -27.8313902,
-  "lon": -64.2694144,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Upa B° Mariano Moreno",
-    "name:es": "Upa B° Mariano Moreno"
-  }
-},
-{
-  "type": "node",
   "id": 4557892204,
   "lat": -27.3408173,
   "lon": -57.9341551,
@@ -14790,27 +14778,6 @@
 },
 {
   "type": "node",
-  "id": 5707258840,
-  "lat": -31.7157317,
-  "lon": -64.4035077,
-  "tags": {
-    "addr:city": "Anisacate",
-    "addr:full": "Ruta 5 Esq. 25 De Mayo",
-    "addr:postcode": "5189",
-    "addr:street": "Ruta Provincial 5",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de la Salud Nº 1",
-    "official_name": "Centro de Atención Primaria de la Salud Nº 1 Dr.",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 03547 494052",
-    "ref:sisa_codigo": "50141472232228",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 5718703193,
   "lat": -29.0766235,
   "lon": -58.9638281,
@@ -14841,7 +14808,7 @@
     "name": "Vacunatorio CIPPI",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:30-13:30",
     "phone": "4239051",
-    "website": "http://www.cippivacunatorio.org.ar"
+    "website": "https://www.cippivacunatorio.org.ar/"
   }
 },
 {
@@ -40799,33 +40766,22 @@
 },
 {
   "type": "node",
-  "id": 8758936362,
-  "lat": -27.8073163,
-  "lon": -64.2383072,
-  "tags": {
-    "addr:city": "Santiago del Estero",
-    "addr:postcode": "4200",
-    "addr:street": "Buenos Aires",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Unidad Pronta Atención 3",
-    "phone": "+54 385 4319014",
-    "short_name": "UPA 3"
-  }
-},
-{
-  "type": "node",
   "id": 8761909307,
-  "lat": -27.7984905,
-  "lon": -64.2836933,
+  "lat": -27.7985032,
+  "lon": -64.2836897,
   "tags": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Saenz Peña Y Pasaje Calle 205  Nº 335 Barrio Mosconi",
+    "addr:housenumber": "335",
     "addr:postcode": "4200",
     "addr:street": "Sáenz Peña",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Pronta Atención 13 Barrio Mosconi",
+    "healthcare:speciality": "general",
+    "name": "Unidad de Pronta Atención N 13 Barrio Mosconi",
+    "opening_hours": "24/7",
+    "operator": "Provincial",
+    "operator:type": "public",
     "short_name": "UPA 13"
   }
 },
@@ -42009,6 +41965,22 @@
     "operator": "Ministerio de Salud Pública",
     "operator:type": "public",
     "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 9192088925,
+  "lat": -38.9392779,
+  "lon": -67.9918404,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "275",
+    "addr:postcode": "R8324",
+    "addr:street": "Italia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentist",
+    "name": "Centro Odontológico Comahue"
   }
 },
 {
@@ -46555,18 +46527,6 @@
 },
 {
   "type": "node",
-  "id": 12001754267,
-  "lat": -38.9402683,
-  "lon": -67.9916642,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "ophthalmology",
-    "name": "Clínica de Ojos Santa Lucía"
-  }
-},
-{
-  "type": "node",
   "id": 12008622020,
   "lat": -28.6940464,
   "lon": -65.6067359,
@@ -46617,6 +46577,52 @@
     "amenity": "clinic",
     "name": "Consultorios Médicos OSTV",
     "operator": "Obra Social de Trabajadores Viales & Afines de la República Argentina"
+  }
+},
+{
+  "type": "node",
+  "id": 12018870935,
+  "lat": -34.5471975,
+  "lon": -58.4667854,
+  "tags": {
+    "addr:housenumber": "3684",
+    "addr:street": "Cuba",
+    "amenity": "clinic",
+    "contact:whatsapp": "+5491125860584",
+    "email": "info@clinicacormillot.com",
+    "healthcare:speciality": "nutrition;obesity",
+    "name": "Clínica Cormillot",
+    "phone": "+54 11 2033-1300",
+    "website": "https://clinicacormillot.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12031813207,
+  "lat": -31.9420714,
+  "lon": -62.4665595,
+  "tags": {
+    "addr:city": "Alicia",
+    "addr:housenumber": "911",
+    "addr:postcode": "5949",
+    "addr:street": "Boulevard Santa Fe",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Re Emergencias",
+    "ref:sisa_codigo": "53141402334879",
+    "ref:sisa_tipologia": "ESCL"
+  }
+},
+{
+  "type": "node",
+  "id": 12033958116,
+  "lat": -32.8857398,
+  "lon": -68.8482855,
+  "tags": {
+    "addr:housenumber": "756",
+    "addr:street": "Mariano Necochea",
+    "amenity": "clinic",
+    "name": "Hospital de Ojos"
   }
 },
 {
@@ -48431,7 +48437,8 @@
   ],
   "tags": {
     "amenity": "clinic",
-    "healthcare": "clinic"
+    "healthcare": "clinic",
+    "name": "Sanatorio Formosa"
   }
 },
 {
@@ -69183,6 +69190,205 @@
   }
 },
 {
+  "type": "way",
+  "id": 1297195536,
+  "nodes": [
+    12001803669,
+    12001803665,
+    12018669254,
+    12018669255,
+    12018669256,
+    12018669257,
+    12018669258,
+    12018669259,
+    12018669260,
+    12018669261,
+    12001803669
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "77",
+    "addr:postcode": "R8324",
+    "addr:street": "Sarmiento",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neurology",
+    "height": "6",
+    "mobile": "+54 9 299 410-4282",
+    "name": "Centro de Neurología Infantil del Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 1297472425,
+  "nodes": [
+    12021315087,
+    12021315095,
+    12021315091,
+    12021315092,
+    12021315094,
+    12021315084,
+    12021315083,
+    12021315082,
+    12021315085,
+    12021315098,
+    12021315096,
+    12021315093,
+    12021315356,
+    12021315090,
+    12021315097,
+    12021315099,
+    12021315086,
+    12021315089,
+    12021315088,
+    12021315087
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Dispensario Municipal Dr. Popi Sánchez"
+  }
+},
+{
+  "type": "way",
+  "id": 1297584752,
+  "nodes": [
+    12022142040,
+    12022142041,
+    12022142043,
+    12022142046,
+    12022142047,
+    12022142042,
+    12022121558,
+    12022121546,
+    12022142044,
+    12022142048,
+    12022142049,
+    12022142045,
+    12022142040
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "749",
+    "addr:postcode": "R8324",
+    "addr:street": "General Roca",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "height": "9",
+    "name": "Clínica de Ojos Santa Lucía",
+    "operator": "Clínica de Ojos Santa Lucía S.R.L.",
+    "operator:type": "private",
+    "phone": "+54 299 478-2981"
+  }
+},
+{
+  "type": "way",
+  "id": 1297584804,
+  "nodes": [
+    12022142211,
+    12022142207,
+    12022142153,
+    12022142155,
+    12022142152,
+    12022142212,
+    12022142213,
+    12022142211
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "878",
+    "addr:postcode": "R8324",
+    "addr:street": "General San Martín",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:instagram": "https://www.instagram.com/espaciopsi1/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "humanistic",
+    "height": "4",
+    "name": "Espacio PSI"
+  }
+},
+{
+  "type": "way",
+  "id": 1298901720,
+  "nodes": [
+    12032198483,
+    12032198462,
+    12032198504,
+    12032198479,
+    12032198495,
+    12032198500,
+    12032198502,
+    12032198503,
+    12032198501,
+    12032198496,
+    12032198497,
+    12032198498,
+    12032198499,
+    12032198483
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "376",
+    "addr:postcode": "R8324",
+    "addr:street": "Italia",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;orthodontics;dental_oral_maxillo_facial_surgery",
+    "height": "3",
+    "name": "Centro Médico y Odontológico Bonoris",
+    "phone": "+54 299 477-6733"
+  }
+},
+{
+  "type": "way",
+  "id": 1299399313,
+  "nodes": [
+    12036758164,
+    12036832891,
+    12036832890,
+    12036769471,
+    12036769472,
+    12036769470,
+    12036832881,
+    12036832882,
+    12036832883,
+    12036832887,
+    12036832889,
+    12036832888,
+    12036832886,
+    12036832884,
+    12036832885,
+    12036758164
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "625",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "contact:instagram": "https://www.instagram.com/cmcipolletti/",
+    "email": "centromedicocipolletti@gmail.com",
+    "healthcare": "clinic",
+    "height": "6",
+    "mobile": "WhatsApp: +54 9 299 506-5020",
+    "name": "Centro Médico Cipolletti",
+    "operator": "Centro Médico de Cipolletti",
+    "operator:type": "private",
+    "phone": "+54 299 658-7482",
+    "website": "https://www.cmcipolletti.com.ar/"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -75728,6 +75934,66 @@
 },
 {
   "type": "node",
+  "id": 12001803665,
+  "lat": -38.9411014,
+  "lon": -67.9938971
+},
+{
+  "type": "node",
+  "id": 12001803669,
+  "lat": -38.9410138,
+  "lon": -67.9938675
+},
+{
+  "type": "node",
+  "id": 12018669254,
+  "lat": -38.9411232,
+  "lon": -67.9937911
+},
+{
+  "type": "node",
+  "id": 12018669255,
+  "lat": -38.9411000,
+  "lon": -67.9937834
+},
+{
+  "type": "node",
+  "id": 12018669256,
+  "lat": -38.9411049,
+  "lon": -67.9937594
+},
+{
+  "type": "node",
+  "id": 12018669257,
+  "lat": -38.9411281,
+  "lon": -67.9937672
+},
+{
+  "type": "node",
+  "id": 12018669258,
+  "lat": -38.9411392,
+  "lon": -67.9937132
+},
+{
+  "type": "node",
+  "id": 12018669259,
+  "lat": -38.9410705,
+  "lon": -67.9936902
+},
+{
+  "type": "node",
+  "id": 12018669260,
+  "lat": -38.9410549,
+  "lon": -67.9937671
+},
+{
+  "type": "node",
+  "id": 12018669261,
+  "lat": -38.9410356,
+  "lon": -67.9937606
+},
+{
+  "type": "node",
   "id": 6757530350,
   "lat": -38.9384510,
   "lon": -67.9934483
@@ -76085,6 +76351,126 @@
   "id": 11765327561,
   "lat": -38.9416416,
   "lon": -67.9889811
+},
+{
+  "type": "node",
+  "id": 12022121546,
+  "lat": -38.9402045,
+  "lon": -67.9915681
+},
+{
+  "type": "node",
+  "id": 12022121558,
+  "lat": -38.9401702,
+  "lon": -67.9917365
+},
+{
+  "type": "node",
+  "id": 12022142040,
+  "lat": -38.9403875,
+  "lon": -67.9916252
+},
+{
+  "type": "node",
+  "id": 12022142041,
+  "lat": -38.9403541,
+  "lon": -67.9917958
+},
+{
+  "type": "node",
+  "id": 12022142042,
+  "lat": -38.9402363,
+  "lon": -67.9917578
+},
+{
+  "type": "node",
+  "id": 12022142043,
+  "lat": -38.9402713,
+  "lon": -67.9917691
+},
+{
+  "type": "node",
+  "id": 12022142044,
+  "lat": -38.9402697,
+  "lon": -67.9915885
+},
+{
+  "type": "node",
+  "id": 12022142045,
+  "lat": -38.9403046,
+  "lon": -67.9915994
+},
+{
+  "type": "node",
+  "id": 12022142046,
+  "lat": -38.9402793,
+  "lon": -67.9917287
+},
+{
+  "type": "node",
+  "id": 12022142047,
+  "lat": -38.9402442,
+  "lon": -67.9917174
+},
+{
+  "type": "node",
+  "id": 12022142048,
+  "lat": -38.9402608,
+  "lon": -67.9916340
+},
+{
+  "type": "node",
+  "id": 12022142049,
+  "lat": -38.9402956,
+  "lon": -67.9916453
+},
+{
+  "type": "node",
+  "id": 12022142152,
+  "lat": -38.9413069,
+  "lon": -67.9900050
+},
+{
+  "type": "node",
+  "id": 12022142153,
+  "lat": -38.9414367,
+  "lon": -67.9901520
+},
+{
+  "type": "node",
+  "id": 12022142155,
+  "lat": -38.9414562,
+  "lon": -67.9900561
+},
+{
+  "type": "node",
+  "id": 12022142207,
+  "lat": -38.9413480,
+  "lon": -67.9901221
+},
+{
+  "type": "node",
+  "id": 12022142211,
+  "lat": -38.9413203,
+  "lon": -67.9901127
+},
+{
+  "type": "node",
+  "id": 12022142212,
+  "lat": -38.9412943,
+  "lon": -67.9900668
+},
+{
+  "type": "node",
+  "id": 12022142213,
+  "lat": -38.9413276,
+  "lon": -67.9900779
+},
+{
+  "type": "node",
+  "id": 12032198462,
+  "lat": -38.9382118,
+  "lon": -67.9917236
 },
 {
   "type": "node",
@@ -76451,6 +76837,168 @@
   "id": 7667124397,
   "lat": -38.9359596,
   "lon": -67.9927616
+},
+{
+  "type": "node",
+  "id": 12032198479,
+  "lat": -38.9381655,
+  "lon": -67.9919608
+},
+{
+  "type": "node",
+  "id": 12032198483,
+  "lat": -38.9381124,
+  "lon": -67.9916902
+},
+{
+  "type": "node",
+  "id": 12032198495,
+  "lat": -38.9381067,
+  "lon": -67.9919418
+},
+{
+  "type": "node",
+  "id": 12032198496,
+  "lat": -38.9381246,
+  "lon": -67.9918563
+},
+{
+  "type": "node",
+  "id": 12032198497,
+  "lat": -38.9380933,
+  "lon": -67.9918462
+},
+{
+  "type": "node",
+  "id": 12032198498,
+  "lat": -38.9380968,
+  "lon": -67.9918282
+},
+{
+  "type": "node",
+  "id": 12032198499,
+  "lat": -38.9380859,
+  "lon": -67.9918247
+},
+{
+  "type": "node",
+  "id": 12032198500,
+  "lat": -38.9381107,
+  "lon": -67.9919213
+},
+{
+  "type": "node",
+  "id": 12032198501,
+  "lat": -38.9381200,
+  "lon": -67.9918795
+},
+{
+  "type": "node",
+  "id": 12032198502,
+  "lat": -38.9380797,
+  "lon": -67.9919113
+},
+{
+  "type": "node",
+  "id": 12032198503,
+  "lat": -38.9380879,
+  "lon": -67.9918691
+},
+{
+  "type": "node",
+  "id": 12032198504,
+  "lat": -38.9381777,
+  "lon": -67.9918980
+},
+{
+  "type": "node",
+  "id": 12036758164,
+  "lat": -38.9367494,
+  "lon": -67.9920726
+},
+{
+  "type": "node",
+  "id": 12036769470,
+  "lat": -38.9369118,
+  "lon": -67.9922453
+},
+{
+  "type": "node",
+  "id": 12036769471,
+  "lat": -38.9367266,
+  "lon": -67.9921826
+},
+{
+  "type": "node",
+  "id": 12036769472,
+  "lat": -38.9368198,
+  "lon": -67.9922142
+},
+{
+  "type": "node",
+  "id": 12036832881,
+  "lat": -38.9369213,
+  "lon": -67.9921991
+},
+{
+  "type": "node",
+  "id": 12036832882,
+  "lat": -38.9368771,
+  "lon": -67.9921842
+},
+{
+  "type": "node",
+  "id": 12036832883,
+  "lat": -38.9368846,
+  "lon": -67.9921474
+},
+{
+  "type": "node",
+  "id": 12036832884,
+  "lat": -38.9367942,
+  "lon": -67.9921171
+},
+{
+  "type": "node",
+  "id": 12036832885,
+  "lat": -38.9367998,
+  "lon": -67.9920896
+},
+{
+  "type": "node",
+  "id": 12036832886,
+  "lat": -38.9368026,
+  "lon": -67.9921199
+},
+{
+  "type": "node",
+  "id": 12036832887,
+  "lat": -38.9368207,
+  "lon": -67.9921258
+},
+{
+  "type": "node",
+  "id": 12036832888,
+  "lat": -38.9367894,
+  "lon": -67.9921842
+},
+{
+  "type": "node",
+  "id": 12036832889,
+  "lat": -38.9368074,
+  "lon": -67.9921903
+},
+{
+  "type": "node",
+  "id": 12036832890,
+  "lat": -38.9367380,
+  "lon": -67.9921276
+},
+{
+  "type": "node",
+  "id": 12036832891,
+  "lat": -38.9367464,
+  "lon": -67.9920870
 },
 {
   "type": "node",
@@ -83513,6 +84061,120 @@
   "id": 11529433872,
   "lat": -31.7132214,
   "lon": -64.4232121
+},
+{
+  "type": "node",
+  "id": 12021315082,
+  "lat": -31.7158444,
+  "lon": -64.4034887
+},
+{
+  "type": "node",
+  "id": 12021315083,
+  "lat": -31.7158048,
+  "lon": -64.4033770
+},
+{
+  "type": "node",
+  "id": 12021315084,
+  "lat": -31.7157398,
+  "lon": -64.4034088
+},
+{
+  "type": "node",
+  "id": 12021315085,
+  "lat": -31.7157794,
+  "lon": -64.4035205
+},
+{
+  "type": "node",
+  "id": 12021315086,
+  "lat": -31.7156438,
+  "lon": -64.4035622
+},
+{
+  "type": "node",
+  "id": 12021315087,
+  "lat": -31.7156433,
+  "lon": -64.4034413
+},
+{
+  "type": "node",
+  "id": 12021315088,
+  "lat": -31.7155729,
+  "lon": -64.4034417
+},
+{
+  "type": "node",
+  "id": 12021315089,
+  "lat": -31.7155734,
+  "lon": -64.4035626
+},
+{
+  "type": "node",
+  "id": 12021315090,
+  "lat": -31.7156829,
+  "lon": -64.4035718
+},
+{
+  "type": "node",
+  "id": 12021315091,
+  "lat": -31.7156475,
+  "lon": -64.4034144
+},
+{
+  "type": "node",
+  "id": 12021315092,
+  "lat": -31.7157158,
+  "lon": -64.4033932
+},
+{
+  "type": "node",
+  "id": 12021315093,
+  "lat": -31.7157511,
+  "lon": -64.4035505
+},
+{
+  "type": "node",
+  "id": 12021315094,
+  "lat": -31.7157207,
+  "lon": -64.4034152
+},
+{
+  "type": "node",
+  "id": 12021315095,
+  "lat": -31.7156528,
+  "lon": -64.4034381
+},
+{
+  "type": "node",
+  "id": 12021315096,
+  "lat": -31.7157467,
+  "lon": -64.4035305
+},
+{
+  "type": "node",
+  "id": 12021315097,
+  "lat": -31.7156783,
+  "lon": -64.4035516
+},
+{
+  "type": "node",
+  "id": 12021315098,
+  "lat": -31.7157775,
+  "lon": -64.4035150
+},
+{
+  "type": "node",
+  "id": 12021315099,
+  "lat": -31.7156438,
+  "lon": -64.4035580
+},
+{
+  "type": "node",
+  "id": 12021315356,
+  "lat": -31.7157182,
+  "lon": -64.4035608
 },
 {
   "type": "node",

@@ -511,6 +511,51 @@
 },
 {
   "type": "Feature",
+  "id": "way/266697217",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:full": "San Cayetano y Avenida Los Pioneros",
+    "addr:postcode": "4200",
+    "addr:street": "San Cayetano",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Unidad de Pronta Atención 23 Vinalar",
+    "phone": "+54 385 4317758",
+    "short_name": "UPA Vinalar",
+    "website": "https://sisse.redes-sgo.gob.ar/sisse/web/index.php?r=site%2Fver-centro-salud&id=783",
+    "id": "way/266697217"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2756206,
+          -27.8291544
+        ],
+        [
+          -64.2754644,
+          -27.829361
+        ],
+        [
+          -64.275222,
+          -27.8292177
+        ],
+        [
+          -64.2753781,
+          -27.829011
+        ],
+        [
+          -64.2756206,
+          -27.8291544
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/280047337",
   "properties": {
     "addr:city": "Ciudadela",
@@ -10138,6 +10183,49 @@
 },
 {
   "type": "Feature",
+  "id": "way/1299593008",
+  "properties": {
+    "addr:housenumber": "3076",
+    "addr:street": "La Tradición",
+    "amenity": "doctors",
+    "contact:instagram": "kirios.funes",
+    "contact:phone": "+54 341 200-0341;+54 341 338-0369",
+    "healthcare": "doctor",
+    "healthcare:speciality": "applied_kinesiology;osteopathy;physiatry",
+    "name": "Kirios Funes",
+    "wheelchair": "yes",
+    "id": "way/1299593008"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.8514033,
+          -32.926039
+        ],
+        [
+          -60.851396,
+          -32.9261925
+        ],
+        [
+          -60.8510785,
+          -32.9261819
+        ],
+        [
+          -60.8510858,
+          -32.9260284
+        ],
+        [
+          -60.8514033,
+          -32.926039
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/534125484",
   "properties": {
     "addr:city": "Puerto Iguazú",
@@ -13571,6 +13659,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/3736756321",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:postcode": "4200",
+    "addr:street": "Telera Pastora Ruiz",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "U.P.A 4 Ejercito Argentino",
+    "phone": "3854319012",
+    "id": "node/3736756321"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2491152,
+      -27.8329517
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3740771637",
   "properties": {
     "addr:street": "Hipólito Yrigoyen",
@@ -16430,6 +16539,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/4552784589",
+  "properties": {
+    "addr:street": "Avenida Solís",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Upa  Mariano Moreno II",
+    "name:es": "Upa B° Mariano Moreno",
+    "phone": "3856995227",
+    "id": "node/4552784589"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2694144,
+      -27.8313902
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4562583934",
   "properties": {
     "amenity": "doctors",
@@ -17686,13 +17815,14 @@
   "id": "node/4756759962",
   "properties": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "id": "node/4756759962"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.7639308,
-      -32.9183524
+      -60.7639243,
+      -32.9183554
     ]
   }
 },
@@ -18903,12 +19033,15 @@
   "id": "node/5200889493",
   "properties": {
     "addr:city": "Santiago del Estero",
+    "addr:housenumber": "1117",
     "addr:postcode": "4200",
     "addr:street": "Pedro Pablo Olaechea",
     "amenity": "doctors",
+    "description": "Nombre anterior CAPS La Católica",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud La Católica",
-    "official_name": "CAPS La Católica",
+    "name": "UPA N2 Caceres",
+    "old_name": "CAPS La Católica",
+    "phone": "+54\t385 4504420",
     "short_name": "CAPS",
     "id": "node/5200889493"
   },
@@ -33180,12 +33313,17 @@
   "properties": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Calle Salavina Nº 2844 – Barrio Tradición Oeste",
+    "addr:housenumber": "2844",
     "addr:postcode": "4200",
     "addr:street": "Salavina",
+    "alt_name": "Gumersindo Gorosito 888",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primarai de la Salud Hipólito Irigoyen",
-    "phone": "+54 385 4312014",
+    "healthcare:speciality": "general",
+    "name": "UPA N°15 Tradición",
+    "opening_hours": "24/7",
+    "operator": "Municipal",
+    "phone": "3854319013",
     "ref:sisa_codigo": "50860492292109",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/8755894972"
@@ -33193,8 +33331,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.2571177,
-      -27.8195982
+      -64.2563957,
+      -27.8204854
     ]
   }
 },
@@ -33204,11 +33342,13 @@
   "properties": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Avenida Madre de Ciudades y Pje. 487 – Barrio Borges Sec. Los Lagos",
-    "addr:street": "Doctor Humberto Lugones",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "4200",
+    "addr:street": "Avenida Madre de Ciudades",
     "amenity": "doctors",
     "email": "loslagoscaps@hotmail.com",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud Los Lagos",
+    "name": "CAPS Los Lagos",
     "phone": "+54 385 4342016",
     "short_name": "CAPS Los Lagos",
     "id": "node/8756493312"
@@ -33227,11 +33367,12 @@
   "properties": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Doctor Luis Lescano esq. Roberto Castro – Barrio Borges",
-    "addr:street": "Doctor Humberto Lugones",
+    "addr:housenumber": "2798",
+    "addr:street": "Roberto Castro",
     "amenity": "doctors",
     "email": "capssmosacramento@hotmail.com",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud Santisimo Sacramente",
+    "name": "CAPS Santisimo Sacramento Borges",
     "phone": "+54 385 4343403",
     "short_name": "CAPS Santisimo Sacramente",
     "id": "node/8756496543"
@@ -33250,11 +33391,16 @@
   "properties": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Av. Roca (N) esq. Carranza – Barrio Juan XXIII",
+    "addr:housenumber": "551",
+    "addr:postcode": "4200",
     "addr:street": "Avenida Roca Norte",
     "amenity": "doctors",
     "email": "loslagoscaps@hotmail.com",
     "healthcare": "doctor",
+    "healthcare:speciality": "general",
     "name": "Centro de Atención Primaria de la Salud Dr. Armando Archetti",
+    "opening_hours": "24/7",
+    "operator": "Provincial",
     "phone": "+54 385 4227454",
     "short_name": "CAPS Dr. Armando Archetti",
     "id": "node/8756496544"
@@ -33262,8 +33408,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.2674476,
-      -27.7728942
+      -64.268803,
+      -27.7722075
     ]
   }
 },
@@ -33273,13 +33419,13 @@
   "properties": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Avenida Madre de Ciudades y Pje. 487 – Barrio Borges Sec. Los Lagos",
-    "addr:housenumber": "684",
+    "addr:housenumber": "874",
     "addr:street": "San Martín",
     "amenity": "doctors",
     "email": "caps_fcodeaguirre@hotmail.com",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud Francisco Aguirre",
-    "phone": "+54 385 4227258",
+    "name": "CAPS Francisco Aguirre",
+    "phone": "+54 385 4227858",
     "short_name": "CAPS Francisco Aguirre",
     "id": "node/8756496545"
   },
@@ -33297,22 +33443,22 @@
   "properties": {
     "addr:city": "Santiago del Estero",
     "addr:full": "Balcarce Nº 520 Barrio 8 de Abril",
-    "addr:housenumber": "520",
+    "addr:housenumber": "550",
     "addr:postcode": "4200",
     "addr:street": "Balcarce",
     "amenity": "doctors",
     "email": "loslagoscaps@hotmail.com",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud Doctor Estanislao Ponce",
-    "phone": "+54 385 4229199",
+    "name": "Centro de Atención Primaria de la Salud Doctor Estanislao Ponce 8 de Abril",
+    "phone": "+54 385 4311656",
     "short_name": "CAPS Doctor Estanislao Ponce",
     "id": "node/8756496554"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.2463219,
-      -27.7985088
+      -64.2463836,
+      -27.7984273
     ]
   }
 },
@@ -33328,7 +33474,7 @@
     "amenity": "doctors",
     "email": "capssolis@hotmail.com",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud Nuestra Señora Del Rosario De San Nicolás",
+    "name": "CAPS Ntra. Sra. del Rosario de San Nicolás Juan Díaz de Solis",
     "phone": "+54 385 4314029",
     "short_name": "CAPS Nuestra Señora Del Rosario De San Nicolás",
     "id": "node/8756496555"
@@ -33352,7 +33498,8 @@
     "amenity": "doctors",
     "email": "loslagoscaps@hotmail.com",
     "healthcare": "doctor",
-    "name": "Centro de Atención Primaria de la Salud Los Flores",
+    "name": "CAPS Los Flores",
+    "operator": "Municipal",
     "phone": "+54 385 5219091",
     "short_name": "CAPS Los Flores",
     "id": "node/8756496564"
@@ -33374,9 +33521,10 @@
     "addr:street": "Avenida Madre de Ciudades",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Unidad Pronta Atención 18",
+    "name": "Unidad Pronta Atención 18 Aeropuerto",
+    "phone": "3854345033",
     "short_name": "UPA 18",
-    "website": "http://sisse.redes-sgo.gob.ar/sisse/web/index.php?r=site%2Fver-centro-salud&id=775",
+    "website": "https://sisse.redes-sgo.gob.ar/sisse/web/index.php?r=site%2Fver-centro-salud&id=775",
     "id": "node/8758579772"
   },
   "geometry": {
@@ -33392,11 +33540,14 @@
   "id": "node/8758936361",
   "properties": {
     "addr:city": "Santiago del Estero",
+    "addr:housenumber": "158",
     "addr:postcode": "4200",
     "addr:street": "Romualdo Helman Gauna",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Unidad Pronta Atención 5",
+    "name": "UPA N5 Autonomía",
+    "operator": "Provincial",
+    "phone": "3854397021",
     "short_name": "UPA 5",
     "id": "node/8758936361"
   },
@@ -33405,6 +33556,30 @@
     "coordinates": [
       -64.3034831,
       -27.8108382
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8758936362",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "2096",
+    "addr:postcode": "4200",
+    "addr:street": "Buenos Aires",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N3 Reconquista",
+    "operator": "Provincial",
+    "phone": "+54 385 4319014",
+    "short_name": "UPA 3",
+    "id": "node/8758936362"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2383072,
+      -27.8073163
     ]
   }
 },
@@ -39143,6 +39318,821 @@
     "coordinates": [
       -58.4832501,
       -34.8120306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12023078247",
+  "properties": {
+    "addr:housenumber": "9424",
+    "addr:street": "Avenida Real",
+    "amenity": "doctors",
+    "contact:phone": "+54 341 486-1600",
+    "contact:website": "http://www.cibic.com.ar/",
+    "delivery": "yes",
+    "description": "Centro de Atención a Pacientes de Laboratorio CIBIC",
+    "health_facility:type": "laboratory",
+    "healthcare": "doctor",
+    "healthcare:speciality": "laboratory;biochemistry",
+    "level": "0",
+    "name": "Cibic",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-12:30",
+    "wheelchair": "yes",
+    "id": "node/12023078247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7720001,
+      -32.9189016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12023078809",
+  "properties": {
+    "addr:housenumber": "9097",
+    "addr:street": "Avenida Génova",
+    "amenity": "doctors",
+    "contact:instagram": "consultoriosgenova",
+    "contact:phone": "+54 341 540-8812",
+    "contact:website": "http://www.consultoriosgenova.com/",
+    "healthcare": "doctor",
+    "name": "Génova Consultorios",
+    "opening_hours": "Mo-Fr 09:00-13:00,15:00-19:00",
+    "id": "node/12023078809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7596961,
+      -32.9174307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12027268934",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:street": "21 de Septiembre",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Posta Altos de Choya",
+    "official_name": "Centro de Salud Altos de Choya",
+    "id": "node/12027268934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7726428,
+      -28.4439001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031801546",
+  "properties": {
+    "addr:city": "Alicia",
+    "addr:postcode": "5949",
+    "addr:street": "9 de Julio",
+    "alt_name": "Centro de Atención Primaria de la Salud San Vicente De Paul",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Dispensario Municipal San Vicente De Paul",
+    "phone": "+54 3533 496537",
+    "ref:sisa_codigo": "50141402231548",
+    "ref:sisa_tipologia": "ESSIDT",
+    "short_name": "CAPS San Vicente De Paul",
+    "id": "node/12031801546"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.4651438,
+      -31.9390714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12033958120",
+  "properties": {
+    "addr:housenumber": "585",
+    "addr:street": "Avenida Godoy Cruz",
+    "amenity": "doctors",
+    "contact:phone": "54 0261 4235618",
+    "name": "Oftalmos oculistas",
+    "id": "node/12033958120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8448113,
+      -32.8827576
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034069831",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA 11 Contreras Oeste",
+    "phone": "3856000685",
+    "id": "node/12034069831"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2650076,
+      -27.8466391
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034070914",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:street": "María Auxiliadora",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA 6 SMATA",
+    "id": "node/12034070914"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2759204,
+      -27.8223142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034094347",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:postcode": "4200",
+    "alt_name": "Calle 403 3322",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N19 Independencia",
+    "operator": "Provincial",
+    "phone": "3854319011",
+    "id": "node/12034094347"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2296898,
+      -27.8171041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034105284",
+  "properties": {
+    "addr:housenumber": "2666",
+    "addr:street": "Elvio Aroldo Avila",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N17 Borges",
+    "old_name": "Calle 109",
+    "id": "node/12034105284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2991501,
+      -27.7665553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034106750",
+  "properties": {
+    "addr:street": "Avenida Victor Alcorta",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N8 Los Flores",
+    "id": "node/12034106750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2186964,
+      -27.829908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034107387",
+  "properties": {
+    "amenity": "doctors",
+    "description": "En Andrés Chazarreta y Profesor Gabriel Paez",
+    "healthcare": "doctor",
+    "name": "UPA Mariano Moreno I",
+    "operator": "Provincial",
+    "id": "node/12034107387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2672559,
+      -27.8223566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034112896",
+  "properties": {
+    "addr:housenumber": "596",
+    "addr:street": "Paulo VI",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N10 John Kennedy",
+    "phone": "3854397023",
+    "id": "node/12034112896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2868496,
+      -27.7981779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034128115",
+  "properties": {
+    "addr:housenumber": "1698",
+    "addr:street": "Santa Rosa",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N 24 Santa Lucia",
+    "phone": "3854397025",
+    "id": "node/12034128115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2792101,
+      -27.8207565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034128149",
+  "properties": {
+    "addr:street": "Calle Coronel Borges y Guido Spano",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N 9 Bajo de Vertiz",
+    "phone": "3854275731",
+    "id": "node/12034128149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2500089,
+      -27.7327606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034131801",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA 25 Belen",
+    "id": "node/12034131801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2965287,
+      -27.7923792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034131802",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "1185",
+    "addr:postcode": "4200",
+    "addr:street": "Antonio Cruz",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "UPA N21 La Catolica",
+    "id": "node/12034131802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2396279,
+      -27.7927802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034131900",
+  "properties": {
+    "addr:street": "Doctor Jose B. Abalos",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N14 Almirante Brown",
+    "id": "node/12034131900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2465989,
+      -27.8234924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034133384",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "4850",
+    "addr:street": "Ingenio Contreras",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CIC Campo Contreras",
+    "phone": "3854286791",
+    "id": "node/12034133384"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2654249,
+      -27.8347586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034137326",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "250",
+    "addr:postcode": "4200",
+    "addr:street": "Las Urrejolas",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N9 Jorge Newbery",
+    "operator": "Provincial",
+    "phone": "3854250779",
+    "id": "node/12034137326"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2784551,
+      -27.7728382
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034137720",
+  "properties": {
+    "addr:housenumber": "1152",
+    "addr:street": "Isaac Juarez",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N 22 Peruchillo",
+    "phone": "3854867448",
+    "id": "node/12034137720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2824991,
+      -27.7877369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034137781",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "1407",
+    "addr:postcode": "4200",
+    "addr:street": "Avenida Solís",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "UPA N20 Villa Esther",
+    "id": "node/12034137781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2327513,
+      -27.8141095
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034137790",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:housenumber": "999",
+    "addr:street": "Romualdo Gauna",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CAMM Central Argentino",
+    "phone": "3856998039",
+    "id": "node/12034137790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2328772,
+      -27.7184968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034138823",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:housenumber": "803",
+    "addr:postcode": "4200",
+    "addr:street": "Calle Veracruz",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Unidad de Primer Nivel de Atencion N°1 General Paz",
+    "id": "node/12034138823"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.289933,
+      -27.7819547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034139499",
+  "properties": {
+    "addr:housenumber": "4300",
+    "addr:street": "Rubia Moreno",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CAMM Tabla Redonda",
+    "phone": "3856998004",
+    "id": "node/12034139499"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2111379,
+      -27.745409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034145487",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:postcode": "4300",
+    "alt_name": "Calle 1 Manzana 3 Lote 3",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N5 Ampliación Parque Industrial",
+    "operator": "Provincial",
+    "phone": "3854258635",
+    "id": "node/12034145487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2444385,
+      -27.7516199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034146231",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:housenumber": "159",
+    "addr:postcode": "4300",
+    "addr:street": "Ecuador",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "CAMM Avenida",
+    "phone": "+54 4278191",
+    "id": "node/12034146231"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2675948,
+      -27.7459139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034262562",
+  "properties": {
+    "addr:street": "Calle Dean Funes y Ruta Provincial N 93",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N3 Villa Griselda",
+    "phone": "3854275785",
+    "id": "node/12034262562"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2362361,
+      -27.7448098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034312819",
+  "properties": {
+    "addr:city": "Santiago del Estero",
+    "addr:postcode": "4200",
+    "addr:street": "Santa Cruz",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "UPA N7 Parque Aguirre",
+    "id": "node/12034312819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2603828,
+      -27.7740945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034655235",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:housenumber": "495",
+    "addr:postcode": "4300",
+    "addr:street": "Los Naranjos",
+    "alt_name": "Maestro Bulacio",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "UPA N1 El Cruce",
+    "phone": "+54 4373605",
+    "id": "node/12034655235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2636403,
+      -27.7510665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034685113",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:postcode": "4300",
+    "addr:street": "Avenida Aristobulo del Valle y Calle 6",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N°6 Dorrego",
+    "operator": "provincial",
+    "id": "node/12034685113"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2210912,
+      -27.7224796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034739908",
+  "properties": {
+    "addr:street": "Huaicuru",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA 4 Misky Mayu",
+    "phone": "3854373606",
+    "id": "node/12034739908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2394432,
+      -27.7653853
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034748413",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:postcode": "4300",
+    "addr:street": "Lope de Vega",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CAMM 25 de Mayo",
+    "operator": "Municipal",
+    "phone": "3856998008",
+    "id": "node/12034748413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2532388,
+      -27.715745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034748642",
+  "properties": {
+    "addr:housenumber": "s/n",
+    "addr:street": "Los Naranjos",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "CAMM El Rincon",
+    "operator": "Municipal",
+    "id": "node/12034748642"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2661562,
+      -27.7110101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034749041",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:housenumber": "1150",
+    "addr:postcode": "4300",
+    "addr:street": "Jujuy",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N7 Los Lagos",
+    "operator": "Provincial",
+    "phone": "3854275783",
+    "id": "node/12034749041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2470598,
+      -27.7227778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034750256",
+  "properties": {
+    "addr:housenumber": "650",
+    "addr:street": "Coronel Rivas Norte",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA N 2 Central Argentino",
+    "phone": "3854275782",
+    "id": "node/12034750256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2365925,
+      -27.7220908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034753425",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:postcode": "4300",
+    "addr:street": "Juan José Paso",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Sala San Javier",
+    "phone": "+54 5797597",
+    "id": "node/12034753425"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2645251,
+      -27.7359354
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034759302",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:housenumber": "225",
+    "addr:street": "Cervantes Sur",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "UPA 8 Villa Yanuzzi",
+    "phone": "3854273642",
+    "id": "node/12034759302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2532268,
+      -27.7441211
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12034760877",
+  "properties": {
+    "addr:city": "La Banda",
+    "addr:housenumber": "788",
+    "addr:postcode": "4300",
+    "addr:street": "Calle 3",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "CAMM San Fernando",
+    "opening_hours": "24/7",
+    "operator": "Municipal",
+    "id": "node/12034760877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2733293,
+      -27.73407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12038553634",
+  "properties": {
+    "Olazábal": "1574",
+    "amenity": "doctors",
+    "name": "Psiquiatría Fleni",
+    "id": "node/12038553634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4501158,
+      -34.5554208
     ]
   }
 }
