@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-07T16:53:00Z",
-    "timestamp_areas_base": "2024-07-07T13:14:15Z",
+    "timestamp_osm_base": "2024-07-17T23:49:17Z",
+    "timestamp_areas_base": "2024-07-17T21:32:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2775,7 +2775,7 @@
     "phone": "(02964) 425017/432068",
     "ref:sisa_codigo": "10940072395004",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://sanatoriofueguino.com/",
+    "website": "https://sanatoriofueguino.com/",
     "wheelchair": "yes"
   }
 },
@@ -3679,6 +3679,10 @@
   "lat": -33.1510867,
   "lon": -59.3099419,
   "tags": {
+    "addr:city": "Gualeguay",
+    "addr:housenumber": "134",
+    "addr:postcode": "2840",
+    "addr:street": "Gregorio Morán",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sur Centro Médico"
@@ -7073,6 +7077,7 @@
   "lon": -58.2963646,
   "tags": {
     "amenity": "hospital",
+    "check_date": "2024-07-16",
     "healthcare": "hospital",
     "name": "Unidad de Pronta Atención N° 11",
     "operator": "Ministerio de Salud de la Provincia de Buenos Aires"
@@ -10590,21 +10595,6 @@
 },
 {
   "type": "node",
-  "id": 4316001399,
-  "lat": -37.9761865,
-  "lon": -61.3615871,
-  "tags": {
-    "addr:city": "Coronel Pringles",
-    "addr:housenumber": "1650",
-    "addr:postcode": "7530",
-    "addr:street": "Avenida 25 de Mayo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital municipal Dr. Manuel B. Cabrera"
-  }
-},
-{
-  "type": "node",
   "id": 4318216290,
   "lat": -23.6110774,
   "lon": -65.0439041,
@@ -12818,18 +12808,6 @@
   "lon": -57.8569495,
   "tags": {
     "addr:city": "Juan Pujol",
-    "amenity": "hospital",
-    "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 4879080095,
-  "lat": -30.6196450,
-  "lon": -57.9648777,
-  "tags": {
-    "addr:city": "Mocoretá",
-    "addr:postcode": "3226",
     "amenity": "hospital",
     "healthcare": "hospital"
   }
@@ -19991,7 +19969,7 @@
     "phone": "4251010",
     "ref:sisa_codigo": "10140142331007",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://clinicasdelafamilia.com.ar/"
+    "website": "https://clinicasdelafamilia.com.ar/"
   }
 },
 {
@@ -20509,7 +20487,7 @@
     "addr:street": "Olazabal",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Sanatorio Del Oeste - (ex Imc Sanatorio Ituzaingo)",
+    "name": "Sanatorio Del Oeste Ituzaingo",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "(011) 5068-9100",
@@ -29132,8 +29110,11 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Combatientes de Malvinas",
     "amenity": "hospital",
+    "check_date": "2024-07-09",
     "healthcare": "hospital",
+    "healthcare:speciality": "oncology;clinic;paediatrics;gynaecology;dermatology;ophthalmology;applied_kinesiology;haematology;psychiatry;cardiology;urology;allergology;nephrology;podiatry;anaesthetics;endocrinology",
     "name": "Hospital General de Agudos Doctor Enrique Tornú",
+    "opening_hours": "24/7",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
     "phone": "+541145213600;+541145211236;+541145218700",
@@ -30247,6 +30228,7 @@
     "addr:postcode": "1875",
     "addr:street": "Baradero",
     "amenity": "hospital",
+    "check_date": "2024-07-11",
     "healthcare": "hospital",
     "name": "Hospital Zonal General De Agudos Doctor Eduardo Wilde",
     "operator": "Provincial",
@@ -43842,7 +43824,7 @@
     "phone": "+54 351 5680600",
     "ref:sisa_codigo": "10140142333303",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://www.clinicadelsol.com.ar/"
+    "website": "https://www.clinicadelsol.com.ar/"
   }
 },
 {
@@ -43961,9 +43943,14 @@
     5402637747
   ],
   "tags": {
+    "addr:city": "Ingeniero Luiggi",
+    "addr:housenumber": "258",
+    "addr:postcode": "6205",
+    "addr:street": "Corrientes",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Dr. Justo Ferrari"
+    "name": "Hospital Doctor Justo Ferrari",
+    "phone": "+54 2335 472124"
   }
 },
 {
@@ -56123,6 +56110,57 @@
   }
 },
 {
+  "type": "way",
+  "id": 1300076365,
+  "nodes": [
+    4316001399,
+    12042222942,
+    12042222943,
+    12042222944,
+    4316001399
+  ],
+  "tags": {
+    "addr:city": "Coronel Pringles",
+    "addr:housenumber": "1650",
+    "addr:postcode": "7530",
+    "addr:street": "Avenida 25 de Mayo",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal \"Doctor Manuel B. Cabrera\""
+  }
+},
+{
+  "type": "way",
+  "id": 1301379384,
+  "nodes": [
+    12053900983,
+    12053900984,
+    12053900988,
+    12053900989,
+    12053900983
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1301842910,
+  "nodes": [
+    12057997006,
+    12057997007,
+    12057997008,
+    12057997009,
+    12057997010,
+    12057997006
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -65755,6 +65793,30 @@
 },
 {
   "type": "node",
+  "id": 12053900983,
+  "lat": -38.7752762,
+  "lon": -62.2716729
+},
+{
+  "type": "node",
+  "id": 12053900984,
+  "lat": -38.7755276,
+  "lon": -62.2713604
+},
+{
+  "type": "node",
+  "id": 12053900988,
+  "lat": -38.7757801,
+  "lon": -62.2716207
+},
+{
+  "type": "node",
+  "id": 12053900989,
+  "lat": -38.7755455,
+  "lon": -62.2720058
+},
+{
+  "type": "node",
   "id": 877556164,
   "lat": -38.7317525,
   "lon": -62.2329924
@@ -67084,6 +67146,30 @@
   "id": 9807390338,
   "lat": -38.1397737,
   "lon": -61.7966091
+},
+{
+  "type": "node",
+  "id": 12042222942,
+  "lat": -37.9752843,
+  "lon": -61.3623194
+},
+{
+  "type": "node",
+  "id": 12042222943,
+  "lat": -37.9759424,
+  "lon": -61.3631792
+},
+{
+  "type": "node",
+  "id": 12042222944,
+  "lat": -37.9773105,
+  "lon": -61.3614936
+},
+{
+  "type": "node",
+  "id": 4316001399,
+  "lat": -37.9766526,
+  "lon": -61.3606341
 },
 {
   "type": "node",
@@ -77674,6 +77760,36 @@
   "id": 11589838094,
   "lat": -33.6819655,
   "lon": -65.4974791
+},
+{
+  "type": "node",
+  "id": 12057997006,
+  "lat": -33.6737505,
+  "lon": -65.4894863
+},
+{
+  "type": "node",
+  "id": 12057997007,
+  "lat": -33.6739318,
+  "lon": -65.4886569
+},
+{
+  "type": "node",
+  "id": 12057997008,
+  "lat": -33.6723132,
+  "lon": -65.4881268
+},
+{
+  "type": "node",
+  "id": 12057997009,
+  "lat": -33.6720317,
+  "lon": -65.4893757
+},
+{
+  "type": "node",
+  "id": 12057997010,
+  "lat": -33.6720507,
+  "lon": -65.4894343
 },
 {
   "type": "node",
@@ -108338,8 +108454,8 @@
 {
   "type": "node",
   "id": 217921795,
-  "lat": -34.5863568,
-  "lon": -58.4019137
+  "lat": -34.5863634,
+  "lon": -58.4019352
 },
 {
   "type": "node",

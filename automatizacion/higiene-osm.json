@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-07T16:57:03Z",
-    "timestamp_areas_base": "2024-07-07T13:14:15Z",
+    "timestamp_osm_base": "2024-07-17T23:54:27Z",
+    "timestamp_areas_base": "2024-07-17T19:50:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -106,19 +106,6 @@
     "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
     "name": "Farmacity",
-    "operator": "Farmacity",
-    "shop": "chemist"
-  }
-},
-{
-  "type": "node",
-  "id": 724294237,
-  "lat": -34.5932215,
-  "lon": -58.3842572,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacity Libertad",
     "operator": "Farmacity",
     "shop": "chemist"
   }
@@ -1003,6 +990,7 @@
   "lat": -34.6116932,
   "lon": -58.5285246,
   "tags": {
+    "check_date": "2024-07-10",
     "name": "Mary Sant",
     "shop": "chemist"
   }
@@ -1216,6 +1204,17 @@
     "addr:street": "Avenida Córdoba",
     "addr:suburb": "Palermo",
     "name": "Cepillo",
+    "shop": "chemist",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4670207230,
+  "lat": -34.6552064,
+  "lon": -58.6434984,
+  "tags": {
+    "name": "Química Buenos Aires",
     "shop": "chemist",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
@@ -2535,7 +2534,7 @@
     "addr:housenumber": "402",
     "addr:postcode": "7300",
     "addr:street": "Amado Diab",
-    "check_date": "2023-04-08",
+    "check_date": "2024-07-17",
     "name": "Artículos de Limpieza Cha-Cha",
     "shop": "chemist"
   }
@@ -3995,6 +3994,8 @@
   "lat": -31.5213340,
   "lon": -68.5640521,
   "tags": {
+    "description": "Artículos de limpieza",
+    "name": "Burbujitas",
     "shop": "chemist"
   }
 },
@@ -4130,6 +4131,29 @@
     "contact:instagram": "https://www.instagram.com/todo.resuelto.ok/",
     "name": "Todo Re-Suelto",
     "phone:mobile": "+54 9 298 464-3291",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 12050226229,
+  "lat": -34.6626833,
+  "lon": -58.4390438,
+  "tags": {
+    "addr:city": "CABA",
+    "addr:housenumber": "3177",
+    "addr:postcode": "1437",
+    "addr:street": "Avenida Lafuente",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 12051414086,
+  "lat": -40.7996659,
+  "lon": -62.9819167,
+  "tags": {
+    "name": "Todo Resuelto",
     "shop": "chemist"
   }
 },
@@ -5680,6 +5704,28 @@
   "tags": {
     "building": "yes",
     "name": "Limpio y Perfumado",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "way",
+  "id": 1302133596,
+  "nodes": [
+    12059996303,
+    12060122739,
+    12060122740,
+    12059996304,
+    12059996303
+  ],
+  "tags": {
+    "addr:city": "San Salvador de Jujuy",
+    "addr:postcode": "4600",
+    "addr:street": "Riobamba",
+    "building": "yes",
+    "name": "Farmacia La Botica",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "shop": "chemist"
   }
 },
@@ -7974,6 +8020,30 @@
   "id": 11861135321,
   "lat": -28.4489972,
   "lon": -65.7228603
+},
+{
+  "type": "node",
+  "id": 12059996303,
+  "lat": -24.2067058,
+  "lon": -65.2863552
+},
+{
+  "type": "node",
+  "id": 12059996304,
+  "lat": -24.2069805,
+  "lon": -65.2862057
+},
+{
+  "type": "node",
+  "id": 12060122739,
+  "lat": -24.2066568,
+  "lon": -65.2862618
+},
+{
+  "type": "node",
+  "id": 12060122740,
+  "lat": -24.2068975,
+  "lon": -65.2861287
 }
 
   ]

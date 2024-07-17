@@ -1965,7 +1965,9 @@
     "amenity": "clinic",
     "building": "yes",
     "building:use": "hospital",
+    "check_date": "2024-07-09",
     "email": "info@lanari.uba.ar",
+    "healthcare:speciality": "nephrology;oncology;haematology;surgery",
     "name": "Instituto de Investigaciones Médicas Doctor Alfredo Lanari",
     "operator": "Asociación de Profesionales Universitarios del Instituto de Investigaciones Médicas Alfredo Lanari",
     "operator:type": "public",
@@ -10663,13 +10665,16 @@
   "type": "Feature",
   "id": "way/464848621",
   "properties": {
+    "addr:housenumber": "260",
     "addr:street": "Avenida Santa Fe",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "2",
+    "check_date": "2024-07-08",
     "healthcare": "clinic",
     "name": "Cemepro",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "http://www.cemepro.com.ar/",
     "id": "way/464848621"
   },
   "geometry": {
@@ -14456,13 +14461,12 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
+    "addr:housenumber": "1525",
     "addr:street": "Mariscal Antonio José de Sucre",
     "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "building": "yes",
-    "healthcare": "clinic",
-    "name": "Helios Salud",
+    "name": "Bodylife",
     "id": "way/471904754"
   },
   "geometry": {
@@ -28404,99 +28408,6 @@
         [
           -65.783322,
           -28.4939563
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/794202470",
-  "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "627 (S)",
-    "addr:postcode": "5400",
-    "addr:street": "Centenario",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "general",
-    "name": "CAPS Villa Rodríguez Pinto",
-    "official_name": "Centro de Atención Primaria de Salud Villa Rodríguez Pinto",
-    "operator": "Ministerio de Salud Pública",
-    "operator:type": "public",
-    "id": "way/794202470"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5698367,
-          -31.5362239
-        ],
-        [
-          -68.569802,
-          -31.5362163
-        ],
-        [
-          -68.5696902,
-          -31.536192
-        ],
-        [
-          -68.5696611,
-          -31.5361857
-        ],
-        [
-          -68.5695893,
-          -31.5361701
-        ],
-        [
-          -68.5695434,
-          -31.5361601
-        ],
-        [
-          -68.569578,
-          -31.5360553
-        ],
-        [
-          -68.5695951,
-          -31.5360593
-        ],
-        [
-          -68.5696431,
-          -31.5360705
-        ],
-        [
-          -68.5696942,
-          -31.5360825
-        ],
-        [
-          -68.5697525,
-          -31.5360961
-        ],
-        [
-          -68.5697587,
-          -31.5360976
-        ],
-        [
-          -68.5698358,
-          -31.5361156
-        ],
-        [
-          -68.5698687,
-          -31.5361233
-        ],
-        [
-          -68.5698522,
-          -31.5361753
-        ],
-        [
-          -68.5698409,
-          -31.5362106
-        ],
-        [
-          -68.5698367,
-          -31.5362239
         ]
       ]
     ]
@@ -45102,7 +45013,7 @@
     "name": "Centro de salud municipal Villa Rivera Indarte",
     "opening_hours": "Mo-Fr 7:30-14:30",
     "phone": "03543449420",
-    "website": "http://www.hospitales.argentina.crigu.com/centro-de-salud-6-villa-rivera-indarte-cordoba-capital/",
+    "website": "https://www.hospitales.argentina.crigu.com/centro-de-salud-6-villa-rivera-indarte-cordoba-capital/",
     "id": "way/1219911279"
   },
   "geometry": {
@@ -50059,6 +49970,255 @@
 },
 {
   "type": "Feature",
+  "id": "way/1300800359",
+  "properties": {
+    "amenity": "clinic",
+    "id": "way/1300800359"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.5695495,
+          -31.5361591
+        ],
+        [
+          -68.5695812,
+          -31.5360577
+        ],
+        [
+          -68.5695941,
+          -31.5360607
+        ],
+        [
+          -68.5696417,
+          -31.5360717
+        ],
+        [
+          -68.5696938,
+          -31.5360838
+        ],
+        [
+          -68.5697522,
+          -31.5360974
+        ],
+        [
+          -68.5697581,
+          -31.5360988
+        ],
+        [
+          -68.5698342,
+          -31.5361164
+        ],
+        [
+          -68.5698679,
+          -31.5361243
+        ],
+        [
+          -68.5698512,
+          -31.5361765
+        ],
+        [
+          -68.5698404,
+          -31.5362104
+        ],
+        [
+          -68.5698355,
+          -31.5362255
+        ],
+        [
+          -68.5698018,
+          -31.5362176
+        ],
+        [
+          -68.5696899,
+          -31.5361917
+        ],
+        [
+          -68.5696605,
+          -31.5361849
+        ],
+        [
+          -68.5695901,
+          -31.5361685
+        ],
+        [
+          -68.5695495,
+          -31.5361591
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1301791646",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Llorente Ruiz",
+    "id": "way/1301791646"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4503111,
+          -33.6896183
+        ],
+        [
+          -65.4503517,
+          -33.6897689
+        ],
+        [
+          -65.4501993,
+          -33.6897993
+        ],
+        [
+          -65.4501911,
+          -33.689757
+        ],
+        [
+          -65.4499655,
+          -33.689801
+        ],
+        [
+          -65.4499675,
+          -33.6898264
+        ],
+        [
+          -65.4498984,
+          -33.6898365
+        ],
+        [
+          -65.4497134,
+          -33.6897536
+        ],
+        [
+          -65.4497194,
+          -33.6897426
+        ],
+        [
+          -65.4497859,
+          -33.6896165
+        ],
+        [
+          -65.4499387,
+          -33.6896863
+        ],
+        [
+          -65.4499655,
+          -33.6896944
+        ],
+        [
+          -65.4503111,
+          -33.6896183
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1301842848",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Albert Sabin",
+    "id": "way/1301842848"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4357953,
+          -33.6886637
+        ],
+        [
+          -65.4357075,
+          -33.6887958
+        ],
+        [
+          -65.4355544,
+          -33.6887204
+        ],
+        [
+          -65.4356431,
+          -33.6885969
+        ],
+        [
+          -65.4357953,
+          -33.6886637
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1302002838",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud San Antonio",
+    "id": "way/1302002838"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4730509,
+          -33.6842902
+        ],
+        [
+          -65.4730697,
+          -33.6843417
+        ],
+        [
+          -65.473126,
+          -33.6843305
+        ],
+        [
+          -65.4731578,
+          -33.6844169
+        ],
+        [
+          -65.4730274,
+          -33.6844469
+        ],
+        [
+          -65.4729245,
+          -33.6844689
+        ],
+        [
+          -65.4729034,
+          -33.6843796
+        ],
+        [
+          -65.4729651,
+          -33.6843662
+        ],
+        [
+          -65.4729472,
+          -33.6843111
+        ],
+        [
+          -65.4730509,
+          -33.6842902
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -51923,7 +52083,7 @@
     "name": "Eneri",
     "official_name": "Equipo de Neurocirugía Endovascular Radiología Intervencionista Dr. Pedro Lylyk",
     "phone": "+54 11 4014 7000",
-    "website": "http://lylyk.com.ar/",
+    "website": "https://www.lylyk.com.ar/",
     "id": "node/2432403188"
   },
   "geometry": {
@@ -62342,19 +62502,21 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "3185",
+    "addr:postcode": "1437",
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Lafuente",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "S.C.E.L.",
+    "name": "Servicio de Contención Emocional Lafuente",
     "source": "Reconocimiento cartográfico 2016 por KG",
     "id": "node/4585638735"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4389828,
-      -34.6627442
+      -58.438958,
+      -34.6627437
     ]
   }
 },
@@ -66306,7 +66468,7 @@
     "addr:postcode": "7300",
     "addr:street": "Amado Diab",
     "amenity": "clinic",
-    "check_date": "2023-04-08",
+    "check_date": "2024-07-17",
     "healthcare": "clinic",
     "healthcare:speciality": "dentist;paediatrics;gynaecology;general",
     "name": "Instituto Médico Odontológico Dr. A Iturria",
@@ -97590,7 +97752,7 @@
     "addr:full": "Tapalque 2806",
     "addr:housenumber": "2806",
     "addr:postcode": "5000",
-    "addr:street": "Tapalque",
+    "addr:street": "Tapalqué",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud 27 - Barrio Pilar",
@@ -103379,6 +103541,7 @@
   "properties": {
     "addr:city": "Mocoretá",
     "addr:full": "San Martin Y Alvear",
+    "addr:housenumber": "190",
     "addr:postcode": "3226",
     "addr:street": "Alvear",
     "alt_name": "Clínica San Juan",
@@ -105165,7 +105328,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "general",
-    "name": "Unidad de Pronta Atención N 13 Barrio Mosconi",
+    "name": "Unidad Primaria de Atención (UPA) Nº 13 B° Mosconi",
     "opening_hours": "24/7",
     "operator": "Provincial",
     "operator:type": "public",
@@ -113429,6 +113592,66 @@
     "coordinates": [
       -68.8482855,
       -32.8857398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12042397015",
+  "properties": {
+    "addr:city": "General Roca",
+    "addr:postcode": "8332",
+    "addr:street": "Don Bosco",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto Integral de Salud Don Bosco",
+    "phone": "+54 298 4331991",
+    "id": "node/12042397015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.5790186,
+      -39.0243626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12048394848",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Villa Rodríguez Pinto",
+    "official_name": "Centro de Atención Primaria de Salud Villa Rodríguez Pinto",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "id": "node/12048394848"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5695819,
+      -31.5361272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12059989269",
+  "properties": {
+    "addr:housenumber": "1675",
+    "addr:street": "Avenida Santa Rosa",
+    "amenity": "clinic",
+    "name": "Sanatorio del Oeste Santa Rosa",
+    "id": "node/12059989269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.6560688,
+      -34.6413032
     ]
   }
 }

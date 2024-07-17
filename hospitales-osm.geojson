@@ -4343,8 +4343,8 @@
           -34.5859965
         ],
         [
-          -58.4019137,
-          -34.5863568
+          -58.4019352,
+          -34.5863634
         ],
         [
           -58.400145,
@@ -16526,8 +16526,11 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Combatientes de Malvinas",
     "amenity": "hospital",
+    "check_date": "2024-07-09",
     "healthcare": "hospital",
+    "healthcare:speciality": "oncology;clinic;paediatrics;gynaecology;dermatology;ophthalmology;applied_kinesiology;haematology;psychiatry;cardiology;urology;allergology;nephrology;podiatry;anaesthetics;endocrinology",
     "name": "Hospital General de Agudos Doctor Enrique Tornú",
+    "opening_hours": "24/7",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
     "operator:type": "public",
     "phone": "+541145213600;+541145211236;+541145218700",
@@ -19204,6 +19207,7 @@
     "addr:postcode": "1875",
     "addr:street": "Baradero",
     "amenity": "hospital",
+    "check_date": "2024-07-11",
     "healthcare": "hospital",
     "name": "Hospital Zonal General De Agudos Doctor Eduardo Wilde",
     "operator": "Provincial",
@@ -50145,7 +50149,7 @@
     "phone": "+54 351 5680600",
     "ref:sisa_codigo": "10140142333303",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://www.clinicadelsol.com.ar/",
+    "website": "https://www.clinicadelsol.com.ar/",
     "id": "way/555862421"
   },
   "geometry": {
@@ -50432,9 +50436,14 @@
   "type": "Feature",
   "id": "way/560217213",
   "properties": {
+    "addr:city": "Ingeniero Luiggi",
+    "addr:housenumber": "258",
+    "addr:postcode": "6205",
+    "addr:street": "Corrientes",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Dr. Justo Ferrari",
+    "name": "Hospital Doctor Justo Ferrari",
+    "phone": "+54 2335 472124",
     "id": "way/560217213"
   },
   "geometry": {
@@ -78847,6 +78856,123 @@
 },
 {
   "type": "Feature",
+  "id": "way/1300076365",
+  "properties": {
+    "addr:city": "Coronel Pringles",
+    "addr:housenumber": "1650",
+    "addr:postcode": "7530",
+    "addr:street": "Avenida 25 de Mayo",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal \"Doctor Manuel B. Cabrera\"",
+    "id": "way/1300076365"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -61.3606341,
+          -37.9766526
+        ],
+        [
+          -61.3623194,
+          -37.9752843
+        ],
+        [
+          -61.3631792,
+          -37.9759424
+        ],
+        [
+          -61.3614936,
+          -37.9773105
+        ],
+        [
+          -61.3606341,
+          -37.9766526
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1301379384",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "way/1301379384"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.2716729,
+          -38.7752762
+        ],
+        [
+          -62.2720058,
+          -38.7755455
+        ],
+        [
+          -62.2716207,
+          -38.7757801
+        ],
+        [
+          -62.2713604,
+          -38.7755276
+        ],
+        [
+          -62.2716729,
+          -38.7752762
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1301842910",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "way/1301842910"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4894863,
+          -33.6737505
+        ],
+        [
+          -65.4886569,
+          -33.6739318
+        ],
+        [
+          -65.4881268,
+          -33.6723132
+        ],
+        [
+          -65.4893757,
+          -33.6720317
+        ],
+        [
+          -65.4894343,
+          -33.6720507
+        ],
+        [
+          -65.4894863,
+          -33.6737505
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -82762,7 +82888,7 @@
     "phone": "(02964) 425017/432068",
     "ref:sisa_codigo": "10940072395004",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://sanatoriofueguino.com/",
+    "website": "https://sanatoriofueguino.com/",
     "wheelchair": "yes",
     "id": "node/2037066690"
   },
@@ -84026,6 +84152,10 @@
   "type": "Feature",
   "id": "node/2353864067",
   "properties": {
+    "addr:city": "Gualeguay",
+    "addr:housenumber": "134",
+    "addr:postcode": "2840",
+    "addr:street": "Gregorio Morán",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sur Centro Médico",
@@ -88824,6 +88954,7 @@
   "id": "node/3710901073",
   "properties": {
     "amenity": "hospital",
+    "check_date": "2024-07-16",
     "healthcare": "hospital",
     "name": "Unidad de Pronta Atención N° 11",
     "operator": "Ministerio de Salud de la Provincia de Buenos Aires",
@@ -93741,27 +93872,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4316001399",
-  "properties": {
-    "addr:city": "Coronel Pringles",
-    "addr:housenumber": "1650",
-    "addr:postcode": "7530",
-    "addr:street": "Avenida 25 de Mayo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital municipal Dr. Manuel B. Cabrera",
-    "id": "node/4316001399"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -61.3615871,
-      -37.9761865
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4318216290",
   "properties": {
     "addr:postcode": "4513",
@@ -96810,24 +96920,6 @@
     "coordinates": [
       -57.8569495,
       -30.4180121
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4879080095",
-  "properties": {
-    "addr:city": "Mocoretá",
-    "addr:postcode": "3226",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "id": "node/4879080095"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -57.9648777,
-      -30.619645
     ]
   }
 },
@@ -106566,7 +106658,7 @@
     "phone": "4251010",
     "ref:sisa_codigo": "10140142331007",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "http://clinicasdelafamilia.com.ar/",
+    "website": "https://clinicasdelafamilia.com.ar/",
     "id": "node/7502315726"
   },
   "geometry": {
@@ -107246,7 +107338,7 @@
     "addr:street": "Olazabal",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Sanatorio Del Oeste - (ex Imc Sanatorio Ituzaingo)",
+    "name": "Sanatorio Del Oeste Ituzaingo",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "(011) 5068-9100",

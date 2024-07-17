@@ -6539,7 +6539,8 @@
     "amenity": "doctors",
     "building": "yes",
     "healthcare": "doctor",
-    "name": "Génesis",
+    "healthcare:speciality": "radiology",
+    "name": "Imedic",
     "id": "way/717628620"
   },
   "geometry": {
@@ -8854,6 +8855,54 @@
 },
 {
   "type": "Feature",
+  "id": "way/1133179868",
+  "properties": {
+    "addr:place": "Laguna Blanca",
+    "alt_name": "Posta Laguna Blanca",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Laguna Blanca",
+    "id": "way/1133179868"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.9426358,
+          -26.5863098
+        ],
+        [
+          -66.9426154,
+          -26.5861792
+        ],
+        [
+          -66.9426901,
+          -26.5861698
+        ],
+        [
+          -66.942697,
+          -26.5862142
+        ],
+        [
+          -66.9427587,
+          -26.5862065
+        ],
+        [
+          -66.9427722,
+          -26.5862928
+        ],
+        [
+          -66.9426358,
+          -26.5863098
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1138195269",
   "properties": {
     "amenity": "doctors",
@@ -9667,6 +9716,7 @@
   "properties": {
     "amenity": "doctors",
     "building": "yes",
+    "healthcare": "doctor",
     "name": "CAPS San Isidro",
     "official_name": "Centro de Atención Primaria de Salud San Isidro",
     "operator": "Gobierno de Catamarca",
@@ -10219,6 +10269,44 @@
         [
           -60.8514033,
           -32.926039
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1301263268",
+  "properties": {
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "otolaryngology",
+    "id": "way/1301263268"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.2665091,
+          -38.78396
+        ],
+        [
+          -62.2666028,
+          -38.7841106
+        ],
+        [
+          -62.2664253,
+          -38.7841775
+        ],
+        [
+          -62.2663355,
+          -38.7840269
+        ],
+        [
+          -62.2665091,
+          -38.78396
         ]
       ]
     ]
@@ -33521,7 +33609,7 @@
     "addr:street": "Avenida Madre de Ciudades",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Unidad Pronta Atención 18 Aeropuerto",
+    "name": "Unidad Primaria de Atención (UPA) Nº 18 Aeropuerto",
     "phone": "3854345033",
     "short_name": "UPA 18",
     "website": "https://sisse.redes-sgo.gob.ar/sisse/web/index.php?r=site%2Fver-centro-salud&id=775",
@@ -35153,6 +35241,27 @@
     "coordinates": [
       -60.648115,
       -32.9449489
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9025161008",
+  "properties": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "290",
+    "addr:postcode": "8500",
+    "addr:street": "Yrigoyen",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Fichetti",
+    "id": "node/9025161008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.9888495,
+      -40.8128992
     ]
   }
 },
@@ -40123,8 +40232,9 @@
   "type": "Feature",
   "id": "node/12038553634",
   "properties": {
-    "Olazábal": "1574",
     "amenity": "doctors",
+    "contact:housenumber": "1574",
+    "contact:street": "Olazábal",
     "name": "Psiquiatría Fleni",
     "id": "node/12038553634"
   },
@@ -40133,6 +40243,96 @@
     "coordinates": [
       -58.4501158,
       -34.5554208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12040776451",
+  "properties": {
+    "addr:housenumber": "50",
+    "addr:street": "Buenos Aires",
+    "amenity": "doctors",
+    "name": "RAM Salud Mental",
+    "id": "node/12040776451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8445404,
+      -32.9132294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12040776452",
+  "properties": {
+    "addr:housenumber": "47",
+    "addr:street": "Buenos Aires",
+    "amenity": "doctors",
+    "name": "PREMED",
+    "id": "node/12040776452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8445726,
+      -32.9133983
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12047128769",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "SAME 107",
+    "id": "node/12047128769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7571208,
+      -28.4481059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12047128770",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "SAME 107",
+    "id": "node/12047128770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7581735,
+      -28.4478663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12047128771",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "SAME 107",
+    "id": "node/12047128771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7566413,
+      -28.4494214
     ]
   }
 }

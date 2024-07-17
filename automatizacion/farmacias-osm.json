@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-07T16:55:02Z",
-    "timestamp_areas_base": "2024-07-07T13:14:15Z",
+    "timestamp_osm_base": "2024-07-17T23:52:15Z",
+    "timestamp_areas_base": "2024-07-17T19:50:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1237,14 +1237,19 @@
 {
   "type": "node",
   "id": 724294237,
-  "lat": -34.5932215,
-  "lon": -58.3842572,
+  "lat": -34.5931873,
+  "lon": -58.3843719,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1279",
+    "addr:street": "Libertad",
     "amenity": "pharmacy",
+    "brand:wikidata": "Q5856076",
+    "brand:wikipedia": "es:Farmacity",
     "healthcare": "pharmacy",
-    "name": "Farmacity Libertad",
-    "operator": "Farmacity",
-    "shop": "chemist"
+    "name": "Farmacity",
+    "operator": "Farmacity"
   }
 },
 {
@@ -11467,16 +11472,6 @@
 },
 {
   "type": "node",
-  "id": 2380406546,
-  "lat": -27.4760407,
-  "lon": -58.9729392,
-  "tags": {
-    "amenity": "pharmacy",
-    "name": "La Merced"
-  }
-},
-{
-  "type": "node",
   "id": 2381270402,
   "lat": -27.4403945,
   "lon": -59.0131052,
@@ -20028,6 +20023,7 @@
   "lon": -58.4672030,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-07-07",
     "healthcare": "pharmacy",
     "name": "Boggian",
     "phone": "+54 11 4290-4428"
@@ -26725,7 +26721,7 @@
     "opening_hours": "Mo-Sa 08:00-22:00",
     "phone": "+54 11 6051 7700",
     "source": "Reconocimiento terrestre por Kaart 2016.;local knowledge",
-    "website": "http://www.selmadigital.com/"
+    "website": "https://selmadigital.com/"
   }
 },
 {
@@ -31178,9 +31174,15 @@
   "lat": -34.6270563,
   "lon": -58.4908025,
   "tags": {
+    "addr:housenumber": "7100",
+    "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "pharmacy",
+    "check_date": "2024-07-16",
     "healthcare": "pharmacy",
-    "name": "Lorena"
+    "name": "Lorena",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -34528,6 +34530,7 @@
   "lat": -33.1462284,
   "lon": -59.3125195,
   "tags": {
+    "addr:city": "Gualeguay",
     "addr:housenumber": "50",
     "addr:postcode": "2840",
     "addr:street": "San Antonio Norte",
@@ -34536,7 +34539,7 @@
     "healthcare": "pharmacy",
     "name": "Sanz",
     "name:es": "Sanz",
-    "phone": "034444230",
+    "phone": "+54 34444230",
     "website": "http://www.farmaciasanz.com.ar"
   }
 },
@@ -39236,7 +39239,7 @@
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.farmaciajks.com.ar/"
+    "website": "https://www.farmaciajks.com.ar/"
   }
 },
 {
@@ -40374,9 +40377,13 @@
   "lat": -34.5828672,
   "lon": -58.4908085,
   "tags": {
+    "addr:housenumber": "4399",
+    "addr:street": "Avenida de los Constituyentes",
     "amenity": "pharmacy",
+    "check_date": "2024-07-09",
     "healthcare": "pharmacy",
-    "name": "Diadema"
+    "name": "Diadema",
+    "wheelchair": "limited"
   }
 },
 {
@@ -40702,9 +40709,11 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "1574",
     "addr:province": "Buenos Aires",
-    "addr:street": "Pablo Podestá",
+    "addr:street": "Segurola",
     "amenity": "pharmacy",
+    "check_date": "2024-07-12",
     "healthcare": "pharmacy",
     "name": "Farmacia",
     "source": "Reconocimiento terrestre por Kaart 2016"
@@ -45809,6 +45818,20 @@
 },
 {
   "type": "node",
+  "id": 4879080095,
+  "lat": -30.6196450,
+  "lon": -57.9648777,
+  "tags": {
+    "addr:city": "Mocoretá",
+    "addr:postcode": "3226",
+    "addr:street": "San Martín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santa Clara"
+  }
+},
+{
+  "type": "node",
   "id": 4884560834,
   "lat": -34.6677914,
   "lon": -58.7228912,
@@ -46494,7 +46517,7 @@
     "addr:postcode": "7300",
     "addr:street": "Amado Diab",
     "amenity": "pharmacy",
-    "check_date": "2023-04-21",
+    "check_date": "2024-07-17",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
@@ -54708,6 +54731,7 @@
     "addr:postcode": "6620",
     "addr:street": "Avenida Villarino",
     "amenity": "pharmacy",
+    "check_date": "2024-07-17",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Homar",
@@ -54725,6 +54749,7 @@
     "addr:postcode": "6620",
     "addr:street": "Avenida Villarino",
     "amenity": "pharmacy",
+    "check_date": "2024-07-17",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Ideal",
@@ -54913,6 +54938,7 @@
     "addr:postcode": "6620",
     "addr:street": "Suipacha",
     "amenity": "pharmacy",
+    "check_date": "2024-07-17",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Suipacha",
@@ -57303,6 +57329,7 @@
     "addr:housenumber": "1315",
     "addr:street": "Capitán de Fragata Moyano",
     "amenity": "pharmacy",
+    "check_date": "2024-07-07",
     "name": "Álvarez"
   }
 },
@@ -69798,17 +69825,6 @@
 },
 {
   "type": "node",
-  "id": 7626834980,
-  "lat": -34.5960739,
-  "lon": -58.4464158,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmanorte"
-  }
-},
-{
-  "type": "node",
   "id": 7630573557,
   "lat": -34.5647206,
   "lon": -58.4396434,
@@ -81202,9 +81218,12 @@
   "lat": -34.5546391,
   "lon": -58.4516111,
   "tags": {
+    "addr:housenumber": "1609",
+    "addr:street": "Blanco Encalada",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "OpenFarma"
+    "name": "OpenFarma",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-20:00; Su 10:00-19:00"
   }
 },
 {
@@ -83607,7 +83626,7 @@
     "phone": "+541145848080;+541135306996",
     "ref:sisa_codigo": "70020012317886",
     "ref:sisa_tipologia": "FARMACIA",
-    "website": "http://www.farmaciaroden.com.ar/"
+    "website": "https://www.farmaciaroden.com.ar/"
   }
 },
 {
@@ -90484,8 +90503,8 @@
 {
   "type": "node",
   "id": 11268365020,
-  "lat": -34.5940787,
-  "lon": -58.4023670,
+  "lat": -34.5940955,
+  "lon": -58.4023773,
   "tags": {
     "amenity": "pharmacy",
     "check_date": "2023-10-16",
@@ -90793,7 +90812,8 @@
   "lat": -30.9563787,
   "lon": -58.7819530,
   "tags": {
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -90802,7 +90822,8 @@
   "lat": -30.9563391,
   "lon": -58.7805106,
   "tags": {
-    "amenity": "pharmacy"
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -93201,8 +93222,8 @@
 {
   "type": "node",
   "id": 11905629650,
-  "lat": -34.5936833,
-  "lon": -58.4021958,
+  "lat": -34.5937474,
+  "lon": -58.4022248,
   "tags": {
     "amenity": "pharmacy",
     "name": "Scienzia"
@@ -93718,6 +93739,41 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Yerfino"
+  }
+},
+{
+  "type": "node",
+  "id": 12040672064,
+  "lat": -33.1492544,
+  "lon": -59.3119011,
+  "tags": {
+    "addr:city": "Gualeguay",
+    "addr:postcode": "2840",
+    "addr:street": "San Antonio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Liss"
+  }
+},
+{
+  "type": "node",
+  "id": 12042642009,
+  "lat": -34.4772103,
+  "lon": -58.5095256,
+  "tags": {
+    "addr:housenumber": "408",
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "pharmacy",
+    "branch": "San Isidro",
+    "check_date": "2024-07-08",
+    "healthcare": "pharmacy",
+    "name": "Farma365",
+    "opening_hours": "Mo-Sa 08:00-20:00; Su 10:00-20:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "https://www.farma365.com.ar/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -95615,6 +95671,10 @@
     3965271589
   ],
   "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "316",
+    "addr:postcode": "8500",
+    "addr:street": "Rivadavia",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
@@ -95866,7 +95926,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Inalen"
+    "name": "Inalén"
   }
 },
 {
@@ -100003,10 +100063,10 @@
     "addr:street": "Avenida General Mosconi",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2023-10-24",
+    "check_date": "2024-07-09",
     "delivery": "yes",
     "name": "Farma365",
-    "opening_hours": "Mo-Sa 08:00-21:00",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su off",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -100141,7 +100201,7 @@
     "name": "Selma",
     "phone": "+54 11 4073-1597",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.selmadigital.com/"
+    "website": "https://selmadigital.com/"
   }
 },
 {
@@ -100860,7 +100920,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Selma - Tu Farmacia de Cabecera",
-    "website": "http://www.selmadigital.com/"
+    "website": "https://selmadigital.com/"
   }
 },
 {
@@ -100914,10 +100974,8 @@
   "id": 473159327,
   "nodes": [
     4673236554,
-    6332299675,
     4673236555,
     4673236556,
-    6332299677,
     6332299676,
     4673236554
   ],
@@ -116504,26 +116562,26 @@
 {
   "type": "node",
   "id": 3965271672,
-  "lat": -40.8220973,
-  "lon": -62.9882160
+  "lat": -40.8220929,
+  "lon": -62.9882204
 },
 {
   "type": "node",
   "id": 3965271673,
-  "lat": -40.8222451,
-  "lon": -62.9883603
+  "lat": -40.8222427,
+  "lon": -62.9883607
 },
 {
   "type": "node",
   "id": 3965271674,
-  "lat": -40.8222802,
-  "lon": -62.9882983
+  "lat": -40.8222758,
+  "lon": -62.9882990
 },
 {
   "type": "node",
   "id": 3965271675,
-  "lat": -40.8221266,
-  "lon": -62.9881606
+  "lat": -40.8221247,
+  "lon": -62.9881590
 },
 {
   "type": "node",
@@ -134000,38 +134058,26 @@
 {
   "type": "node",
   "id": 4673236554,
-  "lat": -34.6164243,
-  "lon": -58.3915172
+  "lat": -34.6164298,
+  "lon": -58.3915266
 },
 {
   "type": "node",
   "id": 4673236555,
-  "lat": -34.6164327,
-  "lon": -58.3910867
+  "lat": -34.6164150,
+  "lon": -58.3911739
 },
 {
   "type": "node",
   "id": 4673236556,
-  "lat": -34.6163663,
-  "lon": -58.3910859
-},
-{
-  "type": "node",
-  "id": 6332299675,
-  "lat": -34.6164289,
-  "lon": -58.3912452
+  "lat": -34.6163475,
+  "lon": -58.3911798
 },
 {
   "type": "node",
   "id": 6332299676,
   "lat": -34.6163566,
-  "lon": -58.3915131
-},
-{
-  "type": "node",
-  "id": 6332299677,
-  "lat": -34.6163650,
-  "lon": -58.3912393
+  "lon": -58.3915265
 },
 {
   "type": "node",

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-07T16:56:02Z",
-    "timestamp_areas_base": "2024-07-07T13:03:00Z",
+    "timestamp_osm_base": "2024-07-17T23:53:25Z",
+    "timestamp_areas_base": "2024-07-17T19:50:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16779,7 +16779,7 @@
     "addr:street": "Avenida Madre de Ciudades",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "Unidad Pronta Atención 18 Aeropuerto",
+    "name": "Unidad Primaria de Atención (UPA) Nº 18 Aeropuerto",
     "phone": "3854345033",
     "short_name": "UPA 18",
     "website": "https://sisse.redes-sgo.gob.ar/sisse/web/index.php?r=site%2Fver-centro-salud&id=775"
@@ -17948,6 +17948,21 @@
     "contact:website": "https://www.clinicadeojosrosario.com",
     "name": "Clínica de Ojos",
     "official_name": "Instituto de oftalmología Clínica de Ojos"
+  }
+},
+{
+  "type": "node",
+  "id": 9025161008,
+  "lat": -40.8128992,
+  "lon": -62.9888495,
+  "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "290",
+    "addr:postcode": "8500",
+    "addr:street": "Yrigoyen",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Fichetti"
   }
 },
 {
@@ -21455,9 +21470,70 @@
   "lat": -34.5554208,
   "lon": -58.4501158,
   "tags": {
-    "Olazábal": "1574",
     "amenity": "doctors",
+    "contact:housenumber": "1574",
+    "contact:street": "Olazábal",
     "name": "Psiquiatría Fleni"
+  }
+},
+{
+  "type": "node",
+  "id": 12040776451,
+  "lat": -32.9132294,
+  "lon": -68.8445404,
+  "tags": {
+    "addr:housenumber": "50",
+    "addr:street": "Buenos Aires",
+    "amenity": "doctors",
+    "name": "RAM Salud Mental"
+  }
+},
+{
+  "type": "node",
+  "id": 12040776452,
+  "lat": -32.9133983,
+  "lon": -68.8445726,
+  "tags": {
+    "addr:housenumber": "47",
+    "addr:street": "Buenos Aires",
+    "amenity": "doctors",
+    "name": "PREMED"
+  }
+},
+{
+  "type": "node",
+  "id": 12047128769,
+  "lat": -28.4481059,
+  "lon": -65.7571208,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "SAME 107"
+  }
+},
+{
+  "type": "node",
+  "id": 12047128770,
+  "lat": -28.4478663,
+  "lon": -65.7581735,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "SAME 107"
+  }
+},
+{
+  "type": "node",
+  "id": 12047128771,
+  "lat": -28.4494214,
+  "lon": -65.7566413,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "SAME 107"
   }
 },
 {
@@ -24464,7 +24540,8 @@
     "amenity": "doctors",
     "building": "yes",
     "healthcare": "doctor",
-    "name": "Génesis"
+    "healthcare:speciality": "radiology",
+    "name": "Imedic"
   }
 },
 {
@@ -25511,6 +25588,27 @@
 },
 {
   "type": "way",
+  "id": 1133179868,
+  "nodes": [
+    10565368495,
+    10565368496,
+    10565368497,
+    10565368498,
+    10565368499,
+    10565368500,
+    10565368495
+  ],
+  "tags": {
+    "addr:place": "Laguna Blanca",
+    "alt_name": "Posta Laguna Blanca",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Laguna Blanca"
+  }
+},
+{
+  "type": "way",
   "id": 1138195269,
   "nodes": [
     10609561384,
@@ -25911,6 +26009,7 @@
   "tags": {
     "amenity": "doctors",
     "building": "yes",
+    "healthcare": "doctor",
     "name": "CAPS San Isidro",
     "official_name": "Centro de Atención Primaria de Salud San Isidro",
     "operator": "Gobierno de Catamarca"
@@ -26162,6 +26261,23 @@
     "healthcare:speciality": "applied_kinesiology;osteopathy;physiatry",
     "name": "Kirios Funes",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1301263268,
+  "nodes": [
+    12052747121,
+    12052747122,
+    12052747123,
+    12052747124,
+    12052747121
+  ],
+  "tags": {
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "otolaryngology"
   }
 },
 {
@@ -26600,6 +26716,30 @@
   "id": 7393704042,
   "lat": -40.8078053,
   "lon": -62.9909227
+},
+{
+  "type": "node",
+  "id": 12052747121,
+  "lat": -38.7839600,
+  "lon": -62.2665091
+},
+{
+  "type": "node",
+  "id": 12052747122,
+  "lat": -38.7841106,
+  "lon": -62.2666028
+},
+{
+  "type": "node",
+  "id": 12052747123,
+  "lat": -38.7841775,
+  "lon": -62.2664253
+},
+{
+  "type": "node",
+  "id": 12052747124,
+  "lat": -38.7840269,
+  "lon": -62.2663355
 },
 {
   "type": "node",
@@ -31196,6 +31336,42 @@
   "id": 2907091301,
   "lat": -27.8292177,
   "lon": -64.2752220
+},
+{
+  "type": "node",
+  "id": 10565368495,
+  "lat": -26.5863098,
+  "lon": -66.9426358
+},
+{
+  "type": "node",
+  "id": 10565368496,
+  "lat": -26.5861792,
+  "lon": -66.9426154
+},
+{
+  "type": "node",
+  "id": 10565368497,
+  "lat": -26.5861698,
+  "lon": -66.9426901
+},
+{
+  "type": "node",
+  "id": 10565368498,
+  "lat": -26.5862142,
+  "lon": -66.9426970
+},
+{
+  "type": "node",
+  "id": 10565368499,
+  "lat": -26.5862065,
+  "lon": -66.9427587
+},
+{
+  "type": "node",
+  "id": 10565368500,
+  "lat": -26.5862928,
+  "lon": -66.9427722
 },
 {
   "type": "node",

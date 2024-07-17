@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-07T16:54:01Z",
-    "timestamp_areas_base": "2024-07-07T13:03:00Z",
+    "timestamp_osm_base": "2024-07-17T23:51:25Z",
+    "timestamp_areas_base": "2024-07-17T21:32:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1384,7 +1384,7 @@
     "name": "Eneri",
     "official_name": "Equipo de Neurocirugía Endovascular Radiología Intervencionista Dr. Pedro Lylyk",
     "phone": "+54 11 4014 7000",
-    "website": "http://lylyk.com.ar/"
+    "website": "https://www.lylyk.com.ar/"
   }
 },
 {
@@ -8858,16 +8858,18 @@
 {
   "type": "node",
   "id": 4585638735,
-  "lat": -34.6627442,
-  "lon": -58.4389828,
+  "lat": -34.6627437,
+  "lon": -58.4389580,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "3185",
+    "addr:postcode": "1437",
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Lafuente",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "S.C.E.L.",
+    "name": "Servicio de Contención Emocional Lafuente",
     "source": "Reconocimiento cartográfico 2016 por KG"
   }
 },
@@ -11717,7 +11719,7 @@
     "addr:postcode": "7300",
     "addr:street": "Amado Diab",
     "amenity": "clinic",
-    "check_date": "2023-04-08",
+    "check_date": "2024-07-17",
     "healthcare": "clinic",
     "healthcare:speciality": "dentist;paediatrics;gynaecology;general",
     "name": "Instituto Médico Odontológico Dr. A Iturria",
@@ -35117,7 +35119,7 @@
     "addr:full": "Tapalque 2806",
     "addr:housenumber": "2806",
     "addr:postcode": "5000",
-    "addr:street": "Tapalque",
+    "addr:street": "Tapalqué",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud 27 - Barrio Pilar",
@@ -39478,6 +39480,7 @@
   "tags": {
     "addr:city": "Mocoretá",
     "addr:full": "San Martin Y Alvear",
+    "addr:housenumber": "190",
     "addr:postcode": "3226",
     "addr:street": "Alvear",
     "alt_name": "Clínica San Juan",
@@ -40778,7 +40781,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "general",
-    "name": "Unidad de Pronta Atención N 13 Barrio Mosconi",
+    "name": "Unidad Primaria de Atención (UPA) Nº 13 B° Mosconi",
     "opening_hours": "24/7",
     "operator": "Provincial",
     "operator:type": "public",
@@ -46626,6 +46629,48 @@
   }
 },
 {
+  "type": "node",
+  "id": 12042397015,
+  "lat": -39.0243626,
+  "lon": -67.5790186,
+  "tags": {
+    "addr:city": "General Roca",
+    "addr:postcode": "8332",
+    "addr:street": "Don Bosco",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto Integral de Salud Don Bosco",
+    "phone": "+54 298 4331991"
+  }
+},
+{
+  "type": "node",
+  "id": 12048394848,
+  "lat": -31.5361272,
+  "lon": -68.5695819,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Villa Rodríguez Pinto",
+    "official_name": "Centro de Atención Primaria de Salud Villa Rodríguez Pinto",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 12059989269,
+  "lat": -34.6413032,
+  "lon": -58.6560688,
+  "tags": {
+    "addr:housenumber": "1675",
+    "addr:street": "Avenida Santa Rosa",
+    "amenity": "clinic",
+    "name": "Sanatorio del Oeste Santa Rosa"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -47093,7 +47138,9 @@
     "amenity": "clinic",
     "building": "yes",
     "building:use": "hospital",
+    "check_date": "2024-07-09",
     "email": "info@lanari.uba.ar",
+    "healthcare:speciality": "nephrology;oncology;haematology;surgery",
     "name": "Instituto de Investigaciones Médicas Doctor Alfredo Lanari",
     "operator": "Asociación de Profesionales Universitarios del Instituto de Investigaciones Médicas Alfredo Lanari",
     "operator:type": "public",
@@ -51145,13 +51192,16 @@
     4599138675
   ],
   "tags": {
+    "addr:housenumber": "260",
     "addr:street": "Avenida Santa Fe",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "2",
+    "check_date": "2024-07-08",
     "healthcare": "clinic",
     "name": "Cemepro",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "website": "http://www.cemepro.com.ar/"
   }
 },
 {
@@ -53024,13 +53074,12 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
+    "addr:housenumber": "1525",
     "addr:street": "Mariscal Antonio José de Sucre",
     "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "building": "yes",
-    "healthcare": "clinic",
-    "name": "Helios Salud"
+    "name": "Bodylife"
   }
 },
 {
@@ -59485,42 +59534,6 @@
     "healthcare:speciality": "general;pulmonology",
     "name": "Centro de Salud Carlos Bravo",
     "opening_hours": "24/7",
-    "operator:type": "public"
-  }
-},
-{
-  "type": "way",
-  "id": 794202470,
-  "nodes": [
-    7428040967,
-    7428040957,
-    7428040936,
-    7428040960,
-    7428040938,
-    7557768512,
-    7428040939,
-    7428040942,
-    7428040943,
-    7557768511,
-    7428040961,
-    7428040968,
-    7428040950,
-    7428040951,
-    7428040954,
-    7428040955,
-    7428040967
-  ],
-  "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "627 (S)",
-    "addr:postcode": "5400",
-    "addr:street": "Centenario",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "general",
-    "name": "CAPS Villa Rodríguez Pinto",
-    "official_name": "Centro de Atención Primaria de Salud Villa Rodríguez Pinto",
-    "operator": "Ministerio de Salud Pública",
     "operator:type": "public"
   }
 },
@@ -67185,7 +67198,7 @@
     "name": "Centro de salud municipal Villa Rivera Indarte",
     "opening_hours": "Mo-Fr 7:30-14:30",
     "phone": "03543449420",
-    "website": "http://www.hospitales.argentina.crigu.com/centro-de-salud-6-villa-rivera-indarte-cordoba-capital/"
+    "website": "https://www.hospitales.argentina.crigu.com/centro-de-salud-6-villa-rivera-indarte-cordoba-capital/"
   }
 },
 {
@@ -69386,6 +69399,96 @@
     "operator:type": "private",
     "phone": "+54 299 658-7482",
     "website": "https://www.cmcipolletti.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1300800359,
+  "nodes": [
+    12048403116,
+    12048403125,
+    12048395474,
+    12048402154,
+    12048402155,
+    12048402136,
+    12048395473,
+    12048402137,
+    12048403742,
+    12048402139,
+    12048402140,
+    12048403745,
+    12048402142,
+    12048402143,
+    12048402146,
+    12048402147,
+    12048403116
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1301791646,
+  "nodes": [
+    12057542505,
+    12057542506,
+    12057542507,
+    12057542508,
+    12057542509,
+    12057542510,
+    12057542511,
+    12057542512,
+    7015934159,
+    7015934160,
+    7015934161,
+    12057542513,
+    12057542505
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Llorente Ruiz"
+  }
+},
+{
+  "type": "way",
+  "id": 1301842848,
+  "nodes": [
+    12057996682,
+    12057996683,
+    12057996684,
+    12057996685,
+    12057996682
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Albert Sabin"
+  }
+},
+{
+  "type": "way",
+  "id": 1302002838,
+  "nodes": [
+    12059261729,
+    12059261730,
+    12059261731,
+    12059261732,
+    7015923816,
+    12059261742,
+    12059261733,
+    12059261734,
+    12059261735,
+    12059261729
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud San Antonio"
   }
 },
 {
@@ -79828,102 +79931,6 @@
 },
 {
   "type": "node",
-  "id": 7428040936,
-  "lat": -31.5361753,
-  "lon": -68.5698522
-},
-{
-  "type": "node",
-  "id": 7428040938,
-  "lat": -31.5361156,
-  "lon": -68.5698358
-},
-{
-  "type": "node",
-  "id": 7428040939,
-  "lat": -31.5360961,
-  "lon": -68.5697525
-},
-{
-  "type": "node",
-  "id": 7428040942,
-  "lat": -31.5360825,
-  "lon": -68.5696942
-},
-{
-  "type": "node",
-  "id": 7428040943,
-  "lat": -31.5360705,
-  "lon": -68.5696431
-},
-{
-  "type": "node",
-  "id": 7428040950,
-  "lat": -31.5361701,
-  "lon": -68.5695893
-},
-{
-  "type": "node",
-  "id": 7428040951,
-  "lat": -31.5361857,
-  "lon": -68.5696611
-},
-{
-  "type": "node",
-  "id": 7428040954,
-  "lat": -31.5361920,
-  "lon": -68.5696902
-},
-{
-  "type": "node",
-  "id": 7428040955,
-  "lat": -31.5362163,
-  "lon": -68.5698020
-},
-{
-  "type": "node",
-  "id": 7428040957,
-  "lat": -31.5362106,
-  "lon": -68.5698409
-},
-{
-  "type": "node",
-  "id": 7428040960,
-  "lat": -31.5361233,
-  "lon": -68.5698687
-},
-{
-  "type": "node",
-  "id": 7428040961,
-  "lat": -31.5360553,
-  "lon": -68.5695780
-},
-{
-  "type": "node",
-  "id": 7428040967,
-  "lat": -31.5362239,
-  "lon": -68.5698367
-},
-{
-  "type": "node",
-  "id": 7428040968,
-  "lat": -31.5361601,
-  "lon": -68.5695434
-},
-{
-  "type": "node",
-  "id": 7557768511,
-  "lat": -31.5360593,
-  "lon": -68.5695951
-},
-{
-  "type": "node",
-  "id": 7557768512,
-  "lat": -31.5360976,
-  "lon": -68.5697587
-},
-{
-  "type": "node",
   "id": 7826926921,
   "lat": -31.5336842,
   "lon": -68.5680358
@@ -79975,6 +79982,102 @@
   "id": 7828007234,
   "lat": -31.5335863,
   "lon": -68.5679354
+},
+{
+  "type": "node",
+  "id": 12048395473,
+  "lat": -31.5360988,
+  "lon": -68.5697581
+},
+{
+  "type": "node",
+  "id": 12048395474,
+  "lat": -31.5360607,
+  "lon": -68.5695941
+},
+{
+  "type": "node",
+  "id": 12048402136,
+  "lat": -31.5360974,
+  "lon": -68.5697522
+},
+{
+  "type": "node",
+  "id": 12048402137,
+  "lat": -31.5361164,
+  "lon": -68.5698342
+},
+{
+  "type": "node",
+  "id": 12048402139,
+  "lat": -31.5361765,
+  "lon": -68.5698512
+},
+{
+  "type": "node",
+  "id": 12048402140,
+  "lat": -31.5362104,
+  "lon": -68.5698404
+},
+{
+  "type": "node",
+  "id": 12048402142,
+  "lat": -31.5362176,
+  "lon": -68.5698018
+},
+{
+  "type": "node",
+  "id": 12048402143,
+  "lat": -31.5361917,
+  "lon": -68.5696899
+},
+{
+  "type": "node",
+  "id": 12048402146,
+  "lat": -31.5361849,
+  "lon": -68.5696605
+},
+{
+  "type": "node",
+  "id": 12048402147,
+  "lat": -31.5361685,
+  "lon": -68.5695901
+},
+{
+  "type": "node",
+  "id": 12048402154,
+  "lat": -31.5360717,
+  "lon": -68.5696417
+},
+{
+  "type": "node",
+  "id": 12048402155,
+  "lat": -31.5360838,
+  "lon": -68.5696938
+},
+{
+  "type": "node",
+  "id": 12048403116,
+  "lat": -31.5361591,
+  "lon": -68.5695495
+},
+{
+  "type": "node",
+  "id": 12048403125,
+  "lat": -31.5360577,
+  "lon": -68.5695812
+},
+{
+  "type": "node",
+  "id": 12048403742,
+  "lat": -31.5361243,
+  "lon": -68.5698679
+},
+{
+  "type": "node",
+  "id": 12048403745,
+  "lat": -31.5362255,
+  "lon": -68.5698355
 },
 {
   "type": "node",
@@ -83221,6 +83324,156 @@
   "id": 7015896663,
   "lat": -33.6986974,
   "lon": -65.4386730
+},
+{
+  "type": "node",
+  "id": 7015923816,
+  "lat": -33.6844469,
+  "lon": -65.4730274
+},
+{
+  "type": "node",
+  "id": 12059261729,
+  "lat": -33.6842902,
+  "lon": -65.4730509
+},
+{
+  "type": "node",
+  "id": 12059261730,
+  "lat": -33.6843417,
+  "lon": -65.4730697
+},
+{
+  "type": "node",
+  "id": 12059261731,
+  "lat": -33.6843305,
+  "lon": -65.4731260
+},
+{
+  "type": "node",
+  "id": 12059261732,
+  "lat": -33.6844169,
+  "lon": -65.4731578
+},
+{
+  "type": "node",
+  "id": 12059261733,
+  "lat": -33.6843796,
+  "lon": -65.4729034
+},
+{
+  "type": "node",
+  "id": 12059261734,
+  "lat": -33.6843662,
+  "lon": -65.4729651
+},
+{
+  "type": "node",
+  "id": 12059261735,
+  "lat": -33.6843111,
+  "lon": -65.4729472
+},
+{
+  "type": "node",
+  "id": 12059261742,
+  "lat": -33.6844689,
+  "lon": -65.4729245
+},
+{
+  "type": "node",
+  "id": 7015934159,
+  "lat": -33.6897426,
+  "lon": -65.4497194
+},
+{
+  "type": "node",
+  "id": 7015934160,
+  "lat": -33.6896165,
+  "lon": -65.4497859
+},
+{
+  "type": "node",
+  "id": 7015934161,
+  "lat": -33.6896863,
+  "lon": -65.4499387
+},
+{
+  "type": "node",
+  "id": 12057542505,
+  "lat": -33.6896183,
+  "lon": -65.4503111
+},
+{
+  "type": "node",
+  "id": 12057542506,
+  "lat": -33.6897689,
+  "lon": -65.4503517
+},
+{
+  "type": "node",
+  "id": 12057542507,
+  "lat": -33.6897993,
+  "lon": -65.4501993
+},
+{
+  "type": "node",
+  "id": 12057542508,
+  "lat": -33.6897570,
+  "lon": -65.4501911
+},
+{
+  "type": "node",
+  "id": 12057542509,
+  "lat": -33.6898010,
+  "lon": -65.4499655
+},
+{
+  "type": "node",
+  "id": 12057542510,
+  "lat": -33.6898264,
+  "lon": -65.4499675
+},
+{
+  "type": "node",
+  "id": 12057542511,
+  "lat": -33.6898365,
+  "lon": -65.4498984
+},
+{
+  "type": "node",
+  "id": 12057542512,
+  "lat": -33.6897536,
+  "lon": -65.4497134
+},
+{
+  "type": "node",
+  "id": 12057542513,
+  "lat": -33.6896944,
+  "lon": -65.4499655
+},
+{
+  "type": "node",
+  "id": 12057996683,
+  "lat": -33.6887958,
+  "lon": -65.4357075
+},
+{
+  "type": "node",
+  "id": 12057996682,
+  "lat": -33.6886637,
+  "lon": -65.4357953
+},
+{
+  "type": "node",
+  "id": 12057996684,
+  "lat": -33.6887204,
+  "lon": -65.4355544
+},
+{
+  "type": "node",
+  "id": 12057996685,
+  "lat": -33.6885969,
+  "lon": -65.4356431
 },
 {
   "type": "node",
