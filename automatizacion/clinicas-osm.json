@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-17T23:51:25Z",
-    "timestamp_areas_base": "2024-07-17T21:32:00Z",
+    "timestamp_osm_base": "2024-07-24T20:26:01Z",
+    "timestamp_areas_base": "2024-07-24T18:47:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11945,7 +11945,7 @@
   "tags": {
     "addr:city": "Franck",
     "addr:housenumber": "1965",
-    "addr:postcode": "S3009",
+    "addr:postcode": "3009",
     "addr:street": "Alberdi",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -28140,7 +28140,6 @@
   "lon": -58.6417871,
   "tags": {
     "addr:city": "Castelar",
-    "addr:full": "Almafuerte 2642",
     "addr:housenumber": "2642",
     "addr:postcode": "1712",
     "addr:street": "Almafuerte",
@@ -30715,26 +30714,6 @@
 },
 {
   "type": "node",
-  "id": 7508797973,
-  "lat": -31.6527417,
-  "lon": -64.4182673,
-  "tags": {
-    "addr:full": "Los Andes 546",
-    "addr:housenumber": "546",
-    "addr:postcode": "5186",
-    "addr:street": "Intendente Luis H. Peralta",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Dispensario 11 Barrio Camara",
-    "operator": "municipal",
-    "operator:type": "public",
-    "phone": "03547-15650878 / 428121",
-    "ref:sisa_codigo": "50141472231552",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
   "id": 7508813779,
   "lat": -25.5666155,
   "lon": -61.0935813,
@@ -30980,25 +30959,6 @@
     "operator:type": "public",
     "phone": "(03547) 48-9517",
     "ref:sisa_codigo": "50141472231793",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7508886456,
-  "lat": -31.6461217,
-  "lon": -64.4148430,
-  "tags": {
-    "addr:full": "Srta. Ema Ceballos Esquina Paraguay",
-    "addr:postcode": "5186",
-    "addr:street": "Intendente J. Molinari Y Bahia Blanca",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Dispensario 8 Julio Barrientos",
-    "operator": "municipal",
-    "operator:type": "public",
-    "phone": "(03547) 42-8130 / 42-9303",
-    "ref:sisa_codigo": "50141472232287",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -46418,6 +46378,7 @@
   "lon": -58.5563112,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Dim"
   }
 },
@@ -48127,6 +48088,35 @@
     "healthcare": "clinic",
     "name": "CAPS Lujan",
     "wikidata": "Q98140995"
+  }
+},
+{
+  "type": "way",
+  "id": 281741310,
+  "nodes": [
+    2857214136,
+    2857214135,
+    2857214130,
+    2857214129,
+    2857214121,
+    8964020416,
+    2857214122,
+    2857214136
+  ],
+  "tags": {
+    "addr:full": "Srta. Ema Ceballos Esquina Paraguay",
+    "addr:postcode": "5186",
+    "addr:street": "Intendente J. Molinari Y Bahia Blanca",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Dispensario 8 Julio Barrientos",
+    "operator": "municipal",
+    "operator:type": "public",
+    "phone": "(03547) 42-8130 / 42-9303",
+    "ref:sisa_codigo": "50141472232287",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -50766,8 +50756,8 @@
   "id": 461376344,
   "nodes": [
     4568818382,
-    4568818383,
-    4568818384,
+    4567339320,
+    4567339324,
     4568818385,
     4568818382
   ],
@@ -65294,7 +65284,7 @@
     "name": "CMIT Salud Ocupacional",
     "operator": "Salud Ocupacional S.R.L.",
     "operator:type": "private",
-    "website": "http://www.cmit.com.ar/"
+    "website": "https://www.cmit.com.ar/"
   }
 },
 {
@@ -69489,6 +69479,61 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Centro de Salud San Antonio"
+  }
+},
+{
+  "type": "way",
+  "id": 1302899526,
+  "nodes": [
+    12066631649,
+    12066631650,
+    12066631651,
+    12066631652,
+    12066631649
+  ],
+  "tags": {
+    "addr:full": "Los Andes 546",
+    "addr:housenumber": "546",
+    "addr:postcode": "5186",
+    "addr:street": "Intendente Luis H. Peralta",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1",
+    "healthcare": "clinic",
+    "name": "Dispensario 11 Barrio Camara",
+    "operator": "municipal",
+    "operator:type": "public",
+    "phone": "03547-15650878 / 428121",
+    "ref:sisa_codigo": "50141472231552",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "way",
+  "id": 1303387953,
+  "nodes": [
+    12070889021,
+    12070889020,
+    12070887322,
+    12070889024,
+    12070889028,
+    12070889032,
+    12070889042,
+    12070889029,
+    12070889043,
+    12070889021
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "432",
+    "addr:postcode": "R8324",
+    "addr:street": "España",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "3",
+    "name": "Maral Asistencias Médicas",
+    "phone": "+54 299 523-9369;+54 299 635-6923"
   }
 },
 {
@@ -76916,6 +76961,60 @@
   "id": 9201340321,
   "lat": -38.9342506,
   "lon": -67.9945586
+},
+{
+  "type": "node",
+  "id": 12070887322,
+  "lat": -38.9367119,
+  "lon": -67.9956395
+},
+{
+  "type": "node",
+  "id": 12070889020,
+  "lat": -38.9366427,
+  "lon": -67.9956167
+},
+{
+  "type": "node",
+  "id": 12070889021,
+  "lat": -38.9366296,
+  "lon": -67.9956816
+},
+{
+  "type": "node",
+  "id": 12070889024,
+  "lat": -38.9367100,
+  "lon": -67.9956492
+},
+{
+  "type": "node",
+  "id": 12070889028,
+  "lat": -38.9367040,
+  "lon": -67.9956795
+},
+{
+  "type": "node",
+  "id": 12070889029,
+  "lat": -38.9366813,
+  "lon": -67.9957929
+},
+{
+  "type": "node",
+  "id": 12070889032,
+  "lat": -38.9366926,
+  "lon": -67.9957365
+},
+{
+  "type": "node",
+  "id": 12070889042,
+  "lat": -38.9366847,
+  "lon": -67.9957759
+},
+{
+  "type": "node",
+  "id": 12070889043,
+  "lat": -38.9366118,
+  "lon": -67.9957698
 },
 {
   "type": "node",
@@ -84431,6 +84530,30 @@
 },
 {
   "type": "node",
+  "id": 12066631649,
+  "lat": -31.6527685,
+  "lon": -64.4182027
+},
+{
+  "type": "node",
+  "id": 12066631650,
+  "lat": -31.6526942,
+  "lon": -64.4182021
+},
+{
+  "type": "node",
+  "id": 12066631651,
+  "lat": -31.6526931,
+  "lon": -64.4183830
+},
+{
+  "type": "node",
+  "id": 12066631652,
+  "lat": -31.6527675,
+  "lon": -64.4183836
+},
+{
+  "type": "node",
   "id": 11488291236,
   "lat": -31.8556253,
   "lon": -64.3792176
@@ -84548,6 +84671,48 @@
   "id": 11488291255,
   "lat": -31.8555919,
   "lon": -64.3792132
+},
+{
+  "type": "node",
+  "id": 2857214121,
+  "lat": -31.6460541,
+  "lon": -64.4147185
+},
+{
+  "type": "node",
+  "id": 2857214122,
+  "lat": -31.6460566,
+  "lon": -64.4148681
+},
+{
+  "type": "node",
+  "id": 2857214129,
+  "lat": -31.6461271,
+  "lon": -64.4147168
+},
+{
+  "type": "node",
+  "id": 2857214130,
+  "lat": -31.6461279,
+  "lon": -64.4147647
+},
+{
+  "type": "node",
+  "id": 2857214135,
+  "lat": -31.6462326,
+  "lon": -64.4147623
+},
+{
+  "type": "node",
+  "id": 2857214136,
+  "lat": -31.6462343,
+  "lon": -64.4148640
+},
+{
+  "type": "node",
+  "id": 8964020416,
+  "lat": -31.6460561,
+  "lon": -64.4148399
 },
 {
   "type": "node",
@@ -101123,21 +101288,21 @@
 },
 {
   "type": "node",
-  "id": 4568818382,
-  "lat": -34.5600204,
-  "lon": -58.4721455
-},
-{
-  "type": "node",
-  "id": 4568818383,
+  "id": 4567339320,
   "lat": -34.5601024,
   "lon": -58.4720856
 },
 {
   "type": "node",
-  "id": 4568818384,
+  "id": 4567339324,
   "lat": -34.5600257,
   "lon": -58.4719306
+},
+{
+  "type": "node",
+  "id": 4568818382,
+  "lat": -34.5600204,
+  "lon": -58.4721455
 },
 {
   "type": "node",

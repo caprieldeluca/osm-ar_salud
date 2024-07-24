@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-17T23:49:17Z",
-    "timestamp_areas_base": "2024-07-17T21:32:00Z",
+    "timestamp_osm_base": "2024-07-24T20:25:02Z",
+    "timestamp_areas_base": "2024-07-24T18:47:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -336,7 +336,7 @@
   "tags": {
     "addr:city": "Santo Tomé",
     "addr:housenumber": "3550",
-    "addr:postcode": "S3016",
+    "addr:postcode": "3016",
     "addr:street": "Miguel de Azcuenaga",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -5502,7 +5502,7 @@
   "tags": {
     "addr:city": "Las Perdices",
     "addr:housenumber": "520",
-    "addr:postcode": "X5921",
+    "addr:postcode": "5921",
     "addr:street": "Sarmiento",
     "amenity": "hospital",
     "emergency": "no",
@@ -13724,7 +13724,7 @@
   "tags": {
     "addr:city": "Piamonte",
     "addr:housenumber": "1099",
-    "addr:postcode": "S2529",
+    "addr:postcode": "2529",
     "addr:street": "Alberdi",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -29970,8 +29970,11 @@
     "addr:province": "Buenos Aires",
     "addr:street": "Pedro Calderón de la Barca",
     "amenity": "hospital",
+    "check_date": "2024-07-22",
+    "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital General De Agudos Dalmacio Velez Sarsfield",
+    "opening_hours": "24/7",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 (11) 4639-8700/8705",
@@ -35960,7 +35963,7 @@
     "addr:city": "San Nicolás de los Arroyos",
     "addr:country": "AR",
     "addr:housenumber": "31",
-    "addr:postcode": "B2900",
+    "addr:postcode": "2900",
     "addr:street": "Avenida Doctor Mariano Moreno",
     "amenity": "hospital",
     "beds": "158",
@@ -44606,52 +44609,6 @@
 },
 {
   "type": "way",
-  "id": 598367093,
-  "nodes": [
-    5695084555,
-    5695084547,
-    5695084548,
-    5695084553,
-    5695084538,
-    5695084539,
-    5695084540,
-    5695084541,
-    5695084542,
-    5695084543,
-    5695084544,
-    5695084549,
-    5695084550,
-    5695084551,
-    5695084552,
-    5695084545,
-    5695084546,
-    1448543754,
-    7493502328,
-    1196679076,
-    5695084537,
-    5695084536,
-    1196679075,
-    1448543748,
-    5695084554,
-    5695084555
-  ],
-  "tags": {
-    "addr:city": "San Fernando del Valle de Catamarca",
-    "addr:postcode": "4700",
-    "addr:street": "Hernando de Pedraza",
-    "amenity": "hospital",
-    "building": "hospital",
-    "building:levels": "3",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Maternidad Provincial 25 de Mayo",
-    "operator": "Gobierno de Catamarca",
-    "source": "http://www.diarioc.com.ar/inf_general/Se_puso_en_funcionamiento_la_Maternidad_Provincial/146098",
-    "wikidata": "Q94027248"
-  }
-},
-{
-  "type": "way",
   "id": 599994710,
   "nodes": [
     5706057080,
@@ -44686,7 +44643,7 @@
     "addr:city": "San Nicolás de los Arroyos",
     "addr:country": "AR",
     "addr:housenumber": "594",
-    "addr:postcode": "B2900",
+    "addr:postcode": "2900",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "building": "yes",
@@ -53152,7 +53109,7 @@
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
-    "name": "Sanatorio Privado Duarte Quiros",
+    "name": "Sanatorio Privado Duarte Quirós",
     "operator": "Privado",
     "operator:type": "private",
     "phone": "0351-4804065",
@@ -56158,6 +56115,57 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1302766137,
+  "nodes": [
+    5729534778,
+    12065343544,
+    12065343545,
+    12065343546,
+    12065343547,
+    12065343548,
+    5729534779,
+    5729534778
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1302780534,
+  "nodes": [
+    12065426230,
+    12065426231,
+    2220437613,
+    12065426232,
+    7230352938,
+    12065426233,
+    12065426234,
+    12065426235,
+    12065426236,
+    12065426237,
+    12065426238,
+    12065426230
+  ],
+  "tags": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "1550",
+    "addr:postcode": "4700",
+    "addr:street": "Hernando de Pedraza",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics;maternity",
+    "name": "Maternidad Provincial 25 de Mayo",
+    "operator": "Gobierno de Catamarca",
+    "operator:type": "public",
+    "source": "http://www.diarioc.com.ar/inf_general/Se_puso_en_funcionamiento_la_Maternidad_Provincial/146098",
+    "wikidata": "Q94027248"
   }
 },
 {
@@ -70432,8 +70440,8 @@
 {
   "type": "node",
   "id": 4792320418,
-  "lat": -32.8940429,
-  "lon": -68.7999970
+  "lat": -32.8940271,
+  "lon": -68.8000560
 },
 {
   "type": "node",
@@ -77706,6 +77714,48 @@
   "id": 6138290095,
   "lat": -33.1869028,
   "lon": -66.3087304
+},
+{
+  "type": "node",
+  "id": 5729534778,
+  "lat": -33.6946282,
+  "lon": -65.5058448
+},
+{
+  "type": "node",
+  "id": 5729534779,
+  "lat": -33.6948052,
+  "lon": -65.5049730
+},
+{
+  "type": "node",
+  "id": 12065343544,
+  "lat": -33.6950708,
+  "lon": -65.5059589
+},
+{
+  "type": "node",
+  "id": 12065343545,
+  "lat": -33.6952256,
+  "lon": -65.5057728
+},
+{
+  "type": "node",
+  "id": 12065343546,
+  "lat": -33.6952943,
+  "lon": -65.5054043
+},
+{
+  "type": "node",
+  "id": 12065343547,
+  "lat": -33.6952676,
+  "lon": -65.5052675
+},
+{
+  "type": "node",
+  "id": 12065343548,
+  "lat": -33.6951497,
+  "lon": -65.5050703
 },
 {
   "type": "node",
@@ -108184,8 +108234,8 @@
 {
   "type": "node",
   "id": 5202921959,
-  "lat": -34.5542207,
-  "lon": -58.4515220
+  "lat": -34.5542218,
+  "lon": -58.4515260
 },
 {
   "type": "node",
@@ -108226,8 +108276,8 @@
 {
   "type": "node",
   "id": 6773524596,
-  "lat": -34.5542877,
-  "lon": -58.4514552
+  "lat": -34.5542943,
+  "lon": -58.4514659
 },
 {
   "type": "node",
@@ -113139,153 +113189,69 @@
 },
 {
   "type": "node",
-  "id": 5695084544,
-  "lat": -28.4655702,
-  "lon": -65.7619988
+  "id": 12065426231,
+  "lat": -28.4656004,
+  "lon": -65.7615464
 },
 {
   "type": "node",
-  "id": 5695084545,
-  "lat": -28.4655734,
-  "lon": -65.7622562
+  "id": 12065426236,
+  "lat": -28.4657564,
+  "lon": -65.7634060
 },
 {
   "type": "node",
-  "id": 5695084549,
-  "lat": -28.4656007,
-  "lon": -65.7620442
+  "id": 12065426237,
+  "lat": -28.4658147,
+  "lon": -65.7633743
 },
 {
   "type": "node",
-  "id": 5695084550,
-  "lat": -28.4656172,
-  "lon": -65.7620982
+  "id": 12065426238,
+  "lat": -28.4659393,
+  "lon": -65.7621018
 },
 {
   "type": "node",
-  "id": 5695084551,
-  "lat": -28.4656179,
-  "lon": -65.7621554
+  "id": 2220437613,
+  "lat": -28.4654706,
+  "lon": -65.7614873
 },
 {
   "type": "node",
-  "id": 5695084552,
-  "lat": -28.4656028,
-  "lon": -65.7622099
+  "id": 7230352938,
+  "lat": -28.4648205,
+  "lon": -65.7625862
 },
 {
   "type": "node",
-  "id": 1196679075,
-  "lat": -28.4649813,
-  "lon": -65.7627547
+  "id": 12065426230,
+  "lat": -28.4654747,
+  "lon": -65.7618831
 },
 {
   "type": "node",
-  "id": 1196679076,
-  "lat": -28.4653054,
-  "lon": -65.7629247
+  "id": 12065426232,
+  "lat": -28.4652961,
+  "lon": -65.7614079
 },
 {
   "type": "node",
-  "id": 1448543748,
-  "lat": -28.4651313,
-  "lon": -65.7622092
+  "id": 12065426233,
+  "lat": -28.4649831,
+  "lon": -65.7627119
 },
 {
   "type": "node",
-  "id": 1448543754,
-  "lat": -28.4654766,
-  "lon": -65.7623081
+  "id": 12065426234,
+  "lat": -28.4649682,
+  "lon": -65.7627658
 },
 {
   "type": "node",
-  "id": 5695084536,
-  "lat": -28.4652171,
-  "lon": -65.7628366
-},
-{
-  "type": "node",
-  "id": 5695084537,
-  "lat": -28.4652060,
-  "lon": -65.7628884
-},
-{
-  "type": "node",
-  "id": 5695084538,
-  "lat": -28.4653169,
-  "lon": -65.7620576
-},
-{
-  "type": "node",
-  "id": 5695084539,
-  "lat": -28.4653441,
-  "lon": -65.7620095
-},
-{
-  "type": "node",
-  "id": 5695084540,
-  "lat": -28.4653831,
-  "lon": -65.7619736
-},
-{
-  "type": "node",
-  "id": 5695084541,
-  "lat": -28.4654301,
-  "lon": -65.7619534
-},
-{
-  "type": "node",
-  "id": 5695084542,
-  "lat": -28.4654803,
-  "lon": -65.7619510
-},
-{
-  "type": "node",
-  "id": 5695084543,
-  "lat": -28.4655287,
-  "lon": -65.7619667
-},
-{
-  "type": "node",
-  "id": 5695084546,
-  "lat": -28.4655290,
-  "lon": -65.7622918
-},
-{
-  "type": "node",
-  "id": 5695084547,
-  "lat": -28.4653339,
-  "lon": -65.7622347
-},
-{
-  "type": "node",
-  "id": 5695084548,
-  "lat": -28.4653100,
-  "lon": -65.7621792
-},
-{
-  "type": "node",
-  "id": 5695084553,
-  "lat": -28.4653042,
-  "lon": -65.7621177
-},
-{
-  "type": "node",
-  "id": 5695084554,
-  "lat": -28.4653663,
-  "lon": -65.7622938
-},
-{
-  "type": "node",
-  "id": 5695084555,
-  "lat": -28.4653729,
-  "lon": -65.7622778
-},
-{
-  "type": "node",
-  "id": 7493502328,
-  "lat": -28.4654498,
-  "lon": -65.7624047
+  "id": 12065426235,
+  "lat": -28.4649818,
+  "lon": -65.7628105
 },
 {
   "type": "node",

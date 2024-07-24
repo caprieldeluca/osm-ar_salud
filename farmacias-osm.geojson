@@ -3450,12 +3450,19 @@
   "type": "Feature",
   "id": "way/370236743",
   "properties": {
+    "addr:city": "Villa Dolores",
+    "addr:housenumber": "966",
+    "addr:postcode": "4707",
+    "addr:street": "Avenida Presidente Castillo",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "mobile": "+54 9 383 490-0551",
     "name": "Farmacia Valle Viejo",
     "opening_hours": "24/7",
-    "operator": "Colón Red de Farmacias",
+    "operator": "Farmacias Colón Red",
+    "phone": "+54 383 443-7344;+54 383 443-7349",
     "id": "way/370236743"
   },
   "geometry": {
@@ -3504,8 +3511,10 @@
     "addr:street": "Avenida Presidente Castillo",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Del Paseo",
+    "name": "Del Paseo",
+    "opening_hours": "24/7",
     "operator": "Minerva Farmacias",
     "id": "way/370236744"
   },
@@ -3518,20 +3527,24 @@
           -28.448577
         ],
         [
-          -65.7189752,
-          -28.4486266
+          -65.7189589,
+          -28.4486307
         ],
         [
-          -65.7188572,
-          -28.4485322
+          -65.7189039,
+          -28.4485435
         ],
         [
-          -65.7189565,
-          -28.4484768
+          -65.718993,
+          -28.4484924
         ],
         [
           -65.7190682,
           -28.4485343
+        ],
+        [
+          -65.719068,
+          -28.4485557
         ],
         [
           -65.7190678,
@@ -16173,9 +16186,11 @@
     "addr:street": "Avenida Lope de Vega",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-07-22",
     "contact:phone": "+54 11 4567-7038",
     "healthcare": "pharmacy",
     "name": "Farmacia Luro",
+    "opening_hours": "Mo-Sa 08:00-20:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/473835670"
   },
@@ -24665,11 +24680,11 @@
   "type": "Feature",
   "id": "way/555877090",
   "properties": {
-    "addr:street": "Avenida Duarte Quirós",
+    "addr:street": "Duarte Quirós",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Me. Dicarlo\nRed de farmacias",
+    "name": "Me. Dicarlo Red de farmacias",
     "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "way/555877090"
   },
@@ -40114,13 +40129,17 @@
   "type": "Feature",
   "id": "way/1214119068",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:full": "República esquina Sarmiento, San Fernando del Valle de Catamarca",
+    "addr:housenumber": "598",
+    "addr:postcode": "K4700EML",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "building": "yes",
-    "description": "República y Sarmiento",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "is_in": "Catamarca",
     "name": "Minerva",
+    "opening_hours": "24/7",
     "operator": "Farmacias Minerva",
     "id": "way/1214119068"
   },
@@ -40147,6 +40166,10 @@
         [
           -65.7797226,
           -28.4682732
+        ],
+        [
+          -65.7797117,
+          -28.4682812
         ],
         [
           -65.7797008,
@@ -40940,14 +40963,18 @@
   "id": "way/1259598094",
   "properties": {
     "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "626",
     "addr:postcode": "K4700EJN",
     "addr:street": "Rivadavia",
     "amenity": "pharmacy",
     "building": "retail",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Catedral",
+    "mobile": "+54 9 383 475-5966",
+    "name": "Catedral",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-23:00; Su,PH 09:00-14:00, 18:00-22:00",
     "operator": "Red Colón",
+    "phone": "+54 383 443-7342",
     "id": "way/1259598094"
   },
   "geometry": {
@@ -41042,9 +41069,11 @@
     "building": "retail",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Rivadavia - Colón",
-    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
-    "operator": "Red Colón",
+    "mobile": "+54 9 383 490-1369",
+    "name": "Rivadavia",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-23:00",
+    "operator": "Farmacias Red Colón",
+    "phone": "+54 383 443-7343",
     "id": "way/1266961690"
   },
   "geometry": {
@@ -41414,7 +41443,7 @@
   "properties": {
     "addr:city": "San Nicolás de los Arroyos",
     "addr:housenumber": "1270",
-    "addr:postcode": "B2900",
+    "addr:postcode": "2900",
     "addr:street": "Avenida General Manuel Nicolás Savio",
     "amenity": "pharmacy",
     "building": "yes",
@@ -41586,20 +41615,158 @@
 },
 {
   "type": "Feature",
-  "id": "node/302101967",
+  "id": "way/1302801554",
   "properties": {
-    "addr:housenumber": "405",
-    "addr:street": "Salta",
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:full": "Mota Botello esquina Rivadavia, San Fernando del Valle de Catamarca",
+    "addr:housenumber": "601",
+    "addr:street": "Mota Botello",
     "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Di Nucci",
-    "id": "node/302101967"
+    "name": "San Martín",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:30-21:30; Sa 08:30-13:00,17:30-21:00",
+    "operator": "Minerva Farmacias",
+    "id": "way/1302801554"
   },
   "geometry": {
-    "type": "Point",
+    "type": "Polygon",
     "coordinates": [
-      -62.269012,
-      -38.7075572
+      [
+        [
+          -65.7781503,
+          -28.4721991
+        ],
+        [
+          -65.7779339,
+          -28.4721933
+        ],
+        [
+          -65.7779387,
+          -28.4721337
+        ],
+        [
+          -65.7781194,
+          -28.4721411
+        ],
+        [
+          -65.7781355,
+          -28.4721568
+        ],
+        [
+          -65.7781516,
+          -28.4721725
+        ],
+        [
+          -65.7781503,
+          -28.4721991
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1302939327",
+  "properties": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "405",
+    "addr:postcode": "8000",
+    "addr:street": "Salta",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/FarmaciaDiNucci/",
+    "contact:instagram": "https://www.instagram.com/farmaciadinucci/",
+    "contact:whatsapp": "+5492915073674",
+    "email": "tienda@farmaciadinucci.com.ar",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 291 507-3674",
+    "name": "Di Nucci",
+    "opening_hours": "24/7",
+    "phone": "+54 9 291 455-2155",
+    "website": "https://farmaciadinucci.com.ar/",
+    "id": "way/1302939327"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.2690662,
+          -38.7075348
+        ],
+        [
+          -62.2688866,
+          -38.7074137
+        ],
+        [
+          -62.268926,
+          -38.7073764
+        ],
+        [
+          -62.2689434,
+          -38.707392
+        ],
+        [
+          -62.2690859,
+          -38.7075201
+        ],
+        [
+          -62.269076,
+          -38.7075275
+        ],
+        [
+          -62.2690662,
+          -38.7075348
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1303387960",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "318",
+    "addr:postcode": "R8324",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "height": "3",
+    "name": "Farmacia MUTRAME",
+    "operator": "Mutual de Trabajadores Mercantiles",
+    "id": "way/1303387960"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9966342,
+          -38.936652
+        ],
+        [
+          -67.9966658,
+          -38.9367471
+        ],
+        [
+          -67.9966017,
+          -38.9367599
+        ],
+        [
+          -67.9965701,
+          -38.9366649
+        ],
+        [
+          -67.9966342,
+          -38.936652
+        ]
+      ]
     ]
   }
 },
@@ -41698,12 +41865,16 @@
   "type": "Feature",
   "id": "node/423006982",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:street": "Avenida Colón",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "mobile": "+54 9 383 451-0771",
     "name": "Colón",
     "opening_hours": "24/7",
-    "operator": "Red Colón",
+    "operator": "Farmacias Red Colón",
+    "phone": "+54 383 443-3333;+54 383 443-6421",
     "id": "node/423006982"
   },
   "geometry": {
@@ -42562,8 +42733,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7783995,
-      -28.4736326
+      -65.7782947,
+      -28.4735446
     ]
   }
 },
@@ -42589,10 +42760,13 @@
   "type": "Feature",
   "id": "node/589309651",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "383",
+    "addr:street": "Avenida Ahumada y Barros",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Ocampo",
+    "name": "Ocampo",
     "opening_hours": "24/7",
     "operator": "Minerva Farmacias",
     "id": "node/589309651"
@@ -42600,8 +42774,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.797765,
-      -28.4705259
+      -65.7977731,
+      -28.470567
     ]
   }
 },
@@ -42827,18 +43001,25 @@
   "type": "Feature",
   "id": "node/660897692",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:full": "Avenida Belgrano esquina Caseros, San Fernando del Valle de Catamarca",
+    "addr:housenumber": "101",
+    "addr:street": "Avenida Belgrano",
     "amenity": "pharmacy",
-    "description": "Av. Belgrano y Caseros",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "mobile": "+54 9 383 490-1317",
     "name": "Universitaria",
-    "operator": "Red Colon",
+    "opening_hours": "Mo-sa 08:00-00:00; PH,Su 09:00-14:00,18:00-22:00",
+    "operator": "Farmacias Red Colón",
+    "phone": "+54 383 443-7356",
     "id": "node/660897692"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.7858835,
-      -28.4609058
+      -65.785882,
+      -28.4608489
     ]
   }
 },
@@ -44581,13 +44762,17 @@
   "id": "node/1009022077",
   "properties": {
     "addr:city": "San Fernando del Valle de Catamarca",
-    "addr:housenumber": "675",
+    "addr:housenumber": "687",
     "addr:postcode": "4700",
     "addr:street": "Chacabuco",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Pasteur",
+    "mobile": "+54 9 383 475-5969",
+    "name": "Salta - Pasteur",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
     "operator": "Red Colon",
+    "phone": "+54 383 443-7341",
     "id": "node/1009022077"
   },
   "geometry": {
@@ -44744,8 +44929,13 @@
   "type": "Feature",
   "id": "node/1057847452",
   "properties": {
+    "addr:full": "Prado esquina Maipú, San Fernando del Valle de Catamarca",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Del Valle",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:30-21:30; Sa 08:30-13:00,17:30-21:00",
+    "operator": "Minerva Farmacias",
     "id": "node/1057847452"
   },
   "geometry": {
@@ -48226,7 +48416,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Central",
+    "name": "Central",
     "opening_hours": "Mo-Fr 08:00-13:00,17:00-21:00; Sa 08:30-13:00,17:30-21:00",
     "operator": "Minerva Farmacias",
     "id": "node/1526255778"
@@ -59321,8 +59511,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.465133,
-      -34.5389898
+      -58.4651429,
+      -34.5389772
     ]
   }
 },
@@ -61075,6 +61265,7 @@
     "addr:housenumber": "222",
     "addr:street": "Paso de los Andes",
     "amenity": "pharmacy",
+    "contact:phone": "54 0261 4280024",
     "healthcare": "pharmacy",
     "name": "Farmacia de la Quinta",
     "id": "node/2519763247"
@@ -61082,8 +61273,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8596077,
-      -32.8974873
+      -68.8595605,
+      -32.8977448
     ]
   }
 },
@@ -69774,7 +69965,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "KTL",
+    "name": "TKL",
     "id": "node/3181395664"
   },
   "geometry": {
@@ -80004,14 +80195,13 @@
   "type": "Feature",
   "id": "node/3693493969",
   "properties": {
-    "addr:city": "Mendoza",
     "addr:country": "AR",
     "addr:housenumber": "2198",
     "addr:street": "Martínez de Rozas",
     "amenity": "pharmacy",
+    "contact:phone": "54 0261 4280280; 4288362",
     "healthcare": "pharmacy",
-    "is_in:state": "Mendoza",
-    "name": "Reconquista",
+    "name": "Farmacia Reconquista",
     "id": "node/3693493969"
   },
   "geometry": {
@@ -80134,6 +80324,7 @@
   "id": "node/3698158367",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2024-07-20",
     "healthcare": "pharmacy",
     "name": "Genis",
     "phone": "+54 11 6009-0815",
@@ -81256,27 +81447,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3762491144",
-  "properties": {
-    "addr:city": "Mendoza",
-    "addr:housenumber": "299",
-    "addr:street": "Ayacucho",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Ayacucho",
-    "phone": "54 0261 4307302",
-    "id": "node/3762491144"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.8308931,
-      -32.8753863
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3762491147",
   "properties": {
     "addr:city": "Mendoza",
@@ -81914,17 +82084,23 @@
   "type": "Feature",
   "id": "node/3796842765",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "1096",
+    "addr:street": "Avenida Illia",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "mobile": "+54 9 383 435-4669",
     "name": "Illia",
-    "operator": "Red Colon",
+    "opening_hours": "Mo-Sa 08:00-00:00; Su,PH 09:00-14:00, 18:00-22:00",
+    "operator": "Farmacias Red Colón",
     "id": "node/3796842765"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.8015083,
-      -28.4613911
+      -65.8014932,
+      -28.4614153
     ]
   }
 },
@@ -88615,8 +88791,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4605256,
-      -34.6143926
+      -58.4604934,
+      -34.6144401
     ]
   }
 },
@@ -114435,7 +114611,7 @@
   "type": "Feature",
   "id": "node/5371733300",
   "properties": {
-    "addr:street": "Avenida Duarte Quirós",
+    "addr:street": "Duarte Quirós",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Bayaspirina",
@@ -117246,24 +117422,6 @@
     "coordinates": [
       -60.9492042,
       -34.5861063
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5509850981",
-  "properties": {
-    "addr:street": "Paso del los Andes",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacia de la Quinta",
-    "id": "node/5509850981"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.8595621,
-      -32.8977713
     ]
   }
 },
@@ -122197,7 +122355,7 @@
     "addr:city": "San Nicolás de los Arroyos",
     "addr:country": "AR",
     "addr:housenumber": "1002",
-    "addr:postcode": "B2900",
+    "addr:postcode": "2900",
     "addr:street": "Avenida General Manuel Nicolás Savio",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -129251,7 +129409,7 @@
   "properties": {
     "addr:city": "San Vicente",
     "addr:housenumber": "49",
-    "addr:postcode": "N3356",
+    "addr:postcode": "3356",
     "addr:street": "Ramón Carillo",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -132987,7 +133145,7 @@
     "addr:city": "San Nicolás de los Arroyos",
     "addr:country": "AR",
     "addr:housenumber": "450",
-    "addr:postcode": "B2900",
+    "addr:postcode": "2900",
     "addr:street": "De la Nación",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -133010,7 +133168,7 @@
     "addr:city": "San Nicolás de los Arroyos",
     "addr:country": "AR",
     "addr:housenumber": "352",
-    "addr:postcode": "B2900",
+    "addr:postcode": "2900",
     "addr:street": "De la Nación",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -142514,37 +142672,25 @@
 },
 {
   "type": "Feature",
-  "id": "node/7666855250",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Mutual de Trabajadores Mercantiles",
-    "id": "node/7666855250"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.9965864,
-      -38.9367182
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7667124346",
   "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "325",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Farmacia Suyai",
+    "phone": "+54 299 478-1081",
     "id": "node/7667124346"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.9963912,
-      -38.9355061
+      -67.9962636,
+      -38.9359134
     ]
   }
 },
@@ -145733,7 +145879,7 @@
   "id": "node/8332452164",
   "properties": {
     "addr:city": "Santo Tomé",
-    "addr:postcode": "S3016",
+    "addr:postcode": "3016",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Olivero",
@@ -153022,6 +153168,7 @@
   "id": "node/9548014988",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/9548014988"
   },
   "geometry": {
@@ -153182,6 +153329,7 @@
     "addr:postcode": "1718",
     "addr:street": "Intendente Mendiluce",
     "amenity": "pharmacy",
+    "check_date": "2024-07-24",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Guercio",
@@ -160050,7 +160198,8 @@
   "id": "node/10710330133",
   "properties": {
     "amenity": "pharmacy",
-    "name": "Farmacia Trecu",
+    "healthcare": "pharmacy",
+    "name": "Trecu",
     "id": "node/10710330133"
   },
   "geometry": {
@@ -174100,8 +174249,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.0549728,
-      -30.7065323
+      -64.0549326,
+      -30.7065588
     ]
   }
 },
@@ -175083,9 +175232,15 @@
   "type": "Feature",
   "id": "node/11948895818",
   "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:full": "Ayacucho esquina Chacabuco, San Fernando del Valle de Catamarca",
+    "addr:housenumber": "800",
+    "addr:street": "Ayacucho",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Elena - Minerva",
+    "name": "Elena",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:30-21:30; Sa 08:30-13:00",
     "operator": "Minerva Farmacias",
     "id": "node/11948895818"
   },
@@ -175699,6 +175854,331 @@
     "coordinates": [
       -58.5095256,
       -34.4772103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12062411750",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/12062411750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.0588948,
+      -30.7087639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12063610521",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "565",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Gazzola",
+    "id": "node/12063610521"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9930493,
+      -38.9365675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065680095",
+  "properties": {
+    "addr:full": "9 de Julio esquina República, San Fernando del Valle de Catamarca",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "9 de Julio",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:30-21:30; Sa 08:30-13:00,17:30-21:00",
+    "operator": "Minerva Farmacias",
+    "id": "node/12065680095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7724313,
+      -28.4678385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065680101",
+  "properties": {
+    "addr:city": "San Jose de Piedra Blanca",
+    "addr:street": "Avenida La Callecita",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Fray Mamerto Esquiú",
+    "opening_hours": "Mo-Fr 09:00-13:30,18:00-22:00; Su 09:30-13:00,18:00-22:00",
+    "operator": "Minerva Farmacias",
+    "id": "node/12065680101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7036035,
+      -28.3887399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065778335",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "717",
+    "addr:street": "Pedro Agote",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 383 427-2975",
+    "name": "Norte",
+    "opening_hours": "Mo-Fr 08:00-00:00; Sa 08:00-23:00; Su,PH 09:00-14:00, 18:00-22:00",
+    "operator": "Farmacias Red Colón",
+    "id": "node/12065778335"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7817018,
+      -28.4532785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065778336",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "960",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 383 475-5971",
+    "name": "Del Parque",
+    "opening_hours": "Mo-Su,PH 08:00-22:00",
+    "operator": "Farmacias Red Colón",
+    "phone": "+54 383 443-7354",
+    "id": "node/12065778336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7716873,
+      -28.4593558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065778337",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "2761",
+    "addr:street": "Avenida Misiones",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 383 490-2609",
+    "name": "Misiones",
+    "opening_hours": "Mo-Sa 08:00-00:00; Su,PH 09:00-14:00, 18:00-22:00",
+    "operator": "Farmacias Red Colón",
+    "id": "node/12065778337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7964342,
+      -28.4919146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065778338",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "995",
+    "addr:street": "Rivadavia",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "La Esquina Express",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-14:00, 17:00-23:00",
+    "operator": "Farmacias Red Colón",
+    "phone": "+54 383 445-5480",
+    "id": "node/12065778338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7783082,
+      -28.473279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065778339",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "2018",
+    "addr:street": "Avenida Misiones",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 383 407-3861",
+    "name": "Las Mil",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00; Su,PH 09:00-14:00, 18:00-22:00",
+    "operator": "Farmacias Red Colón",
+    "phone": "+54 383 445-4312",
+    "id": "node/12065778339"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.796462,
+      -28.4845814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065786541",
+  "properties": {
+    "addr:city": "Villa Dolores",
+    "addr:housenumber": "125",
+    "addr:street": "Joaquín Acuña",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/farmaciaesquiu/",
+    "contact:instagram": "https://www.instagram.com/farmaciaesquiu/",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Esquiú",
+    "opening_hours": "Mo-Fr 08:00-13:30, 17:30-21:30; Sa 08:00-13:00",
+    "id": "node/12065786541"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7222065,
+      -28.4482202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065786542",
+  "properties": {
+    "addr:city": "Santa Rosa",
+    "addr:postcode": "4707",
+    "addr:street": "Manuel Navarro",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Nazar",
+    "id": "node/12065786542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7065751,
+      -28.4466079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065786543",
+  "properties": {
+    "addr:city": "Santa Rosa",
+    "addr:street": "Avenida Presidente Castillo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Santa Lucia",
+    "id": "node/12065786543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7152006,
+      -28.4451031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065786544",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:street": "Padre Esquiú",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Más Salud",
+    "id": "node/12065786544"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7240706,
+      -28.4535799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12065786545",
+  "properties": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "933",
+    "addr:street": "Padre Esquiú",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Del Rosario",
+    "id": "node/12065786545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.7251604,
+      -28.4568266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12070199769",
+  "properties": {
+    "addr:housenumber": "1666",
+    "addr:street": "Sánchez de Bustamante",
+    "amenity": "pharmacy",
+    "name": "Nec",
+    "id": "node/12070199769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.41021,
+      -34.5916919
     ]
   }
 }
