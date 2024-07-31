@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-24T20:26:01Z",
-    "timestamp_areas_base": "2024-07-24T18:47:30Z",
+    "timestamp_osm_base": "2024-07-31T23:22:57Z",
+    "timestamp_areas_base": "2024-07-31T18:40:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -46036,6 +46036,18 @@
 },
 {
   "type": "node",
+  "id": 11504036643,
+  "lat": -38.0000978,
+  "lon": -57.5571884,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "yes",
+    "name": "Centro de Salud Nº 1",
+    "operator": "Municipalidad de Gral. Pueyrredon"
+  }
+},
+{
+  "type": "node",
   "id": 11516750274,
   "lat": -31.5400861,
   "lon": -68.5177904,
@@ -46629,6 +46641,35 @@
     "addr:street": "Avenida Santa Rosa",
     "amenity": "clinic",
     "name": "Sanatorio del Oeste Santa Rosa"
+  }
+},
+{
+  "type": "node",
+  "id": 12074366285,
+  "lat": -32.9369125,
+  "lon": -60.6421985,
+  "tags": {
+    "amenity": "clinic",
+    "contact:phone": "+54 341 422-9700",
+    "contact:website": "http://consultoriosdelbritanico.com/",
+    "healthcare": "clinic",
+    "name": "Consultorios del Británico",
+    "reservation": "recommended"
+  }
+},
+{
+  "type": "node",
+  "id": 12083482002,
+  "lat": -31.5066128,
+  "lon": -68.5994583,
+  "tags": {
+    "amenity": "clinic",
+    "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
+    "healthcare": "clinic",
+    "name": "CAPS Doctor Jorge Humberto Mira",
+    "official_name": "Centro de Salud Doctor Humberto Mira",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public"
   }
 },
 {
@@ -49103,6 +49144,26 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Sala Médica \"Arturo Oñativia\""
+  }
+},
+{
+  "type": "way",
+  "id": 333921148,
+  "nodes": [
+    3409696232,
+    3409696233,
+    3409696234,
+    12077507280,
+    12077507281,
+    12077507282,
+    12077507283,
+    3409696235,
+    3409696232
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "name": "C.I.C."
   }
 },
 {
@@ -56838,7 +56899,8 @@
     "name": "Sanatorio Americano",
     "operator:type": "private",
     "ref:sisa_codigo": "10820842384216",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q97691327"
   }
 },
 {
@@ -57691,7 +57753,7 @@
     "amenity": "clinic",
     "contact:phone": "+54 (336) 448-9130",
     "healthcare": "clinic",
-    "name": "Centro de Medicina Preventiva",
+    "name": "Centro Municipal de Salud \"Dr. Carlos Ferreyra\"",
     "operator:type": "public",
     "short_name": "CEMPRE"
   }
@@ -58799,53 +58861,6 @@
 },
 {
   "type": "way",
-  "id": 719968331,
-  "nodes": [
-    9178482420,
-    9178482426,
-    9178482427,
-    6757530350,
-    9178482421,
-    9178482422,
-    9178482420
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "582",
-    "addr:postcode": "R8324",
-    "addr:street": "Hipólito Yrigoyen",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Consultorios Integrales Cipolletti"
-  }
-},
-{
-  "type": "way",
-  "id": 719985329,
-  "nodes": [
-    6757664038,
-    9179196384,
-    9179196385,
-    9179196386,
-    9179196409,
-    6757664038
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "467",
-    "addr:postcode": "R8324",
-    "addr:street": "9 de Julio",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:colour": "lightgrey",
-    "healthcare": "clinic",
-    "height": "5",
-    "name": "Pulso"
-  }
-},
-{
-  "type": "way",
   "id": 723396452,
   "nodes": [
     6785139404,
@@ -58885,6 +58900,54 @@
     "phone": "02202-455414",
     "ref:sisa_codigo": "50064272202008",
     "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "way",
+  "id": 726584605,
+  "nodes": [
+    6112208125,
+    6810399557,
+    7364637717,
+    6810399558,
+    7364637720,
+    6112208126,
+    6112208125
+  ],
+  "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "410",
+    "addr:postcode": "8500",
+    "addr:street": "San Martín",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CeMIS"
+  }
+},
+{
+  "type": "way",
+  "id": 726584617,
+  "nodes": [
+    3805605589,
+    6810408224,
+    7376714827,
+    3805605602,
+    6810408225,
+    7376714826,
+    7376714825,
+    7376714824,
+    3805605589
+  ],
+  "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "359",
+    "addr:postcode": "8500",
+    "addr:street": "25 de Mayo",
+    "amenity": "clinic",
+    "building": "construction",
+    "healthcare": "clinic",
+    "name": "Centro Ambulatorio - Clínica Viedma"
   }
 },
 {
@@ -64528,7 +64591,8 @@
     "operator": "Municipalidad de Roldán",
     "ref:sisa_codigo": "50821192284999",
     "ref:sisa_tipologia": "ESSIDT",
-    "wheelchair": "yes"
+    "wheelchair": "yes",
+    "wikidata": "Q97672692"
   }
 },
 {
@@ -69534,6 +69598,95 @@
     "height": "3",
     "name": "Maral Asistencias Médicas",
     "phone": "+54 299 523-9369;+54 299 635-6923"
+  }
+},
+{
+  "type": "way",
+  "id": 1304710107,
+  "nodes": [
+    11761623004,
+    11761623005,
+    12083844566,
+    10738413590,
+    10738413591,
+    11761623002,
+    11761623004
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "kinesiology",
+    "name": "Centro de Kinesiología",
+    "operator": "Corporación Medica de General San Martín",
+    "operator:type": "private",
+    "operator:website": "https://www.webcorporacion.com.ar/"
+  }
+},
+{
+  "type": "way",
+  "id": 1304900714,
+  "nodes": [
+    12085897430,
+    12085897435,
+    12085897436,
+    12085897442,
+    12085897431,
+    12085897441,
+    12085897414,
+    12085897412,
+    12085897432,
+    12085897437,
+    12085897433,
+    12085897434,
+    12085897445,
+    12085897430
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "582",
+    "addr:postcode": "R8324",
+    "addr:street": "Hipólito Yrigoyen",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "height": "2",
+    "name": "Consultorios Integrales Cipolletti",
+    "phone": "+54 299 478-6177"
+  }
+},
+{
+  "type": "way",
+  "id": 1304926954,
+  "nodes": [
+    12086223930,
+    12086223929,
+    12086223931,
+    12086223932,
+    12086212818,
+    12086223940,
+    12086223942,
+    12086223933,
+    12086223934,
+    12086223935,
+    12086223936,
+    12086223937,
+    12086223938,
+    12086223939,
+    12086212817,
+    12086223930
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "467",
+    "addr:postcode": "R8324",
+    "addr:street": "9 de Julio",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/pulsoconsultorio/",
+    "healthcare": "clinic",
+    "height": "4",
+    "name": "Pulso Medicina Integral",
+    "phone": "+54 299 597-2858"
   }
 },
 {
@@ -76142,42 +76295,6 @@
 },
 {
   "type": "node",
-  "id": 6757530350,
-  "lat": -38.9384510,
-  "lon": -67.9934483
-},
-{
-  "type": "node",
-  "id": 9178482420,
-  "lat": -38.9384140,
-  "lon": -67.9935299
-},
-{
-  "type": "node",
-  "id": 9178482421,
-  "lat": -38.9383185,
-  "lon": -67.9934034
-},
-{
-  "type": "node",
-  "id": 9178482422,
-  "lat": -38.9383005,
-  "lon": -67.9934920
-},
-{
-  "type": "node",
-  "id": 9178482426,
-  "lat": -38.9384247,
-  "lon": -67.9934780
-},
-{
-  "type": "node",
-  "id": 9178482427,
-  "lat": -38.9384436,
-  "lon": -67.9934844
-},
-{
-  "type": "node",
   "id": 11754509213,
   "lat": -38.9427687,
   "lon": -67.9872927
@@ -76622,6 +76739,84 @@
 },
 {
   "type": "node",
+  "id": 12085897412,
+  "lat": -38.9383762,
+  "lon": -67.9935258
+},
+{
+  "type": "node",
+  "id": 12085897414,
+  "lat": -38.9382984,
+  "lon": -67.9934999
+},
+{
+  "type": "node",
+  "id": 12085897430,
+  "lat": -38.9384582,
+  "lon": -67.9934451
+},
+{
+  "type": "node",
+  "id": 12085897431,
+  "lat": -38.9383189,
+  "lon": -67.9933985
+},
+{
+  "type": "node",
+  "id": 12085897432,
+  "lat": -38.9384164,
+  "lon": -67.9935393
+},
+{
+  "type": "node",
+  "id": 12085897433,
+  "lat": -38.9384288,
+  "lon": -67.9934782
+},
+{
+  "type": "node",
+  "id": 12085897434,
+  "lat": -38.9384501,
+  "lon": -67.9934853
+},
+{
+  "type": "node",
+  "id": 12085897435,
+  "lat": -38.9384369,
+  "lon": -67.9934380
+},
+{
+  "type": "node",
+  "id": 12085897436,
+  "lat": -38.9383778,
+  "lon": -67.9934183
+},
+{
+  "type": "node",
+  "id": 12085897437,
+  "lat": -38.9384225,
+  "lon": -67.9935091
+},
+{
+  "type": "node",
+  "id": 12085897441,
+  "lat": -38.9383047,
+  "lon": -67.9934681
+},
+{
+  "type": "node",
+  "id": 12085897442,
+  "lat": -38.9383558,
+  "lon": -67.9934109
+},
+{
+  "type": "node",
+  "id": 12085897445,
+  "lat": -38.9384541,
+  "lon": -67.9934652
+},
+{
+  "type": "node",
   "id": 11754509215,
   "lat": -38.9428815,
   "lon": -67.9867379
@@ -76763,12 +76958,6 @@
   "id": 6317120597,
   "lat": -38.9334657,
   "lon": -67.9995933
-},
-{
-  "type": "node",
-  "id": 6757664038,
-  "lat": -38.9373136,
-  "lon": -67.9947649
 },
 {
   "type": "node",
@@ -76916,30 +77105,6 @@
 },
 {
   "type": "node",
-  "id": 9179196384,
-  "lat": -38.9373332,
-  "lon": -67.9946696
-},
-{
-  "type": "node",
-  "id": 9179196385,
-  "lat": -38.9375065,
-  "lon": -67.9947275
-},
-{
-  "type": "node",
-  "id": 9179196386,
-  "lat": -38.9374871,
-  "lon": -67.9948230
-},
-{
-  "type": "node",
-  "id": 9179196409,
-  "lat": -38.9374013,
-  "lon": -67.9947944
-},
-{
-  "type": "node",
   "id": 9201340318,
   "lat": -38.9343441,
   "lon": -67.9945886
@@ -77015,6 +77180,96 @@
   "id": 12070889043,
   "lat": -38.9366118,
   "lon": -67.9957698
+},
+{
+  "type": "node",
+  "id": 12086212817,
+  "lat": -38.9373362,
+  "lon": -67.9946660
+},
+{
+  "type": "node",
+  "id": 12086212818,
+  "lat": -38.9374760,
+  "lon": -67.9948629
+},
+{
+  "type": "node",
+  "id": 12086223929,
+  "lat": -38.9374014,
+  "lon": -67.9947942
+},
+{
+  "type": "node",
+  "id": 12086223930,
+  "lat": -38.9373159,
+  "lon": -67.9947651
+},
+{
+  "type": "node",
+  "id": 12086223931,
+  "lat": -38.9374419,
+  "lon": -67.9948076
+},
+{
+  "type": "node",
+  "id": 12086223932,
+  "lat": -38.9374337,
+  "lon": -67.9948485
+},
+{
+  "type": "node",
+  "id": 12086223933,
+  "lat": -38.9374986,
+  "lon": -67.9947520
+},
+{
+  "type": "node",
+  "id": 12086223934,
+  "lat": -38.9374780,
+  "lon": -67.9947451
+},
+{
+  "type": "node",
+  "id": 12086223935,
+  "lat": -38.9374840,
+  "lon": -67.9947154
+},
+{
+  "type": "node",
+  "id": 12086223936,
+  "lat": -38.9374202,
+  "lon": -67.9946941
+},
+{
+  "type": "node",
+  "id": 12086223937,
+  "lat": -38.9374141,
+  "lon": -67.9947246
+},
+{
+  "type": "node",
+  "id": 12086223938,
+  "lat": -38.9373784,
+  "lon": -67.9947127
+},
+{
+  "type": "node",
+  "id": 12086223939,
+  "lat": -38.9373846,
+  "lon": -67.9946822
+},
+{
+  "type": "node",
+  "id": 12086223940,
+  "lat": -38.9374809,
+  "lon": -67.9948387
+},
+{
+  "type": "node",
+  "id": 12086223942,
+  "lat": -38.9374844,
+  "lon": -67.9948218
 },
 {
   "type": "node",
@@ -77414,6 +77669,78 @@
 },
 {
   "type": "node",
+  "id": 3805605589,
+  "lat": -40.8068483,
+  "lon": -62.9932570
+},
+{
+  "type": "node",
+  "id": 3805605602,
+  "lat": -40.8065497,
+  "lon": -62.9932149
+},
+{
+  "type": "node",
+  "id": 6112208125,
+  "lat": -40.8064873,
+  "lon": -62.9955758
+},
+{
+  "type": "node",
+  "id": 6112208126,
+  "lat": -40.8065368,
+  "lon": -62.9956915
+},
+{
+  "type": "node",
+  "id": 6810399557,
+  "lat": -40.8064312,
+  "lon": -62.9956161
+},
+{
+  "type": "node",
+  "id": 6810399558,
+  "lat": -40.8065236,
+  "lon": -62.9958333
+},
+{
+  "type": "node",
+  "id": 6810408225,
+  "lat": -40.8065194,
+  "lon": -62.9932391
+},
+{
+  "type": "node",
+  "id": 7364637717,
+  "lat": -40.8064908,
+  "lon": -62.9957534
+},
+{
+  "type": "node",
+  "id": 7364637720,
+  "lat": -40.8065797,
+  "lon": -62.9957930
+},
+{
+  "type": "node",
+  "id": 7376714824,
+  "lat": -40.8067278,
+  "lon": -62.9933524
+},
+{
+  "type": "node",
+  "id": 7376714825,
+  "lat": -40.8067092,
+  "lon": -62.9933113
+},
+{
+  "type": "node",
+  "id": 7376714826,
+  "lat": -40.8065920,
+  "lon": -62.9934014
+},
+{
+  "type": "node",
   "id": 4005108299,
   "lat": -40.8157643,
   "lon": -62.9930130
@@ -77636,6 +77963,12 @@
 },
 {
   "type": "node",
+  "id": 6810408224,
+  "lat": -40.8067548,
+  "lon": -62.9930509
+},
+{
+  "type": "node",
   "id": 7348252754,
   "lat": -40.8063478,
   "lon": -62.9909555
@@ -77675,6 +78008,12 @@
   "id": 7372998957,
   "lat": -40.8069996,
   "lon": -62.9908430
+},
+{
+  "type": "node",
+  "id": 7376714827,
+  "lat": -40.8066306,
+  "lon": -62.9931507
 },
 {
   "type": "node",
@@ -78743,6 +79082,54 @@
   "id": 1108399163,
   "lat": -32.8786211,
   "lon": -68.8242993
+},
+{
+  "type": "node",
+  "id": 3409696233,
+  "lat": -32.5814987,
+  "lon": -68.6657483
+},
+{
+  "type": "node",
+  "id": 3409696234,
+  "lat": -32.5815569,
+  "lon": -68.6655189
+},
+{
+  "type": "node",
+  "id": 3409696235,
+  "lat": -32.5812755,
+  "lon": -68.6653731
+},
+{
+  "type": "node",
+  "id": 12077507280,
+  "lat": -32.5814763,
+  "lon": -68.6654901
+},
+{
+  "type": "node",
+  "id": 12077507281,
+  "lat": -32.5814397,
+  "lon": -68.6656342
+},
+{
+  "type": "node",
+  "id": 12077507282,
+  "lat": -32.5813262,
+  "lon": -68.6655936
+},
+{
+  "type": "node",
+  "id": 12077507283,
+  "lat": -32.5813733,
+  "lon": -68.6654080
+},
+{
+  "type": "node",
+  "id": 3409696232,
+  "lat": -32.5812067,
+  "lon": -68.6656441
 },
 {
   "type": "node",
@@ -98876,6 +99263,12 @@
 },
 {
   "type": "node",
+  "id": 11761623005,
+  "lat": -34.5801041,
+  "lon": -58.5388673
+},
+{
+  "type": "node",
   "id": 10722131233,
   "lat": -34.5775512,
   "lon": -58.5444558
@@ -98957,6 +99350,36 @@
   "id": 10720451536,
   "lat": -34.5770778,
   "lon": -58.5419085
+},
+{
+  "type": "node",
+  "id": 10738413590,
+  "lat": -34.5797396,
+  "lon": -58.5386388
+},
+{
+  "type": "node",
+  "id": 10738413591,
+  "lat": -34.5798169,
+  "lon": -58.5387316
+},
+{
+  "type": "node",
+  "id": 11761623002,
+  "lat": -34.5799310,
+  "lon": -58.5388685
+},
+{
+  "type": "node",
+  "id": 11761623004,
+  "lat": -34.5800197,
+  "lon": -58.5389750
+},
+{
+  "type": "node",
+  "id": 12083844566,
+  "lat": -34.5798242,
+  "lon": -58.5385355
 },
 {
   "type": "node",
