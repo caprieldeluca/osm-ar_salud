@@ -17723,6 +17723,55 @@
 },
 {
   "type": "Feature",
+  "id": "way/477529924",
+  "properties": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "90",
+    "addr:postcode": "1704",
+    "addr:street": "Sargento Cabral",
+    "air_conditioning": "yes",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "mobile": "+54 9 11 6260-1732",
+    "name": "C.S.I.",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-15:00",
+    "id": "way/477529924"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5598725,
+          -34.6409294
+        ],
+        [
+          -58.5598558,
+          -34.6410256
+        ],
+        [
+          -58.5598048,
+          -34.641052
+        ],
+        [
+          -58.5597291,
+          -34.6410431
+        ],
+        [
+          -58.5597513,
+          -34.6409151
+        ],
+        [
+          -58.5598725,
+          -34.6409294
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/477532925",
   "properties": {
     "addr:street": "Avenida Juan Bautista Alberdi",
@@ -28409,83 +28458,6 @@
         [
           -59.0968183,
           -34.5698613
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/791189988",
-  "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "3394 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "email": "ailin15_35@hotmail.com",
-    "healthcare": "clinic",
-    "name": "Consultorios Cantoni",
-    "phone": "+54 264 426 4535",
-    "id": "way/791189988"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5721197,
-          -31.5283816
-        ],
-        [
-          -68.5721181,
-          -31.5284283
-        ],
-        [
-          -68.5721144,
-          -31.5285328
-        ],
-        [
-          -68.5721125,
-          -31.5285891
-        ],
-        [
-          -68.572019,
-          -31.5285861
-        ],
-        [
-          -68.5720215,
-          -31.5285311
-        ],
-        [
-          -68.5720632,
-          -31.5285324
-        ],
-        [
-          -68.5720655,
-          -31.5284807
-        ],
-        [
-          -68.5720237,
-          -31.5284793
-        ],
-        [
-          -68.5720269,
-          -31.5284087
-        ],
-        [
-          -68.5720463,
-          -31.5284093
-        ],
-        [
-          -68.5720476,
-          -31.5283793
-        ],
-        [
-          -68.5721197,
-          -31.5283816
         ]
       ]
     ]
@@ -113694,9 +113666,18 @@
   "type": "Feature",
   "id": "node/11945260870",
   "properties": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "640",
+    "addr:postcode": "1704",
+    "addr:street": "Doctor Gabriel Ardoino",
     "amenity": "clinic",
     "healthcare": "clinic",
+    "healthcare:speciality": "general",
     "name": "Dim",
+    "opening_hours": "Mo-Fr 06:30-18:00; Sa 07:00-17:00",
+    "phone": "6648-5555",
+    "website": "dim.com.ar",
+    "wheelchair": "yes",
     "id": "node/11945260870"
   },
   "geometry": {
@@ -114114,6 +114095,75 @@
     "coordinates": [
       -68.5994583,
       -31.5066128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12088236314",
+  "properties": {
+    "amenity": "clinic",
+    "name": "C.RE.F.I.M. S.R.L.",
+    "official_name": "Centro de Rehabilitación Física Infantil",
+    "id": "node/12088236314"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.794542,
+      -34.6461583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12088236315",
+  "properties": {
+    "addr:housenumber": "172",
+    "addr:street": "Teniente Primero Oscar Camilli",
+    "amenity": "clinic",
+    "name": "Consultorio de Traumatología",
+    "id": "node/12088236315"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.79501,
+      -34.6467155
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12091128153",
+  "properties": {
+    "amenity": "clinic",
+    "id": "node/12091128153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.765668,
+      -34.5967357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12091971086",
+  "properties": {
+    "amenity": "clinic",
+    "email": "ailin15_35@hotmail.com",
+    "healthcare": "clinic",
+    "name": "Consultorios Cantoni",
+    "phone": "+54 264 426 4535",
+    "id": "node/12091971086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5720655,
+      -31.5283894
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-31T23:24:59Z",
-    "timestamp_areas_base": "2024-07-31T20:20:29Z",
+    "timestamp_osm_base": "2024-08-07T23:22:15Z",
+    "timestamp_areas_base": "2024-08-07T17:40:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3563,9 +3563,12 @@
   "lat": -34.6400383,
   "lon": -58.5585817,
   "tags": {
-    "addr:street": "Avenida Rivadavia",
+    "addr:city": "Ramos Mejía",
+    "addr:postcode": "1704",
+    "addr:street": "Las Heras",
     "amenity": "doctors",
     "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
     "name": "Diagnomed",
     "source": "Reconocimiento terrestre por #Kaart 2016"
   }
@@ -8053,8 +8056,11 @@
   "lat": -34.6393895,
   "lon": -58.5533362,
   "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:postcode": "1704",
     "amenity": "doctors",
     "healthcare": "doctor",
+    "healthcare:speciality": "applied_kinesiology;general",
     "name": "West Salud"
   }
 },
@@ -8345,8 +8351,8 @@
 {
   "type": "node",
   "id": 6502815423,
-  "lat": -25.8647214,
-  "lon": -58.8894575,
+  "lat": -25.8617012,
+  "lon": -58.8851876,
   "tags": {
     "amenity": "doctors",
     "healthcare": "doctor",
@@ -21491,6 +21497,47 @@
   }
 },
 {
+  "type": "node",
+  "id": 12087653159,
+  "lat": -31.7257605,
+  "lon": -60.5288064,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "Ecuador",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro de Ojos Doctor Kesler Doctor Badia"
+  }
+},
+{
+  "type": "node",
+  "id": 12087661274,
+  "lat": -31.7234472,
+  "lon": -60.5280333,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "91",
+    "addr:postcode": "3100",
+    "addr:street": "Malvinas",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro de la Vision Paraná"
+  }
+},
+{
+  "type": "node",
+  "id": 12088174097,
+  "lat": -34.6468729,
+  "lon": -58.7948386,
+  "tags": {
+    "amenity": "doctors",
+    "name": "Consultorios 3 Sentidos"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -23260,6 +23307,7 @@
     4708735233
   ],
   "tags": {
+    "addr:city": "Ramos Mejía",
     "addr:housenumber": "349",
     "addr:postcode": "1704",
     "addr:street": "Bartolomé Mitre",
@@ -23269,9 +23317,11 @@
     "healthcare:speciality": "children",
     "name": "Belene",
     "name:es": "Belene Equipo Integral Terapéutico",
+    "opening_hours": "Mo-Fr 09:00-20:00",
     "phone": "+54 11 4656-8416",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "http://www.belenequipo.com.ar/contactanos.html"
+    "website": "http://www.belenequipo.com.ar/contactanos.html",
+    "wheelchair": "yes"
   }
 },
 {
@@ -24043,6 +24093,29 @@
     "building": "yes",
     "healthcare": "doctor",
     "name": "Clínica del Valle"
+  }
+},
+{
+  "type": "way",
+  "id": 563768950,
+  "nodes": [
+    5432640744,
+    5432640745,
+    5432640746,
+    5432640747,
+    5432640744
+  ],
+  "tags": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8400",
+    "addr:street": "Domingo Fernández Beschtedt",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Casa de la Salud",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "wikidata": "Q94704751"
   }
 },
 {
@@ -25326,6 +25399,28 @@
 },
 {
   "type": "way",
+  "id": 1013229329,
+  "nodes": [
+    9347890069,
+    9347890070,
+    9347890071,
+    9347890072,
+    9347890069
+  ],
+  "tags": {
+    "addr:city": "El Foyel",
+    "addr:postcode": "R8430",
+    "addr:street": "Ruta Nacional 40",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Centro de Salud El Foyel",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "wikidata": "Q94704777"
+  }
+},
+{
+  "type": "way",
   "id": 1022424467,
   "nodes": [
     9429652583,
@@ -26256,6 +26351,54 @@
     "name": "Laboratorios Güemes",
     "type": "multipolygon"
   }
+},
+{
+  "type": "node",
+  "id": 9347890069,
+  "lat": -41.6540790,
+  "lon": -71.4604481
+},
+{
+  "type": "node",
+  "id": 9347890070,
+  "lat": -41.6540865,
+  "lon": -71.4603579
+},
+{
+  "type": "node",
+  "id": 9347890071,
+  "lat": -41.6539862,
+  "lon": -71.4603427
+},
+{
+  "type": "node",
+  "id": 9347890072,
+  "lat": -41.6539786,
+  "lon": -71.4604330
+},
+{
+  "type": "node",
+  "id": 5432640744,
+  "lat": -41.1545689,
+  "lon": -71.3060820
+},
+{
+  "type": "node",
+  "id": 5432640745,
+  "lat": -41.1545560,
+  "lon": -71.3061894
+},
+{
+  "type": "node",
+  "id": 5432640746,
+  "lat": -41.1547561,
+  "lon": -71.3062330
+},
+{
+  "type": "node",
+  "id": 5432640747,
+  "lat": -41.1547670,
+  "lon": -71.3061243
 },
 {
   "type": "node",

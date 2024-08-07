@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-31T23:23:48Z",
-    "timestamp_areas_base": "2024-07-31T20:20:29Z",
+    "timestamp_osm_base": "2024-08-07T23:21:15Z",
+    "timestamp_areas_base": "2024-08-07T17:40:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -978,6 +978,7 @@
   "lon": -58.4757919,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-08-03",
     "healthcare": "pharmacy",
     "name": "Farma 24",
     "phone": "+54 11 4281-6004"
@@ -30492,9 +30493,16 @@
   "lat": -34.6401058,
   "lon": -58.5531995,
   "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "13236",
+    "addr:postcode": "1704",
+    "addr:street": "Avenida Rivadavia",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Estilo Salud"
+    "name": "Estilo Salud",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-20:00; Su 09:00-18:00",
+    "phone": "4600-3885",
+    "website": "https://www.estilosalud.com.ar/"
   }
 },
 {
@@ -31777,9 +31785,9 @@
     "addr:postcode": "2000",
     "addr:street": "Mendoza",
     "amenity": "pharmacy",
+    "contact:phone": "+54 0341 425-8630",
     "healthcare": "pharmacy",
-    "name": "FarmaVital",
-    "phone": "03414258630"
+    "name": "FarmaVital"
   }
 },
 {
@@ -31808,9 +31816,16 @@
   "lat": -34.6504009,
   "lon": -58.5760004,
   "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "859",
+    "addr:postcode": "1704",
+    "addr:street": "Medrano",
     "amenity": "pharmacy",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmily"
+    "name": "Farmily",
+    "opening_hours": "Mo-Sa 08:30-22:00; Su 09:00-13:00",
+    "phone": "4650-3076"
   }
 },
 {
@@ -32835,13 +32850,12 @@
 {
   "type": "node",
   "id": 4289340912,
-  "lat": -34.5877615,
-  "lon": -58.3840386,
+  "lat": -34.5877621,
+  "lon": -58.3840661,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Soy Tu",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+    "name": "Soy Tu"
   }
 },
 {
@@ -41585,8 +41599,8 @@
 {
   "type": "node",
   "id": 4675437625,
-  "lat": -34.5872888,
-  "lon": -58.3976448,
+  "lat": -34.5872801,
+  "lon": -58.3976490,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -42913,12 +42927,18 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "2064",
+    "addr:postcode": "C1120AAP",
     "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
-    "fixme": "nombre",
+    "contact:instagram": "https://www.instagram.com/farmacia.clinicas?igshid=ZDdkNTZiNTM%3D",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
+    "mobile": "+541151423977",
+    "name": "Farmacia Clínicas",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-21:00",
+    "phone": "+541143734607",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "wheelchair": "yes"
   }
@@ -46600,8 +46620,8 @@
 {
   "type": "node",
   "id": 5031502567,
-  "lat": -34.9818407,
-  "lon": -67.6895555,
+  "lat": -34.9805504,
+  "lon": -67.6896719,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -47550,8 +47570,8 @@
 {
   "type": "node",
   "id": 5182474362,
-  "lat": -35.0203660,
-  "lon": -58.4171981,
+  "lat": -35.0204339,
+  "lon": -58.4171241,
   "tags": {
     "amenity": "pharmacy",
     "check_date:opening_hours": "2024-05-12",
@@ -54102,9 +54122,19 @@
   "lat": -34.6525962,
   "lon": -58.5578221,
   "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "1364",
+    "addr:postcode": "1704",
+    "addr:street": "Bolívar",
     "amenity": "pharmacy",
     "dispensing": "yes",
-    "healthcare": "pharmacy"
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Turek",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "4658-2605",
+    "wheelchair": "yes"
   }
 },
 {
@@ -54449,12 +54479,15 @@
   "lon": -58.5575671,
   "tags": {
     "addr:city": "Ramos Mejía",
+    "addr:housenumber": "502",
     "addr:postcode": "1704",
     "addr:street": "Humboldt",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Amanatto"
+    "name": "Amanatto",
+    "opening_hours": "Mo-Fr 09:00-12:00,16:00-20:00; Sa 09:00-12:30"
   }
 },
 {
@@ -54499,16 +54532,19 @@
 {
   "type": "node",
   "id": 5764426166,
-  "lat": -34.6393425,
-  "lon": -58.5564121,
+  "lat": -34.6393710,
+  "lon": -58.5564400,
   "tags": {
     "addr:city": "Ramos Mejía",
+    "addr:housenumber": "640",
     "addr:postcode": "1704",
     "addr:street": "Doctor Gabriel Ardoino",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Estilo Salud"
+    "name": "Estilo Salud",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-20:00; Su 09:00-18:00",
+    "phone": "3922-5483"
   }
 },
 {
@@ -58367,6 +58403,7 @@
   "lon": -58.4386021,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-08-03",
     "healthcare": "pharmacy",
     "name": "Costa"
   }
@@ -60049,8 +60086,15 @@
   "lat": -34.6400151,
   "lon": -58.5583339,
   "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "13586",
+    "addr:postcode": "1704",
+    "addr:street": "Avenida Rivadavia",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Sanos",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-13:00",
+    "phone": "2204-7376"
   }
 },
 {
@@ -62650,9 +62694,19 @@
   "lat": -34.6494921,
   "lon": -58.5812850,
   "tags": {
+    "addr:city": "Haedo",
+    "addr:housenumber": "337",
+    "addr:postcode": "1706",
+    "addr:street": "Avenida Don Bosco",
     "amenity": "pharmacy",
     "dispensing": "yes",
-    "healthcare": "pharmacy"
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Isan",
+    "opening_hours": "Mo-Fr 08:30-13:00,16:30-20:30; Sa 08:00-13:30",
+    "payment:cash": "yes",
+    "payment:visa": "yes",
+    "phone": "6550-0243"
   }
 },
 {
@@ -63255,8 +63309,7 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Más Farma",
-    "phone": "+54 11 5075-0293"
+    "name": "Punto de Salud"
   }
 },
 {
@@ -71533,18 +71586,12 @@
 {
   "type": "node",
   "id": 7987060010,
-  "lat": -31.5283416,
-  "lon": -68.5736722,
+  "lat": -31.5283278,
+  "lon": -68.5736703,
   "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "3540 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
     "amenity": "pharmacy",
-    "building:levels": "1",
     "healthcare": "pharmacy",
     "name": "Hiperfarmacia San Martín",
-    "network": "AR:J:RIV_VR",
     "phone": "+542644215555"
   }
 },
@@ -77565,6 +77612,7 @@
   "lon": -58.5035035,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2024-08-03",
     "name": "Farma 24"
   }
 },
@@ -77657,10 +77705,10 @@
     "addr:postcode": "2000",
     "addr:street": "Sarmiento",
     "amenity": "pharmacy",
+    "contact:phone": "+54 0341 426-3623",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Suiza",
-    "phone": "03414263623"
+    "name": "Suiza"
   }
 },
 {
@@ -88982,8 +89030,9 @@
   "lon": -64.5404367,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "De La Clínica VCP"
+    "name": "Farmacia VCP"
   }
 },
 {
@@ -89830,7 +89879,8 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Rodríguez",
-    "phone": "+542916445426"
+    "opening_hours": "Mo-Fr 08:00-12:00, 15:30-19:30; Sa 09:00-12:00",
+    "phone": "+542914941315"
   }
 },
 {
@@ -94003,7 +94053,8 @@
   "lon": -62.2702056,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia White"
   }
 },
 {
@@ -94075,9 +94126,9 @@
     "addr:postcode": "2000",
     "addr:street": "3 de Febrero",
     "amenity": "pharmacy",
+    "contact:phone": "+54 0341 421-3572",
     "healthcare": "pharmacy",
-    "name": "Lagreca",
-    "phone": "03414213572"
+    "name": "Lagreca"
   }
 },
 {
@@ -94091,11 +94142,14 @@
     "addr:postcode": "2000",
     "addr:street": "San Lorenzo",
     "amenity": "pharmacy",
-    "email": "farm.magistral@gmail.com",
+    "contact:email": "farm.magistral@gmail.com",
+    "contact:instagram": "farmaciamagistral.ros",
+    "contact:phone": "+54 0341 424-6290",
+    "contact:website": "https://www.farmaciamagistralweb.com.ar/",
     "healthcare": "pharmacy",
-    "name": "Farmacia Magistral: Vincze-Samuel",
-    "phone": "0341 4246290",
-    "website": "https://www.farmaciamagistralweb.com.ar/"
+    "name": "Magistral",
+    "official_name": "Farmacia Magistral Vincze-Samuel",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-13:00"
   }
 },
 {
@@ -94109,9 +94163,101 @@
     "addr:postcode": "2000",
     "addr:street": "Martín Rodríguez",
     "amenity": "pharmacy",
+    "contact:phone": "+54 0341 334-8324",
     "healthcare": "pharmacy",
-    "name": "Campo",
-    "phone": "03413348324"
+    "name": "Campo"
+  }
+},
+{
+  "type": "node",
+  "id": 12087653160,
+  "lat": -31.7243635,
+  "lon": -60.5287478,
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "513",
+    "addr:postcode": "3100",
+    "addr:street": "Buenos Aires",
+    "amenity": "pharmacy",
+    "contact:facebook": "https://www.facebook.com/FarmaciasRoliria/",
+    "healthcare": "pharmacy",
+    "name": "Roliria"
+  }
+},
+{
+  "type": "node",
+  "id": 12089818499,
+  "lat": -42.0634782,
+  "lon": -71.5199225,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12091102995,
+  "lat": -34.5384480,
+  "lon": -58.7940793,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia San Nicolas"
+  }
+},
+{
+  "type": "node",
+  "id": 12094261207,
+  "lat": -41.1237431,
+  "lon": -71.2367848,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia AwKa"
+  }
+},
+{
+  "type": "node",
+  "id": 12094261220,
+  "lat": -41.1301666,
+  "lon": -71.2579528,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia del Este"
+  }
+},
+{
+  "type": "node",
+  "id": 12094261308,
+  "lat": -41.1327282,
+  "lon": -71.2850678,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Bancaria"
+  }
+},
+{
+  "type": "node",
+  "id": 12094418701,
+  "lat": -31.9090438,
+  "lon": -64.5742654,
+  "tags": {
+    "addr:street": "Avenida San Martín esq 25 de Mayo",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "El Vergel"
+  }
+},
+{
+  "type": "node",
+  "id": 12095465144,
+  "lat": -34.5962217,
+  "lon": -58.3828946,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Del Centro"
   }
 },
 {
@@ -97455,6 +97601,34 @@
 },
 {
   "type": "way",
+  "id": 463876467,
+  "nodes": [
+    4590823857,
+    4590823858,
+    4590823859,
+    4590823860,
+    4590823857
+  ],
+  "tags": {
+    "addr:housenumber": "801",
+    "addr:street": "Avenida Sir Alexander Fleming",
+    "amenity": "pharmacy",
+    "branch": "San Isidro",
+    "building": "yes",
+    "building:levels": "1",
+    "check_date": "2024-08-04",
+    "healthcare": "pharmacy",
+    "name": "Farmamia",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa-Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
   "id": 463908099,
   "nodes": [
     4591103088,
@@ -98046,11 +98220,11 @@
     "addr:street": "Mariano Pelliza",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2024-02-19",
+    "check_date": "2024-08-03",
     "contact:phone": "+54 11 4756-5489",
     "drive_through": "no",
     "name": "Farmacia",
-    "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-21:00; Su off",
+    "opening_hours": "Mo-Sa 09:00-21:00; Su off",
     "payment:cabal": "yes",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -98836,8 +99010,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Nueva Alem",
-    "phone": "+54 11 4296-4899"
+    "name": "Farma Alem"
   }
 },
 {
@@ -136272,6 +136445,30 @@
   "id": 4590192349,
   "lat": -34.5025573,
   "lon": -58.5282140
+},
+{
+  "type": "node",
+  "id": 4590823857,
+  "lat": -34.4900155,
+  "lon": -58.5249094
+},
+{
+  "type": "node",
+  "id": 4590823858,
+  "lat": -34.4901061,
+  "lon": -58.5248480
+},
+{
+  "type": "node",
+  "id": 4590823859,
+  "lat": -34.4899902,
+  "lon": -58.5246057
+},
+{
+  "type": "node",
+  "id": 4590823860,
+  "lat": -34.4898997,
+  "lon": -58.5246606
 },
 {
   "type": "node",

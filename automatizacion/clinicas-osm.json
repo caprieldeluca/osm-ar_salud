@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-31T23:22:57Z",
-    "timestamp_areas_base": "2024-07-31T18:40:49Z",
+    "timestamp_osm_base": "2024-08-07T23:20:13Z",
+    "timestamp_areas_base": "2024-08-07T17:40:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -46389,9 +46389,18 @@
   "lat": -34.6393637,
   "lon": -58.5563112,
   "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "640",
+    "addr:postcode": "1704",
+    "addr:street": "Doctor Gabriel Ardoino",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Dim"
+    "healthcare:speciality": "general",
+    "name": "Dim",
+    "opening_hours": "Mo-Fr 06:30-18:00; Sa 07:00-17:00",
+    "phone": "6648-5555",
+    "website": "dim.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
@@ -46670,6 +46679,51 @@
     "official_name": "Centro de Salud Doctor Humberto Mira",
     "operator": "Ministerio de Salud Pública",
     "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 12088236314,
+  "lat": -34.6461583,
+  "lon": -58.7945420,
+  "tags": {
+    "amenity": "clinic",
+    "name": "C.RE.F.I.M. S.R.L.",
+    "official_name": "Centro de Rehabilitación Física Infantil"
+  }
+},
+{
+  "type": "node",
+  "id": 12088236315,
+  "lat": -34.6467155,
+  "lon": -58.7950100,
+  "tags": {
+    "addr:housenumber": "172",
+    "addr:street": "Teniente Primero Oscar Camilli",
+    "amenity": "clinic",
+    "name": "Consultorio de Traumatología"
+  }
+},
+{
+  "type": "node",
+  "id": 12091128153,
+  "lat": -34.5967357,
+  "lon": -58.7656680,
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 12091971086,
+  "lat": -31.5283894,
+  "lon": -68.5720655,
+  "tags": {
+    "amenity": "clinic",
+    "email": "ailin15_35@hotmail.com",
+    "healthcare": "clinic",
+    "name": "Consultorios Cantoni",
+    "phone": "+54 264 426 4535"
   }
 },
 {
@@ -54699,6 +54753,31 @@
 },
 {
   "type": "way",
+  "id": 477529924,
+  "nodes": [
+    4708641102,
+    4708641103,
+    4708641104,
+    4708641105,
+    4708641106,
+    4708641102
+  ],
+  "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "90",
+    "addr:postcode": "1704",
+    "addr:street": "Sargento Cabral",
+    "air_conditioning": "yes",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "mobile": "+54 9 11 6260-1732",
+    "name": "C.S.I.",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-15:00"
+  }
+},
+{
+  "type": "way",
   "id": 477532925,
   "nodes": [
     4708665720,
@@ -59535,38 +59614,6 @@
     "operator": "Municipalidad de Luján",
     "operator:type": "public",
     "source": "http://www.lujan.gob.ar/?p=18929"
-  }
-},
-{
-  "type": "way",
-  "id": 791189988,
-  "nodes": [
-    7396476000,
-    7396475999,
-    7396475998,
-    7396475997,
-    7396475996,
-    7396475995,
-    7396475994,
-    7396475993,
-    7396475992,
-    7396475991,
-    7396476001,
-    7396476004,
-    7396476000
-  ],
-  "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "3394 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "email": "ailin15_35@hotmail.com",
-    "healthcare": "clinic",
-    "name": "Consultorios Cantoni",
-    "phone": "+54 264 426 4535"
   }
 },
 {
@@ -80615,78 +80662,6 @@
 },
 {
   "type": "node",
-  "id": 7396475991,
-  "lat": -31.5285891,
-  "lon": -68.5721125
-},
-{
-  "type": "node",
-  "id": 7396475992,
-  "lat": -31.5285861,
-  "lon": -68.5720190
-},
-{
-  "type": "node",
-  "id": 7396475993,
-  "lat": -31.5285311,
-  "lon": -68.5720215
-},
-{
-  "type": "node",
-  "id": 7396475994,
-  "lat": -31.5285324,
-  "lon": -68.5720632
-},
-{
-  "type": "node",
-  "id": 7396475995,
-  "lat": -31.5284807,
-  "lon": -68.5720655
-},
-{
-  "type": "node",
-  "id": 7396475996,
-  "lat": -31.5284793,
-  "lon": -68.5720237
-},
-{
-  "type": "node",
-  "id": 7396475997,
-  "lat": -31.5284087,
-  "lon": -68.5720269
-},
-{
-  "type": "node",
-  "id": 7396475998,
-  "lat": -31.5284093,
-  "lon": -68.5720463
-},
-{
-  "type": "node",
-  "id": 7396475999,
-  "lat": -31.5283793,
-  "lon": -68.5720476
-},
-{
-  "type": "node",
-  "id": 7396476000,
-  "lat": -31.5283816,
-  "lon": -68.5721197
-},
-{
-  "type": "node",
-  "id": 7396476001,
-  "lat": -31.5285328,
-  "lon": -68.5721144
-},
-{
-  "type": "node",
-  "id": 7396476004,
-  "lat": -31.5284283,
-  "lon": -68.5721181
-},
-{
-  "type": "node",
   "id": 7818209097,
   "lat": -31.5285043,
   "lon": -68.5657468
@@ -94166,6 +94141,36 @@
   "id": 4708831935,
   "lat": -34.6648765,
   "lon": -58.5444960
+},
+{
+  "type": "node",
+  "id": 4708641102,
+  "lat": -34.6409294,
+  "lon": -58.5598725
+},
+{
+  "type": "node",
+  "id": 4708641103,
+  "lat": -34.6409151,
+  "lon": -58.5597513
+},
+{
+  "type": "node",
+  "id": 4708641104,
+  "lat": -34.6410431,
+  "lon": -58.5597291
+},
+{
+  "type": "node",
+  "id": 4708641105,
+  "lat": -34.6410520,
+  "lon": -58.5598048
+},
+{
+  "type": "node",
+  "id": 4708641106,
+  "lat": -34.6410256,
+  "lon": -58.5598558
 },
 {
   "type": "node",

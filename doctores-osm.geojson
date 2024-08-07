@@ -3881,6 +3881,7 @@
   "type": "Feature",
   "id": "way/477540991",
   "properties": {
+    "addr:city": "Ramos Mejía",
     "addr:housenumber": "349",
     "addr:postcode": "1704",
     "addr:street": "Bartolomé Mitre",
@@ -3890,9 +3891,11 @@
     "healthcare:speciality": "children",
     "name": "Belene",
     "name:es": "Belene Equipo Integral Terapéutico",
+    "opening_hours": "Mo-Fr 09:00-20:00",
     "phone": "+54 11 4656-8416",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "http://www.belenequipo.com.ar/contactanos.html",
+    "wheelchair": "yes",
     "id": "way/477540991"
   },
   "geometry": {
@@ -5538,6 +5541,50 @@
         [
           -60.6927989,
           -31.6073818
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/563768950",
+  "properties": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8400",
+    "addr:street": "Domingo Fernández Beschtedt",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Casa de la Salud",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "wikidata": "Q94704751",
+    "id": "way/563768950"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.306082,
+          -41.1545689
+        ],
+        [
+          -71.3061894,
+          -41.154556
+        ],
+        [
+          -71.306233,
+          -41.1547561
+        ],
+        [
+          -71.3061243,
+          -41.154767
+        ],
+        [
+          -71.306082,
+          -41.1545689
         ]
       ]
     ]
@@ -8383,6 +8430,49 @@
         [
           -62.2692241,
           -38.7137828
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1013229329",
+  "properties": {
+    "addr:city": "El Foyel",
+    "addr:postcode": "R8430",
+    "addr:street": "Ruta Nacional 40",
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "name": "Centro de Salud El Foyel",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro",
+    "wikidata": "Q94704777",
+    "id": "way/1013229329"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.4604481,
+          -41.654079
+        ],
+        [
+          -71.4603579,
+          -41.6540865
+        ],
+        [
+          -71.4603427,
+          -41.6539862
+        ],
+        [
+          -71.460433,
+          -41.6539786
+        ],
+        [
+          -71.4604481,
+          -41.654079
         ]
       ]
     ]
@@ -15305,9 +15395,12 @@
   "type": "Feature",
   "id": "node/4368035947",
   "properties": {
-    "addr:street": "Avenida Rivadavia",
+    "addr:city": "Ramos Mejía",
+    "addr:postcode": "1704",
+    "addr:street": "Las Heras",
     "amenity": "doctors",
     "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
     "name": "Diagnomed",
     "source": "Reconocimiento terrestre por #Kaart 2016",
     "id": "node/4368035947"
@@ -21691,8 +21784,11 @@
   "type": "Feature",
   "id": "node/6268990319",
   "properties": {
+    "addr:city": "Ramos Mejía",
+    "addr:postcode": "1704",
     "amenity": "doctors",
     "healthcare": "doctor",
+    "healthcare:speciality": "applied_kinesiology;general",
     "name": "West Salud",
     "id": "node/6268990319"
   },
@@ -22126,8 +22222,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.8894575,
-      -25.8647214
+      -58.8851876,
+      -25.8617012
     ]
   }
 },
@@ -40269,6 +40365,65 @@
     "coordinates": [
       -70.2545384,
       -45.6903173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12087653159",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:postcode": "3100",
+    "addr:street": "Ecuador",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro de Ojos Doctor Kesler Doctor Badia",
+    "id": "node/12087653159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5288064,
+      -31.7257605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12087661274",
+  "properties": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "91",
+    "addr:postcode": "3100",
+    "addr:street": "Malvinas",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro de la Vision Paraná",
+    "id": "node/12087661274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5280333,
+      -31.7234472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12088174097",
+  "properties": {
+    "amenity": "doctors",
+    "name": "Consultorios 3 Sentidos",
+    "id": "node/12088174097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7948386,
+      -34.6468729
     ]
   }
 }
