@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# Personalizar tiempo de espera entre consultas
 DORMIR=60
-OSM2GEO="/home/gabriel/nodejs_entornos/osm-ar_salud/node_modules/.bin/osmtogeojson"
+# Personalizar path al ejecutable de osm2geojson
+OSM2GEO="~/nodejs_entornos/osm-ar_salud/node_modules/.bin/osmtogeojson"
 
 echo "  Consultar overpass API  y convertir a geojson..."
 
@@ -14,7 +16,7 @@ then
   JSONSIZE=$( wc -c < $JSONFILE )
   if [ $JSONSIZE -gt 60000 ]
   then
-    $OSM2GEO $JSONFILE > $GEOJSONFILE
+    "$OSM2GEO" $JSONFILE > $GEOJSONFILE
   fi
 fi
 
@@ -29,7 +31,7 @@ then
   JSONSIZE=$( wc -c < $JSONFILE )
   if [ $JSONSIZE -gt 60000 ]
   then
-    $OSM2GEO $JSONFILE > $GEOJSONFILE
+    "$OSM2GEO" $JSONFILE > $GEOJSONFILE
   fi
 fi
 
@@ -44,7 +46,7 @@ then
   JSONSIZE=$( wc -c < $JSONFILE )
   if [ $JSONSIZE -gt 60000 ]
   then
-    $OSM2GEO $JSONFILE > $GEOJSONFILE
+    "$OSM2GEO" $JSONFILE > $GEOJSONFILE
   fi
 fi
 
@@ -59,7 +61,7 @@ then
   JSONSIZE=$( wc -c < $JSONFILE )
   if [ $JSONSIZE -gt 60000 ]
   then
-    $OSM2GEO $JSONFILE > $GEOJSONFILE
+    "$OSM2GEO" $JSONFILE > $GEOJSONFILE
   fi
 fi
 
@@ -74,7 +76,7 @@ then
   JSONSIZE=$( wc -c < $JSONFILE )
   if [ $JSONSIZE -gt 60000 ]
   then
-    $OSM2GEO $JSONFILE > $GEOJSONFILE
+    "$OSM2GEO" $JSONFILE > $GEOJSONFILE
   fi
 fi
 

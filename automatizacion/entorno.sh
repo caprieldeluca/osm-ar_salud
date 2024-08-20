@@ -1,15 +1,19 @@
 #!/bin/bash
 
-#echo "  Iniciar conda ..."
-#eval "$(conda shell.bash hook)"
-#echo "    ... hecho."
+# Personalizar directorio de trabajo
+DIR_TRABAJO="~/Proyectos/osm-ar_salud"
 
-#echo "  Activar entorno NodeJS ..."
-#conda activate nodejs
-#echo "    ... hecho."
+echo "  Iniciar conda ..."
+eval "$(conda shell.bash hook)"
+echo "    ... hecho."
+
+echo "  Activar entorno NodeJS ..."
+conda activate nodejs
+echo "    ... hecho."
 
 echo "  Cambiar directorio de trabajo ..."
-cd /home/gabriel/datos/proyectos/osm-ar_salud
+# Entre comillas por si hubiera caracteres especiales
+cd "$DIR_TRABAJO"
 echo "    ... hecho."
 
 echo "  Hacer pull previo ..."
