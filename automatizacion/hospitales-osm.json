@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-07T23:19:14Z",
-    "timestamp_areas_base": "2024-08-07T17:40:14Z",
+    "timestamp_osm_base": "2024-08-20T03:32:53Z",
+    "timestamp_areas_base": "2024-08-20T01:08:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -516,7 +516,6 @@
     "addr:full": "Tucumán 1863",
     "addr:housenumber": "1863",
     "addr:postcode": "1050",
-    "addr:province": "Buenos Aires",
     "addr:street": "Tucumán",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/sanatoriodelaprovidencia",
@@ -682,7 +681,6 @@
     "addr:full": "Anchorena 1872",
     "addr:housenumber": "1872",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "addr:street": "Tomás Manuel de Anchorena",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -1286,7 +1284,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3545",
     "addr:postcode": "C1201AAO",
-    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "brand": "Obra Social del Personal de la Construcción",
@@ -1831,22 +1828,6 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Clínica Trenque Lauquen"
-  }
-},
-{
-  "type": "node",
-  "id": 1756124865,
-  "lat": -32.8802415,
-  "lon": -68.8521628,
-  "tags": {
-    "addr:city": "Mendoza",
-    "addr:housenumber": "324",
-    "addr:street": "Juan de Dios Videla",
-    "amenity": "hospital",
-    "description:es": "Instituto de Rehabilitacion",
-    "healthcare": "hospital",
-    "name": "Clinica Piuquen",
-    "phone": "54 0261 4234044"
   }
 },
 {
@@ -4733,7 +4714,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1677",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "addr:street": "Billinghurst",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -4793,7 +4773,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1642",
     "addr:postcode": "1426",
-    "addr:province": "Buenos Aires",
     "addr:street": "José Hernández",
     "addr:suburb": "Belgrano",
     "amenity": "hospital",
@@ -5138,7 +5117,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1295",
     "addr:postcode": "1426",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Palermo",
     "amenity": "hospital",
@@ -5524,7 +5502,6 @@
     "addr:country": "AR",
     "addr:housenumber": "870",
     "addr:postcode": "1115",
-    "addr:province": "Buenos Aires",
     "addr:street": "Azcuénaga",
     "amenity": "hospital",
     "email": "rrpp@otamendi.com.ar",
@@ -6401,7 +6378,7 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Sala de Primeros Auxilios"
+    "name": "Unidad Sanitaria \"Doctor Luis Agote\""
   }
 },
 {
@@ -16311,7 +16288,6 @@
     "addr:full": "Dr. Luis Agote 2477",
     "addr:housenumber": "2477",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Luis Agote",
     "amenity": "hospital",
     "emergency": "yes",
@@ -19651,7 +19627,6 @@
     "addr:country": "AR",
     "addr:full": "Av. Presidente Quintana 281",
     "addr:postcode": "1014",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio Quintana",
@@ -19779,7 +19754,6 @@
     "addr:country": "AR",
     "addr:full": "Terrada 550",
     "addr:housenumber": "550",
-    "addr:province": "Buenos Aires",
     "addr:street": "Terrada",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -19989,7 +19963,6 @@
     "addr:full": "Ciudad De La Paz 1157",
     "addr:housenumber": "1157",
     "addr:postcode": "1428",
-    "addr:province": "Buenos Aires",
     "addr:street": "Ciudad de la Paz",
     "addr:suburb": "Colegiales",
     "amenity": "hospital",
@@ -20204,7 +20177,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2040",
     "addr:postcode": "1039",
-    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -20227,7 +20199,6 @@
     "addr:country": "AR",
     "addr:full": "Avenida Belgrano 1844",
     "addr:postcode": "1094",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro Medico Integral Clinica Lopez",
@@ -21551,9 +21522,15 @@
   "lat": -38.2707130,
   "lon": -57.8440926,
   "tags": {
+    "addr:city": "Miramar",
+    "addr:postcode": "7607",
+    "addr:street": "Diagonal José María Dupuy",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal"
+    "healthcare:speciality": "emergency",
+    "name": "Hospital Municipal",
+    "operator": "Municipio de General Alvarado",
+    "operator:type": "public"
   }
 },
 {
@@ -24018,7 +23995,6 @@
     "addr:country": "AR",
     "addr:full": "Cerviño 3356",
     "addr:housenumber": "3356",
-    "addr:province": "Buenos Aires",
     "addr:street": "Cerviño",
     "addr:suburb": "Palermo",
     "amenity": "hospital",
@@ -24063,7 +24039,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2670",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida General Las Heras",
     "amenity": "hospital",
     "check_date": "2024-01-19",
@@ -24112,7 +24087,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "1330",
-    "addr:province": "Buenos Aires",
     "addr:street": "Gallo",
     "amenity": "hospital",
     "check_date": "2023-10-16",
@@ -24146,7 +24120,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:postcode": "C1287ABI",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "contact:website": "http://www.hospitalmoyano.org.ar/",
     "healthcare": "hospital",
@@ -24172,7 +24145,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "375",
-    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Ramón Carrillo",
     "alt_name": "Hospital Interdisciplinario Psicoasistencial José Tiburcio Borda",
     "amenity": "hospital",
@@ -24264,7 +24236,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1640",
     "addr:postcode": "1118",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Pueyrredón",
     "amenity": "hospital",
     "check_date": "2023-10-16",
@@ -24323,7 +24294,6 @@
     "addr:country": "AR",
     "addr:full": "Avenida Varela 1301",
     "addr:housenumber": "480",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Varela",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -24365,7 +24335,6 @@
     "addr:housename": "743",
     "addr:housenumber": "743",
     "addr:postcode": "C1405BIK",
-    "addr:province": "Buenos Aires",
     "addr:street": "Juan Bautista Ambrosetti",
     "amenity": "hospital",
     "emergency": "yes",
@@ -24400,7 +24369,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2151",
     "addr:postcode": "1246",
-    "addr:province": "Buenos Aires",
     "addr:street": "Esteban de Luca",
     "amenity": "hospital",
     "emergency": "yes",
@@ -24431,7 +24399,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "1890",
-    "addr:province": "Buenos Aires",
     "addr:street": "Pichincha",
     "alt_name": "Hospital de Pediatría Garrahan",
     "amenity": "hospital",
@@ -24485,7 +24452,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2351",
     "addr:postcode": "C1120AAR",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "hospital",
     "building": "hospital",
@@ -24535,7 +24501,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3400",
     "addr:postcode": "C1437JCP",
-    "addr:province": "Buenos Aires",
     "addr:street": "Uspallata",
     "alt_name": "Hospital Churruca",
     "amenity": "hospital",
@@ -24565,7 +24530,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "3380",
-    "addr:province": "Buenos Aires",
     "addr:street": "Profesor Doctor Pedro Chutro",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -24628,7 +24592,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2197",
     "addr:postcode": "C1416DRJ",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Gaona",
     "amenity": "hospital",
     "contact:phone": "+54 8104446777",
@@ -24769,7 +24732,6 @@
     "addr:country": "AR",
     "addr:housenumber": "4720",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Cerviño",
     "addr:suburb": "Palermo",
     "amenity": "hospital",
@@ -24914,7 +24876,6 @@
     "addr:country": "AR",
     "addr:housenumber": "5481",
     "addr:postcode": "1419",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida San Martín",
     "amenity": "hospital",
     "barrier": "fence",
@@ -25412,7 +25373,6 @@
     "addr:country": "AR",
     "addr:full": "Callao 483/486 /499 / Lavalle 1790",
     "addr:postcode": "1048",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Instituto Quirurgico Del Callao",
@@ -26086,7 +26046,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "750",
-    "addr:province": "Buenos Aires",
     "addr:street": "Pi y Margall",
     "amenity": "hospital",
     "emergency": "yes",
@@ -26320,6 +26279,7 @@
     "addr:housenumber": "270",
     "addr:street": "Amado Diab",
     "amenity": "hospital",
+    "check_date": "2024-08-11",
     "healthcare": "hospital",
     "name": "Hospital Municipal Dr. Ángel Pintos"
   }
@@ -26845,7 +26805,6 @@
     "addr:country": "AR",
     "addr:housenumber": "551",
     "addr:postcode": "C1405CNF",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avellaneda",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -29007,7 +28966,6 @@
     "addr:full": "Galván 4102",
     "addr:housenumber": "4102",
     "addr:postcode": "1431",
-    "addr:province": "Buenos Aires",
     "addr:street": "Galván",
     "addr:suburb": "Saavedra",
     "amenity": "hospital",
@@ -29107,7 +29065,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3002",
     "addr:postcode": "C1427ARN",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Combatientes de Malvinas",
     "amenity": "hospital",
     "check_date": "2024-07-09",
@@ -29166,7 +29123,6 @@
     "addr:country": "AR",
     "addr:housenumber": "909",
     "addr:postcode": "C1425FSD",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Justo",
     "addr:suburb": "Palermo",
     "amenity": "hospital",
@@ -29386,7 +29342,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "1746",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "building": "yes",
@@ -29467,7 +29422,6 @@
     "addr:country": "AR",
     "addr:housenumber": "40",
     "addr:postcode": "C1270AAN",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Manuel A. Montes de Oca",
     "alt_name": "Casa Cuna",
     "amenity": "hospital",
@@ -29932,7 +29886,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2553",
     "addr:postcode": "1039",
-    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "building": "yes",
@@ -29970,7 +29923,6 @@
     "addr:country": "AR",
     "addr:full": "Pedro Calderon De La Barca 1550",
     "addr:housenumber": "1550",
-    "addr:province": "Buenos Aires",
     "addr:street": "Pedro Calderón de la Barca",
     "amenity": "hospital",
     "check_date": "2024-07-22",
@@ -31711,7 +31663,6 @@
     "addr:country": "AR",
     "addr:housenumber": "851",
     "addr:postcode": "1426",
-    "addr:province": "Buenos Aires",
     "addr:street": "Conde",
     "addr:suburb": "Colegiales",
     "amenity": "hospital",
@@ -32105,7 +32056,6 @@
     "addr:country": "AR",
     "addr:housenumber": "4190",
     "addr:postcode": "C1199ABD",
-    "addr:province": "Buenos Aires",
     "addr:street": "Teniente General Juan Domingo Perón",
     "alt_name": "Hospital Italiano",
     "amenity": "hospital",
@@ -32813,7 +32763,6 @@
     "addr:full": "Nueva York 3952",
     "addr:housenumber": "3952",
     "addr:postcode": "1419",
-    "addr:province": "Buenos Aires",
     "addr:street": "Nueva York",
     "alt_name": "Hospital General De Agudos Doctor Abel Zubizarreta",
     "amenity": "hospital",
@@ -33644,7 +33593,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2975",
     "addr:postcode": "1209",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -33684,7 +33632,6 @@
     "addr:country": "AR",
     "addr:housenumber": "2189",
     "addr:postcode": "1094",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "contact:phone": "+54 11 412 71000",
@@ -33967,7 +33914,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2701",
-    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Juan Felipe Aranguren",
     "alt_name": "Hospital Álvarez",
     "amenity": "hospital",
@@ -34619,7 +34565,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3555",
     "addr:postcode": "1419",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Monroe",
     "addr:suburb": "Coghlan",
     "amenity": "hospital",
@@ -35440,7 +35385,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "3485",
-    "addr:province": "Buenos Aires",
     "addr:street": "Soler",
     "amenity": "hospital",
     "emergency": "yes",
@@ -36934,7 +36878,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "950",
-    "addr:province": "Buenos Aires",
     "addr:street": "Pilar",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -37526,7 +37469,6 @@
     "addr:country": "AR",
     "addr:housenumber": "351",
     "addr:postcode": "C1405BWD",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Patricias Argentinas",
     "amenity": "hospital",
     "email": "contacto@hnpm.mil.ar",
@@ -37904,7 +37846,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "609",
-    "addr:province": "Buenos Aires",
     "addr:street": "General Urquiza",
     "amenity": "hospital",
     "emergency": "yes",
@@ -37992,7 +37933,6 @@
     "addr:full": "Francisco Acuńa De Figueroa 1240",
     "addr:housenumber": "1340",
     "addr:postcode": "1180",
-    "addr:province": "Buenos Aires",
     "addr:street": "Francisco Acuña de Figueroa",
     "addr:suburb": "Palermo",
     "amenity": "hospital",
@@ -38006,7 +37946,6 @@
     "phone": "+54 (11) 4959-8200",
     "ref:sisa_codigo": "10020012315445",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "https://www.sg.com.ar/",
     "wheelchair": "yes",
     "wikidata": "Q89350325"
@@ -38911,7 +38850,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1710",
     "addr:postcode": "C1430EGF",
-    "addr:province": "Buenos Aires",
     "addr:street": "Estomba",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/clinicaadvbelgrano",
@@ -39580,7 +39518,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3002",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "addr:street": "Juncal",
     "amenity": "hospital",
     "building": "yes",
@@ -39849,7 +39786,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3200",
     "addr:postcode": "C1437BZK",
-    "addr:province": "Buenos Aires",
     "addr:street": "Portela",
     "amenity": "hospital",
     "building": "yes",
@@ -39861,7 +39797,6 @@
     "phone": "+541149187561;+541149187564",
     "ref:sisa_codigo": "10020012315457",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "Reconocimiento cartográfico 2016 por KG",
     "wikidata": "Q93140009"
   }
 },
@@ -39880,13 +39815,11 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2171",
-    "addr:province": "Buenos Aires",
     "addr:street": "Solís",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Británico",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+    "name": "Hospital Británico"
   }
 },
 {
@@ -39905,13 +39838,11 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Caseros",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Británico",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+    "name": "Hospital Británico"
   }
 },
 {
@@ -39931,7 +39862,6 @@
     "addr:country": "AR",
     "addr:housenumber": "74",
     "addr:postcode": "C1280AEB",
-    "addr:province": "Buenos Aires",
     "addr:street": "Perdriel",
     "amenity": "hospital",
     "emergency": "yes",
@@ -40196,13 +40126,20 @@
     "addr:street": "Menéndez y Pelayo",
     "alt_name": "Hospital de Diagnostico",
     "amenity": "hospital",
+    "check_date": "2024-08-19",
+    "description": "Centro de realización de estudios de diagnóstico, detección temprana de enfermedades y estudios de alta, mediana y baja complejidad.",
+    "email": "hospitaldediagnostico@tigre.gov.ar",
+    "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "radiology;paediatrics",
     "name": "Hospital Municipal De Diagnostico Inmediato Don Torcuato",
     "operator": "Municipal",
     "operator:type": "public",
-    "phone": "011-4519-6443",
+    "phone": "011-4519-6443; +54 11 4014-4484",
     "ref:sisa_codigo": "50068052216886",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "start_date": "2015",
+    "website": "https://www.tigre.gob.ar/salud/hospital/4"
   }
 },
 {
@@ -40443,7 +40380,6 @@
     "addr:country": "AR",
     "addr:housenumber": "4658",
     "addr:postcode": "1419",
-    "addr:province": "Buenos Aires",
     "addr:street": "Campana",
     "amenity": "hospital",
     "emergency": "yes",
@@ -40474,7 +40410,6 @@
     "addr:full": "Tres Arroyos 2060",
     "addr:housenumber": "2060",
     "addr:postcode": "1416",
-    "addr:province": "Buenos Aires",
     "addr:street": "Tres Arroyos",
     "amenity": "hospital",
     "building": "yes",
@@ -40485,7 +40420,6 @@
     "phone": "+541145885700",
     "ref:sisa_codigo": "10020012315192",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "wikidata": "Q93139821"
   }
 },
@@ -40502,7 +40436,6 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
     "addr:street": "Monroe",
     "amenity": "hospital",
     "building": "yes",
@@ -40673,7 +40606,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:postcode": "1122",
-    "addr:province": "Buenos Aires",
     "addr:street": "Marcelo T. de Alvear",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -41026,14 +40958,12 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "hospital",
     "building": "yes",
     "building:levels": "7",
     "healthcare": "hospital",
-    "name": "Instituto de Medicina y Cirugia Cardiovascular",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Instituto de Medicina y Cirugia Cardiovascular"
   }
 },
 {
@@ -41074,7 +41004,6 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -41103,7 +41032,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2678",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Córdoba",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -41154,15 +41082,13 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Pedro Goyena",
     "amenity": "hospital",
     "building": "hospital",
     "check_date": "2023-10-17",
     "healthcare": "hospital",
     "name": "Hospital de Quemados",
-    "opening_hours": "24/7",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "opening_hours": "24/7"
   }
 },
 {
@@ -41307,7 +41233,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3460",
     "addr:postcode": "C1210AAP",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "building": "yes",
@@ -41337,7 +41262,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3402",
     "addr:postcode": "C1210AAP",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Belgrano",
     "amenity": "hospital",
     "building": "yes",
@@ -41350,7 +41274,6 @@
     "phone": "+541148662222",
     "ref:sisa_codigo": "10020012315228",
     "ref:sisa_tipologia": "ESCIG",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "https://www.e-galeno.com.ar/Pages/Servicios/Sanatorios.aspx#",
     "wikidata": "Q90410231"
   }
@@ -42635,7 +42558,6 @@
     "addr:country": "AR",
     "addr:housenumber": "899",
     "addr:postcode": "C1405DJI",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Ángel Gallardo",
     "amenity": "hospital",
     "building": "hospital",
@@ -43168,7 +43090,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1543",
     "addr:postcode": "1428",
-    "addr:province": "Buenos Aires",
     "addr:street": "Blanco Encalada",
     "addr:suburb": "Belgrano",
     "amenity": "hospital",
@@ -43938,6 +43859,7 @@
     "addr:street": "Avenida Pueyrredón",
     "amenity": "hospital",
     "building": "hospital",
+    "check_date": "2024-08-19",
     "healthcare": "hospital",
     "name": "Sanatorio Privado De La Cañada",
     "operator": "Privado",
@@ -45883,7 +45805,6 @@
     "addr:housename": "Mater Dei",
     "addr:housenumber": "2952",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "addr:street": "San Martín de Tours",
     "addr:suburb": "Palermo",
     "amenity": "hospital",
@@ -45917,7 +45838,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2423",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Coronel Díaz",
     "amenity": "hospital",
     "building": "hospital",
@@ -46687,7 +46607,6 @@
     "addr:country": "AR",
     "addr:housenumber": "4601",
     "addr:postcode": "C1429AKK",
-    "addr:province": "Buenos Aires",
     "addr:street": "Crámer",
     "addr:suburb": "Saavedra",
     "amenity": "hospital",
@@ -47572,7 +47491,6 @@
     "addr:country": "AR",
     "addr:housenumber": "849",
     "addr:postcode": "C1272AAA",
-    "addr:province": "Buenos Aires",
     "addr:street": "Doctor Enrique Finochietto",
     "amenity": "hospital",
     "check_date": "2023-12-25",
@@ -47606,7 +47524,6 @@
     "addr:full": "Don Pedro De Mendoza 1795",
     "addr:housenumber": "1795",
     "addr:postcode": "1167",
-    "addr:province": "Buenos Aires",
     "addr:street": "Don Pedro de Mendoza",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -47640,7 +47557,6 @@
     "addr:country": "AR",
     "addr:housenumber": "951",
     "addr:postcode": "1221",
-    "addr:province": "Buenos Aires",
     "addr:street": "La Rioja",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -47672,7 +47588,6 @@
     "addr:country": "AR",
     "addr:housenumber": "66",
     "addr:postcode": "C1405DHB",
-    "addr:province": "Buenos Aires",
     "addr:street": "Antonio Machado",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -48468,7 +48383,6 @@
     "addr:country": "AR",
     "addr:housenumber": "3352",
     "addr:postcode": "C1208ABN",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Hipólito Yrigoyen",
     "amenity": "hospital",
     "building": "yes",
@@ -48496,7 +48410,6 @@
     "addr:country": "AR",
     "addr:housenumber": "548",
     "addr:postcode": "C1172ABL",
-    "addr:province": "Buenos Aires",
     "addr:street": "Gallo",
     "amenity": "hospital",
     "building": "yes",
@@ -50447,7 +50360,6 @@
     "addr:country": "AR",
     "addr:full": "Av. Directorio 4743",
     "addr:postcode": "1407",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio San Cayetano - Osmata",
@@ -50665,7 +50577,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2061",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Caseros",
     "amenity": "hospital",
     "building": "yes",
@@ -51033,7 +50944,7 @@
     "description": "Bajo riesgo con internación simple",
     "emergency": "yes",
     "healthcare": "hospital",
-    "healthcare:speciality": "general;dentist",
+    "healthcare:speciality": "general;stomatology",
     "name": "Hospital Omar Bartolomé Pérez",
     "opening_hours": "24/7",
     "operator:type": "public",
@@ -52163,7 +52074,6 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:postcode": "C1416DJI",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Juan Bautista Justo 4151",
     "amenity": "hospital",
     "description": "Hospital Oftalmológico Doctor Pedro Lagleyze - Servicios: oftalmología, atención ambulatoria, internación, diagnóstico, tratamiento, medicina preventiva, cuenta con 36 camas -",
@@ -52378,7 +52288,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1461",
     "addr:postcode": "1118",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Pueyrredón",
     "amenity": "hospital",
     "building": "hospital",
@@ -52463,7 +52372,6 @@
     "addr:country": "AR",
     "addr:full": "Lavalle 1974",
     "addr:postcode": "1051",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -52512,7 +52420,6 @@
     "addr:full": "Bartolomé Mitre 1955",
     "addr:housenumber": "1955",
     "addr:postcode": "1039",
-    "addr:province": "Buenos Aires",
     "addr:street": "Bartolomé Mitre",
     "amenity": "hospital",
     "building": "yes",
@@ -52592,7 +52499,6 @@
     "addr:country": "AR",
     "addr:full": "Paraguay 3144",
     "addr:postcode": "1425",
-    "addr:province": "Buenos Aires",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -52682,7 +52588,6 @@
     "addr:country": "AR",
     "addr:full": "Av. Directorio 2037",
     "addr:housenumber": "2037",
-    "addr:province": "Buenos Aires",
     "addr:street": "Avenida Directorio",
     "amenity": "hospital",
     "building": "yes",
@@ -52720,7 +52625,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1164",
     "addr:postcode": "1416",
-    "addr:province": "Buenos Aires",
     "addr:street": "Terrada",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -52996,7 +52900,6 @@
     "addr:country": "AR",
     "addr:housenumber": "1039",
     "addr:postcode": "1229",
-    "addr:province": "Buenos Aires",
     "addr:street": "Saavedra",
     "amenity": "hospital",
     "building": "yes",
@@ -53528,7 +53431,6 @@
     "addr:full": "Ventura De La Vega 3697",
     "addr:housenumber": "3697",
     "addr:postcode": "1437",
-    "addr:province": "Buenos Aires",
     "addr:street": "Ventura de La Vega",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -55620,8 +55522,7 @@
     11778951750,
     11778951767,
     11778951768,
-    11778951762,
-    11778951761,
+    12105378638,
     11778951749
   ],
   "tags": {
@@ -56261,6 +56162,43 @@
     "phone": "+54 5273 4700",
     "ref:sisa_codigo": "10061342017839",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "way",
+  "id": 1306279806,
+  "nodes": [
+    12098065172,
+    12098065173,
+    12098065174,
+    12098065175,
+    12098065172
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1307790457,
+  "nodes": [
+    11739978022,
+    11739978023,
+    12110771681,
+    12110771682,
+    12110771683,
+    11739978025,
+    11739978022
+  ],
+  "tags": {
+    "addr:city": "Los Ángeles",
+    "addr:street": "Ruta Provincial 32 Ministro Rodolfo Moreno",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad Sanitaria < Los Ángeles >",
+    "operator": "Municipalidad de Chacabuco",
+    "operator:type": "government"
   }
 },
 {
@@ -92794,18 +92732,6 @@
 },
 {
   "type": "node",
-  "id": 11778951761,
-  "lat": -34.9725386,
-  "lon": -59.8613350
-},
-{
-  "type": "node",
-  "id": 11778951762,
-  "lat": -34.9724349,
-  "lon": -59.8613418
-},
-{
-  "type": "node",
   "id": 11778951767,
   "lat": -34.9721912,
   "lon": -59.8616546
@@ -92813,8 +92739,14 @@
 {
   "type": "node",
   "id": 11778951768,
-  "lat": -34.9721846,
-  "lon": -59.8613475
+  "lat": -34.9721855,
+  "lon": -59.8614870
+},
+{
+  "type": "node",
+  "id": 12105378638,
+  "lat": -34.9725436,
+  "lon": -59.8614671
 },
 {
   "type": "node",
@@ -93019,6 +92951,42 @@
   "id": 1806696783,
   "lat": -34.9297373,
   "lon": -58.9416065
+},
+{
+  "type": "node",
+  "id": 11739978022,
+  "lat": -34.4556004,
+  "lon": -60.1788818
+},
+{
+  "type": "node",
+  "id": 11739978023,
+  "lat": -34.4555372,
+  "lon": -60.1789605
+},
+{
+  "type": "node",
+  "id": 11739978025,
+  "lat": -34.4555168,
+  "lon": -60.1787849
+},
+{
+  "type": "node",
+  "id": 12110771681,
+  "lat": -34.4554769,
+  "lon": -60.1790319
+},
+{
+  "type": "node",
+  "id": 12110771682,
+  "lat": -34.4553442,
+  "lon": -60.1788817
+},
+{
+  "type": "node",
+  "id": 12110771683,
+  "lat": -34.4554659,
+  "lon": -60.1787297
 },
 {
   "type": "node",
@@ -104927,8 +104895,8 @@
 {
   "type": "node",
   "id": 255858440,
-  "lat": -34.5924644,
-  "lon": -58.4015890
+  "lat": -34.5924445,
+  "lon": -58.4016064
 },
 {
   "type": "node",
@@ -104939,8 +104907,8 @@
 {
   "type": "node",
   "id": 4571016597,
-  "lat": -34.5915971,
-  "lon": -58.4011643
+  "lat": -34.5915872,
+  "lon": -58.4011817
 },
 {
   "type": "node",
@@ -123689,8 +123657,8 @@
 {
   "type": "node",
   "id": 5498760287,
-  "lat": -27.4498192,
-  "lon": -58.9847612
+  "lat": -27.4497986,
+  "lon": -58.9847882
 },
 {
   "type": "node",
@@ -123701,14 +123669,14 @@
 {
   "type": "node",
   "id": 5498760289,
-  "lat": -27.4499431,
-  "lon": -58.9849060
+  "lat": -27.4499225,
+  "lon": -58.9849330
 },
 {
   "type": "node",
   "id": 5550817639,
-  "lat": -27.4499050,
-  "lon": -58.9848615
+  "lat": -27.4498844,
+  "lon": -58.9848885
 },
 {
   "type": "node",
@@ -125443,6 +125411,30 @@
   "id": 9627105348,
   "lat": -26.1997759,
   "lon": -58.1518785
+},
+{
+  "type": "node",
+  "id": 12098065172,
+  "lat": -26.1936943,
+  "lon": -58.2213859
+},
+{
+  "type": "node",
+  "id": 12098065173,
+  "lat": -26.1936514,
+  "lon": -58.2212417
+},
+{
+  "type": "node",
+  "id": 12098065174,
+  "lat": -26.1934045,
+  "lon": -58.2213329
+},
+{
+  "type": "node",
+  "id": 12098065175,
+  "lat": -26.1934474,
+  "lon": -58.2214771
 },
 {
   "type": "node",
