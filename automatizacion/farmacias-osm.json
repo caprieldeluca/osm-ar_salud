@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-20T03:57:52Z",
-    "timestamp_areas_base": "2024-08-20T01:08:12Z",
+    "timestamp_osm_base": "2024-08-25T02:20:20Z",
+    "timestamp_areas_base": "2024-08-24T21:58:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -35500,6 +35500,7 @@
     "addr:postcode": "8351",
     "addr:street": "Avenida Nicolas Levalle",
     "amenity": "pharmacy",
+    "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia de Mariano Moreno"
   }
@@ -43942,8 +43943,8 @@
 {
   "type": "node",
   "id": 4710835837,
-  "lat": -34.5900557,
-  "lon": -58.4086757,
+  "lat": -34.5900822,
+  "lon": -58.4086197,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -45208,9 +45209,14 @@
   "lat": -34.9736611,
   "lon": -67.6890448,
   "tags": {
+    "addr:city": "General Alvear",
+    "addr:housenumber": "412",
+    "addr:postcode": "5620",
+    "addr:street": "Avenida Libertador Norte",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "De La Costa"
+    "name": "De La Costa",
+    "phone": "+54 2625 422331"
   }
 },
 {
@@ -45714,7 +45720,8 @@
     "addr:postcode": "5620",
     "amenity": "pharmacy",
     "drive_through": "no",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Libertador"
   }
 },
 {
@@ -58572,7 +58579,7 @@
 {
   "type": "node",
   "id": 6250342183,
-  "lat": -38.9401759,
+  "lat": -38.9401609,
   "lon": -67.9979844,
   "tags": {
     "addr:city": "Cipolletti",
@@ -58581,8 +58588,13 @@
     "addr:street": "General Villegas",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "drive_through": "no",
+    "email": "info@farmaciafernandez.net",
     "healthcare": "pharmacy",
-    "name": "Farmacia Fernández"
+    "mobile": "+54 9 299 418-5067",
+    "name": "Farmacia Fernández",
+    "phone": "+54 299 478-1220",
+    "website": "https://www.farmaciafernandez.net/"
   }
 },
 {
@@ -58913,7 +58925,7 @@
   "type": "node",
   "id": 6294175776,
   "lat": -38.9409622,
-  "lon": -67.9923900,
+  "lon": -67.9923960,
   "tags": {
     "addr:city": "Cipolletti",
     "addr:housenumber": "702",
@@ -75532,17 +75544,21 @@
 {
   "type": "node",
   "id": 9206439655,
-  "lat": -38.9404630,
-  "lon": -67.9958186,
+  "lat": -38.9404571,
+  "lon": -67.9958363,
   "tags": {
     "addr:city": "Cipolletti",
-    "addr:housenumber": "459",
+    "addr:housenumber": "465",
     "addr:postcode": "R8324",
     "addr:street": "General San Martín",
     "amenity": "pharmacy",
+    "contact:instagram": "https://www.instagram.com/farmaciamaturi/",
     "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Maturi"
+    "mobile": "+54 9 299 613-1361",
+    "name": "Farmacia Maturi",
+    "phone": "+54 299 477-1306"
   }
 },
 {
@@ -89190,6 +89206,7 @@
   "lon": -58.2233629,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Mechongué"
   }
 },
@@ -92705,8 +92722,8 @@
 {
   "type": "node",
   "id": 11884412623,
-  "lat": -34.5856075,
-  "lon": -58.4149327,
+  "lat": -34.5856104,
+  "lon": -58.4149623,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -93597,7 +93614,8 @@
   "lon": -62.2665450,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Moreno"
   }
 },
 {
@@ -93987,6 +94005,17 @@
     "operator": "Mutual Federada 25 de Junio S.P.R.",
     "phone": "+54 299 477-1701",
     "website": "https://www.federada.com/farmacia/"
+  }
+},
+{
+  "type": "node",
+  "id": 12133019590,
+  "lat": -34.5831650,
+  "lon": -58.7509229,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "CRL",
+    "opening_hours": "Mo-Sa 08:30-13:00; Mo-Sa 16:00-21:00;"
   }
 },
 {
@@ -99857,7 +99886,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "La Danesa"
+    "name": "Farmaplus Danesa"
   }
 },
 {
@@ -101867,26 +101896,6 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Las Nieves"
-  }
-},
-{
-  "type": "way",
-  "id": 475148283,
-  "nodes": [
-    4689433880,
-    4689433881,
-    4689433884,
-    4689433882,
-    4689433883,
-    4689433880
-  ],
-  "tags": {
-    "addr:street": "Belgrano",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Look Farmacity",
-    "source": "Reconocimiento terrestre por #Kaart 2016"
   }
 },
 {
@@ -113544,11 +113553,9 @@
   ],
   "tags": {
     "amenity": "pharmacy",
-    "brand": "Farmacity",
-    "brand:wikidata": "Q5856076",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacia White"
   }
 },
 {
@@ -113564,7 +113571,8 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Moran"
   }
 },
 {
@@ -130269,36 +130277,6 @@
   "id": 4708921588,
   "lat": -34.6489379,
   "lon": -58.5643672
-},
-{
-  "type": "node",
-  "id": 4689433880,
-  "lat": -34.6415662,
-  "lon": -58.5645446
-},
-{
-  "type": "node",
-  "id": 4689433881,
-  "lat": -34.6415549,
-  "lon": -58.5644711
-},
-{
-  "type": "node",
-  "id": 4689433882,
-  "lat": -34.6414432,
-  "lon": -58.5645002
-},
-{
-  "type": "node",
-  "id": 4689433883,
-  "lat": -34.6414543,
-  "lon": -58.5645711
-},
-{
-  "type": "node",
-  "id": 4689433884,
-  "lat": -34.6415104,
-  "lon": -58.5644829
 },
 {
   "type": "node",
