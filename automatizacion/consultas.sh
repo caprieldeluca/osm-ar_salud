@@ -3,7 +3,7 @@
 # Personalizar tiempo de espera entre consultas
 DORMIR=60
 # Personalizar path al ejecutable de osm2geojson
-OSM2GEO="~/nodejs_entornos/osm-ar_salud/node_modules/.bin/osmtogeojson"
+OSM2GEO="osmtogeojson"
 
 echo "  Consultar overpass API  y convertir a geojson..."
 
