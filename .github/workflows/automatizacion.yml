@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Permite la ejecución manual desde la interfaz de GitHub
 
 jobs:
-  update-geojson:
+  actualizar:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
           node-version: 'lts/*'  # Utiliza la última versión estable (LTS)
 
       - name: Install dependencies
-        run: npm install osmtogeojson
+        run: npm install -g osmtogeojson #Instalación global
 
       - name: Create working directory
         run: mkdir -p /tmp/wd
