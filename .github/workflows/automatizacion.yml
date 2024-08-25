@@ -34,7 +34,7 @@ jobs:
           git config --local user.email "actions@github.com"
 
       - name: Run the automation script
-        run: ls -la #bash automatizacion.sh  # Correr el script de automatización
+        run: bash automatizacion/consultas.sh  # Correr el script de automatización
 
       - name: Commit and push changes
         run: |
