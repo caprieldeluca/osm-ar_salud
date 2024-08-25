@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out the repository
-        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -20,6 +18,15 @@ jobs:
 
       - name: Install dependencies
         run: npm install osmtogeojson
+
+      - name: Create working directory
+        run: mkdir /wd
+
+      - name: Change directory to wd
+        run: cd /wd
+
+      - name: Check out the repository
+        uses: actions/checkout@v3
 
       - name: Run the automation script
         run: ls -la #bash automatizacion.sh  # Correr el script de automatización
