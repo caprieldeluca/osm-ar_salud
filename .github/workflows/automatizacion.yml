@@ -28,15 +28,18 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
+      - name: Configure git
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+
       - name: Run the automation script
         run: ls -la #bash automatizacion.sh  # Correr el script de automatización
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add .
-          git commit -m "Actualización diaria de GeoJSON"
+          #git add .
+          #git commit -m "Actualización diaria de GeoJSON"
           #git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
