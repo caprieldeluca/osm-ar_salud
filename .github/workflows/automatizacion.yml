@@ -36,10 +36,7 @@ jobs:
       - name: Run the automation script
         run: bash automatizacion/consultas.sh  # Correr el script de automatización
 
-      - name: Commit and push changes
-        run: |
-          #git add .
-          #git commit -m "Actualización diaria de GeoJSON"
-          #git push
+      - name: Push changes
+        run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
