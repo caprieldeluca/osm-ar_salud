@@ -30929,10 +30929,13 @@
   "id": "node/8004872931",
   "properties": {
     "addr:city": "Guaraní",
-    "addr:street": "Paraje Yapeyú Centro",
+    "addr:street": "Paraje Yapeyú Centro;Picada Yapeyú Sur",
+    "alt_name": "Centro de Atención Primaria de la Salud Yapeyu Centro",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "name": "CAPS Yapeyú Centro",
+    "name": "CAPS Yapeyú Centro;CAPS Yapeyu Centro",
+    "ref:ZonaSanitaria": "Centro Uruguay",
+    "ref:cuie_codigo": "N05313",
     "ref:sisa_codigo": "50540912164138",
     "short_name": "CAPS",
     "id": "node/8004872931"
@@ -30940,8 +30943,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.1783608,
-      -27.6169159
+      -55.1783715,
+      -27.6169415
     ]
   }
 },
@@ -32824,29 +32827,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8014669606",
-  "properties": {
-    "addr:city": "Guaraní",
-    "addr:street": "Picada Yapeyú Sur",
-    "alt_name": "Centro de Atención Primaria de la Salud Yapeyu Centro",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "name": "CAPS Yapeyu Centro",
-    "ref:ZonaSanitaria": "Centro Uruguay",
-    "ref:cuie_codigo": "N05313",
-    "ref:sisa_codigo": "50540912164138",
-    "id": "node/8014669606"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.1775047,
-      -27.615854
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8014670308",
   "properties": {
     "alt_name": "Puesto de Salud Centro de Integración Comunitario Rural - Km 40",
@@ -33436,7 +33416,7 @@
     "healthcare": "doctor",
     "healthcare:speciality": "trauma",
     "mobile": "+54 9 299 673-3696",
-    "name": "Grupo Patagonia Traumatología",
+    "name": "Grupo Patagonia",
     "old_name": "Abanico Telas;Rio Lío",
     "id": "node/8538372866"
   },
