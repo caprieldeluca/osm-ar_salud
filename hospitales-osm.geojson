@@ -12558,36 +12558,64 @@
           -34.929901
         ],
         [
-          -58.9415734,
-          -34.9301113
+          -58.9415657,
+          -34.9301039
+        ],
+        [
+          -58.9413681,
+          -34.9302036
+        ],
+        [
+          -58.9413462,
+          -34.9301715
+        ],
+        [
+          -58.9413178,
+          -34.9301326
+        ],
+        [
+          -58.9415039,
+          -34.9300404
         ],
         [
           -58.9414107,
           -34.9298979
         ],
         [
-          -58.9414471,
-          -34.9298776
+          -58.9413353,
+          -34.9297999
         ],
         [
-          -58.9414145,
-          -34.9298343
+          -58.9413907,
+          -34.9297708
         ],
         [
-          -58.9416065,
-          -34.9297373
+          -58.9414272,
+          -34.9298231
         ],
         [
-          -58.9417216,
-          -34.9296792
+          -58.9416062,
+          -34.929738
         ],
         [
-          -58.9417577,
-          -34.929723
+          -58.9416842,
+          -34.9296989
         ],
         [
-          -58.9418213,
-          -34.9296876
+          -58.9417373,
+          -34.9296734
+        ],
+        [
+          -58.9417632,
+          -34.9297129
+        ],
+        [
+          -58.9418228,
+          -34.9296833
+        ],
+        [
+          -58.941872,
+          -34.9297497
         ],
         [
           -58.9419839,
@@ -42898,40 +42926,36 @@
     "coordinates": [
       [
         [
-          -58.4015654,
-          -34.5964327
+          -58.4015466,
+          -34.5964228
         ],
         [
-          -58.4016355,
-          -34.5966606
+          -58.4015671,
+          -34.596431
         ],
         [
-          -58.4012993,
-          -34.5967799
+          -58.4016681,
+          -34.5967092
         ],
         [
-          -58.4013153,
-          -34.5968307
+          -58.4011396,
+          -34.5968815
         ],
         [
-          -58.4011316,
-          -34.596887
-        ],
-        [
-          -58.4011558,
-          -34.5969642
+          -58.4011638,
+          -34.5969609
         ],
         [
           -58.4007982,
           -34.5970348
         ],
         [
-          -58.4006813,
-          -34.5966965
+          -58.4006773,
+          -34.5966899
         ],
         [
-          -58.4015654,
-          -34.5964327
+          -58.4015466,
+          -34.5964228
         ]
       ]
     ]
@@ -67299,59 +67323,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1012661027",
-  "properties": {
-    "addr:city": "Las Grutas",
-    "addr:postcode": "R8521",
-    "addr:street": "Pilcaniyeu",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital de Área Programa Las Grutas \"Violeta Villalobos\"",
-    "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public",
-    "phone": "+54 293 449-7100",
-    "wikidata": "Q94704913",
-    "id": "way/1012661027"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -65.0905222,
-          -40.8081955
-        ],
-        [
-          -65.0903004,
-          -40.8084174
-        ],
-        [
-          -65.0900345,
-          -40.8082821
-        ],
-        [
-          -65.0900607,
-          -40.8082536
-        ],
-        [
-          -65.0901926,
-          -40.808113
-        ],
-        [
-          -65.0902471,
-          -40.8080593
-        ],
-        [
-          -65.0905222,
-          -40.8081955
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1012661034",
   "properties": {
     "addr:city": "Sierra Grande",
@@ -70884,12 +70855,16 @@
   "type": "Feature",
   "id": "way/1046825020",
   "properties": {
-    "addr:street": "Calle 50",
+    "addr:housenumber": "315",
+    "addr:street": "Calle 51",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
     "name": "Instituto Médico Platense",
+    "opening_hours": "24/7",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "website": "https://www.institutomedicoplatense.com/",
+    "wheelchair": "yes",
     "id": "way/1046825020"
   },
   "geometry": {
@@ -79256,6 +79231,50 @@
 },
 {
   "type": "Feature",
+  "id": "way/1317027330",
+  "properties": {
+    "addr:city": "Las Grutas",
+    "addr:postcode": "8521",
+    "addr:street": "Antonio Buyayiski",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Área Programa Las Grutas \"Doctora Violeta Villalobos\"",
+    "opening_hours": "24/7",
+    "operator": "Provincia de Río Negro",
+    "operator:type": "public",
+    "phone": "02934 497100",
+    "id": "way/1317027330"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.0925328,
+          -40.8055542
+        ],
+        [
+          -65.093346,
+          -40.8047324
+        ],
+        [
+          -65.0942632,
+          -40.8052524
+        ],
+        [
+          -65.0934498,
+          -40.8060742
+        ],
+        [
+          -65.0925328,
+          -40.8055542
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -79748,16 +79767,14 @@
   "properties": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "is_in": "Anquincila",
-    "is_in:municipality": "Ancasti",
-    "name": "Posta Municipal",
+    "name": "Mini Hospital Municipal",
     "id": "node/1042035126"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.5470945,
-      -28.7500472
+      -65.547246,
+      -28.7502835
     ]
   }
 },
@@ -109317,11 +109334,10 @@
     "addr:street": "Antonio Buyayiski",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Área Programa Las Grutas \"Doctora Violeta Villalobos\"",
+    "name": "Centro Modular Sanitario N°17",
     "opening_hours": "24/7",
     "operator": "Provincia de Río Negro",
     "operator:type": "public",
-    "phone": "02934 497100",
     "id": "node/9162747671"
   },
   "geometry": {
@@ -112430,6 +112446,39 @@
     "coordinates": [
       -66.388718,
       -33.3109585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12187363226",
+  "properties": {
+    "amenity": "hospital",
+    "name": "Hospital Tilisarao",
+    "id": "node/12187363226"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2863836,
+      -32.7328472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12188256458",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal Pedro Arozarena",
+    "id": "node/12188256458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.9416516,
+      -34.9298468
     ]
   }
 }

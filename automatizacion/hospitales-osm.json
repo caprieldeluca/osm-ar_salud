@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-09-19T23:13:58Z",
-    "timestamp_areas_base": "2024-09-16T09:46:45Z",
+    "timestamp_osm_base": "2024-09-20T23:13:23Z",
+    "timestamp_areas_base": "2024-09-20T18:28:34Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -367,14 +367,12 @@
 {
   "type": "node",
   "id": 1042035126,
-  "lat": -28.7500472,
-  "lon": -65.5470945,
+  "lat": -28.7502835,
+  "lon": -65.5472460,
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "is_in": "Anquincila",
-    "is_in:municipality": "Ancasti",
-    "name": "Posta Municipal"
+    "name": "Mini Hospital Municipal"
   }
 },
 {
@@ -21763,11 +21761,10 @@
     "addr:street": "Antonio Buyayiski",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Área Programa Las Grutas \"Doctora Violeta Villalobos\"",
+    "name": "Centro Modular Sanitario N°17",
     "opening_hours": "24/7",
     "operator": "Provincia de Río Negro",
-    "operator:type": "public",
-    "phone": "02934 497100"
+    "operator:type": "public"
   }
 },
 {
@@ -23981,6 +23978,27 @@
     "healthcare": "hospital",
     "healthcare:speciality": "centro_de_atención_primaria",
     "name": "CAPS n°8 1ro de mayo"
+  }
+},
+{
+  "type": "node",
+  "id": 12187363226,
+  "lat": -32.7328472,
+  "lon": -65.2863836,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hospital Tilisarao"
+  }
+},
+{
+  "type": "node",
+  "id": 12188256458,
+  "lat": -34.9298468,
+  "lon": -58.9416516,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal Pedro Arozarena"
   }
 },
 {
@@ -27537,13 +27555,20 @@
   "id": 169508841,
   "nodes": [
     1806694400,
+    12188256459,
     1806694395,
     1806694396,
     1806694394,
+    12187325995,
     1806696783,
     1806694397,
+    12187325973,
     1806694398,
     1806694399,
+    12187325991,
+    12187325990,
+    12187325994,
+    12187325992,
     1806694401,
     1806694400
   ],
@@ -40617,7 +40642,6 @@
     4675279718,
     7684239968,
     7684239969,
-    7684239970,
     7684239971,
     4675279719,
     4475368625
@@ -51273,32 +51297,6 @@
 },
 {
   "type": "way",
-  "id": 1012661027,
-  "nodes": [
-    11565051864,
-    11565051863,
-    11565051860,
-    11565051861,
-    9342607329,
-    11565051862,
-    11565051864
-  ],
-  "tags": {
-    "addr:city": "Las Grutas",
-    "addr:postcode": "R8521",
-    "addr:street": "Pilcaniyeu",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital de Área Programa Las Grutas \"Violeta Villalobos\"",
-    "operator": "Ministerio de Salud - Gobierno de Río Negro",
-    "operator:type": "public",
-    "phone": "+54 293 449-7100",
-    "wikidata": "Q94704913"
-  }
-},
-{
-  "type": "way",
   "id": 1012661034,
   "nodes": [
     9342607381,
@@ -52864,12 +52862,16 @@
     9626344048
   ],
   "tags": {
-    "addr:street": "Calle 50",
+    "addr:housenumber": "315",
+    "addr:street": "Calle 51",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
     "name": "Instituto Médico Platense",
-    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+    "opening_hours": "24/7",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "website": "https://www.institutomedicoplatense.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -56332,6 +56334,29 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Rural N°10"
+  }
+},
+{
+  "type": "way",
+  "id": 1317027330,
+  "nodes": [
+    12189103382,
+    12189103383,
+    12189103384,
+    12189103385,
+    12189103382
+  ],
+  "tags": {
+    "addr:city": "Las Grutas",
+    "addr:postcode": "8521",
+    "addr:street": "Antonio Buyayiski",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Área Programa Las Grutas \"Doctora Violeta Villalobos\"",
+    "opening_hours": "24/7",
+    "operator": "Provincia de Río Negro",
+    "operator:type": "public",
+    "phone": "02934 497100"
   }
 },
 {
@@ -64316,39 +64341,27 @@
 },
 {
   "type": "node",
-  "id": 11565051864,
-  "lat": -40.8081955,
-  "lon": -65.0905222
+  "id": 12189103385,
+  "lat": -40.8060742,
+  "lon": -65.0934498
 },
 {
   "type": "node",
-  "id": 9342607329,
-  "lat": -40.8081130,
-  "lon": -65.0901926
+  "id": 12189103382,
+  "lat": -40.8055542,
+  "lon": -65.0925328
 },
 {
   "type": "node",
-  "id": 11565051860,
-  "lat": -40.8082821,
-  "lon": -65.0900345
+  "id": 12189103383,
+  "lat": -40.8047324,
+  "lon": -65.0933460
 },
 {
   "type": "node",
-  "id": 11565051861,
-  "lat": -40.8082536,
-  "lon": -65.0900607
-},
-{
-  "type": "node",
-  "id": 11565051862,
-  "lat": -40.8080593,
-  "lon": -65.0902471
-},
-{
-  "type": "node",
-  "id": 11565051863,
-  "lat": -40.8084174,
-  "lon": -65.0903004
+  "id": 12189103384,
+  "lat": -40.8052524,
+  "lon": -65.0942632
 },
 {
   "type": "node",
@@ -92679,32 +92692,32 @@
 {
   "type": "node",
   "id": 1806694394,
-  "lat": -34.9296792,
-  "lon": -58.9417216
+  "lat": -34.9296734,
+  "lon": -58.9417373
 },
 {
   "type": "node",
   "id": 1806694395,
-  "lat": -34.9296876,
-  "lon": -58.9418213
+  "lat": -34.9296833,
+  "lon": -58.9418228
 },
 {
   "type": "node",
   "id": 1806694396,
-  "lat": -34.9297230,
-  "lon": -58.9417577
+  "lat": -34.9297129,
+  "lon": -58.9417632
 },
 {
   "type": "node",
   "id": 1806694397,
-  "lat": -34.9298343,
-  "lon": -58.9414145
+  "lat": -34.9298231,
+  "lon": -58.9414272
 },
 {
   "type": "node",
   "id": 1806694398,
-  "lat": -34.9298776,
-  "lon": -58.9414471
+  "lat": -34.9297999,
+  "lon": -58.9413353
 },
 {
   "type": "node",
@@ -92721,14 +92734,56 @@
 {
   "type": "node",
   "id": 1806694401,
-  "lat": -34.9301113,
-  "lon": -58.9415734
+  "lat": -34.9301039,
+  "lon": -58.9415657
 },
 {
   "type": "node",
   "id": 1806696783,
-  "lat": -34.9297373,
-  "lon": -58.9416065
+  "lat": -34.9297380,
+  "lon": -58.9416062
+},
+{
+  "type": "node",
+  "id": 12187325973,
+  "lat": -34.9297708,
+  "lon": -58.9413907
+},
+{
+  "type": "node",
+  "id": 12187325990,
+  "lat": -34.9301326,
+  "lon": -58.9413178
+},
+{
+  "type": "node",
+  "id": 12187325991,
+  "lat": -34.9300404,
+  "lon": -58.9415039
+},
+{
+  "type": "node",
+  "id": 12187325992,
+  "lat": -34.9302036,
+  "lon": -58.9413681
+},
+{
+  "type": "node",
+  "id": 12187325994,
+  "lat": -34.9301715,
+  "lon": -58.9413462
+},
+{
+  "type": "node",
+  "id": 12187325995,
+  "lat": -34.9296989,
+  "lon": -58.9416842
+},
+{
+  "type": "node",
+  "id": 12188256459,
+  "lat": -34.9297497,
+  "lon": -58.9418720
 },
 {
   "type": "node",
@@ -104547,14 +104602,14 @@
 {
   "type": "node",
   "id": 4475368625,
-  "lat": -34.5964327,
-  "lon": -58.4015654
+  "lat": -34.5964228,
+  "lon": -58.4015466
 },
 {
   "type": "node",
   "id": 4675279717,
-  "lat": -34.5966965,
-  "lon": -58.4006813
+  "lat": -34.5966899,
+  "lon": -58.4006773
 },
 {
   "type": "node",
@@ -104565,8 +104620,8 @@
 {
   "type": "node",
   "id": 4675279719,
-  "lat": -34.5966606,
-  "lon": -58.4016355
+  "lat": -34.5964310,
+  "lon": -58.4015671
 },
 {
   "type": "node",
@@ -104619,26 +104674,20 @@
 {
   "type": "node",
   "id": 7684239968,
-  "lat": -34.5969642,
-  "lon": -58.4011558
+  "lat": -34.5969609,
+  "lon": -58.4011638
 },
 {
   "type": "node",
   "id": 7684239969,
-  "lat": -34.5968870,
-  "lon": -58.4011316
-},
-{
-  "type": "node",
-  "id": 7684239970,
-  "lat": -34.5968307,
-  "lon": -58.4013153
+  "lat": -34.5968815,
+  "lon": -58.4011396
 },
 {
   "type": "node",
   "id": 7684239971,
-  "lat": -34.5967799,
-  "lon": -58.4012993
+  "lat": -34.5967092,
+  "lon": -58.4016681
 },
 {
   "type": "node",
