@@ -1344,6 +1344,84 @@
 },
 {
   "type": "Feature",
+  "id": "way/137900086",
+  "properties": {
+    "addr:city": "San Fernando del Valle de Catamarca",
+    "addr:housenumber": "150",
+    "addr:street": "Avenida Güemes Oeste",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica de la Ciudad",
+    "old_name": "Hospital Ferroviario",
+    "operator": "Circulo Médico de Catamarca",
+    "id": "way/137900086"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.7896676,
+          -28.477584
+        ],
+        [
+          -65.789631,
+          -28.4776027
+        ],
+        [
+          -65.7878905,
+          -28.4775462
+        ],
+        [
+          -65.787865,
+          -28.4775233
+        ],
+        [
+          -65.7879346,
+          -28.4769508
+        ],
+        [
+          -65.7879417,
+          -28.4768917
+        ],
+        [
+          -65.7883421,
+          -28.4769067
+        ],
+        [
+          -65.7883576,
+          -28.4765871
+        ],
+        [
+          -65.7886912,
+          -28.4766
+        ],
+        [
+          -65.7887594,
+          -28.4766027
+        ],
+        [
+          -65.7892414,
+          -28.4766219
+        ],
+        [
+          -65.7896567,
+          -28.4766374
+        ],
+        [
+          -65.7896906,
+          -28.476662
+        ],
+        [
+          -65.7896676,
+          -28.477584
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/149693260",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
@@ -11357,7 +11435,6 @@
     "addr:postcode": "1607",
     "addr:street": "Avenida de Mayo",
     "amenity": "clinic",
-    "building": "yes",
     "healthcare": "clinic",
     "name": "CAPS Villa Adelina",
     "operator": "Municipal",
@@ -11372,20 +11449,20 @@
     "coordinates": [
       [
         [
-          -58.5450747,
-          -34.5210504
+          -58.545127,
+          -34.5211167
         ],
         [
-          -58.5450224,
-          -34.5210904
+          -58.5450251,
+          -34.5212186
         ],
         [
-          -58.5449868,
-          -34.5210588
+          -58.5449546,
+          -34.5210621
         ],
         [
-          -58.5450097,
-          -34.5210413
+          -58.5449426,
+          -34.5210402
         ],
         [
           -58.5449792,
@@ -11396,8 +11473,8 @@
           -34.5209918
         ],
         [
-          -58.5450747,
-          -34.5210504
+          -58.545127,
+          -34.5211167
         ]
       ]
     ]
@@ -11450,11 +11527,9 @@
   "type": "Feature",
   "id": "way/467028401",
   "properties": {
-    "addr:street": "Avenida de Mayo",
     "amenity": "clinic",
     "building": "yes",
     "name": "Centro Sucre",
-    "source": "Reconocimiento cartográfico 2016 por KG",
     "id": "way/467028401"
   },
   "geometry": {
@@ -11462,36 +11537,36 @@
     "coordinates": [
       [
         [
-          -58.5408279,
-          -34.5120623
+          -58.5408185,
+          -34.5120822
         ],
         [
-          -58.5408603,
-          -34.5121454
+          -58.5408509,
+          -34.5121653
         ],
         [
-          -58.5408426,
-          -34.5121722
+          -58.5408332,
+          -34.5121921
         ],
         [
-          -58.5407552,
-          -34.5122439
+          -58.5407458,
+          -34.5122638
         ],
         [
-          -58.5406889,
-          -34.5121891
+          -58.5406795,
+          -34.512209
         ],
         [
-          -58.5407375,
-          -34.5121492
+          -58.5407281,
+          -34.5121691
         ],
         [
-          -58.5407151,
-          -34.5120925
+          -58.5407057,
+          -34.5121124
         ],
         [
-          -58.5408279,
-          -34.5120623
+          -58.5408185,
+          -34.5120822
         ]
       ]
     ]
@@ -80608,33 +80683,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7502113401",
-  "properties": {
-    "addr:city": "Rafaela",
-    "addr:full": "Monseñor A. Brasca 611",
-    "addr:housenumber": "611",
-    "addr:postcode": "S2300",
-    "addr:street": "Monseñor A. Brasca",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Salud 9 Barrio Jardín",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "phone": "+54 3492 45-3103",
-    "ref:sisa_codigo": "50820212184871",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7502113401"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -61.5151832,
-      -31.2550633
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7502114969",
   "properties": {
     "addr:full": "Pueblo Viejo-Zona Rural",
@@ -113366,10 +113414,15 @@
   "type": "Feature",
   "id": "node/11794408684",
   "properties": {
-    "addr:street": "Leandro N. Alem  660",
+    "addr:city": "Vicuña Mackenna",
+    "addr:housenumber": "660",
+    "addr:postcode": "6140",
+    "addr:street": "Leandro N. Alem",
     "amenity": "clinic",
-    "name": "Centro Médico",
+    "healthcare": "clinic",
+    "name": "Clínica CEM Centro De Especialidades Medicas",
     "opening_hours": "Mo-Fr 08:00-19:30",
+    "phone": "+54 3583 484633",
     "id": "node/11794408684"
   },
   "geometry": {
@@ -114490,6 +114543,22 @@
     "coordinates": [
       -58.4017539,
       -34.597057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12214870891",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Devoto Traumatología Integral",
+    "id": "node/12214870891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5124067,
+      -34.6060587
     ]
   }
 }
