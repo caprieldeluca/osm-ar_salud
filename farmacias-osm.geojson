@@ -53191,9 +53191,10 @@
   "type": "Feature",
   "id": "node/2025704757",
   "properties": {
+    "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Soy Tu",
+    "name": "Soy Tu Farmacia",
     "id": "node/2025704757"
   },
   "geometry": {
@@ -54029,9 +54030,9 @@
     "amenity": "pharmacy",
     "check_date": "2024-07-29",
     "healthcare": "pharmacy",
-    "name": "Farmacia Abc",
+    "name": "Farmacia ABC",
     "phone": "+54 11 4773-2083",
-    "website": "https://farmaciasabc.com.ar/",
+    "website": "https://farmaciasabc.com.ar",
     "id": "node/2115075059"
   },
   "geometry": {
@@ -56986,23 +56987,6 @@
     "coordinates": [
       -58.3800521,
       -34.6091107
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2298822538",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "AMEB",
-    "id": "node/2298822538"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.0067713,
-      -27.4454088
     ]
   }
 },
@@ -62564,7 +62548,7 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Brianso",
+    "name": "Farmacia Brianso",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/2612324187"
   },
@@ -64359,7 +64343,7 @@
     "addr:city": "Torres",
     "addr:housenumber": "724",
     "addr:postcode": "6703",
-    "addr:street": "José María Criado Alonso",
+    "addr:street": "Padre José María Criado Alonso",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Miranda",
@@ -94962,8 +94946,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5420306,
-      -34.5782414
+      -58.5420452,
+      -34.5783102
     ]
   }
 },
@@ -98891,7 +98875,10 @@
   "type": "Feature",
   "id": "node/4636131424",
   "properties": {
+    "addr:housenumber": "1181",
+    "addr:street": "Avenida Doctor Ricardo Balbín",
     "amenity": "pharmacy",
+    "check_date": "2024-10-05",
     "healthcare": "pharmacy",
     "name": "TKL",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -148582,9 +148569,7 @@
   "id": "node/8870726079",
   "properties": {
     "amenity": "pharmacy",
-    "fuel:cng": "no",
     "healthcare": "pharmacy",
-    "source": "https://www.enargas.gov.ar/secciones/gas-natural-comprimido/sujetos.php",
     "id": "node/8870726079"
   },
   "geometry": {
@@ -177004,6 +176989,45 @@
     "coordinates": [
       -64.5834008,
       -34.839021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12223171755",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia San Francisco",
+    "id": "node/12223171755"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4784113,
+      -24.7958856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12228215645",
+  "properties": {
+    "addr:city": "Distrito Vecinal Noreste",
+    "addr:housenumber": "3265",
+    "addr:postcode": "R8324",
+    "addr:street": "Saturnino Franco",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Saturnino",
+    "id": "node/12228215645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9552818,
+      -38.9233046
     ]
   }
 }
