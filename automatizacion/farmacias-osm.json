@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-05T23:14:56Z",
-    "timestamp_areas_base": "2024-10-05T18:00:15Z",
+    "timestamp_osm_base": "2024-10-06T23:14:44Z",
+    "timestamp_areas_base": "2024-10-06T18:00:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1309,12 +1309,14 @@
 {
   "type": "node",
   "id": 724302931,
-  "lat": -34.5890261,
-  "lon": -58.4050620,
+  "lat": -34.5889446,
+  "lon": -58.4049781,
   "tags": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
-    "name": "Farmacity Juncal"
+    "name": "Farmacity"
   }
 },
 {
@@ -37742,7 +37744,7 @@
     "addr:street": "Avenida General Francisco Fernández de La Cruz",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia"
+    "name": "Farmacia Social Vani"
   }
 },
 {
@@ -40492,7 +40494,7 @@
     "addr:street": "Juan Agustín García",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Social Segufarm"
+    "name": "El Clasico"
   }
 },
 {
@@ -40508,7 +40510,7 @@
     "amenity": "pharmacy",
     "check_date": "2024-07-12",
     "healthcare": "pharmacy",
-    "name": "Farmacia"
+    "name": "Farmacia Segurola"
   }
 },
 {
@@ -40754,9 +40756,10 @@
   "lat": -34.6134252,
   "lon": -58.4939660,
   "tags": {
+    "addr:street": "Álvarez Jonte",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia",
+    "name": "Farmacia Profesional",
     "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
@@ -41259,7 +41262,7 @@
     "addr:street": "Arregui",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia"
+    "name": "Nazca 2606 Hierbas Medicinales"
   }
 },
 {
@@ -47646,9 +47649,11 @@
   "lat": -34.6483702,
   "lon": -58.5135449,
   "tags": {
+    "addr:housenumber": "6384",
+    "addr:street": "Acassuso",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Farmacia"
+    "name": "Farmacia Acassuso"
   }
 },
 {
@@ -69652,9 +69657,10 @@
   "lat": -34.6074822,
   "lon": -58.4625454,
   "tags": {
+    "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "pharmacy",
     "check_date": "2024-06-19",
-    "name": "Vitanova"
+    "name": "Farmacia Vitanova"
   }
 },
 {
@@ -94433,6 +94439,29 @@
   }
 },
 {
+  "type": "node",
+  "id": 12228749102,
+  "lat": -34.6857924,
+  "lon": -58.4734704,
+  "tags": {
+    "addr:street": "Avenida General Francisco Fernández de La Cruz",
+    "amenity": "pharmacy",
+    "name": "Farmacia Social Cruz"
+  }
+},
+{
+  "type": "node",
+  "id": 12229868401,
+  "lat": -34.6349924,
+  "lon": -58.6674865,
+  "tags": {
+    "addr:housenumber": "230",
+    "addr:street": "Barcala",
+    "amenity": "pharmacy",
+    "name": "Farmacia 24hs"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -102845,11 +102874,12 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "4701",
     "addr:street": "Avenida Directorio",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia"
+    "name": "Farmacia Directorio 4701"
   }
 },
 {
