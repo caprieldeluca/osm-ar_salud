@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-06T23:14:44Z",
-    "timestamp_areas_base": "2024-10-06T18:00:44Z",
+    "timestamp_osm_base": "2024-10-07T23:16:00Z",
+    "timestamp_areas_base": "2024-10-07T19:31:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9141,9 +9141,18 @@
   "lat": -34.5480016,
   "lon": -58.4692296,
   "tags": {
+    "addr:housenumber": "3834",
+    "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
+    "check_date": "2024-10-06",
     "healthcare": "pharmacy",
-    "name": "FarmaPlus"
+    "name": "FarmaPlus",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "website": "https://www.farmaplus.com.ar"
   }
 },
 {
@@ -9154,15 +9163,17 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "4001",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Núñez",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
-    "check_date": "2023-12-13",
+    "check_date": "2024-10-06",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "Mo-Fr 07:30-23:00; Sa 08:00-24:00; Su 10:00-21:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -10652,8 +10663,8 @@
 {
   "type": "node",
   "id": 2315900973,
-  "lat": -32.9427286,
-  "lon": -68.8485755,
+  "lat": -32.9427184,
+  "lon": -68.8486040,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -11613,8 +11624,8 @@
 {
   "type": "node",
   "id": 2393064255,
-  "lat": -32.9374063,
-  "lon": -68.8471027,
+  "lat": -32.9373707,
+  "lon": -68.8471699,
   "tags": {
     "addr:street": "Perito Moreno",
     "amenity": "pharmacy",
@@ -99261,7 +99272,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Nueva Barcala",
+    "name": "Farmacia Nueva Barcala",
     "source": "Reconocimiento cartográfico de campo 2017 por KG."
   }
 },
@@ -109106,25 +109117,6 @@
 },
 {
   "type": "way",
-  "id": 832346837,
-  "nodes": [
-    7770924264,
-    7770924265,
-    7770924266,
-    7770924267,
-    7770924260,
-    7770924264
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia San Martín"
-  }
-},
-{
-  "type": "way",
   "id": 832440917,
   "nodes": [
     7771823800,
@@ -110251,6 +110243,27 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Avenida"
+  }
+},
+{
+  "type": "way",
+  "id": 882585421,
+  "nodes": [
+    8207886815,
+    8207886813,
+    8207886816,
+    8207886817,
+    8207886818,
+    8207886819,
+    8207886815
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "pharmacy",
+    "name": "Famacia Sindical",
+    "operator": "Centro Empleados de Comercio"
   }
 },
 {
@@ -119324,33 +119337,39 @@
 },
 {
   "type": "node",
-  "id": 7770924260,
-  "lat": -36.6208438,
-  "lon": -64.2849455
+  "id": 8207886813,
+  "lat": -36.6248376,
+  "lon": -64.2812243
 },
 {
   "type": "node",
-  "id": 7770924264,
-  "lat": -36.6206997,
-  "lon": -64.2849453
+  "id": 8207886815,
+  "lat": -36.6248381,
+  "lon": -64.2810868
 },
 {
   "type": "node",
-  "id": 7770924265,
-  "lat": -36.6206998,
-  "lon": -64.2848209
+  "id": 8207886816,
+  "lat": -36.6248374,
+  "lon": -64.2812838
 },
 {
   "type": "node",
-  "id": 7770924266,
-  "lat": -36.6208183,
-  "lon": -64.2848210
+  "id": 8207886817,
+  "lat": -36.6250994,
+  "lon": -64.2812863
 },
 {
   "type": "node",
-  "id": 7770924267,
-  "lat": -36.6208438,
-  "lon": -64.2848558
+  "id": 8207886818,
+  "lat": -36.6251005,
+  "lon": -64.2810890
+},
+{
+  "type": "node",
+  "id": 8207886819,
+  "lat": -36.6249140,
+  "lon": -64.2810866
 },
 {
   "type": "node",

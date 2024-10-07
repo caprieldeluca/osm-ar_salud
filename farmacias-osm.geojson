@@ -10192,7 +10192,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Nueva Barcala",
+    "name": "Farmacia Nueva Barcala",
     "source": "Reconocimiento cartográfico de campo 2017 por KG.",
     "id": "way/468488893"
   },
@@ -31241,49 +31241,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/832346837",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia San Martín",
-    "id": "way/832346837"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.2849453,
-          -36.6206997
-        ],
-        [
-          -64.2849455,
-          -36.6208438
-        ],
-        [
-          -64.2848558,
-          -36.6208438
-        ],
-        [
-          -64.284821,
-          -36.6208183
-        ],
-        [
-          -64.2848209,
-          -36.6206998
-        ],
-        [
-          -64.2849453,
-          -36.6206997
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/832440917",
   "properties": {
     "addr:city": "Santa Rosa",
@@ -33691,6 +33648,54 @@
         [
           -63.5933392,
           -35.2336598
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/882585421",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "pharmacy",
+    "name": "Famacia Sindical",
+    "operator": "Centro Empleados de Comercio",
+    "id": "way/882585421"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2810868,
+          -36.6248381
+        ],
+        [
+          -64.2812243,
+          -36.6248376
+        ],
+        [
+          -64.2812838,
+          -36.6248374
+        ],
+        [
+          -64.2812863,
+          -36.6250994
+        ],
+        [
+          -64.281089,
+          -36.6251005
+        ],
+        [
+          -64.2810866,
+          -36.624914
+        ],
+        [
+          -64.2810868,
+          -36.6248381
         ]
       ]
     ]
@@ -55043,9 +55048,18 @@
   "type": "Feature",
   "id": "node/2208155272",
   "properties": {
+    "addr:housenumber": "3834",
+    "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
+    "check_date": "2024-10-06",
     "healthcare": "pharmacy",
     "name": "FarmaPlus",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "website": "https://www.farmaplus.com.ar",
     "id": "node/2208155272"
   },
   "geometry": {
@@ -55062,15 +55076,17 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "4001",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Núñez",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
-    "check_date": "2023-12-13",
+    "check_date": "2024-10-06",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "Mo-Fr 07:30-23:00; Sa 08:00-24:00; Su 10:00-21:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -57255,8 +57271,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8485755,
-      -32.9427286
+      -68.848604,
+      -32.9427184
     ]
   }
 },
@@ -58697,8 +58713,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8471027,
-      -32.9374063
+      -68.8471699,
+      -32.9373707
     ]
   }
 },
