@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-10T23:13:06Z",
-    "timestamp_areas_base": "2024-10-08T10:29:11Z",
+    "timestamp_osm_base": "2024-10-11T23:12:59Z",
+    "timestamp_areas_base": "2024-10-09T00:21:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15881,8 +15881,8 @@
 {
   "type": "node",
   "id": 6439091291,
-  "lat": -34.5929559,
-  "lon": -59.1791707,
+  "lat": -34.5928775,
+  "lon": -59.1790889,
   "tags": {
     "addr:full": "Flandes Y San Martin S/n",
     "addr:postcode": "6706",
@@ -24017,6 +24017,67 @@
   }
 },
 {
+  "type": "node",
+  "id": 12244136247,
+  "lat": -31.5400048,
+  "lon": -68.5128191,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "name": "Emergencias Médicas"
+  }
+},
+{
+  "type": "node",
+  "id": 12244136769,
+  "lat": -31.5391274,
+  "lon": -68.5142277,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "name": "Consultorios Externos"
+  }
+},
+{
+  "type": "node",
+  "id": 12244158780,
+  "lat": -31.5384716,
+  "lon": -68.5133836,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "name": "Hospital de Niños Doctor Juan Carlos Navarro"
+  }
+},
+{
+  "type": "node",
+  "id": 12244158781,
+  "lat": -31.5394128,
+  "lon": -68.5132342,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "494 (S)",
+    "addr:postcode": "5400",
+    "addr:street": "Avenida Doctor Guillermo Rawson",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/HospitalRawsonSJ",
+    "contact:instagram": "https://www.instagram.com/hospitaldr.guillermorawson",
+    "description": "Alto riesgo con terapia intensiva especializada",
+    "email": "hospitalrawson@sanjuan.gov.ar",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Guillermo Rawson",
+    "operator:type": "public",
+    "phone": "+54 264 4222272",
+    "ref:sisa_codigo": "10700282177016",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)",
+    "website": "https://hospitalrawson.sanjuan.gob.ar",
+    "wikidata": "Q5842798",
+    "wikipedia": "es:Hospital Rawson"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -30919,60 +30980,6 @@
     "building": "yes",
     "healthcare": "hospital",
     "name": "Centro de Salud \"Helena Zabinski\""
-  }
-},
-{
-  "type": "way",
-  "id": 241958727,
-  "nodes": [
-    2495272382,
-    5615356213,
-    10793689464,
-    10793689466,
-    2495272378,
-    5615356212,
-    9125011519,
-    11577700444,
-    8268234867,
-    11577700447,
-    9848372447,
-    5615356211,
-    2495272422,
-    9125011520,
-    9125011521,
-    9848372466,
-    9848372465,
-    9125011522,
-    9125011523,
-    11577700438,
-    5615356210,
-    10793590822,
-    2495272423,
-    11577700434,
-    10793590809,
-    2495272382
-  ],
-  "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "494 (S)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Doctor Guillermo Rawson",
-    "amenity": "hospital",
-    "contact:facebook": "https://www.facebook.com/HospitalRawsonSJ",
-    "contact:instagram": "https://www.instagram.com/hospitaldr.guillermorawson",
-    "description": "Alto riesgo con terapia intensiva especializada",
-    "email": "hospitalrawson@sanjuan.gov.ar",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Dr. Guillermo Rawson",
-    "operator:type": "public",
-    "phone": "+54 264 4222272",
-    "ref:sisa_codigo": "10700282177016",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)",
-    "website": "https://hospitalrawson.sanjuan.gob.ar",
-    "wikidata": "Q5842798",
-    "wikipedia": "es:Hospital Rawson"
   }
 },
 {
@@ -42046,9 +42053,15 @@
     4945008169
   ],
   "tags": {
+    "addr:city": "Colón",
+    "addr:housenumber": "618",
+    "addr:postcode": "2720",
+    "addr:street": "Boulevard 17",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Centro Médico"
+    "name": "Centro Médico",
+    "official_name": "Clinica Centro Medico SA",
+    "phone": "+54 2473 430348"
   }
 },
 {
@@ -56523,6 +56536,60 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Nodal Rafaela"
+  }
+},
+{
+  "type": "way",
+  "id": 1323178839,
+  "nodes": [
+    12244150461,
+    12244155661,
+    12244155660,
+    12244136554,
+    12244136556,
+    12244156262,
+    12244156261,
+    12244145413,
+    12244155322,
+    12244155321,
+    12244155320,
+    12244136531,
+    12244136532,
+    12244136530,
+    12244136533,
+    12244136537,
+    12244148981,
+    12244148980,
+    12244136759,
+    12244136758,
+    12244136536,
+    12244155319,
+    12244155318,
+    12244155317,
+    12244155323,
+    12244136535,
+    12244136534,
+    12244155672,
+    12244135312,
+    12244136760,
+    12244136761,
+    12244148998,
+    12244148997,
+    12244136538,
+    12244135310,
+    12244136594,
+    12244136763,
+    12244136764,
+    12244136623,
+    12244136549,
+    12244136667,
+    12244136668,
+    12244136552,
+    12244150461
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hospital Doctor Guillermo Rawson"
   }
 },
 {
@@ -73525,105 +73592,147 @@
 },
 {
   "type": "node",
-  "id": 2495272422,
-  "lat": -31.5403415,
-  "lon": -68.5117973
+  "id": 12244135310,
+  "lat": -31.5403863,
+  "lon": -68.5124012
 },
 {
   "type": "node",
-  "id": 2495272423,
-  "lat": -31.5404957,
-  "lon": -68.5141636
+  "id": 12244135312,
+  "lat": -31.5401594,
+  "lon": -68.5117627
 },
 {
   "type": "node",
-  "id": 5615356210,
-  "lat": -31.5405326,
-  "lon": -68.5141320
+  "id": 12244136534,
+  "lat": -31.5395335,
+  "lon": -68.5117816
 },
 {
   "type": "node",
-  "id": 5615356211,
-  "lat": -31.5403036,
-  "lon": -68.5117489
+  "id": 12244136538,
+  "lat": -31.5403797,
+  "lon": -68.5123223
 },
 {
   "type": "node",
-  "id": 8268234867,
-  "lat": -31.5393064,
-  "lon": -68.5118001
+  "id": 12244136549,
+  "lat": -31.5404620,
+  "lon": -68.5132975
 },
 {
   "type": "node",
-  "id": 9125011520,
-  "lat": -31.5403873,
-  "lon": -68.5124048
+  "id": 12244136552,
+  "lat": -31.5405149,
+  "lon": -68.5139232
 },
 {
   "type": "node",
-  "id": 9125011521,
-  "lat": -31.5403976,
-  "lon": -68.5125447
+  "id": 12244136554,
+  "lat": -31.5402805,
+  "lon": -68.5141877
 },
 {
   "type": "node",
-  "id": 9125011522,
-  "lat": -31.5404464,
-  "lon": -68.5131554
+  "id": 12244136556,
+  "lat": -31.5398812,
+  "lon": -68.5142306
 },
 {
   "type": "node",
-  "id": 9125011523,
-  "lat": -31.5404658,
-  "lon": -68.5134472
+  "id": 12244136594,
+  "lat": -31.5404033,
+  "lon": -68.5126015
 },
 {
   "type": "node",
-  "id": 9848372447,
-  "lat": -31.5401736,
-  "lon": -68.5117560
+  "id": 12244136623,
+  "lat": -31.5404454,
+  "lon": -68.5131008
 },
 {
   "type": "node",
-  "id": 9848372465,
-  "lat": -31.5404241,
-  "lon": -68.5128649
+  "id": 12244136667,
+  "lat": -31.5404651,
+  "lon": -68.5133332
 },
 {
   "type": "node",
-  "id": 9848372466,
-  "lat": -31.5404080,
-  "lon": -68.5126932
+  "id": 12244136668,
+  "lat": -31.5404698,
+  "lon": -68.5133887
 },
 {
   "type": "node",
-  "id": 10793590809,
-  "lat": -31.5395311,
-  "lon": -68.5142777
+  "id": 12244136760,
+  "lat": -31.5403132,
+  "lon": -68.5117585
 },
 {
   "type": "node",
-  "id": 10793590822,
-  "lat": -31.5405353,
-  "lon": -68.5141603
+  "id": 12244136761,
+  "lat": -31.5403341,
+  "lon": -68.5117828
 },
 {
   "type": "node",
-  "id": 11577700434,
-  "lat": -31.5398693,
-  "lon": -68.5142377
+  "id": 12244136763,
+  "lat": -31.5404095,
+  "lon": -68.5126749
 },
 {
   "type": "node",
-  "id": 11577700438,
-  "lat": -31.5404989,
-  "lon": -68.5137792
+  "id": 12244136764,
+  "lat": -31.5404243,
+  "lon": -68.5128503
 },
 {
   "type": "node",
-  "id": 11577700447,
-  "lat": -31.5395467,
-  "lon": -68.5117857
+  "id": 12244148997,
+  "lat": -31.5403750,
+  "lon": -68.5122670
+},
+{
+  "type": "node",
+  "id": 12244148998,
+  "lat": -31.5403703,
+  "lon": -68.5122110
+},
+{
+  "type": "node",
+  "id": 12244150461,
+  "lat": -31.5405232,
+  "lon": -68.5140211
+},
+{
+  "type": "node",
+  "id": 12244155660,
+  "lat": -31.5405350,
+  "lon": -68.5141610
+},
+{
+  "type": "node",
+  "id": 12244155661,
+  "lat": -31.5405313,
+  "lon": -68.5141170
+},
+{
+  "type": "node",
+  "id": 12244155672,
+  "lat": -31.5396380,
+  "lon": -68.5117770
+},
+{
+  "type": "node",
+  "id": 12244156261,
+  "lat": -31.5393300,
+  "lon": -68.5142890
+},
+{
+  "type": "node",
+  "id": 12244156262,
+  "lat": -31.5398030,
+  "lon": -68.5142390
 },
 {
   "type": "node",
@@ -73807,54 +73916,6 @@
 },
 {
   "type": "node",
-  "id": 2495272378,
-  "lat": -31.5382813,
-  "lon": -68.5118993
-},
-{
-  "type": "node",
-  "id": 2495272382,
-  "lat": -31.5384789,
-  "lon": -68.5143887
-},
-{
-  "type": "node",
-  "id": 5615356212,
-  "lat": -31.5383160,
-  "lon": -68.5118517
-},
-{
-  "type": "node",
-  "id": 5615356213,
-  "lat": -31.5384338,
-  "lon": -68.5143351
-},
-{
-  "type": "node",
-  "id": 9125011519,
-  "lat": -31.5387533,
-  "lon": -68.5118300
-},
-{
-  "type": "node",
-  "id": 10793689464,
-  "lat": -31.5383528,
-  "lon": -68.5130324
-},
-{
-  "type": "node",
-  "id": 10793689466,
-  "lat": -31.5383368,
-  "lon": -68.5127787
-},
-{
-  "type": "node",
-  "id": 11577700444,
-  "lat": -31.5390712,
-  "lon": -68.5118110
-},
-{
-  "type": "node",
   "id": 12184288036,
   "lat": -31.5331145,
   "lon": -68.5129086
@@ -74026,6 +74087,120 @@
   "id": 12184326064,
   "lat": -31.5328180,
   "lon": -68.5128149
+},
+{
+  "type": "node",
+  "id": 12244136530,
+  "lat": -31.5383439,
+  "lon": -68.5128840
+},
+{
+  "type": "node",
+  "id": 12244136531,
+  "lat": -31.5383759,
+  "lon": -68.5133925
+},
+{
+  "type": "node",
+  "id": 12244136532,
+  "lat": -31.5383463,
+  "lon": -68.5129217
+},
+{
+  "type": "node",
+  "id": 12244136533,
+  "lat": -31.5383422,
+  "lon": -68.5128561
+},
+{
+  "type": "node",
+  "id": 12244136535,
+  "lat": -31.5390555,
+  "lon": -68.5118026
+},
+{
+  "type": "node",
+  "id": 12244136536,
+  "lat": -31.5387533,
+  "lon": -68.5118227
+},
+{
+  "type": "node",
+  "id": 12244136537,
+  "lat": -31.5383220,
+  "lon": -68.5125353
+},
+{
+  "type": "node",
+  "id": 12244136758,
+  "lat": -31.5383108,
+  "lon": -68.5118500
+},
+{
+  "type": "node",
+  "id": 12244136759,
+  "lat": -31.5382815,
+  "lon": -68.5118910
+},
+{
+  "type": "node",
+  "id": 12244145413,
+  "lat": -31.5387262,
+  "lon": -68.5143533
+},
+{
+  "type": "node",
+  "id": 12244148980,
+  "lat": -31.5382845,
+  "lon": -68.5119402
+},
+{
+  "type": "node",
+  "id": 12244148981,
+  "lat": -31.5383107,
+  "lon": -68.5123556
+},
+{
+  "type": "node",
+  "id": 12244155317,
+  "lat": -31.5389750,
+  "lon": -68.5118070
+},
+{
+  "type": "node",
+  "id": 12244155318,
+  "lat": -31.5388890,
+  "lon": -68.5118140
+},
+{
+  "type": "node",
+  "id": 12244155319,
+  "lat": -31.5388620,
+  "lon": -68.5118160
+},
+{
+  "type": "node",
+  "id": 12244155320,
+  "lat": -31.5384350,
+  "lon": -68.5143320
+},
+{
+  "type": "node",
+  "id": 12244155321,
+  "lat": -31.5384750,
+  "lon": -68.5143800
+},
+{
+  "type": "node",
+  "id": 12244155322,
+  "lat": -31.5385880,
+  "lon": -68.5143680
+},
+{
+  "type": "node",
+  "id": 12244155323,
+  "lat": -31.5390240,
+  "lon": -68.5118040
 },
 {
   "type": "node",
