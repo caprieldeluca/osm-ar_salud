@@ -54293,10 +54293,11 @@
     "addr:street": "Avenida José de San Martín",
     "alt_name": "Policlínico Eva Perón",
     "amenity": "hospital",
-    "contact:phone": "+54 341 471-0940 \"Int 263\";+54 341 471-4510",
+    "contact:phone": "+54 341 471-0940;+54 341 471-4510",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Escuela Eva Perón",
+    "old_name": "Hospital R. Carrillo",
     "operator": "Provincia de Santa Fe",
     "operator:type": "public",
     "ref:sisa_codigo": "50820842186024;10820842184083",
@@ -113011,8 +113012,8 @@
   "properties": {
     "addr:city": "San Juan",
     "addr:housenumber": "494 (S)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Doctor Guillermo Rawson",
+    "addr:postcode": "J5402EVR",
+    "addr:street": "Avenida Rawson",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/HospitalRawsonSJ",
     "contact:instagram": "https://www.instagram.com/hospitaldr.guillermorawson",
@@ -113036,6 +113037,61 @@
     "coordinates": [
       -68.5132342,
       -31.5394128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12246403981",
+  "properties": {
+    "addr:city": "Garín",
+    "addr:housenumber": "1032",
+    "addr:postcode": "1619",
+    "addr:street": "José Hernandez",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "biochemistry;blood_check",
+    "name": "Laboratorios Nogueiras",
+    "opening_hours": "Mo-Fr 07:00-11:00, sat 08:00-10:00",
+    "operator": "Dr. Gustavo Nogueiras",
+    "operator:type": "privado",
+    "website": "http://gustavonogueiras.com.ar",
+    "id": "node/12246403981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7264141,
+      -34.4179348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12246405367",
+  "properties": {
+    "addr:city": "Ingeniero Maschwitz",
+    "addr:housenumber": "1177",
+    "addr:postcode": "1623",
+    "addr:street": "Colectora Este",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "biochemistry;blood_check",
+    "name": "Laboratorios Nogueiras",
+    "opening_hours": "Mo-Fr 07:00-11:00, Sat 08:00-12:00",
+    "operator": "Dr. Gustavo Nogueiras",
+    "operator:type": "private",
+    "phone": "03484444793",
+    "website": "http://www.gustavonogueiras.com.ar",
+    "id": "node/12246405367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7426144,
+      -34.3911454
     ]
   }
 }
