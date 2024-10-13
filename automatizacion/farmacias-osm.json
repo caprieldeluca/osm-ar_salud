@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-12T23:15:02Z",
+    "timestamp_osm_base": "2024-10-13T23:16:46Z",
     "timestamp_areas_base": "2024-10-08T10:29:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -20389,6 +20389,7 @@
   "lon": -64.7731397,
   "tags": {
     "amenity": "pharmacy",
+    "building": "yes",
     "healthcare": "pharmacy"
   }
 },
@@ -94497,6 +94498,51 @@
   }
 },
 {
+  "type": "node",
+  "id": 12248653182,
+  "lat": -34.3014110,
+  "lon": -61.3072267,
+  "tags": {
+    "addr:city": "General Arenales",
+    "addr:housenumber": "69",
+    "addr:postcode": "6005",
+    "addr:street": "Guido Spano",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Sangiacomo"
+  }
+},
+{
+  "type": "node",
+  "id": 12248660239,
+  "lat": -34.3013598,
+  "lon": -61.3034314,
+  "tags": {
+    "addr:city": "General Arenales",
+    "addr:housenumber": "383",
+    "addr:postcode": "6005",
+    "addr:street": "Avenida Carlos María de Alvear",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Martinez"
+  }
+},
+{
+  "type": "node",
+  "id": 12248665021,
+  "lat": -34.3048027,
+  "lon": -61.3082819,
+  "tags": {
+    "addr:city": "General Arenales",
+    "addr:housenumber": "165",
+    "addr:postcode": "6005",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia MiFarm"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -99386,9 +99432,11 @@
     4630850733
   ],
   "tags": {
+    "addr:housenumber": "2470",
     "addr:street": "Avenida Ángel Torcuato de Alvear",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2024-10-13",
     "healthcare": "pharmacy",
     "name": "Farmacia Moroni",
     "source": "Reconocimiento terrestre por Kaart 2016"
