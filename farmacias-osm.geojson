@@ -64941,7 +64941,7 @@
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Similia",
+    "name": "Farmacia Similia",
     "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-13:00; Su off",
     "id": "node/2704745790"
   },
@@ -65868,6 +65868,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Grassi Sucursal 6",
+    "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:30-20:30",
     "id": "node/2799418801"
   },
   "geometry": {
@@ -78532,7 +78533,7 @@
     "contact:phone": "+54 11 4776-1140",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Santo Remedio",
+    "name": "Farmacia Santo Remedio",
     "id": "node/3575616115"
   },
   "geometry": {
@@ -87770,6 +87771,27 @@
     "coordinates": [
       -60.6843942,
       -32.9436936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4172003171",
+  "properties": {
+    "addr:housenumber": "7782",
+    "addr:street": "Avenida Eva Perón",
+    "amenity": "pharmacy",
+    "contact:phone": "+54 341 595-1741",
+    "contact:website": "https://redfarmashop.com/",
+    "healthcare": "pharmacy",
+    "name": "Farmashop",
+    "id": "node/4172003171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7293226,
+      -32.9298522
     ]
   }
 },
@@ -173785,9 +173807,14 @@
     "addr:street": "95 - San Lorenzo",
     "addr:unit": "1014",
     "amenity": "pharmacy",
+    "check_date": "2024-10-19",
     "healthcare": "pharmacy",
     "level": "0",
     "name": "Portofino",
+    "opening_hours": "09:30-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/11777310881"
   },
   "geometry": {
@@ -177227,6 +177254,22 @@
     "coordinates": [
       -64.2374582,
       -27.8135181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12269551387",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/12269551387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.735181,
+      -32.8802242
     ]
   }
 }

@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-18T23:15:02Z",
+    "timestamp_osm_base": "2024-10-19T23:15:00Z",
     "timestamp_areas_base": "2024-10-09T00:21:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -6663,17 +6663,6 @@
 },
 {
   "type": "node",
-  "id": 4172003171,
-  "lat": -32.9298038,
-  "lon": -60.7293132,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Medifé"
-  }
-},
-{
-  "type": "node",
   "id": 4173818132,
   "lat": -35.2743643,
   "lon": -59.7714638,
@@ -10184,26 +10173,6 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842185989",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 4692942958,
-  "lat": -32.8848860,
-  "lon": -60.7263965,
-  "tags": {
-    "addr:housenumber": "3040",
-    "addr:street": "Domingo Candia",
-    "amenity": "clinic",
-    "contact:phone": "+54 341 422-6162",
-    "healthcare": "clinic",
-    "name": "Centro de Salud Alicia Moreau de Justo",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842284990",
-    "ref:sisa_tipologia": "ESSIDT",
-    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
-    "wikidata": "Q92662807"
   }
 },
 {
@@ -42840,6 +42809,18 @@
 },
 {
   "type": "node",
+  "id": 9847396163,
+  "lat": -28.6588436,
+  "lon": -65.7844677,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CAPS Las Tejas",
+    "operator": "Gobierno de Catamarca"
+  }
+},
+{
+  "type": "node",
   "id": 9854544181,
   "lat": -32.0634456,
   "lon": -64.5568398,
@@ -69874,6 +69855,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1326107705,
+  "nodes": [
+    12269554183,
+    12269554173,
+    12269554180,
+    12269554181,
+    12269554182,
+    12269554183
+  ],
+  "tags": {
+    "addr:housenumber": "3040",
+    "addr:street": "Domingo Candia",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 422-6162",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Alicia Moreau de Justo",
+    "operator": "Municipio de Rosario",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842284990",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
+    "wikidata": "Q92662807"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -89381,6 +89388,36 @@
   "id": 8589620789,
   "lat": -33.0725065,
   "lon": -60.5758437
+},
+{
+  "type": "node",
+  "id": 12269554173,
+  "lat": -32.8849947,
+  "lon": -60.7265539
+},
+{
+  "type": "node",
+  "id": 12269554180,
+  "lat": -32.8850094,
+  "lon": -60.7265525
+},
+{
+  "type": "node",
+  "id": 12269554181,
+  "lat": -32.8850046,
+  "lon": -60.7262495
+},
+{
+  "type": "node",
+  "id": 12269554182,
+  "lat": -32.8846077,
+  "lon": -60.7262706
+},
+{
+  "type": "node",
+  "id": 12269554183,
+  "lat": -32.8846126,
+  "lon": -60.7265632
 },
 {
   "type": "node",

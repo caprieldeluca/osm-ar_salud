@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-18T23:15:02Z",
+    "timestamp_osm_base": "2024-10-19T23:16:01Z",
     "timestamp_areas_base": "2024-10-08T10:29:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -15996,7 +15996,7 @@
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Similia",
+    "name": "Farmacia Similia",
     "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-13:00; Su off"
   }
 },
@@ -16646,7 +16646,8 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Grassi Sucursal 6"
+    "name": "Grassi Sucursal 6",
+    "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:30-20:30"
   }
 },
 {
@@ -25315,7 +25316,7 @@
     "contact:phone": "+54 11 4776-1140",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Santo Remedio"
+    "name": "Farmacia Santo Remedio"
   }
 },
 {
@@ -31684,6 +31685,21 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Fernández Cassinni"
+  }
+},
+{
+  "type": "node",
+  "id": 4172003171,
+  "lat": -32.9298522,
+  "lon": -60.7293226,
+  "tags": {
+    "addr:housenumber": "7782",
+    "addr:street": "Avenida Eva Perón",
+    "amenity": "pharmacy",
+    "contact:phone": "+54 341 595-1741",
+    "contact:website": "https://redfarmashop.com/",
+    "healthcare": "pharmacy",
+    "name": "Farmashop"
   }
 },
 {
@@ -92230,9 +92246,14 @@
     "addr:street": "95 - San Lorenzo",
     "addr:unit": "1014",
     "amenity": "pharmacy",
+    "check_date": "2024-10-19",
     "healthcare": "pharmacy",
     "level": "0",
-    "name": "Portofino"
+    "name": "Portofino",
+    "opening_hours": "09:30-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -94573,6 +94594,16 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "La Esquina"
+  }
+},
+{
+  "type": "node",
+  "id": 12269551387,
+  "lat": -32.8802242,
+  "lon": -60.7351810,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
