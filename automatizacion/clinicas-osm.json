@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-10-19T23:15:00Z",
-    "timestamp_areas_base": "2024-10-09T00:21:11Z",
+    "timestamp_osm_base": "2024-10-20T23:15:20Z",
+    "timestamp_areas_base": "2024-10-08T10:29:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -39947,20 +39947,6 @@
 },
 {
   "type": "node",
-  "id": 8043245563,
-  "lat": -34.5361739,
-  "lon": -58.4676504,
-  "tags": {
-    "addr:housenumber": "1661",
-    "addr:street": "Vedia",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Instituto Médico Quirúrgico",
-    "short_name": "imq"
-  }
-},
-{
-  "type": "node",
   "id": 8060114633,
   "lat": -32.9522867,
   "lon": -60.6561881,
@@ -46604,6 +46590,7 @@
   "lon": -64.3321968,
   "tags": {
     "addr:housenumber": "1166",
+    "addr:street": "Avenida Marcelo T. de Alvear",
     "amenity": "clinic",
     "building": "yes",
     "name": "Clínica Del Sud",
@@ -46855,6 +46842,37 @@
     "healthcare": "clinic",
     "healthcare:speciality": "radiotherapy",
     "name": "Centro de Radioncología"
+  }
+},
+{
+  "type": "node",
+  "id": 12270101295,
+  "lat": -38.9396466,
+  "lon": -68.0005069,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "87",
+    "addr:postcode": "R8324",
+    "addr:street": "25 de Mayo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Integral Médico"
+  }
+},
+{
+  "type": "node",
+  "id": 12270102022,
+  "lat": -38.9402677,
+  "lon": -67.9997189,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "28",
+    "addr:postcode": "R8324",
+    "addr:street": "Manuel Belgrano",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neurology",
+    "name": "Centro de Neurología Infantil del Valle"
   }
 },
 {
@@ -61477,58 +61495,6 @@
 },
 {
   "type": "way",
-  "id": 820738008,
-  "nodes": [
-    7662356962,
-    7662356963,
-    7662356964,
-    7662356961,
-    9198309430,
-    7662356962
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "28",
-    "addr:postcode": "R8324",
-    "addr:street": "Manuel Belgrano",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "2",
-    "healthcare": "clinic",
-    "healthcare:speciality": "neurology",
-    "height": "6",
-    "name": "Centro de Neurología Infantil del Valle"
-  }
-},
-{
-  "type": "way",
-  "id": 820789295,
-  "nodes": [
-    9198286288,
-    7662499655,
-    9198286262,
-    9198286286,
-    9198286263,
-    9198286287,
-    9198286264,
-    9198286285,
-    9198286288
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "87",
-    "addr:postcode": "R8324",
-    "addr:street": "25 de Mayo",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "2",
-    "healthcare": "clinic",
-    "height": "7",
-    "name": "Centro Integral Médico"
-  }
-},
-{
-  "type": "way",
   "id": 820840564,
   "nodes": [
     7662899440,
@@ -69881,6 +69847,40 @@
   }
 },
 {
+  "type": "way",
+  "id": 1326178303,
+  "nodes": [
+    12270301017,
+    12270301019,
+    12270301009,
+    12270301010,
+    12270301026,
+    12270301022,
+    12270301023,
+    12270301021,
+    12270301025,
+    8043245563,
+    12270301024,
+    12270301018,
+    12270301014,
+    12270301015,
+    12270301020,
+    12270301016,
+    12270301017
+  ],
+  "tags": {
+    "addr:housenumber": "1661",
+    "addr:street": "Vedia",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "9",
+    "building:material": "brick",
+    "healthcare": "clinic",
+    "name": "Instituto Médico Quirúrgico",
+    "short_name": "IMQ"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -76335,54 +76335,6 @@
 },
 {
   "type": "node",
-  "id": 7662499655,
-  "lat": -38.9396904,
-  "lon": -68.0006007
-},
-{
-  "type": "node",
-  "id": 9198286262,
-  "lat": -38.9397056,
-  "lon": -68.0005246
-},
-{
-  "type": "node",
-  "id": 9198286263,
-  "lat": -38.9396881,
-  "lon": -68.0004985
-},
-{
-  "type": "node",
-  "id": 9198286264,
-  "lat": -38.9396117,
-  "lon": -68.0004076
-},
-{
-  "type": "node",
-  "id": 9198286285,
-  "lat": -38.9395932,
-  "lon": -68.0004997
-},
-{
-  "type": "node",
-  "id": 9198286286,
-  "lat": -38.9397094,
-  "lon": -68.0005056
-},
-{
-  "type": "node",
-  "id": 9198286287,
-  "lat": -38.9397005,
-  "lon": -68.0004370
-},
-{
-  "type": "node",
-  "id": 9198286288,
-  "lat": -38.9395803,
-  "lon": -68.0005643
-},
-{
-  "type": "node",
   "id": 11229948153,
   "lat": -38.9396493,
   "lon": -68.0023331
@@ -76416,36 +76368,6 @@
   "id": 12013092156,
   "lat": -38.9395918,
   "lon": -68.0024336
-},
-{
-  "type": "node",
-  "id": 7662356961,
-  "lat": -38.9403339,
-  "lon": -67.9996730
-},
-{
-  "type": "node",
-  "id": 7662356962,
-  "lat": -38.9403087,
-  "lon": -67.9998000
-},
-{
-  "type": "node",
-  "id": 7662356963,
-  "lat": -38.9402014,
-  "lon": -67.9997647
-},
-{
-  "type": "node",
-  "id": 7662356964,
-  "lat": -38.9402269,
-  "lon": -67.9996379
-},
-{
-  "type": "node",
-  "id": 9198309430,
-  "lat": -38.9403219,
-  "lon": -67.9997335
 },
 {
   "type": "node",
@@ -102228,6 +102150,102 @@
   "id": 4668723462,
   "lat": -34.5359160,
   "lon": -58.4794787
+},
+{
+  "type": "node",
+  "id": 8043245563,
+  "lat": -34.5361221,
+  "lon": -58.4676149
+},
+{
+  "type": "node",
+  "id": 12270301009,
+  "lat": -34.5361521,
+  "lon": -58.4677124
+},
+{
+  "type": "node",
+  "id": 12270301010,
+  "lat": -34.5361217,
+  "lon": -58.4677358
+},
+{
+  "type": "node",
+  "id": 12270301014,
+  "lat": -34.5361670,
+  "lon": -58.4676452
+},
+{
+  "type": "node",
+  "id": 12270301015,
+  "lat": -34.5361770,
+  "lon": -58.4676485
+},
+{
+  "type": "node",
+  "id": 12270301016,
+  "lat": -34.5361877,
+  "lon": -58.4676689
+},
+{
+  "type": "node",
+  "id": 12270301017,
+  "lat": -34.5361860,
+  "lon": -58.4676812
+},
+{
+  "type": "node",
+  "id": 12270301018,
+  "lat": -34.5361570,
+  "lon": -58.4676480
+},
+{
+  "type": "node",
+  "id": 12270301019,
+  "lat": -34.5361797,
+  "lon": -58.4676910
+},
+{
+  "type": "node",
+  "id": 12270301020,
+  "lat": -34.5361845,
+  "lon": -58.4676571
+},
+{
+  "type": "node",
+  "id": 12270301021,
+  "lat": -34.5360240,
+  "lon": -58.4677204
+},
+{
+  "type": "node",
+  "id": 12270301022,
+  "lat": -34.5360469,
+  "lon": -58.4677640
+},
+{
+  "type": "node",
+  "id": 12270301023,
+  "lat": -34.5360338,
+  "lon": -58.4677433
+},
+{
+  "type": "node",
+  "id": 12270301024,
+  "lat": -34.5361445,
+  "lon": -58.4676576
+},
+{
+  "type": "node",
+  "id": 12270301025,
+  "lat": -34.5360175,
+  "lon": -58.4676958
+},
+{
+  "type": "node",
+  "id": 12270301026,
+  "lat": -34.5360625,
+  "lon": -58.4677815
 },
 {
   "type": "node",
