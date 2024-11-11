@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-11-10T23:15:44Z",
+    "timestamp_osm_base": "2024-11-11T23:15:25Z",
     "timestamp_areas_base": "2024-11-06T10:48:48Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -103,8 +103,10 @@
   "lat": -34.6330922,
   "lon": -58.5219023,
   "tags": {
+    "addr:street": "París",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia"
   }
 },
 {
@@ -89691,9 +89693,10 @@
   "lat": -34.5808910,
   "lon": -58.4292793,
   "tags": {
+    "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Charité"
+    "name": "Farmacia Charité"
   }
 },
 {
@@ -94732,6 +94735,24 @@
   "id": 12327815223,
   "lat": -32.0191882,
   "lon": -62.9191384,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12329818081,
+  "lat": -31.3845208,
+  "lon": -62.8264774,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12329818082,
+  "lat": -31.3845311,
+  "lon": -62.8304055,
   "tags": {
     "amenity": "pharmacy"
   }
@@ -101962,14 +101983,20 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "2055",
     "addr:street": "Avenida General Las Heras",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2024-11-11",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "http://www.farmacity.com.ar/"
   }
 },
 {
@@ -138286,14 +138313,14 @@
 {
   "type": "node",
   "id": 4656685103,
-  "lat": -34.5816081,
-  "lon": -58.4483291
+  "lat": -34.5816004,
+  "lon": -58.4483358
 },
 {
   "type": "node",
   "id": 4656685104,
-  "lat": -34.5816263,
-  "lon": -58.4483819
+  "lat": -34.5816197,
+  "lon": -58.4483859
 },
 {
   "type": "node",

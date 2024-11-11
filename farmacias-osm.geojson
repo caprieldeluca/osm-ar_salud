@@ -13618,12 +13618,12 @@
           -34.5816372
         ],
         [
-          -58.4483291,
-          -34.5816081
+          -58.4483358,
+          -34.5816004
         ],
         [
-          -58.4483819,
-          -34.5816263
+          -58.4483859,
+          -34.5816197
         ],
         [
           -58.4484126,
@@ -15340,14 +15340,20 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "2055",
     "addr:street": "Avenida General Las Heras",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2024-11-11",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "http://www.farmacity.com.ar/",
     "id": "way/473405564"
   },
   "geometry": {
@@ -41978,8 +41984,10 @@
   "type": "Feature",
   "id": "node/440909040",
   "properties": {
+    "addr:street": "París",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
+    "name": "Farmacia",
     "id": "node/440909040"
   },
   "geometry": {
@@ -170092,9 +170100,10 @@
   "type": "Feature",
   "id": "node/11189654503",
   "properties": {
+    "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Charité",
+    "name": "Farmacia Charité",
     "id": "node/11189654503"
   },
   "geometry": {
@@ -177470,6 +177479,36 @@
     "coordinates": [
       -62.9191384,
       -32.0191882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12329818081",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/12329818081"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.8264774,
+      -31.3845208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12329818082",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/12329818082"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.8304055,
+      -31.3845311
     ]
   }
 }

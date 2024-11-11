@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-11-10T23:13:43Z",
+    "timestamp_osm_base": "2024-11-11T23:13:26Z",
     "timestamp_areas_base": "2024-10-28T01:00:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -12191,31 +12191,6 @@
 },
 {
   "type": "node",
-  "id": 4486170535,
-  "lat": -45.5864669,
-  "lon": -69.0709348,
-  "tags": {
-    "addr:city": "Sarmiento",
-    "addr:full": "Roca 665",
-    "addr:housenumber": "788",
-    "addr:place": "Sarmiento",
-    "addr:postcode": "9020",
-    "addr:street": "España",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Rural Sarmiento",
-    "operator": "Público provincial",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10260912129034",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)",
-    "wikidata": "Q94569644"
-  }
-},
-{
-  "type": "node",
   "id": 4486278737,
   "lat": -26.1626901,
   "lon": -58.1639985,
@@ -24147,6 +24122,39 @@
   "tags": {
     "amenity": "hospital",
     "name": "Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 12331067111,
+  "lat": -27.4771314,
+  "lon": -58.8178070,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Campaña \"Escuela Hogar\""
+  }
+},
+{
+  "type": "node",
+  "id": 12331067114,
+  "lat": -27.4756751,
+  "lon": -58.8184078,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Pediatrico \"Juan Pablo II\""
+  }
+},
+{
+  "type": "node",
+  "id": 12331067116,
+  "lat": -27.4758274,
+  "lon": -58.8152750,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Oncologico"
   }
 },
 {
@@ -56676,6 +56684,36 @@
   }
 },
 {
+  "type": "way",
+  "id": 1332876330,
+  "nodes": [
+    4486170535,
+    12330995118,
+    12330995119,
+    12330995120,
+    4486170535
+  ],
+  "tags": {
+    "addr:city": "Sarmiento",
+    "addr:full": "Roca 665",
+    "addr:housenumber": "788",
+    "addr:place": "Sarmiento",
+    "addr:postcode": "9020",
+    "addr:street": "España",
+    "amenity": "hospital",
+    "description": "Bajo riesgo con internación simple",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Rural Sarmiento",
+    "operator": "Público provincial",
+    "operator:type": "public",
+    "ref:sisa_codigo": "10260912129034",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)",
+    "wikidata": "Q94569644"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -59322,6 +59360,30 @@
   "id": 4089076580,
   "lat": -45.7962859,
   "lon": -67.4285065
+},
+{
+  "type": "node",
+  "id": 4486170535,
+  "lat": -45.5867870,
+  "lon": -69.0702649
+},
+{
+  "type": "node",
+  "id": 12330995118,
+  "lat": -45.5863329,
+  "lon": -69.0702719
+},
+{
+  "type": "node",
+  "id": 12330995119,
+  "lat": -45.5863357,
+  "lon": -69.0711085
+},
+{
+  "type": "node",
+  "id": 12330995120,
+  "lat": -45.5867935,
+  "lon": -69.0711045
 },
 {
   "type": "node",
