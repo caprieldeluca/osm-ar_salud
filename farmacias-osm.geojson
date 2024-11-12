@@ -10139,6 +10139,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "building:levels": "1",
+    "check_date": "2024-11-12",
     "healthcare": "pharmacy",
     "name": "Lagonegro",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -96085,9 +96086,12 @@
   "type": "Feature",
   "id": "node/4592817170",
   "properties": {
+    "addr:housenumber": "1345",
     "addr:street": "Avenida Sir Alexander Fleming",
     "amenity": "pharmacy",
+    "check_date": "2024-11-12",
     "name": "Farmacia Baz",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-13:00; Su off",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "wheelchair": "no",
     "id": "node/4592817170"
@@ -96759,8 +96763,10 @@
   "type": "Feature",
   "id": "node/4605119661",
   "properties": {
-    "addr:street": "La Paz",
+    "addr:housenumber": "1799",
+    "addr:street": "Edison",
     "amenity": "pharmacy",
+    "check_date": "2024-11-12",
     "name": "Farmacia La Paz",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/4605119661"
@@ -119047,8 +119053,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.6752954,
-      -30.9161856
+      -62.6753464,
+      -30.9161672
     ]
   }
 },
@@ -177509,6 +177515,37 @@
     "coordinates": [
       -62.8304055,
       -31.3845311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12335613624",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Salvetti",
+    "id": "node/12335613624"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.6767042,
+      -30.9141305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12335630506",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/12335630506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2533993,
+      -30.8937262
     ]
   }
 }
