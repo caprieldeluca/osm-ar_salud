@@ -80219,6 +80219,53 @@
 },
 {
   "type": "Feature",
+  "id": "way/1333619723",
+  "properties": {
+    "addr:city": "José de San Martín",
+    "addr:full": "Belgrano",
+    "addr:place": "Tehuelches",
+    "addr:postcode": "9220",
+    "amenity": "hospital",
+    "description": "Bajo riesgo con internación simple",
+    "healthcare": "hospital",
+    "name": "Hospital Rural José de San Martín",
+    "operator:type": "public",
+    "phone": "+542945496080",
+    "ref:sisa_codigo": "10260982129026",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)",
+    "id": "way/1333619723"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.4694921,
+          -44.0530305
+        ],
+        [
+          -70.4702815,
+          -44.0525493
+        ],
+        [
+          -70.4710653,
+          -44.0532135
+        ],
+        [
+          -70.470276,
+          -44.0536947
+        ],
+        [
+          -70.4694921,
+          -44.0530305
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -93267,33 +93314,6 @@
     "coordinates": [
       -68.881532,
       -32.9861351
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4106844158",
-  "properties": {
-    "addr:city": "Jose De San Martin",
-    "addr:full": "Belgrano",
-    "addr:place": "Tehuelches",
-    "addr:postcode": "9220",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "healthcare": "hospital",
-    "name": "Hospital Rural Jose De San Martin",
-    "operator:type": "public",
-    "phone": "+542945496080",
-    "ref:sisa_codigo": "10260982129026",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)",
-    "id": "node/4106844158"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -70.4698222,
-      -44.0528714
     ]
   }
 },
@@ -111647,16 +111667,21 @@
   "type": "Feature",
   "id": "node/10749384231",
   "properties": {
+    "addr:city": "Salta",
+    "addr:housenumber": "557",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida Domingo Faustino Sarmiento",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "hospital",
+    "name": "Hospital Señor del Milagro",
     "id": "node/10749384231"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.4161267,
-      -24.7819366
+      -65.4161065,
+      -24.7826812
     ]
   }
 },

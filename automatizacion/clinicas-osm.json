@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-11-13T23:14:44Z",
-    "timestamp_areas_base": "2024-11-13T17:35:02Z",
+    "timestamp_osm_base": "2024-11-14T23:15:46Z",
+    "timestamp_areas_base": "2024-11-14T18:51:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45389,16 +45389,6 @@
 },
 {
   "type": "node",
-  "id": 11322981427,
-  "lat": -44.0495751,
-  "lon": -70.5877563,
-  "tags": {
-    "amenity": "clinic",
-    "name": "Primeros Auxilios"
-  }
-},
-{
-  "type": "node",
   "id": 11330133648,
   "lat": -23.9462566,
   "lon": -66.4884304,
@@ -46948,6 +46938,28 @@
   "tags": {
     "amenity": "clinic",
     "name": "Posta Sanitaria"
+  }
+},
+{
+  "type": "node",
+  "id": 12339553393,
+  "lat": -27.0963937,
+  "lon": -66.8238920,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Mini Hospital Villa Vil"
+  }
+},
+{
+  "type": "node",
+  "id": 12339906227,
+  "lat": -36.9481627,
+  "lon": -60.1125089,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud"
   }
 },
 {
@@ -70057,6 +70069,23 @@
   }
 },
 {
+  "type": "way",
+  "id": 1333619749,
+  "nodes": [
+    11322981427,
+    12338379538,
+    12338379539,
+    12338379540,
+    11322981427
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Primeros Auxilios"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -70526,6 +70555,30 @@
   "id": 6981799187,
   "lat": -49.3334888,
   "lon": -72.8858647
+},
+{
+  "type": "node",
+  "id": 11322981427,
+  "lat": -44.0496042,
+  "lon": -70.5876406
+},
+{
+  "type": "node",
+  "id": 12338379538,
+  "lat": -44.0494276,
+  "lon": -70.5875508
+},
+{
+  "type": "node",
+  "id": 12338379539,
+  "lat": -44.0493720,
+  "lon": -70.5877625
+},
+{
+  "type": "node",
+  "id": 12338379540,
+  "lat": -44.0495486,
+  "lon": -70.5878523
 },
 {
   "type": "node",

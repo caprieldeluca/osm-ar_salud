@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-11-13T23:13:36Z",
-    "timestamp_areas_base": "2024-11-13T17:35:02Z",
+    "timestamp_osm_base": "2024-11-14T23:14:47Z",
+    "timestamp_areas_base": "2024-11-14T18:04:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9273,27 +9273,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sala de primeros auxilios"
-  }
-},
-{
-  "type": "node",
-  "id": 4106844158,
-  "lat": -44.0528714,
-  "lon": -70.4698222,
-  "tags": {
-    "addr:city": "Jose De San Martin",
-    "addr:full": "Belgrano",
-    "addr:place": "Tehuelches",
-    "addr:postcode": "9220",
-    "amenity": "hospital",
-    "description": "Bajo riesgo con internación simple",
-    "healthcare": "hospital",
-    "name": "Hospital Rural Jose De San Martin",
-    "operator:type": "public",
-    "phone": "+542945496080",
-    "ref:sisa_codigo": "10260982129026",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
 {
@@ -22725,12 +22704,17 @@
 {
   "type": "node",
   "id": 10749384231,
-  "lat": -24.7819366,
-  "lon": -65.4161267,
+  "lat": -24.7826812,
+  "lon": -65.4161065,
   "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "557",
+    "addr:postcode": "4400",
+    "addr:street": "Avenida Domingo Faustino Sarmiento",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "hospital"
+    "name": "Hospital Señor del Milagro"
   }
 },
 {
@@ -56693,6 +56677,32 @@
   }
 },
 {
+  "type": "way",
+  "id": 1333619723,
+  "nodes": [
+    4106844158,
+    12338379431,
+    12338379432,
+    12338379433,
+    4106844158
+  ],
+  "tags": {
+    "addr:city": "José de San Martín",
+    "addr:full": "Belgrano",
+    "addr:place": "Tehuelches",
+    "addr:postcode": "9220",
+    "amenity": "hospital",
+    "description": "Bajo riesgo con internación simple",
+    "healthcare": "hospital",
+    "name": "Hospital Rural José de San Martín",
+    "operator:type": "public",
+    "phone": "+542945496080",
+    "ref:sisa_codigo": "10260982129026",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -58559,6 +58569,30 @@
   "id": 3106089830,
   "lat": -48.7554091,
   "lon": -70.2448401
+},
+{
+  "type": "node",
+  "id": 12338379432,
+  "lat": -44.0532135,
+  "lon": -70.4710653
+},
+{
+  "type": "node",
+  "id": 4106844158,
+  "lat": -44.0530305,
+  "lon": -70.4694921
+},
+{
+  "type": "node",
+  "id": 12338379431,
+  "lat": -44.0536947,
+  "lon": -70.4702760
+},
+{
+  "type": "node",
+  "id": 12338379433,
+  "lat": -44.0525493,
+  "lon": -70.4702815
 },
 {
   "type": "node",
