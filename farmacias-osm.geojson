@@ -10876,6 +10876,7 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "building:levels": "2",
     "check_date": "2023-10-24",
     "healthcare": "pharmacy",
     "name": "Farmacity",
@@ -10888,36 +10889,36 @@
     "coordinates": [
       [
         [
-          -58.5063906,
-          -34.5713812
+          -58.5063861,
+          -34.5713803
         ],
         [
-          -58.5063069,
-          -34.5714277
+          -58.5062959,
+          -34.5714309
         ],
         [
-          -58.5062713,
-          -34.5714076
+          -58.5062511,
+          -34.5714559
         ],
         [
-          -58.5063059,
-          -34.5713707
+          -58.5061457,
+          -34.57133
         ],
         [
-          -58.5062739,
-          -34.5713517
+          -58.5061641,
+          -34.5713061
         ],
         [
-          -58.5063047,
-          -34.5713094
+          -58.5062024,
+          -34.5712554
         ],
         [
-          -58.506388,
-          -34.5713474
+          -58.5063862,
+          -34.5713409
         ],
         [
-          -58.5063906,
-          -34.5713812
+          -58.5063861,
+          -34.5713803
         ]
       ]
     ]
@@ -13941,50 +13942,6 @@
         [
           -58.4628961,
           -34.6064543
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/471579659",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "7277",
-    "addr:street": "Avenida San Martin",
-    "addr:suburb": "Villa Devoto",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Lafe",
-    "ref:cuit": "30661360484",
-    "id": "way/471579659"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.5162217,
-          -34.5899716
-        ],
-        [
-          -58.5161128,
-          -34.5899984
-        ],
-        [
-          -58.5160829,
-          -34.5899157
-        ],
-        [
-          -58.5161901,
-          -34.5898881
-        ],
-        [
-          -58.5162217,
-          -34.5899716
         ]
       ]
     ]
@@ -55179,8 +55136,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5089191,
-      -34.5699458
+      -58.508897,
+      -34.5699155
     ]
   }
 },
@@ -98664,8 +98621,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.506653,
-      -34.571198
+      -58.5066565,
+      -34.5711872
     ]
   }
 },
@@ -176673,25 +176630,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12145110252",
-  "properties": {
-    "addr:street": "Avenida Fuerza Aérea",
-    "amenity": "pharmacy",
-    "check_date": "2024-08-29",
-    "healthcare": "pharmacy",
-    "wheelchair": "limited",
-    "id": "node/12145110252"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -60.8198726,
-      -32.9292578
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12145270349",
   "properties": {
     "amenity": "pharmacy",
@@ -177624,6 +177562,44 @@
     "coordinates": [
       -66.3160072,
       -27.582771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12342751402",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "7277",
+    "addr:street": "Avenida San Martin",
+    "addr:suburb": "Villa Devoto",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Lafe",
+    "ref:cuit": "30661360484",
+    "id": "node/12342751402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5161484,
+      -34.5899471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12342752202",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/12342752202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.1352544,
+      -27.7131567
     ]
   }
 }
