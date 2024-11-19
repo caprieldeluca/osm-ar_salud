@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-11-18T23:14:44Z",
-    "timestamp_areas_base": "2024-11-18T21:18:02Z",
+    "timestamp_osm_base": "2024-11-19T23:13:59Z",
+    "timestamp_areas_base": "2024-11-19T19:30:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5191,26 +5191,6 @@
 },
 {
   "type": "node",
-  "id": 2955773944,
-  "lat": -42.0528597,
-  "lon": -71.1579537,
-  "tags": {
-    "addr:city": "El Maiten",
-    "addr:full": "Patagonia 615",
-    "addr:place": "Cushamen",
-    "addr:postcode": "3240",
-    "amenity": "hospital",
-    "description": "Mediano riesgo con internación con cuidados especiales",
-    "healthcare": "hospital",
-    "name": "Hospital Subzonal El Maiten",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10260142129039",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
   "id": 2956797616,
   "lat": -33.0506776,
   "lon": -68.5652178,
@@ -7071,21 +7051,6 @@
   "tags": {
     "amenity": "hospital",
     "name": "Centro sanitario"
-  }
-},
-{
-  "type": "node",
-  "id": 3729134171,
-  "lat": -42.0454953,
-  "lon": -71.1743412,
-  "tags": {
-    "addr:city": "El Maitén",
-    "addr:street": "José Hernandez",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Subzonal El Maitén",
-    "phone": "02945 49 5255"
   }
 },
 {
@@ -24174,8 +24139,8 @@
 {
   "type": "node",
   "id": 12349600857,
-  "lat": -34.3782218,
-  "lon": -64.4970611,
+  "lat": -34.3781713,
+  "lon": -64.4970589,
   "tags": {
     "addr:city": "Del Campillo",
     "addr:postcode": "6271",
@@ -24186,6 +24151,24 @@
     "phone": "+54 3583 499171",
     "ref:sisa_codigo": "10140352231206",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 12352486521,
+  "lat": -34.4834917,
+  "lon": -64.1694438,
+  "tags": {
+    "addr:city": "Mattaldi",
+    "addr:housenumber": "614",
+    "addr:postcode": "6271",
+    "addr:street": "Manuel Belgrano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro De Salud Dr. Obdulio S. Vargas De Mattaldi",
+    "phone": "+54 3583 481597",
+    "ref:sisa_codigo": "50140352231440",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -55745,7 +55728,7 @@
   "id": 1271341911,
   "nodes": [
     11806216126,
-    11806216131,
+    12356342894,
     11806216132,
     11806216127,
     11806216126
@@ -56765,6 +56748,51 @@
     "ref:sisa_codigo": "10260982129026",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
+  }
+},
+{
+  "type": "way",
+  "id": 1335782502,
+  "nodes": [
+    2955773944,
+    12356683443,
+    12356683444,
+    12356683445,
+    2955773944
+  ],
+  "tags": {
+    "addr:city": "El Maitén",
+    "addr:full": "Patagonia 615",
+    "addr:place": "Cushamen",
+    "addr:postcode": "3240",
+    "amenity": "hospital",
+    "description": "Mediano riesgo con internación con cuidados especiales",
+    "healthcare": "hospital",
+    "name": "Hospital Subzonal El Maitén",
+    "operator:type": "public",
+    "ref:sisa_codigo": "10260142129039",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)"
+  }
+},
+{
+  "type": "way",
+  "id": 1335782510,
+  "nodes": [
+    3729134171,
+    12356683461,
+    12356683462,
+    12356683463,
+    3729134171
+  ],
+  "tags": {
+    "addr:city": "El Maitén",
+    "addr:street": "José Hernandez",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Subzonal El Maitén",
+    "phone": "02945 49 5255"
   }
 },
 {
@@ -59852,6 +59880,54 @@
   "id": 9347890041,
   "lat": -41.9655974,
   "lon": -71.5340116
+},
+{
+  "type": "node",
+  "id": 3729134171,
+  "lat": -42.0449128,
+  "lon": -71.1744986
+},
+{
+  "type": "node",
+  "id": 12356683461,
+  "lat": -42.0453092,
+  "lon": -71.1735144
+},
+{
+  "type": "node",
+  "id": 12356683462,
+  "lat": -42.0462674,
+  "lon": -71.1742142
+},
+{
+  "type": "node",
+  "id": 12356683463,
+  "lat": -42.0458709,
+  "lon": -71.1751986
+},
+{
+  "type": "node",
+  "id": 2955773944,
+  "lat": -42.0524346,
+  "lon": -71.1574421
+},
+{
+  "type": "node",
+  "id": 12356683443,
+  "lat": -42.0520392,
+  "lon": -71.1580382
+},
+{
+  "type": "node",
+  "id": 12356683444,
+  "lat": -42.0527345,
+  "lon": -71.1588750
+},
+{
+  "type": "node",
+  "id": 12356683445,
+  "lat": -42.0531301,
+  "lon": -71.1582788
 },
 {
   "type": "node",
@@ -69024,26 +69100,26 @@
 {
   "type": "node",
   "id": 11806216126,
-  "lat": -38.0491105,
-  "lon": -57.5401214
+  "lat": -38.0491441,
+  "lon": -57.5401215
 },
 {
   "type": "node",
   "id": 11806216127,
-  "lat": -38.0491752,
-  "lon": -57.5401170
-},
-{
-  "type": "node",
-  "id": 11806216131,
-  "lat": -38.0491054,
-  "lon": -57.5400212
+  "lat": -38.0492088,
+  "lon": -57.5401172
 },
 {
   "type": "node",
   "id": 11806216132,
-  "lat": -38.0491712,
-  "lon": -57.5400165
+  "lat": -38.0492050,
+  "lon": -57.5400163
+},
+{
+  "type": "node",
+  "id": 12356342894,
+  "lat": -38.0491396,
+  "lon": -57.5400210
 },
 {
   "type": "node",
