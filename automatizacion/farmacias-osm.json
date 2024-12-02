@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-01T23:16:44Z",
-    "timestamp_areas_base": "2024-12-01T22:01:00Z",
+    "timestamp_osm_base": "2024-12-02T23:18:59Z",
+    "timestamp_areas_base": "2024-12-02T18:04:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3907,8 +3907,8 @@
 {
   "type": "node",
   "id": 1425283615,
-  "lat": -32.9309808,
-  "lon": -68.8590831,
+  "lat": -32.9309040,
+  "lon": -68.8590343,
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -28095,8 +28095,8 @@
 {
   "type": "node",
   "id": 3825498667,
-  "lat": -27.3746315,
-  "lon": -55.9250460,
+  "lat": -27.3746525,
+  "lon": -55.9250430,
   "tags": {
     "addr:city": "Posadas",
     "addr:housenumber": "4888",
@@ -28105,7 +28105,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia de la Ciudad Sucursal Blas Parera"
+    "name": "Farmacia Blaspa"
   }
 },
 {
@@ -94972,6 +94972,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 12390147478,
+  "lat": -37.2493774,
+  "lon": -56.9667084,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2024-12-02",
+    "name": "Farmacia"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -113603,11 +113614,11 @@
   "type": "way",
   "id": 1209739298,
   "nodes": [
-    11207653441,
+    12389949528,
     11207653440,
     11207653439,
-    11207653438,
-    11207653441
+    12389949527,
+    12389949528
   ],
   "tags": {
     "addr:city": "Rufino",
@@ -113616,7 +113627,7 @@
     "addr:province": "Santa Fe",
     "addr:street": "Bernabé Ferreyra",
     "amenity": "pharmacy",
-    "building": "retail",
+    "building:part": "retail",
     "contact:phone": "+54 3382 440097",
     "healthcare": "pharmacy",
     "height": "3.5",
@@ -120217,33 +120228,33 @@
 },
 {
   "type": "node",
-  "id": 11207653438,
-  "lat": -34.2650434,
-  "lon": -62.7143564
-},
-{
-  "type": "node",
   "id": 11207653439,
-  "lat": -34.2650574,
-  "lon": -62.7142908
+  "lat": -34.2650785,
+  "lon": -62.7142215
 },
 {
   "type": "node",
   "id": 11207653440,
-  "lat": -34.2649575,
-  "lon": -62.7142595
-},
-{
-  "type": "node",
-  "id": 11207653441,
-  "lat": -34.2649435,
-  "lon": -62.7143251
+  "lat": -34.2649923,
+  "lon": -62.7141952
 },
 {
   "type": "node",
   "id": 11913325462,
   "lat": -34.2648598,
   "lon": -62.7114935
+},
+{
+  "type": "node",
+  "id": 12389949527,
+  "lat": -34.2650632,
+  "lon": -62.7142962
+},
+{
+  "type": "node",
+  "id": 12389949528,
+  "lat": -34.2649789,
+  "lon": -62.7142705
 },
 {
   "type": "node",
