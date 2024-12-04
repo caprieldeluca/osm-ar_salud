@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-03T23:14:45Z",
-    "timestamp_areas_base": "2024-12-03T19:51:58Z",
+    "timestamp_osm_base": "2024-12-04T23:14:40Z",
+    "timestamp_areas_base": "2024-12-04T17:06:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6483,7 +6483,7 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Sanatorio Virgen de Lourdes"
+    "name": "Sanatorio San Juan"
   }
 },
 {
@@ -17437,26 +17437,6 @@
 },
 {
   "type": "node",
-  "id": 7385695221,
-  "lat": -31.5438820,
-  "lon": -68.5216484,
-  "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "21 (E)",
-    "addr:postcode": "5400",
-    "addr:street": "Bernardo O'Higgins",
-    "amenity": "hospital",
-    "description": "Mediano riesgo con internación con cuidados especiales",
-    "healthcare": "hospital",
-    "name": "Instituto Modelo de Cirugia Infantil - Consultorios Externos Y Hospital De Dia",
-    "operator:type": "public",
-    "ref:sisa_codigo": "11700282377030",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
-  }
-},
-{
-  "type": "node",
   "id": 7385695222,
   "lat": -30.2144355,
   "lon": -69.1442772,
@@ -24173,6 +24153,17 @@
     "phone": "+54 3583 481597",
     "ref:sisa_codigo": "50140352231440",
     "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "node",
+  "id": 12396023231,
+  "lat": -31.5417610,
+  "lon": -68.5251907,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica Santa Clara"
   }
 },
 {
@@ -36960,7 +36951,6 @@
     9864945184,
     3676324210,
     9864945792,
-    9868607853,
     3676324211,
     9864946512,
     11592562810,
@@ -36968,13 +36958,7 @@
     3676324207
   ],
   "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "715",
-    "addr:postcode": "5400",
-    "addr:street": "General José María Paz",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clínica Santa Clara"
+    "amenity": "hospital"
   }
 },
 {
@@ -56803,6 +56787,31 @@
   }
 },
 {
+  "type": "way",
+  "id": 1340087296,
+  "nodes": [
+    12396053878,
+    12396033568,
+    12396053882,
+    12396037999,
+    12396042251,
+    12396042252,
+    12396053881,
+    12396053880,
+    12396046017,
+    12396046016,
+    12396053884,
+    12396046014,
+    12396053879,
+    12396035031,
+    12396014772,
+    12396053878
+  ],
+  "tags": {
+    "amenity": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -73871,20 +73880,20 @@
 {
   "type": "node",
   "id": 3676324207,
-  "lat": -31.5415600,
-  "lon": -68.5246000
+  "lat": -31.5415605,
+  "lon": -68.5245999
 },
 {
   "type": "node",
   "id": 3676324208,
-  "lat": -31.5419530,
-  "lon": -68.5245590
+  "lat": -31.5419529,
+  "lon": -68.5245615
 },
 {
   "type": "node",
   "id": 3676324209,
-  "lat": -31.5419960,
-  "lon": -68.5251800
+  "lat": -31.5419954,
+  "lon": -68.5251765
 },
 {
   "type": "node",
@@ -73901,80 +73910,80 @@
 {
   "type": "node",
   "id": 9864936774,
-  "lat": -31.5419925,
+  "lat": -31.5419924,
   "lon": -68.5251320
 },
 {
   "type": "node",
   "id": 9864943764,
-  "lat": -31.5419818,
+  "lat": -31.5419821,
   "lon": -68.5249840
 },
 {
   "type": "node",
   "id": 9864944063,
-  "lat": -31.5419784,
+  "lat": -31.5419789,
   "lon": -68.5249371
 },
 {
   "type": "node",
   "id": 9864944321,
-  "lat": -31.5415622,
-  "lon": -68.5246300
+  "lat": -31.5415630,
+  "lon": -68.5246299
 },
 {
   "type": "node",
   "id": 9864944661,
-  "lat": -31.5419651,
-  "lon": -68.5247390
+  "lat": -31.5419652,
+  "lon": -68.5247392
 },
 {
   "type": "node",
   "id": 9864944874,
-  "lat": -31.5416421,
-  "lon": -68.5245906
+  "lat": -31.5416422,
+  "lon": -68.5245920
 },
 {
   "type": "node",
   "id": 9864945059,
-  "lat": -31.5417610,
-  "lon": -68.5245770
+  "lat": -31.5417612,
+  "lon": -68.5245803
 },
 {
   "type": "node",
   "id": 9864945176,
-  "lat": -31.5416731,
-  "lon": -68.5245871
+  "lat": -31.5416732,
+  "lon": -68.5245889
 },
 {
   "type": "node",
   "id": 9864945184,
-  "lat": -31.5417281,
-  "lon": -68.5252039
+  "lat": -31.5417280,
+  "lon": -68.5252031
 },
 {
   "type": "node",
   "id": 9864945218,
-  "lat": -31.5419683,
-  "lon": -68.5247871
+  "lat": -31.5419685,
+  "lon": -68.5247876
 },
 {
   "type": "node",
   "id": 9864945356,
-  "lat": -31.5418540,
-  "lon": -68.5245683
+  "lat": -31.5418542,
+  "lon": -68.5245712
 },
 {
   "type": "node",
   "id": 9864945772,
-  "lat": -31.5419552,
-  "lon": -68.5245910
+  "lat": -31.5419550,
+  "lon": -68.5245917
 },
 {
   "type": "node",
   "id": 9864945786,
-  "lat": -31.5417941,
-  "lon": -68.5251980
+  "lat": -31.5417940,
+  "lon": -68.5251965
 },
 {
   "type": "node",
@@ -73985,26 +73994,110 @@
 {
   "type": "node",
   "id": 9864946281,
-  "lat": -31.5416841,
-  "lon": -68.5245858
+  "lat": -31.5416842,
+  "lon": -68.5245878
 },
 {
   "type": "node",
   "id": 9864946512,
-  "lat": -31.5415972,
+  "lat": -31.5415974,
   "lon": -68.5250531
 },
 {
   "type": "node",
-  "id": 9868607853,
-  "lat": -31.5416206,
-  "lon": -68.5251832
+  "id": 11592562810,
+  "lat": -31.5415857,
+  "lon": -68.5249099
 },
 {
   "type": "node",
-  "id": 11592562810,
-  "lat": -31.5415854,
-  "lon": -68.5249099
+  "id": 12396014772,
+  "lat": -31.5425450,
+  "lon": -68.5191132
+},
+{
+  "type": "node",
+  "id": 12396033568,
+  "lat": -31.5425302,
+  "lon": -68.5190385
+},
+{
+  "type": "node",
+  "id": 12396035031,
+  "lat": -31.5426530,
+  "lon": -68.5191062
+},
+{
+  "type": "node",
+  "id": 12396037999,
+  "lat": -31.5427856,
+  "lon": -68.5191486
+},
+{
+  "type": "node",
+  "id": 12396042251,
+  "lat": -31.5427862,
+  "lon": -68.5192461
+},
+{
+  "type": "node",
+  "id": 12396042252,
+  "lat": -31.5427866,
+  "lon": -68.5193198
+},
+{
+  "type": "node",
+  "id": 12396046014,
+  "lat": -31.5426928,
+  "lon": -68.5191699
+},
+{
+  "type": "node",
+  "id": 12396046016,
+  "lat": -31.5426930,
+  "lon": -68.5192236
+},
+{
+  "type": "node",
+  "id": 12396046017,
+  "lat": -31.5426931,
+  "lon": -68.5192709
+},
+{
+  "type": "node",
+  "id": 12396053878,
+  "lat": -31.5425310,
+  "lon": -68.5191141
+},
+{
+  "type": "node",
+  "id": 12396053879,
+  "lat": -31.5426926,
+  "lon": -68.5191037
+},
+{
+  "type": "node",
+  "id": 12396053880,
+  "lat": -31.5426939,
+  "lon": -68.5195225
+},
+{
+  "type": "node",
+  "id": 12396053881,
+  "lat": -31.5427879,
+  "lon": -68.5195267
+},
+{
+  "type": "node",
+  "id": 12396053882,
+  "lat": -31.5427849,
+  "lon": -68.5190361
+},
+{
+  "type": "node",
+  "id": 12396053884,
+  "lat": -31.5426929,
+  "lon": -68.5191893
 },
 {
   "type": "node",
