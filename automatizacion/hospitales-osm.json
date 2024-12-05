@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-04T23:14:40Z",
-    "timestamp_areas_base": "2024-12-04T17:06:42Z",
+    "timestamp_osm_base": "2024-12-05T23:15:42Z",
+    "timestamp_areas_base": "2024-12-05T21:14:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -29431,7 +29431,8 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Maternidad Nacional - UNC"
+    "name": "Maternidad Nacional - UNC",
+    "wheelchair": "limited"
   }
 },
 {
@@ -42671,7 +42672,6 @@
     "addr:postcode": "C1405DJI",
     "addr:street": "Avenida Ángel Gallardo",
     "amenity": "hospital",
-    "building": "hospital",
     "email": "info@clinicasancamilo.org.ar",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -53315,7 +53315,8 @@
     "operator:type": "private",
     "phone": "0351-4222027",
     "ref:sisa_codigo": "10140142331030",
-    "ref:sisa_tipologia": "ESCIG"
+    "ref:sisa_tipologia": "ESCIG",
+    "wheelchair": "yes"
   }
 },
 {
@@ -54845,9 +54846,17 @@
   "nodes": [
     2434289564,
     11157780896,
-    2434289576,
+    12398020903,
+    12398020902,
+    12398020899,
+    12397991369,
+    12397991370,
+    12397991363,
+    12397991366,
+    12397991373,
     2434289569,
     2434289575,
+    12397991357,
     2434289562,
     11157780895,
     2434289563,
@@ -54860,15 +54869,13 @@
     "addr:postcode": "6100",
     "addr:province": "Santa Fe",
     "addr:street": "Presidente Juan Domingo Perón",
-    "alt_name": "Clinica Santa Fe Sociedad Anonima",
     "amenity": "hospital",
     "building": "hospital",
-    "contact:facebook": "https://www.facebook.com/ClinicaSantaFeRufino",
+    "check_date": "2024-05-14",
     "contact:phone": "+54 3382 427605",
     "healthcare": "hospital",
     "height": "5",
     "name": "Clinica Santa Fe",
-    "opening_hours": "24/7",
     "operator:type": "private",
     "start_date": "1974-10-22"
   }
@@ -78326,50 +78333,98 @@
 {
   "type": "node",
   "id": 2434289562,
-  "lat": -34.2655804,
-  "lon": -62.7086940
+  "lat": -34.2655802,
+  "lon": -62.7086942
 },
 {
   "type": "node",
   "id": 2434289569,
-  "lat": -34.2657147,
-  "lon": -62.7083377
+  "lat": -34.2657665,
+  "lon": -62.7083451
 },
 {
   "type": "node",
   "id": 2434289575,
-  "lat": -34.2656539,
-  "lon": -62.7083202
+  "lat": -34.2656555,
+  "lon": -62.7083130
 },
 {
   "type": "node",
-  "id": 2434289576,
-  "lat": -34.2656106,
-  "lon": -62.7088669
+  "id": 12397991357,
+  "lat": -34.2656143,
+  "lon": -62.7085215
+},
+{
+  "type": "node",
+  "id": 12397991363,
+  "lat": -34.2656832,
+  "lon": -62.7087663
+},
+{
+  "type": "node",
+  "id": 12397991366,
+  "lat": -34.2657087,
+  "lon": -62.7086376
+},
+{
+  "type": "node",
+  "id": 12397991369,
+  "lat": -34.2655956,
+  "lon": -62.7088620
+},
+{
+  "type": "node",
+  "id": 12397991370,
+  "lat": -34.2656606,
+  "lon": -62.7088808
+},
+{
+  "type": "node",
+  "id": 12397991373,
+  "lat": -34.2657272,
+  "lon": -62.7085438
+},
+{
+  "type": "node",
+  "id": 12398020899,
+  "lat": -34.2655507,
+  "lon": -62.7088490
 },
 {
   "type": "node",
   "id": 2434289563,
-  "lat": -34.2652791,
-  "lon": -62.7086073
+  "lat": -34.2652775,
+  "lon": -62.7086066
 },
 {
   "type": "node",
   "id": 2434289564,
-  "lat": -34.2652486,
-  "lon": -62.7087627
+  "lat": -34.2652470,
+  "lon": -62.7087611
 },
 {
   "type": "node",
   "id": 11157780895,
-  "lat": -34.2653632,
-  "lon": -62.7086315
+  "lat": -34.2653633,
+  "lon": -62.7086314
 },
 {
   "type": "node",
   "id": 11157780896,
-  "lat": -34.2653326,
-  "lon": -62.7087869
+  "lat": -34.2653327,
+  "lon": -62.7087859
+},
+{
+  "type": "node",
+  "id": 12398020902,
+  "lat": -34.2654745,
+  "lon": -62.7088269
+},
+{
+  "type": "node",
+  "id": 12398020903,
+  "lat": -34.2653686,
+  "lon": -62.7087963
 },
 {
   "type": "node",
