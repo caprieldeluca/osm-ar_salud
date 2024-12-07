@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-06T23:16:04Z",
-    "timestamp_areas_base": "2024-12-06T21:11:23Z",
+    "timestamp_osm_base": "2024-12-07T23:15:49Z",
+    "timestamp_areas_base": "2024-12-07T18:35:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6481,8 +6481,13 @@
     "addr:postcode": "1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
-    "name": "Sandra Selma"
+    "name": "Sandra Selma",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "yes"
   }
 },
 {
@@ -40145,9 +40150,11 @@
     "addr:postcode": "B1602",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Vantage",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited"
   }
 },
 {
@@ -40320,10 +40327,15 @@
     "addr:postcode": "B1638",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Farmacia Schwartz",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
-    "website": "https://www.farmaciaschwartz.com.ar/"
+    "website": "https://www.farmaciaschwartz.com.ar/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -40597,10 +40609,12 @@
     "addr:postcode": "B1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Farmacia Cusatti",
     "phone": "+54 11 4799-4211",
-    "source": "Reconocimiento terrestre por Kaart 2016."
+    "source": "Reconocimiento terrestre por Kaart 2016.",
+    "wheelchair": "no"
   }
 },
 {
@@ -40610,11 +40624,14 @@
   "lon": -58.4916794,
   "tags": {
     "addr:city": "Olivos",
+    "addr:housenumber": "2828",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Farmacia Antuña",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited"
   }
 },
 {
@@ -90132,7 +90149,7 @@
     "amenity": "pharmacy",
     "check_date": "2023-10-16",
     "healthcare": "pharmacy",
-    "name": "Farmaplus",
+    "name": "FarmaPlus",
     "website": "https://www.farmaplus.com.ar"
   }
 },
@@ -95043,6 +95060,17 @@
     "addr:street": "Martín Fierro",
     "amenity": "pharmacy",
     "name": "Farmacia Lavorato"
+  }
+},
+{
+  "type": "node",
+  "id": 12403489001,
+  "lat": -34.6527898,
+  "lon": -58.7220071,
+  "tags": {
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "pharmacy",
+    "name": "Farmacia"
   }
 },
 {

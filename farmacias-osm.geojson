@@ -51152,8 +51152,13 @@
     "addr:postcode": "1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Sandra Selma",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "yes",
     "id": "node/1861710862"
   },
   "geometry": {
@@ -99882,9 +99887,11 @@
     "addr:postcode": "B1602",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Vantage",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited",
     "id": "node/4653096463"
   },
   "geometry": {
@@ -100129,10 +100136,15 @@
     "addr:postcode": "B1638",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Farmacia Schwartz",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "website": "https://www.farmaciaschwartz.com.ar/",
+    "wheelchair": "yes",
     "id": "node/4655126914"
   },
   "geometry": {
@@ -100514,10 +100526,12 @@
     "addr:postcode": "B1636",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Farmacia Cusatti",
     "phone": "+54 11 4799-4211",
     "source": "Reconocimiento terrestre por Kaart 2016.",
+    "wheelchair": "no",
     "id": "node/4658095059"
   },
   "geometry": {
@@ -100533,11 +100547,14 @@
   "id": "node/4658095066",
   "properties": {
     "addr:city": "Olivos",
+    "addr:housenumber": "2828",
     "addr:street": "Avenida Maipú",
     "amenity": "pharmacy",
+    "check_date": "2024-12-07",
     "healthcare": "pharmacy",
     "name": "Farmacia Antuña",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited",
     "id": "node/4658095066"
   },
   "geometry": {
@@ -170701,7 +170718,7 @@
     "amenity": "pharmacy",
     "check_date": "2023-10-16",
     "healthcare": "pharmacy",
-    "name": "Farmaplus",
+    "name": "FarmaPlus",
     "website": "https://www.farmaplus.com.ar",
     "id": "node/11268365020"
   },
@@ -177905,6 +177922,23 @@
     "coordinates": [
       -58.7044422,
       -34.6181351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12403489001",
+  "properties": {
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "pharmacy",
+    "name": "Farmacia",
+    "id": "node/12403489001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7220071,
+      -34.6527898
     ]
   }
 }

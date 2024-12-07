@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-06T23:15:12Z",
-    "timestamp_areas_base": "2024-12-06T17:36:49Z",
+    "timestamp_osm_base": "2024-12-07T23:14:45Z",
+    "timestamp_areas_base": "2024-12-07T17:27:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9590,19 +9590,6 @@
 },
 {
   "type": "node",
-  "id": 4653096469,
-  "lat": -34.5211612,
-  "lon": -58.4848974,
-  "tags": {
-    "addr:street": "Avenida Maipú",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Omint",
-    "source": "Reconocimiento terrestre por Kaart 2016"
-  }
-},
-{
-  "type": "node",
   "id": 4653448600,
   "lat": -34.5752867,
   "lon": -58.4840866,
@@ -9803,19 +9790,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Premedic"
-  }
-},
-{
-  "type": "node",
-  "id": 4672215183,
-  "lat": -34.5211925,
-  "lon": -58.4848751,
-  "tags": {
-    "addr:street": "Avenida Maipú",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Hospital Británico",
-    "source": "Reconocimiento terrestre por Kaart 2016"
   }
 },
 {
@@ -10180,7 +10154,7 @@
   "tags": {
     "addr:city": "San Juan",
     "addr:housenumber": "752 (S)",
-    "addr:postcode": "5400",
+    "addr:postcode": "J5402EGP",
     "addr:street": "General Acha",
     "amenity": "clinic",
     "contact:whatsapp": "+54 264 4128712",
@@ -15234,17 +15208,6 @@
     "ref:sisa_codigo": "50066382202435",
     "ref:sisa_tipologia": "ESSIDT",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 5938934874,
-  "lat": -31.5418245,
-  "lon": -68.5208335,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Intercor Clínica"
   }
 },
 {
@@ -40146,13 +40109,15 @@
 {
   "type": "node",
   "id": 8320953117,
-  "lat": -31.5415407,
-  "lon": -68.5208566,
+  "lat": -31.5415411,
+  "lon": -68.5208622,
   "tags": {
+    "addr:city": "San Juan",
     "addr:housenumber": "624 (S)",
-    "addr:postcode": "5400",
+    "addr:postcode": "J5402EKT",
     "addr:street": "Avenida Rioja",
     "amenity": "clinic",
+    "healthcare": "laboratory",
     "name": "Celsa",
     "official_name": "Centro de Estudios de la Sangre",
     "phone": "+54264 4227065"
@@ -45099,7 +45064,8 @@
   "lon": -64.6233067,
   "tags": {
     "amenity": "clinic",
-    "name": "Dispensario"
+    "name": "Dispensario",
+    "wheelchair": "yes"
   }
 },
 {
@@ -47050,6 +47016,35 @@
   "tags": {
     "amenity": "clinic",
     "name": "Centro Médico OSECAC"
+  }
+},
+{
+  "type": "node",
+  "id": 12403374740,
+  "lat": -31.5419173,
+  "lon": -68.5208262,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "660 (S)",
+    "addr:postcode": "J5402EKT",
+    "addr:street": "Avenida Rioja",
+    "amenity": "clinic",
+    "name": "Innova"
+  }
+},
+{
+  "type": "node",
+  "id": 12403374741,
+  "lat": -31.5418249,
+  "lon": -68.5208351,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "654 (S)",
+    "addr:postcode": "J5402EKT",
+    "addr:street": "Avenida Rioja",
+    "amenity": "clinic",
+    "healthcare": "rehabilitation",
+    "name": "Conar"
   }
 },
 {
@@ -70223,6 +70218,42 @@
   }
 },
 {
+  "type": "way",
+  "id": 1340684544,
+  "nodes": [
+    12401454990,
+    12401461497,
+    12401461498,
+    12401461499,
+    12401461500,
+    12401454987,
+    12401461501,
+    12401461502,
+    12401461503,
+    12401461504,
+    12401461505,
+    12401461506,
+    12401461478,
+    12401454990
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "324",
+    "addr:postcode": "R8324",
+    "addr:street": "Manuel Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/anulenconsultorios/?locale=es_LA",
+    "contact:instagram": "https://www.instagram.com/anulen_consultorios/",
+    "email": "anulenodontologia@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;orthodontics",
+    "height": "3",
+    "name": "Anulén Consultorios Odontológicos",
+    "phone": "+54 299 594-9511"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -78126,6 +78157,84 @@
   "id": 12394902840,
   "lat": -38.9374955,
   "lon": -68.0001413
+},
+{
+  "type": "node",
+  "id": 12401454987,
+  "lat": -38.9371602,
+  "lon": -67.9986207
+},
+{
+  "type": "node",
+  "id": 12401454990,
+  "lat": -38.9372497,
+  "lon": -67.9986501
+},
+{
+  "type": "node",
+  "id": 12401461478,
+  "lat": -38.9372304,
+  "lon": -67.9987463
+},
+{
+  "type": "node",
+  "id": 12401461497,
+  "lat": -38.9372169,
+  "lon": -67.9986394
+},
+{
+  "type": "node",
+  "id": 12401461498,
+  "lat": -38.9372130,
+  "lon": -67.9986588
+},
+{
+  "type": "node",
+  "id": 12401461499,
+  "lat": -38.9371879,
+  "lon": -67.9986504
+},
+{
+  "type": "node",
+  "id": 12401461500,
+  "lat": -38.9371918,
+  "lon": -67.9986311
+},
+{
+  "type": "node",
+  "id": 12401461501,
+  "lat": -38.9371455,
+  "lon": -67.9986939
+},
+{
+  "type": "node",
+  "id": 12401461502,
+  "lat": -38.9371702,
+  "lon": -67.9987021
+},
+{
+  "type": "node",
+  "id": 12401461503,
+  "lat": -38.9371553,
+  "lon": -67.9987763
+},
+{
+  "type": "node",
+  "id": 12401461504,
+  "lat": -38.9371931,
+  "lon": -67.9987888
+},
+{
+  "type": "node",
+  "id": 12401461505,
+  "lat": -38.9371974,
+  "lon": -67.9987672
+},
+{
+  "type": "node",
+  "id": 12401461506,
+  "lat": -38.9372244,
+  "lon": -67.9987762
 },
 {
   "type": "node",

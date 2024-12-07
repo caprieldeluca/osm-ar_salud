@@ -51319,6 +51319,90 @@
 },
 {
   "type": "Feature",
+  "id": "way/1340684544",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "324",
+    "addr:postcode": "R8324",
+    "addr:street": "Manuel Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/anulenconsultorios/?locale=es_LA",
+    "contact:instagram": "https://www.instagram.com/anulen_consultorios/",
+    "email": "anulenodontologia@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;orthodontics",
+    "height": "3",
+    "name": "Anulén Consultorios Odontológicos",
+    "phone": "+54 299 594-9511",
+    "id": "way/1340684544"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9986501,
+          -38.9372497
+        ],
+        [
+          -67.9986394,
+          -38.9372169
+        ],
+        [
+          -67.9986588,
+          -38.937213
+        ],
+        [
+          -67.9986504,
+          -38.9371879
+        ],
+        [
+          -67.9986311,
+          -38.9371918
+        ],
+        [
+          -67.9986207,
+          -38.9371602
+        ],
+        [
+          -67.9986939,
+          -38.9371455
+        ],
+        [
+          -67.9987021,
+          -38.9371702
+        ],
+        [
+          -67.9987763,
+          -38.9371553
+        ],
+        [
+          -67.9987888,
+          -38.9371931
+        ],
+        [
+          -67.9987672,
+          -38.9371974
+        ],
+        [
+          -67.9987762,
+          -38.9372244
+        ],
+        [
+          -67.9987463,
+          -38.9372304
+        ],
+        [
+          -67.9986501,
+          -38.9372497
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -64625,25 +64709,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4653096469",
-  "properties": {
-    "addr:street": "Avenida Maipú",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Omint",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "node/4653096469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4848974,
-      -34.5211612
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4653448600",
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
@@ -64933,25 +64998,6 @@
     "coordinates": [
       -58.4889404,
       -34.5263906
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4672215183",
-  "properties": {
-    "addr:street": "Avenida Maipú",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Hospital Británico",
-    "source": "Reconocimiento terrestre por Kaart 2016",
-    "id": "node/4672215183"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4848751,
-      -34.5211925
     ]
   }
 },
@@ -65441,7 +65487,7 @@
   "properties": {
     "addr:city": "San Juan",
     "addr:housenumber": "752 (S)",
-    "addr:postcode": "5400",
+    "addr:postcode": "J5402EGP",
     "addr:street": "General Acha",
     "amenity": "clinic",
     "contact:whatsapp": "+54 264 4128712",
@@ -72410,23 +72456,6 @@
     "coordinates": [
       -58.776637,
       -34.4586917
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5938934874",
-  "properties": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Intercor Clínica",
-    "id": "node/5938934874"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.5208335,
-      -31.5418245
     ]
   }
 },
@@ -105598,10 +105627,12 @@
   "type": "Feature",
   "id": "node/8320953117",
   "properties": {
+    "addr:city": "San Juan",
     "addr:housenumber": "624 (S)",
-    "addr:postcode": "5400",
+    "addr:postcode": "J5402EKT",
     "addr:street": "Avenida Rioja",
     "amenity": "clinic",
+    "healthcare": "laboratory",
     "name": "Celsa",
     "official_name": "Centro de Estudios de la Sangre",
     "phone": "+54264 4227065",
@@ -105610,8 +105641,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5208566,
-      -31.5415407
+      -68.5208622,
+      -31.5415411
     ]
   }
 },
@@ -112487,6 +112518,7 @@
   "properties": {
     "amenity": "clinic",
     "name": "Dispensario",
+    "wheelchair": "yes",
     "id": "node/11225853467"
   },
   "geometry": {
@@ -115338,6 +115370,47 @@
     "coordinates": [
       -68.5248291,
       -31.5453657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12403374740",
+  "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "660 (S)",
+    "addr:postcode": "J5402EKT",
+    "addr:street": "Avenida Rioja",
+    "amenity": "clinic",
+    "name": "Innova",
+    "id": "node/12403374740"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5208262,
+      -31.5419173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12403374741",
+  "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "654 (S)",
+    "addr:postcode": "J5402EKT",
+    "addr:street": "Avenida Rioja",
+    "amenity": "clinic",
+    "healthcare": "rehabilitation",
+    "name": "Conar",
+    "id": "node/12403374741"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5208351,
+      -31.5418249
     ]
   }
 }

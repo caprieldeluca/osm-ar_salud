@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-06T23:14:14Z",
-    "timestamp_areas_base": "2024-12-06T21:11:23Z",
+    "timestamp_osm_base": "2024-12-07T23:13:42Z",
+    "timestamp_areas_base": "2024-12-07T18:35:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -22356,6 +22356,21 @@
 },
 {
   "type": "node",
+  "id": 9868607959,
+  "lat": -31.5417610,
+  "lon": -68.5251907,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "612 (S)",
+    "addr:postcode": "J5402GUN",
+    "addr:street": "Mendoza",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica Santa Clara"
+  }
+},
+{
+  "type": "node",
   "id": 9927674417,
   "lat": -34.4630254,
   "lon": -58.6390436,
@@ -24153,17 +24168,6 @@
     "phone": "+54 3583 481597",
     "ref:sisa_codigo": "50140352231440",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 12396023231,
-  "lat": -31.5417610,
-  "lon": -68.5251907,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clínica Santa Clara"
   }
 },
 {
@@ -28319,18 +28323,13 @@
     "amenity": "hospital",
     "building": "hospital",
     "building:colour": "#E0F7F7",
-    "building:levels": "2",
-    "contact:email": "sanatoriomodelosrl@gmail.com",
-    "contact:phone": "+54 3382 429277",
-    "contact:phone:1": "+54 3382 427680",
-    "contact:phone:2": "+54 3382 426510",
-    "contact:whatsapp": "+54 3382410592",
+    "building:levels": "3",
+    "check_date": "2024-12-07",
     "healthcare": "hospital",
     "height": "13",
     "name": "Sanatorio Modelo",
     "operator:type": "private",
-    "start_date": "1934",
-    "website": "https://www.sanatorio-modelo.com.ar/"
+    "start_date": "1934"
   }
 },
 {
@@ -40429,6 +40428,8 @@
     "amenity": "hospital",
     "building": "yes",
     "building:levels": "2",
+    "check_date": "2024-12-07",
+    "emergency": "yes",
     "healthcare": "hospital",
     "name": "Clínica Olivos",
     "operator": "Privado",
@@ -40436,7 +40437,8 @@
     "phone": "+54 11 6090-3000",
     "ref:sisa_codigo": "10068612316750",
     "ref:sisa_tipologia": "ESCIG",
-    "website": "https://www.swissmedical.com.ar/clinewsite/olivos/servicios_urgencia.php"
+    "website": "https://www.swissmedical.com.ar/clinewsite/olivos/servicios_urgencia.php",
+    "wheelchair": "yes"
   }
 },
 {
@@ -78321,8 +78323,8 @@
 {
   "type": "node",
   "id": 1979663211,
-  "lat": -34.2656998,
-  "lon": -62.7127283
+  "lat": -34.2656995,
+  "lon": -62.7127296
 },
 {
   "type": "node",

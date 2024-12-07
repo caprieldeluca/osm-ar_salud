@@ -14586,18 +14586,13 @@
     "amenity": "hospital",
     "building": "hospital",
     "building:colour": "#E0F7F7",
-    "building:levels": "2",
-    "contact:email": "sanatoriomodelosrl@gmail.com",
-    "contact:phone": "+54 3382 429277",
-    "contact:phone:1": "+54 3382 427680",
-    "contact:phone:2": "+54 3382 426510",
-    "contact:whatsapp": "+54 3382410592",
+    "building:levels": "3",
+    "check_date": "2024-12-07",
     "healthcare": "hospital",
     "height": "13",
     "name": "Sanatorio Modelo",
     "operator:type": "private",
     "start_date": "1934",
-    "website": "https://www.sanatorio-modelo.com.ar/",
     "id": "way/187231660"
   },
   "geometry": {
@@ -14609,8 +14604,8 @@
           -34.2655732
         ],
         [
-          -62.7127283,
-          -34.2656998
+          -62.7127296,
+          -34.2656995
         ],
         [
           -62.7123667,
@@ -42584,6 +42579,8 @@
     "amenity": "hospital",
     "building": "yes",
     "building:levels": "2",
+    "check_date": "2024-12-07",
+    "emergency": "yes",
     "healthcare": "hospital",
     "name": "Clínica Olivos",
     "operator": "Privado",
@@ -42592,6 +42589,7 @@
     "ref:sisa_codigo": "10068612316750",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.swissmedical.com.ar/clinewsite/olivos/servicios_urgencia.php",
+    "wheelchair": "yes",
     "id": "way/471353914"
   },
   "geometry": {
@@ -111421,6 +111419,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9868607959",
+  "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "612 (S)",
+    "addr:postcode": "J5402GUN",
+    "addr:street": "Mendoza",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica Santa Clara",
+    "id": "node/9868607959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5251907,
+      -31.541761
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9927674417",
   "properties": {
     "amenity": "hospital",
@@ -113931,23 +113950,6 @@
     "coordinates": [
       -64.1694438,
       -34.4834917
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12396023231",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clínica Santa Clara",
-    "id": "node/12396023231"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.5251907,
-      -31.541761
     ]
   }
 }
