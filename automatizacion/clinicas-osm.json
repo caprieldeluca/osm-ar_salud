@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-08T23:15:14Z",
-    "timestamp_areas_base": "2024-12-08T19:36:06Z",
+    "timestamp_osm_base": "2024-12-09T23:15:57Z",
+    "timestamp_areas_base": "2024-12-09T20:32:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5239,8 +5239,8 @@
 {
   "type": "node",
   "id": 3817121717,
-  "lat": -34.8974283,
-  "lon": -57.9281925,
+  "lat": -34.8976483,
+  "lon": -57.9281603,
   "tags": {
     "addr:city": "Ensenada",
     "addr:country": "AR",
@@ -5249,7 +5249,6 @@
     "addr:street": "Calle 129",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/pages/Hospital-Naval-el-Dique/356978950996872",
-    "fixme": "Confirmar ubicacion",
     "healthcare": "clinic",
     "name": "Hospital Zonal Especializado En Cronicos El Dique",
     "old_name": "Hospital Naval El Dique",
@@ -15213,9 +15212,13 @@
 {
   "type": "node",
   "id": 5939159259,
-  "lat": -31.5507907,
-  "lon": -68.5202126,
+  "lat": -31.5507718,
+  "lon": -68.5202147,
   "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "1264 (S)",
+    "addr:postcode": "J5402EKZ",
+    "addr:street": "Avenida Rioja",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Valdivia"
@@ -43932,21 +43935,6 @@
 },
 {
   "type": "node",
-  "id": 10675491432,
-  "lat": -34.5780906,
-  "lon": -58.5355995,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "physiotherapy",
-    "level": "0",
-    "name": "Corporación Médica de Gral San Martín",
-    "office": "therapist",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-12:00"
-  }
-},
-{
-  "type": "node",
   "id": 10676594883,
   "lat": -27.7310237,
   "lon": -65.5850963,
@@ -68434,6 +68422,7 @@
     "name": "Centro de Atención Primaria de la Salud n°19 Villa Libertad",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
+    "operator:wikidata": "Q2157253",
     "phone": "+54 9 11 2286 6632",
     "ref:sisa_codigo": "50063712215026",
     "ref:sisa_tipologia": "ESSIDT",
@@ -70251,6 +70240,36 @@
     "height": "3",
     "name": "Anulén Consultorios Odontológicos",
     "phone": "+54 299 594-9511"
+  }
+},
+{
+  "type": "way",
+  "id": 1341385664,
+  "nodes": [
+    4629598180,
+    7509121472,
+    12407907394,
+    4629598181,
+    4629598180
+  ],
+  "tags": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
+    "addr:full": "J. M. Campos 2759",
+    "addr:housenumber": "2759",
+    "addr:postcode": "B1651",
+    "addr:province": "Buenos Aires",
+    "addr:street": "76 - Juan Martín Campos",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "building:material": "brick",
+    "healthcare": "clinic",
+    "name": "Clinica Pedro Angel Salas",
+    "operator": "Privado",
+    "operator:type": "private",
+    "ref:sisa_codigo": "10063712317179",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -100492,6 +100511,24 @@
 },
 {
   "type": "node",
+  "id": 4629598180,
+  "lat": -34.5614033,
+  "lon": -58.5400816
+},
+{
+  "type": "node",
+  "id": 4629598181,
+  "lat": -34.5611276,
+  "lon": -58.5404203
+},
+{
+  "type": "node",
+  "id": 7509121472,
+  "lat": -34.5613446,
+  "lon": -58.5400106
+},
+{
+  "type": "node",
   "id": 11339377469,
   "lat": -34.5664100,
   "lon": -58.5415736
@@ -100513,6 +100550,12 @@
   "id": 11339377472,
   "lat": -34.5663576,
   "lon": -58.5416373
+},
+{
+  "type": "node",
+  "id": 12407907394,
+  "lat": -34.5610708,
+  "lon": -58.5403514
 },
 {
   "type": "node",

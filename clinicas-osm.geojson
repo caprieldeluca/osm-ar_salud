@@ -47142,6 +47142,7 @@
     "name": "Centro de Atención Primaria de la Salud n°19 Villa Libertad",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
+    "operator:wikidata": "Q2157253",
     "phone": "+54 9 11 2286 6632",
     "ref:sisa_codigo": "50063712215026",
     "ref:sisa_tipologia": "ESSIDT",
@@ -51396,6 +51397,57 @@
         [
           -67.9986501,
           -38.9372497
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1341385664",
+  "properties": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
+    "addr:full": "J. M. Campos 2759",
+    "addr:housenumber": "2759",
+    "addr:postcode": "B1651",
+    "addr:province": "Buenos Aires",
+    "addr:street": "76 - Juan Martín Campos",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "building:material": "brick",
+    "healthcare": "clinic",
+    "name": "Clinica Pedro Angel Salas",
+    "operator": "Privado",
+    "operator:type": "private",
+    "ref:sisa_codigo": "10063712317179",
+    "ref:sisa_tipologia": "ESCIG",
+    "id": "way/1341385664"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5400816,
+          -34.5614033
+        ],
+        [
+          -58.5400106,
+          -34.5613446
+        ],
+        [
+          -58.5403514,
+          -34.5610708
+        ],
+        [
+          -58.5404203,
+          -34.5611276
+        ],
+        [
+          -58.5400816,
+          -34.5614033
         ]
       ]
     ]
@@ -58662,7 +58714,6 @@
     "addr:street": "Calle 129",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/pages/Hospital-Naval-el-Dique/356978950996872",
-    "fixme": "Confirmar ubicacion",
     "healthcare": "clinic",
     "name": "Hospital Zonal Especializado En Cronicos El Dique",
     "old_name": "Hospital Naval El Dique",
@@ -58676,8 +58727,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.9281925,
-      -34.8974283
+      -57.9281603,
+      -34.8976483
     ]
   }
 },
@@ -72463,6 +72514,10 @@
   "type": "Feature",
   "id": "node/5939159259",
   "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "1264 (S)",
+    "addr:postcode": "J5402EKZ",
+    "addr:street": "Avenida Rioja",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Valdivia",
@@ -72471,8 +72526,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5202126,
-      -31.5507907
+      -68.5202147,
+      -31.5507718
     ]
   }
 },
@@ -110920,27 +110975,6 @@
     "coordinates": [
       -68.5173149,
       -31.5355074
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10675491432",
-  "properties": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "physiotherapy",
-    "level": "0",
-    "name": "Corporación Médica de Gral San Martín",
-    "office": "therapist",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-12:00",
-    "id": "node/10675491432"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.5355995,
-      -34.5780906
     ]
   }
 },
