@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-09T23:15:57Z",
-    "timestamp_areas_base": "2024-12-09T20:32:30Z",
+    "timestamp_osm_base": "2024-12-10T23:16:10Z",
+    "timestamp_areas_base": "2024-12-10T17:41:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -41257,6 +41257,21 @@
 },
 {
   "type": "node",
+  "id": 8908607223,
+  "lat": -31.5400808,
+  "lon": -68.5231060,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "172 (E)",
+    "addr:postcode": "5400",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "GEN Consultorios Médicos"
+  }
+},
+{
+  "type": "node",
   "id": 8912030104,
   "lat": -32.0094575,
   "lon": -68.6925889,
@@ -47033,6 +47048,58 @@
     "amenity": "clinic",
     "healthcare": "rehabilitation",
     "name": "Conar"
+  }
+},
+{
+  "type": "node",
+  "id": 12409917955,
+  "lat": -38.9368386,
+  "lon": -67.9999997,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "340",
+    "addr:postcode": "R8324",
+    "addr:street": "25 de Mayo",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/p/Grupo-Omed-100076004087356/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentist",
+    "name": "Grupo OMED",
+    "operator:type": "private",
+    "phone": "+54 299 478-2969"
+  }
+},
+{
+  "type": "node",
+  "id": 12409974020,
+  "lat": -38.9355539,
+  "lon": -67.9990297,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "471",
+    "addr:postcode": "R8324",
+    "addr:street": "25 de Mayo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Consultorios de Atención Médica Especializada"
+  }
+},
+{
+  "type": "node",
+  "id": 12409974025,
+  "lat": -38.9359752,
+  "lon": -67.9973219,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "257",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Leandro N. Alem",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "pediatry",
+    "name": "Consultorios AINA",
+    "operator": "AINA del Sur S.R.L.",
+    "operator:type": "private"
   }
 },
 {
@@ -59125,25 +59192,6 @@
 },
 {
   "type": "way",
-  "id": 714340950,
-  "nodes": [
-    6714836034,
-    6714836032,
-    6714836031,
-    3676319207,
-    6714836033,
-    6714836034
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "2",
-    "healthcare": "clinic",
-    "name": "GEN Consultorios Médicos"
-  }
-},
-{
-  "type": "way",
   "id": 723396452,
   "nodes": [
     6785139404,
@@ -61677,59 +61725,6 @@
     "operator": "Clínica Juan XXIII S.A.",
     "operator:type": "private",
     "wikidata": "Q94704942"
-  }
-},
-{
-  "type": "way",
-  "id": 820840564,
-  "nodes": [
-    7662899440,
-    7662899444,
-    7662899450,
-    7667099183,
-    7662899445,
-    7662899446,
-    7662899441,
-    7662899440
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "471",
-    "addr:postcode": "R8324",
-    "addr:street": "25 de Mayo",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Consultorios de Atención Médica Especializada"
-  }
-},
-{
-  "type": "way",
-  "id": 821142847,
-  "nodes": [
-    7666859038,
-    7667124293,
-    7667124300,
-    7667124294,
-    7667124295,
-    7667124296,
-    7666855261,
-    7667124297,
-    7666859039,
-    7666859038
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "257",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Leandro N. Alem",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "pediatry",
-    "name": "Consultorios AINA",
-    "operator": "AINA del Sur S.R.L.",
-    "operator:type": "private"
   }
 },
 {
@@ -70273,6 +70268,40 @@
   }
 },
 {
+  "type": "way",
+  "id": 1341590969,
+  "nodes": [
+    12409917829,
+    12409917921,
+    12409917922,
+    12409917923,
+    12409917924,
+    12409917925,
+    12409917926,
+    12409917927,
+    12409917823,
+    12409917911,
+    12409917821,
+    12409917829
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "324",
+    "addr:postcode": "R8324",
+    "addr:street": "25 de Mayo",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:colour": "grey",
+    "contact:instagram": "https://www.instagram.com/ceo_susanaaparicio/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry;orthodontics",
+    "height": "3",
+    "mobile": "+54 9 299 476-4496",
+    "name": "CEO Aparicio",
+    "operator:type": "private"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -77831,6 +77860,42 @@
 },
 {
   "type": "node",
+  "id": 12409917821,
+  "lat": -38.9369290,
+  "lon": -68.0003119
+},
+{
+  "type": "node",
+  "id": 12409917823,
+  "lat": -38.9369513,
+  "lon": -68.0002020
+},
+{
+  "type": "node",
+  "id": 12409917829,
+  "lat": -38.9368402,
+  "lon": -68.0002821
+},
+{
+  "type": "node",
+  "id": 12409917911,
+  "lat": -38.9369474,
+  "lon": -68.0002213
+},
+{
+  "type": "node",
+  "id": 12409917921,
+  "lat": -38.9368661,
+  "lon": -68.0001553
+},
+{
+  "type": "node",
+  "id": 12409917922,
+  "lat": -38.9368860,
+  "lon": -68.0001620
+},
+{
+  "type": "node",
   "id": 6317120590,
   "lat": -38.9335575,
   "lon": -67.9999080
@@ -77876,102 +77941,6 @@
   "id": 6317120597,
   "lat": -38.9334657,
   "lon": -67.9995933
-},
-{
-  "type": "node",
-  "id": 7662899440,
-  "lat": -38.9355523,
-  "lon": -67.9992675
-},
-{
-  "type": "node",
-  "id": 7662899441,
-  "lat": -38.9355989,
-  "lon": -67.9990398
-},
-{
-  "type": "node",
-  "id": 7662899444,
-  "lat": -38.9354646,
-  "lon": -67.9992380
-},
-{
-  "type": "node",
-  "id": 7662899445,
-  "lat": -38.9355562,
-  "lon": -67.9987923
-},
-{
-  "type": "node",
-  "id": 7662899446,
-  "lat": -38.9356435,
-  "lon": -67.9988218
-},
-{
-  "type": "node",
-  "id": 7662899450,
-  "lat": -38.9355156,
-  "lon": -67.9989855
-},
-{
-  "type": "node",
-  "id": 7666855261,
-  "lat": -38.9362326,
-  "lon": -67.9973428
-},
-{
-  "type": "node",
-  "id": 7666859038,
-  "lat": -38.9356782,
-  "lon": -67.9972982
-},
-{
-  "type": "node",
-  "id": 7666859039,
-  "lat": -38.9359055,
-  "lon": -67.9973763
-},
-{
-  "type": "node",
-  "id": 7667099183,
-  "lat": -38.9355441,
-  "lon": -67.9988469
-},
-{
-  "type": "node",
-  "id": 7667124293,
-  "lat": -38.9357041,
-  "lon": -67.9971716
-},
-{
-  "type": "node",
-  "id": 7667124294,
-  "lat": -38.9360490,
-  "lon": -67.9972858
-},
-{
-  "type": "node",
-  "id": 7667124295,
-  "lat": -38.9360555,
-  "lon": -67.9972449
-},
-{
-  "type": "node",
-  "id": 7667124296,
-  "lat": -38.9362399,
-  "lon": -67.9973059
-},
-{
-  "type": "node",
-  "id": 7667124297,
-  "lat": -38.9362043,
-  "lon": -67.9974790
-},
-{
-  "type": "node",
-  "id": 7667124300,
-  "lat": -38.9359611,
-  "lon": -67.9972577
 },
 {
   "type": "node",
@@ -78254,6 +78223,36 @@
   "id": 12401461506,
   "lat": -38.9372244,
   "lon": -67.9987762
+},
+{
+  "type": "node",
+  "id": 12409917923,
+  "lat": -38.9369124,
+  "lon": -68.0000319
+},
+{
+  "type": "node",
+  "id": 12409917924,
+  "lat": -38.9369315,
+  "lon": -68.0000383
+},
+{
+  "type": "node",
+  "id": 12409917925,
+  "lat": -38.9369419,
+  "lon": -67.9999872
+},
+{
+  "type": "node",
+  "id": 12409917926,
+  "lat": -38.9369916,
+  "lon": -68.0000038
+},
+{
+  "type": "node",
+  "id": 12409917927,
+  "lat": -38.9369717,
+  "lon": -68.0001016
 },
 {
   "type": "node",
@@ -83450,36 +83449,6 @@
   "id": 11914563675,
   "lat": -31.4947580,
   "lon": -68.5439560
-},
-{
-  "type": "node",
-  "id": 3676319207,
-  "lat": -31.5397799,
-  "lon": -68.5231789
-},
-{
-  "type": "node",
-  "id": 6714836031,
-  "lat": -31.5397807,
-  "lon": -68.5231887
-},
-{
-  "type": "node",
-  "id": 6714836032,
-  "lat": -31.5400954,
-  "lon": -68.5231561
-},
-{
-  "type": "node",
-  "id": 6714836033,
-  "lat": -31.5397744,
-  "lon": -68.5231041
-},
-{
-  "type": "node",
-  "id": 6714836034,
-  "lat": -31.5400894,
-  "lon": -68.5230647
 },
 {
   "type": "node",
