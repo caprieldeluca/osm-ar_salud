@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-12T23:16:24Z",
-    "timestamp_areas_base": "2024-12-12T20:39:45Z",
+    "timestamp_osm_base": "2024-12-13T23:15:43Z",
+    "timestamp_areas_base": "2024-12-13T22:15:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4182,9 +4182,13 @@
 {
   "type": "node",
   "id": 3605822760,
-  "lat": -31.5359642,
-  "lon": -68.5178827,
+  "lat": -31.5360282,
+  "lon": -68.5178787,
   "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "574 (E)",
+    "addr:postcode": "J5402DEL",
+    "addr:street": "Rivadavia",
     "alt_name": "Centro Integral de Medicina de Alta Complejidad",
     "amenity": "clinic",
     "contact:email": "cimacsa@cimacsanjuan.com.ar",
@@ -18145,27 +18149,6 @@
     "phone": "+54 (11) 4639-5229",
     "ref:sisa_codigo": "50020012115419",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7500938611,
-  "lat": -27.2141505,
-  "lon": -61.1971770,
-  "tags": {
-    "addr:city": "Charata",
-    "addr:housenumber": "340",
-    "addr:postcode": "3730",
-    "addr:street": "Las Heras",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Barrio Juventud",
-    "operator": "Provincial",
-    "operator:type": "public",
-    "phone": "+54 3731 420070",
-    "ref:sisa_codigo": "50220282126145",
-    "ref:sisa_tipologia": "ESSIDT",
-    "wikidata": "Q94580107"
   }
 },
 {
@@ -41613,6 +41596,22 @@
 },
 {
   "type": "node",
+  "id": 9005083234,
+  "lat": -31.5355050,
+  "lon": -68.5173897,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "160 (S)",
+    "addr:postcode": "J5402ERD",
+    "addr:street": "Caseros",
+    "amenity": "clinic",
+    "contact:whatsapp": "+54 264 5634463",
+    "name": "Consultorios Externos Hospital Privado",
+    "opening_hours": "Mo-Fr 08:00-21:00"
+  }
+},
+{
+  "type": "node",
   "id": 9005287361,
   "lat": -34.5007892,
   "lon": -58.5441871,
@@ -44018,18 +44017,6 @@
     "name": "Instituto Médico Urológico",
     "phone": "+54 264 6728252",
     "website": "https://imusanjuan.com.ar"
-  }
-},
-{
-  "type": "node",
-  "id": 10665981923,
-  "lat": -31.5355074,
-  "lon": -68.5173149,
-  "tags": {
-    "amenity": "clinic",
-    "contact:whatsapp": "+54 264 5634463",
-    "name": "Consultorios Externos Hospital Privado",
-    "opening_hours": "Mo-Fr 08:00-21:00"
   }
 },
 {
@@ -47139,6 +47126,21 @@
     "name": "Consultorios AINA",
     "operator": "AINA del Sur S.R.L.",
     "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 12419318219,
+  "lat": -31.5358885,
+  "lon": -68.5158262,
+  "tags": {
+    "amenity": "clinic",
+    "blood:plasma": "yes",
+    "blood:platelets": "yes",
+    "blood:stemcells": "yes",
+    "blood:whole": "yes",
+    "healthcare": "blood_donation",
+    "name": "Instituto Provincial de Hemoterapia"
   }
 },
 {
