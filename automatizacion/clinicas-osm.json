@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-17T23:15:45Z",
-    "timestamp_areas_base": "2024-12-17T21:19:28Z",
+    "timestamp_osm_base": "2024-12-18T23:15:36Z",
+    "timestamp_areas_base": "2024-12-18T17:54:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -41531,6 +41531,23 @@
 },
 {
   "type": "node",
+  "id": 8980626211,
+  "lat": -31.5351775,
+  "lon": -68.5207814,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "369 (E)",
+    "addr:postcode": "J5402DIG",
+    "addr:street": "Laprida",
+    "amenity": "clinic",
+    "email": "info@clinicadelsolsanjuan.com",
+    "name": "Clínica del Sol",
+    "phone": "+54 264 4272227",
+    "website": "https://clinicadelsolsanjuan.com"
+  }
+},
+{
+  "type": "node",
   "id": 8983577903,
   "lat": -31.5384153,
   "lon": -68.5164642,
@@ -42203,19 +42220,6 @@
     "phone": "+54 343 4344322",
     "ref:sisa_codigo": "50300842142203",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 9431848974,
-  "lat": -31.5352290,
-  "lon": -68.5207776,
-  "tags": {
-    "amenity": "clinic",
-    "email": "info@clinicadelsolsanjuan.com",
-    "name": "Clínica del Sol",
-    "phone": "+54 264 4272227",
-    "website": "https://clinicadelsolsanjuan.com"
   }
 },
 {
@@ -47141,6 +47145,22 @@
     "blood:whole": "yes",
     "healthcare": "blood_donation",
     "name": "Instituto Provincial de Hemoterapia"
+  }
+},
+{
+  "type": "node",
+  "id": 12429477731,
+  "lat": -38.9361212,
+  "lon": -67.9927556,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "564",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Leandro N. Alem",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "traumatology",
+    "name": "Centro de Especialidades en Traumatología y Ortpedia de Cipolletti"
   }
 },
 {
@@ -54186,6 +54206,7 @@
     "alt_name": "Centro de Salud Comunitario Nº 26",
     "amenity": "clinic",
     "building": "public",
+    "check_date:opening_hours": "2024-12-18",
     "description": "Especialidades: Clínica Médica, Pediatría, Tocoginecología, Psicología, Trabajo Social, Obstetricia. Actividades: Grupos de Trabajo, Charlas Mensuales, Talleres, Seguimiento de Pacientes bajo Programa, Jornadas, Seguimiento Domiciliario, Intervención, etc",
     "health_facility:type": "clinic",
     "health_service": "yes",
@@ -54197,6 +54218,7 @@
     "healthcare:speciality": "community",
     "medical_system:western": "yes",
     "name": "CeSAC Nº 26",
+    "opening_hours:signed": "no",
     "operator": "Subsecretaría de Atención Primaria, Ambulatoria y Comunitaria",
     "operator:type": "public",
     "phone": "+54 11 4897-2156",
@@ -61767,28 +61789,6 @@
     "operator": "Clínica Juan XXIII S.A.",
     "operator:type": "private",
     "wikidata": "Q94704942"
-  }
-},
-{
-  "type": "way",
-  "id": 821142880,
-  "nodes": [
-    7667124394,
-    7667124395,
-    7667124396,
-    7667124397,
-    7667124394
-  ],
-  "tags": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "564",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Leandro N. Alem",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "traumatology",
-    "name": "Centro de Especialidades en Traumatología y Ortpedia de Cipolletti"
   }
 },
 {
@@ -70344,6 +70344,38 @@
   }
 },
 {
+  "type": "way",
+  "id": 1343193721,
+  "nodes": [
+    12427745540,
+    12427745542,
+    12427778654,
+    12427778655,
+    12427778656,
+    12427778657,
+    12427778658,
+    12427745547,
+    12427745540
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "69",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/CentroCalidarCipolletti",
+    "email": "calidarsrn@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "physiatry",
+    "height": "4",
+    "mobile": "+54 9 299 413-1549",
+    "name": "Calidar",
+    "operator": "Sanatorio Río Negro S.A.",
+    "operator:type": "private"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -78298,27 +78330,51 @@
 },
 {
   "type": "node",
-  "id": 7667124394,
-  "lat": -38.9362597,
-  "lon": -67.9928611
+  "id": 12427745540,
+  "lat": -38.9351776,
+  "lon": -67.9997873
 },
 {
   "type": "node",
-  "id": 7667124395,
-  "lat": -38.9362839,
-  "lon": -67.9927502
+  "id": 12427745542,
+  "lat": -38.9353565,
+  "lon": -67.9998467
 },
 {
   "type": "node",
-  "id": 7667124396,
-  "lat": -38.9359818,
-  "lon": -67.9926497
+  "id": 12427745547,
+  "lat": -38.9351979,
+  "lon": -67.9996874
 },
 {
   "type": "node",
-  "id": 7667124397,
-  "lat": -38.9359596,
-  "lon": -67.9927616
+  "id": 12427778654,
+  "lat": -38.9353645,
+  "lon": -67.9998074
+},
+{
+  "type": "node",
+  "id": 12427778655,
+  "lat": -38.9353329,
+  "lon": -67.9997969
+},
+{
+  "type": "node",
+  "id": 12427778656,
+  "lat": -38.9353408,
+  "lon": -67.9997577
+},
+{
+  "type": "node",
+  "id": 12427778657,
+  "lat": -38.9353134,
+  "lon": -67.9997485
+},
+{
+  "type": "node",
+  "id": 12427778658,
+  "lat": -38.9353177,
+  "lon": -67.9997269
 },
 {
   "type": "node",

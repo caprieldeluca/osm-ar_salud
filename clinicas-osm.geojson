@@ -15891,6 +15891,7 @@
     "alt_name": "Centro de Salud Comunitario Nº 26",
     "amenity": "clinic",
     "building": "public",
+    "check_date:opening_hours": "2024-12-18",
     "description": "Especialidades: Clínica Médica, Pediatría, Tocoginecología, Psicología, Trabajo Social, Obstetricia. Actividades: Grupos de Trabajo, Charlas Mensuales, Talleres, Seguimiento de Pacientes bajo Programa, Jornadas, Seguimiento Domiciliario, Intervención, etc",
     "health_facility:type": "clinic",
     "health_service": "yes",
@@ -15902,6 +15903,7 @@
     "healthcare:speciality": "community",
     "medical_system:western": "yes",
     "name": "CeSAC Nº 26",
+    "opening_hours:signed": "no",
     "operator": "Subsecretaría de Atención Primaria, Ambulatoria y Comunitaria",
     "operator:type": "public",
     "phone": "+54 11 4897-2156",
@@ -32154,49 +32156,6 @@
         [
           -67.5703288,
           -39.0297392
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/821142880",
-  "properties": {
-    "addr:city": "Cipolletti",
-    "addr:housenumber": "564",
-    "addr:postcode": "R8324",
-    "addr:street": "Avenida Leandro N. Alem",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "healthcare:speciality": "traumatology",
-    "name": "Centro de Especialidades en Traumatología y Ortpedia de Cipolletti",
-    "id": "way/821142880"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -67.9928611,
-          -38.9362597
-        ],
-        [
-          -67.9927502,
-          -38.9362839
-        ],
-        [
-          -67.9926497,
-          -38.9359818
-        ],
-        [
-          -67.9927616,
-          -38.9359596
-        ],
-        [
-          -67.9928611,
-          -38.9362597
         ]
       ]
     ]
@@ -51363,6 +51322,71 @@
         [
           -68.0002821,
           -38.9368402
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1343193721",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "69",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/CentroCalidarCipolletti",
+    "email": "calidarsrn@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "physiatry",
+    "height": "4",
+    "mobile": "+54 9 299 413-1549",
+    "name": "Calidar",
+    "operator": "Sanatorio Río Negro S.A.",
+    "operator:type": "private",
+    "id": "way/1343193721"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.9997873,
+          -38.9351776
+        ],
+        [
+          -67.9998467,
+          -38.9353565
+        ],
+        [
+          -67.9998074,
+          -38.9353645
+        ],
+        [
+          -67.9997969,
+          -38.9353329
+        ],
+        [
+          -67.9997577,
+          -38.9353408
+        ],
+        [
+          -67.9997485,
+          -38.9353134
+        ],
+        [
+          -67.9997269,
+          -38.9353177
+        ],
+        [
+          -67.9996874,
+          -38.9351979
+        ],
+        [
+          -67.9997873,
+          -38.9351776
         ]
       ]
     ]
@@ -107477,6 +107501,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8980626211",
+  "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "369 (E)",
+    "addr:postcode": "J5402DIG",
+    "addr:street": "Laprida",
+    "amenity": "clinic",
+    "email": "info@clinicadelsolsanjuan.com",
+    "name": "Clínica del Sol",
+    "phone": "+54 264 4272227",
+    "website": "https://clinicadelsolsanjuan.com",
+    "id": "node/8980626211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5207814,
+      -31.5351775
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8983577903",
   "properties": {
     "addr:city": "San Juan",
@@ -108412,25 +108459,6 @@
     "coordinates": [
       -60.4968139,
       -31.7339672
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9431848974",
-  "properties": {
-    "amenity": "clinic",
-    "email": "info@clinicadelsolsanjuan.com",
-    "name": "Clínica del Sol",
-    "phone": "+54 264 4272227",
-    "website": "https://clinicadelsolsanjuan.com",
-    "id": "node/9431848974"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.5207776,
-      -31.535229
     ]
   }
 },
@@ -115492,6 +115520,28 @@
     "coordinates": [
       -68.5158262,
       -31.5358885
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12429477731",
+  "properties": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "564",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Leandro N. Alem",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "traumatology",
+    "name": "Centro de Especialidades en Traumatología y Ortpedia de Cipolletti",
+    "id": "node/12429477731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.9927556,
+      -38.9361212
     ]
   }
 }
