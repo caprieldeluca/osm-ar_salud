@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-20T23:13:56Z",
-    "timestamp_areas_base": "2024-12-20T17:03:49Z",
+    "timestamp_osm_base": "2024-12-21T23:13:41Z",
+    "timestamp_areas_base": "2024-12-21T18:33:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12,12 +12,13 @@
   "type": "node",
   "id": 420034699,
   "lat": -28.4498717,
-  "lon": -65.7217098,
+  "lon": -65.7217468,
   "tags": {
     "addr:city": "San Isidro",
     "addr:postcode": "4707",
     "addr:street": "Avenida Presidente Castillo",
     "amenity": "clinic",
+    "branch": "Valle Viejo",
     "description": "ECA Sucursal Valle Viejo",
     "healthcare": "clinic",
     "name": "ECA - Emergencias Medicas Catamarca",
@@ -69561,6 +69562,23 @@
 },
 {
   "type": "way",
+  "id": 1297868493,
+  "nodes": [
+    12024311463,
+    12024311462,
+    12024311461,
+    12024311460,
+    12024311463
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "emergency": "yes",
+    "name": "Hospital Intermedio UPA 12 Moreno",
+    "office": "Unidad de Pronta Atención 12"
+  }
+},
+{
+  "type": "way",
   "id": 1298901720,
   "nodes": [
     12032198483,
@@ -92627,6 +92645,30 @@
   "id": 4839273212,
   "lat": -34.4114533,
   "lon": -58.9636746
+},
+{
+  "type": "node",
+  "id": 12024311460,
+  "lat": -34.5542392,
+  "lon": -58.8256972
+},
+{
+  "type": "node",
+  "id": 12024311461,
+  "lat": -34.5550499,
+  "lon": -58.8271201
+},
+{
+  "type": "node",
+  "id": 12024311462,
+  "lat": -34.5545462,
+  "lon": -58.8275036
+},
+{
+  "type": "node",
+  "id": 12024311463,
+  "lat": -34.5537664,
+  "lon": -58.8261652
 },
 {
   "type": "node",
