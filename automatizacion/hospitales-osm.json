@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-23T23:12:56Z",
-    "timestamp_areas_base": "2024-12-23T21:05:15Z",
+    "timestamp_osm_base": "2024-12-24T23:13:15Z",
+    "timestamp_areas_base": "2024-12-24T18:55:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1059,17 +1059,6 @@
     "ref:sisa_codigo": "10540842164463",
     "ref:sisa_tipologia": "ESCIG",
     "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales"
-  }
-},
-{
-  "type": "node",
-  "id": 1396605440,
-  "lat": -47.7463293,
-  "lon": -65.8880088,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro Asistencial"
   }
 },
 {
@@ -26193,6 +26182,7 @@
     1419409830,
     1419409860,
     1419409832,
+    12449662646,
     1419409826,
     1419409847,
     1419409824,
@@ -56786,6 +56776,30 @@
   }
 },
 {
+  "type": "way",
+  "id": 1346008159,
+  "nodes": [
+    1396605440,
+    12449662542,
+    12449662543,
+    12449662544,
+    12449662545,
+    12449662546,
+    12449662547,
+    12449662548,
+    12449662549,
+    12449662550,
+    12449662551,
+    12449662552,
+    1396605440
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Asistencial"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -64856,6 +64870,84 @@
   "id": 1419409860,
   "lat": -47.7566427,
   "lon": -65.8958724
+},
+{
+  "type": "node",
+  "id": 12449662646,
+  "lat": -47.7569821,
+  "lon": -65.8956380
+},
+{
+  "type": "node",
+  "id": 1396605440,
+  "lat": -47.7463680,
+  "lon": -65.8880908
+},
+{
+  "type": "node",
+  "id": 12449662542,
+  "lat": -47.7463968,
+  "lon": -65.8880049
+},
+{
+  "type": "node",
+  "id": 12449662543,
+  "lat": -47.7465069,
+  "lon": -65.8880130
+},
+{
+  "type": "node",
+  "id": 12449662544,
+  "lat": -47.7465357,
+  "lon": -65.8880854
+},
+{
+  "type": "node",
+  "id": 12449662545,
+  "lat": -47.7465934,
+  "lon": -65.8880908
+},
+{
+  "type": "node",
+  "id": 12449662546,
+  "lat": -47.7466331,
+  "lon": -65.8880666
+},
+{
+  "type": "node",
+  "id": 12449662547,
+  "lat": -47.7466457,
+  "lon": -65.8880103
+},
+{
+  "type": "node",
+  "id": 12449662548,
+  "lat": -47.7466259,
+  "lon": -65.8879781
+},
+{
+  "type": "node",
+  "id": 12449662552,
+  "lat": -47.7463445,
+  "lon": -65.8881256
+},
+{
+  "type": "node",
+  "id": 12449662549,
+  "lat": -47.7462255,
+  "lon": -65.8876884
+},
+{
+  "type": "node",
+  "id": 12449662550,
+  "lat": -47.7460884,
+  "lon": -65.8881149
+},
+{
+  "type": "node",
+  "id": 12449662551,
+  "lat": -47.7461552,
+  "lon": -65.8881310
 },
 {
   "type": "node",
