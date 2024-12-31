@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2024-12-30T23:14:43Z",
-    "timestamp_areas_base": "2024-12-30T19:41:30Z",
+    "timestamp_osm_base": "2024-12-31T23:14:19Z",
+    "timestamp_areas_base": "2024-12-31T19:24:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -47131,6 +47131,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 12465991319,
+  "lat": -38.9347919,
+  "lon": -67.9997429,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "54",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "surgery",
+    "name": "Recepción de Internación SRN",
+    "operator": "Sanatorio Río Negro S.A.",
+    "operator:type": "private"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -52607,8 +52625,9 @@
     "addr:street": "Avenida de los Incas",
     "amenity": "clinic",
     "building": "yes",
+    "description": "Analisis Clinicos Kinesiologia",
     "healthcare": "clinic",
-    "name": "Labofem Analisis Clinicos Kinesiologia"
+    "name": "Labofem"
   }
 },
 {
@@ -61728,6 +61747,55 @@
 },
 {
   "type": "way",
+  "id": 821670333,
+  "nodes": [
+    7672089936,
+    12464298038,
+    12464298041,
+    12464298039,
+    12465983879,
+    12465991306,
+    12465991307,
+    12465983884,
+    12464298040,
+    12465991315,
+    12465991318,
+    12465983859,
+    7672089937,
+    7672089938,
+    12465983875,
+    8991559546,
+    12465983869,
+    12465983870,
+    7672089939,
+    12465983864,
+    12465983868,
+    7672089936
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "60",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "clinic",
+    "contact:facebook": "https://www.facebook.com/SanatorioRioNegroCipolletti",
+    "contact:instagram": "https://www.instagram.com/sanatoriorn.oficial/",
+    "email": "info@sanatoriorionegro.com.ar",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;emergency",
+    "height": "0",
+    "name": "Sanatorio Río Negro",
+    "operator": "Sanatorio Río Negro S.A.",
+    "operator:type": "private",
+    "phone": "+54 299 478-1225",
+    "start_date": "1959",
+    "website": "https://www.sanatoriorionegro.com.ar/",
+    "wheelchair": "yes",
+    "wikidata": "Q94704943"
+  }
+},
+{
+  "type": "way",
   "id": 825212317,
   "nodes": [
     7705368805,
@@ -70340,9 +70408,10 @@
     "amenity": "clinic",
     "building": "yes",
     "contact:facebook": "https://www.facebook.com/CentroCalidarCipolletti",
+    "contact:instagram": "https://www.instagram.com/calidar.cipolletti/",
     "email": "calidarsrn@gmail.com",
     "healthcare": "clinic",
-    "healthcare:speciality": "physiatry",
+    "healthcare:speciality": "cardiology;paediatrics;gastroenterology;pulmonology;humanistic",
     "height": "4",
     "mobile": "+54 9 299 413-1549",
     "name": "Calidar",
@@ -70555,6 +70624,7 @@
     "building:colour": "lightgrey",
     "email": "consultorios.ambarsalud@gmail.com",
     "healthcare": "clinic",
+    "healthcare:speciality": "allergology;cardiology;dermatology;diabetology;gynaecology;applied_kinesiology;general;occupational;dentistry;trauma",
     "height": "3",
     "mobile": "+54 9 299 511-7004",
     "name": "Ámbar Salud",
@@ -70562,6 +70632,51 @@
     "operator": "Sanatorio Río Negro S.A.",
     "operator:type": "private",
     "website": "https://consultorios-ambarsalud-sanatorio-rio-negro.negocio.site/"
+  }
+},
+{
+  "type": "way",
+  "id": 1347473873,
+  "nodes": [
+    12464305223,
+    12464305222,
+    12464305220,
+    12464305209,
+    12464305210,
+    12464305251,
+    12464305211,
+    12464305212,
+    12464305213,
+    12464305214,
+    12464305215,
+    12464305216,
+    12464305217,
+    12464305218,
+    12464305219,
+    12464305221,
+    12464305224,
+    12464305231,
+    12464305233,
+    12464305223
+  ],
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "525",
+    "addr:postcode": "R8324",
+    "addr:street": "25 de Mayo",
+    "amenity": "clinic",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/OnixSalud.Consultorios",
+    "contact:instagram": "https://www.instagram.com/onixsalud.cipolletti/",
+    "email": "onixsalud@huincumed.com.ar",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;allergology;anaesthetics;cardiology;dermatology;diabetology;surgery;gastroenterology;neurology;oncology",
+    "height": "0",
+    "mobile": "+54 9 299 507-6253",
+    "name": "Ónix Salud",
+    "operator": "Sanatorio Río Negro S.A.",
+    "operator:type": "private",
+    "website": "https://onixsaludconsultorio.negocio.site/"
   }
 },
 {
@@ -78159,6 +78274,36 @@
 },
 {
   "type": "node",
+  "id": 7672089936,
+  "lat": -38.9346459,
+  "lon": -67.9996721
+},
+{
+  "type": "node",
+  "id": 7672089937,
+  "lat": -38.9348676,
+  "lon": -67.9997474
+},
+{
+  "type": "node",
+  "id": 7672089938,
+  "lat": -38.9349369,
+  "lon": -67.9994077
+},
+{
+  "type": "node",
+  "id": 7672089939,
+  "lat": -38.9347384,
+  "lon": -67.9992213
+},
+{
+  "type": "node",
+  "id": 8991559546,
+  "lat": -38.9349632,
+  "lon": -67.9992814
+},
+{
+  "type": "node",
   "id": 9201340318,
   "lat": -38.9343441,
   "lon": -67.9945886
@@ -79020,6 +79165,216 @@
   "id": 12449895976,
   "lat": -38.9357411,
   "lon": -67.9973343
+},
+{
+  "type": "node",
+  "id": 12464298038,
+  "lat": -38.9344224,
+  "lon": -67.9995954
+},
+{
+  "type": "node",
+  "id": 12464298039,
+  "lat": -38.9343749,
+  "lon": -67.9998282
+},
+{
+  "type": "node",
+  "id": 12464298040,
+  "lat": -38.9348123,
+  "lon": -67.9999755
+},
+{
+  "type": "node",
+  "id": 12464298041,
+  "lat": -38.9344002,
+  "lon": -67.9997040
+},
+{
+  "type": "node",
+  "id": 12464305209,
+  "lat": -38.9347022,
+  "lon": -67.9989092
+},
+{
+  "type": "node",
+  "id": 12464305210,
+  "lat": -38.9347092,
+  "lon": -67.9988766
+},
+{
+  "type": "node",
+  "id": 12464305211,
+  "lat": -38.9346806,
+  "lon": -67.9988663
+},
+{
+  "type": "node",
+  "id": 12464305212,
+  "lat": -38.9346841,
+  "lon": -67.9988503
+},
+{
+  "type": "node",
+  "id": 12464305213,
+  "lat": -38.9346091,
+  "lon": -67.9988235
+},
+{
+  "type": "node",
+  "id": 12464305214,
+  "lat": -38.9346362,
+  "lon": -67.9986980
+},
+{
+  "type": "node",
+  "id": 12464305215,
+  "lat": -38.9347393,
+  "lon": -67.9987348
+},
+{
+  "type": "node",
+  "id": 12464305216,
+  "lat": -38.9347348,
+  "lon": -67.9987555
+},
+{
+  "type": "node",
+  "id": 12464305217,
+  "lat": -38.9347477,
+  "lon": -67.9987602
+},
+{
+  "type": "node",
+  "id": 12464305218,
+  "lat": -38.9347595,
+  "lon": -67.9987050
+},
+{
+  "type": "node",
+  "id": 12464305219,
+  "lat": -38.9348233,
+  "lon": -67.9987271
+},
+{
+  "type": "node",
+  "id": 12464305220,
+  "lat": -38.9347794,
+  "lon": -67.9989367
+},
+{
+  "type": "node",
+  "id": 12464305221,
+  "lat": -38.9348109,
+  "lon": -67.9987831
+},
+{
+  "type": "node",
+  "id": 12464305222,
+  "lat": -38.9347951,
+  "lon": -67.9988641
+},
+{
+  "type": "node",
+  "id": 12464305223,
+  "lat": -38.9348083,
+  "lon": -67.9988688
+},
+{
+  "type": "node",
+  "id": 12464305224,
+  "lat": -38.9348257,
+  "lon": -67.9987884
+},
+{
+  "type": "node",
+  "id": 12464305231,
+  "lat": -38.9348222,
+  "lon": -67.9988049
+},
+{
+  "type": "node",
+  "id": 12464305233,
+  "lat": -38.9348111,
+  "lon": -67.9988556
+},
+{
+  "type": "node",
+  "id": 12464305251,
+  "lat": -38.9346949,
+  "lon": -67.9988715
+},
+{
+  "type": "node",
+  "id": 12465983859,
+  "lat": -38.9348588,
+  "lon": -67.9997444
+},
+{
+  "type": "node",
+  "id": 12465983864,
+  "lat": -38.9346876,
+  "lon": -67.9994692
+},
+{
+  "type": "node",
+  "id": 12465983868,
+  "lat": -38.9346735,
+  "lon": -67.9995378
+},
+{
+  "type": "node",
+  "id": 12465983869,
+  "lat": -38.9347998,
+  "lon": -67.9992260
+},
+{
+  "type": "node",
+  "id": 12465983870,
+  "lat": -38.9347415,
+  "lon": -67.9992062
+},
+{
+  "type": "node",
+  "id": 12465983875,
+  "lat": -38.9349460,
+  "lon": -67.9993654
+},
+{
+  "type": "node",
+  "id": 12465983879,
+  "lat": -38.9346317,
+  "lon": -67.9999147
+},
+{
+  "type": "node",
+  "id": 12465983884,
+  "lat": -38.9347647,
+  "lon": -67.9999592
+},
+{
+  "type": "node",
+  "id": 12465991306,
+  "lat": -38.9346638,
+  "lon": -67.9999255
+},
+{
+  "type": "node",
+  "id": 12465991307,
+  "lat": -38.9347143,
+  "lon": -67.9999424
+},
+{
+  "type": "node",
+  "id": 12465991315,
+  "lat": -38.9348376,
+  "lon": -67.9998497
+},
+{
+  "type": "node",
+  "id": 12465991318,
+  "lat": -38.9348548,
+  "lon": -67.9997643
 },
 {
   "type": "node",
@@ -94894,26 +95249,26 @@
 {
   "type": "node",
   "id": 11268504344,
-  "lat": -34.9947393,
-  "lon": -58.0478691
+  "lat": -34.9948214,
+  "lon": -58.0479146
 },
 {
   "type": "node",
   "id": 11268504345,
-  "lat": -34.9946327,
-  "lon": -58.0480168
+  "lat": -34.9947111,
+  "lon": -58.0480597
 },
 {
   "type": "node",
   "id": 11268504346,
-  "lat": -34.9946877,
-  "lon": -58.0480832
+  "lat": -34.9947698,
+  "lon": -58.0481262
 },
 {
   "type": "node",
   "id": 11268504347,
-  "lat": -34.9947997,
-  "lon": -58.0479383
+  "lat": -34.9948801,
+  "lon": -58.0479811
 },
 {
   "type": "node",
