@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-01T23:14:27Z",
-    "timestamp_areas_base": "2025-01-01T20:28:11Z",
+    "timestamp_osm_base": "2025-01-02T23:15:04Z",
+    "timestamp_areas_base": "2025-01-02T17:00:46Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6089,8 +6089,8 @@
   "tags": {
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "Avenida 51",
     "amenity": "clinic",
     "description": "Por el momento única clínica con internación de pacientes.",
@@ -6108,8 +6108,8 @@
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
     "addr:housenumber": "41",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "54",
     "amenity": "clinic",
     "description": "Momentáneamente no realiza internación. Se realizan estudios tales como: ecografías, análisis de sangre, placas radiográficas, electrocardiograma, ecocardiograma y ergometrías. Grupo de profesionales: médicos clínicos, cirujano, pediatra, traumatólogo,",
@@ -6455,8 +6455,8 @@
   "tags": {
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "48",
     "amenity": "clinic",
     "description": "Sólo atención ambulatoria. No realizan internaciones. Médico director: Diego Ternavasio (médico generalista) Adriana Racca (Pediatra) su esposa.",
@@ -12412,13 +12412,15 @@
   "lon": -62.0493899,
   "tags": {
     "addr:city": "Germania",
+    "addr:country": "AR",
     "addr:housenumber": "667",
-    "addr:postcode": "B6053",
+    "addr:postcode": "6053",
+    "addr:province": "Buenos Aires",
     "addr:street": "República Argentina",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Sala de Primeros Auxilios -Municipal-",
-    "phone": "+54 2356  494019"
+    "phone": "+54 2356 494019"
   }
 },
 {
@@ -43349,8 +43351,8 @@
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
     "addr:housenumber": "12",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "54",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -47158,6 +47160,18 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Las Rosas",
     "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 12469007176,
+  "lat": -32.3938195,
+  "lon": -63.2451210,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "neurosurgery;neurology;ophthalmology;applied_kinesiology;psychiatry;osteopathy",
+    "name": "INNC"
   }
 },
 {

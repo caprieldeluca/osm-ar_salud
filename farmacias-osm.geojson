@@ -86371,8 +86371,8 @@
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
     "addr:housenumber": "9",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "48",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -86556,8 +86556,8 @@
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
     "addr:housenumber": "382",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "Avenida 50",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -113049,8 +113049,10 @@
   "id": "node/5339966053",
   "properties": {
     "addr:city": "Germania",
+    "addr:country": "AR",
     "addr:housenumber": "644",
-    "addr:postcode": "B6053",
+    "addr:postcode": "6053",
+    "addr:province": "Buenos Aires",
     "addr:street": "República Argentina",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -120363,6 +120365,7 @@
     "addr:postcode": "6620",
     "addr:street": "Carlos Pellegrini",
     "amenity": "pharmacy",
+    "check_date": "2025-01-02",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Cruz Roja",
@@ -122367,8 +122370,8 @@
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
     "addr:housenumber": "305",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "55",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -122391,8 +122394,8 @@
     "addr:city": "Villa Cañás",
     "addr:country": "AR",
     "addr:housenumber": "58",
-    "addr:postcode": "S2607",
-    "addr:state": "Santa Fe",
+    "addr:postcode": "2607",
+    "addr:province": "Santa Fe",
     "addr:street": "Avenida 50",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -145697,8 +145700,10 @@
   "id": "node/8343711908",
   "properties": {
     "addr:city": "Germania",
+    "addr:country": "AR",
     "addr:housenumber": "122",
-    "addr:postcode": "B6053",
+    "addr:postcode": "6053",
+    "addr:province": "Buenos Aires",
     "addr:street": "Iguazú",
     "amenity": "pharmacy",
     "dispensing": "yes",
@@ -178288,6 +178293,103 @@
     "coordinates": [
       -57.8828792,
       -34.8708621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12468869911",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Magris",
+    "panoramax": "73ceb6e0-e4f3-4972-9730-146f08b45936",
+    "id": "node/12468869911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.9661545,
+      -33.7389606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12468869918",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Moscoso",
+    "panoramax": "2df7ac75-f773-44eb-8405-7708823be9c3",
+    "id": "node/12468869918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.97081,
+      -33.7402079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12469042869",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Bothalmey",
+    "panoramax": "a8d554de-f18f-48a2-a894-4d8c5ce16734",
+    "id": "node/12469042869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.9721246,
+      -33.7409063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12469042885",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Carpi",
+    "panoramax": "bd3f5af2-34ea-4f0c-b31f-c078f91617ba",
+    "phone": "3462434695",
+    "id": "node/12469042885"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.9783021,
+      -33.7442934
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12469342119",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Domenino",
+    "id": "node/12469342119"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.2441125,
+      -32.3987738
     ]
   }
 }
