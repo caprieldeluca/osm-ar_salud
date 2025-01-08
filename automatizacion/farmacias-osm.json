@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-07T23:15:09Z",
+    "timestamp_osm_base": "2025-01-08T23:15:26Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -5610,6 +5610,7 @@
     "addr:street": "España",
     "amenity": "pharmacy",
     "brand": "Del Plata",
+    "check_date": "2025-01-08",
     "healthcare": "pharmacy",
     "name": "Del Plata 6"
   }
@@ -5669,6 +5670,7 @@
     "addr:street": "España",
     "amenity": "pharmacy",
     "brand": "Mori",
+    "check_date": "2025-01-08",
     "healthcare": "pharmacy",
     "name": "Mori España"
   }
@@ -6209,8 +6211,15 @@
     "alt_name": "Sucursal 9",
     "amenity": "pharmacy",
     "brand": "Del Plata",
+    "check_date": "2025-01-08",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Del Plata - Dermoexpert"
+    "name": "Del Plata 10",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "limited"
   }
 },
 {
@@ -95364,6 +95373,17 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "Punto Farma"
+  }
+},
+{
+  "type": "node",
+  "id": 12485014606,
+  "lat": -32.4034368,
+  "lon": -63.2474495,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "De Lourdes"
   }
 },
 {
