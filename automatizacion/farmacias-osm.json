@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-09T23:16:18Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-01-10T23:15:28Z",
+    "timestamp_areas_base": "2025-01-10T18:09:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -42466,6 +42466,7 @@
   "lon": -68.8836535,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2025-01-09",
     "healthcare": "pharmacy",
     "name": "Farmc"
   }
@@ -95400,6 +95401,20 @@
   }
 },
 {
+  "type": "node",
+  "id": 12487407728,
+  "lat": -32.9868022,
+  "lon": -68.8833106,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-01-09",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Mitre 25"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -108991,8 +109006,11 @@
     "addr:country": "AR",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "yes",
     "healthcare": "pharmacy",
-    "name": "Taboada"
+    "name": "Taboada",
+    "opening_hours": "Mo-Sa 08:00-20:00"
   }
 },
 {

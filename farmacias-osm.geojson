@@ -28906,8 +28906,11 @@
     "addr:country": "AR",
     "amenity": "pharmacy",
     "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "yes",
     "healthcare": "pharmacy",
     "name": "Taboada",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "way/759903067"
   },
   "geometry": {
@@ -103197,6 +103200,7 @@
   "id": "node/4693771975",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2025-01-09",
     "healthcare": "pharmacy",
     "name": "Farmc",
     "id": "node/4693771975"
@@ -178443,6 +178447,26 @@
     "coordinates": [
       -58.7676614,
       -34.6551532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12487407728",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-01-09",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Mitre 25",
+    "id": "node/12487407728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.8833106,
+      -32.9868022
     ]
   }
 }
