@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-12T23:14:11Z",
-    "timestamp_areas_base": "2025-01-12T16:55:35Z",
+    "timestamp_osm_base": "2025-01-13T23:14:23Z",
+    "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1182,8 +1182,8 @@
 {
   "type": "node",
   "id": 2378280584,
-  "lat": -34.3244109,
-  "lon": -58.8478534,
+  "lat": -34.3243212,
+  "lon": -58.8478193,
   "tags": {
     "addr:full": "Calle 119 Y Ruta 9 Km 55.500",
     "addr:postcode": "1625",
@@ -8427,8 +8427,9 @@
   "lon": -71.3443785,
   "tags": {
     "amenity": "clinic",
+    "check_date": "2025-01-13",
     "healthcare": "clinic",
-    "name": "Roca"
+    "name": "Centro Medico Roca"
   }
 },
 {
@@ -17187,17 +17188,6 @@
     "healthcare": "clinic",
     "name": "CAPS La Florida",
     "nohousenumber": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 7383006231,
-  "lat": -34.5811575,
-  "lon": -58.4058979,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clinica Juri de Cirugia Estética"
   }
 },
 {
@@ -43106,10 +43096,15 @@
     "addr:postcode": "1646",
     "addr:street": "Almirante García Mansilla",
     "amenity": "clinic",
+    "check_date": "2025-01-13",
     "healthcare": "clinic",
+    "healthcare:speciality": "cardiology;applied_kinesiology",
     "name": "MediPrev",
+    "opening_hours": "Mo-Fr 08:00-19:30; Sa 09:00-13:00; Su off",
+    "operator:type": "privado",
     "phone": "+54 11 5263-2224",
-    "website": "https://mediprev.com.ar/"
+    "website": "https://mediprev.com.ar/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -47264,6 +47259,16 @@
   "tags": {
     "amenity": "clinic",
     "name": "Dispensario"
+  }
+},
+{
+  "type": "node",
+  "id": 12498686577,
+  "lat": -34.6477475,
+  "lon": -58.5640165,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Sami"
   }
 },
 {

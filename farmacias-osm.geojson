@@ -31995,52 +31995,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/836815443",
-  "properties": {
-    "addr:city": "San Martín de los Andes",
-    "addr:postcode": "Q8370",
-    "addr:street": "Eduardo Elordi",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Austral",
-    "id": "way/836815443"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -71.3487408,
-          -40.1555403
-        ],
-        [
-          -71.3488696,
-          -40.1555831
-        ],
-        [
-          -71.3490106,
-          -40.15563
-        ],
-        [
-          -71.3489684,
-          -40.1557035
-        ],
-        [
-          -71.3486991,
-          -40.1556172
-        ],
-        [
-          -71.3487408,
-          -40.1555403
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/836978481",
   "properties": {
     "amenity": "pharmacy",
@@ -68240,14 +68194,23 @@
   "type": "Feature",
   "id": "node/3032821197",
   "properties": {
+    "addr:housenumber": "1802",
+    "addr:street": "Avenida Olleros",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
-    "check_date": "2024-08-11",
+    "check_date": "2025-01-13",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
+    "website": "https://www.farmacity.com/",
     "id": "node/3032821197"
   },
   "geometry": {
@@ -89766,8 +89729,9 @@
     "addr:postcode": "8370",
     "addr:street": "Rudecindo Roca",
     "amenity": "pharmacy",
+    "check_date": "2025-01-13",
     "healthcare": "pharmacy",
-    "name": "Jachal",
+    "name": "Seque",
     "id": "node/4317793289"
   },
   "geometry": {
@@ -91496,6 +91460,7 @@
   "id": "node/4383770894",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2025-01-13",
     "healthcare": "pharmacy",
     "name": "Roca",
     "id": "node/4383770894"
@@ -143627,9 +143592,13 @@
   "type": "Feature",
   "id": "node/7877101446",
   "properties": {
+    "addr:housenumber": "1701",
+    "addr:street": "Avenida Federico Lacroze",
     "amenity": "pharmacy",
+    "check_date": "2025-01-13",
     "healthcare": "pharmacy",
     "name": "El Cóndor",
+    "wheelchair": "no",
     "id": "node/7877101446"
   },
   "geometry": {
@@ -178477,6 +178446,60 @@
     "coordinates": [
       -71.2951565,
       -41.1357077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12498280332",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-01-13",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/12498280332"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.3445253,
+      -40.1534166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12498674391",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Arabia",
+    "id": "node/12498674391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5592649,
+      -34.6746782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12498999643",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-01-13",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/12498999643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -71.3499886,
+      -40.1526592
     ]
   }
 }
