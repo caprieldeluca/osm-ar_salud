@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-19T23:13:44Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-01-20T23:13:17Z",
+    "timestamp_areas_base": "2025-01-20T21:31:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -64608,7 +64608,9 @@
     9123295614,
     9123295582,
     9123295334,
+    12518222608,
     9123295080,
+    12518222616,
     9123295614
   ],
   "tags": {
@@ -64619,8 +64621,10 @@
     "healthcare:speciality": "general",
     "name": "CAPS Lote Hogar 3",
     "official_name": "Centro de Atención Primaria de Salud Lote Hogar 3",
-    "operator": "Ministerio de Salud Pública",
-    "operator:type": "public"
+    "operator": "Ministerio de Salud",
+    "operator:short": "MSAL",
+    "operator:type": "government",
+    "operator:wikidata": "Q5420596"
   }
 },
 {
@@ -71007,6 +71011,29 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Centro de Cuidado Integral Playón Chacarita"
+  }
+},
+{
+  "type": "way",
+  "id": 1353026766,
+  "nodes": [
+    5360637749,
+    12519352379,
+    12519352378,
+    5360637748,
+    5360637749
+  ],
+  "tags": {
+    "addr:housenumber": "802",
+    "addr:street": "San Martín",
+    "alt_name": "Sala Vidalle",
+    "amenity": "clinic",
+    "contact:instagram": "centrodesaludvidalle",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Vidalle",
+    "official_name": "Centro de Salud Doctor Juan Vidalle",
+    "ref:cue": "50820422284661",
+    "wikidata": "Q97671943"
   }
 },
 {
@@ -82468,6 +82495,18 @@
 },
 {
   "type": "node",
+  "id": 12518222608,
+  "lat": -31.5387862,
+  "lon": -68.6342503
+},
+{
+  "type": "node",
+  "id": 12518222616,
+  "lat": -31.5388264,
+  "lon": -68.6341894
+},
+{
+  "type": "node",
   "id": 11937032740,
   "lat": -31.5246742,
   "lon": -68.6269841
@@ -89815,6 +89854,30 @@
   "id": 12187137401,
   "lat": -33.7493485,
   "lon": -61.9620405
+},
+{
+  "type": "node",
+  "id": 5360637748,
+  "lat": -33.6386306,
+  "lon": -61.8619791
+},
+{
+  "type": "node",
+  "id": 5360637749,
+  "lat": -33.6384174,
+  "lon": -61.8615807
+},
+{
+  "type": "node",
+  "id": 12519352378,
+  "lat": -33.6389594,
+  "lon": -61.8617252
+},
+{
+  "type": "node",
+  "id": 12519352379,
+  "lat": -33.6387462,
+  "lon": -61.8613268
 },
 {
   "type": "node",
