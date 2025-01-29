@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-28T23:15:35Z",
-    "timestamp_areas_base": "2025-01-28T17:15:11Z",
+    "timestamp_osm_base": "2025-01-29T23:14:39Z",
+    "timestamp_areas_base": "2025-01-29T19:38:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13794,10 +13794,17 @@
     "addr:postcode": "B1648",
     "addr:street": "Avenida Daniel M. Cazón",
     "amenity": "pharmacy",
+    "check_date": "2025-01-29",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "internet_access": "no",
     "name": "Del Pueblo",
-    "opening_hours": "Mo-Fr 08:00-24:00; Sa 08:30-24:00; Su 09:00-24:00"
+    "opening_hours": "Mo-Fr 08:00-24:00; Sa 08:30-24:00; Su 09:00-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+54 11 4749-0092",
+    "wheelchair": "no"
   }
 },
 {
@@ -45688,18 +45695,6 @@
     "addr:city": "Ituzaingó",
     "addr:postcode": "3302",
     "addr:street": "Buenos Aires",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 4913897010,
-  "lat": -31.3161430,
-  "lon": -64.3081925,
-  "tags": {
-    "addr:city": "Córdoba, Saldán",
-    "addr:street": "John Kennedy",
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
   }
@@ -104055,12 +104050,17 @@
     "addr:street": "Avenida Daniel M. Cazón",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2025-01-29",
     "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Marabotto",
     "opening_hours": "Mo-Su 08:00-22:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "phone": "+54 11 4749-0026",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited"
   }
 },
 {
@@ -115359,6 +115359,27 @@
   }
 },
 {
+  "type": "way",
+  "id": 1355093658,
+  "nodes": [
+    12540896554,
+    12540896555,
+    12540896556,
+    12540896558,
+    12540896557,
+    12540896554
+  ],
+  "tags": {
+    "addr:city": "Saldán",
+    "addr:housenumber": "432",
+    "addr:street": "Vélez Sarsfield",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Red Sarmiento XI"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -122947,6 +122968,36 @@
   "id": 5370659703,
   "lat": -31.3806012,
   "lon": -64.1816045
+},
+{
+  "type": "node",
+  "id": 12540896554,
+  "lat": -31.3156058,
+  "lon": -64.3084506
+},
+{
+  "type": "node",
+  "id": 12540896555,
+  "lat": -31.3155441,
+  "lon": -64.3085594
+},
+{
+  "type": "node",
+  "id": 12540896556,
+  "lat": -31.3156176,
+  "lon": -64.3086007
+},
+{
+  "type": "node",
+  "id": 12540896557,
+  "lat": -31.3156943,
+  "lon": -64.3085189
+},
+{
+  "type": "node",
+  "id": 12540896558,
+  "lat": -31.3156542,
+  "lon": -64.3085833
 },
 {
   "type": "node",
