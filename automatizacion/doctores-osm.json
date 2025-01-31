@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-30T23:17:46Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-01-31T23:15:15Z",
+    "timestamp_areas_base": "2025-01-31T19:18:40Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16327,6 +16327,7 @@
   "lon": -60.6416063,
   "tags": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "healthcare:speciality": "dermatology",
     "internet_access": "wlan",
     "internet_access:fee": "no",
@@ -17927,6 +17928,7 @@
     "addr:street": "Córdoba",
     "amenity": "doctors",
     "contact:website": "https://www.clinicadeojosrosario.com",
+    "healthcare": "doctor",
     "name": "Clínica de Ojos",
     "official_name": "Instituto de oftalmología Clínica de Ojos"
   }
@@ -22056,6 +22058,16 @@
   }
 },
 {
+  "type": "node",
+  "id": 12545670361,
+  "lat": -34.6451858,
+  "lon": -58.7865035,
+  "tags": {
+    "amenity": "doctors",
+    "name": "Punto Cruz"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -22826,26 +22838,6 @@
     "roof:levels": "1",
     "roof:shape": "flat",
     "wheelchair": "limited"
-  }
-},
-{
-  "type": "way",
-  "id": 380142697,
-  "nodes": [
-    3834872269,
-    3834872257,
-    3834872056,
-    3834872055,
-    3834872270,
-    3834872269
-  ],
-  "tags": {
-    "addr:street": "Avenida Córdoba",
-    "amenity": "doctors",
-    "check_date": "2024-10-19",
-    "shop": "vacant",
-    "toilets": "yes",
-    "wheelchair": "yes"
   }
 },
 {
@@ -29829,36 +29821,6 @@
   "id": 10555463253,
   "lat": -32.9292509,
   "lon": -60.8047459
-},
-{
-  "type": "node",
-  "id": 3834872055,
-  "lat": -32.9226985,
-  "lon": -60.8051895
-},
-{
-  "type": "node",
-  "id": 3834872056,
-  "lat": -32.9227169,
-  "lon": -60.8050839
-},
-{
-  "type": "node",
-  "id": 3834872257,
-  "lat": -32.9227361,
-  "lon": -60.8049737
-},
-{
-  "type": "node",
-  "id": 3834872269,
-  "lat": -32.9230673,
-  "lon": -60.8050575
-},
-{
-  "type": "node",
-  "id": 3834872270,
-  "lat": -32.9230766,
-  "lon": -60.8052893
 },
 {
   "type": "node",

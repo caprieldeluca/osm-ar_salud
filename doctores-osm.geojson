@@ -1819,50 +1819,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/380142697",
-  "properties": {
-    "addr:street": "Avenida Córdoba",
-    "amenity": "doctors",
-    "check_date": "2024-10-19",
-    "shop": "vacant",
-    "toilets": "yes",
-    "wheelchair": "yes",
-    "id": "way/380142697"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -60.8050575,
-          -32.9230673
-        ],
-        [
-          -60.8049737,
-          -32.9227361
-        ],
-        [
-          -60.8050839,
-          -32.9227169
-        ],
-        [
-          -60.8051895,
-          -32.9226985
-        ],
-        [
-          -60.8052893,
-          -32.9230766
-        ],
-        [
-          -60.8050575,
-          -32.9230673
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/383387059",
   "properties": {
     "amenity": "doctors",
@@ -33567,6 +33523,7 @@
   "id": "node/8069901119",
   "properties": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "healthcare:speciality": "dermatology",
     "internet_access": "wlan",
     "internet_access:fee": "no",
@@ -35785,6 +35742,7 @@
     "addr:street": "Córdoba",
     "amenity": "doctors",
     "contact:website": "https://www.clinicadeojosrosario.com",
+    "healthcare": "doctor",
     "name": "Clínica de Ojos",
     "official_name": "Instituto de oftalmología Clínica de Ojos",
     "id": "node/9010622163"
@@ -41664,6 +41622,22 @@
     "coordinates": [
       -62.2674367,
       -38.7101798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12545670361",
+  "properties": {
+    "amenity": "doctors",
+    "name": "Punto Cruz",
+    "id": "node/12545670361"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7865035,
+      -34.6451858
     ]
   }
 }

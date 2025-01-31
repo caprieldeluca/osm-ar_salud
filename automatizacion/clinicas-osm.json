@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-01-30T23:15:47Z",
+    "timestamp_osm_base": "2025-01-31T23:13:11Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -13274,7 +13274,8 @@
     "healthcare": "clinic",
     "name": "Centro de Atención a la Comunidad CEAC",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184500",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -13554,7 +13555,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Luchemos por la vida",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284791",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -13618,7 +13620,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Vecinal Villa Urquiza",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
     "wikidata": "Q92663082"
   }
@@ -13722,7 +13725,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 11 Villa Corrientes",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184829",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -13857,7 +13861,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 6 Eva Perón",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184864",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -14064,7 +14069,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Eva Duarte",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284694",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -14088,8 +14094,9 @@
     "healthcare": "clinic",
     "level": "5,6",
     "name": "Maternidad Martin",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
     "wikidata": "Q92663267"
   }
@@ -18696,7 +18703,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Villa Urquiza",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842285003",
     "ref:sisa_tipologia": "ESSIDT",
     "wikidata": "Q97672694"
@@ -56086,8 +56094,9 @@
     "contact:website": "http://www.rosario.gov.ar/sitio/lugaresVisual/verLugar.do?id=1189",
     "healthcare": "clinic",
     "name": "Centro de Salud Jean Henry Dunant",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284738",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -58053,6 +58062,7 @@
     5606794879,
     5606794880,
     5606794881,
+    5756360356,
     5606794878
   ],
   "tags": {
@@ -58062,11 +58072,13 @@
     "addr:street": "Avenida de Mayo",
     "amenity": "clinic",
     "building": "yes",
+    "contact:whatsapp": "+54 9 11-5935-4433",
     "healthcare": "clinic",
+    "heritage": "5",
     "name": "Casa de Auxilio de Ramos Mejia",
     "opening_hours": "Mo-Su 08:00-22:00",
     "phone": "+54 11 4464-4035",
-    "website": "http://www.casadeauxilio.com.ar/"
+    "website": "http://www.casadeauxilio.org.ar/"
   }
 },
 {
@@ -63810,6 +63822,7 @@
   "tags": {
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2025-01-30",
     "healthcare": "clinic",
     "layer": "1",
     "name": "Consultorio de ortodoncia"
@@ -64423,6 +64436,7 @@
     "amenity": "clinic",
     "building": "clinic",
     "building:levels": "2",
+    "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
     "name": "Centro de la visión Rosario",
     "website": "https://centrovisionrosario.com.ar/"
@@ -97215,26 +97229,32 @@
 {
   "type": "node",
   "id": 5606794878,
-  "lat": -34.6414419,
-  "lon": -58.5652152
+  "lat": -34.6414391,
+  "lon": -58.5652206
 },
 {
   "type": "node",
   "id": 5606794879,
-  "lat": -34.6412573,
-  "lon": -58.5652616
+  "lat": -34.6412518,
+  "lon": -58.5652573
 },
 {
   "type": "node",
   "id": 5606794880,
-  "lat": -34.6412958,
-  "lon": -58.5654881
+  "lat": -34.6412892,
+  "lon": -58.5654854
 },
 {
   "type": "node",
   "id": 5606794881,
-  "lat": -34.6414804,
-  "lon": -58.5654418
+  "lat": -34.6414662,
+  "lon": -58.5654304
+},
+{
+  "type": "node",
+  "id": 5756360356,
+  "lat": -34.6414431,
+  "lon": -58.5652385
 },
 {
   "type": "node",
