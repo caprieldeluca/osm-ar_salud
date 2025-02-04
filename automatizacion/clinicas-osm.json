@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-03T23:14:29Z",
-    "timestamp_areas_base": "2025-02-03T21:22:59Z",
+    "timestamp_osm_base": "2025-02-04T23:14:10Z",
+    "timestamp_areas_base": "2025-02-04T18:27:21Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17304,6 +17304,16 @@
     "ref:sisa_codigo": "50100562124204",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "sedronar.gov.ar | Public Domain (PD)"
+  }
+},
+{
+  "type": "node",
+  "id": 7391073673,
+  "lat": -38.7411650,
+  "lon": -66.4359613,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud de Gdor. Duval"
   }
 },
 {
@@ -59737,7 +59747,8 @@
   "tags": {
     "amenity": "clinic",
     "building": "yes",
-    "healthcare": "clinic"
+    "healthcare": "clinic",
+    "name": "Caps ATE II"
   }
 },
 {
@@ -67339,7 +67350,7 @@
   ],
   "tags": {
     "addr:city": "Villa Los Aromos",
-    "addr:street": "Espinillos",
+    "addr:street": "Los Espinillos",
     "amenity": "clinic",
     "building": "yes",
     "building:levels": "1",
@@ -70122,13 +70133,7 @@
     12057542506,
     12057542507,
     12057542508,
-    12057542509,
-    12057542510,
-    12057542511,
-    12057542512,
-    7015934159,
-    7015934160,
-    7015934161,
+    12556607243,
     12057542513,
     12057542505
   ],
@@ -71290,6 +71295,31 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Caps San José"
+  }
+},
+{
+  "type": "way",
+  "id": 1356712422,
+  "nodes": [
+    12556803541,
+    12556803542,
+    12556803543,
+    12556803544,
+    12556803545,
+    12556803546,
+    12556803547,
+    12556803548,
+    12556803549,
+    12556803550,
+    12556803551,
+    12556803541
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clinica del Niño",
+    "operator": "STIA"
   }
 },
 {
@@ -86640,8 +86670,8 @@
 {
   "type": "node",
   "id": 7015896663,
-  "lat": -33.6986878,
-  "lon": -65.4386872
+  "lat": -33.6986849,
+  "lon": -65.4386943
 },
 {
   "type": "node",
@@ -86735,21 +86765,69 @@
 },
 {
   "type": "node",
-  "id": 7015934159,
-  "lat": -33.6897426,
-  "lon": -65.4497194
+  "id": 12556803541,
+  "lat": -33.6717856,
+  "lon": -65.4608462
 },
 {
   "type": "node",
-  "id": 7015934160,
-  "lat": -33.6896165,
-  "lon": -65.4497859
+  "id": 12556803542,
+  "lat": -33.6719181,
+  "lon": -65.4608869
 },
 {
   "type": "node",
-  "id": 7015934161,
-  "lat": -33.6896863,
-  "lon": -65.4499387
+  "id": 12556803543,
+  "lat": -33.6719976,
+  "lon": -65.4605171
+},
+{
+  "type": "node",
+  "id": 12556803544,
+  "lat": -33.6719947,
+  "lon": -65.4603560
+},
+{
+  "type": "node",
+  "id": 12556803545,
+  "lat": -33.6719402,
+  "lon": -65.4603330
+},
+{
+  "type": "node",
+  "id": 12556803546,
+  "lat": -33.6719623,
+  "lon": -65.4602410
+},
+{
+  "type": "node",
+  "id": 12556803547,
+  "lat": -33.6717988,
+  "lon": -65.4601950
+},
+{
+  "type": "node",
+  "id": 12556803548,
+  "lat": -33.6718209,
+  "lon": -65.4600711
+},
+{
+  "type": "node",
+  "id": 12556803549,
+  "lat": -33.6716854,
+  "lon": -65.4600304
+},
+{
+  "type": "node",
+  "id": 12556803550,
+  "lat": -33.6716265,
+  "lon": -65.4602782
+},
+{
+  "type": "node",
+  "id": 12556803551,
+  "lat": -33.6718886,
+  "lon": -65.4603649
 },
 {
   "type": "node",
@@ -86767,7 +86845,7 @@
   "type": "node",
   "id": 12057542507,
   "lat": -33.6897993,
-  "lon": -65.4501993
+  "lon": -65.4502033
 },
 {
   "type": "node",
@@ -86777,33 +86855,15 @@
 },
 {
   "type": "node",
-  "id": 12057542509,
-  "lat": -33.6898010,
-  "lon": -65.4499655
-},
-{
-  "type": "node",
-  "id": 12057542510,
-  "lat": -33.6898264,
-  "lon": -65.4499675
-},
-{
-  "type": "node",
-  "id": 12057542511,
-  "lat": -33.6898365,
-  "lon": -65.4498984
-},
-{
-  "type": "node",
-  "id": 12057542512,
-  "lat": -33.6897536,
-  "lon": -65.4497134
-},
-{
-  "type": "node",
   "id": 12057542513,
-  "lat": -33.6896944,
-  "lon": -65.4499655
+  "lat": -33.6896509,
+  "lon": -65.4501600
+},
+{
+  "type": "node",
+  "id": 12556607243,
+  "lat": -33.6896661,
+  "lon": -65.4501644
 },
 {
   "type": "node",

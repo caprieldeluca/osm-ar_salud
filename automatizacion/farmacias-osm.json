@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-03T23:15:33Z",
+    "timestamp_osm_base": "2025-02-04T23:15:15Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -13604,8 +13604,14 @@
     "addr:postcode": "B1648EWY",
     "addr:street": "Avenida Daniel M. Cazón",
     "amenity": "pharmacy",
+    "check_date": "2025-02-04",
     "healthcare": "pharmacy",
-    "name": "Nueva Sarmiento"
+    "name": "Nueva Sarmiento",
+    "opening_hours": "Mo-Sa 08:30-22:00; Su 09:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "no"
   }
 },
 {
@@ -95928,6 +95934,15 @@
   "id": 12554885239,
   "lat": -36.8570874,
   "lon": -63.6883718,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12555086306,
+  "lat": -39.1647930,
+  "lon": -66.1476356,
   "tags": {
     "amenity": "pharmacy"
   }
