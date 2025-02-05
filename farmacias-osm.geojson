@@ -41791,6 +41791,55 @@
 },
 {
   "type": "Feature",
+  "id": "way/1356806067",
+  "properties": {
+    "addr:city": "San Martín de los Andes",
+    "addr:housenumber": "87",
+    "addr:postcode": "Q8370",
+    "addr:street": "Los Ñires",
+    "amenity": "pharmacy",
+    "building": "pharmacy",
+    "healthcare": "pharmacy",
+    "height": "4",
+    "name": "Farmacia Del Arenal",
+    "roof:height": "1",
+    "roof:shape": "gabled",
+    "id": "way/1356806067"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.3191741,
+          -40.1514343
+        ],
+        [
+          -71.3190712,
+          -40.1513551
+        ],
+        [
+          -71.3191633,
+          -40.1512847
+        ],
+        [
+          -71.3191784,
+          -40.1512731
+        ],
+        [
+          -71.3192815,
+          -40.1513524
+        ],
+        [
+          -71.3191741,
+          -40.1514343
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101971",
   "properties": {
     "amenity": "pharmacy",
@@ -65980,6 +66029,7 @@
     "addr:state": "Santa Fe",
     "addr:street": "Mendoza",
     "amenity": "pharmacy",
+    "check_date": "2025-02-04",
     "dispensing": "unknown",
     "healthcare": "pharmacy",
     "name": "Farmacía French",
@@ -73920,13 +73970,16 @@
   "type": "Feature",
   "id": "node/3348573778",
   "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:housenumber": "402",
-    "addr:street": "Adolfo Alsina",
+    "addr:housenumber": "201",
+    "addr:street": "Defensa",
     "amenity": "pharmacy",
+    "check_date": "2025-02-05",
     "healthcare": "pharmacy",
     "name": "Farmacia de la Estrella",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/3348573778"
   },
   "geometry": {
@@ -179102,8 +179155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -71.3191375,
-      -40.1513237
+      -71.3191367,
+      -40.1513264
     ]
   }
 },

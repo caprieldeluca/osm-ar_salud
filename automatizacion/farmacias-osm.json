@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.4 2390de5a",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-04T23:15:15Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-02-05T23:15:25Z",
+    "timestamp_areas_base": "2025-02-05T20:56:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16773,6 +16773,7 @@
     "addr:state": "Santa Fe",
     "addr:street": "Mendoza",
     "amenity": "pharmacy",
+    "check_date": "2025-02-04",
     "dispensing": "unknown",
     "healthcare": "pharmacy",
     "name": "Farmacía French"
@@ -22211,13 +22212,16 @@
   "lat": -34.6102605,
   "lon": -58.3721513,
   "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:housenumber": "402",
-    "addr:street": "Adolfo Alsina",
+    "addr:housenumber": "201",
+    "addr:street": "Defensa",
     "amenity": "pharmacy",
+    "check_date": "2025-02-05",
     "healthcare": "pharmacy",
-    "name": "Farmacia de la Estrella"
+    "name": "Farmacia de la Estrella",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -95880,8 +95884,8 @@
 {
   "type": "node",
   "id": 12552934516,
-  "lat": -40.1513237,
-  "lon": -71.3191375,
+  "lat": -40.1513264,
+  "lon": -71.3191367,
   "tags": {
     "addr:city": "San Martín de los Andes",
     "addr:housenumber": "87",
@@ -115564,6 +115568,31 @@
   }
 },
 {
+  "type": "way",
+  "id": 1356806067,
+  "nodes": [
+    12557839167,
+    12557839168,
+    12557839169,
+    12557839171,
+    12557839170,
+    12557839167
+  ],
+  "tags": {
+    "addr:city": "San Martín de los Andes",
+    "addr:housenumber": "87",
+    "addr:postcode": "Q8370",
+    "addr:street": "Los Ñires",
+    "amenity": "pharmacy",
+    "building": "pharmacy",
+    "healthcare": "pharmacy",
+    "height": "4",
+    "name": "Farmacia Del Arenal",
+    "roof:height": "1",
+    "roof:shape": "gabled"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -116360,6 +116389,36 @@
   "id": 7808510772,
   "lat": -40.1559369,
   "lon": -71.3526042
+},
+{
+  "type": "node",
+  "id": 12557839167,
+  "lat": -40.1514343,
+  "lon": -71.3191741
+},
+{
+  "type": "node",
+  "id": 12557839168,
+  "lat": -40.1513524,
+  "lon": -71.3192815
+},
+{
+  "type": "node",
+  "id": 12557839169,
+  "lat": -40.1512731,
+  "lon": -71.3191784
+},
+{
+  "type": "node",
+  "id": 12557839170,
+  "lat": -40.1513551,
+  "lon": -71.3190712
+},
+{
+  "type": "node",
+  "id": 12557839171,
+  "lat": -40.1512847,
+  "lon": -71.3191633
 },
 {
   "type": "node",
