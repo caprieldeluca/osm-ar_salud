@@ -7204,52 +7204,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/362501108",
-  "properties": {
-    "addr:housenumber": "831",
-    "addr:postcode": "5400",
-    "addr:street": "Mendoza",
-    "alt_name": "Clínica Santa Lucía",
-    "amenity": "clinic",
-    "building": "yes",
-    "email": "clinicasantalucia@speedy.com.ar",
-    "healthcare": "clinic",
-    "name": "Clínica de Ojos Santa Lucia",
-    "opening_hours": "24/7",
-    "phone": "+54264 421-1827",
-    "website": "http://www.clinica-santalucia.com.ar/",
-    "id": "way/362501108"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.525175,
-          -31.5442882
-        ],
-        [
-          -68.5256042,
-          -31.5443032
-        ],
-        [
-          -68.525577,
-          -31.5445173
-        ],
-        [
-          -68.5251617,
-          -31.5444597
-        ],
-        [
-          -68.525175,
-          -31.5442882
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/362836165",
   "properties": {
     "addr:city": "Rosario",
@@ -38799,76 +38753,6 @@
         [
           -65.4620014,
           -24.7903258
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/1028212888",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare:speciality": "nuclear",
-    "name": "Centro de Medicina Nuclear PET/CT",
-    "id": "way/1028212888"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5304208,
-          -31.5526141
-        ],
-        [
-          -68.5300675,
-          -31.5526654
-        ],
-        [
-          -68.5300438,
-          -31.5525472
-        ],
-        [
-          -68.5299913,
-          -31.5525548
-        ],
-        [
-          -68.5299816,
-          -31.5525062
-        ],
-        [
-          -68.5302638,
-          -31.5524652
-        ],
-        [
-          -68.5302564,
-          -31.5524285
-        ],
-        [
-          -68.5303329,
-          -31.5524174
-        ],
-        [
-          -68.5303439,
-          -31.552472
-        ],
-        [
-          -68.5303675,
-          -31.5524686
-        ],
-        [
-          -68.5303787,
-          -31.5525245
-        ],
-        [
-          -68.5304022,
-          -31.5525211
-        ],
-        [
-          -68.5304208,
-          -31.5526141
         ]
       ]
     ]
@@ -110149,6 +110033,9 @@
   "type": "Feature",
   "id": "node/9448320417",
   "properties": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "755 (S)",
+    "addr:postcode": "5402",
     "addr:street": "Mendoza",
     "amenity": "clinic",
     "name": "Instituto Privado de Cardiología",
@@ -110157,8 +110044,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5252761,
-      -31.5434284
+      -68.5252367,
+      -31.5434418
     ]
   }
 },
@@ -117669,6 +117556,45 @@
     "coordinates": [
       -60.6793383,
       -31.5173134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582551977",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare:speciality": "nuclear",
+    "name": "Centro de Medicina Nuclear PET/CT",
+    "id": "node/12582551977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5301208,
+      -31.5524783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582551982",
+  "properties": {
+    "alt_name": "Clínica Santa Lucía",
+    "amenity": "clinic",
+    "email": "clinicasantalucia@speedy.com.ar",
+    "healthcare": "clinic",
+    "name": "Clínica de Ojos Santa Lucia",
+    "opening_hours": "24/7",
+    "phone": "+54264 421-1827",
+    "website": "http://www.clinica-santalucia.com.ar/",
+    "id": "node/12582551982"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5251887,
+      -31.5443854
     ]
   }
 }
