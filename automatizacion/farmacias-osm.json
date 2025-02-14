@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-13T23:16:07Z",
-    "timestamp_areas_base": "2025-02-06T02:17:44Z",
+    "timestamp_osm_base": "2025-02-14T23:16:22Z",
+    "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16774,7 +16774,7 @@
     "addr:street": "Mendoza",
     "amenity": "pharmacy",
     "check_date": "2025-02-04",
-    "dispensing": "unknown",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacía French"
   }
@@ -58544,17 +58544,6 @@
 },
 {
   "type": "node",
-  "id": 6234954587,
-  "lat": -33.6852085,
-  "lon": -65.4662123,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Farmacity"
-  }
-},
-{
-  "type": "node",
   "id": 6234954590,
   "lat": -33.6864628,
   "lon": -65.4665905,
@@ -58573,17 +58562,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Del Aguila"
-  }
-},
-{
-  "type": "node",
-  "id": 6234996011,
-  "lat": -33.6822356,
-  "lon": -65.4642516,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Roca"
   }
 },
 {
@@ -96003,6 +95981,30 @@
   }
 },
 {
+  "type": "node",
+  "id": 12586231018,
+  "lat": -31.6476772,
+  "lon": -63.7593813,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12586907114,
+  "lat": -32.2892843,
+  "lon": -63.3506109,
+  "tags": {
+    "addr:city": "Tío Pujio",
+    "addr:housenumber": "360",
+    "addr:postcode": "5936",
+    "addr:street": "Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Oñativia"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -102511,7 +102513,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia La Nueva Artigas"
+    "name": "Artiga"
   }
 },
 {
@@ -115664,6 +115666,78 @@
   }
 },
 {
+  "type": "way",
+  "id": 1359866747,
+  "nodes": [
+    12587725898,
+    12587725899,
+    12539266545,
+    12539266546,
+    12587725895,
+    12587725898
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "building:levels": "4",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1359866763,
+  "nodes": [
+    12587741242,
+    12587741243,
+    12587741244,
+    7015772268,
+    7015772269,
+    12587741242
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Roca"
+  }
+},
+{
+  "type": "way",
+  "id": 1359866785,
+  "nodes": [
+    12587741302,
+    12587741304,
+    12587741305,
+    12587741303,
+    12587741302
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "way",
+  "id": 1359866791,
+  "nodes": [
+    12587741323,
+    12587741324,
+    12587741325,
+    7015772273,
+    7015772272,
+    12587741323
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -121515,21 +121589,51 @@
 },
 {
   "type": "node",
+  "id": 7015772268,
+  "lat": -33.6822423,
+  "lon": -65.4642229
+},
+{
+  "type": "node",
+  "id": 7015772272,
+  "lat": -33.6836517,
+  "lon": -65.4655583
+},
+{
+  "type": "node",
+  "id": 7015772273,
+  "lat": -33.6836813,
+  "lon": -65.4655320
+},
+{
+  "type": "node",
   "id": 7015797043,
-  "lat": -33.6872370,
-  "lon": -65.4665808
+  "lat": -33.6872269,
+  "lon": -65.4665757
 },
 {
   "type": "node",
   "id": 7015797050,
-  "lat": -33.6871890,
-  "lon": -65.4666195
+  "lat": -33.6871898,
+  "lon": -65.4666063
+},
+{
+  "type": "node",
+  "id": 12539266545,
+  "lat": -33.6852590,
+  "lon": -65.4655647
+},
+{
+  "type": "node",
+  "id": 12539266546,
+  "lat": -33.6852835,
+  "lon": -65.4654414
 },
 {
   "type": "node",
   "id": 12585356035,
   "lat": -33.6870924,
-  "lon": -65.4665919
+  "lon": -65.4665787
 },
 {
   "type": "node",
@@ -121540,8 +121644,92 @@
 {
   "type": "node",
   "id": 12585356037,
-  "lat": -33.6872584,
-  "lon": -65.4664712
+  "lat": -33.6872440,
+  "lon": -65.4664590
+},
+{
+  "type": "node",
+  "id": 12587725895,
+  "lat": -33.6853578,
+  "lon": -65.4650927
+},
+{
+  "type": "node",
+  "id": 12587725898,
+  "lat": -33.6852682,
+  "lon": -65.4650664
+},
+{
+  "type": "node",
+  "id": 12587725899,
+  "lat": -33.6851661,
+  "lon": -65.4655295
+},
+{
+  "type": "node",
+  "id": 12587741243,
+  "lat": -33.6822641,
+  "lon": -65.4644407
+},
+{
+  "type": "node",
+  "id": 12587741244,
+  "lat": -33.6823045,
+  "lon": -65.4642411
+},
+{
+  "type": "node",
+  "id": 12587741302,
+  "lat": -33.6850386,
+  "lon": -65.4665694
+},
+{
+  "type": "node",
+  "id": 12587741303,
+  "lat": -33.6851267,
+  "lon": -65.4661457
+},
+{
+  "type": "node",
+  "id": 12587741304,
+  "lat": -33.6851133,
+  "lon": -65.4665919
+},
+{
+  "type": "node",
+  "id": 12587741305,
+  "lat": -33.6852015,
+  "lon": -65.4661682
+},
+{
+  "type": "node",
+  "id": 12587741323,
+  "lat": -33.6835866,
+  "lon": -65.4655384
+},
+{
+  "type": "node",
+  "id": 12587741324,
+  "lat": -33.6836399,
+  "lon": -65.4652636
+},
+{
+  "type": "node",
+  "id": 12587741325,
+  "lat": -33.6837314,
+  "lon": -65.4652961
+},
+{
+  "type": "node",
+  "id": 7015772269,
+  "lat": -33.6821797,
+  "lon": -65.4642514
+},
+{
+  "type": "node",
+  "id": 12587741242,
+  "lat": -33.6821482,
+  "lon": -65.4644068
 },
 {
   "type": "node",
