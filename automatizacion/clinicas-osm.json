@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-21T23:15:46Z",
+    "timestamp_osm_base": "2025-02-22T23:13:58Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -5990,7 +5990,8 @@
     "healthcare:speciality": "general;gynaecology;paediatrics",
     "name": "Centro de Salud El Mangrullo",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284667",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -6744,7 +6745,8 @@
     "name": "Centro de Salud Rubén Naranjo",
     "old_name": "Centro de Salud Las Heras",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284922",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -12326,6 +12328,7 @@
     "contact:email": "centroevolutivo@gmail.com",
     "contact:phone": "+54 341 435-1627",
     "contact:website": "http://centroevolutivo.com.ar",
+    "healthcare": "clinic",
     "name": "Centro Evolutivo",
     "opening_hours": "Mo-Fr 09:00-19:00"
   }
@@ -12566,6 +12569,7 @@
     "addr:state": "Santa Fe",
     "addr:street": "Avenida Carlos Pellegrini",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Ermerger"
   }
 },
@@ -13197,23 +13201,6 @@
 },
 {
   "type": "node",
-  "id": 5540925645,
-  "lat": -32.9975646,
-  "lon": -60.6575581,
-  "tags": {
-    "addr:housenumber": "5115",
-    "addr:street": "Reverendo José Margis",
-    "amenity": "clinic",
-    "contact:phone": "+54 341 480-9766",
-    "healthcare": "clinic",
-    "name": "Centro de Salud 20 de Junio",
-    "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
-    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
-  }
-},
-{
-  "type": "node",
   "id": 5540925646,
   "lat": -32.9144650,
   "lon": -60.6935200,
@@ -13333,7 +13320,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Vecinal Parque Sur",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284890",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -13640,7 +13628,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 29 Aráoz de la Madrid",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184852",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -17105,11 +17094,12 @@
     "amenity": "clinic",
     "contact:phone": "+54 341 480-4166",
     "contact:website": "http://www.lemrosario.com.ar",
-    "healthcare": "laboratory",
+    "healthcare": "clinic",
     "name": "Laboratorio de Especialidades Medicinales",
     "opening_hours": "Mo-Fr 09:00-13:00",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "short_name": "LEM",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
     "wikidata": "Q92662979"
@@ -18736,7 +18726,8 @@
     "healthcare": "clinic",
     "name": "Centro Regional De Hemoterapia Sur",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "53820842188591",
     "ref:sisa_tipologia": "ESCL",
     "wikidata": "Q92662979"
@@ -24587,7 +24578,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Barrio Talleres",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 341 498-3412",
     "ref:sisa_codigo": "50820842184561",
     "ref:sisa_tipologia": "ESSIDT",
@@ -24608,7 +24600,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 11 Pueblo Nuevo",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 341 492-2777",
     "ref:sisa_codigo": "50820842184828",
     "ref:sisa_tipologia": "ESSIDT"
@@ -41256,6 +41249,39 @@
 },
 {
   "type": "node",
+  "id": 8909827358,
+  "lat": -31.5399654,
+  "lon": -68.5299242,
+  "tags": {
+    "addr:city": "J5402GSI",
+    "addr:housenumber": "457 (S)",
+    "addr:postcode": "5402",
+    "addr:street": "Catamarca",
+    "amenity": "clinic",
+    "name": "Instituto Médico"
+  }
+},
+{
+  "type": "node",
+  "id": 8909827373,
+  "lat": -31.5396319,
+  "lon": -68.5299578,
+  "tags": {
+    "addr:city": "J5402GSI",
+    "addr:housenumber": "417 (S)",
+    "addr:postcode": "J5402ACH",
+    "addr:street": "Catamarca",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/cimyn.sanjuan",
+    "contact:whatsapp": "+54 264 6243561",
+    "healthcare": "clinic",
+    "name": "CIMyN",
+    "official_name": "Centro Integral de la Mujer y el Niño",
+    "website": "https://cimynsanjuan.com.ar"
+  }
+},
+{
+  "type": "node",
   "id": 8909856824,
   "lat": -31.5404460,
   "lon": -68.5291416,
@@ -47856,6 +47882,7 @@
     "amenity": "clinic",
     "building": "commercial",
     "contact:website": "https://www.gokinesio.com.ar/",
+    "healthcare": "clinic",
     "name": "Go Kinesio",
     "operator": "Grupo Oroño",
     "operator:type": "private"
@@ -48327,6 +48354,8 @@
     "addr:postcode": "C1405DCD",
     "addr:street": "Avenida Díaz Vélez",
     "amenity": "clinic",
+    "check_date": "2025-02-22",
+    "description": "Establecimiento de.salud pública dedicado al diagnóstico, prevención y control de zoonosis urbanas.",
     "healthcare": "clinic",
     "healthcare:speciality": "zoonosis",
     "name": "Instituto de Zoonosis Luis Pasteur",
@@ -50051,8 +50080,9 @@
     "contact:phone": "+54 341 480-9778",
     "healthcare": "clinic",
     "name": "Centro de Salud Luis Pasteur",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284795",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -50415,35 +50445,6 @@
     "name": "Sanatorio Argentino",
     "phone": "+54 264 4303030",
     "website": "http://www.sanatorioargentino.com.ar"
-  }
-},
-{
-  "type": "way",
-  "id": 362258626,
-  "nodes": [
-    3665987827,
-    3665987828,
-    3665987829,
-    3665987830,
-    8909827367,
-    8909827368,
-    8929837456,
-    8929838254,
-    8929837569,
-    8929837914,
-    8909827370,
-    3665987827
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "house",
-    "building:levels": "3",
-    "contact:instagram": "https://www.instagram.com/cimyn.sanjuan",
-    "contact:whatsapp": "+54 264 6243561",
-    "healthcare": "clinic",
-    "name": "CIMyN",
-    "official_name": "Centro Integral de la Mujer y el Niño",
-    "website": "https://cimynsanjuan.com.ar"
   }
 },
 {
@@ -57790,6 +57791,22 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Centro Medico Verna"
+  }
+},
+{
+  "type": "way",
+  "id": 557102841,
+  "nodes": [
+    5373254125,
+    5373254124,
+    5373254123,
+    5373254122,
+    5373254125
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "name": "Sala de Primeros Auxilios"
   }
 },
 {
@@ -71475,6 +71492,34 @@
   }
 },
 {
+  "type": "way",
+  "id": 1361945842,
+  "nodes": [
+    7340840664,
+    7340840661,
+    12609736221,
+    12609736222,
+    12609736223,
+    12609736224,
+    7340840663,
+    12609736218,
+    12609736225,
+    7340840664
+  ],
+  "tags": {
+    "addr:housenumber": "5115",
+    "addr:street": "Reverendo José Margis",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 480-9766",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 20 de Junio",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
+    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -72526,6 +72571,30 @@
   "id": 7828157195,
   "lat": -40.7221771,
   "lon": -69.8413485
+},
+{
+  "type": "node",
+  "id": 5373254122,
+  "lat": -40.6534065,
+  "lon": -71.4020241
+},
+{
+  "type": "node",
+  "id": 5373254123,
+  "lat": -40.6533230,
+  "lon": -71.4021663
+},
+{
+  "type": "node",
+  "id": 5373254124,
+  "lat": -40.6534044,
+  "lon": -71.4022493
+},
+{
+  "type": "node",
+  "id": 5373254125,
+  "lat": -40.6534879,
+  "lon": -71.4021071
 },
 {
   "type": "node",
@@ -84295,72 +84364,6 @@
 },
 {
   "type": "node",
-  "id": 3665987827,
-  "lat": -31.5395710,
-  "lon": -68.5300430
-},
-{
-  "type": "node",
-  "id": 3665987828,
-  "lat": -31.5394540,
-  "lon": -68.5300558
-},
-{
-  "type": "node",
-  "id": 3665987829,
-  "lat": -31.5394629,
-  "lon": -68.5301938
-},
-{
-  "type": "node",
-  "id": 3665987830,
-  "lat": -31.5398273,
-  "lon": -68.5301612
-},
-{
-  "type": "node",
-  "id": 8909827367,
-  "lat": -31.5398234,
-  "lon": -68.5301005
-},
-{
-  "type": "node",
-  "id": 8909827368,
-  "lat": -31.5398500,
-  "lon": -68.5300970
-},
-{
-  "type": "node",
-  "id": 8909827370,
-  "lat": -31.5397090,
-  "lon": -68.5300300
-},
-{
-  "type": "node",
-  "id": 8929837456,
-  "lat": -31.5398460,
-  "lon": -68.5300430
-},
-{
-  "type": "node",
-  "id": 8929837569,
-  "lat": -31.5398180,
-  "lon": -68.5300190
-},
-{
-  "type": "node",
-  "id": 8929837914,
-  "lat": -31.5398140,
-  "lon": -68.5300194
-},
-{
-  "type": "node",
-  "id": 8929838254,
-  "lat": -31.5398200,
-  "lon": -68.5300460
-},
-{
-  "type": "node",
   "id": 3664938572,
   "lat": -31.5337297,
   "lon": -68.5324140
@@ -91990,6 +91993,60 @@
   "id": 11232437555,
   "lat": -33.0119461,
   "lon": -60.6597344
+},
+{
+  "type": "node",
+  "id": 7340840661,
+  "lat": -32.9975333,
+  "lon": -60.6571428
+},
+{
+  "type": "node",
+  "id": 7340840663,
+  "lat": -32.9976323,
+  "lon": -60.6575640
+},
+{
+  "type": "node",
+  "id": 7340840664,
+  "lat": -32.9976059,
+  "lon": -60.6571388
+},
+{
+  "type": "node",
+  "id": 12609736218,
+  "lat": -32.9976283,
+  "lon": -60.6574612
+},
+{
+  "type": "node",
+  "id": 12609736221,
+  "lat": -32.9974257,
+  "lon": -60.6571496
+},
+{
+  "type": "node",
+  "id": 12609736222,
+  "lat": -32.9974440,
+  "lon": -60.6575739
+},
+{
+  "type": "node",
+  "id": 12609736223,
+  "lat": -32.9974607,
+  "lon": -60.6576001
+},
+{
+  "type": "node",
+  "id": 12609736224,
+  "lat": -32.9976338,
+  "lon": -60.6575895
+},
+{
+  "type": "node",
+  "id": 12609736225,
+  "lat": -32.9976144,
+  "lon": -60.6571380
 },
 {
   "type": "node",
