@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-23T23:12:30Z",
+    "timestamp_osm_base": "2025-02-24T23:14:19Z",
     "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -30228,7 +30228,10 @@
     2394472672
   ],
   "tags": {
+    "addr:housenumber": "150",
+    "addr:street": "Avenida Patricias Argentinas",
     "amenity": "hospital",
+    "check_date": "2025-02-22",
     "healthcare": "hospital",
     "name": "Hospital Municipal de Oncología Marie Curie",
     "name:etymology:wikidata": "Q7186",
@@ -32071,10 +32074,13 @@
     "addr:street": "Teniente General Juan Domingo Perón",
     "alt_name": "Hospital Italiano",
     "amenity": "hospital",
+    "check_date": "2025-02-24",
+    "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Italiano de Buenos Aires",
     "name:en": "Hospital Italiano of Buenos Aires",
     "name:es": "Hospital Italiano de Buenos Aires",
+    "opening_hours": "24/7",
     "operator": "Sociedad Italiana de Beneficencia en Buenos Aires",
     "operator:type": "private",
     "phone": "+54 11 4959-0200",
@@ -56998,6 +57004,27 @@
   }
 },
 {
+  "type": "way",
+  "id": 1362629776,
+  "nodes": [
+    12616076338,
+    12616076339,
+    12616076340,
+    12616076341,
+    12616076342,
+    12616076343,
+    12616076344,
+    12616076345,
+    12616076346,
+    12616076347,
+    12616076338
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -80026,6 +80053,66 @@
   "id": 6138290095,
   "lat": -33.1869028,
   "lon": -66.3087304
+},
+{
+  "type": "node",
+  "id": 12616076338,
+  "lat": -33.7042297,
+  "lon": -65.4333425
+},
+{
+  "type": "node",
+  "id": 12616076339,
+  "lat": -33.7049614,
+  "lon": -65.4335690
+},
+{
+  "type": "node",
+  "id": 12616076340,
+  "lat": -33.7049025,
+  "lon": -65.4338326
+},
+{
+  "type": "node",
+  "id": 12616076341,
+  "lat": -33.7048804,
+  "lon": -65.4338574
+},
+{
+  "type": "node",
+  "id": 12616076342,
+  "lat": -33.7048510,
+  "lon": -65.4338663
+},
+{
+  "type": "node",
+  "id": 12616076343,
+  "lat": -33.7048186,
+  "lon": -65.4338663
+},
+{
+  "type": "node",
+  "id": 12616076344,
+  "lat": -33.7048039,
+  "lon": -65.4338627
+},
+{
+  "type": "node",
+  "id": 12616076345,
+  "lat": -33.7042032,
+  "lon": -65.4336734
+},
+{
+  "type": "node",
+  "id": 12616076346,
+  "lat": -33.7041826,
+  "lon": -65.4336610
+},
+{
+  "type": "node",
+  "id": 12616076347,
+  "lat": -33.7041753,
+  "lon": -65.4336468
 },
 {
   "type": "node",

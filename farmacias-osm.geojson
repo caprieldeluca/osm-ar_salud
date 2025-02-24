@@ -127351,10 +127351,15 @@
   "type": "Feature",
   "id": "node/6283718940",
   "properties": {
+    "addr:housenumber": "4101",
+    "addr:street": "Teniente General Juan Domingo Perón",
     "amenity": "pharmacy",
+    "check_date": "2025-02-24",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Brocca",
+    "opening_hours": "24/7",
+    "website": "http://www.farmaciasalfa.com.ar/",
     "id": "node/6283718940"
   },
   "geometry": {
@@ -144605,9 +144610,10 @@
   "type": "Feature",
   "id": "node/7943366897",
   "properties": {
-    "addr:housenumber": "325",
-    "addr:postcode": "5400",
-    "addr:street": "Domingo Faustino Sarmiento",
+    "addr:city": "San Juan",
+    "addr:housenumber": "325 (S)",
+    "addr:postcode": "J5402ECG",
+    "addr:street": "Sarmiento",
     "amenity": "pharmacy",
     "name": "Farmacia Santa Gema",
     "phone": "+544200092",
@@ -144616,8 +144622,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5286068,
-      -31.5384372
+      -68.5285666,
+      -31.5384028
     ]
   }
 },
@@ -179788,6 +179794,25 @@
     "coordinates": [
       -60.6490944,
       -32.9446485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12615927670",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-02-24",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/12615927670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.63235,
+      -32.9515906
     ]
   }
 }

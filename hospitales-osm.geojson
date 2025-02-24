@@ -19294,7 +19294,10 @@
   "type": "Feature",
   "id": "way/231028447",
   "properties": {
+    "addr:housenumber": "150",
+    "addr:street": "Avenida Patricias Argentinas",
     "amenity": "hospital",
+    "check_date": "2025-02-22",
     "healthcare": "hospital",
     "name": "Hospital Municipal de Oncología Marie Curie",
     "name:etymology:wikidata": "Q7186",
@@ -23460,10 +23463,13 @@
     "addr:street": "Teniente General Juan Domingo Perón",
     "alt_name": "Hospital Italiano",
     "amenity": "hospital",
+    "check_date": "2025-02-24",
+    "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Italiano de Buenos Aires",
     "name:en": "Hospital Italiano of Buenos Aires",
     "name:es": "Hospital Italiano de Buenos Aires",
+    "opening_hours": "24/7",
     "operator": "Sociedad Italiana de Beneficencia en Buenos Aires",
     "operator:type": "private",
     "phone": "+54 11 4959-0200",
@@ -81263,6 +81269,66 @@
         [
           -65.4295666,
           -33.6592482
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1362629776",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "id": "way/1362629776"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4333425,
+          -33.7042297
+        ],
+        [
+          -65.4336468,
+          -33.7041753
+        ],
+        [
+          -65.433661,
+          -33.7041826
+        ],
+        [
+          -65.4336734,
+          -33.7042032
+        ],
+        [
+          -65.4338627,
+          -33.7048039
+        ],
+        [
+          -65.4338663,
+          -33.7048186
+        ],
+        [
+          -65.4338663,
+          -33.704851
+        ],
+        [
+          -65.4338574,
+          -33.7048804
+        ],
+        [
+          -65.4338326,
+          -33.7049025
+        ],
+        [
+          -65.433569,
+          -33.7049614
+        ],
+        [
+          -65.4333425,
+          -33.7042297
         ]
       ]
     ]

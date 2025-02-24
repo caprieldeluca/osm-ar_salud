@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-23T23:14:25Z",
+    "timestamp_osm_base": "2025-02-24T23:15:24Z",
     "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -10875,22 +10875,6 @@
     "name": "Clínica Santa Rosa",
     "phone": "54 0261 4419001",
     "wikidata": "Q100998399"
-  }
-},
-{
-  "type": "node",
-  "id": 4792468921,
-  "lat": -31.5389756,
-  "lon": -68.5271098,
-  "tags": {
-    "amenity": "clinic",
-    "email": "tomografíazq@gmail.com",
-    "healthcare": "clinic",
-    "name": "Tomografía Computada Dres. Zorrilla Quinteros",
-    "name:en": "Scan CT Dres. Zorrilla Quinteros",
-    "name:es": "Tomografía Computada Dres. Zorrilla Quinteros",
-    "opening_hours": "Mo-Fr 08:30-20:30",
-    "phone": "+54 264 4203830"
   }
 },
 {
@@ -39773,13 +39757,13 @@
 {
   "type": "node",
   "id": 7943302305,
-  "lat": -31.5381537,
-  "lon": -68.5283058,
+  "lat": -31.5381341,
+  "lon": -68.5283057,
   "tags": {
     "addr:city": "San Juan",
-    "addr:housenumber": "192",
-    "addr:postcode": "5400",
-    "addr:street": "Bartolomé Mitre",
+    "addr:housenumber": "192 (O)",
+    "addr:postcode": "J5402CXD",
+    "addr:street": "Mitre",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "icu;cardiology;surgery;neurosurgery;trauma",
@@ -39795,9 +39779,13 @@
 {
   "type": "node",
   "id": 7943363385,
-  "lat": -31.5384566,
-  "lon": -68.5283586,
+  "lat": -31.5384512,
+  "lon": -68.5283793,
   "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "328 (S)",
+    "addr:postcode": "J5402ECH",
+    "addr:street": "Sarmiento",
     "amenity": "clinic",
     "name": "Hospital Privado Nariz Garganta y Oído",
     "phone": "+54264 422 2475",
@@ -40903,19 +40891,19 @@
 {
   "type": "node",
   "id": 8809603902,
-  "lat": -31.5373215,
-  "lon": -68.5289054,
+  "lat": -31.5394205,
+  "lon": -68.5321393,
   "tags": {
     "addr:city": "San Juan",
-    "addr:housenumber": "219 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida José Ignacio de la Roza",
+    "addr:housenumber": "449 (O)",
+    "addr:postcode": "J5402ACI",
+    "addr:street": "Santa Fe",
     "amenity": "clinic",
     "contact:email": "eoftalmo76@gmail.com",
     "contact:facebook": "https://www.facebook.com/eoftalmosanjuan",
     "contact:instagram": "https://www.instagram.com/eoftalmo",
     "description": "Bajo riesgo con internación simple",
-    "healthcare": "optometrist",
+    "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
     "name": "Eoftalmo",
     "official_name": "Centro Oftalmologico Eoftalmo Medicina Ocular",
@@ -40923,7 +40911,8 @@
     "operator:type": "private",
     "phone": "+54 264-4217724",
     "ref:sisa_tipologia": "ESCIE",
-    "website": "https://www.eoftalmo.com"
+    "website": "https://www.eoftalmo.com",
+    "wheelchair": "yes"
   }
 },
 {
@@ -41556,6 +41545,42 @@
 },
 {
   "type": "node",
+  "id": 8914728513,
+  "lat": -31.5381229,
+  "lon": -68.5280793,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "170 (O)",
+    "addr:postcode": "J5402CXD",
+    "addr:street": "Mitre",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Estudios de Alta Complejidad",
+    "operator": "Grupo Mitre Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 8917300279,
+  "lat": -31.5387861,
+  "lon": -68.5298403,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "358 (S)",
+    "addr:postcode": "J5402GSH",
+    "addr:street": "Catamarca",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/clinica.mattar.spengler",
+    "contact:whatsapp": "+54 264 5185763",
+    "email": "administracion@mattarspengler.com",
+    "name": "Clínica Mattar Spengler",
+    "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-17:00",
+    "phone": "+54 264 4223331",
+    "website": "https://clinicamattarspengler.com"
+  }
+},
+{
+  "type": "node",
   "id": 8952180250,
   "lat": -34.4588626,
   "lon": -58.5555061,
@@ -41570,23 +41595,6 @@
     "name": "Nuevo Centro de Salud 31",
     "operator": "Municipio de San Fernando",
     "source": "https://www.sanfernando.gob.ar/noticias/obras-publicas/juan-andreotti-recorrio-la-ultima-etapa-de-obra-del-nuevo-centro-de-salud-31"
-  }
-},
-{
-  "type": "node",
-  "id": 8963829893,
-  "lat": -31.5394205,
-  "lon": -68.5321393,
-  "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "449 (O)",
-    "addr:postcode": "J5402ACI",
-    "addr:street": "Santa Fe",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "healthcare:speciality": "ophthalmology",
-    "name": "Eoftalmo",
-    "wheelchair": "yes"
   }
 },
 {
@@ -43587,22 +43595,6 @@
     "name": "Unidad Sanitaria Santa Catalina",
     "operator": "Municipalidad de Lomas de Zamora",
     "operator:type": "public"
-  }
-},
-{
-  "type": "node",
-  "id": 10148489646,
-  "lat": -31.5387824,
-  "lon": -68.5297674,
-  "tags": {
-    "amenity": "clinic",
-    "contact:instagram": "https://www.instagram.com/clinica.mattar.spengler",
-    "contact:whatsapp": "+54 264 5185763",
-    "email": "administracion@mattarspengler.com",
-    "name": "Clínica Mattar Spengler",
-    "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-17:00",
-    "phone": "+54 264 4223331",
-    "website": "https://clinicamattarspengler.com"
   }
 },
 {
@@ -47641,6 +47633,16 @@
   "tags": {
     "amenity": "clinic",
     "name": "Centro de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 12616516400,
+  "lat": -40.0811694,
+  "lon": -64.4703202,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
   }
 },
 {
