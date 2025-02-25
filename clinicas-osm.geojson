@@ -27817,6 +27817,7 @@
     "building:levels": "2",
     "healthcare": "clinic",
     "name": "Centro Médico Caballito Hospital Alemán",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-12:00",
     "phone": "+54 11 4827-7070",
     "id": "way/785871279"
   },
@@ -52099,6 +52100,47 @@
 },
 {
   "type": "Feature",
+  "id": "way/1346183040",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "yes",
+    "name": "Centro Periférico de Salud N°3",
+    "id": "way/1346183040"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.8816825,
+          -47.7442829
+        ],
+        [
+          -65.8815886,
+          -47.7439312
+        ],
+        [
+          -65.8816825,
+          -47.7438825
+        ],
+        [
+          -65.8821894,
+          -47.7442324
+        ],
+        [
+          -65.8821787,
+          -47.7442991
+        ],
+        [
+          -65.8816825,
+          -47.7442829
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1347473873",
   "properties": {
     "addr:city": "Cipolletti",
@@ -74840,6 +74882,23 @@
     "coordinates": [
       -71.4638612,
       -43.0864752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6226271241",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "yes",
+    "name": "Puesto sanitario Garayalde",
+    "id": "node/6226271241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.6198018,
+      -44.6869508
     ]
   }
 },
@@ -117904,6 +117963,43 @@
     "coordinates": [
       -64.4703202,
       -40.0811694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12618482177",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Juan Carbajal",
+    "official_name": "Centro de Atención Primaria de la Salud Juan Carbajal",
+    "operator": "Ministerio de Salud Pública",
+    "operator:type": "public",
+    "id": "node/12618482177"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -69.205502,
+      -30.3225355
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12619156104",
+  "properties": {
+    "amenity": "clinic",
+    "name": "Cenreo de Salud",
+    "id": "node/12619156104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.2476618,
+      -47.0266778
     ]
   }
 }
