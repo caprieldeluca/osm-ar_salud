@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-27T23:15:59Z",
+    "timestamp_osm_base": "2025-02-28T23:14:23Z",
     "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -8548,6 +8548,20 @@
 },
 {
   "type": "node",
+  "id": 4507448858,
+  "lat": -27.3855812,
+  "lon": -55.8893673,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:country": "AR",
+    "addr:street": "Avenida Cabred",
+    "amenity": "clinic",
+    "name": "Radiontica",
+    "shop": "food"
+  }
+},
+{
+  "type": "node",
   "id": 4515771590,
   "lat": -34.5971699,
   "lon": -58.3921867,
@@ -15281,8 +15295,8 @@
 {
   "type": "node",
   "id": 6012788517,
-  "lat": -31.5333311,
-  "lon": -68.5272970,
+  "lat": -31.5332446,
+  "lon": -68.5273465,
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -43945,8 +43959,8 @@
 {
   "type": "node",
   "id": 10543798975,
-  "lat": -26.5931177,
-  "lon": -65.9196142,
+  "lat": -26.5931321,
+  "lon": -65.9197215,
   "tags": {
     "addr:city": "Amaicha del Valle",
     "addr:postcode": "4137",
@@ -47380,6 +47394,7 @@
   "lon": -58.6184336,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Dress Molina"
   }
 },
@@ -55547,6 +55562,7 @@
     "addr:street": "9 de Julio",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "S.M.A.T.A."
   }
 },
@@ -69092,6 +69108,7 @@
     "name": "Centro de Atención Primaria de la Salud n°21 Villa Tropezón",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
+    "operator:wikidata": "Q2157253",
     "ref:sisa_codigo": "50063712216740",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "CAPS n°21",
@@ -71395,7 +71412,11 @@
   "nodes": [
     12542043809,
     12542043810,
+    12625796475,
+    12625796474,
+    12625796473,
     12542043811,
+    12625796472,
     12542043812,
     12542043809
   ],
@@ -87141,26 +87162,50 @@
 {
   "type": "node",
   "id": 12542043809,
-  "lat": -33.6640987,
-  "lon": -65.4528400
+  "lat": -33.6641082,
+  "lon": -65.4528331
 },
 {
   "type": "node",
   "id": 12542043810,
-  "lat": -33.6643064,
-  "lon": -65.4528908
+  "lat": -33.6642398,
+  "lon": -65.4528669
 },
 {
   "type": "node",
   "id": 12542043811,
-  "lat": -33.6643859,
-  "lon": -65.4525041
+  "lat": -33.6642810,
+  "lon": -65.4525504
 },
 {
   "type": "node",
   "id": 12542043812,
-  "lat": -33.6641615,
-  "lon": -65.4524456
+  "lat": -33.6641370,
+  "lon": -65.4526712
+},
+{
+  "type": "node",
+  "id": 12625796472,
+  "lat": -33.6642541,
+  "lon": -65.4527014
+},
+{
+  "type": "node",
+  "id": 12625796473,
+  "lat": -33.6643376,
+  "lon": -65.4525650
+},
+{
+  "type": "node",
+  "id": 12625796474,
+  "lat": -33.6642863,
+  "lon": -65.4528531
+},
+{
+  "type": "node",
+  "id": 12625796475,
+  "lat": -33.6642442,
+  "lon": -65.4528423
 },
 {
   "type": "node",
