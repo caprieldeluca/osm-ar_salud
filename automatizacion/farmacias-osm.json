@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-03-03T23:15:58Z",
+    "timestamp_osm_base": "2025-03-04T23:16:29Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -3202,6 +3202,7 @@
   "lon": -57.5508595,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2025-03-02",
     "healthcare": "pharmacy",
     "name": "Mitre"
   }
@@ -9753,12 +9754,11 @@
 {
   "type": "node",
   "id": 2283518659,
-  "lat": -34.5963223,
-  "lon": -58.3732628,
+  "lat": -34.5962494,
+  "lon": -58.3732668,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -10473,17 +10473,12 @@
 {
   "type": "node",
   "id": 2296591510,
-  "lat": -31.5348034,
-  "lon": -68.5350643,
+  "lat": -31.5348217,
+  "lon": -68.5350837,
   "tags": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "593 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia San Martín",
-    "network": "AR:J:RIV_VR",
     "phone": "+54 264 421 5555"
   }
 },
@@ -22584,8 +22579,8 @@
 {
   "type": "node",
   "id": 3382513131,
-  "lat": -31.5321660,
-  "lon": -68.5322764,
+  "lat": -31.5321469,
+  "lon": -68.5322472,
   "tags": {
     "amenity": "pharmacy",
     "name": "Farmacia Betancur",
@@ -33073,13 +33068,18 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "1470",
     "addr:street": "Avenida de Mayo",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2025-03-04",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -34132,6 +34132,7 @@
     "addr:postcode": "7600",
     "addr:street": "Avenida Pedro Luro",
     "amenity": "pharmacy",
+    "check_date": "2025-03-04",
     "healthcare": "pharmacy",
     "name": "Bauza"
   }
@@ -42568,18 +42569,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Río 1"
-  }
-},
-{
-  "type": "node",
-  "id": 4695626539,
-  "lat": -31.5338564,
-  "lon": -68.5358594,
-  "tags": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Sindical UDAP"
   }
 },
 {
@@ -96328,36 +96317,20 @@
 },
 {
   "type": "node",
-  "id": 12634212610,
-  "lat": -31.4293856,
-  "lon": -64.1911718,
+  "id": 12635902785,
+  "lat": -43.2913046,
+  "lon": -65.5009322,
   "tags": {
-    "addr:city": "Cordoba",
-    "addr:housenumber": "1202",
-    "addr:postcode": "X5000",
-    "addr:street": "Obispo Trejo",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "I Farm",
-    "opening_hours": "Mon - Fri 0900 - 1500"
+    "amenity": "pharmacy"
   }
 },
 {
   "type": "node",
-  "id": 12634212618,
-  "lat": -31.4282843,
-  "lon": -64.1906639,
+  "id": 12636401063,
+  "lat": -37.6747304,
+  "lon": -59.8058233,
   "tags": {
-    "addr:city": "Córdoba",
-    "addr:housenumber": "1113",
-    "addr:postcode": "X5000",
-    "addr:street": "Obispo Trejo N",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Eben Ezer Nueva Cba",
-    "opening_hours": "Mon-Fri 07:00-21:00, Sat 05:00-21:00"
+    "amenity": "pharmacy"
   }
 },
 {
@@ -114231,29 +114204,6 @@
     "healthcare": "pharmacy",
     "height": "4",
     "name": "Farmacia Catriel"
-  }
-},
-{
-  "type": "way",
-  "id": 1137331797,
-  "nodes": [
-    10601961225,
-    1589583254,
-    10601961219,
-    10601961218,
-    10601961224,
-    10601961215,
-    10601961223,
-    10601961222,
-    10601961221,
-    10601961220,
-    10601961225
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "retail",
-    "healthcare": "pharmacy",
-    "name": "Centro 2"
   }
 },
 {
@@ -143253,66 +143203,6 @@
   "id": 9776948924,
   "lat": -27.4510101,
   "lon": -58.9900161
-},
-{
-  "type": "node",
-  "id": 1589583254,
-  "lat": -27.4532357,
-  "lon": -58.9839298
-},
-{
-  "type": "node",
-  "id": 10601961215,
-  "lat": -27.4531026,
-  "lon": -58.9837882
-},
-{
-  "type": "node",
-  "id": 10601961218,
-  "lat": -27.4532879,
-  "lon": -58.9838308
-},
-{
-  "type": "node",
-  "id": 10601961219,
-  "lat": -27.4532875,
-  "lon": -58.9838710
-},
-{
-  "type": "node",
-  "id": 10601961220,
-  "lat": -27.4531850,
-  "lon": -58.9838493
-},
-{
-  "type": "node",
-  "id": 10601961221,
-  "lat": -27.4531466,
-  "lon": -58.9838063
-},
-{
-  "type": "node",
-  "id": 10601961222,
-  "lat": -27.4531095,
-  "lon": -58.9838483
-},
-{
-  "type": "node",
-  "id": 10601961223,
-  "lat": -27.4530793,
-  "lon": -58.9838145
-},
-{
-  "type": "node",
-  "id": 10601961224,
-  "lat": -27.4531755,
-  "lon": -58.9837051
-},
-{
-  "type": "node",
-  "id": 10601961225,
-  "lat": -27.4531745,
-  "lon": -58.9838613
 },
 {
   "type": "node",

@@ -38074,68 +38074,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1137331797",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "retail",
-    "healthcare": "pharmacy",
-    "name": "Centro 2",
-    "id": "way/1137331797"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.9838613,
-          -27.4531745
-        ],
-        [
-          -58.9839298,
-          -27.4532357
-        ],
-        [
-          -58.983871,
-          -27.4532875
-        ],
-        [
-          -58.9838308,
-          -27.4532879
-        ],
-        [
-          -58.9837051,
-          -27.4531755
-        ],
-        [
-          -58.9837882,
-          -27.4531026
-        ],
-        [
-          -58.9838145,
-          -27.4530793
-        ],
-        [
-          -58.9838483,
-          -27.4531095
-        ],
-        [
-          -58.9838063,
-          -27.4531466
-        ],
-        [
-          -58.9838493,
-          -27.453185
-        ],
-        [
-          -58.9838613,
-          -27.4531745
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1149285461",
   "properties": {
     "addr:city": "Zapala",
@@ -46582,6 +46520,7 @@
   "id": "node/1236713370",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2025-03-02",
     "healthcare": "pharmacy",
     "name": "Mitre",
     "id": "node/1236713370"
@@ -56096,14 +56035,13 @@
   "properties": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/2283518659"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.3732628,
-      -34.5963223
+      -58.3732668,
+      -34.5962494
     ]
   }
 },
@@ -57132,22 +57070,17 @@
   "type": "Feature",
   "id": "node/2296591510",
   "properties": {
-    "addr:city": "Rivadavia",
-    "addr:housenumber": "593 (O)",
-    "addr:postcode": "5400",
-    "addr:street": "Avenida Libertador General San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia San Martín",
-    "network": "AR:J:RIV_VR",
     "phone": "+54 264 421 5555",
     "id": "node/2296591510"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5350643,
-      -31.5348034
+      -68.5350837,
+      -31.5348217
     ]
   }
 },
@@ -74699,8 +74632,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.5322764,
-      -31.532166
+      -68.5322472,
+      -31.5321469
     ]
   }
 },
@@ -89869,13 +89802,18 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "1470",
     "addr:street": "Avenida de Mayo",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2025-03-04",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/4312146513"
   },
   "geometry": {
@@ -91396,6 +91334,7 @@
     "addr:postcode": "7600",
     "addr:street": "Avenida Pedro Luro",
     "amenity": "pharmacy",
+    "check_date": "2025-03-04",
     "healthcare": "pharmacy",
     "name": "Bauza",
     "id": "node/4368853490"
@@ -103463,24 +103402,6 @@
     "coordinates": [
       -58.430284,
       -34.6088839
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4695626539",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Sindical UDAP",
-    "id": "node/4695626539"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -68.5358594,
-      -31.5338564
     ]
   }
 },
@@ -179982,47 +179903,31 @@
 },
 {
   "type": "Feature",
-  "id": "node/12634212610",
+  "id": "node/12635902785",
   "properties": {
-    "addr:city": "Cordoba",
-    "addr:housenumber": "1202",
-    "addr:postcode": "X5000",
-    "addr:street": "Obispo Trejo",
     "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "I Farm",
-    "opening_hours": "Mon - Fri 0900 - 1500",
-    "id": "node/12634212610"
+    "id": "node/12635902785"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.1911718,
-      -31.4293856
+      -65.5009322,
+      -43.2913046
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/12634212618",
+  "id": "node/12636401063",
   "properties": {
-    "addr:city": "Córdoba",
-    "addr:housenumber": "1113",
-    "addr:postcode": "X5000",
-    "addr:street": "Obispo Trejo N",
     "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Eben Ezer Nueva Cba",
-    "opening_hours": "Mon-Fri 07:00-21:00, Sat 05:00-21:00",
-    "id": "node/12634212618"
+    "id": "node/12636401063"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -64.1906639,
-      -31.4282843
+      -59.8058233,
+      -37.6747304
     ]
   }
 }

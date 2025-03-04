@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-03-03T23:14:50Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-03-04T23:14:34Z",
+    "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21020,7 +21020,8 @@
     "name": "Centro de Salud Virginia",
     "nohousenumber": "yes",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 3493 49-2604",
     "ref:sisa_codigo": "50820212185005",
     "ref:sisa_tipologia": "ESSIDT",
@@ -22650,7 +22651,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Ataliva",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 3493 49-1057",
     "ref:sisa_codigo": "50820212184501",
     "ref:sisa_tipologia": "ESSIDT",
@@ -23260,7 +23262,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Lehmann",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 3492 48-0400",
     "ref:sisa_codigo": "50820212184779",
     "ref:sisa_tipologia": "ESSIDT",
@@ -41830,6 +41833,24 @@
 },
 {
   "type": "node",
+  "id": 9085280207,
+  "lat": -31.5337499,
+  "lon": -68.5325304,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "432 (O)",
+    "addr:postcode": "J5400ANJ",
+    "addr:street": "San Luis",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/sanatorio_argentino",
+    "healthcare": "clinic",
+    "name": "Sanatorio Argentino",
+    "phone": "+54 264 4303030",
+    "website": "http://www.sanatorioargentino.com.ar"
+  }
+},
+{
+  "type": "node",
   "id": 9132562526,
   "lat": -30.4189586,
   "lon": -64.3481553,
@@ -42418,6 +42439,24 @@
     "amenity": "clinic",
     "healthcare": "yes",
     "name": "Centro de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 9461097169,
+  "lat": -31.5335427,
+  "lon": -68.5324680,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "433 (O)",
+    "addr:postcode": "J5400ANI",
+    "addr:street": "San Luis",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/sanatorio_argentino",
+    "healthcare": "clinic",
+    "name": "Sanatorio Argentino",
+    "phone": "+54 264 4303030",
+    "website": "http://www.sanatorioargentino.com.ar"
   }
 },
 {
@@ -47724,6 +47763,40 @@
   }
 },
 {
+  "type": "node",
+  "id": 12636045614,
+  "lat": -31.4868044,
+  "lon": -65.0545000,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
+  }
+},
+{
+  "type": "node",
+  "id": 12636393579,
+  "lat": -31.5290786,
+  "lon": -68.5371719,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "507 (N)",
+    "addr:postcode": "J5400DNE",
+    "addr:street": "Avenida España",
+    "amenity": "clinic",
+    "name": "Clínica Mercedario"
+  }
+},
+{
+  "type": "node",
+  "id": 12637154369,
+  "lat": -36.5353856,
+  "lon": -60.8862533,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -50507,41 +50580,6 @@
 },
 {
   "type": "way",
-  "id": 362124597,
-  "nodes": [
-    3664938572,
-    9085280081,
-    9085250564,
-    9085280099,
-    9085280206,
-    9085280205,
-    9085280204,
-    9085250606,
-    9085280202,
-    9085280201,
-    9085280200,
-    8158668418,
-    9085280137,
-    3664938573,
-    9085250557,
-    8158668427,
-    3664938574,
-    9085280080,
-    3664938575,
-    3664938572
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "contact:instagram": "https://www.instagram.com/sanatorio_argentino",
-    "healthcare": "clinic",
-    "name": "Sanatorio Argentino",
-    "phone": "+54 264 4303030",
-    "website": "http://www.sanatorioargentino.com.ar"
-  }
-},
-{
-  "type": "way",
   "id": 362836165,
   "nodes": [
     3670834008,
@@ -50680,35 +50718,6 @@
     "operator:type": "public",
     "ref:sisa_codigo": "50820842184842",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
-  "id": 372660979,
-  "nodes": [
-    8280014635,
-    8280014632,
-    8280018887,
-    8280009235,
-    8280017228,
-    8280017229,
-    8280014377,
-    8280016154,
-    8280016155,
-    8280017948,
-    8280017945,
-    8280017944,
-    8280018212,
-    8280018213,
-    8280018214,
-    8280017941,
-    7947294002,
-    8280014635
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clínica Mercedario"
   }
 },
 {
@@ -84511,42 +84520,6 @@
 },
 {
   "type": "node",
-  "id": 3664938572,
-  "lat": -31.5337297,
-  "lon": -68.5324140
-},
-{
-  "type": "node",
-  "id": 3664938573,
-  "lat": -31.5341914,
-  "lon": -68.5323736
-},
-{
-  "type": "node",
-  "id": 3664938574,
-  "lat": -31.5342098,
-  "lon": -68.5326326
-},
-{
-  "type": "node",
-  "id": 3664938575,
-  "lat": -31.5337553,
-  "lon": -68.5326741
-},
-{
-  "type": "node",
-  "id": 8158668418,
-  "lat": -31.5340950,
-  "lon": -68.5323821
-},
-{
-  "type": "node",
-  "id": 8158668427,
-  "lat": -31.5342001,
-  "lon": -68.5324967
-},
-{
-  "type": "node",
   "id": 8280018163,
   "lat": -31.5340515,
   "lon": -68.5355179
@@ -84658,84 +84631,6 @@
   "id": 8280019595,
   "lat": -31.5341080,
   "lon": -68.5356461
-},
-{
-  "type": "node",
-  "id": 9085250557,
-  "lat": -31.5341965,
-  "lon": -68.5324457
-},
-{
-  "type": "node",
-  "id": 9085250564,
-  "lat": -31.5338620,
-  "lon": -68.5324024
-},
-{
-  "type": "node",
-  "id": 9085250606,
-  "lat": -31.5339909,
-  "lon": -68.5323912
-},
-{
-  "type": "node",
-  "id": 9085280080,
-  "lat": -31.5339989,
-  "lon": -68.5326519
-},
-{
-  "type": "node",
-  "id": 9085280081,
-  "lat": -31.5337840,
-  "lon": -68.5324093
-},
-{
-  "type": "node",
-  "id": 9085280099,
-  "lat": -31.5338903,
-  "lon": -68.5324000
-},
-{
-  "type": "node",
-  "id": 9085280137,
-  "lat": -31.5341301,
-  "lon": -68.5323790
-},
-{
-  "type": "node",
-  "id": 9085280200,
-  "lat": -31.5340901,
-  "lon": -68.5323825
-},
-{
-  "type": "node",
-  "id": 9085280201,
-  "lat": -31.5340908,
-  "lon": -68.5324111
-},
-{
-  "type": "node",
-  "id": 9085280202,
-  "lat": -31.5339913,
-  "lon": -68.5324198
-},
-{
-  "type": "node",
-  "id": 9085280204,
-  "lat": -31.5339317,
-  "lon": -68.5323964
-},
-{
-  "type": "node",
-  "id": 9085280205,
-  "lat": -31.5339348,
-  "lon": -68.5324231
-},
-{
-  "type": "node",
-  "id": 9085280206,
-  "lat": -31.5338921,
-  "lon": -68.5324292
 },
 {
   "type": "node",
@@ -85246,108 +85141,6 @@
   "id": 8083549429,
   "lat": -31.5222611,
   "lon": -68.5485560
-},
-{
-  "type": "node",
-  "id": 7947294002,
-  "lat": -31.5291570,
-  "lon": -68.5371897
-},
-{
-  "type": "node",
-  "id": 8280009235,
-  "lat": -31.5289891,
-  "lon": -68.5372066
-},
-{
-  "type": "node",
-  "id": 8280014377,
-  "lat": -31.5290564,
-  "lon": -68.5366113
-},
-{
-  "type": "node",
-  "id": 8280014632,
-  "lat": -31.5290801,
-  "lon": -68.5371974
-},
-{
-  "type": "node",
-  "id": 8280014635,
-  "lat": -31.5291530,
-  "lon": -68.5371901
-},
-{
-  "type": "node",
-  "id": 8280016154,
-  "lat": -31.5291111,
-  "lon": -68.5366043
-},
-{
-  "type": "node",
-  "id": 8280016155,
-  "lat": -31.5291325,
-  "lon": -68.5368769
-},
-{
-  "type": "node",
-  "id": 8280017228,
-  "lat": -31.5289315,
-  "lon": -68.5366272
-},
-{
-  "type": "node",
-  "id": 8280017229,
-  "lat": -31.5290140,
-  "lon": -68.5366167
-},
-{
-  "type": "node",
-  "id": 8280017941,
-  "lat": -31.5291494,
-  "lon": -68.5370920
-},
-{
-  "type": "node",
-  "id": 8280017944,
-  "lat": -31.5291361,
-  "lon": -68.5369228
-},
-{
-  "type": "node",
-  "id": 8280017945,
-  "lat": -31.5291352,
-  "lon": -68.5369112
-},
-{
-  "type": "node",
-  "id": 8280017948,
-  "lat": -31.5291328,
-  "lon": -68.5368812
-},
-{
-  "type": "node",
-  "id": 8280018212,
-  "lat": -31.5291446,
-  "lon": -68.5370305
-},
-{
-  "type": "node",
-  "id": 8280018213,
-  "lat": -31.5291457,
-  "lon": -68.5370454
-},
-{
-  "type": "node",
-  "id": 8280018214,
-  "lat": -31.5291477,
-  "lon": -68.5370709
-},
-{
-  "type": "node",
-  "id": 8280018887,
-  "lat": -31.5290141,
-  "lon": -68.5372041
 },
 {
   "type": "node",
