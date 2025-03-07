@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-03-06T23:15:59Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-03-07T23:12:58Z",
+    "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10125,8 +10125,9 @@
     "name": "Centro de Salud Maiztegui",
     "official_name": "Centro de Salud Doctor Julio Maiztegui",
     "old_name": "Centro de Salud San Roque",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284747",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
@@ -13320,7 +13321,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 9 San Francisquito",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184872",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -13540,7 +13542,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 25 Fonavi",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184848",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -13689,7 +13692,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Santa Lucía",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284965",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
@@ -13844,7 +13848,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Doctor David Staffieri",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284639",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -13907,7 +13912,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Libertad",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842185968",
     "ref:sisa_tipologia": "ESSIDT",
     "wikidata": "Q97672065"
@@ -14032,7 +14038,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud El Gaucho",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284665",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -64861,7 +64868,8 @@
     "official_name:es": "Centro de Salud Doctor Ernesto Che Guevara",
     "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184649",
     "ref:sisa_tipologia": "ESSIDT",
     "short_name": "Centro Guevara",
@@ -67752,7 +67760,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Pocho Lepratti",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284898",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -71623,6 +71632,27 @@
     "operator:type": "government",
     "operator:wikidata": "Q52535",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+  }
+},
+{
+  "type": "way",
+  "id": 1365307743,
+  "nodes": [
+    12643359991,
+    12643359966,
+    12643359965,
+    12643359992,
+    12643359998,
+    12643359993,
+    12643360002,
+    12643360003,
+    12643359991
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Universitario de Salud Estudiantil"
   }
 },
 {
@@ -86631,56 +86661,104 @@
 {
   "type": "node",
   "id": 7015923816,
-  "lat": -33.6844457,
-  "lon": -65.4730250
+  "lat": -33.6844432,
+  "lon": -65.4730232
 },
 {
   "type": "node",
   "id": 12059261729,
-  "lat": -33.6842902,
-  "lon": -65.4730509
+  "lat": -33.6842906,
+  "lon": -65.4730428
 },
 {
   "type": "node",
   "id": 12059261730,
-  "lat": -33.6843417,
-  "lon": -65.4730697
+  "lat": -33.6843424,
+  "lon": -65.4730586
 },
 {
   "type": "node",
   "id": 12059261731,
-  "lat": -33.6843305,
-  "lon": -65.4731260
+  "lat": -33.6843277,
+  "lon": -65.4731279
 },
 {
   "type": "node",
   "id": 12059261732,
-  "lat": -33.6844181,
-  "lon": -65.4731582
+  "lat": -33.6844154,
+  "lon": -65.4731547
 },
 {
   "type": "node",
   "id": 12059261733,
   "lat": -33.6843796,
-  "lon": -65.4729034
+  "lon": -65.4729021
 },
 {
   "type": "node",
   "id": 12059261734,
-  "lat": -33.6843662,
-  "lon": -65.4729651
+  "lat": -33.6843663,
+  "lon": -65.4729653
 },
 {
   "type": "node",
   "id": 12059261735,
-  "lat": -33.6843111,
-  "lon": -65.4729472
+  "lat": -33.6843101,
+  "lon": -65.4729465
 },
 {
   "type": "node",
   "id": 12059261742,
-  "lat": -33.6844689,
-  "lon": -65.4729245
+  "lat": -33.6844625,
+  "lon": -65.4729273
+},
+{
+  "type": "node",
+  "id": 12643359965,
+  "lat": -33.6849940,
+  "lon": -65.4724576
+},
+{
+  "type": "node",
+  "id": 12643359966,
+  "lat": -33.6848778,
+  "lon": -65.4724238
+},
+{
+  "type": "node",
+  "id": 12643359991,
+  "lat": -33.6848159,
+  "lon": -65.4724039
+},
+{
+  "type": "node",
+  "id": 12643359992,
+  "lat": -33.6850323,
+  "lon": -65.4723111
+},
+{
+  "type": "node",
+  "id": 12643359993,
+  "lat": -33.6848489,
+  "lon": -65.4722504
+},
+{
+  "type": "node",
+  "id": 12643359998,
+  "lat": -33.6849593,
+  "lon": -65.4722884
+},
+{
+  "type": "node",
+  "id": 12643360002,
+  "lat": -33.6848445,
+  "lon": -65.4722699
+},
+{
+  "type": "node",
+  "id": 12643360003,
+  "lat": -33.6848200,
+  "lon": -65.4723835
 },
 {
   "type": "node",
