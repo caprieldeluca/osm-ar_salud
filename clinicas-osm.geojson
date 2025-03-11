@@ -1793,8 +1793,9 @@
     "contact:phone": "+54 341 480-6635; +54 341 455-8239",
     "healthcare": "clinic",
     "name": "Centro de Salud 1° de Mayo",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
+    "operator": "Municipalidad de Rosario",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842285009",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -38534,7 +38535,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 19 La Cerámica",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184838",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "way/1030676038"
@@ -43814,6 +43816,60 @@
         [
           -58.5755941,
           -34.5300666
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1211960610",
+  "properties": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:full": "Avenida Genova 7237",
+    "addr:housenumber": "7237",
+    "addr:postcode": "2000",
+    "addr:state": "Santa Fe",
+    "addr:street": "Avenida Génova",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 480-7542",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 16 Pablo VI",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
+    "ref:sisa_codigo": "50820842184835",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "way/1211960610"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.7200908,
+          -32.9162669
+        ],
+        [
+          -60.7202574,
+          -32.9162732
+        ],
+        [
+          -60.7202517,
+          -32.9164948
+        ],
+        [
+          -60.7200856,
+          -32.9164916
+        ],
+        [
+          -60.7200847,
+          -32.9164744
+        ],
+        [
+          -60.7200908,
+          -32.9162669
         ]
       ]
     ]
@@ -67038,7 +67094,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 7 12 de Octubre",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842185989",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/4692942957"
@@ -71260,7 +71317,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Vecinal Antonio Paravano",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284987",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -71455,7 +71513,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 26 De la Comunidad Organizada",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184849",
     "ref:sisa_tipologia": "ESSIDT",
     "id": "node/5540925653"
@@ -71539,7 +71598,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud Vecinal Ángel Invaldi",
     "operator": "Municipalidad de Rosario",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284493",
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
@@ -78157,7 +78217,8 @@
     "name": "Centro de Salud 3 - 7 De Septiembre",
     "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 341 480-7541",
     "ref:sisa_codigo": "50820842184853",
     "ref:sisa_tipologia": "ESSIDT",
@@ -78538,7 +78599,8 @@
     "healthcare": "clinic",
     "name": "Centro de Salud 54 Remanso Valerio",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q44823",
     "phone": "+54 341 471-4561",
     "ref:sisa_codigo": "50820842184866",
     "ref:sisa_tipologia": "ESSIDT",
@@ -114382,6 +114444,7 @@
   "id": "node/11260363042",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Go Centro Médico",
     "operator": "Grupo Oroño",
     "id": "node/11260363042"
