@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-03-13T23:16:33Z",
+    "timestamp_osm_base": "2025-03-14T23:16:17Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -92038,7 +92038,9 @@
   "lon": -58.6130284,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Calapraba"
+    "name": "Calapraba",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-14:00",
+    "wheelchair": "limited"
   }
 },
 {
@@ -96412,6 +96414,58 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12661152493,
+  "lat": -38.7349930,
+  "lon": -62.2369319,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Costanzo"
+  }
+},
+{
+  "type": "node",
+  "id": 12661152494,
+  "lat": -38.7342136,
+  "lon": -62.2443549,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Gamboa",
+    "phone": "2915061212"
+  }
+},
+{
+  "type": "node",
+  "id": 12661229383,
+  "lat": -38.7231124,
+  "lon": -62.2480547,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12661229387,
+  "lat": -38.7260679,
+  "lon": -62.2411691,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacia Martinez"
+  }
+},
+{
+  "type": "node",
+  "id": 12662765458,
+  "lat": -31.4238838,
+  "lon": -64.1937260,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-02-25",
+    "healthcare": "pharmacy",
+    "name": "svfarma"
   }
 },
 {
@@ -107805,8 +107859,9 @@
     "addr:street": "Achával Rodríguez",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2025-02-25",
     "healthcare": "pharmacy",
-    "name": "Farmatica"
+    "name": "Svfarma"
   }
 },
 {
