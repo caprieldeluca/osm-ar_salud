@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-03-19T23:19:00Z",
+    "timestamp_osm_base": "2025-03-20T23:18:13Z",
     "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -22240,6 +22240,19 @@
   }
 },
 {
+  "type": "node",
+  "id": 12685313222,
+  "lat": -34.9242835,
+  "lon": -57.9947217,
+  "tags": {
+    "addr:street": "Avenida 32",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "CONSULTORIO MEDICO"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -27221,6 +27234,31 @@
   }
 },
 {
+  "type": "relation",
+  "id": 18869329,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1369731262,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1369736503,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:street": "Avenida 32",
+    "amenity": "doctors",
+    "building": "service",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Centro Medico La Cumbre",
+    "type": "multipolygon"
+  }
+},
+{
   "type": "node",
   "id": 9347890069,
   "lat": -41.6540790,
@@ -31212,6 +31250,84 @@
 },
 {
   "type": "node",
+  "id": 12685295459,
+  "lat": -34.9243748,
+  "lon": -57.9948145
+},
+{
+  "type": "node",
+  "id": 12685295460,
+  "lat": -34.9244471,
+  "lon": -57.9947180
+},
+{
+  "type": "node",
+  "id": 12685295461,
+  "lat": -34.9244216,
+  "lon": -57.9946890
+},
+{
+  "type": "node",
+  "id": 12685295462,
+  "lat": -34.9243926,
+  "lon": -57.9947194
+},
+{
+  "type": "node",
+  "id": 12685295463,
+  "lat": -34.9244123,
+  "lon": -57.9947455
+},
+{
+  "type": "node",
+  "id": 12685295464,
+  "lat": -34.9243925,
+  "lon": -57.9947705
+},
+{
+  "type": "node",
+  "id": 12685295465,
+  "lat": -34.9243666,
+  "lon": -57.9947414
+},
+{
+  "type": "node",
+  "id": 12685295466,
+  "lat": -34.9243800,
+  "lon": -57.9947164
+},
+{
+  "type": "node",
+  "id": 12685295467,
+  "lat": -34.9243831,
+  "lon": -57.9947201
+},
+{
+  "type": "node",
+  "id": 12685295468,
+  "lat": -34.9243963,
+  "lon": -57.9947049
+},
+{
+  "type": "node",
+  "id": 12685295469,
+  "lat": -34.9243735,
+  "lon": -57.9946779
+},
+{
+  "type": "node",
+  "id": 12685295470,
+  "lat": -34.9243419,
+  "lon": -57.9947080
+},
+{
+  "type": "node",
+  "id": 12685295471,
+  "lat": -34.9243101,
+  "lon": -57.9947453
+},
+{
+  "type": "node",
   "id": 4567496634,
   "lat": -34.9363450,
   "lon": -57.9587521
@@ -34761,6 +34877,33 @@
   "id": 7343096288,
   "lat": -22.1005925,
   "lon": -65.8661136
+},
+{
+  "type": "way",
+  "id": 1369731262,
+  "nodes": [
+    12685295462,
+    12685295461,
+    12685295460,
+    12685295459,
+    12685295471,
+    12685295470
+  ]
+},
+{
+  "type": "way",
+  "id": 1369736503,
+  "nodes": [
+    12685295470,
+    12685295469,
+    12685295468,
+    12685295467,
+    12685295466,
+    12685295465,
+    12685295464,
+    12685295463,
+    12685295462
+  ]
 },
 {
   "type": "way",
