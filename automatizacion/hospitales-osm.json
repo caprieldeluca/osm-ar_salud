@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-03-22T23:13:56Z",
-    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "timestamp_osm_base": "2025-03-23T23:13:30Z",
+    "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1344,21 +1344,6 @@
     "healthcare": "hospital",
     "name": "Hospital Municipal Doctor Luis Rivarola",
     "phone": "+54 3546 49-7636"
-  }
-},
-{
-  "type": "node",
-  "id": 1486487531,
-  "lat": -38.7184977,
-  "lon": -62.3918671,
-  "tags": {
-    "addr:city": "General Daniel Cerri",
-    "addr:housenumber": "395",
-    "addr:postcode": "8105",
-    "addr:street": "Avenida 25 de Mayo",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal"
   }
 },
 {
@@ -37967,7 +37952,7 @@
     "addr:suburb": "Palermo",
     "amenity": "hospital",
     "building": "yes",
-    "check_date": "2023-11-30",
+    "check_date": "2025-03-23",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Sanatorio Güemes",
@@ -57146,6 +57131,28 @@
   }
 },
 {
+  "type": "way",
+  "id": 1370622727,
+  "nodes": [
+    1486487531,
+    12694080531,
+    12694080532,
+    12694080533,
+    12694080534,
+    12694080535,
+    1486487531
+  ],
+  "tags": {
+    "addr:city": "General Daniel Cerri",
+    "addr:housenumber": "395",
+    "addr:postcode": "8105",
+    "addr:street": "Avenida 25 de Mayo",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Municipal"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -67904,6 +67911,42 @@
   "id": 7365899014,
   "lat": -38.8905190,
   "lon": -62.0949981
+},
+{
+  "type": "node",
+  "id": 1486487531,
+  "lat": -38.7185785,
+  "lon": -62.3916287
+},
+{
+  "type": "node",
+  "id": 12694080531,
+  "lat": -38.7188052,
+  "lon": -62.3919192
+},
+{
+  "type": "node",
+  "id": 12694080532,
+  "lat": -38.7184609,
+  "lon": -62.3923604
+},
+{
+  "type": "node",
+  "id": 12694080533,
+  "lat": -38.7185447,
+  "lon": -62.3924678
+},
+{
+  "type": "node",
+  "id": 12694080534,
+  "lat": -38.7184511,
+  "lon": -62.3925877
+},
+{
+  "type": "node",
+  "id": 12694080535,
+  "lat": -38.7181407,
+  "lon": -62.3921899
 },
 {
   "type": "node",
