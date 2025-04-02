@@ -55943,9 +55943,16 @@
   "type": "Feature",
   "id": "node/2868039444",
   "properties": {
+    "addr:city": "Las Talitas",
+    "addr:full": "Calle 77 Entre C10 Y C12 / Calle C 14 Y C 55 Mz D Lote 1",
+    "addr:postcode": "4101",
+    "addr:street": "Calle 73",
+    "alt_name": "Centro de Atención Municipal de Salud",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Caps Barrio Grafico 2",
+    "ref:sisa_codigo": "50901052296108",
+    "ref:sisa_tipologia": "ESSIDT",
     "id": "node/2868039444"
   },
   "geometry": {
@@ -117963,8 +117970,12 @@
   "type": "Feature",
   "id": "node/12623621890",
   "properties": {
+    "addr:city": "Pico Truncado",
+    "addr:postcode": "9015",
+    "addr:street": "Belgrano",
     "amenity": "clinic",
-    "name": "Clinica San Lucas",
+    "healthcare:speciality": "general",
+    "name": "Clinica Medica San Lucas",
     "id": "node/12623621890"
   },
   "geometry": {
@@ -118320,6 +118331,29 @@
     "coordinates": [
       -57.9941909,
       -38.3424524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12723884179",
+  "properties": {
+    "addr:city": "Villa Mariano Moreno",
+    "addr:housenumber": "121",
+    "addr:postcode": "4101",
+    "addr:street": "Calle 15",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Medico De Diagnostico-asociacion Mutual Ayuda Comunitaria Y Social",
+    "ref:sisa_codigo": "50901052896998",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/12723884179"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.2095962,
+      -26.7753296
     ]
   }
 }
