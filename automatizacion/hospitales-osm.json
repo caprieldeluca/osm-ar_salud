@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-04-13T23:15:05Z",
+    "timestamp_osm_base": "2025-04-14T23:14:16Z",
     "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -21658,12 +21658,17 @@
 {
   "type": "node",
   "id": 9530719197,
-  "lat": -27.3705898,
-  "lon": -58.5114662,
+  "lat": -27.3705564,
+  "lon": -58.5116502,
   "tags": {
+    "addr:city": "San Cosme",
+    "addr:postcode": "3412",
+    "addr:street": "Juan Ramón Vidal / Miguel Morel",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Doctor Julio C. Rivero"
+    "name": "Hospital \"Julio C. Rivero\"",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "public"
   }
 },
 {
@@ -57112,6 +57117,29 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1377470292,
+  "nodes": [
+    2984474225,
+    2984474226,
+    2984474227,
+    12754492883,
+    12754492884,
+    2984474228,
+    2984474225
+  ],
+  "tags": {
+    "addr:city": "San Cosme",
+    "addr:postcode": "3412",
+    "addr:street": "Juan Ramón Vidal / Miguel Morel",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital \"Julio C. Rivero\"",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "public"
   }
 },
 {
@@ -127345,6 +127373,42 @@
   "id": 4880527691,
   "lat": -27.5048168,
   "lon": -58.5494958
+},
+{
+  "type": "node",
+  "id": 2984474225,
+  "lat": -27.3705405,
+  "lon": -58.5116882
+},
+{
+  "type": "node",
+  "id": 2984474226,
+  "lat": -27.3707150,
+  "lon": -58.5115573
+},
+{
+  "type": "node",
+  "id": 2984474227,
+  "lat": -27.3705045,
+  "lon": -58.5111992
+},
+{
+  "type": "node",
+  "id": 2984474228,
+  "lat": -27.3703803,
+  "lon": -58.5114203
+},
+{
+  "type": "node",
+  "id": 12754492883,
+  "lat": -27.3704601,
+  "lon": -58.5111252
+},
+{
+  "type": "node",
+  "id": 12754492884,
+  "lat": -27.3702850,
+  "lon": -58.5112608
 },
 {
   "type": "node",
