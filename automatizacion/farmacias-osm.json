@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-04-17T23:17:04Z",
+    "timestamp_osm_base": "2025-04-18T23:16:55Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -104533,10 +104533,27 @@
 },
 {
   "type": "way",
+  "id": 474457268,
+  "nodes": [
+    4684090158,
+    4684090159,
+    4684090160,
+    4684090161,
+    4684090158
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "retail",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "way",
   "id": 474490332,
   "nodes": [
     2808406411,
     4684385124,
+    12764570364,
     4684385125,
     4684385126,
     2808406411
@@ -104544,7 +104561,6 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:street": "Avenida Larrazábal",
     "amenity": "pharmacy",
     "branch": "Mataderos",
     "brand": "Farmacity",
@@ -135273,33 +135289,57 @@
 },
 {
   "type": "node",
+  "id": 4684090158,
+  "lat": -34.6549916,
+  "lon": -58.5062185
+},
+{
+  "type": "node",
+  "id": 4684090159,
+  "lat": -34.6551532,
+  "lon": -58.5060371
+},
+{
+  "type": "node",
+  "id": 4684090160,
+  "lat": -34.6552280,
+  "lon": -58.5061356
+},
+{
+  "type": "node",
+  "id": 4684090161,
+  "lat": -34.6550663,
+  "lon": -58.5063170
+},
+{
+  "type": "node",
   "id": 4684412987,
-  "lat": -34.6538059,
-  "lon": -58.5054933
+  "lat": -34.6538114,
+  "lon": -58.5055288
 },
 {
   "type": "node",
   "id": 4684412988,
-  "lat": -34.6539717,
-  "lon": -58.5052999
+  "lat": -34.6539706,
+  "lon": -58.5053207
 },
 {
   "type": "node",
   "id": 4684413091,
   "lat": -34.6538674,
-  "lon": -58.5055706
+  "lon": -58.5055854
 },
 {
   "type": "node",
   "id": 4684413092,
-  "lat": -34.6540328,
-  "lon": -58.5053770
+  "lat": -34.6540212,
+  "lon": -58.5053944
 },
 {
   "type": "node",
   "id": 2808406411,
-  "lat": -34.6512358,
-  "lon": -58.5026891
+  "lat": -34.6512369,
+  "lon": -58.5027159
 },
 {
   "type": "node",
@@ -135388,20 +135428,20 @@
 {
   "type": "node",
   "id": 4684385124,
-  "lat": -34.6513940,
-  "lon": -58.5024759
+  "lat": -34.6513951,
+  "lon": -58.5025027
 },
 {
   "type": "node",
   "id": 4684385125,
-  "lat": -34.6512933,
-  "lon": -58.5023656
+  "lat": -34.6512768,
+  "lon": -58.5024179
 },
 {
   "type": "node",
   "id": 4684385126,
-  "lat": -34.6511352,
-  "lon": -58.5025788
+  "lat": -34.6511363,
+  "lon": -58.5026056
 },
 {
   "type": "node",
@@ -135426,6 +135466,12 @@
   "id": 4684385143,
   "lat": -34.6516974,
   "lon": -58.5032030
+},
+{
+  "type": "node",
+  "id": 12764570364,
+  "lat": -34.6513062,
+  "lon": -58.5024105
 },
 {
   "type": "node",
