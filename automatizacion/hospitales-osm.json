@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-04-26T23:13:56Z",
+    "timestamp_osm_base": "2025-04-27T23:15:46Z",
     "timestamp_areas_base": "2025-02-06T02:17:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -12119,6 +12119,7 @@
     "addr:full": "Belgrano 300",
     "addr:place": "Lules",
     "addr:postcode": "4128",
+    "addr:street": "General Manuel Belgrano",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "hospital",
@@ -37460,8 +37461,7 @@
     "healthcare": "hospital",
     "name": "Hospital San Martín",
     "official_name": "Hospital Interzonal General de Agudos \"General San Martín\"",
-    "phone": "54 0221 4211195",
-    "source": "http://www.ms.gba.gov.ar/hospitales/"
+    "phone": "54 0221 4211195"
   }
 },
 {
@@ -53900,6 +53900,7 @@
     "internet_access": "wlan",
     "internet_access:fee": "customers",
     "name": "Corporación Medica de General San Martín",
+    "opening_hours": "Mo-Sa 07:00-20:00 open \"Sanatorio\"; 24/7 \"Solo guardia\"",
     "operator": "Corporación Medica de General San Martín",
     "operator:type": "private",
     "operator:website": "https://www.webcorporacion.com.ar/",
@@ -57177,6 +57178,44 @@
     "name": "Hospital \"San Antonio de Padua\"",
     "operator": "Ministerio de Salud Pública de Corrientes",
     "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 1381598365,
+  "nodes": [
+    973600420,
+    973600391,
+    12791127270,
+    12791127271,
+    12791127272,
+    12791127273,
+    12791127274,
+    12791127275,
+    12791127276,
+    973600420
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1381598366,
+  "nodes": [
+    12791127277,
+    12791127278,
+    12791127283,
+    12791127279,
+    12791127280,
+    2283524901,
+    2283524900,
+    12791127277
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
   }
 },
 {
@@ -99646,8 +99685,8 @@
 {
   "type": "node",
   "id": 3817121738,
-  "lat": -34.9228288,
-  "lon": -57.9249772
+  "lat": -34.9228365,
+  "lon": -57.9249658
 },
 {
   "type": "node",
@@ -100494,6 +100533,102 @@
   "id": 5935724601,
   "lat": -34.7032939,
   "lon": -58.6403029
+},
+{
+  "type": "node",
+  "id": 973600391,
+  "lat": -34.7545649,
+  "lon": -58.5802872
+},
+{
+  "type": "node",
+  "id": 973600420,
+  "lat": -34.7534731,
+  "lon": -58.5803019
+},
+{
+  "type": "node",
+  "id": 2283524900,
+  "lat": -34.7538316,
+  "lon": -58.5810982
+},
+{
+  "type": "node",
+  "id": 2283524901,
+  "lat": -34.7538339,
+  "lon": -58.5814316
+},
+{
+  "type": "node",
+  "id": 12791127270,
+  "lat": -34.7545594,
+  "lon": -58.5796971
+},
+{
+  "type": "node",
+  "id": 12791127271,
+  "lat": -34.7545498,
+  "lon": -58.5796726
+},
+{
+  "type": "node",
+  "id": 12791127272,
+  "lat": -34.7545374,
+  "lon": -58.5796598
+},
+{
+  "type": "node",
+  "id": 12791127273,
+  "lat": -34.7545134,
+  "lon": -58.5796492
+},
+{
+  "type": "node",
+  "id": 12791127274,
+  "lat": -34.7535070,
+  "lon": -58.5796545
+},
+{
+  "type": "node",
+  "id": 12791127275,
+  "lat": -34.7534808,
+  "lon": -58.5796631
+},
+{
+  "type": "node",
+  "id": 12791127276,
+  "lat": -34.7534676,
+  "lon": -58.5796873
+},
+{
+  "type": "node",
+  "id": 12791127277,
+  "lat": -34.7536969,
+  "lon": -58.5811010
+},
+{
+  "type": "node",
+  "id": 12791127278,
+  "lat": -34.7537002,
+  "lon": -58.5814386
+},
+{
+  "type": "node",
+  "id": 12791127279,
+  "lat": -34.7534182,
+  "lon": -58.5817821
+},
+{
+  "type": "node",
+  "id": 12791127280,
+  "lat": -34.7534821,
+  "lon": -58.5818597
+},
+{
+  "type": "node",
+  "id": 12791127283,
+  "lat": -34.7536412,
+  "lon": -58.5815132
 },
 {
   "type": "node",
@@ -103486,7 +103621,7 @@
 {
   "type": "node",
   "id": 2397812940,
-  "lat": -34.6957276,
+  "lat": -34.6957557,
   "lon": -58.3160682
 },
 {
