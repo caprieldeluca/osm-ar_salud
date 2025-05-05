@@ -65566,26 +65566,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2712424928",
-  "properties": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "2441",
-    "addr:street": "Ayacucho",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Principal",
-    "id": "node/2712424928"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.8974361,
-      -27.3726578
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2713111796",
   "properties": {
     "amenity": "pharmacy",
@@ -113939,6 +113919,7 @@
     "addr:state": "Santa Fe",
     "addr:street": "Leandro N. Alem",
     "amenity": "pharmacy",
+    "check_date": "2025-05-05",
     "healthcare": "pharmacy",
     "name": "San Jorge",
     "id": "node/5357535127"
@@ -130733,9 +130714,13 @@
   "id": "node/6678073385",
   "properties": {
     "amenity": "pharmacy",
-    "check_date": "2025-02-26",
+    "check_date": "2025-05-05",
     "healthcare": "pharmacy",
     "name": "Yafee",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "limited",
     "id": "node/6678073385"
   },
   "geometry": {
@@ -153933,6 +153918,7 @@
     "addr:postcode": "5523",
     "addr:street": "Bandera de los Andes",
     "amenity": "pharmacy",
+    "check_date:opening_hours": "2025-03-27",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Nueva Italia",
@@ -176342,6 +176328,7 @@
     "addr:postcode": "2000",
     "addr:street": "San Lorenzo",
     "amenity": "pharmacy",
+    "check_date": "2025-05-05",
     "contact:email": "farm.magistral@gmail.com",
     "contact:instagram": "farmaciamagistral.ros",
     "contact:phone": "+54 341 424-6290",
@@ -180931,6 +180918,44 @@
     "coordinates": [
       -69.0190338,
       -33.5903837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12812436219",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-05-05",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/12812436219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6269917,
+      -32.955011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12813067426",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-05-05",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/12813067426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6326747,
+      -32.9540846
     ]
   }
 }
