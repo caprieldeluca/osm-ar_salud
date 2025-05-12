@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-05-11T23:16:21Z",
-    "timestamp_areas_base": "2025-02-06T02:17:44Z",
+    "timestamp_osm_base": "2025-05-12T23:17:11Z",
+    "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -58459,17 +58459,6 @@
 },
 {
   "type": "node",
-  "id": 6234996010,
-  "lat": -33.6820315,
-  "lon": -65.4637329,
-  "tags": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Del Aguila"
-  }
-},
-{
-  "type": "node",
   "id": 6235049685,
   "lat": -24.7843555,
   "lon": -65.4078182,
@@ -96836,6 +96825,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 12829562412,
+  "lat": -28.4965864,
+  "lon": -65.8013398,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -113535,24 +113535,6 @@
 },
 {
   "type": "way",
-  "id": 980147102,
-  "nodes": [
-    9067037808,
-    9067037809,
-    9137871330,
-    9067037810,
-    9067037811,
-    9067037808
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "way",
   "id": 983421473,
   "nodes": [
     9092804958,
@@ -116637,6 +116619,24 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Mutual Metalúrgica San Nicolás"
+  }
+},
+{
+  "type": "way",
+  "id": 1385813112,
+  "nodes": [
+    12830561606,
+    12830561607,
+    12830561608,
+    12652320030,
+    12748033371,
+    12830561606
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Aguila"
   }
 },
 {
@@ -122722,6 +122722,36 @@
   "id": 12587741242,
   "lat": -33.6821482,
   "lon": -65.4644068
+},
+{
+  "type": "node",
+  "id": 12748033371,
+  "lat": -33.6820788,
+  "lon": -65.4639119
+},
+{
+  "type": "node",
+  "id": 12652320030,
+  "lat": -33.6821329,
+  "lon": -65.4638814
+},
+{
+  "type": "node",
+  "id": 12830561606,
+  "lat": -33.6820117,
+  "lon": -65.4638912
+},
+{
+  "type": "node",
+  "id": 12830561607,
+  "lat": -33.6820568,
+  "lon": -65.4636877
+},
+{
+  "type": "node",
+  "id": 12830561608,
+  "lat": -33.6821673,
+  "lon": -65.4637196
 },
 {
   "type": "node",
@@ -142984,36 +143014,6 @@
   "id": 4201162924,
   "lat": -29.4126874,
   "lon": -66.8481244
-},
-{
-  "type": "node",
-  "id": 9067037808,
-  "lat": -28.4965537,
-  "lon": -65.8013817
-},
-{
-  "type": "node",
-  "id": 9067037809,
-  "lat": -28.4966446,
-  "lon": -65.8013771
-},
-{
-  "type": "node",
-  "id": 9067037810,
-  "lat": -28.4966412,
-  "lon": -65.8012891
-},
-{
-  "type": "node",
-  "id": 9067037811,
-  "lat": -28.4965502,
-  "lon": -65.8012937
-},
-{
-  "type": "node",
-  "id": 9137871330,
-  "lat": -28.4966427,
-  "lon": -65.8013288
 },
 {
   "type": "node",
