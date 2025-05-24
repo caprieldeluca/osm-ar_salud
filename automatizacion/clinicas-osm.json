@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-05-23T23:16:53Z",
+    "timestamp_osm_base": "2025-05-24T23:15:54Z",
     "timestamp_areas_base": "2025-05-20T05:45:31Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -13662,27 +13662,6 @@
     "operator:type": "government",
     "operator:wikidata": "Q44823",
     "ref:sisa_codigo": "50820842184852",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 5540925668,
-  "lat": -32.9190645,
-  "lon": -60.6901624,
-  "tags": {
-    "addr:city": "Rosario",
-    "addr:country": "AR",
-    "addr:housenumber": "2010",
-    "addr:state": "Santa Fe",
-    "addr:street": "Avenida Juan José Paso",
-    "amenity": "clinic",
-    "contact:phone": "+54 341 480-4535",
-    "healthcare": "clinic",
-    "name": "Centro de Salud 47 Comunidad Toba",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842184858",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -50785,36 +50764,6 @@
 },
 {
   "type": "way",
-  "id": 362836165,
-  "nodes": [
-    3670834008,
-    3670834009,
-    7501332125,
-    7501332124,
-    7501332123,
-    7501332126,
-    3670834010,
-    3670834011,
-    3670834008
-  ],
-  "tags": {
-    "addr:city": "Rosario",
-    "addr:country": "AR",
-    "addr:housenumber": "2010",
-    "addr:state": "Santa Fe",
-    "addr:street": "Avenida Juan José Paso",
-    "amenity": "clinic",
-    "building": "service",
-    "healthcare": "clinic",
-    "name": "Centro de Salud 47 Comunidad Qom",
-    "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842184858",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
   "id": 364598319,
   "nodes": [
     3679667851,
@@ -71007,21 +70956,40 @@
   "id": 1340123924,
   "nodes": [
     4229257489,
+    12861484008,
+    12861484004,
+    12861484000,
+    12861484001,
+    12861484002,
+    12861484003,
     12396428178,
+    12861484009,
     12396428179,
+    12861484011,
     12396428180,
+    12861484010,
+    12861483998,
+    12861484016,
+    12861483999,
+    12861484005,
     4229257489
   ],
   "tags": {
-    "addr:city": "San Martín de los Andes",
-    "addr:housenumber": "389",
-    "addr:postcode": "8370",
+    "addr:city": "Vega Maipú",
+    "addr:housenumber": "398",
+    "addr:postcode": "Q8370",
     "addr:street": "Marcelo Berbel",
     "amenity": "clinic",
     "building": "yes",
+    "contact:instagram": "https://www.instagram.com/clinicachapelco/",
+    "email": "info@clinicachapelco.com",
     "healthcare": "clinic",
+    "height": "0",
+    "mobile": "+54 9 299 574-0217",
     "name": "Clínica Chapelco",
-    "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-12:30"
+    "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-12:30",
+    "phone": "+54 297 242-9132;+54 297 242-0425",
+    "website": "https://clinicachapelco.com/"
   }
 },
 {
@@ -72014,6 +71982,63 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1389197814,
+  "nodes": [
+    12859764877,
+    7501332122,
+    7501332121,
+    12859764876,
+    12859764875,
+    7501332120,
+    7501332119,
+    12859764874,
+    12859764877
+  ],
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:housenumber": "2010",
+    "addr:state": "Santa Fe",
+    "addr:street": "Avenida Juan José Paso",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 480-4535",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 47 Comunidad Toba",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50820842184858",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
+  "type": "way",
+  "id": 1389197816,
+  "nodes": [
+    7234124356,
+    12859764890,
+    12859764889,
+    12859764888,
+    12859764887,
+    12859764886,
+    7234124356
+  ],
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:housenumber": "2010",
+    "addr:state": "Santa Fe",
+    "addr:street": "Avenida Juan José Paso",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud 47 Comunidad Qom",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "government",
+    "ref:sisa_codigo": "50820842184858",
+    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -73264,26 +73289,104 @@
 {
   "type": "node",
   "id": 4229257489,
-  "lat": -40.1251406,
-  "lon": -71.2465620
+  "lat": -40.1251360,
+  "lon": -71.2465164
 },
 {
   "type": "node",
   "id": 12396428178,
-  "lat": -40.1250189,
-  "lon": -71.2467154
+  "lat": -40.1250437,
+  "lon": -71.2467302
 },
 {
   "type": "node",
   "id": 12396428179,
-  "lat": -40.1252742,
-  "lon": -71.2470620
+  "lat": -40.1252698,
+  "lon": -71.2470216
 },
 {
   "type": "node",
   "id": 12396428180,
-  "lat": -40.1253959,
-  "lon": -71.2469087
+  "lat": -40.1253731,
+  "lon": -71.2468859
+},
+{
+  "type": "node",
+  "id": 12861483998,
+  "lat": -40.1251476,
+  "lon": -71.2465941
+},
+{
+  "type": "node",
+  "id": 12861483999,
+  "lat": -40.1251720,
+  "lon": -71.2465619
+},
+{
+  "type": "node",
+  "id": 12861484000,
+  "lat": -40.1249897,
+  "lon": -71.2467096
+},
+{
+  "type": "node",
+  "id": 12861484001,
+  "lat": -40.1250137,
+  "lon": -71.2467407
+},
+{
+  "type": "node",
+  "id": 12861484002,
+  "lat": -40.1250263,
+  "lon": -71.2467247
+},
+{
+  "type": "node",
+  "id": 12861484003,
+  "lat": -40.1250371,
+  "lon": -71.2467394
+},
+{
+  "type": "node",
+  "id": 12861484004,
+  "lat": -40.1250816,
+  "lon": -71.2465882
+},
+{
+  "type": "node",
+  "id": 12861484005,
+  "lat": -40.1251544,
+  "lon": -71.2465397
+},
+{
+  "type": "node",
+  "id": 12861484008,
+  "lat": -40.1251115,
+  "lon": -71.2465487
+},
+{
+  "type": "node",
+  "id": 12861484009,
+  "lat": -40.1252128,
+  "lon": -71.2469472
+},
+{
+  "type": "node",
+  "id": 12861484010,
+  "lat": -40.1253150,
+  "lon": -71.2468107
+},
+{
+  "type": "node",
+  "id": 12861484011,
+  "lat": -40.1253148,
+  "lon": -71.2469623
+},
+{
+  "type": "node",
+  "id": 12861484016,
+  "lat": -40.1251598,
+  "lon": -71.2465780
 },
 {
   "type": "node",
@@ -92619,51 +92722,87 @@
 },
 {
   "type": "node",
-  "id": 3670834008,
-  "lat": -32.9192568,
-  "lon": -60.6899777
+  "id": 7234124356,
+  "lat": -32.9192406,
+  "lon": -60.6902495
 },
 {
   "type": "node",
-  "id": 3670834009,
-  "lat": -32.9193449,
-  "lon": -60.6899756
+  "id": 7501332119,
+  "lat": -32.9192136,
+  "lon": -60.6901486
 },
 {
   "type": "node",
-  "id": 3670834010,
-  "lat": -32.9193489,
-  "lon": -60.6902179
+  "id": 7501332120,
+  "lat": -32.9192120,
+  "lon": -60.6900550
 },
 {
   "type": "node",
-  "id": 3670834011,
-  "lat": -32.9192608,
-  "lon": -60.6902200
+  "id": 7501332121,
+  "lat": -32.9189073,
+  "lon": -60.6900622
 },
 {
   "type": "node",
-  "id": 7501332123,
-  "lat": -32.9193657,
-  "lon": -60.6901781
+  "id": 7501332122,
+  "lat": -32.9189091,
+  "lon": -60.6901692
 },
 {
   "type": "node",
-  "id": 7501332124,
-  "lat": -32.9193644,
-  "lon": -60.6901043
+  "id": 12859764874,
+  "lat": -32.9192145,
+  "lon": -60.6902035
 },
 {
   "type": "node",
-  "id": 7501332125,
-  "lat": -32.9193470,
-  "lon": -60.6901047
+  "id": 12859764875,
+  "lat": -32.9192121,
+  "lon": -60.6900184
 },
 {
   "type": "node",
-  "id": 7501332126,
+  "id": 12859764876,
+  "lat": -32.9189067,
+  "lon": -60.6900255
+},
+{
+  "type": "node",
+  "id": 12859764877,
+  "lat": -32.9189103,
+  "lon": -60.6902106
+},
+{
+  "type": "node",
+  "id": 12859764886,
   "lat": -32.9193482,
-  "lon": -60.6901785
+  "lon": -60.6902441
+},
+{
+  "type": "node",
+  "id": 12859764887,
+  "lat": -32.9193764,
+  "lon": -60.6902381
+},
+{
+  "type": "node",
+  "id": 12859764888,
+  "lat": -32.9193979,
+  "lon": -60.6902038
+},
+{
+  "type": "node",
+  "id": 12859764889,
+  "lat": -32.9193887,
+  "lon": -60.6898706
+},
+{
+  "type": "node",
+  "id": 12859764890,
+  "lat": -32.9192303,
+  "lon": -60.6898768
 },
 {
   "type": "node",
