@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-05-24T23:16:50Z",
-    "timestamp_areas_base": "2025-05-24T20:45:00Z",
+    "timestamp_osm_base": "2025-05-25T23:16:44Z",
+    "timestamp_areas_base": "2025-05-25T01:55:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4450,8 +4450,8 @@
 {
   "type": "node",
   "id": 1469315165,
-  "lat": -34.7056469,
-  "lon": -58.4050066,
+  "lat": -34.7056458,
+  "lon": -58.4049764,
   "tags": {
     "addr:street": "25 de Mayo",
     "amenity": "pharmacy"
@@ -22666,6 +22666,7 @@
   "lon": -61.7711278,
   "tags": {
     "amenity": "pharmacy",
+    "building": "yes",
     "healthcare": "pharmacy",
     "name": "Bernardi"
   }
@@ -79182,7 +79183,7 @@
     "addr:city": "San Juan",
     "addr:housenumber": "1291 (S)",
     "addr:postcode": "5400",
-    "addr:street": "Justo José de Urquiza",
+    "addr:street": "Urquiza",
     "amenity": "pharmacy",
     "name": "Farmacia Nueva Valdivia"
   }
@@ -94231,19 +94232,6 @@
   "lon": -63.8249385,
   "tags": {
     "amenity": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 12145110252,
-  "lat": -32.9292398,
-  "lon": -60.8198672,
-  "tags": {
-    "addr:street": "Avenida Fuerza Aérea",
-    "amenity": "pharmacy",
-    "check_date": "2025-05-09",
-    "healthcare": "pharmacy",
-    "wheelchair": "limited"
   }
 },
 {
@@ -116461,6 +116449,34 @@
 },
 {
   "type": "way",
+  "id": 1312115214,
+  "nodes": [
+    12145110257,
+    12145110256,
+    12862765440,
+    12145110255,
+    12862765438,
+    12628946458,
+    12145110257
+  ],
+  "tags": {
+    "addr:street": "Avenida Fuerza Aérea",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "2",
+    "check_date": "2025-05-25",
+    "contact:phone": "+54 341 515-0398",
+    "contact:website": "https://redfarmashop.com/",
+    "drive-through": "yes",
+    "healthcare": "pharmacy",
+    "material": "metal",
+    "name": "Farmashop",
+    "opening_hours": "Mo-Fr 08:00-23:00; Sa, Su 09:00-23:00",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
   "id": 1312511380,
   "nodes": [
     12148716789,
@@ -126451,6 +126467,42 @@
   "id": 8980147318,
   "lat": -32.9340475,
   "lon": -60.8206380
+},
+{
+  "type": "node",
+  "id": 12145110255,
+  "lat": -32.9292908,
+  "lon": -60.8198211
+},
+{
+  "type": "node",
+  "id": 12145110256,
+  "lat": -32.9291164,
+  "lon": -60.8198272
+},
+{
+  "type": "node",
+  "id": 12145110257,
+  "lat": -32.9291188,
+  "lon": -60.8199239
+},
+{
+  "type": "node",
+  "id": 12628946458,
+  "lat": -32.9292932,
+  "lon": -60.8199178
+},
+{
+  "type": "node",
+  "id": 12862765438,
+  "lat": -32.9292920,
+  "lon": -60.8198695
+},
+{
+  "type": "node",
+  "id": 12862765440,
+  "lat": -32.9291386,
+  "lon": -60.8198264
 },
 {
   "type": "node",
