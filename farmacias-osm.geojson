@@ -20487,6 +20487,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Los Alamos",
+    "opening_hours": "Mo-Fr 08:00-14:00+, Sa 09:00-13:00, Mo-Fr 17:00-20:00",
     "id": "way/534632306"
   },
   "geometry": {
@@ -44147,8 +44148,11 @@
   "type": "Feature",
   "id": "node/724302926",
   "properties": {
+    "addr:housenumber": "955",
+    "addr:street": "Avenida Boedo",
     "amenity": "pharmacy",
-    "check_date": "2024-05-02",
+    "branch": "Boedo",
+    "check_date": "2025-06-02",
     "healthcare": "pharmacy",
     "name": "Farmacity Boedo",
     "id": "node/724302926"
@@ -56091,12 +56095,17 @@
   "type": "Feature",
   "id": "node/2271705842",
   "properties": {
+    "addr:housenumber": "937",
+    "addr:street": "Avenida Boedo",
     "amenity": "pharmacy",
-    "check_date": "2024-05-02",
+    "check_date": "2025-06-02",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Suiza",
     "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/2271705842"
   },
   "geometry": {
@@ -59148,10 +59157,16 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "3894",
     "addr:street": "Avenida Chivilcoy",
     "amenity": "pharmacy",
+    "check_date": "2025-05-28",
     "healthcare": "pharmacy",
     "name": "Farmacia Jaoquin",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/2390253790"
   },
   "geometry": {
@@ -181292,6 +181307,40 @@
     "coordinates": [
       -58.6678042,
       -34.6278975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12881812978",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Siempre Farmacias",
+    "id": "node/12881812978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.3375649,
+      -33.2974209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12882137827",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Fátima",
+    "id": "node/12882137827"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.3352777,
+      -33.2979194
     ]
   }
 }
