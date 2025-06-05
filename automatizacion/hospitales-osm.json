@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-06-04T23:16:00Z",
-    "timestamp_areas_base": "2025-05-20T05:45:31Z",
+    "timestamp_osm_base": "2025-06-05T23:17:11Z",
+    "timestamp_areas_base": "2025-05-25T01:55:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10688,7 +10688,7 @@
 {
   "type": "node",
   "id": 4376693546,
-  "lat": -31.0997081,
+  "lat": -31.0996524,
   "lon": -60.0910433,
   "tags": {
     "addr:city": "Helvecia",
@@ -23801,20 +23801,34 @@
   "lat": -27.4756751,
   "lon": -58.8184078,
   "tags": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "1435",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida Artigas",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Pediatrico \"Juan Pablo II\""
+    "healthcare:speciality": "paediatrics",
+    "name": "Hospital Pediátrico \"Juan Pablo II\"",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "public"
   }
 },
 {
   "type": "node",
   "id": 12331067116,
-  "lat": -27.4758274,
-  "lon": -58.8152750,
+  "lat": -27.4756155,
+  "lon": -58.8147388,
   "tags": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "2940",
+    "addr:postcode": "3400",
+    "addr:street": "Suiza",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Oncologico"
+    "healthcare:speciality": "oncology",
+    "name": "Instituto Oncológico de Corrientes",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "public"
   }
 },
 {
@@ -24021,6 +24035,16 @@
     "healthcare": "hospital",
     "name": "Centro de Salud El Jardin",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12889606657,
+  "lat": -31.0569410,
+  "lon": -60.0916816,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
   }
 },
 {
@@ -41520,6 +41544,7 @@
     "addr:street": "Presidente Roca",
     "amenity": "hospital",
     "brand": "Grupo Gamma",
+    "check_date": "2025-06-05",
     "contact:phone": "+54 341 489-3500",
     "contact:website": "https://grupogamma.com/",
     "healthcare": "hospital",
@@ -50815,25 +50840,24 @@
   "type": "way",
   "id": 1009403380,
   "nodes": [
-    9313398635,
+    12888720466,
     9620315303,
     9620315304,
     1653758146,
-    9313398636,
-    2315361540,
-    2315361538,
-    2315361536,
-    2315361534,
-    2315361532,
-    5159812828,
-    9612174094,
+    1741549165,
+    12888738164,
+    12888738163,
+    12888738162,
+    12888738161,
+    9313398680,
+    9313398679,
     9620315297,
     9612174095,
     9612174093,
     9612174092,
     9612174091,
-    9620315298,
-    9313398635
+    12888738131,
+    12888720466
   ],
   "tags": {
     "amenity": "hospital",
@@ -51546,7 +51570,7 @@
   "type": "way",
   "id": 1044645926,
   "nodes": [
-    9612174094,
+    12888738161,
     9313398680,
     9313398679,
     9620315297,
@@ -51554,12 +51578,11 @@
     9612174093,
     9612174092,
     9612174091,
-    9620315298,
+    12888738131,
     9313398670,
     9313398669,
-    5159812825,
-    5159812826,
-    9612174094
+    12888738135,
+    12888738161
   ],
   "tags": {
     "addr:city": "Corrientes",
@@ -51569,7 +51592,10 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Pediátrico Juan Pablo II",
+    "healthcare:speciality": "paediatrics",
+    "name": "Hospital Pediátrico \"Juan Pablo II\"",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "public",
     "phone": "03794-475300/ 475306",
     "wheelchair": "yes"
   }
@@ -57338,6 +57364,38 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro de Salud. 1ro de Mayo"
+  }
+},
+{
+  "type": "way",
+  "id": 1392340765,
+  "nodes": [
+    12888720466,
+    9620315303,
+    9620315304,
+    1653758146,
+    12888720469,
+    12888720470,
+    12888720471,
+    12888720489,
+    12888720491,
+    12888720490,
+    12888720488,
+    12888720472,
+    12888720473,
+    12888720466
+  ],
+  "tags": {
+    "addr:city": "Corrientes",
+    "addr:housenumber": "2940",
+    "addr:postcode": "3400",
+    "addr:street": "Suiza",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "oncology",
+    "name": "Instituto Oncológico de Corrientes",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "public"
   }
 },
 {
@@ -127208,123 +127266,129 @@
 },
 {
   "type": "node",
-  "id": 2315361532,
-  "lat": -27.4776473,
-  "lon": -58.8195799
-},
-{
-  "type": "node",
-  "id": 5159812826,
-  "lat": -27.4760116,
-  "lon": -58.8194173
-},
-{
-  "type": "node",
-  "id": 5159812828,
-  "lat": -27.4775597,
-  "lon": -58.8196235
-},
-{
-  "type": "node",
   "id": 9313398679,
-  "lat": -27.4764406,
-  "lon": -58.8190736
+  "lat": -27.4765056,
+  "lon": -58.8189669
 },
 {
   "type": "node",
   "id": 9313398680,
-  "lat": -27.4764054,
-  "lon": -58.8193524
+  "lat": -27.4764548,
+  "lon": -58.8193984
 },
 {
   "type": "node",
-  "id": 9612174094,
-  "lat": -27.4763893,
-  "lon": -58.8194769
+  "id": 12888738161,
+  "lat": -27.4764452,
+  "lon": -58.8194708
+},
+{
+  "type": "node",
+  "id": 12888738162,
+  "lat": -27.4775561,
+  "lon": -58.8196329
+},
+{
+  "type": "node",
+  "id": 12888738163,
+  "lat": -27.4776425,
+  "lon": -58.8195517
 },
 {
   "type": "node",
   "id": 1653758146,
-  "lat": -27.4763641,
-  "lon": -58.8163045
+  "lat": -27.4763439,
+  "lon": -58.8163125
 },
 {
   "type": "node",
-  "id": 2315361534,
-  "lat": -27.4777881,
-  "lon": -58.8184426
-},
-{
-  "type": "node",
-  "id": 2315361536,
-  "lat": -27.4777963,
-  "lon": -58.8183766
-},
-{
-  "type": "node",
-  "id": 2315361538,
-  "lat": -27.4779262,
-  "lon": -58.8173272
-},
-{
-  "type": "node",
-  "id": 2315361540,
-  "lat": -27.4779391,
-  "lon": -58.8172225
-},
-{
-  "type": "node",
-  "id": 9313398636,
-  "lat": -27.4780195,
-  "lon": -58.8165733
-},
-{
-  "type": "node",
-  "id": 9612174092,
-  "lat": -27.4759603,
-  "lon": -58.8172254
+  "id": 1741549165,
+  "lat": -27.4780065,
+  "lon": -58.8165781
 },
 {
   "type": "node",
   "id": 9612174093,
-  "lat": -27.4760293,
-  "lon": -58.8172348
+  "lat": -27.4760113,
+  "lon": -58.8172429
 },
 {
   "type": "node",
   "id": 9612174095,
-  "lat": -27.4763838,
-  "lon": -58.8177310
+  "lat": -27.4763586,
+  "lon": -58.8177330
 },
 {
   "type": "node",
   "id": 9620315297,
-  "lat": -27.4765877,
-  "lon": -58.8178533
+  "lat": -27.4766364,
+  "lon": -58.8179265
 },
 {
   "type": "node",
-  "id": 5159812825,
-  "lat": -27.4750215,
-  "lon": -58.8192612
+  "id": 12888720469,
+  "lat": -27.4765592,
+  "lon": -58.8146315
+},
+{
+  "type": "node",
+  "id": 12888720470,
+  "lat": -27.4763598,
+  "lon": -58.8145845
+},
+{
+  "type": "node",
+  "id": 12888720471,
+  "lat": -27.4764148,
+  "lon": -58.8142907
+},
+{
+  "type": "node",
+  "id": 12888720488,
+  "lat": -27.4761347,
+  "lon": -58.8142191
+},
+{
+  "type": "node",
+  "id": 12888720489,
+  "lat": -27.4762173,
+  "lon": -58.8142403
+},
+{
+  "type": "node",
+  "id": 12888720490,
+  "lat": -27.4761395,
+  "lon": -58.8142624
+},
+{
+  "type": "node",
+  "id": 12888720491,
+  "lat": -27.4761965,
+  "lon": -58.8142748
+},
+{
+  "type": "node",
+  "id": 12888738164,
+  "lat": -27.4777762,
+  "lon": -58.8184386
 },
 {
   "type": "node",
   "id": 9313398669,
-  "lat": -27.4750275,
-  "lon": -58.8191162
-},
-{
-  "type": "node",
-  "id": 9313398635,
-  "lat": -27.4753190,
-  "lon": -58.8162888
+  "lat": -27.4750166,
+  "lon": -58.8191159
 },
 {
   "type": "node",
   "id": 9313398670,
-  "lat": -27.4751192,
-  "lon": -58.8182585
+  "lat": -27.4750502,
+  "lon": -58.8188022
+},
+{
+  "type": "node",
+  "id": 12888738135,
+  "lat": -27.4749976,
+  "lon": -58.8192504
 },
 {
   "type": "node",
@@ -127334,21 +127398,45 @@
 },
 {
   "type": "node",
-  "id": 9620315298,
-  "lat": -27.4751713,
-  "lon": -58.8176008
+  "id": 9612174092,
+  "lat": -27.4759513,
+  "lon": -58.8172315
 },
 {
   "type": "node",
   "id": 9620315303,
   "lat": -27.4758975,
-  "lon": -58.8163887
+  "lon": -58.8163914
 },
 {
   "type": "node",
   "id": 9620315304,
-  "lat": -27.4759183,
-  "lon": -58.8162363
+  "lat": -27.4759088,
+  "lon": -58.8162417
+},
+{
+  "type": "node",
+  "id": 12888720466,
+  "lat": -27.4752869,
+  "lon": -58.8162955
+},
+{
+  "type": "node",
+  "id": 12888720472,
+  "lat": -27.4755513,
+  "lon": -58.8140642
+},
+{
+  "type": "node",
+  "id": 12888720473,
+  "lat": -27.4755057,
+  "lon": -58.8141049
+},
+{
+  "type": "node",
+  "id": 12888738131,
+  "lat": -27.4751650,
+  "lon": -58.8176176
 },
 {
   "type": "node",
