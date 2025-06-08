@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "generator": "Overpass API 0.7.62.6 621661ea",
   "osm3s": {
-    "timestamp_osm_base": "2025-06-07T23:17:41Z",
-    "timestamp_areas_base": "2025-05-20T05:45:31Z",
+    "timestamp_osm_base": "2025-06-08T23:15:55Z",
+    "timestamp_areas_base": "2025-05-25T01:55:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -48023,6 +48023,18 @@
   }
 },
 {
+  "type": "node",
+  "id": 12897004237,
+  "lat": -31.0191163,
+  "lon": -64.2726374,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Fundación Galeno",
+    "opening_hours": "Mo-Fr 09:00-12:00,16:00-19:00"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -48278,40 +48290,6 @@
     "name": "Go Kinesio",
     "operator": "Grupo Oroño",
     "operator:type": "private"
-  }
-},
-{
-  "type": "way",
-  "id": 187354053,
-  "nodes": [
-    1980624677,
-    1980624688,
-    1980624680,
-    1980624665,
-    1980624681,
-    1980624672,
-    1980624677
-  ],
-  "tags": {
-    "addr2:street": "Avenida San José de Calasanz",
-    "addr:city": "Rosario",
-    "addr:country": "AR",
-    "addr:housenumber": "980",
-    "addr:postcode": "S2008",
-    "addr:state": "Santa Fe",
-    "addr:street": "Suinda",
-    "amenity": "clinic",
-    "building": "hospital",
-    "building:levels": "1",
-    "contact:phone": "+54 341 480-7689",
-    "healthcare": "clinic",
-    "name": "Centro de Salud José Ugarte",
-    "official_name": "Centro de Salud \"Licenciado José Raúl Ugarte\"",
-    "operator": "Municipio de Rosario",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50820842284472",
-    "ref:sisa_tipologia": "ESSIDT",
-    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
   }
 },
 {
@@ -72136,6 +72114,41 @@
   }
 },
 {
+  "type": "way",
+  "id": 1393388324,
+  "nodes": [
+    3231462418,
+    12898213841,
+    1980624672,
+    1980624677,
+    3231462413,
+    3231462412,
+    1980624688,
+    1980624680,
+    3231462420,
+    3231462418
+  ],
+  "tags": {
+    "addr2:street": "Avenida San José de Calasanz",
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:housenumber": "980",
+    "addr:postcode": "S2008",
+    "addr:state": "Santa Fe",
+    "addr:street": "Suinda",
+    "amenity": "clinic",
+    "contact:phone": "+54 341 480-7689",
+    "healthcare": "clinic",
+    "name": "Centro de Salud José Ugarte",
+    "official_name": "Centro de Salud \"Licenciado José Raúl Ugarte\"",
+    "operator": "Municipio de Rosario",
+    "operator:type": "public",
+    "ref:sisa_codigo": "50820842284472",
+    "ref:sisa_tipologia": "ESSIDT",
+    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -92234,39 +92247,57 @@
 },
 {
   "type": "node",
-  "id": 1980624665,
-  "lat": -32.9405478,
-  "lon": -60.7602639
-},
-{
-  "type": "node",
   "id": 1980624672,
-  "lat": -32.9405126,
-  "lon": -60.7603088
+  "lat": -32.9405233,
+  "lon": -60.7603202
 },
 {
   "type": "node",
   "id": 1980624677,
-  "lat": -32.9403799,
-  "lon": -60.7603102
+  "lat": -32.9403765,
+  "lon": -60.7603202
 },
 {
   "type": "node",
   "id": 1980624680,
-  "lat": -32.9405471,
-  "lon": -60.7601650
-},
-{
-  "type": "node",
-  "id": 1980624681,
-  "lat": -32.9405123,
-  "lon": -60.7602642
+  "lat": -32.9405578,
+  "lon": -60.7601764
 },
 {
   "type": "node",
   "id": 1980624688,
-  "lat": -32.9403788,
-  "lon": -60.7601667
+  "lat": -32.9403755,
+  "lon": -60.7601768
+},
+{
+  "type": "node",
+  "id": 3231462412,
+  "lat": -32.9403620,
+  "lon": -60.7601765
+},
+{
+  "type": "node",
+  "id": 3231462413,
+  "lat": -32.9403632,
+  "lon": -60.7603202
+},
+{
+  "type": "node",
+  "id": 3231462418,
+  "lat": -32.9405974,
+  "lon": -60.7602759
+},
+{
+  "type": "node",
+  "id": 3231462420,
+  "lat": -32.9406288,
+  "lon": -60.7601756
+},
+{
+  "type": "node",
+  "id": 12898213841,
+  "lat": -32.9405811,
+  "lon": -60.7603189
 },
 {
   "type": "node",
