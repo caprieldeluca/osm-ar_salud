@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-06-25T21:31:54Z",
-    "timestamp_areas_base": "2025-06-25T18:06:00Z",
+    "timestamp_osm_base": "2025-06-26T23:16:46Z",
+    "timestamp_areas_base": "2025-06-26T19:28:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45717,7 +45717,9 @@
     "addr:street": "Coronel Pringles",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Qualitas"
+    "name": "Qualitas",
+    "opening_hours": "Mo-Fr 08:00-12:00, 16:00-20:00; Sa 08:00-12:00",
+    "phone": "+54(3731)426780"
   }
 },
 {
@@ -72153,6 +72155,23 @@
   }
 },
 {
+  "type": "way",
+  "id": 1409786820,
+  "nodes": [
+    12954324741,
+    12954324742,
+    12954324743,
+    12954324744,
+    12954324741
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CIE - Consultorio Integral de Enfermeria"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -87328,6 +87347,30 @@
   "id": 12830907575,
   "lat": -33.6834487,
   "lon": -65.4708729
+},
+{
+  "type": "node",
+  "id": 12954324741,
+  "lat": -33.6901409,
+  "lon": -65.4685338
+},
+{
+  "type": "node",
+  "id": 12954324742,
+  "lat": -33.6902198,
+  "lon": -65.4681481
+},
+{
+  "type": "node",
+  "id": 12954324743,
+  "lat": -33.6903214,
+  "lon": -65.4681781
+},
+{
+  "type": "node",
+  "id": 12954324744,
+  "lat": -33.6902424,
+  "lon": -65.4685638
 },
 {
   "type": "node",
