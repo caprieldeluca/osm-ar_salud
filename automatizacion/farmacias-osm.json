@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-08T23:18:50Z",
-    "timestamp_areas_base": "2025-07-08T18:26:56Z",
+    "timestamp_osm_base": "2025-07-09T23:19:20Z",
+    "timestamp_areas_base": "2025-07-09T21:48:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10954,7 +10954,14 @@
   "lat": -34.6788849,
   "lon": -58.6845232,
   "tags": {
-    "amenity": "pharmacy"
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "2045",
+    "addr:postcode": "1718",
+    "addr:street": "Noguera",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Noguera",
+    "phone": "+54 (220) 481-9229"
   }
 },
 {
@@ -10964,6 +10971,7 @@
   "lon": -58.6798669,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Anele"
   }
 },
@@ -91691,11 +91699,13 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "4228",
+    "addr:postcode": "C1425",
     "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Openfarma"
+    "name": "Openfarma",
+    "website": "openfarma.com.ar"
   }
 },
 {
@@ -104272,6 +104282,8 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "4180",
+    "addr:postcode": "C1425",
     "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
@@ -104285,6 +104297,7 @@
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
+    "website": "farmacity.com.ar",
     "wheelchair": "yes"
   }
 },
@@ -105716,11 +105729,15 @@
     1828217797
   ],
   "tags": {
+    "addr:city": "Morón",
+    "addr:housenumber": "294",
+    "addr:postcode": "1708",
+    "addr:street": "General Belgrano",
     "amenity": "pharmacy",
     "building": "retail",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Cogliatti Farmacia",
+    "name": "Cogliati",
     "opening_hours": "Mo-Su 08:00-22:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -106985,26 +107002,6 @@
     "healthcare": "pharmacy",
     "name": "Farmacia",
     "phone": "+54 11 4210-4994"
-  }
-},
-{
-  "type": "way",
-  "id": 541072394,
-  "nodes": [
-    5232934534,
-    5232934535,
-    5232934536,
-    5232934537,
-    5232934533,
-    5232934534
-  ],
-  "tags": {
-    "addr:street": "Avenida 12 de Octubre",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Galicia",
-    "opening_hours": "24/7"
   }
 },
 {
@@ -142343,36 +142340,6 @@
   "id": 7098760750,
   "lat": -34.7445263,
   "lon": -58.2207819
-},
-{
-  "type": "node",
-  "id": 5232934533,
-  "lat": -34.7419362,
-  "lon": -58.2883117
-},
-{
-  "type": "node",
-  "id": 5232934534,
-  "lat": -34.7417780,
-  "lon": -58.2884260
-},
-{
-  "type": "node",
-  "id": 5232934535,
-  "lat": -34.7417327,
-  "lon": -58.2883332
-},
-{
-  "type": "node",
-  "id": 5232934536,
-  "lat": -34.7419716,
-  "lon": -58.2881607
-},
-{
-  "type": "node",
-  "id": 5232934537,
-  "lat": -34.7420168,
-  "lon": -58.2882534
 },
 {
   "type": "node",

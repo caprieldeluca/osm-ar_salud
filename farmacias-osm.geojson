@@ -15150,6 +15150,8 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "4180",
+    "addr:postcode": "C1425",
     "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
@@ -15163,6 +15165,7 @@
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
+    "website": "farmacity.com.ar",
     "wheelchair": "yes",
     "id": "way/473387832"
   },
@@ -18113,11 +18116,15 @@
   "type": "Feature",
   "id": "way/476384800",
   "properties": {
+    "addr:city": "Morón",
+    "addr:housenumber": "294",
+    "addr:postcode": "1708",
+    "addr:street": "General Belgrano",
     "amenity": "pharmacy",
     "building": "retail",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Cogliatti Farmacia",
+    "name": "Cogliati",
     "opening_hours": "Mo-Su 08:00-22:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -20798,50 +20805,6 @@
         [
           -58.2819918,
           -34.7738865
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/541072394",
-  "properties": {
-    "addr:street": "Avenida 12 de Octubre",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Galicia",
-    "opening_hours": "24/7",
-    "id": "way/541072394"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.288426,
-          -34.741778
-        ],
-        [
-          -58.2883117,
-          -34.7419362
-        ],
-        [
-          -58.2882534,
-          -34.7420168
-        ],
-        [
-          -58.2881607,
-          -34.7419716
-        ],
-        [
-          -58.2883332,
-          -34.7417327
-        ],
-        [
-          -58.288426,
-          -34.741778
         ]
       ]
     ]
@@ -58389,7 +58352,14 @@
   "type": "Feature",
   "id": "node/2340706564",
   "properties": {
+    "addr:city": "San Antonio de Padua",
+    "addr:housenumber": "2045",
+    "addr:postcode": "1718",
+    "addr:street": "Noguera",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Noguera",
+    "phone": "+54 (220) 481-9229",
     "id": "node/2340706564"
   },
   "geometry": {
@@ -58405,6 +58375,7 @@
   "id": "node/2340706570",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Anele",
     "id": "node/2340706570"
   },
@@ -173572,11 +173543,13 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "4228",
+    "addr:postcode": "C1425",
     "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Openfarma",
+    "website": "openfarma.com.ar",
     "id": "node/11577646909"
   },
   "geometry": {
