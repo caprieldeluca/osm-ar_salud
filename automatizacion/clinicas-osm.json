@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-19T23:19:15Z",
-    "timestamp_areas_base": "2025-07-19T21:24:59Z",
+    "timestamp_osm_base": "2025-07-20T23:19:27Z",
+    "timestamp_areas_base": "2025-07-20T19:16:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -47559,16 +47559,6 @@
 },
 {
   "type": "node",
-  "id": 12604545122,
-  "lat": -33.2135008,
-  "lon": -65.4886034,
-  "tags": {
-    "amenity": "clinic",
-    "name": "Centro de Salud"
-  }
-},
-{
-  "type": "node",
   "id": 12604545144,
   "lat": -33.1433063,
   "lon": -65.3735004,
@@ -72259,6 +72249,23 @@
   }
 },
 {
+  "type": "way",
+  "id": 1416113557,
+  "nodes": [
+    12604545122,
+    13013797650,
+    13013797651,
+    13013797652,
+    12604545122
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de Salud"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -87812,6 +87819,30 @@
   "id": 12563696169,
   "lat": -33.6366585,
   "lon": -65.4902255
+},
+{
+  "type": "node",
+  "id": 12604545122,
+  "lat": -33.2136499,
+  "lon": -65.4886012
+},
+{
+  "type": "node",
+  "id": 13013797650,
+  "lat": -33.2134114,
+  "lon": -65.4886777
+},
+{
+  "type": "node",
+  "id": 13013797651,
+  "lat": -33.2133865,
+  "lon": -65.4885669
+},
+{
+  "type": "node",
+  "id": 13013797652,
+  "lat": -33.2136251,
+  "lon": -65.4884904
 },
 {
   "type": "node",
