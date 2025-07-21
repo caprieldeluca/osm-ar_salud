@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-20T23:19:27Z",
-    "timestamp_areas_base": "2025-07-20T19:16:45Z",
+    "timestamp_osm_base": "2025-07-21T23:18:36Z",
+    "timestamp_areas_base": "2025-07-21T17:15:36Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -47454,16 +47454,6 @@
 },
 {
   "type": "node",
-  "id": 12548048754,
-  "lat": -33.1443647,
-  "lon": -65.0896899,
-  "tags": {
-    "amenity": "clinic",
-    "name": "Centro de Salud"
-  }
-},
-{
-  "type": "node",
   "id": 12548072976,
   "lat": -33.6244950,
   "lon": -64.6009250,
@@ -72266,6 +72256,23 @@
   }
 },
 {
+  "type": "way",
+  "id": 1416305281,
+  "nodes": [
+    12548048754,
+    13015472132,
+    13015472133,
+    13015472134,
+    12548048754
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Atención Primaria de Salud N°71 La Punilla"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -87843,6 +87850,30 @@
   "id": 13013797652,
   "lat": -33.2136251,
   "lon": -65.4884904
+},
+{
+  "type": "node",
+  "id": 12548048754,
+  "lat": -33.1443732,
+  "lon": -65.0895777
+},
+{
+  "type": "node",
+  "id": 13015472132,
+  "lat": -33.1444590,
+  "lon": -65.0895707
+},
+{
+  "type": "node",
+  "id": 13015472133,
+  "lat": -33.1444702,
+  "lon": -65.0897646
+},
+{
+  "type": "node",
+  "id": 13015472134,
+  "lat": -33.1443844,
+  "lon": -65.0897716
 },
 {
   "type": "node",
