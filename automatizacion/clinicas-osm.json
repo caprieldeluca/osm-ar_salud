@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-21T23:18:36Z",
-    "timestamp_areas_base": "2025-07-21T17:15:36Z",
+    "timestamp_osm_base": "2025-07-22T23:18:29Z",
+    "timestamp_areas_base": "2025-07-22T15:36:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45289,16 +45289,6 @@
 },
 {
   "type": "node",
-  "id": 11293062012,
-  "lat": -27.4219381,
-  "lon": -66.9718140,
-  "tags": {
-    "amenity": "clinic",
-    "name": "Puesto Saniitario"
-  }
-},
-{
-  "type": "node",
   "id": 11293618469,
   "lat": -34.5894973,
   "lon": -58.4145832,
@@ -46509,6 +46499,7 @@
     "addr:housenumber": "756",
     "addr:street": "Mariano Necochea",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Hospital de Ojos"
   }
 },
@@ -47388,6 +47379,7 @@
   "lon": -68.8442858,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Salud Podal"
   }
 },
@@ -72273,6 +72265,24 @@
   }
 },
 {
+  "type": "way",
+  "id": 1416576152,
+  "nodes": [
+    13017706008,
+    13017706009,
+    13017706010,
+    13017706011,
+    13017706008
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CIC Micaela Santana"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -72748,6 +72758,30 @@
   "id": 12338379540,
   "lat": -44.0495486,
   "lon": -70.5878523
+},
+{
+  "type": "node",
+  "id": 13017706008,
+  "lat": -46.5452562,
+  "lon": -68.9268614
+},
+{
+  "type": "node",
+  "id": 13017706009,
+  "lat": -46.5451111,
+  "lon": -68.9268337
+},
+{
+  "type": "node",
+  "id": 13017706010,
+  "lat": -46.5451349,
+  "lon": -68.9265055
+},
+{
+  "type": "node",
+  "id": 13017706011,
+  "lat": -46.5452839,
+  "lon": -68.9265301
 },
 {
   "type": "node",
