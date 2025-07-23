@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-22T23:18:29Z",
-    "timestamp_areas_base": "2025-07-22T15:36:45Z",
+    "timestamp_osm_base": "2025-07-23T23:19:11Z",
+    "timestamp_areas_base": "2025-07-23T20:26:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -48077,22 +48077,29 @@
 {
   "type": "node",
   "id": 13011505901,
-  "lat": -32.8872110,
-  "lon": -60.6899227,
+  "lat": -32.8871021,
+  "lon": -60.6900736,
   "tags": {
     "addr:housenumber": "374",
     "addr:street": "Vieytes",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Sanatorio de la Costa"
   }
 },
 {
   "type": "node",
-  "id": 13011973601,
-  "lat": -32.8871362,
-  "lon": -60.6899266,
+  "id": 13019799785,
+  "lat": -31.5097438,
+  "lon": -68.5901219,
   "tags": {
-    "amenity": "clinic"
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Costanera Norte",
+    "official_name": "Centro de Atención Primaria de Salud Costanera Norte",
+    "operator": "Ministerio de Salud",
+    "operator:type": "public"
   }
 },
 {
@@ -72283,6 +72290,27 @@
   }
 },
 {
+  "type": "way",
+  "id": 1416838777,
+  "nodes": [
+    13019800921,
+    13019800920,
+    13019800922,
+    13019800923,
+    13019800933,
+    13019800934,
+    13019800936,
+    13019800939,
+    13019799787,
+    13019799786,
+    13019800940,
+    13019800921
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -84158,6 +84186,72 @@
   "id": 11839311961,
   "lat": -31.5070747,
   "lon": -68.6172032
+},
+{
+  "type": "node",
+  "id": 13019799786,
+  "lat": -31.5096484,
+  "lon": -68.5901194
+},
+{
+  "type": "node",
+  "id": 13019799787,
+  "lat": -31.5096477,
+  "lon": -68.5902124
+},
+{
+  "type": "node",
+  "id": 13019800920,
+  "lat": -31.5099211,
+  "lon": -68.5901026
+},
+{
+  "type": "node",
+  "id": 13019800921,
+  "lat": -31.5098832,
+  "lon": -68.5900602
+},
+{
+  "type": "node",
+  "id": 13019800922,
+  "lat": -31.5099189,
+  "lon": -68.5903220
+},
+{
+  "type": "node",
+  "id": 13019800923,
+  "lat": -31.5098616,
+  "lon": -68.5903214
+},
+{
+  "type": "node",
+  "id": 13019800933,
+  "lat": -31.5098021,
+  "lon": -68.5903207
+},
+{
+  "type": "node",
+  "id": 13019800934,
+  "lat": -31.5096940,
+  "lon": -68.5903196
+},
+{
+  "type": "node",
+  "id": 13019800936,
+  "lat": -31.5096501,
+  "lon": -68.5903191
+},
+{
+  "type": "node",
+  "id": 13019800939,
+  "lat": -31.5096469,
+  "lon": -68.5903191
+},
+{
+  "type": "node",
+  "id": 13019800940,
+  "lat": -31.5096489,
+  "lon": -68.5900570
 },
 {
   "type": "node",
