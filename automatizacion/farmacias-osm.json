@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-24T23:20:23Z",
-    "timestamp_areas_base": "2025-07-24T18:44:43Z",
+    "timestamp_osm_base": "2025-07-25T23:19:59Z",
+    "timestamp_areas_base": "2025-07-25T16:59:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9841,7 +9841,8 @@
     "addr:street": "Calle 48",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Massolo"
+    "name": "Massolo",
+    "opening_hours": "Mo-Sa 09:00-13:00, Mo-Fr 16:00-20:00"
   }
 },
 {
@@ -88655,7 +88656,8 @@
     "check_date": "2025-07-10",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Pinto Raviolo"
+    "name": "Pinto Raviolo",
+    "panoramax": "bf72c89a-18c8-453c-abc1-a206fe981ea6"
   }
 },
 {
@@ -88667,7 +88669,8 @@
     "amenity": "pharmacy",
     "check_date": "2025-07-15",
     "healthcare": "pharmacy",
-    "name": "Alvear"
+    "name": "Alvear",
+    "panoramax": "472fa2ad-0de6-4fd8-88b7-9d81f143b04f"
   }
 },
 {
@@ -97215,6 +97218,17 @@
     "opening_hours": "Mo-Sa 09:00-13:30, 17:30-21:30",
     "phone": "+54 9 266 525-3228",
     "wikimedia_commons": "File:LMFOTOS 14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 13025692957,
+  "lat": -28.4664664,
+  "lon": -65.7546229,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Changomas"
   }
 },
 {
@@ -110506,7 +110520,7 @@
     "addr:postcode": "X5113",
     "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "building": "yes",
+    "building": "retail",
     "check_date": "2023-10-18",
     "healthcare": "pharmacy",
     "name": "Farmacia Maroni",
