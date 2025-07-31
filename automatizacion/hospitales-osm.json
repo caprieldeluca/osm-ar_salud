@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-07-30T23:18:00Z",
-    "timestamp_areas_base": "2025-07-30T18:48:44Z",
+    "timestamp_osm_base": "2025-07-31T23:18:03Z",
+    "timestamp_areas_base": "2025-07-31T16:54:46Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -22629,7 +22629,9 @@
     "addr:street": "Avenida Galileo Mancini",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Sagrado Corazón de Jesús"
+    "name": "Hospital Sagrado Corazón de Jesús",
+    "operator": "Ministerio de Salud Pública de Corrientes",
+    "operator:type": "government"
   }
 },
 {
@@ -35495,13 +35497,13 @@
   ],
   "tags": {
     "addr:city": "Profesor Salvador Mazza",
-    "addr:full": "Isalas Malvinas Y Jose Hernadez",
+    "addr:full": "Islas Malvinas y José Hernández",
     "addr:place": "General Jose De San Martín",
     "addr:postcode": "4568",
     "amenity": "hospital",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "hospital",
-    "name": "Hospital Prof. Salvador Mazza",
+    "name": "Hospital Profesor Salvador Mazza",
     "operator:type": "public",
     "ref:sisa_codigo": "10660562173062",
     "ref:sisa_tipologia": "ESCIG",
@@ -57577,6 +57579,43 @@
   }
 },
 {
+  "type": "way",
+  "id": 1418923513,
+  "nodes": [
+    13039340057,
+    13039340058,
+    13039340059,
+    13039340060,
+    13039340057
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud N°67 San Pablo"
+  }
+},
+{
+  "type": "way",
+  "id": 1418971674,
+  "nodes": [
+    13039712621,
+    13039712622,
+    13039712623,
+    13039712624,
+    13039712625,
+    13039712626,
+    13039712627,
+    13039712628,
+    13039712629,
+    13039712630,
+    13039712621
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -69907,6 +69946,66 @@
   "id": 11758415387,
   "lat": -37.6048023,
   "lon": -62.3964591
+},
+{
+  "type": "node",
+  "id": 13039712621,
+  "lat": -37.3620214,
+  "lon": -62.4357320
+},
+{
+  "type": "node",
+  "id": 13039712622,
+  "lat": -37.3621248,
+  "lon": -62.4355873
+},
+{
+  "type": "node",
+  "id": 13039712623,
+  "lat": -37.3621991,
+  "lon": -62.4356809
+},
+{
+  "type": "node",
+  "id": 13039712624,
+  "lat": -37.3622425,
+  "lon": -62.4356143
+},
+{
+  "type": "node",
+  "id": 13039712625,
+  "lat": -37.3623576,
+  "lon": -62.4357530
+},
+{
+  "type": "node",
+  "id": 13039712626,
+  "lat": -37.3623130,
+  "lon": -62.4358182
+},
+{
+  "type": "node",
+  "id": 13039712627,
+  "lat": -37.3622812,
+  "lon": -62.4357791
+},
+{
+  "type": "node",
+  "id": 13039712628,
+  "lat": -37.3622318,
+  "lon": -62.4358533
+},
+{
+  "type": "node",
+  "id": 13039712629,
+  "lat": -37.3622700,
+  "lon": -62.4358994
+},
+{
+  "type": "node",
+  "id": 13039712630,
+  "lat": -37.3622230,
+  "lon": -62.4359706
 },
 {
   "type": "node",
@@ -82351,6 +82450,30 @@
   "id": 9628670813,
   "lat": -33.1300142,
   "lon": -64.3399749
+},
+{
+  "type": "node",
+  "id": 13039340057,
+  "lat": -32.6616970,
+  "lon": -65.3066365
+},
+{
+  "type": "node",
+  "id": 13039340058,
+  "lat": -32.6614612,
+  "lon": -65.3066387
+},
+{
+  "type": "node",
+  "id": 13039340059,
+  "lat": -32.6614591,
+  "lon": -65.3063445
+},
+{
+  "type": "node",
+  "id": 13039340060,
+  "lat": -32.6616950,
+  "lon": -65.3063422
 },
 {
   "type": "node",
