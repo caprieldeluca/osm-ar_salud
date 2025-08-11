@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.7 375dc00a",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-10T23:17:21Z",
-    "timestamp_areas_base": "2025-08-10T20:49:26Z",
+    "timestamp_osm_base": "2025-08-11T23:17:10Z",
+    "timestamp_areas_base": "2025-08-11T20:06:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10449,6 +10449,9 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "3700",
+    "addr:postcode": "C1425",
+    "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -46527,15 +46530,15 @@
 {
   "type": "node",
   "id": 12083482002,
-  "lat": -31.5066128,
-  "lon": -68.5994583,
+  "lat": -31.5066240,
+  "lon": -68.5994787,
   "tags": {
     "amenity": "clinic",
     "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
     "healthcare": "clinic",
     "name": "CAPS Doctor Jorge Humberto Mira",
     "official_name": "Centro de Salud Doctor Humberto Mira",
-    "operator": "Ministerio de Salud Pública",
+    "operator": "Ministerio de Salud",
     "operator:type": "public"
   }
 },
@@ -48106,6 +48109,16 @@
     "healthcare": "clinic",
     "name": "Instituto de Cardiología",
     "website": "https://www.idecardiologiatuc.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 13064448244,
+  "lat": -27.6681371,
+  "lon": -65.7635915,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Primero Auxilios"
   }
 },
 {
@@ -72319,6 +72332,27 @@
   }
 },
 {
+  "type": "way",
+  "id": 1421631495,
+  "nodes": [
+    13064329510,
+    13064329476,
+    13064329482,
+    13064329426,
+    13064329427,
+    13064329434,
+    13064329435,
+    13064329428,
+    13064329438,
+    13064329518,
+    13064329519,
+    13064329510
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -84194,6 +84228,72 @@
   "id": 11839311961,
   "lat": -31.5070747,
   "lon": -68.6172032
+},
+{
+  "type": "node",
+  "id": 13064329426,
+  "lat": -31.5066881,
+  "lon": -68.5992882
+},
+{
+  "type": "node",
+  "id": 13064329427,
+  "lat": -31.5066875,
+  "lon": -68.5993541
+},
+{
+  "type": "node",
+  "id": 13064329428,
+  "lat": -31.5066863,
+  "lon": -68.5994889
+},
+{
+  "type": "node",
+  "id": 13064329434,
+  "lat": -31.5066872,
+  "lon": -68.5993908
+},
+{
+  "type": "node",
+  "id": 13064329435,
+  "lat": -31.5066867,
+  "lon": -68.5994456
+},
+{
+  "type": "node",
+  "id": 13064329438,
+  "lat": -31.5065629,
+  "lon": -68.5994878
+},
+{
+  "type": "node",
+  "id": 13064329476,
+  "lat": -31.5066887,
+  "lon": -68.5992260
+},
+{
+  "type": "node",
+  "id": 13064329482,
+  "lat": -31.5066886,
+  "lon": -68.5992349
+},
+{
+  "type": "node",
+  "id": 13064329510,
+  "lat": -31.5065664,
+  "lon": -68.5992251
+},
+{
+  "type": "node",
+  "id": 13064329518,
+  "lat": -31.5065657,
+  "lon": -68.5992774
+},
+{
+  "type": "node",
+  "id": 13064329519,
+  "lat": -31.5065662,
+  "lon": -68.5992420
 },
 {
   "type": "node",
