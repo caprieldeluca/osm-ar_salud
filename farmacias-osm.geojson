@@ -61983,6 +61983,7 @@
     "addr:postcode": "1852",
     "addr:street": "Avenida Monteverde",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Guggiari",
     "phone": "+54 11 4238-0603",
     "id": "node/2523043088"
@@ -62068,6 +62069,7 @@
     "addr:postcode": "1852",
     "addr:street": "Avenida Monteverde",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Coiro",
     "phone": "+54 11 4299-4971",
     "id": "node/2523058254"
@@ -101348,6 +101350,7 @@
     "addr:housenumber": "801",
     "addr:street": "Avenida Berlín",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "D'Errico",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
     "id": "node/4660449872"
@@ -118173,12 +118176,15 @@
   "id": "node/5538125774",
   "properties": {
     "addr:city": "Santo Pipó",
+    "addr:housenumber": "2691",
+    "addr:milestone": "Km 1416",
     "addr:postcode": "3326",
     "addr:street": "Ruta Nacional 12",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San Jorge",
+    "opening_hours": "Lun-Sab 08:00-12:00  16:00-20:00",
     "id": "node/5538125774"
   },
   "geometry": {
@@ -125098,6 +125104,7 @@
     "addr:housenumber": "1820",
     "addr:street": "Leandro N Alem",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Pericón",
     "id": "node/6097197455"
   },
@@ -125754,6 +125761,7 @@
   "properties": {
     "addr:street": "Avenida Monteverde",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Coiro",
     "id": "node/6166843089"
   },
@@ -140591,27 +140599,6 @@
     "coordinates": [
       -54.1998084,
       -27.2979408
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7387603699",
-  "properties": {
-    "addr:city": "Santo Pipó",
-    "addr:postcode": "3326",
-    "addr:street": "Ramon Puerta",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Sudamericana",
-    "id": "node/7387603699"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.4061871,
-      -27.142853
     ]
   }
 },
@@ -164945,33 +164932,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10892234535",
-  "properties": {
-    "addr:city": "San Miguel de Tucumán",
-    "addr:housenumber": "356",
-    "addr:postcode": "T4000LXQ",
-    "addr:street": "Avenida Adolfo de la Vega",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Maria III",
-    "opening_hours": "24/7",
-    "operator": "CPÑIA. FARMACEUTICA NORTE S.R. L.",
-    "phone": "+543812348430",
-    "ref:sisa_codigo": "70900842399301",
-    "ref:sisa_tipologia": "FARMACIA",
-    "ref:vatin": "AR30711704880",
-    "id": "node/10892234535"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.2525232,
-      -26.8272447
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10892312287",
   "properties": {
     "addr:city": "San Miguel de Tucumán",
@@ -182105,6 +182065,65 @@
     "coordinates": [
       -65.7700824,
       -28.4380308
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13078938453",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/13078938453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2881995,
+      -37.0297688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13081759571",
+  "properties": {
+    "addr:city": "Santo Pipó",
+    "addr:housenumber": "6516",
+    "addr:postcode": "3326",
+    "addr:street": "San Juan Bautista",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Sudamericana",
+    "opening_hours": "Lun-Dom 08:00-22:00",
+    "id": "node/13081759571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.4064972,
+      -27.1429048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13082642357",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-08-19",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/13082642357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.294379,
+      -31.2872947
     ]
   }
 }

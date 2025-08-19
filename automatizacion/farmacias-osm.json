@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-18T23:17:56Z",
-    "timestamp_areas_base": "2025-08-18T18:50:14Z",
+    "timestamp_osm_base": "2025-08-19T23:17:45Z",
+    "timestamp_areas_base": "2025-08-19T17:25:31Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13410,6 +13410,7 @@
     "addr:postcode": "1852",
     "addr:street": "Avenida Monteverde",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Guggiari",
     "phone": "+54 11 4238-0603"
   }
@@ -13471,6 +13472,7 @@
     "addr:postcode": "1852",
     "addr:street": "Avenida Monteverde",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Coiro",
     "phone": "+54 11 4299-4971"
   }
@@ -40733,6 +40735,7 @@
     "addr:housenumber": "801",
     "addr:street": "Avenida Berlín",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "D'Errico",
     "source": "Reconocimiento terrestre 2016 por Kaart."
   }
@@ -52368,12 +52371,15 @@
   "lon": -55.4058244,
   "tags": {
     "addr:city": "Santo Pipó",
+    "addr:housenumber": "2691",
+    "addr:milestone": "Km 1416",
     "addr:postcode": "3326",
     "addr:street": "Ruta Nacional 12",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "San Jorge"
+    "name": "San Jorge",
+    "opening_hours": "Lun-Sab 08:00-12:00  16:00-20:00"
   }
 },
 {
@@ -57121,6 +57127,7 @@
     "addr:housenumber": "1820",
     "addr:street": "Leandro N Alem",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Pericón"
   }
 },
@@ -57573,6 +57580,7 @@
   "tags": {
     "addr:street": "Avenida Monteverde",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Coiro"
   }
 },
@@ -67987,21 +67995,6 @@
     "healthcare": "pharmacy",
     "name": "Ultrafarma",
     "phone": "+54 3755 638457"
-  }
-},
-{
-  "type": "node",
-  "id": 7387603699,
-  "lat": -27.1428530,
-  "lon": -55.4061871,
-  "tags": {
-    "addr:city": "Santo Pipó",
-    "addr:postcode": "3326",
-    "addr:street": "Ramon Puerta",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Sudamericana"
   }
 },
 {
@@ -85488,27 +85481,6 @@
 },
 {
   "type": "node",
-  "id": 10892234535,
-  "lat": -26.8272447,
-  "lon": -65.2525232,
-  "tags": {
-    "addr:city": "San Miguel de Tucumán",
-    "addr:housenumber": "356",
-    "addr:postcode": "T4000LXQ",
-    "addr:street": "Avenida Adolfo de la Vega",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Maria III",
-    "opening_hours": "24/7",
-    "operator": "CPÑIA. FARMACEUTICA NORTE S.R. L.",
-    "phone": "+543812348430",
-    "ref:sisa_codigo": "70900842399301",
-    "ref:sisa_tipologia": "FARMACIA",
-    "ref:vatin": "AR30711704880"
-  }
-},
-{
-  "type": "node",
   "id": 10892312287,
   "lat": -26.8361346,
   "lon": -65.1780995,
@@ -97410,6 +97382,47 @@
   "lon": -65.7700824,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13078938453,
+  "lat": -37.0297688,
+  "lon": -64.2881995,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13081759571,
+  "lat": -27.1429048,
+  "lon": -55.4064972,
+  "tags": {
+    "addr:city": "Santo Pipó",
+    "addr:housenumber": "6516",
+    "addr:postcode": "3326",
+    "addr:street": "San Juan Bautista",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Sudamericana",
+    "opening_hours": "Lun-Dom 08:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13082642357,
+  "lat": -31.2872947,
+  "lon": -64.2943790,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-08-19",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy"
   }
 },
