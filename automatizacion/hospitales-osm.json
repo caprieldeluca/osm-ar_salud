@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-19T23:14:44Z",
-    "timestamp_areas_base": "2025-08-19T16:02:11Z",
+    "timestamp_osm_base": "2025-08-20T23:14:41Z",
+    "timestamp_areas_base": "2025-08-20T20:48:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24014,6 +24014,17 @@
 },
 {
   "type": "node",
+  "id": 13037725546,
+  "lat": -31.2600276,
+  "lon": -64.0978724,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Nº4 - Zacarías Núñez"
+  }
+},
+{
+  "type": "node",
   "id": 13059678773,
   "lat": -26.8238594,
   "lon": -65.1997284,
@@ -24038,6 +24049,32 @@
     "check_date": "2025-08-12",
     "healthcare": "hospital",
     "name": "Centro De Emergencias Cardiocoronarias Privado"
+  }
+},
+{
+  "type": "node",
+  "id": 13084273519,
+  "lat": -34.8722244,
+  "lon": -58.0440879,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "clinic",
+    "name": "Centro Médico de Diagnóstico",
+    "phone": "02214724373",
+    "website": "http://www.cmdcitybell.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 13085017736,
+  "lat": -31.1437625,
+  "lon": -64.0420235,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Ctro. Salud Nº3 - Dr Raul Alfonsin",
+    "phone": "03514902081",
+    "website": "http://coloniatirolesa.gov.ar/"
   }
 },
 {
@@ -26133,6 +26170,7 @@
   "tags": {
     "amenity": "hospital",
     "emergency": "yes",
+    "healthcare": "hospital",
     "name": "Dr. Casellas Solá"
   }
 },
@@ -42889,8 +42927,10 @@
     5133463683
   ],
   "tags": {
+    "addr:street": "Bernardo de Monteagudo",
     "alt_name": "Centro de Salud Eva Perón",
     "amenity": "hospital",
+    "beds": "12",
     "contact:phone": "+54 341 493-6011",
     "dispensing": "yes",
     "electricity": "grid",
@@ -42903,9 +42943,10 @@
     "opening_hours": "24/7",
     "operational_status": "operational",
     "operator": "Municipalidad de Funes",
-    "operator:type": "public",
+    "operator:type": "government",
     "ref:sisa_codigo": "50820842284697",
     "ref:sisa_tipologia": "ESSIDT",
+    "rooms": "6",
     "source_ref": "https://www.funes.gob.ar/noticia/llega_el_hospital_publico_a_funes",
     "wheelchair": "yes",
     "wikidata": "Q97671972",
@@ -57578,6 +57619,25 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital de Arizona"
+  }
+},
+{
+  "type": "way",
+  "id": 1418685118,
+  "nodes": [
+    13037430364,
+    13037430365,
+    13037430366,
+    13037430367,
+    13037430364
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud Nº4 - Zacarías Núñez",
+    "phone": "3513853589",
+    "website": "https://coloniatirolesa.gov.ar/"
   }
 },
 {
@@ -86666,6 +86726,30 @@
 },
 {
   "type": "node",
+  "id": 13037430364,
+  "lat": -31.2599792,
+  "lon": -64.0979140
+},
+{
+  "type": "node",
+  "id": 13037430365,
+  "lat": -31.2601296,
+  "lon": -64.0979155
+},
+{
+  "type": "node",
+  "id": 13037430366,
+  "lat": -31.2601302,
+  "lon": -64.0978390
+},
+{
+  "type": "node",
+  "id": 13037430367,
+  "lat": -31.2599797,
+  "lon": -64.0978375
+},
+{
+  "type": "node",
   "id": 4741419514,
   "lat": -33.1558734,
   "lon": -62.8473053
@@ -108285,8 +108369,8 @@
 {
   "type": "node",
   "id": 2205036748,
-  "lat": -34.6138985,
-  "lon": -58.3910183
+  "lat": -34.6138797,
+  "lon": -58.3910196
 },
 {
   "type": "node",

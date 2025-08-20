@@ -9073,6 +9073,7 @@
   "properties": {
     "amenity": "hospital",
     "emergency": "yes",
+    "healthcare": "hospital",
     "name": "Dr. Casellas Solá",
     "id": "way/128942955"
   },
@@ -17380,8 +17381,8 @@
           -34.6139651
         ],
         [
-          -58.3910183,
-          -34.6138985
+          -58.3910196,
+          -34.6138797
         ],
         [
           -58.3913189,
@@ -48271,8 +48272,10 @@
   "type": "Feature",
   "id": "way/528176632",
   "properties": {
+    "addr:street": "Bernardo de Monteagudo",
     "alt_name": "Centro de Salud Eva Perón",
     "amenity": "hospital",
+    "beds": "12",
     "contact:phone": "+54 341 493-6011",
     "dispensing": "yes",
     "electricity": "grid",
@@ -48285,9 +48288,10 @@
     "opening_hours": "24/7",
     "operational_status": "operational",
     "operator": "Municipalidad de Funes",
-    "operator:type": "public",
+    "operator:type": "government",
     "ref:sisa_codigo": "50820842284697",
     "ref:sisa_tipologia": "ESSIDT",
+    "rooms": "6",
     "source_ref": "https://www.funes.gob.ar/noticia/llega_el_hospital_publico_a_funes",
     "wheelchair": "yes",
     "wikidata": "Q97671972",
@@ -82814,6 +82818,46 @@
 },
 {
   "type": "Feature",
+  "id": "way/1418685118",
+  "properties": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud Nº4 - Zacarías Núñez",
+    "phone": "3513853589",
+    "website": "https://coloniatirolesa.gov.ar/",
+    "id": "way/1418685118"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.097914,
+          -31.2599792
+        ],
+        [
+          -64.0979155,
+          -31.2601296
+        ],
+        [
+          -64.097839,
+          -31.2601302
+        ],
+        [
+          -64.0978375,
+          -31.2599797
+        ],
+        [
+          -64.097914,
+          -31.2599792
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1418710020",
   "properties": {
     "addr:city": "Dudignac",
@@ -116391,6 +116435,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/13037725546",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "doctor",
+    "name": "Centro de Salud Nº4 - Zacarías Núñez",
+    "id": "node/13037725546"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.0978724,
+      -31.2600276
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13059678773",
   "properties": {
     "addr:city": "San Miguel de Tucumán",
@@ -116426,6 +116487,44 @@
     "coordinates": [
       -64.3003933,
       -31.0656686
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084273519",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "clinic",
+    "name": "Centro Médico de Diagnóstico",
+    "phone": "02214724373",
+    "website": "http://www.cmdcitybell.com.ar/",
+    "id": "node/13084273519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.0440879,
+      -34.8722244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13085017736",
+  "properties": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Ctro. Salud Nº3 - Dr Raul Alfonsin",
+    "phone": "03514902081",
+    "website": "http://coloniatirolesa.gov.ar/",
+    "id": "node/13085017736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.0420235,
+      -31.1437625
     ]
   }
 }

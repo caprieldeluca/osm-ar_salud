@@ -277,7 +277,8 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "retail",
-    "name": "Farmacia Schaffino",
+    "healthcare": "pharmacy",
+    "name": "Schaffino",
     "id": "way/146302438"
   },
   "geometry": {
@@ -150132,6 +150133,7 @@
   "properties": {
     "amenity": "pharmacy",
     "name": "Farmacia Breit",
+    "opening_hours": "Mo-Sa 09:00-13:00,05:00-20:30+",
     "id": "node/9110770403"
   },
   "geometry": {
@@ -163659,6 +163661,7 @@
     "email": "silvinadeltoso@hotmail.com",
     "healthcare": "pharmacy",
     "name": "La Paz",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:00-21:00",
     "ref:sisa_codigo": "70900842397539",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR27232383882",
@@ -178576,6 +178579,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/12407830286",
+  "properties": {
+    "addr:city": "Venado Tuerto",
+    "addr:housenumber": "263",
+    "addr:postcode": "2600",
+    "addr:street": "3 de Febrero",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Demaestri",
+    "id": "node/12407830286"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.9638721,
+      -33.7566827
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12421719701",
   "properties": {
     "addr:street": "Avenida Corrientes",
@@ -182096,15 +182121,15 @@
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Sudamericana",
+    "name": "Farmacia \"Sudamericana\"",
     "opening_hours": "Lun-Dom 08:00-22:00",
     "id": "node/13081759571"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.4064972,
-      -27.1429048
+      -55.4066649,
+      -27.1427673
     ]
   }
 },
@@ -182124,6 +182149,28 @@
     "coordinates": [
       -64.294379,
       -31.2872947
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084714474",
+  "properties": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "1595",
+    "addr:postcode": "6300",
+    "addr:street": "Liberato Rosas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Farmacia Vial",
+    "id": "node/13084714474"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.271701,
+      -36.638752
     ]
   }
 }

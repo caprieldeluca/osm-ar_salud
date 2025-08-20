@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-19T23:17:45Z",
-    "timestamp_areas_base": "2025-08-19T17:25:31Z",
+    "timestamp_osm_base": "2025-08-20T23:17:45Z",
+    "timestamp_areas_base": "2025-08-20T21:37:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -74732,7 +74732,8 @@
   "lon": -64.2617986,
   "tags": {
     "amenity": "pharmacy",
-    "name": "Farmacia Breit"
+    "name": "Farmacia Breit",
+    "opening_hours": "Mo-Sa 09:00-13:00,05:00-20:30+"
   }
 },
 {
@@ -84504,6 +84505,7 @@
     "email": "silvinadeltoso@hotmail.com",
     "healthcare": "pharmacy",
     "name": "La Paz",
+    "opening_hours": "Mo-Fr 08:00-13:00,17:00-21:00",
     "ref:sisa_codigo": "70900842397539",
     "ref:sisa_tipologia": "FARMACIA",
     "ref:vatin": "AR27232383882"
@@ -95117,6 +95119,22 @@
 },
 {
   "type": "node",
+  "id": 12407830286,
+  "lat": -33.7566827,
+  "lon": -61.9638721,
+  "tags": {
+    "addr:city": "Venado Tuerto",
+    "addr:housenumber": "263",
+    "addr:postcode": "2600",
+    "addr:street": "3 de Febrero",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Demaestri"
+  }
+},
+{
+  "type": "node",
   "id": 12421719701,
   "lat": -34.6021405,
   "lon": -58.4305210,
@@ -97397,8 +97415,8 @@
 {
   "type": "node",
   "id": 13081759571,
-  "lat": -27.1429048,
-  "lon": -55.4064972,
+  "lat": -27.1427673,
+  "lon": -55.4066649,
   "tags": {
     "addr:city": "Santo Pipó",
     "addr:housenumber": "6516",
@@ -97409,7 +97427,7 @@
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Sudamericana",
+    "name": "Farmacia \"Sudamericana\"",
     "opening_hours": "Lun-Dom 08:00-22:00"
   }
 },
@@ -97424,6 +97442,22 @@
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13084714474,
+  "lat": -36.6387520,
+  "lon": -64.2717010,
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "1595",
+    "addr:postcode": "6300",
+    "addr:street": "Liberato Rosas",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "Farmacia Vial"
   }
 },
 {
@@ -97537,7 +97571,8 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "retail",
-    "name": "Farmacia Schaffino"
+    "healthcare": "pharmacy",
+    "name": "Schaffino"
   }
 },
 {
