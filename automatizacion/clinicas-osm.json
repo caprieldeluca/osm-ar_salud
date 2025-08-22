@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-21T23:16:37Z",
-    "timestamp_areas_base": "2025-08-21T19:36:17Z",
+    "timestamp_osm_base": "2025-08-22T23:16:30Z",
+    "timestamp_areas_base": "2025-08-22T18:23:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10594,17 +10594,6 @@
     "name:en": "Alsina Renal Center",
     "opening_hours": "Su; Mo-Sa 06:00-22:00",
     "phone": "543854283395"
-  }
-},
-{
-  "type": "node",
-  "id": 4736430210,
-  "lat": -32.8931352,
-  "lon": -68.8346347,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Asistir Clinica"
   }
 },
 {
@@ -37942,7 +37931,7 @@
     "addr:postcode": "1629",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "CAP Juan C. Sanguinetti",
+    "name": "Hospital Sanguinetti - Pilar",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "02322-420508/664000",
@@ -50066,6 +50055,7 @@
     3061378370,
     11627159787,
     11627159788,
+    13088522593,
     3061378367
   ],
   "tags": {
@@ -56500,6 +56490,8 @@
   "nodes": [
     4941355633,
     4941355632,
+    13088160766,
+    13088160765,
     4941355631,
     4941355215,
     4941355630,
@@ -56509,9 +56501,12 @@
     4941355633
   ],
   "tags": {
+    "addr:city": "Mendoza",
     "addr:housenumber": "361",
-    "addr:street": "Leandro N. Alem",
+    "addr:postcode": "5501",
+    "addr:street": "Leandro Nicéforo Alem",
     "amenity": "clinic",
+    "building": "yes",
     "healthcare": "clinic",
     "name": "Clinica Esperanza",
     "phone": "54 0261 4253377"
@@ -83486,50 +83481,62 @@
 {
   "type": "node",
   "id": 4941355215,
-  "lat": -32.8932770,
-  "lon": -68.8346376
+  "lat": -32.8932042,
+  "lon": -68.8346677
 },
 {
   "type": "node",
   "id": 4941355216,
-  "lat": -32.8929369,
-  "lon": -68.8349550
+  "lat": -32.8929531,
+  "lon": -68.8350056
 },
 {
   "type": "node",
   "id": 4941355628,
-  "lat": -32.8929430,
-  "lon": -68.8348815
+  "lat": -32.8929438,
+  "lon": -68.8349585
 },
 {
   "type": "node",
   "id": 4941355629,
-  "lat": -32.8932083,
-  "lon": -68.8349167
+  "lat": -32.8931669,
+  "lon": -68.8349641
 },
 {
   "type": "node",
   "id": 4941355630,
-  "lat": -32.8932319,
-  "lon": -68.8346323
+  "lat": -32.8931804,
+  "lon": -68.8346654
 },
 {
   "type": "node",
   "id": 4941355631,
-  "lat": -32.8933158,
-  "lon": -68.8346421
+  "lat": -32.8932262,
+  "lon": -68.8346698
 },
 {
   "type": "node",
   "id": 4941355632,
-  "lat": -32.8932794,
-  "lon": -68.8350807
+  "lat": -32.8932257,
+  "lon": -68.8350684
 },
 {
   "type": "node",
   "id": 4941355633,
-  "lat": -32.8929302,
-  "lon": -68.8350357
+  "lat": -32.8929622,
+  "lon": -68.8350522
+},
+{
+  "type": "node",
+  "id": 13088160765,
+  "lat": -32.8932027,
+  "lon": -68.8348947
+},
+{
+  "type": "node",
+  "id": 13088160766,
+  "lat": -32.8932506,
+  "lon": -68.8348998
 },
 {
   "type": "node",
@@ -103238,8 +103245,8 @@
 {
   "type": "node",
   "id": 3061378367,
-  "lat": -34.6495072,
-  "lon": -58.4045211
+  "lat": -34.6495635,
+  "lon": -58.4044943
 },
 {
   "type": "node",
@@ -103268,8 +103275,14 @@
 {
   "type": "node",
   "id": 11627159788,
-  "lat": -34.6494881,
-  "lon": -58.4043769
+  "lat": -34.6494594,
+  "lon": -58.4044493
+},
+{
+  "type": "node",
+  "id": 13088522593,
+  "lat": -34.6494737,
+  "lon": -58.4044616
 },
 {
   "type": "node",

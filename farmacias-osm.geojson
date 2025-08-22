@@ -51224,7 +51224,9 @@
   "properties": {
     "addr:city": "Mendoza",
     "addr:country": "AR",
-    "addr:street": "Leandro N. Alem",
+    "addr:housenumber": "990",
+    "addr:postcode": "5501",
+    "addr:street": "Salta",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "La Facultad",
@@ -51234,8 +51236,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8346262,
-      -32.8929121
+      -68.8346625,
+      -32.892918
     ]
   }
 },
@@ -58716,23 +58718,6 @@
     "coordinates": [
       -58.4916585,
       -34.6321067
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2351694332",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "id": "node/2351694332"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4892532,
-      -34.6357712
     ]
   }
 },
@@ -79887,6 +79872,7 @@
     "addr:state": "Santa Fe",
     "addr:street": "Avenida Ovidio Lagos",
     "amenity": "pharmacy",
+    "check_date": "2025-08-22",
     "contact:phone": "+54 341 449-8660",
     "healthcare": "pharmacy",
     "name": "Ovidio Lagos",
@@ -178588,8 +178574,9 @@
     "addr:street": "3 de Febrero",
     "amenity": "pharmacy",
     "dispensing": "yes",
+    "email": "farmaciademaestri@gmail.com",
     "healthcare": "pharmacy",
-    "name": "Demaestri",
+    "name": "Farmacia Demaestri",
     "id": "node/12407830286"
   },
   "geometry": {
@@ -181719,10 +181706,12 @@
   "type": "Feature",
   "id": "node/12979289601",
   "properties": {
+    "addr:city": "Espartillar",
     "addr:postcode": "8171",
     "addr:street": "María Garay",
     "amenity": "pharmacy",
-    "name": "Farmacia \"Espartillar\"",
+    "healthcare": "pharmacy",
+    "name": "Espartillar",
     "id": "node/12979289601"
   },
   "geometry": {
@@ -182210,6 +182199,42 @@
     "coordinates": [
       -60.6549814,
       -32.9444397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13089251771",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-08-22",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "id": "node/13089251771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6560991,
+      -32.9508983
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13089335623",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Pizzolo",
+    "id": "node/13089335623"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.5584892,
+      -38.0698996
     ]
   }
 }
