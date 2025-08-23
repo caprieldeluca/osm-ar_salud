@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-22T23:14:28Z",
-    "timestamp_areas_base": "2025-08-22T18:23:01Z",
+    "timestamp_osm_base": "2025-08-23T23:15:07Z",
+    "timestamp_areas_base": "2025-08-23T21:31:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6902,23 +6902,6 @@
     "name": "Microhospital de Puente de Hierro",
     "phone": "54 0261 4820015",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 3710901073,
-  "lat": -34.8073993,
-  "lon": -58.2963646,
-  "tags": {
-    "addr:city": "Florencio Varela",
-    "addr:housenumber": "899",
-    "addr:postcode": "1859",
-    "addr:street": "Avenida Padre Obispo Jorge Novak",
-    "amenity": "hospital",
-    "check_date": "2025-07-30",
-    "healthcare": "hospital",
-    "name": "UPA 11 - Florencio Varela",
-    "operator": "Ministerio de Salud de la Provincia de Buenos Aires"
   }
 },
 {
@@ -22381,6 +22364,7 @@
   "lon": -58.2340086,
   "tags": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Sanatorio Privado Brandsen"
   }
 },
@@ -24021,6 +24005,23 @@
     "amenity": "hospital",
     "healthcare": "doctor",
     "name": "Centro de Salud Nº4 - Zacarías Núñez"
+  }
+},
+{
+  "type": "node",
+  "id": 13037786783,
+  "lat": -30.7409289,
+  "lon": -59.6416704,
+  "tags": {
+    "addr:city": "La Paz",
+    "addr:housenumber": "852",
+    "addr:postcode": "3190",
+    "addr:street": "Belgrano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Alianza Médica",
+    "phone": "03437424384",
+    "website": "http://www.alianzamedica.com.ar/"
   }
 },
 {
@@ -34133,6 +34134,37 @@
 },
 {
   "type": "way",
+  "id": 304158521,
+  "nodes": [
+    3086851984,
+    3086851985,
+    3086851986,
+    3086851987,
+    3086851988,
+    3086851989,
+    3086851990,
+    3086851991,
+    8143719910,
+    3086851992,
+    3086851993,
+    11386405016,
+    3086851994,
+    3086851984
+  ],
+  "tags": {
+    "addr:city": "Longchamps",
+    "addr:postcode": "1854",
+    "addr:street": "Avenida La Aviación",
+    "amenity": "hospital",
+    "building:levels": "1",
+    "healthcare": "hospital",
+    "layer": "1",
+    "name": "UPA 5 - Almirante Brown",
+    "website": "https://www.gba.gob.ar/servicio/upa24hs"
+  }
+},
+{
+  "type": "way",
   "id": 304292198,
   "nodes": [
     9960646449,
@@ -38307,7 +38339,7 @@
     "addr:street": "Avenida Otto Bemberg",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Unidad de Pronta Atención Berazategui",
+    "name": "UPA 10 - Berazategui",
     "operator": "Patricia Motta",
     "short_name": "UPA Berazategui"
   }
@@ -51002,6 +51034,29 @@
 },
 {
   "type": "way",
+  "id": 1012325420,
+  "nodes": [
+    9339434728,
+    9339434729,
+    9339434730,
+    9339434731,
+    9339434732,
+    9339434733,
+    9339434728
+  ],
+  "tags": {
+    "addr:city": "General Enrique Godoy",
+    "addr:housenumber": "S/N",
+    "addr:postcode": "R8336",
+    "addr:street": "Pasteur",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud General Enrique Godoy",
+    "operator": "Ministerio de Salud - Gobierno de Río Negro"
+  }
+},
+{
+  "type": "way",
   "id": 1012326855,
   "nodes": [
     9339434447,
@@ -52173,7 +52228,7 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Ipensa"
+    "name": "Sanatorio Ipensa"
   }
 },
 {
@@ -52745,7 +52800,6 @@
     9626344031,
     9626344046,
     9626344032,
-    9626344039,
     9626344045,
     9626344033,
     9626344044,
@@ -57734,6 +57788,54 @@
 },
 {
   "type": "way",
+  "id": 1418737888,
+  "nodes": [
+    13037931077,
+    13037931078,
+    13037931079,
+    13037931080,
+    13037931081,
+    13037931082,
+    13037931083,
+    13037931084,
+    13037931085,
+    13037931086,
+    13037931087,
+    13037931088,
+    13037931077
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "UPA 18 - La Matanza"
+  }
+},
+{
+  "type": "way",
+  "id": 1418738302,
+  "nodes": [
+    13037905939,
+    13037905940,
+    13037905941,
+    13037905942,
+    13037905943,
+    13037905944,
+    13037905945,
+    13037905946,
+    13037905947,
+    13037905948,
+    13037905949,
+    13037905950,
+    13037905939
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "UPA 6 - Los Hornos"
+  }
+},
+{
+  "type": "way",
   "id": 1418923513,
   "nodes": [
     13039340057,
@@ -57862,6 +57964,38 @@
     "building": "hospital",
     "healthcare": "hospital",
     "name": "Hospital De San Pedro"
+  }
+},
+{
+  "type": "way",
+  "id": 1424290909,
+  "nodes": [
+    13091385557,
+    13091385558,
+    13091385559,
+    13091385560,
+    13091385557
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "UPA 11 - Florencio Varela"
+  }
+},
+{
+  "type": "way",
+  "id": 1424291099,
+  "nodes": [
+    9218930146,
+    9218930144,
+    13091379223,
+    13091379224,
+    9218930146
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "UPA 17 - Quilmes"
   }
 },
 {
@@ -63781,6 +63915,42 @@
   "id": 11579914221,
   "lat": -39.0728784,
   "lon": -67.2371167
+},
+{
+  "type": "node",
+  "id": 9339434728,
+  "lat": -39.0778805,
+  "lon": -67.1590160
+},
+{
+  "type": "node",
+  "id": 9339434729,
+  "lat": -39.0781417,
+  "lon": -67.1590926
+},
+{
+  "type": "node",
+  "id": 9339434730,
+  "lat": -39.0781780,
+  "lon": -67.1590692
+},
+{
+  "type": "node",
+  "id": 9339434731,
+  "lat": -39.0782791,
+  "lon": -67.1585115
+},
+{
+  "type": "node",
+  "id": 9339434732,
+  "lat": -39.0779588,
+  "lon": -67.1584151
+},
+{
+  "type": "node",
+  "id": 9339434733,
+  "lat": -39.0778591,
+  "lon": -67.1589649
 },
 {
   "type": "node",
@@ -99466,6 +99636,78 @@
 },
 {
   "type": "node",
+  "id": 13037931077,
+  "lat": -34.8291996,
+  "lon": -58.6458002
+},
+{
+  "type": "node",
+  "id": 13037931078,
+  "lat": -34.8292808,
+  "lon": -58.6455592
+},
+{
+  "type": "node",
+  "id": 13037931079,
+  "lat": -34.8297542,
+  "lon": -58.6457960
+},
+{
+  "type": "node",
+  "id": 13037931080,
+  "lat": -34.8297164,
+  "lon": -58.6459082
+},
+{
+  "type": "node",
+  "id": 13037931081,
+  "lat": -34.8296809,
+  "lon": -58.6458905
+},
+{
+  "type": "node",
+  "id": 13037931082,
+  "lat": -34.8296484,
+  "lon": -58.6459871
+},
+{
+  "type": "node",
+  "id": 13037931083,
+  "lat": -34.8295250,
+  "lon": -58.6459255
+},
+{
+  "type": "node",
+  "id": 13037931084,
+  "lat": -34.8295128,
+  "lon": -58.6459616
+},
+{
+  "type": "node",
+  "id": 13037931085,
+  "lat": -34.8294429,
+  "lon": -58.6459267
+},
+{
+  "type": "node",
+  "id": 13037931086,
+  "lat": -34.8294621,
+  "lon": -58.6458696
+},
+{
+  "type": "node",
+  "id": 13037931087,
+  "lat": -34.8292712,
+  "lon": -58.6457742
+},
+{
+  "type": "node",
+  "id": 13037931088,
+  "lat": -34.8292534,
+  "lon": -58.6458271
+},
+{
+  "type": "node",
   "id": 3383069969,
   "lat": -34.8661315,
   "lon": -58.5354633
@@ -99814,6 +100056,72 @@
 },
 {
   "type": "node",
+  "id": 3086851984,
+  "lat": -34.8569785,
+  "lon": -58.3879668
+},
+{
+  "type": "node",
+  "id": 3086851985,
+  "lat": -34.8571102,
+  "lon": -58.3879516
+},
+{
+  "type": "node",
+  "id": 3086851986,
+  "lat": -34.8571147,
+  "lon": -58.3880101
+},
+{
+  "type": "node",
+  "id": 3086851987,
+  "lat": -34.8571850,
+  "lon": -58.3880019
+},
+{
+  "type": "node",
+  "id": 3086851988,
+  "lat": -34.8571803,
+  "lon": -58.3879416
+},
+{
+  "type": "node",
+  "id": 3086851989,
+  "lat": -34.8574603,
+  "lon": -58.3879093
+},
+{
+  "type": "node",
+  "id": 3086851990,
+  "lat": -34.8574652,
+  "lon": -58.3879713
+},
+{
+  "type": "node",
+  "id": 3086851991,
+  "lat": -34.8575139,
+  "lon": -58.3879657
+},
+{
+  "type": "node",
+  "id": 3086851992,
+  "lat": -34.8574930,
+  "lon": -58.3876966
+},
+{
+  "type": "node",
+  "id": 3086851993,
+  "lat": -34.8569194,
+  "lon": -58.3877629
+},
+{
+  "type": "node",
+  "id": 3086851994,
+  "lat": -34.8569679,
+  "lon": -58.3878314
+},
+{
+  "type": "node",
   "id": 8143708155,
   "lat": -34.8584438,
   "lon": -58.3878878
@@ -99838,6 +100146,12 @@
 },
 {
   "type": "node",
+  "id": 8143719910,
+  "lat": -34.8575021,
+  "lon": -58.3878136
+},
+{
+  "type": "node",
   "id": 8179735193,
   "lat": -34.8571901,
   "lon": -58.3865641
@@ -99859,6 +100173,12 @@
   "id": 8179735196,
   "lat": -34.8573052,
   "lon": -58.3868109
+},
+{
+  "type": "node",
+  "id": 11386405016,
+  "lat": -34.8569251,
+  "lon": -58.3878364
 },
 {
   "type": "node",
@@ -99991,6 +100311,30 @@
   "id": 7461479845,
   "lat": -35.1755367,
   "lon": -58.2221373
+},
+{
+  "type": "node",
+  "id": 13091385557,
+  "lat": -34.8072281,
+  "lon": -58.2968292
+},
+{
+  "type": "node",
+  "id": 13091385558,
+  "lat": -34.8069110,
+  "lon": -58.2962194
+},
+{
+  "type": "node",
+  "id": 13091385559,
+  "lat": -34.8074451,
+  "lon": -58.2957722
+},
+{
+  "type": "node",
+  "id": 13091385560,
+  "lat": -34.8077722,
+  "lon": -58.2964389
 },
 {
   "type": "node",
@@ -100129,6 +100473,78 @@
   "id": 2021659484,
   "lat": -34.9557212,
   "lon": -58.0511164
+},
+{
+  "type": "node",
+  "id": 13037905939,
+  "lat": -34.9686342,
+  "lon": -57.9829569
+},
+{
+  "type": "node",
+  "id": 13037905940,
+  "lat": -34.9686829,
+  "lon": -57.9830108
+},
+{
+  "type": "node",
+  "id": 13037905941,
+  "lat": -34.9687149,
+  "lon": -57.9829677
+},
+{
+  "type": "node",
+  "id": 13037905942,
+  "lat": -34.9688038,
+  "lon": -57.9830661
+},
+{
+  "type": "node",
+  "id": 13037905943,
+  "lat": -34.9688815,
+  "lon": -57.9829616
+},
+{
+  "type": "node",
+  "id": 13037905944,
+  "lat": -34.9689147,
+  "lon": -57.9829984
+},
+{
+  "type": "node",
+  "id": 13037905945,
+  "lat": -34.9689591,
+  "lon": -57.9829385
+},
+{
+  "type": "node",
+  "id": 13037905946,
+  "lat": -34.9689153,
+  "lon": -57.9828901
+},
+{
+  "type": "node",
+  "id": 13037905947,
+  "lat": -34.9690405,
+  "lon": -57.9827215
+},
+{
+  "type": "node",
+  "id": 13037905948,
+  "lat": -34.9690875,
+  "lon": -57.9827735
+},
+{
+  "type": "node",
+  "id": 13037905949,
+  "lat": -34.9691422,
+  "lon": -57.9826999
+},
+{
+  "type": "node",
+  "id": 13037905950,
+  "lat": -34.9689683,
+  "lon": -57.9825074
 },
 {
   "type": "node",
@@ -100925,8 +101341,8 @@
 {
   "type": "node",
   "id": 9626344032,
-  "lat": -34.9097603,
-  "lon": -57.9437908
+  "lat": -34.9097605,
+  "lon": -57.9437907
 },
 {
   "type": "node",
@@ -100963,12 +101379,6 @@
   "id": 9626344038,
   "lat": -34.9094604,
   "lon": -57.9437224
-},
-{
-  "type": "node",
-  "id": 9626344039,
-  "lat": -34.9097606,
-  "lon": -57.9437905
 },
 {
   "type": "node",
@@ -105013,6 +105423,30 @@
   "id": 11356158487,
   "lat": -34.6957404,
   "lon": -58.3990573
+},
+{
+  "type": "node",
+  "id": 9218930144,
+  "lat": -34.7363321,
+  "lon": -58.3299471
+},
+{
+  "type": "node",
+  "id": 9218930146,
+  "lat": -34.7367427,
+  "lon": -58.3304523
+},
+{
+  "type": "node",
+  "id": 13091379223,
+  "lat": -34.7368025,
+  "lon": -58.3293808
+},
+{
+  "type": "node",
+  "id": 13091379224,
+  "lat": -34.7372132,
+  "lon": -58.3298861
 },
 {
   "type": "node",
