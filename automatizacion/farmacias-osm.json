@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-25T23:18:00Z",
-    "timestamp_areas_base": "2025-08-25T16:38:16Z",
+    "timestamp_osm_base": "2025-08-26T23:16:20Z",
+    "timestamp_areas_base": "2025-08-26T20:55:19Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -52358,7 +52358,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "San Jorge",
+    "name": "farmacia \"San Jorge\"",
     "opening_hours": "Mo-Sa 08:00-12:00,16:00-20:00"
   }
 },
@@ -97530,6 +97530,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 13098785212,
+  "lat": -35.1548797,
+  "lon": -65.9452703,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13098785216,
+  "lat": -35.1525244,
+  "lon": -65.9470855,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -101666,9 +101684,11 @@
     4617359226
   ],
   "tags": {
+    "addr:street": "Avenida Santa Rosa",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
+    "name": "Farmacia Zampieri",
     "source": "Reconocimiento cartográfico de campo 2017 por KG."
   }
 },
