@@ -18707,9 +18707,9 @@
     "addr:state": "Santa Fe",
     "addr:street": "Teniente Agneta",
     "amenity": "clinic",
-    "contact:facebook": "https://fb.com/Centro-de-Salud-Jean-Henry-Dunant-836964463017090/",
+    "contact:facebook": "836964463017090",
     "contact:phone": "+54 341 480-7808",
-    "contact:website": "http://www.rosario.gov.ar/sitio/lugaresVisual/verLugar.do?id=1189",
+    "contact:whatsapp": "+54 341 511-4851",
     "healthcare": "clinic",
     "name": "Centro de Salud Jean Henry Dunant",
     "operator": "Municipalidad de Rosario",
@@ -18717,8 +18717,9 @@
     "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284738",
     "ref:sisa_tipologia": "ESSIDT",
-    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
-    "start_date": "09/07/1951",
+    "short_name": "Jean Henry Dunant",
+    "source_ref:url": "https://www.rosario.gob.ar/inicio/centros-de-salud-y-hospitales",
+    "start_date": "1951-07-09",
     "wikidata": "Q92620647",
     "id": "way/509008055"
   },
@@ -18727,28 +18728,12 @@
     "coordinates": [
       [
         [
-          -60.6990941,
-          -32.9446846
+          -60.699223,
+          -32.9444554
         ],
         [
-          -60.6990498,
-          -32.9446486
-        ],
-        [
-          -60.6990619,
-          -32.944329
-        ],
-        [
-          -60.6991035,
-          -32.9442952
-        ],
-        [
-          -60.6995031,
-          -32.9443087
-        ],
-        [
-          -60.6995527,
-          -32.9443582
+          -60.6995499,
+          -32.9444617
         ],
         [
           -60.6995447,
@@ -18759,8 +18744,12 @@
           -32.9446925
         ],
         [
-          -60.6990941,
-          -32.9446846
+          -60.6992166,
+          -32.9446869
+        ],
+        [
+          -60.699223,
+          -32.9444554
         ]
       ]
     ]
@@ -77947,6 +77936,7 @@
     "addr:city": "Villa Cerro Azul",
     "addr:postcode": "X5107",
     "amenity": "clinic",
+    "check_date": "2025-08-27",
     "healthcare": "clinic",
     "name": "Dispensario Villa Cerro Azul",
     "operator": "Comuna de Villa Cerro Azul",
@@ -115490,25 +115480,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11307558549",
-  "properties": {
-    "amenity": "clinic",
-    "denomination": "catholic",
-    "historic": "wayside_cross",
-    "name": "Cruz Papa Francisco",
-    "religion": "christian",
-    "id": "node/11307558549"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -65.2900261,
-      -26.7255843
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11330133648",
   "properties": {
     "amenity": "clinic",
@@ -119689,6 +119660,25 @@
     "coordinates": [
       -65.570329,
       -35.1429447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13102941180",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro Oftalmológico Municipal",
+    "operator": "Municipalidad de Moreno",
+    "operator:type": "public",
+    "id": "node/13102941180"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.7923786,
+      -34.6519835
     ]
   }
 }

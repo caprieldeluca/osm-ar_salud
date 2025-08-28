@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-08-27T23:15:14Z",
-    "timestamp_areas_base": "2025-08-27T21:33:02Z",
+    "timestamp_osm_base": "2025-08-28T23:15:30Z",
+    "timestamp_areas_base": "2025-08-28T20:04:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17336,6 +17336,7 @@
     "addr:city": "Villa Cerro Azul",
     "addr:postcode": "X5107",
     "amenity": "clinic",
+    "check_date": "2025-08-27",
     "healthcare": "clinic",
     "name": "Dispensario Villa Cerro Azul",
     "operator": "Comuna de Villa Cerro Azul",
@@ -45397,19 +45398,6 @@
 },
 {
   "type": "node",
-  "id": 11307558549,
-  "lat": -26.7255843,
-  "lon": -65.2900261,
-  "tags": {
-    "amenity": "clinic",
-    "denomination": "catholic",
-    "historic": "wayside_cross",
-    "name": "Cruz Papa Francisco",
-    "religion": "christian"
-  }
-},
-{
-  "type": "node",
   "id": 11330133648,
   "lat": -23.9462566,
   "lon": -66.4884304,
@@ -48277,6 +48265,19 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 13102941180,
+  "lat": -34.6519835,
+  "lon": -58.7923786,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Centro Oftalmológico Municipal",
+    "operator": "Municipalidad de Moreno",
+    "operator:type": "public"
   }
 },
 {
@@ -56673,15 +56674,12 @@
   "type": "way",
   "id": 509008055,
   "nodes": [
-    4982990152,
-    4982990151,
-    4982990150,
-    4982990149,
-    4982990148,
-    4982990147,
+    13102783623,
+    13102783624,
     4982990146,
     4982990145,
-    4982990152
+    13102783620,
+    13102783623
   ],
   "tags": {
     "addr:city": "Rosario",
@@ -56691,9 +56689,9 @@
     "addr:state": "Santa Fe",
     "addr:street": "Teniente Agneta",
     "amenity": "clinic",
-    "contact:facebook": "https://fb.com/Centro-de-Salud-Jean-Henry-Dunant-836964463017090/",
+    "contact:facebook": "836964463017090",
     "contact:phone": "+54 341 480-7808",
-    "contact:website": "http://www.rosario.gov.ar/sitio/lugaresVisual/verLugar.do?id=1189",
+    "contact:whatsapp": "+54 341 511-4851",
     "healthcare": "clinic",
     "name": "Centro de Salud Jean Henry Dunant",
     "operator": "Municipalidad de Rosario",
@@ -56701,8 +56699,9 @@
     "operator:wikidata": "Q52535",
     "ref:sisa_codigo": "50820842284738",
     "ref:sisa_tipologia": "ESSIDT",
-    "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
-    "start_date": "09/07/1951",
+    "short_name": "Jean Henry Dunant",
+    "source_ref:url": "https://www.rosario.gob.ar/inicio/centros-de-salud-y-hospitales",
+    "start_date": "1951-07-09",
     "wikidata": "Q92620647"
   }
 },
@@ -93481,39 +93480,21 @@
 },
 {
   "type": "node",
-  "id": 4982990147,
-  "lat": -32.9443582,
-  "lon": -60.6995527
+  "id": 13102783624,
+  "lat": -32.9444617,
+  "lon": -60.6995499
 },
 {
   "type": "node",
-  "id": 4982990148,
-  "lat": -32.9443087,
-  "lon": -60.6995031
+  "id": 13102783620,
+  "lat": -32.9446869,
+  "lon": -60.6992166
 },
 {
   "type": "node",
-  "id": 4982990149,
-  "lat": -32.9442952,
-  "lon": -60.6991035
-},
-{
-  "type": "node",
-  "id": 4982990150,
-  "lat": -32.9443290,
-  "lon": -60.6990619
-},
-{
-  "type": "node",
-  "id": 4982990151,
-  "lat": -32.9446486,
-  "lon": -60.6990498
-},
-{
-  "type": "node",
-  "id": 4982990152,
-  "lat": -32.9446846,
-  "lon": -60.6990941
+  "id": 13102783623,
+  "lat": -32.9444554,
+  "lon": -60.6992230
 },
 {
   "type": "node",
