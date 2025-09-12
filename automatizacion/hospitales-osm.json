@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-09-11T23:13:45Z",
-    "timestamp_areas_base": "2025-09-11T16:29:21Z",
+    "timestamp_osm_base": "2025-09-12T23:12:45Z",
+    "timestamp_areas_base": "2025-09-12T15:57:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13917,11 +13917,14 @@
 {
   "type": "node",
   "id": 5488969921,
-  "lat": -32.7591704,
-  "lon": -64.3333584,
+  "lat": -32.7593458,
+  "lon": -64.3331923,
   "tags": {
+    "addr:city": "Alcira",
     "addr:full": "Pedro Caviglia 111",
+    "addr:housenumber": "111",
     "addr:postcode": "5813",
+    "addr:street": "Pedro Caviglia",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Municipal De Alcira",
@@ -58842,6 +58845,22 @@
   }
 },
 {
+  "type": "way",
+  "id": 1429351007,
+  "nodes": [
+    13139682814,
+    13139682815,
+    13139682816,
+    13139682817,
+    13139682814
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensario Municipal Dr. Julian Ostrovsky"
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -86868,6 +86887,30 @@
   "id": 8891162161,
   "lat": -31.1691512,
   "lon": -64.3131253
+},
+{
+  "type": "node",
+  "id": 13139682814,
+  "lat": -31.1366935,
+  "lon": -64.2919833
+},
+{
+  "type": "node",
+  "id": 13139682815,
+  "lat": -31.1367203,
+  "lon": -64.2917085
+},
+{
+  "type": "node",
+  "id": 13139682816,
+  "lat": -31.1370191,
+  "lon": -64.2917483
+},
+{
+  "type": "node",
+  "id": 13139682817,
+  "lat": -31.1369801,
+  "lon": -64.2921485
 },
 {
   "type": "node",
