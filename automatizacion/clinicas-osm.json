@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-09-17T23:15:17Z",
-    "timestamp_areas_base": "2025-09-17T18:23:46Z",
+    "timestamp_osm_base": "2025-09-18T23:15:23Z",
+    "timestamp_areas_base": "2025-09-18T16:21:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45886,13 +45886,13 @@
 {
   "type": "node",
   "id": 11497405454,
-  "lat": -38.0867581,
-  "lon": -57.5435911,
+  "lat": -38.0868457,
+  "lon": -57.5436622,
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "neuropsychiatry",
-    "name": "Clínica Clara del Mar"
+    "name": "Clínica Neuropsiquiátrica Clara del Mar S.A."
   }
 },
 {
@@ -48339,6 +48339,36 @@
   "id": 13134891898,
   "lat": -33.2014327,
   "lon": -65.8506480,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 13153349737,
+  "lat": -32.8757116,
+  "lon": -65.6344351,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 13153413202,
+  "lat": -32.6691354,
+  "lon": -65.6556501,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puesto Sanitario"
+  }
+},
+{
+  "type": "node",
+  "id": 13153812936,
+  "lat": -32.5618553,
+  "lon": -65.7757567,
   "tags": {
     "amenity": "clinic",
     "name": "Centro de Salud"
@@ -61370,33 +61400,6 @@
 },
 {
   "type": "way",
-  "id": 802258043,
-  "nodes": [
-    7504258843,
-    7504258844,
-    7504258845,
-    7504258846,
-    7504258847,
-    7504258848,
-    7504258849,
-    7504258843
-  ],
-  "tags": {
-    "addr:full": "Adelia Maria Y Malabia - Barrio Alberdi",
-    "addr:postcode": "5800",
-    "amenity": "clinic",
-    "area": "yes",
-    "healthcare": "clinic",
-    "name": "Centro Periferico 11",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "0358-4671294",
-    "ref:sisa_codigo": "50140982231698",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "way",
   "id": 802259111,
   "nodes": [
     7504232430,
@@ -72882,6 +72885,22 @@
   }
 },
 {
+  "type": "way",
+  "id": 1430901648,
+  "nodes": [
+    13153098007,
+    13153098008,
+    13153098009,
+    13153098010,
+    13153098007
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -83428,6 +83447,30 @@
 },
 {
   "type": "node",
+  "id": 13153098007,
+  "lat": -38.0869012,
+  "lon": -57.5438158
+},
+{
+  "type": "node",
+  "id": 13153098008,
+  "lat": -38.0871421,
+  "lon": -57.5435060
+},
+{
+  "type": "node",
+  "id": 13153098009,
+  "lat": -38.0869481,
+  "lon": -57.5432626
+},
+{
+  "type": "node",
+  "id": 13153098010,
+  "lat": -38.0867073,
+  "lon": -57.5435725
+},
+{
+  "type": "node",
   "id": 7191407202,
   "lat": -37.9868379,
   "lon": -57.6106085
@@ -88909,48 +88952,6 @@
   "id": 11565442654,
   "lat": -33.1285510,
   "lon": -64.3520107
-},
-{
-  "type": "node",
-  "id": 7504258843,
-  "lat": -33.1463050,
-  "lon": -64.3281921
-},
-{
-  "type": "node",
-  "id": 7504258844,
-  "lat": -33.1464048,
-  "lon": -64.3281851
-},
-{
-  "type": "node",
-  "id": 7504258845,
-  "lat": -33.1464078,
-  "lon": -64.3278766
-},
-{
-  "type": "node",
-  "id": 7504258846,
-  "lat": -33.1465105,
-  "lon": -64.3278696
-},
-{
-  "type": "node",
-  "id": 7504258847,
-  "lat": -33.1467101,
-  "lon": -64.3278626
-},
-{
-  "type": "node",
-  "id": 7504258848,
-  "lat": -33.1467219,
-  "lon": -64.3277434
-},
-{
-  "type": "node",
-  "id": 7504258849,
-  "lat": -33.1463036,
-  "lon": -64.3277452
 },
 {
   "type": "node",
