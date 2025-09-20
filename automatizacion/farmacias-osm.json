@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-09-19T23:15:34Z",
-    "timestamp_areas_base": "2025-09-19T20:25:24Z",
+    "timestamp_osm_base": "2025-09-20T23:15:12Z",
+    "timestamp_areas_base": "2025-09-20T17:45:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13642,7 +13642,8 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Brugnaro-Romero"
+    "name": "Brugnaro-Romero",
+    "opening_hours": "Mo-Su 08:00-24:00"
   }
 },
 {
@@ -68955,7 +68956,7 @@
     "addr:postcode": "7300",
     "addr:street": "San Martín",
     "amenity": "pharmacy",
-    "check_date": "2023-05-17",
+    "check_date": "2025-09-19",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia San Martín"
@@ -117640,6 +117641,23 @@
   }
 },
 {
+  "type": "way",
+  "id": 1431577065,
+  "nodes": [
+    13158667459,
+    13158667460,
+    13158667461,
+    13158667462,
+    13158667459
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Jesús Nazareno"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -122426,6 +122444,30 @@
   "id": 3271105907,
   "lat": -32.8422793,
   "lon": -68.8698547
+},
+{
+  "type": "node",
+  "id": 13158667459,
+  "lat": -32.9247672,
+  "lon": -68.7724439
+},
+{
+  "type": "node",
+  "id": 13158667460,
+  "lat": -32.9247826,
+  "lon": -68.7720235
+},
+{
+  "type": "node",
+  "id": 13158667461,
+  "lat": -32.9248979,
+  "lon": -68.7720900
+},
+{
+  "type": "node",
+  "id": 13158667462,
+  "lat": -32.9248824,
+  "lon": -68.7724510
 },
 {
   "type": "node",
