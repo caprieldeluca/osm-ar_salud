@@ -51009,11 +51009,12 @@
   "properties": {
     "addr:city": "Godoy Cruz",
     "addr:country": "AR",
-    "addr:housenumber": "2100",
+    "addr:housenumber": "2098",
+    "addr:postcode": "5501",
     "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
     "brand": "Chester",
-    "contact:phone": "54 0261 4241124",
+    "contact:phone": "+54 261 4241124",
     "healthcare": "pharmacy",
     "name": "Chester",
     "id": "node/1768586281"
@@ -54137,11 +54138,20 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "4599",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Núñez",
     "amenity": "pharmacy",
+    "check_date": "2025-09-26",
     "healthcare": "pharmacy",
     "name": "San Juan",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "wheelchair": "yes",
     "id": "node/2052138250"
   },
   "geometry": {
@@ -63286,6 +63296,10 @@
   "type": "Feature",
   "id": "node/2612324187",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1201",
+    "addr:postcode": "C1426",
+    "addr:street": "Céspedes",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Brianso",
@@ -182574,6 +182588,23 @@
     "coordinates": [
       -63.5108787,
       -31.7137301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13172364536",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Fátima",
+    "id": "node/13172364536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5220405,
+      -31.5628516
     ]
   }
 }
