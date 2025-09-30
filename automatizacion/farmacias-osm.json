@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-09-29T23:16:43Z",
-    "timestamp_areas_base": "2025-09-29T15:53:38Z",
+    "timestamp_osm_base": "2025-09-30T23:16:16Z",
+    "timestamp_areas_base": "2025-09-30T21:10:46Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2119,11 +2119,13 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "1637",
+    "addr:postcode": "C1426",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "TKL"
+    "name": "TKL",
+    "website": "https://www.farmaciastkl.com/"
   }
 },
 {
@@ -18276,7 +18278,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "La Franco",
-    "website": "http://www.lafranco.com.ar/"
+    "website": "https://www.lafranco.com.ar/"
   }
 },
 {
@@ -97757,6 +97759,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 13184725601,
+  "lat": -34.5893648,
+  "lon": -58.4044952,
+  "tags": {
+    "addr:housenumber": "2733",
+    "addr:street": "Juncal",
+    "amenity": "pharmacy"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -104065,7 +104078,7 @@
   "tags": {
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2023-09-08",
+    "check_date": "2025-09-30",
     "healthcare": "pharmacy",
     "name": "De Los Constituyentes",
     "source": "Reconocimiento terrestre por Kaart 2016"
@@ -117767,6 +117780,22 @@
   }
 },
 {
+  "type": "way",
+  "id": 1434228622,
+  "nodes": [
+    13182325574,
+    13182325575,
+    13182325576,
+    13182325577,
+    13182325574
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -127353,6 +127382,30 @@
   "id": 9890785480,
   "lat": -33.1563068,
   "lon": -60.5123486
+},
+{
+  "type": "node",
+  "id": 13182325574,
+  "lat": -32.9846241,
+  "lon": -62.0213843
+},
+{
+  "type": "node",
+  "id": 13182325575,
+  "lat": -32.9845888,
+  "lon": -62.0215875
+},
+{
+  "type": "node",
+  "id": 13182325576,
+  "lat": -32.9845301,
+  "lon": -62.0215688
+},
+{
+  "type": "node",
+  "id": 13182325577,
+  "lat": -32.9845614,
+  "lon": -62.0213587
 },
 {
   "type": "node",

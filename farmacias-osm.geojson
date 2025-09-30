@@ -13427,7 +13427,7 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2023-09-08",
+    "check_date": "2025-09-30",
     "healthcare": "pharmacy",
     "name": "De Los Constituyentes",
     "source": "Reconocimiento terrestre por Kaart 2016",
@@ -42599,6 +42599,43 @@
 },
 {
   "type": "Feature",
+  "id": "way/1434228622",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/1434228622"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.0213843,
+          -32.9846241
+        ],
+        [
+          -62.0213587,
+          -32.9845614
+        ],
+        [
+          -62.0215688,
+          -32.9845301
+        ],
+        [
+          -62.0215875,
+          -32.9845888
+        ],
+        [
+          -62.0213843,
+          -32.9846241
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101971",
   "properties": {
     "amenity": "pharmacy",
@@ -45624,11 +45661,13 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "1637",
+    "addr:postcode": "C1426",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Belgrano",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "TKL",
+    "website": "https://www.farmaciastkl.com/",
     "id": "node/1018285071"
   },
   "geometry": {
@@ -68927,7 +68966,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "La Franco",
-    "website": "http://www.lafranco.com.ar/",
+    "website": "https://www.lafranco.com.ar/",
     "id": "node/3032825056"
   },
   "geometry": {
@@ -182636,6 +182675,23 @@
     "coordinates": [
       -58.8180715,
       -34.6476344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13184725601",
+  "properties": {
+    "addr:housenumber": "2733",
+    "addr:street": "Juncal",
+    "amenity": "pharmacy",
+    "id": "node/13184725601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4044952,
+      -34.5893648
     ]
   }
 }
