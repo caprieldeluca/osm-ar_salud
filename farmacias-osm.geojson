@@ -9062,6 +9062,8 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "2967",
+    "addr:postcode": "C1428",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Núñez",
     "amenity": "pharmacy",
@@ -9072,6 +9074,8 @@
     "building:levels": "3",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "website": "https://www.farmacity.com/",
     "id": "way/467489688"
   },
   "geometry": {
@@ -94347,6 +94351,10 @@
   "type": "Feature",
   "id": "node/4494830562",
   "properties": {
+    "addr:city": "Buenos Aires",
+    "addr:housenumber": "2168",
+    "addr:postcode": "C1428",
+    "addr:street": "Manuel Ugarte",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Plaza Alberti",
@@ -111506,7 +111514,12 @@
   "type": "Feature",
   "id": "node/5241192960",
   "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "2869",
+    "addr:postcode": "C1428",
+    "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Central Oeste",
     "id": "node/5241192960"
   },
@@ -182845,6 +182858,26 @@
     "coordinates": [
       -64.2340854,
       -31.3670224
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13207818532",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-10-09",
+    "contact:website": "https://farmasimply.com.ar/",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "FarmaSimply",
+    "id": "node/13207818532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.7524882,
+      -32.9146961
     ]
   }
 }
