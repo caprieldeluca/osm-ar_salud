@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-10-14T23:13:43Z",
-    "timestamp_areas_base": "2025-10-14T16:10:15Z",
+    "timestamp_osm_base": "2025-10-15T23:14:01Z",
+    "timestamp_areas_base": "2025-10-15T15:51:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13234,7 +13234,8 @@
     "healthcare": "hospital",
     "name": "SAMCo San Vicente",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q107624317",
     "phone": "+54 3492 47-1262",
     "ref:sisa_codigo": "10820212184199",
     "ref:sisa_tipologia": "ESCIG"
@@ -24342,6 +24343,19 @@
   }
 },
 {
+  "type": "node",
+  "id": 13233738440,
+  "lat": -30.0130915,
+  "lon": -61.5777145,
+  "tags": {
+    "addr:city": "Ambrosetti",
+    "addr:street": "Doctor Oscar Ramirez",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "SAMCO Ambrosetti"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -29789,13 +29803,19 @@
   "tags": {
     "addr:city": "Martínez",
     "addr:housenumber": "590",
+    "addr:postcode": "B1642",
     "addr:street": "Avenida Sir Alexander Fleming",
     "amenity": "hospital",
-    "check_date": "2025-01-23",
+    "check_date": "2025-10-14",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "healthcare:speciality": "ophthalmology;cardiology",
-    "name": "Centro Médico de la Trinidad - Fleming",
-    "operator:type": "private"
+    "healthcare:speciality": "ophthalmology;cardiology;diagnostic_radiology;intensive",
+    "name": "Sanatorio de la Trinidad - Fleming",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "phone": "+54 11 4127-8888",
+    "website": "https://www.sanatoriosdelatrinidad.com.ar",
+    "wheelchair": "yes"
   }
 },
 {
