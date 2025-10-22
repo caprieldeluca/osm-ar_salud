@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-10-21T23:18:29Z",
-    "timestamp_areas_base": "2025-10-21T13:40:54Z",
+    "timestamp_osm_base": "2025-10-22T23:15:33Z",
+    "timestamp_areas_base": "2025-10-22T15:50:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23148,8 +23148,11 @@
     "addr:postcode": "S2134",
     "addr:street": "Catamarca",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Tornabene",
+    "name": "De Miguel Pharmacy",
+    "name:es": "Farmacia De Miguel",
     "source": "Local knowledge"
   }
 },
@@ -98725,6 +98728,33 @@
 },
 {
   "type": "way",
+  "id": 305753447,
+  "nodes": [
+    3104178071,
+    3104178072,
+    2929660001,
+    3104178081,
+    3104178080,
+    3104178079,
+    3104178071
+  ],
+  "tags": {
+    "addr:city": "Roldán",
+    "addr:housenumber": "798",
+    "addr:postcode": "S2134",
+    "addr:street": "Bulevar José de San Martín",
+    "amenity": "pharmacy",
+    "building": "commercial",
+    "building:levels": "2",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Yovaldi",
+    "phone": "+5493413540794"
+  }
+},
+{
+  "type": "way",
   "id": 306162548,
   "nodes": [
     3501395917,
@@ -117997,28 +118027,6 @@
 },
 {
   "type": "way",
-  "id": 1410767551,
-  "nodes": [
-    8391964690,
-    12962936376,
-    12962936377,
-    8391964688,
-    12962936374,
-    8391964689,
-    8391964690
-  ],
-  "tags": {
-    "addr:city": "Roldán",
-    "addr:housenumber": "818",
-    "addr:postcode": "S2134",
-    "addr:street": "Bulevar José de San Martín",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Albinoli"
-  }
-},
-{
-  "type": "way",
   "id": 1431577065,
   "nodes": [
     13158667459,
@@ -127958,39 +127966,39 @@
 },
 {
   "type": "node",
-  "id": 8391964688,
-  "lat": -32.8998882,
-  "lon": -60.9089954
+  "id": 2929660001,
+  "lat": -32.8999461,
+  "lon": -60.9086889
 },
 {
   "type": "node",
-  "id": 8391964689,
-  "lat": -32.8998995,
-  "lon": -60.9089302
+  "id": 3104178071,
+  "lat": -32.8998472,
+  "lon": -60.9088220
 },
 {
   "type": "node",
-  "id": 8391964690,
-  "lat": -32.8998825,
-  "lon": -60.9089260
+  "id": 3104178072,
+  "lat": -32.8998732,
+  "lon": -60.9086711
 },
 {
   "type": "node",
-  "id": 12962936374,
-  "lat": -32.8998933,
-  "lon": -60.9089659
+  "id": 3104178079,
+  "lat": -32.8999195,
+  "lon": -60.9088396
 },
 {
   "type": "node",
-  "id": 12962936376,
-  "lat": -32.8998635,
-  "lon": -60.9089213
+  "id": 3104178080,
+  "lat": -32.8999289,
+  "lon": -60.9087852
 },
 {
   "type": "node",
-  "id": 12962936377,
-  "lat": -32.8998522,
-  "lon": -60.9089866
+  "id": 3104178081,
+  "lat": -32.8999366,
+  "lon": -60.9087439
 },
 {
   "type": "node",
