@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-10-23T23:17:11Z",
-    "timestamp_areas_base": "2025-10-23T20:55:42Z",
+    "timestamp_osm_base": "2025-10-24T23:17:01Z",
+    "timestamp_areas_base": "2025-10-24T19:30:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3381,10 +3381,15 @@
   "lat": -34.5665393,
   "lon": -58.4519621,
   "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1566",
+    "addr:postcode": "C1426",
+    "addr:street": "Avenida Cabildo",
     "amenity": "pharmacy",
-    "check_date": "2024-10-20",
+    "check_date": "2025-10-23",
     "healthcare": "pharmacy",
-    "name": "FarmaPlus"
+    "name": "FarmaPlus",
+    "website": "https://www.farmaplus.com.ar/"
   }
 },
 {
@@ -18368,12 +18373,15 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "1528",
+    "addr:postcode": "C1426",
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Colegiales",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Vip",
-    "shop": "chemist"
+    "shop": "chemist",
+    "website": "https://farmaciavip.com.ar/"
   }
 },
 {
@@ -23151,8 +23159,8 @@
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "De Miguel Pharmacy",
-    "name:es": "Farmacia De Miguel",
+    "name": "Farmacia de Miguel",
+    "name:en": "De Miguel Pharmacy",
     "source": "Local knowledge"
   }
 },
@@ -98022,6 +98030,24 @@
   }
 },
 {
+  "type": "node",
+  "id": 13254410001,
+  "lat": -34.5873106,
+  "lon": -58.4071798,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13254559002,
+  "lat": -34.5809537,
+  "lon": -58.4064893,
+  "tags": {
+    "amenity": "pharmacy"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -98748,11 +98774,11 @@
     "amenity": "pharmacy",
     "building": "commercial",
     "building:levels": "2",
+    "contact:phone": "+54 341 354-0794",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Farmacia Yovaldi",
-    "phone": "+5493413540794"
+    "name": "Farmacia Yovaldi"
   }
 },
 {
