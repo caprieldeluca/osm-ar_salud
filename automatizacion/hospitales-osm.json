@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-11-12T23:16:01Z",
-    "timestamp_areas_base": "2025-11-12T14:24:30Z",
+    "timestamp_osm_base": "2025-11-13T23:16:25Z",
+    "timestamp_areas_base": "2025-11-13T20:30:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24288,6 +24288,18 @@
     "name": "Clinica Saint Michel",
     "official_name": "Clinica Privada Saint Michel",
     "website": "https://www.saintmichelsrl.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 13301595801,
+  "lat": -34.6520455,
+  "lon": -58.6591038,
+  "tags": {
+    "addr:housenumber": "508",
+    "addr:street": "Avenida Santa Rosa",
+    "amenity": "hospital",
+    "name": "Hospital Italiano"
   }
 },
 {
@@ -59589,6 +59601,41 @@
     13297330681,
     2930644116,
     2930644123
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1450221001,
+  "nodes": [
+    13301387241,
+    13301387242,
+    13301387243,
+    13301387244,
+    13301387241
+  ],
+  "tags": {
+    "addr:housenumber": "3385",
+    "addr:street": "Avenida Trabajadores",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sanatorio CEMEDA"
+  }
+},
+{
+  "type": "way",
+  "id": 1450268842,
+  "nodes": [
+    13301581599,
+    13301581586,
+    4100861401,
+    13301581600,
+    13301581605,
+    13301581601,
+    13301581599
   ],
   "tags": {
     "amenity": "hospital",
@@ -98569,6 +98616,30 @@
 },
 {
   "type": "node",
+  "id": 13301387241,
+  "lat": -36.8853860,
+  "lon": -60.3025313
+},
+{
+  "type": "node",
+  "id": 13301387242,
+  "lat": -36.8851544,
+  "lon": -60.3022502
+},
+{
+  "type": "node",
+  "id": 13301387243,
+  "lat": -36.8854362,
+  "lon": -60.3018871
+},
+{
+  "type": "node",
+  "id": 13301387244,
+  "lat": -36.8856679,
+  "lon": -60.3021682
+},
+{
+  "type": "node",
   "id": 10940388212,
   "lat": -36.7822116,
   "lon": -59.8532695
@@ -101197,6 +101268,12 @@
 },
 {
   "type": "node",
+  "id": 4100861401,
+  "lat": -34.5683612,
+  "lon": -59.1169084
+},
+{
+  "type": "node",
   "id": 6983860183,
   "lat": -34.5699236,
   "lon": -59.1148744
@@ -101314,6 +101391,36 @@
   "id": 13285067331,
   "lat": -34.5697971,
   "lon": -59.1152987
+},
+{
+  "type": "node",
+  "id": 13301581586,
+  "lat": -34.5682223,
+  "lon": -59.1168461
+},
+{
+  "type": "node",
+  "id": 13301581599,
+  "lat": -34.5677845,
+  "lon": -59.1166485
+},
+{
+  "type": "node",
+  "id": 13301581600,
+  "lat": -34.5682702,
+  "lon": -59.1172070
+},
+{
+  "type": "node",
+  "id": 13301581601,
+  "lat": -34.5676941,
+  "lon": -59.1169497
+},
+{
+  "type": "node",
+  "id": 13301581605,
+  "lat": -34.5682303,
+  "lon": -59.1171892
 },
 {
   "type": "node",
