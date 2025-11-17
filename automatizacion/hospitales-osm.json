@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-11-16T23:14:41Z",
-    "timestamp_areas_base": "2025-11-16T16:24:45Z",
+    "timestamp_osm_base": "2025-11-17T23:15:42Z",
+    "timestamp_areas_base": "2025-11-17T16:04:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -552,27 +552,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 1272484058,
-  "lat": -38.5385394,
-  "lon": -58.7613517,
-  "tags": {
-    "addr:city": "Necochea",
-    "addr:country": "AR",
-    "addr:housenumber": "4801",
-    "addr:postcode": "7630",
-    "addr:province": "Buenos Aires",
-    "addr:street": "Avenida 59",
-    "amenity": "hospital",
-    "description": "Urgencias marque 107 desde celular *107",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Municipal",
-    "phone": "+54 2262 42 2405",
-    "wheelchair": "yes"
   }
 },
 {
@@ -26610,7 +26589,8 @@
   ],
   "tags": {
     "amenity": "hospital",
-    "healthcare": "hospital"
+    "healthcare": "hospital",
+    "name": "Hospital Emilio Ferreyra"
   }
 },
 {
@@ -28667,7 +28647,8 @@
     "contact:phone": "+54 0261 4319925 / 4058600",
     "emergency": "yes",
     "healthcare": "hospital",
-    "layer": "-1"
+    "layer": "-1",
+    "name": "Hospital Italiano"
   }
 },
 {
@@ -59644,6 +59625,22 @@
   }
 },
 {
+  "type": "way",
+  "id": 1451368047,
+  "nodes": [
+    13311114003,
+    13311114004,
+    13311114005,
+    13311114006,
+    13311114003
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Subzonal Especializado Neuropsiquiátrico \"Dr. Domingo J. Taraborelli\""
+  }
+},
+{
   "type": "relation",
   "id": 3322950,
   "members": [
@@ -72736,6 +72733,30 @@
   "id": 5869825987,
   "lat": -38.2864792,
   "lon": -59.2014131
+},
+{
+  "type": "node",
+  "id": 13311114004,
+  "lat": -38.5558553,
+  "lon": -58.7274420
+},
+{
+  "type": "node",
+  "id": 13311114003,
+  "lat": -38.5551963,
+  "lon": -58.7266270
+},
+{
+  "type": "node",
+  "id": 13311114005,
+  "lat": -38.5565220,
+  "lon": -58.7265606
+},
+{
+  "type": "node",
+  "id": 13311114006,
+  "lat": -38.5558628,
+  "lon": -58.7257455
 },
 {
   "type": "node",
