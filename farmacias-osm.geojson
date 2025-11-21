@@ -8371,7 +8371,7 @@
   "properties": {
     "addr:city": "Olivos",
     "addr:housenumber": "671",
-    "addr:postcode": "1636",
+    "addr:postcode": "B1636",
     "addr:street": "Corrientes",
     "amenity": "pharmacy",
     "building": "yes",
@@ -8380,6 +8380,7 @@
     "name": "Farmacia Monteverde",
     "phone": "+54 11 4794-2797",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "no",
     "id": "way/466755017"
   },
   "geometry": {
@@ -83160,7 +83161,7 @@
     "addr:postcode": "1702",
     "addr:street": "258 - Padre Agustín Gabriel Bonney Elizalde",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy",
+    "closed:healthcare": "pharmacy",
     "name": "Farmacia Ciudadela",
     "id": "node/3822121415"
   },
@@ -183140,6 +183141,21 @@
     "coordinates": [
       -58.4960589,
       -34.5368076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13322995363",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/13322995363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -70.0703086,
+      -40.0423755
     ]
   }
 }
