@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-11-24T23:18:36Z",
-    "timestamp_areas_base": "2025-11-24T17:20:44Z",
+    "timestamp_osm_base": "2025-11-25T23:18:00Z",
+    "timestamp_areas_base": "2025-11-25T17:01:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4542,7 +4542,8 @@
   "lon": -64.2046139,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Farmacia Estrella"
   }
 },
 {
@@ -69750,10 +69751,9 @@
 {
   "type": "node",
   "id": 7671124695,
-  "lat": -34.6074822,
-  "lon": -58.4625454,
+  "lat": -34.6074596,
+  "lon": -58.4625347,
   "tags": {
-    "addr:street": "Avenida Juan Bautista Justo",
     "amenity": "pharmacy",
     "check_date": "2024-06-19",
     "healthcare": "pharmacy",
@@ -95320,7 +95320,7 @@
   "lon": -61.9706142,
   "tags": {
     "amenity": "pharmacy",
-    "check_date": "2024-12-18",
+    "check_date": "2025-11-25",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Apla",
@@ -113466,6 +113466,21 @@
 },
 {
   "type": "way",
+  "id": 840023028,
+  "nodes": [
+    7838675122,
+    7838675125,
+    7838675126,
+    7838675127,
+    7838675122
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 841538780,
   "nodes": [
     7851678667,
@@ -119193,6 +119208,30 @@
   "id": 6776095784,
   "lat": -38.8849039,
   "lon": -71.1729294
+},
+{
+  "type": "node",
+  "id": 7838675122,
+  "lat": -38.0760005,
+  "lon": -70.6132176
+},
+{
+  "type": "node",
+  "id": 7838675125,
+  "lat": -38.0758714,
+  "lon": -70.6131734
+},
+{
+  "type": "node",
+  "id": 7838675126,
+  "lat": -38.0759000,
+  "lon": -70.6130389
+},
+{
+  "type": "node",
+  "id": 7838675127,
+  "lat": -38.0760290,
+  "lon": -70.6130830
 },
 {
   "type": "node",

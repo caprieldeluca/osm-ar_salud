@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-11-24T23:15:44Z",
-    "timestamp_areas_base": "2025-11-24T17:20:44Z",
+    "timestamp_osm_base": "2025-11-25T23:15:58Z",
+    "timestamp_areas_base": "2025-11-25T19:53:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9864,26 +9864,6 @@
     "description": "sucursal de Farmacia",
     "healthcare": "hospital",
     "name": "F. María de la Salid II"
-  }
-},
-{
-  "type": "node",
-  "id": 4218409613,
-  "lat": -23.6312770,
-  "lon": -65.4112425,
-  "tags": {
-    "addr:city": "Maimara",
-    "addr:full": "Belgrano S/N",
-    "addr:place": "Tilcara",
-    "amenity": "hospital",
-    "description": "Alto riesgo con terapia intensiva especializada",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Maimará",
-    "operator:type": "public",
-    "ref:sisa_codigo": "10380942150023",
-    "ref:sisa_tipologia": "ESCIEP",
-    "source": "sedronar.gov.ar | Public Domain (PD)"
   }
 },
 {
@@ -24757,8 +24737,13 @@
     283262340,
     2702805109,
     283262342,
+    13330526228,
     283262365,
+    13330526229,
+    13330526227,
+    13330526226,
     283262346,
+    2702805113,
     2702805095,
     283262367,
     283262348,
@@ -24838,6 +24823,8 @@
     291620796,
     291620797,
     2504000086,
+    13330276497,
+    13330276496,
     2504000089
   ],
   "tags": {
@@ -34657,7 +34644,7 @@
   "tags": {
     "amenity": "hospital",
     "building": "yes",
-    "check_date": "2024-11-16",
+    "check_date": "2025-11-25",
     "healthcare": "hospital",
     "name": "Cruz Roja",
     "operator": "Cruz Roja",
@@ -59654,6 +59641,52 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clinica Del Rosario SRL"
+  }
+},
+{
+  "type": "way",
+  "id": 1453562564,
+  "nodes": [
+    13330276498,
+    13330276499,
+    13330276500,
+    13330276501,
+    13330276498
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1453595972,
+  "nodes": [
+    2472112812,
+    13330578536,
+    13330578537,
+    2472112900,
+    2472112812
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1453678579,
+  "nodes": [
+    13331547896,
+    13331547897,
+    13331547898,
+    13331547899,
+    13331547896
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital de Maimará \"Dr. Miguel Ángel Miskoff\""
   }
 },
 {
@@ -109737,8 +109770,8 @@
 {
   "type": "node",
   "id": 283262365,
-  "lat": -34.6416468,
-  "lon": -58.4103476
+  "lat": -34.6416145,
+  "lon": -58.4104673
 },
 {
   "type": "node",
@@ -109820,6 +109853,12 @@
 },
 {
   "type": "node",
+  "id": 2702805113,
+  "lat": -34.6413683,
+  "lon": -58.4092022
+},
+{
+  "type": "node",
   "id": 11689440333,
   "lat": -34.6395868,
   "lon": -58.4115976
@@ -109859,6 +109898,30 @@
   "id": 13168033835,
   "lat": -34.6438113,
   "lon": -58.4113524
+},
+{
+  "type": "node",
+  "id": 13330526226,
+  "lat": -34.6416185,
+  "lon": -58.4092777
+},
+{
+  "type": "node",
+  "id": 13330526227,
+  "lat": -34.6416474,
+  "lon": -58.4098126
+},
+{
+  "type": "node",
+  "id": 13330526228,
+  "lat": -34.6415771,
+  "lon": -58.4106848
+},
+{
+  "type": "node",
+  "id": 13330526229,
+  "lat": -34.6416471,
+  "lon": -58.4101507
 },
 {
   "type": "node",
@@ -112028,6 +112091,12 @@
 },
 {
   "type": "node",
+  "id": 2472112812,
+  "lat": -34.6799314,
+  "lon": -58.3583587
+},
+{
+  "type": "node",
   "id": 2472112842,
   "lat": -34.6804797,
   "lon": -58.3585653
@@ -112118,6 +112187,12 @@
 },
 {
   "type": "node",
+  "id": 2472112900,
+  "lat": -34.6811376,
+  "lon": -58.3596666
+},
+{
+  "type": "node",
   "id": 2472112902,
   "lat": -34.6811542,
   "lon": -58.3577563
@@ -112184,6 +112259,18 @@
 },
 {
   "type": "node",
+  "id": 13330578536,
+  "lat": -34.6808994,
+  "lon": -58.3570454
+},
+{
+  "type": "node",
+  "id": 13330578537,
+  "lat": -34.6821460,
+  "lon": -58.3583764
+},
+{
+  "type": "node",
   "id": 2749511295,
   "lat": -34.6654977,
   "lon": -58.3778786
@@ -112208,9 +112295,27 @@
 },
 {
   "type": "node",
+  "id": 13330276496,
+  "lat": -34.6666837,
+  "lon": -58.3666048
+},
+{
+  "type": "node",
+  "id": 13330276497,
+  "lat": -34.6665920,
+  "lon": -58.3664344
+},
+{
+  "type": "node",
+  "id": 13330276500,
+  "lat": -34.6679315,
+  "lon": -58.3664292
+},
+{
+  "type": "node",
   "id": 291620796,
-  "lat": -34.6667978,
-  "lon": -58.3651019
+  "lat": -34.6668189,
+  "lon": -58.3650739
 },
 {
   "type": "node",
@@ -112221,8 +112326,26 @@
 {
   "type": "node",
   "id": 2504000089,
-  "lat": -34.6673489,
-  "lon": -58.3658877
+  "lat": -34.6675355,
+  "lon": -58.3660396
+},
+{
+  "type": "node",
+  "id": 13330276498,
+  "lat": -34.6678355,
+  "lon": -58.3649044
+},
+{
+  "type": "node",
+  "id": 13330276499,
+  "lat": -34.6671480,
+  "lon": -58.3653481
+},
+{
+  "type": "node",
+  "id": 13330276501,
+  "lat": -34.6684808,
+  "lon": -58.3658524
 },
 {
   "type": "node",
@@ -136379,6 +136502,30 @@
   "id": 9425370196,
   "lat": -26.8084065,
   "lon": -55.0101248
+},
+{
+  "type": "node",
+  "id": 13331547899,
+  "lat": -23.6313419,
+  "lon": -65.4116893
+},
+{
+  "type": "node",
+  "id": 13331547896,
+  "lat": -23.6307964,
+  "lon": -65.4113581
+},
+{
+  "type": "node",
+  "id": 13331547897,
+  "lat": -23.6310937,
+  "lon": -65.4108417
+},
+{
+  "type": "node",
+  "id": 13331547898,
+  "lat": -23.6315852,
+  "lon": -65.4112628
 },
 {
   "type": "node",
