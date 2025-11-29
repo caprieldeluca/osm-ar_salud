@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-11-28T23:16:36Z",
-    "timestamp_areas_base": "2025-11-28T17:56:12Z",
+    "timestamp_osm_base": "2025-11-29T23:16:28Z",
+    "timestamp_areas_base": "2025-11-29T16:39:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4680,6 +4680,20 @@
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
     "wikidata": "Q92620788"
+  }
+},
+{
+  "type": "node",
+  "id": 3733896229,
+  "lat": -28.0411431,
+  "lon": -67.5853060,
+  "tags": {
+    "addr:city": "Santa Rosa- Tinogasta",
+    "addr:postcode": "5343",
+    "addr:street": "Frente a la Plaza Santa Rosa",
+    "amenity": "clinic",
+    "emergency": "no",
+    "name": "Posta Sanitaria"
   }
 },
 {
@@ -10628,6 +10642,7 @@
     "addr:housenumber": "2040",
     "addr:street": "Sarmiento",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "internet_access": "wlan",
     "name": "La Maternidad- OSPERYH",
     "opening_hours": "24/7",
@@ -49169,7 +49184,7 @@
     "name": "Instituto de Zoonosis Luis Pasteur",
     "opening_hours": "7:00-18:00",
     "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public",
+    "operator:type": "government",
     "operator:wikidata": "Q16571953",
     "operator:wikipedia": "es:Gobierno de la Ciudad de Buenos Aires",
     "phone": "+54 11 4958-9900",
