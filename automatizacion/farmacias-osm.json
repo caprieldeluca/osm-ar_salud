@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-12-05T23:18:02Z",
-    "timestamp_areas_base": "2025-12-05T20:31:51Z",
+    "timestamp_osm_base": "2025-12-06T23:17:31Z",
+    "timestamp_areas_base": "2025-12-06T16:00:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -31766,9 +31766,11 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
-    "check_date": "2024-09-10",
+    "check_date": "2025-12-06",
+    "check_date:opening_hours": "2025-12-06",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "opening_hours": "Mo-Fr 08:00-23:30, Sa 08:00-24:00, Su 10:00-22:00"
   }
 },
 {
@@ -40630,8 +40632,8 @@
 {
   "type": "node",
   "id": 4657630240,
-  "lat": -34.6115581,
-  "lon": -58.5283315,
+  "lat": -34.6115316,
+  "lon": -58.5283255,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -93261,6 +93263,7 @@
   "lon": -64.2496774,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2025-12-06",
     "healthcare": "pharmacy"
   }
 },
@@ -118240,6 +118243,37 @@
   }
 },
 {
+  "type": "way",
+  "id": 1456523654,
+  "nodes": [
+    13357882259,
+    13357882260,
+    13357882261,
+    13357882262,
+    13357882263,
+    13357882264,
+    13357882265,
+    13357882287,
+    13357882266,
+    13357882269,
+    13357882259
+  ],
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "1498",
+    "addr:postcode": "8000",
+    "addr:street": "Avenida Alem",
+    "amenity": "pharmacy",
+    "branch": "alem",
+    "building": "yes",
+    "building:levels": "1",
+    "contact:whatsapp": "+54 9 291 575-0364",
+    "healthcare": "pharmacy",
+    "name": "Andreoli",
+    "phone": "+54 9 291 455-2011"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -122522,6 +122556,66 @@
   "id": 11364341990,
   "lat": -38.7170002,
   "lon": -62.2514205
+},
+{
+  "type": "node",
+  "id": 13357882259,
+  "lat": -38.6988004,
+  "lon": -62.2730046
+},
+{
+  "type": "node",
+  "id": 13357882260,
+  "lat": -38.6987945,
+  "lon": -62.2730163
+},
+{
+  "type": "node",
+  "id": 13357882261,
+  "lat": -38.6987918,
+  "lon": -62.2730314
+},
+{
+  "type": "node",
+  "id": 13357882262,
+  "lat": -38.6987939,
+  "lon": -62.2730459
+},
+{
+  "type": "node",
+  "id": 13357882263,
+  "lat": -38.6987977,
+  "lon": -62.2730569
+},
+{
+  "type": "node",
+  "id": 13357882264,
+  "lat": -38.6988047,
+  "lon": -62.2730679
+},
+{
+  "type": "node",
+  "id": 13357882265,
+  "lat": -38.6988911,
+  "lon": -62.2731679
+},
+{
+  "type": "node",
+  "id": 13357882266,
+  "lat": -38.6989136,
+  "lon": -62.2731375
+},
+{
+  "type": "node",
+  "id": 13357882269,
+  "lat": -38.6988722,
+  "lon": -62.2730874
+},
+{
+  "type": "node",
+  "id": 13357882287,
+  "lat": -38.6988999,
+  "lon": -62.2731560
 },
 {
   "type": "node",
