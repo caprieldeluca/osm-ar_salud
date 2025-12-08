@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-12-07T23:18:43Z",
-    "timestamp_areas_base": "2025-12-07T21:04:43Z",
+    "timestamp_osm_base": "2025-12-08T23:20:13Z",
+    "timestamp_areas_base": "2025-12-08T21:23:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5748,8 +5748,8 @@
 {
   "type": "node",
   "id": 5004049649,
-  "lat": -34.6870112,
-  "lon": -58.4725979,
+  "lat": -34.6869737,
+  "lon": -58.4726019,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -7293,6 +7293,7 @@
     "addr:street": "Doctor Ghío",
     "amenity": "doctors",
     "description": "Salud Laboral",
+    "healthcare": "doctor",
     "name": "Servilab"
   }
 },
@@ -23042,6 +23043,20 @@
   }
 },
 {
+  "type": "node",
+  "id": 13362538556,
+  "lat": -32.8542108,
+  "lon": -68.8384330,
+  "tags": {
+    "addr:housenumber": "1142",
+    "addr:street": "Sargento Cabral",
+    "amenity": "doctors",
+    "contact:phone": "54 0261 4374446",
+    "name": "Centro de Salud N° 362 Antonio Huespe",
+    "operator": "Public"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -26473,8 +26488,7 @@
   "tags": {
     "amenity": "doctors",
     "building": "yes",
-    "healthcare": "doctor",
-    "name": "Consultorio Médico"
+    "healthcare": "doctor"
   }
 },
 {
