@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-12-08T23:19:15Z",
-    "timestamp_areas_base": "2025-12-08T17:58:00Z",
+    "timestamp_osm_base": "2025-12-09T23:19:45Z",
+    "timestamp_areas_base": "2025-12-09T18:50:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -53970,6 +53970,8 @@
   "lat": -35.0039987,
   "lon": -61.0341972,
   "tags": {
+    "addr:city": "Los Toldos",
+    "addr:housenumber": "315",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Santa Rosa"
@@ -88374,6 +88376,7 @@
   "lon": -64.5086557,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Fleming"
   }
 },
@@ -90035,8 +90038,8 @@
 {
   "type": "node",
   "id": 11236475237,
-  "lat": -34.5844985,
-  "lon": -58.4067427,
+  "lat": -34.5845018,
+  "lon": -58.4067132,
   "tags": {
     "amenity": "pharmacy",
     "name": "Farmacia dela Plaza"
@@ -98293,6 +98296,23 @@
   }
 },
 {
+  "type": "node",
+  "id": 13365242893,
+  "lat": -32.9391254,
+  "lon": -60.6793227,
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:housenumber": "4101",
+    "addr:postcode": "2000",
+    "addr:street": "Avenida Eva Perón",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Marketing Farm",
+    "phone": "03414374545"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -105628,14 +105648,16 @@
   "tags": {
     "addr:city": "San Isidro",
     "addr:housenumber": "700",
-    "addr:postcode": "1642",
+    "addr:postcode": "B1642",
     "addr:street": "Avenida Centenario",
     "amenity": "pharmacy",
+    "branch": "San Isidro II",
     "building": "yes",
     "building:levels": "1",
-    "check_date": "2024-06-06",
+    "check_date": "2025-12-09",
     "healthcare": "pharmacy",
     "name": "FarmaPlus",
+    "website": "https://www.farmaplus.com.ar/",
     "wheelchair": "no"
   }
 },

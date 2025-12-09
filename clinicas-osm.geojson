@@ -12655,7 +12655,7 @@
   "properties": {
     "addr:city": "San Isidro",
     "addr:housenumber": "635",
-    "addr:postcode": "1642",
+    "addr:postcode": "B1642",
     "addr:street": "Avenida Centenario",
     "amenity": "clinic",
     "building": "yes",
@@ -38423,44 +38423,6 @@
         [
           -64.2906057,
           -36.614758
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/1060885734",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "Instituto Oftalmologico Cortina",
-    "id": "way/1060885734"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.2670087,
-          -36.6182748
-        ],
-        [
-          -64.2670034,
-          -36.6187506
-        ],
-        [
-          -64.2664884,
-          -36.6187506
-        ],
-        [
-          -64.2664857,
-          -36.618277
-        ],
-        [
-          -64.2670087,
-          -36.6182748
         ]
       ]
     ]
@@ -67675,7 +67637,7 @@
   "properties": {
     "addr:street": "General Julio Argentino Roca",
     "amenity": "clinic",
-    "healthcare:speciality": "podologist",
+    "healthcare:speciality": "podiatry",
     "name": "Consultorio Podológico",
     "id": "node/4624416527"
   },
@@ -113231,7 +113193,9 @@
   "type": "Feature",
   "id": "node/10027549717",
   "properties": {
+    "addr:city": "San Isidro",
     "addr:housenumber": "623",
+    "addr:postcode": "B1642",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "osecac",
@@ -120839,6 +120803,44 @@
     "coordinates": [
       -60.0921019,
       -34.0562665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13363563101",
+  "properties": {
+    "addr:housenumber": "1746",
+    "addr:postcode": "2580",
+    "addr:street": "Hernandez",
+    "amenity": "clinic",
+    "internet_access": "wlan",
+    "name": "Centro Periférico N° 3",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "id": "node/13363563101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.112612,
+      -32.6829259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13364238197",
+  "properties": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Instituto Oftalmologico Cortina",
+    "id": "node/13364238197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2667468,
+      -36.6185126
     ]
   }
 }
