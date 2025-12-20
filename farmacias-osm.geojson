@@ -44482,9 +44482,12 @@
     "addr:street": "Avenida Boedo",
     "amenity": "pharmacy",
     "branch": "Boedo",
-    "check_date": "2025-06-02",
+    "check_date": "2025-12-20",
     "healthcare": "pharmacy",
     "name": "Farmacity Boedo",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/724302926"
   },
   "geometry": {
@@ -111447,6 +111450,7 @@
   "id": "node/5228551662",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2025-12-20",
     "healthcare": "pharmacy",
     "name": "Farmacía Vía Cŕodoba",
     "id": "node/5228551662"
@@ -149704,6 +149708,22 @@
 },
 {
   "type": "Feature",
+  "id": "node/8961526017",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/8961526017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4090147,
+      -34.5824004
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8984354529",
   "properties": {
     "amenity": "pharmacy",
@@ -183578,6 +183598,60 @@
     "coordinates": [
       -71.5357603,
       -41.9617519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13389923476",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmatodo",
+    "id": "node/13389923476"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4111391,
+      -34.5817538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13391412365",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2025-12-20",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Culla",
+    "id": "node/13391412365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.6975499,
+      -32.9359866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13391552327",
+  "properties": {
+    "amenity": "pharmacy",
+    "baby_feeding": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias General Paz",
+    "wheelchair": "yes",
+    "id": "node/13391552327"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1994152,
+      -31.3509773
     ]
   }
 }

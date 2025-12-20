@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-12-19T23:18:50Z",
-    "timestamp_areas_base": "2025-12-19T16:25:46Z",
+    "timestamp_osm_base": "2025-12-20T23:17:58Z",
+    "timestamp_areas_base": "2025-12-20T18:51:21Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1304,9 +1304,12 @@
     "addr:street": "Avenida Boedo",
     "amenity": "pharmacy",
     "branch": "Boedo",
-    "check_date": "2025-06-02",
+    "check_date": "2025-12-20",
     "healthcare": "pharmacy",
-    "name": "Farmacity Boedo"
+    "name": "Farmacity Boedo",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -47713,6 +47716,7 @@
   "lon": -60.7017924,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2025-12-20",
     "healthcare": "pharmacy",
     "name": "Farmacía Vía Cŕodoba"
   }
@@ -74412,6 +74416,16 @@
 },
 {
   "type": "node",
+  "id": 8961526017,
+  "lat": -34.5824004,
+  "lon": -58.4090147,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
   "id": 8984354529,
   "lat": -34.6234197,
   "lon": -58.4005818,
@@ -98411,6 +98425,42 @@
   "lon": -71.5357603,
   "tags": {
     "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13389923476,
+  "lat": -34.5817538,
+  "lon": -58.4111391,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmatodo"
+  }
+},
+{
+  "type": "node",
+  "id": 13391412365,
+  "lat": -32.9359866,
+  "lon": -60.6975499,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-12-20",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Culla"
+  }
+},
+{
+  "type": "node",
+  "id": 13391552327,
+  "lat": -31.3509773,
+  "lon": -64.1994152,
+  "tags": {
+    "amenity": "pharmacy",
+    "baby_feeding": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacias General Paz",
+    "wheelchair": "yes"
   }
 },
 {
