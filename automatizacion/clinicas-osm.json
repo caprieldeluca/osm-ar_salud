@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2025-12-22T23:18:18Z",
-    "timestamp_areas_base": "2025-12-22T15:17:15Z",
+    "timestamp_osm_base": "2025-12-23T23:17:42Z",
+    "timestamp_areas_base": "2025-12-23T20:05:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18973,7 +18973,7 @@
     "addr:street": "Sargento B. Cabral",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Unidad Sanitaria Sargento Cabral",
+    "name": "UAP Sargento Cabral",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 11 45806235",
@@ -23108,30 +23108,6 @@
     "phone": "+54 3576 498098",
     "ref:sisa_codigo": "50141192231497",
     "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7502359778,
-  "lat": -34.6192367,
-  "lon": -58.4378699,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "5126",
-    "addr:postcode": "C1424CET",
-    "addr:street": "Avenida Rivadavia",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "level": "4",
-    "name": "Centro Médico Barrial - CMB 34",
-    "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public",
-    "phone": "+541149026816",
-    "ref:sisa_codigo": "50020012115413",
-    "ref:sisa_tipologia": "ESSIDT",
-    "website": "https://www.buenosaires.gob.ar/salud/cmb-no-34",
-    "wikidata": "Q93802481"
   }
 },
 {
@@ -73214,6 +73190,37 @@
   }
 },
 {
+  "type": "way",
+  "id": 1460667490,
+  "nodes": [
+    13396936821,
+    13396936822,
+    13396936823,
+    13396936824,
+    13396936828,
+    13396936829,
+    13396936832,
+    13396936831,
+    13396936830,
+    13396936827,
+    13396936826,
+    13396936833,
+    13396936836,
+    13396936835,
+    13396936834,
+    13396936825,
+    13396936821
+  ],
+  "tags": {
+    "addr:city": "Plaza San Francisco",
+    "addr:street": "Víctor Angeli",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario Barrio Plaza San Francisco"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -95871,6 +95878,102 @@
   "id": 5374070119,
   "lat": -31.4313895,
   "lon": -62.0832568
+},
+{
+  "type": "node",
+  "id": 13396936821,
+  "lat": -31.3700129,
+  "lon": -62.0984848
+},
+{
+  "type": "node",
+  "id": 13396936822,
+  "lat": -31.3700285,
+  "lon": -62.0983994
+},
+{
+  "type": "node",
+  "id": 13396936823,
+  "lat": -31.3700094,
+  "lon": -62.0983953
+},
+{
+  "type": "node",
+  "id": 13396936824,
+  "lat": -31.3700163,
+  "lon": -62.0983506
+},
+{
+  "type": "node",
+  "id": 13396936825,
+  "lat": -31.3698098,
+  "lon": -62.0984380
+},
+{
+  "type": "node",
+  "id": 13396936826,
+  "lat": -31.3698210,
+  "lon": -62.0982973
+},
+{
+  "type": "node",
+  "id": 13396936827,
+  "lat": -31.3698687,
+  "lon": -62.0983070
+},
+{
+  "type": "node",
+  "id": 13396936828,
+  "lat": -31.3700280,
+  "lon": -62.0983504
+},
+{
+  "type": "node",
+  "id": 13396936829,
+  "lat": -31.3700377,
+  "lon": -62.0983084
+},
+{
+  "type": "node",
+  "id": 13396936830,
+  "lat": -31.3698716,
+  "lon": -62.0982924
+},
+{
+  "type": "node",
+  "id": 13396936831,
+  "lat": -31.3699824,
+  "lon": -62.0983126
+},
+{
+  "type": "node",
+  "id": 13396936832,
+  "lat": -31.3699867,
+  "lon": -62.0982963
+},
+{
+  "type": "node",
+  "id": 13396936833,
+  "lat": -31.3698137,
+  "lon": -62.0983483
+},
+{
+  "type": "node",
+  "id": 13396936834,
+  "lat": -31.3698178,
+  "lon": -62.0983657
+},
+{
+  "type": "node",
+  "id": 13396936835,
+  "lat": -31.3698421,
+  "lon": -62.0983687
+},
+{
+  "type": "node",
+  "id": 13396936836,
+  "lat": -31.3698434,
+  "lon": -62.0983540
 },
 {
   "type": "node",
