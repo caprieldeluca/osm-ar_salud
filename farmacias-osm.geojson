@@ -1290,6 +1290,57 @@
 },
 {
   "type": "Feature",
+  "id": "way/300653953",
+  "properties": {
+    "addr:housenumber": "1909",
+    "addr:street": "Avenida Santa Fe",
+    "addr:unit": "9",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2026-01-07",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Minati",
+    "roof:levels": "2",
+    "roof:material": "concrete",
+    "roof:shape": "flat",
+    "wheelchair": "limited",
+    "id": "way/300653953"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.8141664,
+          -32.9177461
+        ],
+        [
+          -60.8141903,
+          -32.9178392
+        ],
+        [
+          -60.8141936,
+          -32.9178518
+        ],
+        [
+          -60.814159,
+          -32.9178581
+        ],
+        [
+          -60.8141318,
+          -32.9177523
+        ],
+        [
+          -60.8141664,
+          -32.9177461
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/303674627",
   "properties": {
     "addr:city": "Aldo Bonzi",
@@ -9130,8 +9181,7 @@
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Don Nascimento",
-    "source": "Reconocimiento terrestre por Kaart 2016",
+    "name": "Do Nascimento",
     "id": "way/467492222"
   },
   "geometry": {
@@ -9139,24 +9189,24 @@
     "coordinates": [
       [
         [
-          -58.7003406,
-          -34.6315378
+          -58.7003567,
+          -34.6315146
         ],
         [
-          -58.7004308,
-          -34.6316223
+          -58.7004764,
+          -34.6316201
         ],
         [
-          -58.7003774,
-          -34.6316609
+          -58.700423,
+          -34.6316587
         ],
         [
-          -58.7002872,
-          -34.6315764
+          -58.7003033,
+          -34.6315532
         ],
         [
-          -58.7003406,
-          -34.6315378
+          -58.7003567,
+          -34.6315146
         ]
       ]
     ]
@@ -79318,22 +79368,6 @@
     "coordinates": [
       -58.50403,
       -34.6382489
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3560002161",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "id": "node/3560002161"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -64.0959966,
-      -30.9783975
     ]
   }
 },
@@ -184019,6 +184053,65 @@
     "coordinates": [
       -58.4503365,
       -34.579825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13440386644",
+  "properties": {
+    "amenity": "pharmacy",
+    "baby_feeding": "no",
+    "healthcare": "pharmacy",
+    "name": "Mi Farmacia",
+    "opening_hours": "Mo-Fr 08:00-13:30,17:30-21:00; Sa 09:00-13:30; PH closed",
+    "phone": "03543 436301",
+    "wheelchair": "yes",
+    "id": "node/13440386644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2882355,
+      -31.2981173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13440402047",
+  "properties": {
+    "amenity": "pharmacy",
+    "baby_feeding": "no",
+    "healthcare": "pharmacy",
+    "name": "del Milagro",
+    "opening_hours": "24/7",
+    "id": "node/13440402047"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2850363,
+      -31.3018923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13440408249",
+  "properties": {
+    "amenity": "pharmacy",
+    "baby_feeding": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "wheelchair": "yes",
+    "id": "node/13440408249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2951556,
+      -31.284915
     ]
   }
 }
