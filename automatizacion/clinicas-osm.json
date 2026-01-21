@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.8 e802775f",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-20T23:21:15Z",
-    "timestamp_areas_base": "2026-01-20T17:50:04Z",
+    "timestamp_osm_base": "2026-01-21T23:23:37Z",
+    "timestamp_areas_base": "2026-01-21T14:03:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -48448,9 +48448,13 @@
 {
   "type": "node",
   "id": 13334006871,
-  "lat": -31.5112255,
+  "lat": -31.5112257,
   "lon": -68.5295731,
   "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "176 (E)",
+    "addr:postcode": "J5400AWR",
+    "addr:street": "Mary O'Graham",
     "amenity": "clinic",
     "healthcare": "clinic",
     "healthcare:speciality": "general",
@@ -73575,6 +73579,24 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Enfermería Cruz Verde"
+  }
+},
+{
+  "type": "way",
+  "id": 1469301822,
+  "nodes": [
+    13474974321,
+    13474974322,
+    13474974323,
+    13474974324,
+    13474974321
+  ],
+  "tags": {
+    "addr:city": "Saucelito",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Puesto Sanitario Saucelito"
   }
 },
 {
@@ -115855,6 +115877,30 @@
   "id": 13469551451,
   "lat": -23.3949283,
   "lon": -64.4261086
+},
+{
+  "type": "node",
+  "id": 13474974321,
+  "lat": -23.4365558,
+  "lon": -64.3330720
+},
+{
+  "type": "node",
+  "id": 13474974322,
+  "lat": -23.4367315,
+  "lon": -64.3328829
+},
+{
+  "type": "node",
+  "id": 13474974323,
+  "lat": -23.4366501,
+  "lon": -64.3327942
+},
+{
+  "type": "node",
+  "id": 13474974324,
+  "lat": -23.4364776,
+  "lon": -64.3329833
 },
 {
   "type": "way",
