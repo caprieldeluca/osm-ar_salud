@@ -12102,6 +12102,7 @@
     "addr:city": "San Salvador de Jujuy",
     "addr:postcode": "4600",
     "amenity": "hospital",
+    "check_date": "2026-02-02",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Snopek",
@@ -66458,12 +66459,16 @@
   "type": "Feature",
   "id": "way/968667321",
   "properties": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "358",
+    "addr:street": "Urquiza",
     "amenity": "hospital",
     "emergency": "no",
     "healthcare": "hospital",
-    "name": "Dispensario 3",
+    "name": "Dispensario 3 \"Ramon Carrillo\"",
     "operator": "municipalidad",
     "operator:type": "public",
+    "wheelchair": "yes",
     "id": "way/968667321"
   },
   "geometry": {
@@ -66471,32 +66476,40 @@
     "coordinates": [
       [
         [
-          -64.4320072,
-          -31.6613485
+          -64.4322106,
+          -31.661235
         ],
         [
-          -64.4316498,
-          -31.661511
+          -64.4316317,
+          -31.6614989
         ],
         [
-          -64.4316144,
-          -31.6614481
+          -64.4316041,
+          -31.6614498
         ],
         [
-          -64.4317268,
-          -31.6614009
+          -64.4317197,
+          -31.6614002
         ],
         [
           -64.4316883,
           -31.661338
         ],
         [
-          -64.4319332,
-          -31.6612331
+          -64.4319202,
+          -31.6612342
         ],
         [
-          -64.4320072,
-          -31.6613485
+          -64.4318967,
+          -31.6611862
+        ],
+        [
+          -64.4321105,
+          -31.6610749
+        ],
+        [
+          -64.4322106,
+          -31.661235
         ]
       ]
     ]
@@ -88011,6 +88024,49 @@
         [
           -58.190251,
           -26.1821379
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1476003797",
+  "properties": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "17",
+    "addr:street": "Paso de los Andes",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "gynaecology;general",
+    "name": "Consultorio de Salud Integral",
+    "operator": "Cooperativa de Salud",
+    "operator:type": "private",
+    "id": "way/1476003797"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.1989354,
+          -31.4118764
+        ],
+        [
+          -64.1988075,
+          -31.4119161
+        ],
+        [
+          -64.198775,
+          -31.4118498
+        ],
+        [
+          -64.1989056,
+          -31.4118089
+        ],
+        [
+          -64.1989354,
+          -31.4118764
         ]
       ]
     ]

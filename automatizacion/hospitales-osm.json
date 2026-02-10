@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-02-09T23:33:30Z",
+    "timestamp_osm_base": "2026-02-10T23:35:15Z",
     "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -27423,6 +27423,7 @@
     "addr:city": "San Salvador de Jujuy",
     "addr:postcode": "4600",
     "amenity": "hospital",
+    "check_date": "2026-02-02",
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Snopek",
@@ -50917,6 +50918,8 @@
   "id": 968667321,
   "nodes": [
     8961953808,
+    13539185753,
+    13539185754,
     8961953809,
     8961953810,
     8961953811,
@@ -50925,12 +50928,16 @@
     8961953808
   ],
   "tags": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "358",
+    "addr:street": "Urquiza",
     "amenity": "hospital",
     "emergency": "no",
     "healthcare": "hospital",
-    "name": "Dispensario 3",
+    "name": "Dispensario 3 \"Ramon Carrillo\"",
     "operator": "municipalidad",
-    "operator:type": "public"
+    "operator:type": "public",
+    "wheelchair": "yes"
   }
 },
 {
@@ -59887,6 +59894,28 @@
     "name": "Reserva de Vacunas",
     "opening_hours": "24/7",
     "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1476003797,
+  "nodes": [
+    13539210270,
+    13539210271,
+    13539210272,
+    13539210273,
+    13539210270
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "17",
+    "addr:street": "Paso de los Andes",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "gynaecology;general",
+    "name": "Consultorio de Salud Integral",
+    "operator": "Cooperativa de Salud",
+    "operator:type": "private"
   }
 },
 {
@@ -86222,14 +86251,14 @@
 {
   "type": "node",
   "id": 8961953808,
-  "lat": -31.6613485,
-  "lon": -64.4320072
+  "lat": -31.6612350,
+  "lon": -64.4322106
 },
 {
   "type": "node",
   "id": 8961953809,
-  "lat": -31.6612331,
-  "lon": -64.4319332
+  "lat": -31.6612342,
+  "lon": -64.4319202
 },
 {
   "type": "node",
@@ -86240,20 +86269,32 @@
 {
   "type": "node",
   "id": 8961953811,
-  "lat": -31.6614009,
-  "lon": -64.4317268
+  "lat": -31.6614002,
+  "lon": -64.4317197
 },
 {
   "type": "node",
   "id": 8961953812,
-  "lat": -31.6614481,
-  "lon": -64.4316144
+  "lat": -31.6614498,
+  "lon": -64.4316041
 },
 {
   "type": "node",
   "id": 8961953813,
-  "lat": -31.6615110,
-  "lon": -64.4316498
+  "lat": -31.6614989,
+  "lon": -64.4316317
+},
+{
+  "type": "node",
+  "id": 13539185753,
+  "lat": -31.6610749,
+  "lon": -64.4321105
+},
+{
+  "type": "node",
+  "id": 13539185754,
+  "lat": -31.6611862,
+  "lon": -64.4318967
 },
 {
   "type": "node",
@@ -88036,6 +88077,30 @@
   "id": 11334906731,
   "lat": -31.4103659,
   "lon": -64.1935602
+},
+{
+  "type": "node",
+  "id": 13539210270,
+  "lat": -31.4118764,
+  "lon": -64.1989354
+},
+{
+  "type": "node",
+  "id": 13539210271,
+  "lat": -31.4119161,
+  "lon": -64.1988075
+},
+{
+  "type": "node",
+  "id": 13539210272,
+  "lat": -31.4118498,
+  "lon": -64.1987750
+},
+{
+  "type": "node",
+  "id": 13539210273,
+  "lat": -31.4118089,
+  "lon": -64.1989056
 },
 {
   "type": "node",
