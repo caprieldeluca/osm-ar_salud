@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-02-28T23:19:30Z",
-    "timestamp_areas_base": "2026-01-23T01:22:35Z",
+    "timestamp_osm_base": "2026-03-01T23:20:00Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24218,6 +24218,50 @@
   }
 },
 {
+  "type": "node",
+  "id": 13608580689,
+  "lat": -36.5982223,
+  "lon": -64.2919400,
+  "tags": {
+    "addr:postcode": "6300",
+    "addr:street": "Avenida Circunvalación Ingeniero Santiago Marzo",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Doctor Lucio Molas"
+  }
+},
+{
+  "type": "node",
+  "id": 13608580700,
+  "lat": -36.5970240,
+  "lon": -64.2902355,
+  "tags": {
+    "addr:city": "Santa Rosa La Pampa",
+    "addr:postcode": "6300",
+    "addr:street": "Raul B. Diaz",
+    "amenity": "hospital",
+    "disused": "Centro de Medicina Nuclear",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "intensive",
+    "name": "Centro Emergente de Asistencia Respiratoria",
+    "operator": "Ministerio de Salud de La Pampa",
+    "operator:type": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 13608637701,
+  "lat": -36.5972928,
+  "lon": -64.2909216,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Salud Mental"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -28435,22 +28479,6 @@
     "name": "Sanatorio Modelo",
     "operator:type": "private",
     "start_date": "1934"
-  }
-},
-{
-  "type": "way",
-  "id": 187241164,
-  "nodes": [
-    1979738566,
-    1979738557,
-    1979738564,
-    1979738570,
-    1979738566
-  ],
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Salud Mental"
   }
 },
 {
@@ -43412,86 +43440,6 @@
     "phone": "+54 11 4787-7500",
     "website": "https://www.icba.com.ar/",
     "wikidata": "Q90410226"
-  }
-},
-{
-  "type": "way",
-  "id": 537301419,
-  "nodes": [
-    5203388519,
-    5203388520,
-    5203390021,
-    5203388508,
-    5203388439,
-    5203388436,
-    5203388438,
-    5203388437,
-    5203388519
-  ],
-  "tags": {
-    "addr:city": "Santa Rosa",
-    "addr:postcode": "6300",
-    "addr:street": "Aconcagua",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital de Complejidad Creciente \"René Favaloro\""
-  }
-},
-{
-  "type": "way",
-  "id": 537301431,
-  "nodes": [
-    5203390021,
-    5203388508,
-    5203388507,
-    5203390025,
-    5203390024,
-    5203390023,
-    5203390022,
-    5203390021
-  ],
-  "tags": {
-    "addr:city": "Santa Rosa La Pampa",
-    "addr:postcode": "6300",
-    "addr:street": "Raul B. Diaz",
-    "amenity": "hospital",
-    "disused": "Centro de Medicina Nuclear",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "healthcare:speciality": "intensive",
-    "name": "Centro Emergente de Asistencia Respiratoria",
-    "operator": "Ministerio de Salud de La Pampa",
-    "operator:type": "government"
-  }
-},
-{
-  "type": "way",
-  "id": 537301434,
-  "nodes": [
-    5203390030,
-    5203390029,
-    5203390028,
-    5203390027,
-    5203390026,
-    5203390025,
-    5203390024,
-    5203390023,
-    5203390022,
-    5203390021,
-    5203388520,
-    5203388519,
-    9743675410,
-    5203388518,
-    9743675409,
-    5203390030
-  ],
-  "tags": {
-    "addr:postcode": "6300",
-    "addr:street": "Avenida Circunvalación Ingeniero Santiago Marzo",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Doctor Lucio Molas"
   }
 },
 {
@@ -60782,6 +60730,105 @@
     "wikidata": "Q5908685",
     "wikimedia_commons": "Category:Hospital de Clínicas José de San Martín",
     "wikipedia": "es:Hospital de Clínicas José de San Martín"
+  }
+},
+{
+  "type": "relation",
+  "id": 20273967,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1484182699,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182720,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182719,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182698,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182711,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182712,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182713,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182714,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182701,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182752,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182751,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182709,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182707,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182704,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1484182708,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "914",
+    "addr:postcode": "L6300",
+    "addr:street": "Aconcagua",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "trauma;clinical_pathology;surgery",
+    "name": "Hospital de Complejidad Creciente \"Doctor René Favaloro\"",
+    "opening_hours": "24/7",
+    "operator": "Subsecretaría de Salud - Gobierno de La Pampa",
+    "operator:type": "public",
+    "phone": "+54 295 438-3700",
+    "start_date": "2023-02-28",
+    "type": "multipolygon",
+    "wheelchair": "yes"
   }
 },
 {
@@ -81204,153 +81251,315 @@
 },
 {
   "type": "node",
-  "id": 5203388518,
-  "lat": -36.5991722,
-  "lon": -64.2934927
+  "id": 11506853035,
+  "lat": -36.5967859,
+  "lon": -64.2936433
 },
 {
   "type": "node",
-  "id": 9743675409,
-  "lat": -36.5996804,
-  "lon": -64.2934954
+  "id": 11506853040,
+  "lat": -36.5951606,
+  "lon": -64.2931515
 },
 {
   "type": "node",
-  "id": 9743675410,
-  "lat": -36.5991737,
-  "lon": -64.2937614
+  "id": 11506853044,
+  "lat": -36.5956734,
+  "lon": -64.2936300
 },
 {
   "type": "node",
-  "id": 1979738557,
-  "lat": -36.5970480,
-  "lon": -64.2908782
+  "id": 13608580696,
+  "lat": -36.5966938,
+  "lon": -64.2936795
 },
 {
   "type": "node",
-  "id": 1979738566,
-  "lat": -36.5973458,
-  "lon": -64.2912223
+  "id": 13608580698,
+  "lat": -36.5968490,
+  "lon": -64.2936438
 },
 {
   "type": "node",
-  "id": 1979738570,
-  "lat": -36.5975375,
-  "lon": -64.2909650
+  "id": 13608637709,
+  "lat": -36.5950146,
+  "lon": -64.2910081
 },
 {
   "type": "node",
-  "id": 5203388436,
-  "lat": -36.5950692,
-  "lon": -64.2919782
+  "id": 13608637710,
+  "lat": -36.5950899,
+  "lon": -64.2910737
 },
 {
   "type": "node",
-  "id": 5203388437,
-  "lat": -36.5951498,
-  "lon": -64.2936465
+  "id": 13608637711,
+  "lat": -36.5950289,
+  "lon": -64.2912751
 },
 {
   "type": "node",
-  "id": 5203388438,
-  "lat": -36.5951253,
-  "lon": -64.2931820
+  "id": 13608637712,
+  "lat": -36.5950372,
+  "lon": -64.2912967
 },
 {
   "type": "node",
-  "id": 5203388519,
-  "lat": -36.5969029,
-  "lon": -64.2937464
+  "id": 13608637713,
+  "lat": -36.5952471,
+  "lon": -64.2914042
 },
 {
   "type": "node",
-  "id": 5203388520,
-  "lat": -36.5967974,
-  "lon": -64.2923892
+  "id": 13608637714,
+  "lat": -36.5952478,
+  "lon": -64.2914279
 },
 {
   "type": "node",
-  "id": 5203390026,
-  "lat": -36.5989572,
-  "lon": -64.2900530
+  "id": 13608637715,
+  "lat": -36.5967065,
+  "lon": -64.2936426
 },
 {
   "type": "node",
-  "id": 5203390027,
-  "lat": -36.5990799,
-  "lon": -64.2898652
+  "id": 13608637716,
+  "lat": -36.5967066,
+  "lon": -64.2936611
 },
 {
   "type": "node",
-  "id": 5203390028,
-  "lat": -36.5991919,
-  "lon": -64.2898572
+  "id": 13608637717,
+  "lat": -36.5963136,
+  "lon": -64.2936485
 },
 {
   "type": "node",
-  "id": 5203390029,
-  "lat": -36.5991982,
-  "lon": -64.2901752
+  "id": 13608637718,
+  "lat": -36.5956123,
+  "lon": -64.2936287
 },
 {
   "type": "node",
-  "id": 5203390030,
-  "lat": -36.5995130,
-  "lon": -64.2901638
+  "id": 13608637719,
+  "lat": -36.5951860,
+  "lon": -64.2936548
 },
 {
   "type": "node",
-  "id": 1979738564,
-  "lat": -36.5972397,
-  "lon": -64.2906209
+  "id": 13608637720,
+  "lat": -36.5951565,
+  "lon": -64.2930719
 },
 {
   "type": "node",
-  "id": 5203388439,
-  "lat": -36.5949906,
-  "lon": -64.2898679
+  "id": 13608637722,
+  "lat": -36.5963268,
+  "lon": -64.2936735
 },
 {
   "type": "node",
-  "id": 5203388507,
-  "lat": -36.5974821,
-  "lon": -64.2898598
+  "id": 13608637723,
+  "lat": -36.5963134,
+  "lon": -64.2936618
 },
 {
   "type": "node",
-  "id": 5203388508,
-  "lat": -36.5966682,
-  "lon": -64.2898545
+  "id": 13608637724,
+  "lat": -36.5961941,
+  "lon": -64.2936460
 },
 {
   "type": "node",
-  "id": 5203390021,
-  "lat": -36.5967284,
-  "lon": -64.2907906
+  "id": 13608637725,
+  "lat": -36.5961939,
+  "lon": -64.2936593
 },
 {
   "type": "node",
-  "id": 5203390022,
-  "lat": -36.5969459,
-  "lon": -64.2907691
+  "id": 13608637726,
+  "lat": -36.5961802,
+  "lon": -64.2936711
 },
 {
   "type": "node",
-  "id": 5203390023,
-  "lat": -36.5972388,
-  "lon": -64.2904472
+  "id": 13608637727,
+  "lat": -36.5957315,
+  "lon": -64.2936445
 },
 {
   "type": "node",
-  "id": 5203390024,
-  "lat": -36.5974132,
-  "lon": -64.2902622
+  "id": 13608637728,
+  "lat": -36.5957317,
+  "lon": -64.2936312
 },
 {
   "type": "node",
-  "id": 5203390025,
-  "lat": -36.5974778,
-  "lon": -64.2900503
+  "id": 13608637729,
+  "lat": -36.5956121,
+  "lon": -64.2936420
+},
+{
+  "type": "node",
+  "id": 13608637730,
+  "lat": -36.5955961,
+  "lon": -64.2936615
+},
+{
+  "type": "node",
+  "id": 13608637731,
+  "lat": -36.5957516,
+  "lon": -64.2936640
+},
+{
+  "type": "node",
+  "id": 13608637732,
+  "lat": -36.5954490,
+  "lon": -64.2936591
+},
+{
+  "type": "node",
+  "id": 13608637734,
+  "lat": -36.5951556,
+  "lon": -64.2930496
+},
+{
+  "type": "node",
+  "id": 13608637735,
+  "lat": -36.5951239,
+  "lon": -64.2930518
+},
+{
+  "type": "node",
+  "id": 13608637736,
+  "lat": -36.5951058,
+  "lon": -64.2927122
+},
+{
+  "type": "node",
+  "id": 13608637737,
+  "lat": -36.5952345,
+  "lon": -64.2926277
+},
+{
+  "type": "node",
+  "id": 13608637743,
+  "lat": -36.5951646,
+  "lon": -64.2932308
+},
+{
+  "type": "node",
+  "id": 13608637745,
+  "lat": -36.5962925,
+  "lon": -64.2936481
+},
+{
+  "type": "node",
+  "id": 13608637746,
+  "lat": -36.5962228,
+  "lon": -64.2936466
+},
+{
+  "type": "node",
+  "id": 13608637747,
+  "lat": -36.5962573,
+  "lon": -64.2936473
+},
+{
+  "type": "node",
+  "id": 13608637748,
+  "lat": -36.5957094,
+  "lon": -64.2936307
+},
+{
+  "type": "node",
+  "id": 13608637749,
+  "lat": -36.5956366,
+  "lon": -64.2936292
+},
+{
+  "type": "node",
+  "id": 13608637909,
+  "lat": -36.5951746,
+  "lon": -64.2934290
+},
+{
+  "type": "node",
+  "id": 13608637910,
+  "lat": -36.5951776,
+  "lon": -64.2934875
+},
+{
+  "type": "node",
+  "id": 13608637911,
+  "lat": -36.5951761,
+  "lon": -64.2934583
+},
+{
+  "type": "node",
+  "id": 13599877160,
+  "lat": -36.5960804,
+  "lon": -64.2899409
+},
+{
+  "type": "node",
+  "id": 13599877161,
+  "lat": -36.5961424,
+  "lon": -64.2899434
+},
+{
+  "type": "node",
+  "id": 13599877162,
+  "lat": -36.5961434,
+  "lon": -64.2899045
+},
+{
+  "type": "node",
+  "id": 13599877163,
+  "lat": -36.5960814,
+  "lon": -64.2899021
+},
+{
+  "type": "node",
+  "id": 13608637702,
+  "lat": -36.5962026,
+  "lon": -64.2899063
+},
+{
+  "type": "node",
+  "id": 13608637703,
+  "lat": -36.5962449,
+  "lon": -64.2898550
+},
+{
+  "type": "node",
+  "id": 13608637704,
+  "lat": -36.5966469,
+  "lon": -64.2898603
+},
+{
+  "type": "node",
+  "id": 13608637705,
+  "lat": -36.5956183,
+  "lon": -64.2898869
+},
+{
+  "type": "node",
+  "id": 13608637706,
+  "lat": -36.5955597,
+  "lon": -64.2898166
+},
+{
+  "type": "node",
+  "id": 13608637707,
+  "lat": -36.5949949,
+  "lon": -64.2898148
+},
+{
+  "type": "node",
+  "id": 13608637708,
+  "lat": -36.5949535,
+  "lon": -64.2898665
 },
 {
   "type": "node",
@@ -138404,6 +138613,163 @@
     11565237309,
     11565237308,
     11565237311
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182698,
+  "nodes": [
+    13608580698,
+    13608637704
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182699,
+  "nodes": [
+    13608637714,
+    13608637713,
+    13608637712,
+    13608637711,
+    13608637710,
+    13608637709,
+    13608637708,
+    13608637707,
+    13608637706,
+    13608637705,
+    13599877163
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182701,
+  "nodes": [
+    13608637749,
+    13608637718,
+    13608637729,
+    13608637730,
+    13608637732,
+    13608637719,
+    13608637910
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182704,
+  "nodes": [
+    13608637735,
+    13608637736,
+    13608637737
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182707,
+  "nodes": [
+    13608637735,
+    13608637734,
+    13608637720
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182708,
+  "nodes": [
+    13608637714,
+    13608637737
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182709,
+  "nodes": [
+    13608637743,
+    11506853040,
+    13608637720
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182711,
+  "nodes": [
+    13608580698,
+    11506853035,
+    13608637715,
+    13608637716,
+    13608580696,
+    13608637722,
+    13608637723,
+    13608637717,
+    13608637745
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182712,
+  "nodes": [
+    13608637745,
+    13608637747,
+    13608637746
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182713,
+  "nodes": [
+    13608637746,
+    13608637724,
+    13608637725,
+    13608637726,
+    13608637731,
+    13608637727,
+    13608637728,
+    13608637748
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182714,
+  "nodes": [
+    13608637748,
+    11506853044,
+    13608637749
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182751,
+  "nodes": [
+    13608637909,
+    13608637743
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182752,
+  "nodes": [
+    13608637910,
+    13608637911,
+    13608637909
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182719,
+  "nodes": [
+    13599877162,
+    13608637702,
+    13608637703,
+    13608637704
+  ]
+},
+{
+  "type": "way",
+  "id": 1484182720,
+  "nodes": [
+    13599877163,
+    13599877160,
+    13599877161,
+    13599877162
   ]
 },
 {
