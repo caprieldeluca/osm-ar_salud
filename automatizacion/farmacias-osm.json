@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-03-18T23:29:55Z",
-    "timestamp_areas_base": "2026-03-18T13:17:30Z",
+    "timestamp_osm_base": "2026-03-19T23:29:40Z",
+    "timestamp_areas_base": "2026-03-19T17:17:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -32920,10 +32920,13 @@
   "lat": -34.1696357,
   "lon": -58.9652122,
   "tags": {
+    "addr:housenumber": "1030",
     "addr:street": "Avenida Florentino Ameghino",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Anastasi"
+    "name": "Nicolino",
+    "opening_hours": "Mo-Su 08:30-12:30 y 16:30 a 20:00"
   }
 },
 {
@@ -73416,7 +73419,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Brandan"
+    "name": "Brandán"
   }
 },
 {
@@ -99223,6 +99226,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 13661390404,
+  "lat": -34.5109675,
+  "lon": -58.5137956,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2026-03-19",
+    "healthcare": "pharmacy"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -108628,6 +108642,26 @@
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "way",
+  "id": 477791800,
+  "nodes": [
+    4710943398,
+    4710943399,
+    4710943400,
+    4710943401,
+    4710943398
+  ],
+  "tags": {
+    "addr:city": "Perico",
+    "addr:street": "Mama Pacha",
+    "amenity": "pharmacy",
+    "building": "house",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Nueva Ciudad"
   }
 },
 {
@@ -138155,32 +138189,32 @@
 {
   "type": "node",
   "id": 4604723701,
-  "lat": -34.6907600,
-  "lon": -58.4811346
+  "lat": -34.6907501,
+  "lon": -58.4811453
 },
 {
   "type": "node",
   "id": 4604723702,
-  "lat": -34.6908642,
-  "lon": -58.4809974
+  "lat": -34.6908543,
+  "lon": -58.4810081
 },
 {
   "type": "node",
   "id": 4604723703,
-  "lat": -34.6908092,
-  "lon": -58.4809354
+  "lat": -34.6907993,
+  "lon": -58.4809461
 },
 {
   "type": "node",
   "id": 4604723704,
-  "lat": -34.6907207,
-  "lon": -58.4810521
+  "lat": -34.6907108,
+  "lon": -58.4810628
 },
 {
   "type": "node",
   "id": 4604723705,
-  "lat": -34.6907211,
-  "lon": -58.4810910
+  "lat": -34.6907112,
+  "lon": -58.4811017
 },
 {
   "type": "node",
@@ -146533,6 +146567,30 @@
   "id": 11449488716,
   "lat": -24.7183827,
   "lon": -65.4053272
+},
+{
+  "type": "node",
+  "id": 4710943398,
+  "lat": -24.3685480,
+  "lon": -65.1150691
+},
+{
+  "type": "node",
+  "id": 4710943399,
+  "lat": -24.3686346,
+  "lon": -65.1150736
+},
+{
+  "type": "node",
+  "id": 4710943400,
+  "lat": -24.3686398,
+  "lon": -65.1149523
+},
+{
+  "type": "node",
+  "id": 4710943401,
+  "lat": -24.3685532,
+  "lon": -65.1149478
 },
 {
   "type": "node",

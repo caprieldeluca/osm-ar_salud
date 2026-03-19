@@ -8005,28 +8005,28 @@
     "coordinates": [
       [
         [
-          -58.4811346,
-          -34.69076
+          -58.4811453,
+          -34.6907501
         ],
         [
-          -58.4809974,
-          -34.6908642
+          -58.4810081,
+          -34.6908543
         ],
         [
-          -58.4809354,
-          -34.6908092
+          -58.4809461,
+          -34.6907993
         ],
         [
-          -58.4810521,
-          -34.6907207
+          -58.4810628,
+          -34.6907108
         ],
         [
-          -58.481091,
-          -34.6907211
+          -58.4811017,
+          -34.6907112
         ],
         [
-          -58.4811346,
-          -34.69076
+          -58.4811453,
+          -34.6907501
         ]
       ]
     ]
@@ -19846,6 +19846,47 @@
         [
           -58.3829878,
           -34.6135207
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/477791800",
+  "properties": {
+    "addr:city": "Perico",
+    "addr:street": "Mama Pacha",
+    "amenity": "pharmacy",
+    "building": "house",
+    "building:levels": "1",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Nueva Ciudad",
+    "id": "way/477791800"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.1150691,
+          -24.368548
+        ],
+        [
+          -65.1150736,
+          -24.3686346
+        ],
+        [
+          -65.1149523,
+          -24.3686398
+        ],
+        [
+          -65.1149478,
+          -24.3685532
+        ],
+        [
+          -65.1150691,
+          -24.368548
         ]
       ]
     ]
@@ -90134,10 +90175,13 @@
   "type": "Feature",
   "id": "node/4289371600",
   "properties": {
+    "addr:housenumber": "1030",
     "addr:street": "Avenida Florentino Ameghino",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Anastasi",
+    "name": "Nicolino",
+    "opening_hours": "Mo-Su 08:30-12:30 y 16:30 a 20:00",
     "id": "node/4289371600"
   },
   "geometry": {
@@ -148222,7 +148266,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Brandan",
+    "name": "Brandán",
     "id": "node/8761927556"
   },
   "geometry": {
@@ -184617,6 +184661,23 @@
     "coordinates": [
       -58.9716693,
       -27.4380763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13661390404",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2026-03-19",
+    "healthcare": "pharmacy",
+    "id": "node/13661390404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5137956,
+      -34.5109675
     ]
   }
 }
