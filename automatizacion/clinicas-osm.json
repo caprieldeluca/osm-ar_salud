@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-03-23T23:31:13Z",
-    "timestamp_areas_base": "2026-03-23T09:26:55Z",
+    "timestamp_osm_base": "2026-03-24T23:13:14Z",
+    "timestamp_areas_base": "2026-03-24T10:33:34Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2316,24 +2316,6 @@
     "amenity": "clinic",
     "name": "Centro de Salud",
     "note": "Los Cawboys"
-  }
-},
-{
-  "type": "node",
-  "id": 2931506906,
-  "lat": -31.6613659,
-  "lon": -64.4318130,
-  "tags": {
-    "addr:full": "Srta. Ema Ceballos Esq. Paraguay",
-    "addr:postcode": "5186",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Dispensario 3 Doctor Ramon Carrillo",
-    "operator": "municipal",
-    "operator:type": "public",
-    "phone": "(03547) 15-650878 / 428",
-    "ref:sisa_codigo": "50141472231787",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -39837,7 +39819,7 @@
     "name": "Diagnóstico San Gerónimo",
     "opening_hours": "Mo-Fr 07:00-01:00",
     "operator": "Grupo San Gerónimo",
-    "phone": "+54 0342 455-5913",
+    "phone": "+54 342 4555913",
     "website": "https://gruposangeronimo.com.ar/event/resonancia-magnetica/"
   }
 },
@@ -48861,6 +48843,20 @@
   "tags": {
     "amenity": "clinic",
     "name": "ITAC"
+  }
+},
+{
+  "type": "node",
+  "id": 13675079218,
+  "lat": -27.0342481,
+  "lon": -54.6856219,
+  "tags": {
+    "addr:city": "Dos de Mayo",
+    "addr:postcode": "3337",
+    "addr:street": "Avenida del Colono",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Policonsultorio Lawer"
   }
 },
 {
@@ -73851,6 +73847,39 @@
   }
 },
 {
+  "type": "way",
+  "id": 1492244131,
+  "nodes": [
+    8961953812,
+    13674854137,
+    13674854118,
+    13674854447,
+    13674854109,
+    13674854110,
+    13674854111,
+    13674854112,
+    13674854113,
+    13674854114,
+    13674854115,
+    13674854116,
+    13674854117,
+    8961953812
+  ],
+  "tags": {
+    "addr:full": "Srta. Ema Ceballos Esq. Paraguay",
+    "addr:postcode": "5186",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario 3 Doctor Ramon Carrillo",
+    "operator": "municipal",
+    "operator:type": "public",
+    "phone": "(03547) 15-650878 / 428",
+    "ref:sisa_codigo": "50141472231787",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -90843,6 +90872,12 @@
 },
 {
   "type": "node",
+  "id": 8961953812,
+  "lat": -31.6615163,
+  "lon": -64.4316006
+},
+{
+  "type": "node",
   "id": 13666718162,
   "lat": -31.6596260,
   "lon": -64.4336850
@@ -90906,6 +90941,78 @@
   "id": 13666718175,
   "lat": -31.6596497,
   "lon": -64.4336187
+},
+{
+  "type": "node",
+  "id": 13674854109,
+  "lat": -31.6613430,
+  "lon": -64.4319775
+},
+{
+  "type": "node",
+  "id": 13674854110,
+  "lat": -31.6612093,
+  "lon": -64.4318976
+},
+{
+  "type": "node",
+  "id": 13674854111,
+  "lat": -31.6613184,
+  "lon": -64.4316485
+},
+{
+  "type": "node",
+  "id": 13674854112,
+  "lat": -31.6614080,
+  "lon": -64.4317026
+},
+{
+  "type": "node",
+  "id": 13674854113,
+  "lat": -31.6614555,
+  "lon": -64.4315942
+},
+{
+  "type": "node",
+  "id": 13674854114,
+  "lat": -31.6614639,
+  "lon": -64.4315993
+},
+{
+  "type": "node",
+  "id": 13674854115,
+  "lat": -31.6614696,
+  "lon": -64.4315863
+},
+{
+  "type": "node",
+  "id": 13674854116,
+  "lat": -31.6614797,
+  "lon": -64.4315924
+},
+{
+  "type": "node",
+  "id": 13674854117,
+  "lat": -31.6614845,
+  "lon": -64.4315815
+},
+{
+  "type": "node",
+  "id": 13674854118,
+  "lat": -31.6614558,
+  "lon": -64.4317321
+},
+{
+  "type": "node",
+  "id": 13674854137,
+  "lat": -31.6614573,
+  "lon": -64.4317289
+},
+{
+  "type": "node",
+  "id": 13674854447,
+  "lat": -31.6614206,
+  "lon": -64.4318087
 },
 {
   "type": "node",
