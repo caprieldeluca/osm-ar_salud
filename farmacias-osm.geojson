@@ -13795,16 +13795,16 @@
     "coordinates": [
       [
         [
-          -58.5011183,
-          -34.5853526
+          -58.5011317,
+          -34.5853603
         ],
         [
-          -58.501077,
-          -34.5853996
+          -58.5010824,
+          -34.5854195
         ],
         [
-          -58.5010335,
-          -34.5854083
+          -58.5010469,
+          -34.5854238
         ],
         [
           -58.5009964,
@@ -13815,8 +13815,8 @@
           -34.5853163
         ],
         [
-          -58.5011183,
-          -34.5853526
+          -58.5011317,
+          -34.5853603
         ]
       ]
     ]
@@ -51541,8 +51541,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8343523,
-      -32.8718106
+      -68.834228,
+      -32.8718548
     ]
   }
 },
@@ -69908,9 +69908,11 @@
     "addr:street": "Avenida Santa Fe",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
+    "check_date": "2026-04-02",
     "dispensing": "no",
     "healthcare": "pharmacy",
     "name": "Jardín",
+    "wheelchair": "limited",
     "id": "node/3124526331"
   },
   "geometry": {
@@ -119730,15 +119732,20 @@
   "type": "Feature",
   "id": "node/5667204023",
   "properties": {
+    "addr:city": "Mendoza",
+    "addr:housenumber": "2739",
+    "addr:postcode": "5500",
+    "addr:street": "Avenida General San Martín",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Del Plata",
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa 10:00-20:00",
     "id": "node/5667204023"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -68.8341723,
+      -68.8340911,
       -32.8712305
     ]
   }
@@ -184810,6 +184817,24 @@
     "coordinates": [
       -58.3618881,
       -34.6185766
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13702601100",
+  "properties": {
+    "amenity": "pharmacy",
+    "contact:phone": "5494639998;5492613447018",
+    "name": "Farmacia Alameda",
+    "opening_hours": "Mo-Fr 08:30-23:00; Sa 09:00-23:00; Su 10:00-14:00",
+    "id": "node/13702601100"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.835004,
+      -32.8749792
     ]
   }
 }
