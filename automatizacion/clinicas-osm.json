@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-14T23:39:40Z",
-    "timestamp_areas_base": "2026-04-14T15:06:03Z",
+    "timestamp_osm_base": "2026-04-15T23:40:50Z",
+    "timestamp_areas_base": "2026-04-15T05:46:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -19404,8 +19404,8 @@
 {
   "type": "node",
   "id": 7501627649,
-  "lat": -53.7713664,
-  "lon": -67.7381198,
+  "lat": -53.7713062,
+  "lon": -67.7380199,
   "tags": {
     "addr:full": "Juan Visic 3077",
     "addr:postcode": "9420",
@@ -56713,12 +56713,10 @@
     4708988630
   ],
   "tags": {
-    "addr:street": "General Miguel de Azcuénaga",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Vita's",
-    "source": "Actualizaciones en Argentina. Reconocimiento terrestre por #Kaart 2016."
+    "name": "Vita's"
   }
 },
 {
@@ -56727,17 +56725,16 @@
   "nodes": [
     4708988648,
     4708988649,
+    13731517973,
     4708988650,
     4708988651,
     4708988648
   ],
   "tags": {
-    "addr:street": "General Miguel de Azcuénaga",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Centro Atención ART",
-    "source": "Actualizaciones en Argentina. Reconocimiento terrestre por #Kaart 2016."
+    "name": "Centro Atención ART"
   }
 },
 {
@@ -73909,6 +73906,38 @@
   }
 },
 {
+  "type": "way",
+  "id": 1499621419,
+  "nodes": [
+    13732351794,
+    13732351790,
+    13732351780,
+    7501627632,
+    7501627635,
+    13732351791,
+    13732351793,
+    13732351792,
+    13732351794
+  ],
+  "tags": {
+    "addr:city": "Rio Grande",
+    "addr:country": "AR",
+    "addr:full": "Juan Visic 3077",
+    "addr:housenumber": "3077",
+    "addr:postcode": "9420",
+    "addr:province": "Tierra del Fuego",
+    "addr:street": "Juan Visic",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CAPS 4 Zully Balberdi",
+    "operator": "Provincial",
+    "operator:type": "public",
+    "phone": "0296-445284",
+    "ref:sisa_codigo": "50940072195017",
+    "ref:sisa_tipologia": "ESSIDT"
+  }
+},
+{
   "type": "relation",
   "id": 6082615,
   "members": [
@@ -74275,6 +74304,48 @@
 },
 {
   "type": "node",
+  "id": 7501627632,
+  "lat": -53.7714636,
+  "lon": -67.7381415
+},
+{
+  "type": "node",
+  "id": 13732351780,
+  "lat": -53.7714025,
+  "lon": -67.7382614
+},
+{
+  "type": "node",
+  "id": 13732351790,
+  "lat": -53.7713709,
+  "lon": -67.7382155
+},
+{
+  "type": "node",
+  "id": 13732351791,
+  "lat": -53.7713186,
+  "lon": -67.7380098
+},
+{
+  "type": "node",
+  "id": 13732351792,
+  "lat": -53.7713478,
+  "lon": -67.7381502
+},
+{
+  "type": "node",
+  "id": 13732351793,
+  "lat": -53.7712900,
+  "lon": -67.7380663
+},
+{
+  "type": "node",
+  "id": 13732351794,
+  "lat": -53.7713385,
+  "lon": -67.7381686
+},
+{
+  "type": "node",
   "id": 2542179332,
   "lat": -53.7939352,
   "lon": -67.7208315
@@ -74374,6 +74445,12 @@
   "id": 13599807930,
   "lat": -53.8078983,
   "lon": -67.6770446
+},
+{
+  "type": "node",
+  "id": 7501627635,
+  "lat": -53.7713416,
+  "lon": -67.7379645
 },
 {
   "type": "node",
@@ -101198,50 +101275,56 @@
 {
   "type": "node",
   "id": 4708988630,
-  "lat": -34.6436916,
-  "lon": -58.6205745
+  "lat": -34.6436751,
+  "lon": -58.6205919
 },
 {
   "type": "node",
   "id": 4708988631,
-  "lat": -34.6438088,
-  "lon": -58.6204343
+  "lat": -34.6437923,
+  "lon": -58.6204517
 },
 {
   "type": "node",
   "id": 4708988632,
-  "lat": -34.6437068,
-  "lon": -58.6203083
+  "lat": -34.6436903,
+  "lon": -58.6203257
 },
 {
   "type": "node",
   "id": 4708988633,
-  "lat": -34.6435896,
-  "lon": -58.6204486
+  "lat": -34.6435731,
+  "lon": -58.6204660
 },
 {
   "type": "node",
   "id": 4708988648,
-  "lat": -34.6442370,
-  "lon": -58.6197275
+  "lat": -34.6442260,
+  "lon": -58.6197248
 },
 {
   "type": "node",
   "id": 4708988649,
-  "lat": -34.6443377,
-  "lon": -58.6196036
+  "lat": -34.6443267,
+  "lon": -58.6196009
 },
 {
   "type": "node",
   "id": 4708988650,
-  "lat": -34.6444372,
-  "lon": -58.6197230
+  "lat": -34.6443931,
+  "lon": -58.6197686
 },
 {
   "type": "node",
   "id": 4708988651,
-  "lat": -34.6443365,
-  "lon": -58.6198469
+  "lat": -34.6443255,
+  "lon": -58.6198442
+},
+{
+  "type": "node",
+  "id": 13731517973,
+  "lat": -34.6444063,
+  "lon": -58.6196955
 },
 {
   "type": "node",
