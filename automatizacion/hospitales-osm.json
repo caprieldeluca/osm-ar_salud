@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-17T23:36:51Z",
-    "timestamp_areas_base": "2026-04-17T11:41:45Z",
+    "timestamp_osm_base": "2026-04-18T23:33:05Z",
+    "timestamp_areas_base": "2026-04-18T08:06:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1558,10 +1558,12 @@
     "addr:housenumber": "7350",
     "addr:postcode": "3300",
     "addr:street": "Avenida Quaranta",
+    "alt_name": "Hospital de Rehabilitación en Salud Mental - Doctor Ramón Carrillo",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital De Rehabilitacion En Salud Mental - Dr. Ramon Carrillo",
+    "hospital:level:AR": "1",
+    "name": "Hospital Doctor Ramón Carrillo",
     "phone": "+5 376 4458263",
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N05436",
@@ -1573,20 +1575,21 @@
 {
   "type": "node",
   "id": 1698683341,
-  "lat": -27.3986615,
-  "lon": -55.9517547,
+  "lat": -27.3986643,
+  "lon": -55.9517642,
   "tags": {
     "addr:city": "Posadas",
     "addr:country": "AR",
     "addr:housenumber": "7300",
     "addr:postcode": "3300",
     "addr:street": "Avenida Quaranta",
-    "alt_name": "Hospital De Enfermedades Transmisibles - Dr. Pedro Baliña",
+    "alt_name": "Hospital de Enfermedades Transmisibles - Doctor Pedro Baliña",
     "amenity": "hospital",
     "description": "Hospital psiquiátrico",
     "emergency": "no",
     "healthcare": "hospital",
-    "name": "Hospital De Enfermedades Transmisibles Doctor Pedro Baliña",
+    "hospital:level:AR": "1",
+    "name": "Hospital Doctor Pedro Baliña",
     "phone": "+54 376 4458248",
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N05435",
@@ -18274,6 +18277,7 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
+    "hospital:level:AR": "3",
     "name": "Hospital Materno Neonatal",
     "note": "Tipología ESCIEM",
     "operator": "Ministerio de Salud Provincia de MIsiones",
@@ -18284,41 +18288,6 @@
     "ref:sisa_codigo": "12540282165203",
     "ref:sisa_tipologia": "ESCIEM",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 7473661613,
-  "lat": -27.3825458,
-  "lon": -55.8886844,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:housename": "Centro de Oncología y Terapia Radiante",
-    "addr:housenumber": "3400",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida Marconi",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "healthcare:speciality": "radiology",
-    "name": "Centro de Oncología y Terapia Radiante"
-  }
-},
-{
-  "type": "node",
-  "id": 7473661614,
-  "lat": -27.3838305,
-  "lon": -55.8917420,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:country": "AR",
-    "addr:housenumber": "3700",
-    "addr:postcode": "3300",
-    "addr:province": "Misiones",
-    "addr:street": "Avenida López Torres",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "healthcare:speciality": "gynaecology",
-    "name": "Hospital Materno Neonatal"
   }
 },
 {
@@ -18337,7 +18306,9 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "healthcare:speciality": "paediatrics;surgery",
-    "name": "Hospital de Pediatría \"Doctor Fernando Barreyro\"",
+    "hospital:level:AR": "3",
+    "name": "Hospital Doctor Fernando Barreyro",
+    "official_name": "Hospital de Pediatría Doctor Fernando Barreyro",
     "phone": "+54 376 4447100",
     "ref:ZonaSanitaria": "Capital",
     "ref:cuie_codigo": "N05434",
@@ -24246,6 +24217,83 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Centro De Salud Natalio Bendersky"
+  }
+},
+{
+  "type": "node",
+  "id": 13739830033,
+  "lat": -27.3651329,
+  "lon": -55.9494256,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "7300",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Tambor de Tacuarí",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "hospital:level:AR": "3",
+    "name": "Hospital Doctor René Favaloro",
+    "phone": "+54 376 4445500",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N00419",
+    "ref:sisa_codigo": "10540282164504",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales",
+    "wikidata": "Q95370282"
+  }
+},
+{
+  "type": "node",
+  "id": 13739888242,
+  "lat": -27.3844846,
+  "lon": -55.8895025,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "1120",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Cabred",
+    "alt_name": "Hospital Escuela de Agudos Doctor Ramón Madariaga",
+    "ambulance": "1",
+    "amenity": "hospital",
+    "building": "hospital",
+    "building:levels": "3",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;surgery",
+    "hospital:level:AR": "3",
+    "name": "Hospital Doctor Ramón Madariaga",
+    "phone": "+54 376 4443700",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N95818",
+    "ref:nivel": "III",
+    "ref:sisa_codigo": "10540282165124",
+    "ref:sisa_tipologia": "ESCIG",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13739923896,
+  "lat": -27.4100103,
+  "lon": -55.9839982,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "6450",
+    "addr:postcode": "3300",
+    "addr:street": "Las Orquídeas",
+    "ambulance": "1",
+    "amenity": "hospital",
+    "government": "healthcare",
+    "healthcare": "hospital",
+    "hospital:level:AR": "1",
+    "name": "Hospital de Itaembé Guazú",
+    "official_name": "Hospital de Nivel I de Itaembé Guazú",
+    "ref:ZonaSanitaria": "Capital",
+    "ref:cuie_codigo": "N00030",
+    "ref:nivel": "I",
+    "ref:sisa_codigo": "10540282166069",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -31977,80 +32025,6 @@
 },
 {
   "type": "way",
-  "id": 254696133,
-  "nodes": [
-    2605008026,
-    2605008022,
-    9612931014,
-    2605008023,
-    2605008040,
-    7473661611,
-    2605008003,
-    2605008001,
-    2605008000,
-    2605007998,
-    2605007996,
-    2605007995,
-    2605007993,
-    2605007992,
-    2605007990,
-    2605007988,
-    2605008029,
-    2605008030,
-    2605008033,
-    2605008035,
-    2605007985,
-    2605007984,
-    2605007982,
-    2605007980,
-    2605007979,
-    2605007977,
-    2605007975,
-    2605007973,
-    2605007972,
-    2605007970,
-    2605008037,
-    9612931015,
-    2605008020,
-    2605008025,
-    2605008041,
-    2605008019,
-    2605008017,
-    2605008016,
-    2605008014,
-    2605008013,
-    2605008011,
-    2605008009,
-    5018778296,
-    2605008008,
-    2605008006,
-    2605008004,
-    2605008026
-  ],
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "1120",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida Cabred",
-    "ambulance": "1",
-    "amenity": "hospital",
-    "building": "hospital",
-    "building:levels": "3",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "healthcare:speciality": "general;surgery",
-    "name": "Hospital Escuela de Agudos Doctor Ramón Madariaga",
-    "phone": "+54 376 4443700",
-    "ref:ZonaSanitaria": "Capital",
-    "ref:cuie_codigo": "N95818",
-    "ref:nivel": "III",
-    "ref:sisa_codigo": "10540282165124",
-    "ref:sisa_tipologia": "ESCIG",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
   "id": 254836724,
   "nodes": [
     2606311573,
@@ -32333,20 +32307,8 @@
     2618272896
   ],
   "tags": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "7300",
-    "addr:street": "Avenida Tambor de Tacuarí",
     "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital Nivel I Dr. Rene Favaloro",
-    "phone": "+54 376 4468015",
-    "ref:ZonaSanitaria": "Capital",
-    "ref:cuie_codigo": "N00419",
-    "ref:sisa_codigo": "10540282164504",
-    "ref:sisa_tipologia": "ESCIG",
-    "source": "http://www.salud.misiones.gov.ar/index.php/red-sanitaria/hospitales",
-    "wikidata": "Q95370282"
+    "healthcare": "hospital"
   }
 },
 {
@@ -52056,21 +52018,8 @@
     6034517954
   ],
   "tags": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "6450",
-    "addr:postcode": "3300",
-    "addr:street": "Las Orquídeas",
-    "ambulance": "1",
     "amenity": "hospital",
-    "government": "healthcare",
-    "healthcare": "hospital",
-    "name": "Hospital de Itaembé Guazú",
-    "official_name": "Hospital de Nivel I de Itaembé Guazú",
-    "ref:ZonaSanitaria": "Capital",
-    "ref:cuie_codigo": "N00030",
-    "ref:nivel": "I",
-    "ref:sisa_codigo": "10540282166069",
-    "ref:sisa_tipologia": "ESCIG"
+    "healthcare": "hospital"
   }
 },
 {
@@ -136883,8 +136832,8 @@
 {
   "type": "node",
   "id": 9625525455,
-  "lat": -27.3649248,
-  "lon": -55.9488025
+  "lat": -27.3651436,
+  "lon": -55.9487343
 },
 {
   "type": "node",
@@ -136895,8 +136844,8 @@
 {
   "type": "node",
   "id": 9659789704,
-  "lat": -27.3649599,
-  "lon": -55.9489486
+  "lat": -27.3651828,
+  "lon": -55.9489156
 },
 {
   "type": "node",
@@ -136909,282 +136858,6 @@
   "id": 2618272901,
   "lat": -27.3644231,
   "lon": -55.9493482
-},
-{
-  "type": "node",
-  "id": 2605007970,
-  "lat": -27.3850222,
-  "lon": -55.8898530
-},
-{
-  "type": "node",
-  "id": 2605007972,
-  "lat": -27.3850607,
-  "lon": -55.8898618
-},
-{
-  "type": "node",
-  "id": 2605007973,
-  "lat": -27.3850996,
-  "lon": -55.8898558
-},
-{
-  "type": "node",
-  "id": 2605007975,
-  "lat": -27.3851346,
-  "lon": -55.8898358
-},
-{
-  "type": "node",
-  "id": 2605007977,
-  "lat": -27.3851617,
-  "lon": -55.8898038
-},
-{
-  "type": "node",
-  "id": 2605007979,
-  "lat": -27.3851673,
-  "lon": -55.8897609
-},
-{
-  "type": "node",
-  "id": 2605007980,
-  "lat": -27.3851627,
-  "lon": -55.8897236
-},
-{
-  "type": "node",
-  "id": 2605007982,
-  "lat": -27.3851436,
-  "lon": -55.8896860
-},
-{
-  "type": "node",
-  "id": 2605007984,
-  "lat": -27.3851211,
-  "lon": -55.8896625
-},
-{
-  "type": "node",
-  "id": 2605007985,
-  "lat": -27.3850757,
-  "lon": -55.8896381
-},
-{
-  "type": "node",
-  "id": 2605008020,
-  "lat": -27.3845150,
-  "lon": -55.8896956
-},
-{
-  "type": "node",
-  "id": 2605008022,
-  "lat": -27.3843210,
-  "lon": -55.8894518
-},
-{
-  "type": "node",
-  "id": 2605008023,
-  "lat": -27.3843552,
-  "lon": -55.8893736
-},
-{
-  "type": "node",
-  "id": 2605008025,
-  "lat": -27.3844685,
-  "lon": -55.8896949
-},
-{
-  "type": "node",
-  "id": 2605008026,
-  "lat": -27.3843119,
-  "lon": -55.8895055
-},
-{
-  "type": "node",
-  "id": 2605008029,
-  "lat": -27.3845633,
-  "lon": -55.8892881
-},
-{
-  "type": "node",
-  "id": 2605008030,
-  "lat": -27.3846146,
-  "lon": -55.8893254
-},
-{
-  "type": "node",
-  "id": 2605008033,
-  "lat": -27.3846528,
-  "lon": -55.8893791
-},
-{
-  "type": "node",
-  "id": 2605008035,
-  "lat": -27.3846761,
-  "lon": -55.8894584
-},
-{
-  "type": "node",
-  "id": 2605008037,
-  "lat": -27.3846113,
-  "lon": -55.8896601
-},
-{
-  "type": "node",
-  "id": 2605008040,
-  "lat": -27.3843770,
-  "lon": -55.8893521
-},
-{
-  "type": "node",
-  "id": 2605008041,
-  "lat": -27.3844185,
-  "lon": -55.8896798
-},
-{
-  "type": "node",
-  "id": 9612931014,
-  "lat": -27.3843324,
-  "lon": -55.8894078
-},
-{
-  "type": "node",
-  "id": 9612931015,
-  "lat": -27.3845634,
-  "lon": -55.8896828
-},
-{
-  "type": "node",
-  "id": 2605008004,
-  "lat": -27.3839476,
-  "lon": -55.8898452
-},
-{
-  "type": "node",
-  "id": 2605008006,
-  "lat": -27.3839227,
-  "lon": -55.8898744
-},
-{
-  "type": "node",
-  "id": 2605008008,
-  "lat": -27.3839080,
-  "lon": -55.8899113
-},
-{
-  "type": "node",
-  "id": 2605008009,
-  "lat": -27.3839075,
-  "lon": -55.8899611
-},
-{
-  "type": "node",
-  "id": 2605008011,
-  "lat": -27.3839205,
-  "lon": -55.8899908
-},
-{
-  "type": "node",
-  "id": 2605008013,
-  "lat": -27.3839434,
-  "lon": -55.8900160
-},
-{
-  "type": "node",
-  "id": 2605008014,
-  "lat": -27.3839690,
-  "lon": -55.8900303
-},
-{
-  "type": "node",
-  "id": 2605008016,
-  "lat": -27.3840024,
-  "lon": -55.8900387
-},
-{
-  "type": "node",
-  "id": 2605008017,
-  "lat": -27.3840370,
-  "lon": -55.8900334
-},
-{
-  "type": "node",
-  "id": 2605008019,
-  "lat": -27.3840701,
-  "lon": -55.8900134
-},
-{
-  "type": "node",
-  "id": 5018778296,
-  "lat": -27.3839066,
-  "lon": -55.8899310
-},
-{
-  "type": "node",
-  "id": 2605007988,
-  "lat": -27.3844933,
-  "lon": -55.8887566
-},
-{
-  "type": "node",
-  "id": 2605007990,
-  "lat": -27.3844796,
-  "lon": -55.8887215
-},
-{
-  "type": "node",
-  "id": 2605007992,
-  "lat": -27.3844599,
-  "lon": -55.8886975
-},
-{
-  "type": "node",
-  "id": 2605007993,
-  "lat": -27.3844349,
-  "lon": -55.8886831
-},
-{
-  "type": "node",
-  "id": 2605007995,
-  "lat": -27.3844007,
-  "lon": -55.8886823
-},
-{
-  "type": "node",
-  "id": 2605007996,
-  "lat": -27.3843681,
-  "lon": -55.8886939
-},
-{
-  "type": "node",
-  "id": 2605007998,
-  "lat": -27.3843405,
-  "lon": -55.8887166
-},
-{
-  "type": "node",
-  "id": 2605008000,
-  "lat": -27.3843209,
-  "lon": -55.8887482
-},
-{
-  "type": "node",
-  "id": 2605008001,
-  "lat": -27.3843112,
-  "lon": -55.8887852
-},
-{
-  "type": "node",
-  "id": 2605008003,
-  "lat": -27.3843126,
-  "lon": -55.8888237
-},
-{
-  "type": "node",
-  "id": 7473661611,
-  "lat": -27.3843443,
-  "lon": -55.8890833
 },
 {
   "type": "node",
