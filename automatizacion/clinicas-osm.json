@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-19T23:34:30Z",
-    "timestamp_areas_base": "2026-04-19T14:33:56Z",
+    "timestamp_osm_base": "2026-04-20T23:40:13Z",
+    "timestamp_areas_base": "2026-04-20T16:28:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -73978,29 +73978,20 @@
   }
 },
 {
-  "type": "relation",
-  "id": 6082615,
-  "members": [
-    {
-      "type": "way",
-      "ref": 339175448,
-      "role": "outer"
-    },
-    {
-      "type": "way",
-      "ref": 405849738,
-      "role": "outer"
-    },
-    {
-      "type": "way",
-      "ref": 339175449,
-      "role": "outer"
-    },
-    {
-      "type": "way",
-      "ref": 405849741,
-      "role": "outer"
-    }
+  "type": "way",
+  "id": 1501243258,
+  "nodes": [
+    3463580382,
+    11775547136,
+    11775547128,
+    3463580363,
+    2627862307,
+    2627862305,
+    2627862314,
+    3463580378,
+    3463580380,
+    3463580381,
+    3463580382
   ],
   "tags": {
     "addr:city": "Funes",
@@ -74009,16 +74000,15 @@
     "addr:street": "Avenida Santa Fe",
     "alt_name": "Angelomé +",
     "amenity": "clinic",
-    "contact:phone": "+54 341 493-7475",
+    "contact:phone": "+54 341 493-7475;+54 341 231-2475",
     "dispensing": "no",
     "electricity": "grid",
     "healthcare": "clinic",
     "insurance:health": "private",
     "name": "Angelomé",
-    "official_name": "Centro de Salud Angelomé",
-    "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 08:30-12:30",
+    "official_name": "Centro Integral de Salud Angelomé",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:30-12:30",
     "operational_status": "operational",
-    "type": "multipolygon",
     "wheelchair": "yes"
   }
 },
@@ -94381,12 +94371,6 @@
   "id": 5517448830,
   "lat": -32.9177868,
   "lon": -60.8105972
-},
-{
-  "type": "node",
-  "id": 8413517992,
-  "lat": -32.9183701,
-  "lon": -60.8080253
 },
 {
   "type": "node",
@@ -116933,45 +116917,6 @@
     12187137394,
     12187137393,
     12187137396
-  ]
-},
-{
-  "type": "way",
-  "id": 339175448,
-  "nodes": [
-    3463580380,
-    3463580378,
-    2627862314
-  ]
-},
-{
-  "type": "way",
-  "id": 339175449,
-  "nodes": [
-    2627862307,
-    8413517992,
-    3463580363,
-    11775547128,
-    11775547136,
-    3463580382,
-    3463580381
-  ]
-},
-{
-  "type": "way",
-  "id": 405849738,
-  "nodes": [
-    3463580381,
-    3463580380
-  ]
-},
-{
-  "type": "way",
-  "id": 405849741,
-  "nodes": [
-    2627862314,
-    2627862305,
-    2627862307
   ]
 },
 {
