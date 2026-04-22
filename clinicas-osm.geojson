@@ -22027,12 +22027,14 @@
   "properties": {
     "addr:city": "San Francisco",
     "addr:country": "AR",
+    "addr:housenumber": "1501",
     "addr:postcode": "2400",
     "addr:street": "Boulevard 9 de Julio",
     "amenity": "clinic",
-    "building": "yes",
+    "building": "hospital",
     "healthcare": "clinic",
     "name": "Clínica de Especialidades Enrique J. Carrá",
+    "wheelchair": "yes",
     "id": "way/557190551"
   },
   "geometry": {
@@ -22040,24 +22042,32 @@
     "coordinates": [
       [
         [
-          -62.0832568,
-          -31.4313895
+          -62.0835347,
+          -31.4313327
         ],
         [
-          -62.0833493,
-          -31.4313735
+          -62.0836508,
+          -31.4315383
         ],
         [
-          -62.0833848,
-          -31.4315227
+          -62.0836845,
+          -31.4316882
         ],
         [
-          -62.0832923,
-          -31.4315387
+          -62.0833597,
+          -31.4317413
         ],
         [
-          -62.0832568,
-          -31.4313895
+          -62.0832913,
+          -31.4314369
+        ],
+        [
+          -62.0833417,
+          -31.4313666
+        ],
+        [
+          -62.0835347,
+          -31.4313327
         ]
       ]
     ]
@@ -52276,48 +52286,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1385840963",
-  "properties": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "DOSPU",
-    "id": "way/1385840963"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -65.4710674,
-          -33.683276
-        ],
-        [
-          -65.4710904,
-          -33.683356
-        ],
-        [
-          -65.4710765,
-          -33.6834081
-        ],
-        [
-          -65.4708729,
-          -33.6834487
-        ],
-        [
-          -65.4708364,
-          -33.683322
-        ],
-        [
-          -65.4710674,
-          -33.683276
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1386595708",
   "properties": {
     "amenity": "clinic",
@@ -55858,6 +55826,113 @@
         [
           -60.8080759,
           -32.9186319
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1502390271",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Clínica Nueva Cruz Azul",
+    "phone": "+542324427034",
+    "wheelchair": "yes",
+    "id": "way/1502390271"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59.4331052,
+          -34.6536706
+        ],
+        [
+          -59.4331456,
+          -34.6537943
+        ],
+        [
+          -59.4329773,
+          -34.6538267
+        ],
+        [
+          -59.4329525,
+          -34.6538096
+        ],
+        [
+          -59.4328929,
+          -34.6536152
+        ],
+        [
+          -59.4330092,
+          -34.65359
+        ],
+        [
+          -59.4333711,
+          -34.6535118
+        ],
+        [
+          -59.4334019,
+          -34.6536044
+        ],
+        [
+          -59.4331052,
+          -34.6536706
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1502534157",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Privado de Tomografía Computalizada",
+    "id": "way/1502534157"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4668549,
+          -33.6842285
+        ],
+        [
+          -65.4666987,
+          -33.6842612
+        ],
+        [
+          -65.4665927,
+          -33.6842834
+        ],
+        [
+          -65.4665675,
+          -33.6842002
+        ],
+        [
+          -65.4663767,
+          -33.6842401
+        ],
+        [
+          -65.4663481,
+          -33.6841453
+        ],
+        [
+          -65.4668011,
+          -33.6840505
+        ],
+        [
+          -65.4668549,
+          -33.6842285
         ]
       ]
     ]
@@ -60641,25 +60716,6 @@
     "coordinates": [
       -67.5208195,
       -46.4518178
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3342043735",
-  "properties": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clínica Cruz Azul",
-    "phone": "+542324427034",
-    "wheelchair": "yes",
-    "id": "node/3342043735"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.4330007,
-      -34.653683
     ]
   }
 },

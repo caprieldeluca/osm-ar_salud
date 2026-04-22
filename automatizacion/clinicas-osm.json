@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-21T23:33:26Z",
-    "timestamp_areas_base": "2026-04-21T18:14:30Z",
+    "timestamp_osm_base": "2026-04-22T23:43:04Z",
+    "timestamp_areas_base": "2026-04-22T15:02:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3455,19 +3455,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro Médico Güemes"
-  }
-},
-{
-  "type": "node",
-  "id": 3342043735,
-  "lat": -34.6536830,
-  "lon": -59.4330007,
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Clínica Cruz Azul",
-    "phone": "+542324427034",
-    "wheelchair": "yes"
   }
 },
 {
@@ -58836,6 +58823,8 @@
   "nodes": [
     5374070119,
     5374070116,
+    13753083631,
+    13753083632,
     5374070117,
     5374070118,
     5374070119
@@ -58843,12 +58832,14 @@
   "tags": {
     "addr:city": "San Francisco",
     "addr:country": "AR",
+    "addr:housenumber": "1501",
     "addr:postcode": "2400",
     "addr:street": "Boulevard 9 de Julio",
     "amenity": "clinic",
-    "building": "yes",
+    "building": "hospital",
     "healthcare": "clinic",
-    "name": "Clínica de Especialidades Enrique J. Carrá"
+    "name": "Clínica de Especialidades Enrique J. Carrá",
+    "wheelchair": "yes"
   }
 },
 {
@@ -72489,24 +72480,6 @@
 },
 {
   "type": "way",
-  "id": 1385840963,
-  "nodes": [
-    12830907573,
-    12830907574,
-    12830907575,
-    12652270307,
-    12659572346,
-    12830907573
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "DOSPU"
-  }
-},
-{
-  "type": "way",
   "id": 1386595708,
   "nodes": [
     12836898527,
@@ -74010,6 +73983,50 @@
     "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:30-12:30",
     "operational_status": "operational",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1502390271,
+  "nodes": [
+    13751877029,
+    13751877028,
+    13751877027,
+    13751877026,
+    3342043735,
+    13751877021,
+    13751877024,
+    13751877025,
+    13751877029
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Clínica Nueva Cruz Azul",
+    "phone": "+542324427034",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1502534157,
+  "nodes": [
+    13752857977,
+    13752857978,
+    13752857980,
+    13752857981,
+    13752857983,
+    13752857984,
+    13752857982,
+    13752857977
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Privado de Tomografía Computalizada"
   }
 },
 {
@@ -89286,36 +89303,6 @@
 },
 {
   "type": "node",
-  "id": 12652270307,
-  "lat": -33.6834081,
-  "lon": -65.4710765
-},
-{
-  "type": "node",
-  "id": 12659572346,
-  "lat": -33.6833560,
-  "lon": -65.4710904
-},
-{
-  "type": "node",
-  "id": 12830907573,
-  "lat": -33.6832760,
-  "lon": -65.4710674
-},
-{
-  "type": "node",
-  "id": 12830907574,
-  "lat": -33.6833220,
-  "lon": -65.4708364
-},
-{
-  "type": "node",
-  "id": 12830907575,
-  "lat": -33.6834487,
-  "lon": -65.4708729
-},
-{
-  "type": "node",
   "id": 12638683266,
   "lat": -33.6926245,
   "lon": -65.4639440
@@ -89367,6 +89354,48 @@
   "id": 12836898530,
   "lat": -33.6884821,
   "lon": -65.4671781
+},
+{
+  "type": "node",
+  "id": 13752857977,
+  "lat": -33.6842285,
+  "lon": -65.4668549
+},
+{
+  "type": "node",
+  "id": 13752857978,
+  "lat": -33.6842612,
+  "lon": -65.4666987
+},
+{
+  "type": "node",
+  "id": 13752857980,
+  "lat": -33.6842834,
+  "lon": -65.4665927
+},
+{
+  "type": "node",
+  "id": 13752857981,
+  "lat": -33.6842002,
+  "lon": -65.4665675
+},
+{
+  "type": "node",
+  "id": 13752857982,
+  "lat": -33.6840505,
+  "lon": -65.4668011
+},
+{
+  "type": "node",
+  "id": 13752857983,
+  "lat": -33.6842401,
+  "lon": -65.4663767
+},
+{
+  "type": "node",
+  "id": 13752857984,
+  "lat": -33.6841453,
+  "lon": -65.4663481
 },
 {
   "type": "node",
@@ -96985,26 +97014,38 @@
 {
   "type": "node",
   "id": 5374070116,
-  "lat": -31.4315387,
-  "lon": -62.0832923
+  "lat": -31.4313666,
+  "lon": -62.0833417
 },
 {
   "type": "node",
   "id": 5374070117,
-  "lat": -31.4315227,
-  "lon": -62.0833848
+  "lat": -31.4316882,
+  "lon": -62.0836845
 },
 {
   "type": "node",
   "id": 5374070118,
-  "lat": -31.4313735,
-  "lon": -62.0833493
+  "lat": -31.4315383,
+  "lon": -62.0836508
 },
 {
   "type": "node",
   "id": 5374070119,
-  "lat": -31.4313895,
-  "lon": -62.0832568
+  "lat": -31.4313327,
+  "lon": -62.0835347
+},
+{
+  "type": "node",
+  "id": 13753083631,
+  "lat": -31.4314369,
+  "lon": -62.0832913
+},
+{
+  "type": "node",
+  "id": 13753083632,
+  "lat": -31.4317413,
+  "lon": -62.0833597
 },
 {
   "type": "node",
@@ -97821,6 +97862,54 @@
   "id": 13119760498,
   "lat": -34.0633371,
   "lon": -60.1010037
+},
+{
+  "type": "node",
+  "id": 3342043735,
+  "lat": -34.6536152,
+  "lon": -59.4328929
+},
+{
+  "type": "node",
+  "id": 13751877021,
+  "lat": -34.6535900,
+  "lon": -59.4330092
+},
+{
+  "type": "node",
+  "id": 13751877024,
+  "lat": -34.6535118,
+  "lon": -59.4333711
+},
+{
+  "type": "node",
+  "id": 13751877025,
+  "lat": -34.6536044,
+  "lon": -59.4334019
+},
+{
+  "type": "node",
+  "id": 13751877026,
+  "lat": -34.6538096,
+  "lon": -59.4329525
+},
+{
+  "type": "node",
+  "id": 13751877027,
+  "lat": -34.6538267,
+  "lon": -59.4329773
+},
+{
+  "type": "node",
+  "id": 13751877028,
+  "lat": -34.6537943,
+  "lon": -59.4331456
+},
+{
+  "type": "node",
+  "id": 13751877029,
+  "lat": -34.6536706,
+  "lon": -59.4331052
 },
 {
   "type": "node",
