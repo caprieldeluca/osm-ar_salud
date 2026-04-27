@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-26T23:37:09Z",
-    "timestamp_areas_base": "2026-04-26T21:20:18Z",
+    "timestamp_osm_base": "2026-04-27T23:51:49Z",
+    "timestamp_areas_base": "2026-04-27T14:13:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -30112,7 +30112,7 @@
     "addr:street": "Sebastián Gaboto",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro De Salud 16 - Barrio Zumaran",
+    "name": "Centro de Salud 16 - Barrio Zumarán",
     "opening_hours": "07:00-15:00",
     "operator": "Municipal",
     "operator:type": "public",
@@ -74063,6 +74063,92 @@
   }
 },
 {
+  "type": "way",
+  "id": 1504506282,
+  "nodes": [
+    13767236815,
+    13767236816,
+    13767236817,
+    13767236818,
+    13767236815
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Mediccis Centro Renal"
+  }
+},
+{
+  "type": "way",
+  "id": 1504507389,
+  "nodes": [
+    13767240112,
+    13767240113,
+    13767240114,
+    13767240115,
+    13767240112
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Odontológica Ceimed"
+  }
+},
+{
+  "type": "way",
+  "id": 1504535789,
+  "nodes": [
+    13767372496,
+    13767372495,
+    13767372497,
+    13767372498,
+    13767372496
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sanatorio de la Merced Consultorios Externos"
+  }
+},
+{
+  "type": "way",
+  "id": 1504535790,
+  "nodes": [
+    13767395201,
+    13767395202,
+    13767395203,
+    12857870673,
+    13767395201
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Medico Integral VM"
+  }
+},
+{
+  "type": "way",
+  "id": 1504535793,
+  "nodes": [
+    13767395214,
+    13767395215,
+    13767395216,
+    12638683283,
+    12659572321,
+    13767395214
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Urgencia Medica Integral"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -89427,14 +89513,14 @@
 {
   "type": "node",
   "id": 13752857983,
-  "lat": -33.6842401,
-  "lon": -65.4663767
+  "lat": -33.6842387,
+  "lon": -65.4663739
 },
 {
   "type": "node",
   "id": 13752857984,
-  "lat": -33.6841453,
-  "lon": -65.4663481
+  "lat": -33.6841456,
+  "lon": -65.4663467
 },
 {
   "type": "node",
@@ -89462,6 +89548,18 @@
 },
 {
   "type": "node",
+  "id": 12638683283,
+  "lat": -33.6845180,
+  "lon": -65.4623856
+},
+{
+  "type": "node",
+  "id": 12659572321,
+  "lat": -33.6845253,
+  "lon": -65.4624435
+},
+{
+  "type": "node",
   "id": 13758919496,
   "lat": -33.6868611,
   "lon": -65.4629250
@@ -89486,6 +89584,24 @@
 },
 {
   "type": "node",
+  "id": 13767395214,
+  "lat": -33.6846157,
+  "lon": -65.4624701
+},
+{
+  "type": "node",
+  "id": 13767395215,
+  "lat": -33.6846858,
+  "lon": -65.4621336
+},
+{
+  "type": "node",
+  "id": 13767395216,
+  "lat": -33.6845766,
+  "lon": -65.4621023
+},
+{
+  "type": "node",
   "id": 12542126330,
   "lat": -33.6779174,
   "lon": -65.4762539
@@ -89507,6 +89623,54 @@
   "id": 12542126336,
   "lat": -33.6780768,
   "lon": -65.4763025
+},
+{
+  "type": "node",
+  "id": 12857870673,
+  "lat": -33.6812616,
+  "lon": -65.4616296
+},
+{
+  "type": "node",
+  "id": 13767372495,
+  "lat": -33.6816803,
+  "lon": -65.4635361
+},
+{
+  "type": "node",
+  "id": 13767372496,
+  "lat": -33.6816336,
+  "lon": -65.4637744
+},
+{
+  "type": "node",
+  "id": 13767372497,
+  "lat": -33.6816079,
+  "lon": -65.4635157
+},
+{
+  "type": "node",
+  "id": 13767372498,
+  "lat": -33.6815616,
+  "lon": -65.4637522
+},
+{
+  "type": "node",
+  "id": 13767395201,
+  "lat": -33.6811929,
+  "lon": -65.4619847
+},
+{
+  "type": "node",
+  "id": 13767395202,
+  "lat": -33.6812876,
+  "lon": -65.4620147
+},
+{
+  "type": "node",
+  "id": 13767395203,
+  "lat": -33.6813583,
+  "lon": -65.4616587
 },
 {
   "type": "node",
@@ -104804,6 +104968,30 @@
 },
 {
   "type": "node",
+  "id": 13767240112,
+  "lat": -34.6241543,
+  "lon": -58.4943620
+},
+{
+  "type": "node",
+  "id": 13767240113,
+  "lat": -34.6242160,
+  "lon": -58.4944318
+},
+{
+  "type": "node",
+  "id": 13767240114,
+  "lat": -34.6242439,
+  "lon": -58.4943953
+},
+{
+  "type": "node",
+  "id": 13767240115,
+  "lat": -34.6241821,
+  "lon": -58.4943255
+},
+{
+  "type": "node",
   "id": 4708665716,
   "lat": -34.6357095,
   "lon": -58.4758443
@@ -115151,6 +115339,30 @@
   "id": 2711548995,
   "lat": -27.4634167,
   "lon": -58.9489458
+},
+{
+  "type": "node",
+  "id": 13767236815,
+  "lat": -27.4750519,
+  "lon": -58.8438436
+},
+{
+  "type": "node",
+  "id": 13767236816,
+  "lat": -27.4750725,
+  "lon": -58.8436655
+},
+{
+  "type": "node",
+  "id": 13767236817,
+  "lat": -27.4752355,
+  "lon": -58.8436895
+},
+{
+  "type": "node",
+  "id": 13767236818,
+  "lat": -27.4752148,
+  "lon": -58.8438677
 },
 {
   "type": "node",
