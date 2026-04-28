@@ -54723,8 +54723,13 @@
     "addr:street": "Avenida Cabildo",
     "addr:suburb": "Belgrano",
     "amenity": "pharmacy",
+    "check_date": "2026-04-28",
     "healthcare": "pharmacy",
     "name": "Doctor Ahorro",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/2104309774"
   },
   "geometry": {
@@ -105593,8 +105598,8 @@
     "addr:country": "AR",
     "addr:street": "Avenida La Plata",
     "amenity": "pharmacy",
-    "fixme": "name",
     "healthcare": "pharmacy",
+    "name": "Farmacia ABC",
     "id": "node/4708710954"
   },
   "geometry": {
@@ -127089,6 +127094,23 @@
     "coordinates": [
       -58.5389596,
       -34.858611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6219043444",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmasalud",
+    "id": "node/6219043444"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.081143,
+      -31.4327125
     ]
   }
 },
@@ -185514,6 +185536,43 @@
     "coordinates": [
       -65.4657926,
       -33.6799773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13771242472",
+  "properties": {
+    "addr:housenumber": "419",
+    "addr:street": "Boulevard Presidente Doctor Raúl Alfonsín",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia De La Estación",
+    "phone": "03547423653",
+    "id": "node/13771242472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4273399,
+      -31.6539164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13771289576",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Europa",
+    "id": "node/13771289576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4592205,
+      -33.6652395
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-27T23:51:49Z",
-    "timestamp_areas_base": "2026-04-27T14:13:13Z",
+    "timestamp_osm_base": "2026-04-28T23:54:12Z",
+    "timestamp_areas_base": "2026-04-28T14:35:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1786,7 +1786,7 @@
     "addr:street": "Lavalle",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Clinica del Niño",
+    "name": "Clínica del Niño",
     "phone": "+54 261 425-9733"
   }
 },
@@ -4779,7 +4779,7 @@
   "tags": {
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Clinica del Pilar"
+    "name": "Clínica del Pilar"
   }
 },
 {
@@ -25056,28 +25056,6 @@
     "operator:type": "public",
     "phone": "+54 11 42464702",
     "ref:sisa_codigo": "50064342202455",
-    "ref:sisa_tipologia": "ESSIDT"
-  }
-},
-{
-  "type": "node",
-  "id": 7503432193,
-  "lat": -34.6204401,
-  "lon": -58.4233008,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "4040",
-    "addr:postcode": "C1223ACF",
-    "addr:street": "México",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro Médico Barrial - CMB 16",
-    "note": "Validar si sigue operando no lo encuentro en el sitio de la ciudad https://www.buenosaires.gob.ar/salud/establecimientos",
-    "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public",
-    "phone": "+541149312139;+541149560542",
-    "ref:sisa_codigo": "50020012115393",
     "ref:sisa_tipologia": "ESSIDT"
   }
 },
@@ -74149,6 +74127,24 @@
   }
 },
 {
+  "type": "way",
+  "id": 1505136584,
+  "nodes": [
+    12888995085,
+    12888995086,
+    13771289573,
+    13771289574,
+    13771289575,
+    12888995085
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Nefrología y Dialisis"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -89905,6 +89901,36 @@
   "id": 12772305229,
   "lat": -33.6657492,
   "lon": -65.4585335
+},
+{
+  "type": "node",
+  "id": 12888995085,
+  "lat": -33.6646540,
+  "lon": -65.4589947
+},
+{
+  "type": "node",
+  "id": 12888995086,
+  "lat": -33.6646088,
+  "lon": -65.4592064
+},
+{
+  "type": "node",
+  "id": 13771289573,
+  "lat": -33.6645655,
+  "lon": -65.4594088
+},
+{
+  "type": "node",
+  "id": 13771289574,
+  "lat": -33.6646532,
+  "lon": -65.4594359
+},
+{
+  "type": "node",
+  "id": 13771289575,
+  "lat": -33.6647418,
+  "lon": -65.4590218
 },
 {
   "type": "node",
