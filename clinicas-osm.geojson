@@ -10192,8 +10192,8 @@
     "coordinates": [
       [
         [
-          -58.4501831,
-          -34.6384754
+          -58.4501898,
+          -34.6384787
         ],
         [
           -58.4503732,
@@ -10204,12 +10204,12 @@
           -34.6387228
         ],
         [
-          -58.4501043,
-          -34.6385273
+          -58.4501097,
+          -34.6385328
         ],
         [
-          -58.4501831,
-          -34.6384754
+          -58.4501898,
+          -34.6384787
         ]
       ]
     ]
@@ -25407,6 +25407,7 @@
   "properties": {
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2026-04-30",
     "healthcare": "clinic",
     "name": "Clínica Privada Colón",
     "wheelchair": "yes",
@@ -55388,6 +55389,44 @@
 },
 {
   "type": "Feature",
+  "id": "way/1489499337",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Rene Favaloro",
+    "id": "way/1489499337"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4679686,
+          -33.6648488
+        ],
+        [
+          -65.4679943,
+          -33.6649553
+        ],
+        [
+          -65.4678347,
+          -33.664982
+        ],
+        [
+          -65.467809,
+          -33.6648755
+        ],
+        [
+          -65.4679686,
+          -33.6648488
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1489810685",
   "properties": {
     "amenity": "clinic",
@@ -57101,7 +57140,8 @@
     "healthcare": "clinic",
     "name": "Samco Coronel Bogado",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q107624317",
     "phone": "+54 3402 49-1200",
     "ref:sisa_codigo": "50820842184632",
     "ref:sisa_tipologia": "ESSIDT",
@@ -123017,6 +123057,24 @@
     "coordinates": [
       -58.7639081,
       -34.6580919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13782170201",
+  "properties": {
+    "addr:housenumber": "877",
+    "addr:street": "Larrea",
+    "amenity": "clinic",
+    "name": "Medicus",
+    "id": "node/13782170201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4021235,
+      -34.5981383
     ]
   }
 }

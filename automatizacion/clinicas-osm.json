@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-29T23:54:00Z",
-    "timestamp_areas_base": "2026-04-29T15:22:40Z",
+    "timestamp_osm_base": "2026-04-30T23:51:15Z",
+    "timestamp_areas_base": "2026-04-30T15:41:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -619,7 +619,8 @@
     "healthcare": "clinic",
     "name": "Samco Coronel Bogado",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q107624317",
     "phone": "+54 3402 49-1200",
     "ref:sisa_codigo": "50820842184632",
     "ref:sisa_tipologia": "ESSIDT",
@@ -48927,6 +48928,18 @@
   }
 },
 {
+  "type": "node",
+  "id": 13782170201,
+  "lat": -34.5981383,
+  "lon": -58.4021235,
+  "tags": {
+    "addr:housenumber": "877",
+    "addr:street": "Larrea",
+    "amenity": "clinic",
+    "name": "Medicus"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -60372,6 +60385,7 @@
   "tags": {
     "amenity": "clinic",
     "building": "yes",
+    "check_date": "2026-04-30",
     "healthcare": "clinic",
     "name": "Clínica Privada Colón",
     "wheelchair": "yes"
@@ -73783,6 +73797,23 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Clínica Las Colonias"
+  }
+},
+{
+  "type": "way",
+  "id": 1489499337,
+  "nodes": [
+    13652712977,
+    13652712978,
+    13652712979,
+    13652712980,
+    13652712977
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Doctor Rene Favaloro"
   }
 },
 {
@@ -89823,6 +89854,30 @@
 },
 {
   "type": "node",
+  "id": 13652712977,
+  "lat": -33.6648488,
+  "lon": -65.4679686
+},
+{
+  "type": "node",
+  "id": 13652712978,
+  "lat": -33.6649553,
+  "lon": -65.4679943
+},
+{
+  "type": "node",
+  "id": 13652712979,
+  "lat": -33.6649820,
+  "lon": -65.4678347
+},
+{
+  "type": "node",
+  "id": 13652712980,
+  "lat": -33.6648755,
+  "lon": -65.4678090
+},
+{
+  "type": "node",
   "id": 12772305212,
   "lat": -33.6656544,
   "lon": -65.4585048
@@ -105400,14 +105455,14 @@
 {
   "type": "node",
   "id": 4598889900,
-  "lat": -34.6384754,
-  "lon": -58.4501831
+  "lat": -34.6384787,
+  "lon": -58.4501898
 },
 {
   "type": "node",
   "id": 4598889901,
-  "lat": -34.6385273,
-  "lon": -58.4501043
+  "lat": -34.6385328,
+  "lon": -58.4501097
 },
 {
   "type": "node",
