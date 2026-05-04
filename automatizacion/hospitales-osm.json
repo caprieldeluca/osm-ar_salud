@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-05-03T23:40:50Z",
-    "timestamp_areas_base": "2026-05-03T17:32:36Z",
+    "timestamp_osm_base": "2026-05-04T23:51:15Z",
+    "timestamp_areas_base": "2026-05-04T15:33:07Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1634,9 +1634,14 @@
   "lat": -33.3224939,
   "lon": -62.0399365,
   "tags": {
+    "addr:city": "Chañar Ladeado",
+    "addr:housenumber": "375",
+    "addr:postcode": "2643",
+    "addr:street": "Santa Fe",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Clinica San Juan"
+    "name": "Clinica San Juan",
+    "phone": "+54 (3468) 52-9819"
   }
 },
 {
@@ -24271,6 +24276,62 @@
     "ref:nivel": "I",
     "ref:sisa_codigo": "10540282166069",
     "ref:sisa_tipologia": "ESCIG"
+  }
+},
+{
+  "type": "node",
+  "id": 13796315161,
+  "lat": -34.5673694,
+  "lon": -58.4372568,
+  "tags": {
+    "addr:city": "Ciudad Aurónoma de Buenos Aires",
+    "addr:housenumber": "940",
+    "addr:street": "Arce",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Rossi - Sede Solar"
+  }
+},
+{
+  "type": "node",
+  "id": 13796393308,
+  "lat": -34.6065755,
+  "lon": -58.3777097,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "141",
+    "addr:street": "Esmeralda",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Rossi - Sede Microcentro"
+  }
+},
+{
+  "type": "node",
+  "id": 13796407250,
+  "lat": -32.8554460,
+  "lon": -61.1614547,
+  "tags": {
+    "addr:city": "Carcarañá",
+    "addr:housenumber": "658",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro médico Dr Felipe Acosta"
+  }
+},
+{
+  "type": "node",
+  "id": 13796407255,
+  "lat": -34.4967437,
+  "lon": -58.5378499,
+  "tags": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "3034",
+    "addr:street": "Dardo Rocha",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Rossi - Sede San Isidro"
   }
 },
 {
@@ -59807,6 +59868,31 @@
 },
 {
   "type": "way",
+  "id": 1483935208,
+  "nodes": [
+    13606526352,
+    13606526353,
+    13606526351,
+    13606526364,
+    13606526354,
+    13606526355,
+    13606526356,
+    13606526357,
+    13606526342,
+    13606526347,
+    13606526352
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "141",
+    "addr:street": "Esmeralda",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Rossi - Sede Microcentro"
+  }
+},
+{
+  "type": "way",
   "id": 1486749359,
   "nodes": [
     13628972983,
@@ -59922,6 +60008,44 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Salita Padre Mora"
+  }
+},
+{
+  "type": "way",
+  "id": 1509227738,
+  "nodes": [
+    13796407246,
+    13796407247,
+    13796407248,
+    13796407249,
+    13796407246
+  ],
+  "tags": {
+    "addr:city": "Carcarañá",
+    "addr:housenumber": "658",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro médico Dr Felipe Acosta"
+  }
+},
+{
+  "type": "way",
+  "id": 1509229004,
+  "nodes": [
+    13796407251,
+    13796407252,
+    13796407253,
+    13796407254,
+    13796407251
+  ],
+  "tags": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "3034",
+    "addr:street": "Dardo Rocha",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Rossi - Sede San Isidro"
   }
 },
 {
@@ -94002,6 +94126,30 @@
 },
 {
   "type": "node",
+  "id": 13796407246,
+  "lat": -32.8553685,
+  "lon": -61.1614889
+},
+{
+  "type": "node",
+  "id": 13796407247,
+  "lat": -32.8555037,
+  "lon": -61.1615224
+},
+{
+  "type": "node",
+  "id": 13796407248,
+  "lat": -32.8555274,
+  "lon": -61.1614178
+},
+{
+  "type": "node",
+  "id": 13796407249,
+  "lat": -32.8553865,
+  "lon": -61.1613843
+},
+{
+  "type": "node",
   "id": 13520613811,
   "lat": -32.8501978,
   "lon": -61.1569506
@@ -116304,6 +116452,66 @@
 },
 {
   "type": "node",
+  "id": 13606526342,
+  "lat": -34.6066542,
+  "lon": -58.3777464
+},
+{
+  "type": "node",
+  "id": 13606526347,
+  "lat": -34.6066542,
+  "lon": -58.3777570
+},
+{
+  "type": "node",
+  "id": 13606526351,
+  "lat": -34.6065287,
+  "lon": -58.3777420
+},
+{
+  "type": "node",
+  "id": 13606526352,
+  "lat": -34.6065931,
+  "lon": -58.3777571
+},
+{
+  "type": "node",
+  "id": 13606526353,
+  "lat": -34.6065931,
+  "lon": -58.3777419
+},
+{
+  "type": "node",
+  "id": 13606526354,
+  "lat": -34.6065289,
+  "lon": -58.3776625
+},
+{
+  "type": "node",
+  "id": 13606526355,
+  "lat": -34.6066348,
+  "lon": -58.3776605
+},
+{
+  "type": "node",
+  "id": 13606526356,
+  "lat": -34.6066352,
+  "lon": -58.3776976
+},
+{
+  "type": "node",
+  "id": 13606526357,
+  "lat": -34.6066541,
+  "lon": -58.3776973
+},
+{
+  "type": "node",
+  "id": 13606526364,
+  "lat": -34.6065292,
+  "lon": -58.3776912
+},
+{
+  "type": "node",
   "id": 4699592485,
   "lat": -34.6043642,
   "lon": -58.3733701
@@ -118011,6 +118219,30 @@
   "id": 4979873951,
   "lat": -34.5002684,
   "lon": -58.5428079
+},
+{
+  "type": "node",
+  "id": 13796407251,
+  "lat": -34.4967208,
+  "lon": -58.5379434
+},
+{
+  "type": "node",
+  "id": 13796407252,
+  "lat": -34.4968214,
+  "lon": -58.5378616
+},
+{
+  "type": "node",
+  "id": 13796407253,
+  "lat": -34.4967661,
+  "lon": -58.5377543
+},
+{
+  "type": "node",
+  "id": 13796407254,
+  "lat": -34.4966611,
+  "lon": -58.5378348
 },
 {
   "type": "node",
