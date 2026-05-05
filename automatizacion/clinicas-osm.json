@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-05-04T23:52:16Z",
-    "timestamp_areas_base": "2026-05-04T15:33:07Z",
+    "timestamp_osm_base": "2026-05-05T23:44:45Z",
+    "timestamp_areas_base": "2026-05-05T15:31:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7373,7 +7373,7 @@
     "addr:street": "Arenales",
     "amenity": "clinic",
     "healthcare": "clinic",
-    "name": "Centro Rossi"
+    "name": "Centro Rossi - Sede Barrio Norte"
   }
 },
 {
@@ -48940,6 +48940,75 @@
   }
 },
 {
+  "type": "node",
+  "id": 13798436662,
+  "lat": -34.5599900,
+  "lon": -58.4607231,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "2557",
+    "addr:street": "Blanco Encalada",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Rossi - Sede Belgrano"
+  }
+},
+{
+  "type": "node",
+  "id": 13798503383,
+  "lat": -33.2829384,
+  "lon": -62.1811438,
+  "tags": {
+    "addr:city": "Corral De Bustos",
+    "addr:housenumber": "72",
+    "addr:street": "Montevideo",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinica Integral"
+  }
+},
+{
+  "type": "node",
+  "id": 13798819889,
+  "lat": -33.6794786,
+  "lon": -65.4637824,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Neosalud"
+  }
+},
+{
+  "type": "node",
+  "id": 13799483318,
+  "lat": -34.2890075,
+  "lon": -60.2569831,
+  "tags": {
+    "addr:city": "Salto",
+    "addr:housenumber": "184",
+    "addr:street": "Laprida",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "L.A.L.C.E.C"
+  }
+},
+{
+  "type": "node",
+  "id": 13799840955,
+  "lat": -27.4895716,
+  "lon": -55.1337148,
+  "tags": {
+    "addr:city": "Oberá",
+    "addr:postcode": "3360",
+    "addr:street": "Juan Areco",
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/institutodelamanomisiones",
+    "description": "El Instituto de la Mano Misiones, es un innovador espacio dedicado a la atención y cuidado especializado de las afecciones de la mano y miembro superior",
+    "healthcare": "clinic",
+    "name": "Instituto de la Mano Misiones"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -74207,6 +74276,23 @@
   }
 },
 {
+  "type": "way",
+  "id": 1509532331,
+  "nodes": [
+    13798873443,
+    13798873444,
+    13798873445,
+    12817467079,
+    13798873443
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CPO Especialidades Medicas"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -90035,6 +90121,30 @@
   "id": 13771289575,
   "lat": -33.6647418,
   "lon": -65.4590218
+},
+{
+  "type": "node",
+  "id": 13798873444,
+  "lat": -33.6626319,
+  "lon": -65.4589988
+},
+{
+  "type": "node",
+  "id": 13798873445,
+  "lat": -33.6625863,
+  "lon": -65.4588604
+},
+{
+  "type": "node",
+  "id": 12817467079,
+  "lat": -33.6624532,
+  "lon": -65.4588198
+},
+{
+  "type": "node",
+  "id": 13798873443,
+  "lat": -33.6625032,
+  "lon": -65.4589736
 },
 {
   "type": "node",
