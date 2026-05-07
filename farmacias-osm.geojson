@@ -3180,52 +3180,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/336103884",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:postcode": "1425",
-    "addr:street": "Avenida Honduras",
-    "addr:suburb": "Palermo",
-    "amenity": "pharmacy",
-    "brand": "Farmacity",
-    "brand:wikidata": "Q5856076",
-    "brand:wikipedia": "es:Farmacity",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacity",
-    "id": "way/336103884"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.419078,
-          -34.5937454
-        ],
-        [
-          -58.4191696,
-          -34.5939983
-        ],
-        [
-          -58.4189325,
-          -34.5940037
-        ],
-        [
-          -58.4188643,
-          -34.5938066
-        ],
-        [
-          -58.419078,
-          -34.5937454
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/346339194",
   "properties": {
     "amenity": "pharmacy",
@@ -44675,8 +44629,11 @@
     "addr:street": "Raúl Scalabrini Ortiz",
     "addr:suburb": "Palermo",
     "amenity": "pharmacy",
+    "branch": "Palermo",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
-    "name": "Farmacity Palermo",
+    "name": "Farmacity",
     "opening_hours": "24/7",
     "id": "node/724302934"
   },
@@ -149779,6 +149736,9 @@
   "id": "node/8961526017",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/8961526017"
   },
@@ -173014,6 +172974,8 @@
   "id": "node/11415752273",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/11415752273"
@@ -175527,6 +175489,8 @@
     "addr:postcode": "C1425",
     "addr:street": "Avenida Santa Fe",
     "amenity": "pharmacy",
+    "brand": "Farmatodo",
+    "brand:wikidata": "Q5856092",
     "healthcare": "pharmacy",
     "name": "Farmatodo",
     "id": "node/11884412623"
@@ -183725,6 +183689,9 @@
   "id": "node/13389923476",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmatodo",
+    "brand:wikidata": "Q5856092",
+    "healthcare": "pharmacy",
     "name": "Farmatodo",
     "id": "node/13389923476"
   },
@@ -185766,6 +185733,62 @@
     "coordinates": [
       -65.4618943,
       -33.6715668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13806131626",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "B Salud",
+    "id": "node/13806131626"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.0808831,
+      -31.4291222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13806697858",
+  "properties": {
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/13806697858"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4189435,
+      -34.5942922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13807138977",
+  "properties": {
+    "addr:housenumber": "631",
+    "addr:street": "Paraguay",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Red Salud II",
+    "phone": "03547427475",
+    "id": "node/13807138977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.4294127,
+      -31.6515936
     ]
   }
 }
