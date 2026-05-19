@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-05-17T23:55:45Z",
-    "timestamp_areas_base": "2026-05-17T18:05:30Z",
+    "timestamp_osm_base": "2026-05-19T00:03:59Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17403,6 +17403,26 @@
     "check_date": "2025-09-19",
     "healthcare": "clinic",
     "name": "Clínica San Martín"
+  }
+},
+{
+  "type": "node",
+  "id": 7414976548,
+  "lat": -31.8767248,
+  "lon": -61.1277828,
+  "tags": {
+    "addr:city": "Gessler",
+    "addr:housenumber": "1146",
+    "addr:postcode": "S2253",
+    "addr:street": "Presbítero Nardi",
+    "amenity": "clinic",
+    "email": "samcogessler@hotmail.com",
+    "healthcare": "clinic",
+    "name": "CAPS Gessler",
+    "operator": "Provincia de Santa Fe",
+    "operator:type": "government",
+    "operator:wikidata": "Q107624317",
+    "phone": "+54 3404 49-7062"
   }
 },
 {
@@ -48013,6 +48033,7 @@
   "lon": -60.4695587,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro de Salud"
   }
 },
@@ -60929,6 +60950,28 @@
 },
 {
   "type": "way",
+  "id": 750321191,
+  "nodes": [
+    7015831594,
+    12620794219,
+    7015831595,
+    12744680347,
+    7015797209,
+    7015797208,
+    7015797215,
+    7015831594
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "hospital",
+    "building:levels": "4",
+    "healthcare": "clinic",
+    "height": "14",
+    "name": "Hospital Viceintendenta Verónica Bailone"
+  }
+},
+{
+  "type": "way",
   "id": 750328155,
   "nodes": [
     7015896660,
@@ -72194,6 +72237,28 @@
 },
 {
   "type": "way",
+  "id": 1354940622,
+  "nodes": [
+    12539266561,
+    12539266554,
+    12539266555,
+    12539266556,
+    12539266562,
+    12539266563,
+    12539266564,
+    12539266561
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "hospital",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "height": "7",
+    "name": "Sanatorio de la Merced SRL"
+  }
+},
+{
+  "type": "way",
   "id": 1355190122,
   "nodes": [
     12542043809,
@@ -72524,8 +72589,8 @@
     12772305218,
     12772305219,
     12772305220,
+    13845155020,
     12772305221,
-    12772305222,
     12772305223,
     12772305224,
     12772305225,
@@ -74401,6 +74466,41 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Centro de Salud Nivel 2 - Barracas"
+  }
+},
+{
+  "type": "way",
+  "id": 1516631797,
+  "nodes": [
+    13846822875,
+    13846822876,
+    13846822877,
+    12652270205,
+    12748033315,
+    13846822875
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Respiratorio Integral"
+  }
+},
+{
+  "type": "way",
+  "id": 1516631800,
+  "nodes": [
+    13846822887,
+    13846822888,
+    13846822889,
+    13846822890,
+    13846822887
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "UOCRA Contruir Salud"
   }
 },
 {
@@ -89707,6 +89807,60 @@
 },
 {
   "type": "node",
+  "id": 7015797208,
+  "lat": -33.6824639,
+  "lon": -65.4673995
+},
+{
+  "type": "node",
+  "id": 7015797209,
+  "lat": -33.6826321,
+  "lon": -65.4666014
+},
+{
+  "type": "node",
+  "id": 7015797215,
+  "lat": -33.6824914,
+  "lon": -65.4674655
+},
+{
+  "type": "node",
+  "id": 7015831594,
+  "lat": -33.6828348,
+  "lon": -65.4675634
+},
+{
+  "type": "node",
+  "id": 7015831595,
+  "lat": -33.6830188,
+  "lon": -65.4666493
+},
+{
+  "type": "node",
+  "id": 12620794219,
+  "lat": -33.6829229,
+  "lon": -65.4671013
+},
+{
+  "type": "node",
+  "id": 12652270205,
+  "lat": -33.6829945,
+  "lon": -65.4686879
+},
+{
+  "type": "node",
+  "id": 12744680347,
+  "lat": -33.6826812,
+  "lon": -65.4665493
+},
+{
+  "type": "node",
+  "id": 12748033315,
+  "lat": -33.6829507,
+  "lon": -65.4687248
+},
+{
+  "type": "node",
   "id": 12836898527,
   "lat": -33.6883692,
   "lon": -65.4671468
@@ -89803,6 +89957,48 @@
 },
 {
   "type": "node",
+  "id": 13846822875,
+  "lat": -33.6828482,
+  "lon": -65.4686933
+},
+{
+  "type": "node",
+  "id": 13846822876,
+  "lat": -33.6828968,
+  "lon": -65.4684647
+},
+{
+  "type": "node",
+  "id": 13846822877,
+  "lat": -33.6830331,
+  "lon": -65.4685065
+},
+{
+  "type": "node",
+  "id": 13846822887,
+  "lat": -33.6827031,
+  "lon": -65.4680524
+},
+{
+  "type": "node",
+  "id": 13846822888,
+  "lat": -33.6831025,
+  "lon": -65.4681683
+},
+{
+  "type": "node",
+  "id": 13846822889,
+  "lat": -33.6830786,
+  "lon": -65.4682871
+},
+{
+  "type": "node",
+  "id": 13846822890,
+  "lat": -33.6826792,
+  "lon": -65.4681711
+},
+{
+  "type": "node",
   "id": 12638683283,
   "lat": -33.6845180,
   "lon": -65.4623856
@@ -89878,6 +90074,48 @@
   "id": 12542126336,
   "lat": -33.6780768,
   "lon": -65.4763025
+},
+{
+  "type": "node",
+  "id": 12539266554,
+  "lat": -33.6814127,
+  "lon": -65.4644268
+},
+{
+  "type": "node",
+  "id": 12539266555,
+  "lat": -33.6815082,
+  "lon": -65.4644543
+},
+{
+  "type": "node",
+  "id": 12539266556,
+  "lat": -33.6815921,
+  "lon": -65.4640326
+},
+{
+  "type": "node",
+  "id": 12539266561,
+  "lat": -33.6812151,
+  "lon": -65.4643701
+},
+{
+  "type": "node",
+  "id": 12539266562,
+  "lat": -33.6814160,
+  "lon": -65.4639820
+},
+{
+  "type": "node",
+  "id": 12539266563,
+  "lat": -33.6813959,
+  "lon": -65.4640831
+},
+{
+  "type": "node",
+  "id": 12539266564,
+  "lat": -33.6812825,
+  "lon": -65.4640506
 },
 {
   "type": "node",
@@ -90188,20 +90426,14 @@
 {
   "type": "node",
   "id": 12772305220,
-  "lat": -33.6660281,
+  "lat": -33.6660409,
   "lon": -65.4585764
 },
 {
   "type": "node",
   "id": 12772305221,
-  "lat": -33.6660063,
-  "lon": -65.4586821
-},
-{
-  "type": "node",
-  "id": 12772305222,
-  "lat": -33.6661079,
-  "lon": -65.4587124
+  "lat": -33.6661569,
+  "lon": -65.4584837
 },
 {
   "type": "node",
@@ -90322,6 +90554,12 @@
   "id": 13818473600,
   "lat": -33.6655783,
   "lon": -65.4585952
+},
+{
+  "type": "node",
+  "id": 13845155020,
+  "lat": -33.6660634,
+  "lon": -65.4584568
 },
 {
   "type": "node",
