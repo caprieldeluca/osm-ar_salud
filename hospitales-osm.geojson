@@ -52528,92 +52528,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/621358213",
-  "properties": {
-    "amenity": "hospital",
-    "building": "hospital",
-    "healthcare": "hospital",
-    "name": "Unidad Sanitaria La Dulce",
-    "id": "way/621358213"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -59.2014683,
-          -38.2863761
-        ],
-        [
-          -59.201763,
-          -38.2864735
-        ],
-        [
-          -59.2017846,
-          -38.2864331
-        ],
-        [
-          -59.2018527,
-          -38.2864556
-        ],
-        [
-          -59.2018382,
-          -38.2864828
-        ],
-        [
-          -59.2019834,
-          -38.2865307
-        ],
-        [
-          -59.201996,
-          -38.2865072
-        ],
-        [
-          -59.2020361,
-          -38.2865204
-        ],
-        [
-          -59.2020219,
-          -38.2865469
-        ],
-        [
-          -59.2020577,
-          -38.2865587
-        ],
-        [
-          -59.2019979,
-          -38.2866703
-        ],
-        [
-          -59.2017876,
-          -38.2866008
-        ],
-        [
-          -59.2017717,
-          -38.2866306
-        ],
-        [
-          -59.2017053,
-          -38.2866087
-        ],
-        [
-          -59.2017203,
-          -38.2865807
-        ],
-        [
-          -59.2014131,
-          -38.2864792
-        ],
-        [
-          -59.2014683,
-          -38.2863761
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/625135959",
   "properties": {
     "amenity": "hospital",
@@ -122337,17 +122251,20 @@
   "id": "node/13233738440",
   "properties": {
     "addr:city": "Ambrosetti",
+    "addr:housenumber": "292",
+    "addr:postcode": "S2352",
     "addr:street": "Doctor Oscar Ramirez",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "SAMCO Ambrosetti",
+    "phone": "+54 (3491) 49-2019",
     "id": "node/13233738440"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -61.5777145,
-      -30.0130915
+      -61.5777438,
+      -30.0131575
     ]
   }
 },
@@ -122885,6 +122802,47 @@
     "coordinates": [
       -58.4140292,
       -34.6118516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13878976605",
+  "properties": {
+    "addr:city": "La Dulce",
+    "addr:full": "14 N° 750 E/33 y 35",
+    "addr:housenumber": "750",
+    "addr:postcode": "7637",
+    "addr:street": "Calle 14",
+    "amenity": "hospital",
+    "building": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad Sanitaria La Dulce",
+    "ref:sisa_codigo": "50065812207132",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/13878976605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.2015195,
+      -38.2864478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13879187301",
+  "properties": {
+    "amenity": "hospital",
+    "name": "Centro de salud Palmar Grande",
+    "id": "node/13879187301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.8995665,
+      -27.9413189
     ]
   }
 }
