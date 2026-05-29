@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-05-27T23:57:20Z",
-    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "timestamp_osm_base": "2026-05-29T00:08:04Z",
+    "timestamp_areas_base": "2026-05-28T06:05:21Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9267,8 +9267,8 @@
 {
   "type": "node",
   "id": 4114172271,
-  "lat": -31.2464761,
-  "lon": -62.9262220,
+  "lat": -31.2464705,
+  "lon": -62.9262090,
   "tags": {
     "addr:city": "Colonia Las Pichanas",
     "addr:postcode": "2433",
@@ -40467,7 +40467,7 @@
     13266401188,
     13266401189,
     13266401190,
-    13266401193,
+    3720708574,
     5045161101,
     4624509825,
     4624509826,
@@ -42911,10 +42911,20 @@
     5037189627
   ],
   "tags": {
+    "addr:city": "Venado Tuerto",
+    "addr:housenumber": "1330",
+    "addr:postcode": "S2600",
+    "addr:street": "Avenida Santa Fe",
     "amenity": "hospital",
     "check_date": "2025-06-28",
+    "email": "secretariahospitalgutierrez@gmail.com",
+    "emergency": "yes",
     "healthcare": "hospital",
-    "name": "Hospital Alejandro Gutierrez"
+    "healthcare:speciality": "abortion;anaesthetics;applied_kinesiology;biochemistry;cardiology;blood_check;community;dermatology;endocrinology;diabetology;diagnostic_radiology;emergency;gynaecology;haematology;infectious_diseases;intensive;dental_oral_maxillo_facial_surgery;neonatolo",
+    "name": "Hospital Alejandro Gutierrez",
+    "opening_hours": "24 h",
+    "phone": "3462 405900/01/02/03/04",
+    "wheelchair": "yes"
   }
 },
 {
@@ -60319,6 +60329,25 @@
     "contact:facebook": "https://www.facebook.com/profile.php?id=61574565812578",
     "healthcare": "hospital",
     "name": "Hospital Gancedo Enfermero Adolfo Maidana"
+  }
+},
+{
+  "type": "way",
+  "id": 1524006636,
+  "nodes": [
+    13891237516,
+    13891237517,
+    13891237518,
+    13891237519,
+    13891237516
+  ],
+  "tags": {
+    "addr:city": "Paraná",
+    "addr:housenumber": "63",
+    "addr:street": "Paraguay",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Médico Paraguay"
   }
 },
 {
@@ -99043,6 +99072,30 @@
 },
 {
   "type": "node",
+  "id": 13891237516,
+  "lat": -31.7360297,
+  "lon": -60.5328974
+},
+{
+  "type": "node",
+  "id": 13891237517,
+  "lat": -31.7362285,
+  "lon": -60.5330268
+},
+{
+  "type": "node",
+  "id": 13891237518,
+  "lat": -31.7362925,
+  "lon": -60.5329038
+},
+{
+  "type": "node",
+  "id": 13891237519,
+  "lat": -31.7360833,
+  "lon": -60.5327646
+},
+{
+  "type": "node",
   "id": 5325935276,
   "lat": -31.7486938,
   "lon": -60.5285882
@@ -121267,6 +121320,12 @@
 },
 {
   "type": "node",
+  "id": 3720708574,
+  "lat": -34.5229796,
+  "lon": -58.4897790
+},
+{
+  "type": "node",
   "id": 4624509824,
   "lat": -34.5218740,
   "lon": -58.4898671
@@ -121450,12 +121509,6 @@
   "id": 13266401192,
   "lat": -34.5225438,
   "lon": -58.4893958
-},
-{
-  "type": "node",
-  "id": 13266401193,
-  "lat": -34.5229844,
-  "lon": -58.4897892
 },
 {
   "type": "node",
