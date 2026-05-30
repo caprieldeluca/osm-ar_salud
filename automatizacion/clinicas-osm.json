@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-05-29T00:10:12Z",
-    "timestamp_areas_base": "2026-05-28T06:05:21Z",
+    "timestamp_osm_base": "2026-05-30T00:09:00Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -162,28 +162,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Sanatorio Weber"
-  }
-},
-{
-  "type": "node",
-  "id": 873073560,
-  "lat": -34.5864726,
-  "lon": -58.4080539,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "2211",
-    "addr:postcode": "1425",
-    "addr:street": "Avenida Coronel Díaz",
-    "amenity": "clinic",
-    "healthcare": "hospital",
-    "name": "Clínica del Sol",
-    "operator:type": "private",
-    "phone": "+54 (11) 4821-1600",
-    "ref:sisa_codigo": "10020012315191",
-    "ref:sisa_tipologia": "ESCIG",
-    "website": "https://www.cdelsol.com.ar/",
-    "wikidata": "Q93139853"
   }
 },
 {
@@ -74667,6 +74645,53 @@
   }
 },
 {
+  "type": "way",
+  "id": 1524228154,
+  "nodes": [
+    13892855337,
+    13892855338,
+    13892855339,
+    13892855340,
+    13892855337
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CAPS Dr. Enrique Tallaferro"
+  }
+},
+{
+  "type": "way",
+  "id": 1524370189,
+  "nodes": [
+    6670626759,
+    13894014352,
+    6762087158,
+    6762087157,
+    13894014353,
+    13894014354,
+    6670626759
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2211",
+    "addr:postcode": "1425",
+    "addr:street": "Avenida Coronel Díaz",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica del Sol",
+    "operator:type": "private",
+    "phone": "+54 (11) 4821-1600",
+    "ref:sisa_codigo": "10020012315191",
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "https://www.cdelsol.com.ar/",
+    "wikidata": "Q93139853"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -90843,6 +90868,30 @@
   "id": 12625796475,
   "lat": -33.6642442,
   "lon": -65.4528423
+},
+{
+  "type": "node",
+  "id": 13892855337,
+  "lat": -33.6639366,
+  "lon": -65.4449579
+},
+{
+  "type": "node",
+  "id": 13892855338,
+  "lat": -33.6639820,
+  "lon": -65.4447383
+},
+{
+  "type": "node",
+  "id": 13892855339,
+  "lat": -33.6640714,
+  "lon": -65.4447650
+},
+{
+  "type": "node",
+  "id": 13892855340,
+  "lat": -33.6640259,
+  "lon": -65.4449846
 },
 {
   "type": "node",
@@ -107202,6 +107251,18 @@
 },
 {
   "type": "node",
+  "id": 6762087157,
+  "lat": -34.5866131,
+  "lon": -58.4077373
+},
+{
+  "type": "node",
+  "id": 6762087158,
+  "lat": -34.5868026,
+  "lon": -58.4078998
+},
+{
+  "type": "node",
   "id": 4357808956,
   "lat": -34.6823513,
   "lon": -58.3847935
@@ -111807,6 +111868,30 @@
   "id": 11189654499,
   "lat": -34.5806123,
   "lon": -58.4301579
+},
+{
+  "type": "node",
+  "id": 6670626759,
+  "lat": -34.5862871,
+  "lon": -58.4080031
+},
+{
+  "type": "node",
+  "id": 13894014352,
+  "lat": -34.5865494,
+  "lon": -58.4081894
+},
+{
+  "type": "node",
+  "id": 13894014353,
+  "lat": -34.5865456,
+  "lon": -58.4078403
+},
+{
+  "type": "node",
+  "id": 13894014354,
+  "lat": -34.5864278,
+  "lon": -58.4077503
 },
 {
   "type": "node",
