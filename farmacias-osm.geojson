@@ -8101,7 +8101,8 @@
     "addr:street": "Avenida Vélez Sarsfield",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farmacia Raspo - Munro",
+    "healthcare": "pharmacy",
+    "name": "Raspo - Munro",
     "phone": "+54 11 4762-0902",
     "source": "Reconocimiento cartográfico 2016 por KG",
     "id": "way/466692445"
@@ -8181,7 +8182,8 @@
     "addr:street": "Avenida Vélez Sarsfield",
     "amenity": "pharmacy",
     "building": "yes",
-    "name": "Farmacia Santa Catalina",
+    "healthcare": "pharmacy",
+    "name": "Santa Catalina",
     "phone": "+54 11 4762-1169",
     "id": "way/466717030"
   },
@@ -34073,45 +34075,6 @@
         [
           -68.3244807,
           -54.8139
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/900018150",
-  "properties": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia del Lago",
-    "id": "way/900018150"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -67.1934989,
-          -54.5106932
-        ],
-        [
-          -67.1934029,
-          -54.5107357
-        ],
-        [
-          -67.1932879,
-          -54.5106483
-        ],
-        [
-          -67.1933839,
-          -54.5106058
-        ],
-        [
-          -67.1934989,
-          -54.5106932
         ]
       ]
     ]
@@ -79671,6 +79634,7 @@
     "addr:street": "Avenida Doctor Ricardo Balbín",
     "amenity": "pharmacy",
     "check_date": "2024-09-25",
+    "healthcare": "pharmacy",
     "name": "Mundial Parque Sarmiento",
     "opening_hours": "24/7",
     "id": "node/3611894675"
@@ -97817,6 +97781,7 @@
   "properties": {
     "addr:street": "Francisco Narciso de Laprida",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Mendez",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/4614415836"
@@ -97834,6 +97799,7 @@
   "id": "node/4614630292",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Pami",
     "id": "node/4614630292"
   },
@@ -97852,6 +97818,7 @@
     "addr:street": "Uruguay",
     "amenity": "pharmacy",
     "fixme": "name",
+    "healthcare": "pharmacy",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/4614630314"
   },
@@ -97869,6 +97836,7 @@
   "properties": {
     "addr:street": "Francisco Narciso de Laprida",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/4614702080"
   },
   "geometry": {
@@ -130885,6 +130853,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/6625251981",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "3190",
+    "addr:postcode": "C1417",
+    "addr:street": "Cuenca",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "FarmaPlus",
+    "id": "node/6625251981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4958843,
+      -34.6007826
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6635857539",
   "properties": {
     "addr:housenumber": "550",
@@ -143925,6 +143915,7 @@
     "addr:street": "Besares",
     "addr:suburb": "Saavedra",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Norimar",
     "id": "node/7821425100"
   },
@@ -181339,15 +181330,15 @@
     "addr:postcode": "9412",
     "addr:street": "Avenida de los Shelknam",
     "amenity": "pharmacy",
-    "name": "Farmacia total",
+    "name": "Farma Total",
     "website": "https://www.farmaciassanmartin.com/",
     "id": "node/12763022602"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.1939324,
-      -54.5106861
+      -67.193919,
+      -54.5107967
     ]
   }
 },
