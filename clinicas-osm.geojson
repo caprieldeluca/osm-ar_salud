@@ -62127,7 +62127,7 @@
     "healthcare": "clinic",
     "name": "Clinica Sananes",
     "phone": "54 0261 4257319",
-    "website": "http://www.clinicasananes.com",
+    "website": "https://www.clinicasananes.com/",
     "wikidata": "Q100998394",
     "id": "node/3392691419"
   },
@@ -90235,7 +90235,7 @@
     "name": "Centro de Salud Esmeralda",
     "operator": "Provincia de Santa Fe",
     "operator:type": "public",
-    "phone": "+54 3492 49-8110",
+    "phone": "+54 (3492) 49-8110",
     "ref:sisa_codigo": "50820212184687",
     "ref:sisa_tipologia": "ESSIDT",
     "wikidata": "Q97671963",
@@ -118112,6 +118112,7 @@
   "id": "node/11225853467",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Dispensario",
     "wheelchair": "yes",
     "id": "node/11225853467"
@@ -124119,6 +124120,51 @@
     "coordinates": [
       -64.2641939,
       -31.0071957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13898007766",
+  "properties": {
+    "addr:city": "Cañada Rosquín",
+    "addr:housenumber": "875",
+    "addr:postcode": "S2454",
+    "addr:street": "San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "mobile": "+54 9 (3401) 64-7387",
+    "name": "CELAB Consutlrios Externos",
+    "id": "node/13898007766"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.6030753,
+      -32.055134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13900105587",
+  "properties": {
+    "addr:housenumber": "2771",
+    "addr:street": "Echeverría",
+    "amenity": "clinic",
+    "healthcare:speciality": "gastroenterology",
+    "name": "Centro Médico Bustos Fernández",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+54 11 4788-6102",
+    "short_name": "CMBF",
+    "website": "https://www.cmbf.com.ar/",
+    "id": "node/13900105587"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.459298,
+      -34.5648717
     ]
   }
 }
