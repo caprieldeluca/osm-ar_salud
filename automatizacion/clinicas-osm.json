@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-06-03T00:25:26Z",
-    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "timestamp_osm_base": "2026-06-04T01:40:30Z",
+    "timestamp_areas_base": "2026-06-03T21:33:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23680,7 +23680,8 @@
     "healthcare": "clinic",
     "name": "SAMCo María Juana",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q107624317",
     "phone": "+54 3406 47-1795",
     "ref:sisa_codigo": "50820212184804",
     "ref:sisa_tipologia": "ESSIDT",
@@ -37932,8 +37933,9 @@
   "tags": {
     "addr:city": "José C. Paz",
     "addr:full": "Chile Y Roque Saenz Peña",
+    "addr:housenumber": "3694",
     "addr:postcode": "1665",
-    "addr:street": "Chile",
+    "addr:street": "Gelly y Obes",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro De Salud Suizo Ideal",
@@ -70160,6 +70162,23 @@
 },
 {
   "type": "way",
+  "id": 1246459509,
+  "nodes": [
+    11587902498,
+    11587902495,
+    11587902496,
+    11587902497,
+    11587902498
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Infectología"
+  }
+},
+{
+  "type": "way",
   "id": 1246582191,
   "nodes": [
     11589645234,
@@ -74726,6 +74745,23 @@
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.cdelsol.com.ar/",
     "wikidata": "Q93139853"
+  }
+},
+{
+  "type": "way",
+  "id": 1525823213,
+  "nodes": [
+    13907486197,
+    13907486198,
+    13907486199,
+    13907486200,
+    13907486197
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Osecac"
   }
 },
 {
@@ -90279,32 +90315,32 @@
 {
   "type": "node",
   "id": 13891641081,
-  "lat": -33.6851903,
-  "lon": -65.4622666
+  "lat": -33.6851904,
+  "lon": -65.4622663
 },
 {
   "type": "node",
   "id": 13891641082,
-  "lat": -33.6853172,
-  "lon": -65.4623057
+  "lat": -33.6853176,
+  "lon": -65.4623065
 },
 {
   "type": "node",
   "id": 13891641083,
-  "lat": -33.6851597,
-  "lon": -65.4622577
+  "lat": -33.6851608,
+  "lon": -65.4622569
 },
 {
   "type": "node",
   "id": 13891641084,
-  "lat": -33.6851828,
-  "lon": -65.4621607
+  "lat": -33.6851822,
+  "lon": -65.4621594
 },
 {
   "type": "node",
   "id": 13891641085,
-  "lat": -33.6853396,
-  "lon": -65.4622086
+  "lat": -33.6853390,
+  "lon": -65.4622090
 },
 {
   "type": "node",
@@ -90425,6 +90461,30 @@
   "id": 13767395203,
   "lat": -33.6813583,
   "lon": -65.4616587
+},
+{
+  "type": "node",
+  "id": 13907486197,
+  "lat": -33.6801781,
+  "lon": -65.4611437
+},
+{
+  "type": "node",
+  "id": 13907486198,
+  "lat": -33.6802372,
+  "lon": -65.4608305
+},
+{
+  "type": "node",
+  "id": 13907486199,
+  "lat": -33.6803615,
+  "lon": -65.4608644
+},
+{
+  "type": "node",
+  "id": 13907486200,
+  "lat": -33.6803016,
+  "lon": -65.4611808
 },
 {
   "type": "node",
@@ -90611,6 +90671,30 @@
   "id": 12057996685,
   "lat": -33.6885969,
   "lon": -65.4356431
+},
+{
+  "type": "node",
+  "id": 11587902495,
+  "lat": -33.6764020,
+  "lon": -65.4523363
+},
+{
+  "type": "node",
+  "id": 11587902496,
+  "lat": -33.6763619,
+  "lon": -65.4525046
+},
+{
+  "type": "node",
+  "id": 11587902497,
+  "lat": -33.6762733,
+  "lon": -65.4524741
+},
+{
+  "type": "node",
+  "id": 11587902498,
+  "lat": -33.6763135,
+  "lon": -65.4523057
 },
 {
   "type": "node",
