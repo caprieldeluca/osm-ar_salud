@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-13T23:51:59Z",
-    "timestamp_areas_base": "2026-07-13T03:07:21Z",
+    "timestamp_osm_base": "2026-07-14T23:50:44Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11449,6 +11449,31 @@
 },
 {
   "type": "node",
+  "id": 4439655472,
+  "lat": -34.9690357,
+  "lon": -57.9828260,
+  "tags": {
+    "addr:city": "La Plata",
+    "addr:full": "Avenida 66 y 153",
+    "addr:housenumber": "1650",
+    "addr:postcode": "1900",
+    "addr:street": "Calle 153",
+    "amenity": "hospital",
+    "description": "Ofrece atención sanitaria de mediana complejidad durante las 24 hs. para dar una rápida y cercana respuesta a los vecinos del barrio de Los Hornos, partido de La Plata.",
+    "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics;general;applied_kinesiology;vaccination",
+    "name": "Unidad de Pronta Atención (UPA)",
+    "office": "physician",
+    "opening_hours": "24/7",
+    "operator": "Gobierno de la Provincia de Buenos Aires",
+    "operator:type": "government_facility-public",
+    "phone": "+54 221 450 9005",
+    "traffic_signals": "emergency",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 4446310791,
   "lat": -38.1553010,
   "lon": -67.1493437,
@@ -21886,16 +21911,6 @@
 },
 {
   "type": "node",
-  "id": 10883283805,
-  "lat": -35.6351793,
-  "lon": -61.3643595,
-  "tags": {
-    "amenity": "hospital",
-    "name": "Hospital JF Ramos Carlos casares"
-  }
-},
-{
-  "type": "node",
   "id": 10919430936,
   "lat": -31.6328824,
   "lon": -60.7082549,
@@ -26684,7 +26699,8 @@
     "amenity": "hospital",
     "check_date": "2024-08-11",
     "healthcare": "hospital",
-    "name": "Hospital Municipal Dr. Ángel Pintos"
+    "name": "Hospital Municipal Dr. Ángel Pintos",
+    "wikidata": "Q93822866"
   }
 },
 {
@@ -32596,17 +32612,17 @@
   "type": "way",
   "id": 258344093,
   "nodes": [
-    2637120485,
+    10883283805,
     2637120484,
     2637120404,
     2637120298,
     2637120299,
-    2637120485
+    10883283805
   ],
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal"
+    "name": "Hospital Municipal de Carlos Casares \"Doctor Julio F. Ramos\""
   }
 },
 {
@@ -53460,6 +53476,7 @@
   "id": 1047776164,
   "nodes": [
     9634839660,
+    14013773352,
     9634839659,
     9634839658,
     9634839657,
@@ -54671,7 +54688,8 @@
     "healthcare": "hospital",
     "name": "Sanatorio Azul",
     "operator": "Sanatorio Azul S.A.",
-    "operator:type": "private"
+    "operator:type": "private",
+    "wikidata": "Q93824418"
   }
 },
 {
@@ -62410,38 +62428,44 @@
 {
   "type": "node",
   "id": 2037066707,
-  "lat": -53.7657290,
-  "lon": -67.7126496
+  "lat": -53.7657590,
+  "lon": -67.7127048
 },
 {
   "type": "node",
   "id": 9634839656,
-  "lat": -53.7657330,
-  "lon": -67.7125785
+  "lat": -53.7657597,
+  "lon": -67.7126467
 },
 {
   "type": "node",
   "id": 9634839657,
-  "lat": -53.7660239,
-  "lon": -67.7121902
+  "lat": -53.7660624,
+  "lon": -67.7122401
 },
 {
   "type": "node",
   "id": 9634839658,
-  "lat": -53.7661111,
-  "lon": -67.7121882
+  "lat": -53.7661041,
+  "lon": -67.7122412
 },
 {
   "type": "node",
   "id": 9634839659,
-  "lat": -53.7665487,
-  "lon": -67.7128185
+  "lat": -53.7664820,
+  "lon": -67.7127914
 },
 {
   "type": "node",
   "id": 9634839660,
-  "lat": -53.7662411,
-  "lon": -67.7134046
+  "lat": -53.7662030,
+  "lon": -67.7133514
+},
+{
+  "type": "node",
+  "id": 14013773352,
+  "lat": -53.7663424,
+  "lon": -67.7130717
 },
 {
   "type": "node",
@@ -84585,7 +84609,7 @@
 },
 {
   "type": "node",
-  "id": 2637120485,
+  "id": 10883283805,
   "lat": -35.6366026,
   "lon": -61.3639227
 },

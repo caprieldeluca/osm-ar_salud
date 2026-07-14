@@ -10184,6 +10184,7 @@
     "check_date": "2024-08-11",
     "healthcare": "hospital",
     "name": "Hospital Municipal Dr. Ángel Pintos",
+    "wikidata": "Q93822866",
     "id": "way/130562472"
   },
   "geometry": {
@@ -24748,7 +24749,7 @@
   "properties": {
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Hospital Municipal",
+    "name": "Hospital Municipal de Carlos Casares \"Doctor Julio F. Ramos\"",
     "id": "way/258344093"
   },
   "geometry": {
@@ -72602,32 +72603,36 @@
     "coordinates": [
       [
         [
-          -67.7134046,
-          -53.7662411
+          -67.7133514,
+          -53.766203
         ],
         [
-          -67.7128185,
-          -53.7665487
+          -67.7130717,
+          -53.7663424
         ],
         [
-          -67.7121882,
-          -53.7661111
+          -67.7127914,
+          -53.766482
         ],
         [
-          -67.7121902,
-          -53.7660239
+          -67.7122412,
+          -53.7661041
         ],
         [
-          -67.7125785,
-          -53.765733
+          -67.7122401,
+          -53.7660624
         ],
         [
-          -67.7126496,
-          -53.765729
+          -67.7126467,
+          -53.7657597
         ],
         [
-          -67.7134046,
-          -53.7662411
+          -67.7127048,
+          -53.765759
+        ],
+        [
+          -67.7133514,
+          -53.766203
         ]
       ]
     ]
@@ -75475,6 +75480,7 @@
     "name": "Sanatorio Azul",
     "operator": "Sanatorio Azul S.A.",
     "operator:type": "private",
+    "wikidata": "Q93824418",
     "id": "way/1177655083"
   },
   "geometry": {
@@ -105701,6 +105707,37 @@
 },
 {
   "type": "Feature",
+  "id": "node/4439655472",
+  "properties": {
+    "addr:city": "La Plata",
+    "addr:full": "Avenida 66 y 153",
+    "addr:housenumber": "1650",
+    "addr:postcode": "1900",
+    "addr:street": "Calle 153",
+    "amenity": "hospital",
+    "description": "Ofrece atención sanitaria de mediana complejidad durante las 24 hs. para dar una rápida y cercana respuesta a los vecinos del barrio de Los Hornos, partido de La Plata.",
+    "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics;general;applied_kinesiology;vaccination",
+    "name": "Unidad de Pronta Atención (UPA)",
+    "office": "physician",
+    "opening_hours": "24/7",
+    "operator": "Gobierno de la Provincia de Buenos Aires",
+    "operator:type": "government_facility-public",
+    "phone": "+54 221 450 9005",
+    "traffic_signals": "emergency",
+    "wheelchair": "yes",
+    "id": "node/4439655472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.982826,
+      -34.9690357
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4446310791",
   "properties": {
     "amenity": "hospital",
@@ -119937,22 +119974,6 @@
     "coordinates": [
       -58.2340086,
       -35.1683511
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10883283805",
-  "properties": {
-    "amenity": "hospital",
-    "name": "Hospital JF Ramos Carlos casares",
-    "id": "node/10883283805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -61.3643595,
-      -35.6351793
     ]
   }
 },
