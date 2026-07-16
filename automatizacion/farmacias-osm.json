@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-14T23:52:45Z",
+    "timestamp_osm_base": "2026-07-15T23:57:21Z",
     "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -75936,8 +75936,8 @@
 {
   "type": "node",
   "id": 9357065205,
-  "lat": -34.5623761,
-  "lon": -58.4575274,
+  "lat": -34.5624140,
+  "lon": -58.4575556,
   "tags": {
     "amenity": "pharmacy",
     "check_date": "2025-06-03",
@@ -77434,9 +77434,15 @@
   "lat": -34.5087567,
   "lon": -58.5339677,
   "tags": {
+    "addr:housenumber": "3389",
+    "addr:street": "Edison",
     "amenity": "pharmacy",
-    "check_date": "2023-12-05",
+    "check_date": "2026-07-14",
     "name": "Modarelli",
+    "opening_hours": "Mo-Fr 09:00-13:00,16:00-19:30; Sa 09:00-13:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "wheelchair": "no"
   }
 },
@@ -100622,6 +100628,27 @@
   }
 },
 {
+  "type": "node",
+  "id": 14017852208,
+  "lat": -33.6853123,
+  "lon": -65.4650999,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Quintana del Centro"
+  }
+},
+{
+  "type": "node",
+  "id": 14018041401,
+  "lat": -34.6025691,
+  "lon": -58.3751913,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -120101,25 +120128,6 @@
 },
 {
   "type": "way",
-  "id": 1359866747,
-  "nodes": [
-    12587725898,
-    12587725899,
-    12539266545,
-    12539266546,
-    12587725895,
-    12587725898
-  ],
-  "tags": {
-    "amenity": "pharmacy",
-    "building": "yes",
-    "building:levels": "4",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Quintana del Centro"
-  }
-},
-{
-  "type": "way",
   "id": 1359866763,
   "nodes": [
     12587741242,
@@ -120205,6 +120213,8 @@
     12659572282,
     12659572283,
     12659572284,
+    14017984897,
+    14017984898,
     12659572285,
     12652296095
   ],
@@ -126404,26 +126414,14 @@
 {
   "type": "node",
   "id": 7015797043,
-  "lat": -33.6872238,
-  "lon": -65.4665831
+  "lat": -33.6872149,
+  "lon": -65.4665898
 },
 {
   "type": "node",
   "id": 7015797050,
-  "lat": -33.6871898,
-  "lon": -65.4666063
-},
-{
-  "type": "node",
-  "id": 12539266545,
-  "lat": -33.6852568,
-  "lon": -65.4655570
-},
-{
-  "type": "node",
-  "id": 12539266546,
-  "lat": -33.6852827,
-  "lon": -65.4654363
+  "lat": -33.6871775,
+  "lon": -65.4666036
 },
 {
   "type": "node",
@@ -126440,26 +126438,8 @@
 {
   "type": "node",
   "id": 12585356037,
-  "lat": -33.6872466,
-  "lon": -65.4664750
-},
-{
-  "type": "node",
-  "id": 12587725895,
-  "lat": -33.6853615,
-  "lon": -65.4650954
-},
-{
-  "type": "node",
-  "id": 12587725898,
-  "lat": -33.6852706,
-  "lon": -65.4650672
-},
-{
-  "type": "node",
-  "id": 12587725899,
-  "lat": -33.6851626,
-  "lon": -65.4655290
+  "lat": -33.6872397,
+  "lon": -65.4664729
 },
 {
   "type": "node",
@@ -126530,26 +126510,26 @@
 {
   "type": "node",
   "id": 12659572282,
-  "lat": -33.6854495,
-  "lon": -65.4670972
+  "lat": -33.6854492,
+  "lon": -65.4670966
 },
 {
   "type": "node",
   "id": 12659572283,
-  "lat": -33.6854872,
-  "lon": -65.4671088
+  "lat": -33.6854868,
+  "lon": -65.4671080
 },
 {
   "type": "node",
   "id": 12659572284,
-  "lat": -33.6854973,
-  "lon": -65.4670616
+  "lat": -33.6854964,
+  "lon": -65.4670622
 },
 {
   "type": "node",
   "id": 12659572285,
-  "lat": -33.6853819,
-  "lon": -65.4670253
+  "lat": -33.6853957,
+  "lon": -65.4669619
 },
 {
   "type": "node",
@@ -126610,6 +126590,18 @@
   "id": 14010679005,
   "lat": -33.6852077,
   "lon": -65.4663383
+},
+{
+  "type": "node",
+  "id": 14017984897,
+  "lat": -33.6854381,
+  "lon": -65.4670446
+},
+{
+  "type": "node",
+  "id": 14017984898,
+  "lat": -33.6854519,
+  "lon": -65.4669789
 },
 {
   "type": "node",
