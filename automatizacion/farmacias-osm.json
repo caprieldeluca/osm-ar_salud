@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-15T23:57:21Z",
+    "timestamp_osm_base": "2026-07-16T23:58:01Z",
     "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -10212,15 +10212,21 @@
 {
   "type": "node",
   "id": 2289312511,
-  "lat": -34.9382169,
-  "lon": -57.9585040,
+  "lat": -34.9370422,
+  "lon": -57.9595422,
   "tags": {
+    "addr:city": "La Plata",
     "addr:housenumber": "1465",
-    "addr:street": "Calle 61",
+    "addr:postcode": "1900",
+    "addr:street": "Calle 60",
     "amenity": "pharmacy",
     "contact:phone": "+54 221 451 0915",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Brandsen"
+    "name": "Brandsen",
+    "opening_hours": "Mo-Fri 09:00-12:30,16:00-19:30; Sa 09:30-12:30",
+    "wheelchair": "limited"
   }
 },
 {
@@ -13008,20 +13014,6 @@
     "healthcare": "pharmacy",
     "name": "Della Casa",
     "phone": "+54 221 422 9440"
-  }
-},
-{
-  "type": "node",
-  "id": 2497705748,
-  "lat": -34.9359918,
-  "lon": -57.9636762,
-  "tags": {
-    "addr:housenumber": "1535",
-    "addr:street": "Calle 57",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Diaz Villat",
-    "phone": "+54 221 451 5797"
   }
 },
 {
@@ -36494,13 +36486,25 @@
 },
 {
   "type": "node",
-  "id": 4567496639,
-  "lat": -34.9370485,
-  "lon": -57.9595426,
+  "id": 4567517690,
+  "lat": -34.9361764,
+  "lon": -57.9625342,
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "1501",
+    "addr:postcode": "1900",
+    "addr:street": "Calle 58",
     "amenity": "pharmacy",
+    "contact:website": "https://www.sersoc.org.ar/",
+    "description": "Sólo atiende a miembros de la Policía Bonaerense; no ofrece atención al público en general.",
+    "description:en": "It only attends",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Brandsen",
+    "name": "Farmacia de la Policía de la Provincia de Buenos Aires",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Policía de la Provincia de Buenos Aires",
+    "phone": "08002220355",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
   }
 },
