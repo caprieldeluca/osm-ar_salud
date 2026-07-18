@@ -90352,12 +90352,11 @@
     "addr:street": "Tucumán",
     "amenity": "hospital",
     "contact:facebook": "https://www.facebook.com/sanatoriodelaprovidencia",
-    "contact:mobile": "+54 11 6300 5284",
     "healthcare": "hospital",
     "name": "Sanatorio De La Providencia",
     "operator": "Privado",
     "operator:type": "private",
-    "phone": "+54 (11) 4813-2721",
+    "phone": "+54 11 4813 2721; +54 11 6300 5284",
     "ref:sisa_codigo": "10020012315237",
     "ref:sisa_tipologia": "ESCIG",
     "website": "https://www.sanatoriodelaprovidencia.com/",
@@ -100303,10 +100302,15 @@
     "addr:postcode": "1900",
     "addr:street": "Calle 64",
     "amenity": "hospital",
+    "description": "Hospital interzonal de toxicología y salud mental.",
     "email": "reencuentro@ms.gba.gov.ar",
+    "emergency": "yes",
     "healthcare": "hospital",
+    "healthcare:speciality": "toxicology;mental_health",
     "name": "Hospital Reencuentro",
     "official_name": "Hospital Zonal Especializado \"Reencuentro\"",
+    "operator": "Gobierno de la Provincia de Buenos Aires",
+    "operator:type": "government",
     "phone:AR": "0800-999-0960",
     "source": "http://www.ms.gba.gov.ar/hospitales/",
     "id": "node/3817121715"
@@ -123450,6 +123454,33 @@
     "coordinates": [
       -58.4519027,
       -34.5691338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14024314049",
+  "properties": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "525",
+    "addr:postcode": "1900",
+    "addr:street": "Calle 64",
+    "amenity": "hospital",
+    "description": "Hospital interzonal especializado en toxicología y salud mental. Anexo.",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "day_hospital;toxicology;mental_health",
+    "name": "Hospital de día Reencuentro - Anexo",
+    "operator": "Gobierno de la Provincia de Buenos Aires",
+    "operator:type": "government",
+    "website": "https://www.ms.gba.gov.ar/sitios/htoxicologia/",
+    "id": "node/14024314049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.9356251,
+      -34.9227912
     ]
   }
 }
