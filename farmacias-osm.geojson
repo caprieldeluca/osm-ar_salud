@@ -11539,8 +11539,11 @@
   "properties": {
     "addr:city": "Buenos Aires",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "building": "retail",
     "building:levels": "2",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "opening_hours": "Mo-Fr 08:30-18:30; Sa 09:00-13:00; Su off",
     "roof:levels": "1",
@@ -11551,16 +11554,16 @@
     "coordinates": [
       [
         [
-          -58.46735,
-          -34.5581035
+          -58.4673394,
+          -34.5581051
         ],
         [
-          -58.467196,
-          -34.5582704
+          -58.4671961,
+          -34.558271
         ],
         [
-          -58.4670799,
-          -34.558208
+          -58.4670868,
+          -34.558207
         ],
         [
           -58.4672053,
@@ -11571,8 +11574,8 @@
           -34.5580609
         ],
         [
-          -58.46735,
-          -34.5581035
+          -58.4673394,
+          -34.5581051
         ]
       ]
     ]
@@ -13270,6 +13273,7 @@
     "building": "yes",
     "check_date": "2024-07-09",
     "delivery": "yes",
+    "healthcare": "pharmacy",
     "name": "Farma365",
     "opening_hours": "Mo-Sa 08:00-21:00; Su off",
     "payment:cash": "yes",
@@ -13996,6 +14000,7 @@
   "properties": {
     "amenity": "pharmacy",
     "building": "yes",
+    "healthcare": "pharmacy",
     "name": "Mafei",
     "id": "way/471644074"
   },
@@ -42429,20 +42434,20 @@
           -33.6868401
         ],
         [
-          -65.463127,
-          -33.6868208
+          -65.4631222,
+          -33.6868218
         ],
         [
-          -65.4631717,
-          -33.6869659
+          -65.4631711,
+          -33.6869814
         ],
         [
-          -65.4631374,
-          -33.6870173
+          -65.4631425,
+          -33.6870232
         ],
         [
-          -65.4630837,
-          -33.6870289
+          -65.4630856,
+          -33.6870352
         ],
         [
           -65.4630281,
@@ -47056,6 +47061,7 @@
     "addr:street": "Avenida Crámer",
     "addr:suburb": "Belgrano",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Central Oeste",
     "id": "node/1231754062"
   },
@@ -130377,6 +130383,9 @@
   "id": "node/6517062185",
   "properties": {
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/6517062185"
   },
@@ -133669,6 +133678,7 @@
   "id": "node/7103202599",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Porteña",
     "id": "node/7103202599"
   },
@@ -137733,24 +137743,6 @@
     "coordinates": [
       -55.025859,
       -26.8085047
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7320655693",
-  "properties": {
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Bonifacio",
-    "id": "node/7320655693"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -62.1075571,
-      -32.6924319
     ]
   }
 },
@@ -149958,7 +149950,6 @@
     "addr:housenumber": "5600",
     "addr:street": "Tomas Le Breton",
     "amenity": "pharmacy",
-    "name": "Farmacia",
     "id": "node/9051605513"
   },
   "geometry": {
@@ -153288,6 +153279,7 @@
   "id": "node/9536092831",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Danico",
     "id": "node/9536092831"
   },
@@ -153639,6 +153631,7 @@
   "id": "node/9664319402",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Santa Catalina",
     "id": "node/9664319402"
   },
@@ -153829,6 +153822,7 @@
   "id": "node/9731335291",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Bera",
     "id": "node/9731335291"
   },
@@ -153890,6 +153884,7 @@
   "id": "node/9731402531",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Anco",
     "id": "node/9731402531"
   },
@@ -156275,6 +156270,7 @@
   "id": "node/9871126044",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Washington",
     "id": "node/9871126044"
   },
@@ -159433,6 +159429,7 @@
   "id": "node/10297229109",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/10297229109"
   },
   "geometry": {
@@ -170967,6 +170964,7 @@
   "id": "node/11228274834",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Atenas",
     "id": "node/11228274834"
   },
@@ -173111,6 +173109,7 @@
     "addr:street": "Avenida Del Libertador",
     "amenity": "pharmacy",
     "check_date": "2025-12-21",
+    "healthcare": "pharmacy",
     "name": "Farmaplus",
     "opening_hours": "Mo-Sa 08:00-21:00; Su 10:00-20:00",
     "payment:cash": "yes",
@@ -173133,7 +173132,10 @@
     "addr:housenumber": "1701",
     "addr:street": "Avenida Juramento",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
     "check_date": "2025-01-11",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -174657,6 +174659,7 @@
     "addr:housenumber": "6239",
     "addr:street": "Avenida Del Libertador",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Salud Global",
     "id": "node/11803569900"
   },
@@ -177517,6 +177520,7 @@
   "id": "node/12168478701",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Actron",
     "id": "node/12168478701"
   },
@@ -178766,6 +178770,7 @@
   "properties": {
     "addr:street": "Avenida Corrientes",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Dr Ahorro",
     "id": "node/12421719701"
   },
@@ -180963,6 +180968,7 @@
   "id": "node/12706376832",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Urquiza",
     "id": "node/12706376832"
   },
@@ -182784,6 +182790,7 @@
     "addr:housenumber": "2733",
     "addr:street": "Juncal",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/13184725601"
   },
   "geometry": {
@@ -183056,6 +183063,9 @@
   "properties": {
     "addr:street": "Avenida Estado de Israel",
     "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/13235554001"
   },
@@ -183472,6 +183482,7 @@
   "id": "node/13380050005",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Milenium",
     "id": "node/13380050005"
   },
@@ -183847,6 +183858,7 @@
   "properties": {
     "addr:street": "Delgado",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Farmacia Hierbas",
     "id": "node/13438729401"
   },
@@ -184394,6 +184406,7 @@
   "id": "node/13606903198",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/13606903198"
   },
   "geometry": {
@@ -184692,6 +184705,7 @@
   "id": "node/13697264284",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Farma Star",
     "id": "node/13697264284"
   },

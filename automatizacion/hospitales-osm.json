@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-20T23:53:21Z",
-    "timestamp_areas_base": "2026-07-19T22:29:29Z",
+    "timestamp_osm_base": "2026-07-21T23:53:06Z",
+    "timestamp_areas_base": "2026-07-21T05:06:19Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9655,6 +9655,7 @@
   "lon": -59.7997365,
   "tags": {
     "addr:city": "Capitán Sarmiento",
+    "addr:full": "San Martín 392",
     "addr:housenumber": "450",
     "addr:postcode": "2752",
     "addr:street": "Avenida San Martín",
@@ -9662,7 +9663,9 @@
     "emergency": "yes",
     "healthcare": "hospital",
     "name": "Hospital Municipal \"San Carlos\"",
-    "operator": "Stella maris kuda"
+    "operator": "Stella maris kuda",
+    "ref:sisa_codigo": "10061402200336",
+    "ref:sisa_tipologia": "ESCIG"
   }
 },
 {
@@ -17322,17 +17325,6 @@
 },
 {
   "type": "node",
-  "id": 7391370475,
-  "lat": -35.0265964,
-  "lon": -63.6875081,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Centro de Salud de Sarah"
-  }
-},
-{
-  "type": "node",
   "id": 7391370476,
   "lat": -35.0322015,
   "lon": -64.2437714,
@@ -19034,29 +19026,6 @@
     "operator:type": "private",
     "ref:sisa_codigo": "10062742306081",
     "ref:sisa_tipologia": "ESCIG"
-  }
-},
-{
-  "type": "node",
-  "id": 7502415211,
-  "lat": -34.5693454,
-  "lon": -58.4495777,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:full": "Ciudad De La Paz 1157",
-    "addr:housenumber": "1157",
-    "addr:postcode": "1428",
-    "addr:street": "Ciudad de la Paz",
-    "addr:suburb": "Colegiales",
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Clinica De Los Virreyes",
-    "operator:type": "private",
-    "phone": "+54 11 4788 5335",
-    "ref:sisa_codigo": "10020012315188",
-    "ref:sisa_tipologia": "ESCIG",
-    "wikidata": "Q93139825"
   }
 },
 {
@@ -24023,14 +23992,16 @@
 {
   "type": "node",
   "id": 13355185201,
-  "lat": -32.6963215,
-  "lon": -62.1084557,
+  "lat": -32.6963846,
+  "lon": -62.1085229,
   "tags": {
     "addr:housenumber": "193",
     "addr:postcode": "2580",
     "addr:street": "Tucumán",
     "amenity": "hospital",
     "email": "sanroque@sanroquemj.com.ar",
+    "healthcare": "hospital",
+    "healthcare:speciality": "applied_kinesiology;biochemistry;blood_check;cardiology;clinical_pathology;dermatology;diagnostic_radiology;emergency;gynaecology;urology;infectious_diseases;intensive;internal;neurology;nephrology;neurosurgery;paediatrics",
     "internet_access": "wlan",
     "name": "Sanatorio Privado San Roque",
     "opening_hours": "24/7",
@@ -24389,16 +24360,6 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Doctor Pedro Bargero"
-  }
-},
-{
-  "type": "node",
-  "id": 14022831602,
-  "lat": -34.5691338,
-  "lon": -58.4519027,
-  "tags": {
-    "amenity": "hospital",
-    "name": "Deragopyan"
   }
 },
 {
@@ -33995,53 +33956,6 @@
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
     "wikidata": "Q9004947",
     "wikipedia": "es:Hospital de Niños \"Víctor J. Vilela\""
-  }
-},
-{
-  "type": "way",
-  "id": 293505090,
-  "nodes": [
-    2971118824,
-    2971118825,
-    2971118826,
-    2971118827,
-    2971118824
-  ],
-  "tags": {
-    "addr:city": "Marcos Juárez",
-    "addr:housenumber": "549",
-    "addr:street": "Jujuy",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Sanatorio Privado del Sudeste",
-    "phone": "+54 03472 455355 - 455358",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 293505215,
-  "nodes": [
-    2971121052,
-    2971121053,
-    2971121054,
-    2971121044,
-    2971121045,
-    2971121046,
-    2971121047,
-    2971121048,
-    2971121052
-  ],
-  "tags": {
-    "addr:city": "Marcos Juárez",
-    "addr:housenumber": "193",
-    "addr:street": "Tucumán",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Sanatorio Privado San Roque",
-    "phone": "+54 03472 458700 - 457582"
   }
 },
 {
@@ -48004,6 +47918,7 @@
   ],
   "tags": {
     "amenity": "hospital",
+    "healthcare": "hospital",
     "name": "Instituto Médico de Obstetricia",
     "website": "http://www.imoobstetricia.com.ar/",
     "wikidata": "Q90410333"
@@ -60532,6 +60447,52 @@
     "operator": "Ministerio de Salud - Gobierno de La Pampa",
     "operator:type": "public",
     "phone": "+54 230 249-9107"
+  }
+},
+{
+  "type": "way",
+  "id": 1541320160,
+  "nodes": [
+    14022831602,
+    14031346483,
+    14031346484,
+    14031346485,
+    14022831602
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Deragopyan"
+  }
+},
+{
+  "type": "way",
+  "id": 1541320161,
+  "nodes": [
+    14031346486,
+    7502415211,
+    14031346487,
+    14031346488,
+    14031346489,
+    14031346490,
+    14031346486
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:full": "Ciudad De La Paz 1157",
+    "addr:housenumber": "1157",
+    "addr:postcode": "1428",
+    "addr:street": "Ciudad de la Paz",
+    "addr:suburb": "Colegiales",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinica De Los Virreyes",
+    "operator:type": "private",
+    "phone": "+54 11 4788 5335",
+    "ref:sisa_codigo": "10020012315188",
+    "ref:sisa_tipologia": "ESCIG",
+    "wikidata": "Q93139825"
   }
 },
 {
@@ -92783,54 +92744,6 @@
 },
 {
   "type": "node",
-  "id": 2971121044,
-  "lat": -32.6970507,
-  "lon": -62.1088072
-},
-{
-  "type": "node",
-  "id": 2971121045,
-  "lat": -32.6969171,
-  "lon": -62.1087739
-},
-{
-  "type": "node",
-  "id": 2971121046,
-  "lat": -32.6968950,
-  "lon": -62.1087756
-},
-{
-  "type": "node",
-  "id": 2971121047,
-  "lat": -32.6968854,
-  "lon": -62.1087920
-},
-{
-  "type": "node",
-  "id": 2971121048,
-  "lat": -32.6968677,
-  "lon": -62.1088932
-},
-{
-  "type": "node",
-  "id": 2971121052,
-  "lat": -32.6968605,
-  "lon": -62.1089353
-},
-{
-  "type": "node",
-  "id": 2971121053,
-  "lat": -32.6970528,
-  "lon": -62.1089815
-},
-{
-  "type": "node",
-  "id": 2971121054,
-  "lat": -32.6970811,
-  "lon": -62.1088145
-},
-{
-  "type": "node",
   "id": 2854151563,
   "lat": -32.6865269,
   "lon": -62.1082647
@@ -92912,30 +92825,6 @@
   "id": 2854115272,
   "lat": -32.6968930,
   "lon": -62.0963709
-},
-{
-  "type": "node",
-  "id": 2971118824,
-  "lat": -32.6927539,
-  "lon": -62.0998385
-},
-{
-  "type": "node",
-  "id": 2971118825,
-  "lat": -32.6930177,
-  "lon": -62.0999035
-},
-{
-  "type": "node",
-  "id": 2971118826,
-  "lat": -32.6931185,
-  "lon": -62.0993260
-},
-{
-  "type": "node",
-  "id": 2971118827,
-  "lat": -32.6928547,
-  "lon": -62.0992610
 },
 {
   "type": "node",
@@ -121088,6 +120977,66 @@
   "id": 3413786591,
   "lat": -34.5771634,
   "lon": -58.4508565
+},
+{
+  "type": "node",
+  "id": 14022831602,
+  "lat": -34.5690852,
+  "lon": -58.4519035
+},
+{
+  "type": "node",
+  "id": 14031346483,
+  "lat": -34.5689468,
+  "lon": -58.4517791
+},
+{
+  "type": "node",
+  "id": 14031346484,
+  "lat": -34.5689952,
+  "lon": -58.4516807
+},
+{
+  "type": "node",
+  "id": 14031346485,
+  "lat": -34.5691460,
+  "lon": -58.4517980
+},
+{
+  "type": "node",
+  "id": 7502415211,
+  "lat": -34.5690429,
+  "lon": -58.4495383
+},
+{
+  "type": "node",
+  "id": 14031346486,
+  "lat": -34.5692865,
+  "lon": -58.4497378
+},
+{
+  "type": "node",
+  "id": 14031346487,
+  "lat": -34.5691446,
+  "lon": -58.4493313
+},
+{
+  "type": "node",
+  "id": 14031346488,
+  "lat": -34.5692948,
+  "lon": -58.4494504
+},
+{
+  "type": "node",
+  "id": 14031346489,
+  "lat": -34.5693244,
+  "lon": -58.4493927
+},
+{
+  "type": "node",
+  "id": 14031346490,
+  "lat": -34.5694294,
+  "lon": -58.4494770
 },
 {
   "type": "node",

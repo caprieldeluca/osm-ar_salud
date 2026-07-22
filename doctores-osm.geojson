@@ -3479,24 +3479,24 @@
     "coordinates": [
       [
         [
-          -58.4653474,
-          -34.5389429
+          -58.4653485,
+          -34.5389468
         ],
         [
-          -58.4651877,
-          -34.5388651
+          -58.4651844,
+          -34.5388659
         ],
         [
-          -58.4652331,
-          -34.5387921
+          -58.4652346,
+          -34.5387967
         ],
         [
-          -58.4654012,
-          -34.5388772
+          -58.4653987,
+          -34.5388777
         ],
         [
-          -58.4653474,
-          -34.5389429
+          -58.4653485,
+          -34.5389468
         ]
       ]
     ]
@@ -18395,6 +18395,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/4504769411",
+  "properties": {
+    "addr:housenumber": "882",
+    "addr:street": "Bartolomé Mitre",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "ophthalmology",
+    "name": "SOF",
+    "id": "node/4504769411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5761407,
+      -33.8938479
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4511398780",
   "properties": {
     "addr:city": "Fátima",
@@ -19339,6 +19359,7 @@
     "addr:street": "Avenida Monroe",
     "addr:suburb": "Coghlan",
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Centros Privados de Vacunación",
     "id": "node/4658184061"
   },
@@ -29618,6 +29639,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/7391370475",
+  "properties": {
+    "addr:city": "Sarah",
+    "addr:postcode": "L6228",
+    "addr:street": "Calle 10",
+    "amenity": "doctors",
+    "emergency": "yes",
+    "healthcare": "doctor",
+    "name": "Centro de Salud de Sarah",
+    "opening_hours": "Mo-Su 06:00-20:00",
+    "operator": "Zona Sanitaria II - Ministerio de Salud de La Pampa",
+    "operator:type": "public",
+    "phone": "+54 230 249-2343",
+    "id": "node/7391370475"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.6875563,
+      -35.0266161
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7395269352",
   "properties": {
     "addr:city": "Salsipuedes",
@@ -30868,35 +30914,6 @@
     "coordinates": [
       -58.8071054,
       -34.6249557
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7502438585",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "2193",
-    "addr:postcode": "1429",
-    "addr:street": "Guayra",
-    "addr:suburb": "Núñez",
-    "amenity": "doctors",
-    "healthcare": "clinic",
-    "name": "CMB 26",
-    "official_name": "Centro Médico Barrial 26",
-    "operator": "Gobierno de la Ciudad de Buenos Aires",
-    "operator:type": "public",
-    "phone": "+54 11 4701-6467",
-    "ref:sisa_codigo": "50020012115404",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/7502438585"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4631175,
-      -34.5516578
     ]
   }
 },
@@ -40993,6 +41010,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/11867503763",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Puesto de Salud Cerro Las Rosas",
+    "id": "node/11867503763"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.3092113,
+      -24.2037164
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11875168929",
   "properties": {
     "amenity": "doctors",
@@ -41977,6 +42011,7 @@
     "amenity": "doctors",
     "contact:housenumber": "1574",
     "contact:street": "Olazábal",
+    "healthcare": "doctor",
     "name": "Psiquiatría Fleni",
     "id": "node/12038553634"
   },
@@ -42395,6 +42430,7 @@
   "id": "node/12301858115",
   "properties": {
     "amenity": "doctors",
+    "healthcare": "doctor",
     "name": "Ventebralle",
     "id": "node/12301858115"
   },

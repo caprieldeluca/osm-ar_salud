@@ -14141,6 +14141,7 @@
     "addr:suburb": "Belgrano",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "Bodylife",
     "id": "way/471904754"
   },
@@ -18551,6 +18552,7 @@
     "name": "Instituo de Atención Integral Misiones SRL",
     "phone": "+54 376 4597131",
     "short_name": "IAIM",
+    "wheelchair": "yes",
     "id": "way/506127410"
   },
   "geometry": {
@@ -27779,6 +27781,7 @@
   "id": "way/789629513",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Elevar Centro Médico Pediátrico",
     "id": "way/789629513"
   },
@@ -55579,24 +55582,24 @@
     "coordinates": [
       [
         [
-          -62.7272014,
-          -34.2643945
+          -62.7271986,
+          -34.2643927
         ],
         [
-          -62.727282,
-          -34.2646883
+          -62.7272797,
+          -34.2646737
         ],
         [
-          -62.7267926,
-          -34.2647801
+          -62.7267941,
+          -34.2647694
         ],
         [
-          -62.7267119,
-          -34.2644863
+          -62.726713,
+          -34.2644884
         ],
         [
-          -62.7272014,
-          -34.2643945
+          -62.7271986,
+          -34.2643927
         ]
       ]
     ]
@@ -56472,12 +56475,12 @@
           -33.6842002
         ],
         [
-          -65.4663772,
-          -33.6842403
+          -65.466378,
+          -33.6842407
         ],
         [
-          -65.4663487,
-          -33.6841452
+          -65.4663494,
+          -33.6841451
         ],
         [
           -65.4668024,
@@ -56518,12 +56521,12 @@
           -33.6868401
         ],
         [
-          -65.4630837,
-          -33.6870289
+          -65.4630856,
+          -33.6870352
         ],
         [
-          -65.4629805,
-          -33.6870499
+          -65.4629827,
+          -33.687057
         ],
         [
           -65.462972,
@@ -56708,28 +56711,28 @@
     "coordinates": [
       [
         [
-          -65.4624701,
-          -33.6846157
+          -65.4624595,
+          -33.6846167
         ],
         [
-          -65.4621336,
-          -33.6846858
+          -65.462239,
+          -33.6846606
         ],
         [
-          -65.4621023,
-          -33.6845766
+          -65.4622049,
+          -33.6845501
         ],
         [
-          -65.4623856,
-          -33.684518
+          -65.4623998,
+          -33.6845095
         ],
         [
-          -65.4624435,
-          -33.6845253
+          -65.4624343,
+          -33.6845291
         ],
         [
-          -65.4624701,
-          -33.6846157
+          -65.4624595,
+          -33.6846167
         ]
       ]
     ]
@@ -57144,16 +57147,16 @@
           -33.6851904
         ],
         [
-          -65.4623065,
-          -33.6853176
+          -65.4623075,
+          -33.6853207
         ],
         [
-          -65.462209,
-          -33.685339
+          -65.46221,
+          -33.685342
         ],
         [
-          -65.4621594,
-          -33.6851822
+          -65.4621612,
+          -33.6851818
         ],
         [
           -65.4622569,
@@ -69897,8 +69900,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -60.5768973,
-      -33.893639
+      -60.5768624,
+      -33.8935938
     ]
   }
 },
@@ -69918,6 +69921,26 @@
     "coordinates": [
       -60.5751506,
       -33.8932402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4504769777",
+  "properties": {
+    "addr:housenumber": "889",
+    "addr:street": "Bartolomé Mitre",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics;gynaecology;cardiology;urology",
+    "name": "La Pequeña Familia",
+    "id": "node/4504769777"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -60.5760133,
+      -33.8936679
     ]
   }
 },
@@ -73634,6 +73657,7 @@
   "id": "node/4896249671",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Vilella Medical Center",
     "id": "node/4896249671"
   },
@@ -79251,6 +79275,7 @@
   "id": "node/6032151132",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Kinesiología Belgrano",
     "id": "node/6032151132"
   },
@@ -90460,6 +90485,36 @@
     "coordinates": [
       -57.8892468,
       -34.8672183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7502438585",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2193",
+    "addr:postcode": "1429",
+    "addr:street": "Guayra",
+    "addr:suburb": "Núñez",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CMB 26",
+    "official_name": "Centro Médico Barrial 26",
+    "operator": "Gobierno de la Ciudad de Buenos Aires",
+    "operator:type": "government",
+    "operator:wikidata": "Q16571953",
+    "phone": "+54 11 4701-6467",
+    "ref:sisa_codigo": "50020012115404",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/7502438585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4631175,
+      -34.5516578
     ]
   }
 },
@@ -119729,6 +119784,7 @@
   "id": "node/11351402769",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Dra.Katz",
     "id": "node/11351402769"
   },
@@ -120140,6 +120196,7 @@
   "id": "node/11464592213",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Hospital Italiano",
     "id": "node/11464592213"
   },
@@ -120665,6 +120722,7 @@
   "id": "node/11884672272",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "La Sagrada Familia Imágenes",
     "id": "node/11884672272"
   },
@@ -121374,6 +121432,7 @@
   "properties": {
     "addr:street": "Guevara",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Residencia Austriana Asociación Civil Club Tinetense",
     "opening_hours": "Mo-Su 09:00-18:00",
     "outdoor_seating": "no",
@@ -121425,6 +121484,7 @@
   "id": "node/12145225989",
   "properties": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Helios Salud",
     "id": "node/12145225989"
   },
@@ -124157,6 +124217,7 @@
     "addr:postcode": "2580",
     "addr:street": "Hernandez",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "internet_access": "wlan",
     "name": "Centro Periférico N° 3",
     "opening_hours": "Mo-Fr 07:00-17:00",
@@ -124165,8 +124226,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.112612,
-      -32.6829259
+      -62.1125272,
+      -32.6828934
     ]
   }
 },
@@ -124196,6 +124257,7 @@
     "addr:street": "Tucumán",
     "amenity": "clinic",
     "email": "informacion@centroraices.com.ar",
+    "healthcare": "clinic",
     "internet_access": "wlan",
     "name": "Centro Interdisciplinario de Rehabilitación Raíces",
     "opening_hours": "Mo-Fr 08:00-12:00, 16:00-19:30",
@@ -124206,8 +124268,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -62.1070699,
-      -32.6914679
+      -62.1069649,
+      -32.6914832
     ]
   }
 },
@@ -124574,6 +124636,7 @@
   "properties": {
     "addr:street": "Avenida Elcano",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "TCba",
     "id": "node/13618964804"
   },
@@ -125121,6 +125184,7 @@
     "addr:housenumber": "2771",
     "addr:street": "Echeverría",
     "amenity": "clinic",
+    "healthcare": "clinic",
     "healthcare:speciality": "gastroenterology",
     "name": "Centro Médico Bustos Fernández",
     "opening_hours": "Mo-Fr 09:00-18:00",
@@ -125379,6 +125443,29 @@
     "coordinates": [
       -58.7838958,
       -34.6509079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14030290431",
+  "properties": {
+    "addr:city": "Capitán Sarmiento",
+    "addr:housenumber": "392",
+    "addr:postcode": "2752",
+    "addr:street": "Avenida San Martín",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Sarmiento Salud",
+    "ref:sisa_codigo": "50061402318204",
+    "ref:sisa_tipologia": "ESSIDT",
+    "id": "node/14030290431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.7990901,
+      -34.178796
     ]
   }
 }
