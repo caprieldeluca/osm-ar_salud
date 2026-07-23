@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-21T23:55:05Z",
+    "timestamp_osm_base": "2026-07-22T23:59:21Z",
     "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -41344,6 +41344,28 @@
 },
 {
   "type": "node",
+  "id": 8936854179,
+  "lat": -31.4280695,
+  "lon": -68.4958666,
+  "tags": {
+    "amenity": "clinic",
+    "name": "CIC La Laja",
+    "vaccination": "covid19"
+  }
+},
+{
+  "type": "node",
+  "id": 8936909494,
+  "lat": -31.7522324,
+  "lon": -68.3120817,
+  "tags": {
+    "amenity": "clinic",
+    "name": "CIC Santa Rosa",
+    "vaccination": "covid19"
+  }
+},
+{
+  "type": "node",
   "id": 8952180250,
   "lat": -34.4588626,
   "lon": -58.5555061,
@@ -49689,6 +49711,31 @@
     "name": "Centro de Salud 15 Barrio Castañares",
     "official_name": "Centro de Salud Nº 15 Barrio Castañares",
     "phone": "+54 387 4250917"
+  }
+},
+{
+  "type": "way",
+  "id": 197865896,
+  "nodes": [
+    2080650206,
+    2080650123,
+    2080650295,
+    2080650180,
+    2080650250,
+    2080650281,
+    2080650302,
+    2080650294,
+    2080650304,
+    2080650156,
+    2080650309,
+    2080650132,
+    2080650206
+  ],
+  "tags": {
+    "addr:city": "Campo Afuera",
+    "addr:postcode": "5419",
+    "amenity": "clinic",
+    "name": "CIC Campo Afuera"
   }
 },
 {
@@ -74861,8 +74908,12 @@
   "id": 1516631800,
   "nodes": [
     13846822887,
+    14039707097,
+    14039707095,
+    14039707092,
     13846822888,
     13846822889,
+    14039707088,
     13846822890,
     13846822887
   ],
@@ -74974,6 +75025,7 @@
     "addr:street": "Avenida Santa María de las Conchas",
     "alt_name": "Centro De Salud Rincon De Milberg",
     "amenity": "clinic",
+    "check_date": "2026-07-22",
     "emergency": "yes",
     "healthcare": "clinic",
     "name": "Centro materno Infantil Madre Teresa de Calcuta",
@@ -89905,6 +89957,78 @@
 },
 {
   "type": "node",
+  "id": 2080650123,
+  "lat": -31.4242343,
+  "lon": -68.5402706
+},
+{
+  "type": "node",
+  "id": 2080650132,
+  "lat": -31.4241573,
+  "lon": -68.5400844
+},
+{
+  "type": "node",
+  "id": 2080650156,
+  "lat": -31.4245764,
+  "lon": -68.5405691
+},
+{
+  "type": "node",
+  "id": 2080650180,
+  "lat": -31.4241226,
+  "lon": -68.5406128
+},
+{
+  "type": "node",
+  "id": 2080650206,
+  "lat": -31.4241089,
+  "lon": -68.5401593
+},
+{
+  "type": "node",
+  "id": 2080650250,
+  "lat": -31.4243031,
+  "lon": -68.5403337
+},
+{
+  "type": "node",
+  "id": 2080650281,
+  "lat": -31.4243990,
+  "lon": -68.5404189
+},
+{
+  "type": "node",
+  "id": 2080650294,
+  "lat": -31.4244518,
+  "lon": -68.5405057
+},
+{
+  "type": "node",
+  "id": 2080650295,
+  "lat": -31.4240530,
+  "lon": -68.5405509
+},
+{
+  "type": "node",
+  "id": 2080650302,
+  "lat": -31.4243826,
+  "lon": -68.5404443
+},
+{
+  "type": "node",
+  "id": 2080650304,
+  "lat": -31.4244711,
+  "lon": -68.5404757
+},
+{
+  "type": "node",
+  "id": 2080650309,
+  "lat": -31.4246227,
+  "lon": -68.5404976
+},
+{
+  "type": "node",
   "id": 13469103941,
   "lat": -31.4309542,
   "lon": -68.4957402
@@ -91532,8 +91656,8 @@
 {
   "type": "node",
   "id": 12620794219,
-  "lat": -33.6829313,
-  "lon": -65.4671059
+  "lat": -33.6829319,
+  "lon": -65.4671061
 },
 {
   "type": "node",
@@ -91640,8 +91764,8 @@
 {
   "type": "node",
   "id": 13846822887,
-  "lat": -33.6827031,
-  "lon": -65.4680524
+  "lat": -33.6827134,
+  "lon": -65.4680601
 },
 {
   "type": "node",
@@ -91652,14 +91776,14 @@
 {
   "type": "node",
   "id": 13846822889,
-  "lat": -33.6830786,
-  "lon": -65.4682871
+  "lat": -33.6830824,
+  "lon": -65.4682748
 },
 {
   "type": "node",
   "id": 13846822890,
-  "lat": -33.6826792,
-  "lon": -65.4681711
+  "lat": -33.6826928,
+  "lon": -65.4681660
 },
 {
   "type": "node",
@@ -91688,8 +91812,8 @@
 {
   "type": "node",
   "id": 13950353584,
-  "lat": -33.6829547,
-  "lon": -65.4669918
+  "lat": -33.6829552,
+  "lon": -65.4669919
 },
 {
   "type": "node",
@@ -91756,6 +91880,30 @@
   "id": 13950371101,
   "lat": -33.6826759,
   "lon": -65.4665731
+},
+{
+  "type": "node",
+  "id": 14039707088,
+  "lat": -33.6828177,
+  "lon": -65.4682009
+},
+{
+  "type": "node",
+  "id": 14039707092,
+  "lat": -33.6829343,
+  "lon": -65.4681215
+},
+{
+  "type": "node",
+  "id": 14039707095,
+  "lat": -33.6828471,
+  "lon": -65.4680973
+},
+{
+  "type": "node",
+  "id": 14039707097,
+  "lat": -33.6827833,
+  "lon": -65.4680796
 },
 {
   "type": "node",
