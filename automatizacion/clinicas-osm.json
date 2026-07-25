@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-23T23:58:14Z",
-    "timestamp_areas_base": "2026-07-23T07:04:21Z",
+    "timestamp_osm_base": "2026-07-25T00:01:57Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6607,26 +6607,6 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Laboratorio Fioretti"
-  }
-},
-{
-  "type": "node",
-  "id": 4181741074,
-  "lat": -32.9472967,
-  "lon": -60.6544863,
-  "tags": {
-    "addr:city": "Rosario",
-    "addr:country": "AR",
-    "addr:housenumber": "1098",
-    "addr:postcode": "2000",
-    "addr:state": "Santa Fe",
-    "addr:street": "Bulevar Nicasio Oroño",
-    "alt_name": "Medicina Esencial",
-    "amenity": "clinic",
-    "contact:phone": "+54 341 523-2268",
-    "contact:website": "http://medicinaesencial.com/ar/",
-    "healthcare": "clinic",
-    "name": "Esencial.ar"
   }
 },
 {
@@ -23251,7 +23231,8 @@
     "healthcare": "clinic",
     "name": "SAMCo Castelar",
     "operator": "Provincia de Santa Fe",
-    "operator:type": "public",
+    "operator:type": "government",
+    "operator:wikidata": "Q107624317",
     "phone": "+54 3564 49-7208",
     "ref:sisa_codigo": "50821262185356",
     "ref:sisa_tipologia": "ESSIDT"
@@ -49324,6 +49305,17 @@
   }
 },
 {
+  "type": "node",
+  "id": 14047549052,
+  "lat": -31.5092109,
+  "lon": -68.5343734,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Monseñor Ricardo Báez Laspiur"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -60892,46 +60884,6 @@
     "building:levels": "1",
     "healthcare": "clinic",
     "name": "Centro de Salud San Patricio"
-  }
-},
-{
-  "type": "way",
-  "id": 707357012,
-  "nodes": [
-    6647250311,
-    6647250312,
-    6647250313,
-    6647250314,
-    6647250315,
-    6647250316,
-    6647250317,
-    6647250318,
-    6647250319,
-    6647250320,
-    6647250311
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic"
-  }
-},
-{
-  "type": "way",
-  "id": 707357014,
-  "nodes": [
-    6647250321,
-    6647250322,
-    6647250298,
-    6647250296,
-    6647250295,
-    6647250321
-  ],
-  "tags": {
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro de Salud Monseñor Ricardo Báez Laspiur"
   }
 },
 {
@@ -75014,6 +74966,7 @@
     13913572165,
     13913572166,
     13913572167,
+    14045066484,
     13913572168,
     4470662175
   ],
@@ -75023,15 +74976,18 @@
     "addr:housenumber": "3000",
     "addr:postcode": "1648",
     "addr:street": "Avenida Santa María de las Conchas",
-    "alt_name": "Centro De Salud Rincon De Milberg",
     "amenity": "clinic",
     "check_date": "2026-07-22",
+    "contact:email": "CAPSRincon@tigre.gov.ar",
+    "contact:mobile": "+54 11 2689 8771",
+    "contact:phone": "+54 11 4512 4517",
     "emergency": "yes",
     "healthcare": "clinic",
-    "name": "Centro materno Infantil Madre Teresa de Calcuta",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 11 4512 4517",
+    "loc_name": "Centro de Salud Rincón de Milberg",
+    "name": "Centro Materno Infantil Madre Teresa de Calcuta",
+    "opening_hours": "Mo-Fr 08:00-17:00; Mo-Fr 08:00-12:00 \"Demanda espontanea\"",
+    "operator": "Municipalidad de Tigre",
+    "operator:type": "government",
     "ref:sisa_codigo": "50068052201349",
     "ref:sisa_tipologia": "ESSIDT",
     "website": "http://www.tigre.gov.ar/salud/hospitales_y_centros_de_salud"
@@ -75299,6 +75255,46 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Puesto Fijo El Rosal"
+  }
+},
+{
+  "type": "way",
+  "id": 1543931015,
+  "nodes": [
+    14045066501,
+    14045066499,
+    13913675207,
+    14045066502,
+    14045066501
+  ],
+  "tags": {
+    "addr:city": "Rincón de Milberg",
+    "addr:housenumber": "2928",
+    "addr:street": "Avenida Santa María de las Conchas",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "name": "Delia Consultorios Medicos"
+  }
+},
+{
+  "type": "way",
+  "id": 1544313213,
+  "nodes": [
+    14047527568,
+    14047527578,
+    14047527579,
+    14047532982,
+    14047532981,
+    14047527569,
+    14047532973,
+    14047532972,
+    14047527567,
+    14047527568
+  ],
+  "tags": {
+    "amenity": "clinic"
   }
 },
 {
@@ -88643,93 +88639,57 @@
 },
 {
   "type": "node",
-  "id": 6647250295,
-  "lat": -31.5090998,
-  "lon": -68.5343455
+  "id": 14047527567,
+  "lat": -31.5091172,
+  "lon": -68.5343289
 },
 {
   "type": "node",
-  "id": 6647250296,
-  "lat": -31.5091299,
-  "lon": -68.5342951
+  "id": 14047527568,
+  "lat": -31.5091486,
+  "lon": -68.5342775
 },
 {
   "type": "node",
-  "id": 6647250298,
-  "lat": -31.5094034,
-  "lon": -68.5342425
+  "id": 14047527569,
+  "lat": -31.5092050,
+  "lon": -68.5349610
 },
 {
   "type": "node",
-  "id": 6647250311,
-  "lat": -31.5092710,
-  "lon": -68.5347176
+  "id": 14047527578,
+  "lat": -31.5094186,
+  "lon": -68.5342229
 },
 {
   "type": "node",
-  "id": 6647250312,
-  "lat": -31.5093567,
-  "lon": -68.5346999
+  "id": 14047527579,
+  "lat": -31.5095119,
+  "lon": -68.5348983
 },
 {
   "type": "node",
-  "id": 6647250313,
-  "lat": -31.5093335,
-  "lon": -68.5345457
+  "id": 14047532972,
+  "lat": -31.5091420,
+  "lon": -68.5345073
 },
 {
   "type": "node",
-  "id": 6647250314,
-  "lat": -31.5093666,
-  "lon": -68.5345388
+  "id": 14047532973,
+  "lat": -31.5091751,
+  "lon": -68.5347461
 },
 {
   "type": "node",
-  "id": 6647250315,
-  "lat": -31.5093364,
-  "lon": -68.5343382
+  "id": 14047532981,
+  "lat": -31.5093535,
+  "lon": -68.5349307
 },
 {
   "type": "node",
-  "id": 6647250316,
-  "lat": -31.5092876,
-  "lon": -68.5343483
-},
-{
-  "type": "node",
-  "id": 6647250317,
-  "lat": -31.5092819,
-  "lon": -68.5343105
-},
-{
-  "type": "node",
-  "id": 6647250318,
-  "lat": -31.5091813,
-  "lon": -68.5343313
-},
-{
-  "type": "node",
-  "id": 6647250319,
-  "lat": -31.5091990,
-  "lon": -68.5344491
-},
-{
-  "type": "node",
-  "id": 6647250320,
-  "lat": -31.5092298,
-  "lon": -68.5344428
-},
-{
-  "type": "node",
-  "id": 6647250321,
-  "lat": -31.5091914,
-  "lon": -68.5349760
-},
-{
-  "type": "node",
-  "id": 6647250322,
-  "lat": -31.5094913,
-  "lon": -68.5349137
+  "id": 14047532982,
+  "lat": -31.5094321,
+  "lon": -68.5349146
 },
 {
   "type": "node",
@@ -91962,8 +91922,8 @@
 {
   "type": "node",
   "id": 13891641081,
-  "lat": -33.6851904,
-  "lon": -65.4622663
+  "lat": -33.6851900,
+  "lon": -65.4622682
 },
 {
   "type": "node",
@@ -91974,8 +91934,8 @@
 {
   "type": "node",
   "id": 13891641083,
-  "lat": -33.6851608,
-  "lon": -65.4622569
+  "lat": -33.6851603,
+  "lon": -65.4622593
 },
 {
   "type": "node",
@@ -112988,6 +112948,36 @@
   "id": 13913572168,
   "lat": -34.4150130,
   "lon": -58.6028439
+},
+{
+  "type": "node",
+  "id": 14045066484,
+  "lat": -34.4151372,
+  "lon": -58.6028454
+},
+{
+  "type": "node",
+  "id": 13913675207,
+  "lat": -34.4157910,
+  "lon": -58.6011158
+},
+{
+  "type": "node",
+  "id": 14045066499,
+  "lat": -34.4159331,
+  "lon": -58.6012115
+},
+{
+  "type": "node",
+  "id": 14045066501,
+  "lat": -34.4158762,
+  "lon": -58.6013383
+},
+{
+  "type": "node",
+  "id": 14045066502,
+  "lat": -34.4157318,
+  "lon": -58.6012447
 },
 {
   "type": "node",
