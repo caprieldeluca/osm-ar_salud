@@ -63497,11 +63497,15 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:housenumber": "1201",
-    "addr:postcode": "C1426",
+    "addr:postcode": "C1426AAM",
     "addr:street": "Céspedes",
     "amenity": "pharmacy",
+    "check_date": "2026-07-30",
+    "check_date:opening_hours": "2026-07-30",
     "healthcare": "pharmacy",
     "name": "Farmacia Brianso",
+    "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-14:00",
+    "phone": "+5491147870207",
     "source": "Reconocimiento cartográfico de campo 2016 por KG.",
     "id": "node/2612324187"
   },
@@ -77815,8 +77819,9 @@
     "addr:postcode": "1900",
     "addr:street": "Calle 47",
     "amenity": "pharmacy",
+    "check_date": "2026-07-30",
     "healthcare": "pharmacy",
-    "name": "PINHA S.C.S.",
+    "name": "Pinha",
     "id": "node/3531735201"
   },
   "geometry": {
@@ -142349,6 +142354,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Bendita Farma",
     "id": "node/7546234242"
   },
   "geometry": {
@@ -173200,6 +173206,7 @@
   "id": "node/11473228673",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "El Fenix",
     "id": "node/11473228673"
   },
@@ -186987,7 +186994,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Central",
-    "phone": "+54 (3467) 42-1011",
+    "phone": "+54 3467 42 1011",
     "id": "node/14057684907"
   },
   "geometry": {
@@ -186995,6 +187002,43 @@
     "coordinates": [
       -61.8092934,
       -33.0073582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14061977416",
+  "properties": {
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "id": "node/14061977416"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4762556,
+      -34.6863089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14062277405",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2026-07-30",
+    "healthcare": "pharmacy",
+    "name": "Saker",
+    "id": "node/14062277405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1792415,
+      -31.4096683
     ]
   }
 }

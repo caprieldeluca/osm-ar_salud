@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-07-29T23:59:36Z",
-    "timestamp_areas_base": "2026-07-29T06:16:21Z",
+    "timestamp_osm_base": "2026-07-31T00:01:21Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14267,11 +14267,15 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:housenumber": "1201",
-    "addr:postcode": "C1426",
+    "addr:postcode": "C1426AAM",
     "addr:street": "Céspedes",
     "amenity": "pharmacy",
+    "check_date": "2026-07-30",
+    "check_date:opening_hours": "2026-07-30",
     "healthcare": "pharmacy",
     "name": "Farmacia Brianso",
+    "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-14:00",
+    "phone": "+5491147870207",
     "source": "Reconocimiento cartográfico de campo 2016 por KG."
   }
 },
@@ -24193,8 +24197,9 @@
     "addr:postcode": "1900",
     "addr:street": "Calle 47",
     "amenity": "pharmacy",
+    "check_date": "2026-07-30",
     "healthcare": "pharmacy",
-    "name": "PINHA S.C.S."
+    "name": "Pinha"
   }
 },
 {
@@ -69130,7 +69135,8 @@
   "tags": {
     "amenity": "pharmacy",
     "dispensing": "yes",
-    "healthcare": "pharmacy"
+    "healthcare": "pharmacy",
+    "name": "Bendita Farma"
   }
 },
 {
@@ -91378,6 +91384,7 @@
   "lon": -64.1485651,
   "tags": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "El Fenix"
   }
 },
@@ -100689,7 +100696,32 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Central",
-    "phone": "+54 (3467) 42-1011"
+    "phone": "+54 3467 42 1011"
+  }
+},
+{
+  "type": "node",
+  "id": 14061977416,
+  "lat": -34.6863089,
+  "lon": -58.4762556,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "node",
+  "id": 14062277405,
+  "lat": -31.4096683,
+  "lon": -64.1792415,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2026-07-30",
+    "healthcare": "pharmacy",
+    "name": "Saker"
   }
 },
 {
