@@ -57520,7 +57520,7 @@
     "drive_through": "no",
     "healthcare": "pharmacy",
     "name": "Brandsen",
-    "opening_hours": "Mo-Fri 09:00-12:30,16:00-19:30; Sa 09:30-12:30",
+    "opening_hours": "Mo-Fr 09:00-12:30,16:00-19:30; Sa 09:30-12:30",
     "wheelchair": "limited",
     "id": "node/2289312511"
   },
@@ -67450,7 +67450,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Del Pueblo",
-    "opening_hours": "Mo-Fr 8:30-12:30,15:30-20:00;Sa 8:30-13:30",
+    "opening_hours": "Mo-Fr 08:30-12:30,15:30-20:00; Sa 08:30-13:30",
     "ref:vatin": "AR27059181721",
     "id": "node/2891857255"
   },
@@ -68181,7 +68181,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farma Belgrano",
-    "opening_hours": "8:00-22:00",
+    "opening_hours": "08:00-22:00",
     "source:position": "estimated",
     "id": "node/2969578262"
   },
@@ -72159,6 +72159,8 @@
   "type": "Feature",
   "id": "node/3243846427",
   "properties": {
+    "addr:housenumber": "4911",
+    "addr:street": "Paraguay",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
@@ -100779,6 +100781,24 @@
     "coordinates": [
       -58.4854167,
       -34.5763769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4654129460",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "amenity": "pharmacy",
+    "name": "Maggi",
+    "id": "node/4654129460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4355296,
+      -34.5799299
     ]
   }
 },
@@ -130731,8 +130751,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -66.585981,
-      -31.340887
+      -66.5860802,
+      -31.3408687
     ]
   }
 },
@@ -147370,14 +147390,14 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Farmacia Bonpland",
+    "name": "Bonpland Natural",
     "id": "node/8685719912"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.4320396,
-      -34.5784684
+      -58.4319833,
+      -34.5784866
     ]
   }
 },
@@ -151984,7 +152004,7 @@
     "addr:street": "Avenida Sucre",
     "amenity": "pharmacy",
     "name": "Farmacia del Angel",
-    "opening_hours": "9:30 a 20:00",
+    "opening_hours": "09:30-20:00",
     "id": "node/9400612400"
   },
   "geometry": {
@@ -153294,6 +153314,22 @@
     "coordinates": [
       -58.5190646,
       -34.4995609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9512502219",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "Farmanor",
+    "id": "node/9512502219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.5968672,
+      -31.3421838
     ]
   }
 },
@@ -187060,6 +187096,21 @@
     "coordinates": [
       -64.1788975,
       -31.4111157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14067120178",
+  "properties": {
+    "amenity": "pharmacy",
+    "id": "node/14067120178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.5800881,
+      -31.3402066
     ]
   }
 }
