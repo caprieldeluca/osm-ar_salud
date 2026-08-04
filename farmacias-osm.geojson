@@ -16134,10 +16134,13 @@
   "type": "Feature",
   "id": "way/473899830",
   "properties": {
+    "addr:housenumber": "18161",
+    "addr:street": "Avenida Rivadavia",
     "amenity": "pharmacy",
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Central Oeste",
+    "opening_hours": "Mo-Sa 08:00-21:00",
     "id": "way/473899830"
   },
   "geometry": {
@@ -103271,15 +103274,14 @@
   "properties": {
     "addr:street": "Avenida de los Constituyentes",
     "amenity": "pharmacy",
-    "fixme": "name",
-    "source": "Actualizaciones en Argentina. cartográfico 2016 por KG.",
+    "name": "Mendaro",
     "id": "node/4687188499"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.6471877,
-      -34.4537761
+      -58.6472132,
+      -34.4537927
     ]
   }
 },
@@ -150944,6 +150946,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "FarmaVida Sucursal 11",
+    "panoramax": "a1d8a6db-ea82-4bc3-9a25-43b900ff3897",
     "id": "node/9170659955"
   },
   "geometry": {
@@ -169389,7 +169392,7 @@
   "properties": {
     "addr:street": "Avenida General Belgrano",
     "amenity": "pharmacy",
-    "check_date": "2026-04-23",
+    "check_date": "2026-08-03",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Pinto Raviolo",
@@ -169411,7 +169414,7 @@
   "id": "node/11053689518",
   "properties": {
     "amenity": "pharmacy",
-    "check_date": "2026-03-09",
+    "check_date": "2026-08-03",
     "contact:instagram": "farmacia.alvear",
     "healthcare": "pharmacy",
     "name": "Alvear",
@@ -179143,7 +179146,7 @@
     "healthcare": "pharmacy",
     "name": "Albanesi",
     "panoramax": "78ee6961-8397-451c-bee2-b21bb7a56a36",
-    "phone": "+54 (3462) 49-0183",
+    "phone": "+54 3462 49 0183",
     "id": "node/12456450278"
   },
   "geometry": {
@@ -181451,7 +181454,9 @@
   "id": "node/12758084215",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Hospital Italiano",
+    "panoramax": "b267aa51-b90b-43c1-9021-8a073d8adc75",
     "id": "node/12758084215"
   },
   "geometry": {
@@ -187137,6 +187142,92 @@
     "coordinates": [
       -58.5179963,
       -34.5985892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14070498717",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2026-07-30",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "FarmAcetto",
+    "panoramax": "8fc4f2d6-b651-47c9-974d-a2a8336a7757",
+    "id": "node/14070498717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1790971,
+      -31.4108115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14070798878",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia El Buen Pastor",
+    "id": "node/14070798878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4520237,
+      -33.6556721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14071099223",
+  "properties": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "137",
+    "addr:street": "Jujuy",
+    "amenity": "pharmacy",
+    "contact:instagram": "estrellafarmacia",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Estrella",
+    "panoramax": "3303728d-b125-44d3-96db-0d8d7c937572",
+    "phone": "3515107837",
+    "id": "node/14071099223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1902444,
+      -31.4124624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14071156684",
+  "properties": {
+    "amenity": "pharmacy",
+    "check_date": "2026-07-30",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "General Paz",
+    "panoramax": "dc3b5edb-c8a8-4253-9999-75e5af6b2462",
+    "phone": "08004447257",
+    "website": "https://www.farmaciageneralpaz.com",
+    "id": "node/14071156684"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.1855703,
+      -31.4091416
     ]
   }
 }
