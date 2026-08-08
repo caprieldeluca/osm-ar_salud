@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-07T23:32:51Z",
-    "timestamp_areas_base": "2026-08-06T22:32:00Z",
+    "timestamp_osm_base": "2026-08-08T23:27:39Z",
+    "timestamp_areas_base": "2026-08-07T17:44:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24009,6 +24009,7 @@
   "tags": {
     "addr:street": "Calle 6",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Ciudad de La Plata S.C.S."
   }
 },
@@ -35367,7 +35368,7 @@
     "addr:street": "Avenida Santa Catalina",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "De la Ciudad"
+    "name": "Farmser"
   }
 },
 {
@@ -36992,9 +36993,15 @@
   "lat": -34.5362951,
   "lon": -58.5081899,
   "tags": {
+    "addr:housenumber": "1447",
+    "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
+    "check_date": "2026-08-08",
     "healthcare": "pharmacy",
     "name": "Suizo San Andres",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "phone": "+54 11 4730-4615",
     "survey:date": "2022-09-07"
   }
@@ -100881,6 +100888,33 @@
     "panoramax": "dc3b5edb-c8a8-4253-9999-75e5af6b2462",
     "phone": "08004447257",
     "website": "https://www.farmaciageneralpaz.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14080661061,
+  "lat": -35.1967220,
+  "lon": -62.7724762,
+  "tags": {
+    "addr:city": "Tres Algarrobos",
+    "addr:housenumber": "564",
+    "addr:postcode": "6231",
+    "addr:street": "Catalina N. de Balbiani",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Prieto"
+  }
+},
+{
+  "type": "node",
+  "id": 14081006062,
+  "lat": -27.3656853,
+  "lon": -55.9161698,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Grupo Farmacom"
   }
 },
 {

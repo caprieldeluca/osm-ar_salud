@@ -77562,6 +77562,7 @@
   "properties": {
     "addr:street": "Calle 6",
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "name": "Ciudad de La Plata S.C.S.",
     "id": "node/3531722137"
   },
@@ -93966,7 +93967,7 @@
     "addr:street": "Avenida Santa Catalina",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "De la Ciudad",
+    "name": "Farmser",
     "id": "node/4452516537"
   },
   "geometry": {
@@ -96287,9 +96288,15 @@
   "type": "Feature",
   "id": "node/4582057157",
   "properties": {
+    "addr:housenumber": "1447",
+    "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
+    "check_date": "2026-08-08",
     "healthcare": "pharmacy",
     "name": "Suizo San Andres",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "phone": "+54 11 4730-4615",
     "survey:date": "2022-09-07",
     "id": "node/4582057157"
@@ -187273,6 +187280,45 @@
     "coordinates": [
       -64.1855703,
       -31.4091416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14080661061",
+  "properties": {
+    "addr:city": "Tres Algarrobos",
+    "addr:housenumber": "564",
+    "addr:postcode": "6231",
+    "addr:street": "Catalina N. de Balbiani",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Prieto",
+    "id": "node/14080661061"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -62.7724762,
+      -35.196722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14081006062",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Grupo Farmacom",
+    "id": "node/14081006062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9161698,
+      -27.3656853
     ]
   }
 }
