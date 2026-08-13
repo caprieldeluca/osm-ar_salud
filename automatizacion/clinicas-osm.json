@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-12T23:38:05Z",
-    "timestamp_areas_base": "2026-08-12T06:57:58Z",
+    "timestamp_osm_base": "2026-08-13T23:38:05Z",
+    "timestamp_areas_base": "2026-08-13T07:11:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45719,6 +45719,8 @@
   "lat": -31.4192199,
   "lon": -64.5036726,
   "tags": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "75",
     "addr:street": "Pellegrini",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -49367,6 +49369,37 @@
     "check_date": "2026-08-07",
     "healthcare": "clinic",
     "name": "Centro Médico Mandar Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 14092223189,
+  "lat": -34.4968344,
+  "lon": -58.5444338,
+  "tags": {
+    "addr:housenumber": "621",
+    "addr:street": "Avenida Diego Carman",
+    "amenity": "clinic",
+    "check_date": "2026-08-12",
+    "description": "Centro de endocrinología, metabolismo, nutrición y diabetes del Sanatorio Las Lomas.",
+    "healthcare": "clinic",
+    "name": "CEM",
+    "operator:type": "private",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14092889492,
+  "lat": -34.6006398,
+  "lon": -58.4491379,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "335",
+    "addr:street": "Doctor Luis Belaustegui",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Grupo Argentina Salud"
   }
 },
 {
@@ -75384,25 +75417,6 @@
 },
 {
   "type": "way",
-  "id": 1549060828,
-  "nodes": [
-    14089494011,
-    14089494012,
-    14089494013,
-    14089494014,
-    14089494011
-  ],
-  "tags": {
-    "addr:housenumber": "3000",
-    "addr:street": "Buenos Aires",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "testing"
-  }
-},
-{
-  "type": "way",
   "id": 1549115303,
   "nodes": [
     14089938243,
@@ -75458,6 +75472,66 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Clínica de Cirugía Plástica Dr. Carlos D. Lo Brutto"
+  }
+},
+{
+  "type": "way",
+  "id": 1549400873,
+  "nodes": [
+    14092262744,
+    14092262745,
+    14092262746,
+    14092262747,
+    14092262744
+  ],
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "150",
+    "addr:street": "Justo José de Urquiza",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Maternidad Privada Salta"
+  }
+},
+{
+  "type": "way",
+  "id": 1549404072,
+  "nodes": [
+    14092326047,
+    14092326048,
+    14092326049,
+    14092326050,
+    14092326047
+  ],
+  "tags": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "13",
+    "addr:street": "Diego Velásquez",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Instituto Salud Ambulatoria"
+  }
+},
+{
+  "type": "way",
+  "id": 1549404603,
+  "nodes": [
+    14092326051,
+    14092326052,
+    14092326053,
+    14092326054,
+    14092326051
+  ],
+  "tags": {
+    "addr:city": "Río Tercero",
+    "addr:housenumber": "745",
+    "addr:street": "Avenida General Savio",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "IME Instituto Médico de Especialidades"
   }
 },
 {
@@ -93650,6 +93724,30 @@
 },
 {
   "type": "node",
+  "id": 14092326051,
+  "lat": -32.1702139,
+  "lon": -64.1254810
+},
+{
+  "type": "node",
+  "id": 14092326052,
+  "lat": -32.1704040,
+  "lon": -64.1254749
+},
+{
+  "type": "node",
+  "id": 14092326053,
+  "lat": -32.1704032,
+  "lon": -64.1253458
+},
+{
+  "type": "node",
+  "id": 14092326054,
+  "lat": -32.1702113,
+  "lon": -64.1253468
+},
+{
+  "type": "node",
   "id": 11916934228,
   "lat": -31.8207273,
   "lon": -64.3906951
@@ -95300,6 +95398,30 @@
 },
 {
   "type": "node",
+  "id": 14092326047,
+  "lat": -31.4056172,
+  "lon": -64.4739746
+},
+{
+  "type": "node",
+  "id": 14092326048,
+  "lat": -31.4056311,
+  "lon": -64.4739886
+},
+{
+  "type": "node",
+  "id": 14092326049,
+  "lat": -31.4056720,
+  "lon": -64.4739501
+},
+{
+  "type": "node",
+  "id": 14092326050,
+  "lat": -31.4056610,
+  "lon": -64.4739314
+},
+{
+  "type": "node",
   "id": 11574087698,
   "lat": -31.2964464,
   "lon": -64.4540757
@@ -95909,30 +96031,6 @@
   "id": 10825741898,
   "lat": -31.3799351,
   "lon": -64.1815737
-},
-{
-  "type": "node",
-  "id": 14089494011,
-  "lat": -31.3380639,
-  "lon": -64.2136564
-},
-{
-  "type": "node",
-  "id": 14089494012,
-  "lat": -31.3382966,
-  "lon": -64.2136564
-},
-{
-  "type": "node",
-  "id": 14089494013,
-  "lat": -31.3383035,
-  "lon": -64.2133840
-},
-{
-  "type": "node",
-  "id": 14089494014,
-  "lat": -31.3380639,
-  "lon": -64.2133840
 },
 {
   "type": "node",
@@ -117503,6 +117601,30 @@
   "id": 14020329703,
   "lat": -24.3932879,
   "lon": -65.7686121
+},
+{
+  "type": "node",
+  "id": 14092262744,
+  "lat": -24.7924888,
+  "lon": -65.4051429
+},
+{
+  "type": "node",
+  "id": 14092262745,
+  "lat": -24.7924855,
+  "lon": -65.4052960
+},
+{
+  "type": "node",
+  "id": 14092262746,
+  "lat": -24.7926647,
+  "lon": -65.4053110
+},
+{
+  "type": "node",
+  "id": 14092262747,
+  "lat": -24.7926759,
+  "lon": -65.4051482
 },
 {
   "type": "node",

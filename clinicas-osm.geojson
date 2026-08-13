@@ -58366,46 +58366,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1549060828",
-  "properties": {
-    "addr:housenumber": "3000",
-    "addr:street": "Buenos Aires",
-    "amenity": "clinic",
-    "building": "yes",
-    "healthcare": "clinic",
-    "name": "testing",
-    "id": "way/1549060828"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -64.2136564,
-          -31.3380639
-        ],
-        [
-          -64.2136564,
-          -31.3382966
-        ],
-        [
-          -64.213384,
-          -31.3383035
-        ],
-        [
-          -64.213384,
-          -31.3380639
-        ],
-        [
-          -64.2136564,
-          -31.3380639
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1549115303",
   "properties": {
     "addr:city": "Santa Fe",
@@ -58521,6 +58481,129 @@
         [
           -57.9408481,
           -34.9114507
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1549400873",
+  "properties": {
+    "addr:city": "Salta",
+    "addr:housenumber": "150",
+    "addr:street": "Justo José de Urquiza",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Maternidad Privada Salta",
+    "id": "way/1549400873"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.4051429,
+          -24.7924888
+        ],
+        [
+          -65.405296,
+          -24.7924855
+        ],
+        [
+          -65.405311,
+          -24.7926647
+        ],
+        [
+          -65.4051482,
+          -24.7926759
+        ],
+        [
+          -65.4051429,
+          -24.7924888
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1549404072",
+  "properties": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "13",
+    "addr:street": "Diego Velásquez",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Instituto Salud Ambulatoria",
+    "id": "way/1549404072"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.4739746,
+          -31.4056172
+        ],
+        [
+          -64.4739886,
+          -31.4056311
+        ],
+        [
+          -64.4739501,
+          -31.405672
+        ],
+        [
+          -64.4739314,
+          -31.405661
+        ],
+        [
+          -64.4739746,
+          -31.4056172
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1549404603",
+  "properties": {
+    "addr:city": "Río Tercero",
+    "addr:housenumber": "745",
+    "addr:street": "Avenida General Savio",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "IME Instituto Médico de Especialidades",
+    "id": "way/1549404603"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.125481,
+          -32.1702139
+        ],
+        [
+          -64.1254749,
+          -32.170404
+        ],
+        [
+          -64.1253458,
+          -32.1704032
+        ],
+        [
+          -64.1253468,
+          -32.1702113
+        ],
+        [
+          -64.125481,
+          -32.1702139
         ]
       ]
     ]
@@ -120573,6 +120656,8 @@
   "type": "Feature",
   "id": "node/11493126100",
   "properties": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "75",
     "addr:street": "Pellegrini",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -125890,6 +125975,49 @@
     "coordinates": [
       -58.5937593,
       -34.4206075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14092223189",
+  "properties": {
+    "addr:housenumber": "621",
+    "addr:street": "Avenida Diego Carman",
+    "amenity": "clinic",
+    "check_date": "2026-08-12",
+    "description": "Centro de endocrinología, metabolismo, nutrición y diabetes del Sanatorio Las Lomas.",
+    "healthcare": "clinic",
+    "name": "CEM",
+    "operator:type": "private",
+    "wheelchair": "yes",
+    "id": "node/14092223189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5444338,
+      -34.4968344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14092889492",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "335",
+    "addr:street": "Doctor Luis Belaustegui",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Grupo Argentina Salud",
+    "id": "node/14092889492"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4491379,
+      -34.6006398
     ]
   }
 }

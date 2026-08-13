@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-12T23:36:59Z",
-    "timestamp_areas_base": "2026-08-12T07:24:26Z",
+    "timestamp_osm_base": "2026-08-13T23:36:52Z",
+    "timestamp_areas_base": "2026-08-13T02:12:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -263,9 +263,11 @@
   "lat": -26.8344083,
   "lon": -65.2057405,
   "tags": {
+    "addr:housenumber": "279",
+    "addr:street": "9 de Julio de 1816",
     "amenity": "hospital",
     "healthcare": "hospital",
-    "name": "Clinica Mayo"
+    "name": "Clínica Mayo"
   }
 },
 {
@@ -3199,6 +3201,27 @@
     "name": "Hospital Doctor Nicolás Lozano",
     "operator:type": "public",
     "ref:sisa_codigo": "10660352173046",
+    "ref:sisa_tipologia": "ESCIG",
+    "source": "sedronar.gov.ar | Public Domain (PD)"
+  }
+},
+{
+  "type": "node",
+  "id": 2236232881,
+  "lat": -24.9840264,
+  "lon": -65.5782749,
+  "tags": {
+    "addr:city": "Rosario De Lerma",
+    "addr:full": "Mariano Moreno N°19",
+    "addr:housenumber": "19",
+    "addr:place": "Rosario De Lerma",
+    "addr:postcode": "4405",
+    "amenity": "hospital",
+    "description": "Bajo riesgo con internación simple",
+    "healthcare": "hospital",
+    "name": "Hospital Joaquín Corbalán",
+    "operator:type": "public",
+    "ref:sisa_codigo": "10661472173057",
     "ref:sisa_tipologia": "ESCIG",
     "source": "sedronar.gov.ar | Public Domain (PD)"
   }
@@ -15396,8 +15419,8 @@
 {
   "type": "node",
   "id": 6867094238,
-  "lat": -25.1057971,
-  "lon": -65.5349457,
+  "lat": -25.1059125,
+  "lon": -65.5348411,
   "tags": {
     "addr:city": "Chicoana",
     "addr:full": "El Carmen N°360",
@@ -28160,7 +28183,9 @@
   ],
   "tags": {
     "addr:full": "Uruguay 146",
+    "addr:housenumber": "2630",
     "addr:postcode": "1744",
+    "addr:street": "Merlo",
     "amenity": "hospital",
     "building": "yes",
     "healthcare": "hospital",
@@ -47470,8 +47495,12 @@
   "nodes": [
     7354359016,
     7354359017,
+    14090817925,
+    14090817927,
     7354359018,
     7354359019,
+    14090817928,
+    14090817926,
     7354359020,
     7354359021,
     7354359022,
@@ -58427,6 +58456,8 @@
     13096614576
   ],
   "tags": {
+    "addr:housenumber": "1099",
+    "addr:street": "Calle 17",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Consultorios Canedo"
@@ -128717,14 +128748,14 @@
 {
   "type": "node",
   "id": 7354359018,
-  "lat": -28.8863680,
-  "lon": -62.2617020
+  "lat": -28.8863116,
+  "lon": -62.2615030
 },
 {
   "type": "node",
   "id": 7354359019,
-  "lat": -28.8864270,
-  "lon": -62.2616930
+  "lat": -28.8864475,
+  "lon": -62.2614901
 },
 {
   "type": "node",
@@ -128749,6 +128780,30 @@
   "id": 7354359023,
   "lat": -28.8863050,
   "lon": -62.2602814
+},
+{
+  "type": "node",
+  "id": 14090817925,
+  "lat": -28.8862811,
+  "lon": -62.2616384
+},
+{
+  "type": "node",
+  "id": 14090817926,
+  "lat": -28.8865315,
+  "lon": -62.2615669
+},
+{
+  "type": "node",
+  "id": 14090817927,
+  "lat": -28.8863203,
+  "lon": -62.2615883
+},
+{
+  "type": "node",
+  "id": 14090817928,
+  "lat": -28.8864639,
+  "lon": -62.2615656
 },
 {
   "type": "node",
