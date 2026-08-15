@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-14T23:20:36Z",
-    "timestamp_areas_base": "2026-08-14T07:44:01Z",
+    "timestamp_osm_base": "2026-08-15T23:19:16Z",
+    "timestamp_areas_base": "2026-08-15T08:46:19Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14541,7 +14541,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Del Barrio",
-    "opening_hours": "Mo-Fr 09:00-13:00 Mo-Fr 16:30-21:00",
+    "opening_hours": "Mo-Fr 09:00-13:00,16:30-21:00",
     "phone": "+54 2932 435333"
   }
 },
@@ -18172,7 +18172,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Heer",
-    "opening_hours": "Mo-Fr 08:00-20:30 Sa 08:00 - 13:00 Sun: closed"
+    "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-13:00; Su off"
   }
 },
 {
@@ -32695,7 +32695,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Nicolino",
-    "opening_hours": "Mo-Su 08:30-12:30 y 16:30 a 20:00"
+    "opening_hours": "Mo-Su 08:30-12:30,16:30-20:00"
   }
 },
 {
@@ -65030,7 +65030,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Araucaria",
-    "opening_hours": "Mo-Sa 08:00-12 Mo-Fr 16-20",
+    "opening_hours": "Mo-Fr 16:00-20:00; Sa 08:00-12:00",
     "phone": "+54 3755 49-6368",
     "website": "https://website--784455998963263439142-pharmacy.negocio.site/"
   }
@@ -94276,7 +94276,7 @@
   "tags": {
     "amenity": "pharmacy",
     "name": "CRL",
-    "opening_hours": "Mo-Sa 08:30-13:00; Mo-Sa 16:00-21:00;"
+    "opening_hours": "Mo-Sa 08:30-13:00,16:00-21:00"
   }
 },
 {
@@ -108508,10 +108508,14 @@
     "addr:street": "9 de Julio",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2024-11-22",
+    "check_date": "2026-08-13",
     "healthcare": "pharmacy",
     "name": "Tu Farmacia De Cabecera",
-    "source": "Reconocimiento terrestre 2016 por Kaart."
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento terrestre 2016 por Kaart.",
+    "wheelchair": "yes"
   }
 },
 {
