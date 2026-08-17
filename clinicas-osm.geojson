@@ -49674,97 +49674,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1326178303",
-  "properties": {
-    "addr:housenumber": "1661",
-    "addr:street": "Vedia",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "9",
-    "building:material": "brick",
-    "healthcare": "clinic",
-    "name": "Instituto Médico Quirúrgico",
-    "short_name": "IMQ",
-    "id": "way/1326178303"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.4676812,
-          -34.536186
-        ],
-        [
-          -58.4676689,
-          -34.5361877
-        ],
-        [
-          -58.4676571,
-          -34.5361845
-        ],
-        [
-          -58.4676485,
-          -34.536177
-        ],
-        [
-          -58.4676452,
-          -34.536167
-        ],
-        [
-          -58.467648,
-          -34.536157
-        ],
-        [
-          -58.4676576,
-          -34.5361445
-        ],
-        [
-          -58.4676149,
-          -34.5361221
-        ],
-        [
-          -58.4676958,
-          -34.5360175
-        ],
-        [
-          -58.4677204,
-          -34.536024
-        ],
-        [
-          -58.4677433,
-          -34.5360338
-        ],
-        [
-          -58.467764,
-          -34.5360469
-        ],
-        [
-          -58.4677815,
-          -34.5360625
-        ],
-        [
-          -58.4677358,
-          -34.5361217
-        ],
-        [
-          -58.4677124,
-          -34.5361521
-        ],
-        [
-          -58.467691,
-          -34.5361797
-        ],
-        [
-          -58.4676812,
-          -34.536186
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1327277347",
   "properties": {
     "addr:city": "Cipolletti",
@@ -83626,6 +83535,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CESAC 36",
+    "opening_hours": "Mo-Fr 08:30-17:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 4567-1891",
@@ -126044,6 +125954,29 @@
     "coordinates": [
       -58.5126513,
       -34.470547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14101227353",
+  "properties": {
+    "addr:housenumber": "1661",
+    "addr:street": "Vedia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "plastic_surgery;hair",
+    "name": "Clínica del Río",
+    "opening_hours": "Mo-Fr 09:00-20:00; PH off",
+    "phone": "+54 11 5813-0670",
+    "website": "https://clinicadelrio.com.ar/",
+    "id": "node/14101227353"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4676717,
+      -34.5361336
     ]
   }
 }

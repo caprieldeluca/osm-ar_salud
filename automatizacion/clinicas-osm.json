@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-16T23:16:35Z",
-    "timestamp_areas_base": "2026-08-15T16:48:19Z",
+    "timestamp_osm_base": "2026-08-17T23:20:35Z",
+    "timestamp_areas_base": "2026-08-17T02:03:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18074,6 +18074,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "CESAC 36",
+    "opening_hours": "Mo-Fr 08:30-17:00",
     "operator": "Municipal",
     "operator:type": "public",
     "phone": "+54 4567-1891",
@@ -49418,6 +49419,23 @@
   }
 },
 {
+  "type": "node",
+  "id": 14101227353,
+  "lat": -34.5361336,
+  "lon": -58.4676717,
+  "tags": {
+    "addr:housenumber": "1661",
+    "addr:street": "Vedia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "plastic_surgery;hair",
+    "name": "Clínica del Río",
+    "opening_hours": "Mo-Fr 09:00-20:00; PH off",
+    "phone": "+54 11 5813-0670",
+    "website": "https://clinicadelrio.com.ar/"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -71881,40 +71899,6 @@
     "ref:sisa_tipologia": "ESSIDT",
     "source": "https://datos.rosario.gob.ar/dataset/hospitales-y-centros-de-salud",
     "wikidata": "Q92662807"
-  }
-},
-{
-  "type": "way",
-  "id": 1326178303,
-  "nodes": [
-    12270301017,
-    12270301019,
-    12270301009,
-    12270301010,
-    12270301026,
-    12270301022,
-    12270301023,
-    12270301021,
-    12270301025,
-    8043245563,
-    12270301024,
-    12270301018,
-    12270301014,
-    12270301015,
-    12270301020,
-    12270301016,
-    12270301017
-  ],
-  "tags": {
-    "addr:housenumber": "1661",
-    "addr:street": "Vedia",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "9",
-    "building:material": "brick",
-    "healthcare": "clinic",
-    "name": "Instituto Médico Quirúrgico",
-    "short_name": "IMQ"
   }
 },
 {
@@ -113964,102 +113948,6 @@
   "id": 4668723462,
   "lat": -34.5359160,
   "lon": -58.4794787
-},
-{
-  "type": "node",
-  "id": 8043245563,
-  "lat": -34.5361221,
-  "lon": -58.4676149
-},
-{
-  "type": "node",
-  "id": 12270301009,
-  "lat": -34.5361521,
-  "lon": -58.4677124
-},
-{
-  "type": "node",
-  "id": 12270301010,
-  "lat": -34.5361217,
-  "lon": -58.4677358
-},
-{
-  "type": "node",
-  "id": 12270301014,
-  "lat": -34.5361670,
-  "lon": -58.4676452
-},
-{
-  "type": "node",
-  "id": 12270301015,
-  "lat": -34.5361770,
-  "lon": -58.4676485
-},
-{
-  "type": "node",
-  "id": 12270301016,
-  "lat": -34.5361877,
-  "lon": -58.4676689
-},
-{
-  "type": "node",
-  "id": 12270301017,
-  "lat": -34.5361860,
-  "lon": -58.4676812
-},
-{
-  "type": "node",
-  "id": 12270301018,
-  "lat": -34.5361570,
-  "lon": -58.4676480
-},
-{
-  "type": "node",
-  "id": 12270301019,
-  "lat": -34.5361797,
-  "lon": -58.4676910
-},
-{
-  "type": "node",
-  "id": 12270301020,
-  "lat": -34.5361845,
-  "lon": -58.4676571
-},
-{
-  "type": "node",
-  "id": 12270301021,
-  "lat": -34.5360240,
-  "lon": -58.4677204
-},
-{
-  "type": "node",
-  "id": 12270301022,
-  "lat": -34.5360469,
-  "lon": -58.4677640
-},
-{
-  "type": "node",
-  "id": 12270301023,
-  "lat": -34.5360338,
-  "lon": -58.4677433
-},
-{
-  "type": "node",
-  "id": 12270301024,
-  "lat": -34.5361445,
-  "lon": -58.4676576
-},
-{
-  "type": "node",
-  "id": 12270301025,
-  "lat": -34.5360175,
-  "lon": -58.4676958
-},
-{
-  "type": "node",
-  "id": 12270301026,
-  "lat": -34.5360625,
-  "lon": -58.4677815
 },
 {
   "type": "node",

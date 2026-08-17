@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-16T23:18:35Z",
-    "timestamp_areas_base": "2026-08-15T16:48:19Z",
+    "timestamp_osm_base": "2026-08-17T23:21:34Z",
+    "timestamp_areas_base": "2026-08-16T15:27:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23621,14 +23621,20 @@
 {
   "type": "node",
   "id": 3531524594,
-  "lat": -34.9312817,
-  "lon": -57.9628867,
+  "lat": -34.9309859,
+  "lon": -57.9629095,
   "tags": {
+    "addr:city": "La Plata",
     "addr:housenumber": "1374",
+    "addr:postcode": "1900",
     "addr:street": "Calle 54",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
     "healthcare": "pharmacy",
-    "name": "Sánchez"
+    "name": "Sánchez",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-13:00",
+    "phone": "+5492214572753"
   }
 },
 {
@@ -118482,6 +118488,29 @@
 },
 {
   "type": "way",
+  "id": 1082565676,
+  "nodes": [
+    4551046627,
+    4551046675,
+    9921369726,
+    4551046630,
+    4551046627
+  ],
+  "tags": {
+    "addr:city": "San Salvador de Jujuy",
+    "addr:housenumber": "523",
+    "addr:postcode": "4600",
+    "addr:street": "General Belgrano",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "building": "commercial",
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
+  "type": "way",
   "id": 1092453623,
   "nodes": [
     10005095273,
@@ -148768,6 +148797,30 @@
   "id": 5087835105,
   "lat": -24.2351807,
   "lon": -65.2607668
+},
+{
+  "type": "node",
+  "id": 4551046627,
+  "lat": -24.1848449,
+  "lon": -65.3005678
+},
+{
+  "type": "node",
+  "id": 4551046630,
+  "lat": -24.1848382,
+  "lon": -65.3004759
+},
+{
+  "type": "node",
+  "id": 4551046675,
+  "lat": -24.1851663,
+  "lon": -65.3005515
+},
+{
+  "type": "node",
+  "id": 9921369726,
+  "lat": -24.1851644,
+  "lon": -65.3004593
 },
 {
   "type": "node",
