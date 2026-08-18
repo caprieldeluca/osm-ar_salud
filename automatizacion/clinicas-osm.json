@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-17T23:20:35Z",
-    "timestamp_areas_base": "2026-08-17T02:03:30Z",
+    "timestamp_osm_base": "2026-08-18T23:18:41Z",
+    "timestamp_areas_base": "2026-08-18T03:56:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -42192,13 +42192,16 @@
   "lat": -31.5427015,
   "lon": -68.5229527,
   "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "139",
+    "addr:street": "9 de Julio",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/imoquality.medicina",
     "contact:whatsapp": "+54 264 5899092",
     "email": "imoquality@gmail.com",
-    "name": "Imo Quality",
+    "name": "Imo Quality AMIOX SAS",
     "opening_hours": "Mo-Fr 09:00-18:00; We 08:00-20:00",
-    "phone": "+54 264 4223392; +54 264 4226841"
+    "phone": "+54 264 4223392;+54 264 4226841"
   }
 },
 {
@@ -49433,6 +49436,24 @@
     "opening_hours": "Mo-Fr 09:00-20:00; PH off",
     "phone": "+54 11 5813-0670",
     "website": "https://clinicadelrio.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 14103159554,
+  "lat": -31.4426000,
+  "lon": -64.1967869,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "2311",
+    "addr:street": "Avenida Vélez Sarsfield",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Ministerio de Salud Gobierno de La Provincia Córdoba",
+    "operator": "Ministerio de Salud",
+    "operator:short": "MSAL",
+    "operator:type": "government",
+    "operator:wikidata": "Q5420596"
   }
 },
 {
@@ -75536,6 +75557,67 @@
   }
 },
 {
+  "type": "way",
+  "id": 1550597542,
+  "nodes": [
+    14103316398,
+    14103316399,
+    14103316400,
+    14103336101,
+    14103316398
+  ],
+  "tags": {
+    "addr:city": "Salta",
+    "addr:housenumber": "442",
+    "addr:street": "Eusebio Mollinedo",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "LABTEC Salta"
+  }
+},
+{
+  "type": "way",
+  "id": 1550598595,
+  "nodes": [
+    14103346177,
+    14103346178,
+    9760853822,
+    9760853825,
+    9760853826,
+    14103346177
+  ],
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1078",
+    "addr:street": "Entre Ríos",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CeMCo Centro Modelo de Coloproctologia"
+  }
+},
+{
+  "type": "way",
+  "id": 1550641045,
+  "nodes": [
+    14103690692,
+    14103690693,
+    14103690694,
+    14103690695,
+    14103690692
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1477",
+    "addr:street": "Avenida Pueyrredón",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "ECCO SAU"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -82454,6 +82536,36 @@
   "id": 9704313894,
   "lat": -38.9479741,
   "lon": -68.0408461
+},
+{
+  "type": "node",
+  "id": 9760853822,
+  "lat": -38.9434722,
+  "lon": -68.0510759
+},
+{
+  "type": "node",
+  "id": 9760853825,
+  "lat": -38.9433016,
+  "lon": -68.0510749
+},
+{
+  "type": "node",
+  "id": 9760853826,
+  "lat": -38.9433000,
+  "lon": -68.0507523
+},
+{
+  "type": "node",
+  "id": 14103346177,
+  "lat": -38.9432999,
+  "lon": -68.0507485
+},
+{
+  "type": "node",
+  "id": 14103346178,
+  "lat": -38.9434710,
+  "lon": -68.0507512
 },
 {
   "type": "node",
@@ -110531,6 +110643,30 @@
 },
 {
   "type": "node",
+  "id": 14103690692,
+  "lat": -34.5939307,
+  "lon": -58.4019354
+},
+{
+  "type": "node",
+  "id": 14103690693,
+  "lat": -34.5939839,
+  "lon": -58.4019575
+},
+{
+  "type": "node",
+  "id": 14103690694,
+  "lat": -34.5940538,
+  "lon": -58.4017354
+},
+{
+  "type": "node",
+  "id": 14103690695,
+  "lat": -34.5939956,
+  "lon": -58.4017098
+},
+{
+  "type": "node",
   "id": 4352534691,
   "lat": -34.6049129,
   "lon": -58.3710179
@@ -117680,6 +117816,30 @@
   "id": 5133394605,
   "lat": -24.7780042,
   "lon": -65.4050424
+},
+{
+  "type": "node",
+  "id": 14103316398,
+  "lat": -24.7817975,
+  "lon": -65.4081174
+},
+{
+  "type": "node",
+  "id": 14103316399,
+  "lat": -24.7818706,
+  "lon": -65.4081241
+},
+{
+  "type": "node",
+  "id": 14103316400,
+  "lat": -24.7818754,
+  "lon": -65.4080463
+},
+{
+  "type": "node",
+  "id": 14103336101,
+  "lat": -24.7818036,
+  "lon": -65.4080382
 },
 {
   "type": "node",
