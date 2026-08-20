@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-19T23:21:20Z",
-    "timestamp_areas_base": "2026-08-19T07:53:47Z",
+    "timestamp_osm_base": "2026-08-20T23:26:36Z",
+    "timestamp_areas_base": "2026-08-20T10:02:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -25602,6 +25602,7 @@
     "addr:postcode": "3360",
     "addr:street": "Avenida Libertad",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "San José",
     "opening_hours": "Mo-Fr 08:00-12:15,16:00-21:00, Sa 08:00-12:30",
@@ -39270,8 +39271,7 @@
   "lon": -58.6731753,
   "tags": {
     "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -54121,7 +54121,7 @@
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Estilo Salud",
+    "name": "FarmaPlus",
     "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-20:00; Su 09:00-18:00",
     "phone": "3922-5483"
   }
@@ -69155,9 +69155,12 @@
 {
   "type": "node",
   "id": 7546234242,
-  "lat": -31.4040300,
-  "lon": -64.2173597,
+  "lat": -31.4040685,
+  "lon": -64.2173231,
   "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "142",
+    "addr:street": "Monseñor Miguel de Andrea",
     "amenity": "pharmacy",
     "dispensing": "yes",
     "healthcare": "pharmacy",
@@ -76439,6 +76442,7 @@
   "lon": -64.2173707,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "name": "Pittavino"
   }
 },
@@ -76467,6 +76471,7 @@
   "lon": -64.2179937,
   "tags": {
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "name": "Tenllado II",
     "phone": "+54 351 489 8037"
   }
@@ -108097,8 +108102,13 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "apartments",
+    "check_date": "2026-08-18",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "yes"
   }
 },
 {

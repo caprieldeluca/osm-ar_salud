@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-19T23:20:13Z",
-    "timestamp_areas_base": "2026-08-19T07:53:47Z",
+    "timestamp_osm_base": "2026-08-20T23:24:35Z",
+    "timestamp_areas_base": "2026-08-20T10:02:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3574,8 +3574,9 @@
   "lon": -64.4641667,
   "tags": {
     "addr:city": "Cosquín",
+    "addr:housenumber": "540",
     "addr:postcode": "5166",
-    "addr:street": "Sarmiento 540",
+    "addr:street": "Sarmiento",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Privada Sarmiento"
@@ -10370,8 +10371,8 @@
 {
   "type": "node",
   "id": 4708860184,
-  "lat": -34.5853320,
-  "lon": -58.4159188,
+  "lat": -34.5852930,
+  "lon": -58.4159880,
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
@@ -11645,6 +11646,9 @@
   "lat": -42.9162290,
   "lon": -71.3193449,
   "tags": {
+    "addr:city": "Esquel",
+    "addr:housenumber": "928",
+    "addr:street": "Avenida Ameghino",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clinica Modelo"
@@ -75620,6 +75624,109 @@
   }
 },
 {
+  "type": "way",
+  "id": 1551132110,
+  "nodes": [
+    4633484904,
+    14108026875,
+    14108026876,
+    14108026877,
+    4633484904
+  ],
+  "tags": {
+    "addr:city": "Temperley",
+    "addr:housenumber": "9932",
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "OFTALSUR"
+  }
+},
+{
+  "type": "way",
+  "id": 1551132778,
+  "nodes": [
+    14108046118,
+    14108046119,
+    14108046120,
+    14108046121,
+    14108046118
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "3050",
+    "addr:street": "Avenida Octavio Pinto",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "NMG Asistencia Medica"
+  }
+},
+{
+  "type": "way",
+  "id": 1551135343,
+  "nodes": [
+    14108035359,
+    14108035360,
+    14108035361,
+    14108035362,
+    14108035359
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "3606",
+    "addr:street": "Fernando Fader",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Nahás"
+  }
+},
+{
+  "type": "way",
+  "id": 1551149031,
+  "nodes": [
+    14108102734,
+    14108102735,
+    14108102736,
+    14108102737,
+    14108102738,
+    14108102739,
+    11866284826,
+    14108102734
+  ],
+  "tags": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "100",
+    "addr:street": "Avenida Manuel Belgrano",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sanatorio San Carlos - Sede Belgrano"
+  }
+},
+{
+  "type": "way",
+  "id": 1551149566,
+  "nodes": [
+    14108132656,
+    14108132657,
+    14108132658,
+    14108132659,
+    14108132656
+  ],
+  "tags": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "813",
+    "addr:street": "Avenida Perito Moreno",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CIGEBA"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -76748,6 +76855,72 @@
   "id": 3093248605,
   "lat": -41.1327429,
   "lon": -71.3207160
+},
+{
+  "type": "node",
+  "id": 11866284826,
+  "lat": -41.1366241,
+  "lon": -71.3120810
+},
+{
+  "type": "node",
+  "id": 14108102734,
+  "lat": -41.1366479,
+  "lon": -71.3120766
+},
+{
+  "type": "node",
+  "id": 14108102735,
+  "lat": -41.1370075,
+  "lon": -71.3121329
+},
+{
+  "type": "node",
+  "id": 14108102736,
+  "lat": -41.1370540,
+  "lon": -71.3118433
+},
+{
+  "type": "node",
+  "id": 14108102737,
+  "lat": -41.1367772,
+  "lon": -71.3117843
+},
+{
+  "type": "node",
+  "id": 14108102738,
+  "lat": -41.1367974,
+  "lon": -71.3116046
+},
+{
+  "type": "node",
+  "id": 14108102739,
+  "lat": -41.1366837,
+  "lon": -71.3115816
+},
+{
+  "type": "node",
+  "id": 14108132656,
+  "lat": -41.1359984,
+  "lon": -71.2984244
+},
+{
+  "type": "node",
+  "id": 14108132657,
+  "lat": -41.1360348,
+  "lon": -71.2984291
+},
+{
+  "type": "node",
+  "id": 14108132658,
+  "lat": -41.1360430,
+  "lon": -71.2983489
+},
+{
+  "type": "node",
+  "id": 14108132659,
+  "lat": -41.1360074,
+  "lon": -71.2983415
 },
 {
   "type": "node",
@@ -95933,6 +96106,30 @@
 },
 {
   "type": "node",
+  "id": 14108035359,
+  "lat": -31.3788961,
+  "lon": -64.2274800
+},
+{
+  "type": "node",
+  "id": 14108035360,
+  "lat": -31.3790839,
+  "lon": -64.2272976
+},
+{
+  "type": "node",
+  "id": 14108035361,
+  "lat": -31.3789877,
+  "lon": -64.2271366
+},
+{
+  "type": "node",
+  "id": 14108035362,
+  "lat": -31.3787885,
+  "lon": -64.2273244
+},
+{
+  "type": "node",
   "id": 6474223240,
   "lat": -31.3650759,
   "lon": -64.2384265
@@ -96032,6 +96229,30 @@
   "id": 10948097217,
   "lat": -31.3584699,
   "lon": -64.2473855
+},
+{
+  "type": "node",
+  "id": 14108046118,
+  "lat": -31.3852943,
+  "lon": -64.2195042
+},
+{
+  "type": "node",
+  "id": 14108046119,
+  "lat": -31.3853332,
+  "lon": -64.2194184
+},
+{
+  "type": "node",
+  "id": 14108046120,
+  "lat": -31.3851386,
+  "lon": -64.2193138
+},
+{
+  "type": "node",
+  "id": 14108046121,
+  "lat": -31.3851088,
+  "lon": -64.2194050
 },
 {
   "type": "node",
@@ -106760,6 +106981,30 @@
   "id": 5280779955,
   "lat": -34.7042153,
   "lon": -58.4234508
+},
+{
+  "type": "node",
+  "id": 4633484904,
+  "lat": -34.7715230,
+  "lon": -58.4047392
+},
+{
+  "type": "node",
+  "id": 14108026875,
+  "lat": -34.7715794,
+  "lon": -58.4047471
+},
+{
+  "type": "node",
+  "id": 14108026876,
+  "lat": -34.7716152,
+  "lon": -58.4043783
+},
+{
+  "type": "node",
+  "id": 14108026877,
+  "lat": -34.7715547,
+  "lon": -58.4043708
 },
 {
   "type": "node",
