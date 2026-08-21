@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-20T23:24:35Z",
-    "timestamp_areas_base": "2026-08-20T10:02:43Z",
+    "timestamp_osm_base": "2026-08-21T23:20:36Z",
+    "timestamp_areas_base": "2026-08-21T04:37:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45725,20 +45725,6 @@
 },
 {
   "type": "node",
-  "id": 11493126100,
-  "lat": -31.4192199,
-  "lon": -64.5036726,
-  "tags": {
-    "addr:city": "Villa Carlos Paz",
-    "addr:housenumber": "75",
-    "addr:street": "Pellegrini",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Sanatorio San Roque Privado"
-  }
-},
-{
-  "type": "node",
   "id": 11497405454,
   "lat": -38.0868457,
   "lon": -57.5436622,
@@ -49400,20 +49386,6 @@
 },
 {
   "type": "node",
-  "id": 14092889492,
-  "lat": -34.6006398,
-  "lon": -58.4491379,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:housenumber": "335",
-    "addr:street": "Doctor Luis Belaustegui",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Grupo Argentina Salud"
-  }
-},
-{
-  "type": "node",
   "id": 14096615581,
   "lat": -34.4705470,
   "lon": -58.5126513,
@@ -49442,24 +49414,6 @@
     "opening_hours": "Mo-Fr 09:00-20:00; PH off",
     "phone": "+54 11 5813-0670",
     "website": "https://clinicadelrio.com.ar/"
-  }
-},
-{
-  "type": "node",
-  "id": 14103159554,
-  "lat": -31.4426000,
-  "lon": -64.1967869,
-  "tags": {
-    "addr:city": "Córdoba",
-    "addr:housenumber": "2311",
-    "addr:street": "Avenida Vélez Sarsfield",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Ministerio de Salud Gobierno de La Provincia Córdoba",
-    "operator": "Ministerio de Salud",
-    "operator:short": "MSAL",
-    "operator:type": "government",
-    "operator:wikidata": "Q5420596"
   }
 },
 {
@@ -51873,6 +51827,36 @@
     "operator": "Clinica Independencia S.A.",
     "phone": "+54 2317 511952;+54 2317 431038",
     "wikidata": "Q93820763"
+  }
+},
+{
+  "type": "way",
+  "id": 327007589,
+  "nodes": [
+    3337200051,
+    3337200052,
+    3337200057,
+    3337200053,
+    3337200054,
+    9501855488,
+    9501855490,
+    9501855489,
+    9501855487,
+    3337200055,
+    3337200051
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "2311",
+    "addr:street": "Avenida Vélez Sarsfield",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Ministerio de Salud Gobierno de La Provincia Córdoba",
+    "operator": "Ministerio de Salud",
+    "operator:short": "MSAL",
+    "operator:type": "government",
+    "operator:wikidata": "Q5420596"
   }
 },
 {
@@ -75727,6 +75711,89 @@
   }
 },
 {
+  "type": "way",
+  "id": 1551314784,
+  "nodes": [
+    14109980672,
+    14109980673,
+    14109980674,
+    14109980675,
+    14109980672
+  ],
+  "tags": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "75",
+    "addr:street": "Carlos Pellegrini",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sanatorio San Roque Privado"
+  }
+},
+{
+  "type": "way",
+  "id": 1551315096,
+  "nodes": [
+    14109960996,
+    14109960997,
+    14109960998,
+    14109960999,
+    14109960996
+  ],
+  "tags": {
+    "addr:city": "San Miguel de Tucumán",
+    "addr:housenumber": "279",
+    "addr:street": "9 de Julio de 1816",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Mayo"
+  }
+},
+{
+  "type": "way",
+  "id": 1551349021,
+  "nodes": [
+    14110391052,
+    14110391053,
+    14110391054,
+    14110391055,
+    14110391056,
+    14110391057,
+    14110391058,
+    14110391052
+  ],
+  "tags": {
+    "addr:city": "Freyre",
+    "addr:housenumber": "1203",
+    "addr:street": "Bv. 25 de Mayo",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Sanatorio Mayo"
+  }
+},
+{
+  "type": "way",
+  "id": 1551352830,
+  "nodes": [
+    14110425946,
+    14110425947,
+    14110425948,
+    14110425949,
+    14110425946
+  ],
+  "tags": {
+    "addr:city": "Freyre",
+    "addr:housenumber": "367",
+    "addr:street": "San Martín",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Policlínico Privado Freyre"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -95554,6 +95621,66 @@
 },
 {
   "type": "node",
+  "id": 3337200051,
+  "lat": -31.4424164,
+  "lon": -64.1969011
+},
+{
+  "type": "node",
+  "id": 3337200052,
+  "lat": -31.4424471,
+  "lon": -64.1967644
+},
+{
+  "type": "node",
+  "id": 3337200053,
+  "lat": -31.4427056,
+  "lon": -64.1961292
+},
+{
+  "type": "node",
+  "id": 3337200054,
+  "lat": -31.4434481,
+  "lon": -64.1963661
+},
+{
+  "type": "node",
+  "id": 3337200055,
+  "lat": -31.4432692,
+  "lon": -64.1971638
+},
+{
+  "type": "node",
+  "id": 3337200057,
+  "lat": -31.4425523,
+  "lon": -64.1967963
+},
+{
+  "type": "node",
+  "id": 9501855487,
+  "lat": -31.4433243,
+  "lon": -64.1969182
+},
+{
+  "type": "node",
+  "id": 9501855488,
+  "lat": -31.4434026,
+  "lon": -64.1965591
+},
+{
+  "type": "node",
+  "id": 9501855489,
+  "lat": -31.4427109,
+  "lon": -64.1967206
+},
+{
+  "type": "node",
+  "id": 9501855490,
+  "lat": -31.4427938,
+  "lon": -64.1963672
+},
+{
+  "type": "node",
   "id": 3586856827,
   "lat": -31.4776636,
   "lon": -64.0856783
@@ -95629,6 +95756,30 @@
   "id": 11356832976,
   "lat": -31.4160266,
   "lon": -64.5015485
+},
+{
+  "type": "node",
+  "id": 14109980672,
+  "lat": -31.4192213,
+  "lon": -64.5037551
+},
+{
+  "type": "node",
+  "id": 14109980673,
+  "lat": -31.4190565,
+  "lon": -64.5036022
+},
+{
+  "type": "node",
+  "id": 14109980674,
+  "lat": -31.4192327,
+  "lon": -64.5033555
+},
+{
+  "type": "node",
+  "id": 14109980675,
+  "lat": -31.4193952,
+  "lon": -64.5035217
 },
 {
   "type": "node",
@@ -101173,6 +101324,72 @@
   "id": 13410032804,
   "lat": -31.3009611,
   "lon": -62.1321354
+},
+{
+  "type": "node",
+  "id": 14110391052,
+  "lat": -31.1699203,
+  "lon": -62.1017812
+},
+{
+  "type": "node",
+  "id": 14110391053,
+  "lat": -31.1700718,
+  "lon": -62.1018134
+},
+{
+  "type": "node",
+  "id": 14110391054,
+  "lat": -31.1700993,
+  "lon": -62.1016739
+},
+{
+  "type": "node",
+  "id": 14110391055,
+  "lat": -31.1700672,
+  "lon": -62.1016712
+},
+{
+  "type": "node",
+  "id": 14110391056,
+  "lat": -31.1700879,
+  "lon": -62.1015720
+},
+{
+  "type": "node",
+  "id": 14110391057,
+  "lat": -31.1699460,
+  "lon": -62.1015378
+},
+{
+  "type": "node",
+  "id": 14110391058,
+  "lat": -31.1699049,
+  "lon": -62.1017856
+},
+{
+  "type": "node",
+  "id": 14110425946,
+  "lat": -31.1618003,
+  "lon": -62.0989084
+},
+{
+  "type": "node",
+  "id": 14110425947,
+  "lat": -31.1619541,
+  "lon": -62.0989379
+},
+{
+  "type": "node",
+  "id": 14110425948,
+  "lat": -31.1620184,
+  "lon": -62.0985732
+},
+{
+  "type": "node",
+  "id": 14110425949,
+  "lat": -31.1618600,
+  "lon": -62.0985356
 },
 {
   "type": "node",
@@ -117397,6 +117614,30 @@
   "id": 7552361871,
   "lat": -27.6266584,
   "lon": -60.7487668
+},
+{
+  "type": "node",
+  "id": 14109960996,
+  "lat": -26.8342859,
+  "lon": -65.2057889
+},
+{
+  "type": "node",
+  "id": 14109960997,
+  "lat": -26.8344248,
+  "lon": -65.2058184
+},
+{
+  "type": "node",
+  "id": 14109960998,
+  "lat": -26.8344569,
+  "lon": -65.2056600
+},
+{
+  "type": "node",
+  "id": 14109960999,
+  "lat": -26.8343154,
+  "lon": -65.2056255
 },
 {
   "type": "node",
