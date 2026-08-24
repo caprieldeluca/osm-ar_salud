@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-23T23:18:19Z",
-    "timestamp_areas_base": "2026-08-22T22:50:01Z",
+    "timestamp_osm_base": "2026-08-24T23:19:59Z",
+    "timestamp_areas_base": "2026-08-24T05:10:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7027,10 +7027,11 @@
 {
   "type": "node",
   "id": 4248922163,
-  "lat": -30.2016451,
-  "lon": -67.4537095,
+  "lat": -30.2016755,
+  "lon": -67.4537809,
   "tags": {
-    "amenity": "clinic"
+    "amenity": "clinic",
+    "name": "Primeros Auxilios"
   }
 },
 {
@@ -42198,9 +42199,6 @@
   "lat": -31.5427015,
   "lon": -68.5229527,
   "tags": {
-    "addr:city": "San Juan",
-    "addr:housenumber": "139",
-    "addr:street": "9 de Julio",
     "amenity": "clinic",
     "contact:facebook": "https://www.facebook.com/imoquality.medicina",
     "contact:whatsapp": "+54 264 5899092",
@@ -49414,6 +49412,26 @@
     "opening_hours": "Mo-Fr 09:00-20:00; PH off",
     "phone": "+54 11 5813-0670",
     "website": "https://clinicadelrio.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 14119435988,
+  "lat": -28.2850085,
+  "lon": -67.1562709,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Posta Sanitaria"
+  }
+},
+{
+  "type": "node",
+  "id": 14120678899,
+  "lat": -30.6840694,
+  "lon": -66.3954315,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro de Salud"
   }
 },
 {
@@ -75794,6 +75812,34 @@
   }
 },
 {
+  "type": "way",
+  "id": 1552005995,
+  "nodes": [
+    14119279431,
+    14119279432,
+    14119279433,
+    14119279434,
+    14119279435,
+    14119279436,
+    14119279437,
+    14119279438,
+    14119279439,
+    14119279440,
+    14119279441,
+    14119279442,
+    14119279431
+  ],
+  "tags": {
+    "addr:city": "Brinkmann",
+    "addr:housenumber": "497",
+    "addr:street": "San Justo",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Privada San Justo"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -101774,6 +101820,78 @@
   "id": 5364254884,
   "lat": -31.6083709,
   "lon": -60.6895387
+},
+{
+  "type": "node",
+  "id": 14119279431,
+  "lat": -30.8654449,
+  "lon": -62.0303804
+},
+{
+  "type": "node",
+  "id": 14119279432,
+  "lat": -30.8650949,
+  "lon": -62.0302838
+},
+{
+  "type": "node",
+  "id": 14119279433,
+  "lat": -30.8650305,
+  "lon": -62.0306057
+},
+{
+  "type": "node",
+  "id": 14119279434,
+  "lat": -30.8651041,
+  "lon": -62.0306298
+},
+{
+  "type": "node",
+  "id": 14119279435,
+  "lat": -30.8651133,
+  "lon": -62.0305601
+},
+{
+  "type": "node",
+  "id": 14119279436,
+  "lat": -30.8651364,
+  "lon": -62.0305681
+},
+{
+  "type": "node",
+  "id": 14119279437,
+  "lat": -30.8651433,
+  "lon": -62.0305091
+},
+{
+  "type": "node",
+  "id": 14119279438,
+  "lat": -30.8652031,
+  "lon": -62.0305306
+},
+{
+  "type": "node",
+  "id": 14119279439,
+  "lat": -30.8651985,
+  "lon": -62.0305547
+},
+{
+  "type": "node",
+  "id": 14119279440,
+  "lat": -30.8652377,
+  "lon": -62.0305654
+},
+{
+  "type": "node",
+  "id": 14119279441,
+  "lat": -30.8652469,
+  "lon": -62.0305011
+},
+{
+  "type": "node",
+  "id": 14119279442,
+  "lat": -30.8654150,
+  "lon": -62.0305493
 },
 {
   "type": "node",
