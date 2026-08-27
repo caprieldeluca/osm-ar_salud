@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-25T23:22:29Z",
-    "timestamp_areas_base": "2026-08-25T05:16:26Z",
+    "timestamp_osm_base": "2026-08-27T04:14:07Z",
+    "timestamp_areas_base": "2026-08-26T03:11:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -66425,7 +66425,8 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Centro Modular Sanitario 18"
+    "layer": "1",
+    "name": "Centro Modular Sanitario N°18"
   }
 },
 {
@@ -75840,6 +75841,35 @@
   }
 },
 {
+  "type": "way",
+  "id": 1552592727,
+  "nodes": [
+    13700001541,
+    14123952006,
+    14125591840,
+    14123952005,
+    13700001542,
+    13700001541
+  ],
+  "tags": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "590",
+    "addr:postcode": "R8400",
+    "addr:street": "Avenida Ángel Gallardo",
+    "amenity": "clinic",
+    "building": "commercial",
+    "email": "imagenesmedicas.turnos@gmail.com",
+    "healthcare": "clinic",
+    "healthcare:speciality": "radiology",
+    "name": "Imágenes Médicas",
+    "opening_hours": "Lunes a Viernes 8:00 - 20:00hs",
+    "operator": "Dr. Pinto y Dr. Azlor",
+    "operator:type": "private",
+    "website": "https://imagenesmedicasbrc.ar/",
+    "wheelchair": "designated"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -77013,6 +77043,18 @@
 },
 {
   "type": "node",
+  "id": 13700001541,
+  "lat": -41.1374991,
+  "lon": -71.3019398
+},
+{
+  "type": "node",
+  "id": 13700001542,
+  "lat": -41.1374703,
+  "lon": -71.3022343
+},
+{
+  "type": "node",
   "id": 14108132656,
   "lat": -41.1359984,
   "lon": -71.2984244
@@ -77034,6 +77076,24 @@
   "id": 14108132659,
   "lat": -41.1360074,
   "lon": -71.2983415
+},
+{
+  "type": "node",
+  "id": 14123952005,
+  "lat": -41.1373185,
+  "lon": -71.3022081
+},
+{
+  "type": "node",
+  "id": 14123952006,
+  "lat": -41.1373470,
+  "lon": -71.3019157
+},
+{
+  "type": "node",
+  "id": 14125591840,
+  "lat": -41.1373333,
+  "lon": -71.3020673
 },
 {
   "type": "node",

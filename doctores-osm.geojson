@@ -12539,6 +12539,45 @@
 },
 {
   "type": "Feature",
+  "id": "way/1552505056",
+  "properties": {
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psychiatry",
+    "name": "Edificio de Salud Mental",
+    "id": "way/1552505056"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.2911652,
+          -36.5973248
+        ],
+        [
+          -64.2909185,
+          -36.5975021
+        ],
+        [
+          -64.2906239,
+          -36.5972479
+        ],
+        [
+          -64.290878,
+          -36.597106
+        ],
+        [
+          -64.2911652,
+          -36.5973248
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/534125484",
   "properties": {
     "addr:city": "Puerto Iguazú",
@@ -17568,7 +17607,7 @@
     "type": "Point",
     "coordinates": [
       -54.5814684,
-      -25.6154806
+      -25.6154431
     ]
   }
 },
@@ -20853,34 +20892,6 @@
     "coordinates": [
       -61.1625112,
       -33.0543708
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5059096050",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "1157",
-    "addr:postcode": "1426",
-    "addr:street": "Avenida Luis María Campos",
-    "addr:suburb": "Palermo",
-    "amenity": "doctors",
-    "email": "info@institutoinepa.com.ar",
-    "healthcare": "doctor",
-    "healthcare:speciality": "psychology",
-    "name": "Instituto de Psicología Argentino",
-    "phone": "+54 11 4777-6300",
-    "short_name": "INEPA",
-    "website": "https://www.institutoinepa.com.ar/",
-    "id": "node/5059096050"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4398352,
-      -34.5656508
     ]
   }
 },
@@ -31573,6 +31584,7 @@
     "name": "Centro de Atención Primaria de la Salud 5",
     "operator": "Municipalidad de General Rodríguez",
     "operator:type": "public",
+    "operator:wikidata": "Q2363248",
     "phone": "+54 237 484-0022",
     "ref:sisa_codigo": "50063642202632",
     "ref:sisa_tipologia": "ESSIDT",
@@ -46638,6 +46650,24 @@
     "coordinates": [
       -56.0245561,
       -28.046755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14124852231",
+  "properties": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psychiatry",
+    "name": "Edificio de Salud Mental",
+    "id": "node/14124852231"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.2909259,
+      -36.5973129
     ]
   }
 }

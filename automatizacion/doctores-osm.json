@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-25T23:24:33Z",
-    "timestamp_areas_base": "2026-08-25T05:16:26Z",
+    "timestamp_osm_base": "2026-08-27T04:16:11Z",
+    "timestamp_areas_base": "2026-08-26T03:11:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3573,7 +3573,7 @@
 {
   "type": "node",
   "id": 4369658366,
-  "lat": -25.6154806,
+  "lat": -25.6154431,
   "lon": -54.5814684,
   "tags": {
     "addr:city": "Puerto Iguazú",
@@ -5901,28 +5901,6 @@
     "amenity": "doctors",
     "healthcare": "doctor",
     "name": "Centro de Salud Barrio Yapeyú"
-  }
-},
-{
-  "type": "node",
-  "id": 5059096050,
-  "lat": -34.5656508,
-  "lon": -58.4398352,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "1157",
-    "addr:postcode": "1426",
-    "addr:street": "Avenida Luis María Campos",
-    "addr:suburb": "Palermo",
-    "amenity": "doctors",
-    "email": "info@institutoinepa.com.ar",
-    "healthcare": "doctor",
-    "healthcare:speciality": "psychology",
-    "name": "Instituto de Psicología Argentino",
-    "phone": "+54 11 4777-6300",
-    "short_name": "INEPA",
-    "website": "https://www.institutoinepa.com.ar/"
   }
 },
 {
@@ -13670,6 +13648,7 @@
     "name": "Centro de Atención Primaria de la Salud 5",
     "operator": "Municipalidad de General Rodríguez",
     "operator:type": "public",
+    "operator:wikidata": "Q2363248",
     "phone": "+54 237 484-0022",
     "ref:sisa_codigo": "50063642202632",
     "ref:sisa_tipologia": "ESSIDT"
@@ -24411,6 +24390,18 @@
   }
 },
 {
+  "type": "node",
+  "id": 14124852231,
+  "lat": -36.5973129,
+  "lon": -64.2909259,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psychiatry",
+    "name": "Edificio de Salud Mental"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -30007,6 +29998,24 @@
   }
 },
 {
+  "type": "way",
+  "id": 1552505056,
+  "nodes": [
+    14124831632,
+    14124831633,
+    14124831634,
+    14124831635,
+    14124831632
+  ],
+  "tags": {
+    "amenity": "doctors",
+    "building": "yes",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psychiatry",
+    "name": "Edificio de Salud Mental"
+  }
+},
+{
   "type": "relation",
   "id": 8052156,
   "members": [
@@ -31657,6 +31666,30 @@
   "id": 5770287876,
   "lat": -36.9448908,
   "lon": -66.9560507
+},
+{
+  "type": "node",
+  "id": 14124831632,
+  "lat": -36.5973248,
+  "lon": -64.2911652
+},
+{
+  "type": "node",
+  "id": 14124831633,
+  "lat": -36.5975021,
+  "lon": -64.2909185
+},
+{
+  "type": "node",
+  "id": 14124831635,
+  "lat": -36.5971060,
+  "lon": -64.2908780
+},
+{
+  "type": "node",
+  "id": 14124831634,
+  "lat": -36.5972479,
+  "lon": -64.2906239
 },
 {
   "type": "node",
