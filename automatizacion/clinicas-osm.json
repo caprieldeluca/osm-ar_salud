@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-03T00:56:51Z",
-    "timestamp_areas_base": "2026-09-02T06:22:41Z",
+    "timestamp_osm_base": "2026-09-04T00:45:49Z",
+    "timestamp_areas_base": "2026-09-03T10:22:36Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4515,6 +4515,9 @@
   "lat": -35.5775468,
   "lon": -58.0111254,
   "tags": {
+    "addr:city": "Chascomús",
+    "addr:housenumber": "364",
+    "addr:street": "Avenida Lastra",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Privada de Chascomús"
@@ -6880,8 +6883,8 @@
 {
   "type": "node",
   "id": 4219892889,
-  "lat": -34.8700704,
-  "lon": -61.5252118,
+  "lat": -34.8699891,
+  "lon": -61.5251799,
   "tags": {
     "addr:city": "Lincoln",
     "addr:country": "AR",
@@ -8428,6 +8431,7 @@
   "lat": -33.8965956,
   "lon": -60.5770413,
   "tags": {
+    "addr:city": "Pergamino",
     "addr:housenumber": "858",
     "addr:street": "Florida",
     "amenity": "clinic",
@@ -8454,7 +8458,9 @@
   "lat": -33.8932402,
   "lon": -60.5751506,
   "tags": {
-    "addr:housenumber": "834",
+    "addr:city": "Pergamino",
+    "addr:housenumber": "840",
+    "addr:postcode": "2700",
     "addr:street": "Pueyrredón",
     "amenity": "clinic",
     "healthcare": "clinic",
@@ -50349,6 +50355,7 @@
     "building": "clinic",
     "check_date": "2024-11-25",
     "contact:phone": "+54 3382 428556",
+    "healthcare": "clinic",
     "healthcare:service": "clinical_laboratory",
     "healthcare:speciality": "general_practitioner",
     "name": "Centro de Trabajo Médico",
@@ -55815,8 +55822,7 @@
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
-    "name": "Semed S.A.",
-    "source": "Reconocimiento terrestre por Kaart 2016"
+    "name": "Semed S.A."
   }
 },
 {
@@ -74837,9 +74843,10 @@
     13752857978,
     13752857980,
     13752857981,
-    14054131689,
+    13901619029,
     13752857983,
     13752857984,
+    14144557483,
     13752857982,
     13752857977
   ],
@@ -75967,6 +75974,25 @@
     "operator:type": "private",
     "website": "https://imagenesmedicasbrc.ar/",
     "wheelchair": "designated"
+  }
+},
+{
+  "type": "way",
+  "id": 1554759642,
+  "nodes": [
+    14144439529,
+    14144439530,
+    14144439531,
+    14144439532,
+    14144439529
+  ],
+  "tags": {
+    "addr:city": "Freyre",
+    "addr:street": "Sarmiento",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario Freyre"
   }
 },
 {
@@ -92611,6 +92637,12 @@
 },
 {
   "type": "node",
+  "id": 13901619029,
+  "lat": -33.6842216,
+  "lon": -65.4664672
+},
+{
+  "type": "node",
   "id": 13950353571,
   "lat": -33.6883000,
   "lon": -65.4674614
@@ -92731,9 +92763,9 @@
 },
 {
   "type": "node",
-  "id": 14054131689,
-  "lat": -33.6842216,
-  "lon": -65.4664672
+  "id": 14144557483,
+  "lat": -33.6841264,
+  "lon": -65.4664683
 },
 {
   "type": "node",
@@ -101656,6 +101688,30 @@
   "id": 14110425949,
   "lat": -31.1618600,
   "lon": -62.0985356
+},
+{
+  "type": "node",
+  "id": 14144439529,
+  "lat": -31.1594396,
+  "lon": -62.0972920
+},
+{
+  "type": "node",
+  "id": 14144439530,
+  "lat": -31.1596123,
+  "lon": -62.0973352
+},
+{
+  "type": "node",
+  "id": 14144439531,
+  "lat": -31.1596281,
+  "lon": -62.0972243
+},
+{
+  "type": "node",
+  "id": 14144439532,
+  "lat": -31.1594587,
+  "lon": -62.0971834
 },
 {
   "type": "node",

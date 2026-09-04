@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-03T00:54:50Z",
-    "timestamp_areas_base": "2026-09-02T06:22:41Z",
+    "timestamp_osm_base": "2026-09-04T00:44:49Z",
+    "timestamp_areas_base": "2026-09-03T10:22:36Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3150,6 +3150,7 @@
   "lon": -59.6925677,
   "tags": {
     "addr:city": "Suipacha",
+    "addr:housenumber": "225",
     "addr:postcode": "6612",
     "addr:street": "Doctor Cusa",
     "amenity": "hospital",
@@ -6357,7 +6358,11 @@
   "lat": -30.9794058,
   "lon": -64.1037402,
   "tags": {
+    "addr:city": "Jesus María",
+    "addr:housenumber": "790",
+    "addr:street": "Doctor Anibal Viale",
     "amenity": "hospital",
+    "emergency": "yes",
     "healthcare": "hospital",
     "name": "Clinica Jesús María"
   }
@@ -6688,6 +6693,8 @@
   "lat": -35.1809637,
   "lon": -58.2254252,
   "tags": {
+    "addr:city": "Coronel Brandsen",
+    "addr:street": "Calle 25",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Municipal Francisco Caram",
@@ -11490,22 +11497,6 @@
   "tags": {
     "amenity": "hospital",
     "healthcare": "hospital"
-  }
-},
-{
-  "type": "node",
-  "id": 4469404062,
-  "lat": -32.0311421,
-  "lon": -60.3189980,
-  "tags": {
-    "addr:city": "Crespo",
-    "addr:housenumber": "123",
-    "addr:postcode": "3116",
-    "addr:street": "America",
-    "amenity": "hospital",
-    "emergency": "yes",
-    "healthcare": "hospital",
-    "name": "Hospital San Francisco de Asis"
   }
 },
 {
@@ -17776,7 +17767,6 @@
   "tags": {
     "addr:city": "Maciel",
     "addr:housenumber": "84",
-    "addr:postcode": "S2208",
     "addr:street": "Bulevar Sarmiento",
     "alt_name": "S.A.M.Co. Maciel",
     "amenity": "hospital",
@@ -18581,11 +18571,14 @@
 {
   "type": "node",
   "id": 7501902749,
-  "lat": -34.8597180,
-  "lon": -57.9043543,
+  "lat": -34.8597257,
+  "lon": -57.9043204,
   "tags": {
+    "addr:city": "Ensenada",
     "addr:full": "La Merced 286",
+    "addr:housenumber": "286",
     "addr:postcode": "1925",
+    "addr:street": "La Merced",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Clinica Instituto Medico De La Ribera",
@@ -19420,7 +19413,7 @@
     "addr:full": "Gral. Olazabal 319",
     "addr:housenumber": "319",
     "addr:postcode": "1714",
-    "addr:street": "Olazabal",
+    "addr:street": "Olazábal",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Sanatorio Del Oeste Ituzaingo",
@@ -22002,6 +21995,7 @@
   "lon": -60.5035025,
   "tags": {
     "addr:city": "Paraná",
+    "addr:housenumber": "281",
     "addr:postcode": "3100",
     "addr:street": "Don Bosco",
     "amenity": "hospital",
@@ -25039,6 +25033,7 @@
     313241140
   ],
   "tags": {
+    "addr:city": "Ciudadela",
     "addr:housenumber": "1650",
     "addr:postcode": "1702",
     "addr:street": "274 - Hipólito Yrigoyen",
@@ -26208,6 +26203,9 @@
     1280523901
   ],
   "tags": {
+    "addr:city": "Monte Hermoso",
+    "addr:housenumber": "1100",
+    "addr:street": "Puerto Madryn",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Doctor Carrillo"
@@ -28597,6 +28595,8 @@
     1982270311
   ],
   "tags": {
+    "addr:city": "Santa María",
+    "addr:street": "Avenida Domingo Funes",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -36286,6 +36286,7 @@
     "alt_name": "Hospital Zonal General Agudos Doctor Erill",
     "amenity": "hospital",
     "building": "yes",
+    "emergency": "no",
     "healthcare": "hospital",
     "name": "Hospital Zonal General de Agudos Dr. Enrique Erill",
     "operator": "Provincial",
@@ -38117,6 +38118,9 @@
     3995791233
   ],
   "tags": {
+    "addr:city": "Arrecifes",
+    "addr:housenumber": "701",
+    "addr:street": "Avenida Carlos Merlassino",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Santa Francisca"
@@ -38465,6 +38469,7 @@
   ],
   "tags": {
     "addr:city": "Berazategui",
+    "addr:housenumber": "147",
     "addr:postcode": "1884",
     "addr:street": "Avenida Otto Bemberg",
     "amenity": "hospital",
@@ -43468,6 +43473,7 @@
   ],
   "tags": {
     "addr:city": "Berazategui",
+    "addr:housenumber": "1531",
     "addr:street": "Calle 148",
     "amenity": "hospital",
     "building:levels": "1",
@@ -44762,7 +44768,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital: \"Gral. M. Belgrano\"",
-    "phone": "+54 3446 480030; +54 3446 480430"
+    "phone": "+54 3446 480030;+54 3446 480430"
   }
 },
 {
@@ -50454,6 +50460,9 @@
     8615961842
   ],
   "tags": {
+    "addr:city": "San Luis",
+    "addr:housenumber": "782",
+    "addr:street": "Autopista de las Serranías Puntanas",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Central de San Luis \"Dr. Ramón Carrillo\""
@@ -51273,10 +51282,12 @@
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
+    "internet_access": "wlan",
     "name": "Hospital Coronel Belisle",
     "operator": "Ministerio de Salud - Gobierno de Río Negro",
     "operator:type": "public",
     "phone": "+54 294 649-2031",
+    "wheelchair": "yes",
     "wikidata": "Q94704892"
   }
 },
@@ -58527,6 +58538,9 @@
     13098293201
   ],
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "2092",
+    "addr:street": "Diagonal 74",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Medicina para la Mujer"
@@ -58623,6 +58637,9 @@
     13098443142
   ],
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "607",
+    "addr:street": "Calle 8",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "CyTEC - Centro de Diagnóstico por Imágenes"
@@ -58704,7 +58721,11 @@
     13098778386
   ],
   "tags": {
+    "addr:city": "General Mansilla",
+    "addr:housenumber": "3039",
+    "addr:street": "25 de Mayo",
     "amenity": "hospital",
+    "emergency": "no",
     "healthcare": "hospital",
     "name": "Consultorio Bavio Salud"
   }
@@ -58720,6 +58741,9 @@
     13098807546
   ],
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "370",
+    "addr:street": "Calle 62",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Instituto de Diagnóstico de La Plata SA"
@@ -58770,6 +58794,9 @@
     13103800954
   ],
   "tags": {
+    "addr:city": "Victoria",
+    "addr:housenumber": "197",
+    "addr:street": "Alem",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Las Colinas Centro Médico de Diagnóstico"
@@ -58786,6 +58813,9 @@
     13103831487
   ],
   "tags": {
+    "addr:city": "Chivilcoy",
+    "addr:housenumber": "182",
+    "addr:street": "9 de Julio",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "M.R.I Buenos Aires Sa"
@@ -58819,6 +58849,9 @@
     13103839661
   ],
   "tags": {
+    "addr:city": "Gualeguaychú",
+    "addr:housenumber": "146",
+    "addr:street": "Alberdi",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "CEDIME"
@@ -58835,6 +58868,9 @@
     13103908746
   ],
   "tags": {
+    "addr:city": "Lisandro Olmos",
+    "addr:housenumber": "825-849",
+    "addr:street": "Calle 191",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Uma Unidad Medica"
@@ -58867,6 +58903,9 @@
     13103953456
   ],
   "tags": {
+    "addr:city": "Colón",
+    "addr:housenumber": "556",
+    "addr:street": "Calle 19",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Cemi - Centro Medicina Integral"
@@ -60248,6 +60287,41 @@
 },
 {
   "type": "way",
+  "id": 1528573614,
+  "nodes": [
+    13929491534,
+    13929491535,
+    13929491536,
+    13929491537,
+    13929491538,
+    13929510650,
+    13929491556,
+    13929491555,
+    13929491554,
+    13929491553,
+    13929491552,
+    13929491551,
+    13929491550,
+    13929491549,
+    13929491548,
+    13929491547,
+    13929491546,
+    13929491545,
+    13929491544,
+    13929491543,
+    13929491542,
+    13929491541,
+    13929491540,
+    13929491539,
+    13929491534
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
   "id": 1530640222,
   "nodes": [
     13950371102,
@@ -60601,6 +60675,30 @@
     "operator": "Ministerio de Salud - Gobierno de La Pampa",
     "operator:type": "public",
     "phone": "+54 233 146-2287;+54 233 146-2057"
+  }
+},
+{
+  "type": "way",
+  "id": 1554863237,
+  "nodes": [
+    14145286554,
+    14145286555,
+    14145286556,
+    14145286557,
+    14145286558,
+    14145286554
+  ],
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3398",
+    "addr:postcode": "S3000",
+    "addr:street": "Estanislao Zeballos",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "medicina_general",
+    "name": "Centro de Salud Barrio San José",
+    "wheelchair": "yes"
   }
 },
 {
@@ -87146,6 +87244,150 @@
 },
 {
   "type": "node",
+  "id": 13929491534,
+  "lat": -33.6647404,
+  "lon": -65.4676884
+},
+{
+  "type": "node",
+  "id": 13929491535,
+  "lat": -33.6651667,
+  "lon": -65.4678041
+},
+{
+  "type": "node",
+  "id": 13929491536,
+  "lat": -33.6652371,
+  "lon": -65.4678285
+},
+{
+  "type": "node",
+  "id": 13929491537,
+  "lat": -33.6656412,
+  "lon": -65.4679522
+},
+{
+  "type": "node",
+  "id": 13929491538,
+  "lat": -33.6657719,
+  "lon": -65.4673357
+},
+{
+  "type": "node",
+  "id": 13929491539,
+  "lat": -33.6645913,
+  "lon": -65.4671639
+},
+{
+  "type": "node",
+  "id": 13929491540,
+  "lat": -33.6645889,
+  "lon": -65.4671285
+},
+{
+  "type": "node",
+  "id": 13929491541,
+  "lat": -33.6645995,
+  "lon": -65.4670875
+},
+{
+  "type": "node",
+  "id": 13929491542,
+  "lat": -33.6646255,
+  "lon": -65.4670478
+},
+{
+  "type": "node",
+  "id": 13929491543,
+  "lat": -33.6646585,
+  "lon": -65.4670280
+},
+{
+  "type": "node",
+  "id": 13929491544,
+  "lat": -33.6647221,
+  "lon": -65.4670323
+},
+{
+  "type": "node",
+  "id": 13929491545,
+  "lat": -33.6648152,
+  "lon": -65.4670592
+},
+{
+  "type": "node",
+  "id": 13929491546,
+  "lat": -33.6648411,
+  "lon": -65.4670733
+},
+{
+  "type": "node",
+  "id": 13929491547,
+  "lat": -33.6650461,
+  "lon": -65.4672389
+},
+{
+  "type": "node",
+  "id": 13929491548,
+  "lat": -33.6651368,
+  "lon": -65.4673111
+},
+{
+  "type": "node",
+  "id": 13929491549,
+  "lat": -33.6651922,
+  "lon": -65.4673423
+},
+{
+  "type": "node",
+  "id": 13929491550,
+  "lat": -33.6652723,
+  "lon": -65.4673692
+},
+{
+  "type": "node",
+  "id": 13929491551,
+  "lat": -33.6654632,
+  "lon": -65.4674216
+},
+{
+  "type": "node",
+  "id": 13929491552,
+  "lat": -33.6655127,
+  "lon": -65.4674202
+},
+{
+  "type": "node",
+  "id": 13929491553,
+  "lat": -33.6655445,
+  "lon": -65.4674060
+},
+{
+  "type": "node",
+  "id": 13929491554,
+  "lat": -33.6655728,
+  "lon": -65.4673848
+},
+{
+  "type": "node",
+  "id": 13929491555,
+  "lat": -33.6655916,
+  "lon": -65.4673522
+},
+{
+  "type": "node",
+  "id": 13929491556,
+  "lat": -33.6656105,
+  "lon": -65.4673111
+},
+{
+  "type": "node",
+  "id": 13929510650,
+  "lat": -33.6656148,
+  "lon": -65.4672890
+},
+{
+  "type": "node",
   "id": 12625796476,
   "lat": -33.6642770,
   "lon": -65.4530100
@@ -100979,6 +101221,36 @@
   "id": 6100008576,
   "lat": -31.6405681,
   "lon": -60.7015363
+},
+{
+  "type": "node",
+  "id": 14145286554,
+  "lat": -31.6029945,
+  "lon": -60.7047497
+},
+{
+  "type": "node",
+  "id": 14145286555,
+  "lat": -31.6031260,
+  "lon": -60.7047893
+},
+{
+  "type": "node",
+  "id": 14145286556,
+  "lat": -31.6032005,
+  "lon": -60.7044590
+},
+{
+  "type": "node",
+  "id": 14145286557,
+  "lat": -31.6030680,
+  "lon": -60.7044194
+},
+{
+  "type": "node",
+  "id": 14145286558,
+  "lat": -31.6030317,
+  "lon": -60.7045891
 },
 {
   "type": "node",

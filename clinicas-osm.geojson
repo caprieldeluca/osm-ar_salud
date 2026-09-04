@@ -2956,6 +2956,7 @@
     "building": "clinic",
     "check_date": "2024-11-25",
     "contact:phone": "+54 3382 428556",
+    "healthcare": "clinic",
     "healthcare:service": "clinical_laboratory",
     "healthcare:speciality": "general_practitioner",
     "name": "Centro de Trabajo Médico",
@@ -14475,7 +14476,6 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Semed S.A.",
-    "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/471970077"
   },
   "geometry": {
@@ -56572,6 +56572,10 @@
           -33.6841502
         ],
         [
+          -65.4664683,
+          -33.6841264
+        ],
+        [
           -65.4668055,
           -33.6840579
         ],
@@ -59302,6 +59306,46 @@
         [
           -71.3019398,
           -41.1374991
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1554759642",
+  "properties": {
+    "addr:city": "Freyre",
+    "addr:street": "Sarmiento",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dispensario Freyre",
+    "id": "way/1554759642"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -62.097292,
+          -31.1594396
+        ],
+        [
+          -62.0973352,
+          -31.1596123
+        ],
+        [
+          -62.0972243,
+          -31.1596281
+        ],
+        [
+          -62.0971834,
+          -31.1594587
+        ],
+        [
+          -62.097292,
+          -31.1594396
         ]
       ]
     ]
@@ -65546,6 +65590,9 @@
   "type": "Feature",
   "id": "node/3701017310",
   "properties": {
+    "addr:city": "Chascomús",
+    "addr:housenumber": "364",
+    "addr:street": "Avenida Lastra",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Privada de Chascomús",
@@ -68865,8 +68912,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -61.5252118,
-      -34.8700704
+      -61.5251799,
+      -34.8699891
     ]
   }
 },
@@ -70977,6 +71024,7 @@
   "type": "Feature",
   "id": "node/4504768037",
   "properties": {
+    "addr:city": "Pergamino",
     "addr:housenumber": "858",
     "addr:street": "Florida",
     "amenity": "clinic",
@@ -71015,7 +71063,9 @@
   "type": "Feature",
   "id": "node/4504769759",
   "properties": {
-    "addr:housenumber": "834",
+    "addr:city": "Pergamino",
+    "addr:housenumber": "840",
+    "addr:postcode": "2700",
     "addr:street": "Pueyrredón",
     "amenity": "clinic",
     "healthcare": "clinic",
