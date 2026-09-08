@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-07T00:41:04Z",
-    "timestamp_areas_base": "2026-09-06T06:53:35Z",
+    "timestamp_osm_base": "2026-09-08T00:54:31Z",
+    "timestamp_areas_base": "2026-09-07T02:39:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11591,8 +11591,8 @@
 {
   "type": "node",
   "id": 5074678522,
-  "lat": -47.4422690,
-  "lon": -70.9255496,
+  "lat": -47.4423017,
+  "lon": -70.9256113,
   "tags": {
     "amenity": "clinic",
     "name": "Enfermería",
@@ -46432,8 +46432,10 @@
     "healthcare:speciality": "general",
     "name": "CAPS Villa Rodríguez Pinto",
     "official_name": "Centro de Atención Primaria de Salud Villa Rodríguez Pinto",
+    "opening_hours": "Mo-Sa 07:00-18:30",
     "operator": "Ministerio de Salud Pública",
-    "operator:type": "public"
+    "operator:type": "public",
+    "wheelchair": "yes"
   }
 },
 {
@@ -49536,6 +49538,24 @@
     "name": "Clínica Santa Teresita",
     "operator": "Clínica Santa Teresita S.A.",
     "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 14159610357,
+  "lat": -31.5074461,
+  "lon": -68.5521985,
+  "tags": {
+    "addr:city": "Chimbas",
+    "addr:housenumber": "1617 (O)",
+    "addr:postcode": "5413",
+    "addr:street": "Patagonia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CAPS San Patricio",
+    "official_name": "Centro de Atención Primaria de Salud San Patricio",
+    "operator": "Ministerio de Salud",
+    "operator:type": "public"
   }
 },
 {
@@ -61120,28 +61140,6 @@
     "name": "Dispensario Municipal  Dr. Santiago Kuzma",
     "operator": "Municipalidad de Salsipuedes",
     "phone": "+54 3543 49 2174"
-  }
-},
-{
-  "type": "way",
-  "id": 706273915,
-  "nodes": [
-    6636478587,
-    6636478588,
-    6636478589,
-    6636478590,
-    6636478587
-  ],
-  "tags": {
-    "addr:city": "Chimbas",
-    "addr:housenumber": "1617 (O)",
-    "addr:postcode": "5413",
-    "addr:street": "Patagonia",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Centro de Salud San Patricio"
   }
 },
 {
@@ -76007,6 +76005,21 @@
   }
 },
 {
+  "type": "way",
+  "id": 1556783421,
+  "nodes": [
+    14159592752,
+    14159592751,
+    14159592750,
+    14159600118,
+    14159600119,
+    14159592752
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -89516,27 +89529,33 @@
 },
 {
   "type": "node",
-  "id": 6636478587,
-  "lat": -31.5073137,
-  "lon": -68.5522537
+  "id": 14159592750,
+  "lat": -31.5073075,
+  "lon": -68.5523989
 },
 {
   "type": "node",
-  "id": 6636478588,
-  "lat": -31.5074320,
-  "lon": -68.5522612
+  "id": 14159592751,
+  "lat": -31.5073202,
+  "lon": -68.5521052
 },
 {
   "type": "node",
-  "id": 6636478589,
-  "lat": -31.5074367,
-  "lon": -68.5521487
+  "id": 14159592752,
+  "lat": -31.5075007,
+  "lon": -68.5521153
 },
 {
   "type": "node",
-  "id": 6636478590,
-  "lat": -31.5073186,
-  "lon": -68.5521405
+  "id": 14159600118,
+  "lat": -31.5075653,
+  "lon": -68.5524204
+},
+{
+  "type": "node",
+  "id": 14159600119,
+  "lat": -31.5074905,
+  "lon": -68.5523198
 },
 {
   "type": "node",

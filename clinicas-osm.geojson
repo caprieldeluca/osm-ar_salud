@@ -25781,49 +25781,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/706273915",
-  "properties": {
-    "addr:city": "Chimbas",
-    "addr:housenumber": "1617 (O)",
-    "addr:postcode": "5413",
-    "addr:street": "Patagonia",
-    "amenity": "clinic",
-    "building": "yes",
-    "building:levels": "1",
-    "healthcare": "clinic",
-    "name": "Centro de Salud San Patricio",
-    "id": "way/706273915"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -68.5522537,
-          -31.5073137
-        ],
-        [
-          -68.5522612,
-          -31.507432
-        ],
-        [
-          -68.5521487,
-          -31.5074367
-        ],
-        [
-          -68.5521405,
-          -31.5073186
-        ],
-        [
-          -68.5522537,
-          -31.5073137
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/708134294",
   "properties": {
     "addr:city": "Quilmes",
@@ -59298,6 +59255,45 @@
 },
 {
   "type": "Feature",
+  "id": "way/1556783421",
+  "properties": {
+    "amenity": "clinic",
+    "id": "way/1556783421"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.5521153,
+          -31.5075007
+        ],
+        [
+          -68.5521052,
+          -31.5073202
+        ],
+        [
+          -68.5523989,
+          -31.5073075
+        ],
+        [
+          -68.5524204,
+          -31.5075653
+        ],
+        [
+          -68.5523198,
+          -31.5074905
+        ],
+        [
+          -68.5521153,
+          -31.5075007
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/420034699",
   "properties": {
     "addr:city": "San Isidro",
@@ -75377,8 +75373,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -70.9255496,
-      -47.442269
+      -70.9256113,
+      -47.4423017
     ]
   }
 },
@@ -122344,8 +122340,10 @@
     "healthcare:speciality": "general",
     "name": "CAPS Villa Rodríguez Pinto",
     "official_name": "Centro de Atención Primaria de Salud Villa Rodríguez Pinto",
+    "opening_hours": "Mo-Sa 07:00-18:30",
     "operator": "Ministerio de Salud Pública",
     "operator:type": "public",
+    "wheelchair": "yes",
     "id": "node/12048394848"
   },
   "geometry": {
@@ -126883,6 +126881,30 @@
     "coordinates": [
       -64.2480953,
       -35.0372842
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14159610357",
+  "properties": {
+    "addr:city": "Chimbas",
+    "addr:housenumber": "1617 (O)",
+    "addr:postcode": "5413",
+    "addr:street": "Patagonia",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CAPS San Patricio",
+    "official_name": "Centro de Atención Primaria de Salud San Patricio",
+    "operator": "Ministerio de Salud",
+    "operator:type": "public",
+    "id": "node/14159610357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5521985,
+      -31.5074461
     ]
   }
 }
