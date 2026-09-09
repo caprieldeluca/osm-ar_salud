@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-08T00:54:31Z",
-    "timestamp_areas_base": "2026-09-07T02:39:53Z",
+    "timestamp_osm_base": "2026-09-09T01:03:19Z",
+    "timestamp_areas_base": "2026-09-08T05:42:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -49559,6 +49559,29 @@
   }
 },
 {
+  "type": "node",
+  "id": 14162306940,
+  "lat": -34.5735413,
+  "lon": -58.5343075,
+  "tags": {
+    "amenity": "clinic",
+    "check_date": "2026-09-03",
+    "healthcare": "clinic",
+    "name": "Sanatorio Modelo de Caseros"
+  }
+},
+{
+  "type": "node",
+  "id": 14162952201,
+  "lat": -33.2992391,
+  "lon": -66.3330607,
+  "tags": {
+    "addr:street": "Maipú",
+    "amenity": "clinic",
+    "name": "CERHU Maternidad"
+  }
+},
+{
   "type": "way",
   "id": 95595836,
   "nodes": [
@@ -69274,6 +69297,7 @@
     "addr:housenumber": "5081",
     "addr:street": "Avenida 44",
     "amenity": "clinic",
+    "building": "yes",
     "healthcare": "clinic",
     "name": "Sinamec Centro Médico Olmos"
   }
@@ -72007,6 +72031,7 @@
     "building": "yes",
     "building:levels": "2",
     "building:material": "brick",
+    "check_date": "2026-09-03",
     "healthcare": "clinic",
     "name": "Consultorio Medico Privado",
     "short_name": "CMP"
@@ -75959,34 +75984,6 @@
 },
 {
   "type": "way",
-  "id": 1552592727,
-  "nodes": [
-    13700001541,
-    14123952006,
-    14125591840,
-    14123952005,
-    13700001542,
-    13700001541
-  ],
-  "tags": {
-    "addr:city": "San Carlos de Bariloche",
-    "addr:housenumber": "590",
-    "addr:postcode": "R8400",
-    "addr:street": "Avenida Ángel Gallardo",
-    "amenity": "clinic",
-    "email": "imagenesmedicas.turnos@gmail.com",
-    "healthcare": "clinic",
-    "healthcare:speciality": "radiology",
-    "name": "Imágenes Médicas",
-    "opening_hours": "Lunes a Viernes 8:00 - 20:00hs",
-    "operator": "Dr. Pinto y Dr. Azlor",
-    "operator:type": "private",
-    "website": "https://imagenesmedicasbrc.ar/",
-    "wheelchair": "designated"
-  }
-},
-{
-  "type": "way",
   "id": 1554759642,
   "nodes": [
     14144439529,
@@ -76017,6 +76014,70 @@
   ],
   "tags": {
     "amenity": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1557236131,
+  "nodes": [
+    13700001541,
+    14161654827,
+    14161654828,
+    14161659140,
+    13700001541
+  ],
+  "tags": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "590",
+    "addr:postcode": "R8400",
+    "addr:street": "Avenida Ángel Gallardo",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:part": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "radiology",
+    "layer": "-1",
+    "name": "Imágenes Médicas - Dr. Pinto / Dr Azlor"
+  }
+},
+{
+  "type": "way",
+  "id": 1557236132,
+  "nodes": [
+    14161654827,
+    14161659118,
+    13700001539,
+    14161654828,
+    14161654827
+  ],
+  "tags": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "481",
+    "addr:postcode": "R8400",
+    "addr:street": "Emilio Frey",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:part": "yes",
+    "healthcare": "clinic",
+    "layer": "-1",
+    "name": "Instituto Médico Integral"
+  }
+},
+{
+  "type": "way",
+  "id": 1557362064,
+  "nodes": [
+    14162859000,
+    14162859001,
+    14162859002,
+    14162859003,
+    14162859000
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "house",
+    "healthcare": "clinic",
+    "name": "SUM - Centro Primario de Salud Castro Barros"
   }
 },
 {
@@ -77253,15 +77314,15 @@
 },
 {
   "type": "node",
-  "id": 13700001541,
-  "lat": -41.1374991,
-  "lon": -71.3019398
+  "id": 13700001539,
+  "lat": -41.1372490,
+  "lon": -71.3021355
 },
 {
   "type": "node",
-  "id": 13700001542,
-  "lat": -41.1374703,
-  "lon": -71.3022343
+  "id": 13700001541,
+  "lat": -41.1375023,
+  "lon": -71.3019157
 },
 {
   "type": "node",
@@ -77289,21 +77350,27 @@
 },
 {
   "type": "node",
-  "id": 14123952005,
-  "lat": -41.1373185,
-  "lon": -71.3022081
+  "id": 14161654827,
+  "lat": -41.1373926,
+  "lon": -71.3018994
 },
 {
   "type": "node",
-  "id": 14123952006,
-  "lat": -41.1373470,
-  "lon": -71.3019157
+  "id": 14161654828,
+  "lat": -41.1373714,
+  "lon": -71.3021510
 },
 {
   "type": "node",
-  "id": 14125591840,
-  "lat": -41.1373333,
-  "lon": -71.3020673
+  "id": 14161659118,
+  "lat": -41.1372714,
+  "lon": -71.3018820
+},
+{
+  "type": "node",
+  "id": 14161659140,
+  "lat": -41.1374812,
+  "lon": -71.3021673
 },
 {
   "type": "node",
@@ -104968,26 +105035,26 @@
 {
   "type": "node",
   "id": 13112454419,
-  "lat": -34.9947914,
-  "lon": -58.0492167
+  "lat": -34.9947937,
+  "lon": -58.0492073
 },
 {
   "type": "node",
   "id": 13112454420,
-  "lat": -34.9949423,
-  "lon": -58.0493593
+  "lat": -34.9948666,
+  "lon": -58.0492884
 },
 {
   "type": "node",
   "id": 13112454421,
-  "lat": -34.9951043,
-  "lon": -58.0491039
+  "lat": -34.9950450,
+  "lon": -58.0490498
 },
 {
   "type": "node",
   "id": 13112454422,
-  "lat": -34.9949535,
-  "lon": -58.0489613
+  "lat": -34.9949722,
+  "lon": -58.0489687
 },
 {
   "type": "node",
@@ -117666,6 +117733,30 @@
   "id": 9900183215,
   "lat": -30.7601752,
   "lon": -57.9808161
+},
+{
+  "type": "node",
+  "id": 14162859000,
+  "lat": -30.5787081,
+  "lon": -65.7278401
+},
+{
+  "type": "node",
+  "id": 14162859001,
+  "lat": -30.5786383,
+  "lon": -65.7278221
+},
+{
+  "type": "node",
+  "id": 14162859002,
+  "lat": -30.5786543,
+  "lon": -65.7277383
+},
+{
+  "type": "node",
+  "id": 14162859003,
+  "lat": -30.5787242,
+  "lon": -65.7277564
 },
 {
   "type": "node",

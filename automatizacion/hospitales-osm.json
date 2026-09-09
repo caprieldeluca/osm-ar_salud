@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-08T00:52:24Z",
-    "timestamp_areas_base": "2026-09-07T02:39:53Z",
+    "timestamp_osm_base": "2026-09-09T01:01:19Z",
+    "timestamp_areas_base": "2026-09-08T04:44:05Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -40083,6 +40083,7 @@
     4602556901,
     4602556902,
     4602556903,
+    14163012115,
     4602556904,
     4602556899
   ],
@@ -50705,45 +50706,6 @@
 },
 {
   "type": "way",
-  "id": 954797258,
-  "nodes": [
-    8837477424,
-    8837477423,
-    8837477422,
-    616070202,
-    8837477421,
-    8837477420,
-    8837477419,
-    8837477418,
-    8837477417,
-    8837427516,
-    8837427515,
-    8837427514,
-    8837427513,
-    8837427512,
-    8837427511,
-    8837427510,
-    8837427509,
-    8837427508,
-    8837427507,
-    8837427506,
-    8837427505,
-    8837477424
-  ],
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "2061",
-    "addr:street": "Avenida Caseros",
-    "amenity": "hospital",
-    "building": "yes",
-    "healthcare": "hospital",
-    "healthcare:speciality": "gastroenterology",
-    "name": "Hospital de Gastroenterología Doctor Carlos Bonorino Udaondo"
-  }
-},
-{
-  "type": "way",
   "id": 967633194,
   "nodes": [
     8952007274,
@@ -60723,6 +60685,31 @@
     "healthcare:speciality": "medicina_general",
     "name": "Centro de Salud Barrio San José",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1557376072,
+  "nodes": [
+    14163011178,
+    14163012110,
+    14163011179,
+    14163012107,
+    14163011180,
+    14163011181,
+    14163012108,
+    14163012109,
+    14163011178
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2061",
+    "addr:street": "Avenida Caseros",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "gastroenterology",
+    "name": "Hospital de Gastroenterología Doctor Carlos Bonorino Udaondo"
   }
 },
 {
@@ -116086,6 +116073,30 @@
 },
 {
   "type": "node",
+  "id": 14163011178,
+  "lat": -34.6325235,
+  "lon": -58.3944848
+},
+{
+  "type": "node",
+  "id": 14163011181,
+  "lat": -34.6347571,
+  "lon": -58.3937511
+},
+{
+  "type": "node",
+  "id": 14163012108,
+  "lat": -34.6347259,
+  "lon": -58.3938230
+},
+{
+  "type": "node",
+  "id": 14163012109,
+  "lat": -34.6326104,
+  "lon": -58.3945487
+},
+{
+  "type": "node",
   "id": 256237219,
   "lat": -34.6304260,
   "lon": -58.3960512
@@ -116107,12 +116118,6 @@
   "id": 235344842,
   "lat": -34.6379440,
   "lon": -58.3902550
-},
-{
-  "type": "node",
-  "id": 616070202,
-  "lat": -34.6340021,
-  "lon": -58.3915801
 },
 {
   "type": "node",
@@ -116224,129 +116229,27 @@
 },
 {
   "type": "node",
-  "id": 8837427505,
-  "lat": -34.6340512,
-  "lon": -58.3917488
-},
-{
-  "type": "node",
-  "id": 8837427506,
-  "lat": -34.6340528,
-  "lon": -58.3917563
-},
-{
-  "type": "node",
-  "id": 8837427507,
-  "lat": -34.6341980,
-  "lon": -58.3917101
-},
-{
-  "type": "node",
-  "id": 8837427508,
-  "lat": -34.6341870,
-  "lon": -58.3916590
-},
-{
-  "type": "node",
-  "id": 8837427509,
-  "lat": -34.6342061,
-  "lon": -58.3916529
-},
-{
-  "type": "node",
-  "id": 8837427510,
-  "lat": -34.6341357,
-  "lon": -58.3913259
-},
-{
-  "type": "node",
-  "id": 8837427511,
-  "lat": -34.6341204,
-  "lon": -58.3913308
-},
-{
-  "type": "node",
-  "id": 8837427512,
-  "lat": -34.6341164,
-  "lon": -58.3913120
-},
-{
-  "type": "node",
-  "id": 8837427513,
-  "lat": -34.6339901,
-  "lon": -58.3913521
-},
-{
-  "type": "node",
-  "id": 8837427514,
-  "lat": -34.6339911,
-  "lon": -58.3913564
-},
-{
-  "type": "node",
-  "id": 8837427515,
-  "lat": -34.6339616,
-  "lon": -58.3913657
-},
-{
-  "type": "node",
-  "id": 8837427516,
-  "lat": -34.6339650,
-  "lon": -58.3913813
-},
-{
-  "type": "node",
-  "id": 8837477417,
-  "lat": -34.6338064,
-  "lon": -58.3914317
-},
-{
-  "type": "node",
-  "id": 8837477418,
-  "lat": -34.6338318,
-  "lon": -58.3915494
-},
-{
-  "type": "node",
-  "id": 8837477419,
-  "lat": -34.6340110,
-  "lon": -58.3914924
-},
-{
-  "type": "node",
-  "id": 8837477420,
-  "lat": -34.6340160,
-  "lon": -58.3915159
-},
-{
-  "type": "node",
-  "id": 8837477421,
-  "lat": -34.6339902,
-  "lon": -58.3915242
-},
-{
-  "type": "node",
-  "id": 8837477422,
-  "lat": -34.6340137,
-  "lon": -58.3916334
-},
-{
-  "type": "node",
-  "id": 8837477423,
-  "lat": -34.6338619,
-  "lon": -58.3916817
-},
-{
-  "type": "node",
-  "id": 8837477424,
-  "lat": -34.6338875,
-  "lon": -58.3918008
-},
-{
-  "type": "node",
   "id": 14074050288,
   "lat": -34.6379691,
   "lon": -58.3902175
+},
+{
+  "type": "node",
+  "id": 14163011180,
+  "lat": -34.6341566,
+  "lon": -58.3910975
+},
+{
+  "type": "node",
+  "id": 14163012107,
+  "lat": -34.6340725,
+  "lon": -58.3910419
+},
+{
+  "type": "node",
+  "id": 14163012115,
+  "lat": -34.6338783,
+  "lon": -58.3874889
 },
 {
   "type": "node",
@@ -116425,6 +116328,18 @@
   "id": 12766980179,
   "lat": -34.6315195,
   "lon": -58.3914505
+},
+{
+  "type": "node",
+  "id": 14163011179,
+  "lat": -34.6318313,
+  "lon": -58.3914588
+},
+{
+  "type": "node",
+  "id": 14163012110,
+  "lat": -34.6317988,
+  "lon": -58.3915325
 },
 {
   "type": "node",

@@ -43439,6 +43439,7 @@
     "addr:housenumber": "5081",
     "addr:street": "Avenida 44",
     "amenity": "clinic",
+    "building": "yes",
     "healthcare": "clinic",
     "name": "Sinamec Centro Médico Olmos",
     "id": "way/1216163899"
@@ -49605,6 +49606,7 @@
     "building": "yes",
     "building:levels": "2",
     "building:material": "brick",
+    "check_date": "2026-09-03",
     "healthcare": "clinic",
     "name": "Consultorio Medico Privado",
     "short_name": "CMP",
@@ -53704,24 +53706,24 @@
     "coordinates": [
       [
         [
-          -58.0492167,
-          -34.9947914
+          -58.0492073,
+          -34.9947937
         ],
         [
-          -58.0493593,
-          -34.9949423
+          -58.0492884,
+          -34.9948666
         ],
         [
-          -58.0491039,
-          -34.9951043
+          -58.0490498,
+          -34.995045
         ],
         [
-          -58.0489613,
-          -34.9949535
+          -58.0489687,
+          -34.9949722
         ],
         [
-          -58.0492167,
-          -34.9947914
+          -58.0492073,
+          -34.9947937
         ]
       ]
     ]
@@ -59163,58 +59165,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/1552592727",
-  "properties": {
-    "addr:city": "San Carlos de Bariloche",
-    "addr:housenumber": "590",
-    "addr:postcode": "R8400",
-    "addr:street": "Avenida Ángel Gallardo",
-    "amenity": "clinic",
-    "email": "imagenesmedicas.turnos@gmail.com",
-    "healthcare": "clinic",
-    "healthcare:speciality": "radiology",
-    "name": "Imágenes Médicas",
-    "opening_hours": "Lunes a Viernes 8:00 - 20:00hs",
-    "operator": "Dr. Pinto y Dr. Azlor",
-    "operator:type": "private",
-    "website": "https://imagenesmedicasbrc.ar/",
-    "wheelchair": "designated",
-    "id": "way/1552592727"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -71.3019398,
-          -41.1374991
-        ],
-        [
-          -71.3019157,
-          -41.137347
-        ],
-        [
-          -71.3020673,
-          -41.1373333
-        ],
-        [
-          -71.3022081,
-          -41.1373185
-        ],
-        [
-          -71.3022343,
-          -41.1374703
-        ],
-        [
-          -71.3019398,
-          -41.1374991
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/1554759642",
   "properties": {
     "addr:city": "Freyre",
@@ -59287,6 +59237,133 @@
         [
           -68.5521153,
           -31.5075007
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1557236131",
+  "properties": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "590",
+    "addr:postcode": "R8400",
+    "addr:street": "Avenida Ángel Gallardo",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:part": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "radiology",
+    "layer": "-1",
+    "name": "Imágenes Médicas - Dr. Pinto / Dr Azlor",
+    "id": "way/1557236131"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.3019157,
+          -41.1375023
+        ],
+        [
+          -71.3018994,
+          -41.1373926
+        ],
+        [
+          -71.302151,
+          -41.1373714
+        ],
+        [
+          -71.3021673,
+          -41.1374812
+        ],
+        [
+          -71.3019157,
+          -41.1375023
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1557236132",
+  "properties": {
+    "addr:city": "San Carlos de Bariloche",
+    "addr:housenumber": "481",
+    "addr:postcode": "R8400",
+    "addr:street": "Emilio Frey",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:part": "yes",
+    "healthcare": "clinic",
+    "layer": "-1",
+    "name": "Instituto Médico Integral",
+    "id": "way/1557236132"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -71.3018994,
+          -41.1373926
+        ],
+        [
+          -71.301882,
+          -41.1372714
+        ],
+        [
+          -71.3021355,
+          -41.137249
+        ],
+        [
+          -71.302151,
+          -41.1373714
+        ],
+        [
+          -71.3018994,
+          -41.1373926
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1557362064",
+  "properties": {
+    "amenity": "clinic",
+    "building": "house",
+    "healthcare": "clinic",
+    "name": "SUM - Centro Primario de Salud Castro Barros",
+    "id": "way/1557362064"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.7278401,
+          -30.5787081
+        ],
+        [
+          -65.7277564,
+          -30.5787242
+        ],
+        [
+          -65.7277383,
+          -30.5786543
+        ],
+        [
+          -65.7278221,
+          -30.5786383
+        ],
+        [
+          -65.7278401,
+          -30.5787081
         ]
       ]
     ]
@@ -126905,6 +126982,41 @@
     "coordinates": [
       -68.5521985,
       -31.5074461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162306940",
+  "properties": {
+    "amenity": "clinic",
+    "check_date": "2026-09-03",
+    "healthcare": "clinic",
+    "name": "Sanatorio Modelo de Caseros",
+    "id": "node/14162306940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5343075,
+      -34.5735413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162952201",
+  "properties": {
+    "addr:street": "Maipú",
+    "amenity": "clinic",
+    "name": "CERHU Maternidad",
+    "id": "node/14162952201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -66.3330607,
+      -33.2992391
     ]
   }
 }
