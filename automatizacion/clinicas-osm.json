@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-11T00:49:21Z",
-    "timestamp_areas_base": "2026-09-10T11:16:36Z",
+    "timestamp_osm_base": "2026-09-12T00:53:59Z",
+    "timestamp_areas_base": "2026-09-11T03:06:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -52477,6 +52477,9 @@
     3805656902
   ],
   "tags": {
+    "addr:city": "Viedma",
+    "addr:housenumber": "170",
+    "addr:street": "Gobernador Gallardo",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -73762,6 +73765,9 @@
     13119421409
   ],
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "381",
+    "addr:street": "Calle 42",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -73779,6 +73785,9 @@
     13119760495
   ],
   "tags": {
+    "addr:city": "Arrecifes",
+    "addr:housenumber": "130",
+    "addr:street": "Avenida Roque Sáenz Peña",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -73830,6 +73839,9 @@
     13127893971
   ],
   "tags": {
+    "addr:city": "Bragado",
+    "addr:housenumber": "1768",
+    "addr:street": "Belgrano",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -73898,6 +73910,9 @@
     13128081677
   ],
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "1074",
+    "addr:street": "Calle 4",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -73915,6 +73930,9 @@
     13149682337
   ],
   "tags": {
+    "addr:city": "La Plata",
+    "addr:housenumber": "536",
+    "addr:street": "Calle 55",
     "amenity": "clinic",
     "building": "yes",
     "healthcare": "clinic",
@@ -76033,11 +76051,15 @@
   "type": "way",
   "id": 1557236131,
   "nodes": [
-    13700001541,
-    14161654827,
-    14161654828,
-    14161659140,
-    13700001541
+    14174136381,
+    14174185004,
+    14174136382,
+    14174136383,
+    14174136397,
+    14174136384,
+    14174185012,
+    14174185011,
+    14174136381
   ],
   "tags": {
     "addr:city": "San Carlos de Bariloche",
@@ -76046,10 +76068,12 @@
     "addr:street": "Avenida Ángel Gallardo",
     "amenity": "clinic",
     "building": "yes",
+    "building:material": "glass",
     "building:part": "yes",
     "healthcare": "clinic",
     "healthcare:speciality": "radiology",
     "layer": "-1",
+    "level": "0",
     "name": "Imágenes Médicas - Dr. Pinto / Dr Azlor"
   }
 },
@@ -76057,11 +76081,14 @@
   "type": "way",
   "id": 1557236132,
   "nodes": [
-    14161654827,
-    14161659118,
-    13700001539,
-    14161654828,
-    14161654827
+    14174136385,
+    14174136389,
+    14174136386,
+    14174185007,
+    14174136387,
+    14174136396,
+    14174136388,
+    14174136385
   ],
   "tags": {
     "addr:city": "San Carlos de Bariloche",
@@ -77327,18 +77354,6 @@
 },
 {
   "type": "node",
-  "id": 13700001539,
-  "lat": -41.1372490,
-  "lon": -71.3021355
-},
-{
-  "type": "node",
-  "id": 13700001541,
-  "lat": -41.1375023,
-  "lon": -71.3019157
-},
-{
-  "type": "node",
   "id": 14108132656,
   "lat": -41.1359984,
   "lon": -71.2984244
@@ -77363,27 +77378,93 @@
 },
 {
   "type": "node",
-  "id": 14161654827,
-  "lat": -41.1373926,
-  "lon": -71.3018994
+  "id": 14174136381,
+  "lat": -41.1375132,
+  "lon": -71.3019162
 },
 {
   "type": "node",
-  "id": 14161654828,
-  "lat": -41.1373714,
-  "lon": -71.3021510
+  "id": 14174136382,
+  "lat": -41.1374035,
+  "lon": -71.3018999
 },
 {
   "type": "node",
-  "id": 14161659118,
-  "lat": -41.1372714,
-  "lon": -71.3018820
+  "id": 14174136383,
+  "lat": -41.1373823,
+  "lon": -71.3021515
 },
 {
   "type": "node",
-  "id": 14161659140,
-  "lat": -41.1374812,
-  "lon": -71.3021673
+  "id": 14174136384,
+  "lat": -41.1374921,
+  "lon": -71.3021678
+},
+{
+  "type": "node",
+  "id": 14174136385,
+  "lat": -41.1374038,
+  "lon": -71.3018996
+},
+{
+  "type": "node",
+  "id": 14174136386,
+  "lat": -41.1372822,
+  "lon": -71.3018819
+},
+{
+  "type": "node",
+  "id": 14174136387,
+  "lat": -41.1372613,
+  "lon": -71.3021346
+},
+{
+  "type": "node",
+  "id": 14174136388,
+  "lat": -41.1373830,
+  "lon": -71.3021523
+},
+{
+  "type": "node",
+  "id": 14174136389,
+  "lat": -41.1373405,
+  "lon": -71.3018896
+},
+{
+  "type": "node",
+  "id": 14174136396,
+  "lat": -41.1373250,
+  "lon": -71.3021436
+},
+{
+  "type": "node",
+  "id": 14174136397,
+  "lat": -41.1374365,
+  "lon": -71.3021600
+},
+{
+  "type": "node",
+  "id": 14174185004,
+  "lat": -41.1374451,
+  "lon": -71.3019052
+},
+{
+  "type": "node",
+  "id": 14174185007,
+  "lat": -41.1372732,
+  "lon": -71.3019932
+},
+{
+  "type": "node",
+  "id": 14174185011,
+  "lat": -41.1375038,
+  "lon": -71.3020290
+},
+{
+  "type": "node",
+  "id": 14174185012,
+  "lat": -41.1375017,
+  "lon": -71.3020536
 },
 {
   "type": "node",
