@@ -11507,14 +11507,21 @@
   "type": "Feature",
   "id": "way/469185464",
   "properties": {
+    "addr:housenumber": "3752",
+    "addr:street": "Avenida Triunvirato",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
-    "check_date": "2025-02-22",
+    "check_date": "2026-09-12",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "https://farmacity.com.ar",
     "id": "way/469185464"
   },
   "geometry": {
@@ -19314,6 +19321,7 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia",
+    "opening_hours": "Mo-Sa 08:00-13:00,16:00-21:00",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "way/477567385"
   },
@@ -19648,12 +19656,12 @@
     "coordinates": [
       [
         [
-          -58.4227274,
-          -34.5892822
+          -58.4227207,
+          -34.589269
         ],
         [
-          -58.4226538,
-          -34.5892328
+          -58.4226551,
+          -34.5892218
         ],
         [
           -58.4227571,
@@ -19664,8 +19672,8 @@
           -34.5891794
         ],
         [
-          -58.4227274,
-          -34.5892822
+          -58.4227207,
+          -34.589269
         ]
       ]
     ]
@@ -128347,8 +128355,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.1939547,
-      -31.9450227
+      -65.1939326,
+      -31.9450655
     ]
   }
 },
@@ -133139,6 +133147,27 @@
     "coordinates": [
       -68.8599497,
       -32.8793056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6993786185",
+  "properties": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "1900",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Corrientes",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "FarMar",
+    "id": "node/6993786185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.9015281,
+      -27.3673477
     ]
   }
 },
