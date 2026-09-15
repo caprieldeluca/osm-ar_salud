@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-14T00:43:38Z",
-    "timestamp_areas_base": "2026-09-13T07:08:17Z",
+    "timestamp_osm_base": "2026-09-15T01:09:20Z",
+    "timestamp_areas_base": "2026-09-14T12:17:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7617,6 +7617,7 @@
   "lat": -31.3762095,
   "lon": -64.2303493,
   "tags": {
+    "addr:city": "Córdoba",
     "addr:housenumber": "3863",
     "addr:street": "Fernando Fader",
     "amenity": "clinic",
@@ -16922,6 +16923,9 @@
   "lat": -31.4192934,
   "lon": -64.1870356,
   "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "320",
+    "addr:street": "Obispo Trejo y Sanabria",
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Hospital Privado"
@@ -50222,7 +50226,7 @@
   ],
   "tags": {
     "addr:city": "Córdoba",
-    "addr:housenumber": "1898",
+    "addr:housenumber": "1900",
     "addr:postcode": "5000",
     "addr:street": "Bajada del Pucará",
     "amenity": "clinic",
@@ -52036,6 +52040,41 @@
     "operator:short": "MSAL",
     "operator:type": "government",
     "operator:wikidata": "Q5420596"
+  }
+},
+{
+  "type": "way",
+  "id": 327180587,
+  "nodes": [
+    3339092927,
+    3339092928,
+    9030348959,
+    3339092929,
+    9030348960,
+    3339092930,
+    9030348961,
+    9030348970,
+    3339092927
+  ],
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:full": "General Deheza 542",
+    "addr:housenumber": "542",
+    "addr:postcode": "5004",
+    "addr:street": "General Román Deheza",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "6",
+    "healthcare": "clinic",
+    "height": "23",
+    "name": "Sanatorio del Salvador",
+    "official_name": "Sanatorio Del Salvador Privado S.A.",
+    "operator": "Privado",
+    "operator:type": "private",
+    "phone": "+54 351 4529600",
+    "ref:sisa_codigo": "10140142331288",
+    "ref:sisa_tipologia": "ESCIG",
+    "website": "https://www.sanatoriodelsalvador.com/"
   }
 },
 {
@@ -56738,26 +56777,6 @@
     "building": "yes",
     "healthcare": "clinic",
     "name": "Aoudir"
-  }
-},
-{
-  "type": "way",
-  "id": 474488084,
-  "nodes": [
-    4684363897,
-    4684363898,
-    4684363899,
-    4684363900,
-    4684363897
-  ],
-  "tags": {
-    "addr:city": "San Isidro",
-    "addr:postcode": "1642",
-    "addr:street": "Leandro N. Alem",
-    "amenity": "clinic",
-    "building": "commercial",
-    "healthcare": "clinic",
-    "name": "Grupo Medico"
   }
 },
 {
@@ -64434,21 +64453,20 @@
 },
 {
   "type": "way",
-  "id": 838863509,
+  "id": 838863510,
   "nodes": [
-    7828157190,
-    7828157191,
-    7828157192,
-    7828157193,
-    7828157194,
-    7828157195,
-    7828157190
+    7828157196,
+    7828157197,
+    7828157198,
+    7828157199,
+    7828157196
   ],
   "tags": {
     "addr:city": "Laguna Blanca",
     "addr:postcode": "R8417",
     "amenity": "clinic",
     "building": "yes",
+    "healthcare": "clinic",
     "name": "Centro de Salud Laguna Blanca",
     "operator": "Ministerio de Salud - Gobierno de Río Negro"
   }
@@ -70727,7 +70745,9 @@
     11589645227,
     11589645228,
     11589645229,
+    14180887364,
     11589645231,
+    14180887363,
     11589645233,
     11589645242,
     11589645241,
@@ -76121,6 +76141,51 @@
   }
 },
 {
+  "type": "way",
+  "id": 1558869249,
+  "nodes": [
+    14180890591,
+    14180890592,
+    14180890593,
+    14180890594,
+    14180890591
+  ],
+  "tags": {
+    "addr:city": "Coronel Suarez",
+    "addr:housenumber": "335",
+    "addr:street": "Avenida Alsina",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Coronel Suárez"
+  }
+},
+{
+  "type": "way",
+  "id": 1558957484,
+  "nodes": [
+    14181805181,
+    14181805182,
+    14181805183,
+    14181805184,
+    14181805185,
+    14181805186,
+    14181805181
+  ],
+  "tags": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "50",
+    "addr:postcode": "B1642",
+    "addr:street": "Avenida Centenario",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "4",
+    "building:material": "cement_block",
+    "healthcare": "clinic",
+    "name": "OSECAC San Isidro"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -77522,39 +77587,27 @@
 },
 {
   "type": "node",
-  "id": 7828157190,
-  "lat": -40.7222356,
-  "lon": -69.8414204
+  "id": 7828157196,
+  "lat": -40.7223926,
+  "lon": -69.8412354
 },
 {
   "type": "node",
-  "id": 7828157191,
-  "lat": -40.7222770,
-  "lon": -69.8413618
+  "id": 7828157197,
+  "lat": -40.7224466,
+  "lon": -69.8411719
 },
 {
   "type": "node",
-  "id": 7828157192,
-  "lat": -40.7222977,
-  "lon": -69.8413873
+  "id": 7828157198,
+  "lat": -40.7223694,
+  "lon": -69.8410575
 },
 {
   "type": "node",
-  "id": 7828157193,
-  "lat": -40.7223165,
-  "lon": -69.8413606
-},
-{
-  "type": "node",
-  "id": 7828157194,
-  "lat": -40.7222373,
-  "lon": -69.8412632
-},
-{
-  "type": "node",
-  "id": 7828157195,
-  "lat": -40.7221771,
-  "lon": -69.8413485
+  "id": 7828157199,
+  "lat": -40.7223154,
+  "lon": -69.8411210
 },
 {
   "type": "node",
@@ -86978,6 +87031,30 @@
 },
 {
   "type": "node",
+  "id": 14180890591,
+  "lat": -37.4564998,
+  "lon": -61.9328884
+},
+{
+  "type": "node",
+  "id": 14180890592,
+  "lat": -37.4566148,
+  "lon": -61.9328589
+},
+{
+  "type": "node",
+  "id": 14180890593,
+  "lat": -37.4566638,
+  "lon": -61.9331647
+},
+{
+  "type": "node",
+  "id": 14180890594,
+  "lat": -37.4565360,
+  "lon": -61.9331942
+},
+{
+  "type": "node",
   "id": 2999730608,
   "lat": -38.3820805,
   "lon": -60.2766138
@@ -93795,104 +93872,104 @@
 {
   "type": "node",
   "id": 11589645207,
-  "lat": -33.6596393,
-  "lon": -65.4288163
+  "lat": -33.6596394,
+  "lon": -65.4288165
 },
 {
   "type": "node",
   "id": 11589645208,
-  "lat": -33.6596523,
-  "lon": -65.4287547
+  "lat": -33.6596526,
+  "lon": -65.4287553
 },
 {
   "type": "node",
   "id": 11589645209,
-  "lat": -33.6596670,
-  "lon": -65.4287592
+  "lat": -33.6596673,
+  "lon": -65.4287599
 },
 {
   "type": "node",
   "id": 11589645210,
-  "lat": -33.6596767,
-  "lon": -65.4287134
+  "lat": -33.6596775,
+  "lon": -65.4287128
 },
 {
   "type": "node",
   "id": 11589645211,
-  "lat": -33.6595450,
-  "lon": -65.4286730
+  "lat": -33.6595502,
+  "lon": -65.4286731
 },
 {
   "type": "node",
   "id": 11589645212,
-  "lat": -33.6595389,
-  "lon": -65.4287015
+  "lat": -33.6595439,
+  "lon": -65.4287021
 },
 {
   "type": "node",
   "id": 11589645213,
-  "lat": -33.6595378,
-  "lon": -65.4287011
+  "lat": -33.6595394,
+  "lon": -65.4287007
 },
 {
   "type": "node",
   "id": 11589645214,
-  "lat": -33.6595402,
-  "lon": -65.4286898
+  "lat": -33.6595421,
+  "lon": -65.4286885
 },
 {
   "type": "node",
   "id": 11589645215,
-  "lat": -33.6594691,
-  "lon": -65.4286673
+  "lat": -33.6594680,
+  "lon": -65.4286651
 },
 {
   "type": "node",
   "id": 11589645216,
-  "lat": -33.6594646,
-  "lon": -65.4286878
+  "lat": -33.6594635,
+  "lon": -65.4286856
 },
 {
   "type": "node",
   "id": 11589645217,
-  "lat": -33.6594038,
-  "lon": -65.4286685
+  "lat": -33.6594057,
+  "lon": -65.4286673
 },
 {
   "type": "node",
   "id": 11589645218,
-  "lat": -33.6593509,
-  "lon": -65.4289097
+  "lat": -33.6593538,
+  "lon": -65.4289039
 },
 {
   "type": "node",
   "id": 11589645219,
-  "lat": -33.6594168,
-  "lon": -65.4289306
+  "lat": -33.6594160,
+  "lon": -65.4289236
 },
 {
   "type": "node",
   "id": 11589645220,
-  "lat": -33.6594257,
-  "lon": -65.4288900
+  "lat": -33.6594255,
+  "lon": -65.4288806
 },
 {
   "type": "node",
   "id": 11589645221,
-  "lat": -33.6594394,
-  "lon": -65.4288944
+  "lat": -33.6594473,
+  "lon": -65.4288875
 },
 {
   "type": "node",
   "id": 11589645222,
-  "lat": -33.6594273,
-  "lon": -65.4289492
+  "lat": -33.6594368,
+  "lon": -65.4289354
 },
 {
   "type": "node",
   "id": 11589645223,
-  "lat": -33.6594741,
-  "lon": -65.4289641
+  "lat": -33.6594774,
+  "lon": -65.4289483
 },
 {
   "type": "node",
@@ -93921,20 +93998,20 @@
 {
   "type": "node",
   "id": 11589645229,
-  "lat": -33.6592612,
-  "lon": -65.4293889
+  "lat": -33.6592574,
+  "lon": -65.4293870
 },
 {
   "type": "node",
   "id": 11589645231,
-  "lat": -33.6593541,
-  "lon": -65.4295291
+  "lat": -33.6593516,
+  "lon": -65.4295362
 },
 {
   "type": "node",
   "id": 11589645233,
-  "lat": -33.6594775,
-  "lon": -65.4295686
+  "lat": -33.6594791,
+  "lon": -65.4295920
 },
 {
   "type": "node",
@@ -93945,50 +94022,62 @@
 {
   "type": "node",
   "id": 11589645235,
-  "lat": -33.6596200,
-  "lon": -65.4289827
+  "lat": -33.6596209,
+  "lon": -65.4289820
 },
 {
   "type": "node",
   "id": 11589645236,
-  "lat": -33.6596355,
-  "lon": -65.4289876
+  "lat": -33.6596366,
+  "lon": -65.4289868
 },
 {
   "type": "node",
   "id": 11589645237,
-  "lat": -33.6596170,
-  "lon": -65.4290712
+  "lat": -33.6596181,
+  "lon": -65.4290734
 },
 {
   "type": "node",
   "id": 11589645238,
-  "lat": -33.6595995,
-  "lon": -65.4290656
+  "lat": -33.6596007,
+  "lon": -65.4290680
 },
 {
   "type": "node",
   "id": 11589645239,
-  "lat": -33.6595672,
-  "lon": -65.4292113
+  "lat": -33.6595706,
+  "lon": -65.4292089
 },
 {
   "type": "node",
   "id": 11589645240,
-  "lat": -33.6596055,
-  "lon": -65.4292236
+  "lat": -33.6596094,
+  "lon": -65.4292208
 },
 {
   "type": "node",
   "id": 11589645241,
-  "lat": -33.6595889,
-  "lon": -65.4292985
+  "lat": -33.6595916,
+  "lon": -65.4293040
 },
 {
   "type": "node",
   "id": 11589645242,
-  "lat": -33.6595407,
-  "lon": -65.4292832
+  "lat": -33.6595437,
+  "lon": -65.4292893
+},
+{
+  "type": "node",
+  "id": 14180887363,
+  "lat": -33.6594082,
+  "lon": -65.4295702
+},
+{
+  "type": "node",
+  "id": 14180887364,
+  "lat": -33.6592918,
+  "lon": -65.4294675
 },
 {
   "type": "node",
@@ -97367,6 +97456,54 @@
   "id": 10996247524,
   "lat": -31.4159599,
   "lon": -64.1710506
+},
+{
+  "type": "node",
+  "id": 3339092927,
+  "lat": -31.4089314,
+  "lon": -64.1636714
+},
+{
+  "type": "node",
+  "id": 3339092928,
+  "lat": -31.4092599,
+  "lon": -64.1635630
+},
+{
+  "type": "node",
+  "id": 3339092929,
+  "lat": -31.4091230,
+  "lon": -64.1630752
+},
+{
+  "type": "node",
+  "id": 3339092930,
+  "lat": -31.4089515,
+  "lon": -64.1632815
+},
+{
+  "type": "node",
+  "id": 9030348959,
+  "lat": -31.4092204,
+  "lon": -64.1633607
+},
+{
+  "type": "node",
+  "id": 9030348960,
+  "lat": -31.4089295,
+  "lon": -64.1631506
+},
+{
+  "type": "node",
+  "id": 9030348961,
+  "lat": -31.4088232,
+  "lon": -64.1633088
+},
+{
+  "type": "node",
+  "id": 9030348970,
+  "lat": -31.4088356,
+  "lon": -64.1633505
 },
 {
   "type": "node",
@@ -114146,27 +114283,39 @@
 },
 {
   "type": "node",
-  "id": 4684363897,
-  "lat": -34.4724797,
-  "lon": -58.5122608
+  "id": 14181805181,
+  "lat": -34.4739535,
+  "lon": -58.5131948
 },
 {
   "type": "node",
-  "id": 4684363898,
-  "lat": -34.4724437,
-  "lon": -58.5121860
+  "id": 14181805182,
+  "lat": -34.4737950,
+  "lon": -58.5133593
 },
 {
   "type": "node",
-  "id": 4684363899,
-  "lat": -34.4726073,
-  "lon": -58.5120704
+  "id": 14181805183,
+  "lat": -34.4740080,
+  "lon": -58.5136373
 },
 {
   "type": "node",
-  "id": 4684363900,
-  "lat": -34.4726432,
-  "lon": -58.5121452
+  "id": 14181805184,
+  "lat": -34.4741168,
+  "lon": -58.5135539
+},
+{
+  "type": "node",
+  "id": 14181805185,
+  "lat": -34.4739669,
+  "lon": -58.5132655
+},
+{
+  "type": "node",
+  "id": 14181805186,
+  "lat": -34.4739860,
+  "lon": -58.5132481
 },
 {
   "type": "node",
