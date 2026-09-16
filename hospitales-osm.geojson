@@ -9569,9 +9569,9 @@
   "type": "Feature",
   "id": "way/123412859",
   "properties": {
-    "addr:city": "San Pedro",
-    "addr:full": "Avda. Siria 44",
-    "addr:place": "San Pedro",
+    "addr:city": "San Pedro de Jujuy",
+    "addr:housenumber": "44",
+    "addr:street": "Avenida Siria",
     "amenity": "hospital",
     "description": "Alto riesgo con terapia intensiva",
     "emergency": "yes",
@@ -33795,6 +33795,9 @@
   "type": "Feature",
   "id": "way/351281456",
   "properties": {
+    "addr:city": "Laboulaye",
+    "addr:housenumber": "20",
+    "addr:street": "Perón",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Regional \"Ramón J. Cárcano\"",
@@ -36310,6 +36313,9 @@
   "type": "Feature",
   "id": "way/373215538",
   "properties": {
+    "addr:city": "Villa Dolores",
+    "addr:housenumber": "1800",
+    "addr:street": "Avenida Belgrano - Ruta Provincial E 88",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Regional Villa Dolores",
@@ -36427,8 +36433,9 @@
   "id": "way/375412547",
   "properties": {
     "addr:city": "San Salvador de Jujuy",
+    "addr:housenumber": "1513",
     "addr:postcode": "4600",
-    "addr:street": "1º de Noviembre",
+    "addr:street": "18 de Noviembre",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -45426,6 +45433,9 @@
   "type": "Feature",
   "id": "way/483258874",
   "properties": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "1900",
+    "addr:street": "Aldo Serrano",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Regional Luis Pasteur",
@@ -78757,7 +78767,7 @@
     "building:levels": "1",
     "healthcare": "hospital",
     "height": "5",
-    "name": "Hospital Provincial Brigadier General Juan B. Bustos Río Tercero",
+    "name": "Hospital Provincial \"Brigadier Gral. Juan B. Bustos\" Río Tercero",
     "phone": "+54 351 704 5353",
     "id": "way/1284160315"
   },
@@ -87470,6 +87480,9 @@
   "type": "Feature",
   "id": "way/1443975444",
   "properties": {
+    "addr:city": "Oliva",
+    "addr:housenumber": "500",
+    "addr:street": "Monseñor Gallardo",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Zonal de Oliva",
@@ -87555,6 +87568,9 @@
   "type": "Feature",
   "id": "way/1443977794",
   "properties": {
+    "addr:city": "San José de la Dormida",
+    "addr:housenumber": "111",
+    "addr:street": "Facundo Quiroga",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital San José de la Dormida",
@@ -99201,6 +99217,8 @@
   "type": "Feature",
   "id": "node/3446772954",
   "properties": {
+    "addr:city": "Santa Rosa de Calamuchita",
+    "addr:street": "Ruta Provincial 5",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -111843,23 +111861,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6778413842",
-  "properties": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Regional San Roque",
-    "id": "node/6778413842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -66.1216557,
-      -32.6007551
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6811565985",
   "properties": {
     "addr:housenumber": "2129",
@@ -124094,6 +124095,25 @@
     "coordinates": [
       -64.9494528,
       -23.6219713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183808932",
+  "properties": {
+    "addr:city": "La Colina",
+    "addr:street": "Eliseo Mañay",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Doctor Elíseo Mañay",
+    "id": "node/14183808932"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -61.536266,
+      -37.3588967
     ]
   }
 }

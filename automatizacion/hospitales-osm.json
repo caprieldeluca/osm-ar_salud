@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-15T01:08:21Z",
-    "timestamp_areas_base": "2026-09-14T12:17:00Z",
+    "timestamp_osm_base": "2026-09-16T01:04:10Z",
+    "timestamp_areas_base": "2026-09-15T17:29:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6193,6 +6193,8 @@
   "lat": -32.0627076,
   "lon": -64.5304128,
   "tags": {
+    "addr:city": "Santa Rosa de Calamuchita",
+    "addr:street": "Ruta Provincial 5",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -15317,17 +15319,6 @@
 },
 {
   "type": "node",
-  "id": 6778413842,
-  "lat": -32.6007551,
-  "lon": -66.1216557,
-  "tags": {
-    "amenity": "hospital",
-    "healthcare": "hospital",
-    "name": "Hospital Regional San Roque"
-  }
-},
-{
-  "type": "node",
   "id": 6811565985,
   "lat": -28.4803421,
   "lon": -59.3508316,
@@ -24326,6 +24317,19 @@
   }
 },
 {
+  "type": "node",
+  "id": 14183808932,
+  "lat": -37.3588967,
+  "lon": -61.5362660,
+  "tags": {
+    "addr:city": "La Colina",
+    "addr:street": "Eliseo Mañay",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Doctor Elíseo Mañay"
+  }
+},
+{
   "type": "way",
   "id": 17495742,
   "nodes": [
@@ -26377,9 +26381,9 @@
     1376345311
   ],
   "tags": {
-    "addr:city": "San Pedro",
-    "addr:full": "Avda. Siria 44",
-    "addr:place": "San Pedro",
+    "addr:city": "San Pedro de Jujuy",
+    "addr:housenumber": "44",
+    "addr:street": "Avenida Siria",
     "amenity": "hospital",
     "description": "Alto riesgo con terapia intensiva",
     "emergency": "yes",
@@ -36646,6 +36650,9 @@
     1707208794
   ],
   "tags": {
+    "addr:city": "Laboulaye",
+    "addr:housenumber": "20",
+    "addr:street": "Perón",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Regional \"Ramón J. Cárcano\""
@@ -37591,6 +37598,9 @@
     3767268104
   ],
   "tags": {
+    "addr:city": "Villa Dolores",
+    "addr:housenumber": "1800",
+    "addr:street": "Avenida Belgrano - Ruta Provincial E 88",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Regional Villa Dolores",
@@ -37626,8 +37636,9 @@
   ],
   "tags": {
     "addr:city": "San Salvador de Jujuy",
+    "addr:housenumber": "1513",
     "addr:postcode": "4600",
-    "addr:street": "1º de Noviembre",
+    "addr:street": "18 de Noviembre",
     "amenity": "hospital",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -41681,6 +41692,9 @@
     4760150910
   ],
   "tags": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "1900",
+    "addr:street": "Aldo Serrano",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Regional Luis Pasteur"
@@ -56100,7 +56114,7 @@
     "building:levels": "1",
     "healthcare": "hospital",
     "height": "5",
-    "name": "Hospital Provincial Brigadier General Juan B. Bustos Río Tercero",
+    "name": "Hospital Provincial \"Brigadier Gral. Juan B. Bustos\" Río Tercero",
     "phone": "+54 351 704 5353"
   }
 },
@@ -59602,6 +59616,9 @@
     13250196178
   ],
   "tags": {
+    "addr:city": "Oliva",
+    "addr:housenumber": "500",
+    "addr:street": "Monseñor Gallardo",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital Zonal de Oliva"
@@ -59639,6 +59656,9 @@
     13250201391
   ],
   "tags": {
+    "addr:city": "San José de la Dormida",
+    "addr:housenumber": "111",
+    "addr:street": "Facundo Quiroga",
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "Hospital San José de la Dormida"
