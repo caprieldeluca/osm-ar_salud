@@ -59302,7 +59302,7 @@
     "building:part": "yes",
     "healthcare": "clinic",
     "healthcare:speciality": "radiology",
-    "layer": "-1",
+    "layer": "-2",
     "level": "0",
     "name": "Imágenes Médicas - Dr. Pinto / Dr Azlor",
     "id": "way/1557236131"
@@ -59384,12 +59384,16 @@
           -41.1372822
         ],
         [
+          -71.301886,
+          -41.1372851
+        ],
+        [
           -71.3019932,
           -41.1372732
         ],
         [
-          -71.3021346,
-          -41.1372613
+          -71.3021323,
+          -41.1372635
         ],
         [
           -71.3021436,
@@ -59771,25 +59775,6 @@
     "coordinates": [
       -58.5236251,
       -34.5108964
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/928601938",
-  "properties": {
-    "addr:city": "Oberá",
-    "addr:street": "Avenida Libertad",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "El Privado",
-    "id": "node/928601938"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.1146854,
-      -27.4872965
     ]
   }
 },
@@ -125906,9 +125891,11 @@
   "id": "node/13509759101",
   "properties": {
     "amenity": "clinic",
-    "check_date": "2026-07-23",
+    "check_date": "2026-09-16",
+    "check_date:opening_hours": "2026-09-16",
     "healthcare": "clinic",
     "name": "Posta Sanitaria Rita Amelia Ceballos",
+    "opening_hours": "Mo-Fr 07:00-14:00",
     "id": "node/13509759101"
   },
   "geometry": {
