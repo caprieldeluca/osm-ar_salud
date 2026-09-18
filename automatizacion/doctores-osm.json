@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-17T01:07:48Z",
-    "timestamp_areas_base": "2026-09-16T05:04:09Z",
+    "timestamp_osm_base": "2026-09-18T01:04:43Z",
+    "timestamp_areas_base": "2026-09-17T02:16:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18438,8 +18438,8 @@
     "addr:street": "19 - General Las Heras",
     "amenity": "doctors",
     "healthcare": "doctor",
-    "healthcare:speciality": "paediatrics",
-    "name": "Lazos"
+    "healthcare:speciality": "ophthalmology;neurology;dermatology;endocrinology;gastroenterology;general;pulmonology;trauma",
+    "name": "Consultorios España"
   }
 },
 {
@@ -24523,6 +24523,19 @@
   }
 },
 {
+  "type": "node",
+  "id": 14190391682,
+  "lat": -34.5685493,
+  "lon": -59.1136992,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psycology",
+    "name": "Reus",
+    "phone": "+54 11 3178-7048"
+  }
+},
+{
   "type": "way",
   "id": 145555097,
   "nodes": [
@@ -26555,6 +26568,8 @@
     5087701689
   ],
   "tags": {
+    "addr:city": "San Salvador de Jujuy",
+    "addr:street": "Felipe Bouchez",
     "alt_name": "Centro de Atención Primaria de la Salud Sargento Cabral",
     "amenity": "doctors",
     "building": "yes",
