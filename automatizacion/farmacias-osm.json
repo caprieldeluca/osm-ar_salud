@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-22T08:45:51Z",
+    "timestamp_osm_base": "2026-09-25T01:09:58Z",
     "timestamp_areas_base": "2026-09-22T08:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -30414,24 +30414,6 @@
 },
 {
   "type": "node",
-  "id": 4082392281,
-  "lat": -36.7827411,
-  "lon": -59.8643942,
-  "tags": {
-    "addr:city": "Azul",
-    "addr:country": "AR",
-    "addr:housenumber": "599",
-    "addr:postcode": "7300",
-    "addr:state": "Buenos Aires",
-    "addr:street": "Avenida Juan Domingo Perón",
-    "amenity": "pharmacy",
-    "check_date": "2026-03-06",
-    "healthcare": "pharmacy",
-    "name": "Lucini"
-  }
-},
-{
-  "type": "node",
   "id": 4084070585,
   "lat": -36.6864752,
   "lon": -56.6801231,
@@ -39097,9 +39079,17 @@
   "lat": -34.4918289,
   "lon": -58.6268212,
   "tags": {
+    "addr:housenumber": "1999",
+    "addr:street": "Avenida Ángel Torcuato de Alvear",
     "amenity": "pharmacy",
+    "check_date": "2026-09-24",
     "healthcare": "pharmacy",
-    "name": "Openpharma"
+    "name": "Openpharma",
+    "opening_hours": "08:30-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "https://openfarma.com.ar"
   }
 },
 {
@@ -47678,7 +47668,8 @@
     "addr:street": "Salta",
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
-    "name": "Parque España"
+    "name": "Parque España",
+    "name:etymology:wikidata": "Q29"
   }
 },
 {
@@ -99433,8 +99424,8 @@
 {
   "type": "node",
   "id": 13758858152,
-  "lat": -33.6881832,
-  "lon": -65.4672948,
+  "lat": -33.6881780,
+  "lon": -65.4672568,
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
@@ -101093,6 +101084,49 @@
   }
 },
 {
+  "type": "node",
+  "id": 14211939389,
+  "lat": -36.7912869,
+  "lon": -59.8803591,
+  "tags": {
+    "addr:city": "Azul",
+    "addr:country": "AR",
+    "addr:housenumber": "1693",
+    "addr:postcode": "7300",
+    "addr:state": "Buenos Aires",
+    "addr:street": "Avenida Pellegrini",
+    "amenity": "pharmacy",
+    "check_date": "2026-03-06",
+    "healthcare": "pharmacy",
+    "name": "Argañaraz"
+  }
+},
+{
+  "type": "node",
+  "id": 14212881126,
+  "lat": -26.7353418,
+  "lon": -65.2575630,
+  "tags": {
+    "addr:city": "Tafí Viejo",
+    "addr:housenumber": "402",
+    "addr:postcode": "T4103AFJ",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "9 de Julio",
+    "opening_hours": "Mo-Fr 09:00-21:30; Sa 09:00-13:00",
+    "operator": "ESCANE MARIA ISABEL",
+    "phone": "+543814617796",
+    "ref:sisa_codigo": "70901052397840",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27056255678"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -102343,6 +102377,7 @@
     "addr:street": "Avenida del Libertador",
     "amenity": "pharmacy",
     "building": "yes",
+    "building:levels": "2",
     "check_date": "2024-02-09",
     "healthcare": "pharmacy",
     "name": "FarmaOlivos",

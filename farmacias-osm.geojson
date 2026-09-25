@@ -2633,6 +2633,7 @@
     "addr:street": "Avenida del Libertador",
     "amenity": "pharmacy",
     "building": "yes",
+    "building:levels": "2",
     "check_date": "2024-02-09",
     "healthcare": "pharmacy",
     "name": "FarmaOlivos",
@@ -86902,30 +86903,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4082392281",
-  "properties": {
-    "addr:city": "Azul",
-    "addr:country": "AR",
-    "addr:housenumber": "599",
-    "addr:postcode": "7300",
-    "addr:state": "Buenos Aires",
-    "addr:street": "Avenida Juan Domingo Perón",
-    "amenity": "pharmacy",
-    "check_date": "2026-03-06",
-    "healthcare": "pharmacy",
-    "name": "Lucini",
-    "id": "node/4082392281"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -59.8643942,
-      -36.7827411
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4084070585",
   "properties": {
     "amenity": "pharmacy",
@@ -99315,9 +99292,17 @@
   "type": "Feature",
   "id": "node/4630862139",
   "properties": {
+    "addr:housenumber": "1999",
+    "addr:street": "Avenida Ángel Torcuato de Alvear",
     "amenity": "pharmacy",
+    "check_date": "2026-09-24",
     "healthcare": "pharmacy",
     "name": "Openpharma",
+    "opening_hours": "08:30-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "https://openfarma.com.ar",
     "id": "node/4630862139"
   },
   "geometry": {
@@ -111635,6 +111620,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Parque España",
+    "name:etymology:wikidata": "Q29",
     "id": "node/5241632442"
   },
   "geometry": {
@@ -185186,8 +185172,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -65.4672948,
-      -33.6881832
+      -65.4672568,
+      -33.688178
     ]
   }
 },
@@ -187613,6 +187599,61 @@
     "coordinates": [
       -60.666808,
       -32.9414518
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211939389",
+  "properties": {
+    "addr:city": "Azul",
+    "addr:country": "AR",
+    "addr:housenumber": "1693",
+    "addr:postcode": "7300",
+    "addr:state": "Buenos Aires",
+    "addr:street": "Avenida Pellegrini",
+    "amenity": "pharmacy",
+    "check_date": "2026-03-06",
+    "healthcare": "pharmacy",
+    "name": "Argañaraz",
+    "id": "node/14211939389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.8803591,
+      -36.7912869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212881126",
+  "properties": {
+    "addr:city": "Tafí Viejo",
+    "addr:housenumber": "402",
+    "addr:postcode": "T4103AFJ",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "building": "retail",
+    "building:levels": "1",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "9 de Julio",
+    "opening_hours": "Mo-Fr 09:00-21:30; Sa 09:00-13:00",
+    "operator": "ESCANE MARIA ISABEL",
+    "phone": "+543814617796",
+    "ref:sisa_codigo": "70901052397840",
+    "ref:sisa_tipologia": "FARMACIA",
+    "ref:vatin": "AR27056255678",
+    "id": "node/14212881126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.257563,
+      -26.7353418
     ]
   }
 }
