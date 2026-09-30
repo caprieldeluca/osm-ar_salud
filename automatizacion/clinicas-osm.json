@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-29T02:28:28Z",
-    "timestamp_areas_base": "2026-09-27T20:29:35Z",
+    "timestamp_osm_base": "2026-09-30T01:49:58Z",
+    "timestamp_areas_base": "2026-09-28T16:30:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12961,9 +12961,15 @@
   "lat": -32.3642670,
   "lon": -61.3418278,
   "tags": {
+    "addr:city": "San Genaro",
+    "addr:housenumber": "571",
+    "addr:postcode": "2147",
+    "addr:street": "Juan Chavarri",
     "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/plusmedicsrl/",
     "healthcare": "clinic",
-    "name": "Clinica Regional Privada"
+    "name": "Clinica Regional Privada",
+    "phone": "+54 3401 493138"
   }
 },
 {
@@ -49687,9 +49693,17 @@
   "id": 122590837,
   "nodes": [
     1369432558,
+    14232440424,
     4315218811,
+    14232440407,
+    14232440406,
+    14232440405,
+    14232440404,
+    14232440403,
+    14232440402,
     1369432560,
     1369432561,
+    14232440412,
     1369432558
   ],
   "tags": {
@@ -76244,6 +76258,26 @@
   }
 },
 {
+  "type": "way",
+  "id": 1563530723,
+  "nodes": [
+    14231596664,
+    14231596665,
+    14231596666,
+    14231596667,
+    14231596664
+  ],
+  "tags": {
+    "addr:city": "Jesús María",
+    "addr:housenumber": "639",
+    "addr:street": "Italia",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Privada San Isidro"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -98129,6 +98163,30 @@
 },
 {
   "type": "node",
+  "id": 14231596664,
+  "lat": -30.9814299,
+  "lon": -64.0938559
+},
+{
+  "type": "node",
+  "id": 14231596665,
+  "lat": -30.9815455,
+  "lon": -64.0939122
+},
+{
+  "type": "node",
+  "id": 14231596666,
+  "lat": -30.9816128,
+  "lon": -64.0937365
+},
+{
+  "type": "node",
+  "id": 14231596667,
+  "lat": -30.9814953,
+  "lon": -64.0936803
+},
+{
+  "type": "node",
   "id": 4978535659,
   "lat": -32.4434249,
   "lon": -63.1905743
@@ -110130,8 +110188,8 @@
 {
   "type": "node",
   "id": 1369432560,
-  "lat": -34.5958735,
-  "lon": -58.4925720
+  "lat": -34.5960426,
+  "lon": -58.4928732
 },
 {
   "type": "node",
@@ -110180,6 +110238,54 @@
   "id": 4657954319,
   "lat": -34.5970751,
   "lon": -58.4947839
+},
+{
+  "type": "node",
+  "id": 14232440402,
+  "lat": -34.5959969,
+  "lon": -58.4929050
+},
+{
+  "type": "node",
+  "id": 14232440403,
+  "lat": -34.5959412,
+  "lon": -58.4928783
+},
+{
+  "type": "node",
+  "id": 14232440404,
+  "lat": -34.5959202,
+  "lon": -58.4928260
+},
+{
+  "type": "node",
+  "id": 14232440405,
+  "lat": -34.5957322,
+  "lon": -58.4929467
+},
+{
+  "type": "node",
+  "id": 14232440406,
+  "lat": -34.5956728,
+  "lon": -58.4928296
+},
+{
+  "type": "node",
+  "id": 14232440407,
+  "lat": -34.5955720,
+  "lon": -58.4927617
+},
+{
+  "type": "node",
+  "id": 14232440412,
+  "lat": -34.5961262,
+  "lon": -58.4933485
+},
+{
+  "type": "node",
+  "id": 14232440424,
+  "lat": -34.5954426,
+  "lon": -58.4928997
 },
 {
   "type": "node",
