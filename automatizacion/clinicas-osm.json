@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-30T01:49:58Z",
-    "timestamp_areas_base": "2026-09-28T16:30:26Z",
+    "timestamp_osm_base": "2026-10-01T01:47:50Z",
+    "timestamp_areas_base": "2026-09-29T07:52:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -38572,28 +38572,6 @@
 },
 {
   "type": "node",
-  "id": 7541119305,
-  "lat": -34.5280738,
-  "lon": -58.5753685,
-  "tags": {
-    "addr:city": "José León Suarez",
-    "addr:country": "AR",
-    "addr:full": "Paso De La Patria S/Nº",
-    "addr:postcode": "1655",
-    "addr:province": "Buenos Aires",
-    "amenity": "clinic",
-    "description": "La dirección correcta debe ser verificada",
-    "healthcare": "clinic",
-    "name": "Centro De Salud Ntra. Sra. Del Rosario",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "ref:sisa_codigo": "50063712201338",
-    "ref:sisa_tipologia": "ESSIDT",
-    "website": "https://www.sanmartin.gov.ar/servicios/salud/"
-  }
-},
-{
-  "type": "node",
   "id": 7541231001,
   "lat": -34.5461316,
   "lon": -58.5812446,
@@ -62949,9 +62927,12 @@
   "id": 802306047,
   "nodes": [
     7504695190,
+    14235488902,
     7504695191,
     7504695192,
+    14235488901,
     7504695193,
+    14235465300,
     7504695190
   ],
   "tags": {
@@ -70311,23 +70292,23 @@
   "tags": {
     "addr:city": "José León Suarez",
     "addr:country": "AR",
-    "addr:full": "Paso de la Patria y Av Central",
+    "addr:full": "Paso de la Patria 132, e/ Av Central y 1 de Mayo, Barrio Carcova",
+    "addr:housenumber": "132",
     "addr:postcode": "B1655",
     "addr:province": "Buenos Aires",
     "addr:street": "Paso de la Patria",
     "amenity": "clinic",
-    "branch": "Barrio Carcova Moisés Modad",
     "healthcare": "clinic",
-    "name": "Centro de Atención Primaria de la Salud n° 20 Barrio Carcova Moisés Modad",
-    "nohousenumber": "yes",
+    "name": "Centro de Atención Primaria de la Salud 20 Moisés Modad",
+    "opening_hours": "We 10:00-12:00",
     "operator": "Municipalidad de San Martín",
     "operator:type": "government",
     "phone": "+54 11 3913 7876;+54 11 4580 1113",
     "ref:sisa_codigo": "50063712201338",
     "ref:sisa_tipologia": "ESSIDT",
-    "short_name": "CAPS n°20",
+    "short_name": "CAPS N° 20",
     "source": "https://mapa.sanmartin.gov.ar/#caps",
-    "website": "https://www.sanmartin.gov.ar/servicios/salud/"
+    "website": "https://sanmartin.gob.ar/programas/salud/"
   }
 },
 {
@@ -110458,26 +110439,44 @@
 {
   "type": "node",
   "id": 7504695190,
-  "lat": -34.6309616,
-  "lon": -58.4103535
+  "lat": -34.6309523,
+  "lon": -58.4103533
 },
 {
   "type": "node",
   "id": 7504695191,
-  "lat": -34.6309318,
-  "lon": -58.4098922
+  "lat": -34.6309238,
+  "lon": -58.4098629
 },
 {
   "type": "node",
   "id": 7504695192,
-  "lat": -34.6311067,
-  "lon": -58.4098753
+  "lat": -34.6310955,
+  "lon": -58.4098478
 },
 {
   "type": "node",
   "id": 7504695193,
-  "lat": -34.6311305,
-  "lon": -58.4103415
+  "lat": -34.6310133,
+  "lon": -58.4099823
+},
+{
+  "type": "node",
+  "id": 14235465300,
+  "lat": -34.6310379,
+  "lon": -58.4103489
+},
+{
+  "type": "node",
+  "id": 14235488901,
+  "lat": -34.6311044,
+  "lon": -58.4099737
+},
+{
+  "type": "node",
+  "id": 14235488902,
+  "lat": -34.6309508,
+  "lon": -58.4103301
 },
 {
   "type": "node",
