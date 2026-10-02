@@ -44678,12 +44678,18 @@
   "type": "Feature",
   "id": "node/724287432",
   "properties": {
+    "addr:housenumber": "1861",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2026-09-30",
     "healthcare": "pharmacy",
     "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/724287432"
   },
   "geometry": {
@@ -46488,14 +46494,19 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "1820",
     "addr:street": "Avenida Corrientes",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2026-10-01",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/1109145235"
   },
   "geometry": {
@@ -174939,8 +174950,7 @@
     "name": "ASPURC",
     "opening_hours": "Mo-Fr 08:00-19:45",
     "operator": "ASPURC",
-    "phone": "0358 476-8200",
-    "phone:mobile": "358 426-1064",
+    "phone": "+54 358 476 8200; +54 358 426 1064",
     "website": "https://www.aspurc.org.ar",
     "id": "node/11816776947"
   },
@@ -187756,6 +187766,38 @@
     "coordinates": [
       -64.2458591,
       -35.0374469
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14240956202",
+  "properties": {
+    "addr:street": "Bonpland",
+    "amenity": "pharmacy",
+    "id": "node/14240956202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4401739,
+      -34.5857433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14240966717",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "id": "node/14240966717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5613524,
+      -31.5385867
     ]
   }
 }

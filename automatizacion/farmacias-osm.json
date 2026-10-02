@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-01T01:48:48Z",
-    "timestamp_areas_base": "2026-09-29T07:52:35Z",
+    "timestamp_osm_base": "2026-10-02T02:01:25Z",
+    "timestamp_areas_base": "2026-09-30T19:06:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1165,12 +1165,18 @@
   "lat": -34.5995528,
   "lon": -58.3938546,
   "tags": {
+    "addr:housenumber": "1861",
+    "addr:street": "Avenida Córdoba",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2026-09-30",
     "healthcare": "pharmacy",
-    "name": "Farmacity"
+    "name": "Farmacity",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -2417,14 +2423,19 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "1820",
     "addr:street": "Avenida Corrientes",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2026-10-01",
     "healthcare": "pharmacy",
     "name": "Farmacity",
-    "opening_hours": "24/7"
+    "opening_hours": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -92528,8 +92539,7 @@
     "name": "ASPURC",
     "opening_hours": "Mo-Fr 08:00-19:45",
     "operator": "ASPURC",
-    "phone": "0358 476-8200",
-    "phone:mobile": "358 426-1064",
+    "phone": "+54 358 476 8200; +54 358 426 1064",
     "website": "https://www.aspurc.org.ar"
   }
 },
@@ -101156,6 +101166,26 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Realicó",
     "opening_hours": "Mo-Sa 08:00-12:00, 16:00-20:30"
+  }
+},
+{
+  "type": "node",
+  "id": 14240956202,
+  "lat": -34.5857433,
+  "lon": -58.4401739,
+  "tags": {
+    "addr:street": "Bonpland",
+    "amenity": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 14240966717,
+  "lat": -31.5385867,
+  "lon": -68.5613524,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
   }
 },
 {
