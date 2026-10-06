@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-05T01:37:54Z",
-    "timestamp_areas_base": "2026-10-04T05:50:36Z",
+    "timestamp_osm_base": "2026-10-06T02:44:36Z",
+    "timestamp_areas_base": "2026-10-04T19:59:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1057,7 +1057,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Maga+",
     "note": "24hs",
-    "opening_hours": "24hs",
+    "opening_hours": "24/7",
     "operator": "Maga+",
     "shop": "chemist"
   }
@@ -18304,7 +18304,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Mesura",
-    "opening_hours": "Mo-Th 8:00-0:00"
+    "opening_hours": "Mo-Th 08:00-00:00"
   }
 },
 {
@@ -41232,6 +41232,7 @@
   "lon": -58.4070060,
   "tags": {
     "amenity": "pharmacy",
+    "check_date": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacia Bulnes"
   }
@@ -41246,6 +41247,7 @@
     "addr:country": "AR",
     "addr:street": "Tagle",
     "amenity": "pharmacy",
+    "check_date": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "TKL"
   }
@@ -59302,7 +59304,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Piccone",
-    "opening_hours": "Mo-Sa 8:00-13:00 16:30-21:00",
+    "opening_hours": "Mo-Sa 08:00-13:00, 16:30-21:00",
     "phone": "+54 3547 43 0660"
   }
 },
@@ -69602,9 +69604,11 @@
   "lon": -58.4625347,
   "tags": {
     "amenity": "pharmacy",
-    "check_date": "2024-06-19",
+    "check_date": "2026-10-05",
+    "check_date:opening_hours": "2026-10-05",
     "healthcare": "pharmacy",
-    "name": "Farmacia Vitanova"
+    "name": "Farmacia Vitanova",
+    "opening_hours": "Mo-Fr 09:00-20:00"
   }
 },
 {
@@ -75731,7 +75735,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Farma-Todo",
-    "opening_hours": "Mo-Sa 08:00-12:30 - 17:00-21:00"
+    "opening_hours": "Mo-Sa 08:00-12:30, 17:00-21:00"
   }
 },
 {
@@ -80724,7 +80728,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Galetto",
-    "opening_hours": "Mo-Sa 9:00-12:30 17:00-21:00"
+    "opening_hours": "Mo-Sa 09:00-12:30, 17:00-21:00"
   }
 },
 {
@@ -82609,7 +82613,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Fabbro",
-    "opening_hours": "Mo-Su 09:00-13:00 17:00-21:00",
+    "opening_hours": "Mo-Su 09:00-13:00, 17:00-21:00",
     "phone": "+54 3572 66 5530"
   }
 },
@@ -91529,7 +91533,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Génesis",
-    "opening_hours": "mo",
+    "opening_hours": "Mo",
     "wheelchair": "yes"
   }
 },
@@ -91858,7 +91862,7 @@
     "currency:XBT": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Dante",
-    "opening_hours": "Mo-Fr 09:00-13:00 16:00-20:00",
+    "opening_hours": "Mo-Fr 09:00-13:00, 16:00-20:00",
     "operator": "Farmacia Dante",
     "payment:lightning": "yes",
     "payment:onchain": "yes"
@@ -93241,7 +93245,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Peiró",
-    "opening_hours": "Mo-Fr 08:30-12:30,14:30-18:00, Sa 8:30-12:30"
+    "opening_hours": "Mo-Fr 08:30-12:30,14:30-18:00, Sa 08:30-12:30"
   }
 },
 {
@@ -100862,29 +100866,6 @@
 },
 {
   "type": "node",
-  "id": 14088395791,
-  "lat": -34.5801408,
-  "lon": -58.4302337,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:housenumber": "5002",
-    "addr:postcode": "C1425BTD",
-    "addr:street": "Paraguay",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "email": "mariela@farmaciacharite.com.ar",
-    "healthcare": "pharmacy",
-    "name": "Charite",
-    "operator": "Malbertina S.R.L.",
-    "phone": "+541147770453",
-    "ref:sisa_codigo": "70020012318313",
-    "ref:sisa_tipologia": "FARMACIA",
-    "ref:vatin": "AR30711649545",
-    "website": "https://www.farmaciacharite.com.ar/"
-  }
-},
-{
-  "type": "node",
   "id": 14088994358,
   "lat": -34.4521532,
   "lon": -58.6137490,
@@ -108429,6 +108410,7 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacity"
   }

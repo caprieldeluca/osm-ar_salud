@@ -15309,6 +15309,7 @@
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
     "building": "yes",
+    "check_date": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "way/473402406"
@@ -44579,7 +44580,7 @@
     "healthcare": "pharmacy",
     "name": "Farmacia Maga+",
     "note": "24hs",
-    "opening_hours": "24hs",
+    "opening_hours": "24/7",
     "operator": "Maga+",
     "shop": "chemist",
     "id": "node/666396620"
@@ -69392,7 +69393,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Mesura",
-    "opening_hours": "Mo-Th 8:00-0:00",
+    "opening_hours": "Mo-Th 08:00-00:00",
     "id": "node/3047757733"
   },
   "geometry": {
@@ -102466,6 +102467,7 @@
   "id": "node/4675184147",
   "properties": {
     "amenity": "pharmacy",
+    "check_date": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacia Bulnes",
     "id": "node/4675184147"
@@ -102486,6 +102488,7 @@
     "addr:country": "AR",
     "addr:street": "Tagle",
     "amenity": "pharmacy",
+    "check_date": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "TKL",
     "id": "node/4675204441"
@@ -128684,7 +128687,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Piccone",
-    "opening_hours": "Mo-Sa 8:00-13:00 16:30-21:00",
+    "opening_hours": "Mo-Sa 08:00-13:00, 16:30-21:00",
     "phone": "+54 3547 43 0660",
     "id": "node/6316883186"
   },
@@ -143166,9 +143169,11 @@
   "id": "node/7671124695",
   "properties": {
     "amenity": "pharmacy",
-    "check_date": "2024-06-19",
+    "check_date": "2026-10-05",
+    "check_date:opening_hours": "2026-10-05",
     "healthcare": "pharmacy",
     "name": "Farmacia Vitanova",
+    "opening_hours": "Mo-Fr 09:00-20:00",
     "id": "node/7671124695"
   },
   "geometry": {
@@ -151845,7 +151850,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Farma-Todo",
-    "opening_hours": "Mo-Sa 08:00-12:30 - 17:00-21:00",
+    "opening_hours": "Mo-Sa 08:00-12:30, 17:00-21:00",
     "id": "node/9318653946"
   },
   "geometry": {
@@ -158782,7 +158787,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Galetto",
-    "opening_hours": "Mo-Sa 9:00-12:30 17:00-21:00",
+    "opening_hours": "Mo-Sa 09:00-12:30, 17:00-21:00",
     "id": "node/10179147520"
   },
   "geometry": {
@@ -161429,7 +161434,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Fabbro",
-    "opening_hours": "Mo-Su 09:00-13:00 17:00-21:00",
+    "opening_hours": "Mo-Su 09:00-13:00, 17:00-21:00",
     "phone": "+54 3572 66 5530",
     "id": "node/10763123089"
   },
@@ -173565,7 +173570,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Génesis",
-    "opening_hours": "mo",
+    "opening_hours": "Mo",
     "wheelchair": "yes",
     "id": "node/11516013271"
   },
@@ -174032,7 +174037,7 @@
     "currency:XBT": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Dante",
-    "opening_hours": "Mo-Fr 09:00-13:00 16:00-20:00",
+    "opening_hours": "Mo-Fr 09:00-13:00, 16:00-20:00",
     "operator": "Farmacia Dante",
     "payment:lightning": "yes",
     "payment:onchain": "yes",
@@ -176033,7 +176038,7 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia Peiró",
-    "opening_hours": "Mo-Fr 08:30-12:30,14:30-18:00, Sa 8:30-12:30",
+    "opening_hours": "Mo-Fr 08:30-12:30,14:30-18:00, Sa 08:30-12:30",
     "id": "node/11978369443"
   },
   "geometry": {
@@ -187377,35 +187382,6 @@
     "coordinates": [
       -55.9161698,
       -27.3656853
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14088395791",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:housenumber": "5002",
-    "addr:postcode": "C1425BTD",
-    "addr:street": "Paraguay",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "email": "mariela@farmaciacharite.com.ar",
-    "healthcare": "pharmacy",
-    "name": "Charite",
-    "operator": "Malbertina S.R.L.",
-    "phone": "+541147770453",
-    "ref:sisa_codigo": "70020012318313",
-    "ref:sisa_tipologia": "FARMACIA",
-    "ref:vatin": "AR30711649545",
-    "website": "https://www.farmaciacharite.com.ar/",
-    "id": "node/14088395791"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4302337,
-      -34.5801408
     ]
   }
 },

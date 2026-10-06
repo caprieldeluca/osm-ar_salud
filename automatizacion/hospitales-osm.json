@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-05T01:34:51Z",
-    "timestamp_areas_base": "2026-10-04T00:40:49Z",
+    "timestamp_osm_base": "2026-10-06T02:40:32Z",
+    "timestamp_areas_base": "2026-10-04T19:59:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23934,6 +23934,21 @@
 },
 {
   "type": "node",
+  "id": 13433000937,
+  "lat": -34.5223441,
+  "lon": -58.4902306,
+  "tags": {
+    "addr:city": "Florida",
+    "addr:housenumber": "1851",
+    "addr:street": "Caseros",
+    "amenity": "hospital",
+    "emergency": "ambulance_station",
+    "healthcare": "hospital",
+    "name": "SAME"
+  }
+},
+{
+  "type": "node",
   "id": 13508125268,
   "lat": -36.5190833,
   "lon": -57.3254433,
@@ -24921,6 +24936,7 @@
     "addr:postcode": "C1416DRJ",
     "addr:street": "Avenida Gaona",
     "amenity": "hospital",
+    "check_date": "2026-10-05",
     "contact:phone": "+54 8104446777",
     "healthcare": "hospital",
     "name": "Policlínica Bancaria 9 de Julio - OSBA",
@@ -60758,7 +60774,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "CAPS Maria Auxiliadora",
-    "opening_hours": "Lu-Vi 08:00-13:00",
+    "opening_hours": "Mo-Fr 08:00-13:00",
     "wheelchair": "yes"
   }
 },
@@ -60903,6 +60919,26 @@
     "wikidata": "Q13360048",
     "wikimedia_commons": "Category:Hospital Juan A. Fernández",
     "wikipedia": "es:Hospital Fernández"
+  }
+},
+{
+  "type": "way",
+  "id": 1564406163,
+  "nodes": [
+    14242582373,
+    14242582374,
+    14242582375,
+    14242582376,
+    14242582373
+  ],
+  "tags": {
+    "addr:city": "Florida",
+    "addr:housenumber": "1851",
+    "addr:street": "Caseros",
+    "amenity": "hospital",
+    "emergency": "ambulance_station",
+    "healthcare": "hospital",
+    "name": "SAME"
   }
 },
 {
@@ -122909,6 +122945,12 @@
 },
 {
   "type": "node",
+  "id": 14242582373,
+  "lat": -34.5223061,
+  "lon": -58.4902881
+},
+{
+  "type": "node",
   "id": 14242582374,
   "lat": -34.5222611,
   "lon": -58.4901919
@@ -122918,6 +122960,12 @@
   "id": 14242582375,
   "lat": -34.5224080,
   "lon": -58.4900731
+},
+{
+  "type": "node",
+  "id": 14242582376,
+  "lat": -34.5224592,
+  "lon": -58.4901658
 },
 {
   "type": "node",

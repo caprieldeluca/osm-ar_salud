@@ -6155,6 +6155,7 @@
     "addr:postcode": "C1416DRJ",
     "addr:street": "Avenida Gaona",
     "amenity": "hospital",
+    "check_date": "2026-10-05",
     "contact:phone": "+54 8104446777",
     "healthcare": "hospital",
     "name": "Policlínica Bancaria 9 de Julio - OSBA",
@@ -90147,7 +90148,7 @@
     "amenity": "hospital",
     "healthcare": "hospital",
     "name": "CAPS Maria Auxiliadora",
-    "opening_hours": "Lu-Vi 08:00-13:00",
+    "opening_hours": "Mo-Fr 08:00-13:00",
     "wheelchair": "yes",
     "id": "way/1551836059"
   },
@@ -90482,6 +90483,47 @@
         [
           -58.4071911,
           -34.5808949
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1564406163",
+  "properties": {
+    "addr:city": "Florida",
+    "addr:housenumber": "1851",
+    "addr:street": "Caseros",
+    "amenity": "hospital",
+    "emergency": "ambulance_station",
+    "healthcare": "hospital",
+    "name": "SAME",
+    "id": "way/1564406163"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4902881,
+          -34.5223061
+        ],
+        [
+          -58.4901658,
+          -34.5224592
+        ],
+        [
+          -58.4900731,
+          -34.522408
+        ],
+        [
+          -58.4901919,
+          -34.5222611
+        ],
+        [
+          -58.4902881,
+          -34.5223061
         ]
       ]
     ]
@@ -123534,6 +123576,27 @@
     "coordinates": [
       -62.9851965,
       -34.7690174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13433000937",
+  "properties": {
+    "addr:city": "Florida",
+    "addr:housenumber": "1851",
+    "addr:street": "Caseros",
+    "amenity": "hospital",
+    "emergency": "ambulance_station",
+    "healthcare": "hospital",
+    "name": "SAME",
+    "id": "node/13433000937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4902306,
+      -34.5223441
     ]
   }
 },
