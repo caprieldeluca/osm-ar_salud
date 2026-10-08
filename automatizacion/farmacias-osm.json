@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-07T02:06:19Z",
-    "timestamp_areas_base": "2026-10-05T16:01:51Z",
+    "timestamp_osm_base": "2026-10-08T02:31:59Z",
+    "timestamp_areas_base": "2026-10-06T13:12:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -807,21 +807,40 @@
 {
   "type": "node",
   "id": 638322742,
-  "lat": -49.3097880,
-  "lon": -67.7216212,
+  "lat": -49.3089406,
+  "lon": -67.7238993,
   "tags": {
+    "addr:city": "Puerto San Julián",
+    "addr:housenumber": "980",
+    "addr:postcode": "9310",
+    "addr:street": "Vélez Sarsfield",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Del Rosario"
   }
 },
 {
   "type": "node",
   "id": 638322743,
-  "lat": -49.3086105,
-  "lon": -67.7243505,
+  "lat": -49.3086595,
+  "lon": -67.7246270,
   "tags": {
+    "addr:city": "Puerto San Julián",
+    "addr:housenumber": "770",
+    "addr:postcode": "9310",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "dispensing": "yes",
+    "drive_through": "yes",
+    "healthcare": "pharmacy",
+    "name": "Moderna",
+    "operator": "Privado",
+    "payment:app": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
   }
 },
 {
@@ -23165,6 +23184,7 @@
     "addr:housenumber": "4502",
     "addr:street": "Paraguay",
     "amenity": "pharmacy",
+    "check_date": "2026-10-04",
     "healthcare": "pharmacy",
     "name": "Farmacia Ilíada"
   }
@@ -33388,10 +33408,17 @@
   "lat": -34.5837640,
   "lon": -58.4227805,
   "tags": {
+    "addr:housenumber": "4299",
     "addr:street": "Charcas",
     "amenity": "pharmacy",
+    "check_date": "2026-10-04",
     "healthcare": "pharmacy",
-    "name": "Farmacia Antigua Charcas"
+    "name": "Farmacia Antigua Charcas",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-14:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "limited"
   }
 },
 {
@@ -101168,6 +101195,17 @@
   "tags": {
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 14258844301,
+  "lat": -32.7236092,
+  "lon": -59.3932900,
+  "tags": {
+    "addr:postcode": "E2843",
+    "addr:street": "Tratado de Pilar",
+    "amenity": "pharmacy"
   }
 },
 {

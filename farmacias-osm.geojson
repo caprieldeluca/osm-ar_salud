@@ -44225,15 +44225,21 @@
   "type": "Feature",
   "id": "node/638322742",
   "properties": {
+    "addr:city": "Puerto San Julián",
+    "addr:housenumber": "980",
+    "addr:postcode": "9310",
+    "addr:street": "Vélez Sarsfield",
     "amenity": "pharmacy",
+    "dispensing": "yes",
     "healthcare": "pharmacy",
+    "name": "Del Rosario",
     "id": "node/638322742"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.7216212,
-      -49.309788
+      -67.7238993,
+      -49.3089406
     ]
   }
 },
@@ -44241,15 +44247,28 @@
   "type": "Feature",
   "id": "node/638322743",
   "properties": {
+    "addr:city": "Puerto San Julián",
+    "addr:housenumber": "770",
+    "addr:postcode": "9310",
+    "addr:street": "Avenida San Martín",
     "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "yes",
     "healthcare": "pharmacy",
+    "name": "Moderna",
+    "operator": "Privado",
+    "payment:app": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "id": "node/638322743"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -67.7243505,
-      -49.3086105
+      -67.724627,
+      -49.3086595
     ]
   }
 },
@@ -76510,6 +76529,7 @@
     "addr:housenumber": "4502",
     "addr:street": "Paraguay",
     "amenity": "pharmacy",
+    "check_date": "2026-10-04",
     "healthcare": "pharmacy",
     "name": "Farmacia Ilíada",
     "id": "node/3522260205"
@@ -91239,10 +91259,17 @@
   "type": "Feature",
   "id": "node/4345845327",
   "properties": {
+    "addr:housenumber": "4299",
     "addr:street": "Charcas",
     "amenity": "pharmacy",
+    "check_date": "2026-10-04",
     "healthcare": "pharmacy",
     "name": "Farmacia Antigua Charcas",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-14:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "limited",
     "id": "node/4345845327"
   },
   "geometry": {
@@ -187832,6 +187859,23 @@
     "coordinates": [
       -68.5613524,
       -31.5385867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14258844301",
+  "properties": {
+    "addr:postcode": "E2843",
+    "addr:street": "Tratado de Pilar",
+    "amenity": "pharmacy",
+    "id": "node/14258844301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.39329,
+      -32.7236092
     ]
   }
 }
