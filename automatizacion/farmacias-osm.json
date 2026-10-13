@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-12T02:04:51Z",
-    "timestamp_areas_base": "2026-10-10T17:47:19Z",
+    "timestamp_osm_base": "2026-10-13T03:23:06Z",
+    "timestamp_areas_base": "2026-10-11T17:41:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -38723,8 +38723,8 @@
 {
   "type": "node",
   "id": 4623861612,
-  "lat": -34.5204854,
-  "lon": -58.4970917,
+  "lat": -34.5205053,
+  "lon": -58.4971199,
   "tags": {
     "addr:street": "Carlos Villate",
     "amenity": "pharmacy",
@@ -101247,6 +101247,22 @@
   }
 },
 {
+  "type": "node",
+  "id": 14277566538,
+  "lat": -32.0446297,
+  "lon": -63.5656017,
+  "tags": {
+    "addr:city": "Oliva",
+    "addr:housenumber": "202",
+    "addr:postcode": "X5980",
+    "addr:street": "Monseñor Gallardo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Cuassolo",
+    "phone": "+54 (3532) 42-0206"
+  }
+},
+{
   "type": "way",
   "id": 114332906,
   "nodes": [
@@ -116152,16 +116168,22 @@
   ],
   "tags": {
     "addr:city": "Virreyes",
+    "addr:housenumber": "3757",
     "addr:postcode": "B1645",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
     "building": "yes",
     "building:levels": "3",
+    "check_date": "2026-10-12",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Contreras",
     "opening_hours": "Mo-Sa 08:30-12:00; Su 09:00-23:00",
-    "phone": "+54 11 4714-2704"
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+54 11 4714-2704",
+    "wheelchair": "limited"
   }
 },
 {
