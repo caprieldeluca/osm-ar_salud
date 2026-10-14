@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-13T03:25:08Z",
-    "timestamp_areas_base": "2026-10-12T20:52:06Z",
+    "timestamp_osm_base": "2026-10-14T01:38:25Z",
+    "timestamp_areas_base": "2026-10-12T15:16:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1174,28 +1174,6 @@
     "phone": "+5493513517423",
     "website": "www.facebook.com/Repensarme",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
-  "id": 2657144749,
-  "lat": -27.4217306,
-  "lon": -55.3789124,
-  "tags": {
-    "addr:city": "Mártires",
-    "addr:postcode": "3318",
-    "addr:street": "Acceso a Mártires",
-    "alt_name": "CAPS Mártires",
-    "amenity": "doctors",
-    "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
-    "healthcare": "doctor",
-    "name": "CAPS Otto Rosberg",
-    "official_name": "Centro de Atención Primaria de la Salud",
-    "ref": "ESSIDT",
-    "ref:ZonaSanitaria": "Centro Uruguay",
-    "ref:cuie_codigo": "N66047",
-    "ref:sisa_codigo": "50540912166047",
-    "ref:sisa_tipologia": "ESSIDT"
   }
 },
 {
@@ -17065,21 +17043,6 @@
 },
 {
   "type": "node",
-  "id": 8936675510,
-  "lat": -27.4216390,
-  "lon": -55.3788976,
-  "tags": {
-    "addr:city": "Mártires",
-    "addr:street": "Acceso a Mártires",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "healthcare:speciality": "vaccination",
-    "name": "Vacunatorio COVID-19 CAPS Mártires",
-    "vaccination": "covid19"
-  }
-},
-{
-  "type": "node",
   "id": 8936675511,
   "lat": -27.5572317,
   "lon": -55.0762624,
@@ -30307,6 +30270,36 @@
   }
 },
 {
+  "type": "way",
+  "id": 1567838391,
+  "nodes": [
+    6773521140,
+    14278912384,
+    14278912397,
+    14278912385,
+    14278912386,
+    6773521140
+  ],
+  "tags": {
+    "addr:city": "Damián Maisonnave",
+    "addr:housenumber": "160",
+    "addr:postcode": "L6212",
+    "addr:street": "Avenida San Martín",
+    "amenity": "doctors",
+    "building": "public",
+    "emergency": "yes",
+    "healthcare": "doctor",
+    "height": "3.5",
+    "name": "Centro de Salud Maisonnave",
+    "opening_hours": "Mo-Su 06:00-20:00",
+    "operator": "Zona Sanitaria II - Ministerio de Salud de La Pampa",
+    "operator:type": "public",
+    "roof:direction": "260",
+    "roof:height": "0,5",
+    "roof:shape": "skillion"
+  }
+},
+{
   "type": "relation",
   "id": 8052156,
   "members": [
@@ -32083,6 +32076,36 @@
   "id": 8151683358,
   "lat": -35.2900754,
   "lon": -63.7768796
+},
+{
+  "type": "node",
+  "id": 6773521140,
+  "lat": -35.0415839,
+  "lon": -64.3850673
+},
+{
+  "type": "node",
+  "id": 14278912384,
+  "lat": -35.0415875,
+  "lon": -64.3851229
+},
+{
+  "type": "node",
+  "id": 14278912385,
+  "lat": -35.0415014,
+  "lon": -64.3851313
+},
+{
+  "type": "node",
+  "id": 14278912386,
+  "lat": -35.0414978,
+  "lon": -64.3850756
+},
+{
+  "type": "node",
+  "id": 14278912397,
+  "lat": -35.0415445,
+  "lon": -64.3851271
 },
 {
   "type": "node",

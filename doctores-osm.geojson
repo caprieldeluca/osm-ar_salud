@@ -12628,6 +12628,60 @@
 },
 {
   "type": "Feature",
+  "id": "way/1567838391",
+  "properties": {
+    "addr:city": "Damián Maisonnave",
+    "addr:housenumber": "160",
+    "addr:postcode": "L6212",
+    "addr:street": "Avenida San Martín",
+    "amenity": "doctors",
+    "building": "public",
+    "emergency": "yes",
+    "healthcare": "doctor",
+    "height": "3.5",
+    "name": "Centro de Salud Maisonnave",
+    "opening_hours": "Mo-Su 06:00-20:00",
+    "operator": "Zona Sanitaria II - Ministerio de Salud de La Pampa",
+    "operator:type": "public",
+    "roof:direction": "260",
+    "roof:height": "0,5",
+    "roof:shape": "skillion",
+    "id": "way/1567838391"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.3850673,
+          -35.0415839
+        ],
+        [
+          -64.3850756,
+          -35.0414978
+        ],
+        [
+          -64.3851313,
+          -35.0415014
+        ],
+        [
+          -64.3851271,
+          -35.0415445
+        ],
+        [
+          -64.3851229,
+          -35.0415875
+        ],
+        [
+          -64.3850673,
+          -35.0415839
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/534125484",
   "properties": {
     "addr:city": "Puerto Iguazú",
@@ -14307,34 +14361,6 @@
     "coordinates": [
       -64.1869796,
       -31.4122721
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2657144749",
-  "properties": {
-    "addr:city": "Mártires",
-    "addr:postcode": "3318",
-    "addr:street": "Acceso a Mártires",
-    "alt_name": "CAPS Mártires",
-    "amenity": "doctors",
-    "description": "Categoría de tipología: Con atención médica general por lo menos 3 días de la semana",
-    "healthcare": "doctor",
-    "name": "CAPS Otto Rosberg",
-    "official_name": "Centro de Atención Primaria de la Salud",
-    "ref": "ESSIDT",
-    "ref:ZonaSanitaria": "Centro Uruguay",
-    "ref:cuie_codigo": "N66047",
-    "ref:sisa_codigo": "50540912166047",
-    "ref:sisa_tipologia": "ESSIDT",
-    "id": "node/2657144749"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.3789124,
-      -27.4217306
     ]
   }
 },
@@ -36302,27 +36328,6 @@
     "coordinates": [
       -54.9158999,
       -27.7220508
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8936675510",
-  "properties": {
-    "addr:city": "Mártires",
-    "addr:street": "Acceso a Mártires",
-    "amenity": "doctors",
-    "healthcare": "doctor",
-    "healthcare:speciality": "vaccination",
-    "name": "Vacunatorio COVID-19 CAPS Mártires",
-    "vaccination": "covid19",
-    "id": "node/8936675510"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.3788976,
-      -27.421639
     ]
   }
 },

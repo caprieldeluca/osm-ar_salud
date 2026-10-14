@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-13T03:22:02Z",
-    "timestamp_areas_base": "2026-10-12T20:52:06Z",
+    "timestamp_osm_base": "2026-10-14T01:35:26Z",
+    "timestamp_areas_base": "2026-10-13T22:54:28Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4786,19 +4786,16 @@
 {
   "type": "node",
   "id": 3742527546,
-  "lat": -31.4974369,
-  "lon": -68.4740961,
+  "lat": -31.4974956,
+  "lon": -68.4742394,
   "tags": {
-    "addr:city": "El Mogote",
-    "addr:postcode": "5413",
-    "addr:street": "Avenida Nazario Benavídez",
     "amenity": "clinic",
     "description": "Con atención médica diaria y con especialidades y/o otras profesiones",
     "healthcare": "clinic",
     "healthcare:speciality": "general",
-    "name": "CAPS Dr. Francisco Gonzalez Fernandez",
-    "official_name": "Centro de Atención Primaria de Salud Dr. Francisco Gonzalez Fernandez",
-    "operator": "Ministerio de Salud Pública",
+    "name": "CAPS Doctor Francisco Gonzalez Fernandez",
+    "official_name": "Centro de Atención Primaria de Salud Doctor Francisco Gonzalez Fernandez",
+    "operator": "Ministerio de Salud",
     "operator:type": "public",
     "ref:sisa_tipologia": "ESSIDT"
   }
@@ -41603,6 +41600,24 @@
 },
 {
   "type": "node",
+  "id": 9029320666,
+  "lat": -34.5115583,
+  "lon": -58.5145831,
+  "tags": {
+    "addr:city": "Olivos",
+    "addr:housenumber": "3484",
+    "addr:postcode": "B1636",
+    "addr:street": "Capitán Justo Germán de Bermúdez",
+    "amenity": "clinic",
+    "check_date": "2026-03-19",
+    "healthcare": "clinic",
+    "name": "Zoonosis Vicente Lopez",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:00; Su,PH off",
+    "website": "https://www.vicentelopez.gov.ar/"
+  }
+},
+{
+  "type": "node",
   "id": 9048385647,
   "lat": -30.4140612,
   "lon": -64.3470379,
@@ -49695,7 +49710,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Clínica Privda San José",
-    "phone": "+54 (3532) 42-0545",
+    "phone": "+54 3532 42 0545",
     "website": "https://www.instagram.com/clinicasanjoseoliva?igsh=MTFmcDB1NnR2NmE0dA=="
   }
 },
@@ -49712,7 +49727,7 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Centro de Diagnóstico Oliva",
-    "phone": "+54 (3532) 41-3553",
+    "phone": "+54 3532 41 3553",
     "website": "https://www.instagram.com/centrodiagnosticooliva?igsh=MWduY3djamkzNWcyYg=="
   }
 },
@@ -49729,7 +49744,20 @@
     "amenity": "clinic",
     "healthcare": "clinic",
     "name": "Comunica",
-    "phone": "+54 (3532) 43-7985"
+    "phone": "+54 3532 43 7985"
+  }
+},
+{
+  "type": "node",
+  "id": 14281067301,
+  "lat": -34.5936492,
+  "lon": -58.6367997,
+  "tags": {
+    "addr:housenumber": "1452",
+    "addr:postcode": "1686",
+    "addr:street": "Río Colorado",
+    "amenity": "clinic",
+    "name": "Sanatorio Modelo de Caseros"
   }
 },
 {
@@ -76511,6 +76539,20 @@
   }
 },
 {
+  "type": "way",
+  "id": 1567974535,
+  "nodes": [
+    14280552494,
+    14280552493,
+    14280552492,
+    14280552491,
+    14280552494
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -91310,6 +91352,30 @@
 },
 {
   "type": "node",
+  "id": 14280552491,
+  "lat": -31.4971254,
+  "lon": -68.4741859
+},
+{
+  "type": "node",
+  "id": 14280552492,
+  "lat": -31.4970997,
+  "lon": -68.4744240
+},
+{
+  "type": "node",
+  "id": 14280552493,
+  "lat": -31.4976583,
+  "lon": -68.4743114
+},
+{
+  "type": "node",
+  "id": 14280552494,
+  "lat": -31.4976149,
+  "lon": -68.4740874
+},
+{
+  "type": "node",
   "id": 6304842568,
   "lat": -31.5316325,
   "lon": -68.4678758
@@ -93321,8 +93387,8 @@
 {
   "type": "node",
   "id": 12836898527,
-  "lat": -33.6883684,
-  "lon": -65.4671441
+  "lat": -33.6883707,
+  "lon": -65.4671329
 },
 {
   "type": "node",
@@ -93333,8 +93399,8 @@
 {
   "type": "node",
   "id": 12836898530,
-  "lat": -33.6884805,
-  "lon": -65.4671754
+  "lat": -33.6884824,
+  "lon": -65.4671665
 },
 {
   "type": "node",
