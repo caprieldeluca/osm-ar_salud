@@ -15264,7 +15264,7 @@
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
-    "website": "farmacity.com.ar",
+    "website": "https://farmacity.com.ar",
     "wheelchair": "yes",
     "id": "way/473387832"
   },
@@ -30149,7 +30149,9 @@
   "id": "way/787180394",
   "properties": {
     "addr:city": "Río Grande",
+    "addr:country": "AR",
     "addr:postcode": "V9420",
+    "addr:province": "Tierra del Fuego",
     "addr:street": "General Don José de San Martín",
     "amenity": "pharmacy",
     "building": "yes",
@@ -32812,7 +32814,9 @@
     "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
-    "name": "Autofarma",
+    "mobile": "+54 9 2964 698903",
+    "name": "Farmacia Autofarma",
+    "phone": "+54 2964 433212",
     "id": "way/851910159"
   },
   "geometry": {
@@ -34998,10 +35002,19 @@
   "type": "Feature",
   "id": "way/922755082",
   "properties": {
+    "addr:city": "Río Grande",
+    "addr:country": "AR",
+    "addr:housenumber": "416",
+    "addr:postcode": "V9420",
+    "addr:province": "Tierra del Fuego",
+    "addr:street": "Leonardo Rosales",
     "amenity": "pharmacy",
     "building": "yes",
     "dispensing": "yes",
     "healthcare": "pharmacy",
+    "mobile": "+54 9 2964 693107",
+    "name": "Farmacia Oniken",
+    "phone": "+54 2964 422631",
     "id": "way/922755082"
   },
   "geometry": {
@@ -41338,6 +41351,68 @@
 },
 {
   "type": "Feature",
+  "id": "way/1324611457",
+  "properties": {
+    "addr:city": "Río Grande",
+    "addr:country": "AR",
+    "addr:housenumber": "902",
+    "addr:postcode": "V9420",
+    "addr:province": "Tierra del Fuego",
+    "addr:street": "Juan Bautista Thorne",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Thorne",
+    "phone": "+54 2964 424283",
+    "id": "way/1324611457"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.7091138,
+          -53.7855248
+        ],
+        [
+          -67.7090916,
+          -53.7855274
+        ],
+        [
+          -67.7090225,
+          -53.7854783
+        ],
+        [
+          -67.7090232,
+          -53.7854276
+        ],
+        [
+          -67.7091406,
+          -53.7853666
+        ],
+        [
+          -67.7091468,
+          -53.7853692
+        ],
+        [
+          -67.7092631,
+          -53.7854505
+        ],
+        [
+          -67.7091708,
+          -53.7854962
+        ],
+        [
+          -67.7091138,
+          -53.7855248
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/1347201142",
   "properties": {
     "addr:city": "Las Perlas",
@@ -43096,6 +43171,51 @@
         [
           -64.2485188,
           -35.036239
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1568407086",
+  "properties": {
+    "addr:city": "Río Grande",
+    "addr:country": "AR",
+    "addr:housenumber": "104",
+    "addr:postcode": "V9420",
+    "addr:province": "Tierra del Fuego",
+    "addr:street": "Carlos Pellegrini",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Oniken I",
+    "phone": "+54 2964 42 7869",
+    "id": "way/1568407086"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.7234669,
+          -53.773175
+        ],
+        [
+          -67.7235769,
+          -53.77325
+        ],
+        [
+          -67.7233545,
+          -53.7733621
+        ],
+        [
+          -67.7232447,
+          -53.7732872
+        ],
+        [
+          -67.7234669,
+          -53.773175
         ]
       ]
     ]
@@ -50847,57 +50967,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1707817130",
-  "properties": {
-    "addr:city": "Río Grande",
-    "addr:country": "AR",
-    "addr:housenumber": "902",
-    "addr:postcode": "V9420",
-    "addr:province": "Tierra del Fuego",
-    "addr:street": "Juan Bautista Thorne",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Thorne",
-    "phone": "+54 2964 424283",
-    "id": "node/1707817130"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.7090071,
-      -53.785449
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1707817303",
-  "properties": {
-    "addr:city": "Río Grande",
-    "addr:country": "AR",
-    "addr:housenumber": "416",
-    "addr:postcode": "V9420",
-    "addr:province": "Tierra del Fuego",
-    "addr:street": "Leonardo Rosales",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "mobile": "+54 9 2964 693107",
-    "name": "Farmacia Oniken",
-    "phone": "+54 2964 422631",
-    "id": "node/1707817303"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.6978303,
-      -53.7861817
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1707817385",
   "properties": {
     "addr:city": "Río Grande",
@@ -58240,10 +58309,17 @@
   "type": "Feature",
   "id": "node/2300493558",
   "properties": {
+    "addr:housenumber": "3592",
+    "addr:street": "Avenida Monroe",
     "amenity": "pharmacy",
+    "check_date": "2026-10-15",
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacia del Pirovano",
+    "opening_hours": "Mo-Sa 08:30-20:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
     "id": "node/2300493558"
   },
@@ -100512,13 +100588,14 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
-    "addr:street": "Monroe",
+    "addr:housenumber": "2502",
+    "addr:street": "Avenida Melián",
     "addr:suburb": "Coghlan",
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
-    "check_date": "2023-10-20",
+    "check_date": "2026-10-15",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "opening_hours": "Mo-Fr 07:30-21:00; Sa 08:00-21:00",
@@ -102058,11 +102135,16 @@
   "properties": {
     "addr:city": "Virreyes",
     "addr:housenumber": "4810",
-    "addr:postcode": "1646",
+    "addr:postcode": "B1646",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "pharmacy",
+    "check_date": "2026-10-14",
     "healthcare": "pharmacy",
     "name": "Panama",
+    "opening_hours": "Mo-Sa 08:30-21:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "ref:sisa_codigo": "70067492314875",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
     "id": "node/4669021490"
@@ -102070,8 +102152,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5846086,
-      -34.4665303
+      -58.5845841,
+      -34.4665729
     ]
   }
 },
@@ -157115,7 +157197,7 @@
   "type": "Feature",
   "id": "node/9907440533",
   "properties": {
-    "addr:city": "Rio Grande",
+    "addr:city": "Río Grande",
     "addr:country": "AR",
     "addr:housenumber": "547",
     "addr:postcode": "V9420",
@@ -181283,6 +181365,7 @@
   "id": "node/12703928622",
   "properties": {
     "amenity": "pharmacy",
+    "healthcare": "pharmacy",
     "id": "node/12703928622"
   },
   "geometry": {
@@ -186792,54 +186875,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14011100895",
-  "properties": {
-    "addr:city": "Río Grande",
-    "addr:country": "AR",
-    "addr:housenumber": "104",
-    "addr:postcode": "V9420",
-    "addr:province": "Tierra del Fuego",
-    "addr:street": "Carlos Pellegrini",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Oniken I",
-    "phone": "+54 2964 42 7869",
-    "id": "node/14011100895"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.7235696,
-      -53.7731954
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14011115333",
-  "properties": {
-    "addr:city": "Río Grande",
-    "addr:country": "AR",
-    "addr:housenumber": "721",
-    "addr:postcode": "V9420",
-    "addr:province": "Tierra del Fuego",
-    "addr:street": "Avenida General José de San Martín",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia del Pueblo Express",
-    "id": "node/14011115333"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.7039981,
-      -53.7850199
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14011147208",
   "properties": {
     "addr:city": "Río Grande",
@@ -186935,32 +186970,6 @@
     "coordinates": [
       -67.7069539,
       -53.7847387
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14013648750",
-  "properties": {
-    "addr:city": "Río Grande",
-    "addr:country": "AR",
-    "addr:housenumber": "444",
-    "addr:postcode": "V9420",
-    "addr:province": "Tierra del Fuego",
-    "addr:street": "Leonardo Rosales",
-    "amenity": "pharmacy",
-    "dispensing": "yes",
-    "healthcare": "pharmacy",
-    "mobile": "+54 9 2964 698903",
-    "name": "Farmacia Autofarma",
-    "phone": "+54 2964 433212",
-    "id": "node/14013648750"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -67.6981656,
-      -53.7860151
     ]
   }
 },
@@ -188033,6 +188042,206 @@
     "coordinates": [
       -63.6785618,
       -31.913999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288413430",
+  "properties": {
+    "addr:city": "Laguna Larga",
+    "addr:housenumber": "5974",
+    "addr:postcode": "X5974",
+    "addr:street": "Dean Funes",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 (3572) 60-8710",
+    "name": "Miretti",
+    "phone": "+54 (3572) 48-0006",
+    "id": "node/14288413430"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8034877,
+      -31.7745783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288413436",
+  "properties": {
+    "addr:city": "Laguna Larga",
+    "addr:postcode": "X5974",
+    "addr:street": "General Paz",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "mobile": "+54 (3572) 68-0535",
+    "name": "Sampaolesi",
+    "phone": "+54 (3572) 48-0033",
+    "website": "https://www.instagram.com/farmacia_sampaolesi/",
+    "id": "node/14288413436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.801152,
+      -31.7807465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288423243",
+  "properties": {
+    "addr:city": "Pilar",
+    "addr:housenumber": "850",
+    "addr:postcode": "X5972",
+    "addr:street": "General Mitre",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "mobile": "+54 (3572) 58-1138",
+    "name": "Bonus",
+    "phone": "+54 (3572 47-4199",
+    "website": "https://www.facebook.com/farmaciabonus/?locale=es_LA",
+    "id": "node/14288423243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8844214,
+      -31.6787975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288423244",
+  "properties": {
+    "addr:city": "Pilar",
+    "addr:housenumber": "887",
+    "addr:postcode": "X5972",
+    "addr:street": "25 de Mayo",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Camaggio",
+    "phone": "+54 (3572) 47-1400",
+    "id": "node/14288423244"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8841109,
+      -31.6801696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288423246",
+  "properties": {
+    "addr:city": "Pilar",
+    "addr:housenumber": "836",
+    "addr:postcode": "X5972",
+    "addr:street": "9 de Julio",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Central",
+    "phone": "+54 (3572) 47-1727",
+    "id": "node/14288423246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8828523,
+      -31.6805597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288423248",
+  "properties": {
+    "addr:city": "Pilar",
+    "addr:postcode": "X5972",
+    "addr:street": "Juan Bautista Alberdi",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Santa Cruz",
+    "phone": "+54 (3572) 47-0032",
+    "id": "node/14288423248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8804372,
+      -31.6806316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288423249",
+  "properties": {
+    "addr:city": "Pilar",
+    "addr:housenumber": "785",
+    "addr:postcode": "X5972",
+    "addr:street": "Tomas Garzon",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Martín Ruiz",
+    "phone": "+54 (3572) 47-2217",
+    "id": "node/14288423249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8800706,
+      -31.6824013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14288423260",
+  "properties": {
+    "addr:city": "Pilar",
+    "addr:postcode": "X5972",
+    "addr:street": "Juan Domingo Perón",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bonus II",
+    "phone": "+54 (3572) 47-1772",
+    "id": "node/14288423260"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -63.8927138,
+      -31.6702699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14290004673",
+  "properties": {
+    "addr:city": "Toledo",
+    "addr:housenumber": "351",
+    "addr:postcode": "X5123",
+    "addr:street": "Avenida República",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "mobile": "+54 9 (351) 873-9259",
+    "name": "Olmos",
+    "id": "node/14290004673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -64.0065608,
+      -31.5572286
     ]
   }
 }
