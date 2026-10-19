@@ -14843,11 +14843,17 @@
   "type": "Feature",
   "id": "way/472791776",
   "properties": {
+    "addr:housenumber": "1851",
+    "addr:street": "General José de San Martín",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2025-03-07",
+    "check_date": "2026-10-18",
     "healthcare": "pharmacy",
     "name": "Farmacia Martín",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-14:00; Su,PH off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "wheelchair": "yes",
     "id": "way/472791776"
   },
@@ -23535,6 +23541,45 @@
         [
           -64.1547248,
           -31.4359134
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/555343363",
+  "properties": {
+    "addr:street": "Avenida Amadeo Sabattini",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Sol",
+    "id": "way/555343363"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.1556093,
+          -31.4329321
+        ],
+        [
+          -64.1555318,
+          -31.4329374
+        ],
+        [
+          -64.1555285,
+          -31.4328048
+        ],
+        [
+          -64.1556051,
+          -31.4328044
+        ],
+        [
+          -64.1556093,
+          -31.4329321
         ]
       ]
     ]
@@ -43216,6 +43261,49 @@
         [
           -67.7234669,
           -53.773175
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1569570867",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "id": "way/1569570867"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.1564088,
+          -31.4329295
+        ],
+        [
+          -64.1562786,
+          -31.4329313
+        ],
+        [
+          -64.1562784,
+          -31.432816
+        ],
+        [
+          -64.1562782,
+          -31.432727
+        ],
+        [
+          -64.1563968,
+          -31.4327204
+        ],
+        [
+          -64.1564088,
+          -31.4329295
         ]
       ]
     ]
@@ -94787,26 +94875,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4522473459",
-  "properties": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "1635",
-    "addr:street": "Sarmiento",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Del Norte",
-    "id": "node/4522473459"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.8919659,
-      -27.3654209
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4522485163",
   "properties": {
     "amenity": "pharmacy",
@@ -114689,24 +114757,6 @@
     "coordinates": [
       -60.6432019,
       -32.9381696
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5358184170",
-  "properties": {
-    "addr:street": "Avenida Amadeo Sabattini",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Sol",
-    "id": "node/5358184170"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -64.1555683,
-      -31.432928
     ]
   }
 },

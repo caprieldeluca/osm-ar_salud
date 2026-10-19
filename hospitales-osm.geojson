@@ -2759,19 +2759,23 @@
   "properties": {
     "addr:city": "Virreyes",
     "addr:housenumber": "4850",
-    "addr:postcode": "1646",
+    "addr:postcode": "B1646",
     "addr:street": "Avenida Nicolás Avellaneda",
     "amenity": "hospital",
     "building:levels": "2",
-    "description": "El Hospital Municipal de San Fernando es un edificio de más de 8 mil mts2 con 3 pisos, que cuenta con guardia, quirófanos y 15 especialidades médicas para adultos y niños. Está equipado con aparatología de diagnóstico de última tecnología, única en todo e",
+    "check_date": "2026-10-14",
+    "description": "El Hospital Municipal de San Fernando es un edificio de más de 8 mil mts2 con 3 pisos, que cuenta con guardia, quirófanos y 15 especialidades médicas para adultos y niños.",
+    "emergency": "yes",
     "healthcare": "hospital",
     "healthcare:speciality": "dentistry;dermatology;cardiology;gynaecology;emergency;surgery",
     "name": "Hospital Municipal San Cayetano",
+    "opening_hours": "24/7",
     "operator": "Municipalidad de San Fernando",
     "operator:type": "public",
-    "phone": "4890-3033",
+    "phone": "+54 11 4890-3033",
     "source": "Actualizaciones en Argentina. cartográfico 2016 por KG.;local knowledge",
     "type": "multipolygon",
+    "wheelchair": "yes",
     "id": "relation/12890381"
   },
   "geometry": {
@@ -29188,7 +29192,7 @@
     "addr:street": "Avenida Monroe",
     "addr:suburb": "Coghlan",
     "amenity": "hospital",
-    "check_date": "2023-10-20",
+    "check_date": "2026-10-15",
     "email": "contacto@hospitalpirovano.org",
     "emergency": "yes",
     "healthcare": "hospital",
@@ -90515,6 +90519,46 @@
 },
 {
   "type": "Feature",
+  "id": "way/1568579047",
+  "properties": {
+    "addr:city": "Goya",
+    "addr:housenumber": "334",
+    "addr:street": "Alvear",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Sanatorio San Martín",
+    "id": "way/1568579047"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59.2608874,
+          -29.1388752
+        ],
+        [
+          -59.2609572,
+          -29.1391516
+        ],
+        [
+          -59.2608123,
+          -29.1391891
+        ],
+        [
+          -59.2607453,
+          -29.1388939
+        ],
+        [
+          -59.2608874,
+          -29.1388752
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101961",
   "properties": {
     "addr:housenumber": "37",
@@ -107895,7 +107939,10 @@
   "type": "Feature",
   "id": "node/5046394723",
   "properties": {
-    "addr:city": "Rio Grande",
+    "addr:city": "Río Grande",
+    "addr:country": "AR",
+    "addr:postcode": "V9420",
+    "addr:province": "Tierra del Fuego",
     "addr:street": "Jorge Luis Borges",
     "amenity": "hospital",
     "healthcare": "hospital",
@@ -124190,6 +124237,26 @@
     "coordinates": [
       -59.1808633,
       -29.1467943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14287541735",
+  "properties": {
+    "addr:city": "Goya",
+    "addr:housenumber": "550",
+    "addr:street": "Avenida Tomás Mazzanti",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Pediátrico Angel de la Guarda",
+    "id": "node/14287541735"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -59.2468057,
+      -29.1366629
     ]
   }
 }

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-18T00:39:51Z",
-    "timestamp_areas_base": "2026-10-17T20:53:35Z",
+    "timestamp_osm_base": "2026-10-19T00:50:18Z",
+    "timestamp_areas_base": "2026-10-18T19:41:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -35740,20 +35740,6 @@
 },
 {
   "type": "node",
-  "id": 4522473459,
-  "lat": -27.3654209,
-  "lon": -55.8919659,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "1635",
-    "addr:street": "Sarmiento",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Del Norte"
-  }
-},
-{
-  "type": "node",
   "id": 4522485163,
   "lat": -27.4866066,
   "lon": -58.8382624,
@@ -49643,18 +49629,6 @@
     "addr:street": "Salta",
     "amenity": "pharmacy",
     "healthcare": "pharmacy"
-  }
-},
-{
-  "type": "node",
-  "id": 5358184170,
-  "lat": -31.4329280,
-  "lon": -64.1555683,
-  "tags": {
-    "addr:street": "Avenida Amadeo Sabattini",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Sol"
   }
 },
 {
@@ -108391,11 +108365,17 @@
     4669929143
   ],
   "tags": {
+    "addr:housenumber": "1851",
+    "addr:street": "General José de San Martín",
     "amenity": "pharmacy",
     "building": "yes",
-    "check_date": "2025-03-07",
+    "check_date": "2026-10-18",
     "healthcare": "pharmacy",
     "name": "Farmacia Martín",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-14:00; Su,PH off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "wheelchair": "yes"
   }
 },
@@ -112539,6 +112519,24 @@
     "building": "yes",
     "healthcare": "pharmacy",
     "name": "Vital"
+  }
+},
+{
+  "type": "way",
+  "id": 555343363,
+  "nodes": [
+    5358184174,
+    5358184171,
+    5358184172,
+    5358184173,
+    5358184174
+  ],
+  "tags": {
+    "addr:street": "Avenida Amadeo Sabattini",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Sol"
   }
 },
 {
@@ -121687,6 +121685,25 @@
   }
 },
 {
+  "type": "way",
+  "id": 1569570867,
+  "nodes": [
+    14298097689,
+    14298097692,
+    14298097695,
+    14298097693,
+    14298097694,
+    14298097689
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacity"
+  }
+},
+{
   "type": "relation",
   "id": 12582196,
   "members": [
@@ -130259,6 +130276,60 @@
   "id": 5358184169,
   "lat": -31.4359134,
   "lon": -64.1547248
+},
+{
+  "type": "node",
+  "id": 5358184171,
+  "lat": -31.4328044,
+  "lon": -64.1556051
+},
+{
+  "type": "node",
+  "id": 5358184172,
+  "lat": -31.4328048,
+  "lon": -64.1555285
+},
+{
+  "type": "node",
+  "id": 5358184173,
+  "lat": -31.4329374,
+  "lon": -64.1555318
+},
+{
+  "type": "node",
+  "id": 5358184174,
+  "lat": -31.4329321,
+  "lon": -64.1556093
+},
+{
+  "type": "node",
+  "id": 14298097689,
+  "lat": -31.4329295,
+  "lon": -64.1564088
+},
+{
+  "type": "node",
+  "id": 14298097692,
+  "lat": -31.4329313,
+  "lon": -64.1562786
+},
+{
+  "type": "node",
+  "id": 14298097693,
+  "lat": -31.4327270,
+  "lon": -64.1562782
+},
+{
+  "type": "node",
+  "id": 14298097694,
+  "lat": -31.4327204,
+  "lon": -64.1563968
+},
+{
+  "type": "node",
+  "id": 14298097695,
+  "lat": -31.4328160,
+  "lon": -64.1562784
 },
 {
   "type": "node",
