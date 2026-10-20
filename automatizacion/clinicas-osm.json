@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-19T00:49:20Z",
-    "timestamp_areas_base": "2026-10-18T19:41:06Z",
+    "timestamp_osm_base": "2026-10-20T01:35:21Z",
+    "timestamp_areas_base": "2026-10-19T19:20:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7402,21 +7402,6 @@
     "healthcare": "clinic",
     "internet_access": "wlan",
     "name": "Clínica Camargo"
-  }
-},
-{
-  "type": "node",
-  "id": 4357416689,
-  "lat": -34.5919478,
-  "lon": -58.4047246,
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:housenumber": "2777",
-    "addr:street": "Arenales",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "Centro Rossi - Sede Barrio Norte"
   }
 },
 {
@@ -76845,6 +76830,33 @@
   }
 },
 {
+  "type": "relation",
+  "id": 21720424,
+  "members": [
+    {
+      "type": "way",
+      "ref": 1569772937,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1569772938,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2777",
+    "addr:street": "Arenales",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Rossi - Sede Barrio Norte",
+    "type": "multipolygon"
+  }
+},
+{
   "type": "node",
   "id": 2998508520,
   "lat": -54.8211502,
@@ -112702,6 +112714,78 @@
 },
 {
   "type": "node",
+  "id": 14300067835,
+  "lat": -34.5916613,
+  "lon": -58.4049046
+},
+{
+  "type": "node",
+  "id": 14300067836,
+  "lat": -34.5918762,
+  "lon": -58.4045800
+},
+{
+  "type": "node",
+  "id": 14300067837,
+  "lat": -34.5920123,
+  "lon": -58.4047266
+},
+{
+  "type": "node",
+  "id": 14300067838,
+  "lat": -34.5917909,
+  "lon": -58.4050060
+},
+{
+  "type": "node",
+  "id": 14300067839,
+  "lat": -34.5917533,
+  "lon": -58.4050087
+},
+{
+  "type": "node",
+  "id": 14300067840,
+  "lat": -34.5918580,
+  "lon": -58.4046481
+},
+{
+  "type": "node",
+  "id": 14300067841,
+  "lat": -34.5918396,
+  "lon": -58.4046273
+},
+{
+  "type": "node",
+  "id": 14300067842,
+  "lat": -34.5920945,
+  "lon": -58.4046228
+},
+{
+  "type": "node",
+  "id": 14300067843,
+  "lat": -34.5921379,
+  "lon": -58.4045680
+},
+{
+  "type": "node",
+  "id": 14300067844,
+  "lat": -34.5920281,
+  "lon": -58.4044415
+},
+{
+  "type": "node",
+  "id": 14300067845,
+  "lat": -34.5919995,
+  "lon": -58.4045146
+},
+{
+  "type": "node",
+  "id": 14300067858,
+  "lat": -34.5919460,
+  "lon": -58.4046514
+},
+{
+  "type": "node",
   "id": 4352534691,
   "lat": -34.6049129,
   "lon": -58.3710179
@@ -123346,6 +123430,32 @@
     8592599821,
     8592599822,
     8592599819
+  ]
+},
+{
+  "type": "way",
+  "id": 1569772937,
+  "nodes": [
+    14300067835,
+    14300067840,
+    14300067841,
+    14300067836,
+    14300067858,
+    14300067837,
+    14300067838,
+    14300067839,
+    14300067835
+  ]
+},
+{
+  "type": "way",
+  "id": 1569772938,
+  "nodes": [
+    14300067842,
+    14300067843,
+    14300067844,
+    14300067845,
+    14300067842
   ]
 },
 {
