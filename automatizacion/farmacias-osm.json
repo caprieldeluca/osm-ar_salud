@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-21T01:20:21Z",
-    "timestamp_areas_base": "2026-10-20T22:52:45Z",
+    "timestamp_osm_base": "2026-10-22T01:15:09Z",
+    "timestamp_areas_base": "2026-10-21T21:39:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1415,6 +1415,7 @@
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "source": "Reconocimiento terrestre 2016 por Kaart."
@@ -4300,6 +4301,7 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
     "name": "Farmacity"
   }
@@ -4310,8 +4312,12 @@
   "lat": -34.6116430,
   "lon": -58.3919825,
   "tags": {
+    "addr:floor": "G",
     "amenity": "pharmacy",
-    "healthcare": "pharmacy"
+    "check_date": "2026-10-21",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Openfarma"
   }
 },
 {
@@ -19459,12 +19465,15 @@
   "lat": -34.6093505,
   "lon": -58.3963613,
   "tags": {
+    "addr:floor": "G",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
     "internet_access": "no",
-    "name": "Porteña"
+    "level": "0",
+    "name": "Farmacia Porteña"
   }
 },
 {
@@ -41057,6 +41066,7 @@
     "addr:country": "AR",
     "addr:street": "Adolfo Alsina",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
     "name": "Farmacia APL"
   }
@@ -42727,9 +42737,13 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:floor": "G",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
-    "name": "Farmanexus"
+    "level": "0",
+    "name": "Farmaxcia",
+    "wheelchair": "no"
   }
 },
 {
@@ -101373,6 +101387,38 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia STIA"
+  }
+},
+{
+  "type": "node",
+  "id": 14305046779,
+  "lat": -37.9140643,
+  "lon": -57.7438769,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Pharmarural"
+  }
+},
+{
+  "type": "node",
+  "id": 14307301508,
+  "lat": -34.6040577,
+  "lon": -58.4243816,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "632",
+    "addr:postcode": "C1181ACK",
+    "addr:street": "Gascón",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "opening_hours": "Lu-Vie 7:30 a 23:00 Dom 10:00 a 20:00",
+    "phone": "+054 0800-666-4321",
+    "website": "farmacity.com"
   }
 },
 {

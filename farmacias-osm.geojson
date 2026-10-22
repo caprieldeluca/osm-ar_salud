@@ -45226,6 +45226,7 @@
     "amenity": "pharmacy",
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "source": "Reconocimiento terrestre 2016 por Kaart.",
@@ -49377,6 +49378,7 @@
     "brand": "Farmacity",
     "brand:wikidata": "Q5856076",
     "brand:wikipedia": "es:Farmacity",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
     "name": "Farmacity",
     "id": "node/1445837822"
@@ -49393,8 +49395,12 @@
   "type": "Feature",
   "id": "node/1445837828",
   "properties": {
+    "addr:floor": "G",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Openfarma",
     "id": "node/1445837828"
   },
   "geometry": {
@@ -71220,12 +71226,15 @@
   "type": "Feature",
   "id": "node/3190463261",
   "properties": {
+    "addr:floor": "G",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "dispensing": "yes",
     "drive_through": "no",
     "healthcare": "pharmacy",
     "internet_access": "no",
-    "name": "Porteña",
+    "level": "0",
+    "name": "Farmacia Porteña",
     "id": "node/3190463261"
   },
   "geometry": {
@@ -102364,6 +102373,7 @@
     "addr:country": "AR",
     "addr:street": "Adolfo Alsina",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
     "name": "Farmacia APL",
     "id": "node/4672944826"
@@ -104730,9 +104740,13 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:floor": "G",
     "amenity": "pharmacy",
+    "check_date": "2026-10-21",
     "healthcare": "pharmacy",
-    "name": "Farmanexus",
+    "level": "0",
+    "name": "Farmaxcia",
+    "wheelchair": "no",
     "id": "node/4699619081"
   },
   "geometry": {
@@ -188253,6 +188267,50 @@
     "coordinates": [
       -65.468078,
       -33.6861001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305046779",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Pharmarural",
+    "id": "node/14305046779"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.7438769,
+      -37.9140643
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14307301508",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "632",
+    "addr:postcode": "C1181ACK",
+    "addr:street": "Gascón",
+    "amenity": "pharmacy",
+    "brand": "Farmacity",
+    "brand:wikidata": "Q5856076",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacity",
+    "opening_hours": "Lu-Vie 7:30 a 23:00 Dom 10:00 a 20:00",
+    "phone": "+054 0800-666-4321",
+    "website": "farmacity.com",
+    "id": "node/14307301508"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4243816,
+      -34.6040577
     ]
   }
 }
