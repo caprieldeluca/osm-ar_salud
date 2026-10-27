@@ -56430,6 +56430,7 @@
     "addr:street": "11 de Septiembre",
     "amenity": "clinic",
     "building": "yes",
+    "building:levels": "2",
     "healthcare": "clinic",
     "name": "Integra Centro Médico",
     "opening_hours": "Mo-Fr 08:00-20:00",
@@ -60192,6 +60193,75 @@
         [
           -68.4740874,
           -31.4976149
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/1572020567",
+  "properties": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:full": "Mercedes 1371/79",
+    "addr:postcode": "1407",
+    "amenity": "clinic",
+    "building": "clinic",
+    "healthcare": "clinic",
+    "name": "CESAC 36",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "operator": "Municipal",
+    "operator:type": "public",
+    "phone": "+54 4567-1891",
+    "ref:sisa_codigo": "50020012115369",
+    "ref:sisa_tipologia": "ESSIDT",
+    "wikidata": "Q90206227",
+    "id": "way/1572020567"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.4918865,
+          -34.6218353
+        ],
+        [
+          -58.4915937,
+          -34.6220675
+        ],
+        [
+          -58.4915094,
+          -34.6219956
+        ],
+        [
+          -58.4916973,
+          -34.6218466
+        ],
+        [
+          -58.4916679,
+          -34.6218215
+        ],
+        [
+          -58.4917504,
+          -34.621756
+        ],
+        [
+          -58.4917978,
+          -34.6217964
+        ],
+        [
+          -58.4918202,
+          -34.6217787
+        ],
+        [
+          -58.4918533,
+          -34.621807
+        ],
+        [
+          -58.4918865,
+          -34.6218353
         ]
       ]
     ]
@@ -85281,34 +85351,6 @@
     "coordinates": [
       -58.5040346,
       -34.6279938
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7500886823",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:full": "Mercedes 1371/79",
-    "addr:postcode": "1407",
-    "amenity": "clinic",
-    "healthcare": "clinic",
-    "name": "CESAC 36",
-    "opening_hours": "Mo-Fr 08:30-17:00",
-    "operator": "Municipal",
-    "operator:type": "public",
-    "phone": "+54 4567-1891",
-    "ref:sisa_codigo": "50020012115369",
-    "ref:sisa_tipologia": "ESSIDT",
-    "wikidata": "Q90206227",
-    "id": "node/7500886823"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.4918004,
-      -34.6218353
     ]
   }
 },
@@ -115177,9 +115219,9 @@
     "addr:postcode": "J5402ACI",
     "addr:street": "Santa Fe",
     "amenity": "clinic",
-    "contact:email": "eoftalmo76@gmail.com",
     "contact:facebook": "https://www.facebook.com/eoftalmosanjuan",
     "contact:instagram": "https://www.instagram.com/eoftalmo",
+    "contact:whatsapp": "+54 9 264 606 5550",
     "description": "Bajo riesgo con internación simple",
     "healthcare": "clinic",
     "healthcare:speciality": "ophthalmology",
@@ -115187,7 +115229,7 @@
     "official_name": "Centro Oftalmologico Eoftalmo Medicina Ocular",
     "operator": "Reinaldo Germán Echavarría",
     "operator:type": "private",
-    "phone": "+54 264 421 7724",
+    "phone": "0810-220-2220",
     "ref:sisa_tipologia": "ESCIE",
     "website": "https://www.eoftalmo.com",
     "wheelchair": "yes",
@@ -128087,6 +128129,24 @@
     "coordinates": [
       -58.9151395,
       -34.4558112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14321810503",
+  "properties": {
+    "addr:housenumber": "40",
+    "addr:street": "Avellaneda",
+    "amenity": "clinic",
+    "name": "DIM",
+    "id": "node/14321810503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.5686408,
+      -34.6417053
     ]
   }
 }
