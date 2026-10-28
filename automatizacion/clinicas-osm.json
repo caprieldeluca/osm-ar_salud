@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-27T01:50:00Z",
-    "timestamp_areas_base": "2026-10-26T21:04:16Z",
+    "timestamp_osm_base": "2026-10-28T02:02:32Z",
+    "timestamp_areas_base": "2026-10-27T19:41:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -46818,6 +46818,7 @@
   "lon": -63.7235758,
   "tags": {
     "amenity": "clinic",
+    "healthcare": "clinic",
     "name": "Centro de Salud Municipal"
   }
 },
@@ -49739,6 +49740,35 @@
     "addr:street": "Avellaneda",
     "amenity": "clinic",
     "name": "DIM"
+  }
+},
+{
+  "type": "node",
+  "id": 14323230080,
+  "lat": -31.5395572,
+  "lon": -68.5515551,
+  "tags": {
+    "amenity": "clinic",
+    "contact:instagram": "https://www.instagram.com/clinicarezinovski",
+    "contact:whatsapp": "+54 264 457-0880",
+    "name": "Clínica Rezinovski",
+    "opening_hours": "Mo-Th 08:00-20:30; Fr 08:00-12:30,17:00-20:30",
+    "phone": "+54 264 4260944"
+  }
+},
+{
+  "type": "node",
+  "id": 14323588710,
+  "lat": -31.4651630,
+  "lon": -68.5180477,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "CAPS Mariano Moreno",
+    "official_name": "Centro de Atención Primaria de Salud Mariano Moreno",
+    "operator": "Ministerio de Salud",
+    "operator:type": "public"
   }
 },
 {
@@ -76592,6 +76622,40 @@
   }
 },
 {
+  "type": "way",
+  "id": 1572246923,
+  "nodes": [
+    14323504980,
+    14323504981,
+    12759747472,
+    12652320011,
+    14323504979,
+    14323504980
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "OSPIA"
+  }
+},
+{
+  "type": "way",
+  "id": 1572254276,
+  "nodes": [
+    14323589111,
+    14323588712,
+    14323588693,
+    14323588689,
+    14323588711,
+    14323589110,
+    14323589111
+  ],
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
   "type": "relation",
   "id": 8152972,
   "members": [
@@ -91442,6 +91506,42 @@
 },
 {
   "type": "node",
+  "id": 14323588689,
+  "lat": -31.4653303,
+  "lon": -68.5181252
+},
+{
+  "type": "node",
+  "id": 14323588693,
+  "lat": -31.4651529,
+  "lon": -68.5181409
+},
+{
+  "type": "node",
+  "id": 14323588711,
+  "lat": -31.4653286,
+  "lon": -68.5179758
+},
+{
+  "type": "node",
+  "id": 14323588712,
+  "lat": -31.4651419,
+  "lon": -68.5181419
+},
+{
+  "type": "node",
+  "id": 14323589110,
+  "lat": -31.4651594,
+  "lon": -68.5179834
+},
+{
+  "type": "node",
+  "id": 14323589111,
+  "lat": -31.4651355,
+  "lon": -68.5180273
+},
+{
+  "type": "node",
   "id": 6304842568,
   "lat": -31.5316325,
   "lon": -68.4678758
@@ -94064,6 +94164,18 @@
 },
 {
   "type": "node",
+  "id": 12652320011,
+  "lat": -33.6715698,
+  "lon": -65.4599067
+},
+{
+  "type": "node",
+  "id": 12759747472,
+  "lat": -33.6715530,
+  "lon": -65.4598716
+},
+{
+  "type": "node",
   "id": 13795912166,
   "lat": -33.6719867,
   "lon": -65.4605138
@@ -94109,6 +94221,24 @@
   "id": 13801639331,
   "lat": -33.6721024,
   "lon": -65.4618768
+},
+{
+  "type": "node",
+  "id": 14323504979,
+  "lat": -33.6715355,
+  "lon": -65.4600685
+},
+{
+  "type": "node",
+  "id": 14323504980,
+  "lat": -33.6714453,
+  "lon": -65.4600432
+},
+{
+  "type": "node",
+  "id": 14323504981,
+  "lat": -33.6714879,
+  "lon": -65.4598527
 },
 {
   "type": "node",
@@ -94173,26 +94303,26 @@
 {
   "type": "node",
   "id": 11587902495,
-  "lat": -33.6764020,
-  "lon": -65.4523363
+  "lat": -33.6763992,
+  "lon": -65.4523327
 },
 {
   "type": "node",
   "id": 11587902496,
-  "lat": -33.6763619,
-  "lon": -65.4525046
+  "lat": -33.6763658,
+  "lon": -65.4525031
 },
 {
   "type": "node",
   "id": 11587902497,
-  "lat": -33.6762733,
-  "lon": -65.4524741
+  "lat": -33.6762761,
+  "lon": -65.4524777
 },
 {
   "type": "node",
   "id": 11587902498,
-  "lat": -33.6763135,
-  "lon": -65.4523057
+  "lat": -33.6763096,
+  "lon": -65.4523072
 },
 {
   "type": "node",
