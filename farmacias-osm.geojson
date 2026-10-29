@@ -6816,11 +6816,17 @@
   "type": "Feature",
   "id": "way/462885948",
   "properties": {
+    "addr:housenumber": "1773",
     "addr:street": "Avenida Bartolomé Mitre",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2026-10-28",
     "healthcare": "pharmacy",
     "name": "Farmacia Social",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento Cartográfico 2016 por KG",
     "id": "way/462885948"
   },
@@ -188347,6 +188353,23 @@
     "coordinates": [
       -58.4243816,
       -34.6040577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14325384284",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Alfa Lab",
+    "id": "node/14325384284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4602262,
+      -33.6726258
     ]
   }
 }
