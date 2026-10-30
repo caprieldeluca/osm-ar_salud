@@ -13353,47 +13353,6 @@
 },
 {
   "type": "Feature",
-  "id": "way/471229252",
-  "properties": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:street": "Avenida Olazábal",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Feliza",
-    "id": "way/471229252"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          -58.4910822,
-          -34.5796359
-        ],
-        [
-          -58.4909855,
-          -34.5797565
-        ],
-        [
-          -58.4909069,
-          -34.5797138
-        ],
-        [
-          -58.4910037,
-          -34.5795931
-        ],
-        [
-          -58.4910822,
-          -34.5796359
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "way/471266928",
   "properties": {
     "addr:street": "Avenida Hipólito Yrigoyen",
@@ -46894,10 +46853,17 @@
   "properties": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "2000",
     "addr:street": "Lavalle",
     "amenity": "pharmacy",
+    "check_date": "2026-10-29",
     "healthcare": "pharmacy",
-    "name": "San Pablo",
+    "name": "Nueva San Pablo",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-14:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "limited",
     "id": "node/1114122388"
   },
   "geometry": {
@@ -90493,7 +90459,10 @@
   "type": "Feature",
   "id": "node/4292014890",
   "properties": {
+    "addr:housenumber": "2099",
+    "addr:street": "Lavalle",
     "amenity": "pharmacy",
+    "check_date": "2026-10-29",
     "healthcare": "pharmacy",
     "name": "Once S.A.",
     "id": "node/4292014890"
@@ -178714,7 +178683,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Rosso",
-    "phone": "+54 (3575) 40-5299",
+    "phone": "+54 3575 40 5299",
     "id": "node/12335630506"
   },
   "geometry": {

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-29T02:07:17Z",
-    "timestamp_areas_base": "2026-10-28T23:58:29Z",
+    "timestamp_osm_base": "2026-10-30T02:26:18Z",
+    "timestamp_areas_base": "2026-10-29T23:05:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2549,10 +2549,17 @@
   "tags": {
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
+    "addr:housenumber": "2000",
     "addr:street": "Lavalle",
     "amenity": "pharmacy",
+    "check_date": "2026-10-29",
     "healthcare": "pharmacy",
-    "name": "San Pablo"
+    "name": "Nueva San Pablo",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-14:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "limited"
   }
 },
 {
@@ -32738,7 +32745,10 @@
   "lat": -34.6032208,
   "lon": -58.3968059,
   "tags": {
+    "addr:housenumber": "2099",
+    "addr:street": "Lavalle",
     "amenity": "pharmacy",
+    "check_date": "2026-10-29",
     "healthcare": "pharmacy",
     "name": "Once S.A."
   }
@@ -94979,7 +94989,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Rosso",
-    "phone": "+54 (3575) 40-5299"
+    "phone": "+54 3575 40 5299"
   }
 },
 {
@@ -107737,26 +107747,6 @@
     "payment:visa": "yes",
     "website": "https://www.farma365.com.ar/",
     "wheelchair": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 471229252,
-  "nodes": [
-    4653973230,
-    4653973231,
-    4653973232,
-    4653973233,
-    4653973230
-  ],
-  "tags": {
-    "addr:city": "Ciudad Autónoma de Buenos Aires",
-    "addr:country": "AR",
-    "addr:street": "Avenida Olazábal",
-    "amenity": "pharmacy",
-    "building": "yes",
-    "healthcare": "pharmacy",
-    "name": "Farmacia Feliza"
   }
 },
 {
@@ -146155,30 +146145,6 @@
   "id": 4654642566,
   "lat": -34.5864742,
   "lon": -58.4868412
-},
-{
-  "type": "node",
-  "id": 4653973230,
-  "lat": -34.5796359,
-  "lon": -58.4910822
-},
-{
-  "type": "node",
-  "id": 4653973231,
-  "lat": -34.5797565,
-  "lon": -58.4909855
-},
-{
-  "type": "node",
-  "id": 4653973232,
-  "lat": -34.5797138,
-  "lon": -58.4909069
-},
-{
-  "type": "node",
-  "id": 4653973233,
-  "lat": -34.5795931,
-  "lon": -58.4910037
 },
 {
   "type": "node",
