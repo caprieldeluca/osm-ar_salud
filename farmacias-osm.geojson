@@ -8611,9 +8611,11 @@
   "type": "Feature",
   "id": "way/467013138",
   "properties": {
-    "addr:street": "Paraná",
+    "addr:housenumber": "4095",
+    "addr:street": "Gobernador Castro",
     "amenity": "pharmacy",
     "building": "yes",
+    "check_date": "2026-11-03",
     "healthcare": "pharmacy",
     "name": "Central Adelina",
     "source": "Reconocimiento cartográfico 2016 por KG",
@@ -64986,28 +64988,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2661871894",
-  "properties": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "1377",
-    "addr:street": "Colón",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Venus",
-    "opening_hours": "Mo-Fr 08:00-13:00,16:30-20:30",
-    "wheelchair": "limited",
-    "id": "node/2661871894"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -55.8940344,
-      -27.3630848
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2662160525",
   "properties": {
     "amenity": "pharmacy",
@@ -98381,10 +98361,15 @@
   "type": "Feature",
   "id": "node/4617143774",
   "properties": {
+    "addr:housenumber": "1458",
     "addr:street": "Avenida de Mayo",
     "amenity": "pharmacy",
+    "check_date": "2026-11-03",
     "healthcare": "pharmacy",
     "name": "Caminos",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento cartográfico 2016 por KG",
     "id": "node/4617143774"
   },
@@ -188466,6 +188451,23 @@
     "coordinates": [
       -61.3577602,
       -37.9862019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14346025736",
+  "properties": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Changomás",
+    "id": "node/14346025736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.5734066,
+      -31.540739
     ]
   }
 }
