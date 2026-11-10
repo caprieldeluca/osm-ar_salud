@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-11-09T02:20:07Z",
-    "timestamp_areas_base": "2026-11-08T20:04:49Z",
+    "timestamp_osm_base": "2026-11-10T04:28:42Z",
+    "timestamp_areas_base": "2026-11-10T00:20:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8263,9 +8263,9 @@
     "addr:postcode": "5963",
     "addr:street": "Santa Fe",
     "amenity": "hospital",
+    "description": "Dispensario Municipal",
     "emergency": "no",
     "healthcare": "hospital",
-    "level": "Dispensario_Municipal",
     "name": "Alma Atta"
   }
 },
@@ -28210,8 +28210,12 @@
   "id": 175643125,
   "nodes": [
     1862057726,
+    14361276500,
     1862057652,
     1862057625,
+    14361276501,
+    14361276502,
+    14361276505,
     1862057615,
     1862057591,
     1862057449,
@@ -28223,6 +28227,7 @@
     "addr:full": "Francisco Seguí 593",
     "addr:postcode": "1846",
     "amenity": "hospital",
+    "building": "yes",
     "healthcare": "hospital",
     "name": "Clínica I.M.A. SA",
     "operator": "Privado",
@@ -60040,6 +60045,25 @@
     "healthcare": "hospital",
     "name": "Hospital de la Madre y la Mujer",
     "operator": "Ministerio de salud"
+  }
+},
+{
+  "type": "way",
+  "id": 1473692056,
+  "nodes": [
+    13520207945,
+    13520207941,
+    13520207944,
+    13520207943,
+    13520207935,
+    13520207936,
+    13520207942,
+    13520207945
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad Sanitaria Las Toninas"
   }
 },
 {
@@ -107717,20 +107741,20 @@
 {
   "type": "node",
   "id": 1862057449,
-  "lat": -34.8004440,
-  "lon": -58.3981651
+  "lat": -34.8004467,
+  "lon": -58.3981680
 },
 {
   "type": "node",
   "id": 1862057511,
-  "lat": -34.8005112,
-  "lon": -58.3985136
+  "lat": -34.8005143,
+  "lon": -58.3985083
 },
 {
   "type": "node",
   "id": 1862057563,
-  "lat": -34.8005973,
-  "lon": -58.3984430
+  "lat": -34.8005959,
+  "lon": -58.3984425
 },
 {
   "type": "node",
@@ -107747,20 +107771,44 @@
 {
   "type": "node",
   "id": 1862057625,
-  "lat": -34.8009161,
-  "lon": -58.3987598
+  "lat": -34.8009144,
+  "lon": -58.3987591
 },
 {
   "type": "node",
   "id": 1862057652,
-  "lat": -34.8008330,
-  "lon": -58.3986093
+  "lat": -34.8008345,
+  "lon": -58.3986095
 },
 {
   "type": "node",
   "id": 1862057726,
-  "lat": -34.8006477,
-  "lon": -58.3987610
+  "lat": -34.8006487,
+  "lon": -58.3987601
+},
+{
+  "type": "node",
+  "id": 14361276500,
+  "lat": -34.8007237,
+  "lon": -58.3986989
+},
+{
+  "type": "node",
+  "id": 14361276501,
+  "lat": -34.8010470,
+  "lon": -58.3986541
+},
+{
+  "type": "node",
+  "id": 14361276502,
+  "lat": -34.8010580,
+  "lon": -58.3986430
+},
+{
+  "type": "node",
+  "id": 14361276505,
+  "lat": -34.8011956,
+  "lon": -58.3985317
 },
 {
   "type": "node",
@@ -124243,6 +124291,48 @@
   "id": 2393264806,
   "lat": -36.7215608,
   "lon": -56.6924184
+},
+{
+  "type": "node",
+  "id": 13520207935,
+  "lat": -36.4956308,
+  "lon": -56.6965904
+},
+{
+  "type": "node",
+  "id": 13520207936,
+  "lat": -36.4956392,
+  "lon": -56.6967753
+},
+{
+  "type": "node",
+  "id": 13520207941,
+  "lat": -36.4952715,
+  "lon": -56.6968721
+},
+{
+  "type": "node",
+  "id": 13520207942,
+  "lat": -36.4956413,
+  "lon": -56.6968761
+},
+{
+  "type": "node",
+  "id": 13520207943,
+  "lat": -36.4956260,
+  "lon": -56.6964858
+},
+{
+  "type": "node",
+  "id": 13520207944,
+  "lat": -36.4952570,
+  "lon": -56.6965161
+},
+{
+  "type": "node",
+  "id": 13520207945,
+  "lat": -36.4952942,
+  "lon": -56.6969056
 },
 {
   "type": "node",

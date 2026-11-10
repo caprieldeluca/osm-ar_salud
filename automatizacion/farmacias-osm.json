@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-11-09T02:23:10Z",
-    "timestamp_areas_base": "2026-11-08T20:04:49Z",
+    "timestamp_osm_base": "2026-11-10T04:30:50Z",
+    "timestamp_areas_base": "2026-11-10T00:20:26Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3121,9 +3121,11 @@
     "addr:city": "Ciudad Autónoma de Buenos Aires",
     "addr:country": "AR",
     "addr:housenumber": "2000",
+    "addr:postcode": "C1428",
     "addr:street": "Avenida Crámer",
     "addr:suburb": "Belgrano",
     "amenity": "pharmacy",
+    "check_date": "2026-11-09",
     "healthcare": "pharmacy",
     "name": "Central Oeste"
   }
@@ -31205,23 +31207,6 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Don Orione"
-  }
-},
-{
-  "type": "node",
-  "id": 4139698015,
-  "lat": -27.4018519,
-  "lon": -55.9098287,
-  "tags": {
-    "addr:city": "Posadas",
-    "addr:housenumber": "5971",
-    "addr:postcode": "3300",
-    "addr:street": "Avenida Lavalle",
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "Maria Auxiliadora",
-    "opening_hours": "Mo-Sa 08:00-12:00,16:00-21:00",
-    "phone": "+54 376 4453968"
   }
 },
 {
@@ -118847,6 +118832,28 @@
 },
 {
   "type": "way",
+  "id": 1052070572,
+  "nodes": [
+    9668315614,
+    9668315613,
+    9668315612,
+    5266435910,
+    9668315614
+  ],
+  "tags": {
+    "addr:city": "Rosario",
+    "addr:country": "AR",
+    "addr:housenumber": "134",
+    "addr:state": "Santa Fe",
+    "addr:street": "Malabia",
+    "amenity": "pharmacy",
+    "building:part": "retail",
+    "check_date": "2026-11-09",
+    "level": "0"
+  }
+},
+{
+  "type": "way",
   "id": 1052893099,
   "nodes": [
     9676100803,
@@ -121897,6 +121904,71 @@
     "dispensing": "yes",
     "healthcare": "pharmacy",
     "name": "Farmacity"
+  }
+},
+{
+  "type": "way",
+  "id": 1576941061,
+  "nodes": [
+    14361224859,
+    14361224860,
+    14361224861,
+    14361224862,
+    14361224859
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Gral Gutierrez"
+  }
+},
+{
+  "type": "way",
+  "id": 1576946814,
+  "nodes": [
+    14361276590,
+    14361276587,
+    14361276586,
+    14361276585,
+    14361276590
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1577290094,
+  "nodes": [
+    14363705453,
+    14363705457,
+    14363705454,
+    14363705455,
+    14363705456,
+    14363705453
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1577290106,
+  "nodes": [
+    3737455003,
+    14363729801,
+    14363729802,
+    14363729803,
+    3737455003
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
   }
 },
 {
@@ -126707,6 +126779,60 @@
 },
 {
   "type": "node",
+  "id": 3737455003,
+  "lat": -33.5834419,
+  "lon": -69.0164672
+},
+{
+  "type": "node",
+  "id": 14363729801,
+  "lat": -33.5834262,
+  "lon": -69.0161109
+},
+{
+  "type": "node",
+  "id": 14363729802,
+  "lat": -33.5837599,
+  "lon": -69.0160986
+},
+{
+  "type": "node",
+  "id": 14363729803,
+  "lat": -33.5837624,
+  "lon": -69.0164467
+},
+{
+  "type": "node",
+  "id": 14363705453,
+  "lat": -33.5775531,
+  "lon": -69.0159608
+},
+{
+  "type": "node",
+  "id": 14363705454,
+  "lat": -33.5775413,
+  "lon": -69.0156635
+},
+{
+  "type": "node",
+  "id": 14363705455,
+  "lat": -33.5777329,
+  "lon": -69.0156458
+},
+{
+  "type": "node",
+  "id": 14363705456,
+  "lat": -33.5777300,
+  "lon": -69.0159608
+},
+{
+  "type": "node",
+  "id": 14363705457,
+  "lat": -33.5775387,
+  "lon": -69.0158714
+},
+{
+  "type": "node",
   "id": 14055188116,
   "lat": -32.9838307,
   "lon": -68.7884053
@@ -126932,6 +127058,30 @@
   "id": 3271105907,
   "lat": -32.8422793,
   "lon": -68.8698547
+},
+{
+  "type": "node",
+  "id": 14361224859,
+  "lat": -32.9630597,
+  "lon": -68.7813179
+},
+{
+  "type": "node",
+  "id": 14361224860,
+  "lat": -32.9631636,
+  "lon": -68.7813430
+},
+{
+  "type": "node",
+  "id": 14361224861,
+  "lat": -32.9631413,
+  "lon": -68.7814516
+},
+{
+  "type": "node",
+  "id": 14361224862,
+  "lat": -32.9630364,
+  "lon": -68.7814149
 },
 {
   "type": "node",
@@ -133013,6 +133163,30 @@
 },
 {
   "type": "node",
+  "id": 5266435910,
+  "lat": -32.9311660,
+  "lon": -60.7617790
+},
+{
+  "type": "node",
+  "id": 9668315612,
+  "lat": -32.9310973,
+  "lon": -60.7617819
+},
+{
+  "type": "node",
+  "id": 9668315613,
+  "lat": -32.9311003,
+  "lon": -60.7618818
+},
+{
+  "type": "node",
+  "id": 9668315614,
+  "lat": -32.9311689,
+  "lon": -60.7618789
+},
+{
+  "type": "node",
   "id": 1978082701,
   "lat": -32.9310582,
   "lon": -60.7252279
@@ -137060,6 +137234,30 @@
   "id": 4638125342,
   "lat": -34.8043024,
   "lon": -58.4055963
+},
+{
+  "type": "node",
+  "id": 14361276585,
+  "lat": -34.8007360,
+  "lon": -58.3977918
+},
+{
+  "type": "node",
+  "id": 14361276586,
+  "lat": -34.8006176,
+  "lon": -58.3978945
+},
+{
+  "type": "node",
+  "id": 14361276587,
+  "lat": -34.8005658,
+  "lon": -58.3978060
+},
+{
+  "type": "node",
+  "id": 14361276590,
+  "lat": -34.8006842,
+  "lon": -58.3977033
 },
 {
   "type": "node",
