@@ -7817,28 +7817,28 @@
     "coordinates": [
       [
         [
-          -58.409411,
-          -34.6474111
+          -58.4094271,
+          -34.6474144
         ],
         [
-          -58.4093837,
-          -34.6475215
+          -58.4093998,
+          -34.6475248
         ],
         [
-          -58.4092396,
-          -34.6474973
+          -58.4092557,
+          -34.6475006
         ],
         [
-          -58.409261,
-          -34.6474106
+          -58.4092771,
+          -34.6474139
         ],
         [
-          -58.4093113,
-          -34.6473944
+          -58.4093274,
+          -34.6473977
         ],
         [
-          -58.409411,
-          -34.6474111
+          -58.4094271,
+          -34.6474144
         ]
       ]
     ]
@@ -43879,6 +43879,44 @@
 },
 {
   "type": "Feature",
+  "id": "way/1580317784",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Avellaneda",
+    "id": "way/1580317784"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59.1267858,
+          -37.3313045
+        ],
+        [
+          -59.1267405,
+          -37.3313949
+        ],
+        [
+          -59.1265833,
+          -37.3313451
+        ],
+        [
+          -59.1266285,
+          -37.3312548
+        ],
+        [
+          -59.1267858,
+          -37.3313045
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101971",
   "properties": {
     "amenity": "pharmacy",
@@ -69416,7 +69454,10 @@
   "type": "Feature",
   "id": "node/2987470133",
   "properties": {
+    "addr:housenumber": "2237",
+    "addr:street": "José Hernández",
     "amenity": "pharmacy",
+    "check_date": "2026-11-15",
     "healthcare": "pharmacy",
     "name": "Cientifarma",
     "id": "node/2987470133"
@@ -70195,23 +70236,6 @@
     "coordinates": [
       -62.7674518,
       -37.5474724
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3050614929",
-  "properties": {
-    "amenity": "pharmacy",
-    "healthcare": "pharmacy",
-    "name": "FarmaPlus",
-    "id": "node/3050614929"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -58.436166,
-      -34.5671018
     ]
   }
 },
@@ -76859,8 +76883,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -55.9049948,
-      -27.3671234
+      -55.9049705,
+      -27.3671459
     ]
   }
 },
@@ -84834,8 +84858,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -59.1266338,
-      -37.3313333
+      -59.1266025,
+      -37.331349
     ]
   }
 },
@@ -97724,12 +97748,18 @@
   "id": "node/4592961415",
   "properties": {
     "addr:city": "Martínez",
-    "addr:street": "Diagonal Salta",
+    "addr:housenumber": "862",
+    "addr:street": "Juncal",
     "amenity": "pharmacy",
+    "check_date": "2026-11-15",
     "healthcare": "pharmacy",
     "name": "Farmacia Gómez",
     "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-19:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
     "source": "Reconocimiento terrestre por Kaart 2016",
+    "wheelchair": "limited",
     "id": "node/4592961415"
   },
   "geometry": {
@@ -99713,8 +99743,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -57.547948,
-      -38.069396
+      -57.5480108,
+      -38.0693075
     ]
   }
 },
@@ -187231,6 +187261,8 @@
   "type": "Feature",
   "id": "node/13954330412",
   "properties": {
+    "addr:housenumber": "3277",
+    "addr:street": "Lafinur",
     "amenity": "pharmacy",
     "name": "Farmacity",
     "id": "node/13954330412"
@@ -189096,6 +189128,44 @@
     "coordinates": [
       -66.2127202,
       -28.174058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14376188118",
+  "properties": {
+    "addr:city": "Wilde",
+    "addr:postcode": "1875",
+    "addr:street": "Las Flores",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Barbara",
+    "opening_hours": "Lunes a Viernes 8 a.m - 8:30 p.m / Sabado 8 a.m - 8 p.m",
+    "phone": "+54 11 4207 8574",
+    "id": "node/14376188118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.3045416,
+      -34.6931858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14377715423",
+  "properties": {
+    "amenity": "pharmacy",
+    "name": "FarmaPlus",
+    "id": "node/14377715423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -58.4359359,
+      -34.5664515
     ]
   }
 }
