@@ -44158,6 +44158,43 @@
 },
 {
   "type": "Feature",
+  "id": "way/1583931740",
+  "properties": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "id": "way/1583931740"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -58.5445469,
+          -34.4966321
+        ],
+        [
+          -58.5446409,
+          -34.4966799
+        ],
+        [
+          -58.5444638,
+          -34.4969164
+        ],
+        [
+          -58.5443699,
+          -34.4968686
+        ],
+        [
+          -58.5445469,
+          -34.4966321
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/302101971",
   "properties": {
     "amenity": "pharmacy",
@@ -45491,9 +45528,16 @@
   "type": "Feature",
   "id": "node/661029756",
   "properties": {
+    "addr:postcode": "B1832",
+    "addr:street": "Avenida Alsina",
     "amenity": "pharmacy",
+    "contact:facebook": "FARMA24oficial",
+    "contact:instagram": "farma24oficial",
     "healthcare": "pharmacy",
     "name": "Farma 24",
+    "opening_hours": "Mo-Su 08:00-00:00",
+    "phone": "+54 11 4245 1040",
+    "website": "http://farma24.com.ar",
     "id": "node/661029756"
   },
   "geometry": {
@@ -158144,8 +158188,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -58.5445272,
-      -34.4966874
+      -58.5445587,
+      -34.4966972
     ]
   }
 },
@@ -189300,7 +189344,7 @@
     "amenity": "pharmacy",
     "healthcare": "pharmacy",
     "name": "Farmacia Barbara",
-    "opening_hours": "Lunes a Viernes 8 a.m - 8:30 p.m / Sabado 8 a.m - 8 p.m",
+    "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-20:00",
     "phone": "+54 11 4207 8574",
     "id": "node/14376188118"
   },
@@ -189372,6 +189416,44 @@
     "coordinates": [
       -58.5764781,
       -34.6307888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14418667620",
+  "properties": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Pastori",
+    "id": "node/14418667620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -55.1124402,
+      -27.4881121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14418844805",
+  "properties": {
+    "addr:city": "La Merced",
+    "addr:postcode": "4421",
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Rosario de San Nicolás",
+    "id": "node/14418844805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -65.4893918,
+      -24.9654515
     ]
   }
 }
